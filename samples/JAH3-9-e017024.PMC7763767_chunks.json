@@ -1,0 +1,914 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 441,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Journal of the American Heart Association\r\nJ Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 1\r\nORIGINAL RESEARCH\r\nManagement of Atrial Fibrillation in Older \r\nPatients by Morbidity Burden: Insights From \r\nGet With The Guidelines-Atrial Fibrillation\r\nFrederik Dalgaard , MD, PhD; Haolin Xu , MS; Roland A. Matsouaka , PhD; Andrea M. Russo, MD; \r\nAnne B. Curtis , MD; Peter Vibe Rasmussen, MD; Martin H. Ruwald , MD, PhD; Gregg C. Fonarow , MD; \r\nAngela Lowenstern, MD; Morten L. Hansen , MD, PhD; Jannik L. Pallisgaard , MD, PhD; Karen P. Alexander, MD; \r\nJohn H. Alexander , MD, MHS; Renato D. Lopes , MD, PhD; Christopher B. Granger , MD; \r\nWilliam R. Lewis, MD; Jonathan P. Piccini , MD, MHS; Sana M. Al-Khatib , MD, MHS\r\nBACKGROUND: Knowledge is scarce regarding how multimorbidity is associated with therapeutic decisions regarding oral anti\u0002coagulants (OACs) in patients with atrial fibrillation.\r\nMETHODS AND RESULTS: We conducted a cross-sectional study of hospitalized patients with atrial fibrillation using the Get With \r\nThe Guidelines-Atrial Fibrillation registry from 2013 to 2019. We identified patients ≥65 years and eligible for OAC therapy. \r\nUsing 16 available comorbidity categories, patients were stratified by morbidity burden. A multivariable logistic regression \r\nmodel was used to determine the odds of receiving OAC prescription at discharge by morbidity burden. We included 34 174 \r\npatients with a median (interquartile range) age of 76 (71–83) years, 56.6% women, and 41.9% were not anticoagulated at \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "admission. Of these patients, 38.6% had 0 to 2 comorbidities, 50.7% had 3 to 5 comorbidities, and 10.7% had ≥6 comor\u0002bidities. The overall discharge OAC prescription was high (85.6%). The prevalence of patients with multimorbidity increased \r\nfrom 59.7% in 2014 to 64.3% in 2019 (P trend=0.002). Using 0 to 2 comorbidities as the reference, the adjusted odds ratio \r\n(95% CI) of OAC prescription were 0.93 (0.82, 1.05) for patients with 3 to 5 comorbidities and 0.72 (0.60, 0.86) for patients \r\nwith ≥6 comorbidities. In those with ≥6 comorbidities, the most common reason for nonprescription of OACs were frequent \r\nfalls/frailty (31.0%).\r\nCONCLUSIONS: In a contemporary quality-of-care database of hospitalized patients with atrial fibrillation eligible for OAC ther\u0002apy, multimorbidity was common. A higher morbidity burden was associated with a lower odds of OAC prescription. This \r\nhighlights the need for interventions to improve adherence to guideline-recommended anticoagulation in multimorbid patients \r\nwith atrial fibrillation.\r\nKey Words: anticoagulation ■ atrial fibrillation ■ comorbidities ■ multimorbidity ■ oral anticoagulants ■ prescription ■ quality of care\r\nOlder patients with atrial fibrillation (AF) often pres\u0002ent with multiple chronic conditions, so-called multimorbidity.1–4 Multimorbidity has been iden\u0002tified as one of the major healthcare system con\u0002cerns of the current century.5 Older patients with AF \r\nare at higher risk of stroke, and this risk is further in\u0002creased with multimorbidity.6,7 The risk of stroke can \r\nbe mitigated by treating the patient with oral antico\u0002agulants (OACs), which in turn increases the risk of \r\nbleeding. Importantly, the net clinical benefit seems \r\nto be in favor of OAC treatment even in octogenarians \r\nor older patients, but randomized data are lacking.8,9\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "However, multimorbidity may influence therapeutic \r\nchoices and potentially quality of care.6,10 Evidence \r\nCorrespondence to: Sana M. Al-Khatib, MD, MHS, Duke Clinical Research Institute, 200 West Morris Street, Durham, NC 2770z1. E-mail: sana.alkhatib@\r\nduke.edu\r\nSupplementary Material for this article is available at https://www.ahajournals.org/doi/suppl/10.1161/JAHA.120.017024\r\nFor Sources of Funding and Disclosures, see page 14.\r\n© 2020 The Authors. Published on behalf of the American Heart Association, Inc., by Wiley. This is an open access article under the terms of the Creative \r\nCommons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any medium, provided the original work is properly cited, the use \r\nis non-commercial and no modifications or adaptations are made. \r\nJAHA is available at: www.ahajournals.org/journal/jaha\nJ Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 2\r\nDalgaard et al Management of Patients With AF by Morbidity Burden\r\nsuggests that physicians may underestimate the ben\u0002efit of stroke prevention and overestimate the risk of \r\nbleeding, thus potentially refraining from prescribing \r\nOACs in patients with multimorbidity.11 How multimor\u0002bidity is associated with therapeutic choices such as \r\nOAC therapy for patients with AF is uncertain.12,13 To \r\naddress this uncertainty, we used the GWTG-AFIB \r\n(Get With The Guidelines-Atrial Fibrillation) registry to \r\ndetermine whether morbidity burden is associated \r\nwith therapeutic decisions regarding anticoagulation.\r\nMETHODS\r\nData Sources\r\nWe will make our analytic methods available to other \r\nresearchers, but we are not able to make the data or \r\nother study materials available to them because of our \r\nlack of ownership of the data.\r\nData collected through the GWTG-AFIB registry \r\nwere used. The registry was started in 2013 by the \r\nAmerican Heart Association as a quality improvement \r\ndatabase of inpatients with AF to specifically improve \r\nthe implementation of class 1 recommendations of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "stroke prevention. Quality interventions by GWTG\u0002AFIB include educational workshops and webinars, \r\nprovider education, performance assessment, and \r\nfeedback. Details of the registry have been described \r\npreviously.14 In brief, patients aged ≥18 years were in\u0002cluded from 161 participating sites if they were admit\u0002ted for at least 1 overnight stay and diagnosed with \r\npreexisting or new AF (consisting of both AF and atrial \r\nflutter).\r\nPersonnel at each hospital used an online data \r\nmanagement tool to enter data on demographics, \r\ncomorbidities, laboratory tests, in-hospital treatment, \r\nAF-related procedures such as ablation and cardio\u0002versions, and discharge medications. CHA2DS2-VASc \r\nand HAS-BLED (hypertension, abnormal renal and \r\nliver function, stroke, bleeding, labile international \r\nnormalized ratio, elderly, drugs or alcohol) scores for \r\nstroke and bleeding risk were entered, as well as a \r\nprespecified list of contraindications to OAC therapy. \r\nThe American Heart Association/American College \r\nof Cardiology guidelines at the time of this analy\u0002sis recommended anticoagulation for patients with a \r\nCHA2DS2-VASc score ≥2.15\r\nParticipating institutions in GWTG-AFIB are required \r\nto comply with local regulatory and privacy guidelines \r\nand to obtain institutional review board approval if re\u0002quired. Because data were used primarily at the local \r\nsite for quality improvement, sites were granted a \r\nwaiver of informed consent under the Common Rule. \r\nIQVIA serves as the data collection and registry co\u0002ordinating center (through their Patient Management \r\nTool) for GWTG. The Duke Clinical Research Institute \r\nserves as the data analysis center and has an agree\u0002ment to analyze the aggregate de-identified data for \r\nresearch purposes. Institutional review board approval \r\nwas granted to analyze aggregate de-identified data \r\nfor research purposes.\r\nStudy Population and Covariates\r\nIn this cross-sectional analysis, we included patients \r\naged ≥65 years with any admission for AF (but not \r\nlone atrial flutter) from January 2013 to June 2019. \r\nWe excluded patients with missing information on \r\ndischarge disposition, valvular AF (mechanical valve \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "or mitral stenosis), those categorized as new-onset \r\nAF but also categorized as having a prior AF pro\u0002cedure (as these may have been categorized in\u0002correctly), atrial flutter (as many of these patients \r\nundergo curative ablation, and as a result oral antico\u0002agulation is often discontinued), patients prescribed \r\nnonoral anticoagulation (eg, heparin), CHA2DS2-VASc \r\n<2, and strict contraindications to OAC treatment as \r\npreviously defined and that included prior bleeding \r\nCLINICAL PERSPECTIVE\r\nWhat Is New?\r\n• In a contemporary quality-of-care database \r\nof hospitalized older patients with atrial fibril\u0002lation, multimorbidity (≥3 comorbidities) was \r\nhighly prevalent and the multimorbidity burden \r\nincreased significantly from 59.7% in 2014 to \r\n64.3% in 2019.\r\n• A high morbidity burden was associated with \r\nlower odds of oral anticoagulant prescription, \r\nthe most common reason for nonprescription \r\nwas frequent falls/frailty.\r\nWhat Are the Clinical Implications?\r\n• These results reveal a gap between current \r\nknowledge and clinical practice and the need \r\nfor educational implementation tools to increase \r\nguideline-recommended oral anticoagulants \r\ntherapy in patients with multimorbidity and atrial \r\nfibrillation.\r\nNonstandard Abbreviations and Acronyms\r\nGWTG-AFIB Get With The Guidelines-Atrial \r\nFibrillation\r\nNOACs novel oral anticoagulants\r\nOACs oral anticoagulants\r\nVKA vitamin K antagonist\nJ Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 3\r\nDalgaard et al Management of Patients With AF by Morbidity Burden\r\nevents, prior intracranial hemorrhage, allergy, recent \r\noperation, or severe comorbid illness (eg, severe \r\nrenal or liver disease).16 A wide range of comorbidi\u0002ties are captured in the GWTG-AFIB. We included \r\n16 comorbidities as listed: hypertension; heart failure \r\n(medical history of/first detected heart failure, car\u0002diac transplant or cardiomyopathy); coronary artery \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "disease (medical history of/first detected coronary \r\nartery disease, a prior myocardial infarction or myo\u0002cardial infarction this hospitalization, percutaneous \r\ncoronary intervention; diabetes mellitus (medical his\u0002tory of/first detected); hypo- or hyperthyroidism; ob\u0002structive sleep apnea; chronic obstructive pulmonary \r\ndisease; cancer; cerebral vascular disease (medical \r\nhistory of/first detected carotid disease, transient \r\nischemic attack, stroke, intracranial hemorrhage); \r\ndepression; anemia (hemoglobin <10  mg/dL); renal \r\ndisease (medical history of renal disease or dialysis); \r\nperipheral vascular disease (medical history of/first \r\ndetected atherosclerotic vascular disease); cognitive \r\nimpairment; liver disease (medical history of/first de\u0002tected); and rheumatic heart disease.\r\nFor each patient a comorbidity score was calculated \r\nfrom the sum of each individual comorbidity present \r\nof the 16 comorbidities categories. For the purpose of \r\nthis analysis, the cohort was stratified into patients with \r\n0 to 2 comorbidities (low morbidity burden), those with \r\n3 to 5 (moderate morbidity burden), and those with ≥6 \r\ncomorbidities (high morbidity burden). Multimorbidity \r\nwas defined as ≥3 comorbidities at admission These \r\ncutoffs were based on a similar prior analysis.17\r\nFor patients not prescribed OAC therapy, we as\u0002sessed documented reasons for not providing OAC \r\ntherapy by multimorbidity groups and by age group, \r\nwhich are prospectively captured in GWTG-AFIB.\r\nOutcomes\r\nThe primary outcome of interest was OAC prescrip\u0002tion at discharge (both OAC on discharge medication \r\nand new prescriptions) among patients in the 3 multi\u0002morbidity groups. Secondary outcomes of interest in\u0002cluded novel oral anticoagulants (NOACs) prescription \r\nvitamin K antagonist (VKA) prescription among those \r\nprescribed OACs at discharge.\r\nStatistical Analysis\r\nBaseline patient and hospital characteristics in pa\u0002tients with AF are described by multimorbidity groups. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Counts with proportions and medians with interquar\u0002tile ranges (IQRs) are reported for categorical and \r\ncontinuous variables, respectively. The Pearson’s chi\u0002square test was used to compare binary or nominal \r\ncategorical variables, and the Kruskal–Wallis test was \r\nused to compare continuous variables or ordinal cat\u0002egorical variables. Percent standardized differences \r\n(standardized differences×100) between the 2 higher \r\nmorbidity burden groups versus the lowest morbidity \r\nburden group were calculated. A (percent) standard\u0002ized difference >10% indicates a significant difference \r\nthat requires attention. The distribution of comorbidity \r\nscore was presented using histograms and descrip\u0002tive tables. We also plotted the prevalence of moder\u0002ate and high morbidity burden including 95% CIs in \r\npatients with AF by year from 2013 to 2019. P value for \r\ntrends were calculated using Cochran-Armitage trend \r\ntests from 2013 to 2019. The unadjusted and adjusted \r\nassociations between OAC description and morbid\u0002ity burden were fitted using logistic regression models \r\nwith generalized estimating equations, to account for \r\nwithin-hospital clustering of patients and derive robust \r\nvariance estimation. The adjusted models included the \r\nfollowing covariates: age (continuous age and indica\u0002tor for age ≥80), sex, race/ethnicity, insurance status, \r\ntype of AF, prior antiarrhythmics, body mass index, \r\nblood pressure, heart rate, admission year, control \r\nstrategy, hospital region, teaching hospital, number of \r\nbeds, rural location, and adult cardiac electrophysiol\u0002ogy site. We conducted several subgroup analyses. \r\nAmong those prescribed OAC at discharge, the asso\u0002ciation between multimorbidity burden and OAC type \r\n(ie, NOAC and VKA) was analyzed. A second analysis \r\nwas conducted to examine the association between \r\nmultimorbidity and first-time admission for AF versus \r\npreexisting AF. A third analysis was conducted exclud\u0002ing patients on OAC therapy at admission. Interaction \r\nterms were tested between multimorbidity groups with \r\nage (≥80, <80), sex, and calendar year. Multiple im\u0002putations were used to handle missing data. Patient \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "characteristics with <25% missing were imputed using \r\nmultiple imputation with 10 data sets before entering \r\nthe models. Very few covariates had more than 10% \r\nmissingness: body mass index (15.7%), ejection frac\u0002tion (13.5%) and adult cardiac electrophysiological \r\nsite (13.7%). Hospital characteristics were not imputed \r\n(complete case analysis only).\r\nAll tests were 2-tailed and statistical significance \r\nwas declared when P<0.05. All analyses were per\u0002formed using SAS software version 9.4 (SAS Institute, \r\nCary, NC).\r\nRESULTS\r\nBaseline Characteristics\r\nA total of 34 174 patients with AF aged ≥65 years met \r\nour entry criteria. A flowchart for the patient population \r\nis shown in Figure 1. Overall, the median age (IQR) was \r\n76 years (71–83), 19 356 (56.6%) were women, 30 063 \r\n(88.0%) were Caucasian, and 7083 (20.7%) had first \r\ndetected AF. At admission 14 324 (41.9%) were on an\u0002ticoagulation therapy. A total of 13 194 (38.6%) had 0 to \nJ Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 4\r\nDalgaard et al Management of Patients With AF by Morbidity Burden\r\n2 comorbidities, 17 331 (50.7%) had 3 to 5 comorbidi\u0002ties, and 3649 (10.7%) had ≥6 comorbidities.\r\nThe median age was relatively similar across the comor\u0002bidity groups. However, compared to those with 0 to \r\n2 comorbidities, those with higher comorbidity burden \r\nwere less likely to be Caucasian and more likely to be \r\nmen and to have persistent or permanent AF. The renal \r\nfunction declined in estimated glomerular filtration rate \r\n(median [IQR]) across the comorbidity groups (66 [53–\r\n81] versus 60 [45–74] versus 50 [35–67]) and those with \r\nhigher comorbidity burden had increasing (median [IQR]) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 1233,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "CHA2DS2-VASc (3 [3–4] versus 5 [4–6] versus 6 [5–7]) \r\nand HAS-BLED scores (2 [2–3] versus 3 [2–3] versus 4 \r\n[3–4]), for those with 0 to 2 comorbidities, 3 to 5 comor\u0002bidities, and ≥6 comorbidities, respectively (Table 1).\r\nComorbidities and Multimorbidity\r\nThe most prevalent comorbidity was hypertension \r\n(81.6%), followed by heart failure (37.8%), coronary \r\nartery disease (36.7%), and diabetes mellitus (28.2%) \r\n(Table 2). The distribution of multimorbidity is shown \r\nFigure 1. Flowchart of the study inclusion.\r\n*Strict contraindications for OAC therapy were prior bleeding events, prior intracranial hemorrhage, \r\nallergy, recent operation, or severe comorbid illness (eg, severe renal or liver disease). AC indicates \r\nanticoagulation; AF, atrial fibrillation; and OAC, oral anticoagulant.\nJ Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024\r\n5\r\nDalgaard et al Management of Patients With AF by Morbidity Burden Table 1. Baseline Characteristics by Comorbidity Score Variable Overall Low Comorbidity Burden (0–2) Moderate Comorbidity Burden (3–5) High Comorbidity Burden (≥6) P Value SD: 3–5 vs 0–2 SD: ≥6 vs 0–2 N=34 174 N=13 194 N=17 331 N=3649 Demographics Age, y* 76 (71–83) 76 (70–82) 77 (71–83) 76 (71–82) <0.0001 10.0 2.4 Sex: female 19 356 (56.6) 7798 (59.1) 9559 (55.2) 1999 (54.8) <0.0001 8.0 8.7 Race/Ethnicity <0.0001 7.4 16.8 White 30 063 (88.0) 11 737 (89.0) 15 204 (87.7) 3122 (85.6) Black 1435 (4.2) 426 (3.2) 778 (4.5) 231 (6.3) Hispanic (any race) 1507 (4.4) 538 (4.1) 780 (4.5) 189 (5.2) Asian 376 (1.1) 171 (1.3) 180 (1.0) 25 (0.7) Other 793 (2.3) 322 (2.4) 389 (2.2) 82 (2.2) Type of atrial fibrillation <0.0001 22.2 39.8 Permanent/longstanding persistent atrial fibrillation 3296 (9.6) 864 (6.5) 1871 (10.8) 561 (15.4) Persistent atrial fibrillation 7507 (22.0) 2676 (20.3) 3997 (23.1) 834 (22.9) Paroxysmal atrial fibrillation 16 288 (47.7) 6254 (47.4) 8269 (47.7) 1765 (48.4) First detected atrial fibrillation 7083 (20.7) 3400 (25.8) 3194 (18.4) 489 (13.4) Measures Body mass index* <0.0001 19.1 38.8 Median (IQR) 28.4 (24.5–33.1) 27.4 (23.9–31.6) 28.8 (24.7–33.7) 30.3 (25.9–35.8) Missing, % 5381 (15.7) 2309 (17.5) 2612 (15.1) 460 (12.6) Estimated glomerular filtration rate, mL/min per 1.73 m2* <0.0001 26.7 64.1 Median (IQR) 61 (47–77) 66 (53–81) 60 (45–74) 50 (35–67) Missing, % 1119 (3.3) 507 (3.8) 527 (3.0) 85 (2.3) Risk Scores CHA2DS2-VASc Score* <0.0001 116.2 217.1 Median (IQR) 4 (3–5) 3 (3–4) 5 (4–6) 6 (5–7) HAS-BLED Score* <0.0001 75.2 154.0 Median (IQR) 3 (2–3) 2 (2–3) 3 (2–3) 4 (3–4) Missing, % 1 (0.0) 0 (0.0) 1 (0.0) 0 (0.0) Prior AF procedure Cardioversion 7912 (23.2) 2868 (21.7) 4199 (24.2) 845 (23.2) <0.0001 5.9 3.4 (Continues)\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 680,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "J Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024\r\n6\r\nDalgaard et al Management of Patients With AF by Morbidity Burden Variable Overall Low Comorbidity Burden (0–2) Moderate Comorbidity Burden (3–5) High Comorbidity Burden (≥6) P Value SD: 3–5 vs 0–2 SD: ≥6 vs 0–2 N=34 174 N=13 194 N=17 331 N=3649 Ablation 3572 (10.5) 1348 (10.2) 1859 (10.7) 365 (10.0) 0.2253 1.7 0.7 AF surgery (surgical maze) 265 (0.8) 54 (0.4) 164 (0.9) 47 (1.3) <0.0001 6.6 9.6 Medications used prior to admission Aspirin 13 503 (39.5) 4316 (32.7) 7395 (42.7) 1792 (49.1) <0.0001 20.7 33.9 Antiplatelet agent 2666 (7.8) 451 (3.4) 1652 (9.5) 563 (15.4) <0.0001 25.0 42.0 Anticoagulation therapy <0.0001 19.5 33.4 Vitamin K antagonist 7323 (21.4) 2177 (16.5) 4074 (23.5) 1072 (29.4) Novel OAC 12 334 (36.1) 4743 (36.0) 6315 (36.5) 1276 (35.0) No OAC 14 324 (41.9) 6203 (47.0) 6846 (39.5) 1275 (35.0) Antiarrhythmic—any 0.5978 0.4 1.5 Yes, % 6635 (19.4) 2563 (19.4) 3342 (19.3) 730 (20.0) Missing, % 16 (0.0) 6 (0.0) 7 (0.0) 3 (0.1) Triple therapy (OAC and antiplatelet) at admission <0.0001 8.7 15.6 Yes, % 399 (1.2) 71 (0.5) 240 (1.4) 88 (2.4) Missing, % 16 (0.0) 6 (0.0) 7 (0.0) 3 (0.1) AF indicates atrial fibrillation; HAS-BLED, hypertension, abnormal renal and liver function, stroke, bleeding, labile international normalized ratio, elderly, drugs or alcohol; and OAC, oral anticoagulant. *Continuous variables reported as median with interquartile range. Table 1. Continued\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "J Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 7\r\nDalgaard et al Management of Patients With AF by Morbidity Burden\r\nin Figure 2. The median (IQR) number of comorbidi\u0002ties was 3 (2–4) and the mean (SD) was 3.21 (1.76). \r\nThe number of patients with AF and multimorbidity \r\n(≥3 comorbidities) increased from 59.7% in 2014 to \r\n64.3% in 2019 (P trend=0.002). A similar increase \r\nwas observed in the number of patients with high \r\nmorbidity burden (≥6 comorbidities), which increased \r\nfrom 9.2% in 2014 to 11.9% in 2019 (P trend <0.001) \r\n(Figure 3).\r\nIn-Hospital Treatment\r\nThe overall OAC prescription rate at discharge was \r\n85.6%. The rate of discharged with VKA increased \r\nwith increasing morbidity burden, 23.9% in the low \r\ncomorbidity burden (0–2 comorbidities) versus 39.2% \r\nin the high comorbidity group (≥6 comorbidities). \r\nConversely, the rate of apixaban and rivaroxaban de\u0002creased with increasing morbidity burden. However, \r\nthose with a high morbidity had higher rates of dose \r\nreduction of both apixaban and rivaroxaban. Very \r\nfew patients were discharged with edoxaban (n=36), \r\nand dabigatran had similar discharge rates across \r\nmorbidity groups. Moreover, patients with high mul\u0002timorbidity burden were more likely to be treated \r\nwith antiplatelet therapy (3.5% in the low comorbidity \r\ngroup versus 14.0% in the high comorbidity group) \r\nand beta blockers (60.3% in the low comorbidity \r\ngroup versus 76.0% in the high comorbidity group) \r\nand were less likely to undergo ablation (15.4% in \r\nthe low comorbidity group versus 9.8% in the high \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "comorbidity group) and cardioversion (34.0% in the \r\nlow comorbidity group versus 29.4% in the high co\u0002morbidity group). Left atrial appendage occlusion \r\ndevices were more common in the high comorbidity \r\ngroup (6.1%) than those in the low comorbidity group \r\n(2.6%). Those with multimorbidity more often had a \r\nrate control strategy planned (51.1%) compared to \r\nthose with low multimorbidity (40.5%) and fewer with \r\nhigh multimorbidity had planned a rhythm control \r\n(48.9%) as compared with those with low multimor\u0002bidity burden (59.5%) (Table 3).\r\nOdds of OAC Prescription\r\nThe odds of receiving an OAC decreased across in\u0002creasing number of comorbidities. Compared with \r\npatients with low comorbidity burden (0–2 comorbid\u0002ities), the adjusted odds ratio (OR) for receiving OAC \r\ntherapy in those with 3 to 5 comorbidities was 0.93 \r\n(95% CI, 0.82–1.05) and for those with ≥6 comorbidi\u0002ties the adjusted OR was 0.72 (95% CI, 0.60–0.86). \r\nTable 2. Comorbidity Score\r\nVariable\r\nOverall\r\nN=34 174\r\nLow Comorbidity \r\nBurden (0–2)\r\nN=13 194\r\nModerate \r\nComorbidity Burden \r\n(3–5)\r\nN=17 331\r\nHigh Comorbidity \r\nBurden (≥6)\r\nN=3649\r\nMorbidities\r\nHypertension 27 870 (81.6) 8975 (68.0) 15 435 (89.1) 3460 (94.8)\r\nHeart failure/ cardiomyopathy/cardiac transplant, first \r\ndetected heart failure\r\n12 907 (37.8) 2019 (15.3) 8065 (46.5) 2823 (77.4)\r\nCAD (medical history of CAD, prior MI, PCI. first \r\ndetected CAD, MI. procedure in this hospital PCI)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "12 530 (36.7) 1744 (13.2) 8040 (46.4) 2746 (75.3)\r\nDiabetes mellitus (medical history or first detected) 9654 (28.2) 1112 (8.4) 6155 (35.5) 2387 (65.4)\r\nHypo- or hyperthyroidism 7452 (21.8) 1357 (10.3) 4564 (26.3) 1531 (42.0)\r\nObstructive sleep apnea 5398 (15.8) 670 (5.1) 3248 (18.7) 1480 (40.6)\r\nChronic obstructive pulmonary disease 6051 (17.7) 669 (5.1) 3636 (21.0) 1746 (47.8)\r\nCancer 6727 (19.7) 1243 (9.4) 4100 (23.7) 1384 (37.9)\r\nCerebrovascular disease (medical history of carotid \r\ndisease, TIA, stroke, ICH, first detected stroke/TIA/\r\nICH)\r\n6181 (18.1) 779 (5.9) 3753 (21.7) 1649 (45.2)\r\nDepression 4618 (13.5) 548 (4.2) 2679 (15.5) 1391 (38.1)\r\nAnemia (Hgb <10 mg/dL) 3920 (11.5) 306 (2.3) 2169 (12.5) 1445 (39.6)\r\nRenal disease (medical history or dialysis) 2005 (5.9) 106 (0.8) 1091 (6.3) 808 (22.1)\r\nPeripheral vascular disease (medical history or first \r\ndetected atherosclerotic vascular disease)\r\n2460 (7.2) 136 (1.0) 1361 (7.9) 963 (26.4)\r\nCognitive impairment 1476 (4.3) 188 (1.4) 889 (5.1) 399 (10.9)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Liver disease (medical history or first detected) 278 (0.8) 21 (0.2) 145 (0.8) 112 (3.1)\r\nRheumatic heart disease 119 (0.3) 14 (0.1) 75 (0.4) 30 (0.8)\r\nCAD indicates coronary artery disease; ICH, intracranial cerebral hemorrhage; MI, myocardial infarction; PCI, percutaneous coronary intervention; and TIA, \r\ntransient ischemic attack.\nJ Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 8\r\nDalgaard et al Management of Patients With AF by Morbidity Burden\r\nFor those prescribed OAC at discharge, compared to \r\nlow comorbidity burden (0–2), the odds of receiving \r\nNOAC decreased by increasing comorbidity burden. \r\nThe adjusted OR for receiving NOAC therapy in those \r\nwith 3 to 5 comorbidities was 0.72 (95% CI, 0.67–\r\n0.78) and for those with ≥6 comorbidities the odds \r\nwere 0.59 (95% CI, 0.50–0.69). Similar association of \r\nlower odds of OAC prescription at discharge among \r\nthose with high multimorbidity was found for both \r\nthose without prior existing AF and in those with prior \r\nexisting AF. For those patients naïve to OAC therapy \r\nand compared to low comorbidity burden (0–2), the \r\nodds of receiving OAC decreased by increasing co\u0002morbidity burden. The adjusted odds ratio for receiv\u0002ing NOAC therapy in those with 3 to 5 comorbidities \r\nwas 0.72 (95% CI, 0.67–0.78) and for those with ≥6 \r\ncomorbidities the odds were 0.59 (95% CI, 0.50–\r\n0.69) (Table 4).\r\nThe major difference in documented reasons of \r\nnonprescription of OAC at discharge in those with high \r\nmorbidity burden compared to low morbidity burden \r\nwas frequent falls/frailty (24.5% versus 31.0%) and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "high bleeding risk (14.2% versus 24.6%). Conversely, \r\nphysician preference for nonprescription was more \r\ncommon in those with low comorbidity burden (15.1% \r\nversus 11.1%) as was patient refusal (17.5% versus \r\n11.9%) (Table 5). A major difference in nonprescription \r\nby age was frequent falls/frailty (42.2% for those aged \r\n>80 years versus 13.0% for those aged between 65 \r\nand 80) (Table S1).\r\nThere was no interaction between morbidity bur\u0002den and age (P interaction=0.358) or sex (P interac\u0002tion=0.244) In analyses evaluating the odds of receiving \r\nan OAC in the low versus high morbidity groups by \r\nyear, we found no significant interaction, indicating that \r\nthese odds did not vary by year.\r\nDISCUSSION\r\nIn a contemporary quality improvement database of \r\npatients with AF aged ≥65 years and indicated for OAC \r\ntherapy, we found that (1) multimorbidity was present in \r\nmore than two thirds of the patients, and high morbidity \r\nFigure 2. Distribution of comorbidity scores.\r\nHistogram of the comorbidity score distribution with mean, SD, median, lower (25%) quartile, upper (75%) quartile, minimum and \r\nmaximum.\nJ Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 9\r\nDalgaard et al Management of Patients With AF by Morbidity Burden\r\nburden was present in more than 1 in 10 patients; (2) \r\nmultimorbidity burden increased in prevalence from \r\n2014 to 2019; and (3) the overall prescription rates of \r\nOACs were high (85.6%), but a high morbidity burden \r\nwas associated with lower odds of being prescribed \r\nOAC therapy at discharge, particularly because of con\u0002cerns over fall risk.\r\nOwing largely to an aging population, the overall bur\u0002den of multimorbidity is increasing. In a quality-of-care \r\ninpatient database with contemporary patients with AF, \r\nthe burden of multimorbidity is high and has increased \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "from 59.7% in 2014 to 64.3% in 2019 (not counting the \r\nprevalence of comorbidity in 2013, as we only included \r\n173 patients that year). This stresses the importance of \r\nadequate treatment in this population. In other regis\u0002tries of patients with AF, such as GARFIELD-AF (Global \r\nAnticoagulant Registry in the Field-Atrial Fibrillation) \r\nand the UK Biobank, the presence of comorbidity is \r\nhigh and has been associated with an increased risk \r\nof all-cause mortality, stroke, and major bleeding.18,19\r\nIn older patients with AF, the risk of stroke and \r\nthe risk of OAC-associated bleeding are increased. \r\nMultimorbidity further increases the risks of stroke and \r\nbleeding. Thus, the choice to anticoagulate is usually \r\ndetermined by weighing the risk of stroke against the \r\nrisk of bleeding. Studies have repeatedly shown that \r\nthe risk of stroke is higher than the risk of major bleed\u0002ing, even in the most frail and older population, and \r\nlower risk of bleeding has been observed with NOAC \r\nuse, in particular apixaban.20 These facts along with \r\nour finding of decreased OAC use with increased mor\u0002bidity burden are concerning.\r\nOAC Prescription\r\nPrior results from the GWTG-AFIB registry have re\u0002ported higher OAC prescription rates of 93.5% in \r\nthe whole registry and 94.9% among patients with \r\nAF and heart failure.16,21 The discrepancies between \r\nprior studies and our study are most likely related \r\nto the inclusion of only patients with nonvalvular \r\nAF and patients aged ≥65  years. Most studies on \r\nthe odds of OAC prescription in older patients with \r\nAF have primarily addressed patients with frailty. A \r\nmeta-analysis of patients with AF and frailty and OAC \r\ntreatment has found no association between frailty \r\nand OAC prescription at hospital discharge (pooled \r\nadjusted OR 0.40 [95% CI, 0.13–1.23]).22 In a single\u0002center study of admitted patients with AF (n=550) as\u0002sessing the relationship between OAC prescription, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 592,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "frailty, and Charlson comorbidity score showed that \r\nthe odds of OAC prescriptions were lower for every \r\npoint increase in Charlson Comorbidity Index but \r\nthey found no association with frailty status.23 A simi\u0002lar analysis of older patients with AF conducted in the \r\nDanish nationwide registries also found a significant \r\ndecreased odds of OAC prescription by morbidity \r\nburden.24 Our results show that high morbidity bur\u0002den conferred lower odds of OAC prescription and \r\na treatment strategy favoring VKA over NOACs. This \r\nFigure 3. Prevalence of multimorbidity burden of ≥3 and ≥6 (y-axis) by calendar year (x-axis).\r\nPrevalence of multimorbidity by calendar year is shown for all patients with ≥3 comorbidities and ≥6 \r\ncomorbidities, including 95% CI and P test for trend.\nJ Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 10\r\nDalgaard et al Management of Patients With AF by Morbidity Burden Table 3. In-Hospital Treatment by Comorbidity Score Variable Overall N=34 174 Low Comorbidity Burden (0–2) N=13 194 Moderate Comorbidity Burden (3–5) N=17 331 High Comorbidity Burden (≥6) N=3649\r\nP Value\r\nSD: 3–5 vs \r\n0–2 SD: ≥6 vs 0–2\r\nOral medication during this hospitalization\r\nNone 1102 (3.8) 594 (5.3) 451 (3.0) 57 (1.8) <0.0001 11.5 19.2\r\nAntiarrhythmics 12 731 (43.4) 4856 (43.5) 6606 (44.2) 1269 (39.6) <0.0001 1.5 7.9Oral anticoagulants 22 364 (76.3) 8330 (74.6) 11 500 (77.0) 2534 (79.0) <0.0001 5.6 10.5Vitamin-K antagonist 6998 (31.5) 2048 (24.7) 3927 (34.4) 1023 (40.5) <0.0001 21.2 34.1Dabigatran 907 (4.1) 359 (4.3) 455 (4.0) 93 (3.7) 0.2599 1.8 3.3\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 467,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Rivaroxiban 4627 (20.8) 1938 (23.4) 2284 (20.0) 405 (16.0) <0.0001 8.3 18.6\r\nApixaban 10 082 (45.4) 4059 (49.0) 4967 (43.5) 1056 (41.8) <0.0001 11.2 14.6\r\nEdoxaban 29 (0.1) 17 (0.2) 10 (0.1) 2 (0.1) 0.0582 3.1 3.3\r\nMissing, % 139 (0.6) 53 (0.6) 78 (0.7) 8 (0.3)\r\nAntiplatelets agent 2147 (7.3) 392 (3.5) 1307 (8.7) 448 (14.0) <0.0001 22.0 37.7\r\nAspirin 13 064 (44.6) 4197 (37.6) 7049 (47.2) 1818 (56.7) <0.0001 19.5 39.0Beta blocker 19 541 (66.7) 6734 (60.3) 10 371 (69.4) 2436 (76.0) <0.0001 19.2 34.1\r\nCalcium channel blocker 10 948 (37.3) 4098 (36.7) 5593 (37.4) 1257 (39.2) 0.0338 1.5 5.2\r\nDigoxin 3118 (10.6) 967 (8.7) 1721 (11.5) 430 (13.4) <0.0001 9.5 15.2\r\nIn-hospital oral medications, missing, % 4861 (14.2) 2026 (15.4) 2393 (13.8) 442 (12.1)\r\nDischarge meds\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Anticoagulation therapy 29 239 (85.6) 11 304 (85.7) 14 847 (85.7) 3088 (84.6) 0.2369 0.0 3.0\r\nOAC <0.0001 18.1 30.9\r\nVitamin-K antagonist 8759 (25.6) 2701 (20.5) 4848 (28.0) 1210 (33.2)Novel OAC 20 480 (59.9) 8603 (65.2) 9999 (57.7) 1878 (51.5)No OAC 4935 (14.4) 1890 (14.3) 2484 (14.3) 561 (15.4)\r\nOAC type <0.0001 19.7 34.3\r\nEdoxaban 36 (0.1) 19 (0.2) 16 (0.1) 1 (0.0)\r\nRivaroxaban 6146 (21.0) 2663 (23.6) 2973 (20.0) 510 (16.5)\r\nApixaban 13 157 (45.0) 5455 (48.3) 6448 (43.4) 1254 (40.6)\r\nDabigatran 1141 (3.9) 466 (4.1) 562 (3.8) 113 (3.7)Vitamin-K antagonist 8759 (30.0) 2701 (23.9) 4848 (32.7) 1210 (39.2)\r\nApixaban dose <0.0001 13.7 23.3\r\n5 mg 9837 (79.7) 4226 (83.2) 4732 (77.9) 879 (73.7)\r\n2.5 mg 2509 (20.3) 852 (16.8) 1344 (22.1) 313 (26.3)\r\nMissing, % 810 (6.2) 376 (6.9) 372 (5.8) 62 (4.9)\r\n (Continues)\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "J Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 11\r\nDalgaard et al Management of Patients With AF by Morbidity Burden Variable Overall N=34 174 Low Comorbidity Burden (0–2) N=13 194 Moderate Comorbidity Burden (3–5) N=17 331 High Comorbidity Burden (≥6) N=3649\r\nP Value\r\nSD: 3–5 vs \r\n0–2 SD: ≥6 vs 0–2\r\nRivaroxaban dose <0.0001 18.1 46.7\r\n20 mg 4349 (76.9) 1989 (82.2) 2062 (74.9) 298 (62.0)15 mg 1244 (22.0) 406 (16.8) 661 (24.0) 177 (36.8)\r\n10 mg 62 (1.1) 25 (1.0) 31 (1.1) 6 (1.2)Missing, % 491 (8.0) 243 (9.1) 219 (7.4) 29 (5.7)\r\nDabigatran dose 0.8735 2.6 4.9\r\n150 mg 960 (89.6) 384 (89.1) 480 (89.9) 96 (90.6)\r\n75 mg 111 (10.4) 47 (10.9) 54 (10.1) 10 (9.4)Missing, % 70 (6.1) 35 (7.5) 28 (5.0) 7 (6.2)\r\nRhythm control/rate control strategy <0.0001 7.7 21.5\r\nRate control strategy planned 14 882 (43.5) 5343 (40.5) 7673 (44.3) 1866 (51.1)Rhythm control strategy planned 19 292 (56.5) 7851 (59.5) 9658 (55.7) 1783 (48.9)\r\nProcedures during this hospitalization\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "No procedures 15 548 (48.2) 5887 (47.4) 7863 (47.9) 1798 (52.3) <0.0001 1.2 9.9Ablation 4357 (13.5) 1909 (15.4) 2110 (12.9) 338 (9.8) <0.0001 7.2 16.7\r\nCardioversion 10 753 (33.3) 4230 (34.0) 5513 (33.6) 1010 (29.4) <0.0001 0.9 10.0\r\nCardiac resynchronization therapy with defibrillator/pacemaker\r\n190 (0.6) 41 (0.3) 115 (0.7) 34 (1.0) <0.0001 5.2 8.2\r\nImplantable cardioverter defibrillator 85 (0.3) 20 (0.2) 49 (0.3) 16 (0.5) 0.0039 2.9 5.5\r\nLeft atrial age 1195 (3.7) 321 (2.6) 665 (4.1) 209 (6.1) <0.0001 8.2 17.3\r\nPacemaker 1003 (3.1) 349 (2.8) 529 (3.2) 125 (3.6) 0.0215 2.4 4.7\r\nPercutaneous coronary intervention 742 (2.3) 141 (1.1) 476 (2.9) 125 (3.6) <0.0001 12.6 16.5\r\nSurgical maze 132 (0.4) 47 (0.4) 75 (0.5) 10 (0.3) 0.3006 1.2 1.5\r\nProcedures missing 1908 (5.6) 764 (5.8) 931 (5.4) 213 (5.8) 0.2242 1.8 0.2\r\nOAC indicates oral anticoagulants.\r\nTable 3. Continued\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "J Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 12\r\nDalgaard et al Management of Patients With AF by Morbidity Burden\r\nmay be explained by the decline in renal function in \r\nthose with a high burden of comorbidity. A similar \r\ntrend toward use of VKA over NOACs in patients with \r\ndecreased renal function was found in previous stud\u0002ies from GWTG-AFIB.16,21 This is an interesting finding \r\nas a reduced dose of NOACs still can be efficacious \r\nin patients with renal dysfunction.25 Furthermore, in \r\nOAC naïve patients, we observed even lower odds \r\nof OAC prescription in the presence of high multi\u0002morbidity. Lower rates of OAC prescriptions in these \r\nTable 4. Odds Ratio of Discharge Treatment\r\nOutcomes\r\nComorbidity\r\nScore\r\nUnadjusted Analysis Adjusted Analysis*\r\nOR (95% CI) P Value OR (95% CI) P Value\r\nTotal study cohort (n=34 174)\r\nOACs prescribed at discharge (Yes vs No) 0.4010 0.0119\r\n0–2 Reference Reference\r\n3–5 1.00 (0.89–1.12) 0.9909 0.93 (0.82–1.05) 0.2587\r\n≥6 0.92 (0.77–1.09) 0.3457 0.72 (0.60–0.86) 0.0002\r\nOAC type (NOACs vs VKA, among those \r\nprescribed OAC)\r\n<0.0001 <0.0001\r\n0–2 Reference Reference\r\n3–5 0.65 (0.61–0.69) <0.0001 0.72 (0.67–0.78) <0.0001\r\n≥6 0.49 (0.42–0.57) <0.0001 0.59 (0.50–0.69) <0.0001\r\nFirst detected AF (n=7083)\r\nOACs prescribed (Yes vs No) 0.1768 0.0562\r\n0–2 Reference Reference\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "3–5 0.93 (0.81–1.05) 0.2463 0.91 (0.79–1.06) 0.2374\r\n≥6 0.78 (0.62–0.98) 0.0357 0.65 (0.51–0.83) 0.0004\r\nOAC type (NOACs vs VKA, among those \r\nprescribed OAC)\r\n0.0006 0.0076\r\n0–2 Reference Reference\r\n3–5 0.64 (0.50–0.82) 0.0003 0.68 (0.55–0.84) 0.0005\r\n≥6 0.53 (0.37–0.75) 0.0003 0.59 (0.42–0.82) 0.0017\r\nPreexisting AF (n=27 091)\r\nOACs prescribed (Yes vs No) 0.2766 0.0833\r\n0–2 Reference Reference\r\n3–5 0.96 (0.85–1.08) 0.4933 0.94 (0.82–1.08) 0.3983\r\n≥6 0.86 (0.71–1.04) 0.1101 0.77 (0.62–0.94) 0.0118\r\nOAC type (NOACs vs VKA, among those \r\nprescribed OAC)\r\n<0.0001 <0.0001\r\n0–2 Reference Reference\r\n3–5 0.69 (0.63–0.75) <0.0001 0.72 (0.67–0.79) <0.0001\r\n≥6 0.53 (0.45–0.62) <0.0001 0.58 (0.49–0.68) <0.0001\r\nPatients naïve to OAC (n=14 324)\r\nOACs prescribed (Yes vs No) 0.0036 0.0027\r\n0–2 Reference Reference\r\n3–5 0.81 (0.71–0.93) 0.0022 0.84 (0.74–0.96) 0.0117\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "≥6 0.64 (0.53–0.77) <0.0001 0.59 (0.48–0.73) <0.0001\r\nOAC type (NOACs vs VKA,\r\namong those prescribed OAC)\r\n<0.0001 0.0008\r\n0–2 Reference Reference\r\n3–5 0.64 (0.56–0.74) <0.0001 0.70 (0.60–0.82) <0.0001\r\n≥6 0.46 (0.35–0.59) <0.0001 0.55 (0.44–0.69) <0.0001\r\nAF indicates atrial fibrillation; NOACs, novel oral anticoagulants; OAC, oral anticoagulants; and VKA, vitamin K antagonist.\r\n*Model adjusted for age (age×indicator variable for age ≥80), sex, race/ethnicity, insurance status, type of atrial fibrillation, prior antiarrhythmic, body mass \r\nindex, systolic blood pressure, heart rate, control strategy, admission year, hospital region, teaching status, number of beds, rural location, adult cardiac \r\nelectrophysiology site.\nJ Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 13\r\nDalgaard et al Management of Patients With AF by Morbidity Burden\r\npatients could be explained in part by the contem\u0002porary lack of guidelines for patients with AF and \r\nmultimorbidity, the perceived high bleeding risk, and \r\na possible misconception of the outcomes of OAC \r\nwhen patients fall. We found that many patients with \r\na high multimorbidity burden (1275 patients, 35.0%) \r\nwere not on OAC therapy, the most common docu\u0002mented reasons being frequent falls, frailty, and high \r\nbleeding risk. In the ORBIT AF registry, the most \r\ncommon reasons for no OAC therapy among eligible \r\npatients were patient refusal and a history of falls or \r\nfrailty.26 Similarly, in a previous study in the GWTG\u0002AFIB registry, of all patients with AF eligible for OAC \r\nwho were not on one, the most common reasons \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "for no anticoagulation were frequent falls and frailty.16\r\nAlthough studies that have evaluated OAC therapy, \r\nprimarily VKA, in patients with frequent falls have \r\nbeen conflicting, most studies have found that the \r\nrisk of bleeding is very low unless the patient is falling \r\nvery frequently at up to 300 times per year. The risk \r\nmay even be lower when treated with NOACs.27–31 A \r\nhigh bleeding risk was the other major factor driving \r\nnonprescription of OACs. However, there is growing \r\nevidence that the net clinical benefit of OAC therapy, \r\nin particular in the era of NOACs, outweighs the \r\nbleeding risk in most cases with a favorable safety \r\nprofile even in patients with high HAS-BLED scores, \r\nincluding patients with multimorbidity.32,33 In patients \r\naged more than 80  years, although most studies \r\nhave found a positive net clinical benefit of using \r\nan OAC, the evidence of benefit is less clear and \r\nrandomized data are lacking.9,34,35 A recent post hoc \r\nanalysis from ARISTOTLE (Apixaban for Reduction in \r\nStroke and Other Thromboembolic Events in Atrial \r\nFibrillation) further substantiated this point. The study \r\nfound that the benefit of apixaban over warfarin in \r\nterms of efficacy and safety was preserved in those \r\nwith multimorbidity. The study replicated the find\u0002ing that multimorbidity was associated with worse \r\noutcomes of death, stroke, and major bleeding, but \r\nalso found that those with multimorbidity treated with \r\napixaban had significantly lower rates of bleeding \r\ncompared to those treated with warfarin.17\r\nOur results highlight a gap between current \r\nknowledge and clinical misperceptions regarding \r\nthe benefits and risks of OAC therapy and under\u0002score the need for initiatives that improve the use \r\nof OAC therapy in patients with high multimorbidity. \r\nOne such strategies was recently demonstrated in \r\nthe IMPACT-AF trial (a multifaceted intervention to \r\nimprove treatment with oral anticoagulants in atrial \r\nfibrillation). The multifaceted intervention included \r\npatient and provider education on anticoagulation \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "therapy and showed an increase in guideline-recom\u0002mended prescription and compliance of anticoagu\u0002lation therapy.36\r\nLimitations\r\nThis study has some limitations. We included only \r\npatients with nonvalvular AF. Although we excluded \r\npatients with strict contraindications to OAC therapy, \r\nTable 5. Documented Reasons for Those Not Receiving OAC at Discharge, Stratified by Morbidity Burden\r\nVariable\r\nOverall\r\nN=4935\r\nLow Comorbidity \r\nBurden (0–2)\r\nN=1890\r\nModerate \r\nComorbidity \r\nBurden (3–5)\r\nN=2484\r\nHigh \r\nComorbidity \r\nBurden (≥6)\r\nN=561 P Value\r\nSD: 3–5 \r\nvs 0–2\r\nSD: ≥6 \r\nvs 0–2\r\nOAC relative contraindications\r\nAny contraindications to \r\nanticoagulation therapy\r\n3523 (71.4) 1263 (66.8) 1856 (74.7) 404 (72.0) <0.0001 17.4 11.3\r\nOAC relative contraindication categories\r\nUnable to adhere/monitor 157 (3.2) 58 (3.1) 81 (3.3) 18 (3.2) 0.9370 1.1 0.8\r\nOccupational risk 4 (0.1) 2 (0.1) 1 (0.0) 1 (0.2) 0.5200 2.4 1.9\r\nHigh bleeding risk 941 (19.1) 268 (14.2) 535 (21.5) 138 (24.6) <0.0001 19.3 26.6\r\nFrequent falls/frailty 1411 (28.6) 463 (24.5) 774 (31.2) 174 (31.0) <0.0001 14.9 14.6\r\nPatient refusal/preference 862 (17.5) 363 (19.2) 432 (17.4) 67 (11.9) 0.0004 4.7 20.1\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Physician preference 744 (15.1) 327 (17.3) 355 (14.3) 62 (11.1) 0.0004 8.3 18.0\r\nNeed for dual antiplatelet \r\ntherapy\r\n54 (1.1) 10 (0.5) 34 (1.4) 10 (1.8) 0.0076 8.7 11.7\r\nTransient or reversible \r\ncauses of atrial fibrillation\r\n63 (1.3) 28 (1.5) 30 (1.2) 5 (0.9) 0.5007 2.4 5.5\r\nPhysician preference only 485 (9.8) 218 (11.5) 230 (9.3) 37 (6.6) 0.0010 7.5 17.3\r\nModerate contraindications* 1982 (40.2) 697 (36.9) 1056 (42.5) 229 (40.8) 0.0008 11.5 8.1\r\nNot all patients without OAC prescription had a relative contraindication available. Patients could have more than 1 contraindication. OAC indicates oral \r\nanticoagulants.\r\n*Moderate contraindications include any relative contraindication except frailty or physician preference.\nJ Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 14\r\nDalgaard et al Management of Patients With AF by Morbidity Burden\r\nsome may have had relative contraindications to OAC \r\ntherapy that were not collected. Because of the lack of \r\ndata on indications for OACs in GWTG-AF, we were not \r\nable to exclude patients who were on an OAC for rea\u0002sons other than AF. We did not have any frailty assess\u0002ment available; however, a standard definition for frailty \r\nis currently not used across studies, which limits the \r\nevaluation of the impact of frailty. We used a cumula\u0002tive count of comorbidities, which has previously been \r\nused as a marker of frailty.37,38 The cumulative count of \r\ncomorbidities provides a convenient and reproducible \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "way of assessing functional impairment. As frailty was \r\nnot collected in the GWTG-AF registry, the cumulative \r\ncount of comorbidities is the best alternative. One im\u0002portant limitation was that the severity of each comor\u0002bidity was not available, and both cardiovascular and \r\nnoncardiovascular comorbidities contributed equally \r\nto the assessment of the morbidity score. Although we \r\ntreated all comorbidities as having the same weight, \r\nthe different comorbidities (eg, hypertension, coro\u0002nary artery disease, cognitive deficit, hypothyroidism, \r\nor depression, etc) do not portend the same risk of \r\nAF or AF-related complications. However, studies on \r\nmeasuring multimorbidity have concluded that simple \r\nmeasures, such as a simple count of chronic diseases \r\nor of prescribed medications, are almost as good at \r\npredicting healthcare use as more sophisticated meth\u0002ods.39,40 For our analysis, we believe that the number \r\nof comorbidities, and not just their severity, likely in\u0002fluences clinical decisions regarding oral anticoagula\u0002tion and subsequent outcomes. Patient selection may \r\nhave played a role, as these patients were recruited in \r\na quality-of-care inpatient database whose aim was to \r\nimprove stroke prevention in hospitalized patients with \r\nAF, potentially limiting the generalizability of the results. \r\nPatients treated in other healthcare settings may have \r\ndifferent prescription rates dependent on comorbidity \r\nburden.\r\nCONCLUSIONS\r\nIn a nationwide US quality improvement database of \r\npatients with AF aiming to improve stroke prophylaxis, \r\nwe found that multimorbidity was highly prevalent; it \r\nwas present in more than two thirds of patients with \r\nnonvalvular AF aged ≥65 years. From 2014 to 2019 the \r\nburden of multimorbidity increased. Although we found \r\nhigh prescription rates for OAC therapy (86.5%), a high \r\nmorbidity burden was associated with lower odds of \r\nOAC prescription with frequent falls/frailty being the \r\nmost common reason for nonuse. These results high\u0002light a gap between current knowledge and clinical \r\npractice and the need for educational implementation \r\ntools to increase guideline-recommended OAC ther\u0002apy in patients with AF and multimorbidity.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "ARTICLE INFORMATION\r\nReceived April 22, 2020; accepted October 19, 2020.\r\nAffiliations\r\nFrom the Department of Cardiology, Herlev and Gentofte Hospital, Hellerup, \r\nDenmark (F.D., P.V.R., M.H.R., M.L.H., J.L.P.); Duke Clinical Research Institute \r\n(F.D., H.X., R.A.M., A.L., K.P.A., J.H.A., R.D.L., C.B.G., J.P.P., S.M.A.-K.) and \r\nDepartment of Biostatistics and Bioinformatics (R.A.M.), Duke University, \r\nDurham, NC; Cooper Medical School of Rowan University, Camden, NJ \r\n(A.M.R.); Department of Medicine, University at Buffalo, NY (A.B.C.); Division \r\nof Cardiology, Department of Medicine, Ahmanson-UCLA Cardiomyopathy \r\nCenter, Ronald Reagan-UCLA Medical Center, Los Angeles, CA (G.C.F.); \r\nand Division of Cardiology, MetroHealth Campus, Case Western Reserve \r\nUniversity, Cleveland, OH (W.R.L.).\r\nAcknowledgments\r\nThe authors would like to thank the participants, sites, and patients in the \r\nGWTG-AFIB program.\r\nSources of Funding\r\nThe Get With The Guidelines-AFib (GWTG-AF) program is provided by the \r\nAmerican Heart Association. GWTG-AF is sponsored, in part, by Daiiachi \r\nSankyo, Boehringer Ingelheim, and BMS Pfizer. This analysis was funded by \r\nthe Duke Clinical Research Institute Cardiovascular/Metabolic Investing in \r\nInnovation Award Program.\r\nDisclosures\r\nGregg C. Fonarow is a consultant for Abbott, Amgen, AstraZeneca, Bayer, \r\nCHF Solutions, Merck, Medtronic, and Novartis. Angela Lowenstern is \r\nfunded through NIH T-32 training grant #5 T32 HL069749-14. John H. \r\nAlexander has received research support from Boehringer Ingelheim, \r\nBristol-Myers Squibb, CryoLife, CSL Behring, Glaxosmithkline, US Food \r\nand Drug Administration, US National Institutes of Health, and XaTek and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "consulting/honoraria from AbbVie, Bayer, Bristol-Myers Squibb, CryoLife, \r\nCSL Behring, Novo Nordisk, Pfizer, Portola, Quantum Genomics, US \r\nDepartment of Veterans Affairs, XaTek, Zafgen. Anne B. Curtis is on the \r\nadvisory board of Janssen Pharmaceuticals; Abbott, Sanofi Aventis, \r\nMilestone Pharmaceuticals; honoraria for speaking: Abbott, Medtronic, \r\nInc.; data monitoring board: Medtronic, Inc. Renato D. Lopes reported \r\ngrants and personal fees from Bristol-Myers Squibb and Pfizer, personal \r\nfees from Boehringer Ingelheim and Bayer AG and grants from Amgen \r\nInc, GlaxoSmithKline, Medtronic PLC, and Sanofi Aventis outside the \r\nsubmitted work. Sana Al-Khatib receives consulting fees from Milestone \r\nPharmaceuticals, consulting and speaking fees from Medtronic, speaking \r\nfees from BMS/Pfizer, and research and speaking fees from Abbott. The \r\nremaining authors have no disclosures to report.\r\nSupplementary Material\r\nTable S1\r\nREFERENCES\r\n1. Vanbeselaere V, Truyers C, Elli S, Buntinx F, De Witte H, Degryse J, \r\nHenrard S, Vaes B. Association between atrial fibrillation, anticoagula\u0002tion, risk of cerebrovascular events and multimorbidity in general prac\u0002tice: a registry-based study. BMC Cardiovasc Disord. 2016;16:61.\r\n2. Chamberlain AM, Alonso A, Gersh BJ, Manemann SM, Killian JM, \r\nWeston SA, Byrne M, Roger VL. Multimorbidity and the risk of hospi\u0002talization and death in atrial fibrillation: a population-based study. Am \r\nHeart J. 2017;185:74–84.\r\n3. Andersson T, Magnuson A, Bryngelsson I-L, Frøbert O, Henriksson KM, \r\nEdvardsson N, Poçi D. All-cause mortality in 272 186 patients hospital\u0002ized with incident atrial fibrillation 1995–2008: a Swedish nationwide \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "long-term case–control study. Eur Heart J. 2013;34:1061–1067.\r\n4. Marengoni A, Angleman S, Melis R, Mangialasche F, Karp A, Garmen A, \r\nMeinow B, Fratiglioni L. Aging with multimorbidity: a systematic review \r\nof the literature. Ageing Res Rev. 2011;10:430–439.\r\n5. McPhail SM. Multimorbidity in chronic disease: impact on health care \r\nresources and costs. Risk Manag Healthc Policy. 2016;9:143–156.\r\n6. Parks AL, Fang MC. Anticoagulation in older adults with multimorbidity. \r\nClin Geriatr Med. 2016;32:331–346.\nJ Am Heart Assoc. 2020;9:e017024. DOI: 10.1161/JAHA.120.017024 15\r\nDalgaard et al Management of Patients With AF by Morbidity Burden\r\n7. Risk factors for stroke and efficacy of antithrombotic therapy in atrial \r\nfibrillation. Analysis of pooled data from five randomized controlled tri\u0002als. Arch Intern Med. 1994;154:1449–1457.\r\n8. January CT, Wann LS, Alpert JS, Calkins H, Cigarroa JE, Cleveland JC, \r\nConti JB, Ellinor PT, Ezekowitz MD, Field ME, et al. 2014 AHA/ACC/HRS \r\nguideline for the management of patients with atrial fibrillation: a report \r\nof the American College of Cardiology/American Heart Association Task \r\nForce on practice guidelines and the Heart Rhythm Society. Circulation. \r\n2014;130:e199–e267.\r\n9. Shah SJ, Singer DE, Fang MC, Reynolds K, Go AS, Eckman MH. Net \r\nclinical benefit of oral anticoagulation among older adults with atrial \r\nfibrillation. Circ Cardiovasc Qual Outcomes. 2019;12:e006212. DOI: \r\n10.1161/CIRCOUTCOMES.119.006212.\r\n10. Villani ER, Tummolo AM, Palmer K, Gravina EM, Vetrano DL, Bernabei \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "R, Onder G, Acampora N. Frailty and atrial fibrillation: a systematic re\u0002view. Eur J Intern Med. 2018;56:33–38.\r\n11. Pugh D, Pugh J, Mead GE. Attitudes of physicians regarding anti\u0002coagulation for atrial fibrillation: a systematic review. Age Ageing. \r\n2011;40:675–683.\r\n12. Chen MA. Multimorbidity in older adults with atrial fibrillation. Clin \r\nGeriatr Med. 2016;32:315–329.\r\n13. Shaikh F, Pasch LB, Newton PJ, Bajorek BV, Ferguson C. Addressing \r\nmultimorbidity and polypharmacy in individuals with atrial fibrillation. \r\nCurr Cardiol Rep. 2018;20:32.\r\n14. Lewis WR, Piccini JP, Turakhia MP, Curtis AB, Fang M, Suter RE, Page \r\nRL, Fonarow GC. Get with the guidelines AFIB. Circ Cardiovasc Qual \r\nOutcomes. 2014;7:770–777.\r\n15. January CT, Wann LS, Calkins H, Chen LY, Cigarroa JE, Cleveland JC, \r\nEllinor PT, Ezekowitz MD, Field ME, et al. 2019 AHA/ACC/HRS Focused \r\nUpdate of the 2014 AHA/ACC/HRS Guideline for the Management of \r\nPatients With Atrial Fibrillation. J Am Coll Card. 2019;74:104–132.\r\n16. Piccini JP, Xu H, Cox M, Matsouaka RA, Fonarow GC, Butler J, Curtis \r\nAB, Desai N, Fang M, McCabe PJ, et al. Adherence to guideline-di\u0002rected stroke prevention therapy for atrial fibrillation is achievable: first \r\nresults from Get With The Guidelines-Atrial Fibrillation (GWTG-AFIB). \r\nCirculation. 2019;139:1497–1506.\r\n17. Alexander KP, Brouwer MA, Mulder H, Vinereanu D, Lopes RD, Proietti \r\nM, Al-Khatib SM, Hijazi Z, Halvorsen S, Hylek EM, et al. Outcomes of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "apixaban versus warfarin in patients with atrial fibrillation and multi-mor\u0002bidity: insights from the ARISTOTLE trial. Am Heart J. 2019;208:123–131.\r\n18. Jani BD, Nicholl BI, McQueenie R, Connelly DT, Hanlon P, Gallacher \r\nKI, Lee D, Mair FS. Multimorbidity and co-morbidity in atrial fibrillation \r\nand effects on survival: findings from UK Biobank cohort. Europace. \r\n2018;20:f329–f336.\r\n19. Bassand J-P, Accetta G, Al Mahmeed W, Corbalan R, Eikelboom J, \r\nFitzmaurice DA, Fox KAA, Gao H, Goldhaber SZ, Goto S, et al. Risk \r\nfactors for death, stroke, and bleeding in 28,628 patients from the \r\nGARFIELD-AF registry: rationale for comprehensive management of \r\natrial fibrillation. PLoS One. 2018;13:e0191592.\r\n20. Bai Y, Guo S-D, Deng H, Shantsila A, Fauchier L, Ma C-S, Lip GYH. \r\nEffectiveness and safety of oral anticoagulants in older patients with \r\natrial fibrillation: a systematic review and meta-regression analysis. Age \r\nAgeing. 2018;47:9–17.\r\n21. Luo N, Xu H, Jneid H, Fonarow GC, Lopes RD, Piccini JP, Curtis AB, \r\nRusso AM, Lewis WR, Matsouaka RA, et al. Use of oral anticoagula\u0002tion in eligible patients discharged with heart failure and atrial fibrilla\u0002tion. Circ Heart Fail. 2018;11:e005356. DOI: 10.1161/CIRCHEARTF\r\nAILURE.118.005356.\r\n22. Wilkinson C, Todd O, Clegg A, Gale CP, Hall M. Management of atrial \r\nfibrillation for older people with frailty: a systematic review and me\u0002ta-analysis. Age Ageing. 2019;48:196–203.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "23. Bo M, Li Puma F, Badinella Martini M, Falcone Y, Iacovino M, Grisoglio \r\nE, Bonetto M, Isaia G, Ciccone G, Isaia GC, et al. Health status, geriat\u0002ric syndromes and prescription of oral anticoagulant therapy in elderly \r\nmedical in-patients with atrial fibrillation: a prospective observational \r\nstudy. Int J Cardiol. 2015;187:123–125.\r\n24. Rasmussen PV, Pallisgaard JL, Hansen ML, Gislason GH, Torp\u0002Pedersen C, Ruwald M, Alexander KP, Lopes RS, Al-Khatib SM, \r\nDalgaard F. Treatment of older patients with atrial fibrillation by morbid\u0002ity burden. Eur Heart J Qual Care Clin Outcomes. 2020. DOI: 10.1093/\r\nehjqcco/qcaa070.\r\n25. Turpie AGG, Purdham D, Ciaccia A. Nonvitamin K antagonist oral anti\u0002coagulant use in patients with renal impairment. Ther Adv Cardiovasc \r\nDis. 2017;11:243–256.\r\n26. O’Brien EC, Holmes DN, Ansell JE, Allen LA, Hylek E, Kowey PR, Gersh \r\nBJ, Fonarow GC, Koller CR, Ezekowitz MD, et al. Physician practices \r\nregarding contraindications to oral anticoagulation in atrial fibrillation: \r\nfindings from the Outcomes Registry for Better Informed Treatment of \r\nAtrial Fibrillation (ORBIT-AF) registry. Am Heart J. 2014;167:601–609.e1.\r\n27. Donzé J, Clair C, Hug B, Rodondi N, Waeber G, Cornuz J, Aujesky D. \r\nRisk of falls and major bleeds in patients on oral anticoagulation ther\u0002apy. Am J Med. 2012;125:773–778.\r\n28. Rao MP, Vinereanu D, Wojdyla DM, Alexander JH, Atar D, Hylek EM, \r\nHanna M, Wallentin L, Lopes RD, Gersh BJ, et al. Clinical outcomes and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "history of fall in patients with atrial fibrillation treated with oral anticoagu\u0002lation: insights from the ARISTOTLE Trial. Am J Med. 2018;131:269–275.\r\ne2.\r\n29. Steffel J, Giugliano RP, Braunwald E, Murphy SA, Mercuri M, Choi Y, \r\nAylward P, White H, Zamorano JL, Antman EM, et al. Edoxaban versus \r\nwarfarin in atrial fibrillation patients at risk of falling. J Am Coll Cardiol. \r\n2016;68:1169–1178.\r\n30. Pozzessere A, Grotts J, Kaminski S. Dabigatran Use Does Not Increase \r\nIntracranial Hemorrhage in Traumatic Geriatric Falls When Compared \r\nwith Warfarin. Am Surg. 2015;81:1039–1042.\r\n31. Gage BF, Birman-Deych E, Kerzner R, Radford MJ, Nilasena DS, Rich \r\nMW. Incidence of intracranial hemorrhage in patients with atrial fibrilla\u0002tion who are prone to fall. Am J Med. 2005;118:612–617.\r\n32. Seelig J, Pisters R, Hemels ME, Huisman MV, Ten Cate H, Alings M. \r\nWhen to withhold oral anticoagulation in atrial fibrillation—an over\u0002view of frequent clinical discussion topics. Vasc Health Risk Manag. \r\n2019;15:399–408.\r\n33. Lopes RD, Al-Khatib SM, Wallentin L, Yang H, Ansell J, Bahit MC, De \r\nCaterina R, Dorian P, Easton JD, Erol C, et al. Efficacy and safety of \r\napixaban compared with warfarin according to patient risk of stroke and \r\nof bleeding in atrial fibrillation: a secondary analysis of a randomised \r\ncontrolled trial. Lancet. 2012;380:1749–1758.\r\n34. Ng KH, Shestakovska O, Connolly SJ, Eikelboom JW, Avezum A, Diaz \r\nR, Lanas F, Yusuf S, Hart RG. Efficacy and safety of apixaban compared \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "with aspirin in the elderly: a subgroup analysis from the AVERROES trial. \r\nAge Ageing. 2015;45:77–83.\r\n35. Chao T-F, Liu C-J, Lin Y-J, Chang S-L, Lo L-W, Hu Y-F, Tuan T-C, Liao \r\nJ-N, Chung F-P, Chen T-J, et al. Oral anticoagulation in very elderly \r\npatients with atrial fibrillation. Circulation. 2018;138:37–47.\r\n36. Vinereanu D, Lopes RD, Bahit MC, Xavier D, Jiang J, Al-Khalidi HR, \r\nHe W, Xian Y, Ciobanu AO, Kamath DY, et al. A multifaceted inter\u0002vention to improve treatment with oral anticoagulants in atrial fibrilla\u0002tion (IMPACT-AF): an international, cluster-randomised trial. Lancet. \r\n2017;390:1737–1746.\r\n37. Vetrano DL, Palmer K, Marengoni A, Marzetti E, Lattanzio F, Roller\u0002Wirnsberger R, Lopez Samaniego L, Rodríguez-Mañas L, Bernabei R, \r\nOnder G. Frailty and multimorbidity: a systematic review and meta-anal\u0002ysis. J Gerontol A Biol Sci Med Sci. 2018;74:659–666.\r\n38. Clegg A, Young J, Iliffe S, Rikkert MO, Rockwood K. Frailty in elderly \r\npeople. Lancet. 2013;381:752–762.\r\n39. Huntley AL, Johnson R, Purdy S, Valderas JM, Salisbury C. Measures \r\nof multimorbidity and morbidity burden for use in primary care and \r\ncommunity settings: a systematic review and guide. Ann Fam Med. \r\n2012;10:134–141.\r\n40. Perkins AJ, Kroenke K, Unützer J, Katon W, Williams JW, Hope \r\nC, Callahan CM. Common comorbidity scales were similar in their \r\nability to predict health care costs and mortality. J Clin Epidemiol. \r\n2004;57:1040–1048.\nSupplemental Material\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Table S1. Reasons for non-prescription of OAC therapy by age. \r\nIQR, interquartile range.\r\nVariable Overall Age 65-80 Age >80 P Value SD: 65-80\r\nN=4,935 N=2,293 N=2,642 vs >80\r\nAge, median (IQR)\r\n82 (74 -\r\n89) 73 (69 - 77) 88 (84 - 92) <.0001 331,1\r\nOAC \r\nContraindications\r\nAny Contraindications \r\nto Anticoagulation \r\nTherapy\r\n3,523 \r\n(71.4) 1,457 (63.5) 2,066 (78.2) <.0001 32,7\r\nUnable to \r\nAdhere/Monitor 157 (3.2) 77 (3.4) 80 (3.0) 0,5100 1,9\r\nOccupational Risk 4 (0.1) 1 (0.0) 3 (0.1) 0,3893 2,5\r\nHigh Bleeding Risk\r\n 941 \r\n(19.1) 444 (19.4) 497 (18.8) 0,6227 1,4\r\nFrequent Falls/Frailty\r\n1,411 \r\n(28.6) 297 (13.0) 1,114 (42.2) <.0001 69,2\r\nPatient \r\nRefusal/Preference\r\n 862 \r\n(17.5) 384 (16.7) 478 (18.1) 0,2143 3,5\r\nPhysician Preference\r\n 744 \r\n(15.1) 400 (17.4) 344 (13.0) <.0001 12,3\r\nNeed for Dual \r\nAntiplatelet Therapy 54 (1.1) 33 (1.4) 21 (0.8) 0,0300 6,1\r\nTransient or reversible \r\ncauses of atrial \r\nfibrillation 63 (1.3) 36 (1.6) 27 (1.0) 0,0872 4,8\r\nPhysician Preference \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7362491393525825116,
+        "filename": "JAH3-9-e017024.PMC7763767.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 94,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Only 485 (9.8) 308 (13.4) 177 (6.7) <.0001 22,5\r\nModerate \r\nContraindications (any \r\ncontraindication except \r\nfrailty or physician \r\npreference)\r\n1,982 \r\n(40.2) 935 (40.8) 1,047 (39.6) 0,4123 2,3\n\n"
+  }
+]

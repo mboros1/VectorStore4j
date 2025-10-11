@@ -1,0 +1,602 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Original Article\r\nPopulation structure, morphological and genetic diversity within and\r\namong melon (Cucumis melo L.) landraces in Iran\r\nMasoud Maleki a, Abdolali Shojaeiyan a,⇑, Sajad Rashidi Monfared b\r\naDepartment of Horticultural Science, Faculty of Agriculture, Tarbiat Modares University, Tehran, Iran\r\nbDepartment of Agricultural Biotechnology, Faculty of Agriculture, Tarbiat Modares University, Tehran, Iran\r\narticle info\r\nArticle history:\r\nReceived 4 April 2018\r\nReceived in revised form 13 August 2018\r\nAccepted 19 August 2018\r\nAvailable online 28 August 2018\r\nKeywords:\r\nOrthogonal contrasts analysis\r\nMorphological traits\r\nAMOVA\r\nBayesian analysis\r\nUPGMA cluster analysis\r\nabstract\r\nISSR markers were applied to evaluate the genetic diversity and differentiation of 270 individuals of 27\r\nIranian C. melo landraces of various varietal groups include vars. inodorous, cantalupensis, reticulatus,\r\nameri, dudaim. Genetic diversity among the studied genotypes obtained by GeneAlex analysis\r\n(H = 0.08, I = 0.12, Na = 0.77, PPL = 22.6%). Cluster analysis divided Iranian melon landraces into two main\r\ncluster. Non-sweet genotype (dudaim group) was well separated from sweet genotypes (inodorous, ameri,\r\nreticulatus, cantalupensis). The most similar genotypes were BANI and TONI (0.95) and the most dissimilar\r\nones were GER and TS (0.58). AMOVA result showed that the percentage of genetic variation among and\r\nwithin Iranian melon is 69% and 31%, respectively. All landraces evaluated based on 10 morphological\r\ntraits which revealed the diversity of melon varietal groups. Bayesian analysis assigned ten landraces\r\nto Pop 1, eight landraces to Pop 2 and nine melon landraces to Pop 3. Bayesian and UPGMA cluster anal\u0002yses demonstrated the almost related results. Our results indicated that ISSR markers technique along\u0002side polyacrylamide gel analysis could be helpful to discriminate varieties of melon.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "\u0001 2018 Production and hosting by Elsevier B.V. on behalf of Academy of Scientific Research & Technology.\r\nThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc\u0002nd/4.0/).\r\n1. Introduction\r\nThe genus Cucumis belongs to Cucurbitaceae family. Two com\u0002mercially important species of the genus are melon (C. melo) and\r\ncucumber (C. sativus) [1]. Melon is a diploid species with\r\n2n = 2x = 24 chromosomes [2]. According to Kerje and Grum [3]\r\nAfrica and Asia have been proposed as possible regions of origin.\r\nBesides the domestication of melon might have occurred indepen\u0002dently or in parallel in Asia and Africa [3]. But according to Garg\r\net al. [1] the center of diversity is Asia. Melon domestication has\r\noccurred around 3000 B.C. and it was cultivated in Egypt at 2000\r\nB.C. and in India at 1000 B.C [1]. Melon spread from the Middle East\r\n(perhaps Iran) to Turkey, China, and Afghanistan (secondary cen\u0002ters of diversity) [4]. The earliest melon seeds were excavated in\r\nIran and China (at 3000 B.C.). Iran (also known as Persia) was pro\u0002posed as one of the main origin of melon [5], which through it and\r\nCaucasus melon were imported to Europe [3].\r\nThe world production of melon was estimated at 31.36 million t\r\nfrom 1.24 million ha of land in 2016, and it was 30.15 and 29.97\r\nmillion t in 2014 and 2015 years, respectively. China alone\r\naccounted for half of the world’s production of melon (51%). Iran\r\nand Turkey are in the third and second places with 5 and 6 percent\r\nof world’s production, respectively [6].\r\nSo far, melon classification has been progressively evolving by\r\nadopting the propositions of many researchers [7–9]. Furthermore,\r\nmany investigations have been carried out to assess genetic diver\u0002sity in germplasm throughout of the world [10–13]. Pitrat et al. [9]\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "in an overview of infra-specific nomenclature proposed 16 vari\u0002eties (synonym. Groups), five of which can be assigned to subsp.\r\nagrestis and 11 to subsp. melo, include: conomon, makuwa, chinen\u0002sis, acidulus and momordica within the subsp. agrestis, and cantalu\u0002pensis, reticulatus, adana, chandalak, ameri, inodorus, flexuosus,\r\nchate, tibish, dudaim and chito within subsp. melo.\r\nGenetic erosion or losing the endemic germplasms often occur\r\ndue to the presentation of new cultivars and ignoring landraces\r\n[14]. Study of genetic variation not only is used for organization\r\nand protection plant materials but also is important for heterosis\r\nand hybrid seed production. Organization of plant genetic\r\nresources involves creation, enrichment, evaluation, documenta\u0002tion, and conservation of plant collections [15]. Rao and Hodgkin\r\nhttps://doi.org/10.1016/j.jgeb.2018.08.002\r\n1687-157X/\u0001 2018 Production and hosting by Elsevier B.V. on behalf of Academy of Scientific Research & Technology.\r\nThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).\r\nPeer review under responsibility of National Research Center, Egypt.\r\n⇑ Corresponding author at: Horticultural Science Department, Agriculture Fac\u0002ulty, Tarbiat Modares University, Nasr Bridge, Tehran, Iran.\r\nE-mail addresses: m.maleki@modares.ac.ir (M. Maleki), shojaeiyan@modares.ac.\r\nir (A. Shojaeiyan), rashidims@modares.ac.ir (S. Rashidi Monfared).\r\nJournal of Genetic Engineering and Biotechnology 16 (2018) 599–606\r\nContents lists available at ScienceDirect\r\nJournal of Genetic Engineering and Biotechnology\r\njournal homepage: www.elsevier.com/locate/jgeb\n[16] noted that the elucidation of the vastness and dispensation of\r\nthe different aspects of genetic diversity in a species is one of the\r\nmain necessities to detect what, where and how to conserve. They\r\nare among the most essential of the world’s natural resources, so\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "during the last 2–3 decades major improvement has been made\r\nin conserving plant genetic resources.\r\nMolecular markers have been functional tools for plant\r\nbreeding and activities associated with the conservation of genetic\r\nresources. Various molecular and morphological markers are used\r\nto assess diversity among the landraces. Up to now, some markers\r\nhave been used to characterize genetic diversity in Iranian melons,\r\ninclude Amplified Fragment Length Polymorphism [17] Simple\r\nSequence Repeat [18,19], Random Amplified Polymorphic DNA\r\n[20,21] and morphological marker [20–22]. This study aimed to\r\nidentify and collect melon landraces from all over Iran, as a\r\nprimary diversity center, to assess some endemic Iranian melon\r\nlandraces which most of them have not yet evaluated,\r\nregarding population structure, genetic distance, and morphologi\u0002cal traits.\r\n2. Materials and methods\r\n2.1. Plant material\r\nThis study was conducted at Faculty of Agriculture of Tarbiat\r\nModares University, Tehran, Iran during 2012–2013 years. Ten\r\nindividuals of each of 27 Iranian melon landraces of various regions\r\n(from seven provinces) were evaluated for intra-landraces varia\u0002tion (Table 1, Figs. 1 and 2). All the landraces were open\u0002pollinated which gathered from local farmers. Based on Pitrat\r\net al. [9] botanical classification, all of the landraces were classified\r\ninto subsp. melo, involving 5 varieties (vars. inodorus, cantalupensis,\r\nreticulatus, ameri, dudaim) and one intermediate variety (IV)\r\n(Table 1).\r\n2.2. Morphologic traits\r\nThe experiment was carried out in the Randomized Complete\r\nBlock design with three replications. Five plants per replication\r\nwere grown such that row and within row spacing were 2.6 m\r\nand 0.5 m, respectively. Qualitative and quantitative traits selected\r\naccording to the descriptor of the International Plant Genetic\r\nResources Institute (IPGRI) have shown in Table 2. The qualitative\r\ntraits include plant growth habit, fruit shape, primary color of\r\nimmature fruit, main color of flesh, fruit ribbing. The quantitative\r\ntraits were days to first mature fruit (DT), average fruit weight\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "per bush (AF), skin thickness (ST), total soluble solid (TSS) and flesh\r\nthickness (FT).\r\n2.3. DNA extraction\r\nFifteen to 20 seeds of each landrace were germinated at 30 \u0003C in\r\nPetri dishes containing a wet filter paper for 6–7 days at incubator.\r\nGerminated seeds were planted in pots containing standard pot\r\nmixture and transferred into the greenhouse until seedling devel\u0002oped two to three true leaves. Fresh and juvenile leaves were put\r\nin sealed plastic bags containing 50–75 g silica gel to the accelerate\r\ndesiccation process. Leaf tissues of 10 individual plants of each lan\u0002drace were used for genomic DNA extraction according to CTAB\r\nmodified method [23]. The concentration and quality of extracted\r\nDNA were determined by reading at 230, 260 and 280 nm using\r\nspectrophotometer (Epoch Microplate Spectrophotometer, Biotek,\r\nUSA). DNA samples were diluted to a final concentration of\r\n10 ng/ml by 1X TE buffer and stored at \u000120 \u0003C prior to PCR\r\namplification.\r\n2.4. ISSR analysis\r\nA total of 23 Inter-simple sequence repeat (ISSR) primers were\r\ninitially screened in 10 representative samples from the 27 lan\u0002Table 1\r\nDetails of 27 melon landraces in the present study.\r\nNo. Code Local name Origin Horticultural variety (group) Latitude Longitude\r\nCity\r\n1 GER Gergah Gilan-e Gharb var. dudaim 34\u0003100\r\nN 46\u0003000E\r\n2 MIKE Mirpanj Kermanshah var. inodorus 34\u0003180\r\nN 47\u0003040E\r\n3 GES Garmak Esfahan var. reticulates 32\u0003380\r\nN 51\u0003390E\r\n4 SHA Talebi Shahabadi Esfahan var. reticulates 32\u0003380\r\nN 51\u0003390E\r\n5 GOR Gorgab Esfahan var. inodorus 32\u0003380\r\nN 51\u0003390E\r\n6 KONA Komboze Najafabad var. inodorus 32\u0003450\r\nN 51\u0003150E\r\n7 AHAR Ahar Ahar var. ameri 38\u0003280\r\nN 47\u0003040E\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "8 TSAV Talebi Saveh Saveh var. reticulates 35\u0003010\r\nN 50\u0003210E\r\n9 BANI Barge Ney Mahallat var. inodorus 33\u0003540\r\nN 50\u0003270E\r\n10 TONI Tozard Mahallat var. inodorus 33\u0003540\r\nN 50\u0003270E\r\n11 ZANI Zard Mahallat var. inodorus 33\u0003540\r\nN 50\u0003270E\r\n12 BONI Bodagh Mahallat var. inodorus 33\u0003540\r\nN 50\u0003270E\r\n13 AlSI Alashalta Sijaval Bandar Torkaman IV* 36\u0003540\r\nN 54\u0003040E\r\n14 KSI Khiyari Sijaval Bandar Torkaman IV 36\u0003540\r\nN 54\u0003040E\r\n15 KHM Khatoni Nishapur var. inodorus 36\u0003120\r\nN 58\u0003470E\r\n16 NB Nishbaba Nishapur var. ameri 36\u0003120\r\nN 58\u0003470E\r\n17 SANI Sabz Nishapur var. inodorus 36\u0003120\r\nN 58\u0003470E\r\n18 GNI Garmak Nishapur var. reticulates 36\u0003120\r\nN 58\u0003470E\r\n19 GB Ghanat Boshroye Nishapur var. inodorus 36\u0003120\r\nN 58\u0003470E\r\n20 TS Tashkandi Nishapur var. inodorus 36\u0003120\r\nN 58\u0003470E\r\n21 TISA Til Sabz Nishapur var. cantalupensis 36\u0003120\r\nN 58\u0003470E\r\n22 TA Til Atashi Nishapur var. cantalupensis 36\u0003120\r\nN 58\u0003470E\r\n23 TM Til Magasi Nishapur var. cantalupensis 36\u0003120\r\nN 58\u0003470E\r\n24 KN Khaghani Nishapur var. inodorus 36\u0003120\r\nN 58\u0003470E\r\n25 AV Eyvanaki Garmsar var. inodorus 35\u0003130\r\nN 52\u0003200E\r\n26 HM Hajmoshalahi Gonabad var. inodorus 34\u0003210\r\nN 58\u0003410E\r\n27 CP Chahpaliz Gonabad var. inodorus 34\u0003210\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "N 58\u0003410E\r\n* IV = Intermediate Varietes.\r\n600 M. Maleki et al. / Journal of Genetic Engineering and Biotechnology 16 (2018) 599–606\ndraces. Ten primers which produced clear, reproducible and poly\u0002morph fragments were selected (Table 3). Polymerase chain reac\u0002tion (PCR) mixture contained: 20 ng DNA, 1.15 mM MgCl2,\r\n0.77 mM primer, 0.15 mM dNTPs, 1X PCR buffer, 0.5 unit of Taq\r\nDNA polymerase (Smart taq DNA polymerase, SinaclonTM, Iran) in\r\na total volume of 13 mL. The ISSR PCR was performed as follow: ini\u0002tially, 3 min of denaturing at 95 \u0003C, 1 min of denaturing at 95 \u0003C,\r\n1 min annealing at 30–55 \u0003C (depending on primer) and 2 min of\r\nelongation at 72 \u0003C for 34 cycles. A final cycle was allowed at\r\n72 \u0003C for 10 min. The PCR of ISSR were carried out in a Thermocy\u0002cler (C 1000TM Thermal Cycler, BIORAD, USA). The PCR products\r\nwere analyzed on 10% polyacrylamide gels in 1x TBE buffer run\u0002ning at 400 v for 1 h and then silver stained according to the\r\nreported protocol [24]. Inter-microsatellite bands sizes were esti\u0002mated comparing their migration with DNA size marker (GeneRu\u0002lerr 100 bp Plus DNA Ladder 100–3000 bp, Fermentas, USA).\r\n2.5. Statistical analysis\r\n2.5.1. Morphological traits\r\nMeans and SE means of all quantitative traits were calculated\r\nby Minitab 17 (Minitab Inc., State College, PA, U.S.A.). SAS statisti\u0002cal software (V. 9.0) was applied to reveal relationship among vari\u0002eties with regard to metric traits (Table 4). Orthogonal contrasts\r\nanalysis was used to compare melon groups with respect to mor\u0002phological traits.\r\n2.5.2. ISSR genotyping\r\nA binary data matrix (presence (1)/absence (0)) obtained from\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "scoring polymorphic bands. Nei’s genetic distance applied to draw\r\nPolar dendrogram based on UPGMA (Unweighted pair-group\r\nmethod using arithmetic average) by PowerMarker software [25]\r\nand visualized with FigTree v1.4.3 software [26]. The computer\r\nprogram GeneAlex 6.501 [27] was used to calculate statistical mea\u0002sures of genetic variation (i.e., Nei’s gene diversity [28]), Shannon’s\r\ninformation index and percentage of polymorphic loci (PPL) for Ira\u0002nian melon genotypes. In addition, Analysis of molecular variance\r\nFig. 1. Map of Iran showing provinces where landraces have been collected (shown with a green asterisk). These provinces including Esfahan (Esfahan & Najafabad cities),\r\nMarkazi (Saveh & Mahalat cities), Kermanshah (Kermanshah & Gilan-e Gharb cities), East Azerbaijan (Ahar city), Golestan (Bandar Torkaman city), Razavi Khorasan (Gonabad\r\n& Nishapur cities), Semnan (Garmsar city).\r\nFig. 2. For the studied melon landraces based on the ISSR marker data, value of DK\r\nfrom structure analysis as a function of K, calculated following the DK methods as\r\nproposed by Evanno et al. [33]. The modal value of these distributions indicates the\r\ntrue K or the highest level of structure, here three subgroups.\r\nM. Maleki et al. / Journal of Genetic Engineering and Biotechnology 16 (2018) 599–606 601\n(AMOVA) procedure was used to calculate the partitioning of\r\ngenetic variance among and within populations.\r\nPolymorphism information content (PIC) of the ISSR markers\r\nwas calculated in an Excel file by following formula: PICi = 2 fi (1\r\n– fi), where the PICi is the polymorphic information content of mar\u0002ker ‘i’, fi is the frequency of the amplified fragments (band present)\r\nand 1 – fi is the frequency of non-amplified fragments (band\r\nabsent) [29,30] (Table 3). PIC for dominant markers (like ISSR) ran\u0002ged from 0 to 0.5 but ranged from 0 to 1 for co-dominant markers\r\n(such as SSR) [31].\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Table 2\r\nQualitative and quantitative traits evaluated on 27 melon landraces collected from seven provinces of Iran.\r\nLandraces PGH* FSH* PCIF* MCF* FRI* DT* (day) AF* (kg) RT* (mm) TSS* (\u0003Brix) FT* (mm)\r\nMIKE Indeterminate Acorn Light green White Not present 108 2.81 3.21 11.77 41.41\r\nKHM Indeterminate Elliptical Light green White Intermediate 100.5 1.92 2.6 11.62 30.9\r\nGOR Indeterminate Ovate Light green White Not present 105 2.08 1.5 7.4 37.7\r\nBONI Indeterminate Acorn Intermediate White Not present 103 3.16 4.89 8.38 25.86\r\nKONA Indeterminate Ovate Light green White Not present 89.67 1.98 2.35 10.03 28.72\r\nBANI Indeterminate Elongate Light green White Not present 101.3 1.7 3.38 10.48 26.8\r\nTONI Indeterminate Acorn Intermediate Salmon Not present 96.7 2.7 4.12 10.19 34.15\r\nZANI Indeterminate Acorn Light green White Not present 103.58 2.01 3.99 10.07 30.86\r\nSANI Indeterminate Elongate Dark green Pale green Intermediate 100.93 1.98 1.21 11.96 26.96\r\nAV Indeterminate Elliptical Light green White Not present 100.83 2.29 2.74 11.94 31.59\r\nTS Indeterminate Elliptical Intermediate Pale orange Intermediate 78.47 1.46 4.27 11.6 28.43\r\nKN Indeterminate Elliptical Intermediate Pale green Superficial 104 2.48 2.22 11.7 31.85\r\nCP Indeterminate Elliptical Light green Pale orange Not present 103 1.48 1.95 10.67 25.62\r\nGB Indeterminate Elongate Light green White Superficial 107.67 2.34 2.3 9.5 30.07\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "HM Indeterminate Elongate Intermediate Pale green Superficial 100.5 2.06 3 9.63 24.65\r\nTSAV Compact Globular Light green Green Intermediate 86 1.52 3.11 8 33.53\r\nGES Compact Oblate Light green Pale orange Superficial 65.63 1.19 0.83 6.75 26.05\r\nSHA Dwarf Oblate Light green Pale orange Deep 78.83 1.92 0.78 5.8 26.96\r\nGNI Compact Oblate Intermediate Pale orange Superficial 89.33 1.1 0.57 5.57 31.04\r\nTISA Indeterminate Globular Light green Green Superficial 84.55 1.29 2.48 7.23 29.28\r\nTA Indeterminate Globular Light green Salmon Superficial 91.53 2.09 1.88 8.02 33.68\r\nTM Indeterminate Ovate Light green Pale green Superficial 89.1 1.58 2.31 9.37 27.85\r\nAHAR Determinate Ovate Dark green Pale orange Not present 86.42 0.8 1.27 11.34 24.35\r\nNB Determinate Ovate Dark green Pale orange Not present 85.17 1.02 2.26 11.4 28.4\r\nGER Dwarf Oblate Intermediate Pale green Not present 63.11 0.34 0.71 6.05 16.4\r\nALSI Determinate Globular Intermediate Pale green Superficial 71.67 1.19 2.47 10.09 31.66\r\nKSI Determinate Elongate Dark green White Not present 89.33 1.43 1.72 11.46 28.69\r\nMax Indeterminate ND** Light green White Not present 108 3.16 4.89 11.96 43.90\r\nMin Dwarf ND** Dark green Salmon & Green Deep 63.11 0.34 0.57 5.57 15.80\r\nMean 91.99 1.78 2.37 9.55 29.678\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "SE Mean 1.43 0.07 0.13 0.24 0.55\r\n* PGH: plant growth habit, FSH: fruit shape, PCIF: primary color of immature fruit, RT: rind thickness, MCF: main color of flesh, FRI: fruit ribbing, DT: days to first mature\r\nfruit, AF: average fruit weight per bush, RT: skin thickness, TSS: total soluble solid, FT: Flesh thickness.\r\n** ND: Not Dominate.\r\nTable 3\r\nGenetic features of 10 ISSR primers used for the study.\r\nISSR Primer sequence Tm (\u0003C) Total bands Polymorphism (%) PIC\r\n1 50\r\n-(TG)8G-30 41.9 20 45.00 0.20\r\n2 50\r\n-(AG)8T-30 29.9 26 73.08 0.36\r\n3 50\r\n-(GA)8T-30 30.3 21 80.95 0.25\r\n4 50\r\n-(GA)8YC-30 35.8 17 29.41 0.15\r\n5 50\r\n-(AC)8YG-30 43.6 20 10.00 0.27\r\n6 50\r\n-(CA)8A-30 52.7 14 35.71 0.36\r\n7 50\r\n-(AC)8G-30 54.9 10 40.00 0.15\r\n8 50\r\n-(GAA)6–30 47.8 16 62.50 0.29\r\n9 50\r\n-(GACA)4–30 48 13 76.92 0.30\r\n10 50\r\n-(GA)8A-30 50 16 37.50 0.31\r\nMean 17.30 50.29 0.26\r\nTable 4\r\nMean contrast of five metric traits in five horticultural groups and one intermediate group (IV) of Iranian melon base on orthogonal contrasts analysis.\r\nN DT* RT* AF* TSS* FT*\r\ninodorus 15 100.21 a 2.92 a 2.17 a 10.46 a 91.11 a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "reticulatus 4 79.95 c 1.32 d 1.44 bc 6.53 c 94.07 a\r\ncantalupensis 3 88.39 b 2.22 b 1.65 b 8.21 b 90.82 a\r\nameri 2 85.79 bc 1.77 c 0.91 cd 11.37 a 79.12 b\r\ndudaim 1 63.11 d 0.71 e 0.34 d 6.05 c 49.20 c\r\nIV 2 80.50 c 2.09 bc 1.31 bc 10.78 a 90.51 a\r\n*: Significant at 0.05 level.\r\nDT: days to first mature fruit, AF: average fruit weight per bush, RT: skin thickness, TSS: total soluble solid, FT: Flesh thickness.\r\n602 M. Maleki et al. / Journal of Genetic Engineering and Biotechnology 16 (2018) 599–606\n2.5.3. Population structure\r\nTo detect population structure, estimating the number of popu\u0002lations (K) and to assign individuals to one or more of these popu\u0002lations (K) the Bayesian analysis of population structure was\r\ncarried out on the entire data set using the program STRUCTURE\r\nversion 2.3 [32]. The number of genetically distinct clusters (K)\r\nwas adjusted to range from 1 to 15. The model was run for 10 inde\u0002pendent simulations for each K, used a burn-in length of 10,000\r\nand a run length of 100,000 iterations. Next, the program’s domi\u0002nant marker settings, the ‘‘no admixture” model was used, and\r\nuncorrelated allele frequencies among populations were assumed.\r\nSince the distribution of log likelihood L(K) often did not indicate a\r\nmode for the true K, an ad hoc measure DK proposed by Evanno\r\net al. [33] was used to ascertain the true K present in the ISSR mar\u0002ker data.\r\n3. Results\r\n3.1. Morphological comparisons and field observations\r\nBased on 10 morphological characteristics are provided in\r\nTable 2, almost most of the landraces (66.7%) had indeterminate\r\ngrowth habit, rest of them had determinate (14.8%), compact\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "(11.1%) and dwarf (7.4%) growth habit. Six fruits shape were\r\nobserved in the studied landraces (Table 2) including; elongate,\r\nelliptical and ovate fruits, with the same frequencies (18.5%). Sim\u0002ilarly, globular, acorn and oblate fruits with the same and low\r\nabundances (17.8%). There were three different primary colors\r\nfor immature fruits: light green (55.5%), intermediate (29.6%) and\r\ndark green (14.8%). White, pale orange, pale green and salmon col\u0002ors for flesh were observed at 37.0, 25.9, 22.2 and 7.7 percent of\r\nfruits, respectively. Fruit ribbing wasn’t observed at 48.1% of lan\u0002draces in the present study, the remained landraces presented\r\nintermediated (14.8%), superficial (33.3%) and deep (3.7%) fruit rib\u0002bing (Table 2).\r\nHorticultural groups (vars. inodorous, cantalupensis, reticulatus,\r\nameri, dudaim, and an intermediate variety of melon) indicated\r\nvarious values of quantitative characteristics which all were\r\nrelated to fruits. Mean days to mature fruits differed significantly\r\namong landraces and ranged from 63.11 days (for GER landrace)\r\nto 108 days (for MIKE landrace). Time of maturity according to\r\nthe descriptor of IPGRI divided into four main classes: early\r\n(<70 days), intermediate (70–90 days), late (91–110 days) and very\r\nlate (>110 days). This trait was significantly different among the six\r\ngroups with the inodorus > cantalupensis > ameri > IV > reticula\u0002tus > dudaim (Table 4). Therefore, the inodorus variety had the lat\u0002est mature fruit among the horticultural groups. The cantalupensis,\r\nameri and reticulatus varieties had intermediate mature fruit. The\r\nearliest mature fruits among horticultural groups were founded\r\nin dudaim variety with 63.11 days to the first mature fruit. The very\r\nlate mature fruit wasn’t observed among the landraces.\r\nRind thickness was different among the horticultural groups\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "with the inodorus > cantalupensis > IV > ameri > reticula\u0002tus > dudaim. Means ranged from 0.71 (dudaim) to 2.92 (inodorus)\r\nmm among the Iranian melon varieties. Although differences\r\nbetween cantalupensis and IG, ameri and IG were not significant\r\nstatistically (Table 4).\r\nAverage fruit weight per bush differed among the horticultural\r\ngroups: inodorus > cantalupensis > reticulatus > IV > ameri > dudaim.\r\nMeans ranged from 0.34 (dudaim) to 2.17 (inodorus) kg. There\r\nwas no significant difference among cantalupensis, IV and reticula\u0002tus groups. In addition, there were no significant differences among\r\nreticulatus, ameri and IV groups (Table 4).\r\nTSS differed among the groups with ameri > IV > inodorus > can\u0002talupensis > reticulatus > dudaim. Mean of TSS ranged from 6.05\r\n(dudaim) to 11.37 (ameri) \u0003Brix. Among ameri, IV groups and ino\u0002dorus and between reticulatus and dudaim varieties there were no\r\nsignificant differences based on orthogonal contrasts analysis\r\n(Table 4).\r\nFlesh thickness means ranged from 49.20 (dudaim) to 94.07\r\n(reticulatus) mm. It differed among horticultural groups with retic\u0002ulatus > inodorus > cantalupensis > IV > dudaim. Though there were\r\nno significant differences among inodorus, reticulatus, cantalupensis\r\nand IV groups (Table 4).\r\n3.2. Population structure & molecular characterization using ISSR\r\nmarkers\r\nUp to 25 ISSR primers were evaluated in the present study. Con\u0002sequently, 10 ISSR primers which produced high levels of polymor\u0002phism and clear fragments were selected to DNA fingerprinting of\r\n270 individuals of melon landraces. A total of 173 markers were\r\ndetected among all subjected melon genotypes which 87 markers\r\nwere polymorph. The average numbers of generated ISSR markers\r\nwere 17.30 markers per primer and the level of polymorphism was\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "50.29%. The number of polymorphic markers detected by each pri\u0002mer varied from 2 (50\r\n-(AC)8G-30) to 17 (50-(GA)8T-30). The highest\r\npolymorphism percent was related to P3 ((GA)8T). PIC for each pri\u0002mer ranged from 0.15 to 0.36 with a mean value 0.26 (Table 3).\r\nHigh value of PIC was related to (AG)8T primer which resulting in\r\nmore efficiency as compared to the other primers. Two of these\r\nISSR primers were very informative (PIC > 0.35) with the highest\r\nPIC values recorded for (AG)8T and (CA)8A.\r\nBased on the statistical variation measures, the PPL ranged from\r\n12.5% (MIKE landrace) to 35.23% (TONI and ZANI landraces), with\r\nan average of 22.6%. The average effective number of alleles per\r\nlocus was 1.1740. Nei’s gene diversity (H) varied from 0.044 (HM\r\nand MIKE landraces) to 0.140 (TONI landrace), with an average of\r\n0.08, and Shannon’s information index (I) ranged from 0.067 (HM\r\nlandrace) to 0.186 (ZANI landrace), with an average of 0.121.\r\nThe UPGMA tree based on Nei’s genetic distance was depicted\r\nin Fig. 3(B) which the 27 populations were separated to two main\r\nclusters (C1 and C2). According to the dendrogram, GER was the\r\nmost distant landrace and was alone in cluster 1 (White highlight)\r\n(Fig. 3B). Within C2 two main branches were defined, subcluster 1\r\n(SC1) and subcluster 2 (SC2). Within each of the SC1 and SC2 sub\u0002clusters, two groups, G1, G2 in SC1 and G3 and G4 in SC2, respec\u0002tively, were ascertained (Fig. 3B). In SC1 all landraces had sweet\r\nand edible fruits. The G1 includes 17 landraces, all from the vars.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "inodorus (15 landraces, Pink highlight) and ameri (two landraces,\r\nBlue highlight). In this group, TONI, BANI, BONI and ZANI landraces\r\nhad a similar geographic origin. In the G2, KSI and ALSI landraces\r\nwere belong to the same region. According to morphological traits,\r\nALSI landrace had characteristics such as smooth (special trait for\r\ngroup cantalupensis) and without ribs skin (special trait for group\r\nreticulatus) which indicated it is an intermediate variety, but\r\naccording to molecular analysis ALSI landrace alongside KSI lan\u0002drace were placed in the same group (G2, Purple highlight)\r\n(Fig. 3B). Subcluster 2 includes seven landraces which divided into\r\ntwo groups (G3 and G4, Red and Yellow highlight) (Fig. 3B). can\u0002talupensis and reticulatus varieties genetically well separated from\r\neach other as evidenced at the dendrogram. All landraces in group\r\n3 were belonged to var. cantalupensis. The G4 had three landraces\r\nwhich all belong to var. reticulatus.\r\nBased on Nei’s genetic distance matrix (data not were shown),\r\nthe most similar genotypes were BANI and TONI (0.95) followed\r\nby BANI and ZANI (0.94), AHAR and NB (0.94); the most dissimilar\r\nones were followed by GER and TS (0.58), GER and GOR (0.59). GER\r\nas a separate landrace in clustering had the most similarity (0.72)\r\nwith GES landrace. The cophenetic correlation coefficient esti\u0002mated by Mantel’s test and revealed a high and significant cophe\u0002M. Maleki et al. / Journal of Genetic Engineering and Biotechnology 16 (2018) 599–606 603\nnetic correlation coefficient (r = 0.863) between cluster analysis\r\nand the similarity coefficient matrix.\r\nAnalysis of molecular variance (AMOVA) showed that the per\u0002centage of genetic variation among and within Iranian melon lan\u0002draces are 31% and 69%, respectively. A high significant (P < 0.001)\r\ngenetic difference was found among and within populations.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "The L(K) obtained by STRUCTURE did not show a clear cutoff for\r\nthe true subgroups with K ranging from 1 to 15 (data not shown),\r\nand thus the ad hoc measure DK was used to infer the subgroups.\r\nFor the entire melon landraces herein, an obvious optimum regard\u0002ing DK was observed at K =3 (Fig. 2). Ten melon landraces were\r\nassigned to Pop 1, eight landraces to Pop 2 and nine landraces to\r\nPop 3 (Fig. 3B).\r\n4. Discussion\r\nVarious studies have investigated the molecular and morpho\u0002logical variation of melon genotypes in Iran. In previous studies,\r\nRaghami et al. [19] used SSR markers to assess genetic diversity\r\namong Iranian melon landraces and their relationships with melon\r\nlandraces of diverse origins. They used three horticultural groups\r\n(inodorus, dudaim, and cantalupensis) which were known as ende\u0002mic commercial melon landraces in Iran. They emphasize on the\r\nimportance of Iranian melon landraces for studying of origin and\r\ndiversification of vars. inodorus and dudaim. Therefore, the present\r\nstudy involved assessment genetic diversity of more extent horti\u0002cultural groups of Iranian melon landraces including; inodorus,\r\nameri, reticulatus, cantalupensis, and dudaim, which all of them\r\nwere known as the commercial landraces. The present study eval\u0002uated some landraces that had not been studied before, such as\r\n‘Alashalta Sijaval’, ‘Khiyari Sijaval’ and ‘Barge Ney’ landraces. Our\r\nresults indicated that ISSR technique alongside polyacrylamide\r\ngel analysis would be the appropriate method to classify genotypes\r\nin horticultural groups of melon. However, according to Garcia\u0002Mas et al. [10], if more data is provided, any marker method would\r\nbe optimal for genetic similarity studies in melon germplasm.\r\nIn the present study, statistical variation measures (H = 0.08\r\nand I = 0.121, and 22.6% of polymorphic loci) was less than\r\nRaghami et al. [19] results. Results of AMOVA based upon ISSR data\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "is consistent with previous studies by different molecular markers\r\non Iranian melon landraces [19,21], where genetic variation within\r\npopulations was more than among populations.\r\nNon-sweet genotype (specific characteristics of dudaim group)\r\nwas well separated from sweet genotypes (inodorus, ameri, reticu\u0002latus, cantalupensis) which was in agreement with some previous\r\nstudies [10,34–36]. In another hand, a distinction between geno\u0002types of the inodorus and cantalupensis groups was also observed\r\nthat was in accordance with some researchers achievements\r\n[19,36,37]. Inconsistent with Raghami et al. [19], despite the signif\u0002icant differences between vars. cantalupensis and inodorus in mor\u0002phology and physiology, the molecular resolution between them\r\nwas slight. Therefore, comparatively small number of genes might\r\nbe responsible for the difference between horticultural groups\r\n[35].\r\nUPGMA cluster analysis indicated some Iranian genotypes that\r\nare belonging to the same geographical region were clustered in\r\nthe common group (i.e. ‘TONI’, ‘BANI’, ‘BONI’ and ‘ZANI’ landraces\r\nfrom Mahallat city, ALSI and KSI landraces from Bandar Torkaman\r\ncity). The result was confirmed by Roy et al. [11] on wild Indian\r\nmelon genotypes, Erdinc et al. [38] on Turkish melon landraces\r\nand Raghami et al. [19] on Iranian melon landraces. Although mor\u0002phological characteristics of ‘KSI’ and ʻALSI’ landraces were close to\r\ninodorus variety (for KSI landrace) and cantalupensis and reticulatus\r\nFig. 3. (A) Polar dendrogram based on UPGMA method and Nei [28] genetic distances among landraces. (B) Results based on K = 3 using a Bayesian framework implemented\r\nin the STRUCTURE program across individuals from the studied landraces.\r\n604 M. Maleki et al. / Journal of Genetic Engineering and Biotechnology 16 (2018) 599–606\n(ALSI) varieties, they separated from G1 and formed a separated\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "group (G2) together. According to Bayesian analysis, these two lan\u0002draces placed in Pop3 which involving genotypes such as ‘SANI’,\r\n‘HM’, ‘KN’, ‘KHM’, ‘GB’, ‘CP’ and ‘AV’. Intermediate forms might\r\nhave been formed among horticultural groups due to traditional\r\nfarming practices employed by some local small-scale melon\r\ngrowers by centuries of production. Intra-specific hybrids among\r\nmelon genotypes are rather common in Iran. Thus, it is no strange\r\nto observe such a wide genetic variation among Iranian melon\r\ngenotypes.\r\nInodorus variety is an extensive horticultural group. In the pre\u0002sent study, all of the Iranian inodorus genotypes had characteristics\r\nsuch as indeterminate growth habit, different shapes of fruits, and\r\nmostly white flesh, with or without fruit ribbing. Regarding quan\u0002titative traits, the inodorus group had the highest values in com\u0002pare to other groups except flesh thickness and as well as total\r\nsoluble solid (TSS). Most of the landraces used in the present study\r\nwere belonged to this horticultural group and had such an impor\u0002tant commercial place in Iran. Based on UPGMA cluster analysis,\r\ninodorus group divided to two parts, part 1 including ‘MIKE’, ‘TONI’,\r\n‘BANI’, ‘BONI’, ‘ZANI’, ‘GOR’, ‘KONA’ genotypes, and part 2 including\r\n‘TS’, ‘SANI’, ‘HM’, ‘KN’, ‘KHM’, ‘GB’, ‘CP’ and ‘AV’ genotypes (Fig. 3B).\r\nOur results revealed that ameri group was genetically very close to\r\ninodorus variety and placed at the part 2. In addition, Bayesian\r\nanalysis indicated that all genotypes of part 2 couple with interme\u0002diate varieties (‘ALSI’ and ‘KSI’ landraces) form Pop 3 apart from\r\n‘TS’ genotype. The ameri is one of the horticultural group which\r\nhas not been extensively investigated in previous studies. ‘NB’\r\nand ‘AHAR’ are landraces that their morphological traits were so\r\nmatched to group ameri. Regarding morphological traits, the ameri\r\nhad the maximum values at TSS. All of the inodorus genotypes had\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "indeterminate growth habit, while in ameri group, determinate\r\ngrowth habit was observed. Nevertheless, results of UPGMA den\u0002drogram and Bayesian analyses showed that ameri group did not\r\nseparate in a distinct group and clustered in the common group\r\nwith inodorus. Since ‘NB’ and ‘AHAR’ landraces were very similar\r\nto commercial cultivar of ‘Ananas’, so probably this cultivar was\r\nimported to Iran and gradually was replaced with poor economi\u0002cally endemic landraces by farmers. Hence, it can be an alarming\r\nsign for extinction of indigenous Iranian melon landraces. There\r\nis a genotype suggested by Pitrat [2] as a member of ameri group,\r\nnamed ‘Khatoni’. Raghami et al. [19] noted that ‘Khatoni’ (inodorus\r\ntype of Iranian landraces) possesses some characteristics like net\u0002ted skin surface, crisp flesh and various fruit shape, no climacteric,\r\nand long shelf life which does not quite match with vars. inodorus\r\nand var. ameri. Thus, they suggested a specific group called iranian\u0002sis group, as previously suggested by Lotfi and Kashi [39]. Despite\r\nthe facts that mentioned above, it can be recommended that ameri\r\nis very close to inodorus and can be merged into this particular\r\ngroup. Aierken et al. [40] also proposed ameri group should be clas\u0002sified as inodorus.\r\nRaghami et al. [19] noted that there are five known melon\r\ngroups (in Persian word) consisting ‘Kharboze’, ‘Talebi’, ‘Garmak’,\r\n‘Dastanbou’ and ‘Khiarchanbar’ in Iran. They stated that ‘‘based\r\non classification proposed by Pitrat [2] characters of ‘Talebi’, ‘Gar\u0002mak’, ‘Dastanbou’ and ‘Khiarchanbar’ is close to vars. cantalupensis,\r\nreticulatus, dudaim and flexuosus, respectively”. Given that reticula\u0002tus group was mainly differed from cantalupensis group in having a\r\nnetted surface [41] and also based on UPGMA cluster analysis, we\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "suggest classifying ‘Talebi’ genotype as reticulatus variety. More\u0002over, Ritschel et al. [42] quote from Robinson and Decker\u0002Walters that they suggested the reticulatus group should be part\r\nof the cantalupensis group.\r\nBayesian analysis assigned ten landraces to Pop 1, eight lan\u0002draces to Pop 2 and nine melon landraces to Pop 3. Pop 1 and\r\nPop 2 included all genotypes placed in SC1, and Pop 3 involves\r\nall genotypes placed in SC2 and C2. In contrary, as evidenced from\r\nFig. 3B, the Bayesian analysis could not distinct ‘GER’ genotype\r\nfrom other genotypes and indicated a high relationship between\r\nreticulatus and cantalupensis landraces. Almost close results have\r\nbeen observed between Bayesian and UPGMA cluster analyses,\r\nhence both of them suggested for genetic population studies.\r\n5. Conclusion\r\nJudging from the notes, the classification of these genotypes is\r\nconfusing and controversial. Consequently, according to our\r\nresults, we propose to merging some groups which are genetically\r\nso close, namely, ameri group could be merged into inodorus group\r\nand reticulatus group merged into cantalupensis group, although\r\nfurther studies by more extant populations and molecular markers\r\nshould be carry out to confirm this hypothesis. Given the fact that\r\nIran is one of the main regions of melon diversity, there are still\r\nmany other landraces that need to be identified and collected\r\nbefore their extinction. These landraces are the result of hundreds\r\nof years of selection by local farmers and are a legacy for the future,\r\nwhich can be applied to breeding programs and to release new\r\nelite cultivars.\r\nAcknowledgments\r\nAuthors thanks Tarbiat Modares University, Tehran, Iran for\r\nfinancial support of this research. Also, authors are grateful to Dr.\r\nFalahati-Anbaran, Dr. Mostafa Farajpour, and Dr. Ali Mokhtassi Bid\u0002goli for their helps in statistical analyses.\r\nReferences\r\n[1] Garg N, Sidhu A, Cheema D. Haryana J. Hort. Sci. 2007;36:192–7.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "[2] Pitrat M. In: Prohens J, Nuez F, editors. Melon (Cucumis melo L.), Springer New\r\nYork: New York; 2008.\r\n[3] Kerje T, Grum M. In: VII Eucarpia meeting on cucurbit genetics and breeding\r\n510. Paris: Acta Horticulture; 2000.\r\n[4] Luan F, Delannay I, Staub JE. Euphytica 2008;164:445–61.\r\n[5] Mallick M, Masui M. Sci Hort 1986;28:251–61.\r\n[6] FAOSTAT, FAO statistical databases; 2017.\r\n[7] Jeffrey C. Bot. J. Linnean Soc. 1980;81:233–47.\r\n[8] Kirkbride JH. Parkway Publishers, Boone; 1993.\r\n[9] Pitrat M, Hanelt P, Hammer K. In: VII Eucarpia meeting on cucurbit genetics\r\nand breeding 510; 2000.\r\n[10] Garcia-Mas J, Oliver M, Gomez-Paniagua H, De Vicente M. Theor Appl Genet\r\n2000;101:860–4.\r\n[11] Roy A, Bal S, Fergany M, Kaur S, Singh H, Malik AA, Singh J, Monforte A, Dhillon\r\nN. Genet Resour Crop Evol 2012;59:755–67.\r\n[12] Szamosi C, Solmaz I, Sari N, Bársony C. Sci Hort 2010;124:170–82.\r\n[13] Zhang Y, Fan X, Aierken Y, Ma X, Yi H, Wu M. Genet Resour Crop Evol\r\n2017;64:1023–35.\r\n[14] Van de Wouw M, Kik C, van Hintum T, van Treuren R, Visser B. Plant Genet Res\r\n2010;8:1–15.\r\n[15] Krasteva L. In: VII Eucarpia meeting on cucurbit genetics and breeding 510;\r\n2000.\r\n[16] Rao VR, Hodgkin T. Plant Cell Tissue Organ 2002;68:1–19.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "[17] Danesh M, Lotfi M, Azizinia S. Int J Horti Sci Technol 2015;2:43–53.\r\n[18] Kohpayegani J, Behbahani M. Biotechnology 2008;7:19–26.\r\n[19] Raghami M, López-Sesé AI, Hasandokht MR, Zamani Z, Moghadam MRF, Kashi\r\nA. Plant Syst Evol 2013;300:139–51.\r\n[20] Feyzian E, Javaran MJ, Dehghani H, Zamyad H. JWSS-Isfahan Univ Technol\r\n2007;11:151–63.\r\n[21] Soltani F, Akashi Y, Kashi A, Zamani Z, Mostofi Y, Kato K. Breed Sci\r\n2010;60:34–45.\r\n[22] Bagheriyan S, Karimi HR, Esmaelizadeh M. Int J Veg Sci 2015;21:36–52.\r\n[23] Edwards K, Johnstone C, Thompson C. Nucl Acids Res 1991;19:1349.\r\n[24] Bassam BJ, Caetano-Anollés G, Gresshoff PM. Anal Biochem 1991;196:80–3.\r\n[25] Liu K, Muse S. PowerMarker software, Version, 2; 2005.\r\n[26] Rambaut A. FigTree v1. 4.3 software, Institute of Evolutionary Biology,\r\nUniversity of Edinburgh; 2016.\r\n[27] Peakall ROD, Smouse PE. GeneAlex 6.501, Mol Ecol notes 2006;6:288–95.\r\n[28] Nei M. Genetics 1978;89:583–90.\r\n[29] Roldàn-Ruiz I, Dendauw J, Van Bockstaele E, Depicker A, De Loose M. Mol\r\nBreed 2000;6:125–34.\r\n[30] Grativol C, da Fonseca Lira-Medeiros C, Hemerly AS, Ferreira PCG. Mol Biol Rep\r\n2011;38:4245–56.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "M. Maleki et al. / Journal of Genetic Engineering and Biotechnology 16 (2018) 599–606 605\n[31] De Riek J, Calsyn E, Everaert I, Van Bockstaele E, De Loose M. Theor Appl Genet\r\n2001;103:1254–65.\r\n[32] Pritchard JK, Stephens M, Donnelly P. STRUCTURE version 2.3. Genetics\r\n2000;155:945–59.\r\n[33] Evanno G, Regnaut S, Goudet J. Mol Ecol 2005;14:2611–20.\r\n[34] Staub JE, López-Sesé AI, Fanourakis N. Euphytica 2004;136:151–66.\r\n[35] Stepansky A, Kovalski I, Perl-Treves R. Plant Syst Evol 1999;217:313–32.\r\n[36] Yildiz M, Ekbic E, Keles D, Sensoy S, Abak K. Sci Hort 2011;130:349–53.\r\n[37] Sensoy S, Büyükalaca S, Abak K. Genet Resour Crop Evol 2007;54:1351–65.\r\n[38] Erdinc C, Ekincialp A, Yildiz M, Kabay T, Turkmen O, Sensoy S. Yuzuncu Yil\r\nUniversity J Agri Sci 2013;23:264–70.\r\n[39] Lotfi M, Kashi A. In: Andrews S, Leslie AG, Alexander C, editors, Taxonomy of\r\ncultivated plants: third inter symposium. Kew: Royal Botanic Gardens; 1999.\r\n[40] Aierken Y, Akashi Y, Nhi PTP, Halidan Y, Tanaka K, Long B, Nishida H, Long C,\r\nWu MZ, Kato K. J Jpn Soc Hortic Sci 2011;80:52–65.\r\n[41] Munger HM, Robinson RW. Cucurbit Genet Coop Rep 1991;14:43–4.\r\n[42] Ritschel PS, Lins TC, Tristan RL, Buso GS, Buso JA, Ferreira ME. BMC Plant Biol\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7065253984796733182,
+        "filename": "main.PMC6353764.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 34,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "2004;4:9.\r\n606 M. Maleki et al. / Journal of Genetic Engineering and Biotechnology 16 (2018) 599–606\n\n"
+  }
+]

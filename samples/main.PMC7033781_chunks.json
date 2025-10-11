@@ -1,0 +1,194 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 3,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6992466310371446056,
+        "filename": "main.PMC7033781.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 4,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 8,
+      "version": "1.0.0"
+    },
+    "text": "Short communications and technical notes\r\nA photographic technique for quick assessment of mechanical isocenter\r\nof a linear accelerator\r\nJanne Heikkilä a,⇑, Jan Seppälä a, Jouni Nuutinen a,1, Antti Vanne b, Tapani Lahtinen a,1\r\na Cancer Center, Kuopio University Hospital, Kuopio, Finland\r\nb Kuava Ltd, Kuopio, Finland\r\narticle info\r\nArticle history:\r\nReceived 30 November 2016\r\nReceived in revised form 3 March 2017\r\nAccepted 27 March 2017\r\nAvailable online 28 April 2017\r\nKeywords:\r\nQuality assurance (QA)\r\nMechanical\r\nIsocenter\r\nLinear accelerator\r\nabstract\r\nDemands for mechanical accuracy of medical linear accelerators are increased due to the stereotactic and\r\nmodulated rotational treatments. Mechanical inaccuracies affect the size and shape of the mechanical\r\nand radiation isocenters. In practice, the mechanical isocenter is defined by the intersection of rotational\r\naxes. However, there are no simple tools to check the properties of the mechanical isocenter in 3D. We\r\nintroduce a new photography-based method for quick and sub-millimeter accurate determination of the\r\nmechanical isocenter. The method is based on image-processing algorithm and modified front pointer.\r\nThe results demonstrate the quick measurement and visualization of the mechanical isocenter.\r\n\u0001 2017 The Authors. Published by Elsevier Ireland Ltd on behalf of European Society for Radiotherapy &\r\nOncology. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/\r\nlicenses/by-nc-nd/4.0/).\r\nIntroduction\r\nMedical linear accelerators with a rotating gantry are based on an\r\nassumption that the rotational axes of the gantry, collimator, and\r\ntreatment couch intersect in a single point, an isocenter [1]. Therefore,\r\nthe definition of the isocenter is based on a surface that covers the\r\ncluster of isocenter points determined by rotational axes of the linear\r\naccelerator. Because of mechanical inaccuracies of the axes rotations\r\nit is better to speak about isocenter volume than isocenter point.\r\nAccording to the AAPM quality assurance (QA) protocol for\r\nmedical accelerators [1], mechanical and radiation isocenters are\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 3,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6992466310371446056,
+        "filename": "main.PMC7033781.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 4,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 8,
+      "version": "1.0.0"
+    },
+    "text": "recommended to be verified regularly. However, feasible and accu\u0002rate techniques or tools for QA of the mechanical isocenter in 3D\r\nare not available. At present, the mechanical isocenter is usually\r\nassessed by two pointers, a front pointer moving with a gantry, col\u0002limator or couch rotations and a fixed pointer independent on rota\u0002tions whose distances should be measured [2]. The distances can\r\nalso be measured using photo-detector plate if the front pointer\r\nis replaced by a laser [3]. Due to the lack of easy and accurate sys\u0002tems to register these distances in 3D with all collimator and gan\u0002try angle combinations, these kind of tests does not necessarily\r\nreach sub-millimeter accuracy in 3D.\r\nMany techniques have been introduced and published for the\r\ndetermination and QA of radiation isocenter [4–8]. These methods\r\nare often based on radiochromic film, electronic portal imaging\r\ndevices (EPID) or phosphor panels. However, the radiation isocen\u0002ter may deviate from the mechanical isocenter [9] justifying inde\u0002pendent determination of mechanical isocenter because a small\r\nand accurate radiation isocenter can be achieved only if the\r\nmechanical isocenter is verified to be stable and precisely adjusted.\r\nVerification of the accuracy of the mechanical isocenter requires\r\nan exact, repeatable, and automated method to track changes over\r\ntime. In the present investigation we introduce a new\r\nphotography-based method for the determination of mechanical\r\nisocenter. A modified front pointer, camera and an automatic\r\nimage-processing algorithm were used to determine and visualize\r\nthe size and shape of the mechanical isocenter in three dimensions.\r\nThe method is based on automated analysis of the series of single\r\nimages acquired during gantry and collimator rotations. The devel\u0002oped method for quick evaluation of mechanical isocenter with\r\nsub-millimeter accuracy produces also trend curves to detect slight\r\ntemporal changes in size and shape of the mechanical isocenter.\r\nMaterials and methods\r\nTechnical solution\r\nThe introduced system consists of a standard digital single-lens\r\nreflex (DSLR) camera, remote trigger, flash module, modified front\r\npointer, and image-processing software (MATLAB, The MathWorks\r\nInc., Natick, MA). The standard front pointer (Varian Medical Sys\u0002tems Inc, Palo Alto, USA) was modified by fixing a high-contrast\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 3,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6992466310371446056,
+        "filename": "main.PMC7033781.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 4,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 8,
+      "version": "1.0.0"
+    },
+    "text": "http://dx.doi.org/10.1016/j.tipsro.2017.03.001\r\n2405-6324/\u0001 2017 The Authors. Published by Elsevier Ireland Ltd on behalf of European Society for Radiotherapy & Oncology.\r\nThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).\r\n⇑ Corresponding author at: Cancer Center, Kuopio University Hospital, PO\r\nBox 100, FI-70029 Kuopio, Finland.\r\nE-mail address: janne.heikkila@kuh.fi (J. Heikkilä). 1 Present address: Delfin Technologies Ltd, Kuopio, Finland.\r\nTechnical Innovations & Patient Support in Radiation Oncology 2 (2017) 1–4\r\nContents lists available at ScienceDirect\r\nTechnical Innovations & Patient Support in Radiation Oncology\r\njournal homepage: www.elsevier.com/locate/tipsro\nball with a radius of 12 mm to the tip of the front pointer (Fig. 1a).\r\nThis ball is an imaging object and the center of the ball is automat\u0002ically detected by the image-processing software from images\r\ncaptured at different collimator, gantry, and couch angles. The soft\u0002ware also includes tools for image preparation, isocenter visualiza\u0002tion and trend curve analysis.\r\nImage capture\r\nIn the beginning of the isocenter test, the center of the ball was\r\npositioned at the assumed mechanical isocenter indicated by the\r\npatient positioning lasers. For data acquisition the camera was\r\nplaced on the couch and the front pointer was fixed to the gantry\r\n(Fig. 1a). Images were captured by using a remote trigger to pre\u0002vent camera movements during image acquisition. Imaging\r\nparameters (aperture, exposure time, ISO value, and focusing) were\r\nkept constant for all images. The depth of focus was adjusted to be\r\nshort to blur the image background thus helping automated ball\r\ndetection from the captured images.\r\nThe first image set with camera on the couch with couch angle\r\n0\u0003 was acquired during rotation of the gantry and collimator angles\r\nfrom \u0001180\u0003 to 180\u0003 and from \u0001165\u0003 to 165\u0003, respectively. In the\r\nsecond image set, the couch angle was 270\u0003 and the front pointer\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 3,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6992466310371446056,
+        "filename": "main.PMC7033781.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 4,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 8,
+      "version": "1.0.0"
+    },
+    "text": "was imaged using same gantry and collimator angles, except the\r\ngantry angles between 180\u0003 and 315\u0003 to avoid collision of the gan\u0002try with the couch.\r\nData analysis\r\nAll the acquired images with corresponding gantry angle, colli\u0002mator angle, and couch angle were loaded in image-processing\r\nsoftware and the ball was recognized from each image. The recog\u0002nition starts by thresholding the ball in hue-saturation-value color\r\nspace. The edge of the ball is then determined using Sobel edge\r\ndetection method [10] and center of the ball is determined using\r\nthe circle Hough transform [11]. These circle center coordinates\r\ncorrespond now to location of the front pointer in pixel space.\r\nThe pixels are converted to millimeters by using the diameter of\r\nthe ball (12 mm) as a reference.\r\nUsing the acquired images at different angles the centers of front\r\npointer ball were determined in x, y, and z-directions (Fig. 1b). First,\r\nball displacements due to gantry and collimator rotations were\r\ndetermined in the gantry rotation plane (xz-plane). Second, the\r\nFront \r\npointer ball\r\nDSLR camera and \r\nflash module\r\nx\r\nz\r\ny\r\nz\r\na)\r\nb)\r\nFig. 1. (a) An example of the imaging setup with gantry angle 0\u0003 and couch rotation 90\u0003. Modified front pointer is the imaging object. Tip of the front pointer is a plastic ball\r\nwith a diameter of 12 mm. (b) Coordinate directions (x, y, and z) used in the image analysis and results.\r\nFig. 2. Measured displacements as a function of micrometer position with the\r\nlinear fit to the measurements. Displacements were analyzed in pixel space and\r\nconverted to millimeters using the size of the ball as a reference (1\r\npixel = 0.032 mm).\r\n2 J. Heikkilä et al. / Technical Innovations & Patient Support in Radiation Oncology 2 (2017) 1–4\nFig. 3. (a) Measured front pointer ball locations for different gantry and collimator rotations. (b) Isocenter surface that covers the measured front pointer ball locations. In\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 3,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6992466310371446056,
+        "filename": "main.PMC7033781.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 4,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 8,
+      "version": "1.0.0"
+    },
+    "text": "both figures, the asterisk mark (*) is used for the assumed isocenter (i.e. positioning lasers points the middle of the front pointer ball when the gantry and collimator angles\r\nare 0\u0003).\r\nFig. 4. Measured displacements of the front pointer ball in x-, y-, and z-directions and in xz- and yz-planes when only the gantry was rotated and the collimator angle was 0\u0003.\r\nFor y-displacement the gantry angles between 180\u0003 and 315\u0003 are missing because the couch prevents gantry rotation at these angles.\r\nJ. Heikkilä et al. / Technical Innovations & Patient Support in Radiation Oncology 2 (2017) 1–4 3\ndisplacements in the yz-plane were analyzed. The determined coor\u0002dinates with gantry and collimator angles 0\u0003 was used as an origin\r\nfor both image sets. Finally, the results from these separate image\r\nsets were used to calculate the front pointer ball displacements in\r\nx, y, and z-directions relative to the previously selected origin.\r\nFeasibility and sensitivity tests\r\nAll feasibility tests were performed using a linear accelerator\r\n(Varian 600C; Varian Medical Systems Inc, Palo Alto, USA) which\r\nhas been commissioned for use for over ten years. The feasibility\r\ntests were done by using the same front pointer and holder as used\r\nin routine machine QA.\r\nSensitivity of the image-processing algorithm was tested by fix\u0002ing the front pointer to the micrometer which was used to move\r\nthe ball 0.2 mm in one direction in steps of 10 mm while the images\r\nwere acquired after each step.\r\nResults\r\nSensitivity measurements of the developed tool are shown in\r\nFig. 2 which illustrates the measured displacements as a function\r\nof micrometer reading. The excellent correlation demonstrates that\r\nthe automatic image-processing software detects the ball displace\u0002ments within sub-millimeter accuracy. Steps in the detected\r\nmovements are 32 mm which was the size of the image pixel in this\r\nimage set.\r\nThree-dimensional visualization of the displacements of the\r\nfront pointer ball for different gantry and collimator rotations are\r\nillustrated in Fig. 3a. Measured displacements are shown as dots\r\nand the assumed isocenter point (0, 0, 0) is shown as an asterisk\r\n(\r\n⁄\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 3,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6992466310371446056,
+        "filename": "main.PMC7033781.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 4,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 8,
+      "version": "1.0.0"
+    },
+    "text": "). Fig. 3b shows the surface defined by the outermost dots of\r\nthe measured ball locations illustrating that the shape of mechan\u0002ical isocenter is not spherical. Fig. 3 also illustrates that the\r\nassumed mechanical isocenter indicated by the patient positioning\r\nlasers is not in the middle of the measured isocenter volume.\r\nFig. 4 illustrates measured front pointer ball displacements for\r\ndifferent gantry angles with 0\u0003 collimator angle. The point (0, 0,\r\n0) is the initial setup point of the front pointer ball with gantry\r\nand collimator angle of 0\u0003. Importance of the 3D analysis of the\r\nmechanical isocenter can be justified by comparing the results\r\nfrom Figs. 3 and 4. The results in Fig. 4 show that all the measure\u0002ments are within the AAPM’s 2 mm tolerance for the mechanical\r\nisocenter. However, 3D results in Fig. 3 with gantry and collimator\r\nrotations show that there is one collimator and gantry angle com\u0002bination that yields 2.18 mm displacement for the front pointer\r\nball, exceeding the AAPM’s tolerance.\r\nDiscussion\r\nShifts of the mechanical isocenter can have a significant impact\r\non the delivery of the radiation therapy in situations where high\r\naccuracy of the mechanical isocenter is important. The demand\r\nfor high accuracy relates to highly modulated fields and to treat\u0002ment plans with high dose gradients [1]. Factors such as gantry\r\nsag due to the gravity, wearing of the mechanical components of\r\nthe gantry, and misalignment of the components of the accelerator\r\nhead might affect the accuracy of the mechanical isocenter.\r\nA robust mechanical isocenter testing system with sub\u0002millimeter accuracy is needed for the routine QA tests at all radio\u0002therapy departments. Currently, the mechanical isocenter is usu\u0002ally tested using 2D measurements [4]. However, results in\r\nFigs. 3 and 4 clearly justify the need for 3D measurements of the\r\nmechanical isocenter. The current system could serve as a more\r\nacceptable QA tool to fulfill AAPM recommendations [1].\r\nCurrent system might also be a useful installation and accep\u0002tance tool for a new linear accelerator when the mechanical\r\nisocenter needs adjustment. These initial tests may serve a basis\r\nfor later periodic QA measurements. Resulting trend curves might\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 3,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6992466310371446056,
+        "filename": "main.PMC7033781.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 4,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 8,
+      "version": "1.0.0"
+    },
+    "text": "be valuable in predicting need for the maintenance and they may\r\nindicate slow weakening in the mechanical properties of the linear\r\naccelerator.\r\nConclusions\r\nThe present investigation suggests that the photography-based\r\nsystem for checking mechanical isocenter may offer a requested\r\nimprovement to the current situation where the assessment of\r\nthe mechanical isocenter is often neglected due to very tedious\r\nmeasurements. With the new system the mechanical isocenter\r\ncan be quickly measured and visualized from captured pho\u0002tographs using modified front pointer.\r\nReferences\r\n[1] Klein EE, Hanley J, Bayouth J, Yin F-F, Simon W, Dresser S, et al. Task Group 142\r\nreport: quality assurance of medical accelerators. Med Phys\r\n2009;36:4197–212.\r\n[2] Tsai JS, Curran BH, Sternick ES, Engler MJ. The measurement of linear\r\naccelerator isocenter motion using a three-micrometer device and an\r\nadjustable pointer. Int J Radiat Oncol Biol Phys 1996;34:189–95.\r\n[3] Gibbs Jr FA, Buechler D, Leavitt DD, Moeller JH. Measurement of mechanical\r\naccuracy of isocenter in conventional linear-accelerator-based radiosurgery.\r\nInt J Radiat Oncol Biol Phys 1993;25:117–22.\r\n[4] Rowshanfarzad P, Sabet M, O’Connor DJ, Greer PB. Isocenter verification for\r\nlinac-based stereotactic radiation therapy: review of principles and\r\ntechniques. J Appl Clin Med Phys 2011;12:1–9.\r\n[5] Gonzalez A, Castro I, Martinez JA. A procedure to determine the radiation\r\nisocenter size in a linear accelerator. Med Phys 2004;31:1489–93.\r\n[6] PTW. ISOCHECK Isocenter test device. <http://www.ptw.de/isocheck_\r\nisocenter_test_device.html> 2016 [accessed 28.11.16].\r\n[7] Rosca F, Lorenz F, Hacker FL, Chin LM, Ramakrishna N, Zygmanski P. An MLC\u0002based linac QA procedure for the characterization of radiation isocenter and\r\nroom lasers’ position. Med Phys 2006;33:1780–7.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 3,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6992466310371446056,
+        "filename": "main.PMC7033781.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 4,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 197,
+      "total_chunks": 8,
+      "version": "1.0.0"
+    },
+    "text": "[8] Lutz W, Winston KR, Maleki N. A system for stereotactic radiosurgery with a\r\nlinear accelerator. Int J Radiat Oncol Biol Phys 1988;14:373–81.\r\n[9] Skworcow P, Mills JA, Haas OC, Burnham KJ. A new approach to quantify the\r\nmechanical and radiation isocentres of radiotherapy treatment machine\r\ngantries. Phys Med Biol 2007;52:7109–24.\r\n[10] Ritter GX, Wilson JN. Handbook of computer vision algorithms in image\r\nalgebra. Florida: CRC Press; 2001.\r\n[11] Pakhira MK. Digital image processing and pattern recognition. New Delhi: PHI\r\nLearning Private Limited; 2011.\r\n4 J. Heikkilä et al. / Technical Innovations & Patient Support in Radiation Oncology 2 (2017) 1–4\n\n"
+  }
+]

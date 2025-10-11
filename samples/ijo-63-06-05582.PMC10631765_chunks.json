@@ -1,0 +1,842 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "INTERNATIONAL JOURNAL OF ONCOLOGY 63: 134, 2023\r\nAbstract. Extrachromosomal DNAs (ecDNAs), also known \r\nas double minutes (DMs), can induce a fast increase in gene \r\ncopy numbers and promote the development of cancer, \r\nincluding drug resistance. MutS homolog 3 (MSH3), a key \r\nprotein in mismatch repair, has been indicated to participate \r\nin the regulation of DNA double‑strand break (DSB) repair, \r\nwhich has been reported to be associated with the formation \r\nof ecDNAs. However, it remains unclear whether MSH3 can \r\ninfluence drug resistance via ecDNAs in cancer. In the present \r\nstudy, high MSH3 expression was observed in methotrexate \r\n(MTX)‑resistant HT29 cells [DM‑ and homogeneously staining \r\nregion (HSR)‑containing cells] compared with parental HT29 \r\ncells. Additionally, decreased amounts of ecDNAs, HSRs and \r\namplified genes locating on ecDNAs and HSRs were detected \r\nfollowing depletion of MSH3 and this could be reversed by over‑\r\nexpressing MSH3 in DM‑containing cells. No corresponding \r\nchanges were found in HSR‑containing cells. The present \r\nstudy further verified the involvement of MSH3‑regulated \r\nDNA DSB repair pathways in the formation of ecDNAs by \r\ndetecting the expression of core proteins and pathway activity. \r\nFurthermore, expulsion of ecDNAs/HSRs was detected and \r\nincreased frequencies of micronuclei/nuclear buds with \r\ndihydrofolate reductase (DHFR) signals were observed in \r\nMSH3‑depleted DM‑containing cells. Finally, changes in \r\nMSH3 expression could affect DHFR amplification‑derived \r\nDHFR expression and cell sensitivity to MTX, suggesting that \r\nMSH3 may influence cancer drug resistance by altering the \r\namount of ecDNAs. In conclusion, the present study revealed \r\na novel mechanism involving MSH3 in the regulation of \r\necDNAs by DSB repair, which will have clinical value in the \r\ntreatment of ecDNA‑based drug resistance in cancer.\r\nIntroduction\r\nGene amplification is defined as an increase in the copy number \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "of a restricted region of a chromosome arm and is one of the \r\nhallmarks of genomic instability (1). Highly amplified genes \r\nmanifest themselves as either of two cytogenetically identifi‑\r\nable structures: Intrachromosomal homogeneously staining \r\nregions (HSRs) and extrachromosomal double minutes \r\n(DMs)/extrachromosomal DNA (ecDNA) (2). Previously, \r\nBenner et al (3) analyzed a number of primary human cancer \r\ntypes and cancer cell lines and observed that most cancer cells \r\ncontained ecDNAs only and a few contained HSRs or both, \r\nwhich indicated that ecDNAs are the predominant cytogenetic \r\nmarker for gene amplification in cancer cells. ecDNA‑based \r\ngene amplification drives elevated copy numbers and promotes \r\nintratumoral genetic heterogeneity, suggesting a pivotal role \r\nfor ecDNAs in cancer evolution (4). Previously, ecDNAs have \r\nusually been ignored in the standard analytic approaches \r\nof high‑throughput short‑read DNA sequencing. With the \r\ndevelopment of sequencing and analytic technologies, the \r\nre‑discovery that oncogenes/drug resistance genes can be \r\namplified through ecDNAs and the newfound importance of \r\necDNAs in cancer suggest that eliminating ecDNAs in cancer \r\ncells might be a way to deal with cancer. The underlying \r\nmolecular mechanism of the formation of ecDNAs remains to \r\nbe elucidated.\r\nA large body of evidence points to double‑strand breaks \r\n(DSBs), tandem duplication, breakage‑fusion‑bridge cycles \r\nand chromothripsis as key intermediates leading to gene ampli‑\r\nfication (5‑7). Thus, it was hypothesized that the molecular \r\nmechanism of the formation of ecDNAs may involve DSBs \r\nand the subsequent repair pathways. Homologous recombina‑\r\ntion (HR), classic non‑homologous end joining (c‑NHEJ) \r\nand alternative non‑homologous end joining (a‑NHEJ) are \r\nNovel insights into the ecDNA formation mechanism involving \r\nMSH3 in methotrexate‑resistant human colorectal cancer cells\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "XU WANG1,2*, YANAN QU1,2*, RUONAN XING1,2*, JING ZHOU1,2, YANGHE LIU1,2, HUISHU ZHANG1-3, \r\nJING ZHU1,2, JINFA MA1,2, XIAOBO CUI1,2, TIANTIAN SONG1,2, SHUKAI XING1,2, GUOHUA JI1,2, \r\nPENG LIU1,2, WENJING SUN1,2, SONGBIN FU1,2 and XIANGNING MENG1,2\r\n1\r\nLaboratory of Medical Genetics, 2Key Laboratory of Preservation of Human Genetic Resources and \r\nDisease Control in China and 3Biotechnology Experimental Teaching Center, Basic Medical College, \r\nHarbin Medical University, Harbin, Heilongjiang 150081, P.R. China\r\nReceived July 11, 2023; Accepted October 11, 2023\r\nDOI: 10.3892/ijo.2023.5582\r\nCorrespondence to: Professor Xiangning Meng or Professor \r\nSongbin Fu, Laboratory of Medical Genetics, Harbin \r\nMedical University, 157 Baojian Road, Nangang, Harbin, \r\nHeilongjiang 150081, P.R. China\r\nE‑mail: mengxiangn@ems.hrbmu.edu.cn\r\nE‑mail: fusb@ems.hrbmu.edu.cn\r\n*\r\nContributed equally\r\nKey words: extrachromosomal DNAs, MutS homolog 3, DNA \r\ndouble‑strand breaks, methotrexate‑resistance, cancer\n2 WANG et al: MSH3 IN ecDNA FORMATION\r\nclassic repair pathways to process DSBs utilized by cells. \r\nOur previous studies revealed that HR, c‑NHEJ and a‑NHEJ \r\n(data not shown) were involved in the formation of ecDNAs \r\nin methotrexate (MTX)‑resistant colorectal cancer cells (8,9).\r\nMismatch repair (MMR) is a highly conserved cellular \r\nprocess. In addition to its role in the repair of replication errors, \r\nMMR has also been implicated in the repair of DSBs via \r\nclassic DSBs repair pathways. Studies have demonstrated that \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "key components of MMR, particularly MutS homolog (MSH) \r\n3, are involved in the cellular response to DSBs. For example, \r\nMSH3 accumulates rapidly at sites of DSBs generated by laser \r\nmicro‑irradiation (10). MSH2‑MSH3 binds branched recombi‑\r\nnation intermediates and promotes removal of nonhomologous \r\nDNA at DSB ends during single‑strand annealing and gene \r\nconversion (two pathways of HR) in Saccharomyces cerevi‑\r\nsiae (11‑13). MSH3 may cooperate with proteins of c‑NHEJ \r\nto recognize and repair platinum drug‑induced interstrand \r\ncross‑links(13). In addition, Dillon et al (14) reported that inhi‑\r\nbition of MSH3 could decrease the abundance of microDNA \r\n(a type of small‑size ecDNA with no amplified genes), which \r\nmay originate from DSBs. Since MSH3 can be involved in the \r\nprocess of DSB repair and DMs (as a type of large‑size ecDNA \r\nwith amplified genes) contained amplified genes derived from \r\nDSBs, it was hypothesized that ecDNAs (DMs) may also be \r\nregulated by MSH3‑related DNA repair pathways.\r\nIt has been found that the elimination of amplified \r\noncogenes from tumor cells can reverse the tumor pheno‑\r\ntype. Studies have suggested that specific incorporation of \r\necDNAs into the cytoplasmic micronuclei (MN)/nuclear \r\nbuds (NBUDs) participates in oncogene elimination after \r\ntreatment with hydroxyurea (HU) and other chemotherapy \r\ndrugs (15‑17). Our previous studies also revealed expelled \r\necDNAs by MN/NBUDs in protein kinase (DNA‑PKcs) or \r\nBRCA1‑depleted MTX‑resistant cancer cells (8,9). However, \r\nto the best of our knowledge, the influence of MMR depletion \r\non the elimination of ecDNAs by MN/NBUDs has not yet \r\nbeen elucidated.\r\nIn the present study, MTX‑resistant HT29 human \r\ncolorectal cancer cells were used to investigate the formation \r\nmechanism of ecDNAs in the process of MTX resistance \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "development, hoping to provide a basis for targeting MSH3 to \r\neffectively reverse tumor drug resistance caused by ecDNAs.\r\nMaterials and methods\r\nCell lines and cell culture. The HT29 human colorectal \r\ncancer cell line was purchased from the Chinese Academy \r\nof Sciences and was authenticated by the Beijing Microread \r\nGenetics Co., Ltd. HT29 MTX‑resistant cells were gener‑\r\nated by continuous culture of parental HT29 cells in \r\nhigh‑glucose Dulbecco's modified Eagle's medium (DMEM; \r\nGibco; Thermo Fisher Scientific, Inc.) containing 15% \r\nfetal bovine serum (FBS; Gibco; Thermo Fisher Scientific, \r\nInc.) and supplemented with increasing concentration of \r\nMTX (Calbiochem Biochemicals; Merck KGaA). COLO \r\n320DM cells were cultured in RPMI 1640 medium (Gibco; \r\nThermo Fisher Scientific, Inc.) supplemented with 10% FBS. \r\nCells were maintained in a humidified incubator at 37˚C \r\nsupplied with 5% CO2. In the present study, HSR‑containing \r\n(containing HSRs only) and DM‑containing (containing \r\nmore ecDNAs and less HSRs) cells indicate cells resistant to \r\n10‑5 and 10‑4 mol/l MTX, respectively.\r\nWestern blot analysis. Whole‑cell extracts were prepared \r\nusing the RIPA lysis buffer (Applygen Technologies, Inc.) \r\nand protein concentrations were measured using BCA \r\nProtein Assay Kit (Applygen Technologies, Inc.). Proteins \r\n(30 µg per lane) were resolved on 6.5‑15% SDS‑PAGE and \r\ntransferred onto polyvinylidene fluoride (PVDF) membranes \r\n(MilliporeSigma). The PVDF membranes were blocked with \r\n5% nonfat milk in Tris‑buffered saline with 0.05% Tween \r\n20 (TBST) for 1 h at room temperature, primary antibodies \r\nwere diluted in 5% BSA (MilliporeSigma) and incubated \r\novernight at 4˚C and fluorochrome‑labelled secondary anti‑\r\nbodies (Rockland Immunochemicals Inc.) were incubated for \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "1 h at room temperature. Immunoreactivity was detected by \r\nOdyssey fluorescence scanning system (LI‑COR Biosciences) \r\nat wavelengths of 800 nm or 700 nm. Protein expression \r\nwas quantified utilizing ImageJ software version 1.53c \r\n(http://imagej.nih.gov/ij/). The antibodies used in the present \r\nstudy are listed in Table SI.\r\nStable short hairpin (sh)RNA transfection. The shRNA lenti‑\r\nviral expression vectors and control vectors (GeneCopoeia, \r\nInc.) were transfected into HSR‑ and DM‑containing \r\nMTX‑resistant HT29 cells and COLO 320DM cells at a \r\nMOI of 10, and incubated for 12 h at 37˚C according to the \r\nmanufacturer's protocol. The target sequences of shRNAs \r\nfor MSH3 were as follows: 5'‑CTTCTACCAGCTATCTTC\r\nT‑3' and 5'‑GGACAGGAGTTTATGATAGAA‑3'. The target \r\nsequence of shRNA for control was 5'‑GCTTCGCGCCGT\r\nAGTCTTA‑3'. Puromycin was added to the medium at 72 h \r\nafter transfection to obtain stable transfected clones.\r\nRescue assay. For MSH3 rescue, DM‑sh‑MSH3‑1 \r\ncells were infected with lentivirus particles containing \r\nMSH3 overexpression construct or negative control \r\n(Shanghai GeneChem Co., Ltd.) at a MOI of 5 according \r\nto the protocol of lentiviral transfection. The cells were \r\nnamed DM‑sh‑MSH3‑overexpression (ov)‑MSH3 and \r\nDM‑sh‑MSH3‑ov‑negative control (NC), respectively. \r\nVerification was performed using reverse transcription‑quan‑\r\ntitative (RT‑q) PCR and western blot analysis.\r\nRT‑qPCR. Genomic DNA was extracted using a QIAmp DNA \r\nMini Kit (Qiagen GmbH). Total RNA was extracted from \r\ncultured cells at a density of 3x106\r\n using TRIzol® (Invitrogen; \r\nThermo Fisher Scientific, Inc.) according to the manufac‑\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "ture's protocol. cDNA synthesis was performed using an \r\nAll‑In‑One First‑Strand cDNA Synthesis Kit (GeneCopoeia, \r\nInc.) according to the manufacturer's protocol. qPCR was \r\nperformed using the Light Cycler 480 SYBR Green Kit (Roche \r\nApplied Science) according to the manufacture's protocol. The \r\nexpression levels of target genes were normalized to those of \r\nβ‑Actin. Thermocycling conditions were 95˚C for 15 sec, 60˚C \r\nfor 30 sec, 72˚C for 30 sec and 40 cycles). 2‑ΔΔCq quantifica‑\r\ntion was performed as previously described (18). The DNA \r\nprimers were as follows: DHFR‑F: 5'‑ATTTTGTTCAGTGCC\r\nTACCACA‑3' and DHFR‑R: 5'‑GCCTGAATGATATCTACA\r\nAGCTG‑3', ZFYVE16‑F: 5'‑AGGAAGCAACCACCACAA\nINTERNATIONAL JOURNAL OF ONCOLOGY 63: 134, 2023 3\r\nC‑3' and ZFYVE16‑R: 5'‑CAGCACCACCAACAGA TACA‑3', \r\nMSH3‑F: 5'‑TGTCTGGTGTTTCGCCTGAT‑3' and MSH3‑R: \r\n5'‑TTAGCCAATAACCGCTCTAC‑3', POLK‑F: 5'‑GCGGTG\r\nTTGGTTAGGTTCTC‑3' and POLK‑R: 5'‑AATAAGCAA\r\nAAGGGCTACTG‑3', XRCC4‑F: 5'‑AACTCCACAATGCGA\r\nGAATC‑3' and XRCC4‑R: 5'‑AATGCTCAAACAGCCTAC\r\nTC‑3', GLRX‑F: 5'‑CCCACATTGTAGGGAATCAT‑3' and \r\nGLRX‑R: 5'‑CCCACAGTCTATTCGTAGCA‑3', CAST‑F: \r\n5'‑TTGACTCCATAGCCAACCTT‑3' and CAST‑R: 5'‑GT \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "CACTTTTCCCAGAATCCG‑3', CCNH‑F: 5'‑GTATTGCAG\r\nCACTGATTATGTCC‑3' and CCNH‑R: 5'‑TCATGAAAA\r\nTAGCCATAGGTGA‑3', c‑Myc‑F: 5'‑GATTCTCTGCTCTCC\r\nTCGAC‑3' and c‑Myc‑R: 5'‑GCCCGTTAAATAAGCTGC‑3', \r\nACTB‑F: 5'‑CTTCTACAATGAGCTGCGTG‑3' and ACTB‑R: \r\n5'‑AAGCAAATAGAACCTGCAGAG‑3'. The cDNA primers \r\nwere as follows: MSH3‑F: 5'‑CTGCCAAAGTTGGGG\r\nATAAA‑3' and MSH3‑R: 5'‑AAATGCATTCGGATCTCG\r\nTC‑3', ACTB‑F: 5'‑GGGAAATCGTGCGTGACATT‑3' and \r\nACTB‑R: 5'‑GGAACCGCTCATTGCCAAT‑3'.\r\nDNA Fluorescence in situ hybridization (FISH). Cells were \r\nincubated with colcemid (MilliporeSigma) before cytogenetic \r\npreparation by KCl treatment and fixation. The BAC clone \r\nRP11‑90A9 (chr5: 80551016‑80731513) was used as template \r\nfor synthesis of FISH probes for the DHFR gene (BACPAC \r\nResource Center). Cells were hybridized with FISH probes \r\nas previously described (8). In short, the BAC clones were \r\nextracted using a Genopure Plasmid MidiKit (Roche Applied \r\nScience) according to the manufacturer's protocol and labelled \r\nwith Cy3‑dUTP or Green‑dUTP using a BioPrime DNA \r\nLabelling System Kit (Invitrogen; Thermo Fisher Scientific, \r\nInc.). The slides with interphase or metaphase spreads were \r\ndigested in RNaseA (10 mg/ml, 40 min at 37˚C) (Thermo \r\nFisher Scientific), washed in 2X saline sodium citrate (SSC), \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "dehydrated through an ethanol series, then digested in \r\npepsin‑HCl (15 min at 37˚C), fixed in 1% paraformaldehyde \r\n(10 min at room temperature), dehydration (gradient dehydra‑\r\ntion with 75, 85, and 100% ethanol for 3 min each), treated \r\nin 70% formamide (3 min at 75˚C), washed in 2X SSC and \r\ndehydrated. Probe and slides were incubated for 48 h at 37˚C. \r\nThe slides were then immersed in 50% formamide (15 min \r\nat 44˚C) and washed in 2X SSC. Following dehydration, the \r\nslides were counterstained with 4', 6'‑diamidino‑2‑phenyl‑\r\nindole (DAPI). High‑quality images were captured using a \r\nfluorescence microscope (Leica DM6 B; Leica Microsystems \r\nGmbH) and analyzed using the Leica Application Suite X \r\n(version 2.0.0.14332; Leica Microsystems GmbH). Interphase \r\ncells (~100) were evaluated for each group. The amount of \r\nMN/NBUDs in each karyotype was also observed, among \r\nwhich MN/NBUDs with DHFR fluorescence signal were \r\nscored as MN/NBUDsDHFR+, whereas MN/NBUDs without \r\nDHFR fluorescence signal were scored as MN/NBUDsDHFR‑.\r\nRepair assays. HR, c‑NHEJ and a‑NHEJ reporter plasmids \r\npHPRT‑DRGFP, pimEJ5GFP and EJ2GFP‑puro (Addgene, \r\nInc.) were transfected into DM‑containing MTX‑resistant \r\ncells using Lipofectamine® 2000 (Invitrogen; Thermo \r\nFisher Scientific, Inc.). Puromycin was added to select stable \r\nclones. Reverse transfection was performed by plating DSB \r\nreporter‑containing cells into 6‑well plates that already \r\ncontained preformed small interfering (si) RNA transfection \r\ncomplexes. In the MSH3 rescue assay, MSH3 overexpres‑\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "sion lentivirus was added 12 h after siMSH3 transfection. \r\nDSBs were induced 48 h after the siRNA transfection by a \r\nsecond transfection with 4 µg pCBASceI which expressing \r\nI‑SceI mixed with siRNA duplex using Lipofectamine® 2000 \r\n(Invitrogen; Thermo Fisher Scientific, Inc.). Green fluorescent \r\nprotein (GFP)‑positive cells were quantified by flow cytometric \r\nanalysis (FACS‑LSR II; BD Biosciences) at room temperature \r\n3 days after transfection as previously described (19,20).\r\nDrug sensitivity assay. Cells were plated into 96‑well plates \r\nat a density of 5,000 cells/well and incubated in the presence \r\nof MTX for 72‑96 h. A CellTiter 96 AQueous One Solution \r\nCell Proliferation Assay (Promega Corporation) was used to \r\nmeasure the cell viability. The optical density value was read \r\non a microplate reader (Tecan Group, Ltd.) at a wavelength of \r\n490 nm and the IC50 values were calculated.\r\nStatistical analysis. All experiments were performed at least \r\nthree times independently. For western blot, quantitative PCR, \r\necDNA number, DSB relative repair efficiency and IC50 value, \r\nunpaired Student's t‑test was used to determine statistically \r\nsignificant differences between 2 groups, one‑ or two‑way \r\nanalysis of variance (ANOVA) followed by the Dunnett's \r\ntest was used for comparing >2 groups (one control group). \r\nDifferences in the amount of MN/NBUDs, as well as dihydro‑\r\nfolate reductase (DHFR)‑containing MN/NBUDs and HSR \r\nfrequency, between different groups were evaluated using \r\nthe χ2 test. P<0.05 was considered to indicate a statistically \r\nsignificant difference.\r\nResults\r\nIncreased MSH3 expression is associated with gene \r\namplification in MTX‑resistant HT29 cells. For an improved \r\nunderstanding of the mechanisms contributing to the resis‑\r\ntance to cytotoxic drugs via gene amplification, HT29 cell \r\nlines that were resistant to MTX were generated as previously \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "described (21). HSRs and ecDNAs (DMs) are the main ampli‑\r\nfied forms of DHFR in MTX‑resistant cells. When measuring \r\nthe expression levels of MSH3 in parental, HSR‑ and \r\nDM‑containing MTX‑resistant HT29 cells, it was observed \r\nthat the expression levels of MSH3 in MTX‑resistant cells were \r\n~ twice as high as those in HT29 parental cells (Fig. 1A). Thus, \r\nthe present results suggested that MSH3 might be associated \r\nwith MTX resistance and gene amplification.\r\nTo further investigate the association between MSH3 \r\nand gene amplification, MSH3 was stably depleted \r\nin MTX-resistant HT29 cells by shRNA transfection \r\n(Fig. 1B and C). The expression levels of other key proteins \r\nof MMR, including MSH2, MSH6 and MutL homolog 1 \r\n(MLH1), were examined to determine the influence of MSH3 \r\ndepletion on MMR activity. The expression levels of MSH6 \r\nwere increased, those of MSH2 were decreased and those of \r\nMLH1 were unchanged in MSH3‑depleted MTX‑resistant \r\ncells (Fig. 1D and E). This was consistent with the fact that \r\nMSH2 is relatively unstable when not forming a heterodimer \r\ncomplex with MSH3 or MSH6 and MSH6 is transcriptionally \r\nupregulated to compensate for the MSH3 deficiency (22).\n4 WANG et al: MSH3 IN ecDNA FORMATION\r\nInhibition of MSH3 decreases gene amplification in \r\nDM‑containing cells. Based on the result of a previous \r\ncomparative genomic hybridization array, DHFR, MSH3, \r\nzinc finger FYVE‑type containing 16 (ZFYVE16), DNA poly‑\r\nmerase κ (POLK), X‑ray repair cross complementing (XRCC) \r\n4, glutaredoxin (GLRX), calpastatin (CAST) and cyclin H \r\n(CCNH) were co‑localized within the same HSRs of chromo‑\r\nsome 5 in HSR‑containing MTX‑resistant cells. Furthermore, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "DHFR, MSH3 and ZFYVE16 were co‑localized within the \r\nsame ecDNAs and POLK, XRCC4, GLRX, CAST and CCNH \r\nwere co‑localized within the same HSRs in DM‑containing \r\nMTX‑resistant cells. Our previous study also revealed that \r\nFigure 1. Role of MSH3 in MTX resistance and the MMR pathway in HT29 cells. (A) Western blot analysis of MSH3 protein levels in parental and HSR‑ and \r\nDM‑containing MTX‑resistant HT29 cells. The lower panel shows densitometry values normalized to the GAPDH expression level. Data are presented as \r\nthe mean ± SD (n=3; **P<0.01, ***P<0.001). (B and C) Reverse transcription‑quantitative PCR assay of MSH3 in DM‑ and HSR‑containing cells: Control \r\nand MSH3‑depleted clones. (D and E) Western blot analysis of MSH3 and other key proteins of MMR in DM‑ and HSR‑containing cells: Control and \r\nMSH3‑depleted clones. MSH3, MutS homolog 3; MTX, methotrexate; MMR, mismatch repair; HSR, homogeneously staining region; DM, double minute.\nINTERNATIONAL JOURNAL OF ONCOLOGY 63: 134, 2023 5\r\npolo like kinase 2 (PLK2) is not amplified on chromosome \r\n5, following the development of MTX resistance in HT‑29 \r\ncells, meaning this can be used as a negative control of gene \r\namplification (8,9). To determine the influence of MSH3 on \r\ngene amplification, the changes in gene copy numbers were \r\nexamined in MSH3‑depleted DM‑ and HSR‑containing \r\nMTX‑resistant cells. The present results demonstrated that \r\nthe copy numbers of all the amplified genes within ecDNAs \r\nand HSRs were decreased in DM‑containing MTX‑resistant \r\ncells. In particular, those within HSRs were decreased by \r\n>50% in DM‑containing MTX‑resistant cells (Fig. 2A). \r\nThe copy numbers of amplified genes were not changed in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "HSR‑containing HT29 cells (Fig. 2B). In addition, to verify \r\nwhether MSH3 could affect the type of gene amplification, \r\nthe DHFR gene was labeled and the karyotype was compared \r\nbetween control and MSH3‑depleted DM‑containing cells \r\nFigure 2. Inhibition of MSH3 decreases gene amplification in DM‑ but not HSR‑containing MTX‑resistant cells. (A and B) Quantitative PCR analysis of PLK2, \r\nDHFR, MSH3, ZFYVE16, POLK, XRCC4, GLRX, CAST and CCNH amplification in control and MSH3‑depleted clones of (A) DM‑ and (B) HSR‑containing \r\ncells (n=3; **P<0.01, ***P<0.001). (C) Fluorescence in situ hybridization analysis of metaphase nuclei in control and MSH3‑depleted clones of DM‑containing \r\ncells using bacterial artificial chromosome containing human DHFR as the probe. DHFR signals are shown in red and nuclei stained by DAPI are shown in \r\nblue. Yellow arrows indicate HSR and ecDNA. (D) Quantification of ecDNAs in control and MSH3‑depleted clones. (**P<0.01, ***P<0.001). (E) Frequency of \r\nHSRs in control and MSH3‑depleted clones (P<0.01). DHFR, MSH3, ZFYVE16, POLK, XRCC4, GLRX, CAST and CCNH were detected to be co‑localized \r\nwithin the same HSRs of chromosome 5 in HSR‑containing MTX‑resistant cells. DHFR, MSH3 and ZFYVE16 were co‑localized within the same ecDNAs \r\nand POLK, XRCC4, GLRX, CAST and CCNH were co‑localized within the same HSRs in DM‑containing MTX‑resistant cells. PLK2 is not amplified on \r\nchromosome 5 following the development of MTX resistance in HT‑29 cells and this can be used as a negative control of gene amplification. MSH3, MutS \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "homolog 3; DM, double minute; HSR, homogeneously staining region; MTX, methotrexate; ecDNA, extrachromosomal DNA.\n6 WANG et al: MSH3 IN ecDNA FORMATION\r\nusing FISH. Not only was the amount of ecDNAs decreased, but \r\nHSR numbers were also decreased by 75% in MSH3‑depleted \r\nDM‑containing cells (Fig. 2C‑E).\r\nFurthermore, MSH3 was rescued in DM‑sh‑MSH3 cells \r\n(Fig. 3A). The copy numbers of amplified genes on both ecDNAs \r\nand HSRs were recovered (Fig. 3B). Also, the changes in the \r\namount of ecDNAs and corresponding gene amplification in \r\nMSH3 depleted human COLO 320DM cells was examined. \r\nA previous study found that ecDNAs in COLO 320DM cells \r\ncarry a large number of amplified c‑Myc (MYC proto‑onco‑\r\ngene, bHLH transcription factor) oncogene (15). The results \r\nof the present study showed that the amount of ecDNAs and \r\nthe copy number of the c‑Myc gene were significantly reduced \r\nin COLO 320DM cells with MSH3 depletion compared to \r\ncontrols (Fig. 3C‑F). Thus, it was concluded that MSH3 was \r\nindeed involved in the formation of ecDNAs in tumor cells.\r\nInhibition of MSH3 affects the formation of ecDNAs by \r\nregulating the HR, c‑NHEJ and a‑NHEJ pathways. MSH3 \r\nhas been indicated to participate in the repair of DSBs (10). \r\nHR, c‑NHEJ and a‑NHEJ are considered to be the most \r\nclassical DSB repair pathways in mammalian cells. HR is a \r\ntype of repair pathway with high fidelity, whose DSB repair \r\nnuclease‑RAD50 DSB repair protein‑nibrin [MRX complex \r\nin yeast, (MRN)] complex can sense the DSBs and promote \r\nthe loading of RAD51 recombinase (RAD51) to initiate \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Figure 3. Inhibition of MSH3 decreases gene amplification in DM‑containing cells. (A) Western blot analysis of MSH3 in DM‑containing MTX‑resistant HT29 \r\ncells: Control, MSH3‑depleted and MSH3‑rescued clones. (B) Quantitative PCR analysis of amplified genes located on ecDNAs and HSRs in DM‑containing \r\nMTX‑resistant HT29 cells: Control, MSH3‑depleted and MSH3‑rescued clones. (C) Western blot analysis of MSH3 in COLO 320DM cells: Control and \r\nMSH3‑depleted clones. (D) Quantitative PCR analysis of amplified oncogenes c‑Myc located on ecDNAs in COLO 320DM cells: Control and MSH3‑depleted \r\nclones. Data are presented as the mean ± SD (n=3; *\r\nP<0.05, **P<0.01, ***P<0.001). (E) Representative metaphase nuclei of COLO 320DM cells: Control and \r\nMSH3‑depleted clones. Black arrow indicates ecDNA. (F) Quantification of ecDNAs in COLO 320DM cells: Control and MSH3‑depleted clones (***P<0.001). \r\nMSH3, MutS homolog 3; DM, double minute; MTX, methotrexate; ecDNA, extrachromosomal DNA; HSR, homogeneously staining region; c‑Myc, MYC \r\nproto‑oncogene, bHLH transcription factor.\nINTERNATIONAL JOURNAL OF ONCOLOGY 63: 134, 2023 7\r\nsynapsis(23). However, a previous study demonstrated that HR \r\nis also an important mechanism of structural rearrangement \r\ncontributing to human genomic variability (24). c‑NHEJ is a \r\nfast but error‑prone DSB repair mechanism. The heterodimer \r\nformed by XRCC6 (KU70) and XRCC5 (KU86) recognizes \r\nthe DSBs and recruits DNA‑PKcs kinase to activate down‑\r\nstream DNA ligase 4, which completes end processing. \r\na‑NHEJ, a type of back‑up pathway, is a more error‑prone \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "repair pathway characterized by deletions and unbalanced \r\ntranslocations. a‑NHEJ proteins include poly(ADP‑ribose) \r\npolymerase 1 (PARP1), MRN complex, XRCC1 and DNA \r\nligase 3 (LIG3) and participate in the binding, cleavage and \r\nligation of DNA cleavage ends to complete the repair of \r\nDSBs (25,26). To explore the mechanism by which MSH3 \r\naffects the formation of ecDNAs, the expression levels of key \r\nproteins of these DSB repair pathways were further detected \r\nin DM‑containing cells pretreated with 10‑3 mol/l MTX (a \r\ntype of DSB inducer). As shown in Fig. 4A‑C, key proteins of \r\nHR (MRN complex and RAD51), a‑NHEJ (PARP1, XRCC1 \r\nand LIG3) and c‑NHEJ (KU70, KU86 and XRCC4) were \r\nmarkedly decreased in MSH3‑depleted DM‑containing cells. \r\nFurthermore, the expression levels of key proteins (RAD51, \r\nKU70 and PARP1) of these three repair pathways were mark‑\r\nedly restored after MSH3 recovery (Fig. 4D). Simultaneously, \r\nreporter cell lines were established to measure the efficiency \r\nof these pathways. In these DM‑containing MTX‑resistant \r\ncells, each of HR, c‑NHEJ, a‑NHEJ events triggered by a \r\nDSB digested by I‑SceI endonuclease can restore a functional \r\nGFP, which can be quantified by fluorescence‑activated cell \r\nsorting (19,20). Subsequently, the present study examined the \r\nrepair efficiency of reporter cell lines. The repair efficiencies \r\nof HR, c‑NHEJ and a‑NHEJ were decreased by 82.1, 56.2 and \r\nFigure 4. MSH3 is required for efficient repair of double‑strand breaks by HR, c‑NHEJ and a‑NHEJ. (A‑C) Western blot analysis of HR‑, a‑NHEJ‑ and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "c‑NHEJ‑associated proteins in control and MSH3‑depleted clones of double minute‑containing cells. The clones were pretreated with 10‑3 mol/l methotrexate. \r\n(D) Western blot analysis of core proteins of HR, c‑NHEJ and a‑NHEJ in MSH3‑depleted and ‑rescued clones (n=3; **P<0.01, ***P<0.001). (E) Efficiency of \r\nHR‑, c‑NHEJ‑ and a‑NHEJ‑mediated repair in corresponding reporter cell lines transfected with MSH3 small interfering RNA with/without MSH3 rescue. \r\nData were normalized to the value measured for the control group (n=3; ***P<0.001). MSH3, MutS homolog 3; HR, homologous recombination; c‑NHEJ, classic \r\nnon‑homologous end joining; a‑NHEJ, alternative non‑homologous end joining.\n8 WANG et al: MSH3 IN ecDNA FORMATION\r\n94.7%, respectively, in MSH3‑depleted cells and rescued in \r\nMSH3-recovered cells (Fig. 4E), indicating that MSH3 was \r\nrequired for efficient repair of DSBs via the HR, c‑NHEJ and \r\na‑NHEJ pathways. Overall, it was hypothesized that MSH3 \r\nmay participate in the formation of ecDNAs via recruitment \r\nof key proteins of repair pathways (HR, c‑NHEJ and a‑NHEJ) \r\nto DSBs.\r\nInhibition of MSH3 eliminates ecDNAs through MN/NBUDs \r\nin DM‑containing MTX‑resistant cells. The presence of \r\nMN/NBUDs in a cell is an indicator of DNA damage and \r\ngenetic instability. MN/NBUDs are small DNA‑containing \r\nstructures localized separately from the main nucleus of \r\nthe cell. Amplified genes or ecDNAs have been observed \r\nto be eliminated by MN/NBUDs (27). To clarify whether \r\nthe decreased amplified gene is eliminated by MN/NBUDs, \r\nDHFR was labelled using FISH to detect the forma‑\r\ntion of MN/NBUDs and the expulsion of MN/NBUDs \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "containing amplified genes. Fig. 5B shows the nuclei with no \r\nMN/NBUDs, nuclei with MN/NBUDs containing no DHFR \r\nsignals and nuclei with MN/NBUDs containing DHFR\r\nsignals. The present results demonstrated that the MN/NBUD \r\namount was increased by >85.8% in MSH3‑depleted cells \r\n(P<0.001), which was consistent with the expression of \r\nnuclear γ‑H2AX (Fig. 5A), indicating the accumulation of \r\nDSBs. Simultaneously, compared with that in control cells, \r\nthe amount of MN/NBUDs with DHFR signals was more \r\nthan twice as high in MSH3‑depleted DM‑containing cells \r\nand the expulsion of MN/NBUDs was restored after MSH3 \r\nwas rescued (Fig. 5C). However, depletion of MSH3 had no \r\neffect on the formation of MN/NBUDs in HSR‑containing \r\ncells (Fig. 5D). The present results indicated that inhibition of \r\nMSH3 may promote the formation of MN/NBUDs and then \r\nthe efflux of MN/NBUDs containing amplified genes, thus \r\nreducing ecDNAs or HSRs in the nuclei of DM‑containing \r\nMTX‑resistant cells.\r\nInhibition of MSH3 increases the sensitivity to MTX in \r\nDM‑containing MTX‑resistant cells. MTX is a cytotoxic \r\ndrug widely used in cancer therapy. High DHFR expression \r\noriginating from DHFR amplification is the most important \r\nmechanism to induce MTX resistance in cancers (28). In \r\nthe present study, markedly decreased DHFR copy numbers \r\nand DHFR expression were observed in MSH3‑depleted \r\nDM‑containing cells (Figs. 2A and 6A), while no changes \r\nwere observed in MSH3‑depleted HSR‑containing cells \r\n(Figs. 2B and 6C). Furthermore, restored DHFR amplifica‑\r\ntion and expression were found in DM‑sh‑MSH3‑ov‑MSH3 \r\ncells (Figs. 3B and 6B). To address the role of MSH3 in drug \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "resistance, the present study examined the IC50 value of both \r\nDM‑ and HSR‑containing MTX‑resistant cells. Compared \r\nwith control cells, 1.98 and 1.93 times decreased IC50 values \r\nwere observed in MSH3‑depleted DM‑containing cells \r\n(P<0.01), while this was 1.22 and 1.38 times increased in \r\nMSH3‑depleted HSR‑containing cells (P>0.05). Furthermore, \r\ncompared with that of control cells, the IC50 value of \r\nDM‑sh‑MSH3‑ov‑NC cells was decreased by 1.58 times and \r\nthe IC50 value of DM‑sh‑MSH3‑ov‑NC cells was increased by \r\n1.75 times after the restoration of MSH3, indicating that the \r\nresistance was re‑established after the restoration of MSH3 \r\nexpression (Table I). These results indicated that inhibition of \r\nMSH3 could sensitize DM‑containing MTX‑resistant cells to \r\nMTX and suggested the promising potential for a combina‑\r\ntion therapy of MTX and MSH3 inhibitors in DM‑containing \r\nMTX‑resistant cancers.\r\nDiscussion\r\nIn recent years, ecDNAs have reattracted attention in the \r\nfield of cancer research. As they lack centromeres, ecDNAs \r\nare subject to non‑equal segregation to daughter cells, which \r\ncan rapidly lead to heterogeneity of ecDNA amounts in cells \r\nwithin a tumor and enable daughter cells to achieve higher \r\necDNA copy numbers than mother cells (4). The presence of \r\noncogenes or drug resistance genes on ecDNAs enhances the \r\nfitness of cells containing ecDNAs and promote the malignant \r\nphenotype of tumors(29). Thus, exploring the molecular mech‑\r\nanism of ecDNA formation and then effectively eliminating \r\necDNAs in cancer cells is becoming a promising strategy for \r\ncancer treatment (30). Previous studies have demonstrated that \r\nDSBs and canonical repair mechanisms may be involved in \r\nthe formation of ecDNAs. For example, depleting BRCA1, \r\nDNA‑PKcs or PARP1 (data not shown; the core proteins of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "HR, c‑NHEJ or a‑NHEJ pathways), can decrease the amount \r\nof ecDNAs and reverse MTX resistance in DM‑containing \r\nMTX‑resistant HT29 cells (8,9).\r\nTable I. IC50 values of DM‑ and HSR‑containing cells.\r\nHT‑29 cell line IC50 (mol/l) Fold change\r\nDM‑sh‑control 2.15x10‑3±2.11x10‑4 1\r\nDM‑sh‑MSH3‑1 1.09x10‑3±1.90x10‑4 1.98b vs. DM‑sh‑control\r\nDM‑sh‑MSH3‑2 1.11x10‑3±2.82x10‑4 1.93a vs. DM‑sh‑control\r\nDM‑sh‑MSH3‑ov‑NC 1.37x10‑3±2.52x10‑4 1.58a vs. DM‑sh‑control\r\nDM‑sh‑MSH3‑ov‑MSH3 2.39x10‑3±4.19x10‑4 1.75a vs. DM‑sh‑MSH3‑ov‑NC\r\nHSR‑sh‑control 2.65x10‑4 ±1.06x10‑5 1\r\nHSR‑sh‑MSH3‑1 3.24x10‑4 ±6.31x10‑5 1.22 vs. HSR‑sh‑control\r\nHSR‑sh‑MSH3‑2 3.65x10‑4±9.03x10‑5 1.38 vs. HSR‑sh‑control\r\nn=3; aP<0.05, bP<0.01.\nINTERNATIONAL JOURNAL OF ONCOLOGY 63: 134, 2023 9\r\nMMR mostly occurs at the post‑replication stage and is \r\nresponsible for repairs of mismatches and small stranded \r\nDNA loops that are important in stabilizing the genome. In \r\nrecent years, MMR has also been suggested to be involved \r\nin various aspects of DNA metabolism, such as the DNA \r\ndamage response and HR, which mediates DSB repair. Thus, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "the present study examined whether MSH3, a key DNA MMR \r\nprotein, may participate in the formation of ecDNAs or HSRs \r\nassociated with DSB repair mechanisms in cancer cells.\r\nIn the present study, HT29 human colorectal cancer cells \r\nand stepwise induced MTX‑resistant cancer cells, which \r\ncontain amplified DHFR gene with different cytogenetic \r\nmanifestations, HSRs or ecDNAs, respectively, were selected \r\nas research objects. The present study revealed increased \r\nprotein expression levels of MSH3 in MTX‑resistant cells. \r\nThe markedly altered expression of other MMR core proteins \r\n(increased MSH6 and decreased MSH2) in MSH3‑depleted \r\nMTX‑resistant cells demonstrated that MSH3 could affect the \r\nMMR system. Furthermore, the amounts of ecDNAs, HSRs \r\nand corresponding amplified genes were markedly decreased \r\nby depletion of MSH3 and could be rescued by overexpression \r\nof MSH3 in DM‑containing cells. By contrast, the amount of \r\nHSRs and amplified genes were not altered in HSR‑containing \r\ncells. The present results suggested that MSH3 may function \r\ndifferently in various stages of drug resistance with different \r\ntypes of gene amplification. Although both types of cells \r\n(DM‑ and HSR‑containing cells) contain HSRs, the environ‑\r\nments in which HSRs exist are different. Whether the presence \r\nof ecDNAs or the different degree of drug resistance affect the \r\nfunction of MSH3 in HSRs, or whether there are some other \r\nreasons, needs further study. Nevertheless, to the to the best \r\nof the authors' knowledge, the present study was the first to \r\ndemonstrate that MSH3 not only contributes to microsatellite \r\nstability, meiotic and mitotic recombination, DNA‑damage \r\nsignaling, apoptosis, class‑switch recombination, somatic \r\nhypermutation and triplet‑repeat expansion as previously \r\nreported but also to the formation of ecDNAs (31‑33).\r\nTo the best of the authors' knowledge, the main function \r\nof MSH3 is the repair of a few base pair mismatches, while \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 471,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "ecDNAs usually exhibit severe DSBs repair (34,35). Thus, it \r\nwas hypothesized that MSH3 may promote the formation of \r\necDNAs via several classical DSB repair pathways, such as \r\nthe HR, c‑NHEJ or a‑NHEJ pathways. By further examining \r\nthe core protein expression and activity of HR, c‑NHEJ and \r\na‑NHEJ pathways in MSH3‑depleted DM‑containing cells, \r\nthe present study revealed that MSH3 may affect the forma‑\r\ntion of ecDNAs by regulating these canonical DSB repair \r\npathways. Furthermore, the present study confirmed the \r\nfunction of MSH3 in the formation of ecDNAs by detecting \r\nthe activity and protein expression of such pathways in MSH3 \r\nFigure 5. Inhibition of MSH3 promotes the formation and efflux of MN/NBUDs containing amplified genes. (A) Western blot analysis of γ‑H2AX in control \r\nand MSH3‑depleted clones of DM‑containing cells in the presence of 10‑3 mol/l methotrexate. GAPDH was used as the loading control. (B) Fluorescence \r\nin situ hybridization analysis of interphase nuclei using bacterial artificial chromosomes containing human DHFR as probes. The nuclei were grouped \r\ninto three categories: Without MN/NBUDs (left), with MN/NBUDs containing no DHFR signals (middle) and with MN/NBUDs containing DHFR signals \r\n(right). DHFR signals are shown in red and nuclei stained by DAPI are shown in blue. (C) Frequencies of nuclei without or with MN/NBUDs (with or without \r\nDHFR signals) in control, MSH3‑depleted and MSH3‑rescued clones of DM‑containing cells. (*\r\nP<0.05, ***P<0.001) (D) Frequencies of nuclei without or \r\nwith MN/NBUDs (with or without DHFR signals) in control and MSH3‑depleted clones of HSR‑containing cells. MSH3, MutS homolog 3; micronuclei \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "(MN)/nuclear buds; DM, double minute; DHFR, dihydrofolate reductase; MN, micronuclei; NBUD, nuclear bud; HSR, homogeneously staining region.\n10 WANG et al: MSH3 IN ecDNA FORMATION\r\nrescue experiments. HR is pivotal to maintain replication \r\nfidelity and employs an intact sister chromatid as a template \r\nfor information exchange and faithful repair (21). Abnormal \r\nelevation of HR activity can also lead to an increased rate of \r\nmutation and progressive accumulation of genetic variation \r\nin multiple myeloma cells (36). It has been reported that the \r\nMMR mechanism can interact directly with HR (37,38). The \r\npresent results further demonstrated that MSH3 may contribute \r\nto the dysfunctional HR activity, resulting in the formation of \r\necDNAs. c‑NHEJ is the major DSB repair system in higher \r\neukaryotes, particularly during phases of the cell cycle when \r\na homologous sister chromatid is absent (39). c‑NHEJ often \r\nresults in error‑prone outcomes, with partial loss of genome \r\ninformation at the site of the DSBs. A previous report \r\nindicated that MSH2‑deficient cells exhibit an increase in \r\nc‑NHEJ‑mediated DSB repair compared with normal mouse \r\ncells (40). Conversely, MSH6 has been reported to be involved \r\nin the repair of DSBs through a direct physical interaction \r\nwith KU70, a core factor of c‑NHEJ (41). Thus, the function \r\nof MSH3 in c‑NHEJ remains to be elucidated. In the present \r\nstudy, depletion of MSH3 could inhibit the protein expression \r\nand activity of the c‑NHEJ pathway in DM‑containing cells. \r\nIt was hypothesized that MSH3 may promote the formation \r\nof ecDNAs by increasing the frequency of blunt or nearly \r\nblunt double‑stranded DNA breaks that can be joined by \r\nc‑NHEJ factors (42‑44). The a‑NHEJ pathway appears to \r\nhave evolved as a back‑up mechanism for c‑NHEJ (45). Since \r\nalternative end‑joining is more error‑prone than c‑NHEJ, it \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "is considered to serve a role in driving genomic instability \r\nand thus, the tumorigenic process. Eccleston et al (46) \r\nreported that MLH1, exonuclease 1 and MSH2 are important \r\nfor efficient a‑NHEJ‑mediated antibody gene class switch \r\nrecombination, by converting DNA nicks and point mutations \r\ninto double‑strand DNA breaks. Similarly, the present study \r\nindicated a novel function of MSH3, which could promote the \r\nformation of ecDNAs via the a‑NHEJ pathway. It is difficult \r\nto say which repair pathway MSH3 mainly affects. It was \r\nhypothesized that MSH3 may serve a role in different cell \r\nstates through different pathways, such as in different cell \r\ncycle stages and in the absence/presence of abnormal c‑NHEJ \r\npathway. Overall, the present study revealed that MSH3 may \r\nbe a focal mechanism to promote the formation of ecDNAs by \r\nregulating canonical DSB repair pathways.\r\nSince MN/NBUDs are the biomarkers of DNA damage \r\nin cells (47), to verify whether depletion of MSH3 could \r\ninduce DSBs accumulation, the present study examined the \r\namount of MN/NBUDs in MSH3‑depleted DM‑containing \r\ncells. Markedly increased numbers of MN/NBUDs, combined \r\nwith increased gH2AX levels, demonstrated that inhibition \r\nof MSH3 could induce more DSBs accumulation. Previous \r\nstudies have also suggested that specific incorporation of \r\necDNAs into the cytoplasmic MN participated in oncogene \r\nelimination (15‑17,48). For example, low‑dose HU treatment \r\ncould induce the generation of ecDNA‑type MN and the \r\nextrusion of amplified genes (49,50). Amplified EGFR in \r\nglioblastoma, amplified MYCN in neuroblastoma and ampli‑\r\nfied CDK4 in liposarcoma can be eliminated by ecDNA‑type \r\nMN (51,52). The present study further revealed markedly \r\nincreased amounts of MN/BUDs with amplified DHFR in \r\nMSH3‑depleted DM‑containing cells. Our previous studies \r\nindicated effective expelling of ecDNAs with MN/NBUDs \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "in DM‑containing cells following inhibition of the HR \r\nand c‑NHEJ pathways but not the a‑NHEJ pathway (8,9). \r\nCombined with the observation that MSH3 may regulate the \r\nactivity of HR and c‑NHEJ, it was hypothesized that inhibi‑\r\ntion of MSH3 may promote the expulsion of ecDNAs via HR \r\nand c‑NHEJ pathways. Notably, most studies reported that \r\nexpulsion of amplified genes can be detected in the form of \r\nFigure 6. Inhibition of MSH3 decreases DHFR protein expression in DM‑containing methotrexate‑resistant cells. Western blot analysis of DHFR protein \r\nlevels in control and MSH3‑depleted clones of (A) DM‑ and (C) HSR‑containing cells. (B) Western blot analysis of DHFR protein levels in MSH3‑depleted \r\nand ‑rescued clones. GAPDH was used as the loading control (n=3; *\r\nP<0.05, ***P<0.001). MSH3, MutS homolog 3; DHFR, dihydrofolate reductase; DM, double \r\nminute; HSR, homogeneously staining region.\nINTERNATIONAL JOURNAL OF ONCOLOGY 63: 134, 2023 11\r\necDNAs only but not in the form of HSRs (15,52). It is difficult \r\nto distinguish ecDNAs and HSRs from MN/NBUDs under \r\nthe present experimental conditions. Due to the observa‑\r\ntion of markedly decreased HSRs and ecDNA amounts in \r\nMSH3‑depleted DM‑containing cells, it was hypothesized \r\nthat not only ecDNAs but also HSRs have the potential to be \r\nexpelled by MN/BNUBs, which was supported by the obser‑\r\nvation of expelled HSRs with MYCN amplification by MN in \r\nNBC cells treated with HU or cisplatin (53).\r\nMMR has been demonstrated to participate in the DNA \r\ndamage response after treatment with certain chemothera‑\r\npeutic agents. Inhibition of MSH3 has also been required for \r\nthe sensitization to cisplatin and oxaliplatin, in which MSH3 is \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "involved in the repair of DSBs (13). In addition, another study \r\ndemonstrated that lack of MSH3 did not affect the cellular \r\nresponse to cisplatin within their experimental conditions (54). \r\nThus, the exact role of MSH3 in modulating drug resistance \r\nremains to be determined. In the present study, the markedly \r\nincreased sensitivity to MTX combined with the decreased \r\namplification and corresponding expression of the DHFR gene \r\nin MSH3‑depleted DM‑containing cells, all of which could \r\nbe rescued by overexpression of MSH3, suggested that MSH3 \r\nmay participate in the regulation of sensitivity to MTX by \r\nchanging the amount of ecDNAs. The present study also has \r\nthe limitation that it is not yet possible to explain why MSH3 \r\ndepletion does not affect drug resistance and gene amplifica‑\r\ntion in cells containing HSRs. Further studies are needed for \r\nimproved understanding of the role of MSH3 on gene amplifi‑\r\ncation at different stages of drug resistance.\r\nIn conclusion, the present study revealed that MSH3 could \r\nregulate ecDNA formation via DSB repair pathways (HR, \r\nc‑NHEJ and a‑NHEJ) and ecDNA efflux by MN/NBUDs and \r\naffected the sensitivity to MTX in cancer cells (Fig. 7). Thus, \r\nMSH3 is expected to become a novel target for the treatment of \r\nMTX‑resistant tumors and other tumors containing ecDNAs.\r\nAcknowledgements\r\nNot applicable.\r\nFunding\r\nThe present study was supported by the National Natural \r\nScience Foundation of China (grant no. 81572915), HMU \r\nFigure 7. Schematic diagram summarizing the mechanism. MSH3 can regulate ecDNA formation via double‑strand break repair pathways (homologous \r\nrecombination, classic non‑homologous end joining and alternative non‑homologous end joining) and mediate ecDNA efflux by micronuclei/nuclear buds. \r\nMSH3, MutS homolog 3; ecDNA, extrachromosomal DNA; DSBs, double‑strand breaks; MRN, MRX complex in yeast; PARP1, poly(ADP‑ribose) polymerase \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "1; RAD51, RAD51 recombinase; HR, homologous recombination; c‑NHEJ, classic non‑homologous end joining; a‑NHEJ, alternative non‑homologous end \r\njoining; ecDNA, extrachromosomal DNA; MN, micronuclei; HSR, homogeneously staining region; NBUD, nuclear buds; MN, micronuclei.\n12 WANG et al: MSH3 IN ecDNA FORMATION\r\nMarshal Initiative Funding (grant no. HMUMIF‑21007) and \r\nNatural Science Foundation of Heilongjiang Province (grant \r\nno. LH2020H015).\r\nAvailability of data and materials\r\nThe datasets used and/or analyzed during the current study are \r\navailable from the corresponding author on reasonable request.\r\nAuthors' contributions\r\nXM and SF conceived and designed the study. XW, YQ, RX \r\nand JZ performed experiments and analyzed the data. HZ, JZ, \r\nXC, GJ, PL and WS provided advice and technical assistance. \r\nJM, TS, YL and SX performed experiments. XM and XW \r\nconfirm the authenticity of all the raw data. XM and XW wrote \r\nthe paper. All authors read and approved the final manuscript.\r\nEthics approval and consent to participate\r\nNot applicable.\r\nPatient consent for publication\r\nNot applicable.\r\nCompeting interests\r\nThe authors declare that they have no competing interests.\r\nReferences\r\n1. Albertson DG: Gene amplification in cancer. Trends Genet 22: \r\n447‑455, 2006.\r\n2. Storlazzi CT, Lonoce A, Guastadisegni MC, Trombetta D, \r\nD'Addabbo P, Daniele G, L'Abbate A, Macchia G, Surace C, \r\nKok K, et al: Gene amplification as double minutes or homoge‑\r\nneously staining regions in solid tumors: Origin and structure. \r\nGenome Res 20: 1198‑1206, 2010.\r\n3. Benner SE, Wahl GM and Von Hoff DD: Double minute \r\nchromosomes and homogeneously staining regions in tumors \r\ntaken directly from patients versus in human tumor cell lines. \r\nAnticancer Drugs 2: 11‑25, 1991.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "4. Turner KM, Deshpande V, Beyter D, Koga T, Rusert J, Lee C, \r\nLi B, Arden K, Ren B, Nathanson DA, et al: Extrachromosomal \r\noncogene amplification drives tumour evolution and genetic \r\nheterogeneity. Nature 543: 122‑125, 2017.\r\n5. Menghi F, Barthel FP, Yadav V, Tang M, Ji B, Tang Z, Carter GW, \r\nRuan Y, Scully R, Verhaak RGW, et al: The tandem duplicator \r\nphenotype is a prevalent genome‑wide cancer configuration driven \r\nby distinct gene mutations. Cancer Cell 34: 197‑210.e5, 2018.\r\n6. Gisselsson D, Jin Y, Lindgren D, Persson J, Gisselsson L, Hanks S, \r\nSehic D, Mengelbier LH, Øra I, Rahman N, et al: Generation of \r\ntrisomies in cancer cells by multipolar mitosis and incomplete \r\ncytokinesis. Proc Natl Acad Sci USA 107: 20489‑20493, 2010.\r\n7. Korbel JO and Campbell PJ: Criteria for inference of chro‑\r\nmothripsis in cancer genomes. Cell 152: 1226‑1236, 2013.\r\n8. Meng X, Qi X, Guo H, Cai M, Li C, Zhu J, Chen F, Guo H, Li J, \r\nZhao Y, et al: Novel role for non‑homologous end joining in the \r\nformation of double minutes in methotrexate‑resistant colon \r\ncancer cells. J Med Genet 52: 135‑144, 2015.\r\n9. Cai M, Zhang H, Hou L, Gao W, Song Y, Cui X, Li C, Guan R, \r\nMa J, Wang X, et al: Inhibiting homologous recombination \r\ndecreases extrachromosomal amplification but has no effect on \r\nintrachromosomal amplification in methotrexate‑resistant colon \r\ncancer cells. Int J Cancer 144: 1037‑1048, 2019.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "10. Hong Z, Jiang J, Hashiguchi K, Hoshi M, Lan L and Yasui A: \r\nRecruitment of mismatch repair proteins to the site of DNA \r\ndamage in human cells. J Cell Sci 121: 3146‑3154, 2008.\r\n11. Surtees JA and Alani E: Mismatch repair factor MSH2‑MSH3 \r\nbinds and alters the conformation of branched DNA structures \r\npredicted to form during genetic recombination. J Mol Biol 360: \r\n523‑536, 2006.\r\n12. Lyndaker AM and Alani E: A tale of tails: Insights into the coor‑ dination of 3' end processing during homologous recombination. \r\nBioessays 31: 315‑321, 2009.\r\n13. Takahashi M, Koi M, Balaguer F, Boland CR and Goel A: MSH3 \r\nmediates sensitization of colorectal cancer cells to cisplatin, \r\noxaliplatin, and a poly(ADP‑ribose) polymerase inhibitor. J Biol \r\nChem 286: 12157‑12165, 2011.\r\n14. Dillon LW, Kumar P, Shibata Y, Wang YH, Willcox S, \r\nGriffith JD, Pommier Y, Takeda S and Dutta A: Production of \r\nextrachromosomal MicroDNAs is linked to mismatch repair \r\npathways and transcriptional activity. Cell Rep 11: 1749‑1759, \r\n2015.\r\n15. Von Hoff DD, McGill JR, Forseth BJ, Davidson KK, Bradley TP, \r\nVan Devanter DR and Wahl GM: Elimination of extrachromo‑ somally amplified MYC genes from human tumor cells reduces \r\ntheir tumorigenicity. Proc Natl Acad Sci USA 89: 8165‑8169, \r\n1992.\r\n16. Eckhardt SG, Dai A, Davidson KK, Forseth BJ, Wahl GM and \r\nVon Hoff DD: Induction of differentiation in HL60 cells by the \r\nreduction of extrachromosomally amplified c‑myc. Proc Natl \r\nAcad Sci USA 91: 6674‑6678, 1994.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "17. Shimizu N, Shimura T and Tanaka T: Selective elimination of \r\nacentric double minutes from cancer cells through the extrusion \r\nof micronuclei. Mutat Res 448: 81‑90, 2000.\r\n18. Livak KJ and Schmittgen TD: Analysis of relative gene expres‑ sion data using real‑time quantitative PCR and the 2(‑Delta Delta \r\nC(T)) method. Methods 25:402‑408. 2001.\r\n19. Pierce AJ, Hu P, Han M, Ellis N and Jasin M: Ku DNA end- binding protein modulates homologous repair of double‑strand \r\nbreaks in mammalian cells. Genes Dev 15: 3237‑3242, 2001.\r\n20. Bennardo N, Cheng A, Huang N and Stark JM: Alternative‑NHEJ \r\nis a mechanistically distinct pathway of mammalian chromo‑\r\nsome break repair. PLoS Genet 4: e1000110, 2008.\r\n21. Morales C, García MJ, Ribas M, Miró R, Muñoz M, Caldas C \r\nand Peinado MA: Dihydrofolate reductase amplification and \r\nsensitization to methotrexate of methotrexate‑resistant colon \r\ncancer cells. Mol Cancer Ther 8: 424‑432, 2009.\r\n22. Chang DK, Ricciardiello L, Goel A, Chang CL and Boland CR: \r\nSteady‑state regulation of the human DNA mismatch repair \r\nsystem. J Biol Chem 275: 18424‑18431, 2000.\r\n23. Syed A and Tainer JA: The MRE11‑RAD50‑NBS1 complex \r\nconducts the orchestration of damage signaling and outcomes \r\nto stress in DNA replication and repair. Annu Rev Biochem 87: \r\n263‑294, 2018.\r\n24. Startek M, Szafranski P, Gambin T, Campbell IM, Hixson P, \r\nShaw CA, Stankiewicz P and Gambin A: Genome‑wide analyses \r\nof LINE‑LINE‑mediated nonallelic homologous recombination. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Nucleic Acids Res 43: 2188‑2198, 2015.\r\n25. Simsek D and Jasin M: Alternative end‑joining is suppressed by \r\nthe canonical NHEJ component Xrcc4‑ligase IV during chromo‑\r\nsomal translocation formation. Nat Struct Mol Biol 17: 410‑416, \r\n2010.\r\n26. Sallmyr A and Tomkinson AE: Repair of DNA double‑strand \r\nbreaks by mammalian alternative end‑joining pathways. J Biol \r\nChem 293: 10536‑10546, 2018.\r\n27. Kisurina‑Evgenieva OP, Sutiagina OI and Onishchenko GE: \r\nBiogenesis of Micronuclei. Biochemistry (Mosc) 81: 453‑464, \r\n2016.\r\n28. Morales C, Ribas M, Aiza G and Peinado MA: Genetic deter‑\r\nminants of methotrexate responsiveness and resistance in colon \r\ncancer cells. Oncogene 24: 6842‑6847, 2005.\r\n29. Zhang Y, Dong K, Jia X, Du S, Wang D, Wang L, Qu H, Zhu S, \r\nWang Y, Wang Z, et al: A novel extrachromosomal circular DNA \r\nrelated genes signature for overall survival prediction in patients \r\nwith ovarian cancer. BMC Med Genomics 16: 140, 2023.\r\n30. Hung KL, Yost KE, Xie L, Shi Q, Helmsauer K, Luebeck J, \r\nSchöpflin R, Lange JT, Chamorro González R, Weiser NE, et al: \r\necDNA hubs drive cooperative intermolecular oncogene expres‑\r\nsion. Nature 600: 731‑736, 2021.\r\n31. Jiricny J: The multifaceted mismatch‑repair system. Nat Rev Mol \r\nCell Biol 7: 335‑346, 2006.\r\n32. Jiricny J: Postreplicative mismatch repair. Cold Spring Harb \r\nPerspect Biol 5: a012633, 2013.\r\n33. Chatterjee N, Lin Y and Wilson JH: Mismatch repair enhances \r\nconvergent transcription‑induced cell death at trinucleotide \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "repeats by activating ATR. DNA Repair (Amst) 42: 26‑32, 2016.\nINTERNATIONAL JOURNAL OF ONCOLOGY 63: 134, 2023 13\r\n34. Bannister LA, Waldman BC and Waldman AS: Modulation of \r\nerror‑prone double‑strand break repair in mammalian chromo‑\r\nsomes by DNA mismatch repair protein Mlh1. DNA Repair \r\n(Amst) 3: 465‑474, 2004.\r\n35. Zhu J, Yu Y, Meng X, Fan Y, Zhang Y, Zhou C, Yue Z, Jin Y, \r\nZhang C, Yu L, et al: De novo‑generated small palindromes are \r\ncharacteristic of amplicon boundary junction of double minutes. \r\nInt J Cancer 133: 797‑806, 2013.\r\n36. Shammas MA, Shmookler Reis RJ, Koley H, Batchu RB, Li C \r\nand Munshi NC: Dysfunctional homologous recombination \r\nmediates genomic instability and progression in myeloma. \r\nBlood 113: 2290‑2297, 2009.\r\n37. Marti TM, Kunz C and Fleck O: DNA mismatch repair and \r\nmutation avoidance pathways. J Cell Physiol 191: 28‑41, 2002.\r\n38. Li GM: Mechanisms and functions of DNA mismatch repair. \r\nCell Res 18: 85‑98, 2008.\r\n39. Lieber MR: The mechanism of double‑strand DNA break repair \r\nby the nonhomologous DNA end‑joining pathway. Annu Rev \r\nBiochem 79: 181‑211, 2010.\r\n40. Smith JA, Waldman BC and Waldman AS: A role for DNA \r\nmismatch repair protein Msh2 in error‑prone double‑strand‑break \r\nrepair in mammalian chromosomes. Genetics 170: 355‑363, 2005.\r\n41. Shahi A, Lee JH, Kang Y, Lee SH, Hyun JW, Chang IY, Jun JY \r\nand You HJ: Mismatch‑repair protein MSH6 is associated with \r\nKu70 and regulates DNA double‑strand break repair. Nucleic \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Acids Res 39: 2130‑2143, 2011.\r\n42. Stavnezer J and Schrader CE: Mismatch repair converts \r\nAID‑instigated nicks to double‑strand breaks for antibody \r\nclass‑switch recombination. Trends Genet 22: 23‑28, 2006.\r\n43. Schrader CE, Guikema JE, Linehan EK, Selsing E and \r\nStavnezer J: Activation‑induced cytidine deaminase‑dependent \r\nDNA breaks in class switch recombination occur during G1 \r\nphase of the cell cycle and depend upon mismatch repair. \r\nJ Immunol 179: 6064‑6071, 2007.\r\n44. Eccleston J, Schrader CE, Yuan K, Stavnezer J and Selsing E: \r\nClass switch recombination efficiency and junction micro‑\r\nhomology patterns in Msh2‑, Mlh1‑, and Exo1‑deficient mice \r\ndepend on the presence of mu switch region tandem repeats. \r\nJ Immunol 183: 1222‑1228, 2009.\r\n45. Della‑Maria J, Zhou Y, Tsai MS, Kuhnlein J, Carney JP, Paull TT \r\nand Tomkinson AE: Human Mre11/human Rad50/Nbs1 and \r\nDNA ligase IIIalpha/XRCC1 protein complexes act together \r\nin an alternative nonhomologous end joining pathway. J Biol \r\nChem 286: 33845‑33853, 2011.\r\n46. Eccleston J, Yan C, Yuan K, Alt FW and Selsing E: Mismatch \r\nrepair proteins MSH2, MLH1, and EXO1 are important for \r\nclass‑switch recombination events occurring in B cells that lack \r\nnonhomologous end joining. J Immunol 186: 2336‑2343, 2011.\r\n47. Terradas M, Martín M and Genescà A: Impaired nuclear \r\nfunctions in micronuclei results in genome instability and chro‑\r\nmothripsis. Arch Toxicol 90: 2657‑2667, 2016.\r\n48. Shimizu N, Kanda T and Wahl GM: Selective capture of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "acentric fragments by micronuclei provides a rapid method for \r\npurifying extrachromosomally amplified DNA. Nat Genet 12: \r\n65‑71, 1996.\r\n49. Shimizu N, Itoh N, Utiyama H and Wahl GM: Selective entrap‑\r\nment of extrachromosomally amplified DNA by nuclear budding \r\nand micronucleation during S phase. J Cell Biol 140: 1307‑1320, \r\n1998.\r\n50. Shimizu N, Misaka N and Utani K: Nonselective DNA damage \r\ninduced by a replication inhibitor results in the selective elimina‑\r\ntion of extrachromosomal double minutes from human cancer \r\ncells. Genes Chromosomes Cancer 46: 865‑874, 2007.\r\n51. Canute GW, Longo SL, Longo JA, Winfield JA, Nevaldine BH \r\nand Hahn PJ: Hydroxyurea accelerates the loss of epidermal \r\ngrowth factor receptor genes amplified as double‑minute chro‑\r\nmosomes in human glioblastoma multiforme. Neurosurgery 39: \r\n976‑983, 1996.\r\n52. Ambros IM, Rumpler S, Luegmayr A, Hattinger CM, Strehl S, \r\nKovar H, Gadner H and Ambros PF: Neuroblastoma cells can \r\nactively eliminate supernumerary MYCN gene copies by \r\nmicronucleus formation‑sign of tumour cell revertance? Eur \r\nJ Cancer 33: 2043‑2049, 1997.\r\n53. Prochazka P, Hrabeta J, Vícha A and Eckschlager T: Expulsion \r\nof amplified MYCN from homogenously staining chromosomal \r\nregions in neuroblastoma cell lines after cultivation with cispl‑\r\natin, doxorubicin, hydroxyurea, and vincristine. Cancer Genet \r\nCytogenet 196: 96‑104, 2010.\r\n54. Sawant A, Kothandapani A, Zhitkovich A, Sobol RW and \r\nPatrick SM: Role of mismatch repair proteins in the processing \r\nof cisplatin interstrand cross‑links. DNA Repair (Amst) 35: \r\n126‑136, 2015.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8596511983411296890,
+        "filename": "ijo-63-06-05582.PMC10631765.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 47,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Copyright © 2023 Wang et al. This work is \r\nlicensed under a Creative Commons Attribution\u0002NonCommercial-NoDerivatives 4.0 International \r\n(CC BY-NC-ND 4.0) License.\n\n"
+  }
+]

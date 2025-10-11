@@ -1,0 +1,698 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Site-to-site cross-talk in OST-B glycosylation of hCEACAM1-IgV\r\nRobert V. Williamsa,b , Chin Huangb,c, Connor McDermottd , Tanvir Ahmeda , Linda Columbusd , Kelley W. Moremenb,c ,\r\nJames H. Prestegarda,b,c, and I. Jonathan Amstera,1\r\nEdited by Armando Parodi, Fundacion Instituto Leloir, Buenos Aries, Argentina; received February 19, 2022; accepted September 21, 2022\r\nN-glycosylation is a common posttranslational modification of secreted proteins in\r\neukaryotes. This modification targets asparagine residues within the consensus\r\nsequence, N–X–S/T. While this sequence is required for glycosylation, the initial trans\u0002fer of a high-mannose glycan by oligosaccharyl transferases A or B (OST-A or OST-B)\r\ncan lead to incomplete occupancy at a given site. Factors that determine the extent of\r\ntransfer are not well understood, and understanding them may provide insight into the\r\nfunction of these important enzymes. Here, we use mass spectrometry (MS) to simulta\u0002neously measure relative occupancies for three N-glycosylation sites on the N-terminal\r\nIgV domain of the recombinant glycoprotein, hCEACAM1. We demonstrate that\r\naddition is primarily by the OST-B enzyme and propose a kinetic model of OST-B\r\nN-glycosylation. Fitting the kinetic model to the MS data yields distinct rates for glycan\r\naddition at most sites and suggests a largely stochastic initial order of glycan addition.\r\nThe model also suggests that glycosylation at one site influences the efficiency of subse\u0002quent modifications at the other sites, and glycosylation at the central or N-terminal site\r\nleads to dead-end products that seldom lead to full glycosylation of all three sites. Only\r\none path of progressive glycosylation, one initiated by glycosylation at the C-terminal\r\nsite, can efficiently lead to full occupancy for all three sites. Thus, the hCEACAM1\r\ndomain provides an effective model system to study site-specific recognition of glycosyl\u0002ation sequons by OST-B and suggests that the order and efficiency of posttranslational\r\nglycosylation is influenced by steric cross-talk between adjoining acceptor sites.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "glycobiology j mass spectrometry j oligosaccharyltransferase\r\nGlycosylation is a common posttranslational modification (PTM) of eukaryotic pro\u0002teins in which a carbohydrate is attached to the sidechains of specific residues. In mam\u0002mals, most secreted and membrane proteins are O- or N-glycosylated with complex\r\nstructures (1). In addition, single sugars attached to cytosolic proteins play important\r\nregulatory roles in the cytoplasm and nucleus (2). N-glycosylation is perhaps best\r\nunderstood; it occurs on asparagine residues found within a consensus motif of\r\nN–X–S/T and plays important biological roles in both protein folding and cell signal\u0002ing processes (3). However, not all consensus sequons are glycosylated, occupancy at\r\nsome sites can be incomplete, and omissions can have biological consequences (4).\r\nHere we present data that can uncover factors leading to these omissions.\r\nSome specificity in N-glycosylation may arise in the initial transfer of a high-mannose\r\nglycan (Glc3Man9GlcNAc2) from a dolichol phosphate donor to the consensus aspara\u0002gine. This step is catalyzed by the oligosaccharyltransferase (OST) complex which comes\r\nin two forms (OST-A and OST-B) (Fig. 1A). OST-A associates with the translocon and\r\nglycosylates nascent polypeptides in a cotranslational manner, while OST-B acts post\u0002translationally (5). Additionally, OST-B forms transient disulfide bonds with protein sub\u0002strates via an oxidoreductase subunit (6). The differential activity of these two complexes\r\nhas been investigated at the proteome level in combination with CRISPR-Cas9 mutants\r\ndeficient for either catalytic subunit (STT3A or STT3B). This study found that many\r\nN-glycosylation sites modified by OST-A are fully occupied and proposed that OST-B\r\nglycosylates primarily a subset of sequons that were skipped by OST-A (7). Most of these\r\nskipped sites are within 65 residues of the C terminus of a protein, a stretch of residues\r\nthat may be required to retain attachment to the ribosome while OST-A acts.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Since OST-B acts posttranslationally, it is not constrained to an ordered addition to\r\nsubstrate glycosylation sites from N-terminal to C-terminal, as is the case for cotransla\u0002tional addition by OST-A. In addition, steric constraints may contribute to substrate\r\naccess, since folding of protein substrates may be initiated or completed prior to OST-B\r\naction (Fig. 1A). Here, we use mass spectrometry (MS) to examine the glycosylation\r\nof a small protein, the N-terminal IgV domain of human Carcinoembryonic Anti\u0002gen Cell Adhesion Molecule 1, hCEACAM1.The hCEACAM1 is a highly glycosy\u0002lated extracellular protein receptor, which has been implicated in gastrointestinal\r\nSignificance\r\nN-glycosylation is a common\r\nposttranslational modification of\r\nextracellular proteins. It plays a\r\nrole in protein folding in the\r\nendoplasmic reticulum and later\r\nparticipates in important\r\nprotein–carbohydrate interactions.\r\nViruses, in particular, are often\r\nhighly glycosylated. Knowledge of\r\nthe determinants of modification\r\nat a particular site is important for\r\nbetter understanding these\r\nprocesses. One challenge in\r\nobtaining this information is\r\nseparating the effect of the two\r\nglycosyltransferases, OST-A and\r\nOST-B. Our study focuses on\r\nOST-B and reveals how multiple,\r\nclosely spaced glycosylation sites\r\ncan influence one another in the\r\ncontext of OST-B glycosylation.\r\nAuthor affiliations: aDepartment of Chemistry, University\r\nof Georgia, Athens, GA 30602; b\r\nComplex Carbohydrate\r\nResearch Center, University of Georgia, Athens, GA 30602;\r\nc\r\nDepartment of Biochemistry and Molecular Biology,\r\nUniversity of Georgia, Athens, GA 30602; and d\r\nDepartment\r\nof Chemistry, University of Virginia, Charlottesville, VA\r\n22901\r\nAuthor contributions: L.C., K.W.M., J.H.P., and I.J.A.\r\ndesigned research; R.V.W., C.H., C.M., and T.A.\r\nperformed research; J.H.P. contributed new reagents/\r\nanalytic tools; R.V.W., T.A., L.C., K.W.M., J.H.P., and I.J.A.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "analyzed data; R.V.W. wrote the paper; and C.H., C.M.,\r\nL.C., K.W.M., J.H.P., and I.J.A. edited manuscript.\r\nThe authors declare no competing interest.\r\nThis article is a PNAS Direct Submission.\r\nCopyright © 2022 the Author(s). Published by PNAS.\r\nThis article is distributed under Creative Commons\r\nAttribution-NonCommercial-NoDerivatives License 4.0\r\n(CC BY-NC-ND).\r\n1\r\nTo whom correspondence may be addressed. Email:\r\njamster@uga.edu.\r\nThis article contains supporting information online at\r\nhttp://www.pnas.org/lookup/suppl/doi:10.1073/pnas.\r\n2202992119/-/DCSupplemental.\r\nPublished October 17, 2022.\r\nPNAS 2022 Vol. 119 No. 43 e2202992119 https://doi.org/10.1073/pnas.2202992119 1 of 8\r\nRESEARCH ARTICLE | BIOCHEMISTRY\nautoimmune disorders and host–pathogen interactions (8, 9).\r\nThe N-terminal immunoglobulin-V-like domain (IgV) con\u0002tains three N-glycosylation sites. While our initial study of\r\nhCEACAM1 was motivated by its biological function, the\r\nhCEACAM1-IgV construct proves a convenient model system\r\nfor understanding OST-catalyzed glycosylation. First, the small\r\nsize of the N-terminal domain (12 kDa) makes it an accessible\r\ntarget for top-down MS/MS analysis of the sites of glycosylation.\r\nSecond, despite the small size of the protein, this construct con\u0002tains three consensus sequons, all within 35 residues of the C ter\u0002minus, sites N104, N111, N115 of the Uniprot sequence\r\nP13688, suggesting that all glycosylation may be dependent on\r\nOST-B. Lastly, hCEACAM1-IgV does not possess any cysteine\r\nresidues and, therefore, will not involve the oxidoreductase activ\u0002ity of OST-B; in their absence, glycosylation levels are lower,\r\nallowing the level of glycosylation to report more directly on\r\naccessibility of the OST-B catalytic site.\r\nTop-down MS (TDMS) is an advanced MS method in\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "which an intact protein is analyzed directly, as opposed to anal\u0002ysis of proteolytic fragments (10). The top-down approach is\r\nespecially beneficial when a protein has multiple modifications\r\non different regions of the protein. More widely used bottom\u0002up approaches rely on proteolysis which can, in principle, sepa\u0002rate PTMs onto different peptides. Tandem MS is more easily\r\naccomplished for peptides than intact proteins, but information\r\ncan be lost by enzymatic digestion, specifically, the correlation\r\nbetween sites of modification for substoichiometric PTMs.\r\nTDMS allows for the localization of multiple glycosylation sites\r\nsimultaneously and informs upon the relative abundance of dis\u0002tinct glycan occupancy states for the intact protein. It does,\r\nhowever, require extensive and controlled fragmentation that\r\nfocuses on backbone cleavage and does not dissociate the\r\nPTMs of interest. Electron-based fragmentation techniques,\r\nsuch as electron capture dissociation (ECD) or electron transfer\r\ndissociation, are employed here to improve sequence coverage\r\nand to preserve labile PTMs (11–13). Using these MS\r\napproaches, relative occupancies for three N-glycosylation sites\r\non the N-terminal IgV domain of the wild-type recombinant\r\nglycoprotein, hCEACAM1, were simultaneously measured,\r\nalong with three mutant proteins in which single glycosylation\r\nsites were removed by mutating asparagine to glutamine.\r\nThe resulting information was used to develop a kinetic model\r\nof OST-B-catalyzed glycosylation (Fig. 1B). Initial glycosylation\r\noccurred readily at all three sites, but, surprisingly, glycosylation\r\nat the central site led to dead-end products that were seldom gly\u0002cosylated at additional sites. Thus, the order of glycosylation by\r\nOST-B is largely stochastic, and subsequent glycosylations appear\r\nto be impacted by the position of the initial glycosylation event.\r\nOnly a single path of ordered glycosylation of the three sites,\r\nstarting with the C-terminal site, followed by the central site and\r\nfinally the N-terminal site, efficiently produced a fully glycosy\u0002lated recombinant product. This is in contrast to the efficient\r\nN- to C-terminal glycan modification that is characteristic of\r\ncotranslational OST-A-catalyzed glycosylation.\r\nResults\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 476,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Glycosylation Occupancy. After the initial transfer of a high\u0002mannose glycan to CEACAM1-IgV sites, subsequent trimming in\r\nthe endoplasmic reticulum (ER) and further glycan additions in the\r\nGolgi cisternae would normally lead to a complex mixture of glyco\u0002forms that could complicate MS analysis. To avoid this, recom\u0002binant hCEACAM1-IgV was expressed in an MGAT1 null\r\nHEK293 cell line (HEK293S GnT1\u0002) that only produces Man5-\r\nGlcNAc2 glycans (14). These glycans are susceptible to cleavage\r\nbetween the two N acetylglucosamine (GlcNAc) residues by\r\nendoglycosidase-F1 (EndoF1), leaving a single GlcNAc “scar” at\r\nany glycosylated site (15). The simplified mass spectrum of intact\r\nhCEACAM1-WT, after EndoF1 treatment, showed a mixture of\r\nthree species with deconvoluted monoisotopic masses of 12,417.22,\r\nOST-A: Cotranslational\r\nER Lumen\r\nCytosol\r\nOST-B: Posttranslational\r\nP\r\nP\r\nN-X-S/T\r\nN-X-S/T\r\nN N N\r\nN N N\r\nk1\r\nk2\r\nk3 k3,1\r\nk3,2\r\nk2,3\r\nk2,1\r\nk1,3\r\nk1,2\r\nk23,1\r\nk13,2\r\nk23,1\r\nN N N\r\nN N N\r\nN N N\r\nN N N\r\nN N N\r\nN N N\r\nProtein\r\nTranslation\r\nProtein\r\nSecretion\r\nOST A: - Cotranslational Cotranslational OST-B: Posttranslational\r\nER Lumen\r\nCytosol\r\nOST B:\r\nP\r\nP\r\nN-X-S/T\r\nA\r\nB\r\nN-X-S/T\r\nFig. 1. (A) Diagram of OST-A and OST-B function. (Left) A nascent polypeptide is shown emerging from the ribosome (light blue, PDB 6FTI), passing into the ER lumen\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "via the sec61 channel (green) and being scanned by OST-A (red, PDB 6S7O). (Right) OST-B (blue, PDB 6S7T) is shown interacting with a partially folded peptide sub\u0002strate. A dolichol pyrophosphate-linked oligosaccharide donor is shown in the membrane to the left of OST-A. (B) Model of glycosylation pathways for hCEACAM1-IgV\r\nvia OST-B. After protein translation, glycans can be added in any order to each of the three N-glycan sequons (indicated by an “N” in the linear polypeptide representa\u0002tion), and each addition is given its own rate constant. Glycans are shown with the Symbol Nomenclature for Glycans symbol for GlcNAc, for simplicity.\r\n2 of 8 https://doi.org/10.1073/pnas.2202992119 pnas.org\n12,620.29, and 12,823.37 Da, which correspond to the protein\r\nwith one, two, or three GlcNAc modifications. These species were\r\nobserved with relative proportions of 29%, 46%, and 26%, respec\u0002tively (Fig. 2A). The species lacking glycans was not observed, and,\r\npresumably, is present at a level below noise.\r\nThe glycosylation positions of species with one and two\r\nGlcNAcs are indeterminate in MS spectra of the intact protein. To\r\ndetermine these positions, top-down ECD MS/MS was applied.\r\nAn example of the ECD MS/MS fragmentation coverage is shown\r\nin Fig. 2D for the monoglycosylated components. Fragments were\r\nobserved across a large portion of the protein backbone. More\r\nimportantly, fragmentation between the three glycosylation sites is\r\nobserved, allowing determination of site-specific glycan occupancy.\r\nBy combining the relative abundances from the intact mass\r\nspectrum with the fragmentation patterns from the MS/MS\r\nspectra, the abundances of each potential “occupancy state”\r\nwere determined for wild type, wild type in the presence of\r\nan OST-B inhibitor, and three glycosylation site mutants\r\n(Table 1). These states are denoted by a three-bit binary code\r\nin which the bits correspond to sites N104, N111, and N115,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "and “1” indicates glycosylation and “0” indicates the absence of\r\nglycosylation. We first focus on wild-type data under normal\r\nOST-A and OST-B activity. The results show that the loca\u0002tions of glycans are not random. Instead, there are clear pat\u0002terns for modification preference. In the case of the species\r\nwith one GlcNAc, the modification was predominantly located\r\nat the central N111 sequon, [010], while, in the case of the\r\ntwo-GlcNAc species, a mixture of [110] and [101] in similar\r\namounts was observed, and [011] was observed at a lower level.\r\nTo test the reproducibility of these results, hCEACAM1-IgV\u0002WT was expressed in duplicate by two different laboratories.\r\nThe SDs in glycoform distributions are listed in Table 1. While\r\nthere is some variation, there is consistency in that species [010],\r\n[110], [101], and [111] were highly populated, and [000],\r\n[100], [001], and [011] were absent or sparingly populated.\r\nGlycosite Mutants. To further explore the patterns in N-glyco\u0002sylation, we produced three mutant versions of hCEACAM1-\r\nIgV where each glycosylated asparagine residue was individually\r\nmutated to a glutamine, thus eliminating the possibility of gly\u0002cosylation at the respective site. Top-down MS analysis was\r\nthen repeated on each of these samples. The intact mass spectra\r\nof each mutant show significant changes compared to the wild\u0002type construct (Fig. 2B). In each case, species were observed\r\ncorresponding to the protein with one asparagine to glutamine\r\nmutation (+14 Da) and one or two GlcNAc modifications.\r\nThe most dramatic change is observed when site 2 (N111) is\r\nmutated. Near-complete glycosylation was observed, with the\r\nfully occupied two-GlcNAc form comprising 98% of the pro\u0002tein signal. Fragmentation patterns of the one-GlcNAc form of\r\n1010 1020 1030 1040 1050 1060 1070 1080 m/z\r\n1\r\n0 3\r\n2\r\n3\r\nControl\r\nInhibitor-Treated\r\nC\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "1030 1040 1050 1060 1070 m/z\r\nN N N\r\nN N N\r\nN N N\r\nA\r\n1020 1030 1040 1050 1060 1070 1080 m/z\r\nWT\r\nN104Q\r\nN111Q\r\nN115Q\r\n1\r\n2\r\n3\r\n1\r\nB\r\nN GSGGAQLTTESMPFNVAEGKEVLL L 54\r\n55 VHNLPQQLFGYSWYKGERVDGNRQ I 79\r\n80 VGYAIGTQQATPGPANSGRETIYP N 104\r\n105 ASLLIQNVTQNDTGFYTLQVIKSD L 129\r\n130 VNEEATGQFHVY C\r\nD\r\nFig. 2. (A) Mass spectrum of hCEACAM1-IgV-WT showing a region containing the 12+ charge distribution. Three peaks are observed corresponding to the protein\r\nwith one, two, or three GlcNAc residues (blue squares). In the case of one or two GlcNAc residues, the location of the modification is ambiguous and indicated with\r\nbrackets. (B) Comparison of mass spectra for hCEACAM1 glycosylation site mutants. The number within the blue square indicates the number of GlcNAc residues.\r\n(C) Comparison of mass spectra for hCEACAM1-WT samples expressed in cells with and without the presence of OST-B inhibitor. (D) Example fragmentation map\r\nfrom top-down ECD MS/MS spectra of monoglycosylated hCEACAM1-IgV. Lines drawn between residues indicate an assigned fragment ion. The notch at the top of a\r\nline indicates a c-type fragment ion, while a notch at the bottom indicates an assigned z ion. Residue N111 is highlighted, indicating the presence of a GlcNAc PTM.\r\nPNAS 2022 Vol. 119 No. 43 e2202992119 https://doi.org/10.1073/pnas.2202992119 3 of 8\neach mutant give insight into pair-wise correlations between\r\nglycosylation at the remaining sites. For the N104Q mutant,\r\nthe single GlcNAc was primarily observed at N111. A similar\r\ntrend was seen for the N115Q mutant where the glycan modi\u0002fication was only observed at N111.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Support for OST-B Exclusive Glycosylation. Using these data,\r\nwe sought to develop a simple model describing the glycosyla\u0002tion events; however, the details of this model depend on\r\nwhether hCEACAM1-IgV is glycosylated cotranslationally by\r\nOST-A or posttranslationally by OST-B. Based on prior litera\u0002ture, we expected OST-A to be unable to glycosylate this con\u0002struct, due to the close proximity of the N-glycosylation\r\nsequons to the C terminus. However, to test this expectation,\r\nwe prepared a two-domain hCEACAM1 construct (hCEA\u0002CAM1-IgV-IgC) that appended an additional 95-aa IgC\r\ndomain C-terminal to the IgV domain. The added domain car\u0002ries an additional six N-glycosylation sites, making nine sites in\r\ntotal. Intact mass measurement of this sample showed a mix\u0002ture of species consistent with five to nine GlcNAc residues (SI\r\nAppendix, Fig. S3A). ECD fragmentation spectra revealed that\r\nthe first three glycosylation sites, corresponding to those on the\r\nIgV domain, were now highly occupied. No fragment ions\r\nwere observed without GlcNAc modification at these sites (SI\r\nAppendix, Fig. S3B). This observation is consistent with the\r\nfact that these three sites are now more than 65 residues away\r\nfrom the C terminus and that glycosylation by both OST-A\r\nand OST-B is possible. Also, the fourth glycosylation site is suf\u0002ficiently far from the C terminus for OST-A glycosylation and\r\nwas also observed to be completely occupied by top-down\r\nECD MS/MS. The remaining five glycosylation sites are within\r\n65 residues of the C terminus and, as expected, were variably\r\nmodified. One potential caveat regarding the evidence from the\r\ntwo-domain construct is that the second domain contains a\r\ndisulfide bond. This raises the possibility that the increased gly\u0002cosylation occupancy of sites 1, 2, and 3 may not be solely due\r\nto engaging OST-A but also may have enhanced OST-B activ\u0002ity, due to the oxidoreductase subunit of OST-B.\r\nTo further test the mechanism of N-glycosylation, we\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "expressed the hCEACAM1-IgV construct while treating the\r\nHEK293 expression culture with an OST-B inhibitor that has\r\nbeen shown to selectively repress glycosylation by OST-B (16).\r\nIntact mass spectra show that the inhibitor-treated protein sam\u0002ple is significantly less glycosylated than untreated samples (Fig.\r\n2C). While suppression of glycosylation is not complete, this\r\nmay reflect some site specificity in suppression as opposed to\r\nresidual activity of OST-A (16). The inhibitor is not believed\r\nto be an active site inhibitor, which would uniformly suppress\r\nglycosylation, but is believed to act allosterically, a manner that\r\ncould be site specific. Moreover, it was previously observed that\r\nadministration of the inhibitor to an STT3A knockout did not\r\ncompletely prevent glycosylation of the reporter protein (16).\r\nTandem MS was also performed on the inhibitor-treated\r\nsamples, resulting in glycoform distributions shown in Table 1.\r\nThe results show that the most abundant form in the inhibitor\u0002treated sample contains a single glycan at the central glycosyla\u0002tion site (N111). Interestingly, small amounts of [100] and\r\n[001], previously unobserved, were also detected. None of the\r\nabove observations alone provide a definitive argument for the\r\nexclusive action of OSTB, but, in total, the argument for domi\u0002nance by OSTB is very strong.\r\nKinetic Modeling. Direct interpretation of the relative amounts\r\nof the hCEACAM1-IgV glycoforms is difficult. Several minor\r\nspecies are observed in small amounts and, thus, may be transient\r\nintermediates that are quickly glycosylated. Another explanation\r\nis that less abundant species are produced slowly for reasons due\r\nto the mechanism or structure of the enzyme. To gain further\r\ninsight into the mechanism of N-glycosylation of hCEACAM1-\r\nIgV, we developed a kinetic model of OST-B-catalyzed addition.\r\nThe model extracts relative rate constants for glycosylation at the\r\nthree N-linked sites from the steady-state concentrations of the\r\nvarious glycoforms, as explained below.\r\nWe started modeling with a hypothesis that posttranslational\r\naddition of N-glycans would be stochastic with 12 possible\r\nreactions, each with a unique rate constant. In addition, to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "mimic the cell expression process, the model employed a single\r\nrate describing the protein entering the ER via translation and\r\na single common rate for the secretion of each species, giving a\r\ntotal of 14 rate constants. These become variables in eight dif\u0002ferential equations describing the rate of change of the eight\r\nglycosylated species in the wild-type sample.\r\nWe have increased the amount of modeling data by examin\u0002ing glycosylation of mutants that eliminate glycosylation at\r\neach of the three consensus sites (N to Q mutations). If we\r\nassume that mutation acts only by elimination of the respective\r\nglycosylation site, while kinetic constants for glycosylation of\r\nthe remaining sites are the same as for wild type, we get 4 addi\u0002tional equations for each mutant, for a total of 20. Because MS\r\nanalysis gives only proportions of the various glycosylated spe\u0002cies relative to the sum total of all glycoforms in a given mass\r\nspectrum, only the relative magnitudes of the constants are\r\nmeaningful. We can therefore set one variable (the rate for\r\nwild-type hCEACAM1 entering the ER) to an arbitrary num\u0002ber. The rates for mutants entering the ER are related to this\r\nby three scaling factors. Thus, we end up with 16 variables and\r\n20 differential equations that relate these variables to experi\u0002mental data. The set of variables best satisfying the equations is\r\nTable 1. Glycoform distributions of hCEACAM1-IgV variants\r\nRelative Proportion (%)\r\nSample [000] [100] [010] [001] [110] [101] [011] [111]\r\nWT* 0‡ ± 0 2 ± 2 27 ± 12 0‡ ± 0 23 ± 5 19 ± 9 6 ± 6 25 ± 10\r\nInhibitor-treated† 1 6 70 3 8 7 3 1\r\nN104Q† 0‡ n/a§ 19 1 n/a§ n/a§ 81 n/a§\r\nN111Q† 0‡ 2 n/a§ 0‡ n/a§ 98 n/a§ n/a§\r\nN115Q† 0‡ 0‡ 39 n/a§ 61 n/a§ n/a§ n/a§\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "*Wild-type (WT) sample is reported as the average ± SD of all biological replicates (n = 4). †\r\nInhibitor-treated and mutant samples were measured on single biological samples.\r\n‡\r\nNot observed.\r\n§\r\nImpossible due to NΔQ mutation.\r\n4 of 8 https://doi.org/10.1073/pnas.2202992119 pnas.org\nfound by a process more fully described in Materials and Meth\u0002ods. The resulting values for each rate constant are shown in\r\nFig. 3, in which the determined rates have replaced the kinetic\r\nconstants in Fig. 1B, and our binary codes have replaced the\r\nnodes in Fig. 1B. Note that the rates of substrate entering and\r\nsum of products leaving are the same within experimental error.\r\nThe derived rate constants can be used to predict the glycoform\r\ndistribution for the wild-type and mutant expression systems,\r\nand these values are listed in SI Appendix, Table S28. These val\u0002ues compare quite well with the observed distributions listed in\r\nTable 1, particularly for the mutant systems. Any ER-associated\r\ndegradation (ERAD) processes are not explicitly included in\r\nour model, and rates of leaving the ER may not be the same\r\nfor all species. These may explain our inability to get an exact\r\nfit to data. Regardless of the limitations of our model, these\r\nresults suggest distinct pathways for site-specific occupancy of\r\nhCEACAM1-IgV. Glycosylation of site 1 and site 2 proceeds\r\nefficiently, but further addition at site 3 is unfavorable. Initial\r\nglycosylation of site 2 is also favorable; however, this leads to a\r\ndead end where further addition at either of the remaining sites\r\nis very slow. In fact, the most efficient pathway to full glycosyl\u0002ation seems to proceed via site 3, then site 2, and finally site 1.\r\nThese results can be tested by the glycoform distribution mea\u0002sured on the hCEACAM1 IgV sample expressed during OST-B\r\ninhibitor treatment (Table 1). If we assume that inhibition slows\r\nthe rate of all glycosylation steps equally, then one would expect\r\nan accumulation of intermediate states. Our model predicts that\r\n[100] and [001] are two such intermediates. The data show that\r\nthese species are present in larger amounts than without inhibitor\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "treatment; however, they are still minor glycoforms compared to\r\nthe [010] species. This discrepancy may reflect a more complex\r\nmechanism of inhibition that impacts some glycosylation sites\r\nmore severely than others. Alternatively, some specificity in\r\nERAD may play a significant role in the low abundance of\r\n[000], [100], and [001] glycoforms.\r\nDiscussion\r\nA single dominant path to full glycosylation implies there are\r\nrestraints on the process and mechanism. Analysis of the structure of\r\nthe glycotransferase may provide insight. The structure of the human\r\nOST-B complex has been solved by cryoelectron microscopy\r\n(cryo-EM) with electron density consistent for an average peptide\r\nacceptor sequon bound in the catalytic site (17). To our knowledge,\r\nthere is no evidence that OST-B acts in a processive fashion on an\r\nunfolded protein. Also, unglycosylated versions of hCEACAM1-IgV\r\nreadily fold, and several crystal structures of the bacterially expressed\r\nprotein have been determined (18, 19). Hence, it seems reasonable\r\nto examine the possibility that OST-B acts on a form of\r\nhCEACAM1-IgV that can theoretically range between a fully\r\nfolded and an unfolded state. A folded model based on an X-ray\r\ncrystal structure (Protein Data Bank [PDB] 4QXW) of\r\nhCEACAM1-IgV was aligned with the bound peptide at each\r\nof the three glycosylation sites. In each case, significant clashes\r\nbetween the folded hCEACAM1-IgV and the OST-B complex\r\nwere observed (not shown), suggesting that the protein must be\r\nat least partially unfolded during glycosylation. It is intriguing\r\nthat OST-A can more efficiently glycosylate the three sequons of\r\nhCEACAM1 IgV than OST-B if a C-terminal extension beyond\r\nthe IgV domain is provided. The key difference is that OST-A\r\nmediated cotranslational glycosylation enforces rapid glycosyla\u0002tion as the peptide emerges from the SEC61 translocon prior to\r\nprotein folding. Hence, partial folding may be responsible for\r\nthe slower differential glycosylation at certain sites.\r\nNext, the possible effect of prior glycosylation at adjacent\r\nsites was explored. An unfolded polypeptide containing the three\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "N-glycosylation sites was built and aligned so that site 1 (N104)\r\nwas inside the OST-B catalytic site, and then a Glc3Man9Glc\u0002NAc2 glycan was modeled on site 2 (N111) (Fig. 4). The\r\n14-residue oligosaccharide is quite large, and it is clear that steric\r\ninteractions could easily inhibit entry of additional hCEACAM1-\r\nIgV sequons. Similar models were examined with initial glycosyla\u0002tion at either N104 or N115, and the remaining NXS or NXT\r\nsites placed in the catalytic region of OST-B. These also suggest\r\nsteric interactions that could inhibit further glycosylation. Unfor\u0002tunately, without more structural data, it is not possible to build\r\nmore specific models. In particular, we have ignored the possible\r\nmotion of OST-B domains. Crystal structures of the bacterial\r\nOST PglB (homologous to STT3B) in complex with model\r\nsubstrates have shown that a large loop (EL5) undergoes signifi\u0002cant rearrangement between disordered and ordered states as\r\nsubstrates bind and products are released (20–22). Additional\r\nindications of internal motion are present in the cryo-EM struc\u0002ture OST-B (17). Several loops in STT3B did not produce\r\nstrong electron density, and even the entire catalytic domain of\r\nthe oxidoreductase MagT1 was not observed.\r\nWe should point out that other factors are known to affect\r\nprobabilities for glycosylation (23). While most of these have\r\nbeen studied under conditions where OST-A rather than OST-B\r\nis active, the similarity of active sites in the two complexes sug\u0002gests consideration. One well-documented factor is the presence\r\nof a serine rather than threonine in the sequon. Sequons with\r\nthreonine are much more likely glycosylated, and it is even known\r\nthat closely spaced threonine-containing sequons can be glycosy\u0002lated (24). Site N104 is an NXS site, and both other sites are\r\nNXT sites. Yet, their initial glycosylation rates are very similar.\r\nLikewise, our N115 site has an aspartic acid in the X site, some\u0002thing that is known to suppress glycosylation to some extent (25).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Yet, we do not observe suppression of our initial addition rates.\r\nThese observations do suggest that either OST-B functions differ\u0002ently, or other factors such as steric factors may be rate limiting.\r\nThe assumptions of our kinetic model can clearly be debated.\r\nWe assume that substrates, such as the glycosylated dolichol pyro\u0002phosphate and unglycosylated protein, reach steady-state levels\r\nearly in the process and remain at those levels for the majority of\r\nexpression time. It is unclear whether this assumption would be\r\n100\r\n±13 ±8 ±15\r\n±4\r\n±3\r\n±0.4\r\n±0.2\r\n±0.6\r\n±3\r\n±0.2\r\n±2\r\n±22\r\n115\r\n58\r\n84\r\n78\r\n93\r\n26.0\r\n-0.1\r\n0.6\r\n44\r\n49\r\n0.6\r\n19\r\n0.8 [000]\r\n[001]\r\n[100]\r\n[010]\r\n[110]\r\n[101]\r\n[011]\r\n[111]\r\nProtein\r\nTranslation\r\nRate \r\nBulk\r\nSecretion\r\nRate \r\n±4\r\n±0.9\r\nFig. 3. Flowchart describing the kinetic model of OST-B glycosylation. Glyco\u0002sylation state is shown as a three-bit binary representation, for simplicity. The\r\norder of the three bits (e.g., [010]) corresponds to sites N104, N111, and N115,\r\nrespectively, where a “0” represents an unglycosylated residue and a “1” repre\u0002sents the presence of a GlcNAc at the respective site. Each arrow indicates a\r\nseparate reaction. In the case of the processes removing protein from the ER,\r\nonly one arrow is drawn, for clarity, but the model includes a separate process\r\nfor each species to exit the ER. The numbers above each arrow indicate the\r\nvalue of the corresponding optimized rate constant from the kinetic model,\r\nwhile the numbers below each arrow indicate the SD. The thickness of\r\neach line has been scaled in proportion to the value of the rate constant. The\r\norientation of the graph mirrors the diagram in Fig. 1B.\r\nPNAS 2022 Vol. 119 No. 43 e2202992119 https://doi.org/10.1073/pnas.2202992119 5 of 8\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "true for protein overexpression during our typical 6-d culture\r\nperiod. Also, glycosylation could alter the folding trajectory of\r\nhCEACAM1, and some forms may be preferentially secreted.\r\nAdditionally, there are quality control processes in the ER that tar\u0002get poorly folded and possibly underglycosylated proteins through\r\nan ERAD pathway for destruction by cytosolic proteosomes (26).\r\nThe loss of unfolded species through the ERAD pathway may be\r\nsignificant, as previous expression of unglycosylated hCEACAM1-\r\nIgV in Escherichia coli formed inclusion bodies (27). Some of these\r\nflaws could be corrected by the addition of more processes (and\r\nunknown parameters) to the kinetic model. However, the number\r\nof independent variables in even our simplest model (14) exceeds\r\nthe amount of MS data on the initial hCEACAM1-IgV construct\r\n(measurements on eight species and eight equations relating these\r\nto variables). We were able to compensate by adding data from\r\nmutants missing glycosylation sites, but this required additional\r\nassumptions regarding a lack of perturbation to remaining sites.\r\nNevertheless, some level of site-to-site interaction is clear, and this\r\ninteraction likely has structural implications.\r\nThe interplay of glycans on different sites of glycoproteins could\r\nwell have implications for other biological functions. Proteins other\r\nthan CEACAMs are very heavily glycosylated, and glycans may\r\nwell interact in the course of stabilizing certain conformations or\r\nprotecting sites from interactions with other proteins, as in the\r\ncase of glycan shields of certain virus surfaces from antigenic devel\u0002opment (28). Site-specific information on occupancy and the gly\u0002can structures occupying each site could be very important to\r\nunderstanding glycan function in these instances. The top-down\r\nMS strategy used in our studies can supply these data.\r\nHere we have measured the glycan occupancy of hCEACAM1-\r\nIgV using a combination of top-down and bottom-up MS. Based\r\non the combination of increased occupancy in a two-domain con\u0002struct, significantly reduced glycosylation after treatment with an\r\nOST-B specific inhibitor, and literature precedence for inefficient\r\nOST-A activity toward sequons proximal to the C terminus, we\r\nconclude that N-glycosylation of this protein is catalyzed by OST-B.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Using these data, we have proposed a kinetic model of OST-B\u0002driven glycosylation that predicts the most efficient pathway to full\r\nglycosylation proceeds from C to N terminus. While some of these\r\nobservations are probably specific to our model protein, this work\r\nhighlights that, for OST-B-catalyzed glycosylation, the relative rates\r\nof glycosylation at various sites are determined by factors other\r\nthan the NXS versus NXT motif, and that the order of glycosyla\u0002tion is not constrained to follow N-terminal to C-terminal process\u0002ing. The N-glycosylation process is a complex interplay between\r\nthe activity of the OST complexes, protein folding, and subsequent\r\ntrafficking through the ER and/or Golgi apparatus. Our results\r\nsuggest that folding trajectories are glycoform specific and would\r\nbe ripe for future inquiry. Similar studies on other glycoproteins\r\nmay shed further light on these complex processes.\r\nMaterials and Methods\r\nProtein Expression and Purification. The hCEACAM1 expression constructs\r\nwere synthesized using human codon optimization (ThermoFisher) and were\r\ninserted into a pGEn2 expression vector (29). The resulting expression products\r\ncontain an N-terminal signal sequence followed by a His-tag, green fluorescent\r\nprotein (GFP) domain, tobacco etch virus (TEV) protease recognition site, and an\r\nSGG linker followed by the hCEACAM1-IgV domain (UniProt P13688, residues\r\n34 to 141). Three glycosylation site mutants (N104Q, N111Q, and N115Q) were\r\ngenerated using a Q5 site-directed mutagenesis kit (New England Biolabs), and\r\na two-domain hCEACAM1-IgV-IgC (residues 34 to 236) construct was also pre\u0002pared in the same vector backbone. All constructs were expressed by transient\r\ntransfection in HEK293S (GnT1\u0002) cells (ATCC), leading to secretion of the recom\u0002binant product into conditioned medium (14, 29). The HEK293S (GnT1\u0002) recom\u0002binant host is defective in the glycan processing enzyme, MGAT1, and leads to\r\nsecretion of glycosylated products harboring Man5GlcNAc2 glycan structures that\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "can be subsequently cleaved by endoglycosidase F1 (EndoF1) to result in a sin\u0002gle GlcNAc-Asn linkage at the respective glycosylation site. The hCEACAM1\r\nexpression products were harvested 6 d posttransfection, and the conditioned\r\nmedia was subjected to centrifugation prior to protein purification. For OST-B\r\ninhibition studies, inhibitor C19 (Enamine, cat# Z26531254) was added to the\r\ncell culture medium to a final concentration of 25 μM with 0.1% (vol/vol) of\r\ndimethyl sulfoxide. For protein purification, the crude medium was loaded onto\r\nNi-NTA Superflow (Qiagen) column, washed with 25 mM Hepes, 300 mM NaCl,\r\n20 mM imidazole, pH 7.0, and eluted with 25 mM Hepes, 300 mM NaCl, 300\r\nmM imidazole, pH 7.0. Purified protein was concentrated and treated with\r\nrecombinant TEV protease and EndoF1 (both His-tagged) simultaneously for 24\r\nh at 4 °C to remove the GFP fusion tag and N-glycans. The digestion products\r\nwere then passed through a Ni-NTA Superflow column to remove the cleaved\r\nGFP fusion tag, TEV protease, and EndoF1 to result in a purified untagged pro\u0002tein in the flow-through fraction. Protein was further purified over a Superdex-75\r\n(GE Healthcare Life Sciences) column and concentrated to 1 mg/mL to 3 mg/mL.\r\nEach purification step was checked by sodium dodecyl sulfate polyacrylamide\r\ngel electrophoresis. Human CEACAM1 variants were expressed and purified in\r\ntwo different laboratories independently at the University of Georgia and Univer\u0002sity of Virginia, following the same protocol, to act as biological replicates.\r\nMS. Following protein expression and purification, protein samples were buffer\r\nexchanged into 10 mM ammonium acetate and diluted to a concentration of\r\n1 μM with 50/49/1 (vol/vol/v)% methanol–water–formic acid solution for MS\r\nanalysis. All mass spectra were acquired using a 12 T Bruker SolariX Fourier\r\ntransform ion cyclotron resonance (FT-ICR)-MS. Sample solutions were directly\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "infused via a syringe pump at a flow rate of 2.0 μL/min and ionized via electro\u0002spray with a capillary voltage of 4,500 V and end plate offset of \u0002500 V. Ions\r\nN111\r\nN115\r\nFig. 4. Model of unfolded hCEACAM1-IgV peptide (blue ribbon) docked into the catalytic site of STT3B (blue surface). Site 1 (N104) is docked in the catalytic\r\nsite, and a Glc3Man9GlcNAc2 N-glycan (transparent surface) is attached at site 2 (N111). The structure of OST-B was taken from PDB 67ST.\r\n6 of 8 https://doi.org/10.1073/pnas.2202992119 pnas.org\nwere accumulated in the collision cell for 0.1 s for MS spectra and 1.0 s for MS/MS\r\nprior to transfer to the analyzer cell. A 1.0-ms time-of-flight delay was set before\r\ntrapping ions. For MS spectra, 50 scans were coadded, while, for MS/MS, 300\r\nscans were acquired. ECD MS/MS spectra were achieved with an electron bias of\r\n1.0 V, lens voltage of 10.0 V, and electron pulse length of 15 ms to 20 ms. The\r\nFT-ICR time domain transients contained 2 million data points with a length of\r\n0.8389 s, which corresponds to a resolving power of ∼77,000 at m/z 1,000.\r\nFor bottom-up confirmation of selected datasets, protein digestion was per\u0002formed using sequencing grade trypsin (Promega). A 1 mg/mL hCEACAM1 solution\r\nwas mixed with trypsin at a 50:1 protein-to-enzyme ratio (wt/wt) and incubated at\r\n37 °C overnight. The resulting digest solution was diluted 100-fold with 50/50/0.1\r\n(vol/vol/v)% methanol, water, and formic acid solution and infused directly into the\r\nmass spectrometer. Identical instrument settings were used as above, with the\r\nexception that, for ECD MS/MS experiments, the glycopeptide precursor ions were\r\nirradiated with electrons for 100 ms, and 200 scans were averaged.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 476,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Tables of all intact mass distributions and ECD MS/MS fragment ion assign\u0002ments are included as SI Appendix.\r\nAssignment of Glycan Occupancy. The proportion of monoglycosylation,\r\ndiglycosylation, and triglycosylation was determined from the intensities of the\r\ncorresponding peaks in the mass spectrum of the intact protein (e.g., SI\r\nAppendix, Fig. S1 and Table S1), or the glycopeptide peaks in the mass spectrum\r\nof the tryptic digest (SI Appendix, Fig. S2 and Table S16). Only a single glyco\u0002form is possible for the triglycosylated protein, [111], and its proportion is\r\nobtained as the ratio of its abundance in the mass spectrum over the sum of all\r\nglycoforms. Three glycoforms each are possible for the monoglycosylated ([100],\r\n[010], [001]) and diglycosylated proteoforms ([110], [101], [011]). The propor\u0002tion of each glycoform for the monoglycosylated and diglycosylated protein was\r\ncalculated from the c- and z-fragment ions in the ECD MS/MS spectra of the\r\nintact protein (top-down; e.g., SI Appendix, Table S2) or the glycopeptides (bot\u0002tom-up; e.g., SI Appendix, Table S17). Only fragments in the glycosylated portion\r\nof the protein sequence which distinguish sites of modification were used for cal\u0002culating the proportion of each glycoform, specifically c75 to c85, and z27 to z37\r\nsequence ions for top-down data, and c6 to c16 and z12 to z22 for the bottom-up\r\ndata. These diagnostic ions are shown in bold and italics in SI Appendix, Tables\r\nS2, S3, S5, S7, S9, S11, S12, S14, S15, S17, S18, S20, S21, S23, S24, S26, and\r\nS27. The proportion of [100] is calculated using the abundances of c ions that\r\ncontain the N104 residue, but no other potential glycosite. The ratio of this subset\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "of c ions that contain a glycan over all fragments in this range gives the propor\u0002tion of [100]. The proportion of [001] is determined in similar fashion using z\r\nions that contain N115, but no other potential glycosite. The proportion of [010]\r\ncannot be determined directly, but can be inferred from calculating the fraction of\r\nions that have a glycan at either N104 or N111 (using c82 to c85), and subtracting\r\nthe contribution of [100], as determined above. The diglycosylated proteoforms,\r\n[110], [101], and [011], are analyzed in a similar fashion by using intensities of\r\nthe diagnostic peaks that contain an unglycosylated NXS or NXT site. The proteo\u0002form ratios are multiplied by the glycan proportions from the mass spectra of the\r\nintact protein to yield the overall proportions shown in Table 1.\r\nKinetic Modeling. The kinetic model presented in Fig. 1B is recapitulated in\r\nthe differential equations below, with the exception that concentrations have\r\nbeen replaced by percentages (Rijk), as our MS data report only ratios of species.\r\nThese equations can be solved numerically, using an evolutionary approach\r\n(genetic algorithm) to find optimal rate constants that satisfy the rate equations.\r\nThis approach was computationally slow, but yielded an initial set of rate con\u0002stants for which computer simulations of the protein expression versus time\r\nshow that the proteoforms concentrations reach steady state, as shown in SI\r\nAppendix, Fig. S4. If we assume steady state to dominate production of the spe\u0002cies measured, the differentials can be set to zero and the equations rearranged\r\nto a set of linear equations in which the 12 kinetic constants of Fig. 1B plus a\r\ncommon constant for export from the ER (kout) are variables. This approach for\r\nsolving the 20 simultaneous equations proved to be much more rapid than the\r\nnumerical approach, and was applied to the quadruplicate sets of data to yield\r\nthe relative rate constants and SDs in Fig. 3. The kin is set to an arbitrary number\r\n(100), as only ratios of species are relevant. Percentages of unobserved, but\r\nallowed, species were set to the limit of detection (0.5) to avoid trivial solutions.\r\nThe kin values in the mutant equations must be treated as additional variables,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "as the equations describe different processes, resulting in a total of 16 variables.\r\nThe resulting set of equations is readily expressed in vector notation (b = k*A),\r\nwhere b contains kin rates, k all other rates, and A percentages of species. The\r\nvector equation is solved in a MATLAB script (SI Appendix) using the least\u0002squares function (lsqr). The function returns the best-fit kinetic constants (k) and\r\na residual that is minimized to determine a best set of kin for the mutants. Solu\u0002tions were obtained for the four biological replicates, two of which included an\r\naverage of two technical replicates. Averages and SDs were calculated for each of\r\nthe variables, and the average residual was included in an estimated error for\r\nthe total flow out of the system.\r\nMolecular modeling. Using UCSF Chimera (30), a peptide containing the amino\r\nacid sequence SGRETIYPNASLLIQNVTQNDT from CEACAM1 was generated. The\r\nresidues for the first N-glycosylation consensus sequences were superimposed\r\nonto chain K of the cryo-EM structure of OST-B (PDB 67ST). Phi and psi torsion\r\nangles for the superimposed residues were adjusted to match those found in\r\nthe reference structure. Additional residues were adjusted to remove clashes\r\nbetween the CEACAM1 peptide and OST-B. A Glc3Man9GlcNAc2 glycan model\r\nwas generated using the Glycam webserver (31) and covalently bonded to the\r\nAsn residue of the second glycosylation site. The position of the glycan and the\r\nAsn chi1 torsion angle was adjusted to remove clashes between the glycan and\r\nOST-B. Additional models were generated using the same process but aligning\r\nthe peptide to the catalytic site of OST-B via the third glycosylation site and\r\nattaching the glycan to the first and second glycosylation sites.\r\nEquations.\r\nhCEACAM1 W.\r\nd\r\ndt R000 = kin \u0002 ðk1 + k2 + k3 + koutÞR000 = 0\r\nd\r\ndt R100 = k1R000 \u0002 ðk1!2 + k1!3 + koutÞR000 = 0\r\nd\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "dt R010 = k2R000 \u0002 ðk2!1 + k2!3 + koutÞR010 = 0\r\nd\r\ndt R001 = k3R000 \u0002 ðk3!1 + k3!2 + koutÞR001 = 0\r\nd\r\ndt R110 = k1!2R100 + k2!1R010 \u0002 ðk12!3 + koutÞR110 = 0\r\nd\r\ndt R101 = k1!3R100 + k3!1R001 \u0002 ðk13!2 + koutÞR101 = 0\r\nd\r\ndt R011 = k2!3R010 + k3!2R001 \u0002 ðk23!1 + koutÞR011 = 0\r\nd\r\ndt R111 = k12!3R110 + k23!1R011 + k13!2 \u0002 koutR111 = 0\r\nwhere Ri represents the percentage of the ith species relative to the sum of all\r\neight wild-type species.\r\nhCEACAM1 N104Q.\r\nd\r\ndt RQ00 = kin1 \u0002 ðk2 + k3 + koutÞRQ00 = 0\r\nd\r\ndt RQ10 = k2RQ00 \u0002 ðk2!3 + koutÞRQ10 = 0\r\nd\r\ndt RQ01 = k3RQ00 \u0002 ðk3!2 + koutÞRQ01 = 0\r\nd\r\ndt RQ11 = k2!3RQ10 + k3!2RQ01 \u0002 koutRQ11 = 0\r\nwhere Ri represents the percentage of the ith species relative to the sum of all\r\nfour N104Q species.\r\nhCEACAM1 N111Q.\r\nd\r\ndt R0Q0 = kin2 \u0002 ðk1 + k3 + koutÞR0Q0 = 0\r\nd\r\ndt R1Q0 = k1R0Q0 \u0002 ðk1!3 + koutÞR1Q0 = 0\r\nd\r\ndt R0Q1 = k3R0Q0 \u0002 ðk3!1 + koutÞR0Q1 = 0\r\nd\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "dt R1Q1 = k1!3R1Q0 + k3!1R0Q1 \u0002 koutR1Q1 = 0\r\nwhere Ri represents the percentage of the ith species relative to the sum of all\r\nfour N111Q species.\r\nPNAS 2022 Vol. 119 No. 43 e2202992119 https://doi.org/10.1073/pnas.2202992119 7 of 8\nhCEACAM1 N115Q.\r\nd\r\ndt R00Q = kin3 \u0002 ðk1 + k2 + koutÞR00Q\r\nd\r\ndt R10Q = k1R00Q \u0002 ðk1!2 + koutÞR10Q\r\nd\r\ndt R01Q = k2R00Q \u0002 ðk2!1 + koutÞR01Q\r\nd\r\ndt R11Q = k1!2R10Q + k2!1R01Q \u0002 koutR11Q\r\nwhere Ri represents the percentage of the ith species relative to the sum of all\r\nfour N115Q species.\r\nData, Materials, and Software Availability. The mzML data have been depos\u0002ited in Open Science Framework (https://osf.io/8pwm6) (32). All other study data\r\nare included in the article and/or SI Appendix.\r\nACKNOWLEDGMENTS. This work was supported by NIH Grants R01\r\nGM033225 (J.H.P., K.W.M., and I.J.A.) and R35 GM131829 (L.C.). Protein and\r\npeptide tandem MS measurements on the Bruker Solarix were supported by the\r\nNIH under grant S10 OD025118.\r\n1. R. Apweiler, H. Hermjakob, N. Sharon, On the frequency of protein glycosylation, as deduced from\r\nanalysis of the SWISS-PROT database. Biochim. Biophys. Acta 1473, 4–8 (1999).\r\n2. G. W. Hart, M. P. Housley, C. Slawson, Cycling of O-linked β-N-acetylglucosamine on\r\nnucleocytoplasmic proteins. Nature 446, 1017–1022 (2007).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "3. P. Stanley, N. Taniguchi, M. Aebi, “N-Glycans” in Essentials of Glycobiology, A. Varki et al., Eds.\r\n(Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY, 2017), chap. 9.\r\n4. J. N. Contessa, M. S. Bhojani, H. H. Freeze, A. Rehemtulla, T. S. Lawrence, Inhibition of N-linked\r\nglycosylation disrupts receptor tyrosine kinase signaling in tumor cells. Cancer Res. 68,\r\n3803–3809 (2008).\r\n5. C. Ruiz-Canada, D. J. Kelleher, R. Gilmore, Cotranslational and posttranslational N-glycosylation of\r\npolypeptides by distinct mammalian OST isoforms. Cell 136, 272–283 (2009).\r\n6. E. Mohorko et al., Structural basis of substrate specificity of human oligosaccharyl transferase\r\nsubunit N33/Tusc3 and its role in regulating protein N-glycosylation. Structure 22, 590–601\r\n(2014).\r\n7. N. A. Cherepanova, S. V. Venev, J. D. Leszyk, S. A. Shaffer, R. Gilmore, Quantitative glycoproteomics\r\nreveals new classes of STT3A- and STT3B-dependent N-glycosylation sites. J. Cell Biol. 218,\r\n2782–2796 (2019).\r\n8. S. D. Gray-Owen, R. S. Blumberg, CEACAM1: Contact-dependent control of immunity. Nat. Rev.\r\nImmunol. 6, 433–446 (2006).\r\n9. K. Kuespert, S. Pils, C. R. Hauck, CEACAMs: Their role in physiology and pathophysiology.\r\nCurr. Opin. Cell Biol. 18, 565–571 (2006).\r\n10. N. Siuti, N. L. Kelleher, Decoding protein modifications using top-down mass spectrometry.\r\nNat. Methods 4, 817–821 (2007).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "11. R. A. Zubarev, Electron-capture dissociation tandem mass spectrometry. Curr. Opin. Biotechnol. 15,\r\n12–16 (2004).\r\n12. R. A. Zubarev et al., Electron capture dissociation for structural characterization of multiply charged\r\nprotein cations. Anal. Chem. 72, 563–573 (2000).\r\n13. R. A. Zubarev, N. L. Kelleher, F. W. McLafferty, Electron capture dissociation of multiply charged\r\nprotein cations. A nonergodic process. J. Am. Chem. Soc. 120, 3265–3266 (1998).\r\n14. P. J. Reeves, N. Callewaert, R. Contreras, H. G. Khorana, Structure and function in rhodopsin:\r\nHigh-level expression of rhodopsin with restricted and homogeneous N-glycosylation by a\r\ntetracycline-inducible N-acetylglucosaminyltransferase I-negative HEK293S stable mammalian cell\r\nline. Proc. Natl. Acad. Sci. U.S.A. 99, 13419–13424 (2002).\r\n15. L. Meng et al., Enzymatic basis for N-glycan sialylation: Structure of rat α2,6-sialyltransferase\r\n(ST6GAL1) reveals conserved and unique features for glycan sialylation. J. Biol. Chem. 288,\r\n34680–34698 (2013).\r\n16. N. Rinis et al., Editing N-glycan site occupancy with small-molecule oligosaccharyltransferase\r\ninhibitors. Cell Chem. Biol. 25, 1231–1241.e4 (2018).\r\n17. A. S. Ram\u0001ırez, J. Kowal, K. P. Locher, Cryo-electron microscopy structures of human\r\noligosaccharyltransferase complexes OST-A and OST-B. Science 366, 1372–1375 (2019).\r\n18. Y.-H. Huang et al., CEACAM1 regulates TIM-3-mediated tolerance and exhaustion. Nature 517,\r\n386–390 (2015).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "19. A. Fedarovich, J. Tomberg, R. A. Nicholas, C. Davies, Structure of the N-terminal domain of human\r\nCEACAM1: Binding target of the opacity proteins during invasion of Neisseria meningitidis and\r\nN. gonorrhoeae. Acta Crystallogr. D Biol. Crystallogr. 62, 971–979 (2006).\r\n20. C. Lizak, S. Gerber, S. Numao, M. Aebi, K. P. Locher, X-ray structure of a bacterial\r\noligosaccharyltransferase. Nature 474, 350–355 (2011).\r\n21. M. Napi\u0001orkowska, J. Boilevin, T. Darbre, J.-L. Reymond, K. P. Locher, Structure of peptide. Sci. Rep.\r\n8, 16297 (2018).\r\n22. M. Napi\u0001orkowska et al., Molecular basis of lipid-linked oligosaccharide recognition and processing\r\nby bacterial oligosaccharyltransferase. Nat. Struct. Mol. Biol. 24, 1100–1106 (2017).\r\n23. M. Aebi, N-linked protein glycosylation in the ER. Biochimica Et Biophysica Acta- bacterial\r\noligosaccharyltransferase PglB bound to a reactive LLO and an inhibitory Molecular. Cell Res.\r\n1833, 2430–2437 (2013).\r\n24. S. Shrimal, R. Gilmore, Glycosylation of closely spaced acceptor sites in human glycoproteins.\r\nJ. Cell Sci. 126, 5513–5523 (2013).\r\n25. H. L. H. Malaby, W. R. Kobertz, The middle X residue influences cotranslational N-glycosylation\r\nconsensus site skipping. Biochemistry 53, 4884–4893 (2014).\r\n26. L. Qi, B. Tsai, P. Arvan, New insights into the physiological role of endoplasmic reticulum\u0002associated degradation. Trends Cell Biol. 27, 430–440 (2017).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -4858336107995663169,
+        "filename": "pnas.202202992.PMC9618145.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 328,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "27. Y. Zhuo, J. Y. Yang, K. W. Moremen, J. H. Prestegard, Glycosylation alters dimerization properties\r\nof a cell-surface signaling protein, carcinoembryonic antigen-related cell adhesion molecule\r\n1 (CEACAM1). J. Biol. Chem. 291, 20085–20095 (2016).\r\n28. P. Zhao et al., Virus-receptor interactions of glycosylated SARS-CoV-2 spike and human ACE2\r\nreceptor. Cell Host Microbe 28, 586–601.e6 (2020).\r\n29. K. W. Moremen et al., Expression system for structural and functional studies of human\r\nglycosylation enzymes. Nat. Chem. Biol. 14, 156–162 (2018).\r\n30. E. F. Pettersen et al., UCSF Chimera—A visualization system for exploratory research and analysis.\r\nJ. Comput. Chem. 25, 1605–1612 (2004).\r\n31. Woods Group, (2005-2022), GLYCAM Web. https://www.glycam.org. Accessed 15 December 2021.\r\n32. I. J. Amster (2022), CEACAM Top Down MS Data. Open Science Framework. osf.io/\r\n8pwm6. Deposited 5 October 2022.\r\n8 of 8 https://doi.org/10.1073/pnas.2202992119 pnas.org\n\n"
+  }
+]

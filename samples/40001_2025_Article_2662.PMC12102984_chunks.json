@@ -1,0 +1,674 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 476,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Wang et al. \r\nEuropean Journal of Medical Research (2025) 30:411 \r\nhttps://doi.org/10.1186/s40001-025-02662-9\r\nRESEARCH Open Access\r\n© The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 \r\nInternational License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long \r\nas you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if \r\nyou modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or \r\nparts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated \r\notherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not \r\npermitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To \r\nview a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.\r\nEuropean Journal\r\nof Medical Research\r\nSENP5 promotes endometrial cancer cell \r\ngrowth by regulating β‑catenin deSUMOylation \r\nto enhance GPX4‑resistance to ferroptosis\r\nZiyuan Wang1, Yongmei Zhang1*, Yongfang Zhang1, Qiuhong Deng1, Yandong Xi1, Wanxia He1 and \r\nXiaolong Ma1\r\nAbstract\r\nBackground Endometrial cancer (EC) is a significant and serious gynecological cancer, constituting a considerable \r\nrisk to women’s health. The desumoylation of SUMO specific peptidase 5 (SENP5) is intricately linked with various can\u0002cers. Nonetheless, the function of SENP5 in EC and its regulation of EC progression through the related mechanism \r\nof desumoylation modification remain elusive.\r\nMethods Five samples of EC tumor tissues, along with para-cancerous tissues, were obtained. The expression \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "of SENP5 in EC was assessed using reverse transcription–polymerase chain reaction (RT–qPCR), immunohistochemis\u0002try (IHC), and Western blot. HEC-1-B cells were treated with liposomes to interfere SENP5 and/or β-catenin expression. \r\nThe methodologies employed to assess the impact of SENP5 on the proliferation of EC cells via β-catenin included \r\nRT–qPCR, Western blot, CCK8, EDU, and C11-BODIPY methods. Western blot, co-immunoprecipitation (CO-IP), \r\nand SUMOylation analysis were conducted to investigate the desumoylation modification of β-catenin by SENP5.\r\nResults SENP5 exhibited elevated expression levels in EC cancer tissues and was correlated with a negative prog\u0002nosis for patients diagnosed with EC. The suppression of SENP5 inhibited the expression of β-catenin and GPX4, \r\nactivated ferroptosis, and inhibited HEC-1-B -cell proliferation. Knockdown of β-catenin counteracted the impact \r\nof SENP5 overexpression on ferroptosis and HEC-1-B proliferation. In addition, SENP5 stabilized β-catenin level in HEC\u00021-B cells through desumoylation modification of the β-catenin protein.\r\nConclusions SENP5 promotes GPX4-mediated ferroptosis resistance, thereby enhancing the proliferation of EC cells \r\nby regulating β-catenin desumoylation, this finding indicates that SENP5 may serve as a promising target for thera\u0002peutic interventions in the treatment of EC.\r\nKeywords Endometrial cancer, Ferroptosis, DeSUMOylation, SENP5, β-Catenin, GPX4\r\nBackground\r\nEndometrial carcinoma (EC) is a prevalent gynecologi\u0002cal cancer globally and ranks among the three primary \r\nmalignancies affecting female reproductive tract. Its \r\nincidence tends to rise with advancing age [1]. According \r\nto statistics, the 5-year survival rate for patients with early \r\nstage EC exceeds 90%, while it is only 20% for advanced \r\nstage patients [2]. Currently, with the increasing stress in \r\npeople’s lives, the incidence of EC is becoming younger. \r\nHowever, the treatment options for EC, such as surgical \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "resection, hormone therapy, chemotherapy, and radia\u0002tion therapy, are mainly suitable for early stage patients \r\nand have poor efficacy for advanced-stage patients [3]. \r\nTherefore, elucidating the molecular mechanisms of EC \r\n*Correspondence:\r\nYongmei Zhang\r\nzhangyongmei008@163.com\r\n1\r\n Department of Gynecology, Yinchuan First People’s Hospital, No. 2 Liqun \r\nWest Street, Xingqing District, Yinchuan City 750001, Ningxia, China\nWang et al. European Journal of Medical Research (2025) 30:411 Page 2 of 13\r\nprogression and finding new potential biomarkers are \r\ncritical for enhancing clinical diagnosis, treatment, and \r\nprognosis of EC.\r\nFerroptosis is a type of non-apoptotic cell death char\u0002acterized by oxidative damage to cell membrane phos\u0002pholipids, which is driven by iron. Several studies have \r\nhighlighted that inducing ferroptosis may become a new \r\ncancer treatment method. Much evidences show that \r\nthe advancement of malignant tumors, including endo\u0002metrial cancer, prostate cancer, breast cancer, and oth\u0002ers, can be effectively hindered by promoting ferroptosis \r\n[4–6]. Glutathione peroxidase 4 (GPX4), a member of \r\nthe glutathione peroxidase family, is essential for reduc\u0002ing lipid peroxides, thereby safeguarding cells against \r\noxidative damage [7]. It is crucial in controlling the pro\u0002cess of ferroptosis. Research has indicated that GPX4 can \r\ninhibit ferroptosis and promote the metastasis of prostate \r\ncancer [8] and gastric cancer [9]. Interestingly, a recent \r\nstudy showed that GPX4 is significantly expressed in EC \r\ntissues and inhibits ferroptosis and promotes the aggres\u0002sive development of EC through the transcriptional acti\u0002vation of ELK1 [4]. However, the upstream molecular \r\nmechanisms regulating GPX4 in EC remain shrouded in \r\nmystery.\r\nβ-Catenin is a protein that has been conserved \r\nthroughout evolution and is encoded by the CTNNB1 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "gene, which is dysregulated in the early stages of EC [10]. \r\nDysregulated β-catenin translocates to the nucleus, regu\u0002lating cancer cell death and proliferation, further induc\u0002ing earlier and more aggressive endometrial carcinoma \r\n[11]. β-Catenin was found to have an inhibitory effect on \r\nferroptosis in cancer in recent years [12]. Dysregulated \r\nβ-catenin can trigger the expression of genes that regu\u0002late ferroptosis, including GPX4 [13], COX2 [14], SCD1 \r\n[15], which can prevent ferroptosis in cancer and acceler\u0002ating the progression of cancer. However, the regulatory \r\nmechanism of β-catenin on ferroptosis in EC is remains \r\nuncertain.\r\nSUMOylation is crucial in the development of several \r\ndiseases, including tumors [16]. SUMOylation modifi\u0002cation can regulate the stability, degradation, or locali\u0002zation of proteins, thereby exerting regulatory effects \r\nin multiple organs and systems of the body, such as the \r\nactivation of transcription factors and protein–protein \r\ninteractions [17]. Numerous proteins that play a crucial \r\nrole in maintaining normal cellular functions are influ\u0002enced by SUMOylation. Interestingly, relevant research \r\nreports have indicated that β-catenin transcriptional \r\nactivity is affected by SUMOylation [18, 19]. SUMO\u0002specific proteases (SENP) play a crucial role in reversing \r\nSUMOylation, helping to regulate the balance between \r\nSUMOylated and unmodified proteins within cells [20]. \r\nSUMO specific peptidase 5 (SENP5) is a functional \r\nSUMO-specific protease [21], and research indicates \r\nthat SENP5 is instrumental in controlling the function \r\nof oncogenes in various cancers, including hepatocel\u0002lular carcinoma, breast cancer, osteosarcoma, and oral \r\nsquamous cell carcinoma [22]. Nonetheless, the function \r\nof SENP5 in EC progression through the regulation of \r\nβ-catenin protein deSUMOylation remains unclear.\r\nTherefore, in this study, we collected EC cancer tis\u0002sues and para-cancerous tissues samples to detect the \r\nexpression of SENP5. Furthermore, we further explored \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 463,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "the specific role of SENP5 in EC in vitro and uncovered \r\na novel mechanism by which SENP5 suppresses ferrop\u0002tosis by deSUMOylating β-catenin in EC, suggesting that \r\nSENP5 could be a potential target for clinical treatment \r\nof EC.\r\nMethods\r\nClinical specimens\r\nFive paired EC cancer tissues and para-cancerous tis\u0002sues were collected from EC patients who underwent the \r\nsurgery to remove endometrial cancer at Yinchuan First \r\nPeople’s Hospital during February 2023 to May 2024. \r\nAll patients were pathologically diagnosed with cancer \r\nby three pathologists. Inclusion criteria: (1) all patients \r\nhad no history of other cancer-related treatment; (2) all \r\npatients did not receive immunotherapy; and (3) not all \r\npatients underwent chemotherapy or radiation treat\u0002ment. The Ethics Committee of Yinchuan First People’s \r\nHospital granted approval for the collection of speci\u0002mens, and all participants provided their informed con\u0002sent by signing the necessary forms.\r\nCells culture\r\nThe EC cell line HEC-1-B was purchased from Pricella \r\nBiotechnology Co., Ltd. (Wuhan, China). HEC-1-B cells \r\nwere cultured in RPMI 1640 medium containing 10% \r\nfetal bovine serum, 1× 105\r\n U/L penicillin, and 100 mg/L \r\nstreptomycin at a 37 °C, 5% CO2 incubator.\r\nCells transfection\r\nWhen HEC-1-B cells reached 85% confluency, they \r\nwere transfected using Lipofectamine 2000 (11668-030, \r\nThermo Fisher Scientific, USA) according to the manu\u0002facturer’s instructions. The transfected cells were divided \r\ninto three subgroups.\r\nSubgroups one: For the si-SENP5 group and si-NC \r\ngroup, HEC-1-B cells were transfected with si-SENP5 or \r\nsi-NC utilizing the Lipofectamine transfection reagent.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Subgroups two: For the si-SENP5 +Fer-1 group, si\u0002SENP5 +Lip-1 group, si-SENP5 +Nec-1 group, and si\u0002SENP5 +Z-VAD–FMK group, Liproxstatin-1 (Lip-1) at \r\na concentration of 0.2 µmol/L, Ferrostatin-1 (Fer-1) at \r\na concentration of 1 µmol/L, Necrostatin-1 (Nec-1) at a \nWang et al. European Journal of Medical Research (2025) 30:411 Page 3 of 13\r\nconcentration of 10 µmol/L, and Z-VAD–FMK at a con\u0002centration of 10 µmol/L were separately added to HEC\u00021-B cells with SENP5 knockdown.\r\nSubgroups three: For the NC +si-NC group, SENP5 \r\n+si-NC group, NC +si-β-catenin group, and SENP5 \r\n+si-β-catenin group, OE–SENP5 or OE–NC was first \r\ntransfected into HEC-1-B cells using Lipofectamine, fol\u0002lowingly, si-β-catenin or si-NC were transfected into \r\nHEC-1-B cells previously treated with OE–SENP5 or \r\nOE–NC.\r\nCells counting kit‑8 (CCK‑8) assay\r\nHEC-1-B cells from each experimental group were care\u0002fully placed into 96-well plates and cultured for 48 h and \r\nthen the old medium was discarded for fresh medium, \r\nand a splash of 10 μL of CCK 8 solution was introduced \r\nto each well, setting the stage for the next phase of \r\nexperimentation. Following a 2-h incubation period, the \r\nabsorbance was recorded at a wavelength of 450 nm with \r\nthe help of a microplate reader (Varioskan LUX, Thermo \r\nFisher Scientific, USA).\r\n5‑Ethynyl‑2ʹ‑deoxyuridine (EdU) assay\r\nThe HEC-1-B cells in each group were seeded in 96-well \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "plates. 10 μM EdU (C0071L, Beyotime) was introduced \r\nand the cells were incubated for 2 h at 25 °C. Following \r\nthis incubation, the cells were stained with DAPI for 10 \r\nmin and subsequently examined using a fluorescence \r\nmicroscopy (bx53, Olympus, Japan).\r\nImmunofluorescence staining\r\nHEC-1-B in each experimental group were fixed with 4% \r\nparaformaldehyde for 30 min at 25 °C, and another 0.5% \r\nimmunostained permeable solution (Triton X-100) was \r\nadded for 15 min. Subsequently, the antibody supple\u0002mented with SENP5 (1:200, PA5-104468, Thermo Fisher \r\nScientific, USA) or β-catenin (1:200, MA5-34961, Thermo \r\nFisher Scientific, USA) was incubated for 4℃ overnight. \r\nCells were incubated with fluorescently labeled second\u0002ary antibody (1:100, P0186, Beyotime, Shanghai, China) \r\nfor 1 h before staining nuclei with DAPI in following day. \r\nFollowing, the diluent of the DAPI was added to incubate \r\nfor 10 min. Finally, fluorescence images were taken under \r\na fluorescence microscope (bx53, Olympus, Japan).\r\nCo‑immunoprecipitation (CO‑IP) assay\r\nCo-IP assay was conducted in accordance with estab\u0002lished protocols as referenced in the literature [23]. In \r\nsummary, cells were collected using IP lysis buffer, fol\u0002lowed by a 40-min incubation on ice. Subsequently, the \r\nsamples were centrifuged at 12,000×g for 10 min at a \r\ntemperature of 4  °C. Cell lysates were treated overnight \r\nwith a gentle swirl, using antibodies that target SENP5 \r\n(19529-1-AP, Proteintech, Wuhan, China) and β-catenin \r\n(17565-1-AP, Proteintech, Wuhan, China), or a negative \r\ncontrol IgG, along with protein A/G agarose beads. Once \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "the samples were separated using SDS–PAGE, the result\u0002ing immunoprecipitates were then put through the rigor\u0002ous process of Western blot analysis.\r\nSUMOylation assay\r\nFollowing previous report [24], in brief, we lysed the cells \r\nwith RIPA buffer and subsequently sonicated the lysates. \r\nThe cell lysates were subsequently centrifuged at 14,000 \r\nrpm for 10 min at a temperature of 4 ℃, after which the \r\nclear supernatant was carefully gathered. The superna\u0002tant was subsequently incubated with the primary anti\u0002body: β-catenin (1:1000, ab32572, Abcam, Shanghai, \r\nChina) or SUMO2 (1:1000, 11251-1-AP, proteintech, \r\nWuhan, China) gently shaken for 4 h at 4 ℃, after which \r\n50 μL of magnetic protein A/G was introduced, and the \r\nbeads were treated for 120 min at 4 ℃ and assessed by \r\nprotein blot analysis. The fusion protein vector HA-β\u0002catenin, as well as SUMO1, SUMO2 and SUMO3 labeled \r\nby Myc for Co-IP cell transfection and Flag–SENP5, were \r\ndeveloped and produced by LMAI Bio (Shanghai, China).\r\nLipid reactive oxygen species (ROS) level assay\r\nLipid ROS was identified using C11-BODIPY® 581/591 \r\n(D3861, Thermo Fisher Scientific). HEC-1-B cells were \r\nseeded in six-well plates and stimulated with Liperfluo (1 \r\nmM) for 30 min at 37 ℃. The samples were then meticu\u0002lously examined using FlowJo V10 software (FACS Cali\u0002bur, BD Biosciences, USA).\r\nGlutathione (GSH) and Fe2+ assay\r\nCells were collected and RIPA buffer was used to lyse the \r\ncells. Following the manufacturer’s guidelines, we evalu\u0002ated the levels of GSH and Fe2+ within the cells using \r\nthe GSH ratio assay kit (ab138881, Abcam, Shanghai, \r\nChina) and the Fe2+ assay kit (ab83366, Abcam, Shang\u0002hai, China).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Reverse transcription–polymerase chain reaction (RT–\r\nqPCR)\r\nCells were treated with Trizol reagent (T9108, TaKaRa, \r\nJapan) to extract their total RNA. cDNA synthesis was \r\nperformed following the instructions of the reverse \r\ntranscription kit (RR036 A, Takara, Japan). The reaction \r\nparameters included denaturation at 95 °C for 10 min, \r\nannealing at 95 °C for 15 s, extension at 60 °C for 1 min, \r\nand 40 cycles. The results were calculated by 2−ΔΔCt. \r\nPrimer sequences are shown in Table 1.\nWang et al. European Journal of Medical Research (2025) 30:411 Page 4 of 13\r\nWestern blot\r\nThe total protein concentration was measured using \r\nthe BCA protein quantification kit (ab102536, Abcam, \r\nShanghai, China). A sample of twenty micrograms of pro\u0002tein was put through the exciting process of 10% SDS–\r\npolyacrylamide gel electrophoresis, and then it made its \r\nway onto a PVDF membrane for further analysis. The \r\nmembrane was treated with 5% BSA in PBST at 25 °C \r\nfor 2 h to block it, and afterward, it was incubated over\u0002night at 4 °C with antibodies targeting SENP5 (ab58420, \r\nAbcam, Shanghai, China), β-catenin (ab32572, Abcam, \r\nShanghai, China), GPX4 (ab41787, Abcam, Shanghai, \r\nChina), β-actin (ab8227, Abcam, Shanghai, China), and \r\nGAPDH (ab9485, Abcam, Shanghai, China). On the sec\u0002ond day, the membrane was incubated with HRP-conju\u0002gated secondary antibodies (ab288151, Abcam, Shanghai, \r\nChina) at 25 ℃ for 1.5 h. The chemiluminescence reagent \r\nwas applied dropwise onto the membrane. The protein \r\nbands were subsequently visualized using a developing \r\nsolution.\r\nStatistical analysis\r\nWe conducted our statistical analysis with the help of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 475,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "SPSS 21.0 and GraphPad Prism 7.0 software. The data \r\nwere expressed as mean ±standard deviation (SD). To \r\ncompare two groups, we employed the independent sam\u0002ple t test, while for multiple groups, we turned to one\u0002way analysis of variance. A P value of less than 0.05 was \r\ndeemed to hold statistical significance.\r\nResults\r\nHigh expression of SENP5 in EC tissues is associated \r\nwith poor prognosis in EC patients\r\nFirst, we collected 5 pairs of EC cancer tissues and para\u0002cancerous tissues to assess SENP5 level in EC. The IHC \r\nresults showed abnormal expression of SENP5 in EC tis\u0002sues, with a significant increase in the positive expression \r\nlevels of SENP5 observed in cancerous tissues (Fig. 1A). \r\nFurthermore, RT–qPCR and Western blot results also \r\nindicated a notably higher expression of SENP5 in EC \r\ncancer tissues when compared to para-cancerous tissues \r\n(P <0.001) (Fig. 1B, C). Importantly, through GEPIA bio\u0002informatics analysis, our research indicates that elevated \r\nlevels of SENP5 expression are strongly associated with \r\nunfavorable outcomes in patients with EC, as it notably \r\nreduces their overall survival rates (Fig. 1D).\r\nSENP5 promotes proliferation of EC cells by inhibiting \r\nferroptosis\r\nFerroptosis is an important mechanism in the progres\u0002sion of EC [25]. To explore the role of SENP5 in the pro\u0002gression of EC through the regulation of ferroptosis, we \r\nfirst transfected si-NC or si-SENP5 into HEC-1-B cells \r\nand evaluated the transfection efficiency by RT–qPCR \r\nand Western blot (P <0.001) (Fig.  2A, B), confirming \r\nsuccessful knockdown of SENP5 expression in HEC-1-B \r\ncells. Subsequently, we treated HEC-1-B cells with fer\u0002roptosis inhibitor Fer-1 and Lip-1, necrosis inhibitor \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Nec-1, and apoptosis inhibitor Z-VAD–FMK, respec\u0002tively. CCK-8 results showed that silencing SENP5 obvi\u0002ously reduced the viability of HEC-1-B cells (P <0.001), \r\nand treatment with Fer-1 or Lip-1 reversed the effect of \r\nsi-SENP5 on cell viability, to some extent enhancing the \r\nviability of HEC-1-B cells (P <0.001). Treatment with \r\nNec-1 or Z-VAD–FMK also partly reversed the inhibi\u0002tion of cell viability by si-SENP5, but this reversal effect \r\nwas not as pronounced as that seen after Fer-1 or Lip-1 \r\ntreatment (P <0.05, Fig. 2C). Similarly, the findings from \r\nthe EdU assays revealed that silencing SENP5 resulted \r\nin a decrease in the proliferation of EC cells (P <0.001). \r\nInhibition of ferroptosis alleviated the growth inhibi\u0002tion caused by SENP5 silencing (P <0.001), while inhibi\u0002tion of necrosis and apoptosis had a limited effect on the \r\ninhibition of cell growth caused by SENP5 silencing (P< \r\n0.05, Fig. 2D, E). The findings indicate that SENP5 plays a \r\nrole in inhibiting ferroptosis, and thus facilitates the pro\u0002liferation of EC.\r\nSilencing SENP5 inhibits the expression of β‑catenin \r\nand GPX4 to activate ferroptosis in EC cells\r\nWe then investigated the molecular mechanisms through \r\nwhich SENP5 influences ferroptosis in EC. As we known, \r\nβ-catenin and GPX4 are crucial elements that prevent \r\nferroptosis [26, 27], we, therefore, evaluated the effects \r\nof SENP5 knockdown on β-catenin and GPX4 expres\u0002sion. The RT-qPCR results showed that silencing SENP5 \r\nsignificantly decreased GPX4 mRNA levels (P <0.001), \r\nwhile only slightly decreased β-catenin mRNA levels \r\nTable 1 Primer sequences used for RT–qPCR\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Genes Forward (5ʹ–3ʹ) Reverse (5ʹ–3ʹ)\r\nSENP5 ATGGCAGTTTGGTTCCACTC CGTCCATATCCAGCATGTGT\r\nβ-Catenin CGTTTCGCCTTC ATGGACTA GCCGCTGGGTCCTGATGTCCTGAT\r\nGPX4 AGAGATCAAAGAGTTCGCCGC TCTTCATCCACTTCCACAGCG\r\nβ-Actin CCCAAGGCCAACCGCGAGAAGATG GTCCCGGCCAGCCAGGTCCAGA\nWang et al. European Journal of Medical Research (2025) 30:411 Page 5 of 13\r\nin HEC-1-B cells (P <0.05) (Fig. 3A). The findings from \r\nthe Western blot analysis revealed silencing SENP5 evi\u0002dently downregulated β-catenin (P <0.001) and GPX4 \r\n(P <0.001) protein levels in HEC-1-B cells (Fig.  3B). \r\nMoreover, we found that silencing SENP5 significantly \r\nelevated the concentration of Fe2+ (P <0.001), promoted \r\nROS accumulation (P <0.001), and decreased the anti\u0002lipid oxidation factor GSH/GSSG level in HEC-1-B cells \r\n(P <0.001, Fig. 3C–E). The findings indicate that knock\u0002down of SENP5 activates ferroptosis by inhibiting \r\nβ-catenin and GPX4 level in EC cells.\r\nSENP5 promotes the expression of GPX4 in EC cells \r\nthrough β‑catenin\r\nIt is known that GPX4 can act as a cancer-promoting \r\nfactor by inhibiting ferroptosis to promote cancer pro\u0002gression, including EC [28]. Research has unveiled that \r\nβ-catenin has the remarkable ability to enhance GPX4 \r\nlevel and inhibit ferroptosis [29]. Based on this, we inves\u0002tigated whether SENP5 affects ferroptosis in EC cells \r\nthrough β-catenin/GPX4. We first transfected OE–NC, \r\nOE–SENP5, si-NC, and si-β-catenin into HEC-1-B cells, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "and the findings from RT–qPCR and Western blot analy\u0002ses disclosed a successful and significant increase in the \r\nlevels of SENP5 expression (P <0.001) and a knockdown \r\nof β-catenin (P <0.001) in HEC-1-B cells (Fig.  4A–D). \r\nThe findings revealed that when SENP5 levels were \r\nheightened, there was a notable boost in GPX4 expres\u0002sion within HEC-1-B cells (P <0.001), while silencing \r\nβ-catenin blocked the enhancing influence of SENP5 \r\noverexpression on GPX4 expression in HEC-1-B cells, \r\nobviously downregulating GPX4 expression (P <0.001, \r\nFig. 4E, F). In all, SENP5 upregulates GPX4 level in EC \r\ncells via β-catenin.\r\nSENP5 overexpression inhibits ferroptosis and promotes \r\nproliferation of EC cells through β‑catenin\r\nWe further investigated whether SENP5 regulates fer\u0002roptosis and proliferation of EC cells through β-catenin. \r\nCCK-8 and EdU results indicated that boosting SENP5 \r\nlevels enhanced the viability (P < 0.001) and prolifera\u0002tion (P< 0.001) of HEC-1-B cells; however, this effect \r\nFig. 1 High expression of SENP5 in EC tissues is associated with poor prognosis in EC patients. Five pairs of EC cancer tissues and para-cancerous \r\ntissues were collected. A SENP 5 expression in EC cancer tissues and para-cancerous tissues was detected by IHC staining. B, C RT–qPCR \r\nand Western blot in the evaluation of SENP5 mRNA and protein expression in EC cancer tissues and para-cancerous tissues. D GEPIA analysis \r\nrevealed the correlation between high SENP 5 expression and prognosis in EC patients (***P <0.001 vs. para-cancerous tissue group)\nWang et al. European Journal of Medical Research (2025) 30:411 Page 6 of 13\r\nwas somewhat diminished in the si-β-catenin group \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "(P<0.001, Fig.  5A–C). In addition, overexpression of \r\nSENP5 significantly reduced the levels of Fe2+ and ROS \r\n(P < 0.001), but promoted GSH/GSSG level (P < 0.001). \r\nConsistently, silencing β-catenin reversed these effects, \r\nleading to increased accumulation of Fe2+ and ROS (P\r\n< 0.001) and decreased GSH/GSSG levels (P < 0.001) \r\nafter overexpression of SENP5 (Fig.  5D–F). The above \r\nresults suggest that SENP5 inhibits ferroptosis and pro\u0002motes proliferation of EC cells through β-catenin.\r\nFig. 2 SENP5 promotes proliferation of EC cells by inhibiting ferroptosis. SENP5 was knocked down in HEC-1-B cells and HEC-1-B cells were \r\nsubsequently treated with the ferroptosis inhibitors Fer-1 and Lip-1, the necroptosis inhibitor Nec-1, and the apoptosis inhibitor Z-VAD–FMK. \r\nA, B RT–qPCR and Western blot to assess the transfection efficiency of SENP 5 in HEC-1-B. C HEC-1-B-cell viability was measured by CCK-8. D, E\r\nEdU staining was used to assay HEC-1-B-cell proliferation (***P <0.001 vs. control group; #P <0.05, ###P <0.001 vs. si-SENP5 group; &&&P <0.001 vs. \r\nsi-SENP5 +Fer-1 group; ^^^P <0.001 vs. si-SENP5 +Lip-1 group)\nWang et al. European Journal of Medical Research (2025) 30:411 Page 7 of 13\r\nSENP5 promotes the β‑catenin deSUMOylation to stabilize \r\nits expression\r\nResearch has indicated that β-catenin is controlled by \r\nSUMOylation [30], and SENP5 belongs to the SENP \r\nfamily, which is capable of controlling the deSUMOyla\u0002tion of target proteins [31]. Therefore, we next investi\u0002gated whether SENP5 regulates the deSUMOylation of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "β-catenin. First, immunofluorescence staining revealed \r\nco-expression of SENP5 and β-catenin in HEC-1-B cells \r\n(Fig.  6A). Co-IP analysis also indicated an interaction \r\nbetween SENP5 and β-catenin (Fig. 6B). Next, based on \r\nthe SUMOplot™ scoring system (https://www.abcep\r\nta.com/sumoplot), we predicted potential SUMOyla\u0002tion sites on β-catenin, and K233 was found to have a \r\nhigh probability of being a SUMOylation site, indicat\u0002ing that SUMOylation could be crucial for the stability \r\nand expression of β-catenin (Fig.  6C). To confirm that \r\nSENP5 regulates the deSUMOylation of β-catenin in \r\nEC cells, HEC-1-B cells were simultaneously transfected \r\nwith HA-tagged β-catenin and Myc-tagged SUMO1, \r\nSUMO2, or SUMO3, and then analyzed through immu\u0002noblotting using an HA antibody. The results showed \r\nthat when β-catenin was co-expressed with SUMO2, an \r\nHA antibody identified a band with a greater molecu\u0002lar weight than β-catenin, indicating that β-catenin can \r\nbind to SUMO2 (Fig. 6D). Furthermore, the addition of a \r\nSUMOylation inhibitor (ML-792) reversed the inhibitory \r\neffect of SENP5 silencing on β-catenin and promoted \r\nβ-catenin level (P <0.001, Fig.  6E). In all, SENP5 stabi\u0002lizes the expression of β-catenin through regulating its \r\ndeSUMOylation.\r\nDiscussion\r\nEC is a type of epithelial malignant tumor that originates \r\nfrom the endometrial gland, accounting for 20–30% of \r\nmalignant tumors that afflict the female reproductive sys\u0002tem, with a high incidence and mortality rate [32]. There\u0002fore, identifying new molecules and related molecular \r\nmechanisms that promote the progression of EC will aid \r\nin the formulation of more effective EC treatment strate\u0002gies. SENP5 is a member of the SENP-specific proteinase \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "family and plays a significant role in a range of biologi\u0002cal processes, including cell cycle, autophagy, and apop\u0002tosis by mediating protein de-SUMOylation [21, 31]. \r\nResearch has indicated that an imbalance in the expres\u0002sion of SENP5 may result in cellular dysfunction and \r\ninduce various cancers. Several studies based on clinical \r\ntumor samples have reported high expression of SENP5 \r\nin various malignancies, including liver cancer, colorectal \r\ncancer, and breast cancer, and patients with high SENP5 \r\nFig. 3 Silencing SENP5 inhibits the expression of β-catenin and GPX4 to activate ferroptosis in EC cells. Si-NC or si-SENP5 were transfected \r\ninto HEC-1-B cells. A, B RT–qPCR and Western blot were used to detect β-catenin and GPX4 expression in HEC-1-B cells. C Fe2+ content of HEC-1-B \r\ncells was measured byFe2+ assay kit. D ROS levels in HEC-1-B cells were determined by C11-BODIPY assay. E Level of GSH/GSSG in HEC-1-B cells \r\nwas detected by ELISA (*P <0.05, ***P <0.001 vs. si-NC group)\nWang et al. European Journal of Medical Research (2025) 30:411 Page 8 of 13\r\nexpression have poor prognosis [33–35]. However, the \r\nfunction of SENP5 in EC progression remains ambigu\u0002ous. In this research, we observed that SENP5 exhibited \r\nelevated expression levels in EC cancer tissues and was \r\nassociated with unfavorable prognostic outcomes in \r\npatients diagnosed with EC, which suggests that SENP5 \r\nhas the potential to function as an oncogene in EC. How\u0002ever, the role and related mechanisms of SENP5 in EC \r\nstill need further exploration.\r\nFerroptosis is an emerging form of non-apoptotic \r\nregulated cell death pathway, which is marked by the \r\nbuildup of lipid peroxides that depend on iron and \r\nhas shown great potential in cancer treatment [36]. \r\nMany  studies have validated the important function \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "of ferroptosis in eliminating cancer cells and prevent\u0002ing the progression of cancer [37]. Yin et al. [38] found \r\nthat the NRF1/RAN/DLD protein complex regulated \r\nthe transcription of CLTRN, thus activating the ferrop\u0002tosis pathway and increasing the radiation sensitivity of \r\nhepatocellular carcinoma cells. Ovarian cancer cells are \r\nsusceptible to ferroptosis. Greenshields et al. [39] dem\u0002onstrated that artemisinin has the remarkable ability to \r\ntrigger ferroptosis in ovarian cancer cells in an ROS\u0002dependent manner, showing strong anti-proliferative \r\nFig. 4 SENP5 promotes the expression of GPX4 in EC cells through β-catenin. OE–NC, OE–SENP5, si-NC, and si-β-catenin were transfected \r\ninto HEC-1-B cells, and then transfected si-NC and si-β-catenin into OE–NC or OE–SENP5-treated HEC-1-B cells. A, B RT–qPCR and Western blot \r\nwas used to assess the transfection efficiency of SENP5 in HEC-1-B cells. C, D RT–qPCR and Western blot assessed the transfection efficiency \r\nof β-catenin in HEC-1-B cells. E, F RT–qPCR and Western blot assessed the effects of SENP5 overexpression and β-catenin silencing on GPX4 \r\nexpression in HEC-1-B cells (***P <0.001 vs. control group and NC +si-NC group; ###P <0.001 vs. SENP5 +si-NC group)\nWang et al. European Journal of Medical Research (2025) 30:411 Page 9 of 13\r\nand cytotoxic effects. In addition, researchers have \r\nfound that in EC, the process of ferroptosis is abnor\u0002mally regulated, and the application of ferroptosis acti\u0002vators can lead to apoptosis [4]. Interestingly, recent \r\nstudies have confirmed that SENP5, a homologous pro\u0002tein of SENP1, can inhibit ferroptosis and participate in \r\ncancer progression, such as squamous cell carcinoma \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "and lung cancer [40, 41]. However, the role of SENP5 \r\nin the progression of EC through the regulation of fer\u0002roptosis remains ambiguous. In the present study, we \r\nobserved that silencing SENP5 significantly decreased \r\ncell viability and proliferation in EC cells. Importantly, \r\nour results demonstrated that ferroptosis inhibitors, \r\nspecifically Fer-1 and Lip-1, effectively reversed the \r\neffects of SENP5 knockdown on EC cell prolifera\u0002tion and viability. Specifically, treatment of HEC-1-B \r\nFig. 5 SENP5 overexpression inhibits ferroptosis and promotes proliferation of EC cells through β-catenin. OE–NC and OE–SENP5 were transfected \r\ninto HEC-1-B cells, and then transfected si-NC or si-β-catenin into OE–NC or OE–SENP5-treated HEC-1-B cells. A CCK8 assay was used to evaluate \r\nthe viability of HEC-1-B cells. B, C. EdU staining was performed to assess the proliferation of HEC-1-B cells. D Fe2+ content of HEC-1-B cells \r\nwas measured byFe2+ assay kit. E C11-BODIPY staining was used to detect the level of ROS in HEC-1-B cells. F Level of GSH/GSSG in HEC-1-B cells \r\nwas detected by ELISA (***P <0.001 vs. NC +si-NC group; ###P <0.001 vs. SENP5 +si-NC group)\nWang et al. European Journal of Medical Research (2025) 30:411 Page 10 of 13\r\ncells with either Fer-1 or Lip-1 significantly alleviated \r\nthe inhibitory effects of SENP5 knockdown on cell \r\ngrowth, indicating that ferroptosis plays a central role \r\nin mediating the biological functions of SENP5 in EC. \r\nIn contrast, inhibitors of necrosis (Nec-1) and apop\u0002tosis (Z-VAD–FMK) had limited effects on reversing \r\nthe proliferation inhibition caused by SENP5 silencing, \r\nfurther highlighting the specificity of ferroptosis in this \r\ncontext. In addition, we found that silencing SENP5 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "promoted the accumulation of Fe2\r\n⁺ and ROS in EC cells \r\nwhile reducing GSH content, corroborating the activa\u0002tion of ferroptosis-specific metabolic signatures. These \r\nfindings underscore the importance of targeting ferrop\u0002tosis pathways in EC therapy and provide mechanistic \r\ninsights into how SENP5 promotes EC progression by \r\nsuppressing ferroptosis. Our findings provide the first \r\nFig. 6 SENP5 promotes the β-catenin deSUMOylation to stabilize its expression. A Immunofluorescence co-localization analysis of SENP5 \r\nand β-catenin proteins in HEC-1-B cells. B Co-IP analysis of the interaction between SENP5 and β-catenin. C SUMOplot™ score system (https://www.\r\nabcepta.com/sumoplot) predicted the SUMOylation modification sites of β-catenin protein. D HEC-1-B cells were co-transfected with HA-tagged \r\nβ-catenin and Myc-tagged SUMO1, SUMO2, or SUMO3, and then treated with the SUMOylation inhibitor (ML-792) in SENP5 knockdown HEC-1-B \r\ncells. E SUMOylation inhibitor (ML-792) was added to SENP5 knockdown HEC-1-B cells, and western blot analysis assessed β-catenin expression \r\n(***P <0.001 vs. si-NC group; ###P <0.001 vs. si-SENP5 group)\nWang et al. European Journal of Medical Research (2025) 30:411 Page 11 of 13\r\nevidence that SENP5 promotes EC cell proliferation \r\nthrough inhibition of ferroptosis.\r\nGPX4 serves as a crucial regulatory element in ferrop\u0002tosis, which employs reduced glutathione to transform \r\nlipid hydroperoxides into alcohols, thereby reducing lipid \r\nperoxidation and inhibiting ferroptotic cell death [42]. \r\nThe elevated expression of GPX4 in tumors is strongly \r\ncorrelated with tumor occurrence and metastasis. Multi\u0002ple studies have confirmed that dysregulated GPX4 facili\u0002tates the malignant progression of EC by suppressing \r\nferroptosis [4, 43]. Our research revealed that silencing \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "SENP5 markedly inhibited GPX4 expression in EC cells, \r\nsuggesting that SENP5 may facilitate the advancement of \r\nEC by modulating GPX4 to inhibit ferroptosis.\r\nβ-Catenin is a protein that has been conserved \r\nthroughout evolution and is essential for cell adhesion \r\nas well as the transduction of Wnt signaling pathways. In \r\naddition, it is significantly involved in the process of tum\u0002origenesis [44]. Specifically, changes in β-catenin or com\u0002ponents of the destruction complex have been confirmed \r\nas early events in EC [11], but the exact molecular mech\u0002anisms regulating β-catenin in EC are largely unknown. \r\nOur data suggest that silencing SENP5 significantly \r\ninhibits β-catenin expression in EC cells, and knockdown \r\nof β-catenin reverses the proliferative influence of SENP5 \r\non EC cells, indicating that SENP5 may participate in \r\nthe progression of EC by modulating β-catenin activity. \r\nInterestingly, several studies have emphasized the inhibi\u0002tory function of β-catenin in ferroptosis in cancer. Wang \r\net  al. [42] demonstrated that the β-catenin/TCF4 tran\u0002scriptional complex directly interacts with the promoter \r\nregion of GPX4, resulting in an increase in it and confer\u0002ring resistance to ferroptotic cell death in gastric cancer. \r\nTang et  al. [45] demonstrated that USP8 plays a crucial \r\nrole in stabilizing the β-catenin protein by preventing \r\nK48-specific polyubiquitination, upregulating GPX4 \r\nprotein levels, and inhibiting ferroptosis, promoting the \r\ndevelopment of hepatocellular carcinoma. Similarly, our \r\nresearch findings indicate that silencing β-catenin can \r\nreverse the effects of SENP5 overexpression on multi\u0002ple cellular parameters. Specifically, silencing β-catenin \r\ncounteracted the SENP5-induced increases in GPX4 lev\u0002els and decreased in intracellular Fe2\r\n⁺ levels while also \r\nmitigating the reduction in lipid ROS accumulation and \r\nthe increase in GSH/GSSG ratios. These findings suggest \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "that β-catenin plays a crucial role in mediating the anti\u0002ferroptotic and proliferative effects of SENP5 through the \r\nregulation of GPX4 expression. However, the regulatory \r\nmechanism of SENP5 on β-catenin still needs further \r\nelucidation.\r\nThe activity of β-catenin is a critical factor in the \r\nregulation of tumor development. Research has dem\u0002onstrated that the protein stability of the β-catenin \r\ncan be modulated via post-translational modifica\u0002tion (SUMOylation) [30]. Research has demonstrated \r\nthat SUMO-specific proteinases (SENPs) regulate the \r\nSUMOylation status of β-catenin protein. SENP7S mod\u0002ulates the deSUMOylation process of β-catenin, thereby \r\nsuppressing β-catenin signaling and the transformation \r\nof mammary epithelial cells [20]. SENP2 is instrumental \r\nin modulating the proliferation of hepatocellular carci\u0002noma (HCC) cells by regulating the stability of β-catenin \r\nthrough SUMOylation [46]. SENP5 stands out as a key \r\nplayer in the SENP family, but the mechanism of its reg\u0002ulation of β-catenin SUMOylation is not clear. SENP5 \r\nexhibits an interaction with β-catenin in EC cells, and \r\nsilencing SENP5 inhibits β-catenin expression, while \r\ntreatment with a SUMOylation inhibitor (ML-792) sig\u0002nificantly upregulates β-catenin protein expression in EC \r\ncells, as found in this study. SENP5 stabilizes the expres\u0002sion of β-catenin in EC cells through deSUMOylation \r\nmodification, as first demonstrated in this experiment.\r\nConclusions\r\nOur results indicate that SENP5 is significantly elevated \r\nin EC cancer tissues and correlates with a less favorable \r\nprognosis for patients with EC. Silencing SENP5 inhib\u0002its β-catenin and GPX4 levels, activates ferroptosis, and \r\ninhibits HEC-1-B-cell proliferation. Mechanistically, \r\nSENP5 stabilizes β-catenin expression in HEC-1-B cells \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "through deSUMOylation modification of β-catenin pro\u0002tein, promoting resistance to GPX4-mediated ferropto\u0002sis and further accelerating the progression of EC. Our \r\nfindings indicate that inhibiting SENP5 could be a key \r\napproach in treating EC and offer novel perspectives on \r\nthe role of post-translational modifications in EC.\r\nAcknowledgements\r\nNot applicable.\r\nAuthor contributions\r\nZiyuan Wang, Yongmei Zhang: Methodology, Investigation, Data cura\u0002tion, original draft. Yongfang Zhang,Qiuhong Deng,Yandong Xi, Wanxia He, \r\nXiaolong Ma: Methodology, Investigation, Data curation, original draft. Ziyuan \r\nWang, Yongmei Zhang: Writing, review and editing.\r\nFunding\r\nIn 2023, Ningxia Natural Science Foundation, “SENP5 promotes SUMO modi\u0002fication of β-catenin protein, regulates GPX4-mediated iron death Resistance \r\nand Promotes endometrial cancer Progression”, No. 2023AAC03870.\r\nAvailability of data and materials\r\nThe datasets used during the present study are available from the correspond\u0002ing author upon reasonable request. All the data obtained in the current study \r\nwere available from the corresponding authors on reasonable request.\r\nDeclarations\r\nEthics approval and consent to participate\r\nThe Ethics Committee of Yinchuan First People’s Hospital granted approval \r\nfor the collection of specimens, and all participants provided their informed \r\nconsent by signing the necessary forms.\nWang et al. European Journal of Medical Research (2025) 30:411 Page 12 of 13\r\nConsent for publication\r\nAll the participants agreed to the publication of the manuscript.\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nReceived: 30 December 2024 Accepted: 4 May 2025\r\nReferences\r\n1. Sung H, Ferlay J, Siegel RL, et al. Global cancer statistics 2020: GLOBOCAN \r\nestimates of incidence and mortality worldwide for 36 cancers in 185 coun\u0002tries. CA Cancer J Clin. 2021;71(3):209–49.\r\n2. Siegel RL, Miller KD, Jemal A. Cancer statistics, 2017. CA Cancer J Clin. \r\n2017;67(1):7–30.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "3. Moxley KM, McMeekin DS. Endometrial carcinoma: a review of chemo\u0002therapy, drug resistance, and the search for new agents. Oncologist. \r\n2010;15(10):1026–33.\r\n4. Wei S, Yu Z, Shi R, et al. GPX4 suppresses ferroptosis to promote malignant \r\nprogression of endometrial carcinoma via transcriptional activation by ELK1. \r\nBMC Cancer. 2022;22(1):881.\r\n5. Ma S, Dielschneider RF, Henson ES, et al. Ferroptosis and autophagy induced \r\ncell death occur independently after siramesine and lapatinib treatment in \r\nbreast cancer cells. PLoS ONE. 2017;12(8): e0182921.\r\n6. Viswanathan VS, Ryan MJ, Dhruv HD, et al. Dependency of a therapy\u0002resistant state of cancer cells on a lipid peroxidase pathway. Nature. \r\n2017;547(7664):453–7.\r\n7. Xue Q, Yan D, Chen X, et al. Copper-dependent autophagic degradation of \r\nGPX4 drives ferroptosis. Autophagy. 2023;19(7):1982–96.\r\n8. Cheng L, He Q, Liu B, et al. SGK2 promotes prostate cancer metastasis by \r\ninhibiting ferroptosis via upregulating GPX4. Cell Death Dis. 2023;14(1):74.\r\n9. Li D, Wang Y, Dong C, et al. CST1 inhibits ferroptosis and promotes gastric \r\ncancer metastasis by regulating GPX4 protein stability via OTUB1. Onco\u0002gene. 2023;42(2):83–98.\r\n10. Dou Y, Katsnelson L, Gritsenko MA, et al. Proteogenomic insights \r\nsuggest druggable pathways in endometrial carcinoma. Cancer Cell. \r\n2023;41(9):1586-605.e15.\r\n11. Parrish ML, Broaddus RR, Gladden AB. Mechanisms of mutant β-catenin in \r\nendometrial cancer progression. Front Oncol. 2022;12:1009345.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "12. Li J, Xian L, Zhu Z, et al. Role of CELF2 in ferroptosis: potential targets for \r\ncancer therapy (Review). Int J Mol Med. 2023;52(4):88.\r\n13. Wang Y, Zhao G, Condello S, et al. Frizzled-7 identifies platinum-tolerant \r\novarian cancer cells susceptible to ferroptosis. Can Res. 2021;81(2):384–99.\r\n14. Chen QF, Shi F, Huang T, et al. ASTN1 is associated with immune infiltrates \r\nin hepatocellular carcinoma, and inhibits the migratory and invasive capac\u0002ity of liver cancer via the Wnt/β-catenin signaling pathway. Oncol Rep. \r\n2020;44(4):1425–40.\r\n15. Luo Y, Huang S, Wei J, et al. Long noncoding RNA LINC01606 protects colon \r\ncancer cells from ferroptotic cell death and promotes stemness by SCD1-\r\nWnt/β-catenin-TFE3 feedback loop signalling. Clin Transl Med. 2022;12(4): \r\ne752.\r\n16. Seeler JS, Dejean A. SUMO and the robustness of cancer. Nat Rev Cancer. \r\n2017;17(3):184–97.\r\n17. Lara-Urea N, Jafari V, Garca-Domnguez M. Cancer-associated dysregulation \r\nof sumo regulators: proteases and ligases. Int J Mol Sci. 2022;23(14):8012.\r\n18. Buehler E, Khan AA, Marine S, et al. siRNA off-target effects in genome-wide \r\nscreens identify signaling pathway members. Sci Rep. 2012;2:428.\r\n19. Shen LN, Geoffroy MC, Jaffray EG, et al. Characterization of SENP7, a SUMO\u00022/3-specific isopeptidase. Biochem J. 2009;421(2):223–30.\r\n20. Karami S, Lin FM, Kumar S, et al. Novel SUMO-protease SENP7S regulates \r\nβ-catenin signaling and mammary epithelial cell transformation. Sci Rep. \r\n2017;7:46477.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "21. Kim EY, Zhang Y, Beketaev I, et al. SENP5, a SUMO isopeptidase, induces \r\napoptosis and cardiomyopathy. J Mol Cell Cardiol. 2015;78:154–64.\r\n22. Jin ZL, Pei H, Xu YH, et al. The SUMO-specific protease SENP5 controls DNA \r\ndamage response and promotes tumorigenesis in hepatocellular carci\u0002noma. Eur Rev Med Pharmacol Sci. 2016;20(17):3566–73.\r\n23. Liang M, Wang L, Sun Z, et al. E3 ligase TRIM15 facilitates non-small cell lung \r\ncancer progression through mediating Keap1-Nrf2 signaling pathway. Cell \r\nCommun Signal. 2022;20(1):62.\r\n24. Ding Y, Chen F, Yang W, et al. SENP5 deteriorates traumatic brain injury \r\nvia SUMO2-dependent suppression of E2F1 SUMOylation. Acta Biochim \r\nBiophys Sin. 2023;55(8):1193–203.\r\n25. Wu J, Zhang L, Wu S, et al. Ferroptosis: opportunities and challenges in treat\u0002ing endometrial cancer. Front Mol Biosci. 2022;9: 929832.\r\n26. Peterson JM, Dyck S. Systems theory facilitates student practice in self\u0002directed learning courses. Nurse Educ. 1986;11(5):12–5.\r\n27. Xie J, Wang H, Xie W, et al. Gallic acid promotes ferroptosis in hepatocel\u0002lular carcinoma via inactivating Wnt/β-catenin signaling pathway. Naunyn \r\nSchmiedebergs Arch Pharmacol. 2024;397(4):2437–45.\r\n28. Žalytė E. Ferroptosis, metabolic rewiring, and endometrial cancer. Int J Mol \r\nSci. 2023;25(1):75.\r\n29. Li B, Wei Z, Wang Z, et al. Fusobacterium nucleatum induces oxaliplatin \r\nresistance by inhibiting ferroptosis through E-cadherin/β-catenin/GPX4 axis \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "in colorectal cancer. Free Rad Biol Med. 2024;220:125–38.\r\n30. Huang HJ, Zhou LL, Fu WJ, et al. β-catenin SUMOylation is involved \r\nin the dysregulated proliferation of myeloma cells. Am J Cancer Res. \r\n2015;5(1):309–20.\r\n31. Di Bacco A, Gill G. SUMO-specific proteases and the cell cycle. An \r\nessential role for SENP5 in cell proliferation. Cell Cycle Georgetown Tex. \r\n2006;5(20):2310–3.\r\n32. Luo J, Chlebowski RT, Hendryx M, et al. Intentional weight loss and endome\u0002trial cancer risk. J Clin Oncol. 2017;35(11):1189–93.\r\n33. Zhang CY, Jiang ZM, Ma XF, et al. Saikosaponin-d inhibits the hepatoma cells \r\nand enhances chemosensitivity through SENP5-dependent inhibition of \r\ngli1 SUMOylation under hypoxia. Front Pharmacol. 2019;10:1039.\r\n34. Liu T, Wang H, Chen Y, et al. SENP5 promotes homologous recombination\u0002mediated DNA damage repair in colorectal cancer cells through H2AZ \r\ndeSUMOylation. J Exp Clin Cancer Res CR. 2023;42(1):234.\r\n35. Cashman R, Cohen H, Ben-Hamo R, et al. SENP5 mediates breast cancer \r\ninvasion via a TGFβRI SUMOylation cascade. Oncotarget. 2014;5(4):1071–82.\r\n36. Zhang C, Liu X, Jin S, et al. Ferroptosis in cancer therapy: a novel approach to \r\nreversing drug resistance. Mol Cancer. 2022;21(1):47.\r\n37. Tsoi J, Robert L, Paraiso K, et al. Multi-stage differentiation defines melanoma \r\nsubtypes with differential vulnerability to drug-induced iron-dependent \r\noxidative stress. Cancer Cell. 2018;33(5):890-904.e5.\r\n38. Yuan Y, Cao W, Zhou H, et al. CLTRN, regulated by NRF1/RAN/DLD \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "protein complex, enhances radiation sensitivity of hepatocellular car\u0002cinoma cells through ferroptosis pathway. Int J Radiat Oncol Biol Phys. \r\n2021;110(3):859–71.\r\n39. Greenshields AL, Shepherd TG, Hoskin DW. Contribution of reactive oxygen \r\nspecies to ovarian cancer cell growth arrest and killing by the anti-malarial \r\ndrug artesunate. Mol Carcinog. 2017;56(1):75–93.\r\n40. Xu X, Mao Y, Feng Z, et al. SENP1 inhibits ferroptosis and promotes head \r\nand neck squamous cell carcinoma by regulating ACSL4 protein stability via \r\nSUMO1. Oncol Rep. 2024;51(2):34.\r\n41. Gao C, Xiao F, Zhang L, et al. SENP1 inhibition suppresses the growth of \r\nlung cancer cells through activation of A20-mediated ferroptosis. Ann Transl \r\nMed. 2022;10(4):224.\r\n42. Wang Y, Zheng L, Shang W, et al. Wnt/beta-catenin signaling confers fer\u0002roptosis resistance by targeting GPX4 in gastric cancer. Cell Death Differ. \r\n2022;29(11):2190–202.\r\n43. Wang H, Peng S, Cai J, et al. Silencing of PTPN18 induced ferroptosis in \r\nendometrial cancer cells through p-P38-mediated GPX4/xCT down-regula\u0002tion. Cancer Manage Res. 2021;13:1757–65.\r\n44. Liu J, Xiao Q, Xiao J, et al. Wnt/β-catenin signalling: function, biological \r\nmechanisms, and therapeutic opportunities. Signal Transduct Target Ther. \r\n2022;7(1):3.\nWang et al. European Journal of Medical Research (2025) 30:411 Page 13 of 13\r\n45. Tang J, Long G, Xiao L, et al. USP8 positively regulates hepatocellular carci\u0002noma tumorigenesis and confers ferroptosis resistance through β-catenin \r\nstabilization. Cell Death Dis. 2023;14(6):360.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2766126142724951983,
+        "filename": "40001_2025_Article_2662.PMC12102984.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 85,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "46. Jiang QF, Tian YW, Shen Q, et al. SENP2 regulated the stability of \r\nβ-catenin through WWOX in hepatocellular carcinoma cell. Tumour Biol. \r\n2014;35(10):9677–82.\r\nPublisher’s Note\r\nSpringer Nature remains neutral with regard to jurisdictional claims in pub\u0002lished maps and institutional affiliations.\n\n"
+  }
+]

@@ -1,0 +1,530 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Original Article\r\nA Novel miRNA-Based Model Can Predict\r\nthe Prognosis of Clear Cell Renal Cell\r\nCarcinoma\r\nJiyue Wu, MM1,2, Feilong Zhang, MM1,2 , Jiandong Zhang, MD1,2,\r\nZejia Sun, MM1,2, Changzhen Hao, MM1,2, Huawei Cao, MM1,2,\r\nand Wei Wang, MD1,2\r\nAbstract\r\nClear cell renal cell carcinoma (ccRCC) is one of the most prevalent renal malignant cancer, whose survival rate and quality of life\r\nof patients are still not satisfactory. Nevertheless, the TNM staging system currently used in clinical cannot make accurate survival\r\npredictions and precise treatment decisions for ccRCC patients. Therefore, there is an urgent need for more reliable biomarkers\r\nto identify high-risk subgroups of ccRCC patients to guide timely intervention and treatment. Recently, MiRNAs have been shown\r\nto be closely related to the procession of a variety of tumors, and they have high stability in various tissues, which makes them\r\nsuggested to have the potential as a prognostic biomarker of ccRCC. In this study, by analyzing and processing the miRNAs\r\nexpression profile of ccRCC patients from the TCGA database, we finally constructed an excellent miRNAs signature and verified\r\nit through a variety of methods. In order to build a more accurate and reliable clinical predictive model, we integrated the miRNAs\r\nsignature with other prognostic-related clinical parameters to construct a nomogram. Functional enrichment analysis showed that\r\nmiRNAs in the signature may regulate the genes involved in the Hippo signaling pathway, Tight junction, and Wnt signaling\r\npathway to cause different prognoses of ccRCC patients, which may provide a reference for subsequent basic research and\r\ntargeted therapy. To conclude, our study constructed a useful miRNAs signature, which allows the prognosis stratification for\r\nccRCC patients and thereby guides the timely and effective interventions on high-risk patients. At the same time, this study also\r\nfound the potential biological pathways involved in the procession of ccRCC.\r\nKeywords\r\nclear cell renal cell carcinoma, differentially expressed genes, prognosis, bioinformatics\r\nAbbreviations\r\nRCC, renal cell carcinoma; ccRCC, clear cell renal cell carcinoma; TCGA, The Cancer Genome Atlas; LASSO, Least Absolute\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Shrinkage and Selection Operator; DE-miRNAs, differentially expressed miRNAs; Pr-miRNAs, prognosis-related miRNAs; K-M,\r\nKaplan-Meier; ROC, receiver operating characteristic; GO, gene ontology; KEGG, Kyoto Encyclopedia of Genes and Genomes;\r\nPCA, Principal component analysis; OS, overall survival.\r\nReceived: February 04, 2021; Revised: May 15, 2021; Accepted: May 27, 2021.\r\nIntroduction\r\nRenal carcinoma is one of the most common malignant tumors\r\nof the urinary system. In 2020, there were more than 73000 new\r\ncases and 14000 new deaths of renal carcinoma in the United\r\nStates.1 According to statistics, around one-third of patients\r\nwith renal carcinoma present local or distant metastasis.\r\nBesides, for local renal cell carcinoma (RCC) patients who\r\nhave undergone nephrectomy, approximately one quarter of\r\n1 Department of Urology, Beijing Chaoyang Hospital, Capital Medical\r\nUniversity, Beijing, China\r\n2 Institute of Urology, Capital Medical University, Beijing, China\r\nCorresponding Author:\r\nWei Wang, MD, Department of Urology, Beijing Chaoyang Hospital, Capital\r\nMedical University, 8 Gong Ti Nan Road, Beijing 100020, China.\r\nEmail: weiwang0920@163.com\r\nCreative Commons Non Commercial CC BY-NC: This article is distributed under the terms of the Creative Commons Attribution-NonCommercial 4.0 License\r\n(https://creativecommons.org/licenses/by-nc/4.0/) which permits non-commercial use, reproduction and distribution of the work without further permission\r\nprovided the original work is attributed as specified on the SAGE and Open Access pages (https://us.sagepub.com/en-us/nam/open-access-at-sage).\r\nTechnology in Cancer Research &\r\nTreatment\r\nVolume 20: 1-14\r\nª The Author(s) 2021\r\nArticle reuse guidelines:\r\nsagepub.com/journals-permissions\r\nDOI: 10.1177/15330338211027923\r\njournals.sagepub.com/home/tct\nthem have distant relapses.2 RCC is the most common type of\r\nrenal cancer, accounting for more than 90%, and the morbidity\r\nof RCC is steadily increasing every year.3 The pathological\r\ntype of RCC consists of clear cell renal cell carcinoma\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 472,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "(ccRCC), papillary adenocarcinoma, chromophobe cell carci\u0002noma, Xp11.2 translocation RCC, and unclassified RCC, etc.4\r\nThey all originate from renal tubular epithelial cells, but there\r\nare highly heterogeneous in biological characteristics and\r\nresponse to treatment between different histological subtypes.5\r\nThe most common histological subtype of RCC is ccRCC\r\n(about 70%-80%), which is highly aggressive and has a poor\r\nprognosis.5 Identification of the patients with poor prognosis\r\nearly is of great help for timely and accurate clinical interven\u0002tion and treatment. Unfortunately, there is currently a lack of\r\nspecific biomarkers for screening such patients. Thus, it is very\r\nimperative to explore the prognosis-related specific biomarkers\r\nof ccRCC patients and develop novel treatments for this fatal\r\ndisease to improve its prognosis.\r\nMiRNAs are a class of short, single-stranded non-coding\r\nRNAs, composed of about 22 nucleotides, which negatively\r\nregulate gene expression by mediating mRNAs degradation\r\nor inhibiting their translation.6 Recently, a large number of\r\nstudies have confirmed that miRNAs are involved in the\r\ngrowth, migration, invasion, angiogenesis, and the regulation\r\nof tumor microenvironment in various tumors.7,8 Besides,\r\nsome miRNAs have been shown to hold the potential value for\r\ndiagnosis and prognosis of a variety of tumors.9 A study that a\r\n17-miRNA signature could effectively classify the ccRCC tis\u0002sues and the adjacent normal tissues, and further research has\r\nfound that the decreased expression of miR-204-5p and miR\u0002139-5p was associated with an increased risk of recurrence in\r\nccRCC patients.10 Meng et al found that the up-regulation of\r\nmiR-125b-2-3p is closely related to lymphatic invasion, distant\r\nmetastasis and poor survival of ccRCC patients.11 Addition\u0002ally, as for ccRCC patients, the high expression of miR-210-\r\n3p, miR-210, miR-146a-5p, miR-141 and the low expression of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "miR-194, miR-124-3p, miR-30a-5p are also found to be asso\u0002ciated with the poor prognosis.12,13 However, studies on miR\u0002NAs as biomarkers to predict the prognosis of ccRCC are still\r\nnot enough. The diagnostic ability of most miRNAs signatures\r\nare not ideal and have not been applied in clinical practice.\r\nTherefore, finding and constructing a more accurate and effec\u0002tive miRNAs signature with prognostic value of ccRCC is of\r\ngreat clinical significance.\r\nHerein, we first downloaded the miRNAs expression data\r\nand corresponding clinical information of ccRCC patients from\r\nThe Cancer Genome Atlas database (TCGA) database. After\r\ndifferential expression analysis, univariate Cox regression,\r\nLeast Absolute Shrinkage and Selection Operator (LASSO)\r\nregression analysis, and multivariate Cox regression analysis,\r\n5 miRNAs with optimal prognostic value were screened out.\r\nThen, we constructed a 5-miRNA signature and validated the\r\nprognostic ability of our model by multiple methods. To build a\r\nmore accurate and reliable clinical predictive model, we inte\u0002grated the miRNAs signature and other prognosis-related clin\u0002ical parameters to construct a nomogram. Finally, in order to\r\nexplore the potential biological processes related to prognosis,\r\nwe performed functional enrichment analysis on the down\u0002stream target genes of the 5 miRNAs. The result indicated that\r\nHippo signaling pathway, Tight junction, and Wnt signaling\r\npathway may be related to the differential prognosis of ccRCC\r\npatients.\r\nMethods\r\nData Sources and Screening of Differentially Expressed\r\nmiRNAs\r\nFirstly, the expression data of miRNAs and the corresponding\r\nclinical information of ccRCC patients in the Kidney Clear Cell\r\nCarcinoma (KIRC) subset of TCGA (http://tcga.cancer.gov)\r\ndatabase were downloaded for analysis. These expression data\r\nwere obtained from the sequencing results of 545 tumor tissues\r\nand 71 adjacent non-tumor tissues. Then, we excluded the\r\npatients without complete clinical information and the charac\u0002teristics of the rest ccRCC patients were shown in Table S1.\r\nFinally, the differentially expressed miRNAs (DE-miRNAs)\r\nbetween tumor tissues and adjacent non-tumor tissues were\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "identified using the “edgeR” package in R software with\r\n|log2FC|>1 and adjusted P < 0.05.14\r\nIdentify a Potential Prognosis-Related miRNAs Signature\r\nWe randomly divided patients into 2 groups according to the\r\nratio of 7:3. The expression data of 1 group (Training set) was\r\nused to construct a signature of miRNAs with prognostic value,\r\nwhile the expression data of another group (Testing set) was\r\nused to validate the signature we constructed. Firstly, a uni\u0002variate Cox regression analysis (Hazard Ratio 6¼ 1, P < 0.05)\r\nwas performed on the expression data of the training set (n ¼\r\n364) to identify the prognosis-related miRNAs (Pr-miRNAs).\r\nThen, LASSO regression analysis was conducted to sub-select\r\nthe Pr-miRNAs with the “glmnet” package in R software,\r\nwhich can scale down the regression coefficient forcedly.15\r\n1000-times cross-validations were performed and the optimal\r\npenalty parameter l was determined to increase the reliability\r\nand objectivity.16 Next, a multivariate Cox regression analysis\r\nwas performed on the sub-selected Pr-miRNAs to get the opti\u0002mal prognostic miRNAs. Finally, we combined the expression\r\nlevels of optimal prognostic miRNAs and their regression coef\u0002ficients to establish a formula of risk score:\r\nRisk score ¼ Xn\r\ni¼1\r\ncoefi\u0002Expi ð Þ\r\nThe Exp is the expression level of miRNAs if patient i, while\r\nthe coef means its regression coefficient.\r\nEvaluation and Validation of the miRNAs Model\r\nWe stratified all patients in the training set into high- and\r\nlow-risk groups according to the median risk score. Kaplan\u0002Meier (K-M) survival analysis was used to compare the\r\n2 Technology in Cancer Research & Treatment\nsurvival differences between the above 2 groups and the\r\ntime-dependent receiver operating characteristic (ROC)\r\ncurve was used to evaluate the prognostic accuracy of\r\nmiRNAs signature.17 Besides, we also compared the survival\r\ndifferences between the high- and low-risk groups in differ\u0002ent clinical subgroups (including ages, genders, histologic\r\ngrades, and pathologic stages) to measure the prognostic per\u0002formance of our miRNAs signature.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "To validate the miRNAs signature’s prognostic power and\r\napplicability, we performed the above formula on the patients\r\nin the testing set (n ¼ 152) and the entire set (n ¼ 516) simi\u0002larly. The KM survival analysis and ROC curve were also used\r\nto evaluate our miRNAs signature.\r\nIdentification of Independent Prognostic Factors\r\nand Nomogram Construction\r\nTo determine whether the miRNAs signature is an independent\r\nprognostic factor of ccRCC. We set the survival of the patients\r\nas the dependent variable, while the risk score ages of patients,\r\ngender, histologic grades, and pathologic stages as independent\r\nvariables to perform univariate Cox regression analysis. As for\r\nvariables with statistical differences (P < 0.05), we further\r\nconducted multivariate Cox regression analysis on these vari\u0002ables to determine if they are independent prognostic factors of\r\nccRCC. In order to build an accurate and reliable clinical pre\u0002dictive model, we constructed a nomogram by integrating all\r\nFigure 1. The flowchart of this study. DE-miRNAs indicates differentially expressed miRNAs; Pr-miRNAs, prognosis-related miRNAs; DE\u0002mRNAs, differentially expressed mRNAs; TCGA, the cancer genome atlas.\r\nWu et al 3\nindependent prognostic factors to predict the survival of\r\nccRCC patients at 1-, 3-, and 5-year by using the “rms” pack\u0002age of the R software.18 The nomogram can integrate various\r\nprognostic factors to predict the outcome of individual clinical\r\nevents, it was often used to measure the prognosis of patients.\r\nEvaluate and Validate the Nomogram\r\nFor our nomogram, calibration plots were used to evaluate its\r\nperformance. In the calibration curve, X-axis represents the\r\npredicted survival rate of our nomogram while Y-axis repre\u0002sents the actual survival rate respectively and the 45\u0003 dotted\r\nline represents the best outcome. Then, KM survival analysis\r\nand time-related ROC analysis were also conducted to measure\r\nthe predictive power of the nomogram.\r\nIdentification of Downstream Target Genes\r\nThe possible target genes of the 5 optimal prognostic miRNAs\r\nwere predicted by the miRDB online database (http://www.\r\nmirdb.org/), which can predict and annotate mammalian miRNA\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "target genes. At the same time, we downloaded mRNAs\r\nexpression data of ccRCC and adjacent nontumor renal specimens\r\nfrom the TCGA database and screened out the differentially\r\nexpressed mRNAs between ccRCC and adjacent non-tumor spe\u0002cimens. Integrating the predicted target genes with the differen\u0002tially expressed mRNAs, we finally obtained the possible\r\ndownstream target genes of 5 optimal prognostic miRNAs.\r\nFunctional Enrichment Analysis\r\nTo find out the potential mechanisms involved in the different\r\nprognosis of the ccRCC, we used the “clusterProfiler” package\r\nin R software to perform the gene ontology (GO) annotation\r\nand Kyoto Encyclopedia of Genes and Genomes (KEGG) path\u0002way enrichment analysis on those possible downstream target\r\ngenes of 5 optimal prognostic miRNAs.19 P < 0.05 was con\u0002sidered as statistically significant.\r\nStatistical Analysis\r\nR software (version 3.6.3) was used to perform the statistical\r\nanalyses in this study. All statistical tests were 2 sides and\r\nP < 0.05 were statistically significant.\r\nFigure 2. Screening of the DE-miRNAs. A, PCA plot of the expression profile of miRNAs between tumor and normal tissue. B, Volcano plot of\r\nDE-miRNAs between tumor and normal tissue. C, Heatmap of the DEmiRNAs. DE-miRNAs indicates differentially expressed miRNAs; PCA,\r\nprincipal component analysis.\r\n4 Technology in Cancer Research & Treatment\nResults\r\nDE-miRNAs in ccRCC\r\nFigure 1 showed the flowchart of our study. Firstly, a total of\r\n2089 miRNAs were obtained from the raw sequencing data of\r\nccRCC patients in the TCGA dataset. Principal component\r\nanalysis (PCA) showed that there was a significant difference\r\nin the expression profile of miRNAs between tumor and adja\u0002cent non-tumor tissues (Figure 2A). Subsequently, we identi\u0002fied a total of 221 DE-miRNAs between the 2 tissues,\r\nincluding 115 up-regulated DE-miRNAs and 96 down\u0002regulated DE-miRNAs (Figure 2B). Figure 2C showed the\r\nheatmap of the top 20 DE-miRNAs in tumor and adjacent\r\nnontumor tissues.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Identify a Prognosis-Related miRNAs Signature\r\nAccording to our screening criteria, a total of 102 Pr-miRNAs\r\nwere screened in the training set, of which 75 with HR >1 and\r\n27 with HR <1. By intersecting the 75 prognostic miRNAs\r\n(HR>1) with the 115 up-regulated miRNAs and the 27 prog\u0002nostic miRNAs (HR<1) with the 96 down-regulated miRNAs,\r\nwe obtained 28 miRNAs (Figure 3A). To screen out the\r\nmiRNAs with better prognostic value, we performed LASSO\r\nregression with 1000-times cross-validations on these miR\u0002NAs and obtained 15 candidate miRNAs (Figure 3B-C).\r\nThen, these candidate miRNAs were further performed on\r\nmultivariate Cox regression analysis. Finally, 5 miRNAs with\r\nthe optimal prognostic value were identified (Figure 3D).\r\nFigure 3E shows the expression levels of the optimal\r\nprognosis-related miRNAs in tumor and adjacent non-tumor\r\ntissues. The prognostic power of each optimal prognosis\u0002related miRNAs was shown in Figure 4. As Figure 4 showed,\r\nhigher expressions of the hsa-miR-130b-3p, hsa-miR-301b\u00023p, hsa-miR-3614-3p and hsa-miR-365a-3p were associated\r\nwith worse prognosis. While the higher expression of the\r\nhsa-miR-502-3p was associated with a better prognosis.\r\nFurthermore, we established a risk score formula by combin\u0002ing the expression levels of these 5 optimal prognosis-related\r\nmiRNAs and their corresponding regression coefficients\r\n(Risk score ¼ Exp(miR-130b-3p)*0.44297908 þ Exp(miR-301b-3p)*\r\n0.27378521 þ Exp(miR-3614-3p)*0.34747177 þ Exp(miR-365a-3p)*\r\n0.275049 \u0004 Exp(miR-502-3p)*0.25833766), and calculated the risk\r\nscore of all 525 patients according to the formula.\r\nEvaluation and Validation of the 5-miRNAs Signature\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "We stratified patients into 2 groups (high- and low- risk) based\r\non the median risk score (0.9354) in training set (Figure 5A).\r\nThe survival status of all patients was shown in Figure 5B while\r\nthe heatmap of the expression levels of the 5 optimal prognosis\u0002related miRNAs was shown in Figure 5C. The KM survival\r\nFigure 3. Identification of 5 optimal Pr-miRNAs and their expression levels in ccRCC. A, Venn diagram of 28 Pr-miRNAs. B, 15 candidate\r\nmiRNAs obtained by LASSO regression with 1000-times cross-validation using minimum l value. C, LASSO coefficients profiles of 28 Pr\u0002miRNAs. D, 5 optimal Pr-miRNAs got by multivariate Cox regression analysis. E, Expression pattern of the 5 optimal Pr-miRNAs between\r\ntumor and normal tissues. Pr-miRNAs indicates prognosis-related miRNAs; ccRCC: clear cell renal cell carcinoma; LASSO, least absolute\r\nshrinkage and selection operator.\r\nWu et al 5\nFigure 4. Kaplan-Meier survival analysis of miR-130b-3p, miR-301b-3p, miR-3614-3p, miR-365a-3p, and miR-502-3p.\r\n6\ncurve showed that high-risk patients hold worse overall sur\u0002vival (OS) than low-risk patients (Figure 5D). The ROC curve\r\nindicated that the 5-miRNAs signature had a reliable prognos\u0002tic accuracy with the area under the curve (AUC) was 0.757 at\r\n1 year, 0.720 at 3 years, and 0.734 at 5 years (Figure 5E).\r\nBesides, we measured the prognostic performance of the sig\u0002nature between different clinical subgroups and the results also\r\nshowed that the OS of high-risk patients was significantly\r\nworse than that of low-risk patients (Figure 6).\r\nIn order to validate the constructed 5-miRNAs signature, we\r\nfurther applied the risk score formula to the testing set and the\r\nentire set. Consistent with the training set, both sets presented\r\nthat high-risk patients hold worse OS than low-risk patients\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "(Figure 7A and B). The ROC curve showed that the AUC of\r\nthe testing set was 0.733 at 1 year, 0.672 at 3 years, 0.639 at 5\r\nyears; and the AUC of the entire set was 0.749 at 1 year, 0.704\r\nat 3 years, 0.704 at 5 years. (Figure 7C and D). In summary, the\r\nsignature constructed by us had good prognostic power for\r\nccRCC patients.\r\nConstruction, Calibration and Validation of the Nomogram\r\nThe results of the univariate analysis showed that the age of\r\npatients, the histologic grades, the pathologic stages and the\r\nrisk score based on the 5-miRNA signature were all negatively\r\ncorrelated with the prognosis of ccRCC patients. The prognosis\r\nof older patients with the higher histological grade, the later\r\npathological stage and the higher risk score seem to be worse.\r\nIn contrast, the gender of the patients was not associated with\r\nthe prognosis (Figure 8A). The 5-miRNA signature and other\r\nclinical parameters (ages of patients, histologic grades, and\r\npathologic stages) were identified as the independent prognos\u0002tic factors for ccRCC through multivariate analysis (Figure\r\n8B). Then, a nomogram consists of these independent prognos\u0002tic factors was established to predict the survival at 1-, 3- and 5-\r\nyear of ccRCC patients (Figure 8C). Besides, the KM survival\r\nanalysis and the ROC curve indicated that the nomogram has a\r\nbetter prognostic performance than the 5-miRNAs signature\r\n(Figure 8E and F) and consistent results were got in testing set\r\nand the entire set (Figure 9A-D).\r\nBiological Pathways Related to the Prognosis\r\nTo explore the biological functions and potential mechan\u0002isms related to prognosis, we predicted the target genes of\r\n5 miRNAs in the miRDB online database. 1549 target genes\r\nwere predicted for the 4 up-regulated miRNAs, while 289\r\ntarget genes were predicted for the 1 down-regulated\r\nFigure 5. Prognostic analysis of 5-miRNA signature in the training set. The dotted line represented the median risk score and stratified the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "ccRCC patients into low- and high-risk group. A, The curve of risk score. B, Survival status of the ccRCC patients. C, Heatmap of the expression\r\nlevels of the 5 optimal Pr-miRNAs in low- and high-risk group. D, K-M survival analysis of the 5-miRNA signature. E, Time-dependent ROC\r\nanalysis of the 5-miRNA signature. CcRCC indicates clear cell renal cell carcinoma; Pr-miRNAs, prognosis-related miRNAs; K-M, Kaplan\u0002Meier; ROC, receiver operating characteristic.\r\nWu et al 7\nFigure 6. Kaplan-Meier survival analysis of the 5-miRNA signature in different subgroups including (A) younger than 65 years old, older than 65 years old; (B) male, female; (C)\r\ngrade1/2, grade3/4; (D) stage III, stage III-IV. K-M indicates Kaplan-Meier.\r\n8\nmiRNAs. By analyzing the mRNAs expression data of\r\nccRCC in the TCGA database, A total of 6683 up-regulated\r\nmRNAs and 2640 down-regulated mRNAs were screened out\r\nbetween ccRCC and adjacent non-tumor tissues. The target\r\ngenes of up-regulated miRNAs were intersected with the\r\ndown-regulated mRNAs, and the target genes of down\u0002regulated miRNAs were intersected with the up-regulated\r\nmRNAs. Finally, 190 possible downstream target genes were\r\nobtained (Figure 10A-D).\r\nThe GO and KEGG enrichment analysis were performed to\r\nidentify the potential biological functions of these target\r\ngenes. The results of GO showed that these target genes were\r\nmainly enriched in biological processes such as urogenital\r\nsystem development, renal system development, sodium ion\r\ntransport, axis elongation, positive regulation of sodium ion\r\ntransmembrane transporter activity, etc (Figure 10E). KEGG\r\npathway enrichment analysis results showed that these target\r\ngenes were mainly enriched in Hippo signaling pathway, Pro\u0002panoate metabolism, Tight junction and Wnt signaling path\u0002way (Figure 10B).\r\nDiscussion\r\nNowadays, although the treatment of ccRCC has been standar\u0002dized, the mortality of patients has not been significantly\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "improved.2 In order to reduce the mortality of ccRCC patients\r\nand improve their prognosis, it is sensible to develop effective\r\nbiomarkers or construct accurate models with prognostic value\r\nfor ccRCC patients. Studies have found that a variety of miR\u0002NAs were involved in the occurrence and progression of\r\nccRCC, and some of them have also been proved to be closely\r\nrelated to the prognosis of ccRCC. Combining their stability in\r\nmultiple organizations, they were supported to be effectively\r\nprognostic biomarkers for ccRCC. Thus, the objective of this\r\nstudy is to construct a miRNAs-based model with a strong\r\nprognostic ability to help identify the high-risk ccRCC patients\r\nwith poor prognosis, and then guide timely and effective inter\u0002vention and treatment, which finally improve the prognosis and\r\nquality of life of these patients.\r\nWe obtained DE-miRNAs between tumor tissues and adja\u0002cent non-tumor tissues by analyzing the sequencing data in the\r\nTCGA database. After a series of regression analyses, we\r\nFigure 7. Validation of the 5-miRNA signature. Kaplan-Meier survival analysis of the 5-miRNA signature in internal testing set (A) and the\r\nentire set (C). Time-dependent ROC analysis of the 5-miRNA signature in internal testing set (B) and the entire set (D). K-M indicates Kaplan\u0002Meier; ROC, receiver operating characteristic.\r\nWu et al 9\nconstructed a 5-miRNA signature, including miR-130b-3p,\r\nmiR-3614-3p, miR-365a-3p, miR-301b-3p, and miR-502-3p,\r\nwhich is validated as an independent prognostic factor of\r\nccRCC. Patients were stratified into 2 groups according to the\r\nrisk score formula, and KM survival analysis and ROC curve\r\nhave confirmed the performance of our signature. We further\r\nvalidated the miRNAs signature in testing set, entire set and\r\ndifferent clinical types of patients. To establish a more reliable\r\nand individualized clinical prediction method, we incorporated\r\nthe 5-miRNA signature with other independent prognostic fac\u0002tors to construct a nomogram. The predicted outcome of the\r\nnomogram showed a good agreement with the actual outcome\r\nin the calibration plots, and KM survival analysis and ROC\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "curve analysis also showed that the constructed nomogram had\r\nhigher prognostic efficiency. Finally, by integrating the pre\u0002dicted target genes of 5 miRNAs in miRDB online database\r\nand differentially expressed genes of ccRCC patients in the\r\nTCGA database, we obtained the potential downstream target\r\ngenes of these 5 miRNAs, and further performed the functional\r\nenrichment analysis on these genes to explore the potential\r\nbiological pathways involved in the different prognosis of the\r\nccRCC.\r\nIt is worth noting that the 5 optimal prognostic miRNAs\r\nscreened in our study have also been reported to be related to\r\nthe ontogeny, progression and prognosis of tumors in other\r\nliterature. Peng et al found that the high expression of miR\u0002130 family was closely related to the poor survival of cancer\r\npatients, especially patients with gastric cancer or hepatocellu\u0002lar carcinoma.20 A study also found that the signaling cascade\r\ninvolved in miR-130b-3p can mediate an interaction between\r\ncancer cells and M2 macrophages in the tumor microenviron\u0002ment to accelerate the progression of gastric cancer.21 Besides,\r\nthe up-regulated miR-130b-3p in hepatocellular carcinoma can\r\npromote the progression and angiogenesis of hepatocellular\r\nFigure 8. Identifying the independent prognostic factors and construction of miRNA-based nomogram. A, Forrest plot of Univariate Cox\r\nregression analysis in ccRCC. B, Forrest plot of multivariate Cox regression analysis in ccRCC. C, Nomogram integrated 5 miRNA-based risk\r\nscore, age, grade, and stage. D, The calibration plot of the nomogram for agreement test between 1-, 3- and 5-year OS prediction and the actual\r\noutcome. E, OS of the high-risk group was significantly worse than that of the low-risk group. F, Time-dependent ROC curves of the nomogram.\r\nCcRCC indicates clear cell renal cell carcinoma; OS, overall survival; ROC, receiver operating characteristic.\r\n10 Technology in Cancer Research & Treatment\ncarcinoma, which is significantly associated with the poor\r\nprognosis of patient.22 Interestingly, miR-130b-3p also holds\r\nthe ability to inhibit the progression of tumors. Shui et al\r\nproved that miR-130b-3p can directly target Notch ligand\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Delta-like 1 to inhibit the invasion and metastasis of breast\r\ncancer cells.23 Another study found that exosomal miR-130b\u00023p targeted serine/threonine-protein kinase 1 through the p53\r\nsignal pathway could inhibit medulloblastoma tumorigenesis.24\r\nAs for miR-3614-3p, a study has reported that the overexpres\u0002sion of it can down-regulate the expression of TRIM25 to\r\ninhibit the growth of breast cancer cells.25 MiR-365a-3p was\r\nproved to inhibit the expansion and metastasis of colorectal\r\ncancer cells partly via inhibiting the expression of ADAM10\r\nand JAK/STAT signal.26,27 In addition, miR-365a-3p could\r\nalso prevent the progression of pancreatic cancer through inhi\u0002biting NF-kB pathway.27 MiR-365a-3p is also regarded as an\r\noncogene, which play an important role in the proliferation,\r\nmigration and invasion of lung cancer, gastric cancer and lar\u0002yngeal squamous cell carcinoma lung cancer cells.28-30 As an\r\noncogene, miR-301b-3p is involved in the progression of hepa\u0002tocellular carcinoma, gastric cancer and prostate cancer\r\nthrough a variety of different mechanisms.31-33 As for miR\u0002502-3p, it can target SET to inhibit the proliferation, migration\r\nand invasion of hepatocellular carcinoma.34\r\nTo explore the biological functions and potential mechan\u0002isms related to prognosis, we performed the functional enrich\u0002ment analysis on the possible downstream target genes of the 5\r\noptimal prognostic miRNAs. The results of GO showed that\r\nthese target genes were mainly associated with the urogenital\r\nsystem development, renal system development and sodium\r\nion transport. KEGG analysis results showed that these target\r\ngenes were mainly enriched in the Hippo signal pathway, tight\r\njunction and Wnt signal pathway. Hippo signal pathway is\r\nactually a kind of tumor-suppressive pathway, which is\r\ninvolved in cell growth, proliferation, differentiation, apoptosis\r\nand regeneration, and its imbalance is closely related to the\r\noccurrence and progression of a variety of tumors.35,36 YAP,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "a downstream target of the Hippo signal pathway, whose over\u0002expression was associated with the poor prognosis of hepato\u0002cellular carcinoma.37 Besides, the Hippo pathway and its\r\nupstream and downstream effectors were also involved in reg\u0002ulating the development and tumorigenesis of the liver and\r\nFigure 9. Validation of the miRNA-based nomogram. Kaplan-Meier survival analysis of the nomogram in the testing set (A) and the entire set\r\n(C). Time-dependent ROC analysis of the nomogram in the testing set (B) and the entire set (D). K-M indicates Kaplan-Meier; ROC, receiver\r\noperating characteristic.\r\nWu et al 11\nFigure 10. Functional enrichment analysis. A, Volcano plot of DE-mRNAs between tumor and normal tissue. B, Heatmap of the DE-mRNAs. C, Intersecting the target genes of up\u0002regulated miRNAs with the downregulated mRNAs. D, Intersecting the target genes of down-regulated miRNAs with the up-regulated mRNAs. E, GO enrichment analysis of the\r\npossible downstream target genes. F, KEGG enrichment analysis of the possible downstream target genes. GO indicates gene ontology; KEGG, Kyoto Encyclopedia of Genes andGenomes; DE-mRNAs, differentially expressed mRNAs.\r\n12\npancreas.38 Wnt signal pathway, like Hippo pathway, was first\r\nfound in drosophila, which is highly conserved in evolution and\r\nis closely related to cancer.39,40 Wnt pathway was also involved\r\nin the occurrence and progression of a variety of tumors such as\r\ncolorectal cancer, melanoma, bladder cancer, prostate cancer\r\nand leukemia, which was highly related to cancer cell metas\u0002tasis and immune response in the tumor microenvironment.39,40\r\nTight junctions were involved in maintaining cell polarity, and\r\ntight junction proteins were related to the regulation of cell\r\nproliferation, transformation and metastasis by recruiting sig\u0002nal proteins.41 Bhat et al summarized the interaction mechan\u0002ism and related molecular signals between tight junction\r\nprotein claudin 1-20 and a variety of cancers, and emphasized\r\nthe important role of tight junction proteins in tumors.41 Our\r\nresults suggested that the 5 miRNAs might affect the prognosis\r\nof ccRCC patients mainly by regulating the expression of genes\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "enriched in the above 3 signal pathways. This provides a ref\u0002erence for improving the prognosis of high-risk patients by\r\ntargeted regulation of the above 3 signaling pathways.\r\nIn conclusion, our study constructed a 5-miRNAs signature\r\nwith prognostic value for ccRCC patients, which is an indepen\u0002dent prognostic factor for patients with ccRCC. Furthermore,\r\nwe integrated our miRNAs signature and other prognosis\u0002related clinical parameters to construct a nomogram, which can\r\npredict the prognosis of ccRCC patients more accurate and\r\nreliable. Besides, we also found that the potential mechanism\r\nof different prognosis of ccRCC patients caused by potential\r\ndownstream target genes of the 5 miRNAs may be related to\r\nHippo, tight junction and Wnt signal pathways. However, there\r\nare still some limitations. This study is based on bioinformatics\r\ndata analysis, and the results are needed to further validate in\r\nmulticenter and prospective studies in the future. It is pretty\r\nnecessary to explore the potential mechanisms related to our\r\nsignature in the ontogeny, development and prognosis of\r\nccRCC, which may provide a new field of vision for risk stra\u0002tification, early intervention and targeted therapy in patients\r\nwith ccRCC.\r\nAuthors’ Note\r\nJiyue Wu and Feilong Zhang contributed equally to this work and\r\nshould be listed as first co-authors. Our study did not require an ethical\r\nboard approval because it did not contain human or animal trials.\r\nDeclaration of Conflicting Interests\r\nThe author(s) declared no potential conflicts of interest with respect to\r\nthe research, authorship, and/or publication of this article.\r\nFunding\r\nThe author(s) received no financial support for the research, author\u0002ship, and/or publication of this article.\r\nORCID iD\r\nFeilong Zhang, MM https://orcid.org/0000-0001-6781-199X\r\nWei Wang, MD https://orcid.org/0000-0003-2642-3338\r\nSupplemental Material\r\nSupplemental material for this article is available online\r\nReferences\r\n1. Siegel RL, Miller KD, Jemal A. Cancer statistics, 2020. CA Can\u0002cer J Clin. 2020;70(1):7-30. doi:10.3322/caac.21590\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "2. Choueiri TK, Motzer RJ. Systemic therapy for metastatic renal\u0002cell carcinoma. N Engl J Med. 2017;376(4):354-366. doi:10.1056/\r\nNEJMra1601333\r\n3. Hsieh JJ, Purdue MP, Signoretti S, et al. Renal cell carcinoma. Nat\r\nRev Dis Primers.2017;3:17009. doi:10.1038/nrdp.2017.9\r\n4. Diaz-Montero CM, Rini BI, Finke JH. The immunology of renal\r\ncell carcinoma. Nat Rev Nephrol. 2020;16(12):721-735. doi:10.\r\n1038/s41581-020-0316-3\r\n5. Linehan WM. Genetic basis of kidney cancer: role of genomics\r\nfor the development of disease-based therapeutics. Genome Res.\r\n2012;22(11):2089-2100. doi:10.1101/gr.131110.111\r\n6. He L, Hannon GJ. MicroRNAs: small RNAs with a big role in\r\ngene regulation. Nat Rev Genet. 2004;5(7):522-531. doi:10.1038/\r\nnrg1379\r\n7. Rupaimoole R, Calin GA, Lopez-Berestein G, Sood AK. miRNA\r\nderegulation in cancer cells and the tumor microenvironment.\r\nCancer Discov. 2016;6(3):235-246. doi:10.1158/2159-8290.CD\u000215-0893\r\n8. Kim J, Yao F, Xiao Z, Sun Y, Ma L. MicroRNAs and metastasis:\r\nsmall RNAs play big roles. Cancer Metastasis Rev. 2018;37(1):\r\n5-15. doi:10.1007/s10555-017-9712-y\r\n9. Zhang H, Wang Z, Ma R, Wu J, Feng J. MicroRNAs as biomar\u0002kers for the progression and prognosis of colon carcinoma. Int J\r\nMol Med. 2018;42(4):2080-2088. doi:10.3892/ijmm.2018.3792\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "10. Shu X, Hildebrandt MA, Gu J, et al. MicroRNA profiling in clear\r\ncell renal cell carcinoma tissues potentially links tumorigenesis\r\nand recurrence with obesity. Br J Cancer. 2017;116(1):77-84. doi:\r\n10.1038/bjc.2016.392\r\n11. Meng X, Liu K, Xiang Z, Yu X, Wang P, Ma Q. MiR-125b-2-3p\r\nassociates with prognosis of ccRCC through promoting tumor\r\nmetastasis via targeting EGR1. Am J Transl Res. 2020;12(9):\r\n5575-5585.\r\n12. He YH, Chen C, Shi Z. The biological roles and clinical implica\u0002tions of microRNAs in clear cell renal cell carcinoma. J Cell\r\nPhysiol. 2018;233(6):4458-4465. doi:10.1002/jcp.26347\r\n13. Schaefer A, Stephan C, Busch J, Yousef GM, Jung K. Diagnostic,\r\nprognostic and therapeutic implications of microRNAs in urolo\u0002gic tumors. Nat Rev Urol. 2010;7(5):286-297. doi:10.1038/nrurol.\r\n2010.45\r\n14. Robinson MD, McCarthy DJ, Smyth GK. edgeR: a bioconductor\r\npackage for differential expression analysis of digital gene\r\nexpression data. Bioinformatics. 2010;26(1):139-140. doi:10.\r\n1093/bioinformatics/btp616\r\n15. Friedman J, Hastie T, Tibshirani R. Regularization paths for gen\u0002eralized linear models via coordinate descent. J Stat Softw. 2010;\r\n33(1):1-22.\r\n16. Goeman JJ. L1 penalized estimation in the cox proportional\r\nhazards model. Biom J. 2010;52(1):70-84. doi:10.1002/bimj.\r\n200900028\r\nWu et al 13\n17. Heagerty PJ, Lumley T, Pepe MS. Time-dependent ROC curves\r\nfor censored survival data and a diagnostic marker. Biometrics.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "2000;56(2):337-344. doi:10.1111/j.0006-341x.2000.00337.x\r\n18. Eng KH, Schiller E, Morrell K. On representing the prognostic\r\nvalue of continuous gene expression biomarkers with the\r\nrestricted mean survival curve. Oncotarget. 2015;6(34):\r\n36308-36318. doi:10.18632/oncotarget.6121\r\n19. Yu G, Wang LG, Han Y, He QY. Clusterprofiler: an R package\r\nfor comparing biological themes among gene clusters. OMICS.\r\n2012;16(5):284-287. doi:10.1089/omi.2011.0118\r\n20. Peng Z, Duan F, Yin J, Feng Y, Yang Z, Shang J. Prognostic\r\nvalues of microRNA-130 family expression in patients with can\u0002cer: a meta-analysis and database test. J Transl Med. 2019;17(1):\r\n347. doi:10.1186/s12967-019-2093-y\r\n21. Zhang Y, Meng W, Yue P, Li X. M2 macrophage-derived extra\u0002cellular vesicles promote gastric cancer progression via a micro\u0002RNA-130b-3p/MLL3/GRHL2 signaling cascade. J Exp Clin\r\nCancer Res. 2020;39(1):134. doi:10.1186/s13046-020-01626-7\r\n22. Liao Y, Wang C, Yang Z, et al. Dysregulated Sp1/miR-130b-3p/\r\nHOXA5 axis contributes to tumor angiogenesis and progression\r\nof hepatocellular carcinoma. Theranostics. 2020;10(12):\r\n5209-5224. doi:10.7150/thno.43640\r\n23. Shui Y, Yu X, Duan R, et al. miR-130b-3p inhibits cell invasion\r\nand migration by targeting the notch ligand delta-like 1 in breast\r\ncarcinoma. Gene. 2017;609:80-87. doi:10.1016/j.gene.2017.01.036\r\n24. Huang S, Xue P, Han X, et al. Exosomal miR-130b-3p targets\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "SIK1 to inhibit medulloblastoma tumorigenesis. Cell Death Dis.\r\n2020;11(6):408. doi:10.1038/s41419-020-2621-y\r\n25. Wang Z, Tong D, Han C, et al. Blockade of miR-3614 maturation\r\nby IGF2BP3 increases TRIM25 expression and promotes breast\r\ncancer cell proliferation. EBioMedicine. 2019;41:357-369. doi:\r\n10.1016/j.ebiom.2018.12.061\r\n26. Hong YG, Xin C, Zheng H, et al. miR-365a-3p regulates\r\nADAM10-JAK-STAT signaling to suppress the growth and\r\nmetastasis of colorectal cancer cells. J Cancer. 2020;11(12):\r\n3634-3644. doi:10.7150/jca.42731\r\n27. Yin L, Xiao X, Georgikou C, et al. MicroRNA-365a-3p inhibits c\u0002Rel-mediated NF-kB signaling and the progression of pancreatic\r\ncancer. Cancer Lett. 2019;452:203-212. doi:10.1016/j.canlet.\r\n2019.03.025\r\n28. Wang Y, Zhang S, Bao H, et al. MicroRNA-365 promotes lung\r\ncarcinogenesis by downregulating the USP33/SLIT2/ROBO1 sig\u0002nalling pathway. Cancer Cell Int. 2018;18:64. doi:10.1186/\r\ns12935-018-0563-6\r\n29. Geng J, Liu Y, Jin Y, et al. MicroRNA-365a-3p promotes tumor\r\ngrowth and metastasis in laryngeal squamous cell carcinoma.\r\nOncol Rep. 2016;35(4):2017-2026. doi:10.3892/or.2016.4617\r\n30. Gao M, Liu L, Zhang D, Yang Y, Chang Z. Long non-coding\r\nRNA NEAT1 serves as sponge for miR-365a-3p to promote gas\u0002tric cancer progression via regulating ABCC4. Onco Targets\r\nTher. 2020;13:3977-3985. doi:10.2147/OTT.S245557\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 469,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "31. Guo Y, Yao B, Zhu Q, et al. MicroRNA-301b-3p contributes to\r\ntumour growth of human hepatocellular carcinoma by repressing\r\nvestigial like family member 4. J Cell Mol Med. 2019;23(8):\r\n5037-5047. doi:10.1111/jcmm.14361\r\n32. Fan H, Jin X, Liao C, Qiao L, Zhao W. MicroRNA-301b-3p\r\naccelerates the growth of gastric cancer cells by targeting zinc\r\nfinger and BTB domain containing 4. Pathol Res Pract. 2019;\r\n215(11):152667. doi:10.1016/j.prp.2019.152667\r\n33. Zheng H, Bai L. Hypoxia induced microRNA-301b-3p overex\u0002pression promotes proliferation, migration and invasion of pros\u0002tate cancer cells by targeting LRP1B. Exp Mol Pathol. 2019;111:\r\n104301. doi:10.1016/j.yexmp.2019.104301\r\n34. Jin H, Yu M, Lin Y, et al. MiR-502-3P suppresses cell prolifera\u0002tion, migration, and invasion in hepatocellular carcinoma by tar\u0002geting SET. Onco Targets Ther. 2016;9:3281-3289. doi:10.2147/\r\nOTT.S87183\r\n35. Wang Y, Xu X, Maglic D, et al. Comprehensive molecular char\u0002acterization of the hippo signaling pathway in cancer. Cell Rep.\r\n2018;25(5):1304-1317.e5. doi:10.1016/j.celrep.2018.10.001\r\n36. Moon S, Yeon Park S, Woo Park H. Regulation of the hippo\r\npathway in cancer biology. Cell Mol Life Sci. 2018;75(13):\r\n2303-2319. doi:10.1007/s00018-018-2804-1\r\n37. Xu MZ, Yao TJ, Lee NP, et al. Yes-associated protein is an\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1775085171357252103,
+        "filename": "10.1177_15330338211027923.PMC8237220.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 297,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "independent prognostic marker in hepatocellular carcinoma. Can\u0002cer. 2009;115(19):4576-4585. doi:10.1002/cncr.24495\r\n38. Kong D, Zhao Y, Men T, Teng CB. Hippo signaling pathway in\r\nliver and pancreas: the potential drug target for tumor therapy. J\r\nDrug Target. 2015;23(2):125-133. doi:10.3109/1061186X.2014.\r\n983522\r\n39. Murillo-Garzon V, Kypta R. WNT signalling in prostate cancer.\r\nNat Rev Urol. 2017;14(11):683-696. doi:10.1038/nrurol.2017.144\r\n40. Zhan T, Rindtorff N, Boutros M. Wnt signaling in cancer. Onco\u0002gene. 2017;36(11):1461-1473. doi:10.1038/onc.2016.304\r\n41. Bhat AA, Uppada S, Achkar IW, et al. Tight junction proteins and\r\nsignaling pathways in cancer and inflammation: a functional\r\ncrosstalk. Front Physiol. 2018;9:1942. doi:10.3389/fphys.2018.\r\n01942\r\n14 Technology in Cancer Research & Treatment\n\n"
+  }
+]

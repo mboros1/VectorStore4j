@@ -1,0 +1,890 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Vol.:(0123456789)\r\nPharmacoEconomics (2025) 43:677–689 \r\nhttps://doi.org/10.1007/s40273-025-01482-3\r\nORIGINAL RESEARCH ARTICLE\r\nThe Monetary Value of a Statistical Life in the Context \r\nof Atherosclerotic Cardiovascular Disease\r\nJorge‑Eduardo Martínez‑Pérez1  · Fernando‑Ignacio Sánchez‑Martínez1  · José‑María Abellán‑Perpiñán1  · \r\nDomingo Pascual‑Figal2\r\nAccepted: 9 March 2025 / Published online: 29 March 2025\r\n© The Author(s) 2025\r\nAbstract\r\nAim This study aims to estimate the value of a statistical life (VSL) in the context of atherosclerotic cardiovascular disease \r\n(ASCVD) in Spain using a contingent valuation/standard gamble (CV/SG) chained approach.\r\nMethods The study employed a two-stage preference elicitation method that combined contingent valuation and a modified \r\nstandard gamble technique. Specifically, willingness-to-pay and willingness-to-accept values were obtained for two health \r\nstates depicting hypothetical outcomes following cardiovascular events. Subsequently, relative utility losses for the health \r\nstates were derived using a modified standard gamble framing two risky choices. Chaining these elicited values allowed \r\nfor VSL calculation without requiring direct valuation of small mortality risk reductions. The study was conducted through \r\nin-person interviews with a representative sample of 412 Spanish adults selected by stratified quotas.\r\nResults The estimated VSL range is from 1.59 to 2.06 million euros. Minor differences emerge between VSL figures on the \r\nbasis of each of the two health states. These VSL estimates for ASCVD are congruent with the recent update of the official \r\nVSL estimated for Spain in the context of road traffic accidents, though the upper limit of the range is slightly higher (almost \r\n9%).\r\nConclusions VSL estimates align with existing ranges in other European countries, particularly in the context of road safety, \r\nwhere a significant portion of existing studies is concentrated. Comparisons with other contexts, involving cardiovascular \r\ndiseases, also lend support to the estimates presented here.\r\n1 Introduction\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Atherosclerotic cardiovascular disease (ASCVD) is a con\u0002dition where atheroma plaque builds up inside the arter\u0002ies, leading to impaired blood flow and ischemia, which \r\nfrequently is associated with acute events such as heart \r\nattacks and strokes. Atherosclerosis is a pathological process \r\nwhere cholesterol, mostly low-density cholesterol particles, \r\nand other substances accumulate on artery walls, forming \r\nplaques that impede blood flow and are prone to rupture, \r\nwhich causes thrombosis and acute ischemic events [1]. In \r\nWestern societies, and particularly in Spain, ASCVD holds \r\nsignificant importance owing to its high prevalence and \r\nimpact on public health. It is one of the leading causes of \r\ndeath and a major cause of disability over the world [2].\r\nAccording to the Spanish Statistical Office [3], cardio\u0002vascular diseases (CVDs) were the leading cause of death \r\nin Spain in 2022, provoking more than 121,000 deaths \r\n(26.1% of total deaths). Underlying atherosclerotic patho\u0002physiology contributes decisively to CVD burden, in terms \r\nof premature deaths and years lived with disability [4–6]. \r\nThis is the case in Spain, the country where our study \r\nwas conducted, where ischemic heart disease (IHD) and \r\ncerebrovascular disease are the two most frequent causes \r\nof death, amounting to almost 54,000 fatalities and 44.3% \r\n* Jorge‑Eduardo Martínez‑Pérez \r\njorgemp@um.es\r\n1 Department of Applied Economics, Faculty of Economics \r\nand Business, University of Murcia, Campus de Espinardo, \r\nEdificio no. 2, 30100 Murcia, Spain\r\n2 Hospital Virgen de la Arrixaca, Centro Nacional de \r\nInvestigaciones Cardiovasculares (CNIC), University \r\nof Murcia, Murcia, Spain\n678 J.-E. Martínez‑Pérez et al.\r\nKey Points for Decision Makers\r\nThe value of a statistical life (VSL) is a significant \r\nmeasure used in health economics and policy to quantify \r\nthe societal value of reducing mortality risks. Most VSL \r\nestimates are derived from traffic accident contexts or \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "environmental risks, with limited application to cardio\u0002vascular diseases.\r\nThis paper applies the contingent valuation/standard \r\ngamble (CV/SG) chained approach to estimate VSL in \r\nthe context of atherosclerotic cardiovascular disease \r\n(ASCVD) in Spain. The VSL estimates range between \r\n1.59 and 2.06 million euros.\r\nThe VSL estimates derived from ASCVD contexts offer \r\nvaluable benchmarks for health policy and economic \r\nevaluations. These insights can inform resource alloca\u0002tion decisions, cost-effectiveness analyses, and health\u0002care interventions aimed at reducing cardiovascular \r\nmortality in Spain and potentially across Europe.\r\nof all deaths due to cardiovascular problems. Prevalence \r\nof these two CVDs in Spain were 22.9 and 16.4 per 1000 \r\ninhabitants, respectively, in 2021. Prevalence increases \r\nwith age, so IHD exceeds 10% for males aged 70 years \r\nand over, whereas cerebrovascular disease can even affect \r\n10 out of 100 people aged 80 years and over [7].\r\nAs previously mentioned, the CVD burden in terms of \r\npremature deaths and years lived with disability is consid\u0002erable. This study primarily aims to estimate the economic \r\nimpact of this burden for Spain. A significant portion of \r\nthe CVD burden relates to premature mortality, which we \r\nseek to quantify economically using the value of a statisti\u0002cal life (VSL). The VSL represents the monetary amount \r\nthat society is willing to pay to prevent one statistical \r\nor anonymous fatality. Such a value is derived from the \r\naggregation of people’s willingness to pay (WTP) for a \r\nsmall reduction in the risk of death [8, 9]. For example, \r\nif each individual is willing to pay 1€ to reduce the risk \r\nof dying by 1 in 1,000,000, then a population of 1 million \r\nindividuals would be willing to pay 1€ million to save one \r\nstatistical life. Therefore, a VSL of 1 million euros results.\r\nThere are different approaches to estimate the VSL. \r\nOne of them is to observe how individuals behave in the \r\nmarket. For instance, the wage compensation that workers \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "require to accept a higher risk at their jobs [9–11]. Meth\u0002ods of this type are called “revealed-preference” methods. \r\nHowever, “stated-preference” studies, such as contingent \r\nvaluation (CV) surveys or discrete choice experiments \r\n(DCE), rely on what individuals say that they would do \r\nunder hypothetical circumstances [12, 13].\r\nCV studies use surveys to elicit individuals’ WTP to \r\nreduce the risk of death and/or their willingness to accept \r\ncompensation (WTA) for an increase in the risk of death. \r\nA major issue with this method is the ample evidence sug\u0002gesting that CV valuations often suffer from scope insensi\u0002tivity [14, 15]. Specifically, while the theory [16] predicts \r\nthat individuals’ WTPs should be proportional to the size \r\nof risk reduction, it is commonly found that WTP is sig\u0002nificantly less than proportional to minor reductions in the \r\nrisk of death [17, 18]. Thus, VSL estimates change with \r\nthe size of risk reduction [19, 20].\r\nIn DCE studies, participants must choose their pre\u0002ferred option from a series of alternatives. Each variant of \r\nthe hypothetical good is described by a set of attributes, \r\nincluding the price or cost to the respondent [21]. This \r\nallows the analyst to estimate the monetary value that peo\u0002ple attach to the good. One important problem of DCE is \r\nthe high occurrence of lexicographic preferences, which \r\nis the tendency to choose consistently between options \r\nsolely on the basis of an attribute, as found in many stud\u0002ies [22–25].\r\nAlthough VSL has been estimated mostly in the context \r\nof traffic accidents [14, 23, 26–31], there are also VSL \r\nestimates for other different environments, such as air pol\u0002lution [32, 33] or heat waves [34], as well as for specific \r\ncauses of death, such as cancer [29, 35–39], respiratory \r\nillness [29, 32, 35], and cardiovascular disease [32, 34].\r\nAs Nankunda and Evdorides [40] argue, there is a \r\nthird stated-preference approach, different from DCE and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "CV methods, but closely related to the latter, called the \r\n“contingent valuation/standard gamble (CV/SG) chained \r\napproach.” This method, developed by Carthy et al. [41], \r\nwas intended to overcome the problems of CV valuations \r\npreviously mentioned, particularly, the fact that those valu\u0002ations usually lack sensitivity to scope. This problem is \r\nattenuated by, first, eliciting WTP and WTA estimates for \r\navoiding or compensating for suffering from a nonfatal \r\nhealth state certainly, and next, combining those esti\u0002mates with answers to standard gamble (SG) questions. \r\nThese questions ask respondents the risk they are willing \r\nto accept to avoid premature death and can be posited in \r\ntwo different ways. In the traditional way [42], a risky \r\ntreatment (i.e., a gamble or lottery) that can lead either to \r\nthe recovery of full health or to death is compared with \r\nan impaired health condition with certainty. Probabilities \r\nof the gamble are varied until participants are indiffer\u0002ent between the two alternatives. However, as has been \r\noften reported (e.g., [19]), many respondents are reluc\u0002tant to make trade-offs between risk of death and health \nValue of a Statistical Life in Atherosclerotic Cardiovascular Disease 679\r\nimprovement, a bias that can be explained by means of \r\nthe so-called “certainty” effect [43]. To mitigate this pro\u0002pensity to outweigh the certainty embodied in the sure \r\noutcome against the risk of dying, Carthy et al. [41] pro\u0002posed a “modified” standard gamble (MSG), called this \r\nway because it compares two gambles with each other \r\ninstead of comparing a gamble and a sure outcome. In \r\nthis way, as shown by Abellan-Perpiñan et al. [44], this \r\nframing diminishes respondents’ reluctance to accept any \r\nrisk of fatality enabling preference elicitation.\r\nThe CV/SG chained method has been used to estimate \r\nthe VSL in Spain [45, 46] in the context of traffic accidents \r\nand, to our knowledge, that is the only context in which it \r\nhas been applied up to now. This manuscript extends the use \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "of the CV/SG chained method, which attenuates the limita\u0002tions of classical CV and SG procedures, to the domain of \r\ncardiovascular risks. This is the first time that this method \r\nis used to estimate the VSL in the specific realm of cardio\u0002vascular risks.\r\nThe paper is organized as follows. In the next section the \r\nstudy design is described in detail, including the preference \r\nelicitation methods and the questionnaire administered to \r\nparticipants in the survey. Section 3 shows the main findings \r\nof the study. VSL estimates for two health states representa\u0002tive of the health condition following a heart attack and a \r\nstroke are presented. The discussion section reflects on the \r\nmajor contributions and limitations of this study, offering \r\na critical and contextual analysis. The paper ends with a \r\nconclusions section.\r\n2Methods\r\n2.1The Contingent Valuation/Standard Gamble \r\n(CV/SG) Chained Approach\r\nThe CV/SG chained approach combines (i.e., “chains”) the \r\nresponses to two types of questions, thus splitting the valu\u0002ation of risk reductions into three steps:\r\n1. The marginal rate of substitution (MRS) between \r\nwealth and the risk of a nonfatal health problem i (denoted \r\nby mi) is inferred from WTP and WTA estimates by assum\u0002ing a specific functional form of the utility function.\r\n2. A MSG question is used to estimate what Carthy \r\net al. [41] call the “relative utility loss” (RUL) or md∕mi, \r\nwhere md is the MRS between wealth and the risk of death. \r\nMore specifically, subjects are asked to establish indiffer\u0002ence between two binary lotteries X and Y. Assume that X = \r\n(death, q;injury, i) and Y = (death, p;normal health), where \r\nq and p are the probabilities of death in X and Y, respec\u0002tively. Assume that q is fixed at a predetermined value (1 in \r\n1000 in Carthy et al.). Subjects have to state the value of p\r\nthat leaves them indifferent between X and Y. If subjects are \r\nexpected utility maximizers then:\r\n3. Finally, since we know mi\r\n from WTP/WTA questions \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "and (1 − q)∕(p − q) from MSG, the theoretical result in (1) \r\nmakes it possible to infer md:\r\nFor each individual, md for nonfatal health problem i will \r\nbe computed. Subsequently, these individual assessments are \r\naggregated to calculate the mean, yielding the societal VSL.\r\nNote that the relevant advantage of this method is that md\r\ncan be estimated without asking subjects WTP questions \r\nabout very small risk reductions, which is a significant ben\u0002efit of the CV/SG method.\r\nA different chained procedure was suggested by Carthy \r\net al. [41] that they called the “indirect” method. This pro\u0002cedure consisted of using an intermediate health state j, \r\nless severe than the state i, used in the CV/SG approach. A \r\nsecond MSG question is used to calculate the RUL of state \r\nj compared with i (mi\r\n∕mj\r\n), and this result is multiplied by \r\nmd∕mi\r\n to obtain md∕mj. Finally, they chain this result with \r\nthe MRS between wealth and health state j, derived from the \r\nWTP to avoid suffering state j and the WTA in compensa\u0002tion for suffering from state j, thus estimating md.\r\nThe “indirect” method was proposed as a consistency test \r\nof the CV/SG approach since, theoretically, its results should \r\nbe the same as those from the “direct” method. As this was \r\nnot the case in Carthy et al.’s study, some concerns emerged \r\nin relation to the consistency of the method. Sánchez Mar\u0002tínez et al. [31] introduced an alternative “indirect” or “dou\u0002ble chained” method, which utilized an intermediate health \r\nstate that was more severe, rather than milder, than state i. \r\nThe RUL of this health state k with reference to i is obtained \r\nthrough an MSG question, as well as the RUL of death with \r\nrespect to k. The product of these two RULs (mk∕mi\r\n and \r\nmd∕mk) allows us to obtain md∕mi\r\n, and this value is finally \r\nmultiplied by the MRS between wealth and the health state i\r\nto estimate the VSL. The alternative indirect method tried by \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Sánchez Martínez et al. [31], though it also led (as reported \r\npreviously by Carthy et al. [41]) to a higher VSL than that \r\nyielded by the direct method, appears to have contributed \r\nto reducing such discrepancy. Therefore, we opted to apply \r\nthe same indirect method [31] in the present study to assess \r\nwhether, in a different context, it could reliably generate val\u0002ues comparable to those obtained through the direct method.\r\n(1) md\r\nmi\r\n= (1 − q)\r\n(p − q)\r\n.\r\nmd = (2) (1 − q)\r\n(p − q)\r\n× mi.\n680 J.-E. Martínez‑Pérez et al.\r\n2.2Study Design\r\nA representative sample of the general Spanish popula\u0002tion by gender and age quotas was obtained through a \r\ntwo-stage stratified sampling methodology. Participants \r\nwere recruited in person, and interviews were conducted at \r\ntheir homes to ensure a comfortable and controlled survey \r\nenvironment. The data collection was carried out by a pro\u0002fessional firm specialized in survey administration, using \r\ncomputer-assisted personal interviews (CAPI). Fieldwork \r\ntook place from August to October 2023 in four Spanish \r\nautonomous communities—Andalusia, Madrid, Catalonia, \r\nand the Region of Murcia. The initial target sample size \r\nwas 474 participants to achieve a 4.5% margin of error at a \r\n95% confidence level. The response rate was 86.9%, so the \r\nfinal sample amounted to 412 respondents. The final sample \r\ndistribution closely aligns with the demographic structure of \r\nthe Spanish adult population.\r\n2.3Health States Selected\r\nIn principle, a unique health state is needed to apply the CV/\r\nSG chained approach to estimate the VSL. Notwithstanding, \r\ntwo distinct health states were used in this study, for two rea\u0002sons. First, there is plenty of evidence suggesting that VSL \r\nestimates are context dependent [47]. This does not mean \r\nexclusively that the cause of death per se (e.g., CVD) seems \r\nto account for a considerable part of the VSL [29, 34], but also \r\nthat, even for the same cause of death, the VSL is not constant \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "with respect to the magnitude of the mortality risk reduction \r\n[15]. Furthermore, studies that have attempted to estimate the \r\nmonetary value of a quality-adjusted life-year (MVQALY) \r\ntypically find that estimated values depend on both the sever\u0002ity and the duration of the health state used [48, 49]. In view \r\nof this evidence about variability of VSL and MVQALY, we \r\nfirst analyzed whether VSL estimates in the context of CVD \r\nmay also depend on the health state used. Second, using two \r\ndifferent health states also allowed us to apply the “indirect” \r\nchained approach described above to check the consistency of \r\nthe CV/SG method. The two health states used are depicted in \r\nTable 1. They have been described to reflect two possible out\u0002comes of a different severity following a cardiovascular event. \r\nOne of them tries to represent a situation after suffering a heart \r\nattack and the other one a situation after a stroke. Both states \r\nimplied time spent in hospital: 1 week in the case of state X\r\nand 2 weeks in the case of state Y, and they have the existence \r\nof some mobility problems and some difficulty for concentrat\u0002ing on certain tasks in common, such as reading or writing. \r\nHowever, the symptoms are more severe in state Y, which also \r\nimposes more constraints on the ability to work, both outside \r\nand inside the home. In that sense, the two states can be “logi\u0002cally” ordered, representing state Y, which is a clearly worse \r\nsituation than that described by state X.\r\n2.4Preference Elicitation Methods\r\n2.4.1Contingent Valuation\r\nThe initial phase of the CV/SG methodology entails obtaining \r\nthe maximum WTP to avoid a health issue and the minimum \r\nWTA in compensation for enduring the same condition. A set \r\nof payment cards, each representing a distinct amount in euros, \r\nis employed to solicit both WTP and WTA responses. For \r\nWTP questions, participants are required to specify whether \r\nthey would definitely pay, definitely not pay, or remain uncer\u0002tain about each euro amount to ensure the avoidance of the \r\nhealth issue. Regarding WTA questions, respondents must \r\ndetermine whether each proposed sum would be sufficient, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "insufficient, or if they are uncertain whether it would ade\u0002quately offset the health loss detailed in the evaluated health \r\nstate. In both cases, the payment cards were presented in a \r\nrandomized sequence to prevent any bias. After gathering all \r\nresponses, an open-ended question was introduced to further \r\nrefine the respondents’ WTP to avoid the health state within \r\nthe range from the highest amount they would willingly pay \r\nto the lowest amount they would either refuse or be uncertain \r\nabout paying. In a similar manner, another open-ended ques\u0002tion sought to fine-tune the respondents’ WTA, narrowing it \r\nTable 1Description of the health states used in the questionnaire\r\nHealth state X Health state Y\r\nIn hospital In hospital\r\n1 week in hospital 2 weeks in hospital\r\nAfter hospitalization After hospitalization\r\nSome mobility problems and some difficulty concentrating on some tasks, \r\nsuch as reading or writing\r\nSome mobility problems and some difficulty concentrating on some \r\ntasks, such as reading or writing\r\nThe symptoms do not interfere with your usual activities to any appreci\u0002able extent but affect your ability to enjoy your daily lifeSymptoms do not prevent you from bathing and dressing yourself, \r\nshopping, cooking, etc.\r\nYour situation prevents you from continuing your work outside \r\nthe home, as well as from taking care of other people (children, \r\nelderly) inside the home\nValue of a Statistical Life in Atherosclerotic Cardiovascular Disease 681\r\ndown to the interval between the smallest amount deemed \r\nadequate and the largest amount considered inadequate.\r\nAccording to the theory [16], the MRS between wealth \r\nand the risk of death (md) can be estimated from WTP and \r\nWTA valuations, by assuming a specific functional form of the \r\nincome utility function. In this study, four different forms were \r\nused: logarithmic, exponential, homogeneous, and nth root.\r\n2.4.2Modified Standard Gamble\r\nThe MSG used in this study asked individuals to choose \r\nbetween a gamble (a medical treatment) denoted by \r\n(death, p;normal health), yielding normal health with prob\u0002ability (1 − p) and death with probability p and another gamble \r\ndenoted by (death, q;health statei), yielding health state i with \r\nprobability (1 − q) and death with probability q. Probability of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "death in the second gamble, q, is fixed at 1 in 1000 (0.001), as \r\nin Carthy et al. [41] and Sánchez-Martínez et al. [31]. Partici\u0002pants have to state the value of p that leaves them indifferent \r\nbetween the two gambles (p ∗).\r\nAssuming expected utility and considering that the utility of \r\nperfect health is 1 and the utility of death is 0, then the utility \r\nof the health state i is obtained as:\r\nThe MSG questions needed to apply the “indirect” \r\nmethod are equal or similar to the one described. In the case \r\nof the question aimed to obtain the RUL of the intermedi\u0002ate state k with reference to i, health state k takes the place \r\nof death in the gambles, and the probability of death in the \r\nsecond prospect is fixed at 1 in 100 (0.01).\r\nA choice-based matching procedure [50] was used to \r\nfind probability. This procedure estimates p ∗ by using a \r\nconvergent sequence of choices between treatments A and \r\nB on the basis of the “bisection” method, until an interval \r\ncontaining p ∗ is produced. Afterwards, respondents were \r\nasked an open-ended question to establish the exact value \r\nof p ∗ within the interval. The same procedure was used in \r\nall MSG questions.\r\n2.5The Questionnaire\r\nThe questionnaire contained 27 questions, grouped into \r\nfive sections. In Sect. 1, participants were informed about \r\nASCVD and the risk of suffering cardiovascular events \r\nfrom ASCVD, using a risk ladder that puts this risk in the \r\ncontext of other health risks. After that, participants were \r\nasked about their habits related to physical activity, nutri\u0002tion, smoking, and alcohol intake. Some additional questions \r\nwere aimed at testing the respondents’ ability to understand \r\nU(i) = 1 − p ∗\r\n1 − 0.001\r\nrisks expressed in different ways (i.e., 1 out of 100 compared \r\nwith 10 out of 1000, for instance).\r\nIn Sect. 2, the health states describing two hypothetical \r\nscenarios following a cardiovascular event—anonymously \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "labeled as X and Y—were shown to participants. Next, par\u0002ticipants had to score these two states on a 0–100 visual \r\nanalogue scale (VAS), together with their own health state \r\nat the moment of being interviewed and immediate death.\r\nSection 3 contained the CV part, that is, the questions \r\naimed at obtaining the respondents’ WTP to avoid suffer\u0002ing each of the two health states, X and Y, and their WTA \r\nin compensation for suffering both states. Participants were \r\nasked first to reveal their WTP and WTA for health state X, \r\nfollowing the mixed format previously described (i.e., pay\u0002ment cards and a final open-ended question), and then they \r\nhad to answer the same questions with health state Y. The \r\neuro amounts included in the cards were the following: 50; \r\n100; 300; 500; 1000; 3000; 10,000; 30,000, and 100,000 €.\r\nIn Sect. 4, MSG questions were included. After a brief \r\nintroductory explanation of the framing of questions, par\u0002ticipants were asked to choose between gambles involv\u0002ing health state X, that is, they face a series of choices \r\nbetween treatment A:(X, 0.999;death) and treatment \r\nB:(\r\nfull health, (1 − px\r\n)\r\n;death)\r\n, where px changes according \r\nto the respondent’s choice. Once the value of px that made \r\nthe individual indifferent between the two treatments was \r\nbeen obtained, a second question, using the same proce\u0002dure, was posed by replacing health state X by health state \r\nY, that is, participants must choose between treatment C \r\n(Y, 0.999;death) and treatment C (\r\nfull health, (1 − py\r\n)\r\n;death)\r\n.\r\nA third MSG question asked the interviewees to \r\nchoose between treatment E: (X, 0.99;Y) and treatment F: \r\n(\r\nfull health, (1 − pxy)\r\n;Y\r\n)\r\n, aimed at eliciting the relative util\u0002ity loss of Y compared with X. Following the first two MSG \r\nquestions and after the third one, participants were asked \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "to state which elements of the scenarios influenced their \r\nanswers the most (e.g., the risk of death in treatment B, the \r\ndescription of the health states, the probability of recovering \r\nfull health in each of the treatments, etc.).\r\nFinally, Sect. 5 collected some basic characteristics about \r\nrespondents, such as gender, age, and education level, their \r\nsubjective probability of survival at different ages (75, 80, \r\n…95 years), and the degree of difficulty of the questionnaire, \r\non a scale from 0 (none) to 10 (maximum).\r\nThe full questionnaire translated into English, including \r\nsome screenshots of the computer interface, is included as \r\npart of the Supplementary Material.\n682 J.-E. Martínez‑Pérez et al.\r\n2.6Statistical Methods\r\nIn our study, we employed both parametric and non-paramet\u0002ric statistical tests to analyze the variables of interest in the \r\npaired samples from states X and Y. Specifically, we used the \r\nt-test (parametric) and the Wilcoxon signed-rank test (non\u0002parametric) to assess the differences in WTP, WTA, risks \r\nassumed with the MSG, scores from the VAS, and the VSL \r\nestimates, according to the four functional forms.\r\nIn addition, we conducted a series of regression analyses \r\nto ascertain the theoretical validity of the contingent valu\u0002ation method utilized. Central to affirming this validity is \r\nestablishing a positive and statistically significant correlation \r\nbetween an individual’s income level and their WTP. Spe\u0002cifically, the regression analyses target three key variables: \r\nWTP to avoid health state X, WTP for health state Y, and \r\naggregate WTP (encompassing both states X and Y). For \r\nthese analyses, we employed the logarithmic transformation \r\nof the WTP figures as dependent variables, mirroring this \r\ntransformation for the income variable. This technique was \r\nstrategically chosen to facilitate the calculation of income \r\nelasticity. Our model also integrates a range of control vari\u0002ables, such as age, gender, and educational attainment. In \r\naddition, lifestyle-related variables are included to provide \r\na more holistic view, encompassing factors such as tobacco \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "consumption, alcohol intake, and physical exercise fre\u0002quency. Pertinently, the model incorporates health-related \r\nvariables, including the visual analogue scale (VAS) assess\u0002ments of both the respondents’ own health status and the \r\nhealth state being evaluated, body mass index, the likelihood \r\nof survival to specified ages (ranging from 75 to 95 years), \r\nand the self-perceived risk of mortality due to atheroscle\u0002rotic cardiovascular diseases. In addition, variables related \r\nto the degree of risk comprehension, numerical skills, and \r\nsubjective difficulty were also included. Regional control \r\nvariables were integrated into the model to account for geo\u0002graphic variations among the respondents.\r\n3Results\r\n3.1The Sample\r\nAverage time per interview was about 20 min (median 14 \r\nmin 31 s). All 412 questionnaires were fully completed, and \r\nas a result, they were considered valid for analysis. Sociode\u0002mographic and attitudinal characteristics of our sample can \r\nbe seen in Table 2.\r\n3.2Contingent Valuation Estimates: WTP, WTA, \r\nand Marginal Rates of Substitution\r\nWTP and WTA statistics are presented in Table 3. Nine \r\nrespondents with health state X and eight with health state Y\r\nrefused to pay any amount of money for any treatment (WTP \r\n= 0), but those subjects were not excluded from the analysis.\r\nWe can see that WTP and WTA values are sensitive to \r\nscope. Both WTP and WTA values are higher for state Y, \r\nwhich is perceived as more severe than state X, consistent \r\nwith its lower VAS ratings (Table 4). Both parametric and \r\nnonparametric tests confirm that there are statistically sig\u0002nificant (p < 0.01) differences in WTP and WTA values \r\nbetween the two health states (Supplementary Material, \r\nTable S1).\r\nIn addition, the theoretical validity of WTP estimates was \r\ntested by regression analysis (Supplementary Table S2). \r\nThe results show a positive and significant relationship \r\nbetween individuals’ income and their WTP. Furthermore, \r\nthe income elasticity values obtained, around 0.6, align with \r\nthose typically reported in literature.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "3.3Results of the Modified Standard Gamble (MSG)\r\nTable 5 presents the results of the MSG questions. Firstly, \r\nthe indifference probabilities exhibit sensitivity to scope, \r\nmeaning that respondents’ willingness to accept a certain \r\nrisk varies depending on the severity of the health state \r\nbeing avoided. Specifically, both the mean and median val\u0002ues of the risk of death that respondents are willing to take to \r\navoid health state Y (py) are higher than those for health state \r\nX (px), which represents a less severe condition (p ≤ 0.001 in \r\nboth the t test and Wilcoxon signed-rank test). Similarly, in \r\nthe scenario presented during the third MSG, where state Y\r\nreplaces death as the worst outcome, respondents were will\u0002ing to take a significantly higher level of risk (pxy) compared \r\nwith scenarios where death (px) was the worst outcome (p < \r\n0.001 in both the t test and Wilcoxon signed-rank test). This \r\nhighlights how respondents perceive death as a much worse \r\noutcome than health state Y, demonstrating their sensitiv\u0002ity to the severity of the worst possible consequence in the \r\ndecision-making process.\r\nA relatively high number of participants refused to \r\nassume more than a minimum risk. This number is higher \r\nin the first MSG question (state X), with 45 respondents, \r\nthan in the second (state Y), with 23 participants, and third \r\n(state X versus state Y) ones, with 5 subjects.\r\nRULs are higher for state X than for state Y, which means \r\nthat state X is closer to full health than state Y is. In fact, the \r\nutility estimate for state X is 0.926 and for state Y is 0.768.\nValue of a Statistical Life in Atherosclerotic Cardiovascular Disease 683\r\n3.4Value of a Statistical Life (VSL) Estimations\r\nDifferent VSL estimates are derived depending on the spe\u0002cific functional form assumed for the income utility function. \r\nTable 6 presents the results obtained using all valid observa\u0002tions, without excluding any extreme values. The first rows \r\nof the table report the estimates derived from the “direct” \r\nCV/SG method. Mean VSL estimates based on state Y (the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "more severe health condition) are higher than those based \r\non state X (the milder condition). These values range from \r\n3.2 million euro (X-based with the negative exponential \r\nfunction) to 6.6 million euro (Y-based with the nth root \r\nfunction). Conversely, median values are larger for VSL \r\nbased on health state X valuations than for those based on \r\nhealth state Y. It is evident that median values are signifi\u0002cantly lower than mean estimates, ranging from 281,631 € \r\n(Y-based, homogeneous function) to 724,122 € (X-based, \r\nnth root function).\r\nThe “indirect” CV/SG method yields VSL estimates that \r\nare significantly higher than those obtained with the “direct” \r\napproach. Mean figures range from 12.2 to 14.8 million euro, \r\ndepending on the functional form which is assumed. This \r\nresult is closer to that reported by Carthy et al. [41] using the \r\noriginal indirect method than to that obtained by Sánchez\u0002Martínez et al. [31], suggesting that the tendency of the \r\nTable 2Characteristics of the sample (n = 412)\r\na\r\nEuropean Health Survey (2020); Continuous Population Statistics, \r\nOctober 2023; Living Conditions Survey 2022 and Spanish Labor \r\nForce Survey (3rd quarter of 2023)\r\nVariables Sample (%) Spanish \r\npopulationa\r\nGender\r\n Male 49.2 48.5\r\n Female 50.7 51.5\r\nAge (years)\r\n 18–24 10.2 8.9\r\n 25–34 12.4 13.4\r\n 35–44 16.7 16.6\r\n 45–54 21.6 19.6\r\n 55–64 16.3 16.9\r\n ≥ 65 22.8 24.4\r\nEducation\r\n No education or primary 16.3 15.8\r\n Secondary 50.0 50.8\r\n Tertiary 33.7 33.4\r\nHousehold income (€)\r\n Up to 1500 € 38.3\r\n 1501–2500 € 47.1\r\n More than 2500 € 14.6\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": " Average disposable income (year) 21.156 19.160\r\nPhysical activity\r\n None 36.7 50.7\r\n Occasionally 14.1 13.2\r\n Regularly 49.3 36.1\r\nDiet\r\n Mostly vegetables or vegan 15.3 8.9\r\n Varied and balanced 34.5 36.8\r\n All products/not worried about 50.2 54.3\r\nBody mass index\r\n < 18.5 1.2 2.0\r\n 18.5 ≤ BMI < 25 51.2 44.3\r\n 25 ≤ BMI < 30 35.7 37.6\r\n BMI ≥ 30 11.9 16.0\r\nSmoking\r\n Never 51.0 55.8\r\n Gave up 24.3 22.0\r\n Occasionally 3.6 2.3\r\n Daily 21.1 19.7\r\nAlcohol intake\r\n Never 32.0 34.5\r\n Occasionally/on weekends 49.5 44.9\r\n Several days a week/daily 18.4 20.5\r\nTable 3Willingness to pay (WTP) and willingness to accept (WTA) \r\nin euro to avoid/accept health states X and Y\r\nSt. dev. standard deviation\r\nWTP WTA\r\nX Y X Y\r\nMean 7293 15,305 13,692 243,916\r\nSt. dev. 13,366 29,592 21,135 691,716\r\nMedian 4400 13,000 8000 21,000\r\nTable 4Visual analogue scores for states X, Y, own health state, and \r\ndeath (n = 412)\r\nSt. dev. standard deviation\r\nX Y Own Death\r\nMean 70.1 61.0 87.0 3.5\r\nSt. dev. 12.3 13.4 13.9 6.5\r\nMedian 69.5 61.0 90.0 0.0\r\nTable 5Modified standard gamble (MSG) results: probabilities and \r\nhealth state utilities (n = 412)\r\nSt. dev. standard deviation\r\nMaximum risk taken Utilities\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "pX pY pX∕Y U(X) U(Y)\r\nMean 0.037 0.116 0.538 0.926 0.768\r\nSt. dev. 0.062 0.123 0.261 0.123 0.246\r\nMedian 0.010 0.056 0.500 0.980 0.889\n684 J.-E. Martínez‑Pérez et al.\r\n“indirect” method to accumulate errors due to the chaining \r\nof additional linkages seems to be an intrinsic characteristic \r\nof this approach.\r\nPrecisely because some extreme values exist, we decided \r\nto discard some observations that could be considered as \r\noutliers. Specifically, individuals whose VSL values were \r\ngreater than three standard deviations of the mean were \r\nexcluded from the analysis, and the results are presented \r\nin Table 7. It should be noted that this trimming procedure \r\nonly excludes six participants, although it has a significant \r\nimpact on the estimated values, to the extent that the mean \r\nvalues based on X now surpass those based on Y, mirroring \r\nthe pattern observed with the medians.\r\nMean VSL estimates based on the “direct” CV/SG \r\nmethod are between 2.0 million euro (Y-based, negative \r\nexponential) and 2.9 million euro (X-based, nth root). \r\nMedian values are similar to those obtained prior to applying \r\nthe trimming procedure and range from 243,972 € (Y-based, \r\nnegative exponential function) to 724,122 € (X-based, nth \r\nroot function). This trimming procedure also impacts the \r\nmean VSL estimates resulting from the “indirect” approach, \r\nwhich, after excluding five outliers, were reduced to an inter\u0002val between 7.8 and 9.4 million euro.\r\nOne interesting result is that our VSL estimates do not \r\nvary dramatically depending on the health state (X or Y) \r\non which they are based. Although figures in Tables 5 and \r\n6 appear to differ between X-based and Y-based VSL esti\u0002mates, the results of the t test suggest that the null hypothesis \r\ncannot be rejected. Notwithstanding, the nonparametric test \r\n(Wilcoxon signed-rank test) shows statistically significant \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "differences at a 95% confidence level, for the VSL estimates \r\nderived with the homogeneous and the negative exponen\u0002tial function, and at a 90% for the estimates based on the \r\nother two functional forms. Parametric and nonparametric \r\ntests conclude that statistically significant differences exist \r\nbetween VSL estimates based on the “direct” and the “indi\u0002rect” approach.\r\nIn the process of determining a specific value for the VSL \r\nderived from this study, it is reasonable to adhere to the prin\u0002ciples of welfare economics. This implies providing a value \r\non the basis of mean figures, as this method effectively rep\u0002resents aggregate preferences. In this context, the average of \r\nthe mean values obtained for the two health states amounts \r\nto nearly 2.43 million euros. Specifically, for health state X, \r\nthe average reaches 2.55 million euros and for health state \r\nY, it is just over 2.30 million euros. However, these figures \r\nshould be adjusted downward to reflect evidence suggesting \r\nthat the marginal utility of income, when conditioned on \r\nexperiencing a nonfatal health state, may differ from that in \r\na state of perfect health. It is common to apply a 15% reduc\u0002tion to reflect this difference, a value derived from the find\u0002ings of Viscusi and Evans [51] in the context of workplace \r\naccidents. Consequently, the adjusted value for both states \r\nwould be approximately 2.06 million euros, 2.17 million \r\neuros for health state X, and 1.96 million euros for health \r\nstate Y.\r\nFurthermore, it is evident that there are significant dif\u0002ferences between the mean and median values we have \r\nobtained. This discrepancy, a frequent occurrence in this \r\nTable 6Value statistical life (VSL) estimates in euro, based on the \r\nCV/SG “direct” and “indirect” methods (including outliers)\r\nSt. dev. standard deviation\r\nLogarithmic Homogeneous Nth root Neg. expo\u0002nential\r\nDirect X-based\r\nMean 3,427,728 3,217,006 3,825,904 3,175,138\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "St. dev. 9,173,854 8,938,748 9,834,931 8,900,373\r\nMedian 581,633 510,964 724,122 459,557\r\nN 403 412 403 403\r\nDirect Y-based\r\nMean 5,332,208 4,150,814 6,636,803 3,784,476\r\nSt. dev. 20,862,025 15,433,653 27,416,921 13,678,077\r\nMedian 318,958 281,631 344,221 283,774\r\nN 404 412 404 404\r\nIndirect\r\nMean 13,233,126 12,447,266 14,846,344 12,282,190\r\nSt. dev. 64,058,709 60,556,635 73,628,172 58,557,539\r\nMedian 1,310,451 1,228,846 1,499,685 1,210,806\r\nN 403 412 403 403\r\nTable 7Value statistical life (VSL) estimates in euro, based in the \r\nCV/SG “direct” and “indirect” methods (trimmed values)\r\nIndividuals whose VSL estimates were larger than 3 standard devia\u0002tions of the mean have been excluded\r\nSt. dev. standard deviation\r\nLogarithmic Homogeneous Nth root Neg. expo\u0002nential\r\nDirect X-based\r\nMean 2,566,552 2,375,074 2,932,055 2,318,290\r\nSt. dev. 4,620,843 4,316,502 5,333,134 4,151,704\r\nMedian 581,633 510,964 724,122 458,251\r\nN 397 406 397 397\r\nDirect Y-based\r\nMean 2,400,955 2,064,456 2,758,361 2,006,803\r\nSt. dev. 6,373,006 5,952,797 7,172,795 5,862,571\r\nMedian 313,595 247,976 331,466 243,972\r\nN 392 400 392 392\r\nIndirect\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Mean 8,403,471 7,888,777 9,394,106 7,789,069\r\nSt. dev. 21,541,108 20,838,118 23,533,712 20,613,287\r\nMedian 1,303,499 1,197,349 1,494,504 1,190,041\r\nN 398 407 398 398\nValue of a Statistical Life in Atherosclerotic Cardiovascular Disease 685\r\nmethodology as noted by Sanchez-Martínez et al. [31], \r\nmakes it advisable to give some consideration to the median \r\nvalues. Following an approach similar to that proposed by \r\nCarthy et al. [41], we calculated an average estimate from \r\nthe highest of the mean values and the lowest of the median \r\nvalues. In our case, this method resulted in a combined value \r\nof 1.59 million euros for both states (an X-based estimate of \r\n1.69 million euros and a Y-based estimate of 1.50 million \r\neuros).\r\nCombining both approaches—the one based on the aver\u0002age of the means and that based on the midpoint between \r\nthe minimum median and the maximum mean—a range of \r\nvalues between 1.59 and 2.06 million euros emerges for the \r\nVSL in the context of ASCVD.\r\n4Discussion\r\nIn this study, we estimate the VSL for ASCVD using the so\u0002called CV/SG chained approach proposed by Carthy et al. \r\n[31]. The chained method employed in this study decom\u0002poses the valuation task into two stages. The first stage relies \r\non contingent valuation methodology, capturing individuals’ \r\nWTP and WTA for a health state, while the second stage \r\ninvolves the health state valuation using a “modified” stand\u0002ard gamble technique. For our analysis, we used two health \r\nstates that depict scenarios consistent with ASCVD. These \r\nhealth states were described with the assistance of clinical \r\nexperts to ensure their accuracy and plausibility. To the best \r\nof our knowledge, this is the first time this approach has \r\nbeen used to ascertain the VSL in the context of ASCVD. \r\nThe estimation was conducted in Spain with a balanced \r\nsample of 412 adults, selected to represent various age and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "sex groups. Although the sample is not fully representative \r\nterritorially, the four autonomous communities in which \r\nthe survey was conducted represent more than half of the \r\ntotal Spanish population. As a result of this study, we have \r\nderived a range for the VSL in the context of ASCVD, span\u0002ning from 1.59 to 2.06 million euros.\r\nThe range of values obtained is consistent with the recent \r\nupdate of the official VSL estimated for Spain in the context \r\nof road traffic accidents [46], which amounts to 1.9 million \r\neuros, as well as with figures used in other European coun\u0002tries for road safety program evaluations. A recent study \r\n[52] showed that the official cost per road traffic fatality in \r\n29 European countries ranges from 0.7 to 3 million euros \r\n(2015, PPP-adjusted). Typically, VSL estimates from stated \r\npreference studies are lower than those from revealed pref\u0002erence studies. Our estimate follows this trend, being lower \r\nthan the market VSL estimates for Spain (2.8–8.3 million \r\neuros), provided by Martínez and Méndez [53].\r\nNot surprisingly, although values reported in this paper \r\nare congruent with the VSL estimate for road safety in Spain, \r\nthey are not identical. The upper limit of the range (2.06 \r\nmillion euros) is indeed slightly larger (almost 9%), which \r\nmimics in some respect those studies founding evidence of \r\na “cancer premium” [29, 35]. Nevertheless, the potential \r\n“premium” for avoiding a fatality caused by ASCVD that \r\ncould be inferred from our estimations is, at best, modest.\r\nFew studies have compared the VSL across different con\u0002texts involving cardiovascular diseases. A notable exception \r\nis the study by Guignet and Alberini [54], which quanti\u0002fied how property values varied with different mortality \r\nrisks from pollution in the United Kingdom and Italy. They \r\nfocused on mortality risks associated with cancer, cardiovas\u0002cular diseases, respiratory diseases, and all causes. The study \r\nfound mixed evidence for applying a “cancer premium” in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "cost–benefit analyses. Italian homeowners value reduc\u0002ing cancer risks more highly (VSL = 9.266 million euros) \r\ncompared with cardiovascular and respiratory risks (VSL = \r\n5.013 million euros), or unspecified causes (VSL = 5.353 \r\nmillion euros). In contrast, British homeowners appear to \r\nvalue reductions in the risk of dying from cardiovascular \r\ndisease and from all causes similarly. Alberini and Scasny \r\n[34] use a series of choices between life-saving programs \r\n(during heat waves, on one side, and from three possible \r\ncauses of death: cancer, cardiovascular causes, and road traf\u0002fic accidents, on the other side). They found that a heat wave \r\ndeath was considered approximately the same as a cancer \r\ndeath, slightly more than a generic death from cardiovascu\u0002lar causes, and more than a traffic accident death. Alberini \r\nand Scasny [34] estimated a VSL of 2.2 million euros in \r\nSpain on the basis of WTP for reductions in the mortality \r\nrisks associated with heat waves.\r\nIn Chesnut et al.’s [55] study, an assessment evaluated \r\nthe public’s WTP for health programs aimed at reducing \r\nmortality risks in Canada and the USA. Specifically, the \r\nstudy examined various levels of risk reduction (1, 2, and 5 \r\nin 10,000) for death due to cancer, heart attack, and pneu\u0002monia, employing two distinct methodological approaches: \r\npayment cards and discrete choice. A consistent finding was \r\nthat there were no significant differences in the VSL for can\u0002cer or heart attack causes of death. The results suggest that \r\nthe WTP for reducing the risk of death from pneumonia is \r\nlikely less than 50% of that for reducing risks of death from \r\ncancer or heart attack.\r\nA particularly noteworthy outcome of our study is that \r\nthe resulting VSL values were very similar across the two \r\ndifferent health states. In fact, with some of the utility func\u0002tions used, we cannot rule out the possibility that the differ\u0002ences are not statistically significant. This suggests a level \r\nof consistency in VSL estimations across different health \r\nstates, raising interesting questions about the sensitivity and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "specificity of VSL measurements in varied health scenarios. \n686 J.-E. Martínez‑Pérez et al.\r\nHowever, the consistency test conducted through double \r\nchaining in our study, as is common in literature [41], has \r\nnot been satisfactory owing to significant differences that \r\ncontinue to emerge. Even after using the alternative chain\u0002ing method developed by Sánchez-Martínez et al. [31], the \r\ndiscrepancy recorded in our study is quite large, suggesting \r\nthat the “indirect” method is intrinsically prone to yielding \r\nvery high values. In our view, this proneness may be inter\u0002preted as a sort of upward bias owing to the low probability \r\nvalues obtained from the MSG questions. There is indeed \r\nextensive evidence that people often perceive small prob\u0002abilities to be higher than their actual values. To correct this \r\nbias, rank-dependent utility [56] and prospect theory [57] \r\nquantitative corrections of nonlinear probability weighting \r\ncould be applied.\r\nThe contingent valuation exercise conducted in this study \r\ndemonstrates theoretical validity, evidenced by a significant \r\nand positive relationship between the respondents’ income \r\nlevels and their WTP. This correlation is a fundamental cri\u0002terion for validity in such studies. The regression analysis \r\nperformed in this study to test the theoretical validity of VSL \r\nestimates yielded income elasticity figures ranging from \r\n0.60 to 0.72. This variation depended on the health state \r\nused for deriving the WTP values. These elasticity values \r\nalign with recent meta-analysis findings in middle and high\u0002income countries, which report a range between 0.55 and \r\n0.85 [58]. Consistently, the income elasticity in our study is \r\nbelow 1, which is common in most related research [11, 59].\r\nOur study has certain limitations. First, it only focuses on \r\nthe monetary valuation of mortality risk through the VSL \r\napproach, whereas ASCVD’s economic impact extends \r\nbeyond mortality, including morbidity costs such as health\u0002care expenses, productivity losses, and diminished quality of \r\nlife. While VSL is effective for valuing fatality prevention, \r\nassessing ASCVD’s broader social costs would require con\u0002sidering nonfatal outcomes. Future research should address \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "the estimation of the economic burden of morbidity due to \r\nASCVD through approaches such as the MVQALY. This \r\nresearch agenda faces methodological dilemmas, such as, the \r\nchoice of the most suitable perspective to fully capture qual\u0002ity of life losses. In this regard, estimates of the MVQALY \r\nare available for Spain, both from a “supply” perspective, \r\ni.e., as the opportunity cost of the healthcare resources [60], \r\nand from a “demand” perspective, i.e., as the societal value \r\nfor a QALY [61].\r\nSecond, the chained method, as initially introduced \r\nby Carthy et al. [41], has been notably susceptible to the \r\nissue of outliers. In their seminal work, an ad hoc threshold \r\nwas implemented to curtail the influence of outliers on the \r\nmean calculations. In our analysis, following the precedent \r\nset by Sanchez-Martínez et al. [31], we adopted a limit of \r\nthree times the standard deviation to manage outliers. We \r\nacknowledge, however, that this approach to outliers is one \r\nof several possible methods. Furthermore, the method of \r\naggregating preferences has been shown to significantly \r\naffect results, as evidenced in the MVQALY literature. Stud\u0002ies such as those by Gyrd-Hansen and Kjaer [62] illustrate \r\nthat aggregated approaches (ratio of means) and disaggre\u0002gated approaches (means of ratios) can lead to markedly \r\ndifferent outcomes. Consequently, it is necessary to further \r\nexplore in depth how apparently irrelevant factors, such as \r\nthe way of excluding outliers or the approach used to aggre\u0002gate individual values, can affect VSL estimates.\r\nAnother limitation of our study is the relatively small \r\nsample size, which encompassed only 412 observations. \r\nWhile this sample size is relatively common in studies of \r\nthis nature, it might limit the generalizability of our findings. \r\nIn addition, our study focuses exclusively on atherosclerotic \r\ncardiovascular disease, which may not represent other health \r\ncontexts where VSL estimations are applicable fully. Fur\u0002ther research with larger and more diverse samples, as well \r\nas across different health contexts, would be beneficial to \r\nvalidate and expand upon our findings. Also, a limitation \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "of the study is the potential lack of extrapolation to other \r\ncountries. Cultural characteristics may significantly influ\u0002ence how individuals in different nations value certain dis\u0002abilities or health conditions. This is evident in the case of \r\nmulti-attribute utility systems such as EQ-5D [63] or SF-6D \r\n[64], where notable differences in valuations are observed \r\nacross countries. Such cultural variances suggest that our \r\nresults, while robust within the Spanish context, might not \r\naccurately reflect the values and perceptions in other cultural \r\nand national settings.\r\n5Conclusions\r\nThis study provides new empirical estimates of the value of \r\na statistical life (VSL) in Spain using the so-called contin\u0002gent valuation/standard gamble (CV/SG) chained approach \r\nproposed by Carthy et al. [31]. By applying this methodol\u0002ogy in the context of atherosclerotic cardiovascular disease \r\n(ASCVD), we have derived a VSL range spanning from 1.59 \r\nto 2.06 million euros. The range of values obtained aligns \r\nwith the recent update of the official VSL estimate for Spain \r\nin the context of road traffic accidents [46] and with figures \r\nused in other European countries for road safety program \r\nevaluation. These results have significant implications for \r\nhealth policy, economic evaluation, and regulatory decision\u0002making, as VSL estimates are significant for resource alloca\u0002tion, cost–benefit analyses, and assessing the societal value \r\nof mortality risk reductions.\nValue of a Statistical Life in Atherosclerotic Cardiovascular Disease 687\r\nSupplementary Information The online version contains supplemen\u0002tary material available at https://doi.org/10.1007/s40273-025-01482-3.\r\nAcknowledgements The authors thank Javier Parrondo and Carme \r\nPinyol for their comments to previous drafts of the manuscript.\r\nDeclarations\r\nConflict of interests and Funding Jorge-Eduardo Martínez-Pérez, Fer\u0002nando-Ignacio Sánchez-Martínez, and José-María Abellán-Perpiñán \r\ngratefully acknowledge funding from grant PID2023-148357NB-I00 \r\nfunded by MICIU/AEI/10.13039/501100011033 and by “ERDF/EU”. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "In addition, all authors express their gratitude for the financial support \r\nfrom Novartis España. Open Access funding provided thanks to the \r\nCRUE-CSIC agreement with Springer Nature. The funders had no role \r\nin the design, conduct, analysis, or interpretation of the study nor in \r\nthe preparation, review, or approval of the manuscript. The publication \r\nof the study results was not contingent upon the sponsor’s approval or \r\ncensorship of the findings.\r\nAuthor contributions Concept and design—Abellan-Perpiñan, \r\nMartinez-Perez, and Sanchez-Martinez, Pascual-Figal; acquisition \r\nof data—Abellan-Perpiñan, Martinez-Perez, and Sanchez-Martinez; \r\nanalysis and interpretation of data—Abellan-Perpiñan, Martinez-Perez, \r\nand Sanchez-Martinez; drafting of the manuscript—Abellan-Perpiñan, \r\nMartinez-Perez, Sanchez-Martinez, and Pascual-Figal.\r\nData availability statement The data that support the findings of this \r\nstudy are available upon reasonable request.\r\nEthical approval The study was approved by the Research Ethics \r\nCommittee of the University of Murcia, which reviewed all submitted \r\ndocumentation and unanimously issued a favorable ethical assessment \r\non 18 May 2023.\r\nConsent to participate Informed consent was obtained from all indi\u0002vidual participants included in the study.\r\nOpen Access This article is licensed under a Creative Commons Attri\u0002bution-NonCommercial 4.0 International License, which permits any \r\nnon-commercial use, sharing, adaptation, distribution and reproduction \r\nin any medium or format, as long as you give appropriate credit to the \r\noriginal author(s) and the source, provide a link to the Creative Com\u0002mons licence, and indicate if changes were made. The images or other \r\nthird party material in this article are included in the article's Creative \r\nCommons licence, unless indicated otherwise in a credit line to the \r\nmaterial. If material is not included in the article's Creative Commons \r\nlicence and your intended use is not permitted by statutory regula\u0002tion or exceeds the permitted use, you will need to obtain permission \r\ndirectly from the copyright holder. To view a copy of this licence, visit \r\nhttp://creativecommons.org/licenses/by-nc/4.0/.\r\nReferences\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "1. Ference BA, Ginsberg HN, Graham I, Ray KK, Packard CJ, \r\nBruckert E, et al. Low-density lipoproteins cause atheroscle\u0002rotic cardiovascular disease. 1. Evidence from genetic, epide\u0002miologic, and clinical studies. A consensus statement from the \r\nEuropean Atherosclerosis Society Consensus Panel. Eur Heart J. \r\n2017;38(32):2459–72. https://doi.org/10.1093/eurheartj/ehx144.\r\n2. Nedkoff L, Briffa T, Zemedikun D, Herrington S, Wright FL. \r\nGlobal trends in atherosclerotic cardiovascular disease. Clin Ther. \r\n2023;45:1087–91.\r\n3. Instituto Nacional de Estadística: Defunciones según causa de \r\nmuerte. Primer semestre 2023 (datos provisionales) y año 2022 \r\n(datos definitivos). INE Notas de Prensa. 19 de diciembre de \r\n2023. https://ine.es/prensa/edcm_2022_d.pdf. Accessed 09 June \r\n2024.\r\n4. Steen Carlsson K, Nilsson K, Wolden ML, Faurby M. Economic \r\nburden of atherosclerotic cardiovascular disease: a matched case\u0002control study in more than 450,000 Swedish individuals. BMC \r\nCardiovasc Disord. 2023;23(1):483. https://doi.org/10.1186/\r\ns12872-023-03518-y.\r\n5. Centre for economics and business research: the economic cost \r\nof cardiovascular disease from 2014-2020 in six European econ\u0002omies. 2014. London. https://www.sanita24.ilsole24ore.com/\r\npdf/AbV1x4QK/8b0ccba179941164253d5d7c907eec39.pdf. \r\nAccessed 09 June 2024.\r\n6. Vaduganathan M, Mensah G, Turco J, et al. The global burden of \r\ncardiovascular diseases and risk: a compass for future health. J \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Am Coll Cardiol. 2022;80(25):2361–71. https://doi.org/10.1016/j.\r\njacc.2022.11.005.\r\n7. Ministerio de Sanidad: Informe Anual del Sistema Nacional de \r\nSalud 2022. Informes, Estudios e Investigación. 2023. https://\r\nwww.sanidad.gob.es/estadEstudios/estadisticas/sisInfSanSNS/\r\ntablasEstadisticas/InfAnualSNS2022/INFORME_ANUAL_2022.\r\npdf. Accessed 09 June 2024.\r\n8. Jones-Lee M. The value of statistical life: an economic analysis. \r\nChicago: University Press; 1976.\r\n9. Viscusi WK. The value of risks to life and health. J Econ Lit. \r\n1993;31:1912–46.\r\n10. Aldy JE, Viscusi WK. Age differences in the value of statisti\u0002cal life: revealed preference evidence. Rev Environ Econ Policy. \r\n2007;1(2):241–60.\r\n11. Viscusi W, Aldy J. The value of a statistical life: a critical review \r\nof market estimates throughout the world. J Risk Uncertain. \r\n2003;27(1):5–76.\r\n12. Mitchell RC, Carson RT. Using surveys to value public goods: the \r\ncontingent valuation method, resources for the future. New York: \r\nResources for the Future; 1989.\r\n13. Boardman AE, Greenberg DH, Vining AR, Weimer DL. Cost\u0002benefit analysis. Concepts and practice. 4th ed. Upper Saddle \r\nRiver: Prentice Hall; 2017.\r\n14. Beattie J, Covey J, Dolan P, Hopkins L, Jones-Lee M, Loomes G, \r\nPidgeon N, Robinson A, Spencer A. On the contingent valuation \r\nof safety and the safety of contingent valuation: part 1—caveat \r\ninvestigator. J Risk Uncertain. 1998;17(1):5–26. https://doi.org/\r\n10.1023/A:1007711416843.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 450,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "15. Hammitt JK, Graham JD. Willingness to pay for health protec\u0002tion: inadequate sensitivity to probability? J Risk Uncertain. \r\n1999;18(1):33–62. https://doi.org/10.1023/A:1007760327375.\r\n16. Jones-Lee M. The value of changes in the probability of death \r\nor injury. J Political Econ. 1974;82(4):835–49. https://doi.org/10.\r\n1086/260238.\r\n17. Søgaard R, Lindholt J, Gyrd-Hansen D. Insensitivity to scope in \r\ncontingent valuation studies. Appl Health Econ Health Policy. \r\n2012;10(6):397–405. https://doi.org/10.1007/bf03261874.\r\n18. Andersson H, Hole AR, Svensson M. Valuation of small and mul\u0002tiple health risks: a critical analysis of SP data applied to food and \r\nwater safety. J Environ Econ Manag. 2016;75:41–53. https://doi.\r\norg/10.1016/j.jeem.2015.11.001.\r\n19. Jones-Lee M, Loomes G, Philip P. Valuing the prevention of non\u0002fatal road injuries: contingent valuation vs. standard gambles. Oxf \r\nEcon Pap. 1995;47(4):676–95. https://doi.org/10.1093/oxfordjour\r\nnals.oep.a042193.\r\n20. Dubourg J-L, Loomes G. Imprecise preferences and survey design \r\nin contingent valuation. Economica. 1997;64(256):681–702. \r\nhttps://doi.org/10.1111/1468-0335.00106.\n688 J.-E. Martínez‑Pérez et al.\r\n21. Louviere JJ, Hensher DA, Swait JD. Stated choice methods, anal\u0002ysis and application. Cambridge: Cambridge University Press; \r\n2000.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "22. Iragüen P, Ortúzar JD. Willingness-to-pay for reducing fatal acci\u0002dent risk in urban areas: an internet-based web page stated prefer\u0002ence survey. Acc Anal Prev. 2004;36:513–24. https://doi.org/10.\r\n1016/S0001-4575(03)00057-5.\r\n23. Hojman P, Ortúzar JD, Rizzi LI. On the joint valuation of avert\u0002ing fatal and severe injuries in highway accidents. J Saf Res. \r\n2005;36(4):377–86. https://doi.org/10.1016/j.jsr.2005.07.003.\r\n24. Veisten K, Flügel S, Rizzi LI, Ortúzar JD, Elvik R. Valuing cas\u0002ualty risk reductions from estimated baseline risk. Res Transp \r\nEcon. 2013;43(1):50–61. https://doi.org/10.1016/j.retrec.2012.12.\r\n009.\r\n25. Schoeters A, Large M, Koning M, Carnis L, Daniels S, Mignot D, \r\nUrmeew R, Wijnen W, Bijleveld F, van der Horst M. Economic \r\nvaluation of preventing fatal and serious road injuries. Results \r\nof a willingness-to-pay study in four European countries. Acc \r\nAnal Prev. 2022;173:106705. https://doi.org/10.1016/j.aap.2022.\r\n106705.\r\n26. Andersson H, Lindberg G. Benevolence and the value of road \r\nsafety. Accid Anal Prev. 2009;41(2):286–93. https://doi.org/10.\r\n1016/j.aap.2008.11.009.\r\n27. Andersson H, Hammitt JK, Lindberg G, et al. Willingness to \r\npay and sensitivity to time framing: a theoretical analysis and an \r\napplication on car safety. Environ Resour Econ. 2013;56:437–56. \r\nhttps://doi.org/10.1007/s10640-013-9644-0.\r\n28. Hammitt JK, Haninger K. Valuing fatal risks to children and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "adults: effects of disease, latency, and risk aversion. J Risk Uncer\u0002tain. 2010;40(1):57–83.\r\n29. Alberini A, Scasný M. Exploring heterogeneity in the value of \r\na statistical life: cause of death vs. risk perceptions. Ecol Econ. \r\n2013;94:143–55. https://doi.org/10.1016/j.ecolecon.2013.07.012.\r\n30. Mouter N, van Cranenburgh S, van Vee B. Do individuals have \r\ndifferent preferences as consumer and citizen? The trade-off \r\nbetween travel time and safety. Transp Res Part A Policy Pract. \r\n2017;106:333–49.\r\n31. Sánchez-Martínez FI, Martínez-Pérez JE, Abellán-Perpiñán JM, \r\net al. The value of statistical life in the context of road safety: new \r\nevidence on the contingent valuation/standard gamble chained \r\napproach. J Risk Uncertain. 2021;63:203–28. https://doi.org/10.\r\n1007/s11166-021-09360-x.\r\n32. Alberini A, Chiabai A. Urban environmental health and sensitive \r\npopulations: how much are the Italians willing to pay to reduce \r\ntheir risks? Reg Sci Urban Econ. 2007;37:239–58. https://doi.org/\r\n10.1016/j.regsciurbeco.2006.08.008.\r\n33. Jin Y, Andersson H, Zhang S. Do preferences to reduce health \r\nrisks related to air pollution depend on illness type? Evidence \r\nfrom a choice experiment in Beijing, China. J Environ Econ \r\nManag. 2020;103(102355):1–17. https://doi.org/10.1016/j.jeem.\r\n2020.102355.\r\n34. Alberini A, Ščasný M. Climate change, large risks, small risks, \r\nand the value per statistical life. 2022. SSRN. https://ssrn.com/\r\nabstract=4179106. Accessed 03 Nov 2023.\r\n35. Alberini A, Scasný M. Context and the VSL: evidence from a \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "stated preference study in Italy and the Czech Republic. Environ \r\nResour Econ. 2011;49(4):511–38.\r\n36. Alberini A, Scasný M. The benefits of avoiding cancer (or dying \r\nfrom cancer): evidence from a four-country study. J Health Econ. \r\n2018;57:249–62.\r\n37. Alberini A, Scasný M. On the validity of the estimates of the VSL \r\nfrom contingent valuation: evidence from the Czech Republic. J \r\nRisk Uncertain. 2021;62(1):55–87.\r\n38. Alberini A, Scasný M, Guignet D, Tonin S. Cancer values of \r\nprevented fatalities (VPFs), one size does not fit all: the benefits \r\nof contaminated site cleanups in Italy. J Air Waste Manag Assoc. \r\n2012;62(7):783–98.\r\n39. Olofsson S, Gerdtham UG, Hultkrantz L, Persson U. Value of \r\na QALY and VSI estimated with the chained approach. Eur \r\nJ Health Econ. 2019;20(7):1063–77. https://doi.org/10.1007/\r\ns10198-019-01077-8.\r\n40. Nankunda C, Evdorides H. A systematic review of the applica\u0002tion of road safety valuation methods in assessing the economic \r\nimpact of road traffic injuries. Future Transp. 2023;3:1253–71. \r\nhttps://doi.org/10.3390/futuretransp3040069.\r\n41. Carthy T, Chilton S, Covey J, Hopkins L, Jones-Lee M, Loomes \r\nG, Pidgeon N, Spencer A. On the contingent valuation of safety \r\nand the safety of contingent valuation: part 2—the CV/SG \r\n“Chained” approach. J Risk Uncertain. 1999;17(3):187–214. \r\nhttps://doi.org/10.1023/A:1007782800868.\r\n42. Torrance GW. Measurement of health state utilities for eco\u0002nomic appraisal. J Health Econ. 1986;5(1):1–30. https://doi.org/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "10.1016/0167-6296(86)90020-2.\r\n43. Kahneman D, Tversky A. Prospect theory: an analysis of deci\u0002sion under risk. Econometrica. 1979;47(2):263–91.\r\n44. Abellán-Perpiñán JM, Sánchez-Martínez FI, Martínez-Pérez JE, \r\nMéndez-Martínez I. Lowering the ‘floor’ of the SF-6D scor\u0002ing algorithm using a lottery equivalent method. Health Econ. \r\n2012;21(11):1271–85.\r\n45. Abellán JM, Martínez JE, Méndez I, Pinto JL, Sánchez FI. El \r\nvalor monetario de una vida estadística en España. Estimación \r\nen el contexto de los accidentes de tráfico. Madrid: Dirección \r\nGeneral de Tráfico. 2011. https://www.sanidad.gob.es/profe\r\nsionales/saludPublica/prevPromocion/Lesiones/JornadaDec\r\nenioAccionSeguridadVial/docs/InformeVVEJorgeMartinez.\r\npdf. Accessed 09 June 2024.\r\n46. Abellán JM, Martínez JE, Méndez I, Pinto JL, Sánchez FI. Actu\u0002alización del valor monetario de una vida estadística en España. \r\nProject developed by: University of Murcia. For: General Direc\u0002torate of Traffic (DGT). File Number: 3DGT6A000059. 2023. \r\nhttps://www.dgt.es/export/sites/web-DGT/.galleries/downloads/\r\nconoce_la_dgt/que-hacemos/conocimiento-e-investigacion/\r\nActualizacion-del-valor-monetario-de-una-vida-estadistica\u0002en-Espana.pdf. Accessed 09 June 2024.\r\n47. Keller E, Newman JE, Ortmann A, Jorm LR, Chambers GM. \r\nHow much is a human life worth? A systematic review. Value \r\nHealth. 2021;24(10):1531–41. https://doi.org/10.1016/j.jval.\r\n2021.04.003.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "48. Pinto-Prades JL, Loomes G, Brey R. Trying to estimate a mon\u0002etary value for the QALY. J Health Econ. 2009;28(3):553–62. \r\nhttps://doi.org/10.1016/j.jhealeco.2009.02.003.\r\n49. Ryen L, Svensson M. The willingness to pay for a quality adjusted \r\nlife year: a review of the empirical literature. Health Econ. \r\n2015;24(10):1289–301. https://doi.org/10.1002/hec.3085.\r\n50. Pinto-Prades JL, Sánchez-Martínez FI, Abellán-Perpiñán JM, \r\nMartínez-Pérez JE. Reducing preference reversals: the role of \r\npreference imprecision and nontransparent methods. Health Econ. \r\n2018;27(8):1230–46.\r\n51. Viscusi WK, Evans WN. Utility functions that depend on health \r\nstatus: estimates and economic implications. Am Econ Rev. \r\n1990;80(3):353–74.\r\n52. Wijnen W, Weijermars W, Schoeters A, van den Berghe W, \r\nBauer R, Carnis L, Elvik R, Martensen H. An analysis of offi\u0002cial road crash cost estimates in European countries. Saf Sci. \r\n2019;113:318–27. https://doi.org/10.1016/j.ssci.2018.\nValue of a Statistical Life in Atherosclerotic Cardiovascular Disease 689\r\n53. Martinez Perez JE, Mendez Martinez I. ¿Qué podemos saber sobre \r\nel Valor Estadístico de la Vida en España utilizando datos labo\u0002rales? Hacienda Pública Española. 2009;191(4):73–93.\r\n54. Guignet D, Alberini A. Can property values capture changes \r\nin environmental health risks? Evidence from a stated pref\u0002erence study in Italy and the United Kingdom. Risk Anal. \r\n2015;35(3):501–17.\r\n55. Chestnut LG, Rowe RD, Breffle WS. Economic valuation of mor\u0002tality-risk reduction: stated preference estimates from the United \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "States and Canada. Contemp Econ Policy. 2012;30(3):399–416.\r\n56. Abellan-Perpiñan JM, Sanchez-Martinez FI, Martinez-Perez JE, \r\nPinto-Prades JL. A Feasible estimation of a “corrected” EQ-5D \r\nsocial tariff. Value Health. 2024. https://doi.org/10.1016/j.jval.\r\n2024.05.004.\r\n57. Abellan-Perpiñan JM, Bleichrodt H, Pinto-Prades JL. The predic\u0002tive validity of prospect theory versus expected utility in health \r\nutility measurement. J Health Econ. 2009;28(6):1039–47.\r\n58. Viscusi WK, Masterman CJ. Income elasticities and global values \r\nof a statistical life. J Benefit Cost Anal. 2017;8(2):226–50. https://\r\ndoi.org/10.1017/bca.2017.12.\r\n59. Miller T. Variations between countries in values of statistical life. \r\nJTEP. 2000;34(2):169–88.\r\n60. Vallejo-Torres L. Estimating the incremental cost per QALY pro\u0002duced by the Spanish NHS: a fixed-effect econometric approach. \r\nPharmacoeconomics. 2025;43:109–22. https://doi.org/10.1007/\r\ns40273-024-01441-4.\r\n61. Vallejo-Torres L, García-Lorenzo B, Rivero-Arias O, Pinto-Prades \r\nJL. The societal monetary value of a QALY associated with EQ\u00025D-3L health gains. Eur J Health Econ. 2020;21(3):363–79. \r\nhttps://doi.org/10.1007/s10198-019-01140-4.\r\n62. Gyrd-Hansen D, Kjaer T. Disentangling WTP per QALY data: \r\ndifferent analytical approaches, different answers. Health Econ. \r\n2012;21(3):222–37. https://doi.org/10.1002/hec.1709.\r\n63. Roudijk B, Janssen B, Olsen JA. How do EQ-5D-5L value sets \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1733391011293043166,
+        "filename": "40273_2025_Article_1482.PMC12081548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 127,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "differ? In: Devlin N, Roudijk B, Ludwig K, editors. Value sets \r\nfor EQ-5D-5L. Cham: Springer; 2022. https://doi.org/10.1007/\r\n978-3-030-89289-0_6.\r\n64. Wang L, Poder T. A systematic review of SF-6D health state valu\u0002ation studies. J Med Econ. 2023;26(1):584–93. https://doi.org/10.\r\n1080/13696998.2023.2195753.\n\n"
+  }
+]

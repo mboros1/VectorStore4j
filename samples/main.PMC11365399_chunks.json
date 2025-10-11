@@ -1,0 +1,770 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Heliyon 10 (2024) e35858\r\nAvailable online 6 August 2024\r\n2405-8440/© 2024 Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license\r\n(http://creativecommons.org/licenses/by-nc-nd/4.0/).\r\nResearch article \r\nEvaluating the impact of technological development policy on the \r\nhigh-quality development of the manufacturing industry: \r\nMechanisms and threshold effects \r\nBorui Yan a,*, Yamin Wang b \r\na School of Economics and Management, Xianyang Normal University, Xianyang, China b School of Primary Education, Changsha Normal University, Changsha, 410100, Hunan, China \r\nARTICLE INFO \r\nJEL classification: \r\nE620 \r\nKeywords: \r\nTechnological development policy \r\nHigh-quality development of the \r\nmanufacturing industry \r\nHigh-tech industry \r\nIndustrial structure \r\nABSTRACT \r\nAs the world’s largest manufacturing country, the rapid growth of China’s manufacturing in\u0002dustry has historically relied on factor input. To achieve high-quality development of the \r\nmanufacturing industry, China must accelerate the transformation from extensive factor input to \r\ninnovation. The purpose of this study is to further explore the impact mechanisms of techno\u0002logical development policy on the high-quality development of the manufacturing industry. It \r\nselected data from 30 provinces and cities in China spanning from 2011 to 2021 for the study. \r\nInitially, it established a benchmark regression model to verify the positive impact of techno\u0002logical development policies on the high-quality development of the manufacturing industry. \r\nSubsequently, a mediation effect model was used to analyze the role of high-tech industry \r\ndevelopment in mediating this impact, and a moderation effect model was applied to study the \r\nmoderating effect of the level of infrastructure informatization. Additionally, taking the industrial \r\nstructure as a threshold variable, a panel threshold effect model was employed to explore the \r\nimpact of technological development policy on the high-quality development of the \r\nmanufacturing industry. It was found that enhancing the level of high-tech industries further \r\nfacilitates the high-quality development of the manufacturing industry through technological \r\ndevelopment policy. The level of infrastructure informatization positively moderates the impact \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "of technological development policy on the high-quality development of the manufacturing in\u0002dustry. Moreover, the industrial structure exhibits a threshold effect in this impact. \r\n1. Introduction \r\nAs the world’s largest manufacturing country, China has experienced rapid development in its manufacturing industry since the \r\ncommencement of economic reforms in 1978. However, this growth has largely depended on factor inputs. To achieve high-quality \r\ndevelopment in manufacturing, China must accelerate its transition from a mode driven by extensive factor inputs to one driven by \r\ninnovation [1,2]. Investment in technological innovation promotes technical advancement and is widely regarded as a key factor for \r\nmanufacturing enterprises to gain competitive advantages [3]. In practice, governments around the world are formulating and \r\nimplementing a series of technological development policies to foster high-quality development in manufacturing. For example, the \r\n* Corresponding author. \r\nE-mail address: moran624@163.com (B. Yan). \r\nContents lists available at ScienceDirect \r\nHeliyon \r\njournal homepage: www.cell.com/heliyon \r\nhttps://doi.org/10.1016/j.heliyon.2024.e35858 \r\nReceived 25 April 2024; Received in revised form 18 July 2024; Accepted 5 August 2024 \nHeliyon 10 (2024) e35858\r\n2\r\nChinese government’s “Made in China 2025″ strategic plan aims to promote the high-end, intelligent, and green development of the \r\nmanufacturing industry through technological upgrading and industrial transformation. Similarly, the German government’s “In\u0002dustry 4.0″ strategic plan aims to enhance the digitalization and intelligence of the manufacturing industry [4]. The implementation of \r\nthese policy measures has yielded significant results, effectively driving the high-quality development of the manufacturing industry in \r\ntheir respective countries. Moreover, higher government quality stimulates innovation activities in enterprises [5]. \r\nAs an important national strategic initiative, technological development policy aims to promote high-quality, efficient, and high\u0002value-added development of the manufacturing industry by guiding technological innovation and optimizing resource allocation \r\n[6–9]. On one hand, policies can direct the flow of funds by providing essential research and development funding to manufacturing \r\nenterprises. On the other hand, policies can stimulate market demand by promoting new products and applications, thereby expanding \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "the scale of market demand and driving the development of manufacturing enterprises. Additionally, policies can incentivize enter\u0002prises to increase investment in technological innovation and enhance their core competitiveness through tax incentives, reward \r\nmeasures, and other mechanisms [10]. \r\nHowever, the impact of technological development policy is not static; it varies with the different stages of manufacturing \r\ndevelopment and diverse industrial structures [11]. In the early stages of manufacturing development, technology policies may focus \r\nmore on basic research and infrastructure construction. As manufacturing progresses, these policies may shift towards \r\ninnovation-driven approaches and industrial collaboration, encouraging deep integration of manufacturing with other industries to \r\nenhance and upgrade the industrial chain [12]. Especially for high-tech industries, the impact of technology policies is more significant \r\n[13]. High-tech industries typically represent the core competitiveness and future development direction of a country’s manufacturing \r\nindustry. By implementing targeted technology policies, such as specialized funding support, tax incentives, and support for research \r\nand development, governments can significantly promote the growth of high-tech industries, thereby driving the high-quality \r\ndevelopment of the manufacturing industry [14]. At the same time, the impact of technological development policy is not always \r\npositive. Inappropriate technology policies can distort market mechanisms and lead to the irrational allocation of resources [11]. \r\nAdditionally, excessive government intervention may suppress the innovation vitality of enterprises and negatively affect the \r\ndevelopment of the manufacturing industry [15]. Therefore, when formulating technology policies, governments need to scientifically \r\nevaluate the feasibility and effectiveness of these policies to ensure they genuinely promote the high-quality development of the \r\nmanufacturing industry [16–18]. \r\nThe mechanism and pathways through which technological development policy affects the high-quality development of the \r\nmanufacturing industry still require further exploration. In light of this, this paper conducts an in-depth analysis of how technological \r\ndevelopment policy impacts the high-quality development of the manufacturing industry. \r\nIt first established a benchmark regression model to verify the positive impact of technological development policy on the high\u0002quality development of the manufacturing industry. Subsequently, it established a model to validate the mediating effect of high\u0002tech industry development on this relationship, as well as the moderating effect of infrastructure informatization in the process. \r\nAdditionally, it analyzed the impact of technological development policy on the high-quality development of the manufacturing in\u0002dustry at different industry structure thresholds. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "The subsequent sections are organized as follows: the second section covers related literature and hypotheses, the third section \r\nintroduces the research methodology, the fourth section discusses the research results, and the fifth section presents conclusions and \r\ndiscussion. \r\n2. Literature review and hypotheses \r\nThe high-quality development of the manufacturing industry is a crucial component of China’s high-quality economic develop\u0002ment. It is guided by the new development concept, driven by innovation, and characterized by efficiency and benefits. Achieving \r\nhigh-quality development in manufacturing entails low production factor input, efficient resource allocation, strong product quality \r\nimprovement capabilities, excellent ecological environment quality, and favorable economic and social benefits, thus ensuring sus\u0002tainable development at a high level [19]. It focuses on enhancing the vitality, driving force, innovation, and competitiveness of the \r\neconomy, continuously improving input-output efficiency and economic benefits. Its goal and mission are to shift from “scale \r\nexpansion” to “quality and efficiency improvement,” transitioning from traditional manufacturing models to new models such as \r\nintelligent manufacturing, green manufacturing, and service-oriented manufacturing, and upgrading from a traditional industrial \r\nsystem to a modern industrial system. Technological progress and innovation are crucial forces driving the high-quality development \r\nof manufacturing [20]. \r\nManufacturing enterprises are considered the primary drivers of economic growth, and the efficient design of institutional envi\u0002ronments and their evolution over time are crucial for explaining national development stages and economic performance [21,22], \r\nindirectly confirming the significance of government policy orientation for manufacturing development. As the prominence of the \r\nmanufacturing industry in the global economy continues to grow, the driving force of technological progress on industrial develop\u0002ment is increasingly emphasized. This has made the relationship between technological development policy and high-quality \r\ndevelopment in manufacturing a hot topic in academic research. When formulating industrial policies, governments need to meet \r\ntwo basic conditions: ensuring adequate competitiveness of target industries and benefiting a sufficiently broad range of enterprises. \r\nThis implies that policies should not only foster the growth of specific industries but also ensure their competitiveness and sustain\u0002ability [23]. Government intervention plays a crucial role in promoting the high-quality development of the manufacturing industry. It \r\nguides the reconfiguration and allocation of industrial resources through industrial transformation policies, enhances market super\u0002vision, establishes platforms for industrial transformation service, and creates a conducive environment for high-quality development \r\nB. Yan and Y. Wang \n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Heliyon 10 (2024) e35858\r\n3\r\n[24]. Therefore, the government assumes roles as a “designer”, “referee”, and “service provider”. Empirical research on government \r\nbehavior in industrial transformation and upgrading confirms that government functions, industrial policies, and government in\u0002vestments can effectively promote these processes [25]. \r\nFor the direct impact of technological development policy on the high-quality development of the manufacturing industry, scholars \r\ngenerally assert that technology policies, including provisions such as research and development funding support, tax incentives, and \r\nmarket promotion, effectively stimulate technological innovation and industrial upgrading within manufacturing enterprises. These \r\ninnovations and technological advancements can elevate the production technology and process standards of the manufacturing in\u0002dustry, thereby enhancing product quality. This approach of driving industry high-quality development through innovation has been \r\nwidely recognized [26]. The government’s technological development policy measures not only reduce enterprises’ research and \r\ndevelopment costs and market risks but also stimulate their innovation vitality and competitiveness, thereby driving the high-quality \r\ndevelopment of the manufacturing industry. From the perspective of fiscal technology investment, Cen et al. [27] theoretically \r\ndemonstrated that the policy effect of China’s implementation of an innovation-driven development strategy is significant, and will \r\nbecome increasingly evident in the context of high-quality development. Chen et al. indicated that the government’s increased fiscal \r\ninvestment in technology significantly promotes enterprise innovation output [28]. Jain et al. pointed out that the government’s \r\nprovision of discounted internet facilities, fiscal support, and continuous professional skill training are the primary driving factors for \r\nthe application of Industry 4.0 in the manufacturing industry in India, as they possess strong driving forces [29]. Ullah et al. indicated \r\nthat “cost reduction” and “government support” are the most significant driving forces behind the implementation of green innovation \r\nin Pakistan’s manufacturing industry [30]. In the absence of financing constraints, technological innovation can significantly advance \r\nthe high-level development of China’s manufacturing industry [31]. Government actions are widely recognized as crucial factors \r\ninfluencing the transformation and upgrading of the manufacturing industry [32]. Moreover, technological development policies \r\ntypically drive the digitalization and intelligent transformation of the manufacturing industry, promoting automation and intelligence \r\nin production process, enhancing production efficiency and product quality, and thereby achieving high-quality development in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "manufacturing [33,34].Based on these points, we propose Hypothesis 1. \r\nHypothesis 1. Technological development policy positively impacts the high-quality development of the manufacturing industry. \r\nWhen studying the impact of technological development policy on the high-quality development of the manufacturing industry, \r\nmany scholars have also explored how specific innovation policies, such as financial subsidies and tax incentives, influence enterprise \r\ninnovation [35]. Some studies suggest that government subsidies [36] and tax incentives [37] significantly enhance both enterprise \r\ninnovation and the steady growth of productivity [38] as well as improve total factor productivity [39]. Desai and Hines, as well as \r\nGirma et al., have confirmed that subsidies can also enhance enterprise profitability [10,40]. \r\nHowever, some studies have indicated that the effectiveness of technology policies is influenced by various factors, such as policy \r\ndesign, implementation intensity, and market environment, etc. Therefore, it is necessary to comprehensively consider these factors in \r\npractical operations to ensure the effectiveness and sustainability of policies [41]. Yang et al. argued that overall, financial subsidies \r\nand tax incentives have significantly promoted innovation activities among manufacturing enterprises in China. However, there are \r\ndifferences in the effectiveness of these two policies, with financial subsidies showing a notably superior incentive effect compared of \r\ntax incentives [42]. Factors such as enterprise type, industry, region, financing constraints, and the lifecycle of the enterprise also \r\nmoderate the impact of government subsidies [43,44]. Additionally, the incentive effect of fiscal policies positively impact the increase \r\nin value-added rates and the optimization of internal structures in high-tech industries [36]. The study by Ye and Liu indicated that the \r\ntechnological advancement in mid-to-low-end manufacturing industries primarily depends on the continuous improvement of mar\u0002ketization levels, whereas government support effectively promotes technological advancement in high-end manufacturing industries \r\n[45]. It is evident that technological development policy contributes to the advancement of high-tech industries. The development of \r\nhigh-tech industries may lead to effects such as technological innovation, improvements in production processes, and enhancements in \r\nproduct quality. These effects translate into technological upgrading, improved product quality, and industrial transformation within \r\nthe manufacturing industry, thereby promoting its high-quality development [46]. Based on these, hypothesis 2 is proposed. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Hypothesis 2. Technological development policy promotes the high-quality development of the manufacturing industry through its \r\nimpact on the development of high-tech industries, specifically through the mediating effect of high-tech industry development in the \r\nrelationship between technological development policy and high-quality development of the manufacturing industry. \r\nThe level of infrastructure informatization typically denotes the extent of digitalization and information technology integration \r\nwithin the infrastructure industry of a country or region, encompassing digital infrastructure and information technology applications. \r\nXu and Fan suggested that the pathway of indigenous innovation based on internet technology introduction has the most significant \r\nimpact on optimizing and upgrading the structure of the manufacturing industry. This pathway represents the optimal approach for \r\ndriving structural adjustments in China’s manufacturing industry [47]. Hu et al. further emphasized that the internet has a significant \r\npositive impact on transforming technological pathways in the manufacturing industry. With the deepening development and \r\napplication of the internet, the technological pathway shifts from mere introduction and imitation to independent research and \r\ndevelopment. This transformation enhances its positive effects on improving production efficiency and becomes a suitable techno\u0002logical pathway for achieving high-quality development of the manufacturing industry [48]. In addition, the study by Song and Liu \r\nindicated that technological progress, optimization of energy structure, and adjustment of industrial structure constitute the mech\u0002anisms through which the innovation level in infrastructure construction affects the carbon emission intensity of the manufacturing \r\nindustry. The innovation level in infrastructure construction exhibits a spatial effect on the carbon emission intensity of the \r\nmanufacturing industry, characterized by spatial spillover effects and spatial siphon effects, with distinct regional boundaries for these \r\nB. Yan and Y. Wang \nHeliyon 10 (2024) e35858\r\n4\r\nspatial effects [49]. In the development of the manufacturing industry, digital infrastructure (such as networks, cloud computing, and \r\nthe Internet of Things) forms the foundation for digitizing and smartening production processes [50] Regions with higher levels of \r\ninformatization typically possess stronger capabilities in information technology application, enabling them to optimize production \r\nprocesses and improve product quality more effectively [1]. The improvement of digital infrastructure can enhance support for policy \r\nimplementation, such as digital supervision and data sharing, thereby effectively promoting the high-quality development of the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "manufacturing industry [51] The investment and transformation capabilities of the manufacturing industry in digitization and in\u0002telligence directly influence the speed and effectiveness of its high-quality development. Manufacturing industries in regions with high \r\nlevels of informatization may demonstrate greater capacity to adapt digital and intelligent production methods, enabling them to \r\nrespond more promptly to policy directives [52]. Based on these, we propose Hypothesis 3. \r\nHypothesis 3. The level of infrastructure informatization moderates the impact of technological development policy on the high\u0002quality development of the manufacturing industry. \r\nWhile many studies suggested that policies such as government subsidies and tax incentives have a positive impact on enterprise \r\ninnovation and technological progress, there are also scholars who hold different views. They argued that government subsidies may \r\nnot effectively enhance the innovation capability of enterprises and may instead foster an overreliance on policies, potentially \r\ndiverting attention away from market competition [53]. Government subsidies do not always have a positive impact on industry target \r\nparameters and may even distort market mechanisms (Korovin, 2021). In the emerging field of Industry 4.0, which holds significant \r\nimportance for China’s industrial upgrading and improving the quality of manufacturing development, research by Lin et al. found that \r\ngovernment subsidies do not significantly influence enterprises’ decisions regarding Industry 4.0 adoption [54]. From an overall \r\nperspective, government subsidies have a certain inhibitory effect on the improvement of enterprise development quality. However, \r\ngovernment subsidies can also incentivize enterprises to innovate, thereby exerting a positive impact on the quality of enterprise \r\ndevelopment. This effect manifests as a masking effect, where the positive indirect effects of enterprise innovation somewhat mitigate \r\nthe negative impact of government subsidies’ direct effects [55]. Additionally, some studies have indicated that although government \r\nsubsidies can significantly accelerate industrial structural changes, the effects of these changes are short-term. This may be due to \r\ngovernment subsidy policies not effectively adapting to market dynamics, thus failing to realize long-term effects [56]. The study by Fu \r\net al. also pointed out that while independent innovation can rationalize the structure of the manufacturing industry, it may not \r\nnecessarily promote its upgrading [57]. \r\nTaking into account the diverse development needs and bottlenecks of the manufacturing industry at different stages of industrial \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "structure development, the focus and effectiveness of technology policies will also vary [58]. In the early stage of rationalizing in\u0002dustrial structure, the manufacturing industry is primarily composed of traditional manufacturing. During this phase, technology \r\npolicies mainly focus on improving the technological level and production efficiency of traditional manufacturing, encouraging en\u0002terprises to undertake technological transformations and upgrades. Policies such as technology transfer, fiscal subsidies, and tax in\u0002centives can be adopted. As the rationalization of industrial structure progresses, the manufacturing industry begins to transition to \r\nhigh-end manufacturing, with increasing demands on technological levels. It needs to pay more attention to the combination of \r\nbasic research and applied research, strengthen the research and promotion of key core technologies, and promote the development of \r\nthe manufacturing industry towards high technology and high value-added directions. It also needs to focus on talent cultivation and \r\nrecruitment to provide sufficient support of high-tech talents for the manufacturing industry. In the stage of a highly rationalized \r\nindustrial structure, the manufacturing industry is mainly composed of emerging industries such as smart manufacturing and green \r\nFig. 1. Theoretical analytical framework. \r\nB. Yan and Y. Wang \nHeliyon 10 (2024) e35858\r\n5\r\nmanufacturing, which have higher requirements for technological innovation. At this stage, it needs to pay more attention to \r\ncross-disciplinary integration and collaborative innovation, promoting the deep integration of the manufacturing industry with fields \r\nsuch as the internet, big data, and artificial intelligence, thereby enhancing the levels of intelligence and greenness in manufacturing \r\n[59]. Additionally, it needs to focus on nurturing and developing emerging industries to provide a continuous source of momentum for \r\nthe high-quality development of the manufacturing industry. Given these, we propose Hypothesis 4. \r\nHypothesis 4. The impact of technological development policy on the high-quality development of the manufacturing industry \r\nvaries across different stages of industrial structural development. \r\nThese hypotheses (Fig. 1) provide a theoretical foundation for further empirical research, contributing to a deeper understanding of \r\nthe mechanisms and influencing factors of how technological development policy affects the high-quality development of the \r\nmanufacturing industry. \r\n3. Research design \r\n3.1. Model construction \r\n3.1.1. Benchmark regression and mediation model \r\nTo thoroughly analyze the direct impact mechanism of technological development policy on the high-quality development of the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "manufacturing industry, as well as the mediating effect of high-tech industries in this process, the following recursive mediation model \r\nis constructed: \r\nhqmi，t = α0 + α1tii,t + α2Xi,t + μi + γt + εi,t (1) \r\nhri，t = β0 + β1tii,t + β2Xi,t + μi + γt + εi,t (2) \r\nhqmi，t = δ0 + δ1tii,t + δ2hii,t + δ3Xi,t + μi + γt + εi,t (3) \r\nWhere the dependent variable hqm represents the level of high-quality development of the manufacturing industry, the core \r\nexplanatory variable ti represents the level of technological development policy, hr is the mediating variable, and X represents the \r\ncontrol variables. The subscripts i and t respectively represent the region and the year, μi indicates individual fixed effects, γt indicates \r\ntime fixed effects, εi,t represents the random disturbance term. The term α0 represents the constant term, α1 represents the regression \r\ncoefficient of the core explanatory variable, reflecting the impact of technological development policy on the high-quality develop\u0002ment of the manufacturing industry, and α2 represents the regression coefficient of the control variable. Model (1) examines the direct \r\nimpact of technological development policy on the high-quality development of the manufacturing industry, while models (2) and (3) \r\nexamine the mediating effects of high-tech industry development. \r\n3.1.2. Moderation effect model \r\nThis paper constructs the following models to examine whether the level of infrastructure informatization acts as a moderator in the \r\nprocess of how technological development policy influences the high-quality development of the manufacturing industry: \r\nhqmi，t = θ0 + θ1tii,t + θ2besi,t + θ3Xi,t + μi + γt + εi,t (4) \r\nwhere, besi,t is the moderating variable, representing the level of infrastructure informatization, and the remaining variables are as \r\nbefore. \r\n3.1.3. Panel threshold effect model \r\nTaking into account the varying degree of industrial structure rationalization, the impact of technological development policy on \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "the high-quality development of the manufacturing industry also varies. To verify this mechanism, this paper adopts Hansen’s pro\u0002posed threshold regression model for analysis. If only one threshold exists, a single-threshold model is used. \r\nhqmi，t = α0 + α1tii,tI\r\n(\r\nisri,t ≤ q\r\n)\r\n+ α2tii,tI\r\n(\r\nisri,t > q\r\n)\r\n+ α3Xi,t + μi + γt + εi,t (5) \r\nwhere isr represents the threshold variable, I(⋅) is the indicator function, and q represents the threshold value. When tii,t ≤ q, the \r\ncoefficient of the impact of technological development policy on the high-quality development of the manufacturing industry is α1; \r\nWhen tii,t > q, the coefficient is α2; If α1 ∕= α2, there is a threshold effect; otherwise, there is no threshold effect. If there are two \r\nthresholds, equation (5) of the model can be extended to equation (6) of the double threshold model. \r\nhqmi，t = α0 + α1tii,tI\r\n(\r\nisri,t ≤ q1\r\n)\r\n+ α2tii,tI\r\n(\r\nq1 < isri,t ≤ q2\r\n)\r\n+ α3tii,tI\r\n(\r\nisri,t > q2\r\n)\r\n+ α4Xi,t + μi + γt + εi,t (6) \r\nwhere q1 and q2 are two threshold values, with q1<q2, dividing the entire sample into three intervals. If there are three or more \r\nthresholds, this method can still be used to establish multiple threshold models. \r\nB. Yan and Y. Wang \nHeliyon 10 (2024) e35858\r\n6\r\n3.2. Variable description and data sources \r\n3.2.1. Dependent and core explanatory variables \r\nThe dependent variable in this study is the level of high-quality development of the manufacturing industry (hqm), assessed using \r\nthe entropy method derived from the indicator system in Table 1. The core explanatory variable is the level of technological devel\u0002opment policy (ti), defined as the ratio of financial expenditure allocated to scientific and technological initiatives relative to overall \r\nfinancial expenditure [60]. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "3.2.2. Mediating, moderating, and threshold variables \r\nThe mediating variable is the development of high-tech industries (hr), indicated by the ratio of main business income of high-tech \r\nindustries to main business income of industrial enterprises above designated size. The moderating variable is the level of infra\u0002structure informatization, represented by the number of websites per hundred enterprises (bes). The threshold variable is the level of \r\nindustrial structure rationalization (isr), calculated using the Theil index, where a higher value indicates a higher degree of industrial \r\nstructure irrationality [61]. \r\n3.2.3. Control variables \r\nInfrastructure level (pcrm) is represented by per capita road mileage; Manufacturing scale (gg) is represented by the ratio of in\u0002dustrial value added to GDP; Government intervention level (lfeg) is represented by the ratio of local fiscal general budget expenditure \r\nto GDP; Human capital level (ae) is represented by the average number of employees in high-tech industries [62,63]. \r\n3.2.4. Data sources and descriptive statistics \r\nDue to incomplete data in Tibet, Hong Kong, Macau, and Taiwan, this study selected data from 30 provinces and cities in China \r\nfrom 2011 to 2021 for analysis. The data primarily sourced from publications such as the “China Statistical Yearbook,” “China Energy \r\nStatistical Yearbook,” and “China Environmental Statistical Yearbook.” Interpolation was employed to fill in missing original data. The \r\ndescriptive statistical results of the primary variables are detailed in Table 2. \r\n4. Empirical results and analysis \r\n4.1. Benchmark regression \r\nUsing STATA 17.0 software, it conducted F-tests and Hausman tests on the baseline model to select a two-way fixed effects model \r\nfor examining the mechanism of the technological development policy on the high-quality development of the manufacturing industry. \r\nTable 3 reports the results of the benchmark regression. In column (1), without considering control variables, technological devel\u0002opment policy significantly impacts the high-quality development of the manufacturing industry at the 1 % significance level. Column \r\n(2), after including control variables such as infrastructure construction level, manufacturing scale, government intervention level, and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "human capital level, continues to show a significant positive impact of technological development policy on the high-quality devel\u0002opment of the manufacturing industry, thus confirming hypothesis 1. Government influences the manufacturing industry’s devel\u0002opment through various technological development policies, including financial support, market demand creation, and incentivizing \r\nenterprise innovation, which enhance the technological levels, product quality, and market competitiveness of the manufacturing \r\nindustry, thereby promoting high-quality development in the manufacturing industry. \r\nTable 1 \r\nIndicator system for the level of high-quality development of the manufacturing industry. \r\nPrimary Indicator Secondary \r\nIndicator \r\nDefinition of Variables Indicator \r\nAttributes \r\nThe level of high-quality development \r\nof the manufacturing industry \r\nInnovation-driven The ratio of internal R&D expenditure to main business income (%) +\r\nAverage number of R&D patents per capita (items/person) +\r\nThe ratio of sales revenue of new industrial products to main business income \r\nof industrial enterprises above designated size (%) \r\n+\r\nFull-time equivalent of R&D personnel +\r\nEconomic benefits Month-on-month growth rate of manufacturing output value (%) +\r\nLabor productivity in the manufacturing industry (10,000 yuan/person) +\r\nThe ratio of total profits to main business income (%) +\r\nStructural \r\noptimization \r\nThe ratio of main business income from high-tech industries to main business \r\nincome of industrial enterprises above a designated size (%) \r\n+\r\nThe ratio of sales revenue of new products in high-tech industries to sales \r\nrevenue of new products in industrial enterprises above designated size (%) \r\n+\r\nGreen \r\nmanufacturing \r\nEnergy consumption per unit of value added (tonnes of standard coal/10,000 \r\nyuan) \r\n– \r\nComprehensive utilization rate of solid waste (%) +\r\nB. Yan and Y. Wang \nHeliyon 10 (2024) e35858\r\n7\r\n4.2. Mediating effect test \r\nThe columns (3) and (4) in Table 4 present the regression results with high-tech industry development as the mediator. In column \r\n(3), high-tech industry development shows a significantly positive impact at the 1 % significance level, indicating that technological \r\ndevelopment policy has a significant positive impact on the development of high-tech industries. This fosters innovation activities and \r\ntechnological progress in high-tech industries, thereby supporting their rapid development. Column (4), even after including the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "mediating variable, high-tech industry development remains significantly positive. Additionally, the coefficient of technological \r\ndevelopment policy decreases compared to the benchmark regression. This suggests that high-tech industry development acts as a \r\nmediator in the relationship between technological development policy and the high-quality development of the manufacturing in\u0002dustry. In other words, technological development policy promotes the high-quality development of the manufacturing industry by \r\nenhancing the level of high-tech industry development, thus confirming hypothesis 2. \r\n4.3. Moderating effect test \r\nThe theoretical analysis in previous sections suggests that the level of infrastructure informatization may play a significant role as a \r\nmoderating variable in the relationship between technological development policy and the high-quality development of the \r\nmanufacturing industry. To explore this, we introduced it into the baseline model and exmined the impact of technological devel\u0002opment policy on the high-quality development of the manufacturing industry by including an interaction term between technological \r\ndevelopment policy and the level of infrastructure informatization. To mitigate multicollinearity, the interaction term was centered. \r\nThe results of the moderating effect are reported in Table 5. The column (3) represents the moderating effect of the level of infra\u0002structure informatization. The results indicate that the interaction term between technological development policy and the level of \r\ninfrastructure informatization is significant at the 5 % significance level. Moreover, the coefficient sign of the core explanatory variable \r\naligns with that of the interaction term. This indicates that the level of infrastructure informatization strengthens the promotional \r\nTable 2 \r\nDescriptive statistics of main variables. \r\nCategory Stats N Mean SD Min Max \r\nDependent Variable hqm 330 0.317 0.181 0.084 0.879 \r\nIndependent Variable ti 330 13.555 1.058 10.535 16.283 \r\nMediating Variable hr 330 9.987 7.236 0.225 35.878 \r\nModerating Variable bes 330 50.373 10.794 15.000 93.000 \r\nThreshold Variable isr 330 0.213 0.197 0.007 1.043 \r\nControl Variable pcrm 330 36.135 21.795 5.348 130.808 \r\ngg 330 33.489 7.988 10.014 57.378 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "lfeg 330 26.128 11.289 10.501 75.829 \r\nae 330 439936.100 770977.800 3843.000 4173510.000 \r\nTable 3 \r\nBenchmark regression results. \r\nVARIABLES \r\n(1) (2) \r\nhqm hqm \r\nti 0.0374a 0.0251a \r\n(0.00770) (0.00791) \r\npcrm 0.00129a \r\n(0.000492) \r\ngg 0.00234b \r\n(0.000964) \r\nlfeg − 0.00170c \r\n(0.000946) \r\nae 1.38e-07a \r\n(3.25e-08) \r\nConstant − 0.176c − 0.158 \r\n(0.0995) (0.109) \r\nObservations 330 330 \r\nR-squared 0.146 0.280 \r\nNumber of id 30 30 \r\nStandard errors in parentheses. a p < 0.01. b p < 0.05. c p < 0.1. \r\nB. Yan and Y. Wang \nHeliyon 10 (2024) e35858\r\n8\r\nTable 4 \r\nMediating effect results. \r\nVARIABLES \r\n(1) (2) (3) (4) \r\nhqm hqm hr hqm \r\nti 0.0374a 0.0251a 2.180a 0.0165b \r\n(0.00770) (0.00791) (0.367) (0.00827) \r\nhr 0.00391a \r\n(0.00126) \r\npcrm 0.00129a 0.0205 0.00121b \r\n(0.000492) (0.0228) (0.000485) \r\ngg 0.00234b − 0.158a 0.00296a \r\n(0.000964) (0.0447) (0.000971) \r\nlfeg − 0.00170c − 0.237a − 0.000776 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "(0.000946) (0.0438) (0.000979) \r\nae 1.38e-07a 9.63e-06a 1.01e-07a \r\n(3.25e-08) (1.51e-06) (3.43e-08) \r\nConstant − 0.176c − 0.158 − 12.95b − 0.108 \r\n(0.0995) (0.109) (5.038) (0.108) \r\nObservations 330 330 330 330 \r\nR-squared 0.146 0.280 0.676 0.303 \r\nNumber of id 30 30 30 30 \r\nStandard errors in parentheses. a p < 0.01. b p < 0.05. c p < 0.1. \r\nTable 5 \r\nModerating effect results. \r\nVARIABLES \r\n(1) (2) (3) \r\nhqm hqm hqm \r\nti 0.0251a 0.0250a 0.0296a \r\n(0.00791) (0.00793) (0.00807) \r\nbes 4.20e-05 0.000427 \r\n(0.000347) (0.000377) \r\nti_bes 0.00216b \r\n(0.000868) \r\npcrm 0.00129a 0.00128b 0.00136a \r\n(0.000492) (0.000505) (0.000502) \r\ngg 0.00234b 0.00237b 0.00257b \r\n(0.000964) (0.000997) (0.000992) \r\nlfeg − 0.00170c − 0.00170c − 0.00154 \r\n(0.000946) (0.000948) (0.000942) \r\nae 1.38e-07a 1.39e-07a 1.41e-07a \r\n(3.25e-08) (3.26e-08) (3.24e-08) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Constant − 0.158 − 0.161 − 0.256b \r\n(0.109) (0.111) (0.116) \r\nObservations 330 330 330 \r\nR-squared 0.280 0.280 0.295 \r\nNumber of id 30 30 30 \r\nStandard errors in parentheses. a p < 0.01. b p < 0.05. c p < 0.1. \r\nTable 6 \r\nThreshold test results. \r\nThreshold Variable Threshold Fstat Prob Crit1 Crit5 Crit10 Confidence Interval \r\nLevel of Industrial Structure Rationalization (isr) Single 45.53 0.0033 33.4680 24.7140 20.6869 0.0652 0.0707 \r\nDouble 24.27 0.0467 76.8183 22.3914 15.1007 0.6554 0.9575 \r\nTriple 12.61 0.2600 68.0549 45.9950 34.0811 – – \r\nB. Yan and Y. Wang \nHeliyon 10 (2024) e35858\r\n9\r\neffect of technological development policy on the high-quality development of the manufacturing industry. In other words, higher \r\nlevels of infrastructure informatization amplify the positive impact of technological development policy on the high-quality devel\u0002opment of the manufacturing industry. Hypothesis 3 is supported by the findings. \r\n4.4. Threshold effect test \r\nIn this study, the bootstrap method was used to sample 300 times to test the case where industrial structure rationalization acts as \r\nthe threshold variable. The results are shown in Table 6. Among them, the P-values for the single threshold, double threshold, and \r\ntriple threshold models are 0.0033, 0.0467, and 0.2600, respectively. This indicates that the double threshold for industrial structure \r\nrationalization is significant at the 5 % significance level, while the triple threshold is not. The P-value for the single threshold is \r\n0.0697, and for the double threshold, it is 0.9575. \r\nThe estimation results of the double-panel threshold are shown in Table 7. The regression results indicate that when the Theil index \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "is relatively small (isr ≤0.0697), indicating a higher level of industrial structure rationalization, the effect of technological develop\u0002ment policy on the high-quality development of the manufacturing industry is not significant. When the Theil index value is 0.0697 <\r\nisr ≤0.99319, the coefficient is 0.0181. When the Theil index is relatively large (0.99319 < isr), indicating a lower level of industrial \r\nstructure rationalization, the coefficient is 0.0265. These results demonstrate that when the industrial structure is more irrational, the \r\nimpact of technological development policy on the high-quality development of the manufacturing industry is more significant. \r\nConversely, when the industrial structure is more rational, the impact is insignificant. In other words, the industrial structure exhibits a \r\nthreshold effect in the impact of technological development policy on the high-quality development of the manufacturing industry, \r\nvalidating Hypothesis 4. \r\n4.5. Robustness test \r\nAlthough the two-way fixed effects model used in the benchmark regression partially addresses endogeneity, it still inevitably \r\nsuffers from endogeneity issues due to omitted variables or reverse causality. Therefore, this study substitutes the full-time equivalent \r\nof R&D personnel in industrial enterprises above a designated size for technological development policy as the core explanatory \r\nvariable. It substitutes the number of patent applications by industrial enterprises above a designated size for the level of development \r\nof high-tech industry development as the mediating variable. Furthermore, the number of domain names is used as the moderating \r\nvariable instead of the number of websites per hundred enterprises for empirical testing. The results show that the robustness check \r\nresults are generally consistent with the empirical conclusions in the previous sections, confirming the reliability of the empirical tests \r\nconducted in this study. \r\n5. Discussion \r\nThe findings of this study provide significant insights into the relationship between technological development policy and the high\u0002quality development of the manufacturing industry. \r\n(1) Promoting role of technological development policy: The benchmark regression results underscore the pivotal role of tech\u0002nological development policy in fostering the high-quality development of the manufacturing sector. This aligns with prior \r\nstudies that have highlighted the importance of policy frameworks in driving industrial advancement and innovation. For \r\ninstance, Bekhet et al. emphasized that transitioning from extensive factor inputs to innovation-driven growth is crucial for \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "sustainable development in manufacturing [26]. Our findings reinforce the notion that well-crafted technology policies can \r\nsignificantly enhance industrial performance. \r\nTable 7 \r\nThreshold regression results. \r\nVARIABLES Coefficient Robust std. err. \r\npcrm 0.0004 0.0005 \r\ngg 0.0022* 0.0012 \r\nlfeg − 0.0006 0.0012 \r\nae 0.0000** 0.0000 \r\nisr≤0.0697 0.0157 0.0097 \r\n0.0697＜isr≤0.9319 0.0181* 0.0097 \r\n0.9319＜isr 0.0265** 0.0097 \r\n_cons − 0.0641 0.1646 \r\nR-squared 0.3293 \r\nStandard errors in parentheses. \r\n***p < 0.01. \r\n**p < 0.05. \r\n*p < 0.1. \r\nB. Yan and Y. Wang \nHeliyon 10 (2024) e35858\r\n10\r\n(2) Mechanism through high-tech industry development: The mechanism analysis results suggest that the enhancement of high\u0002tech industries is a key pathway through which technology development policies exert their positive influence. This finding \r\nis consistent with literature indicating that investment in high-tech industries catalyzes broader industrial growth and \r\ncompetitiveness [61]. It highlights the necessity for policymakers to focus on nurturing high-tech industries as a strategic \r\napproach to elevate overall industrial quality. \r\n(3) Moderating effect of infrastructure informatization: The moderation effect analysis reveals that the level of infrastructure \r\ninformatization amplifies the positive impact of technological development policies. This finding is particularly relevant in the \r\ncontext of the digital economy, where digital infrastructure serves as a backbone for industrial innovation and efficiency. The \r\nresults suggest that investments in digital infrastructure are critical to maximizing the benefits of technology policies, sup\u0002porting the conclusions drawn by Yin et al. [16]. \r\n(4) Threshold effect of industrial structure: The threshold effect results provide a nuanced understanding of how industrial \r\nstructure mediates the impact of technological development policies. When the industrial structure is more irrational, the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 463,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "policies have a more pronounced effect on high-quality development. Conversely, in a more rational industrial structure, the \r\nimpact diminishes. This finding offers a fresh perspective on the dynamic interplay between policy interventions and structural \r\nconditions within the industry. It suggests that policy effectiveness may vary depending on the maturity and rationality of the \r\nindustrial structure, a notion supported by studies on industrial policy and structural transformation [63]. \r\n6. Conclusions and implications \r\nIn summary, through a comprehensive analysis of the relationship between technological development policies and the high\u0002quality development of the manufacturing industry, it has drawn the following conclusions. \r\n(1) Technological development policies play a crucial role in promoting the high-quality development of the manufacturing in\u0002dustry, providing strong guidance and support for its innovation and upgrading. \r\n(2) The development of high-tech industries serves as a significant driving force for promoting the high-quality development of the \r\nmanufacturing industry. Policy makers should increase their support for high-tech industries to enhance their leading role in the \r\nmanufacturing sector. \r\n(3) The enhancement of the level of infrastructure informatization has a significant role in promoting the high-quality development \r\nof the manufacturing industry. Governments should continue to increase investment in digital infrastructure construction and \r\npromote its deep integration with the manufacturing industry. \r\n(4) The threshold effect of industrial structure indicates that in formulating technology development policies, it is necessary to \r\nconsider the characteristics and needs of different industrial structures. Policy makers should flexibly adjust policy directions \r\nand intensities based on the changing trends of specific industrial structures. \r\nBased on the above research conclusions, it proposes the following policy recommendations. \r\n(1) Strengthen the orientation of technological development policies. The government should continue formulating and imple\u0002menting policies that support technological development, such as providing research funds, tax incentives, innovation rewards, \r\netc. For regions with irrational industrial structures, intensify the implementation of technological development policies. For \r\nregions with rational industrial structures, adjust policy directions appropriately to avoid over-reliance on technological \r\ndevelopment policies. \r\n(2) Improve local government policies on investment in high-tech industries. Expand financing channels for technology companies \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "and encourage various financial institutions to increase their investment in technology companies through loans, equity in\u0002vestments, etc. Increase loan sizes for technology companies to alleviate the financing difficulties faced by small and medium\u0002sized enterprises. Increase financial support and raise the proportion of investment in technology funds, especially for research \r\nand development projects in key areas and important industries. Provide necessary assistance and support for important in\u0002dustries undergoing upgrades and breakthroughs. \r\n(3) Strengthen infrastructure informatization construction. Increase investment in infrastructure, especially in infrastructure \r\ninformatization, to enhance the quality and coverage. Optimize the investment structure to improve investment efficiency and \r\navoid redundant construction and resource wastage. \r\n(4) Optimize industrial policies. Guide industrial structure adjustment by providing tax incentives, subsidies, etc., to encourage the \r\ndevelopment of high-tech industry, while limiting or eliminating outdated production capacities. Promote the development of \r\nindustrial clusters to leverage economies of scale and enhance the overall competitiveness of the industrial chain. \r\n(5) Strengthen intellectual property protection. Improve intellectual property laws and regulations, enact stricter laws to enhance \r\nenforcement and ensure the effective protection of innovative achievements. Establish an intellectual property trading platform \r\nto encourage the public opening of technical assets, facilitating technology transfer and commercialization through intellectual \r\nproperty transactions. \r\n(6) Enhance policy coordination and cooperation. Strengthen coordination and cooperation with other relevant policies such as \r\nfiscal policy, industrial policy, environmental protection policy, etc., to create synergize efforts and collectively promote the \r\nhigh-quality development of the manufacturing industry. \r\nB. Yan and Y. Wang \nHeliyon 10 (2024) e35858\r\n11\r\n(7) Improve the science and technology innovation service system. Establish a science and technology innovation service platform \r\nto provide services such as technology transfer, intellectual property protection, and financing support to help companies \r\naddress practical issues in the process of technological innovation. Promote industry-university-research cooperation by \r\nencouraging collaboration between universities, research institutions, and enterprises to jointly undertake research and \r\ndevelopment projects, facilitating the transformation and application of scientific and technological innovations. \r\n(8) Establish a comprehensive policy evaluation and feedback mechanism. Regularly evaluate the effectiveness of formulated \r\npolicies and identify existing issues in policy implementation. Based on evaluation results, promptly adjust and improve \r\nrelevant policies to ensure their relevance and effectiveness. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "The unique strength of this study lies in its exploration of the impact of technological development policy on the high-quality \r\ndevelopment of the manufacturing industry. While existing research typically treats government technology policy support as a \r\ncontrollable variable [62,63]. this paper positions it as a core explanatory variable and examines the role of industrial structure \r\nthresholds. However, it also has certain limitations, which provide directions for future studies: Future studies could strengthen data \r\nsources and expand the sample scope, including a more granular analysis of the manufacturing industry by industry categories. \r\nAdditionally, future research could delve deeper into relevant policy recommendations and their implementation to provide more \r\ncomprehensive and effective support for the high-quality development of the manufacturing industry. \r\nEthics approval and consent to participate \r\nNot applicable. \r\nConsent for publication \r\nNot applicable. \r\nAvailability of data and materials \r\nThe data reported in this study has been deposited in the OSF, (https://doi.org/10.17605/OSF.IO/NUJXS). \r\nFunding \r\nThis work was supported by Scientific Research Program of Hunan Provincial Department of Education (NO.23B1134). \r\nDatabase \r\nOSFhttps://doi.org/10.17605/OSF.IO/NUJXS. \r\nEthic statement \r\nNot applicable. \r\nDisclosure statement \r\nThe authors report there are no competing interests to declare. \r\nCRediT authorship contribution statement \r\nBorui Yan: Writing – original draft, Visualization, Validation, Supervision, Software, Resources, Methodology, Investigation, \r\nFormal analysis, Data curation. Yamin Wang: Project administration, Funding acquisition. \r\nDeclaration of competing interest \r\nThe authors declare the following financial interests/personal relationships which may be considered as potential competing \r\ninterests: \r\nYamin Wang reports financial support was provided by Hunan Provincial Department of Education. If there are other authors, they \r\ndeclare that they have no known competing financial interests or personal relationships that could have appeared to influence the work \r\nreported in this paper. \r\nB. Yan and Y. Wang \nHeliyon 10 (2024) e35858\r\n12\r\nReferences \r\n[1] X. Liu, X. Zhang, Industrial agglomeration, technological innovation and carbon productivity: evidence from China, Resour. Conserv. Recycl. 166 (2021) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "105330, https://doi.org/10.1016/j.resconrec.2020.105330. \r\n[2] Y. Tian, Y. Wang, X. Xie, J. Jiao, H. Jiao, The impact of business-government relations on firms’ innovation: evidence from Chinese manufacturing industry, \r\nTechnol. Forecast. Soc. Chang 143 (2019) 1–8, https://doi.org/10.1016/j.techfore.2019.02.007. \r\n[3] H. Seo, H. Kim, Y. Kim, Financialization and the slowdown in Korean firms’ R&D investment, Asian Econ. Pap. 11 (3) (2012) 35–49, https://doi.org/10.1162/ \r\nASEP_a_00160. \r\n[4] S. Huang, Transformation and upgrading of manufacturing industry: insights from Germany’s \"Industry 4.0\", Study Pract 1 (2015) 44–51, https://doi.org/ \r\n10.19624/j.cnki.cn42-1005/c.2015.01.005. \r\n[5] C. Barra, N. Ruggiero, Quality of government and types of innovation-empirical evidence for Italian manufacturing firms, J. Knowl. Econ. 14 (2) (2023) \r\n1749–1789, https://doi.org/10.1007/s13132-022-00964-5. \r\n[6] P. Kanojia, G. Singh, Determinants of technological and non-technological innovation: empirical insights from Indian manufacturing industries, J. Manuf. \r\nTechnol. Manag. 34 (6) (2023) 1025–1050, https://doi.org/10.1108/jmtm-08-2022-0293. \r\n[7] W. Yang, C. Zhu, Y. Yang, Does urban digital construction promote economic growth? Evidence from China, Econ 12 (3) (2024) 59, https://doi.org/10.3390/ \r\neconomies12030059. \r\n[8] W. Yang, X. Zheng, Y. Yang, Impact of environmental regulation on export technological complexity of high-tech industries in Chinese manufacturing, Econ 12 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "(2) (2024) 50, https://doi.org/10.3390/economies12020050. \r\n[9] W. Yang, L. Pan, Q. Ding, Dynamic analysis of natural gas substitution for crude oil: scenario simulation and quantitative evaluation, Energy 282 (2023) 128764, \r\nhttps://doi.org/10.1016/j.energy.2023.128764. \r\n[10] M. Desai, J. Hines, Market reactions to export subsidies, J. Int. Econ. 74 (2) (2008) 459–474, https://doi.org/10.1016/j.jinteco.2007.04.006. \r\n[11] G. Korovin, Efficiency of government support for the manufacturing sector in Russian industrial regions, Econ. Reg. 17 (4) (2021) 1256–1269, https://doi.org/ \r\n10.17059/ekon.reg.2021-4-15. \r\n[12] N. Hariastuti, P. Pratikto, I. Santoso, Tama, identifying driving factors of technological innovation to create sustainable value in metal manufacturing SMEs, Ind. \r\nEng. Manag. Syst. 21 (1) (2022) 43–57, https://doi.org/10.7232/iems.2022.21.1.043. \r\n[13] T. Liu, W. Yan, Y. Zhang, Functional or selective policy? - research on the relationship between government intervention and enterprise innovation in China, Int. \r\nRev. Econ. Financ. 86 (2023) 82–96, https://doi.org/10.1016/j.iref.2023.03.012. \r\n[14] Y. Cao, F. Su, Empirical study on the impact of technological innovation investment in high-tech industries on innovation performance—a comparative analysis \r\nbased on panel data of the entire industry and its five major sub-industries, Sci. Res. Manag. 33 (9) (2012) 22–31, https://doi.org/10.19571/j.cnki.1000- \r\n2995.2012.09.003. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "[15] Y. Sun, Y. Sun, F. Shao, Y. Qi, Government intervention, internal control, and technology innovation of SMEs in China, Front. Psychol. 13 (2022) 960025, \r\nhttps://doi.org/10.3389/fpsyg.2022.960025. \r\n[16] S. Yin, Y. Zhao, Digital green value co-creation behavior, digital green network embedding and digital green innovation performance: moderating effects of \r\ndigital green network fragmentation, Humanit, Soc. Sci. Commun 11 (1) (2024) 228, https://doi.org/10.1057/s41599-024-02691-5. \r\n[17] F. Song, C. Zhao, Why do Chinese enterprises make imitative innovation?-An empirical explanation based on government subsidies, Front. Psychol. 13 (2022) \r\n802703, https://doi.org/10.3389/fpsyg.2022.802703. \r\n[18] Q. Zhong, T. Tang, Impact of government intervention on industrial cluster innovation network in developing countries, Emerg. Mark. Financ. Trade 54 (14) \r\n(2018) 3351–3365, https://doi.org/10.1080/1540496x.2018.1434504. \r\n[19] X. Jiang, J. He, L. Fang, Measurement of the level of high-quality development in the manufacturing industry, regional differences, and enhancement paths, \r\nShanghai Econ. Res. (07) (2019) 70–78, https://doi.org/10.19626/j.cnki.cn31-1163/f.2019.07.007. \r\n[20] H. Aregawi, B. Patnaik, Impact of government intervention on manufacturing enterprises innovation level, in Ethiopia, Cogent Econ. Financ. 11 (1) (2023) \r\n2182034, https://doi.org/10.1080/23322039.2023.2182034. \r\n[21] P. Boettke, A. Fink, Institutions first. J. Inst. Econ. 7 (4) (2011) 499–504, https://doi.org/10.1017/S1744137411000063. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 468,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "[22] D. North, Institutions. J. Econ. Perspect. 5 (1) (1991) 97–112. \r\n[23] W. Wang, Z. Sun, Z. Niu, Industrial policy, market competition, and resource misallocation, Econom (9) (2014) 22–32, https://doi.org/10.16158/j.cnki.51- \r\n1312/f.2014.09.015. \r\n[24] P. Grossman, Government and economic growth: a non-linear relationship, Public Choice 56 (2) (1988) 193–200, https://doi.org/10.1007/BF00115758. \r\n[25] J. Loizides, G. Vamvoukas, Government expenditure and economic growth: evidence from trivariate causality testing, J. Appl. Econ. 8 (1) (2005) 125–152, \r\nhttps://doi.org/10.1080/15140326.2005.12040621. \r\n[26] H. Bekhet, N. Latif, The impact of technological innovation and governance institution quality on Malaysia’s sustainable growth: evidence from a dynamic \r\nrelationship, Technol. Soc. 54 (2018) 27–40, https://doi.org/10.1016/j.techsoc.2018.01.014. \r\n[27] S. Cen, Y. Ge, Research on the Policy Effects of China’s Innovation-Driven Development Strategy—Theory and Empirical Evidence from the Perspective of Fiscal \r\nScience and Technology Investment, Econ. Issues, vol. 5, 2023, pp. 9–21, https://doi.org/10.16011/j.cnki.jjwt.2023.05.008. \r\n[28] L. Chen, J. Liu, H. Liu, The intensity of fiscal science and technology investment and enterprise innovation output: mechanisms and heterogeneity, West. Forum \r\n33 (6) (2023) 64–80. https://link.cnki.net/urlid/50.1200.C.20231214.1443.002. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "[29] V. Jain, P. Ajmera, Modelling the enablers of industry 4.0 in the Indian manufacturing industry, Inter. J. Product, Perform. Manag. 70 (6) (2021) 1233–1262, \r\nhttps://doi.org/10.1108/ijppm-07-2019-0317. \r\n[30] S. Ullah, F. Khan, N. Ahmad, Promoting sustainability through green innovation adoption: a case of manufacturing industry, Environ. Sci. Pollut. Res. 29 (14) \r\n(2022) 21119–21139, https://doi.org/10.1007/s11356-021-17322-8. \r\n[31] L. Ji, The impact of technological innovation on the upgrading of China’s manufacturing industry structure: the moderating effect of financing constraints, \r\nTechnol. Econ. 37 (11) (2018) 30–36. \r\n[32] X. Zhai, Y. An, Analyzing influencing factors of green transformation in China’s manufacturing industry under environmental regulation: a structural equation \r\nmodel, J. Clean. Prod. 251 (2020) 119760, https://doi.org/10.1016/j.jclepro.2019.119760. \r\n[33] S. Tian, Y. Xu, Y. Fan, The impact of new driving forces of data elements on high-quality development of manufacturing industry, Stat. Inf. Forum 38 (8) (2023) \r\n55–66. https://link.cnki.net/urlid/61.1421.C.20230718.0926.002. \r\n[34] S. Yin, Y. Zhao, An agent-based evolutionary system model of the transformation from building material industry (BMI) to green intelligent BMI under supply \r\nchain management, Humanit. Soc. Sci. Commun. 11 (1) (2024) 468, https://doi.org/10.1057/s41599-024-02988-5. \r\n[35] B. Hall, J. Reenen, How effective are fiscal incentives for R&D? A review of the evidence, Res. Pol. 29 (4) (2000) 449–469, https://doi.org/10.1016/S0048-7333 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "(99)00085-2. \r\n[36] X. Wang, Q. Zhang, J. Hou, The impact of R&D investment and government subsidies on enterprise innovation performance, Stat. Inf. Forum 37 (2) (2022) \r\n108–116. https://link.cnki.net/urlid/61.1421.C.20220303.1014.004. \r\n[37] Y. Li, Y. Xu, The impact of tax incentives on the innovation level of advanced manufacturing enterprises, Tax, Res. (05) (2021) 31–39, https://doi.org/ \r\n10.19376/j.cnki.cn11-1011/f.2021.05.006. \r\n[38] S. Ren, Z. Lu, Financing constraints, government subsidies, and total factor productivity: an empirical study from Chinese equipment manufacturing enterprises, \r\nManag, World 11 (2014) 10–23+187, https://doi.org/10.19744/j.cnki.11-1235/f.2014.11.003. \r\n[39] Z. Li, S. Yang, J. Lu, Heterogeneous effects of government subsidies on total factor productivity of manufacturing enterprises, Econ, Manag 41 (3) (2019) 5–20, \r\nhttps://doi.org/10.19616/j.cnki.bmj.2019.03.001. \r\n[40] S. Girma, Y. Gong, H. Gorg, ¨ Z. Yu, Can production subsidies explain China’s export performance? Evidence from firm-level data, Scand, J. Econ. 111 (4) (2009) \r\n863–891, https://doi.org/10.1111/j.1467-9442.2009.01586.x. \r\nB. Yan and Y. Wang \nHeliyon 10 (2024) e35858\r\n13\r\n[41] R. Shu, Is industrial policy effective?—an empirical analysis based on industrial data, Ind. Econ. Res. 3 (2013) 45–54+63, https://doi.org/10.13269/j.cnki. \r\nier.2013.03.006. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 470,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "[42] X. Yang, W. Liu, Have fiscal R&D subsidies and tax incentives stimulated substantive innovation in manufacturing enterprises?—a study based on propensity \r\nscore matching and sample quantile regression, Econ. Rev. 10 (3) (2019) 115–130, https://doi.org/10.14007/j.cnki.cjpl.2019.03.010. \r\n[43] D. Liu, T. Chen, X. Liu, Y. Yu, Do more subsidies promote greater innovation? Evidence from the Chinese electronic manufacturing industry, Econ. Model. 80 \r\n(2019) 441–452, https://doi.org/10.1016/j.econmod.2018.11.027. \r\n[44] A. Setiawan, I. Primiana, E. Sule, U. Kaltum, Determinants and relations of competition and performance in cable manufacturing industry, Pol. J. Manag. Stud. \r\n23 (1) (2021) 341–351, https://doi.org/10.17512/pjms.2021.23.1.21. \r\n[45] X. Ye, J. Liu, The impact of government support and degree of marketization on technological progress in manufacturing industry, Econ. Res 55 (5) (2020) \r\n83–98. \r\n[46] P. Lv, Y. Yuan, Industrial synergy clustering, technological innovation, and high-quality economic development: an empirical analysis based on productive \r\nservices and high-tech manufacturing, Theor. Pract. Financ. Econ. 41 (6) (2020) 118–125, https://doi.org/10.16339/j.cnki.hdxbcjb.2020.06.016. \r\n[47] W. Xu, A. Fan, The path of optimization and upgrading of manufacturing structure under the drive of internet technology: empirical evidence from provincial \r\npanel data in China, J. Shanxi Univ. Financ. Econ. 40 (7) (2018) 45–57, https://doi.org/10.13781/j.cnki.1007-9556.2018.07.004. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "[48] Y. Hu, D. Yu, Internet, technological path selection, and high-quality development of manufacturing industry, Financ, Trade Res. 34 (11) (2023) 1–13, https:// \r\ndoi.org/10.19337/j.cnki.34-1093/f.2023.11.001. \r\n[49] M. Song, X. Liu, Construction of innovative infrastructure promotes carbon emission reduction in manufacturing industry: mechanism and evidence, J. Nanjing \r\nUniv. (Philos., Humanit. Soc. Sci.) 60 (6) (2023) 112–126. \r\n[50] J. Liu, H. Chang, J. Forrest, B. Yang, Influence of artificial intelligence on technological innovation: evidence from the panel data of China’s manufacturing \r\nsectors, Technol. Forecast. Soc. Chang. 158 (2020) 120142, https://doi.org/10.1016/j.techfore.2020.120142. \r\n[51] A. Li, S. Li, X. Yin, Technological innovation, digital investment, and the international competitiveness of China’s manufacturing industry, J. Beijing Technol. \r\nBus. Univ. (Soc. Sci.) 38 (5) (2023) 60–72. \r\n[52] X. Xiao, J. Wang, X. Dong, How does digital transformation affect substantive innovation in manufacturing?—perspectives on \"digital empowerment\" and \r\n\"digital divide\", J. Zhejiang Univ. (Humanit. Soc. Sci) 53 (10) (2023) 28–50. \r\n[53] Z. Yan, J. Yu, Government subsidies and total factor productivity of enterprises: a comparative analysis of emerging industries and traditional manufacturing \r\nindustries, Ind. Econ. Res. (01) (2017) 1–13, https://doi.org/10.13269/j.cnki.ier.2017.01.001. \r\n[54] B. Lin, W. Wu, M. Song, Industry 4.0: driving factors and impacts on firm’s performance: an empirical study on China’s manufacturing industry, Ann. Oper. Res \r\n329 (2023) 47–67. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "[55] Z. Chen, Y. Liu, Government subsidies, corporate innovation, and high-quality development of manufacturing enterprises, Reform 8 (2019) 140–151. \r\n[56] L. Song, X. Wang, Government subsidies and changes in industrial structure, China Ind. Econ. (4) (2013) 94–106, https://doi.org/10.19581/j.cnki. \r\nciejournal.2013.04.008. \r\n[57] Y. Fu, X. Ye, Z. Wang, Technological progress path selection for optimizing the structure of manufacturing industry: empirical analysis based on dynamic panel \r\ndata, China Ind. Econ. 9 (2014) 78–90, https://doi.org/10.19581/j.cnki.ciejournal.2014.09.006. \r\n[58] Y. Chen, Y. Zhan, M. Bhatti, The staged government intervention, situational characteristics and innovation: evidence from China, Hum. Syst. Manag. 39 (2) \r\n(2020) 293–308, https://doi.org/10.3233/hsm-190795. \r\n[59] H. Zhu, H. Fang, F. Hua, W. Shao, P. Cai, The impact of environmental regulations on the upgrading of the industrial structure: evidence from China, Heliyon 10 \r\n(5) (2024) e27091, https://doi.org/10.1016/j.heliyon.2024.e27091. \r\n[60] B. Yan, Q. Dong, Q. Li, L. Yang, U. Fahim, A study on the interaction between logistics industry and manufacturing industry from the perspective of integration \r\nfield, PlOS ONE 17 (3) (2022) e0264585, https://doi.org/10.1371/journal.pone.0264585. \r\n[61] X. Ren, X. Qin, Y. Li, Y. Tian, Impact of the digital economy on the green transformation of China’s manufacturing industry: a dual perspective of technological \r\ninnovation and industrial structure optimization, J. Glob. Inf. Manag. 31 (6) (2023) 22, https://doi.org/10.4018/JGIM.321179. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6435461623896035833,
+        "filename": "main.PMC11365399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 161,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "[62] H. Aregawi, B. Patnaik, Impact of government intervention on manufacturing enterprises innovation level, in Ethiopia, Cogent Econ. Financ. 11 (1) (2023) \r\n2182034, https://doi.org/10.1080/23322039.2023.2182034. \r\n[63] X. Zheng, X. Zhang, D. Fan, Digital transformation, industrial structure change, and economic growth motivation: an empirical analysis based on manufacturing \r\nindustry in Yangtze River Delta, PLoS One 18 (5) (2023) e0284803, https://doi.org/10.1371/journal.pone.0284803. \r\nB. Yan and Y. Wang \n\n"
+  }
+]

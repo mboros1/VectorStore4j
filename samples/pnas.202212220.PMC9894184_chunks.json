@@ -1,0 +1,914 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "PNAS  2022  Vol. 119  No. 49  e2212220119 https://doi.org/10.1073/pnas.2212220119   1 of 11\r\nRESEARCH ARTICLE |\r\nSignificance\r\nMetabolic homeostasis plays a \r\nvital role in animal growth. Here, \r\nwe show that acetylation of fatty \r\nacid synthase (FASN) contributes \r\nto de novolipogenesis during fly \r\ndevelopment. Although \r\nacetylation of most proteins is \r\ncatalyzed by various \r\nacetyltransferases (KATs), we \r\nunexpectedly find that \r\nacetylation of FASN at K813 \r\nresidue does not require the \r\nparticipation of any known KATs, \r\nwhile it is directly regulated by \r\nabundance of acetyl-CoA via a \r\nconserved motif nearby K813. \r\nThe ability to sense and respond \r\nto nutrient availability is essential \r\nfor organisms to maintain \r\nmetabolic homeostasis and \r\nsustain life. Our work highlights a \r\nnovel metabolite sensing \r\nmechanism and a self-regulatory \r\nsystem in the control of \r\nmetabolic homeostasis through \r\nacetyl-CoA-mediated \r\nautoacetylation.\r\nAuthor contributions: T.M. and H.B. designed research; \r\nT.M., J.K., P.K., H.F., F.-F.H., and H.B. performed research; \r\nT.M. and H.B. analyzed data; and T.M. and H.B. wrote the \r\npaper.\r\nThe authors declare no competing interest.\r\nThis article is a PNAS Direct Submission.\r\nCopyright © 2022 the Author(s). Published by PNAS. \r\nThis article is distributed under Creative Commons \r\nAttribution-NonCommercial-NoDerivatives License 4.0 \r\n(CC BY-NC-ND).\r\n1\r\nTo whom correspondence may be addressed. Email: \r\nhbai@iastate.edu.\r\nThis article contains supporting information online at \r\nhttps://www.pnas.org/lookup/suppl/doi:10.1073/pnas.\r\n2212220119/-/DCSupplemental.\r\nPublished December 2, 2022.\r\nDEVELOPMENTAL BIOLOGY\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Acetyl-CoA-mediated autoacetylation of fatty acid synthase as a \r\nmetabolic switch of de novo lipogenesis in Drosophila\r\nTing Miaoa , Jinoh Kima , Ping Kanga, Hideji Fujiwarab, Fong-Fu Hsub , and Hua Baia,1\r\nEdited by Utpal Banerjee, University of California Los Angeles, Los Angeles, CA; received July 16, 2022; accepted October 31, 2022\r\nDe novo lipogenesis is a highly regulated metabolic process, which is known to be acti\u0002vated through transcriptional regulation of lipogenic genes, including fatty acid synthase \r\n(FASN). Unexpectedly, we find that the expression of FASN protein remains unchanged \r\nduring Drosophila larval development from the second to the third instar larval stages \r\n(L2 to L3) when lipogenesis is hyperactive. Instead, acetylation of FASN is significantly \r\nupregulated in fast-growing larvae. We further show that lysine K813 residue is highly \r\nacetylated in developing larvae, and its acetylation is required for elevated FASN activity, \r\nbody fat accumulation, and normal development. Intriguingly, K813 is autoacetylated by \r\nacetyl-CoA (AcCoA) in a dosage-dependent manner independent of acetyltransferases. \r\nMechanistically, the autoacetylation of K813 is mediated by a novel P-loop-like motif \r\n(N-xx-G-x-A). Lastly, we find that K813 is deacetylated by Sirt1, which brings FASN \r\nactivity to baseline level. In summary, this work uncovers a previously unappreciated role \r\nof FASN acetylation in developmental lipogenesis and a novel mechanism for protein \r\nautoacetylation, through which Drosophila larvae control metabolic homeostasis by \r\nlinking AcCoA, lysine acetylation, and de novo lipogenesis.\r\nde novo lipogenesis | FASN | autoacetylation | acetyl-CoA | animal development\r\nDe novo lipogenesis (DNL) is a complex yet highly regulated metabolic process which \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 479,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "converts excess carbohydrates into fatty acids that are then esterified to storage triglyc\u0002eride (TAG) (1, 2). Abnormal upregulation of DNL is a vital contributor to increased \r\nfat mass in the pathogenesis of various metabolic disorders involving non-alcoholic fatty \r\nliver disease and diabetes and in the progression of tumors (3–7). DNL is known to be \r\ntranscriptionally regulated via sterol regulatory element-binding protein 1 (SREBP1c) \r\nand carbohydrate-responsive element-binding protein (ChREBP) in response to met\u0002abolic and hormonal cues (8–10). However, it has been recently proposed that allosteric \r\nregulation and post-translational modifications (PTMs) are indispensable to control \r\nmetabolic flux since the timescale of the gene expression is too long to balance the quick \r\nturnover of metabolites (11). Lipid anabolism is active during Drosophila larval devel\u0002opment, and the excessive TAG storage in larvae is an essential reservoir for surviving \r\nfrom starvation in the post-feeding pupa stage of metamorphosis (12, 13). The fatty \r\nacids stockpiled in TAG are either derived from the diet or DNL (3, 4, 14, 15). Regulated \r\nby hormonal and transcriptional programs, the mRNA expressions of multiple enzymes \r\nin DNL pathways, including acetyl-CoA carboxylase (ACC) and fatty acid synthase \r\n(FASN), correlate with the dynamic changes in TAG levels in fly embryonic and larval \r\ndevelopment (12, 13, 16, 17). However, whether PTMs are involved in the regulation \r\nof developmental DNL is poorly studied.\r\nLysine acetylation has recently risen as a novel player that links metabolites [e.g., acetyl \r\ncoenzyme A (acetyl-CoA)], cell signaling, and gene regulation (18, 19). Previous acetylome \r\nstudies found that almost all metabolic enzymes are acetylated (20–22), including FASN \r\n(23–25). FASN, an essential cytosolic enzyme in DNL pathway, catalyzes the biosynthesis of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "saturated fatty acids from acetyl-CoA (AcCoA) and malonyl coenzyme A (malonyl-CoA) (26). \r\nRecently, FASN has emerged as a novel therapeutic target for the treatment of obesity, diabetes, \r\nfatty liver diseases, and cancers (6, 27–29). Although FASN is known to be regulated through \r\nSREBP1-mediated transcriptional activation (8–10), several conflicting results show little cor\u0002relation between FASN expression and its enzymatic activity (23, 24, 30–32). These findings \r\nsuggest a possible involvement of PTMs in the regulation of FASN function. Phosphorylation \r\nand acetylation have been proposed as alternative mechanisms of FASN regulation (23–25). \r\nNevertheless, how PTMs regulate FASN activity and lipogenesis remains largely unknown.\r\nAlthough protein acetylation is mainly catalyzed by lysine acetyltransferases (KATs), it has \r\nbeen recently reported that acetylation also arises from a nonenzymatic reaction with AcCoA \r\nin eukaryotes (33–35). AcCoA is the acetyl donor for protein acetylation and is a reactive \r\nmetabolic intermediate involved in various metabolic pathways (36). The levels of AcCoA \r\nfluctuate in response to both intracellular and extracellular cues (e.g., growth signals and \n2 of 11   https://doi.org/10.1073/pnas.2212220119 pnas.org\r\nnutrient conditions), which consequently impacts chromatin modi\u0002fications and transcriptional reprogramming (36, 37). Previously, it \r\nwas thought that nonenzymatic acetylation only occurs to mitochon\u0002dria proteins, as high concentrations of AcCoA and alkaline environ\u0002ment inside mitochondrial matrix favor lysine nucleophilic attack on \r\nthe carbonyl carbon of AcCoA (34). In recent years, the capability of \r\nenzyme-independent acetylation of cytosolic proteins was also deter\u0002mined (33, 38). Yet, the mechanism of nonenzymatic acetylation, \r\nespecially of cytosolic proteins, remains elusive.\r\nHere, we show that the expression of Drosophila FASN (dFASN \r\nor FASN1) protein remains unchanged during larval development, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "the stages when lipogenesis is hyperactive. In contrast, acetylation \r\nof dFASN at K813 is significantly induced in response to increased \r\ncellular AcCoA levels, which elevates dFASN enzymatic activity \r\nand lipogenesis in fast-growing larvae. Strikingly, we find that \r\nacetylation of K813 is controlled through a unique KAT\u0002independent mechanism that involves a novel motif “N-xx-G\u0002x-A.” In summary, our findings uncover a novel AcCoA-mediated \r\nself-regulatory module that regulates developmental lipogenesis \r\nvia autoacetylation of dFASN.\r\nResults\r\nAcetylation Modification of dFASN, but Not Protein Expression, \r\nIs Positively Correlated with DNL during Drosophila Larval \r\nDevelopment. Drosophila development takes around 10 d, with \r\nthe embryonic stage, three larval stages (L1, L2, and L3 instar \r\nlarval stages), non-feeding wandering larval stage, and pupal stage. \r\nAnabolic pathways, including DNL, are highly activated during \r\nlarval growth, and Drosophila larvae undergo more than a 200-\r\nfold increase in body mass in less than 4 d (39, 40). Consistent \r\nwith that, TAG storage dramatically increased during larval \r\ndevelopment, especially at the L3 stage (Fig. 1A).\r\nUpregulation of DNL is a significant contributor to increased \r\nfat mass (3, 4). We found that enzymatic activity of the lipogenic \r\nenzyme dFASN was upregulated with larval growth and was highly \r\ncorrelated with TAG levels (Fig. 1B). The activation of FASN is \r\nmainly through upregulation of transcription and translation \r\n(8–10). Although the mRNA expression was slightly induced at \r\nL3 stage (96 h after egg laying, 96 h AEL) (Fig. 1C), we surpris\u0002ingly found that the protein expression of dFASN remained \r\nunchanged from 48 to 96 h AEL (Fig. 1 D and E). These results \r\nwere consistent with previously published developmental RNA\u0002seq and proteomics analysis (SI Appendix, Fig. S1 L and M), \r\nalthough both dFASN mRNA and protein expression were highly \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "correlated with TAG accumulation when the entire development \r\nstages, from embryo to pupa, were considered (SI Appendix, Fig. \r\nS1 L and M). These data suggest that PTMs might be involved in \r\ndFASN activation and fine-tune dFASN function at the fast-grow\u0002ing L3 stage.\r\nTo investigate the role of PTMs in regulating dFASN function, \r\nwe generated a knock-in fly line through CRISPR/Cas9-mediated \r\nhomology-directed repair (HDR) technique, in which a 3xFlag \r\ntag was precisely inserted at the 3′-end of the dFASN coding \r\nFig. 1. Acetylation of dFASN, but not protein expression, is positively correlated with de novo lipogenesis during Drosophila larval development. (A) Stage-specific \r\ntriglyceride (TAG) level in Drosophila larvae. TAG (mg) was normalized against total protein amount or number of larvae (or pupa). AEL: after egg laying. L2: 2nd \r\ninstar larvae. L3: 3rd instar larvae. W: wandering larvae. P: pupae. (B) Stage-specific dFASN enzymatic activity. dFASN activity was determined by oxidized NADPH \r\nper minute per mg of total protein. (C) Stage-specific dFASN mRNA abundance analyzed by qRT-PCR. (D and E) Stage-specific dFASN protein expression analyzed \r\nby western blotting with an antibody recognizing dFASN (anti-dFASN). (F and G) Stage-specific endogenous FASN-Flag protein expression analyzed by western \r\nblotting with anti-Flag antibody. (H and I) Stage-specific dFASN acetylation. dFASN-Flag was immunoprecipitated from FASNFlag larvae followed by western blotting \r\nanalyses. dFASN acetylation was detected by anti-acetylated-lysine antibody (anti-Ac-lys). Values shown are mean SD; ns. P > 0.5; *P < 0.05; **P < 0.01; ***P < \r\n0.001; and ****P < 0.0001. One-way ANOVA (vs. 48 h).\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "PNAS  2022  Vol. 119  No. 49  e2212220119 https://doi.org/10.1073/pnas.2212220119   3 of 11\r\nregion (SI Appendix, Fig. S1 A–E). The knock-in lines are homozy\u0002gous viable, fertile, and exhibit normal larval development and \r\nbody fat accumulation (SI Appendix, Fig. S1 F–H). Similar to the \r\nabove western blot analysis using dFASN antibodies (Fig. 1 \r\nD and E), the levels of endogenous dFASN proteins from 3xFlag \r\nknock-in flies were not changed from L2 to L3, either (Fig. 1 F\r\nand G). However, dFASN protein expression was decreased at 120 h \r\nAEL (wandering stage) (Fig. 1 D–G), which may also contribute \r\nto the lower levels of dFASN activity.\r\nPhosphorylation and acetylation are two known modifications \r\nof FASN identified from previous studies (23–25). To characterize \r\nthese two modifications during larval development, we immuno\u0002precipitated endogenous dFASN from the knock-in fly line \r\nFASNFlag with an anti-Flag antibody followed by western blot \r\nanalysis. Intriguingly, the acetylation levels of dFASN were highly \r\ncorrelated with its enzymatic activity, with a peak at 96 h AEL \r\n(Fig. 1 H and I). In comparison, phosphorylation of dFASN did \r\nnot change from 48 to 96 h AEL (SI Appendix, Fig. S1I). To \r\nexclude the possibility that increased dFASN acetylation at L3 \r\nlarvae is due to global changes in acetylome, we measured histone \r\nacetylation marks in developing larvae. Interestingly, none of the \r\nhistone acetylation marks changed significantly throughout larval \r\ndevelopment (SI Appendix, Fig. S1J). We also checked stage-spe\u0002cific global protein acetylation and found that not all protein \r\nacetylation increased at L3 stage (SI Appendix, Fig. S1K). These \r\nresults suggest that upregulated dFASN acetylation is not due to \r\nchanges in global acetylation. Taken together, our results indicate \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "acetylation of dFASN, instead of transcription and translation, is \r\nthe primary regulatory mechanism for accelerated DNL in \r\nfast-growing L3 larvae.\r\nK813 Is a Crucial Acetylated Lysine for DNL, Body Fat Accumulation, \r\nand Normal Drosophila Development. To identify the acetylated \r\nlysine sites of dFASN, we carried out a proteomic analysis with \r\nimmunoprecipitated dFASN from FASNFlag Flies. Eight lysine \r\nresidues distributed on four different domains of dFASN were \r\nidentified (SI Appendix, Fig. S2A). When comparing these lysine \r\nsites with previous acetylome studies, we found that K813 and \r\nK926 were the most frequently acetylated residues, and both sites \r\nare evolutionarily conserved (SI Appendix, Fig. S2 B and C).\r\nWe next explored the functional role of acetylated K813 and \r\nK926 in developmental lipogenesis with two acetylation-deficient \r\nmutants (Lys to Arg substitution), FASNK813R and FASNK926R (SI \r\nAppendix, Figs. S2D and S3 A–D). Remarkably, FASNK813R\r\nmutants, but not FASNK926R, showed decreased dFASN enzymatic \r\nactivity and body fat accumulation at 96 h AEL (Fig. 2 A and B). \r\nWhen examining the TAG levels throughout developmental \r\nstages, we found that FASNK813R mutants exhibited lower TAG \r\nlevels at almost all stages (Fig. 2C). The protein expression of \r\ndFASN in FASNK813R mutants was not affected (SI Appendix, Fig. \r\nS3 E and F), suggesting that the reduced dFASN activity and TAG \r\nlevels did not result from decreased dFASN protein level. In addi\u0002tion, although dFASN activity is impaired in FASNK813R, its \r\nenzyme function was not destroyed, and the mutants can still \r\ndevelop into viable pupae and adults. While in contrast, dFASN \r\nknockout mutants are homozygous lethal (SI Appendix, Fig. S3D). \r\nTherefore, we hypothesize that acetylation at K813 fine-tunes \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "dFASN activity and lipogenesis during larval development.\r\nDysregulated fatty acid biosynthesis impairs larval growth and \r\ndevelopment (41). Consistently, we found that pupariation of \r\nFASNK813R mutants was significantly delayed, while FASNK926R\r\nexhibited normal development (Fig. 2D). Sufficient larval-derived \r\nbody fat is required for the development of adult tissue at the \r\npupal stage, and insufficient lipid accumulation in larval stages \r\nmay cause growth deficiency (42). Indeed, the body weight of \r\nFASNK813R adults was significantly decreased (SI Appendix, Fig. \r\nS3G). Given that the acetylation of K813, not K926, is required \r\nfor the elevated dFASN activity, increased fat accumulation, and \r\nnormal larval development, we speculate that K813 acetylation \r\nmay be positively correlated with dFASN activity. As predicted, \r\nthe acetylation of K813 significantly increased at 96 h AEL when \r\ntested with a newly generated antibody specific to acetylated K813 \r\n(acK813) (Fig. 2 E and F and SI Appendix, Fig. S2E).\r\nEukaryotic FASN is a multifunctional protein containing \r\nseven activity domains (43). K813 is localized at the malonyl/\r\nacetyltransferase (MAT) domain where substrates AcCoA (ini\u0002tiation primer) and malonyl-CoA (MalCoA) (chain extender) \r\nare bound (SI Appendix, Fig. S2 A and B) (26). When examining \r\nthe crystal structure of MAT domains of dFASN and human \r\nFASN (hFASN), we found that K673 of hFASN (homolog of \r\ndFASN K813) was at the substrate docking pocket of the MAT \r\ndomain. The predicted structure of Drosophila protein revealed \r\na similar localization of K813 as that of hFASN K673 (SI \r\nAppendix, Fig. S2F).\r\nThe proximity of K813 to the substrate docking pocket of the \r\nMAT domain hints us to test whether acetylation of K813 mod\u0002ulates dFASN catalytic activity upon MalCoA, the main substrates \r\nof MAT domain. We measured the activity of dFASN from 48 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "and 96 h AEL larvae by incubating protein lysates with different \r\nconcentrations of MalCoA (Fig. 2G). Although dFASN activity \r\nof both groups increased upon high MalCoA concentration, \r\ndFASN from 96 h AEL is more sensitive to the change of MalCoA \r\nlevels. The activity of dFASN from the two larval stages was similar \r\nat low MalCoA concentrations (<60 µM), whereas dFASN activity \r\nfrom 96 h AEL larvae was significantly higher than that of 48 h \r\nAEL upon high MalCoA concentrations (60 to 120 µM). Since \r\ndFASN protein expressions were similar between the two stages \r\n(Fig. 1 D–F), we speculated that the alteration in MalCoA\u0002dependent dFASN activity may be caused by acetylation. \r\nAdditionally, substrate-excess inhibition was observed under high \r\nMalCoA dosages (120 to 200 µM) in both groups, consistent with \r\nprevious kinetics studies on yeast FASN (44). Notably, the meas\u0002urements of MalCoA in mammalian tissues or flies are generally \r\nin the low micromolar range (45, 46). Here a higher concentration \r\nof MalCoA used in the activity assays was to maintain a similar \r\namount of MalCoA per FASN protein as seen in the normal phys\u0002iological conditions.\r\nNext, we expressed recombinant dFASN proteins, which were \r\nthen used for steady-state kinetics evaluation (Fig. 2H and SI \r\nAppendix, Fig. S3H). The recombinant dFASN proteins with \r\nK813R substitution showed ~30% reduction of the maximum \r\nrate of reaction (Vmax, Malonyl-CoA) compared to wild-type (WT). \r\nConsistent with results in Fig. 2G, WT proteins exhibited higher \r\nactivity than K813R mutants upon higher MalCoA concentra\u0002tions (50 to 200 µM), but not upon low MalCoA concentrations \r\n(<50 µM). These results showed that interfering with the acetyl\u0002ation of K813 alters the kinetics properties of dFASN. Steady\u0002state kinetics over AcCoA was also evaluated and there was no \r\ndifference between WT and K813R mutants (SI Appendix, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Fig. S3I).\r\nTaken together, our findings show that K813 localizes at the \r\nsubstrate docking pocket of the MAT domain, and acetylation of \r\nK813 may alter the conformation of the docking pocket to \r\nenhance enzyme activity at high substrate concentrations. Here, \r\nwe propose a fine-tune mechanism of dFASN regulation in which \r\nacetylation of K813 modulates dFASN catalytic activity and lipo\u0002genesis in response to fluctuated substrate availability during larval \r\ndevelopment.\n4 of 11   https://doi.org/10.1073/pnas.2212220119 pnas.org\r\nK813 Is Autoacetylated by AcCoA and Is Regulated by \r\nIntracellular AcCoA Flux In Vivo. The unique pattern of dFASN \r\nacetylation indicates that it is tightly regulated during Drosophila\r\ndevelopment. We next asked how acetylation of dFASN, \r\nespecially K813, is regulated. Proteins are primarily acetylated \r\nand deacetylated by acetyltransferases (KATs) and deacetylases \r\n(KDACs), respectively (47). To identify the KAT that regulates \r\ndFASN acetylation in developing larvae, we first checked the \r\nmRNA expression of Drosophila KATs in previous transcriptomic \r\nanalysis (SI Appendix, Fig. S4 A and B). Interestingly, none of the \r\nKATs showed upregulation in L3 stage when dFASN acetylation \r\nis elevated. Next, a genetic screen was performed to identify \r\nKATs that are involved in TAG accumulation (SI Appendix, Fig. \r\nS4C). Loss-of-function mutations of Gcn5, Tip60, Chm, and \r\nMof exhibited elevated TAG levels, while Elp3 mutants showed \r\nreduced TAG at L3 stage, suggesting that Epl3 may be a positive \r\nregulator for lipogenesis and potentially dFASN acetylation. \r\nLastly, we overexpressed the KATs in Drosophila Kc167 cells \r\nand measured the acetylation level of K813 (SI Appendix, Fig. \r\nS4 D and E). The five KATs that were shown to regulate TAG \r\naccumulation were cloned to expression vectors. Unexpectedly, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 475,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "ectopic expression of all five KATs failed to induce acetylation \r\nof dFASN at K813. These data suggest that acetylation of K813 \r\nmight be regulated by an unknown KAT, or through a unique \r\nKAT-independent mechanism.\r\nExcept being enzymatically catalyzed by KATs, lysine acetyla\u0002tion also arises from a nonenzymatic reaction with AcCoA. \r\nInterestingly, nonenzymatic acylation of FASN was observed in a \r\nrecent global nonenzymatic acylation screen (38). However, no \r\nfollow-up validation was performed to confirm if FASN is non\u0002enzymatically modified by either AcCoA or other acyl-CoAs. To \r\nexplore the possibility that dFASN acetylation is regulated through \r\na nonenzymatic mechanism, we measured the acetylation of \r\ndFASN in vitro by incubating recombinant dFASN with 5 to 20 µM \r\nof acetyl-CoA (AcCoA), the dosages close to actual cytosolic \r\nAcCoA levels (34). Intriguingly, dFASN was rapidly acetylated by \r\nas few as 5 µM of AcCoA in 1 h (Fig. 3 A and B). Consistent with \r\nthe idea that nonenzymatic acetylation favors alkaline conditions \r\n(34, 48), the acetylation levels of recombinant dFASN were higher \r\nat pH8.0 than at pH7.0. In contrast, bovine serum albumin (BSA) \r\nshowed no autoacetylation, even when the proteins were incubated \r\nwith 200 µM of AcCoA for 6 h (Fig. 3 C and D). More strikingly, \r\nautoacetylation of dFASN was largely blocked by K813R substi\u0002tution (Fig. 3E), suggesting that K813 is the primary residue of \r\nFig. 2. K813 is a crucial acetylated lysine for de novo lipogenesis, body fat accumulation, and normal Drosophila development. (A) dFASN enzymatic activity \r\nof WT (ywR\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "), FASNK813R, and FASNK926R at L3 stage. dFASN activity was determined by oxidized NADPH per minute per mg of protein. (B) TAG level of WT (ywR), \r\nFASNK813R, and FASNK926R at L3 stage. TAG (mg) was normalized against total protein amount (mg) (Left) and number of larva (or pupa). (C) Stage-specific TAG level \r\nof WT (ywR\r\n) and FASNK813R. TAG (mg) was normalized against total protein amount (mg). (D) Developmental timing of WT (ywR), FASNK813R, and FASNK926R. Number \r\nof pupariation was counted every 2 to 4 h. (E and F) Site-specific acetylation at K813 in larval development stages determined by western blotting analyses. \r\nAcetylation of K813 was measured by an antibody specifically recognizing acetylated K813 (anti-AcK813). (G) Malonyl-CoA (MalCoA)-dependent dFASN activity at \r\nL2 and L3. (H) Steady-state kinetics evaluation of WT and K813R recombinant dFASN upon malonyl-CoA. Values shown are mean SD; ns. P > 0.5; *P < 0.05; **P < \r\n0.01; ***P < 0.001; and ****P < 0.0001. A and B: One-way ANOVA (vs. ywR\r\n); C: Multiple t test; D: Log-rank test (vs. ywR); F: One-way ANOVA (vs. 48 h); G: t-test; H: \r\nMichaelis–Menten analysis.\nPNAS  2022  Vol. 119  No. 49  e2212220119 https://doi.org/10.1073/pnas.2212220119   5 of 11\r\nFig. 3. K813 is autoacetylated by acetyl-CoA and is regulated by intracellular acetyl-CoA flux in vivo. (A and B) Acetylation of dFASN by acetyl-CoA (AcCoA). Recombinant \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 471,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "dFASN was incubated with 0, 5, 10, or 20 µM of AcCoA at pH7.0 or pH8.0 for 1 h prior to western blotting analyses with anti-Ac-lys. Folds of induction over 0 µM of \r\nAcCoA treatment were shown in (B). (C and D) Acetylation of BSA by AcCoA treatment. BSA was incubated with 0, 20, or 200 µM of AcCoA at pH7.0 or pH8.0 for 6 h \r\nprior to western blotting analyses with anti-Ac-lys. Folds of induction over 0 µM of AcCoA treatment were shown in (D). (E) Acetylation of WT or K813R dFASN by AcCoA \r\ntreatment. WT or K813R recombinant dFASN was incubated with 0, 10, or 20 µM of AcCoA at pH8.0 for 1 h or 3 h prior to western blotting analyses. (F) Steady-state \r\nkinetics evaluation of WT and K813R of recombinant dFASN post-AcCoA treatment. WT or K813R recombinant dFASN were incubated with 20 µM of AcCoA at pH7.0 \r\nfor 0 or 1 h before activity assay. (G and H) Intracellular AcCoA and malonyl-CoA (MalCoA) levels of developing Drosophila larvae. Figures showed folds of induction over \r\n48 h AEL. (I) Intracellular AcCoA levels of WT (ywR\r\n), ATPCL−/+, and AcCoAS−/+. (J and K) Acetylation of K813 in WT (ywR), ATPCL−/+, and AcCoAS−/+ at L3 larval stage. (L and M) \r\nAcetylation of K813 of ywR L3 larvae supplemented with acetate determined by western blotting analyses with anti-AcK813. (N) dFASN enzymatic activity of ywR (WT) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "and FASNK813R L3 larvae supplemented with acetate. dFASN activity was determined by oxidated NADPH per minute per mg of protein. (O) TAG level in ywR (WT) and \r\nFASNK813R L3 larvae supplemented with acetate. TAG (mg) was normalized against total protein amount (mg). Values shown are mean SD; ns. P > 0.5; *P < 0.05; **P < \r\n0.01; and ***P < 0.001. F: Michaelis–Menten analysis; G, H, I and M: t test; K: One-way ANOVA (vs. WT); N and O: One-way ANOVA (multiple comparisons).\n6 of 11   https://doi.org/10.1073/pnas.2212220119 pnas.org\r\ndFASN that could be autoacetylated. Moreover, recombinant \r\ndFASN pre-incubated with AcCoA showed 16% increases in \r\nVmax, Malonyl-CoA, while Vmax, Malonyl-CoA of K813R mutant protein was \r\nnot altered by AcCoA treatment, suggesting that AcCoA-mediated \r\nautoacetylation of K813 modulates dFASN activity (Fig. 3F). \r\nConsistent with results in Fig. 2H, the activity of WT proteins \r\nwithout AcCoA pre-incubation was similar to that of K813R \r\nmutants upon low MalCoA concentrations (<60 µM), while the \r\nAcCoA-treated WT proteins exhibited a higher activity than the \r\nother groups (SI Appendix, Fig. S3J).\r\nOur observations on dFASN autoacetylation at pH7.0 upon \r\nlow concentrations of AcCoA in a dosage-dependent manner sug\u0002gest that endogenous dFASN proteins may be autoacetylated in \r\nvivo, and an autoregulatory mechanism might be used by devel\u0002oping larvae to fine-tune dFASN acetylation and enzymatic activ\u0002ity in response to fluctuating cytosolic AcCoA levels. To explore \r\nthis idea, we first measured larvae AcCoA levels by LC-MS/MS \r\nand found that AcCoA increased at 96 h AEL compared to 48 h \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "AEL (Fig. 3G). ATP citrate lyase (ATPCL) and acetyl coenzyme \r\nA synthase (AcCoAS) are two main contributors to the cytosolic \r\nAcCoA pool (36). mRNA expressions of the two genes are both \r\nupregulated at L3 stage (SI Appendix, Fig. S4F), consistent with \r\nour LC-MS/MS results. MalCoA was also elevated at 96 h AEL \r\n(Fig. 3H), supporting our hypothesis that K813 acetylation fine\u0002tunes dFASN activity in response to fluctuated substrate MalCoA \r\navailability during larval development.\r\nNext, to determine whether AcCoA-producing enzymes regu\u0002late dFASN acetylation in vivo, we measured AcCoA levels and \r\nacetylation of K813 in ATPCL and AcCoAS loss-of-function \r\nmutants. AcCoA was significantly dropped in ATPCL[01466]/+ and \r\nAcCoAS[MI12066]/+ mutants at 96 h AEL, and K813 acetylation was \r\nreduced 50% in both mutants (Fig. 3 I–K). Acetate supplemen\u0002tation is commonly used to elevate cytosolic AcCoA and restore \r\ncompromised histone acetylation (49–51). When manipulating \r\ncytosolic AcCoA in developing larvae by acetate feeding, we found \r\nthat acetylation of dFASN at K813 in early L3 larvae was signif\u0002icantly increased (Fig. 3 L and M). These data suggest that K813 \r\nacetylation is sensitive to cytosolic AcCoA flux. Furthermore, \r\nboth dFASN activity and TAG accumulation of WT early L3 \r\nlarvae were increased under acetate feeding, while the elevations \r\nwere blocked in FASNK813R mutants (Fig. 3 N and O). These \r\nresults demonstrate that autoacetylation of dFASN in response \r\nto AcCoA flux plays a vital regulatory role in fly developmental \r\nlipogenesis.\r\nN-xx-G-x-A Motif Is Required for Autoacetylation of K813. It has \r\nbeen shown that mitochondrial proteins can be acetylated when \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "incubated with high dosages of AcCoA (200 µM to 1.5 mM) in \r\nalkaline buffer (pH = 8.0) for over 3 h (34, 52). However, our \r\nresults revealed that dFASN could be acetylated under a much \r\ntougher condition (Fig. 3 A and B), suggesting that an efficient \r\nand unique mechanism is involved in AcCoA-mediated dFASN \r\nautoacetylation.\r\nTo uncover the mechanism underlying dFASN autoacetylation, \r\nwe expressed recombinant KS-MAT didomain of dFASN using \r\nin Escherichia coli BL21 (DE3) expression system (53) (SI \r\nAppendix, Fig. S4G). For system validation, we incubated recom\u0002binant KS-MAT with different amounts of AcCoA for 1 h and \r\nchecked the acetylation of K813 by western blot analysis. Same \r\nas recombinant dFASN produced by the Bac-to-Bac expression \r\nsystem, recombinant KS-MAT was also autoacetylated by AcCoA \r\nin a dosage-dependent manner, although the induction of auto\u0002acetylation was not as strong as the full-length dFASN (Fig. 4A). \r\nAcetylation of recombinant KS-MAT under 20 µM AcCoA \r\ntreatment was not prominent, which could be due to the differ\u0002ences in protein folding between prokaryotic and eukaryotic \r\nexpression systems. Therefore, 200 µM of AcCoA was applied for \r\nthe following analyses. We further confirmed that K813R substi\u0002tution blocked AcCoA-mediated autoacetylation of recombinant \r\nKS-MAT proteins (Fig. 4B). In contrast, K926R substitution did \r\nnot affect autoacetylation of KS-MAT by AcCoA treatment \r\n(Fig. 4B).\r\nPrevious studies found that high stoichiometry acetylation of \r\nlysine is associated with neighboring cysteine (54), and peptides \r\ncontaining a cysteine near a lysine residue exhibit increased non\u0002enzymatic acetylation in vitro (52). However, we could not locate \r\nany cysteine near K813 residue from the primary and tertiary \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "structure of dFASN. Since dFASN can be rapidly acetylated by \r\nlow concentration of AcCoA at the neutral condition, we wonder \r\nwhether dFASN has adapted some features of KATs to facility its \r\nautoacetylation. Intriguingly, we found a highly conserved motif \r\n(N-xx-G-x-A, where x denotes any amino acid), two amino acids \r\naway from K813, which resembles the signature P-loop sequence \r\n(R/Q-xx-G-x-A/G) of KATs (55). The alignment of the FASN \r\namino acid sequences from a variety of animal species revealed \r\nthat the first position of the motif is conditionally conserved (N \r\nin invertebrates and R/Q in vertebrates), while the fourth (G) and \r\nsixth (A) positions of the motif are highly conserved across all \r\nspecies (Fig. 4C).\r\nP-loop is an invariant sequence in KATs motif A for AcCoA \r\nrecognition and binding, and KATs activity is largely disrupted \r\nwhen mutating any of the three signature residues (56–59). To \r\ninvestigate the role of the N-xx-G-x-A motif in K813 autoacetyl\u0002ation, we expressed three recombinant proteins carrying N816A, \r\nG819A, or A821W substitutions (SI Appendix, Fig. S4G). WT \r\nand mutant proteins were incubated with AcCoA followed by \r\nwestern blot analysis (Fig. 4 D and E). Strikingly, the induction \r\nof K813 acetylation was blocked by all single-site mutations, \r\nN816A, G819A, and A821W. Since A821 is not a surface residue, \r\nto exclude the possibility that the blockage of autoacetylation by \r\nA821W mutant is due to the disruption of protein structure, we \r\nalso tested another substitution, A821M. Similarly, recombinant \r\nproteins with A821M substitution showed no induction of K813 \r\nacetylation by AcCoA. In addition, these single-site substitution \r\nmutations also blocked total acetylation of KS-MAT recombinant \r\nproteins when testing with Ac-lys antibody (Fig. 4E). Together, \r\nthese results demonstrate that N-xx-G-x-A motif is required for \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "autoacetylation of K813.\r\nSirt1-Mediated Deacetylation of dFASN Regulates Lipogenesis \r\nand Developmental Timing in Drosophila Larvae. Finally, we \r\nexamined how K813 is deacetylated. When examining the \r\ndevelopmental expression profiles of fly KDACs from HDACs \r\nand SIRTs family, we found that the pattern of mRNA expression \r\nof Sirt1 negatively correlates with dFASN acetylation, high at L1 \r\nand pupa stage, while low at L3 larval stage (SI Appendix, Fig. S5 \r\nA and B). Then, we conducted a genetic screening to examine \r\nthe role of KDACs in TAG accumulation. Loss-of-function \r\nmutations of three sirtuins (Sirt1, Sirt4, and Sirt7) showed \r\nelevated TAG levels, suggesting a negative role of these sirtuins \r\nin lipogenesis and potentially dFASN acetylation (SI Appendix, \r\nFig. S5C). Nevertheless, only Sirt1 is localized in the cytoplasm (SI \r\nAppendix, Fig. S5A). Moreover, Sirt1 is a known negative regulator \r\nheavily involved in lipid synthesis pathways (60, 61). Altogether, \r\nwe speculated that Sirt1 might be a promising candidate KDAC \r\ndeacetylating dFASN.\r\nNext, we ectopically expressed Sirt1 using daughterless GeneSwitch\u0002Gal4 driver (da-GS-Gal4) at the L3 stage. Remarkably, short-term \nPNAS  2022  Vol. 119  No. 49  e2212220119 https://doi.org/10.1073/pnas.2212220119   7 of 11\r\noverexpression (1 d) of Sirt1 removed acetylation at K813 by about \r\n90%. Notably, overexpression of Sirt1 did not alter dFASN protein \r\nexpression, although it was reported that the transcription of FASN \r\nis indirectly regulated by Sirt1 through deacetylation of SREBP1c \r\n(Fig. 5 A–C) (62–64). We then showed that Sirt1 interacted with \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "MAT domain of dFASN through a co-immunoprecipitation exper\u0002iment by co-expressing HA-tagged Sirt1 and Flag-tagged MAT \r\ndomain in Drosophila Kc167 cells (Fig. 5D). Furthermore, acetylation \r\nof K813 was increased in Sirt1[2A]/+ loss-of-function mutants at L3 \r\nstage (Fig. 5D), which could potentially explain for the elevation of \r\nTAG in Sirt1[2A]/+ (SI Appendix, Fig. S5C). Lastly, our in vitro \r\ndeacetylation assay provided direct evidence that dFASN was \r\ndeacetylated by Sirt1 (SI Appendix, Fig. S5 D and E). More interest\u0002ingly, although WT dFASN recombinant protein exhibited higher \r\nactivity than K813R mutant at 120 µM of MalCoA (Figs. 2H and \r\n3F), there was no significant difference between the activity of \r\ndeacetylated WT dFASN and K813R mutant (SI Appendix, Fig. S5F).\r\nLastly, to determine whether K813 acetylation is required for \r\nSirt1-mediated lipogenesis, we performed an epistasis analysis by \r\nmeasuring TAG levels of Sirt1[2A]/FASNK813R double mutants (Fig. \r\n5G). Intriguingly, the elevated TAG levels in Sirt1[2A]/+ were rescued \r\nby FASNK813R/+ mutants, suggesting that the role of Sirt1 in body \r\nfat accumulation is through dFASN deacetylation. Consistently, \r\nSirt1[2A]/+ developed faster and showed early pupariation compared \r\nto WT flies, which were rescued by FASNK813R/+ mutants (Fig. 5H). \r\nTaken together, these results demonstrate that Sirt1 is the primary \r\ndeacetylase targeting K813. Acetylation of K813 is required for \r\nSirt1-mediated lipogenesis and larval development.\r\nDiscussion\r\nMetabolic homeostasis plays an important role in animal devel\u0002opment and growth (65, 66). One novel mechanism underlying \r\nthe coordination of metabolic homeostasis and growth is the inter\u0002play between metabolic intermediates and PTMs (67, 68). In the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 448,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "present study, we uncover a novel role of AcCoA-mediated auto\u0002acetylation of dFASN in lipogenesis during Drosophila larval devel\u0002opment (Fig. 5I). On the one hand, AcCoA fuels dFASN as the \r\ncarbon donor for the growing fatty acid chain. On the other hand, \r\nAcCoA, as the acetyl-group donor, directly modulates dFASN \r\nenzymatic activity through acetylation of the critical lysine residue \r\nK813. Additionally, we surprisingly found that acetylation of \r\ndFASN does not require KATs; instead, it is mediated by a con\u0002served P-loop-like motif N-xx-G-x-A neighboring K813. Lastly, \r\nwe identified Sirt1 as the primary deacetylase for dFASN, which \r\nacts as a negative regulatory mechanism.\r\nAcetylation of dFASN at K813 as a Novel Fine-Tune Mechanism \r\nfor Developmental DNL and Metabolic Homeostasis. TAG levels \r\nare tightly controlled during Drosophila development, and the \r\nFig. 4. N-xx-G-x-A motif is required for autoacetylation of K813. (A) K813 acetylation of KS-MAT by AcCoA treatment. Recombinant KS-MAT didomain was \r\nincubated with 0, 10, 20, 50, 100, and 200 µM of AcCoA at pH8.0 for 1 h or 3 h prior to western blotting analyses with anti-AcK813. (B) Total acetylation of WT \r\nand mutant KS-MAT by AcCoA treatment. WT, K813R, or K926R recombinant KS-MAT was incubated with 200 µM of AcCoA at pH8.0 for 1 h prior to western \r\nblotting analyses with anti-Ac-lys. (C) Sequence alignment of MAT domain (the region surrounding acetylated K813) among invertebrate and vertebrate species. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Acetylated lysine is highlighted in red. The P-loop-like motif (N-xx-G-x-A in invertebrates or R/Q-xx-G-x-A in vertebrates) is highlighted in blue. (D and E) AcCoA\u0002mediated K813 acetylation of single-site mutations (N816A. G819A, A821W, A821W, and K926R). WT or mutant KS-MAT recombinant proteins was incubated \r\nwith 200 µM of AcCoA at pH8.0 for 1 h prior to western blotting analyses with anti-AcK813. (F) Total acetylation of single-site mutations by AcCoA treatment. WT, \r\nN816A, G819A, or A821W recombinant KS-MAT was incubated with 200 µM of AcCoA at pH8.0 for 1 h prior to western blotting analyses with anti-Ac-lys. Values \r\nshown are mean SD; ns. P > 0.5; ***P < 0.001; and ****P < 0.0001. G: t test.\n8 of 11   https://doi.org/10.1073/pnas.2212220119 pnas.org\r\nmassive buildup of TAG storage is a feature of larval growth (12, \r\n13, 17). TAG synthesis is catalyzed by isoenzymes and competes \r\nwith pathways that consume fatty acids, such as fatty acid \r\noxidation and membrane lipid synthesis (15, 69). During the \r\nentire embryonic and larval development, the mRNA expressions \r\nof multiple lipogenic enzymes, including FASN, correlate with \r\nTAG levels (12, 13, 16, 17). Moreover, flies with mutations in \r\nFASN1 and FASN2 store less TAG in both larval and adult stages \r\nof Drosophila, suggesting that DNL is a vital contributor to TAG \r\nstorage throughout development (14).\r\nUnder conditions like excess nutrition, growth factor stimula\u0002tion, obesity, diabetes, fatty liver diseases, or cancer, DNL is sig\u0002nificantly elevated, and the mRNA expression of FASN positively \r\ncorrelates with elevated lipogenesis (6, 27–29). However, the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "protein levels of FASN are rarely characterized. Interestingly, sev\u0002eral conflicting results show little correlation between FASN pro\u0002tein expression and its enzymatic activity (23, 24, 30–32). \r\nConsistently, we found that the protein levels of dFASN remain \r\nunchanged from L2 to L3 and do not match the pattern of its \r\nenzymatic activity. In contrast, acetylation of dFASN at lysine \r\nK813 is positively associated with dFASN activity, developmental \r\nlipogenesis, and TAG accumulation. However, although dFASN \r\nlevel is not upregulated with elevated lipogenesis and TAG accu\u0002mulation at L3 larvae, it correlates with TAG levels when the entire \r\nembryonic and larval development stages are considered. Our \r\nfindings suggest that despite the well-established transcriptional \r\nprogram controlling the expression of dFASN at different stages \r\nof development, lysine acetylation of dFASN plays a crucial role \r\nin accelerating dFASN activity and fine-tuning dFASN-mediated \r\nlipogenesis in fast-growing L3 animals.\r\nIndeed, our genetic and biochemical analysis further demon\u0002strates that K813R substitution reduces dFASN enzymatic activity \r\nand lipogenesis, while AcCoA-mediated acetylation of recombi\u0002nant dFASN proteins increases its enzyme activity. Although \r\nacetylation of FASN has been reported in several previous global \r\nacetylome studies, the functional roles of FASN acetylation remain \r\nFig. 5. Sirt1-mediated deacetylation of dFASN1 regulates lipogenesis and developmental timing in Drosophila larvae. (A, B, and C) Acetylation of K813 in L3 larvae \r\noverexpressing Sirt1. Western blotting was performed using anti-AcK813. Daughterless GeneSwitch (GS)-Gal4 driver was used to drive ubiquitous expression of \r\nSirt1. The expression was activated by 100 µM of RU468 (+ RU). (D) Co-immunoprecipitation of Sirt1 and the MAT domain of dFASN. Kc167 cells were transfected by \r\nplasmids encoding Flag-tagged MAT and HA-tagged Sirt1. Interaction between MAT and Sirt1 was determined by western blotting analyses with anti-HA antibodies. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "(E and F) Acetylation of K813 in WT (ywR/w1118) and Sirt1[2A]/+ larvae. (G) TAG levels in WTFASNK813R/+Sirt1[2A]/+, and Sirt1[2A]/FASNK813R. TAG (mg) was normalized against \r\ntotal protein amount (mg). (H) Developmental timing of ywR/w1118(WT), FASNK813R/+Sirt1[2A]/+, and Sirt1[2A]/FASNK813R. Number of pupariation was counted every 2 to 4 h. \r\n(I) Working model showing acetyl-CoA-mediated autoacetylation of fatty acid synthase. The model figure was created with BioRender.com. Values shown are mean \r\nSD; ns. P > 0.5; *P < 0.05; **P < 0.01; ***P < 0.001; and ****P < 0.0001. B, C, and F: t test; G: One-way ANOVA (multiple comparisons); H: Log-rank test (vs. WT).\nPNAS  2022  Vol. 119  No. 49  e2212220119 https://doi.org/10.1073/pnas.2212220119   9 of 11\r\nlargely unknown. A recent study investigated the role of FASN \r\nacetylation in DNL in human cell culture (25). The study shows \r\nthat treatment of KDAC inhibitors induces the acetylation of \r\nhFASN, promotes FASN degradation, and reduces lipogenesis. \r\nHowever, it remains to be determined whether the regulation of \r\nlipogenesis by KDAC inhibition is due to global acetylation, or \r\nif it is directly through FASN acetylation. In addition, the func\u0002tional lysine residues of hFASN that are responsible for altered \r\nlipogenesis are not identified. Because of the high conservation \r\nbetween K813 of dFASN and K673 of hFASN, it is possible that \r\nK673 is the key lysine residue mediating DNL in human.\r\nApart from K813, other three lysine residues of dFASN (K926, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "K1800, and K2466) are highly conserved among animal species, \r\nand their homologs are also found to be acetylated in other animal \r\nspecies. Since these lysine residues are located on different domains, \r\nit is not hard to imagine that acetylation of each lysine may play \r\ndistinct roles related to their associated domains. In the present \r\nstudy, we show that acetylation of K813, but not K926, modulates \r\ndFASN activity, body fat accumulation, and Drosophila develop\u0002mental timing. It is likely that acetylation of K926 affects other \r\naspects of enzyme properties that are less important for larval \r\ndevelopment. K813 is at the substrate docking pocket of the MAT \r\ndomain. This unique localization suggests that acetylation of K813 \r\nmight introduce conformational changes to the docking site and \r\nmodulate dFASN catalytic activity in response to substrate avail\u0002ability during larval development.\r\nN-xx-G-x-A Motif as a Novel Mechanism for Rapid Autoacetylation.\r\nAnother surprising finding from our study is that acetylation of \r\ndFASN at K813 does not require a KAT; rather, it is autoacetylated \r\nby AcCoA in a dosage-dependent manner. The cytosolic pool of \r\nAcCoA increases under feeding or excess nutrient conditions (37). \r\nConsistently, our studies reveal that the amount of AcCoA elevates \r\nin fast-growing larvae, which could modulate dFASN activity by \r\npromoting both the biosynthesis of MalCoA and autoacetylation of \r\nK813 for the conformational changes of MalCoA docking pocket.\r\nIt was previously thought that only mitochondria proteins were \r\nnonenzymatically acetylated since no KATs have been identified \r\nin mitochondria. Besides, the high AcCoA concentration and \r\nrelatively high pH of the mitochondrial matrix facilitate the lysine \r\nnucleophilic attack on the carbonyl carbon of AcCoA (34). \r\nRecently, KAT-independent acetylation of cytosolic proteins has \r\nbeen reported (33, 38). Yet, the underlying mechanism for non\u0002enzymatic acetylation remains largely unknown. When investi\u0002gating how dFASN is autoacetylated by AcCoA, we uncover a \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "novel motif N-xx-G-x-A near acetylated K813. Substituting any \r\nof the three key amino acids largely blocks AcCoA-mediated \r\ndFASN autoacetylation. The N-xx-G-x-A motif resembles the \r\nsignature P-loop sequence (Q/R-xx-G-x-A/G) of KATs, which is \r\nrequired for AcCoA recognition and binding (55). We predict that \r\nthe N-xx-G-x-A motif of dFASN performs a similar function as \r\nthe P-loop of KATs for AcCoA binding. Moreover, the N-xx-G\u0002x-A motif is highly conserved, pointing out a conserved mecha\u0002nism for autoacetylation of FASN.\r\nIn addition to the well-established KATs of the MYST, p300/\r\nCBP, and GCN5 families, there are over 15 proteins that have \r\nbeen reported to possess KATs activity, such as CLOCK and Eco1 \r\n(70–72). Since FASN may contain an AcCoA binding motif of \r\nKATs, it is possible that FASN, particularly MAT domain, pos\u0002sesses KATs activity and acetylates other proteins, especially those \r\nin DNL pathways. This possibility may be further explored \r\nthrough acetylome analysis in the future.\r\nIn summary, we uncover a previously unappreciated role of \r\nFASN acetylation in developmental lipogenesis and a novel \r\nmechanism for lysine autoacetylation. Our findings provide new \r\ninsights into AcCoA-mediated metabolic homeostasis during ani\u0002mal development. In addition, our studies underscore a promising \r\ntherapeutic strategy to combat metabolic disorders by targeting \r\nautoacetylation of FASN.\r\nMaterials and Methods\r\nDrosophila. A detailed list of fly strains is provided (SI Appendix). ywR was used \r\nas the control in the TAG measurement, developmental timing, and FASN activity \r\nassay, unless otherwise noted in the figure legend. Flag knock-in fly line, dFASN \r\nacetylation-deficient fly lines, and knockout fly line (yw; FASNKO) were generated \r\nby CRISPR/Cas9-mediated HDR by ssODNs (SI Appendix). Flies were maintained \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "at 25 °C, 60% relative humidity, and a 12-h light/dark cycle. Adults and larvae \r\nwere either reared on standard cornmeal and yeast-based food or special diet as \r\ndescribed in SI Appendix.\r\nImmunoprecipitation. Fly larvae or Kc167 cells were lysed with Pierce™  IP \r\nLysis Buffer supplied with deacetylase inhibitor nicotinamide at 4 °C for 20 min. \r\nAfter the removal of unbroken cells and debris by centrifugation (14,000 rpm/30 \r\nmin), the soluble fractions were collected and incubated with mouse anti-Flag M2 \r\nantibody (1:100) at 4 °C overnight. The next day, the lysate-antigen mixture was \r\nincubated with SureBeads™ Protein G Magnetic Beads at 4 °C for 3 h. The mag\u0002netic beads were then washed three times with Pierce™ IP Lysis Buffer. Proteins \r\nwere denatured and eluted from the beads with Laemmli sample buffer at 95 °C \r\nfor 5 min for later analysis (SI Appendix).\r\nQuantification of AcCoA and MalCoA by LC-MS/MS. AcCoA and MalCoA levels \r\nwere measured by LC-MS/MS as previously described (46). About 300 mg of L2 \r\nand L3 larvae were snap-frozen in liquid nitrogen and pulverized into powder \r\nwith mortar and pestle. 300 μL/100 mg of solvent buffer (5% sulfosalicylic acid \r\ncontaining 50 μM DDT) was added to the sample immediately. Samples were \r\nsonicated three times for 10 s on ice, and the supernatant was collected by cen\u0002trifugation at 14,000 × g for 20 min. Right before LC-MS/MS analysis, 2 μL of \r\nammonia (25%) was added to 98 μL of the sample solutions. LC-MS/MS analysis \r\nwas performed at W. M. Keck Metabolomics Research Laboratory of Iowa State \r\nUniversity and Metabolism Division of Washington University School of Medicine \r\nfollowing the method described previously.\r\nRecombinant Protein Expression and Purification. dFASN-pAV5a and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "dFASN-K813R-pAV5a were utilized to produce dFASN recombinant protein in \r\nthe Bac-to-Bac protein expression system. The expression and purification meth\u0002ods of recombinant dFASN proteins were adapted from a previous study (73) (SI \r\nAppendix). KS-MAT recombinant proteins were expressed in E. coli BL21 (DE3) \r\ncells with WT or mutant plasmid constructs (53, 74) (SI Appendix).\r\nIn Vitro Acetylation Assay. AcCoA was diluted to different concentrations \r\nwith assay buffer containing 20 mM Tris-HCl (pH7.0 or 8.0), 500 mM NaCl. \r\nRecombinant proteins and AcCoA were mixed in assay buffer to a final volume \r\nof 40 µL. The reactions were incubated in a water bath at 37 °C for 1 h or 3 h. BSA \r\nwas dissolved in assay buffer (pH7.0 or pH8.0) and then incubated with AcCoA \r\nat the same condition for 6 h. The reactions were terminated by adding Laemmli \r\nsample buffer and heat-shock at 95 °C for 5 min. Acetylation was analyzed by \r\nwestern blotting with acetylated antibodies.\r\nKinetics Evaluation. The assay condition described in FASN activity assay \r\n(SI Appendix) was also used for the determination of kinetics parameters. The \r\nenzymatic activity of WT dFASN or K813R mutants upon varying concentration \r\nof MalCoA was determined at fixed concentrations of NADPH (240 µM) and \r\nAcCoA (31 µM). The enzymatic activity of WT dFASN or K813R mutants upon \r\nvarying concentration of AcCoA was determined at fixed concentrations of \r\nNADPH (240 µM) and MalCoA (58 µM). For the kinetics evaluation with AcCoA \r\npre-incubation, AcCoA was added to dFASN proteins to a final concentration of \r\n20 µM. Proteins were then incubated at 37 °C for 1 h, followed by dFASN activity \r\nassay. For control groups, dFASN proteins were mixed with 20 µM of AcCoA right \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "before the activity assay without any pre-incubation. Kinetics parameters were \r\ncalculated by fitting the observed velocities to the Michaelis–Menten equation \r\nusing GraphPad.\n10 of 11   https://doi.org/10.1073/pnas.2212220119 pnas.org\r\nData, Materials, and Software Availability. All study data are included in the \r\narticle and/or SI Appendix.\r\nACKNOWLEDGMENTS. We thank the Bloomington Drosophila Stock Center (sup\u0002ported by NIH P40OD018537) for the fly stocks that were obtained and used in this \r\nstudy. We thank the Drosophila Genomics Resource Center (supported by NIH grant \r\n2P40OD010949) for the cDNA clones obtained and used in this study. We thank \r\nFlyBase release (FB2022_02 – March 29th) for data that was obtained and used in \r\nthis study. We thank BestGene Inc for Drosophila embryo injection service. We thank \r\nRoss Tomaino from Harvard Medical School Taplin Mass Spectrometry Facility for \r\nmass spectrometry analysis. We thank Ann Perera and Lucas Showman from W. M. \r\nKeck Metabolomics Research Laboratory of Iowa State University for advice on AcCoA \r\nanalysis. We thank Baoyu (Stone) Chen and Sheng Yang for the DNA clones and \r\nreagents and the help with recombinant protein expression. We thank Justin Walley \r\nfor advice on mass spectrometry analysis. We thank Basil J. Nikolau and Marna D. \r\nYandeau-Nelson for helpful discussions and advice on enzyme kinetics analysis. \r\nWe thank the anonymous reviewers for their critically reading of the manuscript \r\nand insightful comments and suggestions. Graphical abstract and working model \r\nfigures were created with BioRender.com. All protein structures were visualized with \r\nPyMOL Molecular Graphics System. The protein structure of dFASN was predicted by \r\nthe I-TASSER server. This work was supported by NIH R01AG058741, NSF CAREER \r\n2046984 to H.B., Glenn/AFAR Scholarships to T.M.\r\nAuthor affiliations: aDepartment of Genetics, Development, and Cell Biology, Iowa \r\nState University, Ames, IA 50011; and bDivision of Endocrinology, Metabolism and Lipid \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Research, Department of Medicine, Washington University School of Medicine in St. Louis, \r\nSt. Louis, MO 63110\r\n1. F. Ameer, L. Scandiuzzi, S. Hasnain, H. Kalbacher, N. Zaidi, De novo lipogenesis in health and \r\ndisease. Metabolism 63, 895–902 (2014).\r\n2. M. S. Strable, J. M. Ntambi, Genetic control of de novo lipogenesis: Role in diet-induced obesity. \r\nCrit. Rev. Biochem. Mol. Biol. 45, 199–214 (2010).\r\n3. J. Lin et al., Hyperlipidemic effects of dietary saturated fats mediated through PGC-1β coactivation \r\nof SREBP. Cell 120, 261–273 (2005).\r\n4. Y. Nagai et al., The role of peroxisome proliferator-activated receptor γ coactivator-1 β in the \r\npathogenesis of fructose-induced insulin resistance. Cell Metab. 9, 252–264 (2009).\r\n5. D. B. Savage, Reversal of diet-induced hepatic steatosis and hepatic insulin resistance by antisense \r\noligonucleotide inhibitors of acetyl-CoA carboxylases 1 and 2. J. Clin. Invest. 116, 817–824 (2006).\r\n6. T. M. Loftus, Reduced food intake and body weight in mice treated with fatty acid synthase \r\ninhibitors. Science 288, 2379–2381 (2000).\r\n7. M. V. Chakravarthy et al., Inactivation of hypothalamic FAS protects mice from diet-induced obesity \r\nand inflammation. J. Lipid Res. 50, 630–640 (2009).\r\n8. X. Xu, J.-S. So, J.-G. Park, A.-H. Lee, Transcriptional control of hepatic lipid metabolism by SREBP and \r\nChREBP. Semin. Liver Dis. 33, 301–311 (2013).\r\n9. G. Liang et al., Diminished hepatic response to fasting/refeeding and liver X receptor agonists in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "mice with selective deficiency of sterol regulatory element-binding protein-1c. J. Biol. Chem. 277, \r\n9520–9528 (2002).\r\n10. J. D. Horton et al., Combined analysis of oligonucleotide microarray data from transgenic and \r\nknockout mice identifies direct SREBP target genes. Proc. Natl. Acad. Sci. U.S.A. 100, 12027–12032 \r\n(2003).\r\n11. M. Shamir, Y. Bar-On, R. Phillips, R. Milo, SnapShot: Timescales in cell biology. Cell 164, 1302–1302 \r\n(2016).\r\n12. M. Carvalho et al., Effects of diet and development on the Drosophila lipidome. Mol. Syst. Biol. 8, \r\n600 (2012).\r\n13. Xue et al., Biochemical membrane lipidomics during drosophila development. Dev. Cell 24, 98–111 \r\n(2013).\r\n14. C. Wicker-Thomas et al., Flexible origin of hydrocarbon/pheromone precursors in Drosophila \r\nmelanogaster [S]. J. Lipid Res. 56, 2094–2101 (2015).\r\n15. C. Heier, R. P. Kühnlein, Triacylglycerol metabolism in Drosophila melanogaster. Genetics 210, \r\n1163–1184 (2018).\r\n16. Y. Hu, A. Comjean, N. Perrimon, S. E. Mohr, The Drosophila gene expression tool (DGET) for \r\nexpression analyses. BMC Bioinformatics 18, 1–9 (2017).\r\n17. J. M. Tennessen et al., Coordinated metabolic transitions during Drosophila embryogenesis and the \r\nonset of aerobic glycolysis. G3 (Bethesda) 4, 839–850 (2014).\r\n18. I. Ali, R. J. Conrad, E. Verdin, M. Ott, Lysine acetylation goes global: From epigenetics to metabolism \r\nand therapeutics. Chem. Rev. 118, 1216–1252 (2018).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "19. K. J. Menzies, H. Zhang, E. Katsyuba, J. Auwerx, Protein acetylation in metabolism—metabolites and \r\ncofactors. Nat. Rev. Endocrinol. 12, 43 (2016).\r\n20. Q. Wang et al., Acetylation of metabolic enzymes coordinates carbon source utilization and \r\nmetabolic flux. Science 327, 1004–1007 (2010).\r\n21. S. Zhao et al., Regulation of cellular metabolism by protein lysine acetylation. Science 327, \r\n1000–1004 (2010).\r\n22. E. S. Nakayasu et al., Ancient regulatory role of lysine acetylation in central metabolism. mBio 8, \r\ne01894-17 (2017).\r\n23. Q. Jin et al., Fatty acid synthase phosphorylation: A novel therapeutic target in HER2-overexpressing \r\nbreast cancer cells. Breast Cancer Res. 12, R96 (2010).\r\n24. R. A. Hennigar et al., Characterization of fatty acid synthase in cell lines derived from experimental \r\nmammary tumors. Biochim. Biophys. Acta 1392, 85–100 (1998).\r\n25. H.-P. Lin et al., Destabilization of fatty acid synthase by acetylation inhibits de novo lipogenesis and \r\ntumor cell growth. Cancer Res. 76, 6924–6936 (2016).\r\n26. S. Smith, The animal fatty acid synthase: One gene, one polypeptide, seven enzymes. FASEB J. 8, \r\n1248–1259 (1994).\r\n27. M. Wu et al., Antidiabetic and antisteatotic effects of the selective fatty acid synthase (FAS) inhibitor \r\nplatensimycin in mouse models of diabetes. Proc. Natl. Acad. Sci. U.S.A. 108, 5378–5383 (2011).\r\n28. T. S. Angeles, R. L. Hudkins, Recent advances in targeting the fatty acid biosynthetic pathway using \r\nfatty acid synthase inhibitors. Expert Opin. Drug Discov. 11, 1187–1199 (2016).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "29. S. J. Kridel, W. T. Lowther, C. W. Pemble IV, Fatty acid synthase inhibitors: New directions for \r\noncology. Expert Opin. Investig. Drugs 16, 1817–1829 (2007).\r\n30. V. Sabbisetti et al., p63 promotes cell survival through fatty acid synthase. PLoS One 4, e5877 \r\n(2009).\r\n31. A. A. Qureshi, R. A. Jenik, M. Kim, F. A. Lornitzo, J. W. Porter, Separation of two active forms (holo-a \r\nand holo-b) of pigeon liver fatty acid synthetase and their interconversion by phosphorylation and \r\ndephosphorylation. Biochem. Biophys. Res. Commun. 66, 344–351 (1975).\r\n32. S. M. Najjar et al., Insulin acutely decreases hepatic fatty acid synthase activity. Cell Metab. 2, 43–53 \r\n(2005).\r\n33. A. S. Olia et al., Nonenzymatic protein acetylation detected by NAPPA protein arrays. ACS Chem. Biol.\r\n10, 2034–2047 (2015).\r\n34. G. R. Wagner, R. M. Payne, Widespread and enzyme-independent Nϵ-acetylation and Nϵ\u0002succinylation of proteins in the chemical conditions of the mitochondrial matrix. J. Biol. Chem. 288, \r\n29036–29045 (2013).\r\n35. B. K. Hansen et al., Analysis of human acetylation stoichiometry defines mechanistic constraints on \r\nprotein regulation. Nat. Commun. 10, 1055 (2019).\r\n36. F. Pietrocola, L. Galluzzi, J. M. Bravo-San Pedro, F. Madeo, G. Kroemer, Acetyl coenzyme A: A central \r\nmetabolite and second messenger. Cell Metab. 21, 805–821 (2015).\r\n37. L. Shi, B. P. Tu, Acetyl-CoA and the regulation of metabolism: Mechanisms and consequences. Curr. \r\nOpin. Cell Biol. 33, 125–131 (2015).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "38. R. A. Kulkarni et al., Discovering targets of non-enzymatic acylation by thioester reactivity profiling. \r\nCell Chem. Biol. 24, 231–242 (2017).\r\n39. M. Slaidina, R. Delanoue, S. Gronke, L. Partridge, P. Léopold, A Drosophila insulin-like peptide \r\npromotes growth during nonfeeding states. Dev. Cell 17, 874–884 (2009).\r\n40. R. B. Church, F. W. Robertson, Biochemical analysis of genetic differences in the growth of \r\nDrosophila. Genet. Res. 7, 383–407 (1966).\r\n41. X.-J. Xie et al., CDK8-cyclin C mediates nutritional regulation of developmental transitions through \r\nthe ecdysone receptor in Drosophila. PLoS Biol. 13, e1002207 (2015).\r\n42. J. R. Aguila, J. Suszko, A. G. Gibbs, D. K. Hoshizaki, The role of larval fat cells in adult Drosophila \r\nmelanogaster. J. Exp. Biol. 210, 956–963 (2007).\r\n43. M. Leibundgut, T. Maier, S. Jenni, N. Ban, The multienzyme architecture of eukaryotic fatty acid \r\nsynthases. Curr. Opin. Struct. Biol. 18, 714–725 (2008).\r\n44. K. Singh et al., Discovery of a regulatory subunit of the yeast fatty acid synthase. Cell 180, \r\n1130–1143.e20 (2020).\r\n45. D. Saggerson, Malonyl-CoA, a key signaling molecule in mammalian cells. Ann. Rev. Nutr. 28, \r\n253–272 (2008).\r\n46. Z. Hu, S. H. Cha, S. Chohnan, M. D. Lane, Hypothalamic malonyl-CoA as a mediator of feeding \r\nbehavior. Proc. Natl. Acad. Sci. U.S.A. 100, 12624–12629 (2003).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "47. T. Narita, B. T. Weinert, C. Choudhary, Functions and mechanisms of non-histone protein acetylation. \r\nNat. Rev. Mol. Cell Biol. 20, 156–174 (2019).\r\n48. T. Baldensperger, M. A. Glomb, Pathways of non-enzymatic lysine acylation. Front. Cell Dev. Biol. 9, \r\n664553 (2021).\r\n49. K. E. Wellen et al., ATP-citrate lyase links cellular metabolism to histone acetylation. Science 324, \r\n1076–1080 (2009).\r\n50. B. W. Wong et al., The role of fatty acid β-oxidation in lymphangiogenesis. Nature 542, 49–54 \r\n(2017).\r\n51. S. K. Tiwari, A. G. Toshniwal, S. Mandal, L. Mandal, Fatty acid β-oxidation is required for the \r\ndifferentiation of larval hematopoietic progenitors in Drosophila. Elife 9, e53247 (2020).\r\n52. A. M. James et al., Non-enzymatic N-acetylation of lysine residues by acetylCoA often occurs via \r\na proximal S-acetylated thiol intermediate sensitive to glyoxalase II. Cell Rep. 18, 2105–2112 \r\n(2017).\r\n53. A. Rittner, K. S. Paithankar, K. V. Huu, M. Grininger, Characterization of the polyspecific transferase of \r\nmurine type I fatty acid synthase (FAS) and implications for polyketide synthase (PKS) engineering. \r\nACS Chem. Biol. 13, 723–732 (2018).\r\n54. A. M. James, A. C. Smith, C. L. Smith, A. J. Robinson, M. P. Murphy, Proximal cysteines that enhance \r\nlysine N-acetylation of cytosolic proteins in mice are less conserved in longer-living species. Cell \r\nRep. 24, 1445–1455 (2018).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 467,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "55. S. Y. Roth, J. M. Denu, C. D. Allis, Histone acetyltransferases. Annu. Rev. Biochem. 70, 81–120 (2001).\r\n56. F. Dyda, D. C. Klein, A. B. Hickman, GCN5-related N-acetyltransferases: A structural overview. Annu. \r\nRev. Biophys. Biomol. Struct. 29, 81–103 (2000).\r\n57. E. Wolf et al., Crystal structure of a GCN5-related N-acetyltransferase. Cell 94, 439–449 (1998).\r\n58. L. Wang, L. Liu, S. L. Berger, Critical residues for histone acetylation by Gcn5, functioning in Ada and \r\nSAGA complexes, are also required for transcriptional function in vivo. Genes Dev. 12, 640–653 \r\n(1998).\r\n59. M.-H. Kuo, J. Zhou, P. Jambeck, M. E. Churchill, C. D. Allis, Histone acetyltransferase activity of yeast \r\nGcn5p is required for the activation of target genes in vivo. Genes Dev. 12, 627–639 (1998).\r\n60. A. K. Walker et al., Conserved role of SIRT1 orthologs in fasting-dependent inhibition of the lipid/\r\ncholesterol regulator SREBP. Genes Dev. 24, 1403–1417 (2010).\r\n61. F. Xu et al., Lack of SIRT1 (Mammalian Sirtuin 1) activity leads to liver steatosis in the SIRT1 +/− \r\nmice: A role of lipid mobilization and inflammation. Endocrinology 151, 2504–2514 (2010).\r\n62. B. Ponugoti et al., SIRT1 deacetylates and inhibits SREBP-1C activity in regulation of hepatic lipid \r\nmetabolism. J. Biol. Chem. 285, 33959–33970 (2010).\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "PNAS  2022  Vol. 119  No. 49  e2212220119 https://doi.org/10.1073/pnas.2212220119   11 of 11\r\n63. R.-H. Wang, C. Li, C.-X. Deng, Liver steatosis and increased ChREBP expression in mice carrying a \r\nliver specific SIRT1 null mutation under a normal feeding condition. Int. J. Biol. Sci. 6, 682–690 \r\n(2010), 10.7150/ijbs.6.682.\r\n64. F. Xu et al., Lack of SIRT1 (Mammalian Sirtuin 1) activity leads to liver steatosis in the SIRT1+/− \r\nmice: A role of lipid mobilization and inflammation. Endocrinology 151, 2504–2514 (2010).\r\n65. P. Leopold, N. Perrimon, Drosophila and the genetics of the internal milieu. Nature 450, 186–188 \r\n(2007).\r\n66. P. W. Hochachka, Intracellular convection, homeostasis and metabolic regulation. J. Exp. Biol. 206, \r\n2001–2009 (2003).\r\n67. C. Lu, C. B. Thompson, Metabolic regulation of epigenetics. Cell Metab. 16, 9–17 (2012).\r\n68. A. Drazic, L. M. Myklebust, R. Ree, T. Arnesen, The world of protein acetylation. Biochim. Biophys. Acta\r\n1864, 1372–1401 (2016).\r\n69. H. Wang, M. V. Airola, K. Reue, How lipid droplets “TAG” along: Glycerolipid synthetic enzymes and \r\nlipid storage. Biochim. Biophys. Acta Mol. Cell Biol. Lipids 1862, 1131–1145 (2017).\r\n70. B. N. Sheikh, A. Akhtar, The many lives of KATs — detectors, integrators and modulators of the cellular \r\nenvironment. Nat. Rev. Genet. 20, 7–23 (2019).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1054100836506559184,
+        "filename": "pnas.202212220.PMC9894184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 221,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "71. M. Doi, J. Hirayama, P. Sassone-Corsi, Circadian regulator CLOCK Is a histone acetyltransferase. Cell\r\n125, 497–508 (2006).\r\n72. D. Ivanov et al., Eco1 is a novel acetyltransferase that can acetylate proteins involved in cohesion. \r\nCurr. Biol. 12, 323–328 (2002).\r\n73. L. Carlisle-Moore, C. R. Gordon, C. A. Machutta, W. T. Miller, P. J. Tonge, Substrate recognition by the \r\nhuman fatty-acid synthase. J. Biol. Chem. 280, 42612–42618 (2005).\r\n74. A. Rittner, K. S. Paithankar, A. Himmler, M. Grininger, Type I fatty acid synthase trapped in the \r\noctanoyl-bound state. Protein Sci. 29, 589–605 (2020).\n\n"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Received: July 25, 2024. Revised: January 27, 2025. Accepted: February 7, 2025\r\n© The Author(s) 2025. Published by Oxford University Press.\r\nThis is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial License (https://creativecommons.org/\r\nlicenses/by-nc/4.0/), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited.\r\nFor commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our\r\nRightsLink service via the Permissions link on the article page on our site—for further information please contact journals.permissions@oup.com.\r\nBurns & Trauma, 2025, 13, tkaf014\r\nhttps://doi.org/10.1093/burnst/tkaf014\r\nReview\r\nSepsis after trauma—evolving paradigms in stress biology\r\nand host response failure\r\nPetra Dickmann 1,2, Ralf A. Claus 1, Michael Bauer 1,2,3,*\r\n1Department of Anaesthesiology and Intensive Care Medicine, Jena University Hospital, Am Klinikum 1, 07747 Jena, Germany\r\n2Leibniz Centre for Photonics in Infection Research (LPI), Am Klinikum 1, 07747 Jena, Germany\r\n3Cluster of Excellence Balance of the Microverse, Friedrich Schiller University Jena, ürstengraben 1, 07747 Jena, Germany\r\n*Corresponding author. Department of Anaesthesiology and Intensive Care Medicine, Jena University Hospital, Jena, Germany.\r\nE-mail: Michael.Bauer@med.uni-jena.de\r\nAbstract\r\nSevere trauma is often complicated by subsequent infection and organ dysfunction, with sepsis being a major mortality risk factor. Factors such\r\nas barrier destruction, wound contamination, invasive procedures, injury severity, and shock were traditionally considered primary predisposing\r\nelements for post-trauma sepsis. However, recent advances in stress biology have revealed a more nuanced understanding of the body’s\r\nresponse to trauma. Organisms have evolved adaptive responses to various noxious stimuli that follow a biphasic pattern: Low to moderate\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "stress levels can increase resilience, while overwhelming insults, both acute and chronic, overstrain the body’s coping mechanisms and are\r\nknown as allostatic overload, hallmarked by maladaptive responses. An illustrative example of this concept is the body’s response to iron ion\r\nexposure following trauma, transfusion, or haemolysis. Iron ions, at low levels, induce adaptive Nrf2-dependent responses, such as haem\r\noxygenase gene expression. However, high concentrations or prolonged exposure can lead to cellular damage and organ failure, e.g. through\r\nthe production of highly reactive free radicals. This biphasic pattern highlights the complex interplay between protective and harmful responses\r\nin post-trauma physiology. Whereas tools such as the SOFA score allow to measure severity of organ dysfunction, no metrics for quantifying\r\nthe intensity of ‘stress’ over time are available. As cumulative stress is a crucial outcome-associated factor in trauma care, the development\r\nof adequate indicators could significantly enhance our understanding and management of post-trauma complications, arising from secondary\r\nsurgical interventions, transfusion management, or metabolic derangements. This evolving perspective on stress biology in the severely injured\r\nhost underscores the need for a more comprehensive approach to patient assessment and treatment in critical care settings, to identify and to\r\ndecrease stress load with the aim to prevent life-threatening complications, such as sepsis, and ultimately improve outcomes.\r\nKeywords: Trauma; Infection; Organ dysfunction; Stress; Holobiont; Allostatic load; Resilience\r\nHighlights\r\n• Understanding of the host response to trauma is currently changing with the recognition of the human host as a ‘holobiont’, advancing earlier concepts of\r\nthe gut as ‘source and motor’ of multi-organ dysfunction in severe trauma.\r\n• Divergent inflammatory phenotypes, such as ‘hyperinflammation’ or ‘immunoparalysis’ have been described in trauma and sepsis replacing the former\r\nconcept of ‘systemic inflammatory response syndrome’ as a stereotypic damaging mechanism.\r\n• More recent insights into stress biology suggest a need to consider aspects of dose responses or ‘hormesis’. The host response to trauma and eventual\r\nsubsequent infection should be interpreted as a biphasic rather than a linear, non-threshold damaging response.\r\nBackground\r\nTrauma patients in intensive care units (ICUs) face a\r\nsignificant risk of developing nosocomial sepsis [1]. However,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "distinguishing between a systemic inflammatory response\r\nto trauma and tissue damage, which is often accompanied\r\nby fever and leukocytosis, and infectious complications\r\npresents a considerable diagnostic challenge in critically\r\nill patients. The signalling events leading to infection- and\r\ndamage-associated activation of the innate immune response\r\nthrough Toll-like receptor ligands are well understood, with\r\nsignificant overlap between infection and trauma responses\r\n[2]. Despite this knowledge, the clinical dilemma persists,\r\ncontributing to antibiotic overuse in modern ICUs. Ruling\r\nout infection in trauma patients is often difficult due to often\r\nsimilar presentation and multiple risk factors. These include\r\nnot only penetrating trauma, altered barrier function, and\r\nwound contamination but also complex immune dysfunction,\r\nparticularly at the interface between host immune cells and\r\nthe gut microbiome [3]. This creates a particularly challenging\r\ndifferential diagnosis in trauma and burn patients with\r\nshock and prolonged gut ischemia. The concept of gut\u0002derived pathogens as a source of self-infection has been\r\nrecognized for many decades. The role of the ‘leaky gut’\r\nas the source of the ‘septic’ appearance in trauma patients\r\nhas been a subject of intense debate in both literature and\r\nclinical practice [4]. Moreover, the similar host responses\r\nto damage-associated molecular patterns (DAMPs) released\r\nduring trauma complicates the clear-cut diagnostic distinction\r\n(Figure 1).\r\nThis review aims to explore the conceptual progress in\r\nunderstanding the host response to trauma, infection, and\r\ngeneral stress, with a particular focus on the evolving concepts\n2 Burns & Trauma, 2025, Vol. 13, tkaf014\r\nFigure 1. Identifying common treatable traits in the host response to\r\ntrauma and infection. Complications from trauma and infections result\r\nfrom a dysregulated host response to the primary and/or subsequent\r\ninsults. General stress response pathways intersect and thus might offer\r\nthe opportunity to identify common treatable traits for different clinical\r\nconditions. Knowledge of these pathways can help to optimize timing of\r\ninterventions and to develop therapies targeted to modulate the patients\r\nstress response, thereby restoring functional adaptive responses and\r\nimproving patient recovery\r\nof the biphasic nature of stress responses [5]. By examining\r\nthese advances, we hope to shed light on the complex interplay\r\nbetween trauma, infection, and the body’s stress response\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "that can lead to ‘resilient’, ‘tolerant’, ‘primed’, or ‘trained’\r\nphenotypes.\r\nThe objective of this narrative review is to evaluate the\r\ncomplex interplay between trauma, infection, and the body’s\r\nstress response and the discussion of translation into the field\r\nof translational sepsis research including development of new\r\nstrategies for diagnosis and treatment. A search in the main\r\nbiomedical databases (PubMed, Medline, Scopus, and Web\r\nof science) was conducted for a 20-year period ending in\r\nJuly 2023, focused on primary research articles in the field\r\nof interest. Keyword search for abstracts and titles included\r\n(‘trauma’ OR ‘organ dysfunction’) AND (‘sepsis’) AND (‘host\r\nresponse’). The search identified 576 references, which were\r\nselected by particular importance for this review. The pre\u0002screened references were completed by other publications\r\nrelated to the issue.\r\nReview\r\nFrom SIRS to current concepts of sepsis\r\nimmunology—inflammation, ‘immune paralysis’\r\nand organ dysfunction as the hallmark of a\r\nmaladaptive host response\r\nMore than three decades ago, Roger Bone and colleagues\r\nintroduced the Systemic Inflammatory Response Syndrome\r\n(SIRS), which can be triggered by a broad variety of harmful\r\nstressors. In this concept, SIRS can occur in response to\r\nburns and trauma as well as in sepsis. The body’s response\r\nis strikingly similar, including the development of multiple\r\norgan dysfunction syndrome; only the infectious trigger\r\ndiscriminates sepsis from the traumatic causes [6]. This,\r\nbut also individual variability of the body’s response,\r\nmakes the identification of infectious complications in\r\nseverely traumatized patients a challenge [7]. Strikingly,\r\nthe SIRS criteria already included hints to opposing host\r\nresponses, such as fever or hypothermia and elevated or\r\nreduced white blood cell counts. SIRS criteria are no\r\nlonger used in specifying sepsis, which is now defined as a\r\nmaladaptive host response to infection, hallmarked by organ\r\ndysfunction [8]. However, divergent aberrances of white\r\nblood cell counts already forbade a subsequent conceptual\r\nleap, which proposed that the immune system’s response\r\ncould be exaggerated (‘pro-inflammatory’), dampened\r\n(‘immunoparalytic’), or mixed [9] during life-threatening\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "infection. The current model of sepsis immunology places\r\npro-inflammatory and immunosuppressive categories at\r\nopposite ‘poles’ of the dysregulated host responses. Com\u0002pelling evidence supports this notion, but consistent cate\u0002gorization between these extremes is still in progress and\r\neven for evident immunosuppression or hyperinflammation\r\nno successful immunomodulatory therapies have been estab\u0002lished yet. Variable phenotypes have been identified through\r\nhypothesis-driven research, such as macrophage activation\u0002like syndrome (MALS) [10] and interferon-γ -driven sepsis\r\n(IDS) [11], as well as by data-driven approaches, such as the\r\nα, β, γ , and δ phenotypes proposed by Seymour et al. [12].\r\nCurrently, promising clinical tests of immune-modulatory\r\ntherapies based on these concepts are underway [13].\r\nSequential stress and dose–response\r\nconsiderations in the host response\r\nTreatment of severe trauma typically involves a sequence of\r\nstressful events including tissue damage, surgical interven\u0002tions, and invasive procedures such as mechanical ventilation\r\nor parenteral nutrition. These stressors can alter cellular\r\nsignalling cascades affecting immune responses both acutely,\r\ne.g. through MAP kinase effects, and over longer periods\r\nvia epigenetic modifications. The effects on immunity have\r\nlong been described as ‘priming’, ‘training’, or ‘tolerance’,\r\nwith significant impacts on patient outcomes [14]. While\r\n‘endotoxin tolerance’ is well-documented, priming responses\nBurns & Trauma, 2025, Vol. 13, tkaf014 3\r\noccur less frequently and are less obvious. A prominent\r\nexample of maladaptive priming is the Sanarelli-Shwartzman\r\nreaction that can lead to haemorrhage, necrosis, and shock\r\nand organ failure upon repeated exposure to gram-negative\r\nbacteria [15]. This occurs through overwhelming of phago\u0002cytic cells, triggering hypercoagulability, and microvascular\r\nfailure upon re-exposure. Likewise, various stress pro\u0002grammes, such as acute phase and heat shock responses, can\r\nprofoundly alter susceptibility to subsequent insults, though\r\nthey may be mutually exclusive leading to divergent states of\r\naltered responsiveness [16]. Only considering acute events in\r\nthe assessment of the patient’s stress status oversimplifies the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "problem by disregarding comorbidities and general health.\r\nThe Injury Severity Score (ISS) is the most commonly used\r\nsystem for scoring patient injuries and prediction of morbidity\r\nand mortality [17]. While the ISS does not include the\r\npatient’s age and comorbidity status, a retrospective analysis\r\nof 5000 Taiwanese patients showed an association of age and\r\ncomorbidity index with higher ISS and longer hospital stay.\r\nOverall, in the multivariable analysis of transition-specific\r\nCox models, comorbidities were associated with higher\r\nrisk for hospital mortality and with lower probability of\r\ntransition-to-discharge [18]. However, to predict whether\r\na previous stressor such as trauma predisposed the host\r\nto increased susceptibility or induced tolerance/resilience is\r\ncurrently difficult to predict. However, the effects of sequential\r\nstress events may explain why surgical revisions in critically ill\r\npatients sometimes trigger unexpected deterioration of organ\r\nfunction. The prevailing paradigm suggests the underlying\r\ncellular alterations primarily manifest as maladaptive innate\r\nimmune responses, contributing to infectious complications\r\nand sepsis. The role of nosocomial infections as a major\r\ntrigger for secondary organ dysfunction in late-stage trauma\r\nis well-accepted, often leading to prolonged ‘prophylactic’\r\nantibiotic use [19, 20]. This raises important questions about\r\nhow various stressors interact in the overall stress response,\r\npotentially leading to cross-tolerance or priming phenomena.\r\nSpecifically, how might trauma prime the body for organ\r\ndysfunction upon developing nosocomial infection, such as\r\npneumonia? How does the timing of surgical revisions affect\r\noutcomes in critical illness? Understanding these complex\r\ninteractions between different stressors and their impact on\r\nhost physiology remains a crucial area for further research\r\nin trauma and critical care medicine, presumably requiring a\r\ntool to quantify a state of ‘stress’. Numerous biomarkers and\r\ntheir combinations to quantify stress have been investigated\r\nfor a long time (e.g. reviewed by [21]), but still no established\r\ntools for routine clinical application are available.\r\nThere are three dominating concepts regarding additive and\r\nsequential stress: Hormesis focuses on dose–response effects\r\n[22], allostasis introduces adaptation by change, as opposed\r\nto homeostasis, and stands out by integrating psychological\r\nelements of stress and their translation to physiological reac\u0002tions [23]. Finally, the general adaptation syndrome focuses on\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "overlapping pathophysiology resulting from different diseases\r\nor stressors [24]. A common notion of these concepts is a\r\ndose-dependent response to stress and hence a distinction of\r\nbeneficial eustress and detrimental distress, in which the latter\r\nrefers to prolonged and/or intense stress that overwhelms the\r\norganism’s coping mechanisms. A particular trait of Selye’s\r\nconcept of the general adaptation syndrome is the inclusion of\r\n‘alarm reaction’ upon an acutely stressful event. Although the\r\nmentioned concepts should best be viewed as complementary,\r\nthe alarm reaction might be of special interest in connection\r\nto physical trauma, which represents a sudden hit—but the\r\nconsequences thereof are strongly influenced on the patients\r\nstress state before the trauma as well as stressors associated\r\nwith medical care and recovery.\r\nRedefining the ‘stress response’ in the critically ill\r\nThe relationship between stress and susceptibility to complica\u0002tions in critical illness is complex. While increased vulnerabil\u0002ity is often expected, the phenomenon adaptation, as included\r\nin all stress concepts outlined above, suggests that exposure\r\nto low doses of stressors can actually promote resilience and\r\nincrease stress tolerance in organisms.\r\nHormesis has been observed in connection with diverse\r\nstressors pertinent to critical care, including heat, cold, food\r\ndeprivation, and more recently, infection [25]. Whereas inter\u0002actions with commensal microbes commonly are viewed as\r\npotentially beneficial, encounters with pathogens are con\u0002sidered universally detrimental. This linear, non-threshold\r\nmodel of pathogen interactions fails to explore potential\r\nfitness-promoting effects of pathogen exposure [25]. How\u0002ever, recent studies in model organisms and rodents support\r\nthe concept of hormetic responses to infection, with non-lethal\r\npathogen doses linked to beneficial adaptations, e.g. wound\r\nhealing through mitochondrial oxidative stress responses, i.e.\r\n‘mitohormesis’ [26]. These findings suggest a need to reassess\r\nthe effects of pathogens on host fitness as a function of\r\npathogen load and of the state of the stress response [25].\r\nAdditionally, this nuanced understanding challenges the lib\u0002eral use of ‘pre-emptive’ or ‘prophylactic’ antibiotics, recog\u0002nizing that disruption of the microbiome through antibiotic\r\noveruse may itself prime the host for maladaptive responses.\r\nIn the context of burn and trauma patients, these stressors\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "interact in complex ways, modulating the interplay between\r\nhost cells and microbiota at damaged barriers and presumably\r\nin the gut.\r\nBesides altered exposure to pathogens, exposure to iron ions\r\nchanges drastically in trauma and sepsis development after\r\nmultiple injuries and strong evidence exists for biphasic stress\r\nresponses to exposure to iron ions [27, 28].\r\nWe will use exposure to microbiome/pathobiome as well\r\nas iron to illustrate stressor associated to trauma with the\r\npotential to alter outcome, but also offering perspectives for\r\nimproved treatment options. Clinically, the ability to assess a\r\npatient’s state of susceptibility or resilience could inform sur\u0002gical planning and improve outcomes for vulnerable patients\r\nupon sequential stress Table 1.\r\nHumans as ‘holobionts’—understanding the role\r\nof the gut microbiome in trauma and sepsis\r\nThe term ‘microbiome’ refers to the entirety of microorgan\u0002isms that colonize a living organism. This diverse community\r\nincludes bacteria, fungi, and (less-studied) viruses that\r\nsignificantly outnumber the eukaryotic cells of the host. The\r\nmajority of these microorganisms reside in the gut, where\r\nthey play crucial roles, such as producing vitamins and\r\ncontrolling potential pathogens [29]. Due to the microbiome’s\r\nimportance, humans are often considered ‘holobionts’, i.e.\r\na biological system comprising a eukaryotic host and a\r\nmultitude of closely associated prokaryotic species. The\r\nmicrobiome is highly diverse, encompassing several thousand\r\ndifferent species [30, 31]. Its role in regulating immunity has\r\ngained significant attention in the context of critical illness,\n4 Burns & Trauma, 2025, Vol. 13, tkaf014\r\nTable 1. Conceptual matrix of factors, challenges, and read outs for personalizing interventions in post-trauma sepsis\r\nTissue damage (Trauma/burn injury) Host response Infection/sepsis\r\nPathophysiological\r\nconcepts\r\nTiming and response to treatment\r\nRelease of DAMPs/PAMPs [2] Immune response/\r\nVariable endotypes [11, 12]\r\nRelease of PAMPs/DAMPs [2]\r\nMicrocirculatory impairment [35] Microbiome: modulation of immune\r\nresponse/impaired barrier function [34]\r\nMicrocirculatory impairment [35]\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Prolonged gut ischemia [35] Diversity and composition of\r\nmicrobiome [36, 37]\r\nProlonged gut ischemia [35]\r\n‘Leaky gut’ [35] Dysbiosis [36, 37]\r\nBarrier disruption [34–37]\r\nAntibiosis\r\nRelease of heme, iron ions, intercepting\r\nproteins as well as activation of\r\ndetoxifying pathways [27, 69]\r\nRead out HPA, cortisol, (proteins of) iron\r\nmetabolism, e.g ferritin, hepcidin\r\n[28, 43, 45, 60]\r\nSOFA, HRV [61, 62, 67] e.g. procalcitonin\r\nChallenges (timing of) surgical interventions\r\nimpaired tissue regeneration Allostatic overload [21, 51] Continuation of or\r\nrecovery from tissue injury\r\nSusceptibility to secondary\r\ninfections [20]\r\nBiphasic response (Hormesis)\r\n[5, 22, 25]\r\nSusceptibility to secondary\r\ninfections [33]\r\nPre-emptive antibiosis [19, 20]\r\n\u0002 ↓ \u0004\r\nAims & action Personalized interventions\r\nas altered immune function can lead to organ dysfunction,\r\nmorbidity, and mortality. Interventions affecting the gut\r\nmicrobiome, such as the liberal use of antibiotics in ICUs,\r\nare of growing concern. Antibiotics not only contribute\r\nto the development of resistance at the community level\r\nbut can also cause dysbiosis in individual patients, leading\r\nto increased morbidity and mortality [32]. On any given\r\nday, approximately twice as many ICU patients receive\r\nantibiotics than are suspected of having infections [33].\r\nThe impact of critical illness on the microbiome extends\r\nbeyond antibiotics. Other ICU interventions, such as proton\r\npump inhibitors and fasting, also affect human microbial\r\nhabitats, often resulting in a marked decrease in microbial\r\ndiversity. Dysbiosis, characterized by a significant loss of\r\nmicrobial diversity and pathogen overgrowth, is linked to\r\norgan dysfunction in critical illness, particularly in trauma and\r\nburn patients. In healthy individuals, the intestinal epithelium\r\nabsorbs nutrients and prevents the translocation of gut flora,\r\nmaintaining a barrier function. However, this barrier can be\r\ncompromised by host factors such as shock or changes in the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "microbiota composition [34]. Both microbiota alterations\r\nand the development of a ‘leaky gut’, e.g. due to altered\r\nmesenteric perfusion can contribute to the gut becoming a\r\nsource of self-infection [35]. This concept, dating back at\r\nleast several decades, is gaining renewed attention with the\r\nadvent of next-generation sequencing techniques allowing\r\nlarge-scale longitudinal studies into the hologenome. Recent\r\nstudies indicate rapid microbiome changes upon traumatic\r\ninjury [36] and reduced alpha diversity in both trauma and\r\nsepsis patients [37]. However, the specific dysbiotic signatures\r\nclearly differed between trauma and sepsis patients and female\r\npatients were more resilient to dysbiosis, coinciding with often\r\nbetter clinical outcomes [37]. As we will later discuss social\r\nstress as an important factor for overall resilience, it is worth\r\nmentioning that social determinants of health have been\r\nsuggested to influence microbiome composition and thereby—\r\neven before onset of acute disease—can alter probabilities of\r\npositive or adverse outcomes [38]. These advancements, along\r\nwith improved data science, are enhancing our understanding\r\nof complex syndromes and personalized (pharmaco)-therapy\r\n[39]. Additionally, a deeper comprehension of the molecular\r\nmechanisms underlying organ dysfunction and the influence\r\nof microbiomes ‘ecological memory’ [38] will continue to\r\nreshape our understanding of stress biology in the context of\r\ninfectious diseases.\r\nIron ions in trauma and sepsis: a double-edged\r\nsword\r\nIron ions are in almost all living organisms the most abundant\r\ntransition metal participating in a wide range of metabolic\r\nprocesses [40]. The tight control of the potentially toxic free\r\niron ions is required due to the catalytic capacity of iron ions\r\nfor generation of reactive oxygen species (ROS) causing dam\u0002age of proteins, lipids, and DNA [41].With bleeding following\r\ntrauma, degraded erythrocytes release massive amounts of\r\niron-containing haemoglobin. Increased levels of free haem,\r\niron ions, intercepting proteins and detoxifying pathways are\r\nhallmarks of trauma and associated with post-trauma sepsis\r\n(Figure 2) [28].\r\nChelating iron by binding to free pairs of electrons from\r\nsulphur, oxygen, or nitrogen atoms is preventing the genera\u0002tion of ROS and serves for detoxification in a broad range\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "of proteins [41]. Since iron ions are also essential for the\r\ngrowth of pathogens, retaining iron availability to the host\r\nwhile restricting access to the pathogen is important and asso\u0002ciated molecules, such as lactoferrin or ferritin, which serve\r\nas markers and mediators during the course of the disease\r\n[42–44]. Hepcidin is the master regulator of ferroportin, an\nBurns & Trauma, 2025, Vol. 13, tkaf014 5\r\nFigure 2. Host fitness as a function of stress dose. Stressors, such as\r\nheat, cold, fasting but also toxic compounds such as Fe2+/3+ ions\r\ntypically have fitness-promoting effects at low dose while they impair\r\nhost integrity at higher doses, a phenomenon termed hormesis.\r\nResponse to trauma is often characterized by an initial shock phase and\r\nthe subsequent events expose the patient to a variety of further\r\nstressors, e.g. exposure to Fe2+/3+.\r\niron exporting protein suppressing the release of iron to the\r\nbloodstream from its reservoirs [27], distinguishing patients\r\nwith severe infection from those with surgical trauma [45].\r\nHepcidin is also held responsible for ICU-common anaemia\r\nwhich in turn is associated with outcome [46, 47]. In a bioin\u0002formatics and network-topology-based approach studying the\r\ninterplay of iron metabolism and immune function, close links\r\nwere identified at different levels, including antigen presenta\u0002tion, catalyzing redox reactions, ubiquitination, endocytosis,\r\nand lysosomal degradation [48].\r\nGiven the central role of iron in the cellular energy\r\nmetabolism, parameters of iron-modulating proteins might\r\nfunction as measures of stress and adaptation. Elevation of\r\ncirculating free haem following trauma is positively asso\u0002ciated with systemic inflammation but also transcriptional\r\nupregulation of the detoxifying enzyme hemoxygenase-1\r\n(HO-1), e.g. in PBMC which reflects a central hallmark of\r\nthe adaptive stress response [28, 49].\r\nAn increase of fragmented erythrocytes and (mass) trans\u0002fusion following trauma serve as main sources of free haem,\r\nan important alarmin, and ligand to TLR receptors [28, 49].\r\nSevere trauma induces a decrease of albumin and hemopexin\r\nduring the initial phase [49], which impairs the host’s ability to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "deal with iron overload. Accordingly, albumin was proposed\r\nnot only as a predictor of mortality in ICU-patients with sepsis\r\n[50], but also as a measure of allostatic load [21, 51].\r\nAlbumin also carries the most abundant plasma thiol-pool\r\ndirectly detoxifying ROS and electrophiles [52, 53] and has\r\na high affinity and capacity for binding of copper and iron\r\nions, decreasing their availability for generation of ROS [22].\r\nIron- and copper-mediated hormetic effects have already been\r\nestablished in a broad range of diseases, most notably neu\u0002rodegenerative disorders [54].\r\nHaem and its degrading enzyme, haem oxygenase (HO\u00021), can be considered the most prominent stress sensors\r\nin surgical patients [49]. Induction of HO-1 may confer\r\nprotection, e.g. by controlling intracellular levels of toxic\r\nhaem, or by anti-inflammatory, anti-apoptotic, and blood\r\nflow-maintaining effects of its by-products biliverdin and\r\ncarbon monoxide [55]. However, the protective action may\r\nbe restricted to a rather narrow window of overexpression,\r\nreflecting a ‘hormetic’ pattern of action [56].\r\nStress—beyond physiology\r\nStress, in particular in the frame of the allostasis concept,\r\nembraces social and psychological stress as important factors\r\nfor the overall organismal response [57].\r\nIn line with this notion, the evolving understanding of\r\nthe stress response in critical illness incorporates insights\r\nfrom both biomedical and social sciences. Social sciences\r\nhave also developed methods to measure and compare stress\r\nresponses over decades, providing potential frameworks for\r\napplication in critical care. This evolving perspective on stress\r\nresponses in critical illness highlights the need for more\r\nnuanced approaches to patient care, recognizing both the\r\npotential benefits and threats of controlled stress exposure.\r\nSocial sciences have contributed significantly to under\u0002standing and coping with stress, emphasizing the role of social\r\nsupport in resilience. Studies show that positive social support\r\ncan enhance resilience to stress, help protect against devel\u0002oping trauma-related psychopathology, and reduce morbidity\r\nand mortality. The redefinition of stress response in critical\r\nillness emphasizes the need for an interdisciplinary approach,\r\nintegrating insights from biomedical sciences, psychology, and\r\nsocial sciences to develop comprehensive strategies for patient\r\ncare [58, 59].\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Cortisol levels, measured from saliva, blood, or hair sam\u0002ples, provide insight into the activation of the hypothalamic–\r\npituitary–adrenal (HPA) axis, a key component of the physi\u0002ological stress response [60]. Complementing this, heart rate\r\nvariability (HRV) serves as a valuable indicator of autonomic\r\nnervous system function, with lower HRV typically associated\r\nwith higher stress levels [61, 62]. The advent of wearable\r\ndevices and mobile applications has further enhanced our\r\nability to monitor stress responses in real-time, tracking phys\u0002iological markers such as heart rate, skin conductance, and\r\nactivity levels continuously even in the post-acute care of\r\ncritical illness [63]. These technological advancements have\r\npaved the way for ecological momentary assessment (EMA),\r\na method that involves repeated sampling of individuals’\r\nbehaviours and experiences in their natural environments\r\nusing mobile devices [64].\r\nConcepts of stress response in social sciences highlight\r\nthe complexity and variability of stress at both individual\r\nand community levels. Frameworks, such as allostatic load\r\nand hormesis, provide a deeper understanding of how stress\r\nimpacts health and well-being. Integrating these frameworks\r\nand measurement techniques, such as self-report scales, into\r\ncritical care settings might enhance our understanding of\r\nstress in critically ill patients. An interdisciplinary approach,\r\ncombining insights from social sciences and biomedical\r\nresearch, holds promise for improving outcomes in critical\r\ncare and post intensive care syndrome.\r\nThe study of stress response and resilience reveals a com\u0002plex interplay between biological, psychological, and social\r\nfactors [65]. The dynamic nature of resilience presents both\r\nchallenges and opportunities in identifying at-risk patients\r\nand tailoring interventions. Social sciences employ a range of\r\ntools including self-report measures, behavioural coding, and\r\nphysiological assessments such as cortisol levels and HRV. In\r\ncontrast, critical care medicine relies heavily on biomarkers\r\nand scoring systems, most notably the SOFA score [66–\r\n68]. Interdisciplinary approaches applying complementary\r\ninsights to patient care, could allow exploring ways to per\u0002sonalize interventions based on individual stress responses\r\nand resilience profiles. An interdisciplinary approach would\n6 Burns & Trauma, 2025, Vol. 13, tkaf014\r\nreflect a growing recognition of the complex, dynamic nature\r\nof stress responses and resilience, driving the development of\r\nmore nuanced frameworks and measurement approaches to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "capture this complexity effectively.\r\nConclusions\r\nThis evolving perspective on stress response in critical illness\r\nunderscores the complexity of human responses to severe\r\nstressors and the importance of considering both biological\r\nand psychosocial factors in patient care. It suggests that\r\neffective management of critically ill patients requires a holis\u0002tic approach that addresses not only physiological parame\u0002ters but also psychological and social aspects of stress and\r\nresilience. From a merely biomedical point of view, the concept\r\nof common molecular pathways mediating stress responses\r\nmight lead to the identification of treatable traits that may\r\nequally benefit critically ill patients suffering from different\r\nconditions and may enable prevention of complications by\r\ntargeted modulation of the stress response.\r\nAcknowledgements\r\nWe gratefully acknowledge support by the Open Access Publication\r\nFund of the Thueringer Universitäts- and Landesbibliothek (ThULB)\r\nJena. We thank Margit Leitner for supporting manuscript revision and\r\nfigure preparation.\r\nAuthor contributions\r\nPetra Dickmann (Conceptualization [equal], Methodology [equal],\r\nWriting—review & editing [lead]), Ralf A. Claus (Formal analysis\r\n[equal], Writing—review & editing [lead]), and Michael Bauer (Con\u0002ceptualization [equal], Formal analysis [equal], Funding acquisition\r\n[equal], Writing—review & editing [lead]).\r\nConflict of interest\r\nThe authors declare that this review was conducted in the absence of\r\nany commercial or financial relationships that could be construed as a\r\npotential conflict of interest.\r\nFunding\r\nMB was supported by the Deutsche Forschungsgemeinschaft (Ger\u0002man Research Foundation) under Germany’s Excellence Strategy (EXC\r\n2051: Balance of the Microverse, project number 390713860).\r\nReferences\r\n1. Eriksson J, Eriksson M, Brattstrom O, Hellgren E, Friman O,\r\nGidlof A. et al. Comparison of the sepsis-2 and sepsis-3 definitions\r\nin severely injured trauma patients. J Crit Care 2019;54:125–9.\r\nhttps://doi.org/10.1016/j.jcrc.2019.08.019.\r\n2. Zhang Q, Raoof M, Chen Y, Sumi Y, Sursal T, Junger W. et al.\r\nCirculating mitochondrial DAMPs cause inflammatory responses\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "to injury. Nature 2010;464:104–7. https://doi.org/10.1038/natu\r\nre08780.\r\n3. Kain T, Dionne JC, Marshall JC. Critical illness and the gut\r\nmicrobiome. Intensive Care Med 2024;50:1692–4. https://doi.o\r\nrg/10.1007/s00134-024-07513-5.\r\n4. Majno G. The ancient riddle of sigma eta psi iota sigma (sep\u0002sis). J Infect Dis 1991;163:937–45. https://doi.org/10.1093/infdi\r\ns/163.5.937.\r\n5. Calabrese EJ. Hormesis: a fundamental concept in biology. Microb\r\nCell 2014;1:145–9. https://doi.org/10.15698/mic2014.05.145.\r\n6. Bone RC, Balk RA, Cerra FB, Dellinger RP, Fein AM, Knaus WA.\r\net al. Definitions for sepsis and organ failure and guidelines for the\r\nuse of innovative therapies in sepsis. The ACCP/SCCM consensus\r\nconference committee. American College of Chest Physicians/So\u0002ciety of Critical Care Medicine. Chest 1992;101:1644–55. https://\r\ndoi.org/10.1378/chest.101.6.1644.\r\n7. Bone RC, Sibbald WJ, Sprung CL. The ACCP-SCCM consensus\r\nconference on sepsis and organ failure. Chest 1992;101:1481–3.\r\nhttps://doi.org/10.1378/chest.101.6.1481.\r\n8. Singer M, Deutschman CS, Seymour CW, Shankar-Hari M,\r\nAnnane D, Bauer M. et al. The third international consensus\r\ndefinitions for sepsis and septic shock (Sepsis-3). JAMA 2016;315:\r\n801–10. https://doi.org/10.1001/jama.2016.0287.\r\n9. Bone RC. Sir Isaac Newton, sepsis, SIRS, and CARS. Crit Care Med\r\n1996;24:1125–8. https://doi.org/10.1097/00003246-199607000-\r\n00010.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "10. Kyriazopoulou E, Leventogiannis K, Norrby-Teglund A, Dimopou\u0002los G, Pantazi A, Orfanos SE. et al. Macrophage activation-like\r\nsyndrome: an immunological entity associated with rapid pro\u0002gression to death in sepsis. BMC Med 2017;15:172. https://doi.o\r\nrg/10.1186/s12916-017-0930-5.\r\n11. Giamarellos-Bourboulis EJ, Antonelli M, Bloos F, Kotsamidi I,\r\nPsarrakis C, Dakou K. et al. Interferon-gamma driven elevation of\r\nCXCL9: a new sepsis endotype independently associated with mor\u0002tality.EBioMedicine 2024;109:105414. https://doi.org/10.1016/j.e\r\nbiom.2024.105414.\r\n12. Seymour CW, Kennedy JN, Wang S, Chang CH, Elliott CF, Xu Z.\r\net al. Derivation, validation, and potential treatment implications\r\nof novel clinical phenotypes for sepsis. JAMA 2019;321:2003–17.\r\nhttps://doi.org/10.1001/jama.2019.5791.\r\n13. Kotsaki A, Pickkers P, Bauer M, Calandra T, Lupse M, Wiersinga\r\nWJ. et al. ImmunoSep (personalised immunotherapy in sep\u0002sis) international double-blind, double-dummy, placebo-controlled\r\nrandomised clinical trial: study protocol. BMJ Open 2022;\r\n12:e067251. https://doi.org/10.1136/bmjopen-2022-067251.\r\n14. Divangahi M, Aaby P, Khader SA, Barreiro LB, Bekkering S,\r\nChavakis T. et al. Trained immunity, tolerance, priming and\r\ndifferentiation: distinct immunological processes. Nat Immunol\r\n2021;22:2–6. https://doi.org/10.1038/s41590-020-00845-6.\r\n15. Chahin AB, Opal JM, Opal SM. Whatever happened to\r\nthe Shwartzman phenomenon? Innate Immun 2018;24:466–79.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "https://doi.org/10.1177/1753425918808008.\r\n16. Buchman TG, Abello PA, Smith EH, Bulkley GB. Induction of heat\r\nshock response leads to apoptosis in endothelial cells previously\r\nexposed to endotoxin. Am J Phys 1993;265:H165–70. https://doi.o\r\nrg/10.1152/ajpheart.1993.265.1.H165.\r\n17. Lefering R. Trauma scoring systems. Curr Opin Crit Care 2012;18:\r\n637–40. https://doi.org/10.1097/MCC.0b013e3283585356.\r\n18. Wang CY, Chen YC, Chien TH, Chang HY, Chen YH, Chien\r\nCY. et al. Impact of comorbidities on the prognoses of trauma\r\npatients: analysis of a hospital-based trauma registry database.\r\nPLoS One 2018;13:e0194749. https://doi.org/10.1371/journal.po\r\nne.0194749.\r\n19. Garner MR, Sethuraman SA, Schade MA, Boateng H. Antibi\u0002otic prophylaxis in open fractures: evidence, evolving issues, and\r\nrecommendations. J Am Acad Orthop Surg 2020;28:309–15.\r\nhttps://doi.org/10.5435/JAAOS-D-18-00193.\r\n20. Brand M, Grieve A, Cochrane Injuries Group. Prophylactic antibi\u0002otics for penetrating abdominal trauma. Cochrane Database Syst\r\nRev 2019;2019:CD007370. https://doi.org/10.1002/14651858.\r\nCD007370.pub4.\r\n21. Juster RP, McEwen BS, Lupien SJ. Allostatic load biomarkers\r\nof chronic stress and impact on health and cognition. Neurosci\r\nBiobehav Rev 2010;35:2–16. https://doi.org/10.1016/j.neubiore\r\nv.2009.10.002.\r\n22. Calabrese EJ, Mattson MP. How does hormesis impact biology,\r\ntoxicology, and medicine? NPJ Aging Mech Dis 2017;3:13. https://\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "doi.org/10.1038/s41514-017-0013-z.\r\n23. McEwen BS, Wingfield JC. What is in a name? Integrating home\u0002ostasis, allostasis and stress. Horm Behav 2010;57:105–11. https://\r\ndoi.org/10.1016/j.yhbeh.2009.09.011.\nBurns & Trauma, 2025, Vol. 13, tkaf014 7\r\n24. Selye H. Stress and the general adaptation syndrome. Br Med J\r\n1950;1:1383–92. https://doi.org/10.1136/bmj.1.4667.1383.\r\n25. Bauer M, Ermolaeva M, Singer M, Wetzker R, Soares MP. Horme\u0002sis as an adaptive response to infection. Trends Mol Med 2024;30:\r\n633–41. https://doi.org/10.1016/j.molmed.2024.04.012.\r\n26. Timblin GA, Tharp KM, Ford B, Winchester JM, Wang J, Zhu\r\nS. et al. Mitohormesis reprogrammes macrophage metabolism\r\nto enforce tolerance. Nat Metab 2021;3:618–35. https://doi.o\r\nrg/10.1038/s42255-021-00392-w.\r\n27. Ganz T. Systemic iron homeostasis. Physiol Rev 2013;93:1721–41.\r\nhttps://doi.org/10.1152/physrev.00008.2013.\r\n28. Rittirsch D, Schoenborn V, Lindig S, Wanner E, Sprengel K, Gunkel\r\nS. et al. An integrated Clinico-transcriptomic approach identifies a\r\ncentral role of the Heme degradation pathway for septic compli\u0002cations after trauma. Ann Surg 2016;264:1125–34. https://doi.o\r\nrg/10.1097/SLA.0000000000001553.\r\n29. Bauer M. The liver-gut-axis: initiator and responder to sepsis.\r\nCurr Opin Crit Care 2022;28:216–20. https://doi.org/10.1097/\r\nMCC.0000000000000921.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "30. Theis KR, Dheilly NM, Klassen JL, Brucker RM, Baines JF,\r\nBosch TC. et al. Getting the Hologenome concept right: an eco\u0002evolutionary framework for hosts and their microbiomes. mSys\u0002tems 2016;1:1. https://doi.org/10.1128/mSystems.00028-16.\r\n31. Leviatan S, Shoer S, Rothschild D, Gorodetski M, Segal E. An\r\nexpanded reference map of the human gut microbiome reveals hun\u0002dreds of previously unknown species. Nat Commun 2022;13:3863.\r\nhttps://doi.org/10.1038/s41467-022-31502-1.\r\n32. Marfil-Sanchez A, Zhang L, Alonso-Pernas P, Mirhakkak M,\r\nMueller M, Seelbinder B. et al. An integrative understand\u0002ing of the large metabolic shifts induced by antibiotics in\r\ncritical illness. Gut Microbes 2021;13:1993598. https://doi.o\r\nrg/10.1080/19490976.2021.1993598.\r\n33. Vincent JL, Sakr Y, Singer M, Martin-Loeches I, Machado FR,\r\nMarshall JC. et al. Prevalence and outcomes of infection among\r\npatients in intensive care units in 2017. JAMA 2020;323:1478–87.\r\nhttps://doi.org/10.1001/jama.2020.2717.\r\n34. Peterson LW, Artis D. Intestinal epithelial cells: regulators of\r\nbarrier function and immune homeostasis. Nat Rev Immunol\r\n2014;14:141–53. https://doi.org/10.1038/nri3608.\r\n35. Marshall JC, Christou NV, Horn R, Meakins JL. The microbiology\r\nof multiple organ failure. The proximal gastrointestinal tract as an\r\noccult reservoir of pathogens. Arch Surg 1988;123:309–15. https://\r\ndoi.org/10.1001/archsurg.1988.01400270043006.\r\n36. Howard BM, Kornblith LZ, Christie SA, Conroy AS, Nelson MF,\r\nCampion EM. et al. Characterizing the gut microbiome in trauma:\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "significant changes in microbial diversity occur early after severe\r\ninjury. Trauma Surg Acute Care Open 2017;2:e000108. https://\r\ndoi.org/10.1136/tsaco-2017-000108.\r\n37. Munley JA, Park G, Kelly LS, Kannan KB, Mankowski RT,\r\nCasadesus G. et al. Persistence and sexual dimorphism of gut\r\nDysbiosis and Pathobiome after sepsis and trauma. Ann Surg 2024;\r\n280:491–503. https://doi.org/10.1097/SLA.0000000000006385.\r\n38. Alverdy JC, Polcari A, Benjamin A. Social determinants of\r\nhealth, the microbiome, and surgical injury. J Trauma Acute\r\nCare Surg 2024;97:158–63. https://doi.org/10.1097/TA.00000000\r\n00004298.\r\n39. ElRakaiby M, Dutilh BE, Rizkallah MR, Boleij A, Cole JN,\r\nAziz RK. Pharmacomicrobiomics: the impact of human micro\u0002biome variations on systems pharmacology and personalized\r\ntherapeutics. OMICS 2014;18:402–14. https://doi.org/10.1089/o\r\nmi.2014.0018.\r\n40. Ganz T, Nemeth E. Iron homeostasis in host defence and\r\ninflammation. Nat Rev Immunol 2015;15:500–10. https://doi.o\r\nrg/10.1038/nri3863.\r\n41. Jomova K, Valko M. Importance of iron chelation in free\r\nradical-induced oxidative stress and human disease. Curr Pharm\r\nDes 2011;17:3460–73. https://doi.org/10.2174/1381612117980\r\n72463.\r\n42. Lu J, Francis J, Doster RS, Haley KP, Craft KM, Moore RE. et al.\r\nLactoferrin: a critical mediator of both host immune response and\r\nantimicrobial activity in response to streptococcal infections. ACS\r\nInfect Dis 2020;6:1615–23. https://doi.org/10.1021/acsinfecdis.0\r\nc00050.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "43. Rosario C, Zandman-Goddard G, Meyron-Holtz EG, D’Cruz\r\nDP, Shoenfeld Y. The hyperferritinemic syndrome: macrophage\r\nactivation syndrome, Still’s disease, septic shock and catastrophic\r\nantiphospholipid syndrome. BMC Med 2013;11:185. https://doi.o\r\nrg/10.1186/1741-7015-11-185.\r\n44. Liu Q, Wu J, Zhang X, Wu X, Zhao Y, Ren J. Iron homeostasis and\r\ndisorders revisited in the sepsis. Free Radic Biol Med 2021;165:\r\n1–13. https://doi.org/10.1016/j.freeradbiomed.2021.01.025.\r\n45. Hortova-Kohoutkova M, Skotakova M, Onyango IG, Slezakova\r\nM, Panovsky R, Opatril L. et al. Hepcidin and ferritin lev\u0002els as markers of immune cell activation during septic shock,\r\nsevere COVID-19 and sterile inflammation. Front Immunol\r\n2023;14:1110540. https://doi.org/10.3389/fimmu.2023.1110540.\r\n46. Napolitano LM. Anemia and red blood cell transfusion: advances\r\nin critical care. Crit Care Clin 2017;33:345–64. https://doi.o\r\nrg/10.1016/j.ccc.2016.12.011.\r\n47. Hof L, Choorapoikayil S, Meybohm P, Zacharowski K. Patient\r\nblood management in intensive care patients. Curr Opin Crit\r\nCare 2021;27:709–16. https://doi.org/10.1097/MCC.00000000\r\n00000880.\r\n48. Bonilla DA, Moreno Y, Petro JL, Forero DA, Vargas-Molina S,\r\nOdriozola-Martinez A. et al. A bioinformatics-assisted review on\r\niron metabolism and immune system to identify potential biomark\u0002ers of exercise stress-induced immunosuppression. Biomedicines\r\n2022;10:10. https://doi.org/10.3390/biomedicines10030724.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 479,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "49. Tullie S, Nicholson T, Bishop JRB, McGee KC, Asiri A, Sullivan\r\nJ. et al. Severe thermal and major traumatic injury results in\r\nelevated plasma concentrations of total heme that are associ\u0002ated with poor clinical outcomes and systemic immune suppres\u0002sion. Front Immunol 2024;15:1416820. https://doi.org/10.3389/fi\r\nmmu.2024.1416820.\r\n50. Frenkel A, Novack V, Bichovsky Y, Klein M, Dreiher J.\r\nSerum albumin levels as a predictor of mortality in patients\r\nwith sepsis: a Multicenter study. Isr Med Assoc J 2022;24:\r\n454–9.\r\n51. Crimmins EM, Johnston M, Hayward M, Seeman T. Age dif\u0002ferences in allostatic load: an index of physiological dysreg\u0002ulation. Exp Gerontol 2003;38:731–4. https://doi.org/10.1016/\r\nS0531-5565(03)00099-8.\r\n52. Turell L, Radi R, Alvarez B. The thiol pool in human plasma: the\r\ncentral contribution of albumin to redox processes. Free Radic\r\nBiol Med 2013;65:244–53. https://doi.org/10.1016/j.freeradbiome\r\nd.2013.05.050.\r\n53. Nakashima F, Shibata T, Kamiya K, Yoshitake J, Kikuchi R,\r\nMatsushita T. et al. Structural and functional insights into S\u0002thiolation of human serum albumins. Sci Rep 2018;8:932. https://\r\ndoi.org/10.1038/s41598-018-19610-9.\r\n54. Hider RC, Kong X. Iron: effect of overload and deficiency. Met Ions\r\nLife Sci 2013;13:229–94. https://doi.org/10.1007/978-94-007-\r\n7500-8_8.\r\n55. Englert FA, Seidel RA, Galler K, Gouveia Z, Soares MP,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Neugebauer U. et al. Labile heme impairs hepatic microcir\u0002culation and promotes hepatic injury. Arch Biochem Biophys\r\n2019;672:108075. https://doi.org/10.1016/j.abb.2019.108075.\r\n56. Bauer M, Huse K, Settmacher U, Claus RA. The heme oxygenase\u0002carbon monoxide system: regulation and role in stress response and\r\norgan failure. Intensive Care Med 2008;34:640–8. https://doi.o\r\nrg/10.1007/s00134-008-1010-2.\r\n57. McEwen BS, Wingfield JC. The concept of allostasis in biology and\r\nbiomedicine. Horm Behav 2003;43:2–15. https://doi.org/10.1016/\r\nS0018-506X(02)00024-7.\r\n58. Chang YH, Yang CT, Hsieh S. Social support enhances the\r\nmediating effect of psychological resilience on the relationship\n8 Burns & Trauma, 2025, Vol. 13, tkaf014\r\nbetween life satisfaction and depressive symptom severity. Sci Rep\r\n2023;13:4818. https://doi.org/10.1038/s41598-023-31863-7.\r\n59. Ozbay F, Johnson DC, Dimoulas E, Morgan CA, Charney D,\r\nSouthwick S. Social support and resilience to stress: from neuro\u0002biology to clinical practice. Psychiatry (Edgmont) 2007;4:35–40.\r\n60. Iob E, Steptoe A. Cardiovascular disease and hair cortisol: a\r\nnovel biomarker of chronic stress. Curr Cardiol Rep 2019;21:116.\r\nhttps://doi.org/10.1007/s11886-019-1208-7.\r\n61. Herman JP, McKlveen JM, Ghosal S, Kopp B, Wulsin A,\r\nMakinson R. et al. Regulation of the hypothalamic-pituitary\u0002adrenocortical stress response. Compr Physiol 2016;6:603–21.\r\nhttps://doi.org/10.1002/cphy.c150015.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "62. Kim HG, Cheon EJ, Bai DS, Lee YH, Koo BH. Stress and heart\r\nrate variability: a meta-analysis and review of the literature.\r\nPsychiatry Investig 2018;15:235–45. https://doi.org/10.30773/\r\npi.2017.08.17.\r\n63. Yoon S, Sim JK, Cho YH. A flexible and wearable human stress\r\nmonitoring patch. Sci Rep 2016;6:23468. https://doi.org/10.1038/\r\nsrep23468.\r\n64. Gonzalez Ramirez ML, Garcia Vazquez JP, Rodriguez MD, Padilla\u0002Lopez LA, Galindo-Aldana GM, Cuevas-Gonzalez D. Wearables\r\nfor stress management: a scoping review. Healthcare (Basel)\r\n2023;11:11. https://doi.org/10.3390/healthcare11172369.\r\n65. Androulakis IP. From cells to society: untangling the web\r\nof stress, inflammation, and social determinants of health.\r\nFrontiers in Science 2024;2:2. https://doi.org/10.3389/fsci.2024.\r\n1358784.\r\n66. Ferreira FL, Bota DP, Bross A, Melot C, Vincent JL. Serial\r\nevaluation of the SOFA score to predict outcome in critically\r\nill patients. JAMA 2001;286:1754–8. https://doi.org/10.1001/ja\r\nma.286.14.1754.\r\n67. Vincent JL, de Mendonca A, Cantraine F, Moreno R, Takala\r\nJ, Suter PM. et al. Use of the SOFA score to assess the\r\nincidence of organ dysfunction/failure in intensive care units:\r\nresults of a multicenter, prospective study. Working group on\r\n“sepsis-related problems” of the European Society of Intensive\r\nCare Medicine. Crit Care Med 1998;26:1793–800. https://doi.o\r\nrg/10.1097/00003246-199811000-00016.\r\n68. Ahnert P, Creutz P, Horn K, Schwarzenberger F, Kiehntopf\r\nM, Hossain H. et al. Sequential organ failure assessment score\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4724341383004080173,
+        "filename": "tkaf014.PMC12218198.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 324,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "is an excellent operationalization of disease severity of adult\r\npatients with hospitalized community acquired pneumonia -\r\nresults from the prospective observational PROGRESS study.\r\nCrit Care 2019;23:110. https://doi.org/10.1186/s13054-019-\r\n2316-x.\r\n69. Rittirsch D, Schoenborn V, Lindig S, Wanner E, Sprengel K,\r\nGunkel S. et al.Improvement of prognostic performance in severely\r\ninjured patients by integrated clinico-transcriptomics: a transla\u0002tional approach. Crit Care 2015;19:414. https://doi.org/10.1186/\r\ns13054-015-1127-y.\r\n© The Author(s) 2025. Published by Oxford University Press. This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial License (https://creativecommons.org/licenses/by-nc/4.0/), which permits non-commercial re-use, distribution, and\r\nreproduction in any medium, provided the original work is properly cited.\r\nFor commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our RightsLink service via the Permissions link on the article page on our site—for further information please contact\r\njournals.permissions@oup.com.\r\nBurns & Trauma, 2025, 13, tkaf014\r\nhttps://doi.org/10.1093/burnst/tkaf014\r\nReview\n\n"
+  }
+]

@@ -1,0 +1,650 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "1958 | A. Herrero et al. Molecular Biology of the Cell\r\nMBoC | ARTICLE\r\nDefined spatiotemporal features of RAS-ERK \r\nsignals dictate cell fate in MCF-7 mammary \r\nepithelial cells\r\nABSTRACT Signals conveyed through the RAS-ERK pathway are essential for the determina\u0002tion of cell fate. It is well established that signal variability is achieved in the different micro\u0002environments in which signals unfold. It is also known that signal duration is critical for deci\u0002sions concerning cell commitment. However, it is unclear how RAS-ERK signals integrate time \r\nand space in order to elicit a given biological response. To investigate this, we used MCF-7 \r\ncells, in which EGF-induced transient ERK activation triggers proliferation, whereas sustained \r\nERK activation in response to heregulin leads to adipocytic differentiation. We found that \r\nboth proliferative and differentiating signals emanate exclusively from plasma membrane–\r\ndisordered microdomains. Of interest, the EGF signal can be transformed into a differentiat\u0002ing stimulus by HRAS overexpression, which prolongs ERK activation, but only if HRAS local\u0002izes at disordered membrane. On the other hand, HRAS signals emanating from the Golgi \r\ncomplex induce apoptosis and can prevent heregulin-induced differentiation. Our results in\u0002dicate that within the same cellular context, RAS can exert different, even antagonistic, ef\u0002fects, depending on its sublocalization. Thus cell destiny is defined by the ability of a stimulus \r\nto activate RAS at the appropriate sublocalization for an adequate period while avoiding \r\nswitching on opposing RAS signals.\r\nINTRODUCTION\r\nSignals conveyed through the RAS–extracellular signal-regulated \r\nkinase (ERK) axis (RAS-RAF–mitogen-activated protein kinase kinase \r\n[MEK]–ERK) play critical roles in multiple cellular functions, including \r\ncell fate decisions at the proliferation/differentiation/apoptosis \r\ncrossroads. A large body of data shows that the RAS-ERK pathway \r\noperates in the determination of cell destiny by mechanisms that \r\nextend beyond its simple on–off status and that subtle variations in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "several signal parameters can evoke profound alterations in its bio\u0002logical output (Kholodenko et al., 2010). For example, in mammary \r\nepithelial cells, the decision to proliferate depends on ERK’s signal \r\namplitude and frequency (Albeck et al., 2013). Signal duration is \r\nalso critical in the determination of cell commitment. This was ini\u0002tially demonstrated in rat pheochromocytoma PC-12 cells, in which \r\ntransient ERK activation, stimulated by epidermal growth factor \r\n(EGF), resulted in proliferation, whereas sustained ERK activation, \r\nevoked by nerve growth factor (NGF), induced cell differentiation \r\n(Traverse et al., 1992). This phenomenon has been observed in mul\u0002tiple cellular models, such as squamous cell lung carcinoma SCC\u000212F cells (McCawley et al., 1999) and Madin–Darby canine kidney \r\nepithelial cells, in which transient ERK activation resulting from EGF \r\ntreatment induced proliferation, whereas prolonged ERK activation \r\ntriggered by HGF led to the acquisition of mesenchymal features, \r\nincluding scattering (Liang and Chen, 2001).\r\nIn addition, a wealth of data has led to the abandonment of the \r\nview that the RAS-ERK pathway is a unique, linear signaling axis. It \r\nis now established that space plays a critical role in the RAS-ERK \r\npathway by providing variability to its signals, depending on the \r\navailability of regulatory and effector molecules at the different \r\nMonitoring Editor\r\nJ. Silvio Gutkind\r\nUniversity of California, \r\nSan Diego\r\nReceived: Feb 27, 2015\r\nRevised: Mar 21, 2016\r\nAccepted: Apr 13, 2016\r\nThis article was published online ahead of print in MBoC in Press (http://www\r\n.molbiolcell.org/cgi/doi/10.1091/mbc.E15-02-0118) on April 20, 2016.\r\nThe authors declare no conflicts of interest.\r\n†Present address: Systems Biology Ireland and School of Medicine, University \r\nCollege Dublin, Dublin 4, Ireland.\r\n*Address correspondence to: Piero Crespo (crespop@unican.es).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "© 2016 Herrero et al. This article is distributed by The American Society for Cell \r\nBiology under license from the author(s). Two months after publication it is avail\u0002able to the public under an Attribution–Noncommercial–Share Alike 3.0 Unport\u0002ed Creative Commons License (http://creativecommons.org/licenses/by-nc\r\n-sa/3.0).\r\n“ASCB®,” “The American Society for Cell Biology®,” and “Molecular Biology of \r\nthe Cell®” are registered trademarks of The American Society for Cell Biology.\r\nAbbreviations used: GDP, guanidine biphosphate; GEF, guanosine nucleotide \r\nexchange factor; GTP, guanidine triphosphate.\r\nAna Herrero†, Berta Casar, Paula Colón-Bolea, Lorena Agudo-Ibáñez, and Piero Crespo*\r\nInstituto de Biomedicina y Biotecnología de Cantabria (IBBTEC), Consejo Superior de Investigaciones Científicas \r\n(CSIC), Universidad de Cantabria, Santander E-39011, Spain\nVolume 27 June 15, 2016 Space/time control of RAS-ERK signals | 1959\r\ntion that exhibits similar kinetics at the nu\u0002cleus and the cytoplasm. Similarly, disor\u0002dered membrane platforms are competent \r\nfor inducing apoptosis. We show that over\u0002expression of HRAS and other constituents \r\nof the RAS-ERK pathway leads to the pro\u0002longation of EGF-induced ERK activation \r\nand that this is sufficient to transform the \r\nEGF signal into a differentiating stimulus. Of \r\ninterest, EGF evokes differentiation only if \r\nthe overexpressed RAS localizes at disor\u0002dered membrane microdomains but not at \r\nother sublocalizations. However, from the \r\nGolgi complex, RAS can induce apoptosis \r\nand antagonize differentiation signals. Our \r\nresults demonstrate that specific spatial and \r\ntemporal cues are critical for biological out\u0002put determination as mediated by RAS-ERK \r\nsignaling.\r\nRESULTS\r\nEGF and HRG evoke different \r\nactivation kinetics for RAS-ERK \r\npathway constituents\r\nTo study the spatiotemporal specificity of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "RAS-ERK signals associated with a given bi\u0002ological response, we used MCF-7 cells. \r\nThis mammary epithelial cell line undergoes \r\ndivergent fates, depending on the agonist \r\nacting on the EGF receptor family. EGF in\u0002duces proliferation, whereas HRG evokes \r\nadipocytic-like differentiation (Nagashima \r\net al., 2007), a process characterized by the \r\naccumulation of cytoplasmic lipid droplets, \r\ndiscernible by Oil Red staining. This phe\u0002nomenon was entirely dependent on ERK \r\nactivation, since treatment with the MEK in\u0002hibitor UO126 prevented differentiation \r\ncompletely (Figure 1A). Stimulation with \r\nHRG evoked sustained ERK activation for \r\n>1 h. In contrast, treatment with EGF re\u0002sulted in an acute peak of ERK activity, last\u0002ing for barely 10 min (Figure 1B). At its peak \r\nlevels, the intensity of ERK activation evoked \r\nby HRG was ∼40% stronger than that in\u0002duced by EGF treatment (Figure 1C).\r\nWe also monitored the activation of \r\nother upstream components of the RAS\u0002ERK pathway in response to EGF/HRG treat\u0002ment. HRG-induced MEK activation kinetics \r\nwas only slightly prolonged in comparison to that resulting from \r\nEGF treatment (Figure 2A). This was also the case for RAS activation \r\n(Figure 2B), whereas HRG activated RAS more intensively than EGF \r\n(Figure 2C). Of interest, in response to HRG, MEK and RAS activa\u0002tion extended for a significantly shorter period than ERK phosphory\u0002lation (5 min vs. 1 h). These results demonstrated that the duration \r\nof ERK signal in response to HRG stimulation was primarily regu\u0002lated at the level of ERK activation.\r\nWith respect to the activation pattern of ERK downstream effec\u0002tors, we evaluated the activation of the cytoplasmic kinase RSK1 \r\nand the nuclear transcription factor ELK1. The activity of both sub\u0002strates responded similarly: transiently to EGF and with sustained \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "microlocalizations from which RAS signals emanate, thereby regu\u0002lating its biochemical and biological outputs in a site-specific man\u0002ner (Calvo et al., 2010; Arozarena et al., 2011). However, it is unclear \r\nhow RAS-ERK signals integrate time and space in order to elicit a \r\ngiven biological response.\r\nTo address this question, we used MCF-7 mammary epithelial \r\ncells, in which EGF-induced transient ERK activation triggers prolif\u0002eration, whereas sustained ERK activation in response to treatment \r\nwith heregulin (HRG) leads to adipocytic-like differentiation (Giani \r\net al., 1998; Nagashima et al., 2007). We found that both EGF- and \r\nHRG-stimulated RAS signals emanate exclusively from disordered \r\nmicrodomains at the plasma membrane (PM), triggering ERK activa\u0002FIGURE 1: ERK activation kinetics induced by HRG and EGF in MCF-7 cells. (A) HRG-induced \r\ndifferentiation is dependent on ERK activation. Cells were treated with HRG (30 ng/ml) in the \r\npresence or absence of U0126 (10 μm) for 7 d before fixing and staining with Oil Red O. (B) Time \r\ncourse of ERK phosphorylation induced by treatment with EGF (50 ng/ml) or HRG (30 ng/ml) for \r\nthe indicated times. Graphs are quantifications of the results obtained in three independent \r\nexperiments (mean ± SEM). (C) Comparison of the intensity of ERK phosphorylation in response \r\nto EGF and HRG. Bar chart shows mean ± SEM of three independent experiments. *p < 0.05, \r\n**p < 0.01, ***p < 0.001 with 95% confidence interval.\n1960 | A. Herrero et al. Molecular Biology of the Cell\r\nmicrodomains. We found that RAS, irrespec\u0002tive of which isoform, was exclusively pres\u0002ent at DM locations and absent from lipid \r\nraft microdomains (Figure 4B).\r\nNext we proceeded to assay how EGF \r\nand HRG activated RAS at those sublocaliza\u0002tions where it had been detected. As site\u0002specific probes, we used HRAS wild-type \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "constructs precisely sent to the desired sub\u0002localization by fused sublocalization-specific \r\ntethers, namely PTP-HRAS, targeted to the \r\nendoplasmic reticulum (ER; Lorentzen et al., \r\n2010); KDELr-HRAS, tethered to the Golgi \r\ncomplex (GC); and CD8-HRAS, sent to DM \r\nsublocalizations (Arozarena et al., 2004; \r\nMatallanas et al., 2006). We found that nei\u0002ther EGF nor HRG induced activation of RAS \r\nat the ER, whereas the PTP-HRAS probe was \r\nresponsive to overexpression of RASGRF1, \r\nthe exchange factor responsible for activat\u0002ing RAS at the ER (Arozarena et al., 2004; \r\nFigure 4C). A similar situation was observed \r\nfor the KDELr-HRAS GC probe, which \r\nunderwent GDP/GTP (guanidine biphos\u0002phate/guanidine triphosphate) exchange in \r\nthe presence of overexpressed RASGRP1 \r\n(Caloca et al., 2003) but not when stimulated \r\nby EGF or HRG (Figure 4D). Conversely, CD8-\r\nHRAS, monitoring RAS activation at DM, un\u0002derwent nucleotide exchange when cells \r\nwere stimulated either by EGF or HRG (Figure \r\n4E), with kinetics resembling those previously \r\ndetected for endogenous RAS (Figure 2B).\r\nIn parallel, we performed live-cell RAS \r\nactivation analyses using as a probe for RAS\u0002GTP E3-R3 (A/D) a chimeric protein made of \r\nthe RAF Ras-binding domain (RBD) fused to \r\nthree enhanced green fluorescent proteins \r\n(GFPs) in tandem (Augsten et al., 2006). This \r\nconstruct was cotransfected together with \r\ncherry HRAS into MCF-7 cells, which were \r\nsubsequently challenged by EGF and HRG \r\ntreatments. We found that upon EGF stimu\u0002lation, RAS activation was restricted to the \r\ncellular periphery, in full agreement with previous results (Song et al., \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "2013). Similarly, treatment with HGR resulted in pronounced recruit\u0002ment of the probe to the PM but not to internal structures (Figure 5). \r\nThese data suggested that both proliferative and differentiating sig\u0002nals required RAS activation at the PM but not at endomembranes.\r\nTo substantiate these findings further, we tested how specifically \r\nblocking RAS activation at the sublocalizations under scrutiny af\u0002fected proliferation and differentiation. We used HRAS N17 domi\u0002nant inhibitory versions targeted to the aforementioned sublocal\u0002izations, previously demonstrated to specifically inhibit RAS \r\nactivation there (Matallanas et al., 2006). It was found that whereas \r\nDM-targeted CD8-HRAS N17 markedly inhibited HRG-induced dif\u0002ferentiation, this was unaffected by the expression of the GC- and \r\nER-tethered HRAS inhibitory mutants (Figure 6A). A similar situation \r\nwas observed when we evaluated cellular proliferation (Figure 6B). \r\nOverall these results demonstrated that in MCF-7 cells, both prolif\u0002erative and differentiating RAS-ERK signals emanate from the same \r\nsublocalization: the disordered membrane microdomains.\r\nkinetics to HRG stimulation (Figure 3B). To elucidate whether ERK \r\nactivation kinetics diverged at different subcellular compartments, \r\nwe obtained nuclear and cytoplasmic extracts. Upon comparing the \r\nintensity of ERK activation at these sublocalizations, we found that \r\nboth EGF and HRG stimulated stronger ERK activation at the cyto\u0002plasm than at the nucleus (Figure 3C). These results demonstrated \r\nthat proliferative and differentiating stimuli evoked different activa\u0002tion kinetics for the different constituents of the RAS-ERK pathway.\r\nEGF and HRG activate RAS at defined sublocalizations\r\nWe sought to elucidate the membrane platforms from which RAS \r\nsignals originated in response to agonist stimulation. To this end, we \r\ninitially identified the types of membranes in which RAS was present \r\nin MCF-7 cells. Separation of endomembranes from plasma mem\u0002brane fractions in sucrose gradients revealed that RAS was present \r\nin both types of structures (Figure 4A). We analyzed the PM sub\u0002localization in further detail by separating detergent-resistant, lipid \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "rafts, microdomains from soluble, disordered membrane (DM) \r\nFIGURE 2: Activation kinetics for components of the RAS-ERK pathway induced by HRG and \r\nEGF. (A) Time course of MEK phosphorylation induced by treatment with EGF (50 ng/ml) or \r\nHRG (30 ng/ml) for the indicated times. (B) Time course of RAS GTP loading. Graphs are \r\nquantifications of the results obtained in three independent experiments (mean ± SEM). \r\n(C) Comparison of intensity of RAS GTP loading in response to EGF and HRG. Bar chart shows \r\nmean ± SEM of three independent experiments. *p < 0.05 with 95% confidence interval.\nVolume 27 June 15, 2016 Space/time control of RAS-ERK signals | 1961\r\nOverexpression of HRAS transforms \r\nEGF signal into a differentiation \r\nstimulus\r\nThe foregoing results indicated that signal \r\nkinetics rather than signal localization \r\nmarked the difference between RAS-ERK–\r\ninduced proliferative and differentiating \r\noutputs. Thus we tested whether by alter\u0002ing signal duration we could transform the \r\nEGF-induced proliferative signal into a stim\u0002ulus evoking differentiation. For this pur\u0002pose, we overexpressed several members \r\nof the RAS-ERK pathway in MCF-7 cells. This \r\nresulted in significant prolongation of ERK \r\nactivation in response to EGF treatment \r\n(Figure 7, A and B). Whereas EGF was inca\u0002pable of inducing differentiation by itself, \r\nEGF treatment in cells overexpressing either \r\nMEK1 or HRAS evoked significant levels of \r\nadipocytic differentiation. To ascertain that \r\nHRAS was promoting differentiation via the \r\nERK pathway, we used the HRAS T35S mu\u0002tant, which signals specifically through such \r\nan effector route (Rodriguez-Viciana et al., \r\n1997). In agreement, this mutant also elic\u0002ited significant levels of adipocytic differen\u0002tiation upon EGF stimulation (Figure 8).\r\nIt was of interest to determine whether \r\nthe nature of EGF signal could be altered by \r\nHRAS, depending on its sublocalization. To \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "this end, we used the aforementioned site\u0002specific HRAS constructs. Of interest, only \r\noverexpression of DM-tethered CD8-HRAS \r\nled to prolongation of ERK activation in re\u0002sponse to EGF; overexpression of either \r\nGC KDELr-HRAS or ER-targeted PTP-HRAS \r\nwas ineffective in this respect (Figure 7, A \r\nand B). In agreement, whereas overexpres\u0002sion of CD8-HRAS efficiently facilitated \r\nFIGURE 3: Activation kinetics of ERK cytoplasmic and nuclear effectors induced by HRG and \r\nEGF. (A) Time course of RSK1 and ELK1 phosphorylation induced by treatment with EGF \r\n(50 ng/ml) or HRG (30 ng/ml) for the indicated times. (B) Time course of ERK phosphorylation in \r\nnuclear and cytoplasmic fractions of cells stimulated with EGF or HRG for the indicated times. \r\nThe purity of the fractions was ascertained by immunoblotting with lamin A and RhoGDI as \r\nnuclear and cytoplasmic markers, respectively.\r\nFIGURE 4: Differential activation of RAS at \r\ndifferent microdomains. (A) RAS distribution \r\nin plasma membrane and endomembranes of \r\nMCF-7 cells. Blots for transferrin receptor \r\n(Tfr) and calreticulin are used as respective \r\nmarkers. (B) Distribution of RAS isoforms in \r\nplasma membrane microdomains. Blots for \r\nTfr (disordered membrane) and caveolin (lipid \r\nrafts) were used as microdomain markers. \r\n(C) RAS is not activated at ER. Cells \r\ntransfected with HA-tagged PTP HRAS \r\n(0.5 μg), except (-), were left unstimulated (U) \r\nor treated with EGF (50 ng/ml) or HRG \r\n(30 ng/ml) for the indicated times. Cells \r\ntransfected with RASGRF1 (1 μg) served as \r\npositive control. GTP loading was assayed by \r\nGST-RBD (RAF) pull down (PD). TL, total \r\nlysates. (D) RAS is not activated at GC. As in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "C, but cells were transfected with KDELr \r\nHRAS (0.5 μg). Cells transfected with \r\nRASGRP1 (1 μg) served as positive control. \r\n(E) RAS is activated in DM microdomains. As \r\nbefore, but in cells transfected with CD8 \r\nHRAS (0.5 μg).\n1962 | A. Herrero et al. Molecular Biology of the Cell\r\nthere (Sanz-Moreno et al., 2003) by pre\u0002venting its interaction with phosphatases \r\n(Casar et al., 2012). To sustain ERK signal\u0002ing at the cytoplasm, we transfected cells \r\nwith PEA15, a protein that serves as a cyto\u0002plasmic anchor for ERK, preventing its nu\u0002clear translocation (Formstecher et al., \r\n2001). Because binding to PEA15 can af\u0002fect ERK activity in some instances (Mace \r\net al., 2013), we also prolonged ERK cyto\u0002plasmic activity by down-regulating the ex\u0002pression of the cytoplasmic phosphatase \r\nDUSP-6 using short hairpin RNAs (shRNAs; \r\nCaunt and Keyse, 2013). Indeed, the pres\u0002ence of MXI2 sustained EGF-induced ERK \r\nphosphorylation exclusively at the nucleus, \r\nwhereas PEA15 overexpression or knock\u0002down of DUSP-6 acted similarly at the cyto\u0002plasm (Figure 9A). However, none of these \r\nprocesses was capable of promoting adi\u0002pocytic differentiation of MCF-7 cells in the \r\npresence of EGF (Figure 9B). These results \r\ndemonstrated that prolonging ERK activa\u0002tion exclusively at the nucleus or at the cy\u0002toplasm is not sufficient to trigger differen\u0002tiation in response to EGF stimulation.\r\nOncogenic HRAS induces apoptosis \r\nfrom different sublocalizations\r\nThe fact that neither proliferative nor differ\u0002entiation stimuli induced RAS activation at \r\nendomembranes was intriguing, given that \r\nRAS seemed to be devoid of a biological \r\nfunction in these platforms. Of interest, ex\u0002pression of constitutively active, oncogenic \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "RAS V12 in MCF-7 cells induced a potent \r\napoptotic response (Figure 10A). Therefore \r\nwe asked whether HRAS V12 could induce \r\nsuch an effect from endomembranes. To \r\ntest this, we used the aforementioned site\u0002specific HRAS constructs, although in their \r\noncogenic version, and tested their effects \r\non MCF-7 viability by scoring growth of col\u0002onies in soft agar. HRAS V12 could evoke \r\napoptosis from all of the sublocalizations \r\ntested, although with variable efficiency—the least intensively from \r\nER and more pronouncedly from DM and the GC (Figure 10B)—\r\nthereby demonstrating that RAS at endomembranes was compe\u0002tent for conveying death signals.\r\nRAS signals from the Golgi complex antagonize \r\ndifferentiation\r\nThe fact that ectopic HRAS V12 could trigger apoptogenic signaling \r\nfrom the GC indicated that some of the effector pathways used by \r\nRAS to convey signals downstream were functional at such sublocal\u0002ization. Thus we asked whether activation of the endogenous iso\u0002form there could affect the differentiation response of MCF-7 cells. \r\nTo activate the endogenous HRAS pool at the GC, we used overex\u0002pression of either RASGRP1, the guanosine nucleotide exchange \r\nfactor (GEF) identified as responsible for RAS activation there \r\n(Bivona et al., 2003; Caloca et al., 2003), or of the RASGRF1 cdc25 \r\ndomain specifically sent to the GC using the KDELr tethering cue \r\nthe induction of adipocytic differentiation by EGF, this stimulus was \r\nincapable of evoking differentiation in cells harboring KDELr-HRAS \r\nor PTP-HRAS (Figure 7). These results demonstrate that HRAS is \r\ncompetent for prolonging EGF-induced ERK activation, and subse\u0002quently MCF-7 differentiation, only if its signals emanate from \r\nplasma membrane DM microdomains.\r\nNucleocytoplasmic ERK signal prolongation does not affect \r\nEGF output\r\nWe observed that stimulation with HRG resulted in sustained \r\nERK phosphorylation at the nucleus and the cytoplasm, unlike \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "EGF, which evoked transient activation at both compartments \r\n(Figure 3B). Thus we asked whether by prolonging ERK activation \r\nat either sublocalization we could transform the EGF signal into a \r\ndifferentiation stimulus. To this end, we transfected MCF-7 cells \r\nwith MXI2, a p38 isoform that shuttles ERK to the nucleus (Casar \r\net al., 2007), enhancing and prolonging ERK phosphorylation \r\nFIGURE 5: Live-cell imaging of RAS activation in response to EGF and HRG. MCF-7 cells \r\nwere transfected with constructs expressing Cherry-HRAS and the RAS-GTP biosensor \r\nE3-R3(A/D) (1 μg each) and stimulated with (top) EGF (50 ng/ml) or (bottom) HRG (30 ng/ml) \r\nfor the indicated times. Scale bars, 10 μm. Arrowheads show areas of prominent RAS-GTP \r\naccumulation.\nVolume 27 June 15, 2016 Space/time control of RAS-ERK signals | 1963\r\ntime course for other components of the \r\npathway, such as RAS and MEK1, is much \r\nshorter. This rules out that HRG triggers \r\nsome positive feedback mechanism, as de\u0002scribed in other instances, such as for NGF\u0002stimulated PC-12 cells (Santos et al., 2007). \r\nOne possibility is that HRG down-regulates \r\nsome phosphatase of the DUSP/MKP family \r\nor another type, thereby maintaining ERK in \r\na phosphorylated state. In this respect, it \r\nhas been shown that PP2A modulates HRG\u0002induced ERK activation (Hatakeyama et al., \r\n2003).\r\nWe observed that HRG evokes sustained \r\nERK phosphorylation at both the cytoplasm \r\nand the nucleus. However, our data suggest \r\nthat these two spatial components are not \r\nsufficient for inducing differentiation, as \r\nprolongation of ERK phosphorylation at the \r\nnucleus, as induced by MXI2, or at the cyto\u0002plasm, by PEA15 overexpression or DUSP-6 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "down-regulation, cannot elicit MCF-7 differ\u0002entiation. One possibility is that our ap\u0002proaches for prolonging ERK activation, \r\nlimited to the nucleus and the cytoplasm, \r\ndo not fully recapitulate HRG effects, in the \r\nsense that activation of some other ERK \r\nspatial components, for example, at the mi\u0002tochondria, might not be accomplished. A \r\nsecond possibility is that additional signals \r\nare requited for HRG-induced differentiation. In this respect, it was \r\nshown that HRG-evoked differentiation of MCF-7 cells requires PI\u00023K activation (Volinsky et al., 2015). Apparently, ERK can drive dif\u0002ferentiation from either the nucleus or the cytoplasm, depending \r\non the cell type. For example, cytoplasmic ERK promotes differen\u0002tiation of endoderm (Smith et al., 2004) and muscle progenitor cells \r\n(Michailovici et al., 2014), whereas nuclear ERK activation drives \r\nneuronal differentiation in PC12 cells (Robinson et al., 1998). Thus \r\nit is likely that a correct combination of both the duration of ERK \r\nsignal and its spatial specificity, referring to the precise cellular \r\ncompartment(s) where it unfolds, is critical in the determination of \r\ncell fate.\r\nRAS, due to its presence in multiple microenvironments, is a criti\u0002cal step for the acquisition of signal variability (Calvo et al., 2010; \r\nAhearn et al., 2011; Arozarena et al., 2011), leading to different bio\u0002logical outputs. As expected, we showed that in MCF-7 cells, RAS is \r\npresent both at the PM and in endomembranes like the ER and GC. \r\nAt the PM, the presence of RAS is restricted to disordered mem\u0002brane microdomains. Even the most abundant isoform, NRAS \r\n(Omerovic et al., 2008), is absent from cholesterol-rich domains. Al\u0002though this might seem to be at odds with seminal findings allocat\u0002ing palmitoylated RAS in this type of membrane (Prior et al., 2001), \r\nwe recently reported that RAS subject to palmitoylation displays a \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 468,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "high, cell type–dependent variability in its distribution at different \r\nPM microdomains (Agudo-Ibanez et al., 2015). Of interest, RAS me\u0002diates both proliferative (EGF) and differentiation (HRG) stimuli ex\u0002clusively from the PM, not from endomembranes. This is not unprec\u0002edented with respect to EGF, as previous reports in different cell \r\ntypes demonstrated that it activates RAS solely at the cell periphery \r\n(Augsten et al., 2006; Song et al., 2013; Pinilla-Macua et al., 2016). \r\nWe showed that RAS, when present at disordered membrane micro\u0002domains, can also induce apoptosis if it is constitutively active. The \r\n(KDELr-Cdc25). HRG-induced adipocytic differentiation was signifi\u0002cantly reduced in cells expressing either construct (Figure 10C). \r\nThese results demonstrated that activation of the endogenous \r\nHRAS pool at the GC acted as a negative regulator of adipocytic \r\ndifferentiation and that within the same cellular context, RAS can \r\nexert different, even divergent, biological effects, depending on its \r\nsublocalization.\r\nDISCUSSION\r\nIt is now established beyond doubt that the duration of RAS-ERK \r\nsignals plays a critical role in the determination of cell fate in different \r\ntypes of cells (Traverse et al., 1992; McCawley et al., 1999; Liang and \r\nChen, 2001; Nagashima et al., 2007). Similarly, the concept of space \r\nas a key factor in the regulation of Ras functions has been solidly sup\u0002ported by studies demonstrating that Ras proteins are present in \r\ndifferent types of membranes (Choy et al., 1999; Chiu et al., 2002) \r\nand that within the PM, RAS isoforms occupy different microdomains \r\n(Prior et al., 2001). At these distinct sublocalizations, RAS is subject \r\nto site-specific regulation by different GEFs (Bivona et al., 2003; \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Caloca et al., 2003; Arozarena et al., 2004), engages different effec\u0002tor pathways (Matallanas et al., 2006), and switches on distinct ge\u0002netic programs (Agudo-Ibanez et al., 2007). Here we studied how \r\nRAS-ERK signals integrate time and space in order to elicit a differ\u0002entiation response. To do so, we used MCF-7 cells, in which transient \r\nERK activation in response to EGF triggers proliferation, whereas \r\nprolonged ERK activation upon HRG treatment induces adipocytic \r\ndifferentiation, a process dependent on ERK activation, as our results \r\nusing the MEK inhibitor U0126 demonstrate, in line with previous \r\nreports (Giani et al., 1998), although the participation of additional \r\nsignaling pathways cannot be discarded.\r\nOur results indicate that HRG evokes a sustained ERK signal. This \r\nis achieved at the level of ERK phosphorylation, since the activation \r\nFIGURE 6: Effects of site-specific RAS blockade on differentiation and proliferation. (A) MCF-7 \r\ncells transfected with constructs expressing the indicated site-specific HRAS N17 mutants (1 μg) \r\nwere stimulated with HRG (30 ng/ml) for 7 d before fixing and staining with Oil Red O. Bar chart \r\nshows the degree of differentiation quantified by extraction of the Oil Red O stain with \r\nisopropanol. Results show mean ± SEM of three independent experiments. **p < 0.01 and \r\n***p < 0.001 with 95% confidence interval. Bottom, expression levels of the indicated HRAS \r\nN17 mutants. (B) The proliferation rate of cells expressing the indicated constructs was \r\nmonitored over the indicated period of time. Results show mean ± SEM of three independent \r\nexperiments. *p < 0.05; ns, not significant; 95% confidence interval.\n1964 | A. Herrero et al. Molecular Biology of the Cell\r\nsignal evokes proliferation, a prolonged one leads to differentiation, \r\nand a constant signal causes cell death. However, we found that \r\napoptosis can also be potently induced by oncogenic RAS from en\u0002domembranes like the GC. Along this line, a recent study showed \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "that oncolytic viruses induce apoptosis by promoting RAS signals at \r\nsuch compartments (Garant et al., 2016). The RAS proapoptotic ef\u0002fect at the GC could explain why proliferative and differentiation \r\nstimuli, like those evoked by EGF and HRG, respectively, avoid \r\nfact that oncogenic RAS induces a potent apoptotic response in \r\nMCF-7 cells could help to explain why RAS mutations are so rare in \r\nmammary tumors.\r\nThus our results suggest that because signals evoking different, \r\neven antagonistic, outcomes can originate from the same sublocal\u0002ization, in the case of mammary epithelial cells, the determination of \r\ncell fate by RAS-ERK signals would be primarily dictated, not by spa\u0002tial considerations, but by the duration of the RAS signal: a transient \r\nFIGURE 7: Overexpression of upstream components of the RAS-ERK pathway prolongs ERK phosphorylation. \r\n(A) MCF-7 cells transfected with constructs expressing the indicated proteins (5 μg) were stimulated with EGF \r\n(50 ng/ml) for the indicated times, and ERK phosphorylation was assayed by immunoblotting. Graph shows results mean \r\nfrom three independent experiments. (B) For comparative purposes, ERK phosphorylation levels after 2 and 15 min \r\nof EGF stimulation from cells expressing the indicated proteins were evaluated in the same gel. Graph quantitates \r\nmean ± SEM of three independent experiments relative to the levels in unstimulated cells (0).\nVolume 27 June 15, 2016 Space/time control of RAS-ERK signals | 1965\r\nand anti-ERK2 were from Santa Cruz Biotechnology, Santa Cruz, CA. \r\nRabbit polyclonal anti-p-RSK-1, anti-ELK1, and anti-p-ELK1 were from \r\nCell Signaling, Billerica, MA. Rabbit polyclonal anti-caveolin and anti–la\u0002min A were from BD Biosciences, San Jose, CA. Mouse monoclonal \r\nanti–transferrin receptor was from Zymed Laboratories, Waltham, MA. \r\nRabbit polyclonal anti-calreticulin was from Calbiochem.\r\nImmunoblotting\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Samples were fractionated by SDS–PAGE and transferred onto ni\u0002trocellulose filters as described previously (Ajenjo et al., 2000). Im\u0002munocomplexes were visualized by enhanced chemiluminescence \r\ndetection (GE Healthcare, Little Chalfont, United Kingdom) by using \r\nhorseradish peroxidase–conjugated secondary antibodies (Bio-Rad \r\nLaboratories, Hercules, CA).\r\nTime-lapse immunofluorescence\r\nCells were grown on polylysine-coated, glass-bottom dishes and \r\ntransiently cotransfected with Cherry-HRAS wt and GFP-RAF RBD \r\nE3-R3(A/D) (Augsten et al., 2006). Cells were deprived of serum, \r\nplaced into a microscope chamber, and treated with EGF or HRG. \r\nConfocal images (512 × 512 pixels; 0.15-pixel size) were acquired at \r\n37ºC in a TCS SP-5 confocal microscope (Leica, Wetzlar, Germany) \r\nwith a 40×, 1.25 numerical aperture numerical aperture oil objective, \r\na 1-Airy pinhole, and 200-Hz speed. Images were captured every \r\n2 min for a period of at least 1 h after stimulation. Cells were excited \r\nwith 458- and 543-nm laser lines. Images presented are after digital \r\nadjustment of brightness and contrast to maximize signal.\r\nNucleocytoplasmic fractionations\r\nNucleocytoplasmic fractionations were performed exactly as de\u0002scribed (Sanz-Moreno et al., 2003).\r\nPlasma membrane fractionation in sucrose gradients\r\nCells were collected and treated as described previously \r\n(Matallanas et al., 2006). Briefly, cells were resuspended in 25 mM \r\nactivating this RAS pool. In agreement, we showed that activation of \r\nendogenous RAS at the GC antagonizes differentiation as induced by \r\nHRG. Overall our results indicate that distinct spatiotemporally de\u0002fined RAS signals can mediate antagonistic biological outputs. Thus, \r\nultimately, cell destiny would be defined by the ability of a stimulus to \r\nactivate RAS at the appropriate sublocalization for the adequate pe\u0002riod of time while avoiding switching on opposing RAS signals.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "MATERIALS AND METHODS\r\nPlasmids\r\nPlasmids encoding HRAS wild type (wt), HRAS V12, and Lck-, M1-, \r\nKDELr-, CD8-tethered HRAS wild-type and N17 versions \r\n(Matallanas et al., 2006), MEK1 wt and Ha-MXI2 (Casar et al., \r\n2007), and RASGRP1 (Arozarena et al., 2004) have been described \r\npreviously. PTP-tethered HRAS (Lorentzen et al., 2010) was pro\u0002vided by P. Bastiaens (MPI, Dortmund). HRAS S35 was provided by \r\nJ. Downward (Francis Crick Institute, London). KDELr-CDC25 was \r\nconstructed following a strategy previously described (Matallanas \r\net al., 2006) by fusing RasGRF1 Cdc25 domain C-terminal to \r\nKDELr N193D. shRNAs against DUSP6 were from Dharmacon.\r\nCell culture\r\nMCF-7 cells were grown in DMEM supplemented with 10% fetal calf \r\nserum. Cells were transfected with Lipofectamine (Invitrogen, \r\nWaltham, MA) following the manufacturer’s instructions. Stable cell \r\nlines were selected with 750 mg/ml G418 or 300 μg/ml Zeocin (Invi\u0002trogen). EGF, HRG, and U0126 were from Calbiochem, San Diego, \r\nCA. Adipocytic staining with Oil Red O and quantification by extrac\u0002tion with isopropanol were performed as described previously (Per\u0002egrin et al., 2006). Cell proliferation was analyzed basically as de\u0002scribed (Rodriguez et al., 2010).\r\nAntibodies\r\nMouse monoclonal anti-hemagglutinin (HA) and rabbit polyclonals anti\u0002RhoGDI, anti-HRAS, anti-panRAS, anti-PEA15, anti-RSK1 anti–p-ERK, \r\nFIGURE 8: Overexpression of upstream components of the RAS-ERK pathway facilitates EGF-induced differentiation. \r\nMCF-7 cells transfected with constructs expressing the indicated proteins (5 μg) were stimulated with EGF (50 ng/ml) or \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "HRG (30 ng/ml) for 7 d before fixing and staining with Oil Red O. Bar chart shows the degree of differentiation \r\nquantified by extraction of the Oil Red O stain with isopropanol. Results show mean ± SEM of three independent \r\nexperiments. **p < 0.01 and ***p < 0.001 with 95% confidence interval.\n1966 | A. Herrero et al. Molecular Biology of the Cell\r\nTris, pH 7.4, 150 mM NaCl, 5 mM EDTA, and 0.25% Triton X-100 \r\nplus protease inhibitor cocktail (1 μg/ ml). Lysates were set at a \r\nsucrose concentration of 45%. Layers of 3.4 ml of 35% sucrose and \r\n1 ml of 16% sucrose were sequentially overlaid and centrifuged \r\nfor 18 h at 41,000 rpm (MLS-50 rotor; Beckman, San Diego, CA). \r\nTwelve 0.4-ml fractions were collected and resuspended directly \r\ninto SDS–PAGE sample buffer for analysis by immunoblotting.\r\nPlasma membrane–endomembrane fractionation \r\nin sucrose gradients\r\nCells from four 100-mm plates were collected and lysed in hypo\u0002tonic buffer (10 mM 4-(2-hydroxyethyl)-1-piperazineethanesulfonic \r\nacid, pH 7.3, 1.5 mM MgCl2, and 5 mM KCl plus protease inhibitor \r\ncocktail, 1 μg/ ml). Lysates were homogenized by passage through \r\na 5-μm/8.0-mm douncer and centrifuged (700 × g for 3 min at 4ºC). \r\nFIGURE 9: Effects of sustaining ERK phosphorylation at the cytoplasm and nucleus on differentiation. (A) Time course \r\nof ERK phosphorylation in nuclear and cytoplasmic fractions of cells transfected with MXI2, PEA15 (1 μg), or shRNAs \r\nagainst DUSP6 and treated with EGF (50 ng/ml) for the indicated times. The purity of the fractions was ascertained by \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "immunoblotting with lamin A and RhoGDI as nuclear and cytoplasmic markers, respectively. Left, evaluation of DUSP-6 \r\ndown-regulation by shRNAs (sh). (B) Effects of the indicated constructs plus EGF treatment on differentiation. Bar chart \r\nshows the degree of differentiation quantified by extraction of the Oil Red O stain with isopropanol. Results show mean \r\n± SEM of three independent experiments. ***p < 0.001 with 95% confidence interval.\r\nThe supernatant was subjected to a new centrifugation (40,000 × g\r\nfor 30 min at 4ºC). The pellet containing the membranes was resus\u0002pended in homogenizing buffer (20 mM Tris, pH 7.4, 5 mM MgCl2, \r\n25 mM KCl, 0.25% sucrose) and laid onto a discontinuous layer \r\nof iodixanol 2.5–30% to be centrifuged at 100,000 × g for 5–6 h \r\nat 4ºC.\r\nRas-GTP loading assays\r\nRas-GTP loading assays were performed as described previously \r\n(Arozarena et al., 2000). H-Ras-GTP was affinity sequestered by us\u0002ing glutathione S-transferase (GST)–RAF-RBD. Immunoblots were \r\nperformed with anti-HA antibody and quantified by densitometry \r\nusing ImageJ (National Institutes of Health, Bethesda, MD). Activa\u0002tion levels were related to total protein levels as determined by anti\u0002HA immunoblotting in the corresponding total lysates.\nVolume 27 June 15, 2016 Space/time control of RAS-ERK signals | 1967\r\nAlbeck JG, Mills GB, Brugge JS (2013). Frequency-modulated pulses of \r\nERK activity transmit quantitative proliferation signals. Mol Cell 49, \r\n249–261.\r\nArozarena I, Aaronson DS, Matallanas D, Sanz V, Ajenjo N, Tenbaum SP, \r\nTeramoto H, Ighishi T, Zabala JC, Gutkind JS, et al. (2000). The Rho \r\nfamily GTPase Cdc42 regulates the activation of Ras/MAP kinase by the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "exchange factor Ras-GRF. J Biol Chem 275, 26441–26448.\r\nArozarena I, Calvo F, Crespo P (2011). Ras, an actor on many stages: post\u0002translational modifications, localization, and site-specified events. Genes \r\nCancer 2, 182–194.\r\nArozarena I, Matallanas D, Berciano MT, Sanz-Moreno V, Calvo F, Munoz \r\nMT, Egea G, Lafarga M, Crespo P (2004). Activation of H-Ras in the en\u0002doplasmic reticulum by the RasGRF family guanine nucleotide exchange \r\nfactors. Mol Cell Biol 24, 1516–1530.\r\nAugsten M, Pusch R, Biskup C, Rennert K, Wittig U, Beyer K, Blume A, \r\nWetzker R, Friedrich K, Rubio I (2006). Live-cell imaging of endogenous \r\nRas-GTP illustrates predominant Ras activation at the plasma mem\u0002brane. EMBO Rep 7, 46–51.\r\nBivona TG, Perez de Castro I, Ahearn IM, Grana TM, Chiu VK, Lockyer PJ, \r\nCullen PJ, Pellicer A, Cox AD, Philips MR (2003). Phospholipase Cg \r\nactivates Ras on the Golgi apparatus by means of RasGRP1. Nature 424, \r\n694–698.\r\nCaloca MJ, Zugaza JL, Bustelo XR (2003). Exchange factors of the RasGRP \r\nfamily mediate Ras activation in the Golgi. J Biol Chem 278, 33465–\r\n33473.\r\nCalvo F, Agudo-Ibanez L, Crespo P (2010). The Ras-ERK pathway: un\u0002derstanding site-specific signaling provides hope of new anti-tumor \r\ntherapies. Bioessays 32, 412–421.\r\nCasar B, Rodriguez J, Gibor G, Seger R, Crespo P (2012). Mxi2 sustains \r\nERK1/2 phosphorylation in the nucleus by preventing ERK1/2 binding to \r\nphosphatases. Biochem J 441, 571–578.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Casar B, Sanz-Moreno V, Yazicioglu MN, Rodriguez J, Berciano MT, Lafarga \r\nM, Cobb MH, Crespo P (2007). Mxi2 promotes stimulus-independent \r\nERK nuclear translocation. EMBO J 26, 635–646.\r\nCaunt CJ, Keyse SM (2013). Dual-specificity MAP kinase phosphatases \r\n(MKPs): shaping the outcome of MAP kinase signalling. FEBS J 280, \r\n489–504.\r\nChiu VK, Bivona T, Hach A, Sajous JB, Silletti J, Wiener H, Johnson RL, Cox \r\nAD, Philips MR (2002). Ras signaling on the endoplasmic reticulum and \r\nthe golgi. Nat Cell Biol 4, 343–350.\r\nChoy E, Chiu VK, Silletti J, Feoktistov M, Morimoto T, Michaelson D, Ivanov \r\nIE, Philips MR (1999). Endomembrane trafficking of Ras: the CAAX motif \r\ntargets proteins to the ER and Golgi. Cell 98, 69–80.\r\nFormstecher E, Ramos JW, Fauquet M, Calderwood DA, Hsieh JC, Canton \r\nB, Nguyen XT, Barnier JV, Camonis J, Ginsberg MH, et al. (2001). PEA\u000215 mediates cytoplasmic sequestration of ERK MAP kinase. Dev Cell 1, \r\n239–250.\r\nGarant KA, Shmulevitz M, Pan L, Daigle RM, Ahn DG, Gujar SA, Lee PW \r\n(2016). Oncolytic reovirus induces intracellular redistribution of Ras to \r\npromote apoptosis and progeny virus release. Oncogene 35, 771–782.\r\nGiani C, Casalini P, Pupa SM, De Vecchi R, Ardini E, Colnaghi MI, Giordano \r\nA, Menard S (1998). Increased expression of c-erbB-2 in hormone-de\u0002pendent breast cancer cells inhibits cell growth and induces differentia\u0002tion. Oncogene 17, 425–432.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Hatakeyama M, Kimura S, Naka T, Kawasaki T, Yumoto N, Ichikawa M, Kim \r\nJH, Saito K, Saeki M, Shirouzu M, et al. (2003). A computational model \r\non the modulation of mitogen-activated protein kinase (MAPK) and \r\nAkt pathways in heregulin-induced ErbB signalling. Biochem J 373, \r\n451–463.\r\nKholodenko BN, Hancock JF, Kolch W (2010). Signalling ballet in space and \r\ntime. Nat Rev Mol Cell Biol 11, 414–426.\r\nLiang CC, Chen HC (2001). Sustained activation of extracellular signal-reg\u0002ulated kinase stimulated by hepatocyte growth factor leads to integrin \r\nalpha 2 expression that is involved in cell scattering. J Biol Chem 276, \r\n21146–21152.\r\nLorentzen A, Kinkhabwala A, Rocks O, Vartak N, Bastiaens PI (2010). Regula\u0002tion of Ras localization by acylation enables a mode of intracellular \r\nsignal propagation. Sci Signal 3, ra68.\r\nMace PD, Wallez Y, Egger MF, Dobaczewska MK, Robinson H, Pasquale EB, \r\nRiedl SJ (2013). Structure of ERK2 bound to PEA-15 reveals a mecha\u0002nism for rapid release of activated MAPK. Nat Commun 4, 1681.\r\nMatallanas D, Sanz-Moreno V, Arozarena I, Calvo F, Agudo-Ibanez L, Santos \r\nE, Berciano MT, Crespo P (2006). Distinct utilization of effectors and bio\u0002logical outcomes resulting from site-specific Ras activation: Ras functions \r\nin lipid rafts and Golgi complex are dispensable for proliferation and \r\ntransformation. Mol Cell Biol 26, 100–116.\r\nACKNOWLEDGMENTS\r\nP.C.’s lab is supported by the Spanish Ministry of Economy–Fondos \r\nFEDER (Grant BFU2011-23807) and SAF-2015 63638R (MINECO/\r\nFERDER, UE), the Red Temática de Investigación Cooperativa en \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 470,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Cáncer (RD/12/0036/0033), and the Asociación Española Contra \r\nel Cáncer (Grant GCB141423113), Spanish Ministry of Health. B.C. \r\nis a Consejo Superior de Investigaciones Científicas JAE-Doc Pro\u0002gram Postdoctoral Fellow, supported by the European Social \r\nFund. A.H. has been supported by funding from the European \r\nUnion Seventh Framework Programme (FP7/2007-2013) PRIMES \r\nproject under Grant Agreement FP7-HEALTH-2011-278568.\r\nStatistical analyses\r\nAll statistical data were analyzed and compared for statistically \r\nsignificant differences by Student’s t test (GraphPad Software, San \r\nDiego, CA).\r\nFIGURE 10: Oncogenic HRAS induces apoptosis in MCF-7 cells. \r\n(A) Induction of apoptosis in cells transfected with RAS V12 oncogenic \r\nisoforms (1 μg), as evaluated by assaying for cleaved caspase 3. \r\n(B) Effects of the indicated site-specific HRAS V12 constructs (1 μg) \r\non cell viability, scored in soft agar colonies. (C) Activation of \r\nendogenous RAS at the GC prevents HRG-induced differentiation. \r\nCells transfected with RASGRP1 or KDEL-cdc25 (1 μg) were treated \r\nwith HRG (30 ng/ml) for 7 f before fixing and staining with Oil Red. \r\n**p < 0.01, ***p < 0.001 with 95% confidence interval. \r\nREFERENCES\r\nAgudo-Ibanez L, Herrero A, Barbacid M, Crespo P (2015). H-ras distribu\u0002tion and signaling in plasma membrane microdomains are regulated by \r\nacylation and deacylation events. Mol Cell Biol 35, 1898–1914.\r\nAgudo-Ibanez L, Nunez F, Calvo F, Berenjeno IM, Bustelo XR, Crespo P \r\n(2007). Transcriptomal profiling of site-specific Ras signals. Cell Signal \r\n19, 2264–2276.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Ahearn IM, Haigis K, Bar-Sagi D, Philips MR (2011). Regulating the regula\u0002tor: post-translational modification of RAS. Nat Rev Mol Cell Biol 13, \r\n39–51.\r\nAjenjo N, Aaronson DS, Ceballos E, Richard C, León J, Crespo P (2000). \r\nMyeloid leukemia cell growth and differentiation are independent of \r\nmitogen-activated protein kinases ERK1/2 activation. J Biol Chem 275, \r\n7189–7197.\n1968 | A. Herrero et al. Molecular Biology of the Cell\r\nRodriguez J, Calvo F, Gonzalez JM, Casar B, Andres V, Crespo P (2010). \r\nERK1/2 MAP kinases promote cell cycle entry by rapid, kinase-indepen\u0002dent disruption of retinoblastoma-lamin A complexes. J Cell Biol 191, \r\n967–979.\r\nRodriguez-Viciana P, Warne PH, Khwaja A, Marte BM, Pappin D, Das P, \r\nWaterfield MD, Ridley A, Downward J (1997). Role of phosphoinositide \r\n3-OH kinase in cell transformation and control of the actin cytoskeleton \r\nby Ras. Cell 89, 457–467.\r\nSantos SD, Verveer PJ, Bastiaens PI (2007). Growth factor-induced MAPK \r\nnetwork topology shapes Erk response determining PC-12 cell fate. Nat \r\nCell Biol 9, 324–330.\r\nSanz-Moreno V, Casar B, Crespo P (2003). p38alpha isoform Mxi2 binds to \r\nextracellular signal-regulated kinase 1 and 2 mitogen-activated protein \r\nkinase and regulates its nuclear activity by sustaining its phosphorylation \r\nlevels. Mol Cell Biol 23, 3079–3090.\r\nSmith ER, Smedberg JL, Rula ME, Xu XX (2004). Regulation of Ras-MAPK \r\npathway mitogenic activity by restricting nuclear entry of activated \r\nMAPK in endoderm differentiation of embryonic carcinoma and stem \r\ncells. J Cell Biol 164, 689–699.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Song SP, Hennig A, Schubert K, Markwart R, Schmidt P, Prior IA, Bohmer \r\nFD, Rubio I (2013). Ras palmitoylation is necessary for N-Ras activation \r\nand signal propagation in growth factor signalling. Biochem J 454, \r\n323–332.\r\nTraverse SN, Gomez N, Paterson H, Marshall CJ, Cohen P (1992). \r\nSustained activation of the mitogen-activated protein (MAP) kinase \r\ncascade may be required for differentiation of PC12 cells. Biochem J \r\n288, 351–355.\r\nVolinsky N, McCarthy CJ, von Kriegsheim A, Saban N, Okada-Hatakeyama \r\nM, Kolch W, Kholodenko BN (2015). Signalling mechanisms regulating \r\nphenotypic changes in breast cancer cells. Biosci Rep 35, e00178.\r\nMcCawley LJ, Li S, Wattenberg EV, Hudson LG (1999). Sustained activation \r\nof the mitogen-activated protein kinase pathway. A mechanism underly\u0002ing receptor tyrosine kinase specificity for matrix metalloproteinase-9 \r\ninduction and cell migration. J Biol Chem 274, 4347–4353.\r\nMichailovici I, Harrington HA, Azogui HH, Yahalom-Ronen Y, Plotnikov A, \r\nChing S, Stumpf MP, Klein OD, Seger R, Tzahor E (2014). Nuclear to \r\ncytoplasmic shuttling of ERK promotes differentiation of muscle stem/\r\nprogenitor cells. Development 141, 2611–2620.\r\nNagashima T, Shimodaira H, Ide K, Nakakuki T, Tani Y, Takahashi K, Yumoto \r\nN, Hatakeyama M (2007). Quantitative transcriptional control of ErbB \r\nreceptor signaling undergoes graded to biphasic response for cell dif\u0002ferentiation. J Biol Chem 282, 4045–4056.\r\nOmerovic J, Hammond DE, Clague MJ, Prior IA (2008). Ras isoform \r\nabundance and signalling in human cancer cell lines. Oncogene 27, \r\n2754–2762.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9050675303534829634,
+        "filename": "1958.PMC4907729.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 288,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Peregrin S, Jurado-Pueyo M, Campos PM, Sanz-Moreno V, Ruiz-Gomez \r\nA, Crespo P, Mayor F Jr, Murga C (2006). Phosphorylation of p38 by \r\nGRK2 at the docking groove unveils a novel mechanism for inactivating \r\np38MAPK. Curr Biol 16, 2042–2047.\r\nPinilla-Macua I, Watkins SC, Sorkin A (2016). Endocytosis separates EGF \r\nreceptors from endogenous fluorescently labeled HRas and diminishes \r\nreceptor signaling to MAP kinases in endosomes. Proc Natl Acad Sci \r\nUSA 113, 2122–2127.\r\nPrior IA, Harding A, Yan J, Sluimer J, Parton RG, Hancock JF (2001). GTP\u0002dependent segregation of H-ras from lipid rafts is required for biological \r\nactivity. Nat Cell Biol 3, 368–375.\r\nRobinson MJ, Stippec SA, Goldsmith E, White MA, Cobb MH (1998). \r\nA constitutively active and nuclear form of MAP kinase ERK2 is suf\u0002ficient for neurite outgrowth and cell transformation. Curr Biol 8, \r\n1141–1150.\n\n"
+  }
+]

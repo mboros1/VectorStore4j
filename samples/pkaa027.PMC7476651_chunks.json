@@ -1,0 +1,698 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Penetrance of Colorectal Cancer Among Mismatch Repair Gene\r\nMutation Carriers: A Meta-Analysis\r\nCathy Wang , MS,1,2,* Yan Wang, MD,3,4 Kevin S. Hughes , MD,3 Giovanni Parmigiani , PhD,1,2 Danielle\r\nBraun , PhD1,2\r\n1\r\nDepartment of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA; 2Department of Data Sciences, Dana-Farber Cancer Institute, Boston, MA,\r\nUSA; 3\r\nDivision of Surgical Oncology, Massachusetts General Hospital, Boston, MA, USA and 4Department of Breast Surgery, Shanghai Cancer Hospital, Fudan\r\nUniversity, Shanghai, People’s Republic of China\r\n*Correspondence to: Cathy Wang, MS, Department of Biostatistics, Harvard T.H. Chan School of Public Health, Building II, 4th Floor, 655 Huntington Ave, Boston, MA\r\n02215, USA (e-mail: cathy.wang@mail.harvard.edu).\r\nAbstract\r\nBackground: Lynch syndrome, the most common colorectal cancer (CRC) syndrome, is caused by germline mismatch repair\r\n(MMR) genes. Precise estimates of age-specific risks are crucial for sound counseling of individuals managing a genetic predis\u0002position to cancer, but published risk estimates vary. The objective of this work is to provide gene-, sex-, and age-specific risk\r\nestimates of CRC for MMR mutation carriers that comprehensively reflect the best available data. Methods: We conducted a\r\nmeta-analysis to combine risk information from multiple studies on Lynch syndrome–associated CRC. We used a likelihood\u0002based approach to integrate reported measures of CRC risk and deconvolved aggregated information to estimate gene- and\r\nsex-specific risk. Results: Our comprehensive search identified 10 studies (8 on MLH1, 9 on MSH2, and 3 on MSH6). We\r\nestimated the cumulative risk of CRC by age and sex in heterozygous mutation carriers. At age 70 years, for male and female\r\ncarriers, respectively, risks for MLH1 were 43.9% (95% confidence interval [CI] ¼ 39.6% to 46.6%) and 37.3% (95% CI ¼ 32.2% to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "40.2%), for MSH2 were 53.9% (95% CI ¼ 49.0% to 56.3%) and 38.6% (95% CI ¼ 34.1% to 42.0%), and for MSH6 were 12.0% (95% CI ¼\r\n2.4% to 24.6%) and 12.3% (95% CI ¼ 3.5% to 23.2%). Conclusions: Our results provide up-to-date and comprehensive age\u0002specific CRC risk estimates for counseling and risk prediction tools. These will have a direct clinical impact by improving pre\u0002vention and management strategies for both individuals who are MMR mutation carriers and those considering testing.\r\nLynch syndrome, also known as hereditary nonpolyposis colorec\u0002tal cancer (CRC) syndrome, accounts for approximately 3.0%–5.0%\r\nof all CRCs and is an autosomal dominant condition caused by\r\ngermline pathogenic variants in mismatch repair (MMR) genes\r\n(1,2). Carriers of pathogenic variants in any of the MMR genes\r\nMLH1, MSH2, MSH6, PMS2, or EPCAM have an increased risk of de\u0002veloping several types of cancers, including colorectal, endome\u0002trial, stomach, small bowel, and biliary tract cancers (3). Lynch\r\nsyndrome is generally identified following investigation of familial\r\naggregation of multiple and/or early-onset cancers based on the\r\nAmsterdam II criteria, National Comprehensive Cancer Network\r\nguidelines, Bethesda guidelines (3–5) or more quantitative risk as\u0002sessment (6). More recently, it is also being found incidentally\r\nthrough panel genetic testing and by microsatellite instability or\r\nimmunohistochemistry testing of all CRCs. In addition, Hampel\r\net al. (7) have recently called for sequencing of all CRC.\r\nCarriers of pathogenic variants in MMR genes can benefit\r\nfrom reliable information about their cancer risk to better\r\ninform effective management and targeted surveillance strate\u0002gies. Published estimates of penetrance (age-specific risk of can\u0002cer for carriers) vary. Studies typically provide different\r\nmeasures of CRC risk, including cumulative penetrance, relative\r\nrisks, or standardized incidence ratios from family-based stud\u0002ies, and odds ratios from case-control studies.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "The objective of this work is to combine results from pub\u0002lished studies to provide more accurate age- and sex-specific\r\npenetrance estimates of MLH1, MSH2, and MSH6 on CRC for indi\u0002viduals with Lynch syndrome. Cumulative lifetime penetrance\r\nestimates of CRC range from 30.0% to 74.0% for MLH1 and MSH2\r\ngene mutation carriers and from 10.0% to 22.0% for MSH6 muta\u0002tion carriers (8). Variation in published estimates could arise\r\nfrom differences in study designs, selection criteria for molecular\r\ntesting, and statistical adjustments for ascertainment (9).\r\nWithout adjustment, estimated lifetime risk in studies of high\u0002risk families can be higher than that estimated from population\u0002based studies. In sensitivity analyses, studies have shown that\r\n© The Author(s) 2020. Published by Oxford University Press.\r\nThis is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/\r\nlicenses/by-nc/4.0/), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited.\r\nFor commercial re-use, please contact journals.permissions@oup.com\r\n1 of 10\r\nJNCI Cancer Spectrum (2020) 4(5): pkaa027\r\ndoi: 10.1093/jncics/pkaa027\r\nFirst published online April 23, 2020\r\nMeta-Analysis\ndifferent ascertainment schemes can lead to inconsistent risk\r\nestimates (10,11). To address these concerns, we explicitly con\u0002sidered properly adjusting for ascertainment as an inclusion cri\u0002terion for our meta-analysis. Previous meta-analyses of CRC risk\r\nin individuals with Lynch syndrome were based on studies that\r\nreport gene- and sex-specific cumulative penetrance estimates\r\n(12,13). This excludes additional published risk measures from\r\nstudies that provide aggregated information across sex and\r\ngenes. In our analysis, we did not make these exclusions, because\r\nthey may miss important information and may lead to bias.\r\nMethods\r\nLiterature Search\r\nWe performed 3 separate PubMed searches for MLH1, MSH2,\r\nand MSH6, with the following queries: MLH1 or colorectal:\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "(“MutL Protein Homolog 1”[Mesh] OR “MLH1”[TIAB] OR “Lynch\r\nsyndrome”[TIAB]) AND (”Risk”[Mesh] OR ”Risk”[TI] OR\r\n“Penetrance”[TIAB] OR “Hazard ratio”[TIAB]) AND (“Colorectal\r\nNeoplasms”[Mesh] OR “Colorectal Neoplasms, Hereditary\r\nNonpolyposis”[Mesh] OR “colorectal cancer”[TIAB]); MSH2 or co\u0002lorectal: (“MutS Homolog 2 Protein”[Mesh] OR “MSH2”[TIAB] OR\r\n“Lynch syndrome”[TIAB]) AND (“Risk”[Mesh] OR “Risk”[TI] OR\r\n“Penetrance”[TIAB] OR “Hazard ratio”[TIAB]) AND (“Colorectal\r\nNeoplasms”[Mesh] OR “Colorectal Neoplasms, Hereditary\r\nNonpolyposis”[Mesh] OR “colorectal cancer”[TIAB]), MSH6 or co\u0002lorectal: (“G-T mismatch-binding protein” [Supplementary\r\nConcept] OR “MSH6”[TIAB]) AND (”Risk”[Mesh] OR “Risk”[TI] OR\r\n“Penetrance”[TIAB] OR “Hazard ratio”[TIAB]) AND (“Colorectal\r\nNeoplasms”[Mesh] OR “Colorectal Neoplasms, Hereditary\r\nNonpolyposis”[Mesh] OR “colorectal cancer”[TIAB]). We per\u0002formed a similar search in EMBASE with the following query:\r\n(“MutL protein homolog 1”/exp OR “DNA mismatch repair pro\u0002tein MSH2”/exp OR “protein MutS”/exp OR MLH1: ab, ti OR\r\nMSH2: ab, ti OR MSH6: ab, ti OR Lynch: ab, ti) AND (“rectum\r\ntumor”/exp OR “colon tumor”/exp OR [(colon OR rectal OR rec\u0002tum OR colorectal) NEAR/3 (cancer* OR neoplasm* OR carci\u0002noma* OR tumor* OR tumour*)]:ab, ti)AND(“risk”/exp OR risk*:ab,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "ti OR penetrance: ab, ti OR “hazard ratio”:ab, ti).\r\nReferences from relevant articles and previous meta\u0002analyses were reviewed to identify additional studies not cap\u0002tured by the PubMed or EMBASE searches. In selecting articles\r\nfrom those found by the query, we required the following inclu\u0002sion criteria: studies must report risk (and corresponding 95%\r\nconfidence interval) of CRC for carriers of germline mutations\r\nin MLH1, MSH2, or MSH6; adjust for ascertainment if cohort is\r\nnot population based or design is not case control; and include\r\nnonoverlapping participants with other studies (Figure 1). We\r\nexcluded studies that focus on patients with polymorphisms\r\nand/or CRC as a secondary cancer. We chose not to include the\r\nPMS2 gene, though it is also involved in mismatch repair and\r\nassociated with Lynch syndrome. In a PubMed literature search\r\nsimilar to that performed for our main analysis (for MLH1,\r\nMSH2, and MSH6), 3 studies reported the risk of CRC for PMS2\r\nmutation carriers (14–16), and only 1 of these provided disag\u0002gregated data for PMS2 (15). PMS2 carriers generally have a later\r\nage of onset than their MLH1 or MSH2 counterparts, resulting in\r\nlower numbers of events for comparable observation years.\r\nMoreover, the low sensitivity of clinical criteria and less wide\u0002spread diagnostic testing for identifying PMS2 carriers (17,18)\r\nmake it challenging to extend our meta-analysis to PMS2 at the\r\npresent time.\r\nFigure 1. Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) flow diagram of the literature review for our meta-analysis. EMBASE ¼\r\nExcerpta Medica dataBASE; NLP ¼ natural language processing; CRC ¼ colorectal cancer; MMR ¼ mismatch repair.\r\n2 of 10 | JNCI Cancer Spectrum, 2020, Vol. 4, No. 5\nStudies were first assessed based on title and abstract using a\r\nnatural language processing algorithm (19). This algorithm uses\r\na support vector machine, which learns a linear decision rule\r\nbased on the bag-of-ngrams representation of each title and ab\u0002stract. At least 2 reviewers independently examined the study\r\nabstracts, and those deemed relevant underwent full text review.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "For studies that remained relevant after full text review, we\r\nextracted the following information: first author’s last name,\r\nyear of publication, study population, ascertainment method,\r\nnumber of events, number of carriers, gene type, and relevant\r\nrisk estimates with corresponding confidence intervals.\r\nStatistical Analysis\r\nCommon approaches for combining evidence across multiple\r\nstudies include fixed effects models, which assume an underly\u0002ing true effect size for all included studies, and random effects\r\nmodels, which allow for the true effect size to vary from study\r\nto study. Typically, these approaches cannot be used directly to\r\ncombine heterogeneous measures of CRC risk that result from\r\ndifferent study designs. Marabelli et al. (20) developed a\r\nlikelihood-based method allowing meta-analytic integration of\r\ndifferent types of cancer risk estimates (eg, penetrance, relative\r\nrisk, standardized incidence ratio, and odds ratio). This method,\r\nhowever, does not address the challenge of combining studies\r\nthat report gene-aggregated (a combination of 2 or more MMR\r\ngenes) or sex-aggregated cancer risks, which are common in the\r\nLynch syndrome literature. The deconvolution of aggregated\r\nrisk information is crucial for personalized prevention, because\r\nmale and/or MLH1 or MSH2 mutation carriers typically have\r\nhigher risks of CRC than their female and/or MSH6 counterparts\r\n(10,21–25). In this work, we used a more general likelihood\u0002based approach that allows the integration of aggregated cancer\r\nrisks to provide accurate age-, gene-, and sex-specific pene\u0002trance of CRC for MMR mutations carriers. As a preliminary\r\nstep, we used the Q2 and I\r\n2 values to explore between-study\r\nheterogeneity. A P value of less than .05 was considered repre\u0002sentative of statistically significant heterogeneity. All tests were\r\n2-sided and performed using the meta (26) package in R (version\r\n3.3) (27). To investigate potential publication bias, we created\r\nfunnel plots and used a 2-sided Egger (28) test to assess asym\u0002metry. We then conducted our meta-analyses based on 2 com\u0002plementary approaches. In the first approach we used the\r\nDerSimonian and Laird random effects model (29) (see details in\r\nSupplementary Material) to perform separate meta-analyses of\r\ncumulative risk by decade of age. We assumed the underlying\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "penetrances are heterogeneous, with between-study variance\r\ncaptured by the D2 parameter in (29). The DerSimonian and\r\nLaird random effects model does not provide a way to handle\r\naggregated estimates and does not lend itself to extrapolation\r\nof estimates to older ages, as required in genetic counseling and\r\ndecision support tools.\r\nTo address these issues, in the second approach we used a\r\nlikelihood-based approach to obtain penetrance estimates by\r\nyearly age. This approach extends the method of Marabelli et al.\r\n(20), which allows the meta-analytic integration of different risk\r\nmeasures into age-specific penetrance curves and is described\r\nin detail in the Supplementary Material. Briefly, we modeled the\r\npenetrance in mutation carriers as a probability distribution\r\nfunction characterized by 2 parameters. We specified the likeli\u0002hood terms based on the study design and the risk estimates\r\nreported and estimated the parameters by maximizing the like\u0002lihood. Penetrance was assumed to follow a log-logistic\r\ndistribution. The log-logistic distribution was chosen because,\r\namong the commonly used parametric distributions, it was the\r\nmost similar to penetrance curves reported in the literature\r\n(21,30) and to the trend indicated by the meta-analytic results of\r\nthe DerSimonian and Laird random effects model the first ap\u0002proach. Parameter estimates based on the log-logistic distribu\u0002tion are provided in the Supplementary Material. In addition,\r\nwe conducted leave-1-study-out sensitivity analyses to better\r\nunderstand the sources of heterogeneity. We used the meta (26)\r\nand stats4 (27) packages in R to perform the DerSimonian and\r\nLaird random effects model analysis and the maximum\r\nlikelihood estimation for the likelihood-based approach,\r\nrespectively.\r\nWe extended the Marabelli et al. (20) method to incorporate\r\nstudies that provide aggregated risk information. For studies\r\nthat report sex-aggregated risk, we modeled the penetrance\r\nfunction as a weighted average of the male- and female-specific\r\npenetrance functions, which can be estimated separately as\r\nlong as we have at least some studies that provide sex-specific\r\nrisk. Weights correspond to the proportion of male or female\r\ncarriers in the study. Similarly, for studies that report gene-ag\u0002gregated risk, we modeled the penetrance as a weighted aver\u0002age based on the proportion of different carriers in the study. By\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "allowing studies that report aggregated risk estimates to borrow\r\ninformation from those that report gene- or sex-specific risk\r\nestimates, this likelihood-based method combines both direct\r\n(gene- or sex-specific) and indirect (aggregated) evidence from\r\nthe literature to provide comprehensive risk estimates of CRC.\r\nStudies typically report risk estimates for carriers who are\r\nyounger than 80. Penetrance estimates from 81 to 110 years of\r\nage were obtained by multiplying the risk of noncarriers at each\r\nage by the risk ratio comparing the risk of carriers with that of\r\nnoncarriers at age 80 years (relative risk):\r\nRR ¼\r\nCarrier penetrance estimate at aged 80 years\r\nfrom likelihood approach\r\nNoncarrier penetrance estimate at aged 80 years\r\nfrom SEER\r\n:\r\nWe obtained the risk of CRC for noncarriers from the\r\nSurveillance, Epidemiology, and End Results Program database\r\n(SEER) (31), which provides the combined risk of CRC for carriers\r\nand noncarriers. As mutations are sufficiently rare, we assume\r\nthat the general population risk provided by the SEER database\r\napproximates the CRC risk for noncarriers (32).\r\nResults\r\nOverall, our searches resulted in 4759 abstracts as of March 8,\r\n2019. Among the 4759 abstracts, 586 were deemed relevant by\r\nthe natural language processing algorithm. After human review,\r\n576 were excluded because of the following criteria: unclear or\r\ninappropriate ascertainment adjustment (n ¼ 23), not relevant\r\nfor MMR or CRC (n ¼ 129), overlap with included studies (n ¼\r\n16), reports penetrance modified by other risk factors (n ¼ 10),\r\nsecond cancer (n ¼ 50), missing full text (n ¼ 7), nonpathogenic\u0002ity (n ¼ 2), polymorphisms (n ¼ 74), and not relevant for pene\u0002trance (n ¼ 265). For our final meta-analysis, we included 10\r\nstudies (Figure 1). Table 1 shows a synopsis of the included\r\nstudies along with a description of the study design, ascertain\u0002ment mechanism, and risk estimation methods. Studies vary in\r\nterms of population, ascertainment, and design. Among the\r\nstudies, 1 reported aggregated risk for sex, 3 reported aggregated\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "risk for the MMR genes, and 1 reported both sex- and gene\u0002aggregated risk. Eight studies reported risk for MLH1 carriers, 9\r\nC. Wang et al. | 3 of 10\nTable 1. Summary of studies included in our meta-analysisa\r\nStudy Population Ascertainment Estimation\r\nNo. of\r\nevents\r\nNo. of\r\ncarriers Gene(s)\r\nCondition for\r\nunbiasedness\r\nAaltonen, 2007 (36) Regional hospitals,\r\nFinland\r\nFD relatives of CRC cases Kaplan-Meier analysis where relatives were\r\ncensored at ascertainment, emigration, orlast contact with proband\r\n91 242 MLH1, MSH2 No additional familial ag\u0002gregation other than\r\nMLH1/MSH2\r\nBonadona, 2011 (24) ERISCAM study\r\nFrance\r\nRelatives of CRC cases identified from\r\ncancer genetics clinics and mutatedfor MMR genes\r\nGenotype restricted likelihood conditioning on\r\nphenotypes of all relatives and genotype ofproband\r\n768 1633 MLH1, MSH2,\r\nMSH6\r\nNo additional familial ag\u0002gregation other than\r\nMLH1/MSH2/MSH6\r\nBorras, 2010 (33) Genetic counseling\r\nclinic Spain\r\nRelatives of CRC cases with MMR\r\nmutation\r\nModified segregation analysis conditioning on\r\ngenotype and phenotype of proband andphenotype of all relatives\r\n28 180 MLH1 No additional familial ag\u0002gregation other than\r\nMLH1\r\nDowty, 2013 (35) CCFR FD and SD, or all relatives of cases with\r\nMMR mutation, for population- andclinic-based families, respectively\r\nModified segregation analysis conditioning on\r\ngenotype and phenotype of proband andphenotypes of all relatives, for populationand clinic-based families, respectively\r\n1112 2253 MLH1, MSH2 No additional familial ag\u0002gregation other than\r\nMLH1/MSH2\r\nDunlop, 1997 (38) SNCR, Scotland Relatives of early-onset CRC cases iden\u0002tified from population-based registries\r\nand mutated for MMR genes\r\nKaplan-Meier analysis excluding probands 25 67 MLH1, MSH2 No effect from size-based\r\nsampling, or risks to pa\u0002tient carrier cases andrelatives are no higherthan carrier nonpatientcases\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Kopciuk, 2009 (30) Medical Genetics\r\nClinic Canada\r\nMultiple-case families with MMR\r\nmutation\r\nModified segregation analysis conditioning on\r\nphenotypes of all FDR\r\n101 145 MSH2 No additional familial ag\u0002gregation other than\r\nMSH2\r\nMoller, 2017 (18) Prospective multi\r\ncenter databaseby EuropeMajorica group\r\nMutation carriers with increased risk of\r\nCRC identified by each center\r\nCumulative incidence rate excluding individu\u0002als with prior cancer 711 1942 MLH1, MSH2, MSH6 None\r\nMukherjee, 2011 (11) MECC, CHS All participants, or carrier families with\r\nhistory of LS, identified from popula\u0002tion study and cancer clinics,respectively\r\nModified segregation analysis conditioning on\r\ngenotype and phenotype of proband or ongenotype and phenotype of proband andphenotype of affected FD relatives\r\n74 88 MSH2 No additional familial ag\u0002gregation other than\r\nMSH2\r\nQuehenberger, 2005\r\n(37)\r\nDutch HNPCC fam\u0002ily registry Multiple-case families with MMR mutation Modified segregation analysis conditioning on observed phenotypes and on event that at\r\nleast 1 case in family was a carrier\r\n104 397 MLH1, MSH2 No additional familial ag\u0002gregation other than\r\nMLH1/MSH2\r\nStoffel, 2009 (10) DFCI, U Michigan Multiple-case families with MMR\r\nmutation\r\nModified segregation analysis conditioning on\r\ngenotype and phenotype of proband andphenotype of all relatives\r\n99 307 MLH1, MSH2,\r\nMSH6\r\nNo additional familial ag\u0002gregation other than\r\nMLH1/MSH2/MSH6\r\naCRC ¼ colorectal cancer; FD ¼ first degree; SD ¼ second degree; MMR ¼ mismatch repair; ERISCAM ¼ Estimation des Risques de Cancer chez les porteurs de mutation des ge`nes MMR; CCFR ¼ Colon Cancer Family Registry; SNCR ¼\r\nScottish National Cancer Registry; MECC ¼ Molecular Epidemiology of Colorectal Cancer; CHS ¼ Clalit Health Services; HNPCC ¼ hereditary nonpolyposis colorectal cancer; DFCI ¼ Dana-Farber Cancer Institute.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "4 of 10 | JNCI Cancer Spectrum, 2020, Vol. 4, No. 5\nreported risk for MSH2 carriers, and 3 reported risk for MSH6 car\u0002riers. To quantify the between-study variation, we performed\r\ntests of heterogeneity and calculated the corresponding I\r\n2 val\u0002ues. With 3 genes, 6 age intervals (age 30, 40, ..., 80), and 2 sexes,\r\na total of 36 tests were performed. For MLH1, the P values were\r\nless than .001 at age 40-70 years for both sexes. The correspond\u0002ing I\r\n2 values ranged from 83.3% (68.5% to 91.1%) to 90.3% (83.2%\r\nto 94.4%) for males and from 78.0% (56.6% to 88.8%) to 86.6%\r\n(75.7% to 92.6%) for females. The P values at age 80 years for\r\nmales and females, respectively, were .005 (I\r\n2 ¼ 83.0% 56.5% to\r\n93.3%) and .002 (I\r\n2 ¼ 84.8% 62.0% to 93.9%). For MSH2 male car\u0002riers, the P values were less than .0001 at all age intervals with\r\ncorresponding I\r\n2 values ranging from 89.2% (81.7% to 93.6%) to\r\n94.1% (89.8% to 96.6%). For MSH2 female carriers, the P value\r\nwas .04 (I\r\n2 ¼ 35.1% 0.0% to 70.1%) at age 50 years and less than\r\n.0001 at age 60 years (I\r\n2 ¼ 76.0% 54.0% to 87.5%) and 70 years (I2\r\n¼ 77.4% 57.1% to 88.1%). For MSH6, the only statistically signifi\u0002cant P value at the .05 level was that of female mutation carriers\r\nat age 70 years (P ¼ .04, I\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "2 ¼ 68.4% 0.0% to 90.8%). Overall, there\r\nis evidence for heterogeneity in the risk estimates across the\r\ndecades for MLH1 and MSH2 mutation carriers but less so for\r\nMSH6. Results from tests of asymmetry in the funnel plots sug\u0002gest there is little evidence of publication bias. Details on publi\u0002cation bias assessment can be found in the Supplementary\r\nMaterial.\r\nNext, we examined sources of heterogeneity from various\r\naspects of study characteristics. This between-study heteroge\u0002neity could arise from differences in study design, mutation\r\ntype, study population, and estimation strategy. Among the 10\r\nincluded studies, Moller et al. (18) was the only study that con\u0002ducted a prospective cohort analysis, whereas the rest focused\r\non retrospective cohorts. Regarding mutation type, Borras et al.\r\n(33), Kopciuk et al. (30), and Mukherjee et al. (11) are studies that\r\nexclusively focused on founder mutations. All other studies in\u0002cluded carriers of mixed mutation types, so it was not feasible\r\nto separate the effects of mutations from these studies at the\r\npresent time. As a result, the findings from our meta-analysis\r\nrepresent the average risk among a group of carriers with a rep\u0002resentative mix of mutations. Regarding study populations, it is\r\nlikely that different populations may segregate different\r\nmutations. Though there are studies containing more than 1\r\nsubpopulation (18,34,35), they provide limited evidence of\r\npopulation-specific variation in penetrance. As shown in\r\nTable 1, each study used an analysis method that addressed an\r\nascertainment mechanism in its design. Studies that were not\r\npopulation based (10,11,24,30,33,35–37) typically used estima\u0002tion strategies that condition on information of the phenotype\r\nor genotype of included individuals to adjust for ascertainment.\r\nFigure 2 shows the following: the means and 95% confidence\r\nintervals of the meta-analytic penetrances at each 10-year age\r\ninterval that were estimated using the DerSimonian and Laird\r\nmethod, and the smoothed curves obtained from the\r\nlikelihood-based approach that represent our final estimates by\r\nyearly age. The estimated cumulative penetrance by age 70\r\nyears from both approaches is displayed in Table 2 by sex and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "gene. Using the likelihood-based approach, the penetrances by\r\nage 70 years were estimated for males and females, respec\u0002tively, to be 43.9% (95% CI ¼ 39.6% to 46.6%) and 37.3% (95% CI ¼\r\n32.2% to 40.2%) for MLH1 carriers, 53.9% (95% CI ¼ 49.0% to\r\n56.3%) and 38.6% (95% CI ¼ 34.1% to 42.0%) for MSH2 carriers,\r\nand 12.0% (95% CI ¼ 2.4% to 24.6%) and 12.3% (95% CI ¼ 3.5% to\r\n23.2%) for MSH6 carriers. In general, male carriers of MLH1 and\r\nMSH2 have a higher risk of developing CRC compared with their\r\nfemale counterparts. Estimates of MSH6 penetrance on CRC\r\nshows increased variability (wider confidence intervals) due to\r\nsmaller sample sizes. Visual comparison of the confidence\r\nintervals within each 10-year age interval indicates overlap\r\nacross studies for all 3 genes. Because all studies reported cu\u0002mulative penetrance, we were able to include the same studies\r\n(8 on MLH1, 9 on MSH2, and 3 on MSH6) for both the\r\nDerSimonian and Laird and the likelihood-based approaches. In\r\naddition to Figure 2, Supplementary Figure 1 (available online)\r\nshows the study-specific penetrance estimates and 95% confi\u0002dence intervals by decade of age.\r\nFigure 2. Age-specific colorectal cancer risk for mismatch repair gene mutation\r\ncarriers. Panels A, B, and C correspond to MLH1, MSH2, and MSH6 mutation car\u0002riers, respectively. DerSimonian and Laird random effects model results: the age\r\nrange is divided into 10-year intervals. Within each we show the meta-analytic\r\nestimate from the DerSimonian and Laird random effects model (thick vertical\r\nblack bars). The height of vertical bars represents 95% confidence intervals.\r\nLikelihood-based approach results: Smooth blue and orange lines represent\r\npenetrance estimated from the likelihood-based approach by yearly age. Blue\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "corresponds to male carriers, and orange corresponds to female carriers.\r\nC. Wang et al. | 5 of 10\nAmong the 10 studies, 4 focused on individuals who were\r\nnot screened or had not had prior surgery by censoring partici\u0002pants at the age of colonoscopy screening or prophylactic sur\u0002gery (24,30,35,37). For the remainder of the studies, it was\r\nunclear whether screened individuals were included. Although\r\nscreening and surgery were not part of the recruitment criteria,\r\nit is reasonable to assume that a number of participants from\r\nthese 6 studies (10,11,18,33,36,38) may have undergone screen\u0002ing or surgery according to current screening recommendations\r\n(39). We divided the studies into 2 groups: studies that focused\r\non unscreened populations (24,30,35,37) and studies that did\r\nnot provide details on screening and therefore were assumed to\r\nbe a mix of screened and unscreened populations\r\n(10,11,18,33,36,38). Figure 3 shows the cumulative penetrance of\r\nCRC for MLH1, MSH2, and MSH6 mutation carriers after stratify\u0002ing studies by screening status. Estimated cumulative pene\u0002trance by age 70 years from both the DerSimonian and Laird\r\nand likelihood-based approaches is displayed in Table 2 by sex,\r\ngene, and screening status. For the 4 studies that included\r\nunscreened participants, the penetrance by age 70 years was es\u0002timated for males and females, respectively, to be 35.3% (95% CI\r\n¼ 29.4% to 40.0%) and 34.0% (95% CI ¼ 27.1% to 39.4%) for MLH1\r\ncarriers, 53.2% (95% CI ¼ 47.1% to 57.4%) and 37.3% (95% CI ¼\r\n32.9% to 40.6%) for MSH2 carriers, and 19.2% (95% CI ¼ 5.1% to\r\n32.8%) and 5.3% (95% CI ¼ 0.002% to 16.5%) for MSH6 carriers. For\r\nthe 6 studies that potentially included both screened and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "unscreened participants (unspecified), the penetrance by age 70\r\nyears was estimated for males and females, respectively, to be\r\n49.7% (95% CI ¼ 43.3% to 54.2%) and 36.7% (95% CI ¼ 29.6% to\r\n42.4%) for MLH1 carriers, 57.0% (95% CI ¼ 49.2% to 62.3%) and\r\n41.0% (95% CI ¼ 34.4% to 46.3%) for MSH2 carriers, and 13.2%\r\n(95% CI ¼ 0.6% to 76.2%) and 29.6% (95% CI ¼ 2.5% to 79.5%) for\r\nMSH6 carriers (Figure 4). Studies on unscreened populations re\u0002port lower cumulative risk for MLH1 and female MSH6 mutation\r\ncarriers compared with studies on both screened and\r\nunscreened populations. However, the converse is true for male\r\nMSH6 mutation carriers. Among the MSH6 studies that report\r\nCRC risk in both screened and unscreened populations, Stoffel\r\net al. (10) made conservative ascertainment adjustments, which\r\ncould lead to lower risk estimates. Although differences in CRC\r\nrisk between the cohorts appear to be more pronounced for\r\nMSH6 mutation carriers, this could be attributed to the lack of\r\nstudies in the unscreened group at age 80 years. Overall, there is\r\nconsiderable overlap in the 95% confidence intervals across all 3\r\nTable 2. Estimated cumulative penetrance by age 70 years of CRC for MLH1, MSH2, and MSH6 mutation carriers by sex and screening statusa\r\nSex Gene Method Study population Cum. penetrance (%) with 95% CI\r\nMale MLH1 DerSimonian and Laird All 35.1 (28.5 to 42.4)\r\nUnscreened 36.5 (26.6 to 46.7)\r\nUnspecified 34.5 (22.6 to 48.7)\r\nLikelihood-based All 43.9 (39.6 to 46.6)\r\nUnscreened 35.3 (29.4 to 40.0)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Unspecified 49.7 (43.3 to 54.2)\r\nMSH2 DerSimonian and Laird All 50.0 (40.3 to 59.6)\r\nUnscreened 51.8 (36.4 to 66.9)\r\nUnspecified 47.3 (35.7 to 59.1)\r\nLikelihood-based All 53.9 (49.0 to 56.3)\r\nUnscreened 53.2 (47.1 to 57.4)\r\nUnspecified 57.0 (49.2 to 62.3)\r\nMSH6 DerSimonian and Laird All 13.8 (9.7 to 19.3)\r\nUnscreened 14.0 (7.2 to 25.6)\r\nUnspecified 13.7 (9.0 to 20.3)\r\nLikelihood-based All 12.0 (2.4 to 24.6)\r\nUnscreened 19.2 (5.1 to 32.8)\r\nUnspecified 13.2 (0.6 to 76.2)\r\nFemale MLH1 DerSimonian and Laird All 29.7 (23.2 to 37.1)\r\nUnscreened 31.8 (24.4 to 40.2)\r\nUnspecified 27.4 (15.2 to 44.2)\r\nLikelihood-based All 37.3 (32.2 to 40.2)\r\nUnscreened 34.0 (27.1 to 39.4)\r\nUnspecified 36.7 (29.6, 42.4)\r\nMSH2 DerSimonian and Laird All 36.0 (30.6 to 41.8)\r\nUnscreened 34.6 (26.9 to 43.2)\r\nUnspecified 37.5 (28.8 to 47.2)\r\nLikelihood-based All 38.6 (34.1 to 42.0)\r\nUnscreened 37.3 (32.9 to 40.6)\r\nUnspecified 41.0 (34.4 to 46.3)\r\nMSH6 DerSimonian and Laird All 16.6 (7.4 to 32.9)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Unscreened 10.7 (4.9 to 21.9)\r\nUnspecified 22.3 (10.5 to 41.2)\r\nLikelihood-based All 12.3 (3.5 to 23.2)\r\nUnscreened 5.3 (0.002 to 16.5)\r\nUnspecified 29.6 (2.5 to 79.5)\r\na\r\nCI ¼ confidence interval; CRC ¼ colorectal cancer.\r\n6 of 10 | JNCI Cancer Spectrum, 2020, Vol. 4, No. 5\ngenes and both sexes, indicating insufficient evidence to sub\u0002stantiate differences in CRC risk between unspecified (likely a\r\nmix of screened and unscreened) and unscreened populations.\r\nIn addition to Figure 3, Supplementary Figure 2 (available on\u0002line) shows the study-specific estimates and 95% confidence\r\nintervals by decade of age.\r\nNext, we conducted sensitivity analysis by design or analysis\r\nstrategy, study population, and mutation type. Mukherjee et al.\r\n(11) focused on founder mutations in MSH2 for individuals of\r\nAshkenazi Jewish descent. Because previous evidence shows\r\nthere is an increased risk of CRC in Ashkenazi Jews (40), we con\u0002ducted our meta-analysis with and without this study. Removal\r\nof Mukherjee et al. had little effect on the combined penetrance\r\nestimates for MSH2 mutation carriers. Similarly, we conducted\r\na systematic leave-1-study-out sensitivity analysis and con\u0002cluded that the meta-analytic results of MLH1 and MSH2 muta\u0002tion carriers are quite robust to leave-1-study-out sensitivity\r\nanalysis (Figure 4). Estimated penetrance for female MSH6 mu\u0002tation carriers is sensitive to the removal of studies by\r\nBonadona et al. (24) and Moller et al. (18). Penetrance for male\r\nMSH6 mutation carriers is sensitive to the removal of Moller\r\net al. (18). Because these 2 studies were weighted more heavily\r\nin the analysis because of their sample sizes, it is not surprising\r\nthat removing one would affect the risk estimates. This varia\u0002tion in penetrance estimates for MSH6 carriers can be attributed\r\nto the smaller sample size (both in number of included studies\r\nand in number of mutation carriers) compared with their MLH1\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 479,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "or MSH2 counterparts. Moreover, because MSH6 mutation car\u0002riers tend to have a later age of onset, the risk information\r\nreported by studies was limited to age 50 years and older.\r\nAmong the 3 studies that reported sex-specific risk for MSH6\r\nmutation carriers, 2 studies indicated that female risks were as\u0002sociated with more variability than male risks (10,18), resulting\r\nin more variable maximum likelihood estimates for the female\r\ncarriers. Overall, the meta-analytic risk estimates for MLH1 or\r\nMSH2 carriers were robust to the removal of studies, whereas\r\nthe estimates for MSH6 were more easily affected because of the\r\nsmaller number of available studies.\r\nDiscussion\r\nWe performed a systematic review of the risk of CRC in muta\u0002tion carriers of MLH1, MSH2, and MSH6 and combined evidence\r\nfrom 10 studies to provide age-, gene-, and sex-specific risk esti\u0002mates. These comprehensively reflect the best available data.\r\nWe conclude that the lifetime cumulative penetrance to age 70\r\nyears of CRC for males and female carriers, respectively, is\r\n43.9% (95% CI ¼ 39.6% to 46.6%) and 37.3% (95% CI ¼ 32.2% to\r\n40.2%) for MLH1 carriers, 53.9% (95% CI ¼ 49.0% to 56.3%) and\r\n38.6% (95% CI ¼ 34.1% to 42.0%) for MSH2 carriers, and 12.0%\r\n(95% CI ¼ 2.4% to 24.6%) and 12.3% (95% CI ¼ 3.5% to 23.2%) for\r\nMSH6 carriers. The smaller number of MSH6 mutation carriers\r\nin our analysis led to less certain estimates for that gene, espe\u0002cially at younger ages. Interestingly, more recent studies tend to\r\nhave narrower confidence intervals, suggesting increased preci\u0002sion in their penetrance estimates. Although more conservative\r\nascertainment adjustment mechanisms in recent studies are at\r\nplay, it is difficult to establish whether those may affect the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "study estimates or the confidence intervals. The narrower con\u0002fidence intervals may be attributed to carrier sample size, be\u0002cause recent studies including Bonadona et al. (24), Dowty et al.\r\n(35), and Moller et al. (18) have the 3 largest carrier sample sizes\r\namong the included studies.\r\nThe differences in the penetrance estimates between the\r\nDerSimonian and Laird random effects model and our\r\nlikelihood-based approach could be attributed to the parametric\r\nassumption of the likelihood-based approach. Overall, because\r\nthe majority of the likelihood-based estimates fall within the\r\nmeta-analytic 95% confidence interval of the random effects\r\nmodel, we conclude that our findings are likely to be robust to\r\nthe choice of statistical approach.\r\nFigure 3. Colorectal cancer risk stratified by studies on unscreened or no prior surgery population (top) or unspecified (ie, likely a mix of screened and unscreened popu\u0002lations) (bottom). Panels A, B, and C correspond to MLH1, MSH2, and MSH6 mutation carriers, respectively. DerSimonian and Laird random effects model results: The\r\nage range is divided into 10-year intervals. Within each we show the meta-analytic estimate from the DerSimonian and Laird random effects model (thick vertical\r\nblack bars). The height of vertical bars represents 95% confidence intervals. Likelihood-based approach results: Smooth blue and orange lines represent penetrance es\u0002timated from the likelihood-based approach by yearly age. Blue corresponds to male carriers, and orange corresponds to female carriers.\r\nC. Wang et al. | 7 of 10\nTo the best of our knowledge, this meta-analysis is the first\r\nto provide age-, gene-, and sex-specific penetrance estimates of\r\nMLH1, MSH2, and MSH6 mutations for CRC. A previous meta\u0002analysis by Jenkins et al. (13) focused on combining evidence\r\nfrom 4 articles that report gene- and sex-specific penetrance for\r\nMLH1 and MSH2 mutation carriers to provide short-term\r\n(5 years) CRC risk. Although there is some overlap in included\r\nstudies, the risk estimates provided by our meta-analysis are\r\nage specific, are based on several more studies, and include\r\nMSH6 mutation carriers.\r\nA strength of the likelihood-based approach used here lies in\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "its ability to deconvolve aggregated risks, allowing us to use all\r\nof the information available in the literature and provide more\r\ncomprehensive penetrance estimates. Of note, our meta\u0002analysis included only studies that made adjustments for\r\nascertainment if the participants were recruited through high\u0002risk families, so reported risk estimates were less likely to be bi\u0002ased upward. At the same time, many studies were excluded as\r\na result. Our method can be applied in the future to address\r\nother Lynch syndrome genes and cancers, such as PMS2,\r\nEPCAM, endometrial cancer, and more generally to other gene\r\nand cancer combinations with no restriction on the mutation\r\ntype as long as there are enough studies. A potential limitation\r\nof this approach is the use of a parametric distribution to model\r\nthe penetrance; this assumption, although difficult to check,\r\ncan be relaxed with richer data. For example, a leave-1-study\u0002out sensitivity analysis can be used to assess the parametric\r\nmodeling choice. Currently, our meta-analysis included only\r\narticles that reported cumulative penetrance. Extensions of our\r\ndeconvolution method could potentially be designed to include\r\nstudies that report other risk measures (eg, odds ratio, hazard\r\nratio, etc). Regarding systematic sources of study heterogeneity,\r\nour meta-analysis included studies of mixed mutation types\r\nand populations. Although ideally one would desire to assess\r\nmutation- or population-specific variation in penetrance, the\r\npresent information is insufficient, and it is not feasible to sepa\u0002rate these effects. Overall, the meta-analytic results for MLH1\r\nand MSH2 mutation carriers are robust according to the sensi\u0002tivity analysis and show little evidence of publication bias. On\r\nthe other hand, the same cannot be said for MSH6 mutation car\u0002riers due to the small number of studies.\r\nIt is well known that colonoscopic surveillance serves as an\r\neffective prevention strategy for individuals managing their\r\nCRC risk (41). Our results show that cancer penetrance esti\u0002mated from populations that are a mix of unscreened and\r\nscreened individuals is similar to that estimated from\r\nunscreened populations for MSH2 mutation carriers. However,\r\nthe former is higher for MLH1 and female MSH6 mutation car\u0002riers. This may be because individuals with a family history of\r\nCRC are more likely to undergo screening. Thus, the remaining\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "individuals who are unscreened in these studies may have a\r\nlower risk of cancer. Moreover, mutation carriers from clinics or\r\npopulation-based registries were referred for enhanced surveil\u0002lance with colonoscopy, so cancers detected by colonoscopies\r\nmay increase the cumulative lifetime risk in populations that\r\nare a mix of unscreened and screened individuals. Although\r\nresults indicate otherwise for male MSH6 carriers, there is sub\u0002stantial overlap in confidence intervals across all ages, suggest\u0002ing a lack of evidence to support differences in penetrance\r\nbetween the 2 groups. It is challenging to compare study results\r\nstratified by screening, because the majority of the studies did\r\nnot fully clarify whether surveillance was part of the patient se\u0002lection criteria. More refined data would be needed to extend\r\nour analysis to incorporate colonoscopic surveillance as a modi\u0002fier of CRC risk along with other environmental factors previ\u0002ously shown to affect cancer risk, such as aspirin use (42),\r\nsmoking (43,44), and body mass index (45).\r\nMMRpro is a genetic counseling and clinical decision support\r\ntool that estimates the probability of carrying MMR mutations\r\nand of developing CRC for mutation carriers. It relies on meta\u0002analytic penetrance estimates (12). Chen et al. assume the pene\u0002trance for MLH1 and MSH2 carriers are the same and that of\r\nMSH6 male and female carriers are the same, whereas our\r\nmeta-analysis contains more studies to substantiate the esti\u0002mation of gene- and sex-specific risk (Figure 5). In comparison,\r\nour results show higher lifetime penetrance estimates for MSH2\r\nand female MLH1 carriers, lower estimates for female MSH6 car\u0002riers, and similar estimates for male MLH1 and MSH6 carriers\r\ncompared with those of Chen et al. (Figure 5). Of the 5 studies\r\nFigure 4. Leave-1-study-out sensitivity analysis for mutation carriers. Panels A,\r\nB, and C correspond to MLH1, MSH2, and MSH6 mutation carriers, respectively.\r\nBold solid lines: Cumulative penetrance estimates of CRC based on our likeli\u0002hood-based approach. Dashed lines: Cumulative penetrance estimates by yearly\r\nage of CRC from leave-1-study-out tests of sensitivity. Blue corresponds to male\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "carriers, and orange corresponds to female carriers. Visually, small deviations of\r\na dashed line from the solid line suggest our meta-analysis is robust to the re\u0002moval of that study.\r\n8 of 10 | JNCI Cancer Spectrum, 2020, Vol. 4, No. 5\nincluded in the meta-analysis by Chen et al. (12), we included 2\r\nin our current analysis (37,38). We excluded 1 because of overlap\r\nin study participants (21), 1 because of lack of ascertainment ad\u0002justment (46), and another because it does not provide\r\ncolorectal-specific risks (47).\r\nIn conclusion, our analysis provides a principled empirical\r\nassessment of the risk of Lynch syndrome–associated CRC by\r\ncombining evidence from relevant studies. For individuals with\r\nLynch syndrome, the risk of cancer is dependent on sex and\r\ntype of MMR mutation, with male MLH1 or MSH2 mutation car\u0002rier risk at age 70 years approximately 4 times higher than that\r\nof his female MSH6 counterpart. Risk estimates from our meta\u0002analysis will be incorporated into the 2019 version of the risk\r\nprediction tool MMRpro (12), and the clinical decision support\r\ntool ASK2ME (All Syndrome Known to Man Evaluator) (48) to im\u0002prove risk prediction and management strategies for individu\u0002als who have mutations in MLH1, MSH2, and MSH6. Our results\r\ncan support the development of effective prevention strategies\r\nand personalized counseling.\r\nFunding\r\nThis work was supported by the National Cancer Institute at\r\nthe National Institutes of Health (5T32CA009337-32 to C.W.\r\nand 4P30CA006516-51 to G.P.) and by the Koch Institute/\r\nDana-Farber/Harvard Cancer Center Bridge Project\r\n(Footbridge to C.W., K.S.H., G.P., and D.B.).\r\nNotes\r\nRole of the funders: The funders had no role in the design of the\r\nstudy; the collection, analysis, and interpretation of the data;\r\nthe writing of the manuscript; and the decision to submit the\r\nmanuscript for publication.\r\nDisclosures: Dr Hughes receives Honoraria from Myriad\r\nGenetics Veritas Genetics, Advisory Board for Beacon (An RFID\r\nBiopsy Marker) and is a founder of and has a financial interest\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "in Cancer Risk Apps, LLC. Dr Hughes’s interests were reviewed\r\nand are managed by Massachusetts General Hospital and\r\nPartners Health Care in accordance with their conflict of inter\u0002est policies. Dr Parmigiani is a member of the Scientific\r\nAdvisory Board and has a financial interest in Cancer Risk Apps\r\nLLC (CRA). CRA commercializes software for management of\r\npatients at high risk of cancer. He is a member of the Scientific\r\nAdvisory Board of Konica-Minolta who owns Ambry genetics.\r\nMs Wang, Dr Braun, and Dr Yan Wang declare that they have no\r\nconflict of interest.\r\nAcknowledgements: The authors would like to thank Dr Kush\r\nPathak and Dr Kanhua Yin for their assistance with the litera\u0002ture review process. We wish to thank Dr Swati Biswas and\r\nmembers of the BayesMendel lab for their valuable feedback\r\nduring the preparation of this manuscript.\r\nReferences\r\n1. Rustgi AK. The genetics of hereditary colon cancer. Genes Dev. 2007;21(20):\r\n2525-2538.\r\n2. Jass JR. Hereditary non-polyposis colorectal cancer: the rise and fall of a con\u0002fusing term. World J Gastroenterol. 2006;12(31):4943-4950.\r\n3. Umar A, Boland CR, Terdiman JP, et al. Revised Bethesda Guidelines for he\u0002reditary nonpolyposis colorectal cancer (Lynch syndrome) and microsatellite\r\ninstability. J Natl Cancer Inst. 2004;96(4):261-268.\r\n4. Provenzale D, Gupta S, Ahnen DJ, et al. Genetic/familial high-risk assess\u0002ment: colorectal version 1.2016, NCCN clinical practice guidelines in oncol\u0002ogy. J Natl Compr Canc Netw. 2016;14(8):1010-1030.\r\n5. Vasen H, Watson P, Mecklin J, et al. New clinical criteria for hereditary nonpo\u0002lyposis colorectal cancer (HNPCC, Lynch syndrome) proposed by the\r\nInternational Collaborative group on HNPCC. Gastroenterology. 1999;116(6):\r\n1453-1456.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "6. Fay K, Gregory I, Giovanni P. Prediction Models for Lynch Syndrome in Hereditary\r\nColorectal Cancer: Genetic Basis and Clinical Implications. Cham, Switzerland:\r\nSpringer International Publishing; 2018:281-303.\r\n7. Hampel H, Pearlman R, Beightol M, et al. Assessment of tumor sequencing as\r\na replacement for Lynch syndrome screening and current molecular tests for\r\npatients with colorectal cancer. JAMA Oncol. 2018;4(6):806-813.\r\n8. Giardiello FM, Allen JI, Axilbund JE, et al. Guidelines on genetic evaluation\r\nand management of Lynch syndrome: a consensus statement by the US\r\nMulti-Society Task Force on colorectal cancer. Gastrointestinal Endosc. 2014;\r\n80(2):197-220.\r\n9. Kraft P, Thomas DC. Bias and efficiency in family-based gene-characteriza\u0002tion studies: conditional, prospective, retrospective, and joint likelihoods.\r\nAm J Hum Genet. 2000;66(3):1119-1131.\r\n10. Stoffel E, Mukherjee B, Raymond VM, et al. Calculation of risk of colorectal\r\nand endometrial cancer among patients with Lynch syndrome.\r\nGastroenterology. 2009;137(5):1621-1627.\r\nFigure 5. Cumulative penetrance estimates of colorectal cancer from current\r\nmeta-analysis and MMRpro. Panels A, B, and C correspond to MLH1, MSH2, and\r\nMSH6 mutation carriers, respectively. Estimates from current meta-analysis and\r\nMMRpro are denoted by solid and dotted lines, respectively. Blue corresponds to\r\nmale carriers, and orange corresponds to female carriers.\r\nC. Wang et al. | 9 of 10\n11. Mukherjee B, Rennert G, Ahn J, et al. High risk of colorectal and endome- trial\r\ncancer in Ashkenazi families with the MSH2 A636P founder mutation.\r\nGastroenterology. 2011;140(7):1919-1926.\r\n12. Chen S, Wang W, Lee S, et al. Prediction of germline mutations and cancer\r\nrisk in the Lynch syndrome. JAMA. 2006;296(12):1479-1487.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "13. Jenkins MA, Dowty JG, Ait Ouakrim D, et al. Short-term risk of colorectal can\u0002cer in individuals with Lynch syndrome: a meta-analysis. J Clin Oncol. 2015;\r\n33(4):326-331.\r\n14. Win AK, Young JP, Lindor NM, et al. Colorectal and other cancer risks for car\u0002riers and noncarriers from families with a DNA mismatch repair gene muta\u0002tion: a prospective cohort study. J Clin Oncol. 2012;30(9):958-964.\r\n15. Sanne W, Brohet RM, Tops Carli M, et al. Lynch syndrome caused by germline\r\nPMS2 mutations: delineating the cancer risk. J Clin Oncol. 2015;33(4):319-325.\r\n16. Guindalini RSC, Win AK, Gulden C, et al. Mutation spectrum and risk of colo\u0002rectal cancer in African American families with Lynch syndrome.\r\nGastroenterology. 2015;149(6):1446-1453.\r\n17. Sjursen W, Haukanes BI, Grindedal Eli M, et al. Current clinical criteria for\r\nLynch syndrome are not sensitive enough to identify MSH6 mutation car\u0002riers. J Med Genet. 2010;47(9):579-585.\r\n18. Møller P, Seppal € a T, Bernstein I, et al. Cancer incidence and survival in Lynch €\r\nsyndrome patients receiving colonoscopic and gynaecological surveillance:\r\nfirst report from the prospective Lynch syndrome database. Gut. 2017;66(3):\r\n464-472.\r\n19. Bao Y, Deng Z, Wang Y, et al. Using machine learning and natural language\r\nprocessing to review and classify the medical literature on cancer suscepti\u0002bility genes. J Clin Oncol. 2019;1(3):1-9.\r\n20. Marabelli M, Cheng S-C, Parmigiani G. Penetrance of ATM gene mutations in\r\nbreast cancer: a meta-analysis of different measures of risk. Genet Epidemiol.\r\n2016;40(5):425-431.\r\n21. Jenkins M, Baglietto L, Dowty J, et al. Cancer risks for mismatch repair gene\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "mutation carriers: a population-based early onset case-family study. Clin\r\nGastroenterol Hepatol. 2006;4(4):489-498.\r\n22. Barrow E, Robinson L, Alduaij W, et al. Cumulative lifetime incidence of\r\nextracolonic cancers in Lynch syndrome: a report of 121 families with proven\r\nmutations. Clin Genet. 2009;75(2):141-149.\r\n23. Choi Y-H, Cotterchio M, McKeown-Eyssen G, et al. Penetrance of colorectal\r\ncancer among MLH1/MSH2 carriers participating in the colorectal cancer fa\u0002milial registry in Ontario. Hered Cancer Clin Pract. 2009;7(1):14.\r\n24. Bonadona V, Bonaı¨ti B, Olschwang S, et al. Cancer risks associated with germ\u0002line mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. JAMA.\r\n2011;305(22):2304-2310.\r\n25. Vasen HFA, Stormorken A, Menko FH, et al. MSH2 mutation carriers are at\r\nhigher risk of cancer than MLH1 mutation carriers: a study of hereditary non\u0002polyposis colorectal cancer families. J Clin Oncol. 2001;19(20):4074-4080.\r\n26. Schwarzer G, Schwarzer MG. Package ‘meta’. The R Foundation for Statistical\r\nComputing. 2012:9. http://cran.r-project.org/web/packages/meta/index.html.\r\n27. R Core Team. R: A Language and Environment for Statistical Computing. Vienna,\r\nAustria: R Foundation for Statistical Computing; 2017.\r\n28. Egger M, Smith GD, Schneider M, Minder C. Bias in meta-analysis detected by\r\na simple. BMJ. 1997;315(7109):629-634.\r\n29. DerSimonian R, Laird N. Meta-analysis in clinical trials. Control Clin Trials.\r\n1986;7(3):177-188.\r\n30. Kopciuk KA, Choi Y-H, Parkhomenko E, et al. Penetrance of HNPCC-related\r\ncancers in a retrolective cohort of 12 large Newfoundland families carrying a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "MSH2 founder mutation: an evaluation using modified segregation models.\r\nHered Cancer Clin Pract. 2009;7(1):16.\r\n31. Surveillance, Epidemiology, and End Results (SEER) Program. SEER*Stat\r\nDatabase: Incidence - SEER Research Data, 9 Registries, 1975–2017. https://\r\nseer.cancer.gov/data/. Accessed March 20, 2017.\r\n32. Chapelle A. The incidence of Lynch syndrome. Fam Cancer. 2005;4(3):233-237.\r\n33. Borras E, Pineda M, Blanco I, et al. MLH1 founder mutations with moderate\r\npenetrance in Spanish Lynch syndrome families. Cancer Res. 2010;70(19):\r\n7379.\r\n34. Laura B, Lindor Noralane M, Dowty James G, et al. Risks of Lynch syndrome\r\ncancers for MSH6 mutation carriers. J Natl Cancer Inst. 2010;102(3):193-201.\r\n35. Dowty JG, Win Aung K, Buchanan Daniel D, et al. Cancer risks for MLH1 and\r\nMSH2 mutation carriers human mutation. Hum Mutat. 2013;34(22):490-497.\r\n36. Aaltonen L, Johns L, Jarvinen H, Mecklin J-P, Houlston R. Explaining the famil\u0002ial colorectal cancer risk associated with mismatch repair (MMR)-deficient\r\nand MMR-stable tumors. Clin Cancer Res. 2007;13(1):356-361.\r\n37. Quehenberger F, Vasen HFA, Van Houwelingen HC. Risk of colorectal and en\u0002dometrial cancer for carriers of mutations of the hMLH1 and hMSH2 gene:\r\ncorrection for ascertainment. J Med Genet. 2005;42(6):491-496.\r\n38. Dunlop MG, Farrington SM, Carothers AD. Cancer risk associated with germ\u0002line DNA mismatch repair gene mutations. Hum Mol Genet. 1997;6(1):105-110.\r\n39. Vasen HF, Blanco I, Aktan-Collan K, et al. Revised guidelines for the clinical\r\nmanagement of Lynch syndrome (HNPCC): recommendations by a group of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "European experts. Gut. 2013;62(6):812–823.\r\n40. Locker Gershon Y, Lynch Henry T. Genetic factors and colorectal cancer in\r\nAshkenazi Jews. Fam Cancer. 2004;3(3-4):215-221.\r\n41. Jarvinen HJ, Mecklin J-P, Sistonen P. Screening reduces colorectal cancer rate €\r\nin families with hereditary nonpolyposis colorectal cancer. Gastroenterology.\r\n1995;108(5):1405-1411.\r\n42. John B, Anne-Marie G, Finlay M, et al. Long-term effect of aspirin on cancer\r\nrisk in carriers of hereditary colorectal cancer: an analysis from the CAPP2\r\nrandomised controlled trial. Lancet. 2011;378(9809):2081-2087.\r\n43. Watson P, Ashwathnarayan R, Lynch HT, Roy HK. Tobacco use and increased\r\ncolorectal cancer risk in patients with hereditary nonpolyposis colorectal\r\ncancer (Lynch syndrome). Arch Intern Med. 2004;164(22):2429-2431.\r\n44. Pande M, Lynch PM, Hopper JL, et al. Smoking and colorectal cancer in Lynch\r\nsyndrome: results from the Colon Cancer Family Registry and the University\r\nof Texas MD Anderson Cancer Center. Clin Cancer Res. 2010;16(4):1331-1339.\r\n45. Win AK, Dowty JG, English DR, et al. Body mass index in early adulthood and\r\ncolorectal cancer risk for carriers and non-carriers of germline mutations in\r\nDNA mismatch repair genes. Br J Cancer. 2011;105(1):162-169.\r\n46. Hampel H, Stephens J, Pukkala E, et al. Cancer risk in hereditary nonpolyposis\r\ncolorectal cancer syndrome: later age of onset. Gastroenterology. 2005;129(2):\r\n415-421.\r\n47. Buttin BM, Powell MA, Mutch DG, et al. Penetrance and expressivity of MSH6\r\ngermline mutations in seven kindreds not ascertained by family history. Am\r\nJ Hum Genet. 2004;74(6):1262-1269.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -454905812725295721,
+        "filename": "pkaa027.PMC7476651.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 85,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "48. Braun D, Yang J, Griffin M, Parmigiani G, Hughes KS. A clinical decision sup\u0002port tool to predict cancer risk for commonly tested cancer-related germline\r\nmutations. J Genet Couns. 2018;27(5):1187–1199.\r\n10 of 10 | JNCI Cancer Spectrum, 2020, Vol. 4, No. 5\n\n"
+  }
+]

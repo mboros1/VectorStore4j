@@ -1,0 +1,650 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Food Chemistry: X 22 (2024) 101396\r\nAvailable online 18 April 2024\r\n2590-1575/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by\u0002nc-nd/4.0/).\r\nMetabolomics analysis based on UHPLC-QqQ-MS/MS to discriminate \r\ngrapes and wines from different geographical origins and \r\nclimatological characteristics \r\nLin Zhang a,1, Zhaoxiang Wang a,1, Cui Zhang a,c, Shubo Zhou a, Chunlong Yuan a,b,* \r\na College of Enology, Northwest A&F University, Yangling 712100, China b Ningxia Helan Mountain’s East Foothill Wine Experiment and Demonstration Station of Northwest A&F University, Yongning, Ningxia 750104, China c Xinjiang Bainian Manor Wines & Spirits Co., Ltd, China \r\nARTICLE INFO \r\nChemical compounds studied in this article: \r\nCyanidin (PubChem CID: 441688) \r\nPeonidin (PubChem CID: 441773) \r\nDelphinidin (PubChem CID: 68245) \r\nPetunidin (PubChem CID: 441774) \r\nMalvidin (PubChem CID: 159287) \r\nResveratrol (PubChem CID: 445154) \r\nCaffeic acid (PubChem CID: 689043) \r\n(+)-Catechin (PubChem CID: 9064) \r\nGallic acid (PubChem CID: 370) \r\nKeywords: \r\nWine \r\nGrape \r\nAnthocyanins \r\nPhenolics \r\nChemometric \r\nGeographical origin \r\nMetabolomics \r\nABSTRACT \r\nWith the proliferation of the consumer’s awareness of wine provenance, wines with unique origin characteristics \r\nare increasingly in demand. This study aimed to investigate the influence of geographical origins and climato\u0002logical characteristics on grapes and wines. A total of 94 anthocyanins and 78 non-anthocyanin phenolic com\u0002pounds in grapes and wines from five Chinese viticultural vineyards (CJ, WH, QTX, WW, and XY) were identified \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "by UHPLC-QqQ-MS/MS. Chemometric methods PCA and OPLS-DA were established to select candidate differ\u0002ential metabolites, including flavonols, stilbenes, hydroxycinnamic acids, peonidin derivatives, and malvidin \r\nderivatives. CCA showed that malvidin-3-O-glucoside had a positive correlation with mean temperature, and \r\nquercetin-3-O-glucoside had a negative correlation with precipitation. In addition, enrichment analysis eluci\u0002dated that the metabolic diversity in different origins mainly occurred in flavonoid biosynthesis. This study \r\nwould provide some new insights to understand the effect of geographical origins and climatological charac\u0002teristics on phenolic compounds in grapes and wines. \r\n1. Introduction \r\nWith the rapid development of new technical and scientific know\u0002how, viticulture and winemaking technology tend to be more indus\u0002trial and manufactured. In recent years, the phenomenon of over\u0002reliance on modern technology has occurred (fertilizers, fungicides, \r\ncommercial yeast, sulfurous acid, artificial deacidification or sacchari\u0002fication), which to some extent caused the wines to increasingly ho\u0002mogenization (Wei et al., 2022). \r\nStudies have shown that consumers have more willingness to pay for \r\nwines that emphasize “local” (Eustice, McCole, & Rutty, 2019; Kustos, \r\nGoodman, Jeffery, & Bastian, 2019). Words such as terroir, regionality, \r\nand geographical typicality have become increasingly popular around \r\nthe world (Slaghenaufi, Guardini, Tedeschi, & Ugliano, 2019). In this \r\ncontext, some studies have focused on the recognizable and unique \r\nchemical characteristics related to the geographical typicality of grapes \r\nand wines (Merkyte, ˙ Longo, Windisch, & Boselli, 2020). Arapitsas et al. \r\n(2020) conducted a study about the metabolome of 11 single-cultivar, \r\nsingle-vintage red wines from 12 regions across Italy, and concluded \r\nthat flavan-3-ols were the biomarkers of Aglianico, Sangiovese, Nerello, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "and Nebbiolo, flavonols were the biomarkers of Sangiovese, and \r\nhydroxycinnamates were the biomarkers for Cannonau. Wang et al. \r\n(2023) selected flavonoids, organic acids, amino acids, terpenes, and \r\nfatty alcohols as the candidate differential metabolites to discriminate \r\nfour geographical origins in China. \r\nThe term “wine-omics” was first proposed by Wohlgemuth (2008) in \r\n* Corresponding author at: College of Enology, Northwest A&F University, Yangling 712100, China. \r\nE-mail address: yuanchl69@nwsuaf.edu.cn (C. Yuan). 1 These authors contributed equally to this work. \r\nContents lists available at ScienceDirect \r\nFood Chemistry: X \r\njournal homepage: www.sciencedirect.com/journal/food-chemistry-x \r\nhttps://doi.org/10.1016/j.fochx.2024.101396 \r\nReceived 29 February 2024; Received in revised form 15 April 2024; Accepted 16 April 2024 \nFood Chemistry: X 22 (2024) 101396\r\n2\r\nthe journal Nature, in search of key chemical components contributing \r\nto the wine body. With the continuous development of metabolomic \r\nanalysis, metabolomics combined with powerful statistical techniques \r\nhas been widely applied in wine research. For example, Zhang, Lan, \r\nHuang, Zhao, and Duan (2021) investigated anthocyanin derivatives \r\nand chromatic characteristics of 234 different-vintage red wines based \r\non a targeted HPLC-MS/MS approach, coupled with K-means, PLSR, \r\nrandom forest, and support vector machine analysis. Crook et al. (2021) \r\nimproved Pinot Noir wine classification by vineyard, region, and vintage \r\nbased on combined analytical techniques NMR and differential sensing \r\narray. Therefore, metabolomics has been regarded as an effective \r\nmethod involving discriminative, predictive, and identification in grape \r\nand wine (Cavanna, Righetti, Elliott, & Suman, 2018; Hu, Zhang, Xing, \r\nYu, & Chen, 2022; Sherman, Coe, Grose, Martin, & Greenwood, 2020). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 477,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Over the past decade, the Chinese wine market has expanded at a \r\nrapid rate and China has great vitality in wine production and con\u0002sumption (Lu, Chi, & Zou, 2019). Over ten wine regions with their \r\nunique characteristics were divided in China (Wei et al., 2022). Most \r\nwine regions have continental monsoon climates, and the regions also \r\ncontain a great diversity of ecological conditions (Li, Pan, Jin, Mu, & \r\nDuan, 2011). Therefore, finding the wine features of the origins and \r\ncontinuing to emphasize them in production practice of viticulture and \r\nwinemaking seems a problem admits of no delay. However, most pub\u0002lished research mainly focused on mediterranean-like climates, but the \r\nstudies on the relationship between typical continental monsoon cli\u0002mates and phenolic profiles are relatively limited. \r\nIn order to preliminary investigate the above-mentioned queries, the \r\nchemical fingerprints of grapes and wines from five origins in China \r\nwere characterized. Anthocyanin and non-anthocyanin phenolic com\u0002pounds were analyzed by UHPLC-QqQ-MS/MS to investigate the unique \r\nfeatures and differential performance in different origins. Chemometric \r\napproaches (PCA, OPLS-DA, CCA) and metabolite pathway enrichment \r\nanalysis were performed to select the typical metabolites, examine the \r\nconnection between meteorological parameters and phenolic metabo\u0002lites, and elucidate the mechanisms of metabolic differences. \r\n2. Material and methods \r\n2.1. Chemicals and reagents \r\nCyanidin-3-O-glucoside chloride, peonidin-3-O-glucoside chloride, \r\ndelphinidin-3-O-glucoside chloride, petunidin-3-O-glucoside chloride, \r\nmalvidin-3-O-glucoside chloride, protocatechuic acid, chlorogenic acid, \r\nmorin, rutin, resveratrol, caffeic acid, p-coumaric acid, (+)-catechin, \r\ngallic acid, (− )-epicatechin, quercetin, ferulic acid, kaempferol, syringic \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "acid, salicylic acid, vanillic acid, and 4-methyl-2-pentanol were pur\u0002chased from Sigma-Aldrich (St. Louis, MO, USA). Methanol (HPLC \r\ngrade), acetonitrile (HPLC grade), and formic acid (HPLC grade) were \r\npurchased from Sigma-Aldrich (St. Louis, MO, USA). Deionized water \r\nwas obtained using a Milli-Q System (Millipore, Billerica, USA). 0.22 μm \r\nand 0.45 μm pore size syringe filters were purchased from Jinteng \r\n(Tianjin, China). \r\n2.2. Grape and winemaking \r\n2.2.1. Grape samples \r\nGrapevine berries of Vitis vinifera L. cv Cabernet Sauvignon were \r\ncollected from representative wine estates in Changji (CJ), Wuhai (WH), \r\nQingtongxia (QTX) and Wuwei (WW), and Xianyang (XY) in 2021 \r\n(Fig. S1). The scaffolds in XY adopt vertical shoot-positioned trellis \r\nsystems. While in CJ, WH, QTX, and WW, all the vines were trained to a \r\nslope trunk with a modified vertical shoot positioning trellis system, \r\nwhich were convenient to bury the main vines in winter. Representative \r\nsamples were obtained by pooling bunches of different clusters collected \r\nby hand using a completely randomized design from the top, middle, \r\nand bottom of the vine at commercial maturity. Approximately 20 kg of \r\nberries were collected in each origin to conduct winemaking experi\u0002ments. Macroclimatic condition data were collected from the China \r\nMeteorological Data network (Table S1). \r\n2.2.2. Winemaking experiments and wine samples \r\nThe winemaking modalities were performed based on the published \r\nmethod with modifications (Yue et al., 2020). Grape berries were des\u0002temmed and crushed and then collected in 10 L fermenters in triplicate. \r\n60 mg/L SO2 was immediately added to grape juice to avoid oxidation. \r\nAfter adding 20 mg/L pectinase (Laffort, Bordeaux, France), fermenta\u0002tions were performed with the activated commercial saccharomyces \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "cerevisiae strain of Actiflore F33 (Laffort, Bordeaux, France) at 200 mg/L \r\nat 25 ◦C (±1 ◦C). During fermentation, the residual sugar was measured \r\nby automatic system Analyzer Y15 (Biosystems S.A., Barcelona, Spain) \r\nto monitor the progress of fermentation until the fermentation was \r\ncompleted (residual sugar <2 g/L). Wines were stored in 750 mL bottles \r\nat 4 ◦C until analysis. \r\n2.3. Extraction of anthocyanins \r\nAfter being stripped off the berries, the grape skins were freeze-dried \r\nat − 50 ◦C for over 24 h using a vacuum freeze drier (FD-1C-50, \r\nEppendorf, Germany). Then they were ground to a powder in liquid \r\nnitrogen and stored at − 80 ◦C until further use. \r\nThe method was based on Guo et al. (2021) with some modifications \r\nand all procedures were conducted under dark conditions. An amount of \r\n0.250 g dried power samples and 5 mL formic acid-methanol solution \r\n(2% formic acid and 98% methanol) were added to a 50 mL centrifuge \r\ntube. Samples were subjected to 100 W ultrasonic extraction for 10 min \r\nat 20 ◦C in a water bath, agitated at the oscillation frequency of 130 rpm \r\nfor 30 min at 25 ◦C, and centrifuged at 8000 rpm for 10 min at 4 ◦C. The \r\nsupernatant was collected, and the extraction process was repeated four \r\ntimes under the same conditions. The supernatants were pooled, \r\ncondensed, and dry to solids by a concentrator. The residue solid at the \r\nbottom of the centrifuge tube was dissolved with a 5 mL solvent ratio of \r\nA: B = 9:1 (A represents a mixture of pure water: formic acid: acetoni\u0002trile = 92:2:6, B represents a mixture of pure water: formic acid: \r\nacetonitrile = 44:2:54). The samples were stored at − 80 ◦C until \r\nanalysis. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "2.4. Extraction of non-anthocyanin phenolic compounds \r\nAn amount of 15 mL solvent mixture of CH3OH/H2O/HCOOH \r\n(50:48.5:1.5 v/v/v) was added to a 50 mL centrifuge tube containing \r\n0.5 g skin powder to obtain the phenolic extracts following the method \r\nby P´erez-Navarro et al. (2019) with some modifications. The extraction \r\nwas carried out by sonication at 4 ◦C for 20 min and centrifuged at 6000 \r\nrpm for 8 min at 4 ◦C. The supernatant liquid was separated and \r\ncollected, and the second and third extractions were performed over the \r\nresidue in the above-mentioned procedure. Three supernatants were \r\ncombined and stored at − 80 ◦C until analysis. \r\nThe wine samples were filtered with 0.22 μm polyethersulfone filters \r\n(Jinteng Experimental Equipment Co., Ltd., Tianjin, China) prior to \r\nanthocyanin and non-anthocyanin phenolic analysis. \r\n2.5. UHPLC-QqQ-MS/MS analysis of anthocyanins \r\nThe analysis of anthocyanins and anthocyanin-derived compounds \r\nwere evaluated by ultra-high performance liquid chromatography with \r\ntriple-quadrupole mass spectrometry (UHPLC/QqQ-MS/MS) based on \r\nthe method described by Zhang et al. (2020) with modifications. The \r\nchromatographic separation of anthocyanins and anthocyanin-derived \r\ncompounds were performed using a Waters AcQuity BEH C18 (100 \r\nmm × 2.1 mm, 1.7 μm) column. Mobile phase A was 0.1% formic acid in \r\nultrapure water and mobile phase B was 0.1% formic acid in 1:1 (v/v) \r\nmethanol: acetonitrile. The elution gradient was as follows: 0–1 min: 5% \r\nL. Zhang et al. \nFood Chemistry: X 22 (2024) 101396\r\n3\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "B; 1–8 min: 25% B; 8–20 min, 30% B; 20–25 min: 100% B; 25–30 min, \r\n100% B; 30.1 min: 5% B; 30.1–35 min: 5% B. The flow rate was 0.3 mL/ \r\nmin and the injection volume was 3 μL. The oven temperatures and \r\nautosampler were respectively maintained at 55 ◦C and 4 ◦C. \r\nThe mass spectrometer (Triple Quad 5500+, AB Sciex, USA) was \r\nequipped with an electrospray ionization source (ESI Turbo V™ Source) \r\nwith the following conditions: positive ion mode [M − H]+, spray \r\nvoltage +4.5 kV, source temperature 550 ◦C, GS1 50 psi and GS2 60 psi. \r\nHigh-purity nitrogen (>99.99% purity) was used as the source and \r\ncollision gases. Multiple reaction monitoring (MRM) mode was selected \r\nfor detection. The MRM transitions, including the individual decluster\u0002ing potential (DP) and collision energy (CE) for each anthocyanin, were \r\nshown in Table S2 in the supplementary material. The mixture of all the \r\nwine samples served as the quality control, and they were run between \r\nevery nine wine samples to assess the stability of the instrument. Data \r\nacquisition was carried out using the Analyst TF 1.7.1 software (AB \r\nSciex, USA). \r\nSome of the anthocyanins were quantified using the calibration \r\ncurves of their corresponding pure commercial standards, and the others \r\nwere semi-quantified using the calibration curves of standards with \r\nsimilar chemical structures (Table S2). \r\n2.6. UHPLC-QqQ-MS/MS analysis of non-anthocyanin phenolic \r\ncompounds \r\nThe analysis of non-anthocyanin phenolics was evaluated by \r\nUHPLC/QqQ-MS/MS based on Royo, Ferradas, ´ Martínez-Zapater, and \r\nMotilva (2021) with modifications. The mobile phase A was 0.1% formic \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Fig. 1. The richness of anthocyanins in grape (A) and wine (B) samples and non-anthocyanin phenolic compounds in grape (C). \r\nL. Zhang et al. \nFood Chemistry: X 22 (2024) 101396\r\n4\r\nacid in water, and the mobile phase B was 0.1% formic acid in aceto\u0002nitrile. The elution gradient was as follows: 0–0.5 min, 1% B; 0.5–1.5 \r\nmin, 1–8% B; 1.5–4 min, 8% B isocratic; 4–5 min, 8–12% B; 5–5.5 min, \r\n12% B isocratic; 5.5–6 min, 12–14% B; 6–7 min, 14% B; 7–9 min, \r\n14–22% B; 9–12 min, 22–30% B; 12–13.5 min, 30–90% B; 13.5–14.5 \r\nmin, 90% B; 14.5–15 min, 90–1% B; 15–18 min, 1% B. The flow rate was \r\n0.3 mL/min and the injection volume was 3 μL. The oven temperatures \r\nand autosampler were respectively maintained at 40 ◦C and 4 ◦C. The \r\nconditions of the mass spectrometer were as follows: negative ion mode \r\n[M − H]− , spray voltage − 4.5 kV, source temperature 650 ◦C, GS1 50 \r\npsi, and GS2 60 psi. MRM mode was selected for detection (Table S2). \r\nData acquisition and quantification were the same as for anthocyanins. \r\n2.7. Statistical analysis \r\nIBM SPSS 26 was used for the Duncan test of ANOVA. Principal \r\ncomponent analysis (PCA) was established to evaluate the origin clas\u0002sifications of grapes and wines by R package “ade4”. Orthogonal partial \r\nleast squares discrimination analysis (OPLS-DA) was performed by \r\nSIMCA 14.1 software to detect any cluster or separation of grape and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "wine samples. The differential metabolites from different origins were \r\nselected on the basis of the variable importance in projection value \r\n(VIP) > 1. R package “pheatmap” was used for hierarchical cluster \r\nanalysis (HCA). Canonical correlation analysis (CCA) was performed by \r\nR package “CCA” to analyze the relationship between macroclimatic \r\nparameters and phenolic compounds. Metabolic pathways were \r\nanalyzed by MetaboAnalyst 5.0 software, based on the KEGG database \r\n(https://www.metaboanalyst.ca) including chemical metabolite groups \r\nor lipid groups in the chemical structure. Then R package “ggplot2” was \r\nused for visualization. \r\n3. Results and discussion \r\n3.1. Anthocyanins and anthocyanin-derived compounds of grape and \r\nwine samples \r\nIn the present study, a total of 94 anthocyanins and anthocyanin\u0002derived compounds were identified, including anthocyanins, glycosy\u0002lated anthocyanins, acylated anthocyanins, pyanthocyanins, and poly\u0002merized anthocyanin (Fig. 1A and B). Anthocyanins and acylated \r\nanthocyanins were derived from the maceration procedure during \r\nwinemaking and were a key factor in determining the red color of young \r\nwines. Pyanthocyanins and polymerized anthocyanin also showed the \r\nability of anthocyanins to react with tannins or with certain by-products \r\nof yeast (e.g., acetaldehyde, pyruvate, and vinylphenol) during \r\nfermentation (Kumar, Tian, & Harrison, 2022). The total anthocyanin in \r\ngrape and wine samples showed the highest concentration in WW but \r\nshowed the lowest concentration in XY. Malvidin derivatives were the \r\nmain anthocyanins quantified, for example, the concentrations of mal\u0002vidin-3-O-glucoside and malvidin-3-O-(6-acetyl)-glucoside was the \r\nhighest in the grape and wine samples, with 289.85 mg/L and 214.64 \r\nmg/L respectively (Table S3). WW is located in the northwest of China at \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 478,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "an altitude of 2300 m asl, with an annual rainfall of about 200 mm and \r\nstrong sunlight exposure, while XY has exactly the opposite climatic \r\ncharacteristics with a low altitude and high rainfall. de Oliveira et al. \r\n(2019) studied grapes from Morro do Chap´eu (1100 m asl) and Sao ˜\r\nFrancisco Valley (350 m asl) and found that grapes grown at high alti\u0002tudes were characterized by higher levels of anthocyanins. Liang et al. \r\n(2014) also got a similar result that total anthocyanins concentration \r\nrises with increased altitude. \r\n3.2. Non-anthocyanin phenolic compounds of grape and wine samples \r\nSeventy-eight non-anthocyanin phenolic compounds were identified \r\nand quantified in the grape and wine samples. These belonged to the \r\nchemical classes of flavonols, hydroxycinnamic acids, hydroxybenzoic \r\nacids, proanthocyanidins, stilbenes, etc. (Fig. 1C and D). Flavonols were \r\nthe major non-anthocyanin phenolic compounds identified in grapes, \r\nand hydroxybenzoic acids also played a main role in wines, with >900 \r\nmg/L total concentration. The accumulation of hydroxybenzoic acids \r\nvaried considerably in different wines, mainly related to grape varieties \r\nand growing conditions, such as climate, topography, vineyard man\u0002agement, etc. (Costa, da Silva, Cosme, & Jord˜\r\nao, 2015). In this study, the \r\ngallic acid had significant concentration differences with a range from \r\n7.68 mg/L to 34.97 mg/L in five origins. Consistent with the results of \r\nZhao et al. (2023), who studied six sub-regions in Eastern Foothills of the \r\nHelan Mountain. Many compounds could only be detected in wine \r\nsamples rather than in grapes, including ethyl-gallate, epigallocatechin\u0002gallate, and ethyl-caffeic acid (Table S4). The same situation also \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "occurred in the study of Royo et al. (2021), which related to some hy\u0002drolysis and synthesis reactions during the fermentation or storage. \r\nAccording to reports, the esterification of gallic acid with ethanol to \r\nform ethyl gallate occurs during fermentation and aging conditions \r\n(Monagas, Bartolom´e, & Gomez-Cordov ´ ´es, 2005). Free caffeic acid \r\nmainly comes from the hydrolysis of the hydroxycinnamic acids present \r\nin grapes during the winemaking process (Lingua, Fabani, Wunderlin, & \r\nBaroni, 2016). Some hydroxycinnamic acids, including coutaric acid \r\nand caftaric acid, were significantly higher in WH, with the concentra\u0002tion of 0.22 mg/L and 0.62 mg/L. Quercetin-3-O-galactoside, \r\nkaempferol-glucuronide, myricetin-galactoside, and myricetin\u0002glucoside in XY had a relatively lower concentration compared to \r\nother origins, with 0.43 mg/L, 2.05 mg/L, 2.30 mg/L, and 0.80 mg/L, \r\nrespectively. Studies have reported that too high temperatures during \r\nberry ripening had a negative effect on flavonols accumulation (Degu, \r\nAyenew, Cramer, & Fait, 2016; Pastore et al., 2017), which was \r\nconsistent with the higher temperature of XY. \r\nFig. 2. PCA score plots of grape (A) and wine (B) samples from different origins. \r\nL. Zhang et al. \nFood Chemistry: X 22 (2024) 101396\r\n5\r\n3.3. Geographic origin discrimination of grape and wine samples from \r\ndifferent origins \r\nAs reported, chemometric methods have been used for discrimi\u0002nating samples based on chemical parameters regarding their varieties, \r\nvintage, and geographical origin (Alan˜on, ´ P´erez-Coello, & Marina, 2015; \r\nValentin, Barroso, Barbosa, de Paulo, & Castro, 2020; L. Zhang et al., \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "2023). To reduce the data dimensions and obtain more detailed infor\u0002mation, PCA and OPLS-DA were introduced into the processed data \r\nmatrices. \r\nAfter data correction, PCA models in the unsupervised mode were \r\napplied to the grape and wine samples from each origin to reveal the \r\ndistribution trends among various samples (Fig. 2). The R2\r\nX and Q2 of \r\nPCA models corresponding to both grape and wine samples were > 0.8 \r\nand > 0.5, indicating the PCA models had good fitting effects. In Fig. 2A, \r\nPC1 and PC2 explained 51.4% of the grape samples together. In Fig. 2B, \r\nthe two PCs explained 33.0% and 28.1% of the wine samples respec\u0002tively. Every origin could be distinguished clearly. PCA as an unsuper\u0002vised pattern recognition method, can maximize the differences \r\nbetween samples, but it cannot distinguish whether the differences come \r\nfrom within or among groups (Pan et al., 2022). \r\nSupervised OPLS-DA models were established subsequently to \r\nmaximize the differences among the groups and explain whether sam\u0002ples can be discriminated with some particular factors (Wang et al., \r\n2023). As shown in Fig. 3A and D, the OPLS-DA score plots showed a \r\nclear separation among the origins, with excellent model parameters \r\n(R2\r\nY = 0.994, Q2 = 0.874; R2Y = 0.989, Q2 = 0.934) in the two OPLS\u0002DA models. Moreover, permutation tests were carried out and concluded \r\nthat the models were not overfitting (Fig. 3B and E). These results \r\nstrongly indicated the OPLS-DA models were reliable and had a good \r\ndiscriminating ability. The VIP value quantified the importance of each \r\nmetabolite in the model. As shown in Fig. 3C, the top phenolic com\u0002pounds ranked of grapes from different origins were caftaric acid, cis\u0002piceid, malvidin-3-O-glucoside, gallocatechin, delphinidin-3-O-gluco\u0002side, etc. Caftaric acid had the highest concentration in WH but had the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 472,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "lowest concentration in WW. Both malvidin-3-O-glucoside and delphi\u0002nidin-3-O-glucoside had the highest concentration in WW but had the \r\nlowest concentration in WH and XY. The compounds associated with the \r\ngeographical origin classification of wine were carboxypyr\u0002anopetunidin-3-O-acetylglucoside, tyrosol, vanillic acid, myricetin\u0002Fig. 3. OPLS-DA score plots of grape (A) and wine (D) samples, OPLS-DA model permutation test plots of grape (B) and wine (E) samples, and VIP values of \r\ngrape (C). \r\nFig. 4. Heatmaps of differential metabolites of grape (A) and wine(B) samples from different origins. \r\nL. Zhang et al. \nFood Chemistry: X 22 (2024) 101396\r\n6\r\nglucuronide, coumaric acid (Fig. 3F). Tyrosol has the highest concen\u0002tration in WH but has the lowest concentration in XY. The concentration \r\nof vanillic acid was highest in QTX but was lowest in XY. In general, \r\nthese compounds in XY showed relatively lower concentrations, which \r\nindicated that the climate conditions in XY (high temperature, low \r\naltitude, and high rainfall) were closely related to grape secondary \r\nmetabolites such as flavonoids, anthocyanins, and phenolic acids \r\n(Martínez-Lüscher, Chen, Brillante, & Kurtural, 2017; Wang et al., \r\n2020). The composition of anthocyanins mainly determines the color of \r\ngrape or wine, and flavonols can contribute to the color of the wine \r\nthrough their pigmentation with anthocyanins (Wang et al., 2022). \r\n3.4. Selecting and analysis of candidate differential metabolites \r\nIn this study, pairwise OPLS-DA models were established among five \r\nregions for grape and wine samples, and then differential metabolites \r\nwere selected with the criteria of VIP value >1 and p-value <0.05 (Wang \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "et al., 2023; Zhang et al., 2021). Meanwhile, in order to unveil the di\u0002versity among the groups, the differential metabolites have been visu\u0002alized in the clustered heatmaps (Fig. 4). Four distinct clusters were \r\nclassified with unique features in grape samples (Fig. 4A). Overall, the \r\ncomponents in cluster 1 showed a greater proportion of stilbenes (e.g., \r\nresveratrol, piceid, and astringin) and hydroxycinnamic acids (e.g., \r\ncoumaric acid, ferulic acid, and caftaric acid), which displayed the \r\nhighest concentrations in XY. Cluster 2 was mainly composed of mal\u0002vidin derivatives with the highest concentration in WW. Cluster 3 was in \r\nthe highest proportion in flavonols (e.g., quercetin-glucuronide, \r\nkaempferol-glucuronide, and isorhamnetin-glucuronide) and showed \r\nthe highest concentrations in WH. Cluster 4 mainly contained malvidin \r\nand peonidin derivatives, which presented the highest concentration in \r\nCJ and QTX. For wine samples, the differential metabolites were divided \r\nto three clusters in the heatmap Fig. 4B. Cluster 1 was mainly comprised \r\nof malvidin derivatives with the highest concentration in WW. Cluster 2 \r\nincluded a larger proportion of flavonols and hydroxycinnamic acids, \r\nwith the highest concentration in WH. Cluster 3 mainly contained \r\nproanthocyanidins, cyanidin derivatives, and peonidin derivatives, \r\nwhich showed the highest concentration in CJ. The four origins of CJ, \r\nWH, QTX, and WW are in the arid areas of northwest China, with low \r\nrainfall and large temperature differences, but with sufficient sunlight \r\nand strong solar radiation; but the XY is located in the middle of the \r\nGuanzhong Basin, where rain and heat occur at the same time. The high \r\nconcentration of flavonols in WH was related to the strong solar radia\u0002tion. Grapes exposed to sunlight increased the biosynthesis of all \r\nflavonoid compounds, and ultraviolet (UV) radiation, especially UV-B, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "stimulated the biosynthesis of flavonols (Zoratti, Karppinen, Luengo \r\nEscobar, Haggman, ¨ & Jaakola, 2014). Studies have shown that light, \r\nwater deficit, and large temperature differences between day and night \r\ncan up-regulate the expression of genes related to flavonoid metabolism, \r\nthereby significantly increasing the content of flavonoids (Li, He, Wang, \r\nLi, & Pan, 2014). In addition, inorganic ions in soil are also beneficial for \r\nthe accumulation of flavonoids (Li et al., 2014; Reeve et al., 2005). \r\nRegardless of the mechanisms involved, environmental factors are \r\nthought to participate in the regulation of the content and composition \r\nof phenolic compounds in grape berries, thereby influencing the \r\ngeographical characteristics of wines. \r\n3.5. The relationship between phenolic metabolites and macroclimatic \r\nconditions \r\nCanonical correlation analysis (CCA) between macroclimatic pa\u0002rameters and individual phenolics of grapes and wines from five origins \r\nwas performed (Fig. 5). Some compounds were closely related to cli\u0002matic factors. Some anthocyanins and flavonols (cyanidin-3-O-gluco\u0002side, peonidin-3-O-glucoside, quercetin-3-O-glucoside, lsorhamnetin-3- \r\nO-glucoside, and quercetin-glucuronide) had a negative correlation with \r\nprecipitation, consistent with the results of Huang et al. (2022), which \r\nindicated precipitation exerted important effects on certain phenolics. In \r\nsome studies, the concentrations of some anthocyanins were signifi\u0002cantly enhanced in the rain shelter cultivated grapes compared with the \r\nopen field (Li et al., 2014). Malvidin-3-O-glucoside showed a positive \r\ncorrelation with mean high temperature (MHT), mean low temperature \r\n(MLT), and a negative correlation with atmospheric pressure (AP) in \r\nboth grape and wine samples. In addition, delphinidin-3-O-glucoside, \r\npeonidin-3-O-(6-acetyl)-glucoside, malvidin-3-O-(6-acetyl)-glucoside \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "also showed a significant positive correlation with MHT and MLT. \r\nStudies have reported that temperature is an important environmental \r\nfactor that affects anthocyanin biosynthesis, appropriate temperature \r\nand sufficient light can promote anthocyanin accumulation (Azuma, \r\nYakushiji, Koshita, & Kobayashi, 2012; de Oliveira et al., 2019). Relative \r\nhumidity (RH) had a negative correlation with most compounds, espe\u0002cially delphinidin-3-O-glucoside and quercetin-glucuronide, which \r\ncould be explained by the occurrence of grape diseases. Previous \r\nresearch has shown that humidity could promote the development of \r\ngrapevine diseases, including botrytis cinerea, anthracnose, powdery \r\nmildew, and black rot (Fedele, Brischetto, & Rossi, 2020; Li, Dos Santos, \r\nGao, Chang, & Wang, 2021; Onesti, Gonz´alez-Domínguez, & Rossi, \r\n2017). At the same time, temperature as another environmental condi\u0002tion also has a great impact on the spread of grape disease pathogens \r\n(Fedele et al., 2020). They can disrupt normal berry development and \r\nstress responses, thus inhibiting ripening pathways that influence sugar \r\nconcentration, phenolics and volatile compounds in the grape berry and \r\nwine (Pereira et al., 2021). \r\nFig. 5. CCA of grape (A) and wine (B) samples from different origins. MHD: mean high temperature; MLD: mean low temperature; RH: relative humidity; P: pre\u0002cipitation; AP: \r\nL. Zhang et al. \nFood Chemistry: X 22 (2024) 101396\r\n7\r\n3.6. Analysis of metabolic pathways of grapes from different origin \r\nIn order to elucidate the mechanisms of metabolic diversity in \r\ndifferent geographical origins, enrichment analysis was performed \r\nbased on the KEGG database (Fig. 6A). In grape berry, phenylpropanoid \r\nmetabolism and flavonoid metabolism are upstream steps in the \r\nbiosynthesis of anthocyanins, flavonols, and flavan-3-ol (Fig. 6B). For \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "example, dihydrokamepferol can flow to dihydroquercetin branch and \r\ndihydromyricetin branch (Castellarin, Matthews, Di Gaspero, & Gam\u0002betta, 2007). Cyanidin derivatives and delphinidin derivatives are \r\nrespectively synthesized from the dihydroquercetin branch and dihy\u0002dromyricetin branch (Ai, Wu, Battino, Bai, & Tian, 2021). In this study, \r\nWH exactly had the highest concentration of quercetin and cyanidin \r\nderivatives, while XY contained the highest concentration of myricetin \r\nand delphinidin derivatives. This phenomenon indicated that the \r\ndifferent terroir could promote carbon flow to the quercetin synthetic \r\nbranch or the myricetin synthetic branch. The vineyards in WH are \r\nlocated in a desert region at the altitudes of 1150 m asl, with an arid \r\nclimate, a big temperature difference between daytime and nighttime, \r\nand an annual rainfall of 100 mm. The quercetin branch was probably \r\nwith high activity in the flavonoid metabolism under that condition. XY \r\nis located at an altitude of about 300 m with a high temperature, semi\u0002humid climate, and an annual rainfall of about 900 mm. This terroir \r\ncondition might promote myricetin and delphinidin derivatives accu\u0002mulated at a higher level. In addition, catechin and cyanidin derivatives \r\nshare a series of steps from leucoanthocyanidin to cyanidin, which leads \r\nto a competitive mechanism between catechin and cyanidin derivatives \r\n(Li et al., 2011). The grapes from WH presented the highest level of the \r\ncyanidin derivatives and a low level of catechin, suggesting that more \r\ncarbon flowed to the cyanidin synthetic branch rather than the catechin \r\nsynthetic branch. \r\n4. Conclusion \r\nThis study investigated the metabolic differences of grapes and wines \r\nfrom five origins in China. A total of 94 anthocyanins and 78 non\u0002anthocyanin phenolic compounds were identified and quantitated by \r\nUHPLC-QqQ-MS/MS. Flavonols, stilbenes, hydroxycinnamic acids, and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "anthocyanin derivatives, including peonidin and malvidin were selected \r\nas candidate differential metabolites. Mean high temperature and mean \r\nlow temperature had a positive correlation with some phenolic com\u0002pounds, while precipitation, relative humidity, and atmospheric pres\u0002sure had a negative correlation with some anthocyanins and flavonols. \r\nThis study also elucidated the metabolic diversity in different \r\ngeographical origins mainly occurring in the flavonoid biosynthesis \r\npathway, enhancing the understanding of Chinese wine terroir, thus \r\nproviding a scientific basis for viticulture and winemaking with distinct \r\ngeographic characteristics. \r\nCRediT authorship contribution statement \r\nLin Zhang: Writing - original draft, Methodology, Data curation, \r\nConceptualization.Zhaoxiang Wang: Methodology, Formal analysis. \r\nCui Zhang: Writing – original draft, Funding acquisition, Methodology, \r\nData curation, Conceptualization. Shubo Zhou: Software. Chunlong \r\nYuan: Resources, Funding acquisition. \r\nDeclaration of competing interest \r\nThe author declares no competing financial interest. \r\nData availability \r\nData will be made available on request. \r\nAcknowledgments \r\nThis work was funded by the Ningxia National Key Research and \r\nDevelopment Program (No. 2021BEF02016), Xinjiang “Tianshan \r\nTalent-Outstanding Engineers” Training Plan (No. 2022TSYCGC0001), \r\nand the Shaanxi Province Agriculture Key Industry Innovation Chain \r\n(Group) (No. 2020ZDLNY05-05). \r\nAppendix A. Supplementary data \r\nSupplementary data to this article can be found online at https://doi. \r\norg/10.1016/j.fochx.2024.101396. \r\nFig. 6. Enrichment analysis of metabolic pathways (A) and the metabolic pathways related to flavonoids (B). \r\nL. Zhang et al. \nFood Chemistry: X 22 (2024) 101396\r\n8\r\nReferences \r\nAi, J., Wu, Q., Battino, M., Bai, W., & Tian, L. (2021). Using untargeted metabolomics to \r\nprofile the changes in roselle (Hibiscus sabdariffa L.) anthocyanins during wine \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "fermentation. Food Chemistry, 364, Article 130425. \r\nAlan˜on, ´ M. E., P´erez-Coello, M. S., & Marina, M. L. (2015). Wine science in the \r\nmetabolomics era. TrAC Trends in Analytical Chemistry, 74, 1–20. \r\nArapitsas, P., Ugliano, M., Marangon, M., Piombino, P., Rolle, L., Gerbi, V., Versari, A., & \r\nMattivi, F. (2020). Use of untargeted liquid chromatography–mass spectrometry \r\nmetabolome to discriminate italian monovarietal red wines, produced in their \r\ndifferent terroirs. Journal of Agricultural and Food Chemistry, 68(47), 13353–13366. \r\nAzuma, A., Yakushiji, H., Koshita, Y., & Kobayashi, S. (2012). Flavonoid biosynthesis\u0002related genes in grape skin are differentially regulated by temperature and light \r\nconditions. Planta, 236(4), 1067–1080. \r\nCastellarin, S. D., Matthews, M. A., Di Gaspero, G., & Gambetta, G. A. (2007). Water \r\ndeficits accelerate ripening and induce changes in gene expression regulating \r\nflavonoid biosynthesis in grape berries. Planta, 227(1), 101–112. \r\nCavanna, D., Righetti, L., Elliott, C., & Suman, M. (2018). The scientific challenges in \r\nmoving from targeted to non-targeted mass spectrometric methods for food fraud \r\nanalysis: A proposed validation workflow to bring about a harmonized approach. \r\nTrends in Food Science & Technology, 80, 223–241. \r\nCosta, E., da Silva, J. F., Cosme, F., & Jord˜ao, A. M. (2015). Adaptability of some French \r\nred grape varieties cultivated at two different Portuguese terroirs: Comparative \r\nanalysis with two Portuguese red grape varieties using physicochemical and \r\nphenolic parameters. Food Research International, 78, 302–312. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Crook, A. A., Zamora-Olivares, D., Bhinderwala, F., Woods, J., Winkler, M., Rivera, S., … \r\nPowers, R. (2021). Combination of two analytical techniques improves wine \r\nclassification by vineyard, region, and vintage. Food Chemistry, 354, Article 129531. \r\nDegu, A., Ayenew, B., Cramer, G. R., & Fait, A. (2016). Polyphenolic responses of \r\ngrapevine berries to light, temperature, oxidative stress, abscisic acid and jasmonic \r\nacid show specific developmental-dependent degrees of metabolic resilience to \r\nperturbation. Food Chemistry, 212, 828–836. \r\nEustice, C., McCole, D., & Rutty, M. (2019). The impact of different product messages on \r\nwine tourists’ willingness to pay: A non-hypothetical experiment. Tourism \r\nManagement, 72, 242–248. \r\nFedele, G., Brischetto, C., & Rossi, V. (2020). Biocontrol of Botrytis cinerea on grape \r\nberries as influenced by temperature and humidity. Frontiers in Plant Science, 11, \r\n1232. \r\nGuo, S.-H., Yang, B.-H., Wang, X.-W., Li, J.-N., Li, S., Yang, X., … Meng, J.-F. (2021). ABA \r\nsignaling plays a key role in regulated deficit irrigation-driven anthocyanins \r\naccumulation in ‘cabernet sauvignon’ grape berries. Environmental and Experimental \r\nBotany, 181, Article 104290. \r\nHu, Q., Zhang, J., Xing, R., Yu, N., & Chen, Y. (2022). Integration of lipidomics and \r\nmetabolomics for the authentication of camellia oil by ultra-performance liquid \r\nchromatography quadrupole time-of-flight mass spectrometry coupled with \r\nchemometrics. Food Chemistry, 373, Article 131534. \r\nHuang, R., Yu, H., Dong, C., Shen, L., Qin, Y., Liu, Y., … Song, Y. (2022). Correlations \r\nbetween microbial diversity, monomeric phenols, and biological parameters during \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "spontaneous fermentation of cabernet sauvignon grapes obtained from rain-shelter \r\ncultivation. LWT, 171, Article 114146. \r\nKumar, L., Tian, B., & Harrison, R. (2022). Interactions of Vitis vinifera L. cv. Pinot noir \r\ngrape anthocyanins with seed proanthocyanidins and their effect on wine color and \r\nphenolic composition. LWT, 162, Article 113428. \r\nKustos, M., Goodman, S., Jeffery, D. W., & Bastian, S. E. P. (2019). Using consumer \r\nopinion to define New World fine wine: Insights for hospitality. International Journal \r\nof Hospitality Management, 83, 180–189. \r\nLi, X.-X., He, F., Wang, J., Li, Z., & Pan, Q.-H. (2014). Simple rain-shelter cultivation \r\nprolongs accumulation period of anthocyanins in wine grape berries. Molecules, 19 \r\n(9), 14843–14861. \r\nLi, Z., Dos Santos, R. F., Gao, L., Chang, P., & Wang, X. (2021). Current status and future \r\nprospects of grapevine anthracnose caused by Elsinoe ampelina: An important \r\ndisease in humid grape-growing regions. Molecular Plant Pathology, 22(8), 899–910. \r\nLi, Z., Pan, Q., Jin, Z., Mu, L., & Duan, C. (2011). Comparison on phenolic compounds in \r\nVitis vinifera cv. Cabernet sauvignon wines from five wine-growing regions in China. \r\nFood Chemistry, 125(1), 77–83. \r\nLiang, N.-N., Zhu, B.-Q., Han, S., Wang, J.-H., Pan, Q.-H., Reeves, M. J., … He, F. (2014). \r\nRegional characteristics of anthocyanin and flavonol compounds from grapes of four \r\nVitis vinifera varieties in five wine regions of China. Food Research International, 64, \r\n264–274. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Lingua, M. S., Fabani, M. P., Wunderlin, D. A., & Baroni, M. V. (2016). From grape to \r\nwine: Changes in phenolic composition and its influence on antioxidant activity. \r\nFood Chemistry, 208, 228–238. \r\nLu, L., Chi, C. G.-Q., & Zou, R. (2019). Determinants of Chinese consumers’ organic wine \r\npurchase. International Journal of Contemporary Hospitality Management, 31(9), \r\n3761–3778. \r\nMartínez-Lüscher, J., Chen, C. C. L., Brillante, L., & Kurtural, S. K. (2017). Partial solar \r\nradiation exclusion with color shade nets reduces the degradation of organic acids \r\nand flavonoids of grape berry (Vitis vinifera L.). Journal of Agricultural and Food \r\nChemistry, 65(49), 10693–10702. \r\nMerkyte, ˙ V., Longo, E., Windisch, G., & Boselli, E. (2020). Phenolic compounds as \r\nmarkers of wine quality and authenticity. Foods, 9(12), 1785. \r\nMonagas, M., Bartolom´e, B., & Gomez-Cordov ´ ´es, C. (2005). Evolution of polyphenols in \r\nred wines from Vitis vinifera L. during aging in the bottle. European Food Research and \r\nTechnology, 220(3), 331–340. \r\nde Oliveira, J. B., Egipto, R., Laureano, O., de Castro, R., Pereira, G. E., & Ricardo-da\u0002Silva, J. M. (2019). Climate effects on physicochemical composition of Syrah grapes \r\nat low and high altitude sites from tropical grown regions of Brazil. Food Research \r\nInternational, 121, 870–879. \r\nOnesti, G., Gonz´alez-Domínguez, E., & Rossi, V. (2017). Production of Pycnidia and \r\nconidia by Guignardia bidwellii, the causal agent of grape black rot, as affected by \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "temperature and humidity. Phytopathology, 107(2), 173–183. \r\nPan, Y., Gu, H.-W., Lv, Y., Yin, X.-L., Chen, Y., Long, W., Fu, H., & She, Y. (2022). \r\nUntargeted metabolomic analysis of Chinese red wines for geographical origin \r\ntraceability by UPLC-QTOF-MS coupled with chemometrics. Food Chemistry, 394, \r\nArticle 133473. \r\nPastore, C., Dal Santo, S., Zenoni, S., Movahed, N., Allegro, G., Valentini, G., … \r\nTornielli, G. B. (2017). Whole plant temperature manipulation affects flavonoid \r\nmetabolism and the transcriptome of grapevine berries. Frontiers in Plant Science, 8. \r\nPereira, G. E., Padhi, E. M. T., Sudarshana, M. R., Fialho, F. B., Medina-Plaza, C., \r\nGirardello, R. C., … Oberholster, A. (2021). Impact of grapevine red blotch disease \r\non primary and secondary metabolites in ‘cabernet sauvignon’ grape tissues. Food \r\nChemistry, 342, Article 128312. \r\nP´erez-Navarro, J., Izquierdo-Canas, ˜ P. M., Mena-Morales, A., Martínez-Gascuena, ˜ J., \r\nChacon-Vozmediano, ´ J. L., García-Romero, E., … Gomez-Alonso, ´ S. (2019). Phenolic \r\ncompounds profile of different berry parts from novel Vitis vinifera L. red grape \r\ngenotypes and Tempranillo using HPLC-DAD-ESI-MS/MS: A varietal differentiation \r\ntool. Food Chemistry, 295, 350–360. \r\nReeve, J. R., Carpenter-Boggs, L., Reganold, J. P., York, A. L., McGourty, G., & \r\nMcCloskey, L. P. (2005). Soil and Winegrape quality in biodynamically and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "organically managed vineyards. American Journal of Enology and Viticulture, 56(4), \r\n367–376. \r\nRoyo, C., Ferrad´as, Y., Martínez-Zapater, J. M., & Motilva, M.-J. (2021). Characterization \r\nof Tempranillo negro (VN21), a high phenolic content grapevine Tempranillo clone, \r\nthrough UHPLC-QqQ-MS/MS polyphenol profiling. Food Chemistry, 360, Article \r\n130049. \r\nSherman, E., Coe, M., Grose, C., Martin, D., & Greenwood, D. R. (2020). Metabolomics \r\napproach to assess the relative contributions of the volatile and non-volatile \r\ncomposition to expert quality ratings of pinot noir wine quality. Journal of \r\nAgricultural and Food Chemistry, 68(47), 13380–13396. \r\nSlaghenaufi, D., Guardini, S., Tedeschi, R., & Ugliano, M. (2019). Volatile terpenoids, \r\nnorisoprenoids and benzenoids as markers of fine scale vineyard segmentation for \r\nCorvina grapes and wines. Food Research International, 125, Article 108507. \r\nValentin, L., Barroso, L. P., Barbosa, R. M., de Paulo, G. A., & Castro, I. A. (2020). \r\nChemical typicality of south American red wines classified according to their volatile \r\nand phenolic compounds using multivariate analysis. Food Chemistry, 302, Article \r\n125340. \r\nWang, Y., Li, H.-Q., Gao, X.-T., Lu, H.-C., Peng, W.-T., Chen, W., … Wang, J. (2020). \r\nInfluence of attenuated reflected solar radiation from the vineyard floor on volatile \r\ncompounds in cabernet sauvignon grapes and wines of the north foot of Mt. \r\nTianshan. Food Research International, 137, Article 109688. \r\nWang, Z., Chen, X., Liu, Q., Zhang, L., Liu, S., Su, Y., Ren, Y., & Yuan, C. (2023). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Untargeted metabolomics analysis based on LC-IM-QTOF-MS for discriminating \r\ngeographical origin and vintage of Chinese red wine. Food Research International, \r\n165, Article 112547. \r\nWang, Z., Yin, H., Yang, N., Cao, J., Wang, J., Wang, X., & Xi, Z. (2022). Effect of \r\nvineyard row orientation on microclimate, phenolic compounds, individual \r\nanthocyanins, and free volatile compounds of cabernet sauvignon (Vitis vinifera L.) in \r\na high-altitude arid valley. European Food Research and Technology, 248(5), \r\n1365–1378. \r\nWei, R., Ding, Y., Chen, N., Wang, L., Gao, F., Zhang, L., … Wang, H. (2022). Diversity \r\nand dynamics of microbial communities during spontaneous fermentation of \r\ncabernet sauvignon (Vitis vinifera L.) from different regions of China and their \r\nrelationship with the volatile components in the wine. Food Research International, \r\n156, Article 111372. \r\nWei, R., Wang, L., Ding, Y., Zhang, L., Gao, F., Chen, N., … Wang, H. (2022). Natural and \r\nsustainable wine: A review. Critical Reviews in Food Science and Nutrition, 63(26), \r\n8249–8260. \r\nWohlgemuth, G. (2008). Metabolomics: Wine-omics. Nature, 455(7213), 699. https:// \r\ndoi.org/10.1038/455699a \r\nYue, X., Ma, X., Tang, Y., Wang, Y., Wu, B., Jiao, X., … Ju, Y. (2020). Effect of cluster \r\nzone leaf removal on monoterpene profiles of sauvignon blanc grapes and wines. \r\nFood Research International, 131, Article 109028. \r\nZhang, L., Liu, Q., Li, Y., Liu, S., Tu, Q., & Yuan, C. (2023). Characterization of wine \r\nvolatile compounds from different regions and varieties by HS-SPME/GC-MS \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1150806122949550605,
+        "filename": "main.PMC11063387.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 344,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "coupled with chemometrics. Current Research in Food Science, 6, Article 100418. \r\nZhang, X.-K., Lan, Y.-B., Huang, Y., Zhao, X., & Duan, C.-Q. (2021). Targeted \r\nmetabolomics of anthocyanin derivatives during prolonged wine aging: Evolution, \r\ncolor contribution and aging prediction. Food Chemistry, 339, Article 127795. \r\nZhang, X.-K., Li, S.-Y., Zhao, X., Pan, Q.-H., Shi, Y., & Duan, C.-Q. (2020). HPLC-MS/MS\u0002based targeted metabolomic method for profiling of malvidin derivatives in dry red \r\nwines. Food Research International, 134, Article 109226. \r\nZhao, B.-Y., Zhang, X.-K., Lan, Y.-B., Duan, C.-Q., Zhu, B.-Q., & Li, D.-M. (2023). Sub\u0002regional variation and characteristics of cabernet sauvignon wines in the eastern \r\nfoothills of the Helan Mountain: A perspective from Phenolics Visual Properties and \r\nMouthfeel. Foods, 12(5), 1081. \r\nZoratti, L., Karppinen, K., Luengo Escobar, A., H¨aggman, H., & Jaakola, L. (2014). Light\u0002controlled flavonoid biosynthesis in fruits. Frontiers in Plant Science, 5, 534. \r\nL. Zhang et al. \n\n"
+  }
+]

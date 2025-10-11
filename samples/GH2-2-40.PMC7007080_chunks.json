@@ -1,0 +1,890 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Half-Century Ammonia Emissions From Agricultural Systems\r\nin Southern Asia: Magnitude, Spatiotemporal Patterns,\r\nand Implications for Human Health\r\nR. T. Xu1, S. F. Pan1 , J. Chen2,1, G. S. Chen1, J. Yang1 , S. R. S. Dangal1 , J. P. Shepard1,\r\nand H. Q. Tian1,3\r\n1\r\nInternational Center for Climate and Global Change Research and School of Forestry and Wildlife Sciences, Auburn\r\nUniversity, Auburn, AL, USA, 2\r\nDepartment of Computer Science and Software Engineering, Samuel Ginn College of\r\nEngineering, Auburn University, Auburn, AL, USA, 3\r\nState Key Laboratory of Urban and Regional Ecology, Research Center for\r\nEco-Environmental Sciences, Chinese Academy of Sciences, Beijing, China\r\nAbstract Much concern has been raised about the increasing threat to air quality and human health due\r\nto ammonia (NH3) emissions from agricultural systems, which is associated with the enrichment of reactive\r\nnitrogen (N) in southern Asia (SA), home of more than 60% the world’s population (i.e., the people of West,\r\ncentral, East, South, and Southeast Asia). Southern Asia consumed more than half of the global synthetic N\r\nfertilizer and was the dominant region for livestock waste production since 2004. Excessive N application\r\ncould lead to a rapid increase of NH3 in the atmosphere, resulting in severe air and water pollution in this\r\nregion. However, there is still a lack of accurate estimates of NH3 emissions from agricultural systems. In this\r\nstudy, we simulated the agricultural NH3 fluxes in SA by coupling the Bidirectional NH3 exchange module\r\n(Bi-NH3) from the Community Multi-scale Air Quality model with the Dynamic Land Ecosystem Model. Our\r\nresults indicated that NH3 emissions were 21.3 ± 3.9 Tg N yr\u00011 from SA agricultural systems with a rapidly\r\nincreasing rate of ~0.3 Tg N yr\u00012 during 1961\u00012014. Among the emission sources, 10.8 Tg N yr\u00011 was\r\nreleased from synthetic N fertilizer use, and 10.4 ± 3.9 Tg N yr\u00011 was released from manure production in\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "2014. Ammonia emissions from China and India together accounted for 64% of the total amount in SA during\r\n2000\u00012014. Our results imply that the increased NH3 emissions associated with high N inputs to croplands\r\nwould likely be a significant threat to the environment and human health unless mitigation efforts are\r\napplied to reduce these emissions.\r\nPlain Language Summary Farming practices in southern Asia (SA), including synthetic fertilizer\r\nand manure application, have resulted in the emission of tremendous amounts of ammonia, an\r\natmospheric constituent that has been linked to human respiratory and cardiovascular ailments and also to\r\natmospheric haze. Ammonia emission is expected to increase due to population growth and increased\r\ndemand for animal products. Ammonia emission is a critically important environmental issue that needs to\r\nbe addressed collaboratively by farmers and policymakers in the SA region.\r\n1. Introduction\r\nAnthropogenic perturbation of the global nitrogen (N) cycle has contributed approximately two thirds of the\r\nannual flux of reactive N (Nr) into the atmosphere in the early 21st century (Fowler et al., 2015; Galloway et al.,\r\n2004). This substantial enrichment of Nr is mainly caused by combustion, industrial ammonia (NH3) produc\u0002tion (by the Haber-Bosch process), and leguminous crop cultivation (Erisman et al., 2008; Fowler et al., 2015).\r\nAmmonia, as one of the major forms of Nr loss from agricultural soils, has produced adverse impacts on the\r\nenvironment and human health. High N fertilizer use and production of livestock wastes have resulted in a\r\nsubstantial increment of NH3 in the atmosphere (Sutton et al., 2014; Yan et al., 2003). Ammonia is one of\r\nthe key precursors for aerosol formation in the atmosphere and has caused severe air pollution in East and\r\nSouth Asia, which could have adverse effects on human respiratory and cardiovascular systems and might\r\ncontribute to visibility reduction and regional haze (Pinder et al., 2007; Seinfeld & Pandis, 1998). For example,\r\nthe NH3-induced secondary inorganic aerosol was found as a main contributing factor to haze days in China\r\n(Fu et al., 2015). Due to the significant increase of NH3 in the atmosphere, more ammonium (NH4\r\n+\r\n) is returned\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "to terrestrial and aquatic ecosystems through dry and wet deposition, introducing excessive amount of\r\nNr into natural ecosystems, which has resulted in the perturbation of the global N and carbon cycles\r\nXU ET AL. 40\r\nPUBLICATIONS\r\nGeoHealth\r\nRESEARCH ARTICLE\r\n10.1002/2017GH000098\r\nKey Points:\r\n• Ammonia emissions from nitrogen\r\nfertilizer use and livestock excreta\r\nincreased fourfold in southern Asia\r\n(SA) during 1961–2014\r\n• China and India together contributed\r\nabout two thirds of total ammonia\r\nemissions from agricultural activities\r\nin SA between 2000 and 2014\r\n• Summer season accounted for ~60%,\r\nwhile winter season accounted for\r\n~6% of the annual total ammonia\r\nemissions in SA during 2000–2014\r\nSupporting Information:\r\n• Supporting Information S1\r\nCorrespondence to:\r\nH. Q. Tian,\r\ntianhan@auburn.edu\r\nCitation:\r\nXu, R. T., Pan, S. F., Chen, J., Chen, G. S.,\r\nYang, J., Dangal, S. R. S., … Tian, H. Q.\r\n(2018). Half-century ammonia emissions\r\nfrom agricultural systems in southern\r\nAsia: Magnitude, spatiotemporal\r\npatterns and implications for human\r\nhealth. GeoHealth, 2, 40–53. https://doi.\r\norg/10.1002/2017GH000098\r\nReceived 24 JUL 2017\r\nAccepted 9 DEC 2017\r\nAccepted article online 21 DEC 2017\r\nPublished online 26 JAN 2018\r\n©2017. The Authors.\r\nThis is an open access article under the\r\nterms of the Creative Commons\r\nAttribution-NonCommercial-NoDerivs\r\nLicense, which permits use and distri\u0002bution in any medium, provided the\r\noriginal work is properly cited, the use is\r\nnon-commercial and no modifications\r\nor adaptations are made.\r\nThis article was corrected on 15 JUL\r\n2019. The online version of this article\r\nhas been modified to include a Conflict\r\nof Interest statement.\n(Lü & Tian, 2007; Tian et al., 2003). To better assess the potential impact of NH3 emissions on human health\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "and the environment, it is critical to have robust estimates of the spatial and temporal patterns of NH3 emis\u0002sions from agricultural activities in the southern Asia (SA), home of more than 60% the world’s population\r\n(i.e., the people of West, central, East, South, and Southeast Asia) (Food and Agriculture Organization of\r\nthe United Nations, 2016).\r\nThe southern Asia region has experienced rapid expansion of agricultural activities (Liu & Tian, 2010; Tian\r\net al., 2014) and has become a hotspot for studies of N-related gas emissions (Tian et al., 2016). The Haber\u0002Bosch process produced approximately 109 Tg N fertilizer per year globally in 2014, of which more than\r\n50% was consumed in Asia since 2004 (FAOSTAT, 2016). Nitrogen fertilizer is applied to agricultural systems\r\nto increase crop yield to meet the rising demand for food. In addition, higher demand for livestock products\r\nhas stimulated the rapid growth of livestock production in the past century (Dangal et al., 2017; L. Bouwman\r\net al., 2013). Meat consumption in major countries of Asia has grown substantially since 1990 and this trend is\r\nexpected to continue (Organisation for Economic Co-operation and Development/Food and Agriculture\r\nOrganization, 2016). Consequently, annual livestock waste production has increased substantially and\r\nreached approximately 44.3 ± 0.7 Tg N in the 2010s (Zhang et al., 2017). Increases in both N fertilizer use\r\nand livestock excreta have resulted in increased NH3 emissions, but the magnitude and spatiotemporal pat\u0002tern of NH3 emissions from the agricultural sector in SA countries have not been thoroughly investigated.\r\nEstimating NH3 volatilization from N fertilizer application and livestock excreta has been a research topic of\r\ncontinuous interest for atmospheric and environmental scientists. Previous studies have used numerous\r\napproaches to achieve this research goal. The most common methodology to estimate NH3 emissions was\r\nbased on emission factors (EFs). Zhao and Wang (1994) generated an inventory of NH3 emissions using\r\nsource-based EFs with considerations of various emission sources from livestock, energy consumption, and\r\nN fertilizer use in Asia. Using two constant EFs in upland and rice paddy soils, Zheng et al. (2002) found that\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "the amount of NH3 volatilization was 13.8 Tg N yr\u00011 in 2000 and is expected to approach ~18.9 Tg N yr\u00011 in\r\n2030 in Asia, mainly from increased anthropogenic Nr. Streets et al. (2003) developed an emission inventory\r\nfor Asia in 2000 using source-based EFs and provided emission estimates for each country in the region. In\r\ntheir study, NH3 emission was estimated to be 27.5 Tg N yr\u00011 from all major anthropogenic sources in\r\nAsia, among which 45% and 38% were from fertilizer application and animal productions, respectively.\r\nLater, Kurokawa et al. (2013) updated the regional emission inventory using country/subregional-source\u0002based EFs. They estimated NH3 emissions to be 32.8 Tg N yr\u00011 in 2008, of which 57% was from fertilizer\r\napplication, and 20% was from manure management.\r\nA constant EF might not provide an accurate measure of NH3 volatilization and its variability in relation to\r\ncrops growth or N fertilizer application practices because the conversion of Nr to NH3 involves several biolo\u0002gical and chemical processes that are strongly sensitive to environmental conditions (Fowler et al., 2015;\r\nSutton et al., 2014). For example, Gilliland et al. (2003) indicated that static emission factors are inadequate\r\nto reflect seasonal variability in NH3 emissions. Fu et al. (2015) pointed out that environmental factors could\r\nstrongly affect the NH3 volatilization from N fertilizer application. Process-based modeling could therefore\r\naddress this deficiency by considering climatic variables that are not explicitly considered in the EF approach\r\n(Fu et al., 2015; Sutton et al., 2014). The single-layer version of the bidirectional NH3 exchange model (Bi-NH3)\r\nwas developed in the late 1990s, and only simulated gas exchange processes occurring on leaf surface\r\n(Sutton et al., 1995). Later, a two-layer model was developed by also considering NH3 exchange between\r\nthe soil surface and the atmosphere (Nemitz et al., 2001). Currently, the two-layer Bi-NH3 model is capable\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "of simulating NH3 emissions caused by N fertilizer application in agricultural systems under various environ\u0002mental conditions (Sutton et al., 2014). Further, the Bi-NH3 model has been fully coupled with various\r\necosystem/agricultural models to simulate NH3 emissions at the global, regional, and country scale (Bash\r\net al., 2013; Fu et al., 2015; Riddick et al., 2016). For example, the Bi-NH3 module in the Community Multi-scale\r\nAir Quality model (CMAQ, Foley et al., 2010) was coupled with the United States Department of Agriculture’s\r\nEnvironmental Policy Integrated Climate (EPIC) agroecosystem model (Bash et al., 2013; Massad et al., 2010;\r\nNemitz et al., 2000) to simulate NH3 emissions from N fertilizer application in the United States and China. The\r\nsimulated results showed that the Bi-NH3 module can be applied to other regions and even at the global\r\nscale. However, previous studies using the CMAQ-EPIC approach have provided only 1 year estimates of\r\nNH3 emissions.\r\nGeoHealth 10.1002/2017GH000098\r\nXU ET AL. 41\nNo previous study has specifically assessed NH3 fluxes on a decadal scale and captured the influence of\r\nreactive N sources (synthetic N fertilizer and manure) on regional NH3 emissions. In this study, we have\r\nincorporated the Bi-NH3 module into the process-based Dynamic Land Ecosystem Model (DLEM version\r\n2.0) to estimate NH3 emission from agricultural systems in SA. Our research objectives are to (1) quantify\r\nthe magnitude of NH3 emissions during the 1961\u00012014 period at the country level and across the SA\r\nsubcontinent, (2) investigate spatial and temporal variations in NH3 emissions from agricultural ecosys\u0002tems during that period, (3) quantify the relative contribution of synthetic N fertilizer use and manure\r\napplication on NH3 emissions, and (4) discuss potential threats of increasing NH3 emissions to air quality\r\nand human health.\r\n2. Material and Method\r\n2.1. The DLEM Framework for Simulating NH3 Fluxes\r\n2.1.1. Overall N Flow Processes in DLEM\r\nThe DLEM is a highly integrated process-based ecosystem model that makes daily, spatially-explicit estimates\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "of carbon, nitrogen, and water fluxes within both natural and human-dominated ecosystems (Pan et al., 2015;\r\nTian et al., 2011). There are five key components in the DLEM: biophysical characteristics, plant physiological\r\nprocesses, biogeochemical cycles, vegetation dynamics, and land use. A detailed description of these pro\u0002cesses can be found in Tian et al. (2010). The DLEM is capable of simulating the impacts of environmental\r\nchanges (e.g., land use, climate, N deposition, atmospheric CO2, N fertilizer use, and manure application)\r\non the full N cycling processes (e.g., volatilization, mineralization, immobilization, denitrification, nitrification,\r\nN leaching, and N export and uptake), and N fluxes (e.g., NH3, NO, N2O, and N2) between terrestrial ecosys\u0002tems and the atmosphere (Lu & Tian, 2013; Ren et al., 2011, 2012; Tian et al., 2010, 2011, 2012; Xu et al.,\r\n2012, 2017). The algorithms for NH3 emissions in the previous version of DLEM can only simulate the\r\nunidirectional release of NH3 from soils to the atmosphere but are unable to simulate canopy uptake and\r\ntransport. Therefore, coupling the CMAQ Bi-NH3 module with DLEM can greatly improve the simulation\r\nefficiency of NH3 processes.\r\n2.1.2. NH3 Fluxes in the DLEM-Bi-NH3\r\nAmmonia production is from the transformation of organic compounds and various sources of N inputs. The\r\nammonium (NH4\r\n+\r\n,gNm\u00012) dynamics in soils:\r\nNH4\r\nþ ¼ NH4þ\r\nsoi þ NH4\r\nþ\r\ninput (1)\r\nwhere NH4\r\n+\r\nsoil (g N m\u00012\r\n) is the soil NH4\r\n+ pool involved in biogeochemical processes, NH4+\r\ninput (g N m\u00012\r\n)\r\nis the input of NH4\r\n+ from N deposition from the atmosphere, N fertilizer application by human, and crop N\r\nfixation (Figure 1).\r\nIn the DLEM, NH4\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "+ inputs into soils experience the following: NH3 volatilization, plant uptake, nitrification, or\r\nN leaching, resulting in variable amounts of NH4\r\n+ over time. Soil NH4+ decreases because of soil immobiliza\u0002tion, nitrification, organic, and inorganic N leaching and runoff, while NH4\r\n+ increases due to soil mineraliza\u0002tion, crop N fixation, N deposition, and fertilizer/manure N application (Figure 1). These processes are\r\nregulated by environmental factors (e.g., soil temperature, moisture, and pH) and vegetation (e.g., crop type\r\nand NH4\r\n+ uptake).\r\nThe emission of NH3 is calculated as follows:\r\nFemis ¼ Cc=ð Þ Ra þ 0:5 Rinc (2)\r\nwhere Cc is the canopy NH3 compensation point, calculated in equation (3), Ra is the aerodynamic resistance,\r\nand Rinc is the aerodynamic resistance within the canopy. The unit of NH3 fluxes is μg m\u00013 s\r\n\u00011\r\n; the unit of all\r\ncompensation points is μg m\u00013\r\n; the unit of all the above resistances is s m\u00011.\r\nCc ¼\r\nCst\r\nRbþRst þ Cg0:5RincþRbgþRsoil\r\nð Þ Ra þ 0:5Rinc \u00011 þ ð Þ Rb þ Rst \u00011 þ ð Þ Rb þ Rw \u00011 þ 0:5Rinc þ Rbg þ Rsoil \u0001 \u0003\u00011 (3)\r\nwhere Rb is the quasi-laminar boundary layer resistance at the leaf surface, Rst is the stomatal resistance, Rbg is\r\nthe quasi-laminar boundary layer resistance at the ground surface, Rw is the cuticular resistance, Rsoil is the\r\nresistance to diffusion through the soil layer (Cooter et al., 2012; Sakaguchi & Zeng, 2009).\r\nGeoHealth 10.1002/2017GH000098\r\nXU ET AL. 42\nThe soil emission potential of NH3 is regulated by the ratio of NH4\r\n+ concentration ([NH4+\r\n]) to H+ concentra\u0002tion ([H+\r\n]), which is defined as\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Γg ¼ Nfer=ð Þ θsMNdl\r\n10\u0001pH (4)\r\nwhere Nfer is the fertilizer application rate (g N m\u00012), dl is the depth of soil layer (m), pH is the pH of the soil\r\nwater solution, MN is the molar mass of N (14 g mol\u00011\r\n), and θs is the soil volumetric water content in m3 m\u00013.\r\nThe ground layer (Cg) compensation points are defined as follows:\r\nCg ¼ Mn=Vm\r\n161500\r\nTs\r\ne \u000110380\r\nTs ð ÞΓg (5)\r\nwhere Mn = 1.7 × 107 μg mol\u00011\r\n, Vm = 1 × 10\u00013 (convert L to m3), and Ts is soil temperature in K.\r\nThe stomatal compensation points are defined as follows:\r\nCst ¼ Mn=Vm\r\n161500\r\nTcan\r\ne \u000110380\r\nTcan ð ÞΓs (6)\r\nwhere Tcan is the canopy temperature in K, Γs is the ratio of [NH4\r\n+\r\n] to [H+] in the apoplast. To execute this\r\nmodule on a large scale, all resistances (Ra, Rb, Rinc, Rbg, Rst, Rsoil, and Rw) and Γs were parameterized according\r\nto Massad et al. (2010).\r\n2.2. NH3 Emission From Livestock Excreta\r\nEmission factors for estimating NH3 emissions from livestock excreta were adopted from previous studies. A.\r\nBouwman et al. (2002) provided a median value of EF (23%) to estimate the global NH3 loss from animal man\u0002ure. The range of EF in A. Bouwman et al. (2002) was 19\u000129%. Based on the work by Beusen et al. (2008),\r\nRiddick et al. (2016) applied a revised EF (17%) to estimate NH3 emissions from animal manure. In this study,\r\nwe adopted the minimum EF (17%) from Riddick et al. (2016) and the maximum EF (29%) from A. Bouwman\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Figure 1. The framework of N biogeochemical processes and fluxes in the DLEM-Bi-NH3. Ra, Rsoil, and Rw: aerodynamic,\r\nsoil, and cuticular resistance; Rb: the quasi-laminar boundary layer resistance; Rbg: the soil boundary layer resistance; Rst:\r\nstomatal resistance; Rinc: the aerodynamic resistance within the canopy; Ca: the atmospheric NH3 concentration; Cc, Cg,\r\nand Cst: canopy, ground, and stomatal layer compensation point.\r\nGeoHealth 10.1002/2017GH000098\r\nXU ET AL. 43\net al. (2002). Then, we calculated the mean value (23%), the same as\r\nthe median value in A. Bouwman et al. (2002), to estimate NH3 loss from\r\nlivestock excreta. The uncertainty range of EFs is 17\u000129%.\r\n2.3. Input Data and Simulation Setup\r\nThe input data sets for the DLEM-Bi-NH3 simulation included gridded\u0002crop fraction data, dynamic crop distribution maps, topography and soil\r\nproperties, climate data, carbon dioxide (CO2) concentration, and N fer\u0002tilizer application. The procedure for developing time series data of crop\r\ndistribution maps was described in detail by Ren et al. (2012). Cropland\r\ndistribution data sets were developed by aggregating the 5 arc min\r\nresolution History Database of the Global Environment (HYDE v3.2)\r\nglobal cropland distribution data (Klein Goldewijk et al., 2017). Half\u0002degree daily climate data (including average, maximum, and minimum\r\nair temperature; precipitation; relative humidity; and shortwave radia\u0002tion) were derived from Climatic Research Unit-National Centers for\r\nEnvironmental Prediction climate forcing data (Viovy, 2014). The monthly CO2 concentration data set was\r\nobtained from NOAA GLOBALVIEW-CO2 data set derived from atmospheric measurements. Spatially-explicit\r\ntime series data set of agricultural N fertilizer use was developed through spatializing International Fertilizer\r\nIndustry Association (IFA)-based country-level N fertilizer consumption data according to crop-specific N fer\u0002tilizer application rates, distribution of crop types, and historical cropland distribution during the 1961\u00012013\r\nperiod (Lu & Tian, 2017). All mentioned data sets were applied to drive model simulations during the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "1961\u00012014 period and estimate NH3 emissions from N fertilizer application in SA agricultural systems.\r\nThe manure production data set was derived from Food and Agriculture Organization of the United Nations\r\nstatistics website (FAO, http://faostat.fao.org) and defaulted for N excretion rate as described in the\r\nIntergovernmental Panel on Climate Change (IPCC) 2006 Guidelines Tier1 (Zhang et al., 2017). We used the\r\ngridded manure production data set to estimate NH3 emissions from livestock excreta during 1961\u00012014.\r\n3. Results\r\n3.1. Contemporary and Historical Patterns of NH3 Emissions\r\nIn this study, we estimated NH3 emissions from N fertilizer application and livestock excreta in SA between\r\n2000 and 2014. Our results indicated that the mean NH3 emission was 19.1 ± 3.5 Tg N yr\u00011\r\n. Ammonia emis\u0002sions from N fertilizer application and livestock excreta were 9.7 and 9.4 ± 3.5 Tg N yr\u00011\r\n, respectively, during\r\nthat period.\r\nIn SA, our results indicated that NH3 emissions were 21.3 ± 3.9 Tg N yr\u00011 in 2014 with a rapidly increasing\r\nrate of ~0.3 Tg N yr\u00012 during 1961\u00012014 (Figure 2). Nitrogen fertilizer application increased from 2.6 to\r\n71 Tg N yr\u00011 at a rate of ~1.4 Tg N yr\u00012 during 1961\u00012013.\r\nConsequently, NH3 emissions from synthetic N fertilizer increased\r\nfrom 0.4 to 10.8 Tg N yr\u00011 in SA. Livestock excreta increased from\r\n19 to 45 Tg N yr\u00011 at a rate of ~0.5 Tg N yr\u00012 during 1961\u00012014.\r\nThe NH3 emission from manure increased from 4.3 ± 1.6 to\r\n10.4 ± 3.9 Tg N yr\u00011 in SA.\r\nAmmonia emissions from N fertilizer application during 2000\u00012014\r\nshowed a substantial seasonal variation (Figure 3), which was highly\r\ncorrelated with monthly emission variations. On average, the summer\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "season accounted for 59.8%, while the winter season accounted for\r\n5.6% of annual total emissions. The highest amount of NH3 emission\r\nwas in July, followed by June and August (Figure 3). The lowest\r\namount of NH3 emission was found in January. Spring and autumn\r\naccounted for 22.5% and 12% of annual total emissions, respectively.\r\nBoth seasons had an increase of NH3 emissions during 2010\u00012014\r\nFigure 2. Annual NH3 emissions from N fertilizer application and manure\r\nproduction in southern Asia during the period 1961\u00012014.\r\nFigure 3. Seasonal variation in NH3 emissions from N fertilizer application in\r\nsouthern Asia during the periods 2000\u00012004, 2005\u00012009, and 2010\u00012014.\r\nGeoHealth 10.1002/2017GH000098\r\nXU ET AL. 44\ncompared with emissions during 2000\u00012004, but with different magnitudes. In comparison to the\r\n2000\u00012004 period, summer emission grew substantially during 2010\u00012014. The increase in emission\r\nbetween these two periods was of a lesser magnitude when one considers the spring and autumn\r\nmonths (Figure 3).\r\n3.2. Spatial Pattern of NH3 Emissions\r\nAmmonia emissions from croplands varied significantly across the SA region during the past half century\r\n(Figure 4). In this study, SA was divided into five regions: Southeast, East, South, West, and central Asia. As\r\nshown in Figure 5, East and South Asia were two regions exhibiting the largest emissions and experiencing\r\nthe most rapid increase in NH3 emissions.\r\nFigure 4. The spatial distribution of annual NH3 emissions from N fertilizer application in southern Asia.\r\nGeoHealth 10.1002/2017GH000098\r\nXU ET AL. 45\nIn 1961, as a small amount of N fertilizer was applied to croplands in East Asia (e.g., China, South Korea, and\r\nJapan), NH3 emissions were concentrated in the north and northeast regions of China, but uniform across\r\nJapan and South Korea. A substantial amount of N fertilizer was applied in East and South Asia since the\r\n1980s. There was a clear trend of increased NH3 emissions in most grids of Pakistan and India especially in\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "the northern regions, and China, especially in the North China Plain during 1980\u00012000. After 2000, more\r\nintense NH3 emissions entirely covered India and a majority of arable land in China. A significant increase\r\nof NH3 emissions was detected in West Asia especially in Turkey and western Iran, and Southeast Asia espe\u0002cially in Thailand during 1961\u00012014.\r\nIn the 1960s, East Asia emitted more than 50% of the SA’s total emissions, while South Asia accounted\r\napproximately for 25%. However, a faster rate of NH3 emission increases was found in South Asia during\r\nthe past half century. During 2010\u00012014, South Asia accounted for more than 40% of the total emission.\r\nIn Southeast Asia, NH3 emissions increased from 35 Gg N yr\u00011 to 1.3 Tg N yr\u00011 during 1961\u00012014\r\n(1 Gg = 10\u00013 Tg). Compared to South and East Asia, there was a slight increase in NH3 emission in Central\r\nand West Asia during the observation period (1961\u00012014). NH3 emissions increased sharply from\r\n25 Gg N yr\u00011 to 0.4 Tg N yr\u00011 in West Asia during the 1961\u00012000 period, but only moderately during the last\r\ndecade (2001\u00012014). In central Asia, NH3 emission was estimated to be 0.2 Tg N yr\u00011 in 2014, which was\r\napproximately sevenfold higher than the emission amount in 1961 (Figure 5).\r\nSimilar to N fertilizer-induced NH3 emissions, South and East Asia were two dominant regions that accounted\r\nfor more than 50% of the total NH3 emission from manure during 1961\u00012014. Ammonia emission from\r\nSouth Asia grew from 1.2 to 2.12 Tg N yr\u00011\r\n, while emission from East Asia increased from 1.4 to\r\n4.0 Tg N yr\u00011 during that period (Figure 5). West Asia was the third largest source of manure-induced NH3\r\nemission and showed an increasing trend (Figure 5). A moderate trend of increased NH3 emission was found\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "in Southeast Asia. There was no significant increase in manure-related NH3 emission in central Asia, a subre\u0002gion that contributed to less than 10% of the total emission from manure in SA.\r\n3.3. NH3 Emissions From Major Countries\r\nEleven countries from SA (Table 1) contributed to ~65% of global total N application. China and India\r\ntogether contributed ~77% of total N application among these 11 countries, as shown in Table 1. In\r\nFigure 5. Decadal NH3 emissions in different regions of southern Asia. Emission (y axis of each graph) is reported\r\nin Tg N yr\u00011\r\n.\r\nGeoHealth 10.1002/2017GH000098\r\nXU ET AL. 46\nconsequence, ~75% of total NH3 emissions were from both countries during 2000\u00012014. Ammonia\r\nemissions from Chinese croplands increased from 0.2 in 1961 to 4.5 Tg N yr\u00011 in 2014. Similarly, in India,\r\nNH3 emission rose from 60 Gg N yr\u00011 in 1961 to 3.3 Tg N yr\u00011 in 2014. Compared to China and India, the\r\nremaining countries contributed less than 25% of total N application, among which Pakistan had the highest\r\nN application and NH3 emission. Turkey, Vietnam, Bangladesh, Thailand, and Iran showed similar total\r\namounts of N fertilizer application; however, Turkey and Iran showed much less NH3 emissions compared\r\nto the South and Southeast Asian countries noted above.\r\nWe identified 11 countries that showed large manure production amounts during 1961\u00012014 (Table 1).\r\nChina and India were the two top producing countries and accounted for approximately 67% of the total\r\nmanure production during 2000\u00012014. Ammonia emissions from Chinese livestock wastes increased from\r\n1.0 ± 0.4 in 1961 to 4.1 ± 1.5 Tg N yr\u00011 in 2014. In contrast, NH3 emissions did not show a rapid increase in\r\nIndia. In the remaining countries, Pakistan produced the highest amount of manure, followed by Turkey\r\nand Iran. West Asian countries (Turkey, Iran, Syria, and Jordan) and Southeast Asian countries (Indonesia,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Vietnam, and Myanmar) were identified as hotspots for NH3 emissions from manure.\r\n4. Discussion\r\n4.1. The Importance of Asia’s Contribution to Global NH3 Emissions\r\nPrevious studies have presented global estimates of NH3 emissions from agricultural systems (Beusen et al.,\r\n2008; Bouwman et al., 1997; Dentener & Crutzen, 1994; Riddick et al., 2016; Sutton et al., 2013; Van Aardenne\r\net al., 2001). In 2000, the mean estimate of global NH3 emission was 29.9 ± 5.2 Tg N yr\u00011\r\n. In this study, the\r\nestimated NH3 emission from southern Asian agricultural systems was 16.0 ± 3.0 Tg N yr\u00011\r\n, which accounted\r\nfor ~55% of the total global emissions. Although gaseous NH3 has a short lifetime and low emission height\r\n(Clarisse et al., 2009), the transport of deposited NH4\r\n+ from one ecosystem to another could lead to wide\u0002spread environmental pollution (Liu et al., 2013).\r\n4.2. Comparison With Other Studies in SA\r\nThere are few regional-scale reports on NH3 emissions in SA, and large uncertainties exist in the regional esti\u0002mates of NH3 emissions (Table 2). The research on NH3 emissions from Asia conducted by Zhao and Wang\r\n(1994) and Streets et al. (2003) provided comprehensive estimates in different countries in Asia. Their esti\u0002mates of total NH3 emission from N fertilizer in 1990 and 2000 were 8.3 and 12.4 Tg N yr\u00011\r\n, which were\r\n32% and 57%, respectively, higher than our estimates (Figure 2). Yan et al. (2003) provided a total estimate\r\nof NH3 emissions in South, Southeast, and East Asia in 1995 from N fertilizer use, which was 8% lower than\r\nour estimate (6.3 Tg N yr\u00011\r\n). There are two primary reasons why our estimates differ from previous estimates.\r\nFirst, we applied a process-based model to simulate NH3 emissions that considered environmental factors,\r\nTable 1\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "NH3 Emissions in Major Countries of Southern Asia During 2000\u00012014 (1 Tg = 103 Gg): The Left Side Represents NH3 Emissions\r\nFrom Synthetic N Fertilizer; The Right Side Represents NH3 Emissions From Livestock Excreta\r\nCountries\r\nN fertilizer application\r\n(Tg N yr\u00011\r\n)\r\nNH3 emissions\r\n(Gg N yr\u00011\r\n) Countries\r\nLivestock excreta\r\n(Tg N yr\u00011)\r\nNH3 emissionsa\r\n(Gg N yr\u00011)\r\nChina 30.8 4,148 China 16.2 3,736\r\nIndia 14.5 2,840 India 6.2 1,435\r\nPakistan 3.1 716 Pakistan 2.3 517\r\nIndonesia 2.9 365 Turkey 1.8 406\r\nThailand 1.5 264 Iran 1.8 406\r\nVietnam 1.4 253 Jordan 1.3 296\r\nBangladesh 1.1 246 Syria 1.2 280\r\nTurkey 1.4 143 Indonesia 1.0 228\r\nIran 1.2 105 Vietnam 0.8 188\r\nPhilippines 0.6 105 Myanmar 0.7 153\r\nUzbekistan 0.8 97 Afghanistan 0.5 116\r\na\r\nThe uncertainty of NH3 emissions from livestock excreta was ±26%.\r\nGeoHealth 10.1002/2017GH000098\r\nXU ET AL. 47\nwhile the previous studies mentioned above applied an empirical EF. Second, the N fertilizer application data\r\nused in this study and previous studies were quite different. For example, the data set of N fertilizer\r\napplication rates used in our estimate was developed by Lu and Tian (2017), while the data set used in\r\nStreets et al. (2003) was adopted from International Fertilizer Industry Association (IFA, 1998). The\r\ncomparisons of NH3 emission from N fertilizer with other studies in China and India are listed in Table 2.\r\nFor NH3 emission from livestock excreta, the estimate by Yan et al. (2003) for 1995 was 4.7 Tg N yr\u00011\r\n, which\r\nwas 17% lower than our estimate (5.6 Tg N yr\u00011\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": ", Figure 2). However, the estimate (10.5 Tg N yr\u00011) from Streets\r\net al. (2003) was 29% higher than our estimate (8.1 Tg N yr\u00011\r\n) for 2000. The differences could be associated\r\nwith the application of different EFs and different livestock excreta amount. In this study, we adopted a mean\r\nEF of 23% (17~29%) to estimate NH3 emissions from livestock excreta, while Yan et al. (2003) adopted the\r\nEuropean Environment Agency (EEA) EFs based on the animal types with an average EF less than 20%.\r\nStreets et al. (2003) conceded that the use of European-based EFs in their study might have introduced uncer\u0002tainty in their estimates of NH3 emission from Asian countries. Thus, future work is needed to better constrain\r\nthe uncertainties associated with NH3 emission from livestock excreta. The comparisons of NH3 emission\r\nfrom manure with other studies in China and India are listed in Table 2.\r\n4.3. Comparison of Monthly NH3 Emissions With Other Studies in China\r\nThe uncertainty on monthly NH3 emissions was associated with the input climate data sets, the cropland\r\narea, and N fertilizer application dates and ratios. Large uncertainties appeared in the estimate of monthly\r\nNH3 emissions from N fertilizer application (Figure S1). Similar to the result of Xu et al. (2016), NH3 emission\r\npeaked in July and was followed by secondary peaks in June and August. Our estimates of NH3 emission in\r\nSeptember and October were different from Xu et al. (2016). Ammonia emissions in summer contributed\r\nnearly 60% of the annual total, which was consistent with the results in Zhang et al. (2011). As shown in Fu\r\net al. (2015), NH3 emission in September was low because of the lower amount of N fertilizer application dur\u0002ing that time of the year.\r\n4.4. Uncertainties\r\nUncertainties in modeled NH3 emission are due to parameters and input data sets. Fertilizer application rates\r\nare a major factor that may have affected the accuracy of NH3 emission estimates. The input data sets of soil\r\nTable 2\r\nComparison of NH3 Emissions From N Fertilizer Application and Livestock Excreta Between This Study and Previous Estimates\r\nCountry Year Method\r\nNH3 emissions\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Fertilizer Manure Total References\r\nChina 2010 DLEM-Bi-NH3 for N fertilizer; EF for manure 4.3 4.1 ± 1.5 8.4 ± 1.5 This study\r\n2000 3.3 3.2 ± 1.2 6.5 ± 1.2\r\n1990 2.8 2.5 ± 0.9 5.3 ± 0.9\r\n2011 EPIC-CMAQ 3.0 - - Fu et al. (2015)\r\n2010 Correction EFs 4.5 5.1 9.6 Xu et al. (2015)\r\n2008 3.3 - - Xu et al. (2016)\r\n2006 3.2 5.3 8.5 Huang et al. (2012)\r\n2005 3.6 - - Zhang et al. (2011)\r\n2005–2008 Region-specific EFs 3.0 4.8 7.8 Paulot et al. (2014)\r\n2005 3.5 2.8 6.3 Wang et al. (2009)\r\n2000 EPA 6.8 5.2 12 Streets et al. (2003)\r\n1995 EEA 3.6 2.0 5.6 Yan et al. (2003)\r\n1994 6.3 1.8 8.1 Zhao and Wang (1994)\r\n1990 IPCC 3.7 3.2 6.9 Olivier et al. (1998)\r\nIndia 2010 DLEM-Bi-NH3 for N fertilizer; EF for manure 3.3 1.5 ± 0.6 4.8 ± 0.6 This study\r\n2000 2.2 1.3 ± 0.5 3.5 ± 0.5\r\n1990 1.5 1.3 ± 0.5 2.8 ± 0.5\r\n2003 Region-specific EFs 2.1 1.7 3.8 Aneja et al. (2012)\r\n2000 EPA 3.3 2.8 6.1 Streets et al. (2003)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "1995 EEA 1.5 1.6 3.1 Yan et al. (2003)\r\n1990 IPCC 2.0 3.8 5.8 Olivier et al. (1998)\r\nGeoHealth 10.1002/2017GH000098\r\nXU ET AL. 48\nproperties and climate are two other important factors that might affect the spatial pattern and total amount\r\nof NH3 emissions in SA. In the DLEM, we assumed that the applied N fertilizer could be used, stored, or lost\r\nwithin 30 days, and these assumptions could introduce uncertainties in the simulations. In addition, DLEM\r\nused empirical methods to calculate model parameters Γs and Γg, which might result in some uncertainties\r\ndue to a lack of observational data to evaluate the validity of this approach (Bash et al., 2013; Fu et al., 2015).\r\nDifferent N fertilizer types have different EFs and thus could result in different rates of NH3 emissions. For\r\nexample, urea, a major form of N fertilizer applied to croplands in developing countries, contributed more\r\nthan 50% of the total NH3 emitted from N fertilizer (Zhang et al., 2011). The EF of urea was estimated as\r\n0.2\u00010.25 (Bouwman et al., 1997; Matthews, 1994). In this study, we did not differentiate between N fertilizer\r\ntypes. Instead, all types of N fertilizer were considered as total N inputs for model simulation and that may\r\nhave reduced the accuracy of the NH3 estimates. A constant EF for NH3 emissions from manure was used\r\nin this study, which might introduce more uncertainty in our estimate compared to other studies that have\r\nused region-based or animal species-based EFs. In addition, although NH3 emissions from livestock excreta\r\nare affected by climate, soil properties, and plant phenology (Hansen et al., 2017; Massad et al., 2010), the tim\u0002ing and rates of animal manure application were not considered in this study. This may also have added to\r\nthe uncertainty of our estimates.\r\n4.5. Implications\r\nMore than half of the N added to croplands can be lost in various ways (Lassaletta et al., 2014; Tian et al.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "2012). This study indicated that NH3 volatilization was one of the major outlets for Nr losses (Figure 1). As a\r\nsignificant source of NH3 and other precursor gases that lead to the generation of PM2.5, agriculture not only\r\naffects the Earth’s radiation budget but causes adverse health effects (Aneja et al., 2008; Cao et al., 2009; de\r\nLeeuw et al., 2003; Fowler et al., 1998; Seinfeld & Pandis, 1998). First, NH3 can react with other air pollutants\r\nand form aerosols (e.g., PM2.5) in the atmosphere, thus lead to the reduction of visibility (Cheng et al., 2014).\r\nSecond, the increasing concentration of PM2.5 is positively related to the rates of premature mortality, which\r\nincreased by 21% and 85%, respectively, in East Asia and South Asia from 1990 to 2010 (Wang et al., 2017).\r\nLast, the dry and wet deposition of NH4\r\n+ from NH3 emissions may alter soil and water chemistry (e.g.,\r\neutrophication) and reduce biological diversity (Clark & Tilman, 2008; Vitousek & Farrington, 1997).\r\nUsing a global atmospheric chemistry model (Lelieveld et al., 2015), a recent study reported that outdoor air\r\npollution, mainly by PM2.5, could lead to 3.3 (1.61\u00014.81) million premature deaths per year worldwide, pre\u0002dominantly in Asia. That study considered agriculture as the largest contributor to global premature deaths\r\ndue to the releases of NH3 from livestock wastes and N fertilizer. Although Jerrett (2015) argued that Lelieveld\r\net al. (2015) may have overestimated the toxicity of PM2.5 from agricultural sources, he suggested that scien\u0002tists and policymakers should pay much more attention to PM2.5 formed by agricultural sources and its\r\nadverse effects on human health. Recently, Wang et al. (2017) indicated that reduction of NH3 emissions\r\ncould maximize the effectiveness of nitrogen oxides emission controls and potentially provided some health\r\nbenefits. Thus, effective farming strategies should be adopted by farmers in order to minimize NH3 loss from\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "N fertilizer or manure application and mitigate associated threats to human health.\r\nHow can we reduce N losses from Nr? One effective strategy is to reduce the application of N fertilizer and to\r\nrotate legume crops (e.g., soybean and alfalfa) with other cereal crops (e.g., wheat and maize). Nitrogen use\r\nefficiency (NUE) was found to be generally higher in agricultural systems with a higher proportion of N inputs\r\nfrom symbiotic N fixation (Lassaletta et al., 2014). The second strategy is to identify the optimal crop-specific\r\nN needs to avoid excessive N application to soils (Chen et al., 2011). Mueller et al. (2017) applied N input-yield\r\nresponse functions to investigate regional- or country-scale NUE based on the historical N budget data\r\n(1961\u00012009). Their studies provided an overview of the optimal N input rates in major agricultural countries\r\nand showed that East, South, and Southeast Asia received excessive N inputs up to 10 g N m2 greater than\r\nneeded for optimal crop yield. The third strategy is to minimize the loss of N through improved management\r\ntechniques (Bouwman et al., 1997, 2002; Chen et al., 2011, 2014; Fowler et al., 2015). In addition, some stra\u0002tegies have been approved to be effective for reducing N losses from animal manure in SA. For example,\r\nmodifying feeding (diet with optimized N content) is an effective strategy to reduce gaseous N losses from\r\nanimal manure (Chadwick et al., 2011; Hou et al., 2015). In comparison with composting, solid manure\r\nstorages via compaction and covering could substantially decline NH3 emissions (Chadwick, 2005; Hou\r\nGeoHealth 10.1002/2017GH000098\r\nXU ET AL. 49\net al., 2015). Compared to surface application, manure application through band spreading, incorporation,\r\nand injection could significantly reduce NH3 emissions (Hou et al., 2015).\r\nAsia, whose population could increase by 0.9 billion by 2050, has been projected to be the second largest\r\ncontributor to future population growth (United Nations, Department of Economic and Social Affairs,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "World Population Prospects, 2015). Valin et al. (2014) reported that food demands would increase by\r\n59\u000198% between 2005 and 2050 in the reference scenario (the GDP and population pathways of the “middle\r\nof the road” Shared Socio-economic Pathway (SSP2) developed by the climate change impacts research com\u0002munity). In the projection of FAO and agriculture models, South and East Asia are expected to experience a\r\nrapid increase in crop foods and livestock products during the first half of the 21st century (Alexandratos &\r\nBruinsma, 2012; Valin et al., 2014). Under this scenario, N fertilizer application to global croplands would dou\u0002ble by 2100 (Stocker et al., 2013), while manure production may increase to 50% by 2050 compared to 2000\r\n(Bouwman et al., 2013). China and India are the top two countries with the largest N fertilizer consumption\r\nand are expected to remain so in the foreseeable future. Unfortunately, NUE has rapidly decreased in these\r\ncountries (Tian et al., 2012; Zhang et al., 2015). The decrease in NUE and increase in N fertilizer use would\r\ntranslate into greater emission of fertilized N as NH3 and other N gases (Zhang et al., 2015). Thus, farmers\r\nas well as policymakers in Asian countries ought to consider using N fertilizer more efficiently for the benefits\r\nof environmental quality and human health (Tian et al., 2016; Zhang, 2017). Moreover, livestock excreta in SA\r\nincreased from 19 to 45 Tg N yr\u00011 during 1961\u00012014 (Zhang et al., 2017). In 2000, Southeast, East, and South\r\nAsia contribute ~30% of global GHG emissions from ruminants (Herrero et al., 2013). In order to reduce both\r\nGHG and NH3 emissions from livestock systems, it is important to implement an effective strategy for mana\u0002ging animal manure (Bouwman et al., 2013; Fowler et al., 2015).\r\nReferences\r\nAlexandratos, N., & Bruinsma, J. (2012). World agriculture towards 2030/2050: The 2012 revision Rep., ESA Working paper No. 12-03.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Rome, FAO.\r\nAneja, V. P., Schlesinger, W. H., & Erisman, J. W. (2008). Farming pollution. Nature Geoscience, 1(7), 409–411. https://doi.org/10.1038/ngeo236\r\nAneja, V. P., Schlesinger, W. H., Erisman, J. W., Behera, S. N., Sharma, M., & Battye, W. (2012). Reactive nitrogen emissions from crop and\r\nlivestock farming in India. Atmospheric Environment, 47, 92–103. https://doi.org/10.1016/j.atmosenv.2011.11.026\r\nBash, J., Cooter, E., Dennis, R., Walker, J., & Pleim, J. (2013). Evaluation of a regional air-quality model with bidirectional NH3 exchange coupled\r\nto an agroecosystem model. Biogeosciences, 10(3), 1635–1645. https://doi.org/10.5194/bg-10-1635-2013\r\nBeusen, A., Bouwman, A., Heuberger, P., Van Drecht, G., & Van Der Hoek, K. (2008). Bottom-up uncertainty estimates of global ammonia\r\nemissions from global agricultural production systems. Atmospheric Environment, 42(24), 6067–6077. https://doi.org/10.1016/\r\nj.atmosenv.2008.03.044\r\nBouwman, A., Lee, D., Asman, W., Dentener, F., Van Der Hoek, K., & Olivier, J. (1997). A global high-resolution emission inventory for ammonia.\r\nGlobal Biogeochemical Cycles, 11(4), 561–587. https://doi.org/10.1029/97GB02266\r\nBouwman, A., Boumans, L., & Batjes, N. (2002). Estimation of global NH3 volatilization loss from synthetic fertilizers and animal manure\r\napplied to arable lands and grasslands. Global Biogeochemical Cycles, 16(2), 1024. https://doi.org/10.1029/2000GB001389\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Bouwman, L., Goldewijk, K. K., Van Der Hoek, K. W., Beusen, A. H., Van Vuuren, D. P., Willems, J., … Stehfest, E. (2013). Exploring global changes\r\nin nitrogen and phosphorus cycles in agriculture induced by livestock production over the 1900–2050 period. Proceedings of the National\r\nAcademy of Sciences, 110(52), 20,882–20,887. https://doi.org/10.1073/pnas.1012878108\r\nCao, J.-J., Zhang, T., Chow, J. C., Watson, J. G., Wu, F., & Li, H. (2009). Characterization of atmospheric ammonia over Xi’an, China. Aerosol and\r\nAir Quality Resarch, 9(2), 277–289.\r\nChadwick, D. (2005). Emissions of ammonia, nitrous oxide and methane from cattle manure heaps: Effect of compaction and covering.\r\nAtmospheric Environment, 39(4), 787–799. https://doi.org/10.1016/j.atmosenv.2004.10.012\r\nChadwick, D., Sommer, S., Thorman, R., Fangueiro, D., Cardenas, L., Amon, B., & Misselbrook, T. (2011). Manure management: Implications for\r\ngreenhouse gas emissions. Animal Feed Science and Technology, 166, 514–531. https://doi.org/10.1016/j.anifeedsci.2011.04.036\r\nChen, X. P., Cui, Z. L., Vitousek, P. M., Cassman, K. G., Matson, P. A., Bai, J. S., … Römheld, V. (2011). Integrated soil–crop system management\r\nfor food security. Proceedings of the National Academy of Sciences, 108(16), 6399–6404. https://doi.org/10.1073/pnas.1101419108\r\nChen, X., Cui, Z., Fan, M., Vitousek, P., Zhao, M., Ma, W., … Yang, J. (2014). Producing more grain with lower environmental costs. Nature,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "514(7523), 486–489. https://doi.org/10.1038/nature13609\r\nCheng, Z., Wang, S., Fu, X., Watson, J., Jiang, J., Fu, Q., … Chow, J. (2014). Impact of biomass burning on haze pollution in the Yangtze River\r\ndelta, China: A case study in summer 2011. Atmospheric Chemistry and Physics, 14(9), 4573–4585. https://doi.org/10.5194/\r\nacp-14-4573-2014\r\nClarisse, L., Clerbaux, C., Dentener, F., Hurtmans, D., & Coheur, P.-F. (2009). Global ammonia distribution derived from infrared satellite\r\nobservations. Nature Geoscience, 2(7), 479. https://doi.org/10.1038/ngeo551\r\nClark, C. M., & Tilman, D. (2008). Loss of plant species after chronic low-level nitrogen deposition to prairie grasslands. Nature, 451(7179),\r\n712–715. https://doi.org/10.1038/nature06503\r\nCooter, E., Bash, J., Benson, V., & Ran, L. (2012). Linking agricultural crop management and air quality models for regional to national-scale\r\nnitrogen assessments. Biogeosciences, 9(10), 4023–4035. https://doi.org/10.5194/bg-9-4023-2012\r\nDangal, S. R., Tian, H., Zhang, B., Pan, S., Lu, C., & Yang, J. (2017). Methane emission from global livestock sector during 1890–2014: Magnitude,\r\ntrends and spatiotemporal patterns. Global Change Biology, 00, 1–15. https://doi.org/10.1111/gcb.13709\r\nde Leeuw, G., Skjøth, C. A., Hertel, O., Jickells, T., Spokes, L., Vignati, E., … Tamm, S. (2003). Deposition of nitrogen into the North Sea.\r\nAtmospheric Environment, 37, 145–165. https://doi.org/10.1016/S1352-2310(03)00246-2\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 467,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "GeoHealth 10.1002/2017GH000098\r\nXU ET AL. 50\r\nAcknowledgments\r\nThis study has been supported by\r\nNational Key Research and\r\nDevelopment Program of China\r\n(2017YFA0604702), National Science\r\nFoundation (1210360 and 1243232), the\r\nChinese Academy of Sciences STS\r\nProgram (KFJ-STS-ZDTP-0), SKLURE\r\ngrant (SKLURE2017-1-6), NASA Land\r\nCover/Land Use Change Program\r\n(NNX08AL73G S01), and Auburn\r\nUniversity Peak of Excellence Program.\r\nWe would thank two anonymous\r\nreviewers who have provided thought\u0002ful comments and suggestions, which\r\nled to a major improvement in the\r\npaper. The availability of climate\r\ndata, CO2 concentration data, global\r\ncropland distribution data, and\r\nmanure/fertilizer N inputs is described\r\nin section 7 and the supporting infor\u0002mation. The model output data in this\r\nstudy are archived in International\r\nCenter for Climate and Global Change\r\nResearch at Auburn University (http://\r\nwp.auburn.edu/cgc/).\nDentener, F. J., & Crutzen, P. J. (1994). A three-dimensional model of the global ammonia cycle. Journal of Atmospheric Chemistry, 19(4),\r\n331–369.\r\nErisman, J. W., Sutton, M. A., Galloway, J., Klimont, Z., & Winiwarter, W. (2008). How a century of ammonia synthesis changed the world. Nature\r\nGeoscience, 1(10), 636–639. https://doi.org/10.1038/ngeo325\r\nFoley, K., Roselle, S., Appel, K., Bhave, P., Pleim, J., Otte, T., … Gilliam, R. (2010). Incremental testing of the Community Multiscale Air Quality\r\n(CMAQ) modeling system version 4.7. Geoscientific Model Development, 3(1), 205–226.\r\nFood and Agriculture Organization of the United Nations (2016). FAOSTAT online database http://faostat.fao.org/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 466,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Fowler, D., Pitcairn, C., Sutton, M., Flechard, C., Loubet, B., Coyle, M., & Munro, R. (1998). The mass budget of atmospheric ammonia in\r\nwoodland within 1 km of livestock buildings. Environmental Pollution, 102(1), 343–348. https://doi.org/10.1016/S0269-7491(98)\r\n80053-5\r\nFowler, D., Steadman, C. E., Stevenson, D., Coyle, M., Rees, R. M., Skiba, U., … Vieno, M. (2015). Effects of global change during the 21st century\r\non the nitrogen cycle. Atmospheric Chemistry and Physics, 15(24), 13849–13893. https://doi.org/10.5194/acp-15-13849-2015\r\nFu, X., Wang, S., Ran, L., Pleim, J., Cooter, E., Bash, J., … Hao, J. (2015). Estimating NH3 emissions from agricultural fertilizer application in China\r\nusing the bi-directional CMAQ model coupled to an agro-ecosystem model. Atmospheric Chemistry and Physics, 15(12), 6637–6649.\r\nhttps://doi.org/10.5194/acp-15-6637-2015\r\nGalloway, J. N., Dentener, F. J., Capone, D. G., Boyer, E. W., Howarth, R. W., Seitzinger, S. P., … Holland, E. (2004). Nitrogen cycles: Past, present,\r\nand future. Biogeochemistry, 70(2), 153–226.\r\nGilliland, A. B., Dennis, R. L., Roselle, S. J., & Pierce, T. E. (2003). Seasonal NH3 emission estimates for the eastern United States based on\r\nammonium wet concentrations and an inverse modeling method. Journal of Geophysical Research, 108(D15), 4477. https://doi.org/\r\n10.1029/2002JD003063\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 477,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Hansen, K., Personne, E., Skjøth, C., Loubet, B., Ibrom, A., Jensen, R., … Bøgh, E. (2017). Investigating sources of measured forest-atmosphere\r\nammonia fluxes using two-layer bi-directional modelling. Agricultural and Forest Meteorology, 237, 80–94. https://doi.org/10.1016/\r\nj.agrformet.2017.02.008\r\nHerrero, M., Havlík, P., Valin, H., Notenbaert, A., Rufino, M. C., Thornton, P. K., … Obersteiner, M. (2013). Biomass use, production, feed\r\nefficiencies, and greenhouse gas emissions from global livestock systems. Proceedings of the National Academy of Sciences, 110(52),\r\n20888–20893. https://doi.org/10.1073/pnas.1308149110\r\nHou, Y., Velthof, G. L., & Oenema, O. (2015). Mitigation of ammonia, nitrous oxide and methane emissions from manure management chains:\r\nA meta-analysis and integrated assessment. Global Change Biology, 21(3), 1293–1312. https://doi.org/10.1111/gcb.12767\r\nHuang, X., Song, Y., Li, M., Li, J., Huo, Q., Cai, X., … Zhang, H. (2012). A high-resolution ammonia emission inventory in China.\r\nGlobal Biogeochemical Cycles, 26, GB1030. https://doi.org/10.1029/2011GB004161\r\nJerrett, M. (2015). Atmospheric science: The death toll from air-pollution sources. Nature, 525(7569), 330–331. https://doi.org/10.1038/\r\n525330a\r\nKlein Goldewijk, K., Beusen, A., Doelman, J., & Stehfest, E. (2017). Anthropogenic land use estimates for the Holocene–HYDE 3.2. Earth System\r\nScience Data, 9(2), 927.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Kurokawa, J., Ohara, T., Morikawa, T., Hanayama, S., Janssens-Maenhout, G., Fukui, T., … Akimoto, H. (2013). Emissions of air pollutants and\r\ngreenhouse gases over Asian regions during 2000–2008: Regional Emission inventory in ASia (REAS) version 2. Atmospheric Chemistry and\r\nPhysics, 13(21), 11,019–11,058. https://doi.org/10.5194/acp-13-11019-2013\r\nLassaletta, L., Billen, G., Grizzetti, B., Garnier, J., Leach, A. M., & Galloway, J. N. (2014). Food and feed trade as a driver in the global nitrogen\r\ncycle: 50-year trends. Biogeochemistry, 118(1–3), 225–241. https://doi.org/10.1007/s10533-013-9923-4\r\nLelieveld, J., Evans, J., Fnais, M., Giannadaki, D., & Pozzer, A. (2015). The contribution of outdoor air pollution sources to premature mortality\r\non a global scale. Nature, 525(7569), 367–371. https://doi.org/10.1038/nature15371\r\nLiu, M., & Tian, H. (2010). China’s land cover and land use change from 1700 to 2005: Estimations from high-resolution satellite data and\r\nhistorical archives. Global Biogeochemical Cycles, 24, GB3003. https://doi.org/10.1029/2009GB003687\r\nLiu, X., Zhang, Y., Han, W., Tang, A., Shen, J., Cui, Z., … Christie, P. (2013). Enhanced nitrogen deposition over China. Nature, 494(7438), 459–462.\r\nLü, C., & Tian, H. (2007). Spatial and temporal patterns of nitrogen deposition in China: Synthesis of observational data. Journal of Geophysical\r\nResearch, 112, D22805. https://doi.org/10.1029/2006JD007990\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 448,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Lu, C., & Tian, H. (2013). Net greenhouse gas balance in response to nitrogen enrichment: Perspectives from a coupled biogeochemical\r\nmodel. Global Change Biology, 19, 571–588. https://doi.org/10.1111/gcb.12049\r\nLu, C., & Tian, H. (2017). Global nitrogen and phosphorus fertilizer use for agriculture production in the past half century: Shifted hot spots\r\nand nutrient imbalance. Earth System Science Data, 9(1), 181–192. https://doi.org/10.5194/essd-9-181-2017\r\nMassad, R.-S., Nemitz, E., & Sutton, M. (2010). Review and parameterisation of bi-directional ammonia exchange between vegetation and the\r\natmosphere. Atmospheric Chemistry and Physics, 10(21), 10,359–10,386. https://doi.org/10.5194/acp-10-10359-2010\r\nMatthews, E. (1994). Nitrogenous fertilizers: Global distribution of consumption and associated emissions of nitrous oxide and ammonia.\r\nGlobal Biogeochemical Cycles, 8(4), 411–439. https://doi.org/10.1029/94GB01906\r\nMueller, N. D., Lassaletta, L., Runck, B. C., Billen, G., Garnier, J., & Gerber, J. S. (2017). Declining spatial efficiency of global cropland nitrogen\r\nallocation. Global Biogeochemical Cycles, 31, 245–257. https://doi.org/10.1002/2016GB005515\r\nNemitz, E., Sutton, M. A., Schjoerring, J. K., Husted, S., & Wyers, G. P. (2000). Resistance modelling of ammonia exchange over oilseed rape.\r\nAgricultural and Forest Meteorology, 105(4), 405–425. https://doi.org/10.1016/S0168-1923(00)00206-9\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Nemitz, E., Milford, C., & Sutton, M. A. (2001). A two-layer canopy compensation point model for describing bi-directional biosphere\u0002atmosphere exchange of ammonia. Quarterly Journal of the Royal Meteorological Society, 127(573), 815–833. https://doi.org/10.1002/\r\nqj.49712757306\r\nOrganisation for Economic Co-operation and Development/Food and Agriculture Organization (2016). OECD-FAO agricultural outlook\r\n2016–2015. Paris: OECD Publishing.\r\nOlivier, J., Bouwman, A., Van der Hoek, K., & Berdowski, J. (1998). Global air emission inventories for anthropogenic sources of NOx, NH3 and\r\nN2O in 1990. Environmental Pollution, 102(1), 135–148.\r\nPan, S., Tian, H., Dangal, S. R., Yang, Q., Yang, J., Lu, C., … Ouyang, Z. (2015). Responses of global terrestrial evapotranspiration to climate\r\nchange and increasing atmospheric CO2 in the 21st century. Earth’s Future, 3(1), 15–35. https://doi.org/10.1002/2014EF000263\r\nPaulot, F., Jacob, D. J., Pinder, R., Bash, J., Travis, K., & Henze, D. (2014). Ammonia emissions in the United States, European Union, and China\r\nderived by high-resolution inversion of ammonium wet deposition data: Interpretation with a new agricultural emissions inventory\r\n(MASAGE_NH3). Journal of Geophysical Research: Atmospheres, 119, 4343–4364. https://doi.org/10.1002/2013JD021130\r\nPinder, R. W., Adams, P. J., & Pandis, S. N. (2007). Ammonia emission controls as a cost-effective strategy for reducing atmospheric particulate\r\nmatter in the eastern United States. Environmental Science & Technology, 41(2), 380–386. https://doi.org/10.1021/es060379a\r\nGeoHealth 10.1002/2017GH000098\r\nXU ET AL. 51\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Ren, W., Tian, H., Xu, X., Liu, M., Lu, C., Chen, G., … Liu, J. (2011). Spatial and temporal patterns of CO2 and CH4 fluxes in China’s croplands in\r\nresponse to multifactor environmental changes. Tellus B, 63(2), 222–240. https://doi.org/10.1111/j.1600-0889.2010.00522.x\r\nRen, W., Tian, H., Tao, B., Huang, Y., & Pan, S. (2012). China’s crop productivity and soil carbon storage as influenced by multifactor global\r\nchange. Global Change Biology, 18(9), 2945–2957. https://doi.org/10.1111/j.1365-2486.2012.02741.x\r\nRiddick, S., Ward, D., Hess, P., Mahowald, N., Massad, R., & Holland, E. (2016). Estimate of changes in agricultural terrestrial nitrogen pathways\r\nand ammonia emissions from 1850 to present in the Community Earth System Model. Biogeosciences, 13(11), 3397–3426. https://doi.org/\r\n10.5194/bg-13-3397-2016\r\nSakaguchi, K., & Zeng, X. (2009). Effects of soil wetness, plant litter, and under-canopy atmospheric stability on ground evaporation in the\r\nCommunity Land Model (CLM3.5). Journal of Geophysical Research, 114, D01107. https://doi.org/10.1029/2008JD010834\r\nSeinfeld, J., & Pandis, S. (1998). Atmospheric chemistry and physics (p. 1326). Hoboken, NJ: John Wiley.\r\nStocker, B. D., Roth, R., Joos, F., Spahni, R., Steinacher, M., Zaehle, S., … Prentice, I. C. (2013). Multiple greenhouse-gas feedbacks from\r\nthe land biosphere under future climate change scenarios. Nature Climate Change, 3(7), 666–672. https://doi.org/10.1038/\r\nnclimate1864\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Streets, D. G., Bond, T., Carmichael, G., Fernandes, S., Fu, Q., He, D., … Wang, M. Q. (2003). An inventory of gaseous and primary aerosol\r\nemissions in Asia in the year 2000. Journal of Geophysical Research, 108(D21), 8809. https://doi.org/10.1029/2002JD003093\r\nSutton, M., Schjorring, J., Wyers, G., Duyzer, J., Ineson, P., & Powlson, D. (1995). Plant-atmosphere exchange of ammonia [and discussion],\r\nPhilosophical Transactions of the Royal Society of London A: Mathematical. Physical and Engineering Sciences, 351(1696), 261–278. http://\r\nwww.jstor.org/stable/54415\r\nSutton, M. A., Reis, S., Riddick, S. N., Dragosits, U., Nemitz, E., Theobald, M. R., … Dore, A. J. (2013). Towards a climate-dependent paradigm of\r\nammonia emission and deposition. Philosophical Transactions of the Royal Society of London B: Biological Sciences, 368(1621), 20130166.\r\nhttps://doi.org/10.1098/rstb.2013.0166\r\nSutton, M. A., Mason, K. E., Sheppard, L. J., Sverdrup, H., Haeuber, R., & Hicks, W. K. (2014). Nitrogen deposition, critical loads and biodiversity.\r\nSpringer Science & Business Media.\r\nTian, H., Melillo, J. M., Kicklighter, D. W., Pan, S., Liu, J., McGuire, A. D., & Moore, B. (2003). Regional carbon dynamics in monsoon\r\nAsia and its implications for the global carbon cycle. Global and Planetary Change, 37(3), 201–217. https://doi.org/10.1016/\r\nS0921-8181(02)00205-9\r\nTian, H., Xu, X., Liu, M., Ren, W., Zhang, C., Chen, G., & Lu, C. (2010). Spatial and temporal patterns of CH4 and N2O fluxes in terrestrial\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "ecosystems of North America during 1979–2008: Application of a global biogeochemistry model. Biogeosciences, 7(9), 2673–2694. https://\r\ndoi.org/10.5194/bg-7-2673-2010\r\nTian, H., Xu, X., Lu, C., Liu, M., Ren, W., Chen, G., … Liu, J. (2011). Net exchanges of CO2, CH4, and N2O between China’s terrestrial ecosystems\r\nand the atmosphere and their contributions to global climate warming. Journal of Geophysical Research, 116, G02011. https://doi.org/\r\n10.1029/2010JG001393\r\nTian, H., Lu, C., Melillo, J., Ren, W., Huang, Y., Xu, X., … Pan, S. (2012). Food benefit and climate warming potential of nitrogen fertilizer uses in\r\nChina. Environmental Research Letters, 7(4), 044020. https://doi.org/10.1088/1748-9326/7/4/044020\r\nTian, H., Banger, K., Bo, T., & Dadhwal, V. K. (2014). History of land use in India during 1880–2010: Large-scale land transformations\r\nreconstructed from satellite data and historical archives. Global and Planetary Change, 121, 78–88. https://doi.org/10.1016/\r\nj.gloplacha.2014.07.005\r\nTian, H., Lu, C., Ciais, P., Michalak, A. M., Canadell, J. G., Saikawa, E., … Wofsy, S. C. (2016). The terrestrial biosphere as a net source of\r\ngreenhouse gases to the atmosphere. Nature, 531(7593), 225–228. https://doi.org/10.1038/nature16946\r\nUnited Nations, Department of Economic and Social Affairs, Population Division (2015). World Population Prospects: The 2015 Revision, Key\r\nFindings and Advance Tables (Working Paper No. ESA/P/WP.241). Retrieved from https://esa.un.org/unpd/wpp/publications/files/key_\r\nfindings_wpp_2015.pdf\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Valin, H., Sands, R. D., van der Mensbrugghe, D., Nelson, G. C., Ahammad, H., Blanc, E., … Havlik, P. (2014). The future of food demand:\r\nUnderstanding differences in global economic models. Agricultural Economics, 45(1), 51–67. https://doi.org/10.1111/agec.12089\r\nVan Aardenne, J. V., Dentener, F., Olivier, J., Goldewijk, C., & Lelieveld, J. (2001). A 1 × 1 resolution data set of historical anthropogenic trace\r\ngas emissions for the period 1890–1990. Global Biogeochemical Cycles, 15(4), 909–928. https://doi.org/10.1029/2000GB001265\r\nViovy, N. (2014). CRU-NCEPv4. CRUNCEP dataset. Retrieved from http://dods.extra.cea.fr/data/p529viov/cruncep/readme.htm\r\nVitousek, P. M., & Farrington, H. (1997). Nutrient limitation and soil development: Experimental test of a biogeochemical theory.\r\nBiogeochemistry, 37(1), 63–75.\r\nWang, S., Liao, J., & Hu, Y. (2009). A preliminary inventory of NH3-Nemission and its temporal and spatial distribution of China [in Chinese].\r\nJournal of Agro-Environmental Science, 28(3), 616–629.\r\nWang, J., Xing, J., Mathur, R., Pleim, J. E., Wang, S., Hogrefe, C., … Hao, J. (2017). Historical trends in PM2.5-related premature mortality\r\nduring 1990–2010 across the northern hemisphere. Environmental Health Perspectives, 125(3), 400–408. https://doi.org/10.1289/\r\nEHP298\r\nXu, X., Tian, H., Chen, G., Liu, M., Ren, W., Lu, C., & Zhang, C. (2012). Multifactor controls on terrestrial N2O flux over North America from 1979\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "through 2010. Biogeosciences, 9(4), 1351–1366. https://doi.org/10.5194/bg-9-1351-2012\r\nXu, P., Zhang, Y., Gong, W., Hou, X., Kroeze, C., Gao, W., & Luan, S. (2015). An inventory of the emission of ammonia from agricultural fertilizer\r\napplication in China for 2010 and its high-resolution spatial distribution. Atmospheric Environment, 115, 141–148. https://doi.org/10.1016/\r\nj.atmosenv.2015.05.020\r\nXu, P., Liao, Y., Lin, Y., Zhao, C., Yan, C., Cao, M., … Luan, S. (2016). High-resolution inventory of ammonia emissions from agricultural\r\nfertilizer in China from 1978 to 2008. Atmospheric Chemistry and Physics, 16(3), 1207–1218. https://doi.org/10.5194/acp-16-\r\n1207-2016\r\nXu, R., Tian, H., Lu, C., Pan, S., Chen, J., Yang, J., & Bowen, Z. (2017). Preindustrial nitrous oxide emissions from the land biosphere estimated by\r\nusing a global biogeochemistry model. Climate of the Past, 13(7), 977. https://doi.org/10.5194/cp-13-977-2017\r\nYan, X., Akimoto, H., & Ohara, T. (2003). Estimation of nitrous oxide, nitric oxide and ammonia emissions from croplands in East, Southeast\r\nand South Asia. Global Change Biology, 9(7), 1080–1096. https://doi.org/10.1046/j.1365-2486.2003.00649.x\r\nZhang, X. (2017). Biogeochemistry: A plan for efficient use of nitrogen fertilizers. Nature, 543(7645), 322–323. https://doi.org/10.1038/\r\n543322a\r\nZhang, Y., Luan, S., Chen, L., & Shao, M. (2011). Estimating the volatilization of ammonia from synthetic nitrogenous fertilizers used in China.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3478621001764341547,
+        "filename": "GH2-2-40.PMC7007080.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 400,
+      "total_chunks": 37,
+      "version": "1.0.0"
+    },
+    "text": "Journal of Environmental Management, 92(3), 480–493. https://doi.org/10.1016/j.jenvman.2010.09.018\r\nZhang, X., Davidson, E. A., Mauzerall, D. L., Searchinger, T. D., Dumas, P., & Shen, Y. (2015). Managing nitrogen for sustainable development.\r\nNature, 528(7580), 51–59. https://doi.org/10.1038/nature15743\r\nGeoHealth 10.1002/2017GH000098\r\nXU ET AL. 52\nZhang, B., Tian, H., Lu, C., Dangal, S. R., Yang, J., & Pan, S. (2017). Global manure nitrogen production and application in cropland during\r\n1860–2014: A 5 arcmin gridded global dataset for Earth system modeling. Earth System Science Data, 9(2), 667–678. https://doi.org/\r\n10.5194/essd-9-667-2017\r\nZhao, D. W., & Wang, A. P. (1994). Estimation of anthropogenic ammonia emissions in Asia. Atmospheric Environment, 28, 689–694. https://\r\ndoi.org/10.1016/1352-2310(94)90045-0\r\nZheng, X., Fu, C., Xu, X., Yan, X., Huang, Y., Han, S., … Chen, G. (2002). The Asian nitrogen cycle case study. Ambio: A Journal of the Human\r\nEnvironment, 31(2), 79–87. https://doi.org/10.1579/0044-7447-31.2.79\r\nGeoHealth 10.1002/2017GH000098\r\nXU ET AL. 53\n\n"
+  }
+]

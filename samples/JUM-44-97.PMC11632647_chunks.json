@@ -1,0 +1,578 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "ORIGINAL ARTICLE\r\nInfluences of Variability in Attenuation\r\nCompensation on the Estimation of\r\nBackscatter Coefficient of Median\r\nNerves in Vivo\r\nYuanshan Wu, BS, Victor Barrere, PhD, Aiguo Han, PhD , Eric Y. Chang, MD, Michael Andre, PhD,\r\nSameer B. Shah, PhD\r\nObjective—Peripheral nerves remain a challenging target for medical imaging,\r\ngiven their size, anatomical complexity, and structural heterogeneity. Quantita\u0002tive ultrasound (QUS) applies a set of techniques to estimate tissue acoustic\r\nparameters independent of the imaging platform. Many useful medical and labo\u0002ratory applications for QUS have been reported, but challenges remain for\r\ndeployment in vivo, especially for heterogeneous tissues. Several phenomena\r\nintroduce variability in attenuation estimates, which may influence the estimation\r\nof other QUS parameters. For example, estimating the backscatter coefficient\r\n(BSC) requires compensation for the attenuation of overlying tissues between\r\nthe transducer and the underlying tissue of interest. The purpose of this study is\r\nto extend prior studies by investigating the efficacy of several analytical methods\r\nof estimating attenuation compensation on QUS outcomes in the human\r\nmedian nerve.\r\nMethods—Median nerves were imaged at the volar wrist in vivo and beam\u0002formed radiofrequency (RF) data were acquired. Six analytical approaches for\r\nattenuation compensation were compared: 1–2) attenuation estimated by apply\u0002ing spectral difference method (SDM) and spectral log difference method\r\n(SLDM) independently to regions of interest (ROIs) overlying the nerve and to\r\nthe nerve ROI itself; 3–4) attenuation estimation by applying SDM and SLDM\r\nto ROIs overlying the nerve, and transferring these properties to the nerve ROI;\r\nand 5–6) methods that apply previously published values of tissue attenuation to\r\nthe measured thickness of each overlying tissue. Mean between-subject estimates\r\nof BSC-related outcomes as well as within-subject variability of these outcomes\r\nwere compared among the 6 methods.\r\nResults—Compensating for attenuation using SLDM and values from the litera\u0002ture reduced variability in BSC-based outcomes, compared to SDM. Variability\r\nin attenuation coefficients contributes substantially to variability in backscatter\r\nmeasurements.\r\nConclusion—This work has implications for the application of QUS to in vivo\r\ndiagnostic assessments in peripheral nerves and possibly other heterogeneous\r\ntissues.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Key Words—acoustic attenuation; backscatter coefficient; in vivo measurements;\r\nmedian nerve; quantitative ultrasound; sources of variability\r\nPeripheral nerves are responsible for movement, sensation,\r\nand autonomic function. Nerve damage, therefore, whether\r\nReceived June 2, 2023, from the Research Ser\u0002vice, VA San Diego Healthcare System, San\r\nDiego, California, USA (Y.W., V.B., E.Y.C.,\r\nM.A., S.B.S.); Department of Bioengineering,\r\nUniversity of California, San Diego, Califor\u0002nia, USA (Y.W., S.B.S.); Department of\r\nOrthopaedic Surgery, University of California,\r\nSan Diego, California, USA (V.B., S.B.S.);\r\nDepartment of Biomedical Engineering and\r\nMechanics, Virginia Polytechnic Institute and\r\nState University, Blacksburg, Virginia, USA\r\n(A.H.); and Department of Radiology, Uni\u0002versity of California, San Diego, California,\r\nUSA (E.Y.C., M.A.). Manuscript accepted for\r\npublication September 15, 2024.\r\nYuanshan Wu and Victor Barrere con\u0002tributed equally to this work.\r\nThe authors gratefully acknowledge\r\nfunding from the Department of Defense\r\n(W81XWH-20-1-0927) and Department of\r\nVeterans Affairs (VA Merit\r\nI01CX002118-01).\r\nAddress correspondence to Sameer\r\nB. Shah, PhD, 9500 Gilman Drive, MC\r\n0863, La Jolla, CA 92093-0683, USA.\r\nE-mail: sbshah@health.ucsd.edu\r\nAbbreviations\r\nBSC, backscatter coefficient; iBSC, inte\u0002grated backscattered coefficient; QUS,\r\nquantitative ultrasound; RF, radi\u0002ofrequency; ROI, region of interest; SDM,\r\nspectral difference method; SLDM, spec\u0002tral log difference method\r\ndoi:10.1002/jum.16585\r\nThis is an open access article under the terms of the\r\nCreative Commons Attribution-NonCommercial\u0002NoDerivs License, which permits use and distribu\u0002tion in any medium, provided the original work is\r\nproperly cited, the use is non-commercial and no\r\nmodifications or adaptations are made.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "© 2024 The Author(s). Journal of Ultrasound in Medicine published by Wiley Periodicals LLC on behalf of American Institute of Ultrasound\r\nin Medicine. | J Ultrasound Med 2025; 44:97–109 | 0278-4297 | www.aium.org\nvia traumatic injury or neuropathy, has a\r\ndevastating impact on sensorimotor function and\r\nquality of life.1–4 Nerve damage is predominantly\r\ndiagnosed using physical examinations and electro\u0002diagnostic testing.5,6 Medical imaging has the poten\u0002tial to provide additional insight into nerve adaptation\r\nafter injury, including improved localization of the site\r\nof injury and changes to nerve geometry and\r\nmorphology. High frequency ultrasound is a rapid,\r\nportable, and low-cost imaging modality that is\r\nincreasingly used to evaluate peripheral nerve health\r\nin the clinic.7–9 Common clinical ultrasound assess\u0002ments, including nerve cross-sectional area and\r\nrelative echogenicity, are based on conventional\r\nB-mode images. Despite the diagnostic potential of\r\nsuch measures, B-mode outcomes may be confounded\r\nby system-specific differences in hardware and soft\u0002ware as well as user bias. In contrast, quantitative\r\nultrasound (QUS) applies a set of techniques that\r\nreduce system-dependent effects by exploiting beam\u0002formed radiofrequency (RF) data referenced to\r\ncalibrated phantoms with known acoustic properties.\r\nCommonly used QUS parameters include the\r\nattenuation and backscatter coefficients (αð Þf , BSC\r\n(f)), which are 2 fundamental quantitative descriptors\r\nof a tissue’s acoustic properties.10–12\r\nα and BSC, as well as other QUS parameters,\r\nhave been successfully applied to diagnose and char\u0002acterize disease and injuries in several tissues, includ\u0002ing liver, breast, and blood.11,13–15 In vivo research is\r\nemerging but characterization to date has been mainly\r\nex vivo,16–20 with well-controlled sizes of the samples\r\nselected21,22 and typically at frequencies <15 MHz.21\r\nSeveral studies already addressed the issue of the\r\nrepeatability and reproducibility of α and BSC mea\u0002surements in well controlled phantoms.23,24 A com\u0002monly used analytical approach to estimating αð Þf ,\r\nthe spectral difference method (SDM), requires an\r\nassumption of medium homogeneity and the use of a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "calibrated reference phantom. Another standard\r\nmethod based on spectral log difference method\r\n(SLDM), which treats a given ROI with a different\r\nalgorithm, is theoretically less dependent on changes\r\nin scatterer density or reflections but has the same\r\nassumption of homogeneity.25 These prior studies\r\nexpose 2 challenges associated with characterizing\r\nmore diverse imaging targets: 1) complexity of struc\u0002tures between the tissue of interest and the transducer\r\n(ie, signal energy loss from overlying tissues attenua\u0002tion), and 2) the structural complexity within the tissue\r\nof interest (ie, effects of tissue heterogeneity).26–28\r\nBoth of these challenges challenge in vivo application\r\nof QUS to peripheral nerves, which are well-organized\r\nbut architecturally complex composite tissues residing\r\nbeneath and between several layers of skin, fat, muscle,\r\nand/or tendon. Although QUS has been successfully\r\napplied to nerve imaging both in situ29,30 and in vivo\r\ndespite these potential limitations,31,32 understanding\r\nhow tissue complexity and heterogeneity may con\u0002found QUS remains an important goal to increase con\u0002fidence in QUS outcomes.\r\nThe purpose of this study was to assess the vari\u0002ability of BSC-related QUS outcomes in the human\r\nmedian nerve in vivo, using different attenuation\r\ncompensation methods. In particular, we assessed var\u0002iability in attenuation compensation and calculation\r\nof BSC using methods based on SDM and SLDM.\r\nWe also evaluated the utility of 2 literature\u0002value-based analytical approaches, in which the influ\u0002ences of overlying tissues were compensated using\r\npublished attenuation values of each layered tissue\r\ntype.32–35 Our study examines advantages and disad\u0002vantages of each analytical method when applying\r\nin vivo QUS to peripheral nerves and other heteroge\u0002neous tissues and provide a basis for future analytical\r\nimprovements.\r\nMaterials and Methods\r\nImaging\r\nThe protocol was approved by the VA San Diego\r\ninstitutional review board and data were collected\r\nunder informed consent. Phantom and in vivo ultra\u0002sound acquisitions were made with a VevoMD system\r\n(Fujifilm, Toronto, Ontario, Canada) using a UHF22\r\narray with center frequency of 11 MHz, for a \u00026 dB\r\nbandwidth ranging from 5 to 16 MHz. The scanner\r\nresearch mode allowed acquisition of beam-formed\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "RF signals. Maximal imaging depth was set to 25 mm,\r\nfocal depth set to 10.5 mm, dynamic range was set to\r\n65 dB, and time gain compensation was set to 50 dB\r\n(ie, neutral) at each of the 2 allowable depths, so as\r\nnot to influence attenuation outcomes.\r\nWe performed 3 acquisitions in a tissue\u0002mimicking reference phantom custom-designed for\r\nWu et al—Attenuation Compensation Approaches to Evaluate Median Nerves\r\n98 J Ultrasound Med 2025; 44:97–109\nthe range of frequencies appropriate for the UHF22\r\ntransducer (Mirion/CIRS, Norfolk, Virginia, USA,\r\nformula RDG 5435) (Figure 1A). The probe was\r\nremoved from the surface of the phantom for\r\n5 seconds between acquisitions. The phantom was\r\ncylindrical (\u000325-mm thick, \u000330-mm radius) with\r\nsaran windows on top and bottom. It was character\u0002ized by a through-transmission technique33,34\r\nbetween 5 and 55 MHz following a frequency (f)\r\ndependence model for attenuation α of the form:\r\nα ð Þ¼ f A\u0004 f\r\nb þc ð1Þ\r\nwhere A is the attenuation coefficient in\r\ndB\u0004cm\u00021 \u0004MHz\u0002b, b is the nonlinearity coefficient,\r\nand c is an offset in dB\u0004cm\u00021; our reference phantom\r\nFigure 1. Example images of (A) phantom with region of interest in purple and (B) median nerve. Layers of skin, fat, tendon, and muscle\r\nare indicated with vertical white lines. Median nerve is outlined in red, inclusive of epineurium. C, Six analytical schemes for attenuation\r\ncompensation were evaluated. Black, dark grey, and light grey boxes represent tissue layers overlying the nerve, represented by the check\u0002ered ellipse. (A and B are shown in the same scale displayed on the right in B in millimeters.)\r\nWu et al—Attenuation Compensation Approaches to Evaluate Median Nerves\r\nJ Ultrasound Med 2025; 44:97–109 99\nhas A = 0.2089 dB\u0004cm\u00021 \u0004MHz\u0002b, b = 1.4183, and\r\nc = 0.2712 dB\u0004cm\u00021.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "A single skilled ultrasound operator then per\u0002formed 9 transdermal in vivo acquisitions of the volar\r\naspect of the median nerve in each of 5 volunteers\r\nwith no reported symptoms of median neuropathy\r\nbased on the Boston Carpal Tunnel Syndrome Ques\u0002tionnaire (Figure 1B, Table 1). Each nerve was\r\nassessed to be healthy (ie, asymptomatic).35 Axial\r\nimages and their corresponding RF data were\r\nacquired at the distal wrist crease, as described in a\r\nprior repeatability and reproducibility study.32\r\nEstimation of Attenuation and Backscatter Coefficient\r\nThree different attenuation compensation methods\r\nwere evaluated individually or in combination to\r\nassess attenuation, for a total of 6 analytical schemes\r\n(Figure 1C). First, attenuation within a region of\r\ninterest (ROI) comprised of tissue layers overlying\r\nthe nerve or an ROI outlining the nerve boundary,\r\ninclusive of the epineurium, as a function of fre\u0002quency using SDM, as described in previous stud\u0002ies36,37 using\r\nαSDM ¼ aSDM þf\r\nbSDM ð2Þ\r\nThe ROI was subdivided into sub-ROIs, which\r\nwere assessed in accordance with recommendations\r\nfrom the literature, taking 12 A-lines in the lateral\r\ndirection and 12 wavelengths in the axial direction for\r\neach sub-ROI, for at least 4 sub-ROIs, overlapping\r\neach other for 50% of their areas.25,38 In scheme\r\n1, SDM was applied separately for overlying tissue\r\nand the nerve ROI (“SDM global–local”). In scheme\r\n3, SDM was applied to overlying tissue and attenua\u0002tion characteristics transferred to the nerve ROI\r\n(“SDM global–global”).\r\nSecond, the SLDM was used to compute fre\u0002quency dependent attenuation, as published in previ\u0002ous study36:\r\nαSLDM ¼ aSLDM þf\r\nbSLDM ð3Þ\r\nSLDM is similar to SDM in principle. However,\r\nSDM provides a value for an averaged local attenuation\r\nwithin an ROI, whereas SLDM considers the global\r\nvariation between signals from posterior (deep) and\r\nanterior (superficial) faces of the ROI. As such, SLDM\r\nis posited to be less sensitive to changes in scatterer\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "density and reflections than SDM, as long as they\r\nappear between the 2 sub-ROIs; additional details on\r\nthis approach may be found in earlier studies.36,37\r\nThird, attenuation of tissues overlying the region\r\nof interest inscribing the nerve boundary, αlit, was esti\u0002mated using attenuation values from the literature for\r\nskin,39 fat, tendons,40 and muscles.41 A composite\r\nliterature-based attenuation value was determined based\r\non these values and the measured anterior–posterior\r\nthickness of each tissue layer, which was manually seg\u0002mented in each B-mode image. Scheme 5 applied these\r\npublished values to all layers (“literature”), while scheme\r\n6 used measured attenuation characteristics from the rel\u0002atively homogeneous muscle layer and combined these\r\nvalues with published values for the other nonmuscle\r\nlayers (“hybrid”). SDM and SLDM were also applied to\r\nphantom data acquired with the same scanner settings.\r\nThe BSCs presented in this study were assessed\r\nusing Equation (4)\r\n42:\r\nBSCmeasð Þ¼ f BSCrefð Þf Pmeasð Þf\r\nPrefð Þf e\r\n\u00024z A\u0004f\r\nb\r\n\u0002αref ½ \u0005 ð Þf ð4Þ\r\nwhere BSC is the backscatter coefficient in\r\nsr\u00021 \u0004cm\u00021, z the depth of the ROI in cm, and attenu\u0002ation parameters from Equation (1), BSCref is the\r\nbackscatter coefficient of the reference phantom in\r\nsr\u00021 \u0004cm\u00021. αref is phantom attenuation in dB\u0004cm\u00021,\r\nand αmeasð Þf replaced with values for attenuation\r\nnoted above (Equation 1). Pmeas and PRef are the sig\u0002nal from the tissue and from the reference, respec\u0002tively. Based on these attenuation compensation\r\ntechniques, corresponding BSCs and their integrated\r\nbackscattered coefficients (iBSCs), assessed on the –\r\n6 dB bandwidth of the signal spectra, were calculated.\r\nTable 1. Demographics Table of Participants\r\nVariables Categories Frequency Percentage\r\nGender Females 1 20%\r\nMales 4 80%\r\nAge 18–29 2 40%\r\n30–39 1 20%\r\n40–49 1 20%\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "50–59 1 20%\r\nWu et al—Attenuation Compensation Approaches to Evaluate Median Nerves\r\n100 J Ultrasound Med 2025; 44:97–109\nSignal treatment and analysis were performed off\u0002line using a custom graphical user interface (MATLAB,\r\nThe Math Works, Natick, MA, USA).43\r\nStatistics\r\nMean parameter values were compared using one\u0002way analysis of variance. Post hoc comparisons\r\nbetween individual experimental groups were per\u0002formed by the Tukey’s honestly significant difference\r\ntest, which accounts for multiple comparisons. Sam\u0002ple size for each group was n = 5 participants. This\r\nsample size was determined based on a power calcula\u0002tion with α = 0.05, 1 – β (power) = 0.8, 6 experi\u0002mental groups, and a moderate effect size of 0.75\r\n(G*Power 3.1.9.7).44,45 Data are represented as\r\nmean \u0006 standard error. Significant differences are\r\ndesignated as *P < .05; **P < .01; ***P < .001.\r\nResults\r\nWe first evaluated how SDM and SLDM analytical\r\nmethods influenced the calculation of attenuation-based\r\nparameters in idealized conditions ex vivo, using a\r\nhomogeneous phantom. Both approaches provide low\r\nvariability and a stable numerical solution, meaning that\r\nthe fit of the attenuation curves as a function of fre\u0002quency do not reach the limit boundaries set for the\r\nanalysis (ie, the fitting algorithms converge46,47). The\r\nSLDM approach results in slightly higher values for the\r\nattenuation coefficient A and slightly lower values for\r\nthe nonlinearity b coefficient than the SDM method,\r\nand the SDM method more accurately reproduces coef\u0002ficients measured from the transmission method\r\n(Figure 2).\r\nWe next calculated attenuation-based parameters\r\nfrom acquisitions in vivo, for which heterogeneity of\r\ntargeted peripheral nerves and overlying layers of tis\u0002sue could confound analysis. Within-participant vari\u0002ability as well as between-participant parameter values\r\nwere compared among several schemes (Figure 1C),\r\nallowing comparisons among SDM (schemes 1 and\r\n3), SLDM (schemes 2 and 4), and literature-based\r\napproaches (schemes 5–6). These schemes also\r\nallowed us to evaluate the utility of independently\r\nestimating attenuation parameters from the local\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Figure 2. A and B, Boxplots of attenuation coefficient (α) and nonlinearity coefficient (b) estimated based on spectral difference method\r\n(SDM) and spectral log difference method (SLDM). C and D, One example of attenuation coefficient estimation in the homogeneous phan\u0002tom for SDM (C) and SLDM (D). (The attenuation and nonlinearity coefficients measured from transmission method\r\nare A ¼ 0:209,b ¼ 1:420.)\r\nWu et al—Attenuation Compensation Approaches to Evaluate Median Nerves\r\nJ Ultrasound Med 2025; 44:97–109 101\nnerve ROI (schemes 1 and 2 [“global–local”]) versus\r\nassigning global values from overlying tissue to under\u0002lying nerve ROIs (schemes 3 and 4 [“global–\r\nglobal”]).\r\nWithin-participant variance in the global attenua\u0002tion coefficient A was highest in the hybrid method\r\n(Figure 3A, scheme 6; Table 4), though this variabil\u0002ity was over an order of magnitude lower than that of\r\nFigure 3. Attenuation coefficient assessments from different analytical schemes. Variance of the (A) global attenuation coefficient and (B)\r\nlocal attenuation coefficients for each analytical scheme. Local attenuation coefficients were only applied to schemes 1 and 2. Mean (C) global\r\nattenuation coefficients and (D) local attenuation coefficients for each analytical scheme. Variance of (E) global nonlinearity coefficient and (F)\r\nlocal nonlinearity coefficient for each analytical scheme. Mean (G) global nonlinearity coefficient and (H) local nonlinearity coefficients for each\r\nanalytical scheme. Significance between individual groups based on Tukey’s multiple comparison test (*, <.05; **, <.01; ***, <.001).\r\nWu et al—Attenuation Compensation Approaches to Evaluate Median Nerves\r\n102 J Ultrasound Med 2025; 44:97–109\nthe local attenuation coefficient estimated using the\r\nSDM method (Figure 3B, scheme 1; Table 2). Corre\u0002spondingly, between-participant variability in the\r\nglobal attenuation coefficient for scheme\r\n6 (Figure 3C) and local attenuation coefficient for\r\nscheme 1 (Figure 3D) were also higher. For non\u0002linearity coefficients, variance in both global and local\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "nonlinearity coefficients were higher for SDM\r\nmethods, irrespective of whether the nerve ROI was\r\nevaluated independently or assigned attenuation\r\nvalues from overlying tissues (Figure 3, E and F;\r\nschemes 1 and 3 versus 2, 4, 5, and 6). Correspond\u0002ingly, between-participant variability in global and\r\nlocal nonlinearity coefficients were also higher for\r\nSDM-associated methods (schemes 1 and 3, Figure 3,\r\nG and H) compared to SLDM- and literature-based\r\nmethods (schemes 2, 4, 5, and 6; Figure 3, G and H),\r\nirrespective of whether nerve ROIs were treated inde\u0002pendently (schemes 1 versus 3 and 2 versus 4).\r\nAs also found for the analyzed phantom, SLDM\u0002based attenuation coefficients were significantly higher\r\nand nonlinearity coefficients trended lower than SDM\u0002based coefficients (Figure 3, C, D, G, and H).\r\nGiven the differences in attenuation parameters\r\ndepending on analytical strategy, we next tested the\r\nimpact of variability in these parameters on BSC\r\n(Figure 4). As was the case for attenuation parame\u0002ters, within-participant variance in iBSC and slope\r\nwere higher when SDM was separately applied to\r\noverlying tissues in combination with the local nerve\r\nROI (scheme 1) compared to any other method\r\n(schemes 2–6; Figure 4, A and C). For the\r\ny-intercept, all 3 analytical schemes with an SDM\r\ncomponent (schemes 1, 3, and 6) also had higher\r\nwithin-participant variance than SLDM- or pure\r\nliterature-based groups (schemes 2, 4, and 5). Mean\r\nvalues of iBSC and slope were higher for all SLDM\r\ngroups (schemes 2 and 4) compared to all\r\nother groups (Figure 4, B and D). There were no dif\u0002ferences in y-intercept among all groups. These differ\u0002ences were also observed in the frequency\r\ndependence of BSC. When SDM-based schemes were\r\ndeployed, BSC values stayed generally constant across\r\nall frequencies and were substantially lower than for\r\nother schemes over the analyzed range of frequencies\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "(schemes 1, 3, and 6; Figure 4G). On the other hand,\r\nwhen SLDM- or pure literature-based approaches\r\nwere applied to overlying tissues, BSC displayed a\r\npositive relationship with frequency (schemes 2, 4,\r\nand 5; Figure 4G).\r\nDiscussion\r\nQUS approaches are posited to have low sensitivity\r\nto platform-specific effects, due to the use of known\r\nreference phantoms. However, they remain a chal\u0002lenge to deploy widely for soft tissues in vivo, such as\r\nfor peripheral nerves, because of the complexity and\r\nheterogeneity of layered tissues, especially at high fre\u0002quencies and possibly because of the small nerve size\r\nso ROIs are also smaller. These challenges are\r\nhypothesized to substantially influence attenuation\r\ncompensation, which is a key step in BSC assessment.\r\nIn this study, we investigated several analytical\r\napproaches to understand and account for the influ\u0002ence of variability in attenuation compensation on\r\nvariability in BSC values.\r\nSDM and SLDM Analytical Schemes\r\nBaseline results calculated using SDM and SLDM\r\napproaches in a homogeneous phantom (Figure 1)\r\nallowed a number of useful comparisons to\r\nTable 2. The Variance of Local Attenuation a (dB\u0004 cm\u00021 \u0004MHz\u0002b)\r\nBetween Repeated Images From 5 Participants for 6 Different\r\nSchemes\r\nVariance of Local Attenuation Between Repeated Images\r\nSchemes 1 2\r\nParticipant A 2265.777 0.443\r\nParticipant B 23.751 0.625\r\nParticipant C 15.892 0.116\r\nParticipant D 259.769 0.473\r\nParticipant E 12.958 0.420\r\nTable 3. The Variance of Local Nonlinearity Coefficient Between\r\nRepeated Images From 5 Participants for 6 Different Schemes\r\nVariance of Local Nonlinearity Coefficient Between\r\nRepeated Images\r\nSchemes 1 2\r\nParticipant A 1.693 0.021\r\nParticipant B 0.391 0.015\r\nParticipant C 0.425 0.009\r\nParticipant D 0.138 0.028\r\nParticipant E 0.111 0.016\r\nWu et al—Attenuation Compensation Approaches to Evaluate Median Nerves\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "J Ultrasound Med 2025; 44:97–109 103\nFigure 4. Backscatter coefficient results for different schemes. Within-subject variance and between-subject mean of (A and B) iBSC,\r\n(C and D) slope, and (E and F) y-intercept for different analytical schemes. Significance between individual groups based on Tukey’s multi\u0002ple comparison test (*, <.05; **, <.01; ***, <.001). G, Raw BSC versus frequency curves from 5 participants of 6 different analytical\r\nschemes.\r\nWu et al—Attenuation Compensation Approaches to Evaluate Median Nerves\r\n104 J Ultrasound Med 2025; 44:97–109\nexperimental configurations in vivo (Figure 2). In\r\nphantoms, both SDM and SLDM approaches were\r\nstable, with SDM-based outcomes better matching\r\nparameters characterized using through\u0002transmission-based methods.25 In vivo, ROIs were\r\nselected in accordance with recommendations from\r\nthe literature. Application of SDM to ROIs of tissues\r\noverlying the nerve or the nerve ROI itself (schemes\r\n1, 3, and 6) resulted in high variability in attenuation\r\nand BSC parameters. This is not surprising, given tis\u0002sue heterogeneity within the ROI standing in contrast\r\nto the assumption of medium homogeneity for SDM;\r\nnevertheless, the substantial variability provided the\r\n“worst-case scenario” against which other strategies\r\ncould be compared.\r\nApplication of the SLDM (schemes 2 and 4) to\r\nin vivo imaging of nerves markedly reduced variability\r\nin attenuation parameters and BSC-based outcomes.\r\nSLDM is conceptually analogous to SDM, with the\r\nexception that the attenuation is obtained between\r\nsub-ROIs at anterior and posterior faces of the ROI,\r\nproviding a global attenuation value between the\r\n2 sub-ROIs.25 While still sensitive to heterogeneity in\r\nthe ROI, this method has the potential to reduce the\r\nimpact of discontinuities across an interface between\r\nmedia. This may explain the lower variability of out\u0002comes obtained with SLDM (Figures 3–4,\r\nTables 2–4). These patterns were consistent for mul\u0002tiple participants, where between-participant variance\r\nscaled with within-participant variance; indeed, for\r\nthose schemes with low within-participant variance\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "(SLDM- and literature-based schemes 2, 4, 5, and 6),\r\nmean values were consistent between participants\r\n(Figures 3–4). With respect to the utility of\r\nTable 6. The Variance of iBSC Between Repeated Images From 5 Participants for 6 Different Schemes\r\niBSC Variance Between Images\r\nSchemes 1 2 3 4 5 6\r\nParticipant A 12,792.734 201.654 84.868 44.559 10.166 25.061\r\nParticipant B 63.603 32.686 256.288 52.439 4.852 59.265\r\nParticipant C 37.812 143.355 124.266 549.324 4.722 60.611\r\nParticipant D 36.706 184.020 36.452 231.667 36.968 45.072\r\nParticipant E 42.237 118.172 86.977 132.480 4.722 13.248\r\nTable 5. The Variance of Nonlinearity Coefficient Between Repeated Images From 5 Participants for 6 Different Schemes\r\nVariance of Global Nonlinearity Coefficient Between Repeated Images\r\nSchemes 1 2 3 4 5 6\r\nParticipant A 4.431 0.003 4.431 0.003 0.002 0.012\r\nParticipant B 0.325 0.003 0.325 0.003 0.002 0.052\r\nParticipant C 0.168 0.009 0.168 0.009 0.001 0.164\r\nParticipant D 0.245 0.005 0.245 0.005 0.000 0.154\r\nParticipant E 0.155 0.001 0.155 0.001 0.001 0.029\r\nTable 4. The Variance of Global Attenuation a (dB:cm\u00021 \u0004MHz\u0002b) Between Repeated Images From 5 Participants for 6 Different Schemes\r\nVariance of Global Attenuation Between Repeated Images\r\nSchemes 1 2 3 4 5 6\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Participant A 0.036 0.236 0.036 0.236 0.014 0.208\r\nParticipant B 0.863 0.340 0.863 0.340 0.026 6.897\r\nParticipant C 0.585 0.519 0.585 0.519 0.009 83.264\r\nParticipant D 0.369 0.420 0.369 0.420 0.002 1.495\r\nParticipant E 1.908 0.153 1.908 0.153 0.009 0.513\r\nWu et al—Attenuation Compensation Approaches to Evaluate Median Nerves\r\nJ Ultrasound Med 2025; 44:97–109 105\nestimating attenuation parameters independently in\r\nnerve ROI (ie, “global–local” vs. “global–global”),\r\nthere appeared to be no advantage (schemes 1 and\r\n2 versus 3 and 4), and in fact for SDM-based\r\napproaches, independent measurement in the nerve\r\nROI increased the variability of attenuation coeffi\u0002cients (Figure 3B, Tables 4 and 5) and ultimately,\r\niBSC and slope (Figure 4, A and C, Table 6). It is\r\nnot clear why SDM applied to a nerve ROI yielded\r\nsuch variability but may reflect impacts of substantial\r\nheterogeneity within a comparatively small ROI. In\r\nterms of mean parameter values, as for the phantom,\r\nSLDM resulted in increased attenuation coefficients\r\nand decreased nonlinearity coefficients and increased\r\niBSC and slope compared to SDM. This is likely in\r\npart to reflect fitting of the analytical model, which\r\nvaries in number of sub-ROIs (fewer in SLDM) and\r\nalso the details of the fitting function itself (Figure 2,\r\nC and D).25\r\nLiterature-Based Approaches\r\nAn alternative strategy for reducing the variability\r\nin vivo was to account for overlying tissues using\r\nliterature-based values for attenuation (schemes 5–\r\n6). There was no longer an impact of acoustic mea\u0002surements in overlying layers on variability (ie,\r\nattenuation properties for each layer were constant,\r\nexcepting any variability in manual segmentation),\r\nso this convenient technique efficiently decreased\r\nthe variance of nerve QUS measurements in vivo,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "compared with SDM (Figures 3–4). A hybrid\r\napproach in which literature values for overlying\r\ntissues were combined with measurements of more\r\nhomogeneous tissue layers (scheme 6), also gener\u0002ally yielded lower variance for attenuation parame\u0002ters and iBSC-related outcomes compared to SDM\u0002based approaches, with the exception of global\r\nattenuation coefficient, where variability was high.\r\nThis finding suggests that variability in slope and\r\niBSC appears to be driven by high local nerve ROI\r\nattenuation variability. It also suggests that the vari\u0002ability exhibited by SDM outcomes may be due to\r\nthe multi-layered complexity of the composite\r\nmedium, rather than generalized heterogeneity in\r\nand of itself. It may be interesting to compare the\r\nliterature method with composite attenuations\r\nfrom permutations of different overlying tissue\r\nlayers.\r\nCoupling Between Variability in Attenuation\r\nParameters and Variability in BSC\r\nMultiple results suggested that reducing variability in\r\nattenuation parameters can reduce variability in BSC\r\n(Figures 3–4, Tables 2–4). This is expected conceptu\u0002ally, based on the importance of attenuation correc\u0002tion for BSC estimates, irrespective of analytical\r\nscheme. On the other hand, the degree of such cou\u0002pling was not always predictable. An examination of\r\nBSC theoretically sheds some light on this depen\u0002dence. The differential expression of the analytic BSC\r\nin Equation (4) can be expressed as:\r\ndBSCmeasð Þ A,dA,b,db,f\r\n¼ ∂BSCmeasð Þ A,b,f\r\n∂A\r\ndAþ\r\n∂BSCmeasð Þ A,b,f\r\n∂b db ð5Þ\r\nFor ∂BSCmeasð Þ A,b,f\r\n∂A dA ¼ C \u00024zf b\r\ne\r\n\u00024zAf b \u0001 \u0003dA, and\r\n∂BSCmeasð Þ A,b,f\r\n∂b db ¼ C \u00024zAf b lnð Þ\u0007 b e\r\n\u00024Af b \u0001 \u0003, where\r\nC ¼ BSCrefð Þf Pmeasð Þf\r\nPrefð Þf e\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "4zαrefð Þf , dBSCmeasð Þ¼ A,dA,b,db,f\r\nC \u0002 4zf b\r\ne4zAf b\r\n\u0001 \u0003ð Þ dAþAlnð Þb db , which upon simplifica\u0002tion is as follows:\r\ndBSCmeasð Þ¼ A,dA,b,db,f\r\n\u00024BSCmeaszf b\r\nð Þð dAþAlnð Þb db 6Þ\r\nIf dA and db reflect perturbations in attenuation\r\ncoefficient and nonlinearity coefficient (ie, error or\r\nvariability in these parameters), then their propaga\u0002tion to perturbation (“error”) in BSC is driven by the\r\nexpression ½ \u0005 dAþAlnð Þb db . This reveals a direct scal\u0002ing of dBSC with dA; however, given typical values\r\nfor b \u0003 1.0 (and thus ln(b) \u0003 0), db is less likely to\r\ninfluence dBSC. This may explain why high within\u0002participant variability was observed in both local atten\u0002uation coefficient and iBSC (scheme 1, Figure 3A\r\nversus 4A), but a higher variability in nonlinearity coef\u0002ficient in scheme 3 did not propagate to increased vari\u0002ance of iBSC (scheme 3, Figure 3A versus 4A).\r\nAdditional Sources of Variability and Limitations\r\nAttenuation is assumed to be homogeneous for\r\nreference phantom-based QUS analytical techniques,\r\nthus introducing a bias in attenuation and BSC\r\nmeasurements for both SDM- and SLDM-based\r\nWu et al—Attenuation Compensation Approaches to Evaluate Median Nerves\r\n106 J Ultrasound Med 2025; 44:97–109\napproaches12,48 and also precluding evaluation of\r\naccuracy of these approaches when evaluating the het\u0002erogeneous nerve. This bias may be minimized in\r\napproaches such as literature-based compensation.\r\nHowever, compensation based on values from the lit\u0002erature is dependent on the accuracy of published\r\nvalues, which were often captured ex vivo or at lower\r\nfrequencies, and also neglects influences of reflections\r\nat interfaces between tissues. Such reflections lead to\r\na loss in energy for the transmitted signal in vivo and\r\npotential artifacts in the assessment of attenuation,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "leading to contributions from both error in attenua\u0002tion and an error on the speckle features themselves\r\n(in power and structure of the signal).26–28,48 In addi\u0002tion, the SDM and SLDM approaches to calculate\r\nattenuation assume a linear relationship between the\r\nemitted and the received signal; nonlinearities from\r\nthe medium were not considered. For high intensities\r\nin particular, a part of the energy might shift to higher\r\nfrequencies. Appropriate models to those nonlinear\r\ncomponents in backscattered signals have already\r\nbeen proposed for the general case.49 Finally, the het\u0002erogeneity of the tissue within the ROI as well as arti\u0002facts due to reverberation and shadows in the tissues\r\nlocated between the ROI and the transducer are\r\nsources of variability in BSC as well as in attenuation\r\nparameters, as described previously. The size and\r\nshape of the selected nerve ROI and the tissue com\u0002ponents within it may also create some variability. A\r\nminimum of 12 A-lines or 12 pulse lengths in each\r\ndirection were employed for suitable organization of\r\nrectangular sub-ROIs25 thus dictating a minimum size\r\nand orientation for the ROI. In a prior study of smaller\r\nrat nerves, these approaches showed stability,50 but\r\nsome analytical error is nevertheless expected for\r\nSDM and SLDM schemes. Also, the epineurium was\r\nincluded in the nerve ROI due to its histopathologic\r\nimportance diagnostically,51 but increases heterogene\u0002ity. Finally, while outcomes were compared for multi\u0002ple samples, participants do not represent a normative\r\ncontrol cohort as limited sample size and age range\r\nwere evaluated in this study; a larger and more diverse\r\ncohort will ultimately be required to test diagnostic\r\nefficacy. The relative strengths and weaknesses of each\r\nmethod presented in this study, with respect to poten\u0002tial sources of variability identified, are summarized in\r\nTable 7. These should be considered depending on\r\nstudy objectives, when developing imaging and analyti\u0002cal approaches for in vivo imaging.\r\nConclusion and Perspectives\r\nGiven higher variability in attenuation-based out\u0002comes, SDM may not be a suitable analytical\r\napproach to account for multilayered tissues overlying\r\nperipheral nerves. In contrast, SLDM and literature\u0002based methods exhibited more stability. Thus, despite\r\ntheir own limitations, these methods may provide\r\nmore confidence for potential diagnostic application.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Accuracy of the measurements was not studied and is\r\ndifficult to perform in vivo. However, future studies\r\nwith models and phantoms developed specifically for\r\nheterogeneous tissues as well as more accurate assess\u0002ments of attenuation in nerves under more controlled\r\nexperimental conditions (eg, in situ/in vivo without\r\noverlying tissue or ex vivo in idealized media) will\r\nallow more effective evaluation of the accuracy of\r\nattenuation-based QUS outcomes. Collectively,\r\nour data provide suggestions for applying QUS\r\napproaches for in vivo nerve imaging, and raise\r\nTable 7. A Nonexhaustive List of Potential Sources of Variability Are Listed, as Well as the Corresponding Sensitivity of Each Technique\r\nScheme\r\nSource of Variability 1 2 3 4 5 6\r\nInterfaces/Reflections ++ + ++ + \u0002 \u0002\r\nTissue heterogeneity ++ + ++ + \u0002 +\r\nHeterogeneity and size of nerve ROI ++ + NA NA NA NA\r\nPublished values of attenuation NA NA NA NA ++ ++\r\nPerformance in homogeneous phantom \u0002 + \u0002 + NA NA\r\n“–” stands for little sensitivity; “+” stands for high sensitivity; and “++” stands for critical sensitivity.\r\nWu et al—Attenuation Compensation Approaches to Evaluate Median Nerves\r\nJ Ultrasound Med 2025; 44:97–109 107\npotential considerations that must be considered\r\nfor other applications.\r\nData Availability Statement\r\nThe data that support the findings of this study are\r\navailable from the corresponding author upon reason\u0002able request.\r\nReferences\r\n1. Rocks MC, Donnelly MR, Li A, et al. Demographics of common\r\ncompressive neuropathies in the upper extremity. Hand 2024; 19:\r\n217–223.\r\n2. Lee KT, Bulls HW, Hoogland AI, James BW, Colon\u0002Echevarria CB, Jim HSL. Chemotherapy-induced peripheral neu\u0002ropathy (CIPN): a narrative review and proposed theoretical\r\nmodel. Cancer 2024; 16:2571.\r\n3. Singh U, Sharma R, Kumar R. An overview on diabetic neuropa\u0002thy. Curr Diabetes Rev 2024; 24:20.\r\n4. Robinson LR. Traumatic injury to peripheral nerves. Muscle Nerve\r\n2022; 66:661–670.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "5. Bourke G, Wade RG, van Alfen N. Updates in diagnostic tools for\r\ndiagnosing nerve injury and compressions. J Hand Surg 2024; 49:\r\n668–680.\r\n6. Bateman EA, Pripotnev S, Larocerie-Salgado J, Ross DC,\r\nMiller TA. Assessment, management, and rehabilitation of trau\u0002matic peripheral nerve injuries for non-surgeons. Muscle Nerve.\r\nPublished online June 21, 2024. doi:10.1002/mus.28185\r\n7. Ma X, Du L, Yuan W, Han T. Application and Research Progress of\r\nHigh Frequency Ultrasound in the Diagnosis of Chronic Inflammatory\r\nNeuropathies. Vol 13. Front Neurol; 2022.\r\n8. Nakashima Y, Sunagawa T, Shinomiya R, Kodama A, Adachi N.\r\nPoint-of-care ultrasound in musculoskeletal field. J Med Ultrason\r\n2022; 49:663–673.\r\n9. Zhou LY, Xie XY, Xu EJ, et al. [The clinical value of high fre\u0002quency ultrasound in diagnosis of peripheral nerve diseases].\r\nZhonghua Wai Ke Za Zhi 2008; 46:654–656.\r\n10. Morris DC, Chan DY, Lye TH, et al. Multiparametric ultrasound\r\nfor targeting prostate cancer: combining ARFI, SWEI, QUS and\r\nB-Mode. Ultrasound Med Biol 2020; 46:3426–3439.\r\n11. Rohrbach D, Wodlinger B, Wen J, Mamou J, Feleppa E. High-frequency\r\nquantitative ultrasound for imaging prostate cancer using a novel micro\u0002ultrasound scanner. Ultrasound Med Biol 2018; 44:1341–1354.\r\n12. Feleppa EJ, Mamou J, Porter CR, MacHi J. Quantitative ultra\u0002sound in cancer imaging. Semin Oncol 2011; 38:136–150.\r\n13. Lin SC, Heba E, Wolfson T, et al. Noninvasive diagnosis of non\u0002alcoholic fatty liver disease and quantification of liver fat using a\r\nnew quantitative ultrasound technique. Clin Gastroenterol Hepatol\r\n2015; 13(7):1337–1345.e6.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "14. Han A, Zhang YN, Boehringer AS, et al. Assessment of hepatic\r\nsteatosis in nonalcoholic fatty liver disease by using quantitative\r\nUS. Radiology 2020; 295:106–113.\r\n15. Franceschini E, Yu FTH, Destrempes F. Ultrasound characteriza\u0002tion of red blood cell aggregation with intervening attenuating\r\ntissue-mimicking phantoms. J Acoust Soc Am 2010; 127:1104–\r\n1115.\r\n16. Chaturvedi P, Insana MF, Hall TJ. Comparison of spectral estima\u0002tion methods in reconstruction of parametric ultrasound images.\r\nMedical Imaging 1996: Image Processing. SPIE; 1996:624-634.\r\n17. Lizzi LF, Astor M, Deng C, Coleman DJ, Silverman RS. Ultrasonic\r\nspectrum analysis for tissue assays and therapy evaluation. Int Imag\u0002ing Syst Technol 1997; 8:3–10.\r\n18. Nam K, Rosado-Mendez IM, Wirtzfeld LA, et al. Ultrasonic atten\u0002uation and backscatter coefficient estimates of rodent\u0002tumor-mimicking structures: comparison of results among clinical\r\nscanners. Ultrason Imaging 2011; 33:233–250.\r\n19. Oelze ML, O’Brien WD. Frequency-dependent attenuation\u0002compensation functions for ultrasonic signals backscattered from\r\nrandom media. J Acoust Soc Am 2002; 111:2308.\r\n20. Oelze ML, Zachary JF. Examination of cancer in mouse models\r\nusing high-frequency quantitative ultrasound. Ultrasound Med Biol\r\n2006; 32:1639–1648.\r\n21. Lavarello R, Oelze M. Quantitative ultrasound estimates from\r\npopulations of scatterers with continuous size distributions. IEEE\r\nTrans Ultrason Ferroelectr Freq Control 2011; 58:744–753.\r\n22. Lavarello RJ, Ghoshal G, Oelze ML. On the estimation of back\u0002scatter coefficients using single-element focused transducers.\r\nJ Acoust Soc Am 2011; 129:2903–2911.\r\n23. Nam K, Rosado-Mendez IM, Wirtzfeld LA, et al. Comparison of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "ultrasound attenuation and backscatter estimates in layered tissue\u0002mimicking phantoms among three clinical scanners. Ultrason Imag\u0002ing 2012; 34:209–221.\r\n24. Wear KA, Stiles TA, Frank GR, et al. Interlaboratory comparison\r\nof ultrasonic backscatter coefficient measurements from 2 to\r\n9 MHz. 2005; 24:1235–1250.\r\n25. Labyed Y, Bigelow TA. A theoretical comparison of attenuation\r\nmeasurement techniques from backscattered ultrasound echoes.\r\nJ Acoust Soc Am 2011; 129:2316.\r\n26. Chappard C, Camus E, Lefebvre F, et al. Evaluation of error bou\u0002nds on calcaneal speed of sound caused by surrounding soft tissue.\r\nJ Clin Densitom 2000; 3:121–131.\r\n27. Droin P, Berger G, Laugier P. Velocity dispersion of acoustic waves\r\nin cancellous bone. IEEE Trans Ultrason Ferroelectr Freq Control\r\n1998; 45:581–592.\r\nWu et al—Attenuation Compensation Approaches to Evaluate Median Nerves\r\n108 J Ultrasound Med 2025; 44:97–109\n28. O’Brien WD. Direct ultrasonic velocity measurements of mamma\u0002lian collagen threads. J Acoust Soc Am 1979; 65:507–511.\r\n29. Byra M, Wan L, Wong JH, et al. Quantitative ultrasound and\r\nB-mode image texture features correlate with collagen and myelin\r\ncontent in human ulnar nerve fascicles. Ultrasound Med Biol 2019;\r\n45:1830–1840.\r\n30. Byra M, Hentzen E, Du J, Andre M, Chang EY, Shah S. Assessing\r\nthe performance of morphologic and echogenic features in median\r\nnerve ultrasound for carpal tunnel syndrome diagnosis.\r\nJ Ultrasound Med 2020; 39:1165–1174.\r\n31. Klimonda Z, Karwat P, Dobruch-Sobczak K, Piotrzkowska\u0002Wr\u0002oblewska H, Litniewski J. Breast-lesions characterization using\r\nquantitative ultrasound features of peritumoral tissue. Sci Rep 2019;\r\n9:7963.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "32. Wu Y, Barrere V, Han A, Chang EY, Andre MP, Shah SB. Repeat\u0002ability, reproducibility and sources of variability in the assessment\r\nof backscatter coefficient and texture parameters from high\u0002frequency ultrasound acquisitions in human median nerve. Ultra\u0002sound Med Biol 2023; 49:122–135.\r\n33. Han A, Andre MP, Erdman JW, Loomba R, Sirlin CB,\r\nO’Brien WD. Repeatability and reproducibility of a clinically based\r\nQUS phantom study and methodologies. IEEE Trans Ultrason\r\nFerroelectr Freq Control 2017; 64:218–231.\r\n34. Yao LX, Zagzebski JA, Madsen EL. Backscatter coefficient mea\u0002surements using a reference phantom to extract depth-dependent\r\ninstrumentation factors. Ultrason Imaging 1990; 12:58–70.\r\n35. Leite JC d C, Jerosch-Herold C, Song F. A systematic review of\r\nthe psychometric properties of the Boston Carpal Tunnel Ques\u0002tionnaire. BMC Musculoskelet Disord 2006; 7:78.\r\n36. Labyed Y, Bigelow TA. A theoretical comparison of attenuation\r\nmeasurements techniques from backscattered ultrasound echoes.\r\nJ Acoust Soc Am 2011; 129:2316–2324.\r\n37. Labyed Y, Bigelow TA. Etimating the total ultrasound attenuation\r\nalong the propagation path by using a reference phantom. J Acoust\r\nSoc Am 2010; 128:3232–3238.\r\n38. Bigelow TA, Labyed Y. Attenuation Compensation and Estima\u0002tion. Adv Exp Med Biol 2013; 1403: 67–84.\r\n39. Moran CM, Bush NL, Bamber JC. Ultrasonic propagation properties\r\nof excised human skin. Ultrasound Med Biol 1995; 21:1177–1190.\r\n40. Greenleaf JF. Tissue Characterization with Ultrasound. Vol I.\r\nRochester, MN: CRC Press; 1986:17-43.\r\n41. Glueck RM, Mottley JG, Sobel BE, Miller JG, Pérez JE. Changes\r\nin ultrasonic attenuation and backscatter of muscle with state of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "contraction. Ultrasound Med Biol 1985; 11:605–610.\r\n42. Yao LX, Zagzebski JA, Madsen EL. Backscatter coefficient mea\u0002surement using a reference phantom to extract depth-dependent\r\ninstrumentation factors. Ultrason Imaging 1990; 12:58–70.\r\n43. Rios-Diaz AJ, Zheng R, Thibault DP, Crispo JAG, Willis AW,\r\nWillis AI. Understanding nationwide readmissions after thyroid\r\nsurgery. Surgery 2019; 165:423–430.\r\n44. Erdfelder E, FAul F, Buchner A, Lang AG. Statistical power ana\u0002lyses using G*Power 3.1: tests for correlation and regression ana\u0002lyses. Behav Res Methods 2009; 41:1149–1160.\r\n45. Faul F, Erdfelder E, Lang AG, Buchner A. G*Power 3: a flexible\r\nstatistical power analysis program for the social, behavioral, and\r\nbiomedical sciences. Behav Res Methods 2007; 39:175–191.\r\n46. Han A, Andre MP, Deiranieh L, et al. Repeatability and reproduc\u0002ibility of the ultrasonic attenuation coefficient and backscatter coef\u0002ficient measured in the right lobe of the liver in adults with known\r\nor suspected nonalcoholic fatty liver disease. J Ultrasound Med\r\n2018; 37:1913–1927.\r\n47. Han A, Labyed Y, Sy EZ, et al. Inter-sonographer reproducibility of\r\nquantitative ultrasound outcomes and shear wave speed measured\r\nin the right lobe of the liver in adults with known or suspected\r\nnon-alcoholic fatty liver disease. Eur Radiol 2018; 28:4992–5000.\r\n48. Yamato Y, Matsukawa M, Otani T, Yamazaki K, Nagano A. Distri\u0002bution of longitudinal wave properties in bovine cortical bone\r\nin vitro. Ultrasonics 2006; 44(Suppl 1):e233–e237.\r\n49. Treece G, Prager R, Gee A. Ultrasound attenuation measurement\r\nin the presence of scatterer variation for reduction of shadowing\r\nand enhancement. IEEE Trans Ultrason Ferroelectr Freq Control\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7034428998179323065,
+        "filename": "JUM-44-97.PMC11632647.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 143,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "2005; 52:2346–2360.\r\n50. Wu Y, Barrere V, Han A, et al. Quantitative evaluation of rat sciatic\r\nnerve degeneration using high-frequency ultrasound. Sci Rep 2023;\r\n13:1–17.\r\n51. Ricci V, Ricci C, Cocco G, et al. Histopathology and high\u0002resolution ultrasound imaging for peripheral nerve (injuries).\r\nJ Neurol 2022; 269:3663–3675.\r\nWu et al—Attenuation Compensation Approaches to Evaluate Median Nerves\r\nJ Ultrasound Med 2025; 44:97–109 109\n\n"
+  }
+]

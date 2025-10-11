@@ -1,0 +1,866 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Research article\r\nModelling the vigour of maize seeds submitted to artificial accelerated\r\nageing based on ATR-FTIR data and chemometric tools (PCA, HCA and\r\nPLS-DA)\r\nGisiane Camargo Andrade a, Cileide Maria Medeiros Coelho a, Virgílio Gavicho Uarrota b,*\r\na Santa Catarina State University, Agroveterinary Science Centre, Laboratory of Seed Analysis, Luiz de Cam~oes Avenue 2090, Lages, SC, Brazil b Pontificia Universidad Cat\u0002olica de Valparaiso, Escuela de Agronomia, Calle San Francisco S/N, La Palma, Quillota, Chile\r\nARTICLE INFO\r\nKeywords:\r\nAgricultural science\r\nBiochemistry\r\nNatural product chemistry\r\nFood chemistry\r\nATR-FTIR spectra\r\nVigour of maize seeds\r\nPhysiological quality of seeds\r\nChemometrics\r\nFunctional groups\r\nBiochemical compounds\r\nABSTRACT\r\nThe main goals of this research were to use ATR-FTIR spectroscopy associated with multivariate analyses to\r\nidentify biochemical changes in high and low vigour seed tissues (embryo and endosperm) in response to\r\naccelerated ageing and to create a model to predict seed vigour based on spectroscopic data. High-vigour seeds\r\nundergo minimal changes in biochemical composition during stress by accelerated ageing while low-vigour seeds\r\nare more sensitive to stress and this lower tolerance is associated with reduced lipid and protein content and\r\nincreased amino acids, carbohydrates and phosphorus compounds in the embryo. High-vigour seeds show an\r\nincrease in peaks associated with amino acids and phosphorous compounds in the endosperm after 24 h of stress\r\nwhile low-vigour seeds present these high-intensity peaks only after 72 h in the embryo. The results of this\r\nresearch provide the theoretical basis for the genetic improvement of maize cultivars that aim at higher physi\u0002ological seed quality.\r\n1. Introduction\r\nMaize (Zea mays L.) seeds carry all the genetic information of the crop\r\nand are essential to different purposes, such as for crop production and\r\nimprovement, agricultural biotechnology, human nutrition, and food\r\nsecurity. Seeds can be considered a key element in crop success, although\r\nit is dependent on a complex property called vigour (Finch-Savage and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Bassel, 2015). Seed quality, defined by improved vigour, is an essential\r\ntrait, particularly during the current scenario of increasing uncertainty in\r\nfood production due to climate change and the challenge of population\r\ngrowth expected by 2050 (Hampton et al., 2016). This characteristic,\r\nalong with other characteristics of seed quality, is a determining factor\r\nfor the germination and the establishment of crops in a fast and uniform\r\nway, in diverse environmental conditions (Rajjou et al., 2012; Marcos\r\nFilho, 2015; Finch-Savage and Bassel, 2015; Wen et al., 2018).\r\nThe accelerated ageing test is considered one of the most sensitive\r\ntests for vigour assessment and consists of keeping the seed under high\r\ntemperatures and high humidity for a fixed period (Marcos-Filho, 1999;\r\nBarreto and Garcia, 2017). Artificial accelerated ageing might cause\r\naccumulation of metabolic defects in seeds (Gutierrez et al., 1993) in\r\ndifferent proportions than that in natural ageing. This methodology\r\nforms the basis of the International Seed Testing Association (ISTA)-va\u0002lidated tests used in commercial seed testing for specific species. Thus,\r\nageing is a key characteristic that is both a cause of differences in vigour\r\nand a basis for vigour testing (Finch-Savage and Bassel, 2015). For such\r\nclaimed reasons the accelerated ageing method was used in this study to\r\nmodel seed vigour and to understand which biochemical changes occur\r\nin seed tissues in response to artificial ageing.\r\nThe increase in studies for the understanding of vigour has stimulated\r\nthe investigation of biochemical components and their function in the\r\nphysiological quality of seeds since they can be used by biotechnology\r\nthrough the manipulation and enrichment of the composition of the\r\ntissues (Yan et al., 2014). Seed storage components such as proteins,\r\nlipids and carbohydrates, which are the main reserves, are synthesized\r\nand stored in the seed tissues during the maturation when they are still in\r\nthe plant (Coelho and Benedito, 2008; Bewley et al., 2013; Bareke, 2018;\r\nZhao et al., 2018). These storage components are involved in the\r\ngermination and formation of seedlings providing carbon and nitrogen\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "and, consequently, directly related to vigour (Rajjou et al., 2012; Bewley\r\net al., 2013; Yan et al., 2014; Prazeres and Coelho, 2016a,b; Wu et al.,\r\n2017; Nerling et al., 2018). Moreover, the research still lacks clarity as to\r\nwhich biochemical component is most affected by deterioration and,\r\n* Corresponding author.\r\nE-mail address: uaceleste@yahoo.com.br (V.G. Uarrota).\r\nContents lists available at ScienceDirect\r\nHeliyon\r\njournal homepage: www.cell.com/heliyon\r\nhttps://doi.org/10.1016/j.heliyon.2020.e03477\r\nReceived 29 August 2019; Received in revised form 11 November 2019; Accepted 20 February 2020\r\n2405-8440/© 2020 Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).\r\nHeliyon 6 (2020) e03477\nconsequently, by reduced vigour and where these alterations are occur\u0002ring in the seed under stress conditions. Our previous work found that\r\nseed vigour is related to higher reserve utilization efficiency and mobi\u0002lization (Andrade et al., 2019).\r\nOn the other hand, advances in high-throughput techniques of\r\n“omics” sciences have progressively lowered the barrier to accessing\r\nomics data (Rajjou et al., 2012; Buescher and Driggers, 2016; Wu et al.,\r\n2017). Omics approaches, such as Attenuated Total Reflectance - Fourier\r\nTransform Infrared Spectroscopy (ATR-FTIR) generate data to provide\r\nbiological insight based on statistical inference from datasets that are\r\ntypically large. Multivariate statistical analysis (PCA, HCA, PLS-DA,\r\namongst others) contribute to reduce the dimensionality of data, to\r\nextract important information from the entire spectrum, improving the\r\nreliability of the analyses and facilitating the interpretation of the results\r\n(Kuhnen et al., 2010). These data may be useful as seed vigour markers\r\nand provide information on which biological pathways may be related to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "the physiological quality (Ventura et al., 2012; Rajjou et al., 2012) and\r\nare useful tools for investigating changes in the chemical composition of\r\nbiological materials in response to stresses (Kumar et al., 2016).\r\nIn-depth analyses of the mechanisms involved at the biochemical\r\nlevel have been considered efficient and important tools in many areas of\r\nresearch (Zhang et al., 2012; Oliveira et al., 2016; Uarrota et al., 2018). In\r\nseed physiology, there are no reports on the integration of ATR-FTIR to\r\nchemometrics to better understand the mechanisms related to seed\r\nvigour. In addition, the metabolomic profile of contrasting maize seeds\r\nsubjected to accelerated ageing conditions remains unknown. In recent\r\nyears, the mechanisms involved in the manifestation of seed vigour have\r\nbeen extensively studied in different species by many researchers around\r\nthe world by other methods (Corbineau, 2012; Ventura et al., 2012;\r\nMarcos-Filho, 2015; Prazeres and Coelho, 2016a,b; Wu et al., 2017;\r\nNerling et al., 2018; Gu et al., 2019). However, the causes that determine\r\nthis manifestation have not yet been fully elucidated by the research. It is\r\nfundamental to understand what determines the expression of seed\r\nvigour to improve it and to enhance the establishment of crops, given the\r\ngreat importance of this factor, since it is one of the main factors that are\r\ninextricably linked to the success or failure of the future harvest (Mar\u0002cos-Filho, 2015; Finch-Savage and Bassel, 2015). Besides, it is essential to\r\nunderstand the mechanisms involved in seed deterioration to avoid los\u0002ses of physiological quality, increasing the longevity of the seeds (Suresh\r\net al., 2019).\r\nIn light of the above considerations regarding the contributions of the\r\nvigour study to seeds, in this research we tested two hypotheses: (i) there\r\nare differences in the biochemical composition of the embryo and\r\nendosperm of maize seeds and these differences are related to seed\r\nvigour; (ii) the integration of ATR-FTIR profile datasets to chemometric\r\ntechniques is a powerful tool for modelling biochemical markers related\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "to seed vigour in maize. Based on these hypotheses, the first integrated\r\nmetabolomic analyses of the embryo and endosperm of two contrasting\r\nmaize hybrids at vigour level and subjected to accelerated ageing were\r\nperformed using ATR-FTIR spectroscopy and chemometric analyses\r\n(PCA, HCA and PLS-DA). The main objectives of this research were to use\r\nspectroscopy associated with multivariate analyses to identify biochem\u0002ical changes in high and low vigour seeds tissues (embryo and endo\u0002sperm) in response to accelerated ageing and to create a model for\r\nevaluating vigour through techniques based on these changes during\r\nstress.\r\n2. Material and methods\r\n2.1. Genotype selection, accelerated ageing test, and extraction of embryo\r\nand endosperm\r\n2.1.1. Genotypes selection\r\nMaize genotypes were selected based on the germination rate and\r\nvigour. Briefly, eight maize hybrids were subjected to seed physiological\r\nanalysis (i.e., seed germination rate and vigour by the accelerated ageing\r\ntest). The germination and vigour were performed as described below.\r\n2.1.2. Germination rate\r\nEight replications of 50 seeds for each hybrid were used. The meth\u0002odology previously reported by our research group was used (Andrade\r\net al., 2019) with small modifications. Briefly, seeds were distributed in a\r\ngermitest paper, moistened with distilled water in the proportion of 2.5\r\ntimes the weight of dry paper rolls (Brasil, 2009). The rolls were packed\r\nin plastic bags and kept in a Mangelsdorf germinator vertically and under\r\n25 \u0001 2 \u0003C for 7 days. The first count of germination was performed at 4\r\ndays and the second count at 7 days. The percentage of germination was\r\ncalculated as the average number of normal seedlings.\r\n2.1.3. Accelerated ageing test\r\nThe methodology previously reported by our research group was also\r\nused for the ageing test (Andrade et al., 2019) with small modifications.\r\nBriefly, seeds were distributed in a single layer on an aluminium screen,\r\nwhich was placed in boxes of polystyrene crystals (gerbox) containing 40\r\nmL of distilled water (Marcos Filho, 1999). The boxes were closed and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 445,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "placed in an accelerated ageing chamber at 43 \u0003C for 72 h (AOSA, 1983)\r\nand at 45 \u0003C for 72 h (de Bittencourt and Vieira, 2006), separately. After\r\nthis period, the seeds were submitted to the germination test, as previ\u0002ously described. Four replicates of 50 seeds were used for each hybrid\r\nand the results were expressed as a percentage of normal seedlings.\r\n2.1.4. Stress condition, extraction of embryo and endosperm\r\nBased on the results of sections 2.1.3 and 2.1.4, two contrasting maize\r\ngenotypes were selected (one of high vigour -H1 and one of low vigour\r\n-H2) and submitted to accelerated ageing stress. Briefly, polystyrene\r\ncrystal boxes (Gerbox®) (11 cm \u0004 11 cm \u0004 3 cm) with aluminium screens\r\nsuspended inside were used such that sample seeds were distributed in a\r\nsingle layer on the surface of the screen. 40 mL distilled water was added\r\nto the bottom of the boxes to ensure a relative humidity level of the air\r\nclose to 100% (saturated atmosphere). Boxes were closed and placed in\r\nan ageing chamber for 12, 24, 48 and 72 h at 45 \u0003C. Four repetitions were\r\nused at each stress period.\r\n2.1.5. Extraction of embryo and endosperm\r\nAfter each stress period, the samples were removed from the chamber\r\nand the seeds were frozen by liquid nitrogen. In addition, samples\r\nwithout stress condition (0 h - control sample) were also frozen. The\r\nembryo (embryonic axis and scutellum) separated from the endosperm\r\nmanually using a scalpel, and immediately frozen in liquid nitrogen,\r\nground using a grinder and stored at -20 \u0003C until the infrared spectros\u0002copy analysis.\r\n2.2. ATR – FTIR spectroscopy\r\nEmbryo and endosperm samples from each maize genotype (H1 and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "H2) at each stress point (0, 12, 24, 48 and 72 h) were evaluated sepa\u0002rately. ATR-FTIR spectra (100 mg sample) were recorded in a Bruker IFS\u000255 (Model Opus v. 5.0, Bruker Biospin, Germany) spectrometer with a\r\nDTGS detector equipped with a golden gate single reflection diamond\r\nattenuated total reflectance (ATR) accessory, at the transmittance mode\r\nfrom 400 to 4000 cm\u00051\r\n,4 cm\u00051 of resolution and five replicates of each\r\nspectra were collected as described previously by Uarrota et al. (2013),\r\n2014; 2017; 2018, totalling 100 spectra (2 hybrids – high and low vigour;\r\n5 stress times - 0, 12, 24, 48 and 72 h; 2 structures - embryo and endo\u0002sperm x 5). Spectra were then normalised, baseline corrected and\r\nsmoothed using Savitzky–Golay derivative function (Savitzky and Golay,\r\n1964). The resolution enhancement (k factor of 1.7, Lorentzian line\r\nwidth of 19 cm\u00051\r\n) was applied using Fourier self deconvolution\r\n(Copíkov \u0003 \u0002a et al., 2006). The considered region was from 600 to 3200\r\ncm\u00051\r\n. All preprocessing steps were performed in R software (R Core\r\nTeam, 2019).\r\nG.C. Andrade et al. Heliyon 6 (2020) e03477\r\n2\n2.3. Data mining and statistics\r\nData of ATR-FTIR spectra were collected, pre-processed as described\r\nabove and submitted to multivariate statistical analysis (Principal\r\nComponent Analysis – PCA, Hierarchical Cluster Analysis – HCA and\r\nPartial Least Squares Discriminant Analysis – PLS-DA). All analyses were\r\nperformed in R software (R Core Team, 2019) using scripts produced by\r\nthe Laboratory of Seed Analysis group.\r\n3. Results and discussion\r\n3.1. Preliminary assay in germination rate and vigour by accelerated\r\nageing\r\nPreliminary results on the physiological quality of the seeds used in\r\nthe experiment were obtained. The data collected were germination rate\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "and vigour by acceleration ageing test at 45 \u0003C for 72 h (Figure 1). In\r\nrelation to the germination rate, the observed behaviour between hybrids\r\n1 and 2 was similar (p < 0.05), with percentages of 97 and 98%,\r\nrespectively. On the other hand, the hybrids presented an extremely\r\ncontrasting value for initial vigour by accelerated ageing, with significant\r\nstatistical differences by the Tukey test (p < 0.05), with values of 93% for\r\nhybrid 1 and 24% of vigour for the hybrid 2 (Figure 1). In studies related\r\nto seed vigour, it is essential that the percentage of germination be\r\nsimilar amongst the materials to be compared, to ensure that the\r\ndifferences are only in vigour and not in the physiological quality as a\r\nwhole, making comparisons feasible (Sbrussi and Zucarelli, 2014; Mar\u0002cos-Filho, 2015), based on knowledge that there are genetic diversity for\r\nthe vigour of maize seeds (Prazeres and Coelho, 2016a,b).\r\n3.2. ATR-FTIR spectral analyses\r\nAmongst the main objectives of seed vigour testing is the ability to\r\npredict and to select seed lots that have the best quality before process\u0002ing, storing them or taking them to be sown in the field (Marcos-Filho,\r\n2015; Finch-Savage and Bassel, 2015). The basic quality assessment\r\nthrough the germination test and vigour by accelerated ageing is inevi\u0002tably time-consuming, requiring more than one week to complete and,\r\nfurthermore, may not always correlate well with emergence under field\r\nconditions over a range of environmental conditions. Therefore, it is\r\ndesirable to have a simple, reliable, accurate, rapid to perform, physio\u0002logically informative and relatively inexpensive test of seed quality\r\ninvolving vigour.\r\nIn studies of biological materials by ATR-FTIR, there are two impor\u0002tant regions for the evaluation of the spectra called fingerprinting region\r\nand functional groups region (Li-Chan, 2010; Baker et al., 2014). These\r\nregions must be exploited because they generally contain a large number\r\nof bands that can overlap each other, causing a single wave number to be\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "related to more than one type of chemical component. The infrared in the\r\nmiddle region (400–4000 cm\u00051\r\n) provides the recognition of functional\r\ngroups present in chemical compounds (Li-Chan, 2010). It allows the\r\nidentification of similarities and dissimilarities of the biochemical\r\ncomposition between samples, such as the presence of carbohydrates,\r\nproteins and peptides, lipids and fatty acids, nucleic acids, amongst\r\nothers (Socrates, 2001; Cern \u0003 \u0002a et al., 2003; Lopes and Fascio, 2004; Sil\u0002verstein et al., 2005; Schulz and Baranska, 2007; Kuhnen et al., 2010;\r\nLopez-S \u0002 \u0002anchez et al., 2010; Kumar et al., 2016). Previous studies of\r\nCozzolino et al. (2013), 2014 have demonstrated the potential of atten\u0002uated total refletance combined with multivariate statistics as screening\r\ntool to phenotype single seeds of barley, to evaluate fatty acids and total\r\nlipids in barley and this technique can be used to better understand the\r\ndifferences between genotypes.\r\n3.2.1. ATR-FTIR spectra of maize embryo of the two hybrids\r\nAll peaks detected in the following spectra were identified with the\r\naid of other publications (Socrates, 2001; Cern \u0003 \u0002a et al., 2003; Lopes and\r\nFascio, 2004; Silverstein et al., 2005; Schulz and Baranska, 2007; Kuhnen\r\net al., 2010; Lopez-S \u0002 \u0002anchez et al., 2010; Kumar et al., 2016) because of\r\nthe high complexity of spectra interpretation and their relation to the\r\nfunctional groups present in biological samples.\r\nMost spectra of the embryo (Table 1) presented high peak intensities\r\nin the functional group region (1800-4000 cm\u00051\r\n), with peaks at 2860 and\r\n2930 cm\u00051 that are related to amino acids, fatty acids, lipids, proteins\r\nand peptides (Tables 2A and 2B). Visually by the intensity of the bands,\r\nthere were no chemical changes in these compounds for the stress times\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "of 0, 12, 24 and 48 h for both hybrids, which means that the behaviour of\r\nthese compounds over accelerated ageing stress at 45 \u0003C was similar for\r\nthe high and low vigour hybrids (Table 1).\r\nThe main and most important differences in the embryo spectra be\u0002tween the hybrids were observed in the region above 2300 cm\u00051 at 72 h\r\nstress. The high-vigour hybrid (H1) did not show changes in the intensity\r\nof these bands during the entire stress period, including 72 h, while the\r\nlow-vigour hybrid (H2) showed an expressive reduction of peak intensity\r\nclose to 2930 cm\u00051 (amino acids, fatty acids, lipids, proteins and pep\u0002tides). In addition, it was observed the absence of peaks close to 2860\r\ncm\u00051 that is also related to the same compounds and was present in the\r\nlow-vigour embryo (H2) before, indicating the possible degradation due\r\nto stress for 72 h and the lower tolerance to this condition demonstrated\r\nby the low-vigour hybrid. The behaviour of the spectral peaks was\r\ndifferent between embryos of the hybrids for the time of 72 h, because\r\nFigure 1. A – Percentages of germination; and B – seed vigour by accelerated\r\nageing for the two hybrids evaluated previously this experiment. Mean values\r\nfollowed by the same lowercase letter belong to the same Tukey test group at 5%\r\nprobability (p < 0.05).\r\nG.C. Andrade et al. Heliyon 6 (2020) e03477\r\n3\nthe response to ageing is dependent on the genotype and initial vigour\r\n(Oliveira et al., 2013; Nerling et al., 2013; Prazeres and Coelho, 2016a,b).\r\nThe high temperature (45 \u0003C) and 100% relative humidity used in\r\nartificial ageing in the laboratory may cause damages and decrease the\r\ncompounds related to the wave number near 2930 cm\u00051 in less vigorous\r\nhybrids, which is related to fatty acids, lipids, proteins, peptides and\r\namino acids (Table 1). The decrease in lipid and fatty acids contents are\r\nassociated with lipid peroxidation and reduction of antioxidant enzy\u0002matic activity caused by accelerated ageing stress in oat, macaw palm\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "and wheat seeds (Xia et al., 2015; Barreto and Garcia, 2017; Tian et al.,\r\n2019). Lipid peroxidation leads to the formation of free radicals that\r\naccelerate the deterioration of cell membranes, proteins and reduction of\r\nenzymatic activity, culminating in the reduction of the viability of the\r\nseeds (Tian et al., 2019). In addition, natural or artificial accelerated\r\nageing causes reduction in DNA integrity and protein synthesis, and these\r\nchanges are closely associated to the reduction of germination under\r\nthese deterioration conditions (Guti\u0002errez et al., 1993).\r\nFurthermore, the embryo of the low-vigour hybrid showed an increase\r\nin the bands near to 2342 and 2360 cm\u00051\r\n, which are related to amino acids\r\nand phosphorus compounds. Most phytic acid, which is the way phos\u0002phorus is stored in seeds, is concentrated in the embryo (about 95%) and in\r\naleurone layer in the endosperm (about 5%) of maize seeds, and its action\r\nas an antioxidant has been studied in this crop (Lin et al., 2005; Doria et al.,\r\n2009; Bewley et al., 2013). In relation to the protein, most are found in the\r\nembryo (around 20%) while the endosperm content is close to 10%\r\n(Carvalho and Nakagawa, 2012). Due to the observed changes in amino\r\nand phosphorus peaks after 72 h in embryo samples, our results suggest the\r\nhypothesis that the lower vigour genotype undergoes greater degrada\u0002tion/hydrolysis of proteins and phytic acid, providing amino acids and\r\nphosphorus in the embryo in response to stress. Future studies will be\r\ncarried out to investigate these relationships and the possibility of evalu\u0002ating the content of phosphorus and amino acids after 72 h of stress at 45\r\n\u0003C to separate vigour levels of hybrid maize seeds and the incorporation of\r\nthese compounds to obtain seeds with higher physiological quality.\r\nTable 1. Chemical groups, representative compounds and spectra wavenumbers found in all ATR-FTIR maize samples of embryos and endosperm of hybrid 1 (high\r\nvigour) and hybrid 2 (low-vigour) during the stress time by accelerated ageing.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Chemical groups Representatives FT-IR (cm\u00051) References\r\nProteins 1655 (1654) Schulz and Baranska (2007)\r\nLipids/fatty acids 1660/1750 (1654/1746) Schulz and Baranska (2007)\r\nDisaccharides Sucrose 1126 (1118) Schulz and Baranska (2007)\r\nPolysaccharides Cellulose 1162 (1161) Schulz and Baranska (2007)\r\nPectin 1008/1055/1419/1745 (995/1048/1420/1746) Schulz and Baranska (2007)\r\nAcyclic monoterpenes Citronellal 1116 (1118) Schulz and Baranska (2007)\r\nCitronellol 1377 (1379) Schulz and Baranska (2007)\r\nGeranyl acetate 1227/1738 (1238/1746) Schulz and Baranska (2007)\r\nMonocyclic monoterpenes Terpinen-4-ol 1050 (1048) Schulz and Baranska (2007)\r\nBicyclic monoterpenes 1,8-Cineol 1374 (1379) Schulz and Baranska (2007)\r\nα-Pinene 1658 (1654) Schulz and Baranska (2007)\r\nSabinene 1653 (1654) Schulz and Baranska (2007)\r\nSesquiterpenes α-Bisabolol 1375 (1379) Schulz and Baranska (2007)\r\nTetraterpenes β-Carotene 1454 (1460) Schulz and Baranska (2007)\r\nLycopene 1379 (1379) Schulz and Baranska (2007)\r\nAkyl halide C-X 500-1400 (600/720/995) Lopes and Fascio (2004)\r\nAril-alkyl-ether C-O 1020-1100/1220-1280 Lopes and Fascio (2004)\r\n(1048/1097/1238)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Aril-alkyl-amine C-N 1180-1280/1250-1360 Lopes and Fascio (2004)\r\n(1238/1301/1320)\r\nAlkyl-ether C-O 1080-1150 (1097/1118) Lopes and Fascio (2004)\r\nAlkyl-amine C-N 1030–1230 Lopes and Fascio (2004)\r\n(1048/1097/1118/1161/1238)\r\nNitro group NO2 1300-1380/1500-1570 Lopes and Fascio (2004)\r\n(1301/1320/1379/1544)\r\nAlkane CH3, CH2 1375/1465/2840-3000 Lopes and Fascio (2004)\r\n(1379/1460/2856/2925/3009)\r\nAlckene C¼C 1620-1680/3000-3100 (1654/3009) Lopes and Fascio (2004)\r\nAril-ketone C¼O 1630-1700 (1654) Lopes and Fascio (2004)\r\nAlkyl-ketone C¼O 1700-1770 (1711/1746) Lopes and Fascio (2004)\r\nTertiary amide C¼O 1630-1700 (1654) Lopes and Fascio (2004)\r\nCarboxylic acid O-H 2500-3200 (2856/2925/3009) Lopes and Fascio (2004)\r\nOleophynes C¼C 680-1000/1630-1680 (995/1654) Lopes and Fascio (2004)\r\nEster C¼O 1670-1750 (1711/1746) Lopes and Fascio (2004)\r\nAromatic C-H 3000-3100 (3009) Lopes and Fascio (2004)\r\nUnknown 1420 Lopes and Fascio (2004)\r\nAlkynea C\u0006C 2100-2260 (2103/2146) Lopes and Fascio (2004)\r\nAmineb N-H 3200-3600 (3200) Lopes and Fascio (2004)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Benzenec C-H 690-710/735-770/800-860 (704/763/8611111) Lopes and Fascio (2004)\r\na,b,cChemical groups found in all samples of endosperm during the stress time (0,12, 24, 48 and 72 h) by accelerated ageing independently of seed vigour. b\r\nChemical\r\ngroup found in samples of maize embryo of lower vigor (H2_T12 and H2_T72) and c\r\nChemical group found in samples of maize embryo of high vigour (H1_T24).\r\nG.C. Andrade et al. Heliyon 6 (2020) e03477\r\n4\nTable 2A. Specific peaks (wavenumbers) found in each tissue during the stress time in both tissues.\r\nHybrid Time (hours) Wavenumbers (cm\u00051)\r\nEMBRYONIC AXIS TISSUEH1 0 720/995/1048/1097/1118/1161/1238/1301/1320/1379/1420/1460/1544/1\r\n12 669/720/1038/1059/1097/1118/1163/1238/1303/1318/1348/1379/1395/1\r\n/1746/2340/2360/2854/2925/3009\r\n24 667/683/722/1032/1059/1099/1120/1163/1238/1318/1377/1397/1418/14\r\n/1681/1746/2329/2340/2358/2854/2925/3009\r\n48 669/1024/1042/1097/1118/1161/1236/1320/1379/1420/1463/1546/1564/72 669/720/1030/1057/1099/1120/1163/1238/1320/1379/1399/1418/1465/1\r\nSimilar peaks: 600H2 0 720/997/1055/1097/1118/1161/1301/1320/1379/1399/1420/1463/1546/1\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 457,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "12 720/1050/1083/1161/1322/1379/1401/1418/1463/1546/1656/1711/1746/24 1036/1053/1097/1118/1161/1320/1377/1401/1418/1463/1538/1548/156748 720/1053/1085/1095/1161/1322/1379/1399/1420/1460/1544/1656/1746/72 1044/1075/1152/1320/1344/1414/1454/1544/1654/2927/3200\r\nSimilar peaks: 600/669/1238/2342/2360ENDOSPERM TISSUEH1 0 704/861/926/993/1159/1242/1346/1422/1432/1460/1516/1536/1544/165\r\n12 704/859/926/991/1159/1242/1346/1422/1432/1460/1501/1516/1530/15424 649/669/859/928/993/1157/1242/1346/1416/1434/1442/1452/1463/1503\r\n/1724/2089/2113/2127/2144/2927\r\n48 669/706/861/928/991/1159/1244/1344/1422/1460/1516/1534/1544/165672 706/861/928/993/1159/1244/1424/1460/1518/1536/1658/2103/2146/292\r\nSimilar peaks: 600/763/1014/1081/1371/2342/2360/3200H2 0 706/859/926/993/1016/1159/1242/1373/1434/1456/1505/1518/1538/165\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "12 704/859/928/995/1016/1159/1242/1346/1373/1422/1432/1460/1542/16524 706/861/928/993/1016/1159/1242/1344/1373/1422/1432/1460/1520/15348 706/861/928/995/1016/1157/1242/1342/1377/1422/1438/1458/1509/15272 706/861/928/993/1014/1159/1244/1344/1371/1424/1432/1460/1542/165\r\nSimilar peaks: 600/763/1081/3200\r\n5\nMany peaks, although with lower intensities were identified in the\r\nfingerprint region (400-1800 cm\u00051\r\n) for both hybrids in embryo samples.\r\nPeaks in the region 900-1200 cm\u00051 are more correlated with the pres\u0002ence of carbohydrates in general (monosaccharides, oligosaccharides,\r\npolysaccharides), besides the presence of some amino acids, nucleic\r\nacids and phosphorus compounds. The presence of the band at 1260\r\ncm\u00051 is related to amino acids, carbohydrates, nucleic acids, phosphate\r\ngroup, proteins and peptides (amide III). Other important bands iden\u0002tified in the embryo spectra of the hybrids were at 1650 and 1550 cm\u00051\r\n,\r\nwhich are correlated to amino acids, nucleic acids, proteins and pep\u0002tides (amide I and II). The last important band identified was at 1750\r\ncm\u00051\r\n, which is related to acetylated glycosides, amino acids, fatty acids,\r\nlipids, phospholipids, pectin, cellulose and nucleic acids (Tables 2A and\r\n2B). These peaks were found in all spectra from time 0 (no stress)\r\nwithout major changes until the 48 h of stress period for the two hy\u0002brids. The absence of biochemical changes for both genotypes up to 48 h\r\nconfirms the relationship of the components of the seed with vigour,\r\nindicating that both genotypes present tolerance to stress until this\r\nperiod.\r\nThe highest changes in intensity and presence of peaks were observed\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "for the embryo samples collected after 72 h of stress by accelerated\r\nageing for the low-vigour hybrid, indicating behaviour similar to the\r\nregion of functional groups (1800-4000 cm\u00051\r\n) in the region of finger\u0002printing (400-1800 cm\u00051\r\n). For the high-vigour hybrid (H1), the bands\r\nreferring to the fingerprinting region remain unchanged throughout the\r\nstress (Tables 2A and 2B). For the low-vigour hybrid (H2), there was an\r\nexpressive increase in the intensity of the peaks near 1044 and 1075\r\ncm\u00051\r\n, related to soluble sugars in general, structural carbohydrates and\r\ncomponents with phosphorus in its composition. In this same hybrid,\r\nthere was also an increase in intensity at the peak location near 1654\r\ncm\u00051 (amino acids, nucleic acids and proteins), which was not present at\r\nthe same intensity at other stress times. In addition, the visual analysis\r\nshowed absence of the 1750 cm\u00051 peak (acetylated glycosides, amino\r\nacids, fatty acids, lipids, phospholipids, pectin, cellulose and nucleic\r\nacids) for the embryo of the low-vigour hybrid, indicating the possible\r\ndegradation of these compounds and less tolerance to stress by the H2\r\n(Tables 2A and 2B).\r\n3.2.2. ATR-FTIR spectra of maize endosperm samples\r\nContrarily to those previously observed in embryo, which shows\r\nhigher peak intensity in the region of the functional groups, the spectra of\r\nendosperm samples showed most peaks with high intensities in the\r\nfingerprint region (Tables 1, 2A and 2B). This behaviour is directly\r\nassociated with a higher carbohydrate presence of the composition in the\r\nmaize seed endosperm tissues, which are identified by the presence of\r\nbands in the fingerprint region, especially between 900 and 1200 cm\u00051\r\n(Socrates, 2001; Cern \u0003 \u0002a et al., 2003; Lopes and Fascio, 2004; Silverstein\r\net al., 2005; Schulz and Baranska, 2007; Kuhnen et al., 2010;\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Lopez-S \u0002 \u0002anchez et al., 2010; Kumar et al., 2016).\r\nTable 2A summarise the results of endosperm spectra for the two\r\nhybrids. The main differences between the endosperm spectra of high\r\nTable 2B. Related chemical compounds identified in the both tissues during the\r\nstress by accelerated ageing.\r\nWavenumber Related chemical compound\r\n1024 Carbohydrates: cellulose, hemicellulose, polysaccharides,\r\nstarch, sucrose\r\n1030 Carbohydrates: amylopectin, amylose, cellulose, galactose,\r\nhemicellulose, pectic\r\npolysaccharides, pyranose compounds, starch, sucrose\r\n1044 Carbohydrates: amylopectin, amylose, cellulose, fructose,\r\npectic polysaccharides,\r\npyranose compounds, starch, sucrose, xyloglucan\r\n1059, 1057 Carbohydrates: amylopectin, amylose, arabinose,\r\ncellulose, fructose, glucose, hemicellulose,\r\npectic polysaccharides, pyranose compounds, starch, sucrose\r\n1075 Carbohydrates: cellulose, hemicellulose, pectic polysaccharides,\r\npyranose compounds, ribose, starch, sucrose, xyloglucan\r\nPhosphorus compounds\r\n1099 Amino acids\r\nCarbohydrates: cellulose, galactose, hemicellulose,\r\npectic polysaccharides,\r\npyranose compounds, ribose, starch, sucrose\r\nNucleic acids\r\nPhosphorus compounds\r\n1120 Amino acids\r\nCarbohydrates: cellulose, hemicellulose, pectic polysaccharides,\r\npyranose compounds, starch, sucrose\r\nNucleic acids\r\n1180 Amino acids\r\nCarbohydrates: cellulose, hemicellulose, pectic polysaccharides,\r\npyranose compounds, starch, sucrose\r\nNucleic acids\r\n1260 Amino acids\r\nCarbohydrates: cellulose, hemicellulose, pectic polysaccharides,\r\npyranose compounds\r\nNucleic acids\r\nPhosphorus compounds\r\nProteins and Peptides (amide III)\r\n1379 Carbohydrates: cellulose, xyloglucan\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Lipids\r\nNucleic acids\r\n1399 Amino acids\r\nNucleic acids\r\nLipids\r\nProtein and peptides: polyglicynes\r\n1550 Amino acids\r\nNucleic acids\r\nProtein and peptides (amide II): polypeptides\r\n1650–1654 Amino acids\r\nNucleic acids\r\nProtein and peptides (amide I): polyglycines\r\nand polypeptides\r\n1746–1750 Acetylated glycosides\r\nAmino acids\r\nCarbohydrates: pectin, cellulose\r\nFatty acids, lipids, phospholipids\r\nNucleic acids\r\n2342–2360 Amino acids\r\nPhosphorus compounds\r\n2854 Amino acids\r\nFatty acids, lipids\r\nProteins and peptides: polyglycines\r\nTable 2B (continued )\r\nWavenumber Related chemical compound\r\n2927–2960 Amino acids\r\nFatty acids, lipids\r\nProteins and peptides: polyglycines\r\nSource: Socrates (2001); Cern \u0003 \u0002a et al. (2003); Lopes and Fascio (2004); Silverstein\r\net al. (2005); Schulz and Baranska (2007); Kuhnen et al. (2010); Lopez-S \u0002 \u0002anchez\r\net al. (2010); Kumar et al. (2016), van Soest et al., (1995).\r\nG.C. Andrade et al. Heliyon 6 (2020) e03477\r\n6\nand low vigour were observed at 2342 and 2360 cm\u00051\r\n, which are related\r\nto amino acids and phosphorus compounds. In all endosperm spectra of\r\nthe hybrid of high vigour these peaks are present, drawing attention to\r\nthe increase of intensity after 24 h of stress, whereas in the hybrid of low\r\nvigour, these peaks are absent in all periods of stress in the endosperm.\r\nThrough the visual inspection of the spectra, it was observed that the\r\nembryo spectra presented a higher number of peaks during stress when\r\ncompared to the endosperm spectra, which means that this morpholog\u0002ical structure presents the more severe symptoms of accelerated ageing.\r\nSimilar results were found by Han et al. (2017) in wheat seeds, where the\r\nmetabolic changes found in the embryo were superior to those of the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "endosperm.\r\n3.3. Chemometrics analyses (PCA, HCA and PLS-DA) and model buuilding\r\n3.3.1. Principal Component Analysis (PCA) and hierarchical cluster analysis\r\n(HCA)\r\nThe PCA was applied to all spectra (600-3200 cm\u00051\r\n) and to selected\r\npeaks (regions without peaks were removed) in order to better under\u0002stand the data patterns, to find clusters of samples and spectral peaks by\r\ndirecting such similarities or differences in the data. HCA and seriated\r\nheatmaps were also applied as a complementary analysis of PCA to un\u0002cover the factors that boosted the seed vigour.\r\nWhen PCA was applied to the embryo spectra considering the hybrids\r\nas a factor, the total variance captured was 96.1%, being 85.8% and\r\nFigure 2. A – PCA of all spectra region (600-3200 cm\u00051) of embryo samples taking the two hybrids as a factor. B – PCA of all spectra region of embryo samples taking\r\nthe stress time as factor.\r\nFigure 3. A – PCA of all spectra region (600-3200 cm\u00051) of endosperm samples taking the two hybrids as a factor. B – PCA of all spectra region of endosperm samples\r\ntaking the stress time as factor.\r\nG.C. Andrade et al. Heliyon 6 (2020) e03477\r\n7\n10.3% for PC1 and PC2, respectively (Figure 2A). Although one sample\r\nfor the H1 hybrid (high vigour) and one sample for the H2 hybrid (low\r\nvigour) displaced from the other samples of the same hybrid, there was\r\nan effective separation between the two contrasting maize hybrids\r\nregarding the level of vigour (Figure 2A). This separation allows us to\r\nassume that there are differences between the seed embryos spectra of\r\nhigh and low vigour, regardless of the stress time.\r\nTaking the stress time as a factor in the same spectra it was not\r\npossible to separate the embryo samples meaning that the changes in\r\nspectra during the stress time were minimal (Figure 2B). Samples in PC1\r\n(-) were most influenced by fatty acids and lipids while PC1 (þ) by\r\npolysaccharides. PC2 (-) was associated with proteins and PC2 (þ) by\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "polysaccharides, fatty acids and phosphorous compounds.\r\nRegarding the maize endosperm samples (Figure 3A), the total vari\u0002ance captured by PCA taking the maize hybrids as factors was 96%, being\r\n72.4% and 23.6% the variances for PC1 and PC2, respectively. Taking the\r\nstress time as a factor, there was a separation between samples, except for\r\nthe samples of 24 and 48 h of stress of the two hybrids and those stressed\r\nduring 72 h clustered together independently of the hybrid (Figure 3B).\r\nSuch results indicate that there are structural changes starting from 24 h\r\nof stress. PC1 (þ) was correlated to the wavenumber 2300 cm\u00051\r\n, that are\r\nrelated to amino acids and phosphorous compounds, while PC2 (-) was\r\ncorrelated to carbohydrates and proteins.\r\nPCA analysis of the selected peaks of embryo spectra was also done\r\n(Figure 4). The total variance captured was 96.5%, being 88.5% and 8%\r\nfor PC1 and PC2, respectively. Despite the small improvement in the\r\nvariance, there was no improvement in the grouping of samples when\r\ndoing the analysis only with the selected peaks when compared to the\r\nanalysis of the total region of the spectra. Differences were observed only\r\nbetween hybrids (Figure 4A) and not between times of stress (Figure 4B),\r\nall others were similar.\r\nPCA analysis of the selected peaks of endosperm spectra showed\r\n97.5% of total variance captured (Figure 5A-B), being 86.6% and 10.9%\r\nfor PC1 and PC2, respectively. Differences were observed between hy\u0002brids and time of stress. Samples without stress and 12 h of stress were\r\nsimilar. This tendency was also observed for the stressed samples for 24\r\nFigure 4. A – PCA of selected peaks of embryo samples taking the two hybrids as a factor. B – PCA of selected peaks of embryo samples taking the stress time as factor.\r\nFigure 5. A – PCA of selected peaks of endosperm samples taking the two hybrids as a factor. B – PCA of selected peaks of endosperm samples taking the stress time\r\nas factor.\r\nG.C. Andrade et al. Heliyon 6 (2020) e03477\r\n8\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Figure 6. A – HCA of selected peaks of embryo samples; and B – Heatmap of selected peaks of embryo samples.\r\nG.C. Andrade et al. Heliyon 6 (2020) e03477\r\n9\nFigure 7. A – HCA of selected peaks of endosperm samples; and B – Heatmap of selected peaks of endosperm samples.\r\nG.C. Andrade et al. Heliyon 6 (2020) e03477\r\n10\nand 48 h, while those samples stressed for 72 h were totally different\r\nfrom the others (Figure 5B).\r\nWhen hierarchical cluster analysis and seriated heatmaps were\r\napplied to the selected spectral peaks for embryo and endosperm, better\r\ninsights were found. As it can be observed in Figures 6 and 7, in relation\r\nto the embryo samples, three different groups can be observed. The first\r\ngroup was composed by H1_T12 (samples of hybrid 1 stressed during 12\r\nh), the second group by H2_T0, H2_T24 and H2_T48 h; and the last group\r\nby H1_T0; H1_T24, H1_T48, H1_T72, H2_T12 and H2_T72 (Figure 6A).\r\nH2_72 showed to be in the last group, but a deep analysis of seriated\r\nheatmaps shows that the H2_72 samples have characteristic peak in\u0002tensities at 1024, 1059, 1180, 1650 and 900-1099 cm\u00051 related to\r\npolysaccharides, proteins and carbohydrates. The sample H1_12 was\r\nseparated alone mainly due to the presence of the peaks at 1750 and\r\n2927 cm\u00051 that are related to acetylated glycosides, amino acids, fatty\r\nacids, lipids, phospholipids, proteins and peptides.\r\nHCA (Figure 7A) and seriated heatmaps (Figure 7B) of endosperm\r\nsamples. The H2_T72 sample was grouped alone in the HCA, but close to\r\nthe group composed of samples from hybrid 1 (H1_T24 and H1_T72), as it\r\nshowed the similarity of peaks with these samples (Figure 7A).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "The presence of similar peaks between H2_T72, H1_T72 and H1_T24\r\nwas observed in the seriated heat maps (Figure 7B), especially those near\r\n1370, 1421, 1460, 1515 e 1529 cm\u00051\r\n, related to structural carbohydrates\r\n(cellulose, xyloglucan), nucleic acids, amino acids and proteins (amides I\r\nand II) from the endosperm (Tables 1, 2A and 2B). The main dissimilarity\r\nwas found at the peak of 2342 and 2360 cm\u00051 present in H1_T24 and\r\nabsent in the other samples. These peaks are associated with phosphorus\r\ncompounds, which showed great intensity in this sample, indicating\r\nchanges in this compound due to the stress period in this hybrid.\r\nThe second group in the HCA was composed by samples of hybrid 2,\r\nbeing H2_T0, H2_T12 and H2_T24 (Figure 7A). The H2_T48 samples were\r\nsimilar to this second group in the HCA due to the peaks associated to\r\ncarbohydrates, but are distinct from the others due to greater changes in\r\nlipids, proteins, amino acids and nucleic acids in this sample, indicating\r\nthat in the stress period of 0, 12, 24 and 48 h by accelerated ageing did\r\nnot cause major changes in the biochemical composition of the hybrid\r\nendosperm 2. The last group consisted of samples from hybrid 1, where\r\nH1_T0 and H1_T12 were also close to H1_T48 (Figure 7A), which were\r\ngrouped mainly by carbohydrates and proteins (Figure 7B) (Tables 1, 2A\r\nand 2B).\r\nDeep analyses showed that there was a small change in the compo\u0002nents of the endosperm reserve during accelerated ageing stress for the\r\ntwo hybrids regardless of the level of vigour. The main change along the\r\nstress was observed in the samples of H1_T24, where there was an\r\nexpressive increase in the intensity of the peaks of 2342 and 2360 cm\u00051\r\n.\r\nThis indicates that, at that time, the high-vigour hybrid required a greater\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Figure 8. PLS-DA score plot (a) followed by the plot (b) with optimal number of components which maximize the model performance and the loadings for latent\r\nvariable 1 (c) and 2 (d) respectively for embryonic axis dataset.\r\nG.C. Andrade et al. Heliyon 6 (2020) e03477\r\n11\namount of phosphorus compounds, probably to excel in stress and sur\u0002vive to form a normal plant, even under adverse conditions, which was\r\nnot observed in the endosperm of low-vigour hybrid.\r\nOn the other hand, in the embryo spectra, the greatest differences\r\nwere observed in the time of 72 h for the low-vigour hybrid, where\r\ndrastic reductions in the intensities of the peaks close to 2880 and 2927\r\ncm\u00051 were observed, associated to a possible deterioration of lipids, fatty\r\nacids and proteins. In addition, there was an increase in the peaks asso\u0002ciated with carbohydrates (mono, oligo and polysaccharides) and phos\u0002phorus compounds, possibly caused by the increased demand for these\r\ncomponents in an attempt to overcome stress. In the high-vigour hybrid,\r\nthere were no significant changes to the embryo spectra along with the\r\nstress, meaning that this hybrid has greater stability in the compounds\r\nwhen subjected to adverse conditions of high temperatures (45 \u0003C) and\r\n100% relative humidity, regardless of the period of exposure.\r\n3.3.2. Partial least squares discriminant analysis (PLS-DA) and model\r\nbuilding\r\nPLS-DA is a versatile algorithm that can be used for predictive and\r\ndescriptive modelling as well as for discriminative variable selection. It is\r\nperformed in order to sharpen the separation between groups of obser\u0002vations, such that a maximum separation among classes is obtained, and\r\nto understand which variables carry the class separating information (Lee\r\net al., 2018, Brereton and Lloyd, 2018, 2014) and it can be used for\r\nclassification of high dimensional data such as those of ATR-FTIR. Four\r\ndifferent models were constructed by using non-variable selection,\r\nFigure 9. PLS-DA coefficients of the maize embryonic axis of lower vigor and higher vigor. (A–B) using variable selection by variable importance for projection (VIP)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "for variable selection (C–D): PLS-DA coefficients of the maize endosperm of lower vigor and higher vigor.\r\nTable 3. Statistics of the models tested using non-variable selection, variable importance for projection (VIP) selectivity ratio (SR) and Jack-Knifing algorithm for\r\nembryonic and endosperm dataset.\r\nMaize strucure Statistics Non-variable selection VIP SR JK\r\nEmbryonic axis R2X 96.95 98.79 97.11 98.82\r\nR2Y 68.48 70.42 70.01 65.90\r\nSensitivity 1 1 1 1\r\nSpecificity 1 1 1 1\r\nEndosperm R2X 96.55 93.14 96.88 80.65\r\nR2Y 54.76 92.02 54.43 96.77\r\nSensitivity (True positive) 0.85 1 0.85 1\r\nSpecificity (True Negative) 0.81 1 0.81 1\r\nG.C. Andrade et al. Heliyon 6 (2020) e03477\r\n12\nvariable important for projection (VIP), selectivity ratio (SR) and\r\nJack-Knife algorithm for embryonic axis dataset and endosperm dataset\r\nrespectively. 80% of dataset was used for model calibration and 20% for\r\nmodel validation using 5-fold cross-validation. Data was previously\r\ncentered and scaled and then submitted to model building.\r\nWhen spectral data were submitted to Partial Least Squares -\r\nDiscriminant Analysis (PLS-DA) for classification of the samples, better\r\nresults were found. Figure 8 shows the similarities between the\r\nresponse variable (vigour of seeds) and predictor matrix (Spectral\r\nwavenumbers -Figure 8), the number of components to acquire better\r\nmodel performance and the loadings for latent variable 1 and 2\r\nrespectively for embryonic axis dataset. In addition, the variables\r\npositively or negatively related to Higher and lower vigour seeds can be\r\nfound in Figure 9(A-B). As it can be observed in Table 3, all models\r\ntested performed well, but it was selected the variable selection by VIP\r\nwhich presented better performance of predictors for the embryo\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "samples. The total variance captured by this model was 96%, being 88%\r\nfor latent variable 1 and 9% for latent variable 2. The model presented\r\nbetter sensitivity and specificity. The model performed well and clas\u0002sified the hybrids better in the level of vigour (high and low vigour).\r\nEmbryo samples of H2_T72 (low vigour) and H1_T48 (high vigour) were\r\ndifferent from the others, meaning that there are structural changes in\r\nthese samples during the stress time used in this experiment. The\r\nloadings plot showed that samples in the latent variable 1 are correlated\r\nwith carbohydates, and aminoacids and those in latent variable 2 with\r\nproteins and peptides.\r\nA similar analysis for the endosperm dataset can be found in\r\nFigure 10, together with the loadings. Variables correlated with higher\r\nand lower vigour maize hybrids are also found in Figure 9 (C-D). The\r\ntotal variance captured in the latent variables was 96%, being 82% and\r\n14% for the latent variables 1 and 2, respectively. The duration of stress\r\ndid not cause differentiated changes in all hybrids (low and high vigour),\r\nand they were grouped together. Small changes occur for H1_T0 (not\r\nstressed) and at the time of 12 h of stress duration (H1_T12), although\r\nthese changes are minimal, not interfering in the clustering of PLS-DA.\r\nThe confusion matrix is presented in Table 4.\r\nFigure 10. PLS-DA score plot (a) followed by the plot (b) with optimal number of components which maximize the model performance and the loadings for latent\r\nvariable 1 (c) and 2 (d) respectively for endosperm.\r\nTable 4. The confusion matrix for the models where the sensitivity and speci\u0002ficity was lower than 1 and the misclassification error of the models related to the\r\nconfusion matrix.\r\nObserved Predicted\r\nHigher Vigor Lower Vigor %Correct Total\r\nHigher Vigor 17 4 17 21\r\nLower Vigor 3 17 17 20\r\nTotal 20 21 34 41\r\n*Misclassification error ¼ 0.17.\r\nG.C. Andrade et al. Heliyon 6 (2020) e03477\r\n13\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "H2 samples (0, 12, 24 and 48 h) were similar and close to the H1_T48\r\nsamples. The H2_T72 samples were those that underwent major alter\u0002ations, being separated from the others, although these alterations were\r\nsmall in the endosperm. The model also presented better performance\r\nand the response variable (seed vigour) showed a higher correlation\r\n(with the 3 predicted latent variables that are necessary to maximize\r\ncovariance between the predictors (x) and the response variable (y). For\r\nendosperm, phosphorus compounds and aminoacids were the main\r\nchemical groups classifying the samples.\r\n4. Conclusions\r\nThe study prompts us to conclude that ATR-FTIR combined with\r\nchemometrics are powerful tools for screening the physiological quality\r\nof hybrid maize seeds and to predict the seed vigour of the samples and\r\nprovides a theoretical basis for the genetic improvement of maize culti\u0002vars that aim at higher physiological seed quality.\r\nHigh-vigour seeds undergo minimal changes in biochemical compo\u0002sition during stress by accelerated ageing, evidencing the relation of the\r\ncompounds with the vigour of the seeds. Low-vigour seeds are more\r\nsensitive to stress and this lower tolerance is associated with reduced\r\nlipid and protein content and increased amino acids, carbohydrates and\r\nphosphorus compounds in the embryo.\r\nHigh-vigour seeds show an increase in peaks associated with amino\r\nacids and phosphorous compounds in the endosperm after 24 h of stress.\r\nLow-vigour seeds present these high-intensity peaks only after 72 h in the\r\nembryo. For endosperm, phosphorus compounds and aminoacids were\r\nthe main chemical groups classifying the samples.\r\nDeclarations\r\nAuthor contribution statement\r\nG. Camargo Andrade, C. M. Medeiros Coelho: Conceived and\r\ndesigned the experiments; Performed the experiments; Wrote the paper.\r\nV. Gavicho Uarrota: Analyzed and interpreted the data; Wrote the\r\npaper.\r\nFunding statement\r\nThis work was supported by CONICYT-FONDECYT Project 3190055,\r\nChile, FAPESC (Fundaç~ao e Amparo \u0004a Pesquisa e Inovaç~ao do Estado de\r\nSanta Catarina) and CAPES (Coordenaç~ao de perfeiçoamento de Pessoal\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "de Nível Superior).\r\nCompeting interest statement\r\nThe authors declare no conflict of interest.\r\nAdditional information\r\nNo additional information is available for this paper.\r\nReferences\r\nAndrade, G.C., Coelho, C.M.M., Padilha, M.S., 2019. Seed reserves reduction rate and\r\nreserves mobilization to the seedling explain the vigour of maize seeds. J. Seed Sci.\r\n41 (4), 488–497.\r\nAssociation of Official Seed Analysts, 1983. Seed Vigor Testing Handbook. AOSA, Lincoln.\r\nBaker, M.J., Trevisan, J., Bassan, P., Bhargava, R., Butler, H.J., Dorling, K.M.,\r\nFielden, P.R., Fogarty, S.W., Fullwppd, N.J., Heys, K.A., Hughes, C., Lasch, P., Martin\u0002Hirsch, P.L., Obinaju, B., Sockalingum, G.D., Sul\u0002e-Susso, J., Strong, R.J., Walsh, M.J.,\r\nWood, B.R., Gardner, P., Martin, F.L., 2014. Using Fourier transform IR spectroscopy\r\nto analyze biological materials. Nat. Protoc. 9 (8), 1771–1791.\r\nBareke, T., 2018. Biology of seed development and germination physiology. Adv. Plants\r\nAgric. Res. 8 (4), 336.\r\nBarreto, L., Garcia, Q., 2017. Accelerated ageing and subsequent imbibition affect seed\r\nviability and the efficiency of antioxidant system in macaw palm seeds. APP (Acta\r\nPhysiol. Plant.) 39 (3).\r\nBewley, J.D., Bradford, K.J., Hilhorst, H.W.M., Nonogaki, H., 2013. In: third ed. Seeds:\r\nPhysiology of Development, Germination and Dormancy. Springer, New York, p. 392.\r\nBuescher, J.M., Driggers, E.M., 2016. Integration of omics: more than the sum of its parts.\r\nCanc. Metabol. 4 (1).\r\nBrereton, R., Lloyd, G., 2014. Partial least squares discriminant analysis: taking the magic\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "away. J. Chemometr. 28 (4), 213–225.\r\nBrereton, R., Lloyd, G., 2018. Partial least squares discriminant analysis for chemometrics\r\nand metabolomics: how scores, loadings, and weights differ according to two\r\ncommon algorithms. J. Chemometr. 32 (4), e3028.\r\nCarvalho, N.M., Nakagawa, J., 2012. In: 5.ed. Sementes: ci^encia, tecnologia e produç~ao.\r\nFUNEP, Jaboticabal, p. 590.\r\nCern \u0003 \u0002a, M., Barros, A.S., Nunes, A., Rocha, S.M., Delgadillo, I., Cop \u0003 ıkov ́ \u0002a, J.,\r\nCoimbra, M.A., 2003. Use of FT-IR spectroscopy as a tool for the analysis of\r\npolysaccharide food additives. Carbohydr. Polym. 51 (4), 383–389.\r\nCoelho, C.M.M., Benedito, V.A., 2008. Seed development and reserve compound\r\naccumulation in common bean (Phaseolus vulgaris L.). Seed Sci. Biotechnol. 2 (2),\r\n42–52.\r\nCorbineau, F., 2012. Markers of seed quality: from present to future. Seed Sci. Res. 22\r\n(S1), S61–S68.\r\nCopíkov \u0003 \u0002a, J., Barros, A.S., Smidov \u0003 \u0002a, I., Cern \u0003 \u0002a, M., Teixeira, D.H., Delgadillo, I., et al.,\r\n2006. Influence of hydration of food additive polysaccharides on FT-IR spectra\r\ndistinction. Carbohydr. Polym. 63, 355–359.\r\nCozzolino, D., Roumeliotis, S., Eglinton, J., 2014. Evaluation of the use of attenuated total\r\nreflectance mid infrared spectroscopy to determine fatty acids in intact seeds of\r\nbarley (Hordeum vulgare). LWT-Food Sci. Technol. 56, 478–483.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Cozzolino, D., Roumeliotis, S., Eglinton, J., 2013. Feasibility study on the use of\r\nattenuated total reflectance infrared spectroscopy as high throughput screening\r\ntool to phenotype single barley seeds (Hordeum vulgare L.). Biosyst. Eng. 116,\r\n379–384.\r\nde Bittencourt, Sonia Regina Mudrovitsch, Vieira, Roberval Daiton, 2006. Temperatura e\r\nperíodo de exposiç~ao de sementes de milho no teste de envelhecimento acelerado.\r\nRev. Bras. Sementes 161–168.\r\nDoria, E., Galleschi, L., Calucci, L., Pinzino, C., Pilu, R., Cassani, E., Nielsen, E., 2009.\r\nPhytic acid prevents oxidative stress in seeds: evidence from a maize (Zea mays L.)\r\nlow phytic acid mutant. J. Exp. Bot. 60 (3), 967–978.\r\nFinch-Savage, W.E., Bassel, G.W., 2015. Seed vigour and crop establishment: extending\r\nperformance beyond adaptation. J. Exp. Bot. 67 (3), 567–591.\r\nGu, J., Hou, D., Li, Y., Chao, H., Zhang, K., Wang, H., Xiang, J., Raboanatahiry, N.,\r\nWang, B., Li, M., 2019. Integration of proteomic and genomic approaches to dissect seed\r\ngermination vigor in Brassica napus seeds differing in oil content. BMC Plant Biol. 19 (1).\r\nGuti\u0002errez, G., Cruz, F., Moreno, J., Gonz\u0002alez-Hern\u0002andez, V.A., V\u0002azquez-Ramos, J.M.,\r\n1993. Natural and artificial seed ageing in maize: germination and DNA synthesis.\r\nSeed Sci. Res. 3 (4).\r\nHampton, J., Conner, A., Boelt, B., Chastain, T., Rolston, P., 2016. Climate change: seed\r\nproduction and options for adaptation. Agriculture 6 (3), 33.\r\nHan, C., Zhen, S., Zhu, G., Bian, Y., Yan, Y., 2017. Comparative metabolome analysis of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "wheat embryo and endosperm reveals the dynamic changes of metabolites during\r\nseed germination. Plant Physiol. Biochem. 115, 320–327.\r\nKuhnen, S., Ogliari, J.B., Dias, P.F., Boffo, E.F., Correia, I., Ferreira, A.G., Delgadillo, I.,\r\nMaraschin, M., 2010. ATR-FTIR spectroscopy and chemometric analysis applied to\r\ndiscrimination of landrace maize flours produced in southern Brazil. Int. J. Food Sci.\r\nTechnol. 45 (8), 1673–1681.\r\nKumar, S., Lahlali, R., Liu, X., Karunakaran, C., 2016. Infrared spectroscopy combined\r\nwith imaging a new developing analytical tool in health and plant science. Appl.\r\nSpectrosc. Rev.\r\nLee, L., Liong, C., Jemain, A., 2018. Partial least squares-discriminant analysis (PLS-DA)\r\nfor classification of high-dimensional (HD) data: a review of contemporary practice\r\nstrategies and knowledge gaps. The Analyst 143 (15), 3526–3539.\r\nLi-Chan, E.C.Y., 2010. Introduction to vibrational spectroscopy in food science. In: Li\u0002Chan, E.C.Y., Griffiths, P.R., Chalmers, J.M. (Eds.), Vibrational Spectroscopy in Food\r\nScience, 1. John Willey & Sons Ltd, United Kingdom, pp. 3–29.\r\nLin, L., Ockenden, I., Lott, J.N., 2005. The concentrations and distribution of phytic acid\u0002phosphorus and other mineral nutrients in wild-type and low phytic acid1-1 (lpa1-1)\r\ncorn (Zea mays L.) grains and grain parts. Can. J. Bot. 83 (1), 131–141.\r\nLopes, W.A., Fascio, M., 2004. Esquema para interpretaç~ao de espectros de subst^ancias\r\norg^anicas na regi~ao do infravermelho. Quím. Nova 27 (4), 670–673.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Lopez-S \u0002 \u0002anchez, M., Ayora-Caneada, M.J., Molina-Díaz, A., 2010. Olive fruit growth and\r\nripening as seen by vibrational spectroscopy. J. Agric. Food Chem. 58 (1), 82–87.\r\nMarcos Filho, J., 2015. Seed vigor testing: an overview of the past, present and future\r\nperspective. Sci. Agric. 72 (4), 363–374.\r\nMarcos Filho, 1999. J. Testes de vigor: importancia e utilizaç ^ ao~ . In: Krzyzanowski, F.C.,\r\nVieira, R.D., França Neto, J.B. (Eds.), Vigor de sementes: conceitos e testes. Londrina:\r\nAbrates, pp. 1–21.\r\nNerling, D., Coelho, C.M.M., Brümmer, A., 2018. Biochemical profiling and its role in\r\nphysiological quality of maize seeds. J. Seed Sci. 40 (1), 7–15.\r\nNerling, Daniele, et al., 2013. Diversidade gen\u0002etica para qualidade fisiologica de sementes \u0002\r\nproduzidas por cruzamentos intervarietais de milho (Zea mays L.). J. Seed Sci. 35 (4).\r\nOliveira, G.E., Pinho, R.G.V., de Andrade, T., de Pinho, E.V.R.V., dos Santos, C.D., \u0002\r\nVeiga, A.D., 2013. Physiological quality and amylase enzyme expression in maize\r\nseeds. Cienc. E Agrotecnol. 37 (1), 40–48.\r\nOliveira, R.N., Mancini, M.C., de Oliveira, F.C.S., Passos, T.M., Quilty, B., da\r\nThir\u0002e, R.M.S.M., McGuinness, G.B., 2016. FTIR analysis and quantification of phenols\r\nand flavonoids of five commercially available plants extracts used in wound healing.\r\nMateria 21 (3), 767–779.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Prazeres, C.S., Coelho, C.M.M., 2016a. Genetic divergence and heterosis related to\r\nphysiological quality in maize seeds. Bragantia 75 (4), 411–417.\r\nG.C. Andrade et al. Heliyon 6 (2020) e03477\r\n14\nPrazeres, Camila Segalla, Coelho, Cileide Maria Medeiros, 2016b. Heterose para\r\nqualidade fisiologica de sementes na obtenç \u0002 ~ao de híbridos de milho. Revista\r\nBrasileira de Milho e Sorgo 15 (1), 124–133, 2016.\r\nR Core Team, 2019. R: A Language and Environment for Statistical Computing. R\r\nFoundation for Statistical Computing, Vienna, Austria. Disponível em:https://\r\nwww.R-project.org/.\r\nRajjou, L., Duval, M., Gallardo, K., Catusse, J., Bally, J., Job, C., Job, D., 2012. Seed\r\ngermination and vigor. Annu. Rev. Plant Biol. 63 (1), 507–533.\r\nSavitzky, A., Golay, M.J.E., 1964. Smoothing and differentiation of data by simplified\r\nleast squares procedures. Anal. Chem. 36 (8), 1627–1639.\r\nSbrussi, C.A.G., Zucareli, C., 2014. Germinaç~ao de sementes de milho com diferentes níveis\r\nde vigor em resposta \u0004a diferentes temperaturas. Semina Ci^encias Agr\u0002arias 35 (1), 215.\r\nSchulz, H., Baranska, M., 2007. Identification and quantification of valuable plant\r\nsubstances by IR and Raman spectroscopy. Vib. Spectrosc. 43 (1), 13–25.\r\nSilverstein, R.M., Webster, F.X., Kiemle, D.J., 2005. Spectrometric Identification of\r\nOrganic Compounds, seventh ed. John Wiley and Sons, Hoboken, NJ.\r\nSocrates, G., 2001. In: third ed. Infrared and Raman Characteristic Group Frequencies:\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "Tables and Charts. J. Wiley and Sons, Chichester, p. 348.\r\nSuresh, A., Shah, N., Kotecha, M., Robin, P., 2019. Evaluation of biochemical and\r\nphysiological changes in seeds of Jatropha curcas L. under natural aging, accelerated\r\naging and saturated salt accelerated aging. Sci. Hortic. 255, 21–29.\r\nTian, P.-P., Lv, Y.-Y., Yuan, W.-J., Zhang, S.-B., Hu, Y.-S., 2019. Effect of artificial aging on\r\nwheat quality deterioration during storage. J. Stored Prod. Res. 80, 50–56.\r\nUarrota, V., Moresco, R., Coelho, B., Nunes, E., Peruch, L., Neubert, E., Rocha, M.,\r\nMaraschin, M., 2014. Metabolomics combined with chemometric tools (PCA, HCA,\r\nPLS-DA and SVM) for screening cassava (Manihot esculenta Crantz) roots during\r\npostharvest physiological deterioration. Food Chem. 161, 67–78.\r\nUarrota, V.G., Amante, E.R., Demiate, I.M., Vieira, F., Delgadillo, I., Maraschin, M., 2013.\r\nPhysicochemical, thermal, and pasting properties of flours and starches of eight\r\nBrazilian maize landraces (Zea mays L.). Food Hydrocolloids 30 (2), 614–624.\r\nUarrota, V.G., Rocha, M., Maraschin, M., 2017. Non-targeted metabolomic profiling of\r\nmaize landraces (Zea mays l.) combined with chemometric tools. Int. J. Biochem.\r\nRes. Rev. 20 (1-IJBCRR. 35832), 1–9.\r\nUarrota, V.G., Segatto, C., Voytena, A.P.L., Maraschin, M., Avila, L.V., Kazama, D.C.S.,\r\nCoelho, C.M.M., Souza, C.A., 2018. Metabolic fingerprinting of water-stressed\r\nsoybean cultivars by gas chromatography, near-infrared and UV-visible spectroscopy\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "combined with chemometrics. J. Agron. Crop Sci.\r\nVan Soest, J.J., Tournois, H., de Wit, D., Vliegenthart, J.F., 1995. Short-range structure in\r\n(partially) crystalline potato starch determined with attenuated total reflectance\r\nFourier-transform IR spectroscopy. Carbohydr. Res. 279, 201–214.\r\nVentura, L., Don\u0004a, M., Macovei, A., Carbonera, D., Buttafava, A., Mondoni, A., Rossi, G.,\r\nBalestrazzi, A., 2012. Understanding the molecular pathways associated with seed\r\nvigor. Plant Physiol. Biochem. 60, 196–206.\r\nWen, D., Hou, H., Meng, A., Meng, J., Xie, L., Zhang, C., 2018. Rapid evaluation of seed\r\nvigour by the absolute content of protein in seed within the same crop. Sci. Rep. 8 (1).\r\nWu, X., Ning, F., Hu, X., Wang, W., 2017. Genetic modification for improving seed vigor is\r\ntransitioning from model plants to crop plants. Front. Plant Sci. 8.\r\nXia, F., Chen, L., Sun, Y., Mao, P., 2015. Relationships between ultrastructure of embryo\r\ncells and biochemical variations during ageing of oat (Avena sativa L.) seeds with\r\ndifferent moisture content. Acta Physiol. Plant. 37 (4).\r\nYan, D., Duermeyer, L., Leoveanu, C., Nambara, E., 2014. The functions of the endosperm\r\nduring seed germination. Plant Cell Physiol. 55 (9), 1521–1533.\r\nZhang, A., Sun, H., Wang, P., Han, Y., Wang, X., 2012. Modern analytical techniques in\r\nmetabolomics analysis. The Analyst 137 (2), 293–300.\r\nZhao, M., Zhang, H., Yan, H., Qiu, L., Baskin, C.C., 2018. Mobilization and role of starch,\r\nprotein, and fat reserves during seed germination of six wild grassland species. Front.\r\nPlant Sci. 9.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 14,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -993589314189864943,
+        "filename": "main.PMC7047203.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 15,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 22,
+      "total_chunks": 36,
+      "version": "1.0.0"
+    },
+    "text": "G.C. Andrade et al. Heliyon 6 (2020) e03477\r\n15\n\n"
+  }
+]

@@ -1,0 +1,698 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Accurate and visualiable discrimination of Chenpi age using 2D-CNN and \r\nGrad-CAM++ based on infrared spectral images\r\nLi Jun Tang 1, Xin Kang Li 1, Yue Huang , Xiang-Zhi Zhang , Bao Qiong Li *\r\nSchool of Pharmacy and Food Engineering, Wuyi University, Jiangmen, 529020, PR China\r\nARTICLE INFO\r\nKeywords:\r\nFTIR spectral image\r\nChenpi\r\n2D-CNN\r\nGrad-CAM++\r\nFeature visualization\r\nABSTRACT\r\nDried tangerine peel (“Chenpi”), has numerous clinical and nutritional benefits, with its quality being signifi\u0002cantly influenced by its storage age, referred to as “Chen Jiu Zhe Liang” in Chinese. Concequently, the rapid and \r\naccurate identification of Chenpi's age is important for consumers. In this study, Fourier transform infrared \r\nspectroscopy (FTIR) was employed to capture spectral images of Chenpi. These FTIR images were then analyzed \r\nusing a two-dimensional convolutional neural networks (2D-CNN) model, achieving a discrimination accuracy of \r\n97.92%. To address the “black box” nature of the 2D-CNN, Gradient-weighted Class Activation Mapping Plus \r\nPlus (Grad-CAM++) was utilized to highlight the important regions contributing to the model's performance. \r\nAdditionally, six other machine learning models were developped using features identified by the 2D-CNN to \r\nvalidate their effectiveness. The results demonstrated that the combination of FTIR spectral images and 2D-CNN \r\nprovides a highly effective method for accurately determining the age of Chenpi.\r\n1. Introduction\r\nChenpi, also known as dried tangerine peel, is created by sun-drying \r\nthe peel of tangerines, which is known for its health benefits, including \r\nregulating qi, aiding digestion and reducing phlegm (Wang et al., 2023). \r\nChenpi is highly valued for its medicinal properties, with the age of \r\nChenpi being a key factor in determining its quality, which is known as \r\n“Chen Jiu Zhe Liang” in Chinese (Sun et al., 2023). The traditional \r\nmethods for identifying the age of Chenpi involve sensory and physical \r\nexaminations, such as surface observation, aroma identification, and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "taste testing. However, these methods require a high level of skill and \r\nexperience and lack quantitative data, making it difficult to standardize \r\nevaluations and compare results across different batches. In contrast, \r\nchemical methods provide a more precise and objective approach to \r\nidentifying the age of Chenpi by analyzing its chemical composition and \r\nthe changes that occur over time. The commonly used techniques \r\nincluding high-performance liquid chromatography (HPLC) (Li et al., \r\n2019), gas chromatography–mass spectrometry (GC–MS) (Shi et al., \r\n2024), and liquid chromatography-mass spectrometry (LC-MS) (Yang \r\net al., 2022). These methods demonstrate high sensitivity and resolution \r\nin detecting chemical components such as flavonoids, phenolic acids, \r\npolysaccharides, and volatile oils. When combined with data processing \r\nmethods like artificial neural network (ANN), principal component \r\nanalysis (PCA) and partial least squares-discriminant analysis (PLS-DA), \r\nthe accuracy and efficiency of these detection techniques are enhanced. \r\nFor instance, GC–MS combined with ANN allows for precise analysis of \r\nvolatile compounds (Qu et al., 2015). Similarly, PCA and PLS-DA can be \r\nemployed alongside HPLC or LC-MS for the differentiation of Chenpi \r\nfrom different years based on the analysis of flavonoids, and phenolic \r\nacids (Liang et al., 2022; Wang et al., 2016). However, despite the \r\nimproved capabilities offered by these combined approaches, there are \r\ncertain limitations. High-precision analytical techniques typically \r\nrequire complex and expensive equipment, as well as specialized skills, \r\nwhich limits their widespread application. Additionally, these methods \r\nAbbreviations: Chenpi, dried tangerine peel; FTIR, Fourier transform infrared spectroscopy; HPLC, high-performance liquid chromatography; GC–MS, gas chro\u0002matography–mass spectrometry; LC-MS, liquid chromatography-mass spectroscopy; ANN, artificial neural network; PCA, principal component analysis; 2D-CNN, \r\ntwo-dimensional convolutional neural networks; Grad-CAM++, Gradient-weighted Class Activation Mapping Plus Plus; GNN, graph neural networks; LSTM, long \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "short-term memory networks; GAN, generative adversarial networks; RNN, recurrent neural networks; DRL, transformer models and deep reinforcement learning; \r\nDA, data augmentation; AdaBoost, adaptive boosting; GBDT, gradient boosting decision tree; PLS-DA, partial least squares-discriminant analysis; LR, logistic \r\nregression; KNN, K-nearest neighbors; DT, decision tree; XGBoost, extreme gradient boosting.\r\n* Corresponding author at: Dongcheng Village, Jiangmen, Guangdong 529020, PR China.\r\nE-mail address: libq201406@163.com (B.Q. Li). 1 These authors contributed equally to this work.\r\nContents lists available at ScienceDirect\r\nFood Chemistry: X\r\njournal homepage: www.sciencedirect.com/journal/food-chemistry-x\r\nhttps://doi.org/10.1016/j.fochx.2024.101759\r\nReceived 30 July 2024; Received in revised form 19 August 2024; Accepted 20 August 2024 \r\nFood Chemistry: X 23 (2024) 101759\r\nAvailable online 22 August 2024\r\n2590-1575/© 2024 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC license (http://creativecommons.org/licenses/by\u0002nc/4.0/).\nstill rely on traditional machine learning algorithms, which may fall \r\nshort when handling complex, non-linear data. These liminations un\u0002derscore the need for simpler, innovative, and accurate methods for \r\nidentifying the age of Chenpi.\r\nFourier transform infrared spectroscopy (FTIR) is a powerful spec\u0002troscopy technique that offers the advantages of non-destructive anal\u0002ysis, comprehensive chemical information, high sensitivity, and rapid \r\ndata acquisition. FTIR covers a broad spectral range, enabling the \r\ndetection of a wide variety of functional groups and molecular vibra\u0002tions, thus providing detailed chemical information. For example, Pan \r\net al. (Pan et al., 2022) and Zhang et al. (Zhang et al., 2022) successfully \r\nidentified the geographical origin and storage age of Chenpi using near\u0002infrared spectroscopy combined with machine learning methods. With \r\nthe increasing computational power, deep learning techniques such as \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "convolutional neural networks (CNN), graph neural networks (GNN), \r\nlong short-term memory network (LSTM), autoencoder, generative \r\nadversarial networks (GAN), recurrent neural networks (RNN), trans\u0002former models, and deep reinforcement learning (DRL), have been \r\ndeveloped and made remarkable advancements in a wide range of \r\nresearch fields (Dou et al., 2023). Li et al. (Qin et al., 2024) applied FTIR \r\ncombined with CNN-LSTM model to classify Chenpi samples of different \r\nages, achieving a discriminant accuracy higher than 96.5%. However, \r\nwhile these methods have enabled rapid, non-destructive and accurate \r\ndiscrimination of Chenpi with different ages, they face challenges with \r\nmodel interpretability, making it difficult to understand how specific \r\ninput features influence the model's predictions. Therefore, developing \r\nrapid, efficient, accurate, and interpretable methods for identifying the \r\nage of Chenpi is crucial. Such advancements would not only enhance the \r\nreliability of the models but also provide deeper insights and support for \r\nscientific research and practical applications.\r\nIn recent years, the need for reliable methods to authenticate and \r\nevaluate the quality of Chenpi has driven the exploration of advanced \r\nanalytical techniques. Li et al. (Li et al., 2024) highlighted in their re\u0002view that infrared spectroscopy has emerged as an important technique \r\nfor identifying Chenpi authenticity, offering more distinctive identifi\u0002cation characteristics compared to other physical and chemical \r\nmethods. Among the above mentioned deep learning methods, CNN \r\ndemonstrated excellent performance in image classification (Liu et al., \r\n2022), due to their ability to capture local and spatial hierarchies of \r\nfeatures within images. By integrating the detailed chemical information \r\nprovided by FTIR with the powerful image classification capabilities of \r\nCNN, this study aims to develop an accurate and novel model for \r\ndetermining the age of Chenpi based on FTIR spectral images. To \r\nenhance model interpretability, we employ Gradient-weighted Class \r\nActivation Mapping Plus Plus (Grad-CAM++) (Chattopadhay et al., \r\n2018), an advanced visualization technique that can highlight critical \r\nregions in the spectral images, providing insights into the CNN's \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "decision-making process. Although the combination of CNN and Grad\u0002CAM++ has been used to identify the geographical origins of traditional \r\nChinese medicine samples based on hyperspectral imaging (Cai et al., \r\n2023), our study is the first to apply this approach using FTIR spectral \r\nimages to determine the age of Chenpi. Additionally, we have conducted \r\na more in-depth analysis to emphasize both the interpretability and \r\naccuracy of the model.\r\nThe objectives of this study are: (1) to develop a two-dimensional \r\nconvolutional neural networks (2D-CNN) model capable of accurately \r\nclassifying the age of Chenpi using FTIR spectral images, (2) to utilize \r\nGrad-CAM++ for visualizing the focus areas of the 2D-CNN model \r\nduring age determination, thereby avoiding a “black box” phenomenon \r\nand enhancing the transparency of the model's predictions, and (3) to \r\nvalidate the effectiveness of features identified by the 2D-CNN by \r\nestablishing six different machine learning models using these high\u0002lighted features. By addressing these objectives, this study aims to pro\u0002vide a reliable and interpretable solution for Chenpi age identification, \r\nbenefiting the food industry in quality control and increasing consumer \r\nconfidence in Chenpi products.\r\n2. Sample and data description\r\nIn this study, 39 Chenpi samples were purchased from ten different \r\ncompanies located in Jiangmen, Guangdong Province, China, specif\u0002ically sourced from the Xinhui region. These samples were harvested in \r\nthe years 2014, 2016, 2018 and 2020. Detailed information of the \r\nChenpi samples is summarized in Table S1 (Supporting information). \r\nNotably, the production of Xinhui Chenpi follows the traditional process \r\nof sun-drying fresh citrus peels and then storing them in a ventilated and \r\ndry environment to mature. In order to minimise the influence of un\u0002known external factors on the analysis results, all samples were sub\u0002jected to experimental analysis as soon as possible after purchase.\r\nFTIR data were collected from the 39 Chenpi samples in the mid\u0002infrared spectral range of 400–4000 cm− 1 (FTIR, Nicolet iS5, Thermo \r\nFisher Scientific Inc., USA). The samples were pre-treated, milled and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "removed by a 60 mesh sieve. The FTIR spectrum of the Chenpi powder \r\nwas measured by potassium bromide (KBr, purchased from Shanghai \r\nMacklin Biochemical Co., Ltd., Shanghai, China) pellet method. The \r\nsamples were weighted 1 mg and mixed with 100 mg of KBr uniformly, \r\npressed it into a transparent flake for measurement. The accompanying \r\nOMNIC software was used for infrared spectroscopy analysis.\r\nThe objective of this study was to accurate classify and analyze these \r\nsamples based on their harvest year. Each sample was measured six \r\ntimes, generating a total of 234 spectral data from the original 39 \r\nsamples. The data were organized into a data matrix of size 234 × 7468.\r\n3. Methodology\r\n3.1. Deep learning\r\n3.1.1. Two-dimensional convolutional neural networks\r\nFTIR spectral classification using 2D-CNN involves treating spectral \r\ndata as two-dimensional images, extracting spatial and spectral features \r\nthrough convolution and pooling, and progressively learning abstract \r\nfeatures to achieve accurate classification. This approach has high po\u0002tential in infrared spectral tasks due to its ability to handle complex \r\nfeatures, improve classification accuracy, and reduce overfitting. By \r\ncarefully designing the network structure and appropriately adjusting \r\nthe parameters, these advantages can be fully utilized to enhance \r\nspectral analysis.\r\nThis paper introduces a 2D-CNN model specially designed for FTIR \r\nspectral image processing tasks. The model employs three successive \r\nconvolutional layers to extract hierarchical features from the input im\u0002ages. Each convolutional layer consists of convolution operations fol\u0002lowed by batch normalization, ReLU activation, and maximum pooling. \r\nThis design not only enhances feature extraction capabilities but also \r\nreduces the model's parameter count, thereby improving computational \r\nefficiency. Starting with a three-channel input image, the initial con\u0002volutional layer progressively transforms it into feature maps with 16, \r\n32, and 64 channels, respectively. These feature maps are further \r\ncompressed through fully connected layers, enabling the mapping from \r\nhigh-dimensional data to the final classification predictions. The output \r\nlayer utilizes the log softmax function to generate probabilities for each \r\ncategory, making the model suitable for multi-category classification \r\ntasks.\r\nThe structured 2D-CNN architecture exemplifies the efficacy of deep \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "learning in image recognition and classification. By stacking convolu\u0002tional layers, the model extracts intricate details from input images, \r\nenabling precise classification. The architectural diagram of the 2D-CNN \r\nstructure was illustrated in Fig. 1.\r\n3.1.2. Visualization method\r\nThe 2D-CNN is often considered as a “black box” model in deep \r\nlearning. To gain deeper insights into the decision-making process of the \r\n2D-CNN model and validate its interpretability, we employed the Grad\u0002CAM++ method for model visualization in this study. Grad-CAM++ is \r\nL.J. Tang et al. Food Chemistry: X 23 (2024) 101759\r\n2\nan advanced version of the Grad-CAM technique, which generates class \r\nactivation maps by leveraging gradient information to highlight the \r\nimage regions the model focuses on when recognizing target categories \r\n(Moujahid et al., 2022). In the present study, we first propagated the \r\ninput images through the trained 2D-CNN model to obtain its pre\u0002dictions. Subsequently, we used the Grad-CAM++ method to compute \r\nthe gradients of the output layer with respect to the convolutional \r\nfeature maps, generating class activation maps based on these gradients. \r\nFinally, these maps were overlaid onto the original images to create \r\nintuitive heatmaps, revealing the critical regions the model relies on \r\nduring classification decisions.\r\nBy utilizing Grad-CAM++ for visualization, we not only validated \r\nthe model's performance on specific tasks but also uncovered its internal \r\nmechanisms, providing a clearer understanding of the model's behavior. \r\nThis visualization method provides strong support for interpreting deep \r\nlearning models, thereby enhancing their transparency and credibility.\r\n3.1.3. Data augmentation\r\nDeep learning models relys on large datasets for effective training, \r\nand data augmentation (DA) techniques can be used to enhance model \r\nperformance by increasing the diversity of instances through synthe\u0002sized data (Shorten & Khoshgoftaar, 2019). In addition, DA helps to \r\nprevent overfitting problems during the training phase of the model and \r\nmaintain the model's generalization ability, making it an effective \r\nmethod for improving the overall performance of deep learning models \r\n(Hao et al., 2023). When performed in image classification assignment, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "DA methods commonly include flipping (flipping the image horizontally \r\nor vertically), rotation, scaling and cropping, panning, contrast and \r\nbrightness adjustments, noise addition, Gaussian blurring, etc. (Khalifa \r\net al., 2022).\r\n3.2. Machine learning methods\r\n3.2.1. Variable selection methods\r\nWhen optimizing model performance through variable selection, \r\nchoosing the appropriate algorithms is crucial. In this study, we employ \r\nAdaBoost (adaptive boosting) and Boruta as the primary methods for \r\nvariable selection. These methods address the challenges of high\u0002dimensional data and complex relationships, enhancing prediction ac\u0002curacy and ensuring that the selected variables significantly contribute \r\nto the interpretability and practicality of the research.\r\nAdaBoost is a powerful ensemble learning algorithm that works by \r\niteratively training a multiple weak classifiers, typically simple models \r\nlike decision trees and then combining them into a strong predictive \r\nmodel, resulting in a highly accurate ensemble model (Tang et al., \r\n2021). In variable selection, AdaBoost effectively identifies features that \r\nhave significantly impact on predicting the target variable. Unlike \r\ntraditional methods such as stepwise regression or simple filtering \r\nmethods, AdaBoost excels at capturing complex interactions between \r\nfeatures, which are often missed by simpler methods. This capability \r\nleads to enhanced prediction accuracy and better generalization per\u0002formance of the model. In this study, AdaBoost was chosen for variable \r\nselection because of its ability to handle high-dimensional data and \r\ncomplex feature structures, ensuring that the selected variables provide \r\nmaximal information and predictive power.\r\nBoruta algorithm is a robust feature selection method based on \r\nrandom forests classifer, specifically designed to assess the importance \r\nof variables in predicting the target variable (Kursa & Rudnicki, 2010). \r\nUnlike standard random forests, which directly rank features based on \r\ntheir importance, Boruta introduces a more rigorous comparison by \r\nadding randomly generated “shadow features” to the dataset (Yu et al., \r\n2024). These shadow features are duplicates of the original features with \r\ntheir values randomly shuffled, serving as a baseline to test the impor\u0002tance of each real feature. This method helps avoid overfitting and bias \r\nin feature selection, making Boruta particularly suitable for complex \r\ndatasets and high-dimensional scenes, such as infrared spectral data. In \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "this study, Boruta was chosen for its ability to rigorously evaluate the \r\nsignificance of each variable, ensuring that only the most relevant fea\u0002tures are selected, thereby improving the model's interpretability and \r\nreducing the risk of including irrelevant or redundant information.\r\n3.3. Classification methods\r\nClassification in FTIR spectroscopy involves categorizing spectra into \r\ndistinct groups based on their unique patterns or features. Typically, \r\nmachine learning models are trained on a dataset of known FTIR spectra, \r\nenabling them to classify new, previously unseen spectra accurately. In \r\nthis study, we employed six widely-used machine learning algorithms \r\nfor FTIR data analysis: gradient boosting decision tree (GBDT) (Wu \r\net al., 2021), partial least squares-discriminant analysis (PLS-DA) \r\n(Naeim Mohamad Asri et al., 2022), logistic regression (LR) (Akturk \r\net al., 2024), K-nearest neighbors (KNN) (Cunningham & Delany, 2021), \r\ndecision tree (DT) (Chen et al., 2020), and extreme gradient boosting \r\n(XGBoost) (Sheridan et al., 2016).\r\nGBDT is an ensemble machine learning algorithm that combines \r\nmultiple decision trees as base learners to improve model performance. \r\nThe algorithm iteratively builds decision trees by focusing on the re\u0002siduals (errors) of the previous trees, allowing the model to gradually \r\ncorrect its mistakes. In each iteration, a new decision tree is trained \r\nusing the residuals from the previous iteration, optimizing the model by \r\nFig. 1. The architectural diagram of the 2D-CNN structure.\r\nL.J. Tang et al. Food Chemistry: X 23 (2024) 101759\r\n3\nminimizing the loss function along the negative gradient direction \r\n(Liang et al., 2020). This process continues until the model achieves the \r\ndesired accuracy or a pre-set number of iterations is eached. In this \r\nstudy, the parameters for the bosted tree were fine-tuned using a grid \r\nsearch method, and the model's performance was cross-validated with 4 \r\nfolds. The optimal parameters were set as follows: “n_estimators” to 300, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "“learning_rate” to 0.01, and “max_depth” to 3, ensuring a balance between \r\nmodel complexity and prediction accuracy.\r\nPLS-DA is a statistical analysis method that combines PLS regression \r\nand linear discriminant analysis to classify data sets into different cat\u0002egories. The method is particularly useful for high-dimensional data, \r\nwhere it reduces the number of latent variables by finding the most \r\nrelevant features that contribute to the prediction of the target variable \r\n(Pokhrel et al., 2023). PLS-DA simultaneously models the relationships \r\nbetween predictor and response variables, allowing for effective classi\u0002fication even in the presence of multicollinearity among the predictors. \r\nIn this study, five-fold cross-validation was employed to determine the \r\noptimal hyperparameters, with the best performance achieved when the \r\nnumber of components (“n_components”) was set to 10.\r\nLR is a classic machine learning algorithm widely used for binary \r\nclassification problems. The algorithm fits a decision boundary, which \r\ncan be linear or polynomial, to separate the data into different classes \r\n(Jin et al., 2022). It then calculates the probability of each data point \r\nbelong to a particular class based on this boundary, using a logistic \r\nfunction as the predictor function. One of the key advantages of LR is its \r\nability to avoid making inaccurate assumptions about the data distri\u0002butions, making it robust in various situations. In this study, L2 regu\u0002larization was applied to LR model to prevent overfitting, with the \r\nregularization parameter “C” set to 100, which controls the trade-off \r\nbetween maximizing the likelihood and minimizing the magnitude of \r\nthe coefficients.\r\nKNN is a popular parameter-free supervised learning algorithm that \r\nis widely used in classification problems. The algorithm classifies a data \r\npoint by analyzing the “K” closest data points (neighbors) in training set \r\nand assigning the most common class among them to the new data point \r\n(Ali et al., 2019). The distances between data points is typically \r\nmeasured using Euclidean distance, although other metrics can also be \r\nused. In this study, we utilized 5-fold cross-validation to determine the \r\noptimal number of neighbors (“k”). The accuracy was evaluated for “k” \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "value ranging from 1 to 20, and the optimal “k” value was identified as 5, \r\nproviding the best balance between bias and variance.\r\nDT is a popular supervised learning method used for both classifi\u0002cation and regression problems. The algorithm works by recursively \r\nsplitting the dataset into smaller subsets based on the value of the most \r\ninformative feature at each step. It selects a feature as the current node \r\nand calculates its information gain or entropy. The feature with the \r\nhighest information gain or entropy is chosen for the split. This process \r\nrepeats until the stopping condition is met (Kim, 2016). In this study, \r\ngrid search was employed to tune the hyperparameters of the decision \r\ntree model, and each parameter configuration was evaluated using 4- \r\nfold cross-validation. The optimal settings were determined to be a \r\nmaximum depth of 3, a minimum number of samples required to split an \r\ninternal node of 2, and a minimum number of samples required to be at a \r\nleaf node of 4.\r\nXGBoost is an advanced implementation of gradient boosting that \r\nhas gained widespread recognition for its high performance in both \r\nclassification and regression tasks. It enhances model accuracy through \r\nthe integration of multiple weak classifiers (typically decision trees) into \r\na single strong learner (Qiu et al., 2022). XGBoost introduces additional \r\nregularization terms and penalty functions in its objective function to \r\ncontrol model complexity and assess overfitting risks, making it more \r\nrobust than standard gradient boosting. In this study, the model's pa\u0002rameters were carefully tuned to optimize performance. The final set\u0002tings were “n_estimators” at 400, “learning_rate” at 0.2, and “max_depth” \r\nat 2, allowing the model to achieve high predictive accuracy while \r\nmaintaining a controlled complexity.\r\n3.4. Model evaluation\r\nIn all models, the entire dataset was randomly divided into training, \r\nvalidation and test sets in a 6:2:2 ratio. Model hyperparameters were \r\ninitially adjusted using the training set. The accuracy or loss on the \r\nvalidation set was then used to further tune the hyperparameters, \r\nhelping to accelerate the model's convergence. Finally, the test set was \r\nused to evaluate the model's performance.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Evaluating the performance of a classifier model is crucial. Common \r\nevaluation metrics include classification accuracy, precision, recall, and \r\nF1_score (Adegun et al., 2023). The metrics were definedas follows:\r\nAccuracy measures the proportion of correct predictions out of the \r\ntotal number of cases examined, providing an overall evaluation of the \r\nmodel's classification performance. It is calculated as: \r\nAccracy = TP + TN\r\nTP + TN + FP + FN (1) \r\nwhere, TP (True Positives) is the number of samples correctly predicted \r\nas positive, FP (False Positives) is the number of negative samples \r\nincorrectly predicted as positive, TN (True Negatives) is the number of \r\nsamples correctly predicted as negative, and FN (False Negatives) is the \r\nnumber of positive samples incorrectly predicted as negative.\r\nPrecision measures the proportion of true positive cases out of all \r\npredicted positive cases, helping us understand the reliability of the \r\nmodel in correctly identifying samples belonging to a particular class. It \r\nis calculated as: \r\nPrecision = TP\r\nTP + FP (2) \r\nRecall, also known as sensitivity, measures the proportion of actual \r\npositive cases that are correctly identified by the model. It is calculated \r\nas: \r\nRecall = TP\r\nTP + FN (3) \r\nF1_score is the weighted average of Precision and Recall, providing a \r\nbalanced assessment of the model's performance, particularly when \r\ndealing with inbalanced datasets. It is calculated as: \r\nF1 score = 2 × Precision × Recall\r\nPrecision + Recall (4) \r\nConfusion matrix can provide a detailed analysis of the model's \r\nperformance by reporting the counts of FP, FN, TP and TN, allowing for \r\nstraightforward comparsion between different models on the same test.\r\nSpectral/image data processing and classification model develop\u0002ment were carried out using Python (version 3.7.0, 64-bit) with \r\nPyCharm Professional (version 2021.1.4) on a Windows 10 platform. \r\nThe machine learning algorithms were implemented using scikit-learn \r\n(version 1.0.1). The 2D-CNN model was developed using PyTorch \r\n(version 1.10.0). All data analysis procedures were executed on a \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "computer equipped with an Intel(R) Core(TM) i9-9900K processor \r\nclocked at 3.6 GHz and an NVIDIA GeForce GTX 1660 graphics card.\r\n4. Result and discussion\r\n4.1. Spectral profile of samples\r\nThe mid-infrared spectra of four Chenpi samples, each with different \r\nstorage year, was illustrated in Fig. S1 (see supporting information). The \r\nresults reveal a significant overlap in the spectral features among Chenpi \r\nsamples from different years, which propose a challenge for differenti\u0002ating the sample classes using conventional methods such as cosine \r\nsimilarity or Euclidean distance. To overcome this limitation and \r\nimprove the classification accuracy, we constructed a 2D-CNN specif\u0002ically designed for spectral image classification. This model's perfor\u0002mance was then compared with traditional machine learning methods \r\nL.J. Tang et al. Food Chemistry: X 23 (2024) 101759\r\n4\nthat utilize spectral data. The analysis and validation process for the 2D\u0002CNN model is illustrated in Fig. 2.\r\n4.2. Deep learning classification results\r\n4.2.1. Classification results of 2D-CNN\r\nPlotting the loss value and accuracy curves of datasets is an essential \r\nmethod for evaluating the learning progress and detecting overfitting or \r\nunderfitting in a deep learning model (Zhao et al., 2021). The loss curves \r\nindicate a trend of convergence and reduction, suggesting that the \r\nlearning process is been optimized. Meanwhile, the accuracy curves \r\nshow the model's performance improvements on both the training and \r\nvalidation sets, highlighting its ability to learn and generalise. As shown \r\nin Fig. 3a, the training and validation loss and accuracy for the 2D-CNN \r\nmodel demonstrate a clear reduction in training loss and a corre\u0002sponding increase in accuracy over the epochs, reflecting the model's \r\nlearning efficiency (Dong, 2024), which is a positive outcome. After \r\nevaluating the relationship between the number of iterations and the \r\nmodel's runtime, we identified the optimal parameter settings for the \r\n2D-CNN model as follows: “epoch” at 50, “learning rate” at 0.008, and \r\n“batchsize” at 12.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Then, the 2D-CNN model was established using the optimized pa\u0002rameters (as depicted in Step 1 in Fig. 2). The classification results for \r\nthe test set are illustrated in Fig. 4a and Fig. 4b. The model achieved \r\nimpressive performance on the test set, misclassifying only one out of 47 \r\nsamples. The final evaluation metrics on the test set obtain an accuracy \r\nof 97.92%, precision of 98.12%, recall of 97.91%, and F1_score of \r\n97.92% (Table 1). These results highlight the robustness and precision of \r\nthe 2D-CNN architecture in making accurate predictions, validating its \r\npotential for application in classification tasks. Moreover, the high ac\u0002curacy and consistency across multiple evaluation metrics suggest that \r\nthe 2D-CNN model is well-suited for applications that require precise \r\nand reliable classification.\r\nIn order to enhance the diversity and complexity of the data, reduce \r\nmodel overfitting, and improve model robustness, ten data augmenta\u0002tion methods were employed, as illstarted in Fig. 5. While the perfor\u0002mance of a model often depends on the richness of the provided \r\ninformation (Luo et al., 2022), excessive augmentation can lead to in\u0002formation loss, making it challenging for the model to learn effective \r\nfeatures. Additionally, it increases computational demands, prolongs \r\ntraining time and escalates resource costs. Therefore, it is crucial to \r\ncarefully selected appropriate augmentation methods. To explore the \r\nimpact of different augmentation strategies, we randomly performed \r\ncombinations of 3, 7, and all 10 augmentation methods, resulting in \r\ndatasets of different sizes (Table 1). These datasets were also split into \r\ntraining, validation and test sets, and 2D-CNN models were established \r\naccordingly. Among them, the model utilizing the three augmentation \r\n(3-DA) methods achieved the highest classification accuracy. The cor\u0002responding training and validation loss and accuracy for this model are \r\npresented in Fig. 3b. In constrast, the models based on 7-DA and 10-DA \r\ncombinations, although benefiting from larger data sizes, exhibited a \r\nsignificant drop in model performance. When comparing the accuracy \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 451,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "before (Fig. 4a and Fig. 4b) and after augmentation (Fig. 4c and Fig. 4d), \r\nit was found that the model's accuracy remained consistent, suggesting \r\nthat the original data was sufficiently diverse and representative, \r\nproviding the important features needed for the model to learn effec\u0002tively. As a result, further augmentation did not lead to significant im\u0002provements in performance. This enabled the 2D-CNN to achieve \r\noptimal discrimination accuracy without the need for additional \r\naugmentation. Consequently, we opted to use the original data for \r\nsubsequent analyses.\r\n4.2.2. Visualization of 2D-CNN identified features\r\nThe Grad-CAM++ algorithm is employed to generate a heatmap of \r\nthe gradients of the weights in the final convolutional layer, thus \r\nproviding a visual representation of the network model's decision\u0002making process (as illustrated in Step 2 of Fig. 2). On the Grad\u0002CAM++ heatmap, the darker red areas indicate the features that are \r\nmost critical for category localisation. In this study, these features were \r\nvisualized, and the results for Chenpi samples from four different years \r\nare displayed in Fig. 6a. It is evident that the highlighted areas vary \r\nacross different years, reflecting how the model's focus shifts based on \r\nthe imput spectral images. This visualization enhances the transparency \r\nand interpretability of the model's decisions, allowing us to intuitively \r\ngrasp the key features the model focuses on when distinguishing be\u0002tween categories.\r\nFollowing this, the effectiveness of the features selected by 2D-CNN \r\nwere validated, through successful validation of the 2D-CNN selected \r\nFig. 2. The process of 2D-CNN for classification and model performance validation.\r\nL.J. Tang et al. Food Chemistry: X 23 (2024) 101759\r\n5\nfeatures can further confirm their relevance and importance in accurate \r\nclassification.\r\n4.2.3. Validation effectiveness of 2D-CNN identified features\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "To validate the effectiveness of the features identified by the 2D\u0002CNN, we combined the most critical features pinpointed by the Grad\u0002CAM++ method, as depicted in Fig. 6b. These features were subse\u0002quently input into six machine learning methods-GBDT, LR, DT, \r\nXGBoost, KNN and PLS-DA (as illustrated in Step 3 of Fig. 2). The per\u0002formance of six machine learning models established using 2D-CNN \r\nidentified features were presented in Table 2. In addition, the compar\u0002ison of reference year and predicted year of Chenpi samples in test set \r\nwas illustrated in Fig. S2. Among the models, the GBDT and LR models \r\nestablished using 2D-CNN identified features show similar high perfor\u0002mance with 2D-CNN model established on original images. This suggests \r\nthat the feature selection process was successful in isolating the most \r\ninformative aspects of the spectral images, thereby maintaining high \r\nclassification accuracy. Although the DT, XGBoost and KNN moldes on \r\n2D-CNN identified features show a drop in performace compared to \r\nprevious methods, they still perform reasonable well, underscoring the \r\nrobustness and generalizability of the features. These findings are sta\u0002tistically supported by cross-validation, further confirming the effec\u0002tiveness of the features extracted by the 2D-CNN. Finally, the PLS-DA \r\nmodel on the 2D-CNN identified features shows the lowest performace \r\namong all the models. This deviation from the expected results suggests \r\nthe need for further investigation. To address this, we extend our \r\nresearch by appliying the six aforementioned machine learning methods \r\nin conjunction with different variable selection methods to establish \r\ndiscriminant models.\r\n4.3. Machine learning modelling results\r\nAt first, six machine learning models were established without \r\napplying any feature selection techniques. As can be seen from Table 2, \r\nmodels such as XGBoost and DT showed high accuracy values of 93.62% \r\nand 91.49%, respectively, demonstrating their strong performance in \r\nthe classification task. Similarly, the LR, KNN, and PLS-DA models also \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "performed relatively well, with accuracy values of 87.13%, 87.23% and \r\n85.21%, respectively, indicating their ability to handle the dataset \r\neffectively despite the presence of potentially irrelevant features. \r\nHowever, GBDT model had a lower accuracy of 70.21%, indicating that \r\nthe model might be negatively affected by irrelevant or redundant \r\nvariables. This observation underscores the importance of feature se\u0002lection in enhancing model performance by eliminating noise and \r\nfocusing on the most informative variables.\r\nThen, we applied Adaboost and Boruta algorithms to achieve feature \r\nselection, resulting in the extraction of 37 and 358 features from the \r\noriginal 7468 spectral data points (Fig. 6c and Fig. 6d), respectively. The \r\nresults presented in Table 2 indicated that the introduction of feature \r\nselection had a significant impact on model performance. Specifically, \r\nAdaBoost feature selection markedly improved the classification accu\u0002racy of GBDT, DT and XGBoost models, maintained the accuracy of KNN, \r\nwhile slightly decreased the accuracy for LR and significantly for PLS\u0002DA. On the other hand, Boruta feature selection improved the accu\u0002racy of GBDT, LR and DT models, while reduced the accuracy of KNN, \r\nPLS-DA and XGBoost models. These results highlight the importance of \r\nintegrating machine learning algorithms with appropriate feature se\u0002lection methods to improve classification accuracy.\r\nFinally, the results of six models based on three feature selection \r\nFig. 3. Loss and accuracy curves: (a) 2D-CNN model before data augmentation, (b) 2D-CNN model after data enhancement.\r\nL.J. Tang et al. Food Chemistry: X 23 (2024) 101759\r\n6\nmethods were compared (Fig. S3). The comparsion reveals that models \r\nsuch as GBDT, LR, KNN, and PLS-DA built on 2D-CNN identified features \r\nexhibit higher accuracy than those established using other two feature \r\nselection methods (Fig. S3a). This demonstrates the superior ability of \r\n2D-CNN to extract relevant and informative features, thereby enhancing \r\nthe performance of these models compared to Adaboost and Boruta. In \r\naddition, the accuracy of the DT model remains unchanged regardless of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "the feature selection method, while the XGBoost model established on \r\n2D-CNN identified features achieves better accauacy with Boruta and \r\nlower with AdaBoost. The other three parameters (Fig. S3b-d) followed a \r\nsimilar trend as accuracy. Overall, these analysis results highlight the \r\neffectiveness of the features extracted by 2D-CNN. Moreover, the 2D\u0002CNN model established on the FTIR spectral images demonstrated su\u0002perior performance, and the features selected by 2D-CNN exhibited good \r\nclassification accuracy accross machine learning models.\r\n4.4. Key advantages of the proposed method\r\nCompared to some reported methods used for Chenpi age discrimi\u0002nation (Liang et al., 2022; Qu et al., 2015; Wang et al., 2016), the pro\u0002posed method's novelty lies in its unique integration of FTIR spectral \r\nimages with 2D-CNN, a combination that has not been widely explored \r\nin Chenpi analysis. While traditional techniques like PCA and PLS-DA \r\nfocus on data processing, this approach takes advantage of 2D-CNN's \r\npowerful image classification abilities. Additionally, the use of Grad\u0002CAM++ for model interpretability introduces a new level of trans\u0002parency to the analysis, addressing the common issue of interpretability \r\nin traditional models and allowing researchers to understand how the \r\nmodel arrives at its decisions.\r\nFig. 4. Radar chart of classification results: (a) 2D-CNN model before data augmentation, (c) 2D-CNN model after data enhancement. Confusion matrix of classi\u0002fication results: (b) 2D-CNN model before data augmentation, (d) 2D-CNN model after data enhancement.\r\nTable 1 \r\nThe discrimination performance of 2D-CNN model before and after data \r\naugmentation.\r\nInputs Data \r\nsize\r\nAccuracy \r\n(%)\r\nPrecision \r\n(%)\r\nRecall \r\n(%)\r\nF1_score \r\n(%)\r\nOriginal \r\nimages 234 97.92 98.12 97.91 97.92\r\n3-DA 936 99.47 99.48 99.47 99.47\r\n7-DA 1872 75.73 64.45 75.73 67.23\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "10-DA 2574 87.02 89.13 87.02 85.57\r\nL.J. Tang et al. Food Chemistry: X 23 (2024) 101759\r\n7\nFig. 5. The different kinds of employed data enhancement methods.\r\nFig. 6. (a) Grad-CAM++ visualization of 2D-CNN identified features, (b) combination of 2D-CNN extracted characteristic features, (c) AdaBoost extracted features, \r\n(d) Boruta extracted features.\r\nL.J. Tang et al. Food Chemistry: X 23 (2024) 101759\r\n8\nOverall, this method stands out from traditional approaches by \r\ncombining a fast and non-destructive spectral technique, a deep learning \r\nalgorithm, and easy-to-understand results, making the analysis more \r\nthorough and insightful.\r\n5. Conclusions\r\nThe present study has illustrated the success of using 2D-CNN com\u0002bined with FTIR spectral images for the discrimination of Chenpi age, \r\nachieving the classification accuracy of 97.92%. Moreover, the features \r\nidentified by the 2D-CNN were visualized using the Grad-CAM++\r\ntechnique, which helps to avoid the “black box” phenomenon commonly \r\nassociated with deep learning models. To further validate the effec\u0002tiveness of the features identified by the 2D-CNN, they were input into \r\nsix different machine learning methods to establish classification \r\nmodels. The results indicated that the 2D-CNN model established on the \r\nFTIR spectral images not only outperformed other used methods but also \r\ndemonstrated that the features selected by 2D-CNN show good inter\u0002pretability and classification accuracy across various machine learning \r\nmodels. Therefore, our research lays a solid foundation for further \r\nresearch and the optimisation of deep learning based feature extraction \r\nmethods.\r\nAcknoledgement and funding\r\nThis research was funded by “Development and Research on \r\nMethods for Identifying the Age and Origin of Xinhui Chenpi” (Grant \r\nnumber: 34220002).\r\nCRediT authorship contribution statement\r\nLi Jun Tang: Writing – original draft, Visualization, Methodology, \r\nInvestigation, Formal analysis, Data curation, Conceptualization. Xin \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Kang Li: Writing – original draft, Visualization, Methodology, Investi\u0002gation, Formal analysis, Data curation, Conceptualization. Yue Huang: \r\nInvestigation, Formal analysis, Data curation. Xiang-Zhi Zhang: \r\nWriting – review & editing, Supervision. Bao Qiong Li: Writing – review \r\n& editing, Visualization, Supervision, Project administration, Method\u0002ology, Funding acquisition, Conceptualization.\r\nDeclaration of competing interest\r\nThe authors declare that they have no known competing financial \r\ninterests or personal relationships that could have appeared to influence \r\nthe work reported in this paper.\r\nData availability\r\nData will be made available on request.\r\nAppendix A. Supplementary data\r\nSupplementary data to this article can be found online at https://doi. \r\norg/10.1016/j.fochx.2024.101759.\r\nReferences\r\nAdegun, A. A., Viriri, S., & Tapamo, J.-R. (2023). Review of deep learning methods for \r\nremote sensing satellite images classification: Experimental survey and comparative \r\nanalysis. Journal of Big Data, 10(1), 93. https://doi.org/10.1186/s40537-023-00772- \r\nx\r\nAkturk, B., Beyaztas, U., Shang, H. L., & Mandal, A. (2024). Robust functional logistic \r\nregression. Adv. Data Anal. Classif.. https://doi.org/10.1007/s11634-023-00577-z\r\nAli, N., Neagu, D., & Trundle, P. (2019). Evaluation of k-nearest neighbour classifier \r\nperformance for heterogeneous data sets. SN Applied Sciences, 1(12), 1559. https:// \r\ndoi.org/10.1007/s42452-019-1356-9\r\nCai, Z., Huang, Z., He, M., Li, C., Qi, H., Peng, J., Zhou, F., & Zhang, C. (2023). \r\nIdentification of geographical origins of Radix Paeoniae Alba using hyperspectral \r\nimaging with deep learning-based fusion approaches. Food Chemistry, 422, Article \r\n136169. https://doi.org/10.1016/j.foodchem.2023.136169\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 475,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Chattopadhay, A., Sarkar, A., Howlader, P., Balasubramanian, V. N., & IEEE. (2018). \r\nGrad-CAM plus plus : Generalized gradient-based visual explanations for deep \r\nconvolutional networks. In 18th IEEE winter conference on applications of computer vision \r\n(WACV), (pp. 839-847). Nv.\r\nChen, W., Li, Y., Xue, W. F., Shahabi, H., Li, S. J., Hong, H. Y., … Bin Ahmad, B. (2020). \r\nModeling flood susceptibility using data-driven approaches of naive Bayes tree, \r\nalternating decision tree, and random forest methods. Science of the Total \r\nEnvironment, 701, Article 134979. https://doi.org/10.1016/j.scitotenv.2019.134979\r\nCunningham, P., & Delany, S. J. (2021). K-nearest neighbour classifiers - a tutorial. ACM \r\nComputing Surveys, 54(6), 128. https://doi.org/10.1145/3459665\r\nDong, Y. (2024). Convolutional neural networks for sensitive identification of tea species \r\nusing electrochemical sensors. Journal of Food Measurement and Characterization.. \r\nhttps://doi.org/10.1007/s11694-024-02615-6\r\nDou, B. Z., Zhu, Z. L., Merkurjev, E., Ke, L., Chen, L., Jiang, J., … Wei, G. W. (2023). \r\nMachine learning methods for small data challenges in molecular science. Chemical \r\nReviews, 123(13), 8736–8780. https://doi.org/10.1021/acs.chemrev.3c00189\r\nHao, Z., Jikai, W., Zonghai, C., Shiqi, L., Peng, B., & Meng, X. (2023). Interpretability\u0002mask: A label-preserving data augmentation scheme for better classification. Signal, \r\nImage and Video Processing, 17(6), 2799–2808.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Jin, B. C., Zhang, C., Jia, L. Q., Tang, Q. Z., Gao, L., Zhao, G. W., & Qi, H. N. (2022). \r\nIdentification of Rice seed varieties based on near-infrared hyperspectral imaging \r\ntechnology combined with deep learning. ACS Omega, 7, 4735–4749. https://doi. \r\norg/10.1021/acsomega.1c04102\r\nKhalifa, N. E., Loey, M., & Mirjalili, S. (2022). A comprehensive survey of recent trends in \r\ndeep learning for digital images augmentation. Artificial Intelligence Review, 55(3), \r\n2351–2377. https://doi.org/10.1007/s10462-021-10066-4\r\nKim, K. (2016). A hybrid classification algorithm by subspace partitioning through semi\u0002supervised decision tree. Pattern Recognition, 60, 157–163. https://doi.org/10.1016/ \r\nj.patcog.2016.04.016\r\nKursa, M. B., & Rudnicki, W. R. (2010). Feature selection with the Boruta package. \r\nJournal of Statistical Software, 36(11), 1–13. https://doi.org/10.18637/jss.v036.i11\r\nLi, S. Z., Guan, X.-M., Gao, Z., Lan, H.-C., Yin, Q., Chu, C., … Zhou, P. (2019). A simple \r\nmethod to discriminate Guangchenpi and Chenpi by high-performance thin-layer \r\nchromatography and high-performance liquid chromatography based on analysis of \r\ndimethyl anthranilate. Journal of Chromatography B, 1126-1127, Article 121736. \r\nhttps://doi.org/10.1016/j.jchromb.2019.121736\r\nLi, Y., Zhao, W., Qian, M., Wen, Z., Bai, W., Zeng, X., Wang, H., Xian, Y., & Dong, H. \r\n(2024). Recent advances in the authentication (geographical origins, varieties and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "aging time) of tangerine peel (Citri reticulatae pericarpium): A review. Food \r\nChemistry, 442, Article 138531. https://doi.org/10.1016/j.foodchem.2024.138531\r\nLiang, S., Wen, Z., Tang, T., Liu, Y., Dang, F., Xie, T., & Wu, H. (2022). Study on flavonoid \r\nand bioactivity features of the pericarp of Citri Reticulatae ‘chachi' during storage. \r\nArabian Journal of Chemistry, 15(3), Article 103653. https://doi.org/10.1016/j. \r\narabjc.2021.103653\r\nLiang, W. Z., Luo, S. Z., Zhao, G. Y., & Wu, H. (2020). Predicting hard rock pillar stability \r\nusing GBDT, XGBoost, and LightGBM algorithms. Mathematics, 8(5), 765. https:// \r\ndoi.org/10.3390/math8050765\r\nLiu, Z., Su, W., Ao, J., Wang, M., Jiang, Q., He, J., Gao, H., Lei, S., Nie, J., Yan, X., \r\nGuo, X., Zhou, P., Hu, H., & Ji, M. (2022). Instant diagnosis of gastroscopic biopsy \r\nvia deep-learned single-shot femtosecond stimulated Raman histology. Nature \r\nCommunications, 13(1), 4050. https://doi.org/10.1038/s41467-022-31339-8\r\nTable 2 \r\nThe discrimination performance of machine learning models.\r\nFeature \r\nselection\r\nModel \r\nmethods\r\nAccuracy \r\n(%)\r\nPrecision \r\n(%)\r\nRecall \r\n(%)\r\nF1_score \r\n(%)\r\n–\r\nGBDT\r\n70.21 74.67 70.21 70.89\r\nAdaBoost 91.48 92.85 91.48 91.59\r\nBoruta 87.23 88.96 87.23 87.43\r\n2D-CNN* 97.87 98.05 97.87 97.86\r\n–\r\nLR\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "87.13 88.05 86.67 86.21\r\nAdaBoost 85.11 84.85 83.64 83.94\r\nBoruta 95.74 95.83 95.45 95.23\r\n2D-CNN* 97.87 98.21 98.21 98.21\r\n–\r\nDT\r\n91.49 93.49 91.49 91.51\r\nAdaBoost 93.62 94.81 93.62 93.44\r\nBoruta 93.62 95.21 93.62 93.78\r\n2D-CNN* 93.62 95.09 93.62 93.53\r\n–\r\nXGBoost\r\n93.62 94.23 93.91 93.47\r\nAdaBoost 95.74 95.58 95.58 95.58\r\nBoruta 80.85 84.00 81.57 80.80\r\n2D-CNN* 91.49 91.49 92.15 91.47\r\n–\r\nKNN\r\n87.23 88.01 87.23 87.27\r\nAdaBoost 87.23 88.01 87.23 87.27\r\nBoruta 82.98 84.15 82.96 82.94\r\n2D-CNN* 91.49 91.49 91.49 91.91\r\n–\r\nPLS-DA\r\n85.11 87.17 85.11 84.89\r\nAdaBoost 72.34 74.87 72.34 72.57\r\nBoruta 68.09 67.23 68.09 66.73\r\n2D-CNN* 80.85 81.96 80.85 80.23\r\n2D-CNN*: features identified by 2D-CNN.\r\nL.J. Tang et al. Food Chemistry: X 23 (2024) 101759\r\n9\nLuo, S. H., Wang, W. L., Zhou, Z. F., Xie, Y., Ren, B., Liu, G. K., & Tian, Z. Q. (2022). \r\nVisualization of a machine learning framework toward highly sensitive qualitative \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "analysis by SERS. Analytical Chemistry, 94(28), 10151–10158. https://doi.org/ \r\n10.1021/acs.analchem.2c01450\r\nMoujahid, H., Cherradi, B., Al-Sarem, M., Bahatti, L., Eljialy, A., Alsaeedi, A., & Saeed, F. \r\n(2022). Combining CNN and grad-cam for COVID-19 disease prediction and visual \r\nexplanation. Intelligent Automation and Soft Computing, 32(2), 723–745. https://doi. \r\norg/10.32604/iasc.2022.022179\r\nNaeim Mohamad Asri, M., Verma, R., Arafat Mahat, N., Azman Mohd Nor, N., Nur \r\nSyuhaila Mat Desa, W., & Ismail, D. (2022). Raman spectroscopy with self-organizing \r\nfeature maps and partial least squares discriminant analysis for discrimination and \r\nsource correspondence of red gel ink pens. Microchemical Journal, 175, Article \r\n107170. https://doi.org/10.1016/j.microc.2021.107170\r\nPan, S., Zhang, X., Xu, W., Yin, J., Gu, H., & Yu, X. (2022). Rapid on-site identification of \r\ngeographical origin and storage age of tangerine peel by near-infrared spectroscopy. \r\nSpectrochimica Acta Part A, 271, Article 120936. https://doi.org/10.1016/j. \r\nsaa.2022.120936\r\nPokhrel, D. R., Sirisomboon, P., Khurnpoon, L., Posom, J., & Saechua, W. (2023). \r\nComparing machine learning and PLSDA algorithms for durian pulp classification \r\nusing inline NIR spectra. Sensors, 23(11), 5327. https://doi.org/10.3390/s23115327\r\nQin, Y., Zhao, Q., Zhou, D., Shi, Y., Shou, H., Li, M., Zhang, W., & Jiang, C. (2024). \r\nApplication of flash GC e-nose and FT-NIR combined with deep learning algorithm in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "preventing age fraud and quality evaluation of pericarpium citri reticulatae. Food \r\nChemistry: X, 21, Article 101220. https://doi.org/10.1016/j.fochx.2024.101220\r\nQiu, Y. G., Zhou, J., Khandelwal, M., Yang, H. T., Yang, P. X., & Li, C. Q. (2022). \r\nPerformance evaluation of hybrid WOA-XGBoost, GWO-XGBoost and BO-XGBoost \r\nmodels to predict blast-induced ground vibration. Engineering with Computers, 38 \r\n(Suppl. 5), 4145–4162. https://doi.org/10.1007/s00366-021-01393-9\r\nQu, X., Li, H., Yang, X., Tan, M., Ao, H., & Wang, J. (2015). Artificial neural network \r\nanalysis of Xinhui Pericarpium Citri Reticulatae using gas chromatography - mass \r\nspectrometer - automated mass spectral deconvolution and identification system. \r\nTropical Journal of Pharmaceutical Research, 14(11), 2071. https://doi.org/10.4314/ \r\ntjpr.v14i11.17\r\nSheridan, R. P., Wang, W. M., Liaw, A., Ma, J. S., & Gifford, E. M. (2016). Extreme \r\ngradient boosting as a method for quantitative structure-activity relationships. \r\nJournal of Chemical Information and Modeling, 56(12), 2353–2360. https://doi.org/ \r\n10.1021/acs.jcim.6b00591\r\nShi, J. J., Peng, L. H., Chen, W. X., Qiao, W. L., Wang, K., Xu, Y. Y., & Cheng, J. L. (2024). \r\nEvaluation of chemical components and quality in Xinhui Chenpi (Citrus reticulata \r\n“Chachi”) with two different storage times by GC-MS and UPLC. Food Science & \r\nNutrition, 00, 1–16. https://doi.org/10.1002/fsn3.4154\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Shorten, C., & Khoshgoftaar, T. M. (2019). A survey on image data augmentation for \r\ndeep learning. Journal of Big Data, 6(1), 60. https://doi.org/10.1186/s40537-019- \r\n0197-0\r\nSun, X. M., Deng, H. D., Shan, B. J., Shan, Y. Q., Huang, J. Y., Feng, X. S., … Yang, Q. \r\n(2023). Flavonoids contribute most to discriminating aged Guang Chenpi (Citrus \r\nreticulata Chachi’) by spectrum-effect relationship analysis between LC-Q-Orbitrap/ \r\nMS fingerprint and ameliorating spleen deficiency activity. Food Science & Nutrition, \r\n11(11), 7039–7060. https://doi.org/10.1002/fsn3.3629\r\nTang, J. Y., Henderson, A., & Gardner, P. (2021). Exploring AdaBoost and random forests \r\nmachine learning approaches for infrared pathology on unbalanced data sets. \r\nAnalyst, 146(19), 5880–5891. https://doi.org/10.1039/d0an02155e\r\nWang, H., Chen, G., Fu, X., & Liu, R. H. (2016). Effects of aging on the phytochemical \r\nprofile and antioxidative activity of Pericarpium Citri Reticulatae “Chachiensis”. RSC \r\nAdvances, 6(107), 105272–105281. https://doi.org/10.1039/c6ra22082g\r\nWang, Q., Qiu, Z. Y., Chen, Y. L., Song, Y. Q., Zhou, A. M., Cao, Y., … Song, M. Y. (2023). \r\nReview of recent advances on health benefits, microbial transformations, and \r\nauthenticity identification of Citri reticulatae Pericarpium bioactive compounds. \r\nCritical Reviews in Food Science and Nutrition, 1-29. https://doi.org/10.1080/ \r\n10408398.2023.2222834\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Wu, W. M., Wang, J. X., Huang, Y. S., Zhao, H. Y., & Wang, X. T. (2021). A novel way to \r\ndetermine transient heat flux based on GBDT machine learning algorithm. \r\nInternational Journal of Heat and Mass Transfer, 179, Article 121746. https://doi.org/ \r\n10.1016/j.ijheatmasstransfer.2021.121746\r\nYang, M., Jiang, Z., Wen, M., Wu, Z., Zha, M., Xu, W., & Zhang, L. (2022). Chemical \r\nvariation of Chenpi (Citrus peels) and corresponding correlated bioactive \r\ncompounds by LC-MS metabolomics and multibioassay analysis. Fronters in Nutrion, \r\n9, Article 825381. https://doi.org/10.3389/fnut.2022.825381\r\nYu, Y., Yu, Q. H., Luo, R. S., Chen, S., Yang, J. B., & Yan, F. W. (2024). Degradation and \r\npolarization curve prediction of proton exchange membrane fuel cells: An \r\ninterpretable model perspective. Applied Energy, 365, Article 123289. https://doi. \r\norg/10.1016/j.apenergy.2024.123289\r\nZhang, X., Gao, Z., Yang, Y., Pan, S., Yin, J., & Yu, X. (2022). Rapid identification of the \r\nstorage age of dried tangerine peel using a hand-held near infrared spectrometer and \r\nmachine learning. Journal of Near Infrared Spectroscopy, 30(1), 31–39. https://doi. \r\norg/10.1177/09670335211057232\r\nZhao, J., Pan, F. J., Li, Z. M., Lan, Y. B., Lu, L. Q., Yang, D. J., & Wen, Y. T. (2021). \r\nDetection of cotton waterlogging stress based on hyperspectral images and \r\nconvolutional neural network. International Journal of Agricultural and Biological \r\nEngineering, 14(2), 167–174. https://doi.org/10.25165/j.ijabe.20211402.6023\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3818545027642999267,
+        "filename": "main.PMC11401106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 22,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "L.J. Tang et al. Food Chemistry: X 23 (2024) 101759\r\n10\n\n"
+  }
+]

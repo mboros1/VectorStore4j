@@ -1,0 +1,698 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Heliyon 9 (2023) e21858\r\nAvailable online 4 November 2023\r\n2405-8440/© 2023 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license\r\n(http://creativecommons.org/licenses/by-nc-nd/4.0/).\r\nDevelopment and validation of enzyme-linked immunosorbent \r\nassays for the measurement of infliximab and anti-drug \r\nantibody levels \r\nDong Xiang a,1, Ninghong Li a,b,1, Lu Liu a, Hengyi Yu a, Xiping Li a, Tinghui Zhao a, \r\nDong Liu a,**, Xuepeng Gong a,* \r\na Department of Pharmacy, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China b Department of Pharmacy, Nanchang First Hospital, Nanchang, 330008, China \r\nARTICLE INFO \r\nKeywords: \r\nInfliximab \r\nEnzyme-linked immunosorbent assay \r\nAnti-drug antibody \r\nConcentration \r\nTherapeutic drug monitoring \r\nABSTRACT \r\nInfliximab and its anti-drug antibody (ADA) serum concentrations exhibit a strong correlation \r\nwith clinical response and loss of response. The use of therapeutic drug monitoring to measure the \r\nconcentration of infliximab and ADA can facilitate clinical decision-making, helping patients \r\nattain optimal therapeutic effects. However, there are still limitations to the existing infliximab \r\nand its ADA detection methods. Therefore, this study aimed to develop and validate enzyme\u0002linked immunosorbent assay (ELISA)-based methods for measuring infliximab and its ADA \r\nlevels in human plasma according to the general recommendations for immunoassays. Free \r\ninfliximab is bound by recombinant TNF-α and detected using HRP-labeled anti-human antibody. \r\nThe ADA is captured by on-plate-coated infliximab and recognized by biotin-labeled infliximab. \r\nTwo bridging ELISA assays were developed and after assay optimization and validation, these \r\nassays have been applied in ten patients with inflammatory bowel disease (IBD). In infliximab \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "detection assay, a standard curve ranging from 0.10 μg/mL to 8.0 μg/mL with great precision and \r\naccuracy has been established. Drug tolerance of the ADA assay was that 100 ng/mL ADA could \r\ntolerate at least 5.0 μg/mL infliximab in the plasma using a commercially available monoclonal \r\nanti-infliximab antibody as the positive control. The ADA screening and confirmatory assays \r\nachieved a sensitivity of 36.74 ng/mL and 37.15 ng/mL, respectively. All other assay charac\u0002teristics met the requirements. The mean concentration of infliximab in eight patients with IBD \r\nwas 7.88 (1.87–21.1) μg/mL, and the ADA levels were all negative. Moreover, the concentrations \r\nof infliximab in the remaining two patients were below the LLOQ and the ADAs were positive. \r\nThus, accurate and sensitive ELISA methods have been developed and validated for the detection \r\nof infliximab and its ADA concentrations and have been successfully applied to clinical thera\u0002peutic drug monitoring. \r\n* Corresponding author. \r\n** Corresponding author. \r\nE-mail addresses: liudong@tjh.tjmu.edu.cn (D. Liu), xue-penggong@tjh.tjmu.edu.cn (X. Gong). 1 These authors have contributed equally to this work and share first authorship. \r\nContents lists available at ScienceDirect \r\nHeliyon \r\njournal homepage: www.cell.com/heliyon \r\nhttps://doi.org/10.1016/j.heliyon.2023.e21858 \r\nReceived 25 May 2023; Received in revised form 11 September 2023; Accepted 30 October 2023 \nHeliyon 9 (2023) e21858\r\n2\r\n1. Introduction \r\nInflammatory bowel disease (IBD), which includes ulcerative colitis and Crohn’s disease, is characterized by chronic inflammation \r\nof the gastrointestinal system and is increasing in incidence and prevalence worldwide [1]. Tumor necrosis factor-α (TNF-α), a driver of \r\ninflammation, plays a critical role in the development and progression of IBD, and anti-TNF-α therapies have been the first-line \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "treatment of IBD for more than two decades [2]. Infliximab, a chimeric IgG1 monoclonal antibody against TNF-α, is the first bio\u0002therapy drug approved by the U.S. Food and Drug Administration (FDA) in 1998 and has been widely used for the treatment of IBD as \r\nwell as other inflammatory diseases [3]. \r\nAround 60 % of individuals with IBD initially exhibit a response to infliximab, which later diminishes [4]. The formation of an\u0002ti-drug antibody (ADA) to infliximab, which bonds to and neutralizes infliximab, mainly results in the loss of response in IBD patients \r\n[5]. Additionally, high inter-individual clinical response variation has been observed [6], resulting in substantial challenges when \r\ntreating IBD patients. Traditional management of patients receiving biological drugs is mainly based on empirical. Clinical symptoms \r\nare often employed to assess whether a dose adjustment is necessary. Drug switching is exclusively considered for patients exhibiting \r\nconsistent non-responsiveness, potentially leading to a delay in disease treatment. With the in-depth knowledge and extensive \r\napplication of therapeutic drug monitoring, the concentration-based strategy has become more personalized and effective [7]. \r\nThe fundamental requirements for performing therapeutic drug monitoring are the availability of dose-response curves and \r\nmethods for measuring drug concentrations. Several studies have demonstrated that the level of infliximab has a strong impact on IBD \r\npatients’ response to treatment [8–10]. Low or undetectable trough concentrations of infliximab are associated with a reduction in \r\ndrug effectiveness, while sufficient infliximab concentration is associated with sustained remission and treatment response [8,10]. \r\nBecause low and undetectable trough concentrations are often a result of increased infliximab clearance caused by the formation of \r\nADA, monitoring of ADA has clinical significance [11]. The combination of infliximab and its ADA concentration data in treatment can \r\naid clinical decision-making. \r\nSeveral methods could be used to measure the concentrations of infliximab and anti-infliximab antibodies, including enzyme-linked \r\nimmunosorbent assay (ELISA) [12], homogeneous mobility shift assay (HMSA) [13], radioimmunoassay [14], and surface enahanced \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "raman spectroscopy (SERS) [15]. The reagents for radioimmunoassay are radioactive and pose significant health risks to humans. \r\nHMSA combines ligand binding assay and size-exclusion chromatography and its reproducibility is low [16,17]. SERS is known to offer \r\nsuperior sensitivity and multiplexing ability, but unstable SERS substrates and poor reproducibility are drawbacks [18,19]. None of the \r\nabove methods are suitable for clinical testing. ELISA has emerged as the most preferred method in therapeutic drug monitoring of \r\nbiological agents owing to its swiftness, sensitivity, ease of use, and uncomplicated equipment [20]. \r\nIn China, the number of IBD patients reached about two million by the end of 2017, and the incidence rate is still increasing every \r\nyear [21]. However, no establishment methods or commercial kits are available to detect blood infliximab and its ADA concentrations \r\nAbbreviations \r\nADA Anti-drug antibody \r\nBSA Bovine serum albumin \r\nCCP Confirmatory cut-point \r\nELISA Enzyme-linked immunosorbent assay \r\nFDA Food and Drug Administration \r\nHRP-anti-human IgG Horseradish peroxidase-conjugated goat anti-human IgG (Fc specific) antibody \r\nHMSA Homogenous mobility shift assay \r\nHQC High quality control \r\nHPC High positive control \r\nIBD Inflammatory bowel disease \r\nLLOQ Lower limit of quantification \r\nLPC Low positive control \r\nLQC Low quality control \r\nMPC Middle positive control \r\nMQC Middle quality control \r\nMRD Minimal required dilution \r\nOD Optical density \r\nPBS Phosphate buffered saline \r\nQC Quality control \r\nRT Room temperature \r\nSCP Screening cut-point \r\nSCPF Screening cut-point factor \r\nSERS Surface enahanced raman spectroscopy \r\nTNF-α Tumor necrosis factor-α \r\nULOQ Upper limit of quantification \r\nD. Xiang et al. \nHeliyon 9 (2023) e21858\r\n3\r\nin clinics. Additionally, the published assays for infliximab and its ADA detection have limitations, including low sensitivity, high \r\nprice, and poor drug resistance. In this study, we aim to develop reliable and sensitive ELISA-based methods for the determination of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "infliximab and its ADA concentrations in plasma samples, and apply these methods to plasma samples from Chinese patients with IBD. \r\n2. Materials and methods \r\n2.1. Reagents \r\nInfliximab (Remicade®, 100 mg/vial) was purchased from Janssen Biotech, Inc. (Horsham, PA, US). Horseradish peroxidase\u0002conjugated goat anti-human IgG (Fc specific) antibody (HRP-anti-human IgG) and Tween-20 were obtained from Sigma-Aldrich \r\n(Saint Louis, MO, USA). EZ-Link Sulfo–NHS–LC-Biotin was purchased from Thermo Fisher Scientific (Waltham, MA, USA). HRP\u0002conjugated streptavidin was purchased from Jackson ImmunoResearch Inc. (West Grove, PA, USA) and 3, 3′, 5, 5′-Tetrame\u0002thylbenzidine substrate (TMB) was obtained from SeraCare (Milford, MA, USA). Recombinant human TNF-α was purchased from Sino \r\nBiological (Beijing, China). Anti-infliximab monoclonal antibody (Isotype: IgG1; Code: HCA213) was purchased from Bio-Rad (Her\u0002cules, California, USA). Bovine serum albumin (BSA), phosphate buffered saline (PBS) and 1 mol/L Tris-HCl were obtained from \r\nSangon Biotech Co., Ltd (Shanghai, China). \r\n2.2. Reagent preparation \r\nPooled blank human plasma samples were obtained by mixing the blank plasma of 50 drug-naive individuals and used as the \r\nnegative control. Infliximab stock solution was obtained by dissolving 10 mg infliximab lyophilized powder in sterile distilled water \r\n(10 mg/mL) and stored at − 80 ◦C. Calibration standard and quality control (QC) samples were prepared by diluting the stock solution \r\nwith pooled blank human plasma. Concentrations of calibrators were 0.050, 0.10, 0.25, 0.50, 1.0, 2.0, 4.0, and 8.0 μg/mL, and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "concentrations of QCs were 0.10, 0.30, 1.5, 6.0, and 8.0 μg/mL for the lower limit of quantification, low QC, medium QC, high QC, and \r\nupper limit of quantification (LLOQ, LQC, MQC, HQC, and ULOQ), respectively. \r\nAs to the ADA detection, positive control samples were prepared by spiking the anti-infliximab monoclonal antibody into pooled \r\nblank human plasma. The concentrations of low, medium and high positive control (LPC, MPC, and HPC) were 55.0, 500, and 1000 ng/ \r\nmL, respectively. Moreover, the infliximab stock solution was incubated with a 20-fold molar ratio of Sulfo–NHS–LC-Biontin for 2 h on \r\nice to obtain a 1.5 mg/mL biotinylated-infliximab solution. \r\n2.3. Infliximab assay \r\nThe infliximab assay was carried out using a standard sandwich ELISA method, with a recombinant TNF-α protein serving as the \r\ncapture protein. Briefly, the 96-well ELISA plates (Thermo Fisher, Waltham, MA, USA) were coated with 0.2 μg/mL recombinant \r\nhuman TNF-α and left for overnight incubation at 4 ◦C. After five washes with PBS-T (this method was used while cleaning the plates), \r\nnon-specific binding was blocked for 2 h at room temperature (RT) by adding 200 μL/well blocking buffer (PBS with 1 % BSA and 0.05 \r\n% Tween-20). After washing, 100 μL of standards, QCs, and unknown samples were added with a 1:100 dilution in blocking buffer and \r\nshaken at 500 rpm for 2 h at RT. After washing the plates, HRP-anti-human IgG was added with a 1:18,000 dilution, and then incubated \r\nfor 1 h at RT. After further washing, 100 μL/well TMB substrate was added and incubated for 20 min at RT. The color reaction was \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "stopped by adding 100 μL 1 M H2SO4. The optical density (OD) value of all samples was read at 450 nm and 650 nm with a plate reader \r\n(Biotek, VT, USA). \r\n2.4. ADA assay \r\nA bridging ELISA was designed to detect anti-infliximab antibodies with the use of the drug for both capture and detection. \r\nInfliximab was diluted to 1 μg/mL in PBS and coated on 96-well plates overnight at 4 ◦C. After washing, the remaining protein binding \r\nsites were blocked for 2 h at RT by blocking buffer. Positive control, negative control, and unknown samples were diluted 1:20 in 300 \r\nmM acetic acid and incubated at RT for 15 min to dissociate immune complexes. The plate was once again washed and then 45 μL of \r\nTris-BSA (1 mol/L Tris-HCl containing 0.5 % BSA) with or without containing 20.0 μg/mL infliximab was added to each well followed \r\nby adding 100 μL of the acid-dissociated plasma sample. After washing, 0.5 μg/mL biotinylated-infliximab solution was added and \r\nincubated for 1 h at RT, and then washed. HRP-conjugated streptavidin at a 1:40,000 dilution in 1 % (w/v) PBS-BSA was added to each \r\nwell. After incubation for 30 min at RT and washing, TMB substrate was added and incubated for 20 min to visualize the enzymatic \r\nreaction. Finally, 1 M H2SO4 was used to stop the reaction and the OD values were measured at 450 nm. \r\n2.5. Validation procedures \r\nInfliximab and ADA assay validation were performed under the current FDA guidelines with minor modifications [22,23]. The \r\nfollowing assay characteristics were tested to evaluate the infliximab assay performance and reliability of results: accuracy, precision, \r\ndilution linearity, prozone effect, selectivity, specificity, and stability of infliximab under different storage temperatures. As to the ADA \r\nassay, screening cut-point (SCP), confirmatory cut-point (CCP), establishment of LPC concentration, assay sensitivity, precision, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "selectivity, drug tolerance, and stability of positive control under different storage temperatures were tested and validated. The \r\nD. Xiang et al. \nHeliyon 9 (2023) e21858\r\n4\r\ncalibration standard and QC samples were run in duplicate, and the mean was calculated. Results were discarded if the difference \r\nbetween the two values was greater than 20 %. Accuracy was accessed as the percentage difference (bias,%) between measured and \r\nnominal concentrations. Precision was evaluated as the coefficient of variation (CV, %). \r\n2.6. Blood sample collection \r\nThese assays were applied to measure infliximab and its ADA concentrations in ten IBD patients treated with infliximab. All patients \r\nwere on maintenance infliximab therapy at the recommended dose of 5 mg/kg every 8 weeks. Blood samples were collected on the \r\n14th week after administration and before the next infusion. Patient samples were centrifuged (3500 g, 10 min, 4 ◦C) within 2 h after \r\ncollection. The plasma was then transferred to Eppendorf tubes and stored at − 20 ◦C until analysis. The committee on the Medical \r\nEthics of Tongji Medical College affiliated with Tongji Hospital, Huazhong University of Science and Technology authorized this study \r\n(TJ-IRB20220302) and written informed consent was obtained from all patients. \r\n3. Results \r\n3.1. Infliximab assay optimization and validation \r\n3.1.1. Infliximab assay optimization \r\nDuring the development of the infliximab assay, the following parameters were evaluated through three QC levels: concentration of \r\nantigen for coating, time of coating, particular blocked solutions, time of blocking, incubation time, the concentration of HRP\u0002conjugated IgG, and sample minimum required dilution (MRD). The signal/noise ratio between QC and negative control samples \r\nwas calculated for assay optimization. Firstly, recombinant TNF-α coating concentrations at 0.050, 0.10, and 0.20 μg/mL were esti\u0002mated under different HRP dilutions. Fig. 1A showed that the signal/noise ratio was optimal when the coating concentration at 0.20 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 479,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "μg/mL and HRP with a 1:180,000 dilution were selected. Secondly, QC and blank samples were diluted by 1:20, 1:50, and 1:100 in the \r\nblocking buffer for the optimization of sample MRD. As shown in Fig. 1B, the signal/noise ratio was the highest when the MRD was \r\n1:100. Other conditions, such as particular blocked solutions, time of blocking, and incubation time were tested and had no significant \r\neffects on the signal/noise ratio. \r\n3.1.2. Calibration curve \r\nSix independent assessment runs were conducted for at least three different days. The ODs obtained from the calibration curves \r\nwere fitted to a four-parameter logistic model to generate an S-shaped standard curve using Gen5 software (Biotek, VT, USA). The \r\ncorrelation coefficient (R2\r\n) shows the goodness-of-fit of the curve. A typical curve graph was shown in Fig. 2. R2 ≥ 0.996 was obtained \r\nfor each calibration curve. The accuracy biases for all the calibration curves were between − 8.86 % and 11.23 %, with the highest CV \r\nof 14.89 % at all tested concentration levels. \r\n3.1.3. Precision and accuracy \r\nThe five levels of LLOQ, LQC, MQC, HQC, and ULOQ (0.10, 0.30, 1.5, 6.0, and 8.0 μg/mL) were used to assess the precision and \r\naccuracy of the assay. Six independent analysis runs were evaluated on at least three different days by two analysts. Each plate \r\ncontained three QC batches and one calibration curve. The precision and accuracy results were summarized in Table 1. The results of \r\nwithin-run and between-run precision and accuracy were less than 20.0 % and the method total error was below 30.0 % for all QC \r\nsamples, which met the requirements. \r\nFig. 1. Optimization of different recombinant TNF-α coating concentrations (A), HRP dilutions (A), and MRD (B). The signal/noise (S/N) ratio \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 477,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "between QC and negative control samples was calculated for assay optimization. Abbreviations: HRP, horseradish peroxidase-conjugated goat anti\u0002human IgG antibody; ULOQ, the upper limit of quantification; MQC, medium quality control; LLOQ, the lower limit of quantification. \r\nD. Xiang et al. \nHeliyon 9 (2023) e21858\r\n5\r\n3.1.4. Dilution linearity and prozone effect \r\nThe dilution linearity test is essential for ensuring reliable and precise evaluation of samples with concentrations that exceed the \r\nlinearity limit through dilution. Ultra-high QC samples (1000 μg/mL) were diluted in pooled blank human serum at ratios of 1:20, \r\n1:50, 1:200, 1:333, 1:1,250, 1:2,500, 1:5,000, and 1:20,000. Three batches of dilution linearity samples were independently prepared. \r\nThe bias of diluted samples at each concentration was within ±11.57 % and the precision across all dilutions ranged from 0.15 % to \r\n5.15 %. Besides, the OD values of samples above ULOQ were all higher than ULOQ, thereby indicating that no prozone effect in our \r\nassay, even with the concentration of infliximab up to 50.0 μg/mL. \r\n3.1.5. Selectivity and specificity \r\nSelectivity and specificity were assessed by analyzing ten drug-naive plasma samples, five haemolysed plasma samples, and five \r\nlipaemic plasma samples. Each sample was spiked at the LLOQ and ULOQ concentrations. The results showed that the OD values of the \r\nblank were below that of LLOQ and the deviation from the nominal concentration at the LLOQ and ULOQ levels did not exceed ±25 % \r\nin at least 80 % of the samples evaluated. \r\n3.1.6. Stability \r\nTo evaluate the stability of infliximab under different storage conditions, LQC (0.30 μg/mL) and HQC (6.0 μg/mL) samples were \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 476,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "tested after 4 freeze-thaw cycles and storage at RT for 24 h or at 4 ◦C for 72 h. The long-term stability of infliximab was also measured \r\nafter storing plasma samples at − 20 ◦C and − 80 ◦C for up to 3 months. Three batches of each control at storage conditions were \r\nFig. 2. Typical calibration curve for infliximab assay. A four-parameter logistic curve was produced using different infliximab concentrations \r\nranging from 0.10 μg/mL to 8.0 μg/mL. The equation of this calibration curve was OD value = 3.221+(0.1016–3.221)/(1+[concentration/ \r\n2144.077]1.011), R2 = 0.996. \r\nTable 1 \r\nPrecision and accuracy data for the infliximab assay. \r\nMeasured concentration (μg/mL) Precision (%CV) Accuracy (Bias%) Total error (%CV+%Bias) \r\nwithin -run between -run within-run between-run within-run between-run within -run between -run \r\nULOQ 8.26 ± 0.46 7.48 ± 0.88 4.49 11.83 3.29 − 6.43 7.78 18.26 \r\nHQC 6.66 ± 0.09 6.49 ± 0.38 2.75 5.90 11.05 8.24 13.80 14.14 \r\nMQC 1.52 ± 0.03 1.59 ± 0.05 1.26 3.35 1.31 5.81 2.57 9.16 \r\nLQC 0.31 ± 0.004 0.32 ± 0.02 0.57 5.67 4.45 6.31 5.02 11.98 \r\nLLOQ 0.10 ± 0.006 0.11 ± 0.007 3.73 7.77 1.58 7.81 5.31 15.58 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 476,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Abbreviations: LLOQ, the lower limit of quantification; LQC, low quality control; MQC, medium quality control; HQC, high quality control; ULOQ, the \r\nupper limit of quantification. \r\nTable 2 \r\nStability of infliximab under different storage conditions. \r\nRT for 24 h 4 ◦C for 72 h 4 freeze-thaw cycles − 20 ◦C for 3 months − 80 ◦C for 3 months \r\n%Bias %CV %Bias %CV %Bias %CV %Bias %CV %Bias %CV \r\nLQC − 0.11 1.96 − 4.80 5.88 0.11 1.52 − 2.56 2.04 1.39 1.35 \r\nHQC 8.66 5.71 8.60 5.46 4.88 3.88 − 0.54 2.75 − 0.19 2.66 \r\nAbbreviations: RT, room temperature; LQC, low quality control; HQC, high quality control. \r\nD. Xiang et al. \nHeliyon 9 (2023) e21858\r\n6\r\nprepared. The results showed that infliximab was stable at all examined conditions at LQC and HQC levels, with bias within ±8.66 % \r\nand CV less than 5.88 % (Table 2). \r\n3.2. ADA assay optimization and validation \r\n3.2.1. ADA assay optimization \r\nBefore beginning the validation of the ADA assay, the ideal assay conditions and key assay parameters were evaluated. Key reagents \r\nsuch as infliximab coating concentration, biotinylated-infliximab concentration, streptavidin-labeled HRP dilution, and sample MRD \r\nwere mainly optimized with at least three different levels. The results showed that the best assay conditions could be obtained when \r\nthe infliximab coating concentration was 1.0 μg/mL, the biotinylated-infliximab was 0.5 μg/mL, the dilution of streptavidin-labeled \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "HRP was 1:40,000, and the sample MRD was 1:20 (Supplementary Fig. 1 and Supplementary Table 1). Other parameters such as \r\nblocking time and incubation time were tested and had little effect on the signal/noise ratio. \r\n3.2.2. SCP and CCP \r\nIn the ADA screening assay, an unknown sample would be regarded as “putative positive” for the presence of ADA if its response is \r\nhigher than the SCP. Screening positive samples need to be reconfirmed in a confirmatory assay to avoid false positive results. Putative \r\npositive samples can be affirmed as true positive if their signal inhibition rates are higher than the CCP [24]. \r\nA normalization factor, known as the screening cut-point factor (SCPF), was calculated to reduce variability between assays, plates, \r\nor analysts, and the floating SCP value of each plate was evaluated by the following equation: SCP–\r\n–SCPF × mean response of negative \r\ncontrol. The SCPF and CCP were evaluated by analyzing 54 drug-naive individual plasma samples in duplicates with or without the \r\npresence of infliximab according to the ADA assay steps. Screening and confirmatory tests were conducted on the same plate. A total of \r\neighteen independent runs were completed by two analysts on at least three separate days, and each individual plasma sample yielded \r\nsix data points. Therefore, a total of 324 data points were generated for the calculation of SCPF and CCP, respectively. \r\nIn the screening test, the signal/noise ratio was calculated by dividing the mean OD value of individual samples by the mean OD \r\nvalue of the negative control samples in each plate. The SCPF was obtained by calculating the 95 % percentile of the signal/noise ratios \r\nof all individual samples. In the confirmatory test, the percent inhibition was calculated based on the percent of signal reduction using \r\nthe following equation: %inhibition=(1-sample mean OD with drug/sample mean OD without drug) × 100 %. The CCP was obtained \r\nby calculating the 99 % percentile of the percent inhibitions of all individual samples. The calculation formulas percentile (array, 0.95) \r\nand percentile (array, 0.99) in Microsoft Office Excel (version 2010) were used to calculate SCPF and CCP, respectively. As shown in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Fig. 3A and B, the calculation results of SCPF and CCP were 1.16 and 13.48 %, respectively. \r\n3.2.3. Assay sensitivity and establishment of LPC concentration \r\nThe assay sensitivity is the lowest concentration at which the anti-drug positive control consistently produces a positive result. To \r\nfind the lowest concentration at which the signal reaches the cut points, anti-infliximab positive control was spiked into blank human \r\nplasma at 1000 ng/mL and diluted with pooled plasma to yield samples at concentrations ranging from 100 to 6.25 ng/mL. All diluted \r\nFig. 3. Establishment of SCPF (A) and CCP (B) for ADA assay. A total of 54 drug-naive individual plasma samples were tested by two analysts in \r\neighteen runs of screening assay and confirmatory assay performed on the same plates. Each individual plasma generated six data points. A total of \r\n324 data points were generated to calculate SCPF and CCP, respectively. The calculation formulas percentile (array, 0.95) and percentile (array, \r\n0.99) in Microsoft Office Excel (version 2010) were used to calculate SCPF and CCP, respectively. SCPF = 1.16, CCP = 13.84 %. Abbreviations: \r\nSCPF, screening cut-point factor; CCP, confirmatory cut-point. \r\nD. Xiang et al. \nHeliyon 9 (2023) e21858\r\n7\r\nsamples were analyzed in both screening and confirmatory assays by two operators in four plates. Each plate contained three indi\u0002vidual dilution curves for each of the two assays. The two-point linear regression model was used to fit these dilution curves. The \r\nconcentrations of the positive control at SCP and CCP were determined to be 20.93 and 24.32 ng/mL, respectively. Hence, the assay \r\nsensitivity was calculated to be 36.74 ng/mL and 37.15 ng/mL with 95 % confidence for the screening and confirmatory assays, \r\nrespectively. \r\nThe LPC was prepared by spiking anti-infliximab positive control into blank human plasma at a concentration that was statistically \r\ndetermined to give a 1 % assay rejection rate. The LPC was calculated by the following formula: LPC concentration = the mean \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 474,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "concentration of positive control at the SCP + t0.01df × SD of the mean concentration of positive control at the SCP. Where df is the \r\nestimated total degree of freedom, SD is the standard deviation of the sensitivity measurements, and t is the distribution. As a result, the \r\nLPC was assessed to be 55.0 ng/mL to obtain a 1 % assay rejection rate. \r\n3.2.4. Assay precision and selectivity \r\nThe intra- and inter-assay precisions were evaluated. The negative control, LPC, MPC, and HPC (0, 55.0, 500, and 1000 ng/mL) \r\nwere assessed with six plates and six independent batches of each plate. All plates were performed by two operators for at least three \r\ndays. The intra-run and inter-run precisions of screening and confirmatory assays were shown in Table 3 and CVs at each positive \r\ncontrol level were within 11.21 %. \r\nPlasma samples from ten drug-naive human plasma samples, five haemolysed plasma samples, and five lipaemic plasma samples \r\nwere chosen and spiked with the anti-infliximab antibody at the LPC and HPC levels. The spiked samples were analyzed along with \r\ntheir corresponding unspiked samples. No plasma samples were above SCP or CV ≥ 20.0 %. \r\n3.2.5. Drug tolerance \r\nThe presence of infliximab in serum affects the sensitivity of the ADA assay. Specifically, ADA-drug complexes formed by ADA and \r\ninfliximab prevent the detection of ADA in the test format. Evaluation of assay sensitivity in the presence of interfering infliximab, also \r\nknown as assay drug tolerance, is crucial for understanding the applicability of the ADA detection method [25]. \r\nTo assess drug tolerance, we deliberately added 100 ng/mL of anti-infliximab positive control to blank plasma in the absence or \r\npresence of increasing amounts of infliximab (0.16, 0.31, 0.63, 1.25, 2.5, 5.0, 25.0 μg/mL). Fig. 4 shows that even in the presence of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "5.0 μg/mL infliximab, the OD value of the sample was still higher than SCP, suggesting that the presence of 5.0 μg/mL drug could be \r\ntolerated by our assay. It is sufficient to detect 100 ng/mL ADA in the majority of infliximab-treated individuals. \r\n3.2.6. Stability \r\nThe stability of the anti-infliximab positive control was determined after 4 freeze-thaw cycles and storage at RT for 24 h, at 4 ◦C for \r\n72 h and at − 80 ◦C for 3 months. Three individual batches were prepared for LPC and HPC samples. The results showed that the anti\u0002infliximab antibody can be stable under the above conditions, with no significant changes in OD values compared to newly generated \r\nsamples (Table 4). \r\n3.3. Clinical application \r\nInfliximab and its ADA serum concentrations were measured by the established ELISA assays in 10 Chinese IBD patients (3 women \r\nand 7 men, average age 31.1 years) who receiving infliximab treatment. The serum concentrations of infliximab and ADA are shown in \r\nTable 5. Of the 10 IBD patients, the infliximab trough concentrations were below LLOQ in 2 patients. The median trough concentration \r\nof the other 8 patients was 7.88 (1.87–21.1) μg/mL. Significant variability in infliximab trough concentration was observed. When \r\nADA was detected, 2 patients with infliximab concentrations below the LLOQ were positive for ADA, with ADA titers of 1:4 and 1:32, \r\nrespectively. The other 8 patients with detectable drug levels were ADA-negative. \r\n4. Discussion \r\nStudies have shown that infliximab and its ADA serum concentrations have been linked with clinical response and loss of response \r\n[6,8–10]. Moreover, the clearance of infliximab is affected by many factors, including sex, body mass index, serum albumin con\u0002centration, and the use of concomitant immunosuppressive agents, especially ADA levels [6], resulting in large inter-individual \r\nvariability in clinical effects. Therefore, several national guidelines and expert consensus recommend that infliximab \r\nTable 3 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Intra-run and inter-run precisions for the ADA screening and confirmatory assays. \r\nScreening assay Confirmatory assay \r\nIntra-run precision (%CV) Inter-run precision (%CV) Intra-run precision (%CV) Inter-run precision (%CV) \r\nNC 3.59 11.21 3.63 4.64 \r\nLPC 1.41 7.18 2.38 8.29 \r\nMPC 5.31 9.21 0.34 0.80 \r\nHPC 1.52 0.21 0.11 0.26 \r\nAbbreviations: NC, negative control; LPC, low positive control; MPC, medium positive control; HPC, high positive control. \r\nD. Xiang et al. \nHeliyon 9 (2023) e21858\r\n8\r\nconcentrations should be monitored to optimize patient treatment [26–29]. However, the main difficulty in therapeutic drug moni\u0002toring of biologics is the establishment of a reliable detection assay. Although several methods for the detection of infliximab and its \r\nADA have been reported, there are still some shortcomings. In this study, we established sensitive, accurate, and specific ELISA \r\nmethods to assess infliximab and its ADA levels in the human plasma. \r\nELISA methods can be improved by altering the assay parameters to increase the sensitivity or specificity, provide results faster, and \r\nboost the signal strength [30]. Typically, an optimization procedure is developed to improve the ratio between the signal of the \r\npositive and negative control samples, as well as the difference to the control conditions [31]. We optimized various parameters, such \r\nas reagent type and concentration, sample MRD, and incubation time in these two ELISA methods. The results showed that the \r\nconcentration of coating antigen and HRP-conjugated IgG, the MRD of the sample in the infliximab detection assay, and the con\u0002centration of coating drug, biotinylated-drug, and streptavidin-labeled HRP and the MRD of the sample in the ADA detection assay \r\nwere the key parameters with the greatest effect on the signal/noise signal. Generally, increasing reagent concentration enhances the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "signal/noise ratio, but also increases the background signal. Low sample dilutions result in high matrix interference, while high di\u0002lutions cause low response. Hence the appropriate reagent concentration and sample MRD need to be chosen. \r\nIn the infliximab detection assay, sufficient accuracy and precision within a wide calibration range of 0.10–8.0 μg/mL were ob\u0002tained. Our method has a low LLOQ of 0.10 μg/mL, which is relatively low compared with other immunological methods with an LLOQ \r\nof 0.4–2 μg/mL [13,32,33]. In addition, the LLOQ of our method is much lower than the trough concentration of around 2–5 μg/mL \r\nreported in most studies in patients receiving the recommended infliximab regimen [34,35]. The prozone or hook effect is a common \r\nissue in immunological assays, where high levels of antibodies can cause saturation of antigen and form precipitation, resulting in a \r\nfalse negative [36]. However, in our assay, the prozone effect was absent, even at infliximab concentrations up to 50.0 μg/mL. The \r\nFig. 4. Drug tolerance of the ADA assay. Different quantities (0.16–25.0 μg/mL) of infliximab were incubated with 100 ng/mL anti-infliximab \r\npositive control for 1 h at RT. After that, the samples were measured in an ADA screening assay. \r\nTable 4 \r\nStability of the anti-infliximab antibody at different storage conditions. \r\nRT for 24 h (%CV) 4 ◦C for 72 h (%CV) 4 freeze-thaw cycles (%CV) − 80 ◦C for 3 months (%CV) \r\nHPC 0.67 0.02 0.16 1.22 \r\n0.32 0.19 0.61 0.74 \r\n0.88 0.10 0.82 0.97 \r\nLPC 9.09 0.23 0.39 0.74 \r\n2.60 1.98 0.90 1.45 \r\n0.56 1.17 0.73 1.07 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Abbreviations: LPC, low positive control; HPC, high positive control; RT, room temperature. \r\nTable 5 \r\nThe serum levels of infliximab and ADA in 10 IBD patients. \r\nNumber Gender Age (years) Infliximab concentration（μg/mL） ADA titer \r\n1 female 45 5.02 Negative \r\n2 female 17 2.03 Negative \r\n3 female 18 14.49 Negative \r\n4 male 36 13.25 Negative \r\n5 male 24 7.88 Negative \r\n6 male 17 1.87 Negative \r\n7 male 37 7.87 Negative \r\n8 male 30 21.10 Negative \r\n9 male 54 <0.1 Positive (1:4) \r\n10 male 33 <0.1 Positive (1:32) \r\nD. Xiang et al. \nHeliyon 9 (2023) e21858\r\n9\r\nmatrix effect is often reported while analyzing the samples using an ELISA-based assay [37]. Various substances in the plasma matrix, \r\nsuch as free hemoglobin (hemolysis), and lipids (lipemia), will not interfere with the measurement of infliximab. Our method is a \r\ncheaper, simpler, and more practical option for clinics compared to previously reported methods, such as HMSA, SERS, and radio\u0002immunoassay [16,18,19]. \r\nEvaluating ADA levels can be a challenge because of the potential drug interference and varying ADA characteristics, such as \r\nisotypes and affinities [38]. Drug interference can lead to undetectable or inaccurate quantification of ADA levels, making it difficult to \r\nassess its effect on pharmacokinetic parameters and clinical relevance [39]. The drug tolerance of an assay could be improved by using \r\nseveral sample pretreatment steps, such as acid dissociation. Several studies have shown the beneficial effects of acid dissociation on \r\nADA assays, including enhanced drug tolerance and increased detection of ADA in patients [40]. In this study, our ADA assay was able \r\nto tolerate high concentrations of infliximab by acid dissociation using acetic acid, and 100 ng/mL ADA positive controls could be \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "confirmed in the presence of at least 5.0 μg/mL infliximab. In contrast, some other reported methods were unable to detect ADA levels \r\nin the presence of infliximab [41,42]. \r\nThe variability of ADA characteristics is another challenge for ADA detection. After exposure, several isotypes of drug antibodies \r\nsuch as IgM, IgE, and IgG would be produced, and different isotypes may have varying affinities for drugs, making it difficult to \r\naccurately quantify ADA levels [43]. Current assays for ADA detection are all semi-quantitative, and some present ADA as arbitrary \r\nunits from an antibody calibrator [44,45], while others use titration values [14]. In this study, we use titer values to represent ADA \r\nlevels in accordance with FDA guidelines [23]. Furthermore, biotinylated infliximab and streptavidin-labeled HRP were used in our \r\nADA assay, which increased the sensitivity of the assay to 36.74 ng/mL, exceeding the typically acceptable ranges of 250–500 ng/mL \r\nin plasma for antibody assays in clinical studies [46]. \r\nLow or undetectable trough concentrations of infliximab are associated with the formation of ADA and poor clinical outcomes. \r\nExcessive infliximab concentrations, on the other hand, do not improve the treatment efficacy but will increase unnecessary drug costs \r\n[44]. By using therapeutic drug monitoring, the trough concentration of infliximab could be adjusted in time to control the drug levels \r\nwithin a reasonable range. The optimal trough concentration range of infliximab is generally considered to be 3–7 μg/mL [7,47]. Of the \r\nten IBD patients included in our study, two patients had infliximab trough levels below the LLOQ with positive ADAs. As confirmed in \r\nour study, the presence of ADA is associated with low infliximab trough levels. The remaining eight patients had infliximab trough \r\nconcentrations ranging from 1.87 to 21.1 μg/mL, and all were negative for ADAs. Our assay is reliable for the measurement of \r\ninfliximab and ADA concentrations in human plasma samples. \r\nThe limitations of our method must be acknowledged. Firstly, it is important to note that the infliximab detection assay has a ULOQ \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "of only 8.0 μg/mL, with some patients’ trough concentrations already exceeding this level. Therefore, an improvement of the assay is \r\nrequired to increase the ULOQ level. Secondly, it is worth mentioning that the present method for ADA detection was a bridging format \r\nin which the labeled drug is used for both capture and detection. Therefore, the ADA method may have difficulty in detecting the IgG4 \r\nisotype as it is mainly monovalent and cannot be detected in bridging formats [43,48]. Thirdly, this study did not develop a \r\nneutralization assay, hence, distinguishing non-neutralizing and neutralizing ADA is not feasible. Lastly, the patient sample size in this \r\nstudy is limited, which restricts the analysis of dose-response relationships in Chinese patients and highlights the need for future \r\nexpansion. \r\n5. Conclusion \r\nIn conclusion, the present study has developed and validated two ELISA-based methods for the measurement of infliximab and its \r\nADA concentrations, respectively, in human plasma. Both assays are accurate, precise, sensitive, and specific. A standard curve ranging \r\nfrom 0.10 μg/mL to 8.0 μg/mL was obtained with high precision and accuracy in the infliximab assay. The drug tolerance of the ADA \r\nassay was that 100 ng/mL ADA could tolerate at least 5.0 μg/mL infliximab in plasma. The sensitivity of the ADA screening and \r\nconfirmatory assays was 36.74 ng/mL and 37.15 ng/mL, respectively. Other assay characteristics all met the requirements. These \r\nmethods were successfully used for therapeutic drug monitoring of infliximab and anti-infliximab antibody levels in IBD patients. \r\nData availability statement \r\nData will be provided available on request. \r\nCRediT authorship contribution statement \r\nXuepeng Gong, Dong Liu, and Dong Xiang: designated and supervised the study. Dong Xiang, Ninghong Li: performed the ex\u0002periments; collected and analyzed data; wrote the manuscript. Lu Liu, Hengyi Yu, Xiping Li, and Tinghui Zhao: contributed to data \r\ncollection and performed parts of the experiments. All authors reviewed the manuscript. \r\nDeclaration of competing interest \r\nThe authors declare that they have no known competing financial interests or personal relationships that could have appeared to \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 475,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "influence the work reported in this paper. \r\nAcknowledgment \r\nThis work was supported by Natural Science Foundation of Hubei Provincial (NO. 2022CFB142). \r\nAppendix A. Supplementary data \r\nSupplementary data to this article can be found online at https://doi.org/10.1016/j.heliyon.2023.e21858. \r\nD. Xiang et al. \nHeliyon 9 (2023) e21858\r\n10\r\nReferences \r\n[1] GBD 2017 Inflammatory Bowel Disease Collaborators, the global, regional, and national burden of inflammatory bowel disease in 195 countries and territories, \r\n1990–2017: a systematic analysis for the global burden of disease study 2017, Lancet Gastroenterol. Hepatol. 5 (1) (2020) 17–30. \r\n[2] B.L. Cohen, D.B. Sachar, Update on anti-tumor necrosis factor agents and other new drugs for inflammatory bowel disease, BMJ 357 (2017) j2505. \r\n[3] D. Ternant, A. Aubourg, C. Magdelaine-Beuzelin, D. Degenne, H. Watier, L. Picon, et al., Infliximab pharmacokinetics in inflammatory bowel disease patients, \r\nTher. Drug Monit. 30 (4) (2008) 523–529. \r\n[4] M.T. Arias, C.N. Vande, S. Vermeire, V.O.A. de Buck, T. Billiet, F. Baert, et al., A panel to predict long-term outcome of infliximab therapy for patients with \r\nulcerative colitis, Clin. Gastroenterol. Hepatol. 13 (3) (2015) 531–538. \r\n[5] S. Vermeire, A. Gils, P. Accossato, S. Lula, A. Marren, Immunogenicity of biologics in inflammatory bowel disease, Ther. Adv. Gastroenterol. 11 (2018) 1–13. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 472,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "[6] A. Hemperly, C.N. Vande, Clinical pharmacokinetics and pharmacodynamics of infliximab in the treatment of inflammatory bowel disease, Clin. Pharmacokinet. \r\n57 (8) (2018) 929–942. \r\n[7] A.S. Cheifetz, M.T. Abreu, W. Afif, R.K. Cross, M.C. Dubinsky, E.J. Loftus, et al., A comprehensive literature review and expert consensus statement on \r\ntherapeutic drug monitoring of biologics in inflammatory bowel disease, Am. J. Gastroenterol. 116 (10) (2021) 2014–2025. \r\n[8] R.S. Parra, M.R. Feitosa, L. Ribeiro, L.A. Castro, J. Rocha, O. Feres, Infliximab trough levels and quality of life in patients with inflammatory bowel disease in \r\nmaintenance therapy, Gastroenterol. Res. Pract. 2018 (2018), 1952086. \r\n[9] E.A. Maser, R. Villela, M.S. Silverberg, G.R. Greenberg, Association of trough serum infliximab to clinical outcome after scheduled maintenance treatment for \r\nCrohn’s disease, Clin. Gastroenterol. Hepatol. 4 (10) (2006) 1248–1254. \r\n[10] B. Kang, S.Y. Choi, Y.O. Choi, S.Y. Lee, S.Y. Baek, I. Sohn, et al., Infliximab trough levels are associated with mucosal healing during maintenance treatment with \r\ninfliximab in paediatric Crohn’s disease, J. Crohns Colitis. 13 (2) (2019) 189–197. \r\n[11] I. Ordas, D.R. Mould, B.G. Feagan, W.J. Sandborn, Anti-TNF monoclonal antibodies in inflammatory bowel disease: pharmacokinetics-based dosing paradigms, \r\nClin. Pharmacol. Ther. 91 (4) (2012) 635–646. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "[12] M. Ogric, P. Zigon, D. Drobne, B. Stabuc, S. Sodin-Semrl, S. Cucnik, et al., Routinely utilized in-house assays for infliximab, adalimumab and their anti-drug \r\nantibody levels, Immunol. Res. 66 (6) (2018) 726–736. \r\n[13] S.L. Wang, L. Ohrmund, S. Hauenstein, J. Salbato, R. Reddy, P. Monk, et al., Development and validation of a homogeneous mobility shift assay for the \r\nmeasurement of infliximab and antibodies-to-infliximab levels in patient serum, J. Immunol. Methods 382 (12) (2012) 177–188. \r\n[14] G.J. Wolbink, M. Vis, W. Lems, A.E. Voskuyl, E. de Groot, M.T. Nurmohamed, et al., Development of antiinfliximab antibodies and relationship to clinical \r\nresponse in patients with rheumatoid arthritis, Arthritis Rheum. 54 (3) (2006) 711–715. \r\n[15] C. Lallemand, N. Kavrochorianou, C. Steenholdt, K. Bendtzen, M.A. Ainsworth, J.F. Meritet, et al., Reporter gene assay for the quantification of the activity and \r\nneutralizing antibody response to TNF-α antagonists, J. Immunol. Methods 373 (1–2) (2011) 229–239. \r\n[16] S. Muneer, G.A. Ayoko, N. Islam, E.L. Izake, Preconcentration and sers-based determination of infliximab in blood by using a TNF-α-modified gold-coated copper \r\noxide nanomaterial, Microchim. Acta 186 (12) (2019) 780. \r\n[17] B.D. Hock, L.K. Stamp, M.W. Hayman, P.E. Keating, E.T. Helms, M.L. Barclay, Development of an ELISA-based competitive binding assay for the analysis of drug \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 479,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "concentration and antidrug antibody levels in patients receiving adalimumab or infliximab, Ther. Drug Monit. 38 (1) (2016) 32–41. \r\n[18] T. Lin, Y.L. Song, J. Liao, F. Liu, T.T. Zeng, Applications of surface-enhanced Raman spectroscopy in detection fields, Nanomedicine 15 (30) (2020) 2971–2989. \r\n[19] M.A. Tahir, N.E. Dina, H. Cheng, V.K. Valev, L. Zhang, Surface-enhanced Raman spectroscopy for bioanalysis and diagnosis, Nanoscale 13 (27) (2021) \r\n11593–11634. \r\n[20] K. Papamichael, A.S. Cheifetz, G.Y. Melmed, P.M. Irving, C.N. Vande, P.L. Kozuch, et al., Appropriate therapeutic drug monitoring of biologic agents for patients \r\nwith inflammatory bowel diseases, Clin. Gastroenterol. Hepatol. 17 (9) (2019) 1655–1668. \r\n[21] Y. Qiu, W. Ren, Y. Liu, W.E. Chen, X.H. Pan, J.J. Ren, Disease burden of inflammatory bowel disease in China from 1990 to 2017: findings from the global \r\nburden of diseases 2017, Eclinicalmedicine 27 (2020), 100544. \r\n[22] FDA, Bioanalytical Method Validation Guidance for Industry, 2018. https://www.fda.gov/media/70858/download. \r\n[23] FDA, Immunogenicity Testing of Therapeutic Protein Products-Developing and Validating Assays for Anti-drug Antibody Detection: Guidance for Industry, \r\n2019. https://www.fda.gov/media/119788/download. \r\n[24] M. Shen, X. Dong, Y. Tsong, Statistical evaluation of several methods for cut-point determination of immunogenicity screening assay, J. Biopharm. Stat. 25 (2) \r\n(2015) 269–279. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "[25] Z.D. Zhong, A. Clements-Egan, B. Gorovits, M. Maia, G. Sumner, V. Theobald, et al., Drug target interference in immunogenicity assays: recommendations and \r\nmitigation strategies, AAPS J. 19 (6) (2017) 1564–1575. \r\n[26] C.N. Vande, H. Herfarth, J. Katz, Y. Falck-Ytter, S. Singh, American gastroenterological association institute technical review on the role of therapeutic drug \r\nmonitoring in the management of inflammatory bowel diseases, Gastroenterology 153 (3) (2017) 835–857. \r\n[27] J.D. Feuerstein, G.C. Nguyen, S.S. Kupfer, Y. Falck-Ytter, S. Singh, American gastroenterological association institute guideline on therapeutic drug monitoring \r\nin inflammatory bowel disease, Gastroenterology 153 (3) (2017) 827–834. \r\n[28] P.F. van Rheenen, M. Aloi, A. Assa, J. Bronsky, J.C. Escher, U.L. Fagerberg, et al., The medical management of paediatric Crohn’s disease: anECCO-ESPGHAN \r\nguideline update, J. Crohns Colitis. 15 (2) (2021) 171–194. \r\n[29] M. Argollo, P.G. Kotze, P. Kakkadasam, G. D’Haens, Optimizing biologic therapy in IBD: how essential is therapeutic drug monitoring? Nat. Rev. Gastroenterol. \r\nHepatol. 17 (11) (2020) 702–710. \r\n[30] K. Shah, P. Maghsoudlou, Enzyme-linked immunosorbent assay (ELISA): the basics, Br. J. Hosp. Med. 77 (7) (2016) C98–C101. \r\n[31] M.C. Rodriguez, N. Ceaglio, A. Gugliotta, J. Villarraza, E. Garay, A. Fuselli, et al., Design and optimization of an IgG human ELISA assay reactive to recombinant \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "RBD SARS-CoV-2 protein, Appl. Microbiol. Biotechnol. 106 (23) (2022) 7933–7948. \r\n[32] D. Curci, M. Lucafo, A. Cifu, M. Bramuzzo, S. Martelossi, D. Favretto, et al., Determination of serum infliximab concentration by Point-of-care devices in children \r\nwith inflammatory bowel disease, J. Pediatr. Gastroenterol. Nutr. 69 (4) (2019) 474–479. \r\n[33] Y.R. Luo, I. Chakraborty, E. Lazar-Molnar, A. Wu, K.L. Lynch, Development of label-free immunoassays as novel solutions for the measurement of monoclonal \r\nantibody drugs and antidrug antibodies, Clin. Chem. 66 (10) (2020) 1319–1328. \r\n[34] F. Cornillie, S.B. Hanauer, R.H. Diamond, J. Wang, K.L. Tang, Z. Xu, et al., Postinduction serum infliximab trough level and decrease of C-reactive protein level \r\nare associated with durable sustained response to infliximab: a retrospective analysis of the ACCENT I trial, Gut 63 (11) (2014) 1721–1727. \r\n[35] E. Louis, S. Vermeire, P. Rutgeerts, M. De Vos, A. Van Gossum, P. Pescatore, et al., A positive response to infliximab in Crohn disease: association with a higher \r\nsystemic inflammation before treatment but not with -308 TNF gene polymorphism, Scand. J. Gastroenterol. 37 (7) (2002) 818–824. \r\n[36] J. Luchavez, J. Baker, S. Alcantara, V.J. Belizario, Q. Cheng, J.S. Mccarthy, et al., Laboratory demonstration of a prozone-like effect in HRP2-detecting malaria \r\nrapid diagnostic tests: implications for clinical management, Malar. J. 10 (2011) 286. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "[37] C. Desvignes, S.R. Edupuganti, F. Darrouzain, A.C. Duveau, A. Loercher, G. Paintaud, et al., Development and validation of an enzyme-linked immunosorbent \r\nassay to measure adalimumab concentration, Bioanalysis 7 (10) (2015) 1253–1260. \r\n[38] S. Atiqi, F. Hooijberg, F.C. Loeff, T. Rispens, G.J. Wolbink, Immunogenicity of TNF-inhibitors, Front. Immunol. 11 (2020) 312. \r\n[39] G.J. Wolbink, L.A. Aarden, B.A. Dijkmans, Dealing with immunogenicity of biologicals: assessment and clinical relevance, Curr. Opin. Rheumatol. 21 (3) (2009) \r\n211–215. \r\n[40] T. Van Stappen, E. Brouwers, S. Vermeire, A. Gils, Validation of a sample pretreatment protocol to convert a drug-sensitive into a drug-tolerant anti-infliximab \r\nantibody immunoassay, Drug Test. Anal. 9 (2) (2017) 243–247. \r\n[41] P. Marits, L. Landucci, U. Sundin, L. Davidsdottir, J. Nilsson, R. Befrits, et al., Trough s-infliximab and antibodies towards infliximab in a cohort of 79 IBD \r\npatients with maintenance infliximab treatment, J. Crohns Colitis. 8 (8) (2014) 881–889. \r\nD. Xiang et al. \nHeliyon 9 (2023) e21858\r\n11\r\n[42] S. Candon, A. Mosca, F. Ruemmele, O. Goulet, L. Chatenoud, J.P. Cezard, Clinical and biological consequences of immunization to infliximab in pediatric \r\nCrohn’s disease, Clin. Immunol. 118 (1) (2006) 11–19. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3359022209086097516,
+        "filename": "main.PMC10682623.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "[43] K.M. van der Neut, J. Schuurman, M. Losen, W.K. Bleeker, P. Martinez-Martinez, E. Vermeulen, et al., Anti-inflammatory activity of human IgG4 antibodies by \r\ndynamic Fab arm exchange, Science 317 (5844) (2007) 1554–1557. \r\n[44] C.N. Vande, V. Ballet, G. Van Assche, P. Rutgeerts, S. Vermeire, A. Gils, Early serial trough and antidrug antibody level measurements predict clinical outcome of \r\ninfliximab and adalimumab treatment, Gut 61 (2) (2012) 322, 321. \r\n[45] S. Ben-Horin, M. Yavzori, L. Katz, U. Kopylov, O. Picard, E. Fudim, et al., The immunogenic part of infliximab is the Fab’)2, but measuring antibodies to the \r\nintact infliximab molecule is more clinically useful, Gut 60 (1) (2011) 41–48. \r\n[46] A.R. Mire-Sluis, Y.C. Barrett, V. Devanarayan, E. Koren, H. Liu, M. Maia, et al., Recommendations for the design and optimization of immunoassays used in the \r\ndetection of host antibodies against biotechnology products, J. Immunol. Methods 289 (1–2) (2004) 1–16. \r\n[47] C.N. Vande, M. Ferrante, G. Van Assche, V. Ballet, G. Compernolle, K. Van Steen, et al., Trough concentrations of infliximab guide dosing for patients with \r\ninflammatory bowel disease, Gastroenterology 148 (7) (2015) 1320–1329. \r\n[48] M.A. Partridge, S. Purushothama, C. Elango, Y. Lu, Emerging technologies and generic assays for the detection of anti-drug antibodies, J Immunol. Res. 2016 \r\n(2016), 6262383. \r\nD. Xiang et al. \n\n"
+  }
+]

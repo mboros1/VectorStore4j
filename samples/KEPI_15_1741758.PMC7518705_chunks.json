@@ -1,0 +1,842 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "RESEARCH PAPER\r\nComparative analysis of genome-wide DNA methylation in Neurospora\r\nSara Hosseinia*, Cécile Meuniera,b*, Diem Nguyena*, Johan Reimegårdc, and Hanna Johannesson a\r\na\r\nDepartment of Organismal Biology, Uppsala University, Uppsala, Sweden; bDepartment ECOBIO, UMR CNRS 6553, Université Rennes 1,\r\nRennes, France; c\r\nDepartment of Cell and Molecular Biology, National Bioinformatics Infrastructure Sweden, Science for Life Laboratory,\r\nUppsala University, Uppsala, Sweden\r\nABSTRACT\r\nDNA methylation is an epigenetic mark that plays an important role in genetic regulation in\r\neukaryotes. Major progress has been made in dissecting the molecular pathways that regulate\r\nDNA methylation. Yet, little is known about DNA methylation variation over evolutionary time.\r\nHere we present an investigation of the variation of DNA methylation and transposable element\r\n(TE) content in species of the filamentous ascomycetes Neurospora. We generated genome-wide\r\nDNA methylation data at single-base resolution, together with genomic TE content and gene\r\nexpression data, of 10 individuals representing five closely related Neurospora species. We found\r\nthat the methylation levels were low (ranging from 1.3% to 2.5%) and varied among the genomes\r\nin a species-specific way. Furthermore, we found that the TEs over 400 bp long were targeted by\r\nDNA methylation, and in all genomes, high methylation correlated with low GC, confirming\r\na conserved link between DNA methylation and Repeat Induced Point (RIP) mutations in this\r\ngroup of fungi. Both TE content and DNA methylation pattern showed phylogenetic signal, and\r\nthe species with the highest TE load (N. crassa) also exhibited the highest methylation level per TE.\r\nOur results suggest that DNA methylation is an evolvable trait and indicate that the genomes of\r\nNeurospora are shaped by an evolutionary arms race between TEs and host defence.\r\nARTICLE HISTORY\r\nReceived 20 September\r\n2019\r\nRevised 14 February 2020\r\nAccepted 27 February 2020\r\nKEYWORDS\r\nDNA methylation;\r\ncoevolution; transposable\r\nelements; genome defence;\r\nNeurospora\r\nBackground\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Methylation of selected cytosines in DNA is an epige\u0002netic mark that is associated with diverse and important\r\ncellular processes in eukaryotes [1–3], including tran\u0002scriptional regulation and genome defence [4–9]. While\r\nthe function of DNA methylation on gene regulation\r\nvaries across kingdoms of the tree of life [10–12], its role\r\nin defending the genome against transposable elements\r\n(TEs: selfish elements that proliferate in spite of harmful\r\neffects on the host genome [13,14]), is conserved [15–\r\n17]. At the same time as providing defence, DNA\r\nmethylation may pose significant problems to the organ\u0002ism. On occasion, the reduction of gene expression due\r\nto the methylation status of nearby TEs could prove\r\nadaptive [18]. More generally, however, spreading of\r\nepigenetic regulation of TEs is expected to lead to dele\u0002terious effects of nearby genes, typically by reducing\r\ngene expression and thereby genome function [19–24].\r\nThe trade-off in the use of methylation for epigenetic\r\nsilencing of TEs may result in selection to act on the\r\nDNA methylation pattern and also influence the distri\u0002bution of TEs in the genome [22–24].\r\nComparative studies of the variation of DNA\r\nmethylation and TE distribution among closely\r\nrelated species are needed to unravel their rate of\r\nchange over evolutionary time, and possible interac\u0002tions between them. To date, these types of studies\r\nhave been limited to widely diverged taxa across\r\nfungi, plants, and animals, e.g. [1,3,25,26] and\r\na limited number of studies have so far focused on\r\nrecently diverged species [27]. Here we present\r\na comparative study of closely related species of the\r\nfilamentous ascomycete Neurospora. Major contri\u0002butions to our knowledge about epigenetic TE silen\u0002cing and DNA methylation is derived from studies of\r\nNeurospora crassa. This model species uses both\r\ntranscriptional and post-transcriptional gene silen\u0002cing pathways to inactivate TEs [28]. The molecular\r\nmechanisms leading to the formation of 5-methylcy\u0002tosine (5 mC) in N. crassa are representative of other\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "CONTACT Hanna Johannesson hanna.johannesson@ebc.uu.se Department of Organismal Biology, Uppsala University, Norbyvägen 18D, 752 36,\r\nUppsala, Sweden\r\n*These authors are contributed equally to this work\r\nSupplemental data for this article can be accessed here.\r\nEPIGENETICS\r\n2020, VOL. 15, NO. 9, 972–987\r\nhttps://doi.org/10.1080/15592294.2020.1741758\r\n© 2020 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group.\r\nThis is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives License (http://creativecommons.org/licenses/by-nc\u0002nd/4.0/), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited, and is not altered, transformed, or built\r\nupon in any way.\neukaryotes [29], and in laboratory strains of this\r\nspecies, previous studies have shown that about\r\n1.5% of cytosines in the genome are methylated\r\n[30,31]. Furthermore, in N. crassa, nearly all methy\u0002lated sites are located within TEs and repetitive DNA\r\nsequences that have undergone Repeat Induced\r\nPoint (RIP) mutations [29,32,33]. The resulting AT\u0002biased sequences from RIP mutations become potent\r\nsignals for trimethylation of histone H3 at the lysine9\r\n(H3K9me3), which subsequently leads to de novo\r\nDNA methylation [34,35]. While the importance of\r\nDNA methylation as one of the several mechanisms\r\nto control TE proliferation in fungi is widely\r\naccepted (e.g. [3,36]), the deleterious effects of TE\r\nmethylation on gene expression of neighbouring\r\ngenes in fungal species is understudied, and is lim\u0002ited only to recent studies of the basidiomycete\r\nwhite-rot fungus Pleurotus ostreatus [19,37], in\r\nwhich the correlation between TE methylation and\r\nsuppression of nearby genes was documented.\r\nWith the aim to uncover the variation in DNA\r\nmethylation and its interaction with TEs over short\r\nevolutionary time, we used bisulphite-sequencing\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "methodology to generate genome-wide DNA methy\u0002lation maps at single-base resolution from indivi\u0002duals representing five closely related Neurospora\r\nspecies with the divergence time of 2 MY or less.\r\nFurthermore, we gathered data on genomic TE con\u0002tent and gene expression of the same set of strains.\r\nUsing this broad dataset, we show variation in global\r\nDNA methylation levels among the genomes. We\r\nalso document variation in methylation of genomic\r\nTE content that we attribute to signatures of lineage\u0002specific TE invasion and selection. Upon comparing\r\nthe strength of genome defence in terms of both\r\nmethylation and purifying selection among the spe\u0002cies, this is most pronounced in genomes with high\r\nTE load, suggesting an evolutionary arms race\r\nbetween TEs and host defence in this group of fungi.\r\nResults\r\nThe Neurospora methylome data\r\nWe performed whole-genome bisulphite sequencing\r\nof 10 haploid strains of Neurospora. This sample set\r\nincludes two strains each of Neurospora crassa,\r\nN. sitophila and three phylogenetically and reproduc\u0002tively isolated lineages of N. tetrasperma, herein\r\nreferred to as different species (Supplementary Table\r\nS1). Phylogenetic analyses suggest that N. sitophila and\r\nN. tetrasperma have diverged more recently than each\r\nof them from N. crassa [38,39]. The two strains of each\r\nspecies are of different mating type (A or a:\r\nSupplementary Table S1); and for each strain, data\r\nwere collected for tissues from two life stages (i.e.,\r\nvegetative and pre-sexual growth) and were analysed\r\nas merged datasets. Our sequencing effort resulted in,\r\non average, 25.2 million paired reads per strain after\r\nremoving adaptor contaminations (Supplementary\r\nTable S2). Among these, about 21 million paired\r\nreads of each strain aligned uniquely to the corre\u0002sponding genome (mapping efficiency of 83%), result\u0002ing in, on average, 80% of the approximately 40 Mb\r\ngenomes covered with at least 30X read depth\r\n(Supplementary Table S2), and the average read cover\u0002age of transposable elements (TEs) varied between\r\n27X to 38X. Bisulphite conversion efficiency was\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "99.5%, which was estimated from the fraction of con\u0002verted cytosines (Cs) in Lambda DNA\r\n(Supplementary Table S3), suggesting a low false posi\u0002tive rate. The MethPipe analysis showed that 75% of\r\ntotal Cs present in N. crassa, 78% in N. sitophila and\r\nover 76% in N. tetrasperma were covered by at least 4\r\nsequencing reads (Supplementary Table S4). For each\r\nsample, we obtained on average 30X sequencing depth\r\nper site (Supplementary Table S5). We called methy\u0002lated cytosine (mC) sites as cytosines with ≥4X\r\nsequencing read coverage and at least 1 sequence\r\nread not converted during bisulphite sequencing.\r\nGenome-wide DNA methylation level varies\r\namong species of Neurospora\r\nOur data show that the genome-wide DNA methyla\u0002tion level varies among the investigated Neurospora\r\ngenomes. By using different methods (i.e., MethPipe\r\nand Bismark programs) to estimate global DNA\r\nmethylation level, we found that the genomes of\r\nN. crassa were the most methylated, followed by gen\u0002omes of N. sitophila, which in turn were more methy\u0002lated than the genomes of the N. tetrasperma species.\r\nFor example, the mean methylation levels per cyto\u0002sine, estimated with MethPipe, showed variation\r\nbetween 0.025 in N. crassa to 0.012 in N. tetrasperma\r\nLineage 6 (Figure 1(a), Supplementary Tables S4-S7).\r\nAnalyses of the fraction of mCs and weighted methy\u0002lation also resulted in the same trend. Consistent\r\nEPIGENETICS 973\nresults between strains of the same species suggest that\r\nmethylation level is a trait that vary at the species level.\r\nConserved pattern of DNA methylation along\r\nchromosomes\r\nDespite the variation in global levels of DNA methy\u0002lation, the overall chromosomal distribution\r\nbetween the investigated genomes was conserved.\r\nFirst, we found a similar sequence context pattern\r\nof DNA methylation in Neurospora: in all investi\u0002gated genomes, mC sites were found in all three\r\nsequence contexts: CG, CHG and CHH (where\r\nH is A, C or T), but considerably higher methylation\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "occurred in the CHH context (Supplementary Figure\r\nS1, Supplementary Tables S8-S9). Second, by map\u0002ping the distribution of mCs along chromosomes,\r\nwe found that DNA methylation was relatively\r\nNcra_A\r\nNsit_A\r\nNsit_a\r\nNtet−L1_A\r\nNtet−L1_a\r\nNtet−L10_A\r\nNtet−L6_A\r\nNcra_A\r\nNsit_A\r\nNsit_a\r\net−L1_A\r\net−L1_a\r\nNtet−L10_A\r\nR = 0.8 , p = 0.0096\r\n0.010\r\n0.015\r\n0.020\r\n0.025\r\n6 8 10 12\r\nPercent of TE sequences in genome\r\n Mean genome−wide methylation level \r\nFigure 1. DNA methylation levels and distribution in the genomes of Neurospora species.\r\n(a) Mean genome-wide DNA methylation levels of cytosines (Cs) in the genomes for each strain of Neurospora, as estimated by\r\nMethPipe. Each box plot shows the distribution of four data points: the mean methylation levels at cytosine sites within the specific\r\ngenome from two biological replicates of tissue from each of two life stages. In each of these four samples, we called methylated\r\nsites among Cs with ≥4X sequencing read coverage. The genome assembly for N. crassa mat a is not available, and bisulphite\r\nsequencing reads from this strain were mapped to the genome assembly of N. crassa mat A. (b) Distribution of methylated cytosines\r\n(mCs) across chromosomes of the N. sitophila mat A genome. Chromosome numbers are indicated on the outer circle. Data are\r\nplotted in 10 kb windows, using the Bioconductor OmicCircos R package. Circular tracks from outer ring to inner ring indicate: gene\r\ndensity (blue: impoverished, red: enriched), GC content (light blue), transposable elements (TEs; dark blue), and DNA methylation\r\nlevel (red). For this plot, the sequencing read coverage data of Cs of two replicates and two life stage-tissues were merged into\r\na single data point, and mCs with ≥4X sequencing read coverage were analysed. (c) Profile of mean DNA methylation levels of TEs\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "and genes and their respective flanking regions. Average DNA methylation levels are displayed between transposon/transcription\r\nstart site (TES) and transposon/transcription end site (TES), respectively, and for respective flanking regions (± 1 kb). The average\r\nmethylation of described regions were computed and plotted for each 10 bp non-overlapping bins, using deeptool. Here, the\r\nsequencing read coverage data of Cs of two replicates and two life stage-tissues were merged into a single data point, and mCs with\r\n≥4X sequencing read coverage were analysed. (d) Linear regression of the correlation between genomic TE content and genome\u0002wide DNA methylation level (average of mean methylation levels of replicates and two tissue type) in Neurospora species. Grey band\r\naround the regression line shows the 95% confidence interval of the line. Pearson correlation coefficient (R) and P-value are\r\nindicated. (E) Mean DNA methylation level per TEs in each Neurospora species. For this plot, the sequencing read coverage data of Cs\r\nfrom two replicates of each strain were merged, Cs with ≥4X sequencing read coverage was analysed, and the mean methylation\r\nlevels per TE was computed of two tissue types. Note that the mean methylation level in (a) reflects all Cs in the genome, while the\r\nmean methylation level in (c) reflects only those methylated Cs in the TE or gene region and thus exhibits higher methylation level\r\nthan in (a).\r\n974 S. HOSSEINI ET AL.\nevenly distributed across the genomes of the mat\r\nA strains of N. crassa, N. sitophila and\r\nN. tetrasperma L6, for which the best genome assem\u0002blies are available (Figure 1(b), Supplementary\r\nFigure S2). The exception being one highly methy\u0002lated region per chromosome that likely correspond\r\nto the putative centromeres; previous reports in\r\nN. crassa have demonstrated that centromeres in\r\nthis species are heavily methylated [32,40].\r\nDNA methylation level variation correlates with\r\ngenomic TE content\r\nTransposable elements (TE) are typically targeted\r\nby methylation. Genome-wide differences in DNA\r\nmethylation level between the species may thus be\r\nexplained by the proportion of TEs in the genome\r\nand/or the level of methylation of the TEs. To test\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "this expectation, targeted analyses of TEs and\r\ngenes and their respective 1 kb flanking regions\r\nwere performed. Higher methylation level was\r\nfound inside TE regions of all genomes relative\r\nto their flanking non-TE regions (Figure 1(c);\r\nSupplementary Figure S3). Furthermore, analysis\r\nof the TE content in each of the investigated gen\u0002omes revealed that N. crassa, for which we found\r\nthe highest methylation level, had the highest pro\u0002portion of TEs in its genome (about 14%), as\r\ncompared to N. sitophila (10%) and the different\r\nspecies of N. tetrasperma (5–10%) (Figure 1(d),\r\nSupplementary Table S10). Consistently, we\r\nfound a statistically significant positive correlation\r\nbetween mean methylation level and the genome\r\nproportion of TEs.\r\nFurthermore, differential methylation level of TEs\r\namong the genomes of the investigated species\r\nReflected the genomic TE load. Specifically, the\r\nmean methylation of TEs reached 0.133 in\r\nN. crassa, 0.094 in N. sitophila, 0.054 in\r\nN. tetrasperma L1, 0.046 in N. tetrasperma L10, and\r\n0.021 in N. tetrasperma L6 (Figure 1(e)).\r\nThe interaction between DNA methylation level\r\nand RIP\r\nRIP mutations result in increased AT content in\r\nthe affected sequence. The expected correlation\r\nbetween RIP (proxied herein by AT-enriched\r\nsequences) and DNA methylation was confirmed\r\nin all genomes; DNA methylation clustered in\r\nregions low in GC (Figure 1(b), Supplementary\r\nFigure S2). As expected, TEs longer than 400 bp\r\n(hereafter ‘long TEs’) were both more highly\r\nmethylated and more AT-biased than shorter TEs\r\n(Supplementary Figure S4), indicating that they\r\nwere heavily RIP mutated. The same pattern was\r\nfound in all investigated genomes; the size\u0002sensitive RIP process is thus not only limited to\r\nN. crassa [41–43]. Notably, our data suggest that\r\nDNA methylation level and RIP do not covary;\r\nwhen estimating the median methylation and pro\u0002portion of AT for TEs at different genomic loca\u0002tions, we saw that while the methylation level of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "long TEs varied among species, the proportion of\r\nAT did not (Supplementary Figure S5).\r\nRelationship between DNA methylation level and\r\nTE and gene characteristics\r\nTo reveal whether DNA methylation associates with\r\nspecific classes of TEs, we analysed separately TEs of\r\nClass I (RNA retroelements that move by copy-and\u0002paste mechanisms, including both LTR and nonLTR\r\nelements) and Class II (DNA transposons that\r\ntranspose by cut-and-paste mechanisms) elements.\r\nWe determined that, in general, the Class II ele\u0002ments made up less of the genomic TE content\r\nthan Class I RNA retrotransposons in the genomes\r\n(Supplementary Table S10), but were more methy\u0002lated (Figure 2). Furthermore, methylation of Class\r\nII TEs did not differ between length categories,\r\nwhile for Class I TEs, the long TEs were significantly\r\nmore methylated than the short ones (Figure 2).\r\nWe analysed DNA methylation levels in different\r\nmC contexts across TEs and genes, and found that in\r\nTE regions, Cs in the CHH context exhibited higher\r\nmethylation level than Cs in other contexts (with\r\nstatistical support for lineages of N. tetrasperma\r\nand CHH compared to CHG in N. sitophila).\r\nMethylation level in the gene regions was highest\r\nwhen Cs was in CHG contexts (Supplementary\r\nFigure S6, Supplementary Table S11).\r\nLeakage of DNA methylation from TEs\r\nThe non-annotated genomic regions of the\r\nNeurospora genomes, i.e., regions that were neither\r\nannotated as genes nor TEs, were methylated at low\r\nEPIGENETICS 975\nlevels (median around 1% in all species). However,\r\nthe differences in mean methylation is consistent\r\nwith influence by leakage of DNA methylation\r\nfrom TEs into non-annotated genomic regions.\r\nSpecifically, analyses of regions flanking the TEs of\r\nup to 200 bp showed that the level of DNA methyla\u0002tion decreased with distance from TEs, and was\r\nsignificantly higher in TE flanks than in random\r\nnon-annotated windows (Figure 3). Whether these\r\nadjacent 200 bp regions correspond to degraded TE\r\nrelics cannot be ascertained; they were not detected\r\nas TE fragments in our analyses.\r\nThe effect of TEs on gene expression\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Up to this point, we showed that DNA methyla\u0002tion co-localized with TEs in the genome in\r\na species-specific manner. However, the influence\r\nof TE location relative to genes and the level of TE\r\nmethylation on gene expression has not yet been\r\nexplored. Our data suggest that TEs have an\r\nimpact on gene expression when they are inserted\r\ninside, or in the vicinity of, genes. Specifically, we\r\nshowed that genes for which TEs are located inside\r\nor within a 200 bp window, gene expression was\r\nlower (Supplementary Figure S7).\r\nNext, we investigated the correlation between\r\nTE methylation level and the expression of nearby\r\ngenes. We found that the genes with methylated\r\nTEs inside or beside them (within 1 kb distance)\r\nwere generally less expressed than those having no\r\nTEs in the vicinity (Supplementary Figure S8), but\r\nthat the effect did not apparently depend on the\r\nlevel of TE methylation. These data suggest both\r\nFigure 2. DNA methylation levels of different transposable element (TE) classes in Neurospora genomes.\r\nMedian DNA methylation levels per TE are shown for different classes of TEs. Data from TEs of different lengths are shown in pairs for\r\neach class (short: <400 bp, pale-coloured and long >400 bp, darker coloured). TEs of Class II that are DNA TEs (Class II DNA), and of\r\nClass I that are RNA retroelements. Class I retroelements were further subdivided into those that either were classified as long\r\nterminal repeat (LTR) (Class I LTR) retroelements or nonLTR (Class I nonLTR) retroelements. The Unknown category of repeats\r\ncontains fractions of TEs that were not further characterized by RepeatMasker. Methylation data from two biological replicates were\r\nmerged. Median methylation level per TE for each category was measured for tissues from two life stages. The 95% confidence\r\nintervals on median of methylation levels per TE category per species are also presented.\r\n976 S. HOSSEINI ET AL.\na direct effect of TEs on gene expression, for\r\nexample, by disruption of the open reading frame\r\nor promotor region, and/or an indirect effect by\r\nmethylation leakage, but we were unable to disen\u0002tangle direct from indirect effects of TEs and their\r\nmethylation with this analysis.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Distribution of TEs relative to genes: signature of\r\npurifying selection\r\nFootprints of purifying selection that has acted to\r\nremove TEs from the genomes can be revealed by\r\ninvestigating how TE characteristics such as\r\nlength and distance to genes vary among the dif\u0002ferent Neurospora genomes, and how they corre\u0002late with methylation. We first investigated the\r\ndistribution of TEs of different sizes relative to\r\ngenes. We analysed the long and short TEs from\r\nthree categories: TEs partly or fully overlapping\r\nwith coding sequences (i.e., the gene body), TEs\r\npositioned in a 1 kb window upstream or down\u0002stream of genes, and TEs in gene-poor regions (i.\r\ne., farther than 1 kb from genes). On average, 402\r\nTEs were located in the gene body (range:\r\n227–833 TEs), 1,971 TEs within 1kb from genes\r\n(range: 1,755–2,269 TEs), and 3,065 TEs in gene\u0002poor regions (range: 2,445–3,738 TEs). Consistent\r\nwith purifying selection on TEs from within gene\r\nbodies, we found very low proportions of both\r\nlong and short TEs within genes, and high pro\u0002portions of TEs of both size classes in gene-poor\r\nregions. The TEs in gene-poor regions were sig\u0002nificantly more abundant than those found in\r\nboth gene bodies and 1 kb flanking region\r\nFigure 3. Leakage of DNA methylation from transposable elements (TEs) into non-annotated genomic regions in the genomes of\r\nNeurospora species.\r\nMean methylation levels are presented for all non-annotated regions (Non-annotated Windows) in 100 bp windows, and per TE for\r\ntwo 100 bp flanks upstream of TEs (TE Flanks1 and Flanks2 Up), for the TEs (TE), and two 100 bp flanks downstream of TEs (TE\r\nFlanks1 and Flanks2 Down). The flanking regions neither include regions that overlap with other TEs than the one in focus, nor have\r\nanother TE 100 bp away. Non-annotated genomic regions do not include genes or TEs or TE flanks. Methylation data from two\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "biological replicates were merged. Mean methylation levels per TE, flanks and non-annotated regions were measured for tissues\r\nfrom two life stages. The 95% confidence intervals of the mean of methylation levels for each genomic feature per species are\r\npresented.\r\nEPIGENETICS 977\n(Fisher’s exact test: <10−30 for all strains,\r\nSupplementary Table S12; Figure 4(a)). For the 1\r\nkb flanking regions, we found different frequency\r\ndistributions depending on TE size. While short\r\nTEs were found at high frequencies in gene\u0002flanking regions, long TEs are scarce (Figure 4\r\n(b)) and appear to have been removed by purify\u0002ing selection both from genes and their flanking\r\nregions.\r\nNoteworthy, the general patterns of TE distri\u0002bution were conserved across all genomes (Figure\r\n4), but we also saw a species-specific pattern in the\r\nproportion of TEs present at the different loca\u0002tions. For example, N. tetrasperma L6 displayed\r\na relatively higher proportion of TEs close to or\r\ninside genes, suggesting that selection for removal\r\nTEs from gene regions has been weaker than in the\r\nother species.\r\nWhen we analysed methylation of TEs at differ\u0002ent locations relative to genes, we found that for all\r\nspecies, the relatively few remaining long TEs\r\nfound within 1 kb from genes (Figure 4(a)) were\r\nmore methylated than those in gene-poor regions\r\n(Supplementary Figure S5A). In contrast, the rela\u0002tively few remaining TEs overlapping with gene\r\nbodies showed low levels of methylation and\r\na lower frequency of AT nucleotides\r\n(Supplementary Figure S5), regardless of their\r\nsize, suggesting these remaining TEs within genes\r\nare not detrimental to genome function and/or\r\nthat the cost of the methylation is higher than\r\nthe cost of the presence of the TE.\r\nDiscussion\r\nGenome-wide pattern of DNA methylation at the\r\nspecies level, and the comparison between closely\r\nrelated species, allows inference of evolutionary\r\nchanges. Comparative aspects of DNA methylation\r\nhave been addressed in plants and animals\r\n[1,3,22,25,26,44,45], but seldom in fungi where\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "studies of DNA methylation have focused on sin\u0002gle species, e.g. [19,36,46]. The few comparative\r\nstudies that have focused on the variation of\r\nDNA methylation and mechanism of action\r\namong fungal species have included phylogeneti\u0002cally widespread taxa [3,47,48] and more recently\r\nin two Pleurotus species (Basidiomycotina) that\r\ndiverged ca. 18 MYA [49]. In order to best study\r\ncomparative DNA methylation at the genome level\r\nand get the birds-eye view, we need good genome\r\nassemblies and single-base resolution whole gen\u0002ome bisulphite sequencing data; this was achieved\r\nin our study. Hence, datasets as the one generated\r\nin this study to address the interaction between\r\nDNA methylation and TE activity over a short\r\nevolutionary timescale are unique, and provide\r\na novel opportunity to address the causes and\r\nconsequences of DNA methylation as\r\na mechanism for genome defence.\r\nWe found the genome-wide DNA methylation\r\nlevel to vary among the investigated species.\r\nNevertheless, a number of traits were found to be\r\nconserved among the investigated species of\r\nNeurospora, and the patterns are consistent with\r\nwhat is known from other fungi. For example, the\r\noverall low methylation levels in the studied\r\nNeurospora species (ranging from 2.5% in\r\nN. crassa to 1.3% in N. tetrasperma) are consistent\r\nwith previous reports on N. crassa [30,31] and\r\nother fungi [3,19,46,50–52]. Furthermore, in our\r\ninvestigated genomes, TEs were the main target of\r\nmethylation, while DNA methylation elsewhere in\r\nthe genome was lower; a pattern similar to that\r\npreviously reported in N. crassa and other fungi\r\n[3,32]. In N. crassa active TEs have not been found\r\n(with the exception of one strain [53]) and the\r\nremaining degraded insertions are often consid\u0002ered as TE relics. We observed that TEs in other\r\nNeurospora species in this study also displayed\r\nsignatures of degradation (C-to-T substitution,\r\ndata not shown) by the genome defence mechan\u0002ism Repeat Induced Point (RIP) mutation, and are\r\nhere also considered to be inactive. The TEs longer\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "than 400 bp were more targeted by RIP mutations\r\nand DNA methylation than shorter TEs in all\r\ninvestigated species, a pattern previously known\r\nin N. crassa [33,42,43].\r\nTwo 5mC methyltransferase genes (5mC\r\nMTases), DIM-2 and RID, have been reported in\r\nN. crassa [54,55] and DIM-2 functions to methy\u0002late DNA [55]. In all Neurospora genomes in this\r\nstudy, we found both DIM-2 and RID using blastn\r\n(>92% identity and E-value = 0). We could also\r\nverify that these two genes were expressed in tis\u0002sues of both life stages in all species (data not\r\nshown). In all Neurospora genomes in our study,\r\nwe found consistently higher CHH methylation, in\r\n978 S. HOSSEINI ET AL.\naccordance with results from mechanistic studies\r\nin N. crassa [56]. However, the higher CHH\r\nmethylation is in contrast to other fungal genomes\r\nthat have orthologous DIM-2; e.g., CpG methyla\u0002tion is predominant in Heterobasidion parviporum\r\nand P. ostreatus, while CHG is predominantly\r\nmethylated in Magnaporthe oryzae [19,46,52].\r\nThe variation in methylation context in these fun\u0002gal species suggests that divergent functions of\r\n5mCs MTases results from evolutionary\r\ndifferences in methylation mechanisms in associa\u0002tion with their genome and lifestyle [57].\r\nWe also noted that in all species in our study,\r\nDNA methylation varied according to TE classes;\r\nwhile Class II DNA TEs occurred in low frequency\r\nin the genomes of most species, they were more\r\nmethylated than Class I RNA retrotransposons.\r\nThis result is consistent with data from the TIR\r\nfamily transposons, which is a subclass of DNA\r\nTEs in P. ostreatus. They were also detected in low\r\nFigure 4. Genomic distribution of transposable elements (TEs) relative to their proximity to genes in Neurospora genomes.\r\n(a) Proportion of long TEs (>400 bp) and (b) short TEs (<400 bp) are plotted for each genome of Neurospora. For each TE length\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "category, the TEs were grouped according to their distance relative to genes: TEs inside of gene body (purple leftmost bars), TEs\r\nlocated within 1 kb up- and down-stream relative to genes (orange centre bars), and TEs located further than 1 kb from genes (i.e.,\r\ngene-poor regions, blue-green rightmost bars).\r\nEPIGENETICS 979\nfrequency, displayed high methylation levels and\r\ntheir expression was completely suppressed [19].\r\nThis result may reflect that Class II DNA TEs in\r\nfungi are more detrimental for the host genome\r\nthan Class I TEs, and consequently are under\r\nstronger selection to be purged from the genome,\r\nand also more efficiently targeted by genome\r\ndefence. The difference in frequency between\r\nClass I and Class II elements may also reflect\r\nthat the Class I elements transpose by a copy-and\u0002paste mechanism via an RNA intermediate, and\r\nthat Class II elements transpose by a cut-and-paste\r\nmechanism, relying on transposition during host\r\ngenome replication to increase in copy number\r\n[58]. Furthermore, it is unknown if and how TE\r\nfamilies from different classes interact with one\r\nanother [59,60]. It may be stochastic processes\r\nthat drive our observation that DNA TEs are less\r\nfrequently occurring in the genomes, but it is also\r\npossible that TEs compete with each other for\r\nmetabolic resources needed for transposition, for\r\nspace in the genome or to avoid the host defence\r\nsystems [61], and that such interaction results in\r\nfewer DNA TEs.\r\nWhile TEs were in general observed to be\r\nmethylated, most genes were not. This result is in\r\nline with previous studies in N. crassa by Bewick\r\net al. [57], and Selker et al. [62]. Still, a small subset\r\nof Neurospora genes showed higher methylation\r\nlevels than any of the genes in the unmethylated\r\nLambda genome (data not shown). These genes\r\nshowed similar methylation levels to those in the\r\nTEs. Further studies are needed to validate our\r\nindications of gene methylation, and to address\r\nits biological significance.\r\nMoreover, leakage of methylation from TEs into\r\nthe surrounding regions (in accordance with pre\u0002vious reports from N. crassa [33,63,64]), and the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "negative correlation between the presence of methy\u0002lated TEs inside or nearby the genes with gene\r\nexpression, both suggest that TEs directly by disrup\u0002tion of gene function, or indirectly through DNA\r\nmethylation, imply a cost to genomes [37]. Although\r\nthe negative effect of DNA methylation of TEs in\r\nplants has been reported in different studies [20–22],\r\nit has not been shown in fungal species until recently\r\n[19,49,52]. Additional, and targeted, analyses are\r\nneeded in order to confirm a negative effect of TE\r\nmethylation on gene expression. Nevertheless, our\r\ndata lends support to a negative consequence of TE\r\nmethylation on the expression of nearby genes, and\r\nthat this trade-off has been a part of shaping the\r\npattern of TE distribution in the genome [22–24].\r\nOur data further suggest that purifying selection\r\nacts on the frequency of TEs, with respect to their\r\nlocation relative to genes, in a conserved pattern\r\nacross all these species. Furthermore, the observed\r\nhigh methylation of TEs in gene-poor regions\r\nhighlights the deleterious effect of TE methylation\r\nin the gene-rich regions. Therefore, we propose\r\nthat in Neurospora species, both the direct cost of\r\nTEs and the cost of methylation of TEs in gene\u0002dense regions lead to preferential purging of TEs,\r\nand hence affect the genomic distribution of TEs.\r\nSimilarly, studies in Arabidopsis and Drosophila\r\nshowed that long TEs targeted by silencing\r\nmechanisms are purged from gene-dense regions\r\n[22,65].\r\nSignatures of an evolutionary arms race between\r\nTE invasion and genome defence can be inferred\r\nto have shaped the Neurospora genomes. First, the\r\nvariation of the investigated traits in this study,\r\nsuch as TE load and DNA methylation level,\r\nreflected a phylogenetic signal, suggesting that\r\nthese traits are evolving at the studied time per\u0002spective; N. crassa is more distantly related to\r\nN. sitophila and N. tetrasperma than these are to\r\neach other [38,39] and the investigated traits vary\r\naccordingly. The finding that the species with the\r\nhighest TE load (i.e., N. crassa) was also the species\r\nshowing the most efficient defence by having the\r\nhighest methylation per TE suggests that TE load\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "has driven the evolution of an efficient defence\r\nstrategy in this species. At the other end of the\r\nspectrum, N. tetrasperma has fewest TEs and the\r\nleast methylation, while N. sitophila shows inter\u0002mediate characters for both TE and methylation.\r\nIn summary, we leveraged the resolution\r\nafforded by whole genome bisulphite sequencing\r\nto study the evolution of DNA methylation in the\r\nmodel organism N. crassa and its sister species.\r\nOnly until recently has the patterns and function\r\nof DNA methylation been possible in fungi with\r\nsuch detail. Our results highlight the variability of\r\na conserved cellular process, and opens up for\r\nfuture studies on factors driving the divergence\r\nof DNA methylation as an epigenetic defence\r\nmechanism.\r\n980 S. HOSSEINI ET AL.\nMaterial and methods\r\nFungal material used in the study\r\nIn this study, we used 10 haploid strains of\r\nNeurospora. These strains belong to N. crassa,\r\nN. sitophila and three phylogenetically and repro\u0002ductively isolated lineages of N. tetrasperma\r\n[38,39,66] (Supplementary Table S1), referred to\r\nherein as different species. For each species, we\r\nincluded one strain of each mating type (mat\r\nA or mat a). All strains were obtained from the\r\nFungal Genetics Stock Centre (FGSC, http://www.\r\nfgsc.net).\r\nGrowth conditions and nucleic acid extractions\r\nFor preparation of inocula, each homokaryotic\r\nstrain (Supplementary Table S1) was grown on\r\nVogel’s Medium N, with 1% sucrose as the carbon\r\nsource [67] for about 7 days, conidia were then\r\nharvested and grown in glass tubes with Vogel’s\r\nMedium N. Newly produced conidia were har\u0002vested from the surface of the mycelium and sus\u0002pended in 0.01% tween ddH2O. The centre of\r\n90 mm Petri dishes containing growth media, cov\u0002ered with cellophane sheet, were inoculated with\r\n10 µl of conidia suspensions of each homokaryon\r\nstrain and allowed to grow at 25°C with 12:12 h\r\nlight-dark conditions. For tissue collection during\r\nvegetative development, strains were grown on\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "solid Vogel’s medium N for 2 days. At this stage,\r\nmycelia covered the plate and only the vegetative\r\nstructures were produced (mycelia and conidia).\r\nTo obtain pre-sexual development tissue, strains\r\nwe grown on modified Vogel’s Medium N [68]\r\nwhich has a low amount of nitrogen and promotes\r\nsexual reproduction, for 7 days. At this stage, the\r\ntissue was a mix of mycelia, conidia, and proto\u0002perithecia, which are the pre-mature sexual struc\u0002tures. Two replicates for each life stages were\r\ngrown simultaneously, with plates randomized\r\nbetween two incubators.\r\nTissue was harvested from the surface of the\r\ncellophane using a sterilized scalpel. Tissue from\r\nthe same plate was divided into two parts: one part\r\nof the tissue was stored at −20°C for DNA extrac\u0002tion and second part was immediately frozen in\r\nliquid nitrogen and stored at −80°C for RNA\r\nextraction. Tissue for three biological replicates of\r\neach treatment was harvested from three different\r\nplates.\r\nWhole genome DNA was extracted using the\r\nFungal/Bacterial Microprep kit (Zymo Research,\r\nCat# D6007) according to the manufacturer’s\r\nrecommendation. For transcriptome analysis,\r\ntotal RNA was extracted from vegetative and sex\u0002ual tissue using miRNeasy Mini Kit (Qiagen, Cat#\r\n217004). Traces of DNA were removed by DNase\r\nI treatment (Fermentas, Cat# 89836). RNA con\u0002centration and quality were determined spectro\u0002photometrically using Nano-Drop (Thermo\r\nScientific), and RNA quality was assessed after\r\nelectrophoresis on an Agilent Bioanalyzer using\r\nthe RNA 6000 nano kit (Agilent Technologies,\r\nCat# 5067–1511) according to the manufacturer’s\r\ninstructions.\r\nBisulphite sequencing\r\nGenomic DNA was sent to the SNP&SEQ\r\nTechnology Unit (SciLifeLab, Uppsala, Sweden),\r\nwhere libraries were prepared from 100 ng of\r\nDNA using the TruSeq Methylation kit (Illumina\r\nInc, Cat# EGMK91324) according to the manufac\u0002turer’s protocol (#15066014). To determine the\r\nbisulphite conversion rate and as a quality control\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "for bisulphite treatment, unmethylated Lambda\r\nDNA (Promega, Cat# D152A) was spiked into\r\neach of the samples at 0.1% in the library prepara\u0002tion procedure. Sequencing was performed on\r\nIllumina HiSeq 2500 platform to generate 125 bp\r\npaired-end reads. For methylation analysis, we\r\nindividually sequenced tissue from two biological\r\nreplicates from each of the two life stages.\r\nRNA sequencing\r\nSequencing libraries for mRNA were constructed\r\nusing Illumina TruSeq mRNA library preparation\r\nkits (Illumina Inc, Cat# RS-122-2101/2102),\r\nincluding poly-A selection, according to the man\u0002ufacturer’s protocol (#15031047). Sequencing was\r\nperformed on Illumina Hiseq 2500 platform at the\r\nSNP&SEQ Technology Unit to generate 125 bp\r\npaired-end reads. RNA-seq data was obtained on\r\nthe same set of samples as bisulphite data, with\r\none more replicate per treatment (three replicates\r\nin total).\r\nEPIGENETICS 981\nGenomic resources\r\nFor each strain used in this study, we either down\u0002loaded the genome sequence and assembly from\r\nvarious genome resources [41,69,70], or generated\r\nthe sequence data ourselves. Genome assembly\r\nstatistics can be found in Supplementary Table\r\nS1. Note that the genome assembly for N. crassa\r\nmat a is not available. We sequenced the\r\nN. sitophila genomes on the PacBio RSII platform\r\n(Pacific Biosciences) at Uppsala Genome Centre\r\n(SciLifeLab, Uppsala, Sweden) using four SMRT\r\ncells per sample and the C4 chemistry and P6\r\npolymerase (Pacific Biosciences). The strains were\r\nprepared as in Svedberg et al. [71]. Raw PacBio\r\nsequence data were filtered and assembled using\r\nthe SMRT Analysis package and HGAP 3.0 assem\u0002bler (Pacific Biosciences, https://github.com/\r\nPacificBiosciences/). The assembly size of\r\nFGSC5940 (N. sitophila mat A) is 38 Mb (15 con\u0002tigs; 7 contigs mapping to the seven chromosomes\r\nof the N. tetrasperma L6 mat a reference genome)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "and FGSC5941 (N. sitophila mat a) is 38.4 Mb (25\r\ncontigs, 7 contigs mapping to same genome as\r\nabove). Mean coverage of 94.2X and 97.5X of\r\nwas achieved, respectively.\r\nTo sort and reorder the contigs into scaffolds in\r\nN. tetrasperma, genomes from L1 (mat A and mat\r\na), L10 (mat A and mat a), and L6 (mat A) were\r\nall aligned to the N. tetrasperma L6 mat a genome\r\nusing MUMmer (Version 3.9.4alpha) [72]. We\r\ngenerated annotations for each genome, except\r\nfor N. tetrasperma L6 and N. crassa where gff\r\nand protein fasta files are available from\r\nENSEMBL Fungi (https://fungi.ensembl.org/\r\nindex.html [73]). Annotations were produced\r\nusing MAKER [74] and functions were assigned\r\nto predict proteins using an all-to-all BLAST\r\nsearch against a Neurospora database assembled\r\nusing available protein sequences from UniProt\r\n(https://www.uniprot.org/ [75]).\r\nTransposable element detection in genomes\r\nRepeatMasker version open-4.0.6 (http://www.\r\nrepeatmasker.org [76]) was used to identify repe\u0002titive sequences in the genomes of all studied\r\nspecies, with the exception of N. crassa mat\r\na (for which no genome assembly is available),\r\nusing the previously generated Neurospora repeat\r\nlibrary [77]. Manual curation of the RepeatMasker\r\noutput (i.e., .out file) removed low complexity\r\nsequences and simple repeats. Regardless of\r\nwhether they are active or not, we considered the\r\nremaining repetitive sequences as transposable ele\u0002ments (TEs), and we categorized them broadly as\r\nClass II DNA-like transposons or Class I RNA\r\nretrotransposons. The Class I retrotransposons\r\nwere further distinguished as long terminal repeat\r\n(LTR)-like retroelements, nonLTR elements (i.e.,\r\nlong interspersed nuclear element [LINE] and\r\nshort interspersed nuclear element [SINE]); and\r\nunknowns (Supplementary Table S10). The\r\nunknown fraction of TEs was those for which\r\nRepeatMasker could not further characterize.\r\nSignature of Repeat Induced Point (RIP) mutation\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "(C-to-T substitution) was identified for 5–10 of\r\nthe most abundant consensus sequences for each\r\nNeurospora species by manually checking align\u0002ments of individual insertions in the respective\r\ngenome assemblies. All investigated sequences\r\nwere RIP mutated (data not shown).\r\nAnalysis of bisulphite sequencing reads\r\nThe adaptor sequences were removed from the\r\npaired-end sequences using TrimGalore (Version\r\n0.4.1; parameters: trim_galore ––paired ––trim1).\r\nQuality control was carried out using multiqc\r\n(Version 0.8). The reads were then mapped to\r\nthe corresponding Neurospora genomes\r\n(Supplementary Table S1), except for N. crassa\r\nmat a where we used the genome of strain\r\nFGSC2489 (mat A) as a reference; as well as\r\nLambda DNA genome (GenBank: J02459.1),\r\nusing the Bismark aligner (Version 0.16.2) [78]\r\nwith the following parameters: -n 1 –un. The\r\nreference genomes were first transformed into\r\na bisulphite-converted version (C-to-T and G-to\u0002A conversions) and then indexed using Bowtie2\r\n[79]. Sequenced reads were also transformed into\r\ntwo versions. After alignment, uniquely mapped\r\nreads were reduplicated using the deduplicate_bis\u0002mark tool. The resulting bam files then were\r\nsorted using samtools (Version 1.5) [80] and the\r\nmapping quality was checked using QualiMap\r\n(version 2.2) [81].\r\n982 S. HOSSEINI ET AL.\nWe used two programs, MethPipe (Version\r\n3.4.3) [82] and Bismark to call the methylation\r\nsites and make sure of the accuracy of the methy\u0002lation levels. To compute single site methylation\r\nlevels in MethPipe, briefly, the alignment bam file\r\nfrom Bismark converted to mr file using MethPipe\r\n‘to-mr’ function. The methylation level at each\r\ncytosine site then was counted using ‘methcounts’\r\nfunction from MethPipe. To determine the methy\u0002lated sites in the Bismark program, the bismark_-\r\nmethylation_extractor tool was used (parameter:\r\nbismark_methylation_extractor ––paired-end ––\r\nno_overlap ––comprehensive ––cytosine_report\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "––CX ––bedGraph ––report ––gzip ––ignore 12\r\n––ignore_r2 12 ––ignore_3prime 3 ––ignore_3pri\u0002me_r2 3). For all analyses, cytosines with at least\r\nfour reads were filtered. The sodium bisulphite\r\nconversion rate was determined from the methy\u0002lated sites computed by the Bismark program.\r\nIdeally, the all Cs in Lambda DNA should be\r\nconverted to T, as it is an unmethylated genome.\r\nThus, the conversion efficiency was determined as\r\nthe percentage of converted cytosines in Lambda\r\ngenome.\r\nGenome-wide analysis of DNA methylation\r\nGenome-wide mean methylation level, weighted\r\nmethylation levels and fraction of mC [83] was\r\ncalculated from methylated cytosines computed\r\nby Bismark and MethPipe using ‘levels’ function\r\nin MethPipe separately for each replicate. The\r\nmethylation level differences were tested by one\u0002way ANOVA followed by Tukey test for multiple\r\npairwise comparisons in R (R version 3.3.2) [84].\r\nThe average of global methylation levels was cal\u0002culated separately for each of the two replicates for\r\neach of the life stages (in total four data points)\r\nfrom each strain. For all other analyses, to increase\r\nthe coverage per cytosine site, we merged the read\r\ninformation of two biological replicates using the\r\n‘merge-methcounts’ function from MethPipe,\r\nresulting in one sample for each life stage and\r\nstrain. The average methylation level of each geno\u0002mic feature (genes/TEs/non-annotated regions) for\r\neach life stage was normalized to the number of\r\ncytosines per feature in both life stages. We plotted\r\nthe mean methylation, unless the distribution of\r\nthe data was apparently not normally distributed\r\n(e.g., zero-inflated probability distribution, or\r\na binomial/multinomial distribution) at which\r\npoint we show the median. Bisulphite sequencing\r\nreads from N. crassa mat a was mapped to the\r\nN. crassa mat A assembly due to the lack of an\r\nN. crassa mat a assembly.\r\nDistribution of methylation levels, GC content,\r\ngene and TEs across chromosomes were conducted\r\nby dividing the genomes into 10 kb windows, using\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "different functions in BEDTools (Version 2.26.0)\r\n[85]. Circos plots were generated using the\r\nBioconductor OmicCircos R package [86]. Profile\r\nof DNA methylation levels in TEs and genes and\r\ntheir 1 kb flanking regions for all the C contexts\r\nand also separately for each C context (CpG, CHG,\r\nand CHH, where H is A, C or T) were generated\r\nusing deepTool (Version 2.3.1) [87]. To make the\r\nCircos plots and methylation profile plots, the\r\nmethylation levels from tissues from the two life\r\nstages were merged and the methylated cytosines\r\n(mCs) with at least four reads were analysed.\r\nCorrelations between proportion of TEs and mean\r\nmethylation levels of genome were tested with linear\r\nregression analysis in R.\r\nTo calculate the mean methylation level of\r\ngenomic regions (genes/TEs/non-annotated), the\r\nmethylation files generated by MethPipe were\r\noverlapped onto each genomic region using the\r\n‘map’ function in BEDTools. For all the analyses,\r\nwe obtained the average methylation levels of two\r\nlife stages per each genomic region, unless noted\r\nin the legend.\r\nTo demonstrate DNA methylation leakage from\r\nTEs into surrounding regions, the methylation levels\r\nfor TEs and TE flanking regions (two adjacent 100\r\nbp bins up- and downstream) were computed and\r\ncompared with the average methylation levels of 100\r\nbp bins on the non-annotated regions (regions that\r\nlack TEs and genes). Flank regions that overlapped\r\nwith other TEs, or had another TE in the next 100\r\nbp up- or downstream, were removed, and TEs with\r\nat least one free flank (no overlap with another TE)\r\nwere kept for further analysis.\r\nTE characteristics\r\nTE length was determined for each TE fragment\r\nfrom the filtered RepeatMasker output. Fragments\r\nwith the same unique ID, assumed to belong to the\r\nEPIGENETICS 983\nsame TE, were concatenated. For analyses of long\r\nand short TEs, TEs whose length was more than 400\r\nbp was considered as long TEs, and TEs shorter than\r\n400 bp were considered as short TEs. TE distance\r\nrelative to genes was determined as follows: TEs\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "could be located inside the gene, 1 kb upstream or\r\ndownstream of the gene, or >1 kb from the gene,\r\nwhich is considered as a gene-poor region, due to the\r\ncompact nature of the investigated fungal genomes\r\n[41]. To maximize congruence of annotations\r\nbetween strains, we computed distance of TE to\r\ngene using the coding sequence (CDS) rather than\r\nthe whole gene length. For each TE, the frequency of\r\n[G + C] nucleotides (hereafter GC) was quantified.\r\nTo obtain a proxy for RIP mutation (1- (frequency of\r\nGC nucleotides)) was calculated. The larger the pro\u0002portion, the higher RIP activity was assumed.\r\nMethylation level differences between the TE classes\r\nwere determined after dividing the TEs into four\r\nfractions: Class I LTR and Class I nonLTR elements,\r\nClass II DNA elements, and unknown.\r\nAnalysis of transcriptome data and connection to\r\nmethylated regions and TEs\r\nRNA reads were first filtered for rRNA content,\r\nthen trimmed using Trimmomatic [88] and\r\nmapped to their respective strain genome, except\r\nfor N. crassa where we used the genome of strain\r\nFGSC2489 (mat A) as a reference, using STAR\r\n[89]. Mapping efficiency was 60–70% on average.\r\n‘Features counts’ from Subread was then used to\r\ngenerate counts at the gene level. Levels of expres\u0002sion were then analysed using the package edgeR\r\nin R [90]. After building the DGEList, counts on\r\nCDS were normalized across libraries of all strains,\r\nusing orthologues. Normalization factors were\r\nthen used on each strain library. Then, FPKM\r\nwere computed, allowing comparison of the\r\nexpression of genes within each strain across treat\u0002ments. FPKM are normalized by length of genes,\r\nso expression can also be compared among differ\u0002ent genes, for example, between genes nearby TE\r\nand genes that are not. Genes were considered\r\nexpressed if the number of samples above a cpm\r\nthreshold was 3 or more. Threshold was taken as\r\n10/L, where L is the minimum library size in\r\nmillions, as recommended in Chen et al. [91]. In\r\ndoing so, we excluded potential pseudogenes or\r\nmis-annotated genes.\r\nThe influence of TEs presence on the expression\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "of nearby genes (to 1 kb up- and down-stream,\r\nrespectively) was determined by sorting the genes\r\n(using their CDS) into seven categories according\r\nto the presence/distance of the nearest TE: Genes\r\nwithout TE in 1 kb distance, genes having TE\r\ninside or overlap with their CDS, and genes that\r\nare in proximity of TEs in 200 bp up to 1 kb: the\r\nfirst bin D1 = TE less than 200 bp from CDS, D2:\r\n200–400 bp, D3: 400–600 bp, D4: 600–800 bp, and\r\nD5: 800–1000 bp. 95% confidence interval (CI) on\r\nexpression was computed for each bin. Only\r\nexpressed genes were kept for this analysis. The\r\nnumber of genes per bin associated with\r\nSupplementary Figure S7 is found in\r\nSupplementary Table S13.\r\nTo analyse the influence of TE methylation level\r\non the expression of genes that contain TEs inside\r\nor beside (within 1 kb of gene), these TEs were\r\nsorted into five rank-based methylation bins and\r\nnearest-gene expression was compared with the\r\ngenes lacking TEs inside/beside their CDS. The\r\ngene expression median and 95% CI were com\u0002puted for each bin. Only expressed genes were\r\nused for this analysis.\r\nAcknowledgments\r\nWe thank Nahid Heidari and Markus Hiltunen for excellent\r\ntechnical help. Johan Reimegård is financially supported by\r\nthe Knut and Alice Wallenberg Foundation as part of the\r\nNational Bioinformatics Infrastructure Sweden at SciLifeLab.\r\nThis work was funded from Nilsson-Ehle Endowments and\r\nStiftelsen Lars Hiertas Minne foundations, and a European\r\nResearch Council grant under the program H2020, ERC\u00022014-CoG, project 648143 (SpoKiGen; H.J.).\r\nData Access\r\nAll raw sequencing reads generated in this study have been\r\ndeposited at the Sequence Read Archive as BioProjects\r\nPRJNA505300 and PRJNA505304. Genome assemblies\r\nbased on PacBio reads, genome annotation files, and\r\nRepeatMasker TE annotation files have been deposited at\r\nFigshare (https://doi.org/10.6084/m9.figshare.c.4302929.v1).\r\nDisclosure statement\r\nThe authors declare that they have no competing interests.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "984 S. HOSSEINI ET AL.\nFunding\r\nThis work was supported by the H2020 European Research\r\nCouncil [ERC-2014-CoG, project 648143].\r\nORCID\r\nHanna Johannesson http://orcid.org/0000-0001-6359-9856\r\nReferences\r\n[1] Feng SH, Cokus SJ, Zhang XY, et al. Conservation and\r\ndivergence of methylation patterning in plants and\r\nanimals. Proc Natl Acad Sci USA. 2010;107:8689–8694.\r\n[2] Suzuki MM, Bird A. DNA methylation landscapes:\r\nprovocative insights from epigenomics. Nat Rev\r\nGenet. 2008;9:465.\r\n[3] Zemach A, McDaniel IE, Silva P, et al. Genome-wide\r\nevolutionary analysis of eukaryotic DNA methylation.\r\nScience. 2010;328:916–919.\r\n[4] Heard E, Disteche CM. Dosage compensation in mam\u0002mals: fine-tuning the expression of the X chromosome.\r\nGenes Dev. 2006;20:1848–1867.\r\n[5] Jones PA, Takai D. The role of DNA methylation in\r\nmammalian epigenetics. Science. 2001;293:1068–1070.\r\n[6] Lister R, O’Malley RC, Tonti-Filippini J, et al. Highly\r\nintegrated single-base resolution maps of the epigen\u0002ome in arabidopsis. Cell. 2008;133:523–536.\r\n[7] Lister R, Pelizzola M, Dowen RH, et al. Human DNA\r\nmethylomes at base resolution show widespread epige\u0002nomic differences. Nature. 2009;462:315–322.\r\n[8] Reik W, Walter J. Genomic imprinting: parental influ\u0002ence on the genome. Nat Rev Genet. 2001;2:21–32.\r\n[9] Slotkin RK, Martienssen R. Transposable elements and\r\nthe epigenetic regulation of the genome. Nat Rev\r\nGenet. 2007;8:272–285.\r\n[10] Law JA, Jacobsen SE. Establishing, maintaining and\r\nmodifying DNA methylation patterns in plants and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "animals. Nat Rev Genet. 2010;11:204.\r\n[11] Wang X, Wheeler D, Avery A, et al. Function and\r\nevolution of DNA methylation in nasonia vitripennis.\r\nPLoS Genet. 2013;9:e1003872.\r\n[12] Zilberman D, Gehring M, Tran RK, et al. Genome\u0002wide analysis of Arabidopsis thaliana DNA methylation\r\nuncovers an interdependence between methylation and\r\ntranscription. Nat Genet. 2007;39:61–69.\r\n[13] Doolittle WF, Sapienza C. Selfish genes, the phenotype\r\nparadigm and genome evolution. Nature.\r\n1980;284:601–603.\r\n[14] Lonnig WE, Saedler H. Chromosome rearrangements and\r\ntransposable elements. Annu Rev Genet. 2002;36:389–410.\r\n[15] Goll MG, Bestor TH. Eukaryotic cytosine\r\nmethyltransferases. Annu Rev Biochem. 2005;74:481–514.\r\n[16] Selker EU. Genome defense and DNA methylation in\r\nNeurospora. Cold Spring Harb Sym. 2004;69: 119–124.\r\n[17] Zhang X. The epigenetic landscape of plants. Science.\r\n2008;320:482–492.\r\n[18] Lippman Z, Gendrel AV, Black M, et al. Role of trans\u0002posable elements in heterochromatin and epigenetic\r\ncontrol. Nature. 2004;430:471–476.\r\n[19] Borgognone A, Castanera R, Morselli M, et al.\r\nTransposon-associated epigenetic silencing during\r\nPleurotus ostreatus life cycle. DNA Res. 2018;25:451–464.\r\n[20] Choi JY, Purugganan MD. Evolutionary epigenomics\r\nof retrotransposon-mediated methylation spreading in\r\nrice. Mol Biol Evol. 2018;35:365–382.\r\n[21] Eichten SR, Ellis NA, Makarevitch I, et al. Spreading of\r\nheterochromatin is limited to specific families of maize\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "retrotransposons. PLoS Genet. 2012;8. DOI:10.1371/\r\njournal.pgen.1003127.\r\n[22] Hollister JD, Gaut BS. Epigenetic silencing of transpo\u0002sable elements: A trade-off between reduced transposi\u0002tion and deleterious effects on neighboring gene\r\nexpression. Genome Res. 2009;19:1419–1428.\r\n[23] Lee YCG. The role of piRNA-mediated epigenetic\r\nsilencing in the population dynamics of transposable\r\nelements in Drosophila melanogaster. PLoS Genet.\r\n2015;11. DOI:10.1371/journal.pgen.1005269\r\n[24] Lee YCG, Karpen GH. Pervasive epigenetic effects of\r\nDrosophila euchromatic transposable elements impact\r\ntheir evolution. Elife. 2017;6. DOI:10.7554/eLife.25762\r\n[25]. Li E, Zhang Y. DNA methylation in mammals. Csh\r\nPerspect Biol. 2014; 6a019133.\r\n[26] Seymour DK, Koenig D, Hagmann J, et al. Evolution of\r\nDNA methylation patterns in the brassicaceae is driven\r\nby differences in genome organization. PLoS Genet.\r\n2014;10:e1004785.\r\n[27] Legrand S, Caron T, Maumus F, et al. Differential reten\u0002tion of transposable element-derived sequences in out\u0002crossing Arabidopsis genomes. Mob DNA. 2019;10:30.\r\n[28] Aramayo R, Selker EU. Neurospora crassa, a model\r\nsystem for epigenetics research. Csh Perspect Biol.\r\n2013;5: a017921.\r\n[29] Rountree MR, Selker EU. DNA methylation and the\r\nformation of heterochromatin in Neurospora crassa.\r\nHeredity (Edinb). 2010;105:38.\r\n[30] Foss HM, Roberts CJ, Claeys KM, et al. Abnormal\r\nchromosome behavior in Neurospora mutants defec\u0002tive in DNA methylation. Science. 1993;262:1737.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "[31] Russell PJ, Rodland KD, Rachlin EM, et al. Differential\r\nDNA methylation during the vegetative life cycle of\r\nNeurospora crassa. J Bacteriol. 1987;169:2902.\r\n[32] Lewis ZA, Honda S, Khlafallah TK, et al. Relics of\r\nrepeat-induced point mutation direct heterochromatin\r\nformation in Neurospora crassa. Genome Res.\r\n2009;19:427–437.\r\n[33] Selker EU, Fritz DY, Singer MJ. Dense nonsymmetrical\r\nDNA methylation resulting from repeat-induced point\r\nmutation in Neurospora. Science. 1993;262:1724.\r\n[34] Tamaru H, Selker EU. A histone H3 methyltransferase\r\ncontrols DNA methylation in Neurospora crassa..\r\nNature. 2001;414:277–283.\r\nEPIGENETICS 985\n[35] Tamaru H, Zhang X, McMillen D, et al. Trimethylated\r\nlysine 9 of histone H3 is a mark for DNA methylation\r\nin Neurospora crassa. Nat Genet. 2003;34:75.\r\n[36] Montanini B, Chen P-Y, Morselli M, et al. Non\u0002exhaustive DNA methylation-mediated transposon\r\nsilencing in the black truffle genome, a complex fungal\r\ngenome with massive repeat element content. Genome\r\nBiol. 2014;15:411.\r\n[37] Castanera R, López-Varas L, Borgognone A, et al.\r\nTransposable elements versus the fungal genome:\r\nimpact on whole-genome architecture and transcrip\u0002tional profiles. PLoS Genet. 2016;12:e1006108.\r\n[38] Corcoran P, Anderson JL, Jacobson DJ, et al.\r\nIntrogression maintains the genetic integrity of the\r\nmating-type determining chromosome of the fungus\r\nNeurospora tetrasperma. Genome Res. 2016;26:486–498.\r\n[39] Corcoran P, Dettman JR, Sun Y, et al. A global multi\u0002locus analysis of the model fungus Neurospora reveals\r\na single recent origin of a novel genetic system. Mol\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Phylogenet Evol. 2014;78:136–147.\r\n[40] Smith KM, Phatale PA, Sullivan CM, et al.\r\nHeterochromatin is required for normal distribution of\r\nNeurospora crassa CenH3. Mol Cell Biol.\r\n2011;31:2528–2542.\r\n[41] Galagan JE, Calvo SE, Borkovich KA, et al. The gen\u0002ome sequence of the filamentous fungus Neurospora\r\ncrassa. Nature. 2003;422:859–868.\r\n[42] Singer MJ, Marcotte BA, Selker EU. DNA methylation\r\nassociated with repeat-induced point mutation in\r\nNeurospora crassa. Mol Cell Biol. 1995;15:5586.\r\n[43] Watters MK, Randall TA, Margolin BS, et al. Action of\r\nrepeat-induced point mutation on both strands of\r\na duplex and on tandem duplications of various sizes\r\nin Neurospora. Genetics. 1999;153:705–714.\r\n[44] Hollister JD, Smith LM, Guo YL, et al. Transposable\r\nelements and small RNAs contribute to gene expression\r\ndivergence between Arabidopsis thaliana and Arabidopsis\r\nlyrata. Proc Natl Acad Sci USA. 2011;108:2322–2327.\r\n[45] Zanni V, Eymery A, Coiffet M, et al. Distribution,\r\nevolution, and diversity of retrotransposons at the fla\u0002menco locus reflect the regulatory properties of piRNA\r\nclusters. Proc Natl Acad Sci USA. 2013;110:19842.\r\n[46] Jeon J, Choi J, Lee G-W, et al. Genome-wide profiling\r\nof DNA methylation provides insights into epigenetic\r\nregulation of fungal development in a plant pathogenic\r\nfungus, Magnaporthe oryzae. Sci Rep. 2015;5:8567.\r\n[47] Antequera F, Tamame M, Villanueva JR, et al. DNA\r\nmethylation in the fungi. J Biol Chem.\r\n1984;259:8033–8036.\r\n[48] Binz T, D’Mello N, Horgen PA. A comparison of DNA\r\nmethylation levels in selected isolates of higher fungi.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Mycologia. 1998;90:785–790.\r\n[49] Zhang ZB, Wen JW, Li JZ, et al. The evolution of\r\ngenomic and epigenomic features in two Pleurotus\r\nfungi. Sci Rep. 2018;8:8313.\r\n[50] Li W, Wang Y, Zhu J, et al. Differential DNA methyla\u0002tion may contribute to temporal and spatial regulation\r\nof gene expression and the development of mycelia and\r\nconidia in entomopathogenic fungus Metarhizium\r\nrobertsii. Fungal Biol-Uk. 2017;121:293–303.\r\n[51] Wang Y-L, Wang Z-X, Liu C, et al. Genome-wide\r\nanalysis of DNA methylation in the sexual stage of\r\nthe insect pathogenic fungus Cordyceps militaris.\r\nFungal Biol-Uk. 2015;119:1246–1254.\r\n[52] Zeng Z, Wu J, Kovalchuk A, et al. Genome-wide DNA\r\nmethylation and transcriptomic profiles in the lifestyle\r\nstrategies and asexual development of the forest fungal\r\npathogen Heterobasidion parviporum. Epigenetics.\r\n2019;14:16–40.\r\n[53] Kinsey JA, Helber J. Isolation of a transposable element\r\nfrom Neurospora crassa. Proc Natl Acad Sci USA.\r\n1989;86:1929–1933.\r\n[54] Freitag M, Williams RL, Kothe GO, et al. A cytosine\r\nmethyltransferase homologue is essential for\r\nrepeat-induced point mutation in Neurospora crassa.\r\nProc Natl Acad Sci USA. 2002;99:8802–8807.\r\n[55] Kouzminova E, Selker EU. dim-2 encodes a DNA\r\nmethyltransferase responsible for all known cytosine\r\nmethylation in Neurospora. Embo J. 2001;20:4309–4323.\r\n[56] Tamaru H, Selker EU. Synthesis of signals for de novo\r\nDNA methylation in Neurospora crassa. Mol Cell Biol.\r\n2003;23:2379–2394.\r\n[57] Bewick AJ, Hofmeister BT, Powers RA, et al. Diversity\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "of cytosine methylation across the fungal tree of life.\r\nNat Ecol Evol. 2019;3:479–490.\r\n[58] Wicker T, Sabot F, Hua-Van A, et al. A unified classi\u0002fication system for eukaryotic transposable elements.\r\nNat Rev Genet. 2007;8:973–982.\r\n[59] Kidwell MG, Lisch D. Transposable elements as\r\nsources of variation in animals and plants. Proc Natl\r\nAcad Sci USA. 1997;94:7704.\r\n[60] Venner S, Feschotte C, Biémont C. Dynamics of trans\u0002posable elements: towards a community ecology of the\r\ngenome. Trends Genet. 2009;25:317–323.\r\n[61] Abrusán G, Krambeck H-J. Competition may deter\u0002mine the diversity of transposable elements. Theor\r\nPopul Biol. 2006;70:364–375.\r\n[62] Selker EU, Tountas NA, Cross SH, et al. The methy\u0002lated component of the Neurospora crassa genome.\r\nNature. 2003;422:893–897.\r\n[63] Irelan JT, Selker EU. Cytosine methylation associated with\r\nrepeat-induced point mutation causes epigenetic gene\r\nsilencing in Neurospora crassa. Genetics.\r\n1997;146:509–523.\r\n[64] Miao VPW, Freitag M, Selker EU. Short TpA-rich\r\nsegments of the ζ-η region induce DNA methylation\r\nin Neurospora crassa. J Mol Biol. 2000;300:249–273.\r\n[65] Lee YCG, Langley CH. Transposable elements in nat\u0002ural populations of Drosophila melanogaster. Philos\r\nT R Soc B. 2010;365: 1219–1228.\r\n[66] Menkis A, Bastiaans E, Jacobson DJ, et al.\r\nPhylogenetic and biological species diversity within\r\nthe Neurospora tetrasperma complex. J Evol Biol.\r\n2009;22:1923–1936.\r\n986 S. HOSSEINI ET AL.\n[67] Vogel HJ. A convenient growth medium for Neurospora\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "(medium N). Microb Genet Bull. 1956;13:42–43.\r\n[68] Russo V, Sommer T, Chambers J. A modified Vogel’s\r\nmedium for crossings, mating-type tests and the isola\u0002tion of female-sterile mutants of Neurospora crassa.\r\nFungal Genetics Reports. 1985;32: 10.\r\n[69] Ellison CE, Stajich JE, Jacobson DJ, et al. Massive\r\nchanges in genome architecture accompany the transi\u0002tion to self-fertility in the filamentous fungus\r\nNeurospora tetrasperma. Genetics. 2011;189:55–69.\r\n[70] Sun Y, Svedberg J, Hiltunen M, et al. Large-scale suppres\u0002sion of recombination predates genomic rearrangements\r\nin Neurospora tetrasperma. Nat Commun. 2017;8:1140.\r\n[71] Svedberg J, Hosseini S, Chen J, et al. Convergent evo\u0002lution of complex genomic rearrangements in two\r\nfungal meiotic drive elements. Nat Commun.\r\n2018;9:4242.\r\n[72] Kurtz S, Phillippy A, Delcher AL, et al. Versatile and\r\nopen software for comparing large genomes. Genome\r\nBiol. 2004;5:R12.\r\n[73] Kersey PJ, Allen JE, Allot A, et al. Ensembl Genomes\r\n2018: an integrated omics infrastructure for\r\nnon-vertebrate species. Nucleic Acids Res. 2018;46:\r\nD802–D808.\r\n[74] Cantarel BL, Korf I, Robb SMC, et al. MAKER: an\r\neasy-to-use annotation pipeline designed for emerging\r\nmodel organism genomes. Genome Res.\r\n2008;18:188–196.\r\n[75] Chen C, Huang H, Wu CH. Protein bioinformatics\r\ndatabases and resources. In: Wu CH, editor. Protein\r\nbioinformatics: from protein modifications and net\u0002works to proteomics. New York, New York, NY:\r\nSpringer; 2017. p. 3–39. DOI:10.1007/978-1-4939-\r\n6783-4_1\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "[76] Smit A, Hubley R, Green P. RepeatMasker open-4.0.\r\n2013-2015.\r\n[77] Gioti A, Mushegian AA, Strandberg R, et al.\r\nUnidirectional evolutionary transitions in fungal mat\u0002ing systems and the role of transposable elements. Mol\r\nBiol Evol. 2012;29:3215–3226.\r\n[78] Krueger F, Andrews SR. Bismark: a flexible aligner and\r\nmethylation caller for Bisulfite-Seq applications.\r\nBioinformatics. 2011;27:1571–1572.\r\n[79] Langmead B, Salzberg SL. Fast gapped-read alignment\r\nwith bowtie 2. Nat Methods. 2012;9:357–U354.\r\n[80] Li H, Handsaker B, Wysoker A, et al. Project data\r\nprocessing, the sequence alignment/map format and\r\nSAMtools. Bioinformatics. 2009;25:2078–2079.\r\n[81] García-Alcalde F, Okonechnikov K, Carbonell J, et al.\r\nQualimap: evaluating next-generation sequencing\r\nalignment data. Bioinformatics. 2012;28:2678–2679.\r\n[82] Song Q, Decato B, Hong EE, et al. A reference methy\u0002lome database and analysis pipeline to facilitate inte\u0002grative and comparative epigenomics. PLOS One.\r\n2013;8:e81148.\r\n[83] Schultz MD, Schmitz RJ, Ecker JR. ‘Leveling’ the play\u0002ing field for analyses of single-base resolution DNA\r\nmethylomes. Trends Genet. 2012;28:583–585.\r\n[84] Core Team R. R: a language and environment for\r\nstatistical computing. Vienna, Austria: R Foundation\r\nfor Statistical Computing; 2013.\r\n[85] Quinlan AR, Hall IM. BEDTools: a flexible suite of\r\nutilities for comparing genomic features.\r\nBioinformatics. 2010;26:841–842.\r\n[86] Hu Y, Yan C, Hsu C-H, et al. OmicCircos: A\r\nsimple-to-use R package for the circular visualization\r\nof multidimensional omics data. Cancer Inform.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5308430958700193132,
+        "filename": "KEPI_15_1741758.PMC7518705.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 290,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "2014;13:CIN.S13495.\r\n[87] Ramírez F, Dündar F, Diehl S, et al. deepTools:\r\na flexible platform for exploring deep-sequencing\r\ndata. Nucleic Acids Res. 2014;42:W187–W191.\r\n[88] Bolger AM, Lohse M, Usadel B. Trimmomatic:\r\na flexible trimmer for illumina sequence data.\r\nBioinformatics. 2014;30:2114–2120.\r\n[89] Dobin A, Davis CA, Schlesinger F, et al. STAR: ultra\u0002fast universal RNA-seq aligner. Bioinformatics.\r\n2013;29:15–21.\r\n[90] Robinson MD, McCarthy DJ, Smyth GK. edgeR:\r\na bioconductor package for differential expression ana\u0002lysis of digital gene expression data. Bioinformatics.\r\n2010;26:139–140.\r\n[91] Chen Y, Lun A, Smyth G. From reads to genes to\r\npathways: differential expression analysis of RNA-Seq\r\nexperiments using Rsubread and the edgeR\r\nquasi-likelihood pipeline [version 2; referees: 5\r\napproved]. F1000Res. 2016;5:1438.\r\nEPIGENETICS 987\n\n"
+  }
+]

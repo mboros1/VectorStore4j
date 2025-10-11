@@ -1,0 +1,770 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Published online 5 September 2017 Nucleic Acids Research, 2018, Vol. 46, Database issue D823–D830\r\ndoi: 10.1093/nar/gkx790\r\nGWIPS-viz: 2018 update\r\nAudrey M. Michel, Stephen J. Kiniry, Patrick B. F. O’Connor, James P. Mullan and Pavel\r\nV. Baranov*\r\nSchool of Biochemistry and Cell Biology, University College Cork, Cork, Ireland\r\nReceived August 08, 2017; Editorial Decision August 28, 2017; Accepted August 29, 2017\r\nABSTRACT\r\nThe GWIPS-viz browser (http://gwips.ucc.ie/) is an\r\non-line genome browser which is tailored for explor\u0002ing ribosome profiling (Ribo-seq) data. Since its pub\u0002lication in 2014, GWIPS-viz provides Ribo-seq data\r\nfor an additional 14 genomes bringing the current to\u0002tal to 23. The integration of new Ribo-seq data has\r\nbeen automated thereby increasing the number of\r\navailable tracks to 1792, a 10-fold increase in the\r\nlast three years. The increase is particularly substan\u0002tial for data derived from human sources. Following\r\nuser requests, we added the functionality to down\u0002load these tracks in bigWig format. We also incor\u0002porated new types of data (e.g. TCP-seq) as well as\r\nauxiliary tracks from other sources that help with the\r\ninterpretation of Ribo-seq data. Improvements in the\r\nvisualization of the data have been carried out par\u0002ticularly for bacterial genomes where the Ribo-seq\r\ndata are now shown in a strand specific manner. For\r\nhigher eukaryotic datasets, we provide characteris\u0002tics of individual datasets using the RUST program\r\nwhich includes the triplet periodicity, sequencing bi\u0002ases and relative inferred A-site dwell times. This in\u0002formation can be used for assessing the quality of\r\nRibo-seq datasets. To improve the power of the sig\u0002nal, we aggregate Ribo-seq data from several studies\r\ninto Global aggregate tracks for each genome.\r\nINTRODUCTION\r\nRibosome profiling (Ribo-seq) is a biochemical technique\r\nthat utilizes high throughput sequencing that captures the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "mRNA fragments that are protected by actively translat\u0002ing ribosomes (1) thereby providing Genome-Wide Infor\u0002mation on Protein Synthesis (GWIPS) (2). Ribo-seq was\r\nfirst carried out in Saccharomyces cerevisiae (1) and has\r\nsince been used in many organisms resulting in a substan\u0002tial growth in the number of published datasets. The nu\u0002merous applications of the ribosome profiling technique as\r\nwell as its limitations are described in details elsewhere (3–\r\n14). While the majority of Ribo-seq datasets represent foot\u0002prints of elongating ribosomes, a number of studies have\r\nused protocols for enriching footprints deriving from initi\u0002ating ribosomes and more recently a modification of the ri\u0002bosome profiling protocol allowed footprinting of scanning\r\nribosomes (15).\r\nTo account for differences in mRNA abundance, most\r\nRibo-seq studies also generate parallel datasets where to\u0002tal mRNA (or total RNA) is randomly degraded and\r\nsubsequently sequenced. Here we refer to such datasets\r\nas mRNA-seq. To date, the majority of published Ribo\u0002seq/mRNA-seq raw sequencing data have been deposited\r\nin NCBI’s Sequence Read Archive (SRA) (16).\r\nThe GWIPS-viz browser (http://gwips.ucc.ie/) uses the\r\nfunctionality of the UCSC Genome Browser (17) to provide\r\nvisualizations of Ribo-seq coupled with mRNA-seq con\u0002trols so that users can freely explore pre-populated Ribo\u0002seq/mRNA-seq tracks without the need to download, pre\u0002process and align raw sequencing data to the correspond\u0002ing genomes. Since its original publication (18), we have\r\nstriven to expand the repertoire of Ribo-seq/mRNA-seq\r\ndata hosted on GWIPS-viz. We have also incorporated ad\u0002ditional tracks as well as improved visualizations to help\r\nusers better interpret the Ribo-seq/mRNA-seq data.\r\nNew genomes in GWIPS-viz\r\nIn 2014, GWIPS-viz provided Ribo-seq/mRNA-seq\r\ndata for nine genomes: Homo sapiens (hg19), Mus\r\nmusculus (mm10), Danio rerio (danRer7), Caenorhab\u0002ditis elegans (ce10), S. cerevisiae (sacCer3), Escherichia\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "coli K12 (ASM584 v2), Bacillus subtilis (11/09/2009),\r\nhuman cytomegalovirus (HHV5 strain Merlin) and\r\nbacteriophage lambda (NC 001416). Today GWIPS-viz\r\nprovides Ribo-seq/mRNA-seq data for an additional 14\r\ngenomes: Rattus novegicus (rn6), Xenopus laevis (v6.0),\r\nDrosophila melanogaster (dm3), Trypanosoma brucei brucei\r\n(TriTrypDb TREU927 – v 5.1), Plasmodium falciparum\r\n(ASM276v1), Schizosaccharomyces pombe (ASM294v2),\r\nNeurospora crassa (or74a/GCF 000182925.2 NC12),\r\nArabidopsis thaliana (Nov-2013), Zea Mays B73\r\n(GCF 000005005.1 NC 024459.1), E. coli BW25113\r\n(ASM75055v1), Caulobacter crescentus (ASM2200v1),\r\nStreptomyces coelicolor (ASM20383v1), Staphylococcus\r\naureus USA300 FPR3757 (ASM1346 v1), S. aureus NCTC\r\n*To whom correspondence should be addressed. Tel: +353 21 420 5419; Fax: +353 21 420 5462; Email: p.baranov@ucc.ie\r\n\u0002C The Author(s) 2017. Published by Oxford University Press on behalf of Nucleic Acids Research.\r\nThis is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by-nc/4.0/), which\r\npermits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited. For commercial re-use, please contact\r\njournals.permissions@oup.com\nD824 Nucleic Acids Research, 2018, Vol. 46, Database issue\r\n8325 (ASM1342 v1). In addition, the more recent hg38\r\nversion of the human genome assembly has been provided.\r\nNew tracks in GWIPS-viz\r\nAs well as the addition of new genomes to GWIPS-viz,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "the number of hosted tracks has grown by 10-fold. This is\r\nlargely a result of our automated computational pipeline\r\nfor the integration of new Ribo-seq and mRNA-seq data\r\nfor genomes already in the browser, bringing the total num\u0002ber of tracks to 1792 tracks across the 23 genomes. The in\u0002crease has been particularly substantial for Ribo-seq data\r\ngenerated for human as well as for mouse and S. cere\u0002visiae. New data since the original GWIPS-viz publication\r\ninclude: H. sapiens hg38 assembly (19–49), H. sapiens hg19\r\nassembly (43,50–54), M. musculus (51,52,55–75), R. novegi\u0002cus (76–78), D. rerio (79–81), X. laevis (82), C. elegans (83–\r\n85), D. melanogaster (86–88), T. brucei brucei (89), P. fal\u0002ciparum (90), S. cerevisiae (15,64,82,85,91–109), S. pombe\r\n(82,110), N. crassa (111), A. thaliana (112–114), Z. Mays\r\nB73 (115), E. coli K12 (116–124), E. coli BW25113 (125),\r\nB. subtilis (126), C. crescentus (127), S. coelicolor (128),\r\nS. aureus USA300 FPR3757 (129), S. aureus NCTC 8325\r\n(130). This expansion of datasets allows for improved cross\u0002species comparison of orthologous genes while the avail\u0002ability of datasets from multiple research groups permits\r\nthe assessment of technical reproducibility of the ribosome\r\ndensities (131).\r\nIn addition to individual tracks reflecting Ribo-seq data\r\ngenerated under different conditions for each study, we ag\u0002gregate each study’s data into an All track. We then aggre\u0002gate the All tracks from each study into a Global Aggregate\r\ntrack for each genome (Figure 1A–D). This has the effect\r\nof improving the overall Ribo-seq signal by reducing the\r\ncontribution of dataset specific biases and stochastic noise\r\ndue to low coverage. The increased number of datasets is\r\nexpected to yield higher sensitivity. The Global Aggregate\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "tracks are set as the default for each genome and users can\r\nturn on/off each study’s data contribution to the aggregated\r\ndata and then refine the visualizations by turning on/off in\u0002dividual tracks in each study. In addition, we provide Global\r\nAggregate tracks through the UCSC Genome Browser for\r\nthe human hg38 and hg19 assemblies.\r\nWe have also incorporated a new type of data into\r\nGWIPS-viz. Recently the Preiss group developed a tech\u0002nique called translation complex profile sequencing (TCP\u0002seq), where ribosome subunits are cross-linked to mRNA,\r\nallowing footprinting of both elongating and scanning ri\u0002bosomes (15). We now provide this data in the Small Ribo\u0002somal Subunits (Footprints) track group for S. cerevisiae.\r\nGiven that TCP-seq is a powerful tool for studying trans\u0002lation initiation (132), we anticipate that the experimental\r\nprotocol will be adapted for other species quite soon and we\r\nwill strive to incorporate new TCP-seq data into GWIPS-viz\r\nas it becomes available.\r\nFor S. cerevisiae we also generated an additional\r\ngene annotation track from transcript isoform sequencing\r\n(TIF-seq) data (133). Given that Saccharomyces Genome\r\nDatabase (SGD) (134) and Ensembl (135) gene annotations\r\nfor S. cerevisiae do not include UTR regions, and given that\r\nRibo-seq has shown that extensive translation occurs in 5\u0003\r\nleader regions (1) and to a lesser extent in 3\u0003 trailer regions\r\n(97), we thought it useful to integrate the 5\u0003 leader and 3\u0003\r\ntrailer gene annotations as interpreted by (133) from their\r\nTIF-seq data for S. cerevisiae.\r\nWith respect to 5\u0003 leader region delineation, we incorpo\u0002rated Riken 5\u0003 cap analysis gene expression (CAGE) data\r\n(136) as a permanent track in the Annotations Tracks and\r\nExternal Data track group for the human hg19 assembly.\r\nAt the time of the incorporation, Riken CAGE data tracks\r\nfor other GWIPS-viz assemblies were not available for per\u0002manent track integration. However, as GWIPS-viz also now\r\nincludes the UCSC Genome Browser’s Track Hub function\u0002ality (137), we provide Riken’s FANTOM5 tracks for hg38,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "hg19, mm9 and rn6 as public track hubs. While these tracks\r\nare hosted and managed by the Riken group on their own\r\nserver, a simple connection makes it easy to explore their\r\nCAGE data in conjunction with our Ribo-seq/mRNA-seq\r\ntracks in GWIPS-viz.\r\nInitially we did not provide UCSC Genome Browser’s\r\ncustom track feature (138) in GWIPS-viz. The custom track\r\nis only accessible to the user who uploads it, i.e. it is not\r\na publicly available track. Many GWIPS-viz users, how\u0002ever, expressed an interest in the custom track feature as a\r\nmeans to explore their own Ribo-seq data in the context of\r\npublished data and so we now include it. The custom track\r\nfeature is also particularly useful for users of RiboGalaxy\r\n(139), a Galaxy based platform (140) that we have devel\u0002oped specifically for processing, mapping and analysing\r\nRibo-seq data. Researchers can use the GWIPS-viz suite of\r\ntools in RiboGalaxy to generate Ribo-seq profiles that infer\r\neither the A-site (elongating ribosomes) or P-site (initiating\r\nribosomes) from either the 5\u0003 end or the 3\u0003 end of Ribo-seq\r\nreads and the resulting profiles can be directly visualised\r\nas custom tracks in GWIPS-viz. The direct interface be\u0002tween GWIPS-viz and RiboGalaxy also allows data from\r\nGWIPS-viz to be retrieved into RiboGalaxy. We also pro\u0002vide a direct link to RiboGalaxy (http://ribogalaxy.ucc.ie/)\r\nfrom the GWIPS-viz homepage.\r\nImprovements in data visualizations\r\nPreviously for bacterial genomes (E. coli K12, B. subtilis)\r\nour Ribo-seq and mRNA-seq profiles on GWIPS-viz did\r\nnot provide strand orientation information. Our Ribo-seq\r\ndensity plots also used the center-weighted approach (141)\r\nto infer ribosome A-sites. Since then, several studies have\r\nshown that inferring the ribosome decoding center from\r\nthe 3\u0003 ends of bacterial Ribo-seq data is more accurate\r\n(124,142,143). We decided to carry-out an overhaul of our\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "bacterial tracks and now provide strand orientation infor\u0002mation using the UCSC Genome Browser overlay function\u0002ality (144) in addition to A-site inference using a fixed off\u0002set from 3\u0003 footprint ends (Figure 1A,B). We have extended\r\nthese improvements to the new bacterial genomes we now\r\nhost in GWIPS-viz (E. coli BW25113, C. crescentus, S. coeli\u0002color, S. aureus NCTC 8325, S. aureus USA300 FPR3757).\r\nRecently we integrated the multi-region exon-only view\r\n(17), which is particularly useful for displaying Ribo-seq\r\ndata for higher eukaryotes where exonic regions may be in\u0002terrupted by long intronic regions (Figure 1C,D).\nNucleic Acids Research, 2018, Vol. 46, Database issue D825\r\nPhyloP (100way) SLC35A4\r\n5554 5554\r\nSLC35A4\r\n948\r\n0\r\n313\r\n0\r\nRibosome profiles - Elongating ribosomes (A-site)\r\nmRNA-seq reads\r\nRefSeq reference genes nudG ynjH\r\nRibosome profiles - Elongating ribosomes (A-site)\r\nmRNA-seq reads\r\nRefSeq reference genes nudG ynjH\r\n0\r\n0\r\nRibosome profiles - Elongating ribosomes (A-site)\r\nRefSeq reference genes\r\nRibosome profiles - Elongating ribosomes (A-site)\r\n312\r\n223\r\n-30 -20 -10 0 10\r\ndistance from decoding center [codon]\r\n0\r\n2\r\nRUST ratio (log2)\r\nCalviello16 GSE73136 Homo sapiens ribosome profiling SRR2433794\r\n0\r\n1\r\nKullback-Leibler divergence\r\nVal\r\nPhe\r\nPro\r\nArg\r\nCys\r\nGln\r\nSer\r\nGly\r\nLeu\r\nAla\r\nThr\r\nAsn\r\nIle\r\nMet\r\nTyr\r\nAsp\r\nHis\r\nLys\r\nTrp\r\nGlu\r\n0.5\r\n1.0\r\n1.5\r\n2.0\r\n2.5\r\n3.0\r\n3.5\r\n4.0\r\n4.5\r\n5.0\r\nRUST ratio\r\n(relative to min)\r\nacidic\r\naliphatic\r\naromatic\r\nbasic\r\npolar\r\nuncharged\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "26 28 30 32 34\r\nRead length\r\nrelative frequency\r\nsubcodon position\r\nzero one two\r\nmax K-L\r\n0.39, [coord 0]\r\nmax adjacent K-L\r\n0.58, [coord 0 ]\r\ndecoding center\r\nfold range, 4.6\r\n14,202,061\r\nmapped reads\r\nC D\r\nE F\r\nA B\r\n0\r\n9.561\r\n-7.814\r\n0\r\nRefSeq reference genes\r\n0\r\n9.561\r\n-7.814\r\n0\r\nPhyloP (100way)\r\nFigure 1. Exploring ribosome profiling data using GWIPS-viz. (A and B) Strand specific representation of the data for overlapping genes nudG and ynjH in\r\nthe E. coli genome. In panel A, the Ribo-seq and mRNA-seq reads mapping to the forward strand (red) and to the reverse strand (blue) are both displayed.\r\nIn panel B, only the reads mapping to the reverse strand are displayed. The profiles were generated using the Global aggregate tracks for E. coli in GWIPS\u0002viz. (C and D) Aggregated human Ribo-seq data (red) at the SLC35A4 locus show that most of translation takes place at the uORF that spans the first three\r\nexons rather than the CDS (50,146,147). The exon-only view of the SLC35A4 locus improves the visualization of the translated uORF, the conservation of\r\nwhich is shown using the 100 vertebrates basewise conservation by PhyloP (148). (E) A RUST metafootprint profile that reveals the influence of mRNA\r\ncodons on the relative read density in the vicinity of the ribosome is shown in grey in the top panel (145). The Kullback-Leibler divergence (blue for a single\r\ncodon, green for adjacent codons) indicates the influence of each mRNA location on the frequency of ribosome footprint occurrence in the library. This is\r\nan example of a dataset with low sequencing biases, where the A-site codon influence is the highest. The lower left panel shows RUST estimates of relative\r\ncodon decoding rates. The lower right panel shows the triplet periodicity signal (1,149) for individual read lengths. Panel E is taken from GWIPS-viz for\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 464,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "study (20). (F) A screen-shot of the Downloads page that provides Ribo-seq and mRNA-seq read alignments for all tracks available in GWIPS-viz.\nD826 Nucleic Acids Research, 2018, Vol. 46, Database issue\r\nFor higher eukaryotic datasets, we also now provide char\u0002acteristics obtained with RUST (145). RUST utilizes Ribo\u0002seq Unit Step Transfomation to normalize ribosome profil\u0002ing data. It further provides characteristics of ribosome pro\u0002filing datasets among which is a metafootprint profile which\r\nshows the difference between observed (experimental) and\r\nexpected (equiprobable) frequencies of specific sequences\r\n(commonly codons) in the vicinity of a ribosome footprint.\r\nThe expectation is that the highest variation in codon fre\u0002quencies should occur at the ribosome decoding center (A\u0002site) (Figure 1E). A high variation at the end of footprints\r\nwould occur due to sequencing biases. Thus, metafootprint\r\nprofiles can be used for assessing the level of sequencing bi\u0002ases in individual datasets. Clicking on each study link in\r\nthe GWIPS-viz genome page will open a new page with the\r\nlink to the RUST quality plots which include the RUST\r\nmetafootprint profile as well as a plot showing triplet peri\u0002odicity for reads of different lengths. The RUST plots also\r\ninclude a panel that shows the relative inferred A-site dwell\r\ntimes for each amino acid.\r\nDownloading Ribo-seq and mRNA-seq alignments\r\nFollowing user requests, we added the functionality to\r\ndownload our genomic alignments in bigWig format. While\r\nthe Table Browser provides the option to download our\r\nRibo-seq and mRNA-seq alignments in bedGraph format,\r\nmany users requested our original alignment files. Hence,\r\nwe built a separate Downloads page (Figure 1F) for this pur\u0002pose. For each Ribo-seq study hosted on GWIPS-viz, users\r\ncan download (1) ribosome profiles of elongating ribosomes\r\n(number of footprints whose inferred A-site match a specific\r\ncoordinate, (2) Ribo-seq and (3) mRNA-seq coverage plots\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "that provide the number of reads that map to each coordi\u0002nate. Where available, data enriched with footprints of ini\u0002tiating ribosomes, represented as coordinates of inferred P\u0002site codons, can also be downloaded. In addition, footprints\r\nof small ribosome subunits generated by TCP-seq (15) are\r\navailable for download for S. cerevisiae as coverage plots.\r\nFUTURE PLANS\r\nThe development of an automated computational data in\u0002tegration pipeline has greatly helped us to keep pace with\r\nthe flux of new Ribo-seq data for genomes already existing\r\nin GWIPS-viz. We do, however, still have some backlog in\r\nterms of Ribo-seq data generated for genomes that we need\r\nto manually add to GWIPS-viz. We are examining ways in\r\nhow we can improve our capacity to add new genomes par\u0002ticularly genomes that are not hosted on the UCSC Genome\r\nBrowser.\r\nWe also aim to continue to improve the visualizations of\r\nRibo-seq data. We wish to extend the overlay functionality\r\nwith strand-specific display to all the data tracks in GWIPS\u0002viz (currently provided for bacterial genomes only). Con\u0002versely, we want to provide RUST characteristics for Ribo\u0002seq data generated for bacteria. This requires adapting the\r\nRUST programming code to using 3\u0003 end offsetting for A\u0002site inference which we plan to do soon. In addition, we\r\nwant to use RUST parameters and other Ribo-seq spe\u0002cific parameters such as the triplet periodicity, to develop\r\na quality scoring method and provide this information on\r\nGWIPS-viz for each dataset. This will allow users to com\u0002pare Ribo-seq datasets in terms of their quality across stud\u0002ies. It will also help us and our user-base to determine what\r\ngoverns Ribo-seq data quality and how it can be maintained\r\nand improved in future Ribo-seq data.\r\nWe also wish to avail of new functionality as it becomes\r\navailable on the UCSC Genome Browser. For this reason,\r\nwe have carried out several upgrades of the GWIPS-viz\r\nbrowser to keep in-line with the UCSC Genome Browser.\r\nThe recent exon-only view is one such example which is par\u0002ticularly beneficial for eukaryotic organisms that extensively\r\nuse RNA splicing, permitting genomic alignments of Ribo\u0002seq data to be explored without intervening introns.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "DATA AVAILABILITY\r\nGWIPS-viz is publicly and freely available at (http://gwips.\r\nucc.ie/).\r\nACKNOWLEDGEMENTS\r\nWe wish to thank the following people who have helped\r\nat different stages with the continuous development of\r\nGWIPS-viz: Vimalkumar Velayudhan, Claire A Donohue,\r\nSvetlana Koroteeva, Kevin O’Riordan, Matthias Claes and\r\nSandor Dedeyne. We also wish to thank the UCSC Genome\r\nBrowser Development team who have always been so gen\u0002erous with their help.\r\nFinally, we wish to thank all the world-wide users of\r\nGWIPS-viz as well as those users who have posted questions\r\nand suggestions on our GWIPS-viz forum (http://gwips.\r\nucc.ie/Forum).\r\nFUNDING\r\nScience Foundation Ireland [12/IA/1335 to P.V.B]; A.M.M.\r\nand S.J.K. wish to acknowledge personal support from the\r\nIrish Research Council. Funding for open access charge:\r\nScience Foundation Ireland.\r\nConflict of interest statement. A.M.M. and P.V. B. are co\u0002founders of Ribomaps Ltd., a company that offers ribo\u0002some profiling analysis that can be affected financially by\r\nthe growing popularity of ribosome profiling.\r\nREFERENCES\r\n1. Ingolia,N.T., Ghaemmaghami,S., Newman,J.R. and Weissman,J.S.\r\n(2009) Genome-wide analysis in vivo of translation with nucleotide\r\nresolution using ribosome profiling. Science, 324, 218–223.\r\n2. Weiss,R.B. and Atkins,J.F. (2011) Molecular biology. Translation\r\ngoes global. Science, 334, 1509–1510.\r\n3. Andreev,D.E., O’Connor,P.B., Loughran,G., Dmitriev,S.E.,\r\nBaranov,P.V. and Shatsky,I.N. (2017) Insights into the mechanisms\r\nof eukaryotic translation gained with ribosome profiling. Nucleic\r\nAcids Res., 45, 513–526.\r\n4. Aramayo,R. and Polymenis,M. (2017) Ribosome profiling the cell\r\ncycle: lessons and challenges. Curr. Genet.,\r\ndoi:10.1007/s00294-017-0698-3.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "5. Bartholomaus,A., Del Campo,C. and Ignatova,Z. (2016) Mapping\r\nthe non-standardized biases of ribosome profiling. Biol. Chem., 397,\r\n23–35.\r\n6. Baudin-Baillieu,A., Hatin,I., Legendre,R. and Namy,O. (2016)\r\nTranslation analysis at the genome scale by ribosome profiling.\r\nMethods Mol. Biol., 1361, 105–124.\nNucleic Acids Research, 2018, Vol. 46, Database issue D827\r\n7. Brar,G.A. and Weissman,J.S. (2015) Ribosome profiling reveals the\r\nwhat, when, where and how of protein synthesis. Nat. Rev. Mol.\r\nCell. Biol., 16, 651–664.\r\n8. Gobet,C. and Naef,F. (2017) Ribosome profiling and dynamic\r\nregulation of translation in mammals. Curr. Opin. Genet. Dev., 43,\r\n120–127.\r\n9. Ingolia,N.T. (2014) Ribosome profiling: new views of translation,\r\nfrom single codons to genome scale. Nat. Rev. Genet., 15, 205–213.\r\n10. Michel,A.M. and Baranov,P.V. (2013) Ribosome profiling: a Hi-Def\r\nmonitor for protein synthesis at the genome-wide scale. Wiley\r\nInterdiscip. Rev. RNA, 4, 473–490.\r\n11. Mumtaz,M.A. and Couso,J.P. (2015) Ribosomal profiling adds new\r\ncoding sequences to the proteome. Biochem. Soc. Trans., 43,\r\n1271–1276.\r\n12. Parsons,M. and Myler,P.J. (2016) Illuminating parasite protein\r\nproduction by ribosome profiling. Trends Parasitol., 32, 446–457.\r\n13. Stern-Ginossar,N. (2015) Decoding viral infection by ribosome\r\nprofiling. J. Virol., 89, 6164–6166.\r\n14. Stern-Ginossar,N. and Ingolia,N.T. (2015) Ribosome profiling as a\r\ntool to decipher viral complexity. Annu. Rev. Virol., 2, 335–349.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "15. Archer,S.K., Shirokikh,N.E., Beilharz,T.H. and Preiss,T. (2016)\r\nDynamics of ribosome scanning and recycling revealed by\r\ntranslation complex profiling. Nature, 535, 570–574.\r\n16. Kodama,Y., Shumway,M., Leinonen,R. and International\r\nNucleotide Sequence Database, C. (2012) The Sequence Read\r\nArchive: explosive growth of sequencing data. Nucleic Acids Res.,\r\n40, D54–D56.\r\n17. Tyner,C., Barber,G.P., Casper,J., Clawson,H., Diekhans,M.,\r\nEisenhart,C., Fischer,C.M., Gibson,D., Gonzalez,J.N.,\r\nGuruvadoo,L. et al. (2017) The UCSC Genome Browser database:\r\n2017 update. Nucleic Acids Res., 45, D626–D634.\r\n18. Michel,A.M., Fox,G., A,M.K., De Bo,C., O’Connor,P.B.,\r\nHeaphy,S.M., Mullan,J.P., Donohue,C.A., Higgins,D.G. and\r\nBaranov,P.V. (2014) GWIPS-viz: development of a ribo-seq genome\r\nbrowser. Nucleic Acids Res., 42, D859–D864.\r\n19. Battle,A., Khan,Z., Wang,S.H., Mitrano,A., Ford,M.J.,\r\nPritchard,J.K. and Gilad,Y. (2015) Genomic variation. Impact of\r\nregulatory variation from RNA to protein. Science, 347, 664–667.\r\n20. Calviello,L., Mukherjee,N., Wyler,E., Zauber,H., Hirsekorn,A.,\r\nSelbach,M., Landthaler,M., Obermayer,B. and Ohler,U. (2016)\r\nDetecting actively translated open reading frames in ribosome\r\nprofiling data. Nat. Methods, 13, 165–170.\r\n21. Cenik,C., Cenik,E.S., Byeon,G.W., Grubert,F., Candille,S.I.,\r\nSpacek,D., Alsallakh,B., Tilgner,H., Araya,C.L., Tang,H. et al.\r\n(2015) Integrative analysis of RNA, translation, and protein levels\r\nreveals distinct regulatory variation across humans. Genome Res.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "25, 1610–1621.\r\n22. Crappe,J., Ndah,E., Koch,A., Steyaert,S., Gawron,D., De\r\nKeulenaer,S., De Meester,E., De Meyer,T., Van Criekinge,W., Van\r\nDamme,P. et al. (2015) PROTEOFORMER: deep proteome\r\ncoverage through ribosome profiling and MS integration. Nucleic\r\nAcids Res., 43, e29.\r\n23. Elkon,R., Loayza-Puch,F., Korkmaz,G., Lopes,R., van\r\nBreugel,P.C., Bleijerveld,O.B., Altelaar,A.F., Wolf,E., Lorenzin,F.,\r\nEilers,M. et al. (2015) Myc coordinates transcription and translation\r\nto enhance transformation and suppress invasiveness. EMBO Rep.,\r\n16, 1723–1736.\r\n24. Gawron,D., Ndah,E., Gevaert,K. and Van Damme,P. (2016)\r\nPositional proteomics reveals differences in N-terminal proteoform\r\nstability. Mol. Syst. Biol., 12, 858.\r\n25. Guo,J.U., Agarwal,V., Guo,H. and Bartel,D.P. (2014) Expanded\r\nidentification and characterization of mammalian circular RNAs.\r\nGenome Biol., 15, 409.\r\n26. Ingolia,N.T., Brar,G.A., Rouskin,S., McGeachy,A.M. and\r\nWeissman,J.S. (2012) The ribosome profiling strategy for monitoring\r\ntranslation in vivo by deep sequencing of ribosome-protected\r\nmRNA fragments. Nat. Protoc., 7, 1534–1550.\r\n27. Iwasaki,S., Floor,S.N. and Ingolia,N.T. (2016) Rocaglates convert\r\nDEAD-box protein eIF4A into a sequence-selective translational\r\nrepressor. Nature, 534, 558–561.\r\n28. Jakobsson,M.E., Malecki,J., Nilges,B.S., Moen,A., Leidel,S.A. and\r\nFalnes,P.O. (2017) Methylation of human eukaryotic elongation\r\nfactor alpha (eEF1A) by a member of a novel protein lysine\r\nmethyltransferase family modulates mRNA translation. Nucleic\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Acids Res., 45, 8239–8254.\r\n29. Jang,C., Lahens,N.F., Hogenesch,J.B. and Sehgal,A. (2015)\r\nRibosome profiling reveals an important role for translational\r\ncontrol in circadian gene expression. Genome Res., 25, 1836–1847.\r\n30. Ji,Z., Song,R., Regev,A. and Struhl,K. (2015) Many lncRNAs,\r\n5\u0003\r\nUTRs, and pseudogenes are translated and some are likely to\r\nexpress functional proteins. Elife, 4, e08890.\r\n31. Malecki,J., Aileni,V.K., Ho,A.Y.Y., Schwarz,J., Moen,A.,\r\nSorensen,V., Nilges,B.S., Jakobsson,M.E., Leidel,S.A. and\r\nFalnes,P.O. (2017) The novel lysine specific methyltransferase\r\nMETTL21B affects mRNA translation through inducible and\r\ndynamic methylation of Lys-165 in human eukaryotic elongation\r\nfactor 1 alpha (eEF1A). Nucleic Acids Res., 45, 4370–4389.\r\n32. Mills,E.W., Wangen,J., Green,R. and Ingolia,N.T. (2016) Dynamic\r\nregulation of a ribosome rescue pathway in erythroid cells and\r\nplatelets. Cell Rep., 17, 1–10.\r\n33. Niu,Y., Zhao,X., Wu,Y.S., Li,M.M., Wang,X.J. and Yang,Y.G.\r\n(2013) N6-methyl-adenosine (m6A) in RNA: an old modification\r\nwith a novel epigenetic function. Genomics Proteomics\r\nBioinformatics, 11, 8–17.\r\n34. Park,J.E., Yi,H., Kim,Y., Chang,H. and Kim,V.N. (2016) Regulation\r\nof Poly(A) tail and translation during the somatic cell cycle. Mol.\r\nCell, 62, 462–471.\r\n35. Raj,A., Wang,S.H., Shim,H., Harpak,A., Li,Y.I., Engelmann,B.,\r\nStephens,M., Gilad,Y. and Pritchard,J.K. (2016) Thousands of novel\r\ntranslated open reading frames in humans inferred by ribosome\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "footprint profiling. Elife, 5, e13328.\r\n36. Reid,D.W., Shenolikar,S. and Nicchitta,C.V. (2015) Simple and\r\ninexpensive ribosome profiling analysis of mRNA translation.\r\nMethods, 91, 69–74.\r\n37. Rubio,C.A., Weisburd,B., Holderfield,M., Arias,C., Fang,E.,\r\nDeRisi,J.L. and Fanidi,A. (2014) Transcriptome-wide\r\ncharacterization of the eIF4A signature highlights plasticity in\r\ntranslation regulation. Genome Biol., 15, 476.\r\n38. Shi,H., Wang,X., Lu,Z., Zhao,B.S., Ma,H., Hsu,P.J., Liu,C. and\r\nHe,C. (2017) YTHDF3 facilitates translation and decay of\r\nN6-methyladenosine-modified RNA. Cell Res., 27, 315–328.\r\n39. Sidrauski,C., McGeachy,A.M., Ingolia,N.T. and Walter,P. (2015)\r\nThe small molecule ISRIB reverses the effects of eIF2alpha\r\nphosphorylation on translation and stress granule assembly. Elife, 4,\r\ne05033.\r\n40. Su,X., Yu,Y., Zhong,Y., Giannopoulou,E.G., Hu,X., Liu,H.,\r\nCross,J.R., Ratsch,G., Rice,C.M. and Ivashkiv,L.B. (2015)\r\nInterferon-gamma regulates cellular metabolism and mRNA\r\ntranslation to potentiate macrophage activation. Nat. Immunol., 16,\r\n838–849.\r\n41. Tanenbaum,M.E., Stern-Ginossar,N., Weissman,J.S. and Vale,R.D.\r\n(2015) Regulation of mRNA translation during mitosis. Elife, 4,\r\ne07957.\r\n42. Tirosh,O., Cohen,Y., Shitrit,A., Shani,O., Le-Trilling,V.T.,\r\nTrilling,M., Friedlander,G., Tanenbaum,M. and Stern-Ginossar,N.\r\n(2015) The transcription and translation landscapes during human\r\ncytomegalovirus infection reveal novel host-pathogen interactions.\r\nPLoS Pathog., 11, e1005288.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "43. Wein,N., Vulin,A., Falzarano,M.S., Szigyarto,C.A., Maiti,B.,\r\nFindlay,A., Heller,K.N., Uhlen,M., Bakthavachalu,B., Messina,S.\r\net al. (2014) Translation from a DMD exon 5 IRES results in a\r\nfunctional dystrophin isoform that attenuates dystrophinopathy in\r\nhumans and mice. Nat. Med., 20, 992–1000.\r\n44. Werner,A., Iwasaki,S., McGourty,C.A., Medina-Ruiz,S.,\r\nTeerikorpi,N., Fedrigo,I., Ingolia,N.T. and Rape,M. (2015) Cell-fate\r\ndetermination by ubiquitin-dependent regulation of translation.\r\nNature, 525, 523–527.\r\n45. Wiita,A.P., Ziv,E., Wiita,P.J., Urisman,A., Julien,O.,\r\nBurlingame,A.L., Weissman,J.S. and Wells,J.A. (2013) Global\r\ncellular response to chemotherapy-induced apoptosis. Elife, 2,\r\ne01236.\r\n46. Wolfe,A.L., Singh,K., Zhong,Y., Drewe,P., Rajasekhar,V.K.,\r\nSanghvi,V.R., Mavrakis,K.J., Jiang,M., Roderick,J.E., Van der\r\nMeulen,J. et al. (2014) RNA G-quadruplexes cause\r\neIF4A-dependent oncogene translation in cancer. Nature, 513,\r\n65–70.\nD828 Nucleic Acids Research, 2018, Vol. 46, Database issue\r\n47. Xu,B., Gogol,M., Gaudenz,K. and Gerton,J.L. (2016) Improved\r\ntranscription and translation with L-leucine stimulation of\r\nmTORC1 in Roberts syndrome. BMC Genomics, 17, 25.\r\n48. Yoon,J.H., De,S., Srikantan,S., Abdelmohsen,K., Grammatikakis,I.,\r\nKim,J., Kim,K.M., Noh,J.H., White,E.J., Martindale,J.L. et al.\r\n(2014) PAR-CLIP analysis uncovers AUF1 impact on target RNA\r\nfate and genome integrity. Nat. Commun., 5, 5248.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "49. Zur,H., Aviner,R. and Tuller,T. (2016) Complementary post\r\ntranscriptional regulatory information is detected by PUNCH-P\r\nand ribosome profiling. Sci. Rep., 6, 21635.\r\n50. Andreev,D.E., O’Connor,P.B., Fahey,C., Kenny,E.M., Terenin,I.M.,\r\nDmitriev,S.E., Cormican,P., Morris,D.W., Shatsky,I.N. and\r\nBaranov,P.V. (2015) Translation of 5\u0003 leaders is pervasive in genes\r\nresistant to eIF2 repression. Elife, 4, e03971.\r\n51. Gao,X., Wan,J., Liu,B., Ma,M., Shen,B. and Qian,S.B. (2015)\r\nQuantitative profiling of initiating ribosomes in vivo. Nat. Methods,\r\n12, 147–153.\r\n52. Gonzalez,C., Sims,J.S., Hornstein,N., Mela,A., Garcia,F., Lei,L.,\r\nGass,D.A., Amendolara,B., Bruce,J.N., Canoll,P. et al. (2014)\r\nRibosome profiling reveals a cell-type-specific translational\r\nlandscape in brain tumors. J. Neurosci., 34, 10924–10936.\r\n53. Rooijers,K., Loayza-Puch,F., Nijtmans,L.G. and Agami,R. (2013)\r\nRibosome profiling reveals features of normal and\r\ndisease-associated mitochondrial translation. Nat. Commun., 4,\r\n2886.\r\n54. Stumpf,C.R., Moreno,M.V., Olshen,A.B., Taylor,B.S. and\r\nRuggero,D. (2013) The translational landscape of the mammalian\r\ncell cycle. Mol. Cell, 52, 574–582.\r\n55. Alvarez-Dominguez,J.R., Zhang,X. and Hu,W. (2017) Widespread\r\nand dynamic translational control of red blood cell development.\r\nBlood, 129, 619–629.\r\n56. Atger,F., Gobet,C., Marquis,J., Martin,E., Wang,J., Weger,B.,\r\nLefebvre,G., Descombes,P., Naef,F. and Gachon,F. (2015) Circadian\r\nand feeding rhythms differentially affect rhythmic mRNA\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "transcription and translation in mouse liver. Proc. Natl. Acad. Sci.\r\nU.S.A., 112, E6579–E6588.\r\n57. Blanco,S., Bandiera,R., Popis,M., Hussain,S., Lombard,P.,\r\nAleksic,J., Sajini,A., Tanna,H., Cortes-Garrido,R., Gkatza,N. et al.\r\n(2016) Stem cell function and stress response are controlled by\r\nprotein synthesis. Nature, 534, 335–340.\r\n58. Castaneda,J., Genzor,P., van der Heijden,G.W., Sarkeshik,A.,\r\nYates,J.R. 3rd, Ingolia,N.T. and Bortvin,A. (2014) Reduced\r\npachytene piRNAs and translation underlie spermiogenic arrest in\r\nMaelstrom mutant mice. EMBO J., 33, 1999–2019.\r\n59. Cho,J., Yu,N.K., Choi,J.H., Sim,S.E., Kang,S.J., Kwak,C., Lee,S.W.,\r\nKim,J.I., Choi,D.I., Kim,V.N. et al. (2015) Multiple repressive\r\nmechanisms in the hippocampus during memory formation.\r\nScience, 350, 82–87.\r\n60. de Klerk,E., Fokkema,I.F., Thiadens,K.A., Goeman,J.J.,\r\nPalmblad,M., den Dunnen,J.T., von Lindern,M. and t Hoen,P.A.\r\n(2015) Assessing the translational landscape of myogenic\r\ndifferentiation by ribosome profiling. Nucleic Acids Res., 43,\r\n4408–4428.\r\n61. Eichhorn,S.W., Guo,H., McGeary,S.E., Rodriguez-Mias,R.A.,\r\nShin,C., Baek,D., Hsu,S.H., Ghoshal,K., Villen,J. and Bartel,D.P.\r\n(2014) mRNA destabilization is the dominant effect of mammalian\r\nmicroRNAs by the time substantial repression ensues. Mol. Cell, 56,\r\n104–115.\r\n62. Fields,A.P., Rodriguez,E.H., Jovanovic,M., Stern-Ginossar,N.,\r\nHaas,B.J., Mertins,P., Raychowdhury,R., Hacohen,N., Carr,S.A.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Ingolia,N.T. et al. (2015) A regression-based analysis of\r\nribosome-profiling data reveals a conserved complexity to\r\nmammalian translation. Mol. Cell, 60, 816–827.\r\n63. Fradejas-Villar,N., Seeher,S., Anderson,C.B., Doengi,M.,\r\nCarlson,B.A., Hatfield,D.L., Schweizer,U. and Howard,M.T. (2017)\r\nThe RNA-binding protein Secisbp2 differentially modulates UGA\r\ncodon reassignment and RNA decay. Nucleic Acids Res., 45,\r\n4094–4107.\r\n64. Gerashchenko,M.V. and Gladyshev,V.N. (2017) Ribonuclease\r\nselection for ribosome profiling. Nucleic Acids Res., 45, e6.\r\n65. Hornstein,N., Torres,D., Das Sharma,S., Tang,G., Canoll,P. and\r\nSims,P.A. (2016) Ligation-free ribosome profiling of cell\r\ntype-specific translation in the brain. Genome Biol., 17, 149.\r\n66. Howard,M.T., Carlson,B.A., Anderson,C.B. and Hatfield,D.L.\r\n(2013) Translational redefinition of UGA codons is regulated by\r\nselenium availability. J. Biol. Chem., 288, 19401–19413.\r\n67. Hurt,J.A., Robertson,A.D. and Burge,C.B. (2013) Global analyses\r\nof UPF1 binding and function reveal expanded scope of\r\nnonsense-mediated mRNA decay. Genome Res., 23, 1636–1650.\r\n68. Ingolia,N.T., Brar,G.A., Stern-Ginossar,N., Harris,M.S.,\r\nTalhouarne,G.J., Jackson,S.E., Wills,M.R. and Weissman,J.S. (2014)\r\nRibosome profiling reveals pervasive translation outside of\r\nannotated protein-coding genes. Cell Rep., 8, 1365–1379.\r\n69. Janich,P., Arpat,A.B., Castelo-Szekely,V., Lopes,M. and Gatfield,D.\r\n(2015) Ribosome profiling reveals the rhythmic liver translatome\r\nand circadian clock regulation by upstream open reading frames.\r\nGenome Res., 25, 1848–1859.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "70. Laguesse,S., Creppe,C., Nedialkova,D.D., Prevot,P.P., Borgs,L.,\r\nHuysseune,S., Franco,B., Duysens,G., Krusy,N., Lee,G. et al. (2015)\r\nA dynamic unfolded protein response contributes to the control of\r\ncortical neurogenesis. Dev. Cell, 35, 553–567.\r\n71. Neri,F., Rapelli,S., Krepelova,A., Incarnato,D., Parlato,C.,\r\nBasile,G., Maldotti,M., Anselmi,F. and Oliviero,S. (2017) Intragenic\r\nDNA methylation prevents spurious transcription initiation. Nature,\r\n543, 72–77.\r\n72. Reid,D.W., Chen,Q., Tay,A.S., Shenolikar,S. and Nicchitta,C.V.\r\n(2014) The unfolded protein response triggers selective mRNA\r\nrelease from the endoplasmic reticulum. Cell, 158, 1362–1374.\r\n73. Reid,D.W., Tay,A.S., Sundaram,J.R., Lee,I.C., Chen,Q.,\r\nGeorge,S.E., Nicchitta,C.V. and Shenolikar,S. (2016)\r\nComplementary roles of GADD34- and CReP-containing\r\neukaryotic initiation factor 2alpha phosphatases during the\r\nunfolded protein response. Mol. Cell. Biol., 36, 1868–1880.\r\n74. Sendoel,A., Dunn,J.G., Rodriguez,E.H., Naik,S., Gomez,N.C.,\r\nHurwitz,B., Levorse,J., Dill,B.D., Schramek,D., Molina,H. et al.\r\n(2017) Translation from unconventional 5\u0003 start sites drives tumour\r\ninitiation. Nature, 541, 494–499.\r\n75. You,K.T., Park,J. and Kim,V.N. (2015) Role of the small subunit\r\nprocessome in the maintenance of pluripotent stem cells. Genes Dev.,\r\n29, 2004–2009.\r\n76. Andreev,D.E., O’Connor,P.B., Zhdanov,A.V., Dmitriev,R.I.,\r\nShatsky,I.N., Papkovsky,D.B. and Baranov,P.V. (2015) Oxygen and\r\nglucose deprivation induces widespread alterations in mRNA\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "translation within 20 minutes. Genome Biol., 16, 90.\r\n77. Ori,A., Toyama,B.H., Harris,M.S., Bock,T., Iskar,M., Bork,P.,\r\nIngolia,N.T., Hetzer,M.W. and Beck,M. (2015) Integrated\r\ntranscriptome and proteome analyses reveal organ-specific\r\nproteome deterioration in old rats. Cell Syst., 1, 224–237.\r\n78. Schafer,S., Adami,E., Heinig,M., Rodrigues,K.E., Kreuchwig,F.,\r\nSilhavy,J., van Heesch,S., Simaite,D., Rajewsky,N., Cuppen,E. et al.\r\n(2015) Translational regulation shapes the molecular landscape of\r\ncomplex disease phenotypes. Nat. Commun., 6, 7200.\r\n79. Bazzini,A.A., Johnstone,T.G., Christiano,R., Mackowiak,S.D.,\r\nObermayer,B., Fleming,E.S., Vejnar,C.E., Lee,M.T., Rajewsky,N.,\r\nWalther,T.C. et al. (2014) Identification of small ORFs in\r\nvertebrates using ribosome footprinting and evolutionary\r\nconservation. EMBO J., 33, 981–993.\r\n80. Chew,G.L., Pauli,A., Rinn,J.L., Regev,A., Schier,A.F. and Valen,E.\r\n(2013) Ribosome profiling reveals resemblance between long\r\nnon-coding RNAs and 5\u0003 leaders of coding RNAs. Development,\r\n140, 2828–2834.\r\n81. Lee,M.T., Bonneau,A.R., Takacs,C.M., Bazzini,A.A., DiVito,K.R.,\r\nFleming,E.S. and Giraldez,A.J. (2013) Nanog, Pou5f1 and SoxB1\r\nactivate zygotic gene expression during the maternal-to-zygotic\r\ntransition. Nature, 503, 360–364.\r\n82. Subtelny,A.O., Eichhorn,S.W., Chen,G.R., Sive,H. and Bartel,D.P.\r\n(2014) Poly(A)-tail profiling reveals an embryonic switch in\r\ntranslational control. Nature, 508, 66–71.\r\n83. Arnold,A., Rahman,M.M., Lee,M.C., Muehlhaeusser,S., Katic,I.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Gaidatzis,D., Hess,D., Scheckel,C., Wright,J.E., Stetak,A. et al.\r\n(2014) Functional characterization of C. elegans Y-box-binding\r\nproteins reveals tissue-specific functions and a critical role in the\r\nformation of polysomes. Nucleic Acids Res., 42, 13353–13369.\r\n84. Hendriks,G.J., Gaidatzis,D., Aeschimann,F. and Grosshans,H.\r\n(2014) Extensive oscillatory gene expression during C. elegans larval\r\ndevelopment. Mol. Cell, 53, 380–392.\nNucleic Acids Research, 2018, Vol. 46, Database issue D829\r\n85. Nedialkova,D.D. and Leidel,S.A. (2015) Optimization of codon\r\ntranslation rates via tRNA modifications maintains proteome\r\nintegrity. Cell, 161, 1606–1618.\r\n86. Aspden,J.L., Eyre-Walker,Y.C., Phillips,R.J., Amin,U.,\r\nMumtaz,M.A., Brocard,M. and Couso,J.P. (2014) Extensive\r\ntranslation of small Open Reading Frames revealed by\r\nPoly-Ribo-Seq. Elife, 3, e03528.\r\n87. Dunn,J.G., Foo,C.K., Belletier,N.G., Gavis,E.R. and Weissman,J.S.\r\n(2013) Ribosome profiling reveals pervasive and regulated stop\r\ncodon readthrough in Drosophila melanogaster. Elife, 2, e01179.\r\n88. Kronja,I., Yuan,B., Eichhorn,S.W., Dzeyk,K., Krijgsveld,J.,\r\nBartel,D.P. and Orr-Weaver,T.L. (2014) Widespread changes in the\r\nposttranscriptional landscape at the Drosophila oocyte-to-embryo\r\ntransition. Cell Rep., 7, 1495–1508.\r\n89. Vasquez,J.J., Hon,C.C., Vanselow,J.T., Schlosser,A. and Siegel,T.N.\r\n(2014) Comparative ribosome profiling reveals extensive\r\ntranslational complexity in different Trypanosoma brucei life cycle\r\nstages. Nucleic Acids Res., 42, 3623–3637.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "90. Caro,F., Ahyong,V., Betegon,M. and DeRisi,J.L. (2014)\r\nGenome-wide regulatory dynamics of translation in the\r\nPlasmodium falciparum asexual blood stages. Elife, 3, e04106.\r\n91. Albert,F.W., Muzzey,D., Weissman,J.S. and Kruglyak,L. (2014)\r\nGenetic influences on translation in yeast. PLoS Genet., 10,\r\ne1004692.\r\n92. Baudin-Baillieu,A., Legendre,R., Kuchly,C., Hatin,I., Demais,S.,\r\nMestdagh,C., Gautheret,D. and Namy,O. (2014) Genome-wide\r\ntranslational changes induced by the prion [PSI+]. Cell Rep., 8,\r\n439–448.\r\n93. Beaupere,C., Wasko,B.M., Lorusso,J., Kennedy,B.K.,\r\nKaeberlein,M. and Labunskyy,V.M. (2017) CAN1 arginine\r\npermease deficiency extends yeast replicative lifespan via\r\ntranslational activation of stress response genes. Cell Rep., 18,\r\n1884–1892.\r\n94. Cai,Y. and Futcher,B. (2013) Effects of the yeast RNA-binding\r\nprotein Whi3 on the half-life and abundance of CLN3 mRNA and\r\nother targets. PLoS One, 8, e84630.\r\n95. Dhungel,N., Eleuteri,S., Li,L.B., Kramer,N.J., Chartron,J.W.,\r\nSpencer,B., Kosberg,K., Fields,J.A., Stafa,K., Adame,A. et al.\r\n(2015) Parkinson’s disease genes VPS35 and EIF4G1 interact\r\ngenetically and converge on alpha-synuclein. Neuron, 85, 76–87.\r\n96. Gerashchenko,M.V. and Gladyshev,V.N. (2014) Translation\r\ninhibitors cause abnormalities in ribosome profiling experiments.\r\nNucleic Acids Res., 42, e134.\r\n97. Guydosh,N.R. and Green,R. (2014) Dom34 rescues ribosomes in 3\u0003\r\nuntranslated regions. Cell, 156, 950–962.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "98. Jungfleisch,J., Nedialkova,D.D., Dotu,I., Sloan,K.E.,\r\nMartinez-Bosch,N., Bruning,L., Raineri,E., Navarro,P.,\r\nBohnsack,M.T., Leidel,S.A. et al. (2017) A novel translational\r\ncontrol mechanism involving RNA structures within coding\r\nsequences. Genome Res., 27, 95–106.\r\n99. Lareau,L.F., Hite,D.H., Hogan,G.J. and Brown,P.O. (2014) Distinct\r\nstages of the translation elongation cycle revealed by sequencing\r\nribosome-protected mRNA fragments. Elife, 3, e01257.\r\n100. Nissley,D.A., Sharma,A.K., Ahmed,N., Friedrich,U.A., Kramer,G.,\r\nBukau,B. and O’Brien,E.P. (2016) Accurate prediction of cellular\r\nco-translational folding indicates proteins can switch from post- to\r\nco-translational folding. Nat. Commun., 7, 10341.\r\n101. Pop,C., Rouskin,S., Ingolia,N.T., Han,L., Phizicky,E.M.,\r\nWeissman,J.S. and Koller,D. (2014) Causal signals between codon\r\nbias, mRNA structure, and the efficiency of translation and\r\nelongation. Mol. Syst. Biol., 10, 770.\r\n102. Schmidt,C., Kowalinski,E., Shanmuganathan,V., Defenouillere,Q.,\r\nBraunger,K., Heuer,A., Pech,M., Namane,A., Berninghausen,O.,\r\nFromont-Racine,M. et al. (2016) The cryo-EM structure of a\r\nribosome-Ski2-Ski3-Ski8 helicase complex. Science, 354, 1431–1433.\r\n103. Sen,N.D., Zhou,F., Harris,M.S., Ingolia,N.T. and Hinnebusch,A.G.\r\n(2016) eIF4B stimulates translation of long mRNAs with structured\r\n5\u0003 UTRs and low closed-loop potential but weak dependence on\r\neIF4G. Proc. Natl. Acad. Sci. U.S.A., 113, 10464–10472.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "104. Sen,N.D., Zhou,F., Ingolia,N.T. and Hinnebusch,A.G. (2015)\r\nGenome-wide analysis of translational efficiency reveals distinct but\r\noverlapping functions of yeast DEAD-box RNA helicases Ded1 and\r\neIF4A. Genome Res., 25, 1196–1205.\r\n105. Thiaville,P.C., Legendre,R., Rojas-Benitez,D., Baudin-Baillieu,A.,\r\nHatin,I., Chalancon,G., Glavic,A., Namy,O. and de\r\nCrecy-Lagard,V. (2016) Global translational impacts of the loss of\r\nthe tRNA modification t6A in yeast. Microb. Cell, 3, 29–45.\r\n106. Yerlikaya,S., Meusburger,M., Kumari,R., Huber,A., Anrather,D.,\r\nCostanzo,M., Boone,C., Ammerer,G., Baranov,P.V. and Loewith,R.\r\n(2016) TORC1 and TORC2 work together to regulate ribosomal\r\nprotein S6 phosphorylation in Saccharomyces cerevisiae. Mol. Biol.\r\nCell, 27, 397–409.\r\n107. Young,D.J., Guydosh,N.R., Zhang,F., Hinnebusch,A.G. and\r\nGreen,R. (2015) Rli1/ABCE1 recycles terminating ribosomes and\r\ncontrols translation reinitiation in 3\u0003\r\nUTRs in vivo. Cell, 162,\r\n872–884.\r\n108. Zid,B.M. and O’Shea,E.K. (2014) Promoter sequences direct\r\ncytoplasmic localization and translation of mRNAs during\r\nstarvation in yeast. Nature, 514, 117–121.\r\n109. Zinshteyn,B. and Gilbert,W.V. (2013) Loss of a conserved tRNA\r\nanticodon modification perturbs cellular signaling. PLoS Genet., 9,\r\ne1003675.\r\n110. Duncan,C.D. and Mata,J. (2014) The translational landscape of\r\nfission-yeast meiosis and sporulation. Nat. Struct. Mol. Biol., 21,\r\n641–647.\r\n111. Yu,C.H., Dang,Y., Zhou,Z., Wu,C., Zhao,F., Sachs,M.S. and Liu,Y.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "(2015) Codon usage influences the local rate of translation\r\nelongation to regulate co-translational protein folding. Mol. Cell,\r\n59, 744–754.\r\n112. Hsu,P.Y., Calviello,L., Wu,H.L., Li,F.W., Rothfels,C.J., Ohler,U.\r\nand Benfey,P.N. (2016) Super-resolution ribosome profiling reveals\r\nunannotated translation events in Arabidopsis. Proc. Natl. Acad.\r\nSci. U.S.A., 113, E7126–E7135.\r\n113. Liu,M.J., Wu,S.H., Wu,J.F., Lin,W.D., Wu,Y.C., Tsai,T.Y., Tsai,H.L.\r\nand Wu,S.H. (2013) Translational landscape of photomorphogenic\r\nArabidopsis. Plant Cell, 25, 3699–3710.\r\n114. Lukoszek,R., Feist,P. and Ignatova,Z. (2016) Insights into the\r\nadaptive response of Arabidopsis thaliana to prolonged thermal\r\nstress by ribosomal profiling and RNA-Seq. BMC Plant Biol., 16,\r\n221.\r\n115. Lei,L., Shi,J., Chen,J., Zhang,M., Sun,S., Xie,S., Li,X., Zeng,B.,\r\nPeng,L., Hauck,A. et al. (2015) Ribosome profiling reveals dynamic\r\ntranslational landscape in maize seedlings under drought stress.\r\nPlant J., 84, 1206–1218.\r\n116. Bartholomaus,A., Fedyunin,I., Feist,P., Sin,C., Zhang,G.,\r\nValleriani,A. and Ignatova,Z. (2016) Bacteria differently regulate\r\nmRNA abundance to specifically respond to various stresses. Philos.\r\nTrans. A Math. Phys. Eng. Sci., 374, 20150069.\r\n117. Guo,M.S., Updegrove,T.B., Gogol,E.B., Shabalina,S.A., Gross,C.A.\r\nand Storz,G. (2014) MicL, a new sigmaE-dependent sRNA,\r\ncombats envelope stress by repressing synthesis of Lpp, the major\r\nouter membrane lipoprotein. Genes Dev., 28, 1620–1634.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "118. Haft,R.J., Keating,D.H., Schwaegler,T., Schwalbach,M.S.,\r\nVinokur,J., Tremaine,M., Peters,J.M., Kotlajich,M.V.,\r\nPohlmann,E.L., Ong,I.M. et al. (2014) Correcting direct effects of\r\nethanol on translation and transcription machinery confers ethanol\r\ntolerance in bacteria. Proc. Natl. Acad. Sci. U.S.A., 111,\r\nE2576–E2585.\r\n119. Hwang,J.Y. and Buskirk,A.R. (2017) A ribosome profiling study of\r\nmRNA cleavage by the endonuclease RelE. Nucleic Acids Res., 45,\r\n327–336.\r\n120. Latif,H., Szubin,R., Tan,J., Brunk,E., Lechner,A., Zengler,K. and\r\nPalsson,B.O. (2015) A streamlined ribosome profiling protocol for\r\nthe characterization of microorganisms. Biotechniques, 58, 329–332.\r\n121. Li,G.W., Burkhardt,D., Gross,C. and Weissman,J.S. (2014)\r\nQuantifying absolute protein synthesis rates reveals principles\r\nunderlying allocation of cellular resources. Cell, 157, 624–635.\r\n122. Mohammad,F., Woolstenhulme,C.J., Green,R. and Buskirk,A.R.\r\n(2016) Clarifying the translational pausing landscape in bacteria by\r\nribosome profiling. Cell Rep., 14, 686–694.\r\n123. Subramaniam,A.R., Zid,B.M. and O’Shea,E.K. (2014) An\r\nintegrated approach reveals regulatory controls on bacterial\r\ntranslation elongation. Cell, 159, 1200–1211.\r\n124. Woolstenhulme,C.J., Guydosh,N.R., Green,R. and Buskirk,A.R.\r\n(2015) High-precision analysis of translational pausing by ribosome\r\nprofiling in bacteria lacking EFP. Cell Rep., 11, 13–21.\nD830 Nucleic Acids Research, 2018, Vol. 46, Database issue\r\n125. Kannan,K., Kanabar,P., Schryer,D., Florin,T., Oh,E., Bahroos,N.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Tenson,T., Weissman,J.S. and Mankin,A.S. (2014) The general mode\r\nof translation inhibition by macrolide antibiotics. Proc. Natl. Acad.\r\nSci. U.S.A., 111, 15958–15963.\r\n126. Subramaniam,A.R., Deloughery,A., Bradshaw,N., Chen,Y.,\r\nO’Shea,E., Losick,R. and Chai,Y. (2013) A serine sensor for\r\nmulticellularity in a bacterium. Elife, 2, e01501.\r\n127. Schrader,J.M., Zhou,B., Li,G.W., Lasker,K., Childers,W.S.,\r\nWilliams,B., Long,T., Crosson,S., McAdams,H.H., Weissman,J.S.\r\net al. (2014) The coding and noncoding architecture of the\r\nCaulobacter crescentus genome. PLoS Genet., 10, e1004463.\r\n128. Jeong,Y., Kim,J.N., Kim,M.W., Bucca,G., Cho,S., Yoon,Y.J.,\r\nKim,B.G., Roe,J.H., Kim,S.C., Smith,C.P. et al. (2016) The dynamic\r\ntranscriptional and translational landscape of the model antibiotic\r\nproducer Streptomyces coelicolor A3(2). Nat. Commun., 7, 11605.\r\n129. Basu,A. and Yap,M.N. (2016) Ribosome hibernation factor\r\npromotes Staphylococcal survival and differentially represses\r\ntranslation. Nucleic Acids Res., 44, 4881–4893.\r\n130. Davis,A.R., Gohara,D.W. and Yap,M.N. (2014) Sequence selectivity\r\nof macrolide-induced translational attenuation. Proc. Natl. Acad.\r\nSci. U.S.A., 111, 15379–15384.\r\n131. Michel,A.M., Ahern,A.M., Donohue,C.A. and Baranov,P.V. (2015)\r\nGWIPS-viz as a tool for exploring ribosome profiling evidence\r\nsupporting the synthesis of alternative proteoforms. Proteomics, 15,\r\n2410–2416.\r\n132. Baranov,P.V. and Loughran,G. (2016) Catch me if you can: trapping\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "scanning ribosomes in their footsteps. Nat. Struct. Mol. Biol., 23,\r\n703–704.\r\n133. Pelechano,V., Wei,W. and Steinmetz,L.M. (2013) Extensive\r\ntranscriptional heterogeneity revealed by isoform profiling. Nature,\r\n497, 127–131.\r\n134. Cherry,J.M., Hong,E.L., Amundsen,C., Balakrishnan,R.,\r\nBinkley,G., Chan,E.T., Christie,K.R., Costanzo,M.C., Dwight,S.S.,\r\nEngel,S.R. et al. (2012) Saccharomyces Genome Database: the\r\ngenomics resource of budding yeast. Nucleic Acids Res., 40,\r\nD700–D705.\r\n135. Aken,B.L., Ayling,S., Barrell,D., Clarke,L., Curwen,V., Fairley,S.,\r\nFernandez Banet,J., Billis,K., Garcia Giron,C., Hourlier,T. et al.\r\n(2016) The Ensembl gene annotation system. Database (Oxford),\r\n2016, baw093.\r\n136. FANTOM Consortium and the RIKEN PMI and CLST (DGT),\r\nForrest,A.R., Kawaji,H., Rehli,M., Baillie,J.K., de Hoon,M.J.,\r\nHaberle,V., Lassmann,T. et al. (2014) A promoter-level mammalian\r\nexpression atlas. Nature, 507, 462–470.\r\n137. Karolchik,D., Barber,G.P., Casper,J., Clawson,H., Cline,M.S.,\r\nDiekhans,M., Dreszer,T.R., Fujita,P.A., Guruvadoo,L.,\r\nHaeussler,M. et al. (2014) The UCSC Genome Browser database:\r\n2014 update. Nucleic Acids Res., 42, D764–D770.\r\n138. Fujita,P.A., Rhead,B., Zweig,A.S., Hinrichs,A.S., Karolchik,D.,\r\nCline,M.S., Goldman,M., Barber,G.P., Clawson,H., Coelho,A. et al.\r\n(2011) The UCSC Genome Browser database: update 2011. Nucleic\r\nAcids Res., 39, D876–D882.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "139. Michel,A.M., Mullan,J.P., Velayudhan,V., O’Connor,P.B.,\r\nDonohue,C.A. and Baranov,P.V. (2016) RiboGalaxy: A browser\r\nbased platform for the alignment, analysis and visualization of\r\nribosome profiling data. RNA Biol., 13, 316–319.\r\n140. Afgan,E., Baker,D., van den Beek,M., Blankenberg,D., Bouvier,D.,\r\nCech,M., Chilton,J., Clements,D., Coraor,N., Eberhard,C. et al.\r\n(2016) The Galaxy platform for accessible, reproducible and\r\ncollaborative biomedical analyses: 2016 update. Nucleic Acids Res.,\r\n44, W3–W10.\r\n141. Oh,E., Becker,A.H., Sandikci,A., Huber,D., Chaba,R., Gloge,F.,\r\nNichols,R.J., Typas,A., Gross,C.A., Kramer,G. et al. (2011)\r\nSelective ribosome profiling reveals the cotranslational chaperone\r\naction of trigger factor in vivo. Cell, 147, 1295–1308.\r\n142. Martens,A.T., Taylor,J. and Hilser,V.J. (2015) Ribosome A and P\r\nsites revealed by length analysis of ribosome profiling data. Nucleic\r\nAcids Res., 43, 3680–3687.\r\n143. O’Connor,P.B., Li,G.W., Weissman,J.S., Atkins,J.F. and\r\nBaranov,P.V. (2013) rRNA:mRNA pairing alters the length and the\r\nsymmetry of mRNA-protected fragments in ribosome profiling\r\nexperiments. Bioinformatics, 29, 1488–1491.\r\n144. Rosenbloom,K.R., Armstrong,J., Barber,G.P., Casper,J.,\r\nClawson,H., Diekhans,M., Dreszer,T.R., Fujita,P.A.,\r\nGuruvadoo,L., Haeussler,M. et al. (2015) The UCSC Genome\r\nBrowser database: 2015 update. Nucleic Acids Res., 43, D670–D681.\r\n145. O’Connor,P.B., Andreev,D.E. and Baranov,P.V. (2016) Comparative\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5018385762966304393,
+        "filename": "gkx790.PMC5753223.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 328,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "survey of the relative impact of mRNA features on local ribosome\r\nprofiling read density. Nat. Commun., 7, 12915.\r\n146. Kim,M.S., Pinto,S.M., Getnet,D., Nirujogi,R.S., Manda,S.S.,\r\nChaerkady,R., Madugundu,A.K., Kelkar,D.S., Isserlin,R., Jain,S.\r\net al. (2014) A draft map of the human proteome. Nature, 509,\r\n575–581.\r\n147. Vanderperre,B., Lucier,J.F., Bissonnette,C., Motard,J., Tremblay,G.,\r\nVanderperre,S., Wisztorski,M., Salzet,M., Boisvert,F.M. and\r\nRoucou,X. (2013) Direct detection of alternative open reading\r\nframes translation products in human significantly expands the\r\nproteome. PLoS One, 8, e70698.\r\n148. Pollard,K.S., Hubisz,M.J., Rosenbloom,K.R. and Siepel,A. (2010)\r\nDetection of nonneutral substitution rates on mammalian\r\nphylogenies. Genome Res., 20, 110–121.\r\n149. Michel,A.M., Choudhury,K.R., Firth,A.E., Ingolia,N.T.,\r\nAtkins,J.F. and Baranov,P.V. (2012) Observation of dually decoded\r\nregions of the human genome using ribosome profiling data.\r\nGenome Res., 22, 2219–2229.\n\n"
+  }
+]

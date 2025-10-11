@@ -1,0 +1,602 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Repeat sequences limit the effectiveness of lateral gene\r\ntransfer and favored the evolution of meiotic sex in\r\nearly eukaryotes\r\nMarco Colnaghia,b , Nick Lanea,b , and Andrew Pomiankowskia,b,1\r\nEdited by Harmit Malik, Fred Hutchinson Cancer Research Center, Seattle, WA; received March 22, 2022; accepted July 28, 2022\r\nThe transition from prokaryotic lateral gene transfer to eukaryotic meiotic sex is poorly\r\nunderstood. Phylogenetic evidence suggests that it was tightly linked to eukaryogenesis,\r\nwhich involved an unprecedented rise in both genome size and the density of genetic\r\nrepeats. Expansion of genome size raised the severity of Muller’s ratchet, while limiting\r\nthe effectiveness of lateral gene transfer (LGT) at purging deleterious mutations. In\r\nprinciple, an increase in recombination length combined with higher rates of LGT\r\ncould solve this problem. Here, we show using a computational model that this solution\r\nfails in the presence of genetic repeats prevalent in early eukaryotes. The model demon\u0002strates that dispersed repeat sequences allow ectopic recombination, which leads to the\r\nloss of genetic information and curtails the capacity of LGT to prevent mutation accu\u0002mulation. Increasing recombination length in the presence of repeat sequences exacer\u0002bates the problem. Mutational decay can only be resisted with homology along\r\nextended sequences of DNA. We conclude that the transition to homologous pairing\r\nalong linear chromosomes was a key innovation in meiotic sex, which was instrumental\r\nin the expansion of eukaryotic genomes and morphological complexity.\r\neukaryogenesis j lateral gene transfer j Muller’s ratchet j sexual reproduction j mutation accumulation\r\nThe genes for meiosis are universal among eukaryotes, indicating that sex evolved before\r\nthe divergence of the first eukaryotic clades (1, 2). It evolved from the molecular machin\u0002ery for lateral gene transfer (LGT), which facilitates genetic exchange in archaea and bac\u0002teria (1, 3, 4). Prokaryotes possess homologs of the canonical molecular machinery for\r\nmeiotic sex, including proteins of the SMC gene family of adenosine triphosphatases\r\nnecessary for chromosome cohesion and condensation (5), as well as actin and tubulin,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "required for daughter cell separation and the movement of chromosomes (6). The\r\nRad51/Dcm1 gene family, which plays a central role in meiosis, also has high protein\r\nsequence similarity with RecA, responsible for homologous search and recombination\r\nin prokaryotes (7, 8). But why eukaryotes requisitioned this existing molecular machin\u0002ery to evolve a completely new mechanism of reproduction, inheritance, and genetic\r\nexchange—meiotic sex—remains obscure.\r\nTransformation is one of the major routes of genetic exchange via LGT in bacteria and\r\ninvolves the acquisition of environmental DNA (eDNA), followed by recombination into\r\nthe host genome (8, 9). By allowing genetic exchange between lineages, transformation\r\ncan restore genes that have been disrupted through mutation or deletion (10–12), counter\r\nthe effects of genetic drift and reverse Muller’s ratchet (11, 13), and accelerate adaptation\r\nby reducing selective interference (14, 15). Previous modeling work has shown that the\r\nexpansion of early eukaryote genome size was likely to have caused the failure of LGT\r\n(13). While LGT via transformation helps to purge deleterious mutations (11), this bene\u0002fit rapidly wanes as genome size increases because of the difficulty of matching individual\r\nmutations with eDNA (13). LGT can resist mutation accumulation in larger genomes by\r\ncombining more frequent recombination with increased recombination length, the mean\r\nlength of DNA picked up from the environment and recombined into the host cell\r\ngenome (13). But the distribution of recombination length in bacteria is skewed toward\r\nshort eDNA sequences, with a median length that encompasses at most just a few genes\r\n(16–18). In addition, bacteria typically cleave eDNA, shortening recombination length.\r\nWhile there are constraints on the rate of uptake and recombination through limited\r\neDNA availability and sequence homology (12, 18), prokaryotes plainly did not follow\r\nthe eukaryotic trajectory toward recombination across whole chromosomes.\r\nAfter the endosymbiotic event that gave rise to the first eukaryotes, the archaeal host’s\r\ngenome greatly expanded with genes of bacterial endosymbiotic origin and through gene\r\nduplication and divergence, which enabled a range of novel functions (19, 20). This is\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "estimated to have doubled gene number in the last eukaryotic common ancestor (LECA)\r\nSignificance\r\nThe origin of meiotic sex is a long\u0002standing evolutionary enigma.\r\nThis novel mechanism of\r\nreproduction replaced lateral gene\r\ntransfer (LGT), the uptake and\r\nrecombination of pieces of\r\nenvironmental DNA seen in\r\nbacteria and archaea. We link its\r\norigin to the expanded genome\r\nsize and proliferation of genetic\r\nrepeats found in early eukaryotes.\r\nBoth factors led to high levels of\r\nmutation accumulation and gene\r\nloss under LGT, which could not\r\nbe retarded through increases in\r\nthe rate of LGT or the length of\r\nDNA recombined. Meiotic sex with\r\nhomologous pairing of long\u0002chromosome-sized pieces of DNA\r\npromoted purifying selection and\r\nsuppressed ectopic\r\nrecombination. It permitted the\r\nevolution of the expanded\r\ngenome needed for the evolution\r\nof complex eukaryotic life.\r\nAuthor affiliations: aCentre for Computation, Mathematics\r\nand Physics in the Life Sciences and Experimental Biology,\r\nUniversity College London, London WC1E 6BT, United\r\nKingdom; and b\r\nDepartment of Genetics, Evolution and\r\nEnvironment, University College London, London WC1E\r\n6BT, United Kingdom\r\nAuthor contributions: M.C., N.L., and A.P. designed\r\nresearch; M.C. performed research; M.C., N.L., and A.P.\r\nanalyzed data; and M.C., N.L., and A.P. wrote the\r\npaper.\r\nThe authors declare no competing interest.\r\nThis article is a PNAS Direct Submission.\r\nCopyright © 2022 the Author(s). Published by PNAS.\r\nThis article is distributed under Creative Commons\r\nAttribution-NonCommercial-NoDerivatives License 4.0\r\n(CC BY-NC-ND).\r\n1\r\nTo whom correspondence may be addressed. Email:\r\nucbhpom@ucl.ac.uk.\r\nThis article contains supporting information online at\r\nhttp://www.pnas.org/lookup/suppl/doi:10.1073/pnas.\r\n2205041119/-/DCSupplemental.\r\nPublished August 22, 2022.\r\nPNAS 2022 Vol. 119 No. 35 e2205041119 https://doi.org/10.1073/pnas.2205041119 1 of 7\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "RESEARCH ARTICLE | EVOLUTION\n(21, 22). The extra energetic availability provided by the proto\u0002mitochondrial endosymbiont released bioenergetic constraints\r\nover prokaryotic cell and genome size (23, 24). But this came\r\nwith the cost of maintaining a larger genome (19, 21, 24, 25).\r\nEarly eukaryote genome size expansion also reflected an increase\r\nin the density of repeat sequences, arising from gene duplication\r\nand the spread of mobile genetic elements (25, 26). Mobile retro\u0002elements of endosymbiotic origin are thought to have spread\r\nwidely through the protoeukaryote host genome, leading to a pro\u0002liferation of self-splicing introns (27–29). These selfish elements\r\nare present in many bacterial species, almost always at low copy\r\nnumbers (<10 per genome) (30), but likely increased in a more\r\nuninhibited manner, perhaps exploiting the nonhomologous end\u0002joining mechanism of DNA repair found throughout eukaryotes\r\n(31). Novel intron density is thought to have reached a density\r\ncomparable to that seen in modern eukaryote species (29).\r\nThe need to restrict ectopic recombination caused by increased\r\nrepeat density might have played a pivotal role in determining the\r\nevolution of meiosis (32). However, the possible involvement of\r\nsuch repeat sequences has not been investigated in previous quanti\u0002tative models of LGT or the transition to meiotic sex (10, 11, 13).\r\nIn prokaryotes, high repeat density is associated with a high prob\u0002ability of ectopic recombination, increasing the rates of deletions,\r\ninsertions, and other genomic rearrangements (33, 34). Recombi\u0002nation errors caused by the presence of repeat sequences introduce\r\nan additional cost to LGT and potentially constrain the benefits\r\nof increased recombination length and LGT frequency. Here, we\r\ninvestigate whether the sharp increase in repeat density in early\r\neukaryotes could have forced them to abandon LGT in favor of\r\nmeiosis. To investigate this hypothesis, we develop a computa\u0002tional model of mutation and selection in a population undergo\u0002ing LGT via transformation in the presence of genetic repeats.\r\nThe model highlights a tradeoff between the benefits of LGT\r\n(greater genetic variance, enhancing purifying selection) and its\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "cost (loss of genetic information through ectopic recombination).\r\nThis leads to the view that the transition to meiotic sex was driven\r\nby the need for purifying selection in the expanding and repeat\u0002rich genomes of early eukaryotes, which could not be met by\r\nincreases in recombination length or LGT rate.\r\nMaterials and Methods\r\nWe use a Fisher-Wright process with nonoverlapping generations to model the\r\nevolution of a population of N haploid individuals with a circular genome com\u0002posed of g unique protein-coding genes (SI Appendix, Fig. S1 and Table 1 and SI\r\nAppendix, Methods). The genome is interspersed at random intervals with a\r\ngeneric repeat sequence, at an initial density ρ (i.e., with ρg repeats). Each\r\ngeneration consists of a replication stage using a multiplicative fitness function\r\nwithout epistasis, based on the number of functional wild-type alleles. Each indi\u0002vidual in the new population then has a probability λ of acquiring a fragment of\r\neDNA of length L. Recombination requires matching of the terminal loci of the\r\neDNA sequence and the host genome, either to a protein-coding gene or a repeat\r\nsequence. When there is multiple matching, one of the homologous sequences is\r\nrandomly selected, with weights inversely proportional to the difference in length\r\nbetween the eDNA and possible matching host genomic sequences. After LGT,\r\nindividuals accumulate a random number of deleterious mutations, drawn from a\r\nPoisson distribution with mean U = μg0 (where g0 is the number of wild-type\r\nprotein-coding genes), with μ being the per locus mutation rate. For specific\r\ndetails about the model implementation, we refer the reader to SI Appendix,\r\nMethods. A list of model parameters and variables is given in Table 1.\r\nThe evolutionary process is studied with a population initially free of mutants,\r\nover tmax = 5, 000 generations, with 100 independent iterations for a given set\r\nof parameter values. For each replicate, we evaluate the gene loss rate per gen\u0002eration from deletions (ΔMd/Δt) and mutations (ΔMm/Δt) as the average load\r\nof deletions and mutations, respectively, divided by the number of generations.\r\nThe total gene loss rate per generation ΔM/Δt is calculated as the sum of these\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "two components. The change in some key model variables (genome size, repeat\r\ncontent, total gene loss, mutation load, and duplication content) during the\r\ncourse of a standard simulation and the final distribution of the same variables at\r\nthe end of a simulation are shown in SI Appendix, Figs. S3 and S4, respectively.\r\nResults\r\nMuller’s Ratchet. The mean mutation load of the whole popu\u0002lation and the number of mutations in the least-loaded class\r\n(LLC) reflect the interplay between genetic drift and Muller’s\r\nratchet (Fig. 1). In a clonal population with no LGT (λ = 0),\r\nrandom fluctuations can cause the LLC to go extinct (a “click”\r\nof the ratchet), determining an ever-increasing mutation load\r\nbaseline (Fig. 1A). In the absence of LGT, the fittest class can\u0002not be restored and the increase in mutation load is irreversible.\r\nThe introduction of LGT (λ = 0:1) favors the elimination of\r\nmutations by increasing genetic variation and strengthening\r\npurifying selection, reducing the frequency at which the LLC is\r\nlost (Fig. 1B). In addition, LGT permits the reversal of Muller’s\r\nratchet and the reduction in mutation number in the LLC. But\r\nin the presence of a high repeat density (ρ = 0:1), the benefit of\r\nLGT comes at the price of deletions due to ectopic recombina\u0002tion, making LGT less obviously beneficial (Fig. 1C).\r\nLGT and Repeats. Repeat density strongly influences the benefit\r\nof LGT. If repeat density is low (ρ = 10\u00022), increasing LGT (λ)\r\nis advantageous and reduces the total gene loss rate (Fig. 2A).\r\nBut as repeat density rises (ρ ≈ 5 × 10\u00022), this benefit is eroded,\r\nand higher levels of LGT provide little or no benefit (Fig. 2A).\r\nAt high levels of repeats (ρ ≥ 10\u00021), LGT is always detrimental\r\nand elevates total gene loss (Fig. 2A). Splitting gene loss into its\r\ncomponents, it becomes evident that the likelihood of ectopic\r\nrecombination increases with higher density of repeats, leading\r\nto a sharp increase in gene loss through deletions (Fig. 2C). In\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "addition, high repeat density limits the effectiveness of LGT in\r\npurging deleterious mutations due to selective interference (Fig.\r\n2D). The net effect is that LGT ceases to have a beneficial effect\r\nbeyond a threshold repeat density (Fig. 2B).\r\nThe lower efficiency of LGT at removing deleterious muta\u0002tions arises because repeats make homologous recombination less\r\nlikely and ectopic recombination more likely. This can be seen by\r\nadding a requirement for full homology throughout the whole\r\neDNA (i.e., not only at the terminal loci; SI Appendix, Methods).\r\nThis eliminates ectopic recombination, and mutation accumula\u0002tion then closely follows the case without repeats, showing an\r\naccelerating decline with LGT rate (Fig. 3A). In contrast, with\r\nrecombination based on end homology alone, there is only a\r\nmonotonic decline in mutation accumulation as the rate of LGT\r\nincreases (Fig. 3A). This is because the presence of repeats,\r\nTable 1. Model parameters and variables\r\nμ Deleterious point mutation rate per locus\r\nU Genome-wide deleterious point mutation rate\r\nλ LGT rate\r\nL Recombination length\r\nN Population size\r\ntmax Length of simulations (generations)\r\nρ Initial repeat density\r\ng number of protein-coding genes\r\nΔMd/Δt Gene loss rate per generation due to deletions\r\nΔMm/Δt Gene loss rate per generation due to point mutation\r\nΔM/Δt Total gene loss rate (mutations plus deletions)\r\nSummary of the key parameters and variables used in the numerical simulations.\r\n2 of 7 https://doi.org/10.1073/pnas.2205041119 pnas.org\ntogether with the buildup of deletions, raises the probability that\r\none or both ends of the eDNA lack homology to any genomic\r\nsequence (i.e., if the matching sequence has been deleted from\r\nthe genome or if one end binds to a repeat sequence, but the\r\nother end either lacks a homologous sequence or is too far away\r\nfrom it to recombine). Either scenario increases the probability\r\nthat no recombination takes place (Fig. 3B). These effects com\u0002bine to reduce the rate of homologous recombination as repeat\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "density increases (Fig. 3B), constraining LGT’s ability to purge\r\ndeleterious mutations.\r\nFig. 1. Impact of LGT on Muller’s ratchet. (A) Mean mutation load (green) and least-loaded class (LLC) mutation load (black) of a repeat-free (ρ = 0), nonre\u0002combining population that does not undergo LGT (λ = 0), across tmax = 10, 000 generations. Random fluctuations in allele frequencies due to genetic drift\r\nlead to irreversible increases of the LLC mutation load (Muller’s ratchet). (B) In a repeat-free (ρ = 0) population undergoing LGT (λ = 0:1, L = 5), recombination\r\nvia LGT increases purifying selection, countering the ratchet. (C) In a population undergoing LGT (λ = 0:1, L = 5) in the presence of repeats (ρ = 0:1), LGT\r\nallows the ratchet to be reversed, reducing the LLC mutation load, but the presence of repeats leads to a high rate of deletion, resulting in a high mean dele\u0002tion load (yellow) and LLC deletion load (red). Other simulation parameters: g = 100, N = 2, 500, and μ = 3 × 10\u00025.\r\nFig. 2. Repeat sequences cause the failure of LGT. (A) The total gene loss rate ΔM=Δt (through both mutations and deletions) is shown for a range of initial\r\nrepeat densities (ρ) and LGT rates (λ). For comparison, the gray plane shows the total gene loss rate in a repeat-free population not undergoing LGT (null\r\nmodel). Each data point is the average of 100 independent simulations. (B) The total gene loss rate (ΔM=Δt) is due to (C) ectopic recombination leading to\r\ndeletions (ΔMd=Δt) and (D) recurrent deleterious mutations (ΔMm=Δt), both of which increase with initial repeat density (ρ). Simulations in (B–D) were carried\r\nout with a high rate of LGT (λ = 0:1). The dotted line represents the null model of mutation accumulation in a nonrecombining, repeat-free population. Error\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "bars indicate the SD over 100 independent simulations. Other simulation parameters: g = 100, N = 2, 500, μ = 3 × 10\u00025, tmax = 5, 000, and L = 10.\r\nPNAS 2022 Vol. 119 No. 35 e2205041119 https://doi.org/10.1073/pnas.2205041119 3 of 7\nChanges in Genome Size. The limitations of LGT are greater\r\nin large genomes (13). This is partly because the probability\r\nthat eDNA matches a particular mutated sequence (reducing\r\nthe mutation load) decreases with genome size. This effect can\r\nbe overcome through increases in L, the size of eDNA selected\r\nfor recombination (13). But that previous analysis neglected the\r\neffect of repeat sequences. If repeat density is low (ρ = 0:01),\r\nincreases in L are favorable and help populations with large\r\ngenome size resist the ratchet (compare L = 2 and L = 10; Fig.\r\n4A). However, with higher repeat density (ρ = 0:3), larger L is\r\ndeleterious. It increases the total rate of gene loss and does noth\u0002ing to stop the ratchet in large genomes (Fig. 4B). This transition\r\narises for two reasons. In genomes with few repeats, deletions\r\nthrough ectopic recombination are negligible and increasing L has\r\nonly a very minor effect on their occurrence as genome size\r\nincreases (SI Appendix, Fig. S2A). As almost all recombination\r\nevents are homologous, increasing L is beneficial and facilitates the\r\nremoval of deleterious mutations (SI Appendix, Fig. S2B). In con\u0002trast, when genomes are repeat rich (ρ = 0:3), the benefits of LGT\r\nare offset by an elevated rate of deletion (SI Appendix, Fig. S2C).\r\nThis compromises the efficiency of eDNA repair of mutations,\r\nwhich becomes almost independent of L (SI Appendix, Fig. S2D).\r\nUnlike repeat-free populations (13), increasing eDNA length\r\nproportionally to genome size provides little or no benefit in the\r\npresence of repeats. A large genome (g = 1, 000) cannot be sus\u0002tained by LGT above a critical repeat density, as this engenders a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 416,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "rate of total gene loss comparable to that of a nonrecombining\r\npopulation (Fig. 5A, red triangles). The way out of this dilemma\r\nis to require sequence homology throughout the eDNA. This\r\nensures that recombination is homologous and allows a reduction\r\nof the mutation load with large L without incurring the associated\r\nincrease in gene deletions. As a consequence, recombination is\r\nable to lower the total gene loss rate in large (g = 1, 000) genomes\r\neven in the presence of a high density of repeated sequences\r\n(Fig. 5A, yellow circles). Recombination lengths proportional to\r\ngenome size (L = 0:1g), homologous recombination across the\r\nentire length of the eDNA, and a high LGT rate (λ = 1) are all\r\nneeded to prevent a sharp increase in total gene loss associated\r\nwith a large genome size (Fig. 5B, yellow circles).\r\nDiscussion\r\nAsexual organisms are often portrayed as destined to accumu\u0002late mutations via Muller’s ratchet, on an inevitable decline to\r\nextinction through mutational meltdown (35–37). This view\r\nemanates from a eukaryotic perspective seeking to explain the\r\nmaintenance of sexual reproduction in the face of the twofold\r\ncost of sex and other costs relating to meiosis, finding a mate,\r\nand cell fusion (38–40). Prokaryotes, both bacteria and archaea,\r\nlack meiotic sex and typically reproduce through asexual division,\r\nbut they nonetheless have a number of mechanisms for achieving\r\ngenetic recombination (12, 41–43). In particular, LGT through\r\ntransformation allows competent cells to pick up eDNA released\r\nfrom related lineages and to recombine it into their genome. In\r\nagreement with previous studies (10, 11, 13), our modeling\r\nshows that LGT generates genetic variation, strengthens purifying\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Fig. 3. Ectopic recombination. (A) The rate of mutation accumulation is shown for the null model without repeats (ρ = 0, black line), a genome with high ini\u0002tial repeat density (ρ = 0:1, purple circles), and a genome with the same repeat content but where ectopic recombination is suppressed due to a require\u0002ment for homology throughout the eDNA (ρ = 0:1, green triangles, no ectopic). (B) The frequency of homologous (blue circles), ectopic (red circles), and failed\r\nrecombination (yellow circles) as a function of initial repeat density. Rate and frequency were calculated over tmax = 5, 000 generations. Error bars indicate\r\nthe SD over 100 independent simulations. Other parameters: g = 100, N = 2, 500, L = 10, μ = 3 × 10\u00025 and, in (B), λ = 0:1.\r\nFig. 4. Genome size and recombination length. The rate of gene loss increases with genome size (g). (A) At low repeat density (ρ = 0:01), higher values of\r\nrecombination length (L) minimize the rise in gene loss rate as genome size increases. (B) This benefit is reversed at high initial repeat density (ρ = 0:3),\r\nwhere higher L increases the total gene loss rate. Error bars show the SD over 100 independent simulations. Note the null models (blue points) are identical\r\nin (A and B). Gene loss rate was calculated over tmax = 5, 000 generations. Other parameters: N = 2, 500, μ = 10\u00025 , and λ = 0:1.\r\n4 of 7 https://doi.org/10.1073/pnas.2205041119 pnas.org\nselection, and reduces the rate of mutation accumulation, per\u0002forming a similar function to meiotic sex in eukaryotes (39, 44,\r\n45). This leads to a simple question: why did the first eukaryotes\r\nabandon LGT and replace it with meiotic sex?\r\nOur analysis shows that the benefits of LGT are curtailed by\r\nthe presence of genetic repeats (Fig. 2A). Repeat sequences\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "enable ectopic recombination, causing gene loss through dele\u0002tions proportional to their density in the host genome (Fig.\r\n2C). Repeats also make LGT less effective at purging deleteri\u0002ous mutations (Fig. 2D) by reducing the rate of correct homol\u0002ogous recombination (Fig. 3). This is mainly due to selective\r\ninterference from the presence of deletions and mutations seg\u0002regating at the same time (46–48). A population in which\r\nectopic recombination has removed a portion of the genome\r\nwill have lower Ne and weaker selection for any deleterious\r\nmutations in that region. In addition, as the frequency of the\r\nwild-type allele is reduced, it will be less likely to be in the\r\neDNA, reducing the potential benefits of LGT. Moreover,\r\nrepeats also make homologous recombination less likely, reduc\u0002ing the potency of LGT. Ectopic recombination events might\r\nrestore deleted genes, but this effect is second order and out\u0002weighed by the detrimental effects of repeat sequences. Repeats\r\ncause a higher deletion rate, weaker selection, and lower homol\u0002ogous recombination rate, which amplify the loss of genetic\r\ninformation as their density increases (Figs. 2 and 3).\r\nThe acquisition of new genes through endosymbiotic gene\r\ntransfer (including mobile self-splicing introns), plus duplica\u0002tion and divergence, led to massive genome expansion in the\r\nevolution of early eukaryotes (21, 25, 26). This made the first\r\neukaryotes more vulnerable to the accumulation of mutations\r\ncaused by Muller’s ratchet. As genome size rises (g), the homol\u0002ogous recombination rate per locus declines (assuming the\r\nprobability of LGT remains constant) simply because the prob\u0002ability that an eDNA piece matches to a particular locus is\r\ninversely proportional to genome size (13). A solution to this is\r\nto increase the recombination length (L) (Fig. 4A). Other\r\nthings being equal, picking up larger pieces of eDNA (larger L)\r\nincreases the recombination rate per locus and thereby facili\u0002tates the elimination of deleterious mutations (13). But other\r\nthings may not be equal, as environmental fragmentation and\r\ndeterioration (as well as physical constraints on import) are\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "likely to limit the length of eDNA that can be retrieved from\r\nthe environment (49, 50). Of greater importance in our analy\u0002sis, this potential solution is compromised by the presence of\r\ngenetic repeats. If repeats are common, larger recombination\r\nlength (L) is associated with higher, rather than lower, loss of\r\ngenetic information (Fig. 4B). A higher recombination length\r\nelevates the rate of ectopic recombination between dispersed\r\nrepeated sequences, resulting in a greater rate of gene deletions.\r\nSimilar disadvantages have been reported in extant prokaryotes,\r\nwhere higher repeat density is associated with greater genomic\r\ninstability, increasing deletions, inversions, and other genomic\r\nrearrangements (33, 34). All of these issues are amplified as\r\ngenome size increases, and beyond a threshold in repeat den\u0002sity, LGT brings no benefit to a large genome, even if the\r\nrecombination length scales with genome size (Fig. 5A).\r\nThese considerations suggest that, in order to support an\r\nexpanded genome rich in repeat sequences, the first eukaryotes\r\nhad to abandon LGT for syngamy and homologous recombina\u0002tion. The fusion of cells (syngamy) and pooling of their\r\ngenomes is a simple way to achieve larger L without potential\r\nfragmentation and deterioration of DNA through environmen\u0002tal release. In agreement with this, some of the largest LGT\r\nevents in prokaryotes are observed in archaea that exchange\r\ngenetic material after cell fusion. For example, archaea from the\r\nHaloferax genus are known to undergo reciprocal exchange\r\nof genetic material with L = 200,000–500,000 bp after cell\r\nfusion, against L = 2,000–6,000 bp transfer events typically\r\nobserved in competent bacteria (18, 51, 52). In addition, there\r\nwas a requirement for these large pieces of DNA to undergo\r\nhomologous pairing in order to retain the benefits of recombi\u0002nation without losing genetic information through ectopic end\r\npairing in the presence of repeats. We simulated this in our\r\nLGT model by adding a requirement for homology throughout\r\nthe eDNA as well as homology at the ends. Homology match\u0002ing eliminates gene deletion through ectopic recombination\r\nand allows mutation accumulation to be resisted even as repeat\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "density increases (Fig. 5A). Considerable expansion of genome\r\nsize is now permissible without catastrophic loss of genetic\r\ninformation through Muller’s ratchet, provided that recombi\u0002nation length (L) scales with genome size (Fig. 5B). This is\r\nequivalent to homologous recombination across aligned chro\u0002mosomes as seen in meiosis, though this neglects reciprocal\r\nexchange in meiosis rather than replacement in LGT.\r\nFor simplicity, our model considers only one type of repeat\r\nsequence. In reality, there will have been numerous repeats at\r\ndifferent densities. Frequent gene duplications in early eukar\u0002yotes contributed to the increase in repeat density, and it is\r\nFig. 5. Advantage of homologous recombination. (A) Total gene loss rate as a function of initial repeat density (ρ). The blue squares correspond to the null\r\nmodel of a nonrecombining population, where the total gene loss rate is independent from repeat density. This is compared with LGT of long eDNA sequen\u0002ces (L = 0:1g, red triangles) and recombination with full-sequence homology throughout the eDNA (yellow circles) with the same recombination length.\r\n(B) The impact of recombination length (L) on total gene loss as a function of genome size (g) in a repeat-rich genome (initial repeat density ρ = 0:3) under\r\nthe requirement for full-sequence homology throughout the eDNA. To limit gene loss in large genomes, recombination length must increase proportionally\r\nto genome size (L = 0:1g, yellow circles). Error bars show the SD over 100 independent simulations. Gene loss rate was calculated over tmax = 5, 000 generations.\r\nOther parameters: N = 2, 500 and μ = 10\u00025; in (A) λ = 0:1, g = 1, 000 and (B) λ = 1.\r\nPNAS 2022 Vol. 119 No. 35 e2205041119 https://doi.org/10.1073/pnas.2205041119 5 of 7\nestimated that the average copy number per gene in LECA was\r\naround 1.8 (25). Another source of repeat sequence in prokary\u0002otic genomes is transposable elements (TEs) and other selfish\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "genetic elements. TEs can promote their own spread and reduce\r\nhost fitness in other ways, through gene function disruption or\r\ngene inactivation (53, 54), and are thought to play a major role\r\nin the streamlining of prokaryotic genomes (55). The density of\r\nmobile intron-derived sequences in ancestral eukaryotic genomes\r\nis estimated to be high (accounting for up to 80% of genome\r\nsize), making the choice of ρ = 0:1 in most of our simulations a\r\nconservative one (56). As the focus of this study is on recombi\u0002nation and genetic information loss, we did not explicitly model\r\nthe population dynamics of repeats but evaluated the effect of\r\nvariation in their initial density. Future studies should consider a\r\ndiversity of repeats and include fitness penalties at the individual\r\nlevel associated with their movement and density, as well as the\r\nexpansion of selfish genetic elements through replication within\r\ngenomes. In itself, this raises interesting questions about the dis\u0002tribution of repeats in extant prokaryotes—for instance, why the\r\ndistribution of recombination length in prokaryotes is skewed\r\ntoward shorter sequences (18), why gram-positive bacteria cleave\r\neDNA sequences before recombination (57), and why the num\u0002ber of TEs and other mobile elements in prokaryote genomes is\r\nso tightly constrained (30, 58).\r\nA further possibility not covered by our modeling is the pres\u0002ence of beneficial ectopic recombination events, in particular,\r\nthose that contribute to the acquisition of novel genes. LGT\r\nvia plasmids is the main source of acquisition of accessory genes\r\nfrom distant lineages (59–61) and has been shown to provide\r\nadaptive benefits (62). In contrast, transformation is mainly\r\nlimited to sequences from closely related lineages, requiring a\r\nhigh degree of sequence homology, and so less likely to import\r\nforeign genes across large taxonomic distances (63–66). As\r\nsuch, the main advantage of transformation is believed to be\r\nmaintaining local adaptation rather than import of novel func\u0002tions (9). In our model, gene loading can occur via the acquisi\u0002tion of genes lost through deletion. However, in the presence\r\nof a high repeat density, this effect is negligible compared with\r\nthe loss of genes via deletions. It seems unlikely that repeats are\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "retained in order to enhance gene turnover from the pan\u0002genome, but a proper analysis of this question would require a\r\ndifferent modeling approach (67, 68).\r\nWilkins and Holliday (32) suggested that meiosis could arise\r\nfrom mitosis in a single evolutionary step, the evolution of\r\nhomologous pairing during prophase. They also suggested that\r\nthe main function of meiosis is to limit the rate of ectopic\r\nrecombination caused by the spread of repeated sequences in\r\nancestral eukaryotic genomes (32). Our analysis here supports\r\ntheir idea that homologous pairing could have arisen because of\r\nthe need to evade the deleterious effect of pervasive genomic\r\nrepeats. But Wilkins and Holliday did not explicitly address the\r\nimpact of genome size expansion on mutation accumulation.\r\nWe demonstrate that this is a crucial factor in escalating the\r\nseverity of Muller’s ratchet and determining the failure of\r\nLGT. Our results complement their hypothesis by showing\r\nthat, in addition to restricting ectopic recombination, meiotic\r\nsex is also necessary to increase the total rate of recombination\r\nper base pair in expanding early eukaryotic genomes.\r\nWhile our analysis demonstrates the selective advantage of\r\nmeiotic sex, we do not explicitly address the multifaceted ques\u0002tion of its evolution. The picture emerging from phylogenetic\r\nstudies is that ancestral eukaryotes underwent a massive genome\r\nsize expansion, but the precise timing of the events leading to\r\neukaryogenesis is still a matter of debate (25, 26, 69). Did mei\u0002otic sex evolve after the acquisition of mitochondrial symbionts\r\nallowed eukaryotic genome size expansion (23, 24) or were the\r\nfirst eukaryotes able to expand their genomes because they\r\ncould already undergo syngamy (cell fusion) and reciprocal\r\nexchange of genetic material, as observed in some extant\r\narchaea (51, 52, 70)? These archaea do not have unusually large\r\ngenomes (∼4,000 genes), which suggests that mitochondrial\r\nacquisition was needed to drive the expansion in eukaryotic\r\ngenome sizes, but wider sampling of archaeal genomes will throw\r\nmore light on this question. When did premeiotic doubling and\r\na two-step meiosis evolve, and what selective forces imposed the\r\nhaploid-diploid system of reduction division (32, 71)? Why was\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "meiosis the solution for an expanded eukaryotic nuclear genome\r\n(72, 73), while the endosymbiotic bacterial genome shrank\r\nalmost to oblivion, lost capacity for LGT, and became a multi\u0002ploid, asexual, uniparentally transmitted mitochondrial genome\r\n(74–76)? All those steps were crucial for the survival and evolu\u0002tion of early eukaryotes. Without them, complex life as we know\r\nit could not have survived its inception. Nonetheless, our work\r\nhere shows why early eukaryotes had to take up whole\r\nchromosome-sized pieces of DNA and align them along their\r\nfull length, rather than simply end matching, clarifying the first\r\nnecessary step from LGT toward meiosis.\r\nData, Materials, and Software Availability. Simulation code has been\r\ndeposited in Github: https://github.com/MarcoColnaghi1990/LGT-repeat\u0002sequences (77).\r\nACKNOWLEDGMENTS. We are grateful to two anonymous reviewers for their\r\nhelpful comments and suggestions. This work was supported by funding from\r\nthe Engineering and Physical Sciences Research Council (EP/F500351/1 and EP/\r\nI017909/1) and Natural Environment Research Council (NE/R010579/1) to A.P.,\r\nthe Biotechnology and Biological Sciences Research Council (BB/S003681/1)\r\nand bgc3 to N.L., and a joint grant to A.P. and N.L. from the Biotechnology and\r\nBiological Sciences Research Council (BB/V003542/1).\r\n1. A. M. Schurko, J. M. Logsdon, Jr., Using a meiosis detection toolkit to investigate ancient asexual\r\n“scandals” and the evolution of sex. BioEssays 30, 579–589 (2008).\r\n2. D. Speijer, J. Luke\u0001s, M. Eli\u0003a\u0001s, Sex is a ubiquitous, ancient, and inherent attribute of eukaryotic life.\r\nProc. Natl. Acad. Sci. U.S.A. 112, 8827–8834 (2015).\r\n3. H. Bernstein, C. Bernstein, Evolutionary origin and adaptive function of meiosis. Meiosis 1, 56557\r\n(2013).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "4. G. Mirzaghaderi, E. H€orandl, The evolution of meiotic sex and its alternatives. Proc. Biol. Sci. 283,\r\n20161221 (2016).\r\n5. T. Hirano, SMC proteins and chromosome mechanics: From bacteria to humans. Philos. Trans. R.\r\nSoc. Lond. B Biol. Sci. 360, 507–514 (2005).\r\n6. H. P. Erickson, Evolution of the cytoskeleton. BioEssays 29, 668–677 (2007).\r\n7. Z. Lin, H. Kong, M. Nei, H. Ma, Origins and evolution of the recA/RAD51 gene family: Evidence for\r\nancient gene duplication and endosymbiotic gene transfer. Proc. Natl. Acad. Sci. U.S.A. 103,\r\n10328–10333 (2006).\r\n8. C. Johnston, B. Martin, G. Fichant, P. Polard, J.-P. Claverys, Bacterial transformation: Distribution,\r\nshared mechanisms and divergent control. Nat. Rev. Microbiol. 12, 181–196 (2014).\r\n9. O. H. Ambur, J. Engelst€adter, P. J. Johnsen, E. L. Miller, D. E. Rozen, Steady at the wheel:\r\nConservative sex and the benefits of bacterial transformation. Philos. Trans. R. Soc. Lond. B Biol. Sci.\r\n371, 20150528 (2016).\r\n10. B. R. Levin, O. E. Cornejo, The population and evolutionary dynamics of homologous gene\r\nrecombination in bacterial populations. PLoS Genet. 5, e1000601 (2009).\r\n11. N. Takeuchi, K. Kaneko, E. V. Koonin, Horizontal gene transfer can rescue prokaryotes from Muller’s\r\nratchet: Benefit of DNA from dead cells and population subdivision. G3 (Bethesda) 4, 325–339 (2014).\r\n12. M. Vos, M. C. Hesselman, T. A. Te Beek, M. W. J. van Passel, A. Eyre-Walker, Rates of lateral gene\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "transfer in prokaryotes: High but why? Trends Microbiol. 23, 598–605 (2015).\r\n13. M. Colnaghi, N. Lane, A. Pomiankowski, Genome expansion in early eukaryotes drove the\r\ntransition from lateral gene transfer to meiotic sex. eLife 9, e58873 (2020).\r\n14. D. A. Baltrus, K. Guillemin, P. C. Phillips, Natural transformation increases the rate of adaptation in\r\nthe human pathogen Helicobacter pylori. Evolution 62, 39–49 (2008).\r\n15. D. J. Engelmoer, I. Donaldson, D. E. Rozen, Conservative sex and the benefits of transformation in\r\nStreptococcus pneumoniae. PLoS Pathog. 9, e1003758 (2013).\r\n16. N. L. Hiller et al., Generation of genic diversity among Streptococcus pneumoniae strains via\r\nhorizontal gene transfer during a chronic polyclonal pediatric infection. PLoS Pathog. 6, e1001108\r\n(2010).\r\n17. J. P. Claverys, B. Martin, P. Polard, The genetic transformation machinery: Composition,\r\nlocalization, and mechanism. FEMS Microbiol. Rev. 33, 643–656 (2009).\r\n18. N. J. Croucher, S. R. Harris, L. Barquist, J. Parkhill, S. D. Bentley, A high-resolution view of genome\u0002wide pneumococcal transformation. PLoS Pathog. 8, e1002745 (2012).\r\n6 of 7 https://doi.org/10.1073/pnas.2205041119 pnas.org\n19. J. N. Timmis, M. A. Ayliffe, C. Y. Huang, W. Martin, Endosymbiotic gene transfer: Organelle\r\ngenomes forge eukaryotic chromosomes. Nat. Rev. Genet. 5, 123–135 (2004).\r\n20. W. F. Martin, S. Garg, V. Zimorski, Endosymbiotic theories for eukaryote origin. Philos. Trans.\r\nR. Soc. Lond. B Biol. Sci. 370, 20140330 (2015).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "21. E. V. Koonin et al., A comprehensive evolutionary classification of proteins encoded in complete\r\neukaryotic genomes. Genome Biol. 5, R7 (2004).\r\n22. K. S. Makarova, Y. I. Wolf, S. L. Mekhedov, B. G. Mirkin, E. V. Koonin, Ancestral paralogs and\r\npseudoparalogs and their role in the emergence of the eukaryotic cell. Nucleic Acids Res. 33,\r\n4626–4638 (2005).\r\n23. N. Lane, How energy flow shapes cell evolution. Curr. Biol. 30, R471–R476 (2020).\r\n24. N. Lane, W. Martin, The energetics of genome complexity. Nature 467, 929–934 (2010).\r\n25. J. Vosseberg et al., Timing the origin of eukaryotic cellular complexity with ancient duplications.\r\nNat. Ecol. Evol. 5, 92–100 (2021).\r\n26. F. D. Tria et al., Gene duplications trace mitochondria to the onset of eukaryote complexity.\r\nGenome. Biol. Evol. 13, evab055 (2021).\r\n27. E. V. Koonin, The origin of introns and their role in eukaryogenesis: A compromise solution to the\r\nintrons-early versus introns-late debate? Biol. Direct 1, 22 (2006).\r\n28. W. Martin, E. V. Koonin, Introns and the origin of nucleus-cytosol compartmentalization. Nature\r\n440, 41–45 (2006).\r\n29. I. B. Rogozin, L. Carmel, M. Csuros, E. V. Koonin, Origin and evolution of spliceosomal introns.\r\nBiol. Direct 7, 11 (2012).\r\n30. A. M. Lambowitz, M. Belfort, Mobile bacterial group II introns at the crux of eukaryotic evolution.\r\nMicrobiol. Spectrum. 3, MDNA3-0050-2014 (2015).\r\n31. G. Lee et al., Testing the retroelement invasion hypothesis for the emergence of the ancestral\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "eukaryotic cell. Proc. Natl. Acad. Sci. U.S.A. 115, 12465–12470 (2018).\r\n32. A. S. Wilkins, R. Holliday, The evolution of meiosis from mitosis. Genetics 181, 3–12 (2009).\r\n33. J. Vandecraen, M. Chandler, A. Aertsen, R. Van Houdt, The impact of insertion sequences on\r\nbacterial genome plasticity and adaptability. Crit. Rev. Microbiol. 43, 709–730 (2017).\r\n34. P. Siguier, E. Gourbeyre, M. Chandler, Bacterial insertion sequences: Their genomic impact and\r\ndiversity. FEMS Microbiol. Rev. 38, 865–891 (2014).\r\n35. H. J. Muller, The relation of recombination to mutational advance. Mutat. Res. 106, 2–9\r\n(1964).\r\n36. J. Haigh, The accumulation of deleterious genes in a population–Muller’s Ratchet. Theor. Popul.\r\nBiol. 14, 251–267 (1978).\r\n37. M. Lynch, R. B€urger, D. Butcher, W. Gabriel, The mutational meltdown in asexual populations.\r\nJ. Hered. 84, 339–344 (1993).\r\n38. S. P. Otto, T. Lenormand, Resolving the paradox of sex and recombination. Nat. Rev. Genet. 3,\r\n252–261 (2002).\r\n39. S. P. Otto, The evolutionary enigma of sex. Am. Nat. 174 (Suppl. 1), S1–S14 (2009).\r\n40. G. Bell, The Masterpiece of Nature: The Evolution and Genetics of Sexuality (Routledge, 1982).\r\n41. M. F. Polz, E. J. Alm, W. P. Hanage, Horizontal gene transfer and the evolution of bacterial and\r\narchaeal population structure. Trends Genet. 29, 170–175 (2013).\r\n42. J. P. Gogarten, J. P. Townsend, Horizontal gene transfer, genome innovation and evolution.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Nat. Rev. Microbiol. 3, 679–687 (2005).\r\n43. H. Ochman, J. G. Lawrence, E. A. Groisman, Lateral gene transfer and the nature of bacterial\r\ninnovation. Nature 405, 299–304 (2000).\r\n44. D. Roze, Disentangling the benefits of sex. PLoS Biol. 10, e1001321 (2012).\r\n45. J. Maynard Smith, The Evolution of Sex (Cambridge University Press, Cambridge, 1978), vol. 4.\r\n46. W. G. Hill, A. Robertson, The effect of linkage on limits to artificial selection. Genet. Res. 8,\r\n269–294 (1966).\r\n47. D. Roze, N. H. Barton, The Hill-Robertson effect and the evolution of recombination. Genetics 173,\r\n1793–1811 (2006).\r\n48. S. P. Otto, Selective interference and the evolution of sex. J. Hered. 112, 9–18 (2021).\r\n49. C. M. Thomas, K. M. Nielsen, Mechanisms of, and barriers to, horizontal gene transfer between\r\nbacteria. Nat. Rev. Microbiol. 3, 711–721 (2005).\r\n50. B. J. Arnold, I. T. Huang, W. P. Hanage, Horizontal gene transfer and adaptive evolution in\r\nbacteria. Nat. Rev. Microbiol. 20, 206–218 (2022).\r\n51. A. Naor, U. Gophna, Cell fusion and hybrids in Archaea: Prospects for genome shuffling and\r\naccelerated strain development for biotechnology. Bioengineered 4, 126–129 (2013).\r\n52. A. Naor, P. Lapierre, M. Mevarech, R. T. Papke, U. Gophna, Low species barriers in halophilic\r\narchaea and the formation of recombinant hybrids. Curr. Biol. 22, 1444–1448 (2012).\r\n53. M. Touchon, E. P. Rocha, Causes of insertion sequences abundance in prokaryotic genomes.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Mol. Biol. Evol. 24, 969–981 (2007).\r\n54. A. Wagner, Periodic extinctions of transposable elements in bacterial lineages: Evidence from\r\nintragenomic variation in multiple genomes. Mol. Biol. Evol. 23, 723–733 (2006).\r\n55. B. van Dijk, F. Bertels, L. Stolk, N. Takeuchi, P. B. Rainey, Transposable elements promote\r\nthe evolution of genome streamlining. Philos. Trans. R. Soc. Lond. B Biol. Sci. 377, 20200477\r\n(2022).\r\n56. E. V. Koonin, Intron-dominated genomes of early ancestors of eukaryotes. J. Hered. 100, 618–623\r\n(2009).\r\n57. J. C. Mell, J. Y. Lee, M. Firme, S. Sinha, R. J. Redfield, Extensive cotransformation of natural variation\r\ninto chromosomes of naturally competent Haemophilus influenzae. G3 (Bethesda) 4, 717–731 (2014).\r\n58. P. Puigb\u0004o, A. E. Lobkovsky, D. M. Kristensen, Y. I. Wolf, E. V. Koonin, Genomes in turmoil:\r\nQuantification of genome dynamics in prokaryote supergenomes. BMC Biol. 12, 66 (2014).\r\n59. A. Norman, L. H. Hansen, S. J. Sørensen, Conjugative plasmids: Vessels of the communal gene\r\npool. Philos. Trans. R. Soc. Lond. B Biol. Sci. 364, 2275–2289 (2009).\r\n60. H. Heuer, K. Smalla, Plasmids foster diversification and adaptation of bacterial populations in soil.\r\nFEMS Microbiol. Rev. 36, 1083–1104 (2012).\r\n61. E. Harrison, M. A. Brockhurst, Plasmid-mediated horizontal gene transfer is a coevolutionary\r\nprocess. Trends Microbiol. 20, 262–267 (2012).\r\n62. T. F. Cooper, Recombination speeds adaptation by reducing competition between beneficial\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "mutations in populations of Escherichia coli. PLoS Biol. 5, e225 (2007).\r\n63. J. C. Mell, I. M. Hall, R. J. Redfield, Defining the DNA uptake specificity of naturally competent\r\nHaemophilus influenzae cells. Nucleic Acids Res. 40, 8536–8549 (2012).\r\n64. J. de Vries, W. Wackernagel, Integration of foreign DNA during natural transformation of\r\nAcinetobacter sp. by homology-facilitated illegitimate recombination. Proc. Natl. Acad. Sci. U.S.A.\r\n99, 2094–2099 (2002).\r\n65. N. H€ulter, W. Wackernagel, Double illegitimate recombination events integrate DNA segments\r\nthrough two different mechanisms during natural transformation of Acinetobacter baylyi. Mol.\r\nMicrobiol. 67, 984–995 (2008).\r\n66. S. A. Frye, M. Nilsen, T. Tønjum, O. H. Ambur, Dialects of the DNA uptake sequence in\r\nNeisseriaceae. PLoS Genet. 9, e1003458 (2013).\r\n67. M. A. Brockhurst et al., The ecology and evolution of pangenomes. Curr. Biol. 29, R1094–R1103\r\n(2019).\r\n68. J. O. McInerney, A. McNally, M. J. O’Connell, Why prokaryotes have pangenomes. Nat. Microbiol.\r\n2, 17040 (2017).\r\n69. A. J. Roger, E. Susko, M. M. Leger, Evolution: Reconstructing the Timeline of Eukaryogenesis.\r\nCurr. Biol. 31, R193–R196 (2021).\r\n70. D. Moi et al., Discovery of archaeal Fusexins homologous to eukaryotic HAP2/GCS1 gamete fusion\r\nproteins. Nat. Genet. 13, 3880 (2022).\r\n71. M. Archetti, Loss of complementation and the logic of two-step meiosis. J. Evol. Biol. 17,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4648465363829992550,
+        "filename": "pnas.202205041.PMC9436333.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 358,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "1098–1105 (2004).\r\n72. A. S. Kondrashov, The asexual ploidy cycle and the origin of sex. Nature 370, 213–216 (1994).\r\n73. A. V. Markov, I. S. Kaznacheev, Evolutionary consequences of polyploidy in prokaryotes and the\r\norigin of mitosis and meiosis. Biol. Direct 11, 28 (2016).\r\n74. A. J. Roger, S. A. Mu~noz-G\u0003omez, R. Kamikawa, The origin and diversification of mitochondria.\r\nCurr. Biol. 27, R1177–R1192 (2017).\r\n75. M. W. Gray, G. Burger, B. F. Lang, The origin and early evolution of mitochondria. Genome Biol. 2,\r\nS1018 (2001).\r\n76. G. Burger, M. W. Gray, B. F. Lang, Mitochondrial genomes: Anything goes. Trends Genet. 19,\r\n709–716 (2003).\r\n77. M. Colnaghi, N. Lane, A. Pomiankowski, Code from “Repeat sequences limit the effectiveness of\r\nlateral gene transfer and favoured the evolution of meiotic sex in early eukaryotes”. Github.\r\nhttps://github.com/MarcoColnaghi1990/LGT-repeat-sequences. Deposited 31 January 2022.\r\nPNAS 2022 Vol. 119 No. 35 e2205041119 https://doi.org/10.1073/pnas.2205041119 7 of 7\n\n"
+  }
+]

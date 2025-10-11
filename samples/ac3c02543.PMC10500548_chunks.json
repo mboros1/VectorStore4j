@@ -1,0 +1,554 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "Assessing the Role of Trypsin in Quantitative Plasma and Single-Cell\r\nProteomics toward Clinical Application\r\nJakob Woessmann,* Valdemaras Petrosius, Nil Üresin, David Kotol, Pedro Aragon-Fernandez,\r\nAndreas Hober, Ulrich auf dem Keller, Fredrik Edfors,*,# and Erwin M. Schoof*,#\r\nCite This: Anal. Chem. 2023, 95, 13649−13658 Read Online\r\nACCESS Metrics & More Article Recommendations *sı Supporting Information\r\nABSTRACT: Mass spectrometry-based bottom-up proteomics is\r\nrapidly evolving and routinely applied in large-scale biomedical\r\nstudies. Proteases are a central component of every bottom-up\r\nproteomics experiment, digesting proteins into peptides. Trypsin\r\nhas been the most widely applied protease in proteomics due to its\r\ncharacteristics. With ever-larger cohort sizes and possible future\r\nclinical application of mass spectrometry-based proteomics, the\r\ntechnical impact of trypsin becomes increasingly relevant. To\r\nassess possible biases introduced by trypsin digestion, we evaluated\r\nthe impact of eight commercially available trypsins in a variety of\r\nbottom-up proteomics experiments and across a range of protease\r\nconcentrations and storage times. To investigate the universal\r\nimpact of these technical attributes, we included bulk HeLa cell\r\nlysate, human plasma, and single HEK293 cells, which were analyzed over a range of selected reaction monitoring (SRM), data\u0002independent acquisition (DIA), and data-dependent acquisition (DDA) instrument methods on three LC-MS instruments. The\r\nquantification methods employed encompassed both label-free approaches and absolute quantification utilizing spike-in heavy\u0002labeled recombinant protein fragment standards. Based on this extensive data set, we report variations between commercial trypsins,\r\ntheir source, and their concentration. Furthermore, we provide suggestions on the handling of trypsin in large-scale studies.\r\n■ INTRODUCTION\r\nThe field of mass spectrometry (MS)-driven proteomics has had\r\na major impact on biomedical research. Its application in\r\nprecision medicine efforts has become more prominent in the\r\npast years, ranging from plasma proteome analysis of liquid\r\nbiopsies to single-cell proteomics by MS (scp-MS).1,2\r\nIncreasingly larger cohorts are being analyzed and new\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "techniques developed and standardized, while in unison moving\r\nthe field closer toward the realms of clinical application.3−9\r\nEspecially high reproducibility and robustness are key to drive\r\nMS forward into clinical practice and impactful biological\r\ndiscoveries.\r\nDue to their systemic representation and ease of access,\r\nbiofluid-based biopsies such as serum and plasma are attractive\r\nsamples for predictive biomarker panels that can be translated\r\ninto clinical tests. However, for global MS-driven analysis, the\r\ncomplexity of the plasma proteome with its estimated 1010\r\ndynamic range provides great challenges.10\r\nAnother technology of increasing interest within the realm of\r\nMS is scp-MS. It has emerged as a promising novel technique,\r\nwhich is moving away from being predominantly a technical\r\nexercise to having real-life biomedical implications.11,2,12 Here,\r\nthe extremely limited input material and low abundance of\r\nproteins in an individual cell present major technical challenges,\r\nas summarized in refs 2, 11, 13−15. These challenges somewhat\r\noppose the hurdles that the technology is facing in the plasma\r\nproteome field.\r\nBoth plasma and scp-MS have seen tremendous advances\r\nwith the application of different MS acquisition techniques,\r\nlabeling techniques, and sample preparation.8,16 When it comes\r\nto sample preparation, the field of plasma proteomics has seen\r\nmajor advancements, putting large efforts into optimizing and\r\nstandardizing preparation techniques.7,17−19 The field of single\u0002cell proteomics published its first joint recommendations in\r\nearly 2023.20\r\nHowever, irrespective of sample type, the vast majority of\r\nglobal, data-driven LC-MS proteomics relies on a bottom-up\r\napproach, where proteases are the driving force to turn\r\ndenatured proteins into peptides. Trypsin has been used\r\npredominantly for this task, even though other proteases have\r\nbeen explored to increase proteome depth and quantifica\u0002Received: June 12, 2023\r\nAccepted: August 8, 2023\r\nPublished: August 28, 2023\r\npubs.acs.org/ac Article\r\n© 2023 The Authors. Published by American Chemical Society 13649\r\nhttps://doi.org/10.1021/acs.analchem.3c02543\r\nAnal. Chem. 2023, 95, 13649−13658\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "This article is licensed under CC-BY-NC-ND 4.0\ntion.21−24 Trypsin is a serine protease that is produced in the\r\npancreas of most vertebrates. It has a high specificity for the\r\ncleavage C-terminal of lysine and arginine.25 Trypsin generates\r\npeptides that are favorable for electrospray ionization (ESI) MS\r\napproaches, combined with online C18 reverse-phase liquid\r\nchromatography.26 Furthermore, tryptic peptides benefit from\r\nthe widely used CID and HCD fragmentation.27,28 However, as\r\nan enzyme, trypsin is susceptible to digestion and reconstitution\r\nconditions, which can impact enzymatic activity and digestion\r\nefficiency.17,29−31 Moreover, the choice of trypsin can impact the\r\nidentified number of peptides and the number of missed\r\ncleavages.32,33 There have been several publications dating back\r\na decade comparing trypsin performance of different vendors. In\r\ngeneral, a variation between trypsins of different vendors has\r\nbeen reported.34,35 Others also looked into the differences\r\nbetween bovine and porcine trypsins.36 In the field of scp-MS, a\r\nsignificant impact of the protease concentration has been shown\r\nfor two trypsins in a first publication.37\r\nToday, there is a large variety of trypsins by different vendors\r\non the market that are mainly recombinantly expressed or\r\nextracted from porcine pancreatic extracts. With an ever\u0002increasing number of biological samples included in clinical\r\ncohorts, the relevance of exploring to what extent trypsin might\r\nact as a technical variable, and as a consequence, introducing\r\nbatch effects, becomes more important. Here, the effect of\r\ntrypsin vendors or storage time on batch effects must be\r\naddressed. This becomes even more relevant once the field\r\ntransitions into real-time clinical testing, differing vastly from a\r\nwell-planned analysis of retrospective clinical cohorts. Finally,\r\nanother relevant aspect is the impact of trypsin concentration,\r\nespecially in terms of peptide quantification and when\r\ncomparing multiple data sets.\r\nTo address the impact of trypsin regarding future clinical\r\napplications of bottom-up proteomics, we hereby investigate to\r\nwhat extent we can detect experimental variations due to trypsin\r\nsource, vendor, and storage time (Figure 1). Eight trypsins from\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "four vendors were assessed in HeLa bulk cell lysate, human\r\nplasma, and single HEK293 cells. To assess the impact on\r\ndifferent experimental setups, we evaluated data-dependent\r\nacquisition (DDA), data-independent acquisition (DIA), and\r\nselected reaction monitoring (SRM) to represent all commonly\r\nused data acquisition approaches. Furthermore, LFQ and\r\nabsolute quantification were explored by incorporating heavy\u0002labeled standards for the absolute quantification of 122 plasma\r\nproteins with SRM. Combined, we aim to provide an overview\r\nof the influence of trypsin on reproducibility and quantification\r\nwhen transitioning further into the clinical application of MS\u0002driven proteomics.\r\n■ EXPERIMENTAL DESIGN\r\nThis section summarizes the experimental design of this study. A\r\ndetailed ‘Materials and Methods’ section can be found in the\r\nSupporting Information. Eight commercially available trypsins\r\nthat were regularly described in the literature were compared\r\nwithin this work (Table 1). All trypsins corresponded to the\r\nporcine trypsin sequence. Three products were extracted from\r\nthe porcine pancreas and five products were recombinantly\r\nexpressed. Trypsins were stored and reconstituted according to\r\nvendors’ instructions, and samples were digested two weeks after\r\nthe trypsins were received. To assess storage time-related\r\nFigure 1. Overview of the experimental setup showing all sample types, their respective LC-MS analysis methods, the specific trypsins used, trypsin\r\nconcentrations, and storage times that were investigated.\r\nTable 1. Summary of Compared Trypsins\r\nID vendor product no. source\r\nPromega 1 Promega V5111 porcine pancreatic extracts\r\nPromega 2 Promega V5280 porcine pancreatic extracts\r\nPromega 3 Promega VA9000 expressed in Pichia\r\npastoris\r\nRoche 1 Roche 3708985001 expressed in Pichia\r\npastoris\r\nSigma 1 Sigma−Aldrich EMS0006 expressed in Pichia\r\npastoris\r\nSigma 2 Sigma−Aldrich EMS0007 expressed in Pichia\r\npastoris\r\nSigma 3 Sigma−Aldrich EMS0004 expressed in Pichia\r\npastoris\r\nThermo 1 Thermo Fisher\r\nScientific\r\n90058 porcine pancreatic extracts\r\nAnalytical Chemistry pubs.acs.org/ac Article\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "https://doi.org/10.1021/acs.analchem.3c02543\r\nAnal. Chem. 2023, 95, 13649−13658\r\n13650\nimpacts of trypsin, “Thermo 1“ was stored lyophilized for 0, 7,\r\n12, and 14 months prior to sample preparation at the\r\nrecommended temperature without interruption. Promega 1−\r\n3, “Sigma 3”, and “Thermo 1” were compared for single-cell\r\nexperiments and stored at the recommended temperature for up\r\nto ∼4 weeks before use.\r\nSample Preparation. Trypsin from four different vendors\r\nwas used to digest four replicates of human plasma and human\r\nplasma spiked with 201 stable isotope-labeled protein epitope\r\nsignature tags (SIS-PrESTs, 13C and 15N labeled) at 1:50 and\r\n1:20 enzyme to protein (E:P) ratios. SIS-PrESTs were spiked\r\ninto human plasma at approximately 1:1 level to the\r\ncorresponding endogenous protein in 1 μL of human plasma\r\nfor absolute quantification of human plasma proteins (Support\u0002ing Table 1). SIS-PrESTs are recombinantly expressed protein\r\nstandards that are up to 149 amino acids (AA) long.38 HeLa cell\r\nlysate was digested in a 1:50 E:P concentration. Each replicate\r\ncontained 50 μg of protein derived from either HeLa cell lysate,\r\n1 μL of human plasma, or 1 μL of human plasma spiked with\r\nSIS-PrESTs.\r\nFigure 2. HeLa cell lysate digested with eight commercially available trypsins in a 1:50 E:P ratio. (A) Mean identified number of peptides (gray) and\r\nproteins (turquoise) out of four digestion replicates. Error bars indicate standard error (SE). No significant differences (<0.05) based on multiple t-test\r\ncorrected for multiple testing by Bonferroni. (B) Percentage of missed cleavagesin peptidesidentified in ≥3 replicates. 0 (light gray), 1 (medium gray),\r\nand 2 (dark gray) missed cleavages for each trypsin shown.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "Figure 3. Human plasma digested with eight commercially available trypsins in a 1:20 (gray) and 1:50 (purple) E:P ratio. (A) Mean identified number\r\nof peptides out of three digestion replicates. (B) Mean identified number of proteins out of three digestion replicates. A−B Error bars indicate SE.\r\nSignificant differences based on t-test corrected for multiple testing by Bonferroni are shown (*p < 0.05, **p < 0.01, and ***p < 0.0001). (C) Peptides\r\nonly identified by the respective trypsin (≥50% of replicates) and not present in other trypsins. (D) Percentage of missed cleavages in peptides\r\nidentified in ≥50% of replicates. 0 (light gray), 1 (medium gray), and 2 (dark gray) missed cleavages for each trypsin shown.\r\nAnalytical Chemistry pubs.acs.org/ac Article\r\nhttps://doi.org/10.1021/acs.analchem.3c02543\r\nAnal. Chem. 2023, 95, 13649−13658\r\n13651\nFigure 4. Proteome depth and quantitative correlation of plasma samples acquired in DIA and digested with eight commercially available trypsins in a\r\n1:20 (gray) and 1:50 (purple) E:P ratio. (A) All protein groups identified in the total data set order by median quantity from highest (left) to lowest\r\n(right). Protein groups identified in ≥2 replicates are colored gray, and protein groups not identified are colored blue. Percentage of identified protein\r\ngroups of the total number of identified protein groups in the data set shown to the right. (B) Pearson correlation between 1928 quantified peptides in\r\nthree digestion replicates of eight trypsins in two different digestion concentrations. Peptide quantities are log2-scaled.\r\nAnalytical Chemistry pubs.acs.org/ac Article\r\nhttps://doi.org/10.1021/acs.analchem.3c02543\r\nAnal. Chem. 2023, 95, 13649−13658\r\n13652\nFor the single-cell analysis, 187 single HEK293 cells were\r\nsubjected to FACS sorting, and the cell lysate was digested with\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "Promega 1−3, “Thermo 1”, and “Sigma 3” with 2 ng of trypsin\r\nper cell. For the comparison of trypsin concentrations,“Promega\r\n2” was prepared in 0.1, 0.5, 1, 2, and 4 ng per cell.\r\nLiquid Chromatography and Mass Spectrometers.\r\nHuman plasma spiked with SIS-PrESTs was analyzed with an\r\nSRM assay that included 122 proteins with 253 peptides. SRM\r\nassays were run on an Ultimate 3000 nano-LC (Thermo Fisher\r\nScientific) with a TSQ Altis (Thermo Fisher Scientific) MS. An\r\nAcclaim PepMap 100 trap column (75 μm × 2 cm, C18, 3 μm,\r\n100 Å, Thermo Scientific) was used together with an analytical\r\nPepMap RSLC C18 column (150 μm × 15 cm, 2 μm, 100 Å,\r\nThermo Fisher Scientific) on an EASY-Spray ion source.\r\nHeLa cell digest was analyzed with DDA and plasma digest\r\nwith a DIA method. Both methods were run on a Q-Exactive HF\r\n(Thermo Fisher Scientific) with an Ultimate 3000 nano-LC.\r\n2 μg of the sample was injected into an Acclaim PepMap 100\r\ntrap column (75 μm × 150 mm, C18, 3 μm, 100 Å, Thermo\r\nScientific) and separated on a 40 min linear gradient by an\r\nEASY-Spray HPLC column (75 μm × 250 mm, 2 μm, C18, 100\r\nÅ, Thermo Fisher Scientific).\r\nThe peptides derived from single cells were separated with the\r\nuPAC Neo Low Load analytical column, which was connected\r\nto the Ultimate 3000 RSLCnano system in a single-column\r\nsetup. MS spectra were obtained with our recently developed\r\nwide window HRMS1 (WISH)−DIA method that is described\r\nin detail here.39,40 The FAIMS Pro interface was operated at a\r\ncompensation voltage of −45 V connected to an Orbitrap\r\nEclipse Tribrid mass spectrometer (Thermo Fisher Scientific).\r\nData Processing. LC-SRM/MS raw data was analyzed in\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "Skyline.41 LC-DIA/MS raw files from plasma and single cells\r\nwere analyzed using DirectDIA within the Spectronaut 17\r\nenvironment. LC-DDA/MS raw files were analyzed using\r\nMaxQuant.42 Output tables were further analyzed in R.\r\nData Availability. DIA, SRM, and DDA raw files together\r\nwith SRM Skyline documents, spectral libraries, and standard\r\ncurves were uploaded to Panorama Public.43 Data is available\r\nthrough https://panoramaweb.org/Trypsin_Comparison.url\r\nwith the Proteome-Xchange ID PXD042450.\r\n■ RESULTS AND DISCUSSION\r\nDDA HeLa Cell Digest. HeLa cell lysate was digested in\r\nquadruplicate with eight commercially available trypsins at a\r\n1:50 (E:P) ratio. No significant differences between the mean\r\nprotein or peptide levels of the eight trypsins were identified\r\n(Figure 2A). On average, 14.4% (min 11.6% and max 20.6%)\r\nmissed cleavages were detected for all peptides with clear\r\nstatistical differences between the different trypsin manufac\u0002turers (Figure 2B, Supporting Table 2). While the Promega\r\ntrypsins displayed a consistent number of missed cleavages, we\r\ncould observe substantial variation between the Sigma trypsins.\r\nThe lowest number of missed cleavages was identified in\r\n“Roche 1” (11.6%), and the highest number of missed cleavages\r\nresulted from digestion with “Sigma 2” (20.6%). Therefore, the\r\nidentified number of peptides seems to be consistent between\r\nthe eight different trypsins. However, the nature of identified\r\npeptides seems to vary between products, which could impact\r\nthe quantification when comparing across different trypsins.\r\nDIA Label-Free Plasma Analysis. To further compare the\r\neight commercially available trypsins, we assessed their\r\nperformance in a 1:20 and 1:50 E:P ratio in human plasma in\r\ntriplicates acquired in DIA. Significant differences between the\r\nE:P ratio could be identified for the detected number of peptides\r\nbut not proteins (Figure 3A, assessed by t-test corrected by\r\nBonferroni). Before applying quality control measures as\r\ndescribed in the methods section, we quantified 402 ± 15.4\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "proteins, which were filtered to 317 ± 13.5 to ensure reliable\r\nquantitative comparison (Figure 3B). Surprisingly, significantly\r\nmore peptides were identified by all trypsins when using a higher\r\nE:P ratio (p = 0.0104, Supporting Table 3). This difference\r\ncould also be observed at the protein level for six out of eight\r\ntrypsins. The different trypsins delivered, for most parts, a\r\nhomogeneous set of identified peptides (Figure 3C). The\r\nnumber of unique peptides identified by only one protease was\r\nbelow 30 except for “Sigma 2”, which displayed a surprisingly\r\nhigh number of unique peptides. This could potentially be\r\nrelated to the highest number of missed cleavages identified in\r\nthe DDA and DIA data sets (Figure 3D). All trypsins extracted\r\nfrom the porcine pancreas displayed a lower number of unique\r\npeptides in lower E:P ratio. In contrast, four out of five\r\nrecombinantly expressed trypsins displayed the opposite\r\nbehavior. This relationship differed from the missed cleavages,\r\nwhich were substantially higher in the 1:50 than the 1:20 E:P\r\nratio. This comparison of eight trypsins suggested that the\r\npeptide and protein numbers between the different proteases\r\nshow only slight variation. However, an overall trend suggested\r\nhigher proteome coverage at a 1:50 E:P ratio, which went hand\r\nin hand with an increasing number of missed cleaved peptides\r\ndue to protease concentration (Supporting Figure 1).\r\nTo assess the quantitative impact of trypsin, we first\r\ninvestigated the proteome depth that could be covered by\r\neach protease and the percentage of the total identified plasma\r\nproteome (361 proteins) covered by all trypsins (Figure 4A).\r\nWhile trypsin at a 1:20 E:P ratio could identify a mean of 84.1 ±\r\n3.6% of the overall identified proteome (361 proteins), a 1:50\r\nE:P ratio displayed a trend toward higher proteome coverage in\r\nsix out of eight trypsins with a mean coverage of 85.7 ± 2.42%.\r\n“Thermo 1” displayed the overall lowest proteome coverage of\r\n76.7% identified proteome in a 1:20 E:P ratio. This was in line\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "with the previous results that also displayed the lowest number\r\nof peptides and proteins for “Thermo 1”.\r\nBy Pearson correlation of 1928 peptides quantified in each\r\nreplicate of the DIA data set, we assessed the LFQ quantitative\r\nperformance of each trypsin (Figure 4B). Intrareplicate\r\ncorrelations were very high, suggesting that the quantitative\r\nimpact of sample preparation was neglectable. Besides that, all\r\nreplicates showed a correlation above 0.8. However, “Sigma 2”\r\ndisplayed lower correlation coefficients at the 1:50 E:P ratio\r\ntoward other proteases, which can be compensated for by a 1:20\r\nE:P ratio. “Roche 1” and “Thermo 1” displayed a lower\r\ncorrelation coefficient at a 1:20 E:P ratio, which differed from\r\nthe 1:50 E:P ratio. Therefore, the protease concentration\r\nseemed to impact the quantitative correlation more strongly\r\nthan the choice of protease. However, unique proteases such as\r\n“Sigma 2” displayed an overall lower agreement with other\r\nproteases in terms of quantitative performance.\r\nSRM SIS Protein-Based Plasma Protein Quantification.\r\nThe trypsin concentration seemed to strongly impact the\r\nquantitative compatibility of plasma samples analyzed in LFQ\r\nDIA data. We further validated these impacts by spiking plasma\r\nwith heavy-labeled protein standards (SIS-PrESTs) and\r\nquantified 223 peptides of 108 plasma proteins with absolute\r\nprecision. The peptide concentration was determined in ratio to\r\nstandard. We could observe a median CV of 4.4% between\r\nquadruplicates, suggesting high technical reproducibility. Over\u0002Analytical Chemistry pubs.acs.org/ac Article\r\nhttps://doi.org/10.1021/acs.analchem.3c02543\r\nAnal. Chem. 2023, 95, 13649−13658\r\n13653\nall, a digestion with a 1:20 E:P ratio led to significantly lower\r\nCVs (p = 0.0191) compared to a 1:50 E:P ratio (Supporting\r\nTable 4, Figure 5A). Similar to the DIA data set, we assessed the\r\nquantitative agreement of the different trypsins by Pearson\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "correlation (Figure 5B). Overall, very high agreement between\r\nthe quantified peptides could be observed. Interestingly, the\r\nimpact of trypsin concentration was reduced in comparison to\r\nthe LFQ DIA quantification. The targeted absolute quantifica\u0002tion assays did not seem to be as susceptible to the impact of\r\ndifferent trypsins and concentrations of trypsin as LFQ DIA\r\nsample sets.\r\nFigure 5. Quantitative variation of absolute quantified peptides based on ratio to standard to SIS-PrESTsrelated to commercially available trypsins and\r\na 1:20 (gray) and 1:50 (purple) E:P ratio. (A) CV of 223 peptides quantified in quadruplicates. (B) Pearson correlation of log2 ratio to standard\r\nbetween 0.1 and 10 of 223 peptides identified in eight trypsins and two trypsin concentrations.\r\nAnalytical Chemistry pubs.acs.org/ac Article\r\nhttps://doi.org/10.1021/acs.analchem.3c02543\r\nAnal. Chem. 2023, 95, 13649−13658\r\n13654\nDigestion of Single Cells. To assess whether trypsin is\r\nimpacting scp-MS in the same manner as high-load samples, 187\r\nsingle HEK293 cells were digested with Promega 1−3, “Sigma\r\n3”, and “Thermo 1”. While a high degree of technical consistency\r\ncould be observed for all trypsins, we did observe differences on\r\nthe quantitative performance of the five different trypsins, with\r\n“Promega 1”, “Promega 2”, and “Sigma 3” showing the highest\r\nsimilarity (Figure 6A). The overall variation between single-cell\r\npeptide quantities of different trypsins showed no clear\r\ndifferences, with an average CV between 20.2 and 28.0%\r\n(Figure 6B). Interestingly, the number of peptides identified in\r\nsingle cells varied mildly, but significantly, between two groups\r\nof trypsins. “Promega 1” displayed the lowest number of\r\npeptides and “Thermo 1” displayed the highest number (Figure\r\n6C). This trend did not correspond to the above-described\r\nvariation observed in high-load samples. As we observed a strong\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 466,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "impact of the trypsin concentration on quantitative compar\u0002isons, we assessed five trypsin concentrations to evaluate this\r\neffect at the single-cell level. To this end, single cells were\r\ndigested with 0.1, 0.5, 1, 2, and 4 ng using only “Promega 2”.\r\n“Promega 2” was chosen based on its widespread use in previous\r\nliterature. Increasing the protease concentration from 0.1 to\r\n0.5 ng boosted the peptide numbers moderately, yetsignificantly\r\n(p = 1.68 × 10−16) (Supporting Figure 2). However, for higher\r\nconcentrations, no clear trend toward further increased peptide\r\nnumbers could be observed. However, similar to the\r\nobservations in high-load samples, the number of missed\r\ncleavages was reduced with increased trypsin concentration\r\n(Figure 6D). We could observe a mean decrease of missed\r\ncleavages of 11.3% between the highest and lowest concen\u0002trations. In summary, the choice of trypsin seemed to impact\r\nscp-MS experiments differently than high-load samples.\r\nHowever, we could report that both scp-MS and high-load\r\nsamples displayed lower numbers of missed cleavages with\r\nhigher trypsin concentrations.\r\nTrypsin Source Could Be a Significant Mediator of\r\nTrypsin Performance. In this work, we compared trypsins that\r\nwere recombinantly expressed to those extracted from porcine\r\nFigure 6. Single HEK293 cell proteomics profiling. (A) PCA of single HEK293 cells digested with five commercially available trypsins. PCA based on\r\npeptide level quantities of 610 peptides detected in all cells without imputation. (B) CV of 610 peptide quantities identified in all cells. (C) Mean\r\nidentified number of peptides quantified for each commercial trypsin. Each cell is highlighted individually. Error bars indicate SE. Significant\r\ndifferences based on t-test corrected for multiple testing by Bonferroni are shown (*p < 0.05, **p < 0.01, and ***p < 0.0001). (D) Percentage of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "missed cleavages in single cells for 0.1, 0.5, 1, 2, and 4 ng of “Promega 2”. The mean of all single cells is shown as a bar, with replicate cells shown\r\nindividually.\r\nAnalytical Chemistry pubs.acs.org/ac Article\r\nhttps://doi.org/10.1021/acs.analchem.3c02543\r\nAnal. Chem. 2023, 95, 13649−13658\r\n13655\npancreas as described in Table 1. To evaluate whether the source\r\nof purified trypsin had a significant effect on its performance, we\r\nsearched the plasma samples acquired in DIA with the respective\r\nexpression source proteome as background to the human\r\nproteome together with the AA sequence of trypsin. Overall, the\r\nnumber of peptides corresponding to the trypsin source made\r\nup 14−26 different proteins (Supporting Figure 3). In total, it\r\ncontained 32 porcine and 35 P. pastoris proteins. The number of\r\nporcine peptides per trypsin was slightly higher than the number\r\nof P. pastoris peptides. Furthermore, we identified between 5 and\r\n15 trypsin-derived specific peptides that were present in both\r\ntrypsin concentrations of each vendor (Figure 7). These\r\npeptides were derived from trypsin itself and not the source of\r\ntrypsin. The intensity of trypsin-derived peptides extracted from\r\nporcine pancreas was overall lower than the mean human\r\npeptide quantity of the given condition. In comparison, all\r\ntrypsins expressed in P. pastoris except “Sigma 2” displayed\r\nhigher trypsin-derived peptide intensities than the mean human\r\npeptide quantity. “Sigma 2” showed the overall lowest trypsin\u0002derived peptide quantities in the whole data set. Trypsin-derived\r\npeptide quantities did not necessarily relate to the trypsin\r\namount present during digestion as trypsins could differ in their\r\nautodegradation activity. While “Sigma 2” and “Thermo 1”\r\ndisplayed the overall lowest quantity of trypsin-derived peptides,\r\nthey had the highest quantitative variations and lowest number\r\nof identified peptides and proteins in all high-load sample\r\nmatrices and acquisition techniques. Overall, recombinantly\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "expressed trypsins except “Sigma 2” displayed a higher quantity\r\nof trypsin-derived peptides with lower variation than the porcine\r\ncounterpart. These findings could provide a possibility to\r\ncontrol trypsin-induced biases in bottom-up proteomics. The\r\ntrypsin-derived peptide quantities could be used as a measure of\r\ndigestion efficiency and confirm protease concentration.\r\nImpact of Storage Time on Trypsin Performance.\r\nFinally, we evaluated the impact of storage time in the\r\nlyophilized form on “Thermo 1”, which was ordered and stored\r\nat four time points (0, 7, 12, and 14 months) prior to\r\nexperiments. No significant differences between the identified\r\nprotein or peptide numbers could be identified when analyzing\r\nHeLa cell digest acquired in DDA (Supporting Figure 4A).\r\nHowever, it is worth noting that the number of missed cleavages\r\nsteadily increased slightly by mean 0.7% with an increased\r\nstorage time (Supporting Figure 4B). This observed increase\r\nwas, however, not as prominent as the observed variation\r\nbetween different trypsins, thereby suggesting merely a minor\r\nimpact, which should be further validated. The quantitative\r\nperformance in LFQ DIA data showed no significant variation\r\nfrom the mean (Supporting Figure 4C). By further looking into\r\nsingle peptide variation over time, we explored the ratio-to\u0002standard variation of peptides in the SRM assay (Supporting\r\nFigure 4D). 68.6%of the peptides displayed a CV below 5%over\r\ndigestion with “Thermo 1” stored over different periods of time\r\n(Supporting Figure 4E). Only 4.9% of the peptides displayed\r\nCVs over 10% in their ratio to standard. This indicates that the\r\nstorage time of “Thermo 1” did not seem to impact the\r\nquantitative performance of the trypsin.\r\n■ CONCLUSIONS\r\nIn this study, we investigated the impact of eight commercial\r\ntrypsins on commonly used bottom-up proteomics workflows\r\nacross a range of samples. Besides the trypsin itself, different\r\nprotease concentrations, sample matrices, instrument acquis\u0002ition techniques, and protease storage times were investigated.\r\nThe resulting data set allowed us to unravel some of the\r\ntechnical implications of proteases in bottom-up proteomics\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "while the field is transitioning further into large-scale clinical and\r\nbiomedical research applications. In high-load samples, we\r\nobserved a low variation between the trypsins regarding the pure\r\nnumber of proteins or peptides identified in each sample and in\r\nterms of proteome depth. Differences only became apparent\r\nwhen looking into the unique peptides that each protease\r\ngenerates and the number of missed cleavages. From a\r\nquantitative standpoint, the majority of the trypsins performed\r\nsimilarly in each given concentration. In scp-MS, however, the\r\nchoice of trypsin seemed to display a stronger impact on the\r\nnumber of peptides and their quantitative performance. On the\r\nother hand, trypsins displayed similar technical variation\r\nbetween cells, and minor cell heterogeneity was apparent\r\nirrespective of which trypsin was used. Unexpectedly, the\r\nconcentration of trypsin had the most drastic impact on the\r\nFigure 7. Trypsin-related contaminations and autocleavage products identified in human plasma digested with trypsin of eight commercially available\r\nvendors and analyzed with DIA. Quantity of all tryptic peptides identified in both 1:20 (gray) and 1:50 (purple) trypsin and in ≥2 replicates. Median\r\npeptide intensity of ≥2 replicates of each peptide. The triangle displays the mean quantity of all human peptides present in ≥2 replicates.\r\nAnalytical Chemistry pubs.acs.org/ac Article\r\nhttps://doi.org/10.1021/acs.analchem.3c02543\r\nAnal. Chem. 2023, 95, 13649−13658\r\n13656\nquantitative and qualitative performance of trypsin across all\r\nsample types. Higher trypsin concentrations resulted in more\r\ncomparable protein quantitation and gave rise to lower numbers\r\nof missed cleavages. Surprisingly, however, the higher trypsin\r\nconcentration did not result in higher numbers of identified\r\nproteins or peptidesfor plasma and HeLa bulk digest. In scp-MS,\r\nhowever, we did observe increased numbers of peptides, which\r\nplateaued in the higher concentrations.\r\nOur results indicate that trypsins with higher quantitative\r\nvariation also showed the lowest quantity of trypsin-derived\r\npeptides in the samples. As all trypsins display a rather low\r\nnumber of contaminating peptides identified in plasma samples,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "this does not need to be a specific criterion for trypsin selection.\r\nHowever, all recombinantly expressed trypsins except “Sigma 2”\r\ndisplayed higher concordance between their trypsin-derived\r\npeptide quantities. This could suggest that recombinantly\r\nexpressed trypsins might be easier to interchange with one\r\nanother than trypsins from different sources. However, further\r\nevidence is needed. Furthermore, we see indications that the\r\nmonitoring of trypsin peptides in data sets could provide an\r\nopportunity to compensate for trypsin-related biases in bottom\u0002up proteomics.\r\nWhen investigating the effects of long-term storage of a single\r\ntrypsin, we could not observe any strong storage time-related\r\nimpacts on quantitative levels. This is a first indication that long\u0002term trypsin storage might be a way to compensate for trypsin\u0002related quantitative variations in bottom-up proteomics analysis\r\nof large cohorts. As storage time does not seem to impact the\r\ntrypsin performance to a strong degree, it might be useful to\r\nreduce trypsin variability by preordering large batches of trypsin\r\nproduced in one batch to compensate for trypsin concentration\r\nvariation. However, to validate the relevance of these results for\r\nspecific experimental setups, these variations should be assessed\r\nfor each specific trypsin and digestion condition (including the\r\ntrypsin concentration used). It must be noted that the digestion\r\nconditions have previously been described to have a major\r\nimpact on the protease digestion performance and the presented\r\nfindings here might not necessarily translate to other digestion\r\nprotocols.17\r\nIn summary, we compared eight commercially available\r\ntrypsins on three different biological samples that are frequently\r\nused in biomedical research. We observed minor differences in\r\nperformance between trypsins, with the trypsin concentration\r\nhaving the largest effect on the quantitative performance of\r\nbottom-up experiments. Notably, the use of recombinant\r\nprotein standard for absolute quantification provided a way to\r\nreduce the protease-related bias in comparison to LFQ. This\r\ncould be a key aspect to consider while the field moves further\r\ninto clinical applications. Therefore, we suggest paying special\r\nattention to the choice of trypsin when studying large cohorts\r\nwith bottom-up proteomics and validate its reproducibility.\r\nCertain trypsins might be interchangeable with one another,\r\nwhich is an important aspect to consider when moving forward\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "into clinical applications. However, further studies in this regard\r\nare needed.\r\n■ ASSOCIATED CONTENT\r\n*sı Supporting Information\r\nThe Supporting Information is available free of charge at\r\nhttps://pubs.acs.org/doi/10.1021/acs.analchem.3c02543.\r\nMaterials and methods: sample preparation, LC-MS/MS\r\nacquisition, SRM assay development, and data process\u0002ing; Figure 1: Missed cleavages in DIA plasma data set;\r\nFigure 2: Number of peptides quantified in single cells at\r\nfive trypsin concentrations; Figure 3: Porcine, Pichia\r\npastoris, and trypsin-specific peptides in DIA data set;\r\nFigure 4: Storage time validation of trypsin (PDF)\r\nTable 1: SIS-PrEST concentration and sequence\r\ninformation; Table 2: Statistical test of missed cleavages\r\nin DDA data set; Table 3: Statistical test of trypsin\r\ngrouped by concentration; Table 4: Statistical test of\r\npeptide CVs grouped by concentration (XLS)\r\n■ AUTHOR INFORMATION\r\nCorresponding Authors\r\nJakob Woessmann − Department of Biotechnology and\r\nBiomedicine, Technical University of Denmark, 2800 Kgs.\r\nLyngby, Denmark; Science for Life Laboratory, KTH�Royal\r\nInstitute of Technology, SE-171 65 Solna, Sweden;\r\nDepartment of Protein Science, KTH�Royal Institute of\r\nTechnology, SE-106 91 Stockholm, Sweden; orcid.org/\r\n0000-0002-2283-7237; Email: jakowo@dtu.dk\r\nFredrik Edfors − Science for Life Laboratory, KTH�Royal\r\nInstitute of Technology, SE-171 65 Solna, Sweden;\r\nDepartment of Protein Science, KTH�Royal Institute of\r\nTechnology, SE-106 91 Stockholm, Sweden;\r\nEmail: fredrik.edfors@scilifelab.se\r\nErwin M. Schoof − Department of Biotechnology and\r\nBiomedicine, Technical University of Denmark, 2800 Kgs.\r\nLyngby, Denmark; orcid.org/0000-0002-3117-7832;\r\nEmail: erws@dtu.dk\r\nAuthors\r\nValdemaras Petrosius − Department of Biotechnology and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "Biomedicine, Technical University of Denmark, 2800 Kgs.\r\nLyngby, Denmark\r\nNil Üresin − The Finsen Laboratory, Rigshospitalet, Faculty of\r\nHealth Sciences and Biotech Research and Innovation Centre\r\n(BRIC), University of Copenhagen, 2200 Copenhagen,\r\nDenmark\r\nDavid Kotol − Science for Life Laboratory, KTH�Royal\r\nInstitute of Technology, SE-171 65 Solna, Sweden;\r\nDepartment of Protein Science, KTH�Royal Institute of\r\nTechnology, SE-106 91 Stockholm, Sweden; orcid.org/\r\n0000-0002-5388-3826\r\nPedro Aragon-Fernandez − Department of Biotechnology and\r\nBiomedicine, Technical University of Denmark, 2800 Kgs.\r\nLyngby, Denmark\r\nAndreas Hober − Science for Life Laboratory, KTH�Royal\r\nInstitute of Technology, SE-171 65 Solna, Sweden;\r\nDepartment of Protein Science, KTH�Royal Institute of\r\nTechnology, SE-106 91 Stockholm, Sweden; orcid.org/\r\n0000-0001-8947-2562\r\nUlrich auf dem Keller − Department of Biotechnology and\r\nBiomedicine, Technical University of Denmark, 2800 Kgs.\r\nLyngby, Denmark; orcid.org/0000-0002-3431-7415\r\nComplete contact information is available at:\r\nhttps://pubs.acs.org/10.1021/acs.analchem.3c02543\r\nAuthor Contributions #\r\nF.D. and E.M.S. contributed equally to this work.\r\nNotes\r\nThe authors declare the following competing financial\r\ninterest(s): The authors declare the following financial\r\nAnalytical Chemistry pubs.acs.org/ac Article\r\nhttps://doi.org/10.1021/acs.analchem.3c02543\r\nAnal. Chem. 2023, 95, 13649−13658\r\n13657\ninterests/personal relationships which may be considered as\r\npotential competing interests: FE, DK and AH are co-founders\r\nof ProteomEdge AB. The other authors declare no conflict of\r\ninterest.\r\n■ ACKNOWLEDGMENTS\r\nWe thank Christian Gnann and Sarah Line Skovbakke for\r\nproviding cells for the conducted experiments. Furthermore, we\r\nthank the protein factory of the Human Protein Atlas program\r\nand the Science for Life Laboratory for their contributions.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 478,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "Ulrich auf dem Keller acknowledges the Novo Nordisk\r\nFoundation Young Investigator Award (NNF16OC0020670\r\nto U.a.d.K). Work in the Cell Diversity Lab was funded by the\r\nfollowing grants to E.M.S.: (1) reference number\r\nNNF21OC0071016 from the Novo Nordisk Foundation and\r\n(2) case no. 2067-00053B from the Independent Research Fund\r\nDenmark. V.P. isfunded by a Leo Foundation grant (LF-OC-21-\r\n000832). P.A.-F. is funded by a Danish Cancer Society grant\r\n(R324-A17978).\r\n■ REFERENCES\r\n(1) Geyer, P. E.; Holdt, L. M.; Teupser, D.; Mann, M. Mol. Syst. Biol.\r\n2017, 13, No. 942.\r\n(2) Schoof, E. M.; Furtwängler, B.; Üresin, N.; et al. Nat. Commun.\r\n2021, 12, No. 3341.\r\n(3) Carnielli, C. M.; Macedo, C. C. S.; De Rossi, T.; et al. Nat.\r\nCommun. 2018, 9, No. 3598.\r\n(4) Messner, C. B.; Demichev, V.; Wendisch, D.; et al. Cells Syst. 2020,\r\n11, 11−24.e4.\r\n(5) Hortin, G. L.; Carr, S. A.; Anderson, N. L. Clin. Chem. 2010, 56,\r\n149−151.\r\n(6) Grant, R. P.; Hoofnagle, A. N. Clin. Chem. 2014, 60, 941−944.\r\n(7) Hoofnagle, A. N.; Whiteaker, J. R.; Carr, S. A.; et al. Clin. Chem.\r\n2016, 62, 48−69.\r\n(8) Macklin, A.; Khan, S.; Kislinger, T. Clin. Proteomics 2020, 17,\r\nNo. 17.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "(9) Hartl, J.; Kurth, F.; Kappert, K.; et al. EMBO Mol. Med. 2023, 15,\r\nNo. e16061.\r\n(10) Anderson, N. L.; Anderson, N. G. Mol. Cell. Proteomics 2002, 1,\r\n845−867.\r\n(11) Budnik, B.; Levy, E.; Harmange, G.; Slavov, N. Genome Biol.\r\n2018, 19, No. 161.\r\n(12) Derks, J.; et al. Nat. Biotechnol. 2022, 2022, 50−59.\r\n(13) Petelski, A. A.; Emmott, E.; Leduc, A.; et al. Nat. Protoc. 2021, 16,\r\n5398−5425.\r\n(14) Zhu, Y.; Piehowski, P. D.; Zhao, R.; et al. Nat. Commun. 2018, 9,\r\nNo. 882.\r\n(15) Furtwängler, B.; Üresin, N.; Motamedchaboki, K.; et al. Mol. Cell.\r\nProteomics 2022, 21, No. 100219.\r\n(16) Petrosius, V.; Schoof, E. M. Transl. Oncol. 2023, 27, No. 101556.\r\n(17) Proc, J. L.; Kuzyk, M. A.; Hardie, D. B.; et al. J. Proteome Res.\r\n2010, 9, 5422.\r\n(18) Ignjatovic, V.; Geyer, P. E.; Palaniappan, K. K.; et al. J. Proteome\r\nRes. 2019, 18, 4085−4097.\r\n(19) Blume, J. E.; Manning, W. C.; Troiano, G.; et al. Nat. Commun.\r\n2020, 11, No. 3662.\r\n(20) Gatto, L.; Aebersold, R.; Cox, J.; et al. Nat. Methods 2023, 20,\r\n375−386.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "(21) Swaney, D. L.; Wenger, C. D.; Coon, J. J. J. Proteome Res. 2010, 9,\r\n1323−1329.\r\n(22) Giansanti, P.; Tsiatsiani, L.; Low, T. Y.; Heck, A. J. R. Nat. Protoc.\r\n2016, 11, 993−1006.\r\n(23) Woessmann, J.; Kotol, D.; Hober, A.; Uhlén, M.; Edfors, F. J.\r\nProteome Res. 2022, 21, 2526−2534.\r\n(24) Sinitcyn, P.; Richards, A. L.; Weatheritt, R. J.; et al. Nat.\r\nBiotechnol. 2023, 1−11.\r\n(25) Olsen, J. V.; Ong, S.-E.; Mann, M. Mol. Cell. Proteomics 2004, 3,\r\n608−614.\r\n(26) Fenn, J. B.; Mann, M.; Meng, C. K.; Wong, S. F.; Whitehouse, C.\r\nM. Science 1989, 246, 64−71.\r\n(27) Vandermarliere, E.; Mueller, M.; Martens, L. Mass Spectrom. Rev.\r\n2013, 32, 453−465.\r\n(28) Tsiatsiani, L.; Heck, A. J. R. FEBS J. 2015, 282, 2612−2626.\r\n(29) Lin, Z.; Ren, Y.; Shi, Z.; et al. Rapid Commun. Mass Spectrom.\r\n2020, 34, No. e8733.\r\n(30) Niu, B.; Martinelli II, M.; Jiao, Y.; et al. PLoS ONE 2020, 15,\r\nNo. e0236740.\r\n(31) Zheng, Y. Z.; DeMarco, M. L. Clin. Mass Spectrom. 2017, 6, 1−12.\r\n(32) Van Den Broek, I.; Smit, N. P. M.; Romijn, F. P.; et al. J. Proteome\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "Res. 2013, 12, 5760−5774.\r\n(33) Loziuk, P. L.; Wang, J.; Li, Q.; et al. J. Proteome Res. 2013, 12,\r\n5820−5829.\r\n(34) Burkhart, J. M.; Schumbrutzki, C.; Wortelkamp, S.; Sickmann, A.;\r\nZahedi, R. P. J. Proteomics 2012, 75, 1454−1462.\r\n(35) Bunkenborg, J.; Espadas, G.; Molina, H. J. Proteome Res. 2013, 12,\r\n3631−3641.\r\n(36) Walmsley, S. J.; Rudnick, P. A.; Liang, Y.; et al. J. Proteome Res.\r\n2013, 12, 5666.\r\n(37) Matzinger, M.; Müller, E.; Dürnberger, G.; Pichler, P.; Mechtler,\r\nK. Anal. Chem. 2023, 95, 4435−4445.\r\n(38) Zeiler, M.; Straube, W. L.; Lundberg, E.; Uhlen, M.; Mann, M.\r\nMol. Cell. Proteomics 2012, 11, No. O111.009613.\r\n(39) Petrosius, V.; Aragon-Fernandez, P.; Üresin, N.; Kovacs, G.;\r\nPhlairaharn, T.; Furtwängler, B.; op de Beeck, J.; Skovbakke, S. L.;\r\nGoletz, S.; Thomsen, S. F.; auf dem Keller, U.; Nath Natarajan, K.;\r\nPorse, B. T.; Schoof, E. M. Exploration of cell state heterogeneity using\r\nsingle-cell proteomics through sensitivity-tailored data-independent\r\nacquisition Nat. Commun. 2022, in press.\r\n(40) Xuan, Y.; Bateman, N. W.; Gallien, S.; et al. Nat. Commun. 2020,\r\n11, No. 5248.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4983520895141949087,
+        "filename": "ac3c02543.PMC10500548.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 164,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "(41) MacLean, B.; Tomazela, D. M.; Shulman, N.; et al. Bioinformatics\r\n2010, 26, 966−968.\r\n(42) Cox, J.; Mann, M. Nat. Biotechnol. 2008, 26, 1367−1372.\r\n(43) Sharma, V.; Eckels, J.; Taylor, G. K.; et al. J. Proteome Res. 2014,\r\n13, 4205−4210.\r\nAnalytical Chemistry pubs.acs.org/ac Article\r\nhttps://doi.org/10.1021/acs.analchem.3c02543\r\nAnal. Chem. 2023, 95, 13649−13658\r\n13658\n\n"
+  }
+]

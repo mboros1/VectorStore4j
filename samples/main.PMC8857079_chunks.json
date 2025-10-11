@@ -1,0 +1,818 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "Redox Biology 51 (2022) 102262\r\nAvailable online 9 February 2022\r\n2213-2317/© 2022 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license\r\n(http://creativecommons.org/licenses/by-nc-nd/4.0/).\r\nACSL4 deficiency confers protection against ferroptosis-mediated acute \r\nkidney injury \r\nYue Wang a,b,1, Menghan Zhang a,c,1, Ran Bi a,1, Yali Su a, Fei Quan a, Yanting Lin a, \r\nChongxiu Yue a\r\n, Xinmeng Cui a, Qixiang Zhao a, Siliang Liu a, Yong Yang a, Dayong Zhang d, \r\nQiuhua Cao a,**, Xinghua Gao a,* \r\na Center for New Drug Safety Evaluation and Research, State Key Laboratory of Natural Medicines, China Pharmaceutical University, Nanjing, Jiangsu, 211198, PR \r\nChina \r\nb Department of Endocrinology, The Second Affiliated Hospital of Anhui Medical University, Hefei, 230601, China c Eshelman School of Pharmacy, The University of North Carolina at Chapel Hill, Chapel Hill, NC, 27599-7568, USA d School of Sciences, China Pharmaceutical University, Nanjing, 211198, China \r\nARTICLE INFO \r\nKeywords: \r\nACSL4 \r\nAcute kidney injury \r\nFerroptosis \r\nMacrophages \r\nHIF-1α \r\nABSTRACT \r\nThe term ferroptosis coined in 2012 causes acute kidney injury (AKI). However, its pathway mechanism in AKI is \r\npoorly understood. In this study, we conducted an RNA-sequence analysis of kidneys in AKI and normal mice to \r\nexplore the pathway mechanism of ferroptosis. Consequently, differentially expressed genes highlighted Acyl\u0002CoA synthetase long-chain family (ACSL4), a known promotor for ferroptosis. Besides, RT-PCR, Western blot, \r\nand immunohistochemical analyses confirmed its upregulation. HIF-1α was downregulated in I/R-AKI mice, and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "in vitro studies confirmed a negative regulation of HIF-1α on ACSL4. To explore the role of ACSL4 in AKI, we \r\nconstructed ACSL4 knockout in kidney tubules of mice-as Cdh16Cre-ACSL4F/F mice. Results revealed that ACSL4 \r\nknockout significantly reduced ferroptosis and inhibited the functional and pathological injury of AKI mice. \r\nMeanwhile, the kidneys of Cdh16Cre-ACSL4F/F mice demonstrated a significantly decreased inflammation and \r\nmacrophage infiltration. Further, additional explorations were explored to decipher a more thorough under\u0002standing of ferroptotic immunogenicity. As a result, neutrophils were not directly recruited by ferroptotic cells, \r\nbut by ferroptotic cell-induced macrophages. Further, ACSL4 inhibitor rosiglitazone significantly inhibited AKI. \r\nCollectively, these data provide novel insights into the AKI pathogenesis, and defined ACSL4 as an effective \r\ntarget in AKI. \r\n1. Introduction \r\nThe prevalence of acute kidney injury (AKI) is increasing across the \r\nglobe, with mortality of above 2 million people annually [1,2]. AKI \r\npatients are associated with complications, like chronic kidney disease \r\n(CKD), increasing mortality [3,4]. The current treatment interventions \r\nfor AKI include adequate hydration, adequate blood volume circulation, \r\nand preventing nephrotoxins [5]. So far, no effective pharmacologic \r\nstrategy for AKI prevention and treatment has been reported. Thus, to \r\nimprove clinical outcomes, it is necessary to identify key molecules \r\ninvolved in AKI. \r\nRenal tubular cell death is the hallmark in AKI [6]. Several types of \r\ncell death-like apoptosis, necrosis, and pyroptosis have been considered \r\npathophysiologic relevant in AKI [7]. Apoptosis has been detected in \r\nseveral AKI models, and apoptotic regulators including Bcl-2 and cas\u0002pases have been shown in AKI models [8,9]. A critical role of necrosis in \r\nAKI was first suggested in 2012 [10], and subsequently confirmed by \r\nscholars [11,12]. Pyroptosis, a strong inflammatory form of cell death, is \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "also considered a major cause of septic AKI, cisplatin-induced AKI, and \r\nI/R-AKI [13–15]. However, no drug has been shown to effectively halt \r\nAKI, and potent pharmacodynamic targets have not been identified. \r\nTherefore, a new understanding of the pathology of AKI is urgent \r\nneeded. With the deepening knowledge of cell death, ferroptosis was \r\nidentified in 2012 as an iron-dependent necrotic form [16]. Research has \r\n* Corresponding author. China Pharmaceutical University, Nanjing, China. \r\n** Corresponding author. \r\nE-mail addresses: 1520210058@cpu.edu.cn (Q. Cao), gaoxinghua@cpu.edu.cn (X. Gao). 1 These authors equally contributed to this work. \r\nContents lists available at ScienceDirect \r\nRedox Biology \r\njournal homepage: www.elsevier.com/locate/redox \r\nhttps://doi.org/10.1016/j.redox.2022.102262 \r\nReceived 24 January 2022; Accepted 7 February 2022 \nRedox Biology 51 (2022) 102262\r\n2\r\nconfirmed that it participates in various diseases, among them carci\u0002noma, neurodegenerative diseases, AKI, and I/R injury [17]. Previous \r\nstudies indicate that ferroptosis but not necrosis promote I/R-AKI and \r\noxalate nephropathy [18]. Besides, ferroptosis is involved in the AKI \r\nmodel induced by folic acid (FA) [19]. At present, ferroptosis is a po\u0002tential therapeutic target for AKI [20,21]. Our previous study found that \r\nquercetin potentially alleviates AKI by inhibiting ferroptosis [22]. VDR \r\nactivation attenuates cisplatin-induced AKI by inhibiting ferroptosis \r\n[23]. XJB-5-131 suppresses I/R damage with a mechanism related to \r\nferroptosis of tubular cells [24]. However, the molecular mechanism \r\nunderlying ferroptosis in AKI is largely understudied. \r\nFerroptosis is characterized by iron-dependent lipid peroxide accu\u0002mulation. ACSL4, an enzyme that converts fatty acid to fatty acyl-CoA \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "esters, regulates lipid biosynthesis. Notably, Hua Yuan et al. discovered \r\nthat ACSL4 contributes to ferroptosis [25], while Sebastian Doll et al. \r\nused CRISPR-based genetic screening and analysis of resistant cells \r\nconfirmed ACSL4 as a key player in ferroptosis [26]. While the impor\u0002tant role of ACSL4 in ferroptosis remains known, its role in AKI is un\u0002clear. Herein, Cdh16Cre-ACSL4F/F mice and ACSL4 inhibitor \r\nrosiglitazone were used to assess the role of ACSL4 in AKI. ACSL4 \r\nknockout alleviates kidney injury by inhibiting ferroptosis and inflam\u0002mation. As such, targeting ACSL4 or related regulated molecular is a \r\ntherapeutic strategy for AKI. \r\n2. Materials and methods \r\n2.1. Cell lines \r\nDr. Chunsun Dai provided the NRK-52E Cells, and HK-2 cells were \r\npurchased from China Cell Bank. The cells were cultured in DMEM/ \r\nHam’s F12 (BI) supplemented with 5% fetal bovine serum (BI). An \r\nimmortalized macrophage line (iBMDM) derived from C57BL/6 mice \r\nwas provided by Dr. Feng Shao, which was widely used in Dr. Shao’s \r\nprevious studies [27–29]. Dr. Shao got this cell from K. A. Fitzgerald \r\n(University of Massachusetts Medical School, United States), who \r\ngenerated this cell line using J2 recombinant retrovirus (carrying v-myc \r\nand v-raf/mil oncogenes) [30]. The iBMDM cells were cultured with \r\nDMEM (Gibco). All the cells were maintained with 5% CO2 in a 37 ◦C \r\nincubator. \r\n2.2. Cell viability assay \r\nCells were cultured in 96-well plates and treated with drugs at the \r\nindicated time. Cell viability was detected using the sulforhodamine B \r\n(SRB) assay [31,32]. \r\n2.3. Drug treatment \r\nThe following reagents were used for in vitro experiments: Erastin \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "(Era) and RSL3 (MedChemExpress, cat number: HY-15763 and HY\u0002100218A), Bay-87-2243 (Selleck, cat number: 1227158-85-1) and PT\u00022385 (Selleck, cat number: 1672665-49-4). The following were used \r\nfor in vivo experiments; 5 mg/kg Fer-1 (Aladdin, cat number: Q111273 \r\nor F129882), 0.5 mg/kg rosiglitazone (Aladdin, cat number: 302543-62- \r\n0), and 200 mg/kg FA (Aladdin, cat number: F103641). \r\n2.4. Mice \r\nThis study used male C57BL/6J mice (7–8 weeks). The mice were \r\nhoused in a 12 h/12 h light/dark cycle. ACSL4 (NCBI reference \r\nsequence: NM_001033600.1; MGI link: http://www.informatics.jax.org \r\n/marker/MGI:1354713; Gene ID: 50790(NCBI); Ensembl: \r\nENSMUST00000033634.4) floxP mice, generated using CRISPR/Cas9, \r\nwere obtained from Southern Model Animal Center (Shanghai, China), \r\nas well as the Cdh16-cre mice. The generation of ACSL4-KO mice uses \r\nthe principle of homologous recombination and the method of homol\u0002ogous recombination of fertilized eggs to modify the Acsl4 gene by flox. \r\nThe brief process was as follows: Cas9 mRNA and gRNA were obtained \r\nby in vitro transcription. Homologous recombination vector was con\u0002structed by the in-fusion cloning method, which contains a 4.0 kb 5′\r\nhomology arm, a 0.8 kb flox region, and a 4.0 kb 3′ homology arm. The \r\nCas9 mRNA, gRNA, and donor vectors were microinjected into the \r\nfertilized eggs of C57BL/6J mice. The ACSL4F/F mouse was mated with \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "a mouse that specifically expresses Cdh16-Cre recombinase in the kid\u0002ney, leading to renal tubule knockout of ACSL4. The tails of the mice \r\nwere genotyped using PCR; then sequence analysis was conducted. All \r\nanimal experiments were performed as per the National Institutes of \r\nHealth Guide for the Care and Use of Laboratory Animals and approved \r\nby the Center for New Drug Safety Evaluation and Research, China \r\nPharmaceutical University. \r\n2.5. Animal models \r\n2.5.1. Renal ischemia/reperfusion model \r\nThe mice were randomly divided into different groups with 6 mice in \r\neach group. Briefly, 5 mg/kg Fer-1 (Aladdin, cat number: Q111273 or \r\nF129882) and 0.5 mg/kg rosiglitazone (Aladdin, cat number: 302543- \r\n62-0) were administrated 30 min before the ischemic operation \r\nthrough i.p. injection and i.v. injection respectively. The Renal \r\nischemia/reperfusion was induced in the following procedure: The \r\nmouse prone was placed on the heated surface covered with an absor\u0002bent bench pad. The legs were tapped to the surgical surface. The dorsal \r\nskin along the midline of the mouse (approximately 1.5 cm) was cut \r\nusing scissors and forceps. A small incision was made through the \r\nbilateral flank muscle and fascia above the kidney and exteriorize the \r\nkidney. Then the mice were ischemic for 30 min by clamping the \r\nbilateral renal pedicle respectively, and moving the nontraumatic \r\nclamps. The sham group was only done with the sham operation, but no \r\nischemia. Mice were sacrificed after 24 h and blood samples and kidneys \r\nwere collected. The right kidney was half snap-frozen and half fixed in \r\n4% phosphate-buffered formaldehyde. The left kidney was isolated to \r\nobtain kidney immune cells for flow cytometry analysis. \r\n2.5.2. Folic acid (FA)-induced AKI model \r\nFA was dissolved in 0.3 mol/L NaHCO3, then was i.p. injected to \r\nmice at the dose of 200 mg/kg. After 24 h, the mice were sacrificed. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "Tissues were kept for subsequent examination. \r\n2.6. RNA-seq profiling \r\nThe RNA-sequencing was performed in Novogene as described \r\nbefore [22]. Briefly, a Trizol reagent was used to isolate the RNA of \r\nkidney tissue. RNA (3 μg) per sample was used for RNA sample prepa\u0002rations. NEBNext® UltraTM RNA Library Prep Kit for Illumina® (NEB, \r\nUSA) was used for sequencing libraries as per the manufacturer’s rec\u0002ommendations. Transcripts expression with |Log2 Fc|＞1.5, adjusted \r\nP-value＜0.05 were considered statistically significant. The RNA \r\nsequencing data file was uploaded to the public GEO databases \r\n(GSE181842). \r\n2.7. Real-time PCR analysis \r\nTotal RNA from tissues or cells were extracted using Trizol reagent \r\n(Invitrogen, cat number: 15596026), and reverse transcribed into cDNA \r\nusing a cDNA synthesis kit (Takara, cat number: RR047A). Quantitative \r\nPCR was done with a Step one plus Real-Time PCR system (Applied \r\nY. Wang et al. \nRedox Biology 51 (2022) 102262\r\n3\r\nFig. 1. Up-regulation of ACSL4 in AKI. (A) The RNA-seq volcano graphs of the CON and I/R-induced AKI groups. N=3. (B) ACSL4 protein expression in AKI detected \r\nby WB. N=4. (C) The expression levels of ACSL4 mRNA after AKI detection by RT-PCR, N=6. (D–E) Representative images showing ACSL4 expression detected by \r\nimmunohistochemistry. Black arrows indicate ACSL4 expression. The scale bar represents 50 μm. (F–G) Correlation analysis of ACSL4 mRNA levels and kidney \r\nfunction indicator BUN or blood CRE levels in mice. The Pearson correlation statistic test was used for data analysis. N=10. **p < 0.01, ***p < 0.001, compared to \r\nthe CON group. \r\nY. Wang et al. \nRedox Biology 51 (2022) 102262\r\n4\r\n(caption on next page) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "Y. Wang et al. \nRedox Biology 51 (2022) 102262\r\n5\r\nBiosystems, USA) with gene-specific primers. The amount of RNA was \r\ncalculated using the comparative threshold cycle method. All primers \r\nwere custom-made by Genscript. The primer sequences are shown in \r\nSupplementary Table 1. \r\n2.8. Western blotting \r\nThe samples were lysed in RIPA buffer containing enzyme-inhibitor \r\ncomplex. Subsequently, the concentration of the protein sample was \r\nmeasured using the Bradford method. Samples were then electro\u0002phoresed, and transferred onto PVDF membranes. After blocking for 1 h, \r\nthe samples were incubated with ACSL4 (Abcam, ab155282, 1:5000), \r\nHIF-1α (Abcam, 36169S, 1:1000) or HIF-2α (Abcam, 59973S, 1:1000) at \r\n4 ◦C overnight. The blots were then incubated with secondary anti\u0002bodies, and signaling was obtained with chemiluminescence reagents \r\nand measured using the Image J software. \r\n2.9. Renal function, histology, and immunohistochemistry analyses \r\nSerum creatinine (Nanjing Jiancheng Bioengineering Institute, \r\nC011-2-1, Nanjing, China) and BUN (Nanjing Jiancheng Bioengineering \r\nInstitute, A003-2, Nanjing, China) were two important markers for \r\nkidney function 18, and were detected as manufacturer’s protocols. \r\nRenal injury scores were performed on hematoxylin & eosin stained \r\nkidney sections and assessed by a pathologist blinded to the experiment, \r\nas described before 22. For immunohistochemistry, antigenic recovery \r\nwas performed as follows: the slices were placed in 0.01 mol/L pH 6.0 \r\ncitric acid buffer with a microwave oven on high heat until boiling, then \r\nturned to medium heat and kept above 95 ◦C for 20 min, cooled natu\u0002rally to room temperature. Then, ACSL4 (1:500, Abcam, ab155282) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "antibody was used to detect the ACSL4 expression, whereas F4/80 \r\nantibody (1:100, Cat No.70076S; CST, USA) and MPO antibody (1:50, \r\nCat No. ab9535; Abcam, UK) was used to detect the macrophages and \r\nneutrophils in kidney tissues. All the primary antibodies were added in \r\n10% goat serum in PBST with appropriate concentration at 4 ◦C over\u0002night. The secondary antibody (HRP secondary antibodies, Cat No. KIT\u00025002 or KIT-5005; MXB Biotechnologies, China) was added with 10% \r\ngoat serum in PBST for 1 h at room temperature. An Olympus BX41 \r\nmicroscope was used to obtain images. \r\n2.10. Immunofluorescent staining \r\nThe kidney of ACSL4F/F and cdh16-Cre/ACSL4F/F mice were snap\u0002frozen in liquid nitrogen and placed in an optimal cutting temperature \r\nembedding matrix. Frozen sections (10 μm) were fixed in icy acetone for \r\n10 min then washed using PBS. Then, sections were stained with ACSL4 \r\n(1:250, Abcam, ab155282) antibody or Cytokeratin 18 (1:200, Pro\u0002teintech, 66187-1-Ig) antibody followed by staining of secondary Goat \r\nanti-Rabbit IgG (H+L) Cross-Adsorbed Secondary Antibody, Alexa Fluor \r\n488 (Thermo Fisher, A11008), or Goat anti-Mouse IgG (H+L) Highly \r\nCross-Adsorbed Secondary Antibody, Alexa Fluor 633 (Thermo Fisher, \r\nA21052), respectively. A Carl Zeiss LSM700 laser confocal microscope \r\nwas used to obtain images. \r\nKidney cell death was labeled by TUNEL staining (Beyotime, cat \r\nnumber: C1088) as previously described for details [22,33]. Briefly, the \r\ntissue sections were dewaxed using xylene then permeabilized with \r\n0.1% Triton X-100. Sections were then incubated with TUNEL for 1 h at \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "37 ◦C, then counterstained with DAPI (Beyotime, cat number: C1005). \r\nThe FITC-labeled TUNEL-positive cells were imaged under a fluorescent \r\nmicroscope and cells with green fluorescence were defined as tissue \r\ncell-death (Carl Zeiss LSM700). \r\n2.11. Transfection \r\nLentiviral HIF-1α or HIF-2α shRNA (Aikande Biological Company, \r\nChina) were used to transfect HK-2 cells with Polybrene polybrene A at \r\nthe concentration of 5 μg/ml (Gene-Pharma, Shanghai), as per the \r\nmanufacturer’s instructions. \r\n2.12. HIF-1α/ACSL4 dual-luciferase reporter system \r\nThe 3′\r\n-UTR of the corresponding gene containing HIF-1α binding \r\nsites were amplified using overlap PCR and cloned downstream of the \r\ndual-luciferase reporter gene assay in the pmirGLO vector. HK-2 cells \r\nwere transfected with 100 ng reporter plasmids, 100 nmol/L HIF-1α \r\npcDNA3.1-3xFlag-C plasmids, and ACSL4 promoter pGL3-Basic plas\u0002mids for 48 h. Subsequently, the cells were assayed using the dual\u0002luciferase reporter gene assay kit (RG-027, Beyotime, Nanjing, China). \r\nDual-luciferase activities were normalized to firefly luciferase activities. \r\n2.13. Chromatin immunoprecipitation assay \r\nThe HK-2 cells were digested and plated on a 15 cm dish (about 4 ×\r\n106 cells per immunoprecipitation) in 21% O2 and 1% O2 for 24 h. \r\nThereafter, the cells were counted, fixed with formaldehyde, washed \r\nusing 1 × PBS. SimpleChIP® Plus Enzymatic Chromatin IP Kit (Cell \r\nsignaling technology, Magnetic Beads, cat number: 9005) was then used \r\nfor subsequent experiment cell culture cross-linking and sample prepa\u0002ration. The antibodies HIF-1α (Abcam, 36169S, 1:1000), Histone H3 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "(D2B12) XP® rabbit mAb (ChIP Formulated) 4620 and normal rabbit \r\nIgG 2729 in the SimpleChIP® Plus Enzymatic Chromatin IP Kit (Cell \r\nsignaling technology, Magnetic Beads, cat number: 9005) were used in \r\nChIP experiments. The real-time PCR machine software was used to \r\nanalyze quantitative PCR results. The signal obtained from each \r\nimmunoprecipitation was expressed as a percentage of the total input \r\nchromatin. Percent input = 2% × 2 (C[T] 2% input sample - C[T] IP \r\nsample), C[T]=CT=Threshold cycle of PCR reaction. The primer se\u0002quences are shown in Supplementary Table 1. \r\n2.14. Determination of MDA levels of kidney tissue \r\nMDA activity assay kits were used to detect MDA levels in kidney \r\ntissues as per the manufacturer’s protocols (Nanjing Jiancheng Bioen\u0002gineering Institute, C013-2-1, Nanjing, China). MDA contents were \r\ndetected at 450 nm. MDA concentration was normalized by total protein \r\nconcentration, which was measured using the Bradford method. \r\nFig. 2. HIF-1α binds to the ACSL4 promoter and negatively regulates ACSL4. All the cells in the hypoxia environment were cultured for 24 h. (A) A table sum\u0002marizing the results of the RNA-seq data in CON and I/R groups obtained via gene ontology. N=3. (B) WB and RT-PCR results of HIF-1α, HIF-2α, ACSL4 in I/R\u0002induced AKI kidney tissues. N=6. (C)Protein expression levels of HIF-1α, HIF-2α, ACSL4 determined in 52E and HK-2 cells after culturing cells in 1% O2 hypoxia \r\nfor 24 h. N=3. (D) RT-PCR results of HIF-1α, HIF-2α, and ACSL4 in 52E and HK-2 cells. N=3. (E) The HIF-1α and HIF-2α knockdown of HK-2 cells cultured under 1% \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "O2 hypoxia for 24 h and WB results showing the expression of HIF-1α, HIF-2α, and ACSL4. N=3. (F, G) RT-PCR results showing the expression of ACSL4 after \r\nknockdown of HIF-1α, HIF-2α or after treatment with HIF-1α inhibitor BAY 87–2243 (10 μM) or HIF-2α inhibitor PT2385 (10 μM) for 24 h. N=3. (H) The cell viability \r\ndetected by SRB after the knockdown of HIF-1α treated with Erastin (1 μM). Troglitazone (1 μM) was added at the same time as Erastin. N=5. (I) RT-PCR results \r\nshowed the CCL2 mRNA levels in the treated cells. N=4. (J) RT-PCR results showing the efficiency of HIF-1α overexpression in plasmid transfected into HK-2 cells, \r\nand Luciferase results showing the interaction between HIF-1α and ACSL4. N=3. (K) WB results showing the distribution and expression of HIF-1α and ACSL4 in HK\u00022 cells at 21% O2 and 1% O2. N=3. (L) The database predicting the binding site of HIF-1α and ACSL4. The Chip immunoprecipitation experiments of HK-2 cells \r\nshowed the binding sites at 20% O2 or 1% O2 (24 h). N=3. *p < 0.05, **p < 0.01, ***p < 0.001, compared to CON or shNC groups. \r\nY. Wang et al. \nRedox Biology 51 (2022) 102262\r\n6\r\n(caption on next page) \r\nY. Wang et al. \nRedox Biology 51 (2022) 102262\r\n7\r\n2.15. Cell isolation and flow cytometry \r\nKidneys were cut into 1–2 mm3 pieces, incubated in DMEM con\u0002taining 2 mg/ml Collagenase Type I at 37 ◦C for 30 min as previously \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "described [34]. Then the cell suspension was filtered through a BD cell \r\nstrainer (40 μm). Antibodies used for kidney immune cells were as fol\u0002lows: CD45 (FITC), CD11b (PE), Ly6G (PECY7), CD4 (APC), CD8 \r\n(PECY7), F4/80 (FITC). Cells were analyzed using the MACSQuant \r\nAnalyzer 10 (Miltenyi Biotec). Flow cytometry analysis was conducted \r\nusing the FlowJo software. \r\n2.16. Macrophage phagocytosis experiment \r\nPhagocytosis was detected through flow cytometry as previously \r\nreported [35]. 52E cells were transfected with labeled GFP lentivirus, \r\nthen co-incubated with iBMDM cells for 2 h. Macrophages were incu\u0002bated using PE-labeled CD11b antibody and detected through flow \r\ncytometry. \r\n2.17. Neutrophil migration assay \r\nNeutrophils were extracted from the femur and tibia of mice. Briefly, \r\nthe bone marrow cells were extracted with PBS, then incubated with \r\nRBC lysate, and centrifuged at 2000 rpm for 5 min. Eventually, neu\u0002trophils were harvested through density gradient centrifugation with \r\n81% and 62% percoll solutions. Neutrophils (1 × 106 cells) were seeded \r\nin the top chamber, and the ferroptotic cells (52E cells treated with Era) \r\nand iBMDMs (5 × 105 cells) were seeded in the bottom chamber. \r\nMigrated cells were counted using Image J. \r\n2.18. Statistical analysis \r\nStatistical analysis was conducted using the GraphPad Prism 8.3.0 \r\nand data were presented as the mean ± SEM. Student’s t-test between \r\ntwo groups or one-way ANOVA followed by Dunnett’s post hoc test in \r\ngroups of more than two was used to establish statistical significance. \r\nCorrelation analysis was performed using the Pearson correlation sta\u0002tistical analysis. P < 0.05 was considered statistically significant. \r\n3. Results \r\n3.1. ACSL4 is highly expressed in AKI kidney tissues \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "Ferroptosis promotes AKI [7,19,36], nonetheless, its mechanism is \r\nunclear. Herein, RNA-seq sequencing results showed that among the \r\nseveral key pathway genes related to ferroptosis, like glutathione \r\nperoxidase 4 (GPX4), ferroptosis suppressor protein 1 (FSP1), ACSL4, \r\nand voltage dependent anion channels 2 and 3 (VDAC2/3), only ACSL4 \r\nwas upregulated in AKI kidney tissues of I/R-induced mice (Fig. 1A). \r\nQ-PCR, WB, and immunohistochemistry were used to detect ACSL4 \r\nexpression levels. Consistently, both the mRNA and protein levels of \r\nACSL4 were upregulated in the kidney tissue of both I/R and FA-induced \r\nAKI mice, specifically in the renal tubular cells (Fig. 1B–E). Moreover, \r\nthe mRNA levels of ACSL4 were significantly and positively correlated \r\nwith BUN and blood CRE in both FA-AKI and I/R-AKI mice (Fig. 1F and \r\nG). Therefore, ACSL4 is highly expressed in AKI and positively corre\u0002lated with AKI severity. \r\n3.2. HIF-1α binds to ACSL4 promoter and negatively regulates ACSL4 \r\nThe RNA-seq data were re-analyzed to assess the pathway mecha\u0002nism of ACSL4 in AKI. The results showed that the HIF-1 signaling \r\npathway was enriched (Fig. 2A). HIF-1 signal is widely reported in AKI. \r\nMoreover, agonists of HIF-1α inhibit AKI [37–41]. WB and RT-PCR an\u0002alyses showed that HIF-1α and HIF-2α were down-regulated in AKI, \r\nwhile the ACSL4 levels were upregulated (Fig. 2B). Hypoxia (1% O2) was \r\nthen used to induce HIF expression and explore its effect on ACSL4. The \r\nhypoxia upregulated the protein and mRNA levels of both HIF-1α and \r\nHIF-2α, while it downregulated the levels of ACSL4 (Fig. 2C and D). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "Then, HIF-1α and HIF-2α knockdown in HK-2 cells were constructed, \r\nand the knockdown efficacies were confirmed in both mRNA and protein \r\nlevels. Besides, the mRNA level of aryl hydrocarbon receptor nuclear \r\ntranslocator (ARNT), the HIF-1α/2α partner protein, was not knocked \r\ndown by shHIF-1α/2α, but slightly and maybe compensatorily increased \r\n(Fig. S1). Nonetheless, only the knockdown of HIF-1α significantly \r\nupregulated the expression level of ACSL4 (Fig. 2E and F). Similarly, \r\nBAY 87-2243-a, HIF-1α inhibitor, upregulated the ACSL4 mRNA levels. \r\nHowever, PT2385, HIF-2α inhibitor, did not upregulate ACSL4 mRNA \r\nlevels (Fig. 2G). Furthermore, HIF-1α knockdown upregulated HK-2 cell \r\nsusceptibility to ferroptosis while inhibitor of ACSL4 reversed its effect \r\n(Fig. 2H). Also, the mRNA levels of CCL2 were increased by HIF-1α \r\nknockdown (Fig. 2I). A chromatin immunoprecipitation assay was \r\nconducted to explore the mechanism underlying the regulation of \r\nHIF-1α on ACSL4. The HIF-1α overexpression plasmid was first trans\u0002fected into HK-2 cells. The luciferase experiment showed that HIF-1α \r\ninhibited ACSL4 expression (Fig. 2J). Then, the cytoplasm and nucleus \r\nof HK-2 cells were isolated at 21% O2 or 1% O2 conditions. As a \r\nconsequence, HIF-1α and ACSL4 were expressed in the nucleus and \r\ncytoplasm, respectively (Fig. 2K). Finally, the Chip experiment revealed \r\nthat HIF-1α could bind to the promoter of ACSL4 and disrupt ACSL4 \r\nexpression (Fig. 2L). In summary, the results showed that HIF-1α could \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "bind to ACSL4 promoter and negatively regulate ACSL4. The down\u0002regulated expression of HIF-1α in AKI may cause the high expression of \r\nACSL4, thereby inducing ferroptosis. \r\n3.3. ACSL4 knockout protects the kidney in I/R-induced AKI \r\nACSL4 renal tubular conditional knockout mice were developed to \r\ninvestigate the role of ACSL4 in AKI. The ACSL4 knockout efficacy was \r\nconfirmed, and the results showed that the expression levels of ACSL4 \r\nprotein and mRNA in the kidney tissues were significantly down\u0002regulated in Cdh16Cre-ACSL4F/F mice compared to that in ACSL4F/F \r\nmice (Fig. 3A and B). The body weight, kidney/spleen/thymus index, \r\nlevels of BUN, CRE, and blood routine cell changes showed no difference \r\nin both Cdh16Cre-ACSL4F/F and ACSL4F/F mice in the normal situation \r\n(Figs. S2A–S2D). Then, I/R-induced AKI was conducted in ACSL4F/F and \r\nCdh16Cre-ACSL4F/F mice. Immunofluorescent staining, immunohisto\u0002chemical staining, and PCR results showed downregulated ACSL4 \r\nexpression level in the kidney of Cdh16Cre-ACSL4F/F mice, particularly \r\nin tubular epithelial cells, since ACSL4 was colocalized with tubular \r\nepithelial marker Cytokeratin18 (CK18) (Fig. 3C, D and 3E). The \r\nexpression levels of GPX4 and Ptgs2 mRNA were upregulated and \r\ndownregulated respectively in Cdh16Cre-ACSL4F/F mice (Fig. 3E). \r\nInactivation of GPX4, an essential antioxidant peroxidase directly causes \r\nferroptosis [42]. While Ptgs2 is also a known increased marker in fer\u0002roptosis [43,44]. Therefore, these results confirm the inhibition of \r\nFig. 3. Knockout of renal ACSL4 has a protective effect on AKI. (A–B) The knockout efficiency of ACSL4 in normal mice kidney examined using RT-PCR and Western \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "blot. N=6. (C) Representative ACSL4 and CK18 immunofluorescent staining pictures in the kidney tissues of Cdh16Cre/ACSL4F/F and ACSL4F/F normal mice. (D) \r\nRepresentative ACSL4 immunohistochemical staining in the kidney tissues of Cdh16Cre/ACSL4F/F and ACSL4F/F mice after AKI. (E) The expression levels of fer\u0002roptosis markers GPX4, Ptgs2, and ACSL4 in Cdh16Cre/ACSL4F/F and ACSL4F/F mice detected by RT-PCR. N=6. (F) The levels of MDA in kidney tissue of Cdh16Cre/ \r\nACSL4F/F and ACSL4F/F mice after AKI. N=5–6. (G) The blood CRE and BUN content of Cdh16Cre/ACSL4F/F and ACSL4F/F mice after AKI. N=6. (H) HE staining of \r\nCdh16Cre/ACSL4F/F and ACSL4F/F mice after AKI. N=6. (I) TUNEL staining of Cdh16Cre/ACSL4F/F and ACSL4F/F mice after AKI. N=6. *p < 0.05, **p < 0.01, ***p <\r\n0.001, compared to Sham group; #p < 0.05, ##p < 0.01, ###p < 0.001, compared to ACSL4F/F group. \r\nY. Wang et al. \nRedox Biology 51 (2022) 102262\r\n8\r\n(caption on next page) \r\nY. Wang et al. \nRedox Biology 51 (2022) 102262\r\n9\r\nferroptosis in Cdh16Cre-ACSL4F/F mice. Furthermore, the lipid oxida\u0002tion product MDA content was significantly reduced in kidney tissue of \r\nCdh16Cre-ACSL4F/F mice (Fig. 3F) The contents of BUN and blood CRE \r\nwere significantly decreased (Fig. 3G). Besides, the pathological damage \r\nof the kidney was alleviated in Cdh16Cre-ACSL4F/F mice (Fig. 3H), as \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "well as dead cells stained with TUNEL (Fig. 3I), indicates a protective \r\neffect of ACSL4 knockout on I/R-induced AKI. Thus, ACSL4 knockout in \r\nrenal tubular inhibits I/R-induced AKI by targeting ferroptosis. \r\n3.4. Cdh16Cre-ACSL4F/F inhibits the inflammatory reaction in I/R\u0002induced AKI \r\nDespite tubular cell death, inflammation is also considered a key \r\nplayer in AKI [7]. Ferroptosis is a pro-inflammatory agent and recruits \r\nmacrophages, causing inflammation in AKI [22]. Herein, RNA sequence \r\nanalysis revealed that gene levels were significantly changed in the \r\nACSL4F/F I/R group. In contrast, the gene levels were normal in the \r\nCdh16Cre-ACSL4F/F group (Fig. 4A). Cdh16Cre-ACSL4F/F decreased the \r\nhigh levels of inflammatory factors, including Mmp8, Hmox1, Lcn2, \r\nCxcl2, Cxcl1, Stat3, Cxcl3, IL-6 (Fig. 4B). The signaling pathways of \r\ndifferentially expressed genes were cytokine-cytokine receptor interac\u0002tion and TNF signaling pathways (Fig. S3). RT-PCR results showed that \r\nthe mRNA levels of chemokines (CCL2) and inflammatory factors (IL-1β \r\nand IL-6) were significantly reduced in the kidney tissue of \r\nCdh16Cre-ACSL4F/F mice (Fig. 4C). Flow cytometry analysis showed \r\nthat the infiltration of CD11b+F4/80+ macrophages was significantly \r\nreduced in the kidneys of Cdh16Cre-ACSL4F/F mice (Fig. 4D). Also, \r\nroutine blood tests and immunohistochemical experiments showed \r\nlower monocytes and less infiltration of macrophages in the kidney of \r\nCdh16Cre-ACSL4F/F mice (Fig. 4E and F). Collectively, consistent with \r\nprevious findings, the results show that ACSL4 knockout reduces \r\ninflammation and macrophage aggregation in the kidney of I/R-induced \r\nmice [22]. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "Although ferroptotic cells recruit macrophages [22], the role of fer\u0002roptotic cells in macrophages is unclear. Flow cytometry was used to \r\ndetect macrophage phagocytosis on ferroptotic cells (Fig. S4). Conse\u0002quently, macrophages phagocytized several ferropotic cells (Fig. 4G). \r\nFurther, ferroptotic cells significantly caused M1 polarization of mac\u0002rophages, upregulating the M1 macrophage markers, including IL-6, \r\niNOS, and TNF-α (Fig. 4H). Moreover, CXCL1 and CXCL2, the major \r\nneutrophil chemokines, were substantially increased in macrophages \r\nco-cultured with ferroptotic cells (Fig. 4H). \r\n3.5. Ferroptotic cells induce macrophages to recruit neutrophils \r\nIn addition to macrophages, neutrophils are inflammatory cells and \r\npromote AKI [45–47]. Neutrophil chemokines were significantly \r\nincreased in AKI and decreased in Cdh16Cre-ACSL4F/F mice (Figs. 4B \r\nand 5A). Also, flow cytometry, routine blood test, and immunohisto\u0002chemical experiment confirmed the downregulating effect of \r\nCdh16Cre-ACSL4F/F on neutrophils (Fig. 5B–D). Therefore an in vitro \r\nchemotaxis experiment was conducted using ferroptotic cells and neu\u0002trophils to identify whether neutrophils are also recruited by ferroptotic \r\ncells. However, neutrophils were not recruited by ferroptotic cells \r\n(Fig. 5E). Besides, chemokines were not induced by ferroptotic cells \r\n(Fig. 5F). Reports indicate that macrophages release chemokines to re\u0002cruit granulocytes to the injury site [48]. So, ferroptotic cells might \r\ninduce macrophages to recruit neutrophils due to the upregulated \r\nexpression levels of CXCL1 and CXCL2 by ferroptotic cells-induced \r\nmacrophages (Fig. 4H). In vitro chemotaxis experiment also showed \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "neutrophil recruitment by macrophages (Fig. 5G). Furthermore, fer\u0002roptosis inhibitor Fer-1 downregulated the expression levels of CXCL1, \r\nCXCL2, and neutrophil infiltration in the kidney (Fig. 5H and I) in vivo. \r\nTherefore, ferroptotic cells indirectly recruit neutrophils, providing \r\nanother pro-inflammatory effect of ferroptosis in AKI. Nonetheless, \r\nCdh16Cre-ACSL4F/F effectively inhibits this pro-inflammatory effect. \r\n3.6. ACSL4 inhibitor rosiglitazone (Rosi) protects the renal function of \r\nAKI by inhibiting ferroptosis and inflammation \r\nACSL4 inhibitor Rosi was administered to further confirm the role of \r\nACSL4 in AKI. As a consequence, lower blood CRE, kidney index, and \r\nalleviated pathological kidney damage in the I/R+Rosi group \r\n(Fig. 6A–C). Additionally, TUNEL staining showed a decrease of Rosi on \r\nkidney cell death (Fig. S5). Consistently, Rosi downregulated the levels \r\nof ACSL4, CCL2, CXCL1, and CXCL2 (Fig. 6D). Immunohistochemistry \r\nand flow cytometry revealed less renal macrophage infiltration in the I/ \r\nR+Rosi group (Fig. 6E and F). In general, these findings indicate that \r\nRosi has a protective effect on AKI and reduces the infiltration of in\u0002flammatory cells, indicating the crucial role of ACSL4 in AKI. \r\n4. Discussion \r\nThis study demonstrated that ferroptosis is implicated in the in\u0002flammatory responses of kidneys in AKI, and ACSL4 is the primary \r\ntrigger for ferroptosis in AKI. ACSL4 inhibition protects the kidney from \r\nI/R-induced kidney injury. Previous studies reported that AKI is asso\u0002ciated with apoptosis [49,50], necrosis [12,51], and autophagy [52,53]. \r\nHowever, our work and previous studies have confirmed that ferroptosis \r\nis a potential pathway in the pathology of AKI [18,22,54]. Studies on \r\nkidney tubular cell lines treated with tertbutyl hydroperoxide [55] as \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 469,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "well as freshly isolated tubules treated with iron and hydroxyquinoline \r\nreveal that ferrostatin-1 substantially increased cellular survival [56]. \r\nBesides, experiments revealed that lack of ferritin heavy chain in prox\u0002imal tubular cells worse renal injury, suggesting that iron is involved in \r\nthe pathophysiology of AKI [57]. Moreover, among 60 cancer cell lines \r\nthat induced ferroptosis with erastin, renal cell carcinomas are the most \r\nsensitive [42]. Therefore, ferroptosis is a potential therapeutic target for \r\ndiseases contributed by kidney tubular death, including ischemic, \r\ncisplatin nephrotoxic, and rhabdomyolysis-induced AKI [58–60]. \r\nACSL4 is related to cell death sensitivity and is considered as a fer\u0002roptosis maker [25,26]. In line with previous studies, we also found that \r\nACSL4 is upregulated in the kidney tissue of AKI through analysis of \r\nkidney RNA-seq and other experiments. Then, we selected the Cdh16Cre \r\nmouse to knock out ACSL4 in tubules. Besides, ACSL4F/F and \r\nCdh16Cre-ACSL4F/F mice were similar in normal conditions. Neverthe\u0002less, genetic knockout of ACSL4 and ACSL4 inhibitor rosiglitazone \r\nsignificantly improved renal function, inhibited pathological kidney \r\ndamage, as well as decreased inflammatory factors and immune cell \r\ninfiltration in the kidney of the I/R-induced AKI group. This indicates \r\nthat ACSL4 prevents and treats AKI. Nonetheless, rosiglitazone has been \r\nrestricted due to its significant adverse reactions during its clinical use. \r\nTherefore, it is necessary to explore a novel compound in the future [61, \r\n62]. \r\nKEGG analysis of kidney tissues revealed that HIF-1 signaling path\u0002ways between CON and I/R groups were significantly different. Previous \r\nFig. 4. Knockdown of renal ACSL4 inhibits the release of renal inflammatory factors. (A) The heatmap of RNA-seq in the kidney of three groups. N=3. (B) A heatmap \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 472,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "showing the differentially expressed genes related to inflammatory responses in ACSL4F/F and Cdh16Cre/ACSL4F/F groups. N=3. (C) RT-PCR analysis of CCL2, IL-6, \r\nand IL-1β mRNA in kidney tissues of three groups. N=6. (D) The proportion of macrophages in the kidney tissue of mice detected by flow cytometry. N=6. (E) The \r\nblood mononuclear detected through blood routine detection. N=6. (F) Staining of macrophages in kidney tissue. The scale bars represent 100 μm and 50 μm. N=6. \r\n(G) Flow cytometry analysis of macrophages phagocytosis of control or ferroptotic cells. Ferroptosis was induced by Erastin. N=6. (H) The mRNA expression of IL-6, \r\niNOS, TNF-α, TGF-β, Arg-1, CXCL1, and CXCL2 in macrophages after co-incubation with ferroptotic cells. N=4. *p < 0.05, **p < 0.01, ***p < 0.001, compared to the \r\nSham group; #p < 0.05, ##p < 0.01, ###p < 0.001, compared with the ACSL4F/F group. \r\nY. Wang et al. \nRedox Biology 51 (2022) 102262\r\n10\r\nFig. 5. Macrophages recruit neutrophils by secreting neutrophil chemokines. (A) RT-PCR analysis of CXCL1 and CXCL2 in kidney tissue of three groups. N=4. (B) \r\nFlow cytometry statistics of CD11b+Ly6G+ neutrophils in the kidney of three groups. N=6. (C–D) Blood routine test and immunohistochemical staining showing \r\nneutrophil expressions in the kidney of mice. The MPO antibody was stained in the kidney to indicate the neutrophil. The scale bars represent 50 μm. N=6. (E) The \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "migrated neutrophils with crystal violet staining induced by ferroptotic 52E cells. N=3. (F) The expression of CXCL1 and CXCL2 mRNA levels in ferroptotic 52E cells. \r\nN=4. (G) The migrated neutrophils with crystal violet staining induced by macrophages and control or ferroptotic 52E cells. N=3. (H) RT-PCR results of CXCL1and \r\nCXCL2 in the mice kidneys. N=6. (I) Flow cytometry and analysis of CD11b+Ly6G+ neutrophil cells in the mice kidneys. N=6. *p < 0.05, ***p < 0.001, compared to \r\nsham or CON group; #p < 0.05, ###p < 0.001, compared with ACSL4F/F or FA groups. (For interpretation of the references to colour in this figure legend, the reader \r\nis referred to the Web version of this article.) \r\nY. Wang et al. \nRedox Biology 51 (2022) 102262\r\n11\r\nFig. 6. ACSL4 inhibitor rosiglitazone (Rosi) protects the renal function of AKI by inhibiting ferroptosis and inflammation. (A–B) BUN and blood CRE levels and \r\nkidney coefficient in mice. (C) Representative HE staining and pathological scores of the kidneys. The scale bars represent 50 μm and 100 μm. (D) RT-PCR results of \r\nACSL4, CCL2, CXCL1, and CXCL2 in mice kidneys. (E) Representative F4/80 staining images and mean F4/80 positive cells in the kidney. The scale bar represents 50 \r\nμm. (F) The ratio of CD11b+F4/80+ macrophage cells in the kidney tissue of I/R-induced AKI detected by flow cytometry. **p < 0.01, ***p < 0.001, compared to \r\nSham group; #p < 0.05, ##p < 0.01, ###p < 0.001, compared to I/R group. N=6. \r\nY. Wang et al. \nRedox Biology 51 (2022) 102262\r\n12\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "studies demonstrated that the HIF pathway is involved in kidney injury \r\nand AKI repair [37,63]. HIF prolyl hydroxylases inhibitor FG-4592 or \r\nrecombinant HIF-1α protein treatment significantly ameliorates AKI \r\nkidney injury by improving renal function and kidney morphology [40, \r\n64]. HIF-1α and HIF-2α were downregulated in the I/R-induced AKI \r\nmodel, while ACSL4 was upregulated. During hypoxia, ACSL4 in both \r\n52E cells and HK-2 cells was significantly downregulated, accompanied \r\nby upsurges of HIF-1α and HIF-2α. However, knockdown of HIF-1α but \r\nnot HIF-2α upregulated the expression level of ACSL4, indicating a \r\nnegative regulation of HIF-1α on ACSL4. As expected, knockdown of \r\nHIF-1α rendered cells susceptible to erastin-induced ferroptosis. For the \r\nmechanism behind the regulation of HIF-1α on ACSL4, we found that \r\nHIF-1α could bind to the promoter of ACSL4 and may regulate ACSL4. \r\nHIF-1α is known as a transcriptionally active nuclear protein with a \r\nbroad target gene spectrum, including nearly 100 target genes related to \r\nhypoxia adaptation, inflammation development and tumor growth. We \r\nonly found the binding of HIF-1α on the ACSL4 promoter, However, the \r\ncomprehensive mechanism by which this combination inhibits the \r\nexpression warrants further exploration. This finding suggests an \r\ninteresting concept that activation of HIF-1α may ease AKI, which also \r\neffectively fits well with evidence and discussion before HIF-1α upre\u0002gulation becomes beneficial to AKI [40]. \r\nVarious cell deaths release and activate different damage-related \r\nmolecular patterns (DAMP) signals, thereby initiating a signal cascade \r\nand promoting the release of several inflammatory factors. This triggers \r\na strong inflammatory response, and in turn a vicious cycle between cell \r\ndeath and inflammation [65]. RNA-sequence showed that several \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "inflammation-related genes are significantly upregulated in kidney tis\u0002sue of mice in the I/R group. We previously found that ferroptotic cells \r\nrecruit macrophages by secreting CCL2 [22]. Moreover, ferroptotic cells \r\npolarized macrophages into M1 types. In the kidney of AKI, macro\u0002phages and neutrophils were increased. However, neutrophils could not \r\nbe directly recruited by ferroptotic cells. Interestingly, ferroptotic cells \r\ncould induce macrophages to release CXCL1 and CXCL2, which then \r\naggregated neutrophils in the kidney. Inhibition of ferroptosis could \r\nblock both the infiltration of macrophages and neutrophils in AKI mice \r\nkidneys. These findings further unravel the mystery of cell \r\ndeath-induced inflammation. \r\nIn conclusion, this study shows ACSL4 knockout prevents AKI by \r\ninhibiting ferroptosis and inflammation. We found that (i) ACSL4 is a \r\npotential target in preventing and treating AKI by inhibiting ferroptosis; \r\n(ii) HIF-1α binds to the promoter of ACSL4 and negatively regulates its \r\nexpression; (iii) Ferroptotic cells recruit macrophages and stimulate \r\nmacrophages to recruit neutrophils, thereby causing an inflammatory \r\ncascade reaction in AKI. Our findings provide a reference for the \r\ndevelopment of novel therapeutic approaches for AKI and ferroptosis\u0002related diseases. \r\nAuthor contributions \r\nX.G., Y.W., and Q.C. designed research; Y.W., Q.C., R.B., M.Z., F.Q., \r\nY.L., C.Y., X.C. Q.Z., S.L., Y.S., and X.G. performed research; Y.W. and X. \r\nG. analyzed data; Y.Y., D.Z., M.Z., Y.W., and X.G. wrote the paper. \r\nDeclaration of competing interest \r\nThe authors declare no competing financial interests. \r\nAcknowledgments \r\nThis work was supported by National Natural Science Foundation of \r\nChina grants (82072720). \r\nAppendix A. Supplementary data \r\nSupplementary data to this article can be found online at https://doi. \r\norg/10.1016/j.redox.2022.102262. \r\nReferences \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "[1] N.H. Lameire, A. Bagga, D. Cruz, et al., Acute kidney injury: an increasing global \r\nconcern, Lancet 382 (2013) 170–179. \r\n[2] A.J. Lewington, J. Cerda, R.L. Mehta, Raising awareness of acute kidney injury: a \r\nglobal perspective of a silent killer, Kidney Int. 84 (2013) 457–467. \r\n[3] A.S. Levey, M.T. James, Acute kidney injury, Ann. Intern. Med. 167 (2017) \r\nITC66–ITC80. \r\n[4] E.D. Siew, S.K. Parr, K. Abdel-Kader, et al., Predictors of recurrent AKI, J. Am. Soc. \r\nNephrol. 27 (2016) 1190–1200. \r\n[5] N. Pannu, M.K. Nadim, An overview of drug-induced acute kidney injury, Crit. Care \r\nMed. 36 (2008) S216–S223. \r\n[6] J.V. Bonventre, L. Yang, Cellular pathophysiology of ischemic acute kidney injury, \r\nJ. Clin. Invest. 121 (2011) 4210–4221. \r\n[7] A. Linkermann, G. Chen, G. Dong, et al., Regulated cell death in AKI, J. Am. Soc. \r\nNephrol. 25 (2014) 2689–2701. \r\n[8] G.P. Kaushal, A.B. Singh, S.V. Shah, Identification of gene family of caspases in rat \r\nkidney and altered expression in ischemia-reperfusion injury, Am. J. Physiol. 274 \r\n(1998) F587–F595. \r\n[9] P. Li, M. Shi, J. Maique, et al., Beclin 1/Bcl-2 complex-dependent autophagy \r\nactivity modulates renal susceptibility to ischemia-reperfusion injury and mediates \r\nrenoprotection by Klotho, Am. J. Physiol. Ren. Physiol. 318 (2020) F772–F792. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "[10] A. Linkermann, J.H. Brasen, N. Himmerkus, et al., Rip1 (receptor-interacting \r\nprotein kinase 1) mediates necroptosis and contributes to renal ischemia/ \r\nreperfusion injury, Kidney Int. 81 (2012) 751–761. \r\n[11] A. Linkermann, J.H. Brasen, M. Darding, et al., Two independent pathways of \r\nregulated necrosis mediate ischemia-reperfusion injury, Proc. Natl. Acad. Sci. U. S. \r\nA. 110 (2013) 12024–12029. \r\n[12] Y. Xu, H. Ma, J. Shao, et al., A role for tubular necroptosis in cisplatin-induced AKI, \r\nJ. Am. Soc. Nephrol. 26 (2015) 2647–2658. \r\n[13] Z. Wang, Z. Gu, Q. Hou, et al., Zebrafish GSDMEb cleavage-gated pyroptosis drives \r\nseptic acute kidney injury in vivo, J. Immunol. 204 (2020) 1929–1942. \r\n[14] S. Jiang, H. Zhang, X. Li, et al., Vitamin D/VDR attenuate cisplatin-induced AKI by \r\ndown-regulating NLRP3/Caspase-1/GSDMD pyroptosis pathway, J. Steroid \r\nBiochem. Mol. Biol. 206 (2021) 105789. \r\n[15] C. Xiao, H. Zhao, H. Zhu, et al., Tisp40 induces tubular epithelial cell GSDMD\u0002mediated pyroptosis in renal ischemia-reperfusion injury via NF-kappaB signaling, \r\nFront. Physiol. 11 (2020) 906. \r\n[16] S.J. Dixon, K.M. Lemberg, M.R. Lamprecht, et al., Ferroptosis: an iron-dependent \r\nform of nonapoptotic cell death, Cell 149 (2012) 1060–1072. \r\n[17] Y. Xie, W. Hou, X. Song, et al., Ferroptosis: process and function, Cell Death Differ. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "23 (2016) 369–379. \r\n[18] A. Linkermann, R. Skouta, N. Himmerkus, et al., Synchronized renal tubular cell \r\ndeath involves ferroptosis, Proc. Natl. Acad. Sci. U. S. A. 111 (2014) 16836–16841. \r\n[19] D. Martin-Sanchez, O. Ruiz-Andres, J. Poveda, et al., Ferroptosis, but not \r\nnecroptosis, is important in nephrotoxic folic acid-induced AKI, J. Am. Soc. \r\nNephrol. 28 (2017) 218–229. \r\n[20] Z. Hu, H. Zhang, S.K. Yang, et al., Emerging role of ferroptosis in acute kidney \r\ninjury, Oxid. Med. Cell. Longev. (2019) 8010614. \r\n[21] B. Borawski, J. Malyszko, Iron, ferroptosis, and new insights for prevention in \r\nacute kidney injury, Adv. Med. Sci. 65 (2020) 361–370. \r\n[22] Y. Wang, F. Quan, Q. Cao, et al., Quercetin alleviates acute kidney injury by \r\ninhibiting ferroptosis, J. Adv. Res. 28 (2021) 231–243. \r\n[23] Z. Hu, H. Zhang, B. Yi, et al., VDR activation attenuate cisplatin induced AKI by \r\ninhibiting ferroptosis, Cell Death Dis. 11 (2020) 73. \r\n[24] Z. Zhao, J. Wu, H. Xu, et al., XJB-5-131 inhibited ferroptosis in tubular epithelial \r\ncells after ischemia-reperfusion injury, Cell Death Dis. 11 (2020) 629. \r\n[25] H. Yuan, X. Li, X. Zhang, et al., Identification of ACSL4 as a biomarker and \r\ncontributor of ferroptosis, Biochem. Biophys. Res. Commun. 478 (2016) \r\n1338–1343. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "[26] S. Doll, B. Proneth, Y.Y. Tyurina, et al., ACSL4 dictates ferroptosis sensitivity by \r\nshaping cellular lipid composition, Nat. Chem. Biol. 13 (2017) 91–98. \r\n[27] Y. Zhao, J. Yang, J. Shi, et al., The NLRC4 inflammasome receptors for bacterial \r\nflagellin and type III secretion apparatus, Nature 477 (2011) 596–600. \r\n[28] H. Xu, J. Yang, W. Gao, et al., Innate immune sensing of bacterial modifications of \r\nRho GTPases by the Pyrin inflammasome, Nature 513 (2014) 237–241. \r\n[29] J. Shi, Y. Zhao, K. Wang, et al., Cleavage of GSDMD by inflammatory caspases \r\ndetermines pyroptotic cell death, Nature 526 (2015) 660–665. \r\n[30] V. Hornung, F. Bauernfeind, A. Halle, et al., Silica crystals and aluminum salts \r\nactivate the NALP3 inflammasome through phagosomal destabilization, Nat. \r\nImmunol. 9 (2008) 847–856. \r\n[31] V. Vichai, K. Kirtikara, Sulforhodamine B colorimetric assay for cytotoxicity \r\nscreening, Nat. Protoc. 1 (2006) 1112–1116. \r\n[32] E.C. Lien, C.A. Lyssiotis, A. Juvekar, et al., Glutathione biosynthesis is a metabolic \r\nvulnerability in PI(3)K/Akt-driven breast cancer, Nat. Cell Biol. 18 (2016) \r\n572–578. \r\n[33] J.R. Liu, Q. Liu, J. Li, et al., Noxious stimulation attenuates ketamine-induced \r\nneuroapoptosis in the developing rat brain, Anesthesiology 117 (2012) 64–71. \r\n[34] R. Bethunaickan, C.C. Berthier, M. Ramanujam, et al., A unique hybrid renal \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "mononuclear phagocyte activation phenotype in murine systemic lupus \r\nerythematosus nephritis, J. Immunol. 186 (2011) 4994–5003. \r\n[35] A.A. Barkal, R.E. Brewer, M. Markovic, et al., CD24 signalling through macrophage \r\nSiglec-10 is a target for cancer immunotherapy, Nature 572 (2019) 392–396. \r\nY. Wang et al. \nRedox Biology 51 (2022) 102262\r\n13\r\n[36] A. Linkermann, R. Skouta, N. Himmerkus, et al., Synchronized renal tubular cell \r\ndeath involves ferroptosis, Proc. Natl. Acad. Sci. U. S. A. 111 (2014) 16836–16841. \r\n[37] S. Shu, Y. Wang, M. Zheng, et al., Hypoxia and hypoxia-inducible factors in kidney \r\ninjury and repair, Cells 8 (2019). \r\n[38] G. Rajendran, M.P. Schonfeld, R. Tiwari, et al., Inhibition of endothelial PHD2 \r\nsuppresses post-ischemic kidney inflammation through hypoxia-inducible factor-1, \r\nJ. Am. Soc. Nephrol. 31 (2020) 501–516. \r\n[39] J. Günter, R.H. Wenger, C.C. Scholz, Inhibition of firefly luciferase activity by a HIF \r\nprolyl hydroxylase inhibitor, J. Photochem. Photobiol., B 210 (2020) 111980. \r\n[40] Y. Yang, X. Yu, Y. Zhang, et al., Hypoxia-inducible factor prolyl hydroxylase \r\ninhibitor roxadustat (FG-4592) protects against cisplatin-induced acute kidney \r\ninjury, Clin. Sci. (Lond.) 132 (2018) 825–838. \r\n[41] Z.J. Fu, Z.Y. Wang, L. Xu, et al., HIF-1α-BNIP3-mediated mitophagy in tubular cells \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "protects against renal ischemia/reperfusion injury, Redox Biol. 36 (2020) 101671. \r\n[42] W.S. Yang, R. SriRamaratnam, M.E. Welsch, et al., Regulation of ferroptotic cancer \r\ncell death by GPX4, Cell 156 (2014) 317–331. \r\n[43] X.Y. Mao, H.H. Zhou, W.L. Jin, Ferroptosis induction in pentylenetetrazole kindling \r\nand pilocarpine-induced epileptic seizures in mice, Front. Neurosci. 13 (2019) 721. \r\n[44] N. Yamada, T. Karasawa, H. Kimura, et al., Ferroptosis driven by radical oxidation \r\nof n-6 polyunsaturated fatty acids mediates acetaminophen-induced acute liver \r\nfailure, Cell Death Dis. 11 (2020) 144. \r\n[45] H. Block, J.M. Herter, J. Rossaint, et al., Crucial role of SLP-76 and ADAP for \r\nneutrophil recruitment in mouse kidney ischemia-reperfusion injury, J. Exp. Med. \r\n209 (2012) 407–421. \r\n[46] B. Deng, Y. Lin, S. Ma, et al., The leukotriene B(4)-leukotriene B(4) receptor axis \r\npromotes cisplatin-induced acute kidney injury by modulating neutrophil \r\nrecruitment, Kidney Int. 92 (2017) 89–100. \r\n[47] H.R. Jang, H. Rabb, Immune cells in experimental acute kidney injury, Nat. Rev. \r\nNephrol. 11 (2015) 88–101. \r\n[48] K. Prame Kumar, A.J. Nicholls, C.H.Y. Wong, Partners in crime: neutrophils and \r\nmonocytes/macrophages in inflammation and disease, Cell Tissue Res. 371 (2018) \r\n551–565. \r\n[49] M.Z. Zhang, B. Yao, S. Yang, et al., CSF-1 signaling mediates recovery from acute \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "kidney injury, J. Clin. Invest. 122 (2012) 4519–4532. \r\n[50] Q. Wei, H. Sun, S. Song, et al., MicroRNA-668 represses MTP18 to preserve \r\nmitochondrial dynamics in ischemic acute kidney injury, J. Clin. Invest. 128 \r\n(2018) 5448–5464. \r\n[51] S.R. Mulay, M.M. Honarpisheh, O. Foresto-Neto, et al., Mitochondria permeability \r\ntransition versus necroptosis in oxalate-induced AKI, J. Am. Soc. Nephrol. 30 \r\n(2019) 1857–1869. \r\n[52] G.P. Kaushal, Autophagy protects proximal tubular cells from injury and apoptosis, \r\nKidney Int. 82 (2012) 1250–1253. \r\n[53] L. Zhu, Y. Yuan, L. Yuan, et al., Activation of TFEB-mediated autophagy by \r\ntrehalose attenuates mitochondrial dysfunction in cisplatin-induced acute kidney \r\ninjury, Theranostics 10 (2020) 5829–5844. \r\n[54] Y. Li, D. Feng, Z. Wang, et al., Ischemia-induced ACSL4 activation contributes to \r\nferroptosis-mediated tissue injury in intestinal ischemia/reperfusion, Cell Death \r\nDiffer. 26 (2019) 2284–2299. \r\n[55] G. Nowak, S. Soundararajan, R. Mestril, Protein kinase C-alpha interaction with \r\niHSP70 in mitochondria promotes recovery of mitochondrial function after injury \r\nin renal proximal tubular cells, Am. J. Physiol. Ren. Physiol. 305 (2013) \r\nF764–F776. \r\n[56] R. Skouta, S.J. Dixon, J. Wang, et al., Ferrostatins inhibit oxidative lipid damage \r\nand cell death in diverse disease models, J. Am. Chem. Soc. 136 (2014) \r\n4551–4556. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "[57] A. Zarjou, S. Bolisetty, R. Joseph, et al., Proximal tubule H-ferritin mediates iron \r\ntrafficking in acute kidney injury, J. Clin. Invest. 123 (2013) 4423–4434. \r\n[58] T. Vanden Berghe, A. Linkermann, S. Jouan-Lanhouet, et al., Regulated necrosis: \r\nthe expanding network of non-apoptotic cell death pathways, Nat. Rev. Mol. Cell \r\nBiol. 15 (2014) 135–147. \r\n[59] S.J. Dixon, B.R. Stockwell, The role of iron and reactive oxygen species in cell \r\ndeath, Nat. Chem. Biol. 10 (2014) 9–17. \r\n[60] M. Fahling, ¨ S. Mathia, A. Paliege, et al., Tubular von Hippel-Lindau knockout \r\nprotects against rhabdomyolysis-induced AKI, J. Am. Soc. Nephrol. 24 (2013) \r\n1806–1819. \r\n[61] H.E. Lebovitz, Thiazolidinediones: the forgotten diabetes medications, Curr. \r\nDiabetes Rep. 19 (2019) 151. \r\n[62] S.E. Nissen, K. Wolski, Effect of rosiglitazone on the risk of myocardial infarction \r\nand death from cardiovascular causes, N. Engl. J. Med. 356 (2007) 2457–2471. \r\n[63] K.K. Andringa, A. Agarwal, Role of hypoxia-inducible factors in acute kidney \r\ninjury, Nephron Clin. Pract. 127 (2014) 70–74. \r\n[64] H. Wang, N. Liu, R. Li, et al., Nephropreventing effect of hypoxia-inducible factor \r\n1α in a rat model of ischaemic/reperfusion acute kidney injury, Clin. Exp. \r\nPharmacol. Physiol. 45 (2018) 1076–1082. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4971514722177544545,
+        "filename": "main.PMC8857079.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 61,
+      "total_chunks": 34,
+      "version": "1.0.0"
+    },
+    "text": "[65] S.R. Mulay, A. Linkermann, H.J. Anders, Necroinflammation in kidney disease, \r\nJ. Am. Soc. Nephrol. 27 (2016) 27–39. \r\nY. Wang et al. \n\n"
+  }
+]

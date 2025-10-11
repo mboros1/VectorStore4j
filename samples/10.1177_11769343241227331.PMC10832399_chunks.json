@@ -1,0 +1,482 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "https://doi.org/10.1177/11769343241227331\r\nCreative Commons Non Commercial CC BY-NC: This article is distributed under the terms of the Creative Commons Attribution-NonCommercial \r\n4.0 License (https://creativecommons.org/licenses/by-nc/4.0/) which permits non-commercial use, reproduction and distribution of the work without \r\nfurther permission provided the original work is attributed as specified on the SAGE and Open Access pages (https://us.sagepub.com/en-us/nam/open-access-at-sage).\r\nEvolutionary Bioinformatics\r\nVolume 20: 1–9\r\n© The Author(s) 2024\r\nArticle reuse guidelines:\r\nsagepub.com/journals-permissions\r\nDOI: 10.1177/11769343241227331\r\nIntroduction\r\nAcute myocardial infarction (AMI) is myocardial necrosis \r\ncaused by acute and persistent ischemia and hypoxia of the \r\ncoronary artery.1 It is one of the most serious cardiovascular \r\ndiseases and remains a major threat to global health, leading to \r\nmore than 7million deaths each year.2,3 The prognosis of \r\npatients with AMI can be greatly affected by the development \r\nof complications such as septal rupture, left ventricular free \r\nwall rupture, pseudoaneurysm, papillary muscle rupture, and \r\ntrue aneurysm. Therefore, early diagnosis and treatment of \r\nAMI are particularly important in improving its prognosis.4\r\nThere is increasing evidence that multiple biological functions \r\nsuch as pyroptosis, ferroptosis, and autophagy are involved in \r\nthe development and pathogenesis of AMI,5-7 among which, \r\nautophagy plays an important role in the occurrence and pro\u0002gression of AMI.\r\nAutophagy is a conserved mechanism by which cytoplas\u0002mic substances are degraded by lysosomes, and its levels are \r\nknown to fluctuate in the pathological process of AMI.8\r\nLncRNA 2810403D21Rik/Mirf can regulate autophagy and \r\npromote ischemic myocardial injury by targeting Mir26a.9\r\nAngiotensin IV prevents AMI by inhibiting autophagy.10\r\nBesides, autophagy is also implicated in the protective effects \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "of 1,25-dihydroxyvitamin D3 against AMI through the \r\nPI3K/AKT/mTOR pathway.11 Studies have shown that \r\nautophagy-related genes, including WDFY3 and TP53INP2, \r\npresents novel prospects for the diagnosis of AMI.12 However, \r\nthere is still need for further investigation into the key \r\nautophagy-related genes in AMI, by which it is expected that \r\npotential therapeutic targets can be identified for AMI.\r\nWang et al13 completed a coronary artery disease (CAD)-\r\nrelated dataset (GSE166780), in which a total of 169 genes \r\ndifferentially expressed in patients with different severity of \r\nCAD were analyzed. In the present study, the Differentially \r\nExpressed Genes (DEGs) in AMI were identified based on \r\nthe sample data of 8 AMI patients and 8 healthy controls \r\nfrom the GSE166780 dataset in the GEO database, and sub\u0002jected to Gene Ontology (GO) and Kyoto Encyclopedia of \r\nGenes and Genomes (KEGG) enrichment analysis, protein\u0002protein interaction (PPI) analysis, and Receiver Operating \r\nCharacteristic (ROC) analysis. Finally, a clinical validation \r\nwas conducted by detecting the expression levels of the key \r\ngenes in both AMI patients and healthy controls using \r\nqRT-PCR.\r\nScreening and Validation of Key Genes of Autophagy in \r\nAcute Myocardial Infarction Based on Bioinformatics\r\nYingjie Geng1, Yu’e Han2, Shujuan Wang1, Jia Qi1 and Xiaoli Bi3\r\n1Department of Cardiology, Zibo Central Hospital, Zibo, Shandong Province, China. 2Department \r\nof Pulmonary and Critical Care Medicine, Zibo Central Hospital, Zibo, Shandong Province, China. \r\n3Department of Cardiology, Zibo First Hospital, Zibo, Shandong Province, China.\r\nABSTRACT\r\nAims: Autophagy plays a significant role in the development of acute myocardial infarction (AMI), and cardiomyocyte autophagy is of major \r\nimportance in maintaining cardiac function. We aimed to identify key genes associated with autophagy in AMI through bioinformatics analysis \r\nand verify them through clinical validation.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "Materials and Methods: We downloaded an AMI expression profile dataset GSE166780 from Gene Expression Omnibus (GEO). \r\nAutophagy-associated genes potentially differentially expressed in AMI were screened using R software. Then, to identify key autophagy\u0002related genes, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis, protein-protein interac\u0002tion (PPI) analysis, Receiver Operating Characteristic (ROC) curve analysis, and correlation analysis were performed on the differentially \r\nexpressed autophagy-related genes in AMI. Finally, we used quantificational real-time polymerase chain reaction (qRT-PCR) to verify the \r\nRNA expression of the screened key genes.\r\nResults: TSC2, HSPA8, and HIF1A were screened out as key autophagy-related genes. qRT-PCR results showed that the expression levels \r\nof HSPA8 and TSC2 in AMI blood samples were lower, while the expression level of HIF1A was higher than that in the healthy controls.\r\nConclusions: TSC2, HSPA8, and HIF1A were identified as key autophagy-related genes in this study. They may influence the development \r\nof AMI through autophagy. These findings may help deepen our understanding of AMI and may be useful for the treatment of AMI.\r\nKeywords: Acute myocardial infarction, autophagy, bioinformatics, key genes\r\nRECEIVED: August 3, 2023. ACCEPTED: January 4, 2024.\r\nType: Original Research\r\nFunding: The author(s) received no financial support for the research, authorship, and/or \r\npublication of this article.\r\nDeclaration of conflicting interests: The author(s) declared no potential \r\nconflicts of interest with respect to the research, authorship, and/or publication of this \r\narticle.\r\nCORRESPONDING AUTHOR: Xiaoli Bi, Department of Cardiology, Zibo First Hospital, \r\nNo. 4 E’meishan East Road, Boshan District, Zibo, Shandong Province 255200, China. \r\nEmail: bixiaoli2022@126.com\r\n1227331 EVB0010.1177/11769343241227331Evolutionary BioinformaticsGeng et al\r\nresearch-article2024\n2 Evolutionary Bioinformatics\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "Materials and Methods\r\nGEO datasets and autophagy-related genes\r\nThe AMI expression dataset GSE166780 was downloaded \r\nfrom the GEO database, containing data that were collected \r\nfrom the peripheral blood mononuclear cells from 8 control \r\nsamples and 8 AMI samples on the microarray platform \r\nGPL20795.13 A collection of 232 autophagy-related genes \r\nwas obtained from the Human Autophagy Database,14 and \r\ntheir detailed information can be found in Additional File 1: \r\nTable S1.\r\nData preprocessing\r\nAccording to the count expression files, data preprocessing and \r\nstandardization were performed using the edgeR package. \r\nGenes were filtered according to count expression >1, and \r\nthen standardization was carried out using the TMM method.\r\nDifferential expression analysis\r\nUsing the R software (version: 4.0.3), 210 autophagy-related \r\ngenes were identified in GSE166780.15 Using the edgeR pack\u0002age, DEGs were screened out based on |logFC|>1, adj. \r\nP-value<.05. The fdr method was used for multiple correction \r\nfor P-values. All the DEGs were then visualized using volcano \r\nplots, and those showing significant differences were selected \r\nfor plotting heat map.\r\nGO and KEGG enrichment analysis\r\nWe performed GO and KEGG enrichment analysis on the \r\nDEGs using R’s clusterProfiler package in order to investigate \r\ntheir potential biological functions.16 GO analyses included bio\u0002logical process (BP), cellular component (CC) and molecular \r\nfunction (MF), and adj. P-value<.05 indicated significant \r\nenrichment. Benjamini-Hochberg (BH) method was applied for \r\nthe correction of the p-values of our statistical results. We used \r\nthe DAVID web tool for enrichment analysis and bubble map \r\ndisplay. GO secondary classification selected the top 10 channels \r\nfor each category, and KEGG selected the top 20 channels.\r\nPPI analysis\r\nPPI network for the DEGs was constructed using the \r\nSTRING (version: 11.5) database and visualized using \r\nCytoscape (version: 3.8.2).17 We employed 2 algorithms, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "Maximal Clique Centrality (MCC) and Degree, both availa\u0002ble in the CytoHubba plug-in of Cytoscape, to analyze the \r\nPPI network. Key genes were identified by intersecting the \r\nresults obtained from these 2 algorithms.\r\nROC analysis\r\nROC analysis was performed using the pROC package based \r\non group clinical features as response and gene expression as \r\npredictor. In the ROC context, the area under the curve (AUC) \r\nis used as a metric to evaluate classifier performance and is \r\nfrequently applied for method comparison.18 A higher AUC \r\nmeans a better classification. AUCs were calculated using the \r\nROC curve for the evaluation of the diagnostic value of key \r\nDEGs in AMI. P<.05 was considered statistically significant.\r\nCorrelation analysis\r\nWe further screened the key genes with autophagy marker \r\ngenes LC3 and P6219 for correlation analysis based on the \r\nexpression of key genes and LC3 & P62 |correlation|>.4, \r\nP<.05 for autophagy-related key genes.\r\nAMI patients and healthy controls\r\nThirty patients with AMI and 30 healthy controls were collected \r\nas study samples from December 1, 2021 to April 5, 2022 in Zibo \r\nCentral Hospital, Shandong Province, China. We collected the \r\nhealthy controls with coronary artery stenosis <50% on coronary \r\nangiography. AMI were diagnosed according to the criteria set \r\nforth by the 2017 ESC STEMI and 2020 ESC NSTEMI20,21\r\nbased on the evaluation of patient symptoms, laboratory results \r\nand coronary angiography results by 2 interventionists. Patients \r\nwith aortic coarctation, pulmonary embolism, malignancy, severe \r\nheart failure, severe renal insufficiency, myocarditis, or pericarditis \r\nwere excluded. The study received approval from the Hospital \r\nMedical Ethics Committee (No. 202111004), and all participants \r\nprovided informed consent prior to enrollment. Venous blood \r\nsamples were collected from all the participating cases and the \r\nhealthy controls for carrying out quantificational real-time poly\u0002merase chain reaction (qRT-PCR).\r\nClinical validation of qRT-PCR22\r\nFicoll solution (Solarbio Life Sciences, Beijing, China) and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "TRIzol reagent (Thermo Fisher Scientific, Shanghai, China) \r\nwere used to isolate peripheral blood single nuclei and extract \r\ntotal RNA from blood samples collected within 24hours of \r\nhospitalization. Then, Evo M-MLV RT Premix (Accurate \r\nBiology, Hunan, China) were adopted to conduct the reverse \r\ntranscription. Real-time PCR analysis was performed using \r\nHieff qPCR SYBR Green Master Mix (YEASEN, Shanghai, \r\nChina). The internal control of mRNA was β-actin. The rela\u0002tive expression levels were calculated using 2−ΔΔCq method \r\nand the primers are shown in Table 1. The nucleotide sequences \r\nof the target genes were retrieved from the National Center for \r\nBiotechnology Information (NCBI). Sequence homology \r\nanalysis and comparison were performed using DNAStar, and \r\nprimer design was accomplished using Primer Premier 5.0.\r\nStatistical analysis\r\nGraphPad 9.0 was used for statistical analysis. Differences \r\nbetween the 2 groups were compared using the Student’s \nGeng et al 3\r\nt-test, and P<.05 was considered a statistically significant \r\ndifference.\r\nResults\r\nDEGs in AMI\r\nUsing the R software (version: 4.0.3), 210 autophagy-related \r\ngenes were identified in GSE166780 and based on |logFC|>1, \r\nadj. P-value<.05, we screened the differentially expressed \r\nautophagy-related genes between groups as the autophagy\u0002related DEGs of AMI. Finally, 34 DEGs related to autophagy \r\nwere screened out, of which 14 were up-regulated and 20 were \r\ndown-regulated, and they were displayed using volcano plots \r\n(Figure 1A) and heat maps (Figure 1B).\r\nGO and KEGG functional analyses\r\nWe performed GO and KEGG enrichment analyses using the \r\nR software to analyze the functions of these DEGs. GO \r\nenrichment results were annotated to BP, CC and MF. The \r\nmost significant enrichment terms for GO analysis involved \r\nmacroautophagy, autophagosome assembly (BP); autophago\u0002some, pigment granule (CC); heat shock protein binding, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "ubiquitin-like protein ligase binding (MF) (Figure 2A–C). \r\nThe DEGs were mainly involved in autophagy-animal, lipid \r\nand atherosclerosis revealed by the KEGG enrichment analysis \r\n(Figure 2D). The top 5 enriched functions or pathways in GO \r\nand KEGG analyses are respectively shown in the circle dia\u0002grams (Figure 2E and F).\r\nPPI network analysis\r\nPPI networks for the DEGs were constructed using the \r\nSTRING database (Figure 3A), and visualized using Cytoscape \r\ncircles (Figure 3B). The algorithms of Degree (Figure 3C) and \r\nMCC (Figure 3D) were separately used for screening key \r\ngenes, and the genes obtained were intersected using the Venn \r\ndiagram (Figure 3E). As a result, a total of 9 key genes were \r\nobtained, namely CDKN1B, FOS, HIF1A, HSPA5, HSPA8, \r\nMAPK1, PINK1, SIRT1, and TSC2.\r\nThe diagnostic value of key genes in AMI\r\nThe expression levels of the 9 key genes were analyzed in the \r\noriginal GSE166780 dataset, and box plots were used to show \r\ntheir expression differences between the AMI group and the \r\nhealthy controls (Figure 4A–I). The analysis revealed that \r\nCDKN1B, FOS, HSPA8, MAPK1, PINK1, and TSC2 were \r\ndown-regulated in the AMI group compared to the healthy \r\ncontrols, whereas HIF1A, HSPA5, and SIRT1 were up-regu\u0002lated in the AMI group compared with the healthy controls. \r\nThe 9 identified genes demonstrated good diagnostic value in \r\ndistinguishing between AMI and control samples, with AUCs \r\nof 84.40% for CDKN1B, 84.40% for FOS, 93.80% for HIF1A, \r\n92.20% for HSPA5, 92.20% for HSPA8, 92.20% for MAPK1, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "85.20% for PINK1, 85.90% for SIRT1, and 75.80% for TSC2 \r\n(Figure 5A–I).\r\nCorrelation analysis\r\nA number of studies have confirmed that LC3 and P62 are \r\nautophagy marker genes, and that LC3 II expression is upregu\u0002lated and P62 expression is downregulated when increasing \r\nTable 1. Primer sequences used for qRT-PCR.\r\nPrimer Sequences (5′-3′)\r\nTSC2-F GGAGTACGGTAGGAACTGGAGAGG\r\nTSC2-R CACTGCTAAGGCTGCTGGCTTC\r\nHSPA8-F TCCCTTGGTATTGAAACTGCTGGTG\r\nHSPA8-R GTCTGTGTCTGCTTGGTAGGAATGG\r\nHIF1A-F CCATTAGAAAGCAGTTCCGCAAGC\r\nHIF1A-R GTGGTAGTGGTGGCATTAGCAGTAG\r\nFigure 1. DEGs in GSE166780 dataset shown separately in volcano (A) and heat maps (B).\n4 Evolutionary Bioinformatics\r\nFigure 3. PPI networks constructed for the DEGs (A) and displayed in circles (B). The Degree algorithm (C) and the MCC algorithm (D) were separately \r\nused for the screening of key genes, and the genes obtained were intersected using the Venn diagram (E).\r\nFigure 2. GO and KEGG functional analyses: (A) GO-BP enrichment analysis, (B) GO-CC enrichment analysis, (C) GO-MF enrichment analysis, (D) \r\nKEGG pathway enrichment analysis, (E) the top 5 GO enrichment functions, and (F) the top 5 KEGG pathway enrichment functions.\nGeng et al 5\r\nthe autophagy levels.23,24 We further obtained 3 genes (TSC2, \r\nHSPA8, and HIF1A) based on LC3 & P62 |correlation|>0.4, \r\nP<.05. The lollipop plot showed that TSC2 and HSPA8 were \r\nnegatively correlated with autophagy levels while HIF1A was \r\npositively correlated with autophagy levels (Figure 6).\r\nValidation of the key DEGs in AMI patients\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "We further examined the expression levels of the above 3 key \r\nautophagy-related genes in our clinical samples by qRT- PCR. \r\nClinicopathological variables for the AMI and control groups \r\nwere summarized in Table 2. The basic patient information \r\nbetween groups in this study were detailed in Additional File 2: \r\nTable S2. Bar chart showed that the expression levels of HSPA8 \r\nand TSC2 in AMI blood samples were lower while the expres\u0002sion level of HIF1A was higher than that of the healthy con\u0002trols, which was consistent with the results of the GSE166780 \r\ndataset (Figure 7A–C).\r\nDiscussion\r\nDespite advancements in surgical interventions and pharmaco\u0002logical treatments, AMI as well as its associated severe compli\u0002cations remain the leading causes of deaths in developed \r\ncountries in the field of cardiovascular disease.3,4 More and \r\nmore studies have been conducted to explore the key targets of \r\nAMI in order to develop precise and targeted treatments for \r\nAMI, improve its prognosis and reduce associated risks of \r\ndeath. However, the clinical significance of these targets \r\nremains to be further elucidated.25-27\r\nIn recent years, autophagy has been proved to be closely \r\nrelated to cardiac diseases, especially myocardial infarction. \r\nAutophagy is involved in cardiac metabolism and function, and \r\nplays an extremely important role in the pathogenesis of \r\nAMI.28 There is no denying that autophagy has become a new \r\nperspective for investigating AMI. However, autophagy-related \r\ngenes in AMI remain to be explored. Therefore, this study \r\naimed to identify key autophagy-related DEGs in AMI based \r\non a cohort from the GSE166780 dataset. After screening, \r\na total of 9 autophagy-related key genes (CDKN1B, FOS, \r\nHIF1A, HSPA5, HSPA8, MAPK1, PINK1, SIRT1, and \r\nTSC2) were identified in the AMI group versus the control \r\ngroup through bioinformatics analysis. Numerous studies have \r\nconfirmed LC3 and P62 as autophagy markers.23 P62 acts as \r\nan autophagy-specific substrate that interacts with LC3 to \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "infiltrate into the autophagosome and is efficiently degraded by \r\nautophagic lysosomes. Therefore, changes in P62 expression \r\ncan also be used as an indicator for monitoring changes in \r\nautophagy.29 LC3 is also involved in autophagy formation, and \r\nwhen autophagy is formed, cytoplasmic LC3 (LC3-I) enzy\u0002matically cleaves off a small segment of the polypeptide and \r\ntransforms into membrane LC3 (LC3-II). Elevated LC3II \r\ntherefore represents the initiation of autophagy.30 They were \r\nFigure 4. (A–I) Box plots showing the expression of the 9 key genes between AMI and healthy controls in GSE166780 dataset.\n6 Evolutionary Bioinformatics\r\nshown to be closely related to autophagosome development \r\nand maturation, and are now widely used to monitor autophagic \r\nactivity.24 By analyzing the correlation between the 9 identified \r\nkey genes and the autophagy markers LC3 and P62, a total of \r\n3 autophagy-related key genes (HIF1A, HSPA8, and TSC2) \r\nwere screened out. TSC2 and HSPA8 were found to be nega\u0002tively correlated with autophagy levels while HIF1A was \r\nshown to be positively correlated with autophagy levels. Then, \r\nwe used qRT-PCR to verify the expression of the above 3 key \r\ngenes. The results showed that the expression levels of HSPA8 \r\nand TSC2 in AMI blood samples were lower than those in the \r\nhealthy controls, while the expression level of HIF1A was \r\nhigher than that in the healthy controls. The qRT-PCR verifi\u0002cation results were basically similar to the results obtained \r\nthrough bioinformatics analysis.\r\nHypoxia-inducible factor 1α (HIF1A) is localized on \r\nhuman chromosome 14, regions q21-24, and is regulated by \r\nFigure 6. Correlation between the 9 key genes, LC3 and P62.\r\nFigure 5. (A–I) ROC curves for the 9 key genes in GSE166780 dataset.\nGeng et al 7\r\nhypoxic signaling.31 It has been reported to improve cardiac \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "function in a rat model of AMI,32 and regulate the autophagy \r\nof cardiomyocytes after hypoxia by transferring miR-30a. In \r\naddition, KEGG enrichment results showed that autophagy\u0002related DEGs was significantly enriched in the IL-17 signal\u0002ing pathway and other signaling pathways. Interestingly, it has \r\nbeen found that the abundance of HIF subtypes is closely \r\nrelated to the increase of IL-17 levels, and the IL-17-STAT3-\r\nHIF-1α axis can participate in autophagy defects, and target\u0002ing this axis can effectively alleviate chronic inflammation in \r\nskin diseases.33 Therefore, it is reasonable to speculate that \r\nHIF1A may affect the level of autophagy by mediating the \r\nIL-17 signaling pathway, thus playing an important role in the \r\noccurrence and development of AMI. HSPA8, also known as \r\nthe heat shock homolog HSC70, is a member of the family \r\nencoding heat shock protein 70. Extracellular HSC70 plays a \r\nkey role in the regulation of natural immune response and car\u0002diac function after myocardial ischemia-reperfusion,34 and it \r\nhas been shown to decisively regulate the autophagic process.35\r\nNew research has highlighted the involvement of chaperone\u0002mediated eNOS autophagy in myocardial ischemia and reper\u0002fusion injury, and HSC70 has been shown to play an important \r\npart in this process.36 Additionally, studies have demonstrated \r\nthat BAG-1 can be regulated by HSC70 to induce autophagy, \r\nthus affecting the survival of cardiomyocytes.37,38 As shown by \r\nthe GO enrichment analysis, autophagy-related DEGs were \r\nsignificantly enriched in molecular functions such as heat \r\nshock protein binding, confirming that heat shock family \r\ngenes and pathways were largely involved in the process of \r\nautophagy during AMI. Therefore, targeting heat shock genes \r\nand pathways to mediate autophagy levels may be a new way to \r\nimprove AMI therapy in the future. Mutations in the TSC2 \r\ngene cause tuberous sclerosis and its gene product is thought to \r\nbe a tumor suppressor that stimulates specific GTPases, which \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "in turn control cell growth and survival.39 Increasing evidence \r\nsuggests that the TSC2-mTOR signaling pathway is associ\u0002ated with autophagy and is involved in various processes such \r\nas cardiomyocyte apoptosis, affecting myocardial remodeling, \r\nand myocardial contraction. Studies have shown that lncRNA \r\nMALAT1 can inhibit autophagy by regulating the TSC2-\r\nmTOR signaling pathway, thereby enhancing myocardial cell \r\napoptosis in AMI mice.40,41 Moreover, TSC2-mTOR signal\u0002ing pathway has been validated in murine models of cardiac\u0002specific TSC2 deficiency (TSC2-/-).42 Therefore, TSC2 may \r\nTable 2. Clinicopathological variables of AMI and controls in this study.\r\nVariables AMI (n =30) Control (n =30)\r\nAge (y) 64.77±13.49 60.00±12.32\r\nGender (male/female) 20/10 19/11\r\nBMI (kg/m2) 26.50±4.26 26.17±5.02\r\nSmoking history (yes/no) 9/21 7/23\r\nHypertension (yes/no) 17/13 12/18\r\nDiabetes (yes/no) 12/18 1/29\r\nTotal cholesterol 4.92±0.72 3.58±0.62\r\nLow density lipoprotein 3.38±0.59 2.32±0.49\r\nEjection fraction 55.00±6.70 63.50±4.22\r\nData are presented as mean±SD.\r\nFigure 7. (A–C) qRT-PCR results demonstrated differential gene expressions of HSPA8, TSC2, and HIF1A in the clinical samples.\n8 Evolutionary Bioinformatics\r\nparticipate in the TSC2-mTOR signaling pathway, thereby \r\naffecting the autophagy level of AMI. The AUCs from ROC \r\nanalysis indicate that HIF1A, HSPA8 and TSC2 were 3 genes \r\nthat can well distinguish AMI from the control samples, with \r\nvalues of 93.80% for HIF1A, 92.20% for HSPA8, and 75.80% \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "for TSC2. This suggests that these 3 key genes may be poten\u0002tial biomarkers for AMI, and their expression levels could be \r\nanalyzed to predict the occurrence and development of AMI in \r\nclinical settings. Moreover, the identification of these 3 key \r\nautophagy-related genes may offer insights into the develop\u0002ment of new targeted drugs for AMI treatment.\r\nAs revealed by GO and KEGG enrichment analysis, \r\nautophagy-related DEGs are mainly involved in signaling \r\npathways such as apoptosis. Balancing the transition between \r\napoptotic and autophagic responses has become a new concept \r\nin the treatment of coronary artery disease.43,44 To a certain \r\nextent, the induction of autophagy, as a catabolic process, can \r\nprovide a first line of protection against major injuries such as \r\napoptosis and necrosis in cardiac myocytes.45 However, basic \r\nautophagy can be beneficial for maintaining cell homeostasis, \r\nwhile excessive autophagy may lead to a series of adverse effects \r\nsuch as apoptosis, which may further harm the cardiovascular \r\nsystem.46 In conclusion, the above findings may provide poten\u0002tial biomarkers and therapeutic targets for the diagnosis and \r\ntreatment of AMI. However, there are still many deficiencies in \r\nthis study. One limitation of our study is that we only experi\u0002mentally validated the expression of the identified autophagy\u0002related genes in the peripheral venous blood samples from \r\nAMI patients and healthy controls, but the conditions for tak\u0002ing myocardial tissues for validation are insufficient. Next, the \r\nlimited clinical sample size is another limitation, due to which \r\nthere were differences in total cholesterol level, low density \r\nlipoprotein level and diabetes prevalence between the AMI and \r\ncontrol groups in this study. It is not possible to completely \r\neliminate the potential impact of factors related to the occur\u0002rence of AMI or autophagy, including total cholesterol level, \r\nlow density lipoprotein level and diabetes on the expression of \r\nkey genes. Therefore, additional studies in with larger sample \r\nsizes are necessary. In addition, it is imperative to delve deeper \r\ninto the potential mechanisms of action of these key autophagy\u0002related genes in AMI cells and animal models.\r\nConclusion\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "In our study, 3 key autophagy-related genes (TSC2, HSPA8, \r\nand HIF1A) were identified through bioinformatics analysis, \r\nof which TSC2 and HSPA8 were found to be negatively asso\u0002ciated with autophagy levels while HIF1A was shown to be \r\npositively associated with autophagy levels. This suggests that \r\nthese 3 key genes may be potential biomarkers for AMI, and \r\ntheir expression levels could be analyzed to predict the occur\u0002rence and development of AMI in clinical settings. Moreover, \r\nthe identification of these 3 key autophagy-related genes may \r\noffer insights into the development of new targeted drugs \r\nfor AMI treatment. The results of this study facilitate our \r\nunderstanding of AMI, and provide potential targets for tar\u0002geted interventions to treat AMI and improve its prognosis.\r\nAuthor Contributions\r\nYingjie Geng participated in the study design, analyzed the \r\ndata and was a major contributor in writing the manuscript. \r\nYu’e Han and Shujuan Wang collected the data. Jia Qi \r\nvalidated the results. Xiaoli Bi was mainly in charge of the \r\nmanuscript modification. All authors read and approved the \r\nfinal version of the manuscript.\r\nEthics Approval and Consent to Participate\r\nThe study was reviewed and permitted by the Medical Ethics \r\nCommittee of Zibo Central Hospital of Shandong Province \r\n(No. 202111004). All methods were carried out in accordance \r\nwith relevant guidelines and regulations. Informed consent was \r\nobtained from all participants.\r\nConsent for Publication\r\nNot applicable.\r\nAvailability of Data and Materials\r\nThe datasets used and/or analyzed during the current study are avail\u0002able from the corresponding author on reasonable request.\r\nSupplemental Material\r\nSupplemental material for this article is available online.\r\nReferences\r\n1. Anderson JL, Morrow DA. Acute myocardial infarction. New Engl J Med. \r\n2017;376:2053-2064.\r\n2. Reed GW, Rossi JE, Cannon CP. Acute myocardial infarction. Lancet. 2017; \r\n389:197-210.\r\n3. Virani S, Alonso A, Aparicio H, et al. Heart disease and stroke statistics-2021 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "update: a report from the American Heart Association. Circulation. 2021;143: \r\ne254-e743.\r\n4. Gong FF, Vaitenas I, Malaisrie SC, Maganti K. Mechanical complications of \r\nacute myocardial infarction: a review. JAMA Cardiol. 2021;6:341-349.\r\n5. Liu W, Shen J, Li Y, et al. Pyroptosis inhibition improves the symptom of acute \r\nmyocardial infarction. Cell Death Dis. 2021;12:852.\r\n6. Lillo-Moya J, Rojas-Solé C, Muñoz-Salamanca D, et al. Targeting ferroptosis \r\nagainst ischemia/reperfusion cardiac injury. Antioxidants. 2021;10(5):667. doi:\r\n10.3390/antiox10050667\r\n7. Turkieh A, El Masri Y, Pinet F, Dubois-Deruy E. Mitophagy regulation follow\u0002ing myocardial infarction. Cells. 2022;11(2):199. doi:10.3390/cells11020199\r\n8. Sciarretta S, Maejima Y, Zablocki D, Sadoshima J. The role of autophagy in the \r\nheart. Annu Rev Physiol. 2018;80:1-26.\r\n9. Liang H, Su X, Wu Q , et al. LncRNA 2810403d21rik/mirf promotes ischemic \r\nmyocardial injury by regulating autophagy through targeting mir26a. Autophagy. \r\n2020;16:1077-1091.\r\n10. Bai WW, Wang H, Gao CH, et al. Continuous infusion of angiotensin IV pro\u0002tects against acute myocardial infarction via the inhibition of inflammation and \r\nautophagy. Oxid Med Cell Longev. 2021;2021:12.\r\n11. Wei Y, Dong S, Wang Y, et al. Autophagy participates in the protection role of \r\n1,25-dihydroxyvitamin D3 in acute myocardial infarction via PI3K/AKT/\r\nmTOR pathway. Cell Biol Int. 2021;45:394-403.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "12. Du Y, Zhao E, Zhang Y. Identification of feature autophagy-related genes in \r\npatients with acute myocardial infarction based on bioinformatics analyses. Biosci \r\nRep. 2020;40(7):BSR20200790. doi:10.1042/BSR20200790\r\n13. Wang C, Song C, Liu Q , et al. Gene expression analysis suggests immunological \r\nchanges of peripheral blood monocytes in the progression of patients with coro\u0002nary artery disease. Front Genet. 2021;12:641117.\r\n14. Sun S, Shen Y, Wang J, et al. Identification and validation of autophagy-related \r\ngenes in chronic obstructive pulmonary disease. Int J Chron Obstruct Pulmon Dis. \r\n2021;16:67-78.\nGeng et al 9\r\n15. Zhang H, Xia P, Liu J, et al. ATIC inhibits autophagy in hepatocellular cancer \r\nthrough the AKT/FOXO3 pathway and serves as a prognostic signature for \r\nmodeling patient survival. Int J Biol Sci. 2021;17:4442-4458.\r\n16. Chen L, Zhang YH, Wang S, et al. Prediction and analysis of essential genes \r\nusing the enrichments of gene ontology and KEGG pathways. PLoS One. 2017; \r\n12(9):e0184129.\r\n17. Miryala SK, Anbarasu A, Ramaiah S. Discerning molecular interactions: a com\u0002prehensive review on biomolecular interaction databases and network analysis \r\ntools. Gene. 2018;642:84-94.\r\n18. Robin X, Turck N, Hainard A, et al. pROC: an open-source package for R and \r\nS+ to analyze and compare ROC curves. BMC Bioinformatics. 2011;12:77.\r\n19. Jiang P, Mizushima N. LC3- and p62-based biochemical methods for the anal\u0002ysis of autophagy progression in mammalian cells. Methods. 2015;75:13-18.\r\n20. Ibanez B, James S, Agewall S, et al. 2017 ESC guidelines for the management of \r\nacute myocardial infarction in patients presenting with ST-segment elevation: \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "the task force for the management of acute myocardial infarction in patients \r\npresenting with ST-segment elevation of the European Society of Cardiology \r\n(ESC). Eur Heart J. 2018;39:119-177.\r\n21. Collet JP, Thiele H, Barbato E, et al. 2020 ESC guidelines for the management \r\nof acute coronary syndromes in patients presenting without persistent ST-seg\u0002ment elevation. Eur Heart J. 2021;42:1289-1367.\r\n22. Bustin SA, Mueller R. Real-time reverse transcription PCR (qRT-PCR) and its \r\npotential use in clinical diagnosis. Clin Sci. 2005;109:365-379.\r\n23. Kim JW, Jun SY, Kim JM, et al. Prognostic value of LC3B and p62 expression in \r\nsmall intestinal adenocarcinoma. J Clin Med. 2021;10(22):5398. doi:10.3390/\r\njcm10225398\r\n24. Li H, Gao L, Min J, Yang Y, Zhang R. Neferine suppresses autophagy-induced \r\ninflammation, oxidative stress and adipocyte differentiation in Graves’ orbitopathy. \r\nJ Cell Mol Med. 2021;25:1949-1957.\r\n25. Ge WH, Lin Y, Li S, Zong X, Ge ZC. Identification of biomarkers for early \r\ndiagnosis of acute myocardial infarction. J Cell Biochem. 2018;119:650-658.\r\n26. Chen DQ , Kong XS, Shen XB, et al. Identification of differentially expressed \r\ngenes and signaling pathways in acute myocardial infarction based on integrated \r\nbioinformatics analysis. Cardiovasc Ther. 2019;2019:13.\r\n27. Yu YW, Xue YJ, Qian LL, et al. Clin Interv Aging. 2020;15:2233-2243.\r\n28. Gao J, Chen X, Shan C, et al. Autophagy in cardiovascular diseases: role of non\u0002coding RNAs. Mol Ther Nucleic Acids. 2021;23:101-118.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "29. Wang YX, Lin C, Cui LJ, et al. Rauwolfia vomitoria extract represses colorectal \r\ncancer cell autophagy and promotes apoptosis. Pharmacology. 2021;106:488-497.\r\n30. Kaplan N, Wang S, Wang J, et al. Ciliogenesis and autophagy are coordinately \r\nregulated by EphA2 in the cornea to maintain proper epithelial architecture. \r\nOcul Surf. 2021;21:193-205.\r\n31. Jianqiang P, Ping Z, Xinmin F, et al. Expression of hypoxia-inducible factor 1 \r\nalpha ameliorate myocardial ischemia in rat. Biochem Biophys Res Commun. 2015; \r\n465:691-695.\r\n32. Wang Y, Hao Y, Zhang H, et al. DNA hypomethylation of miR-30a mediated \r\nthe protection of hypoxia postconditioning against aged cardiomyocytes \r\nhypoxia/reoxygenation injury through inhibiting autophagy. Circ J. 2020;84: \r\n616-625.\r\n33. Lee SY, Lee AR, Choi JW, et al. IL-17 induces autophagy dysfunction to promote \r\ninflammatory cell death and fibrosis in keloid fibroblasts via the STAT3 and \r\nHIF-1α dependent signaling pathways. Front Immunol. 2022;13:888719.\r\n34. Junho CVC, Azevedo CAB, da Cunha RS, et al. Heat shock proteins: connectors \r\nbetween heart and kidney. Cells. 2021;10(8):1939. doi:10.3390/cells10081939\r\n35. Bahr T, Katuri J, Liang T, Bai Y. Mitochondrial chaperones in human health and \r\ndisease. Free Radic Biol Med. 2022;179:363-374.\r\n36. Subramani J, Kundumani-Sridharan V, Das KC. Chaperone-mediated auto\u0002phagy of eNOS in myocardial ischemia-reperfusion injury. Circ Res. 2021;129: \r\n930-945.\r\n37. Guo J, Du X, Li C. BAG family proteins contributes to autophagy-mediated \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 476,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "multidrug resistance of tumor. Clin Transl Oncol. 2022;24:1492-1500.\r\n38. Lekli I, Haines DD, Balla G, Tosaki A. Autophagy: an adaptive physiological \r\ncountermeasure to cellular senescence and ischaemia/reperfusion-associated \r\ncardiac arrhythmias. J Cell Mol Med. 2017;21:1058-1072.\r\n39. Luo C, Ye WR, Shi W, et al. Perfect match: mTOR inhibitors and tuberous \r\nsclerosis complex. Orphanet J Rare Dis. 2022;17:106.\r\n40. Hu H, Wu J, Yu X, et al. Long non-coding RNA MALAT1 enhances the \r\napoptosis of cardiomyocytes through autophagy inhibition by regulating TSC2-\r\nmTOR signaling. Biol Res. 2019;52:58.\r\n41. Zhang Y, Wang C, Zhou J, et al. Complex inhibition of autophagy by mitochon\u0002drial aldehyde dehydrogenase shortens lifespan and exacerbates cardiac aging. \r\nBiochim Biophys Acta Mol Basis Dis. 2017;1863:1919-1932.\r\n42. Oeing CU, Jun S, Mishra S, et al. MTORC1-regulated metabolism controlled \r\nby TSC2 limits cardiac reperfusion injury. Circ Res. 2021;128:639-651.\r\n43. Dong Y, Chen H, Gao J, et al. Molecular machinery and interplay of apoptosis \r\nand autophagy in coronary heart disease. J Mol Cell Cardiol. 2019;136:27-41.\r\n44. Du J, Li Y, Zhao W. Autophagy and myocardial ischemia. Adv Exp Med Biol. \r\n2020;1207:217-222.\r\n45. Roca-Agujetas V, de Dios C, Lestón L, et al. Recent insights into the mito\u0002chondrial role in autophagy and its regulation by oxidative stress. Oxid Med \r\nCell Longev. 2019;2019:3809308.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8183398200819062977,
+        "filename": "10.1177_11769343241227331.PMC10832399.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 57,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "46. Pervaiz S, Bellot GL, Lemoine A, Brenner C. Redox signaling in the pathogen\u0002esis of human disease and the regulatory role of autophagy. Int Rev Cell Mol Biol. \r\n2020;352:189-214.\n\n"
+  }
+]

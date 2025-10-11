@@ -1,0 +1,482 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "Kim and Jacobson \r\nBMC Health Services Research (2024) 24:1495 \r\nhttps://doi.org/10.1186/s12913-024-11905-0\r\nRESEARCH Open Access\r\n© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 \r\nInternational License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long \r\nas you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if \r\nyou modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or \r\nparts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated \r\notherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not \r\npermitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To \r\nview a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.\r\nBMC Health Services Research\r\nMedicare’s comprehensive care for joint \r\nreplacement model increased public hospitals’ \r\ninpatient length of stay\r\nNarae Kim1* and Mireille Jacobson1,2\r\nAbstract\r\nBackground The Comprehensive Care for Joint Replacement (CJR) model is an alternative Medicare payment model \r\nfor joint replacement that mandated participation by hospitals in randomly selected Metropolitan Statistical Areas \r\n(MSAs). On average, the program decreased inpatient length of stay and increased home discharge rates. It is unclear \r\nif these effects differed based on hospital ownership type, even though ownership may impact care redesign \r\nopportunities.\r\nMethods We used the 2014–2017 California Patient Discharge Datasets. The study included 113,590 hospitaliza\u0002tions for hip and knee joint replacement from 287 hospitals in the treated and control MSAs in California. The primary \r\noutcomes were inpatient length of stay and home discharge rates. Home discharge status included self-care, the use \r\nof home health, and hospice care at home. To determine whether the impact of the CJR model differed by hospital \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "ownership type, we used event study, difference-in-differences (DID), and triple differences (DDD) models to estimate \r\nchanges in health care services utilization in treated relative to control areas before versus after CJR implementation \r\n(April 2016) by hospital ownership type.\r\nResults Of the 113,590 hospitalizations, 51,708 (45.52%) were in treated MSAs and 61,882 (54.48%) were in control \r\nMSAs; 81,649 (71.88%) were from nonprofit hospitals, 20,247 (17.82%) were from for-profit hospitals, and 11,694 \r\n(10.29%) were from government-owned hospitals. DID analyses showed that after policy implementation, non\u0002profit and for-profit hospitals experienced a decrease in inpatient length of stay of 0.02 days (95% CI, -0.04 to -0.01) \r\nand 0.04 days (95% CI, -0.06 to -0.01), respectively, while government-owned hospitals experienced an increase \r\nby 0.11 days (95% CI, 0.04 to 0.18). For home discharge rates, nonprofit hospitals experienced an increase of 0.02 \r\n(95% CI, 0.01 to 0.03), while other hospitals did not show statistically significant changes. DDD analyses confirmed \r\nthat inpatient length of stay increased in public compared to nonprofit hospitals in treated relative to control MSAs \r\nafter policy implementation.\r\nConclusions The impacts of the CJR program differed by hospital ownership type. Government-owned hospitals, \r\nwith their unique financial circumstances, may have faced challenges that hindered the reductions in inpatient length \r\nof stay observed in other types of hospitals under the CJR Model.\r\nKeywords Medicare, Alternative Payment Models, Bundled Payment Program, Hospital Ownership Type, Health \r\nPolicy, Health Insurance\r\n*Correspondence:\r\nNarae Kim\r\nnaraekim@usc.edu\r\nFull list of author information is available at the end of the article\nKim and Jacobson BMC Health Services Research (2024) 24:1495 Page 2 of 9\r\nBackground\r\nAn extensive literature describes how hospital owner\u0002ship impacts hospital performance and care in the United \r\nStates (US) [1–5]. For-profit hospitals are generally more \r\nresponsive to profit-making opportunities and provide \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "health care services based primarily on their relative \r\nprofitability compared to nonprofit and government\u0002owned hospitals [1, 3, 4]. At the other extreme, govern\u0002ment-owned hospitals, which are exempt from most \r\ntaxes and financially supported by tax revenues [6], are \r\nunder less pressure to make profits and therefore offer \r\nrelatively fewer profitable health care services and more \r\ncharity care to socioeconomically disadvantaged popula\u0002tions [1, 2, 4, 6]. Nonprofit hospitals, which receive tax \r\nexemptions contingent upon providing charity care and \r\ncommunity benefits, are positioned between for-profit \r\nand government-owned hospitals in terms of service pro\u0002vision [1, 6].\r\nIn recent decades, varying forms of alternative pay\u0002ment policies have been introduced to reduce spending \r\nwhile maintaining quality of care in the traditional Medi\u0002care program [7–9]. To date, however, no evidence has \r\nestablished whether these payment policies differentially \r\naffect hospitals based on ownership type. Adoption and \r\neffectiveness of voluntary payment programs may vary \r\nbased on ownership type depending on their distinctive \r\nfinancial incentives and operational structures [7]. For\u0002profit and government-owned hospitals’ participation in \r\nvoluntary bundled payment programs has been low [10, \r\n11]. For example, nationally, only 5.9% (61 out of 1,034 \r\nin 2015) of for-profit hospitals and only 1.1% (11 out of \r\n983 in 2015) of government-owned hospitals participated \r\nin the Bundled Payments for Care Initiative’s (BPCI) for \r\njoint replacement. Additionally, hospitals experiencing \r\nfinancial losses subsequently opted out of the voluntary \r\nprogram [12].\r\nThe Comprehensive Care for Joint Replacement (CJR) \r\nmodel, the first Medicare bundled payment model that \r\nrequired program participation based on a random \r\nselection process, provides a rare opportunity to exam\u0002ine differential hospital response based on ownership \r\ntype. Implemented in 2016, it required participation by \r\nhospitals in Metropolitan Statistical Areas (MSAs) ran\u0002domized to the program and not already participating \r\nin BPCI. The CJR increased the proportion of for-profit \r\nhospitals reimbursed for joint replacement procedures \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "via bundled payment to 19.0% (197 out of 1,035 in 2016) \r\nand the proportion of government-owned hospitals to \r\n11.4% (109 out of 956 in 2016) [10, 11]. Whether they \r\nresponded differently to the CJR than non-profit hospi\u0002tals, however, remains poorly understood.\r\nPrior work demonstrates that in response to mandated \r\nparticipation in the CJR, some hospitals redesigned \r\nentire care delivery systems to align with target costs and \r\nquality incentives [13]. In particular, participating hospi\u0002tals tried to reduce cost by increasing preoperative prep\u0002aration to reduce inpatient length of stay and have tighter \r\ncontrols on patient discharge disposition — expanding \r\nnetworks with home health agencies and reducing refer\u0002rals to skilled nursing facilities (SNFs), and referring to \r\na more select group of SNFs [9–12]. To date, only one \r\nstudy found that nonprofit hospitals achieved greater \r\nsavings compared to for-profit or government-owned \r\nhospitals under the CJR model; however, that study was \r\nlimited to the first year of policy implementation [14].\r\nTo bridge the current knowledge gap, this study used \r\nthe 100% California patient discharge dataset to estimate \r\nthe differential effects of the CJR model by hospital own\u0002ership type.\r\nMethods\r\nThe study protocol was approved by the State of Cali\u0002fornia’s Committee for the Protection of Human Sub\u0002jects (CPHS) and the University of Southern California’s \r\nInstitutional Review Board. California’s CPHS waived \r\ninformed consent based on the infeasibility of obtain\u0002ing consent and the minimal risk of harm. The findings \r\nwere reported using the Strengthening the Reporting \r\nof Observational Studies in Epidemiology (STROBE) \r\nreporting guideline.\r\nData sources and sample population\r\nThis study analyzed California’s Patient Discharge Data \r\n(PDD) from 2014 to 2017, the 2014 Hospital Annual \r\nUtilization Report dataset and the 2014 Four Quarter \r\nSummary Hospital Utilization Patient Days by Type of \r\nOwnership dataset provided by the California Depart\u0002ment of Health Care Access and Information (HCAI). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "The PDD dataset contains comprehensive informa\u0002tion on 100% of hospitalizations for major hip or knee \r\njoint replacement (MS-DRG 469 and 470), including \r\nthe admitting hospital, admission and discharge dates, \r\npatient’s age, race, and discharge disposition (e.g., dis\u0002charged to home or a skilled nursing facility), irrespec\u0002tive of primary payer. The other datasets provide detailed \r\ninformation on hospital characteristics, most importantly \r\nownership status. The authors had no access to informa\u0002tion that could identify individual participants during or \r\nafter data collection.\r\nHospitalizations of traditional Medicare patients were \r\nincluded in the study based on their primary payer infor\u0002mation in the dataset. We limited Medicare beneficiaries \r\nto those ages 65 and over, assuming that those who are \r\nunder the age of 65 but receive Medicare benefits would \r\nhave other medical conditions that could complicate \r\nestimation. Our treatment group consisted of hospitals \nKim and Jacobson BMC Health Services Research (2024) 24:1495 Page 3 of 9\r\nlocated in the three MSAs randomized to the CJR par\u0002ticipation – San Francisco-Oakland-Hayward, Modesto, \r\nand Los Angeles-Long Beach-Anaheim. The control \r\ngroup consisted of hospitals in the other 23 MSAs. The \r\nhospitalizations from 37 hospitals participating in the \r\nBPCI initiatives were excluded from both the treatment \r\nand control groups because they were excluded from the \r\nCJR participation. In addition, 62 hospitalizations with\u0002out information on primary payer were excluded.\r\nOutcomes\r\nOur primary outcomes of interest were inpatient length \r\nof stay and discharge to home, which are the two most \r\nfrequently studied outcomes in previous research exam\u0002ining behavioral changes associated with the CJR model \r\n[15–20]. For inpatient length of stay, we used the HCAI’s \r\nrecommended adjusted length of stay variable, which \r\nreplaced 0 days in the length of stay variable with 1 to \r\ngive value to patients who were admitted for hospitaliza\u0002tion but discharged home on the same day [21]. We fur\u0002ther applied a logarithmic transformation to the adjusted \r\nlength of stay to handle the outcome’s skewed distribu\u0002tion. To analyze discharge status, we created a binary \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "indicator for home discharge (1=being discharged to \r\nhome; 0=otherwise). Home discharge included self-care \r\nat home as well as care at home from an organized home \r\nhealth service organization or a hospice at home [22].\r\nCovariates\r\nWe controlled for a series of patient and hospital charac\u0002teristics of that could affect the outcomes of interest. Spe\u0002cifically, we included patient age and its square, a binary \r\nindicator for female (1=female, 0=otherwise) and a cat\u0002egorical variable for race/ethnicity. We also controlled \r\nfor hospital characteristics such as bed size (small=bed \r\ncounts 0–99, medium=100–249, large=250+), whether \r\na hospital was merged with other hospitals (1=Yes, \r\n0=No), whether it was a teaching hospital (1=Yes, \r\n0=No) and whether it was located in a rural area (1=Yes, \r\n0=No.) To control for severity of the illness and underly\u0002ing health conditions of patients, we also included MS\u0002DRG codes (MS-DRG 469 or 470) and an indicator for \r\nadmission from emergency department (1=admission \r\nfrom emergency department, 0=otherwise) as covari\u0002ates. Lastly, we included both hospital and quarter-year \r\nfixed effects in the analysis model to control for time\u0002invariant, unobservable characteristics of each hospital \r\nand general trends in outcomes across California.\r\nStatistical analysis\r\nTo estimate the varied impact of the CJR model by hos\u0002pital ownership type, we divided the treatment and con\u0002trol hospitals into three groups – nonprofit, for-profit \r\nand government-owned hospitals – and conducted event \r\nstudy and difference-in-differences (DID) analyses sepa\u0002rately for each hospital group. With the event study, we \r\nestimated quarter-year patient-level changes in the out\u0002comes of interest – adjusted length of stay and home \r\ndischarge rates – before and after CJR implementation \r\n(Appendix Information 1A). In the DID models, we esti\u0002mated the differential changes in outcomes after relative \r\nto before policy implementation in treated relative to \r\ncontrol hospitals (Appendix Information 1B). Lastly, we \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "employed a triple difference (DDD) analysis, an extended \r\nversion of DID, to test whether the differences by patient \r\ngroup and hospital ownership status were statistically \r\ndistinguishable from zero (Appendix Information 1C). In \r\nthe DDD analysis, nonprofit hospitals served as the refer\u0002ence group because they are the most common type of \r\nhospital serving the largest number of patients in the US.\r\nWe conducted several sensitivity analyses to test the \r\nrobustness of our findings. First, we conducted DID \r\nanalyses without any age restrictions. Additionally, we \r\nconducted DID analyses to identify changes in patient \r\nmix in government-owned hospitals that experienced \r\ndistinctive changes after the policy implementation com\u0002pared to other types of hospitals. Lastly, we employed a \r\nwild cluster bootstrap in the DID and DDD analysis using \r\nMSA clusters to address potential concerns about infer\u0002ence with a treatment (program participation) that was \r\nclustered at the MSA level but with only a small number \r\nof treated and control clusters.\r\nStatistical results were considered significant at a confi\u0002dence level of 95% and all analyses were performed using \r\nlinear regression models. We used Stata/MP 16.1 for all \r\nanalyses.\r\nResults\r\nExcluding hospitals participating in the BPCI initiatives, \r\nwhich were exempt from the CJR, a total of 287 hospitals \r\nwere included in the study. Among them, 142 were in the \r\ntreated MSAs and 145 were in control MSAs. The treat\u0002ment group had a higher proportion of for-profit (33.1% \r\nvs. 14.5%), teaching (9.1% vs. 6.4), urban (99.3% vs. \r\n76.6%), and large (43.7% vs. 26.9%) hospitals compared to \r\nthe control group (Table 1).\r\nThe total number of hospitalizations included was \r\n113,590. Among them, 51,708 were from treated and \r\n61,882 were from control hospitals. Overall demographic \r\ncharacteristics of the patients admitted to the treated and \r\ncontrol hospitals were not substantially different except \r\nfor race and ethnicity. The proportion of non-Hispanic \r\nWhite patients was lower in treated relative to control \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "hospitals (72.6% vs. 81.7%). Differences in racial and eth\u0002nic composition were also notable within hospital owner\u0002ship type. Government hospitals were less likely to have \nKim and Jacobson BMC Health Services Research (2024) 24:1495 Page 4 of 9\r\nnon-Hispanic White patients, particularly in treated \r\nMSAs (Table 1).\r\nWhen plotting unadjusted quarter-year changes of \r\naverage inpatient length of stay and home discharge rates \r\nfrom 2014 to 2017, different patterns were observed by \r\nhospital ownership type – nonprofit, for-profit and gov\u0002ernment-owned hospital. Most notably, inpatient length \r\nof stay for traditional Medicare patients in nonprofit \r\nTable 1 Descriptive statistics of hospitals and patients in California from 2014 to 2017 (N=113,590)\r\nNo. (%)\r\nTreated MSAs Control MSAs\r\nTotal Nonprofit \r\nHospitals\r\nFor-profit \r\nHospitals\r\nGovernment \r\nHospitals\r\nTotal Nonprofit \r\nHospitals\r\nFor-profit \r\nHospitals\r\nGovernment \r\nHospitals\r\nn of hospitals 142 (100.0) 84 (59.2) 47 (33.1) 11 (7.7) 145 (100.0) 93 (64.1) 21 (14.5) 31 (21.4)\r\nn of observa\u0002tions51,708 (100.0) 37,163 (71.9) 10,435 (20.2) 4,110 (7.9) 61,882 (100.0) 44,486 (71.9) 9,812 (15.9) 7,584 (12.2)\r\nHospital Characteristics\r\nLevel\r\nParent \r\nFacility\r\n137 (96.5) 82 (97.6) 44 (93.6) 11 (100.0) 143 (98.6) 91 (97.9) 21(100.0) 31 (100.0)\r\nConsolidated \r\nFacility\r\n5 (3.5) 2 (2.4) 3 (6.4) 0 (0.0) 2 (1.4) 2 (2.1) 0 (0.0) 0 (0.0)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "Teaching Status\r\nYes 13 (9.1) 9 (10.7) 0 (0.0) 4 (36.4) 9 (6.4) 5 (6.2) 0 (0.0) 4 (12.9)\r\nNo 129 (90.9) 75 (89.3) 47 (100.0) 7 (63.6) 136 (93.6) 89 (93.8) 21 (100.0) 27 (87.1)\r\nLocation\r\nUrban 141(99.3) 84 (100.0) 47 (100.0) 1 (9.1) 111 (76.6) 19 (20.4) 18 (85.7) 19 (61.3)\r\nRural 1 (0.7) 0 (0.0) 0 (0.0) 10 (90.9) 34 (23.4) 74 (79.6) 3 (14.3) 12 (38.7)\r\nBed count\r\n1–99 11 (7.7) 2 (2.4) 8 (17.0) 1 (9.1) 42 (29.0) 26 (28.0) 6 (28.6) 10 (32.3)\r\n100–249 69 (48.6) 35 (41.7) 32 (68.1) 2 (18.2) 64 (44.1) 39 (41.9) 12 (57.1) 13 (41.9)\r\n250+ 62 (43.7) 47 (55.9) 7 (14.9) 8 (72.7) 39 (26.9) 28 (30.1) 3 (14.3) 8 (25.8)\r\nPatient Characteristics\r\nAge, mean \r\n(SD)\r\n75.1 (7.3) 75.2 (7.4) 74.9 (7.1) 74.3 (6.8) 75.0 (7.4) 75.0 (7.4) 74.9 (7.2) 75.5 (7.7)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "Women 33,470 (64.7) 24,214 (65.2) 6,642 (63.7) 2,614 (63.6) 39,090 (63.2) 27,959 (62.9) 6,164 (62.8) 4,967 (65.5)\r\nRace / Ethnicity\r\nWhite 37,538 (72.6) 27,624 (74.3) 7,857 (75.3) 2,057 (50.1) 50,559 (81.7) 36,899 (83.0) 8,307 (84.7) 5,353 (70.6)\r\nBlack 2,068 (4.0) 1,658 (4.5) 291 (2.8) 119 (2.9) 1,118 (1.8) 889 (2.0) 119 (1.2) 110 (1.5)\r\nHispanics 5,132 (9.9) 3,710 (10.0) 1,131 (10.8) 291 (7.1) 5,903 (9.5) 3,489 (7.8) 728 (7.4) 1,686 (22.2)\r\nAsian / \r\nPacific Islanders\r\n3,694 (7.1) 2,575 (6.9) 827 (7.9) 292 (7.1) 2,072 (3.4) 1,633 (3.7) 273 (2.8) 166 (2.2)\r\nNative \r\nAmerican / \r\nEskimo / Aleut\r\n56 (0.1) 45 (0.1) 7 (0.1) 4 (0.1) 165 (0.3) 115 (0.3) 24 (0.2) 26 (0.3)\r\nOthers 3,220 (6.2) 1,551 (4.2) 322 (3.1) 1,347 (32.8) 2,065 (3.3) 1,461 (3.3) 361 (3.7) 243 (3.2)\r\nDiagnosis Related Group Code\r\n469, Major \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "joint replace\u0002ment with MCC\r\n2,997 (5.8) 2,245 (6.0) 641 (6.1) 111 (2.7) 3,392 (5.5) 2,474 (5.6) 461 (4.7) 705 (3.4)\r\n470, Major \r\njoint replace\u0002ment with\u0002out MCC\r\n48,711 (94.2) 34,918 (94.0) 9,794 (93.9) 3,999 (97.3) 58,490 (94.5) 42,012 (94.4) 9,351 (95.3) 20,283 (96.6)\r\nAdmission \r\nfrom ED\r\n6,762 (13.1) 5,210 (14.0) 1,153 (11.1) 399 (9.7) 9,644 (15.6) 6,563 (14.8) 1,486 (15.1) 2,491 (11.9)\nKim and Jacobson BMC Health Services Research (2024) 24:1495 Page 5 of 9\r\nhospitals in treated MSAs experienced relatively larger \r\ndecreases after the implementation of the CJR than in \r\nfor-profit or government hospitals in treated MSAs. For \r\nhome discharge rates, no notable difference by hospital \r\nownership type was observed (Appendix Fig. 1 & 2).\r\nFigures  1 and 2 show separate event study graphs for \r\ninpatient length of stay and home discharge rates by \r\nhospital ownership type. The event study models, which \r\ncontrol for selected hospital and patient characteristics, \r\nisolate the differential impacts of the CJR model over \r\ntime by hospital ownership type and patient insurance \r\ngroup. Most notably, government hospitals showed a sig\u0002nificant increase in length of stay for traditional Medicare \r\npatients in treated relative to control MSAs after the CJR \r\nimplementation, while other hospitals showed a decrease \r\nfollowing the policy implementation. In terms of home \r\ndischarge rates, only nonprofit hospitals showed a clear \r\nupward trend (Figs. 1 & 2).\r\nTable  2 shows the results of DID analyses, conducted \r\nseparately by hospital ownership type, which quantified \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "the differential changes in inpatient length of stay and \r\nhome discharge rates based on hospital ownership type \r\nwithin traditional Medicare. For log inpatient length of \r\nstay, traditional Medicare patients treated at nonprofit \r\nhospitals and for-profit hospitals experienced a statisti\u0002cally significant and relative decrease of 0.02 days (95% \r\nCI, -0.04 to -0.01) or -2.0%, and a decrease of 0.04 days \r\n(95% CI, -0.06 to -0.01) or -4.1%, respectively. In sharp \r\ncontrast, and as observed in the event study, govern\u0002ment-owned hospitals showed a significant increase in \r\nlog inpatient length of stay of 0.11 days (95% CI, 0.04 to \r\n0.18) or 11.6%. For home discharge rates, only traditional \r\nMedicare patients treated in non-profit hospitals expe\u0002rienced a statistically significant and relative increase in \r\nhome discharge rates of 0.02 (95% CI, 0.01 to 0.03) or \r\n3.4% (Table 2).\r\nTable  3 uses a triple differences (DDD) specification \r\nto formally test for differences in the relative changes \r\nin inpatient length of stay and home discharge rates \r\nafter the policy implementation by patient group for \r\ngovernment-owned and for-profit hospitals relative to \r\nnon-profit hospitals. Differences between for-profit \r\nand nonprofit hospitals were never statistically distin\u0002guishable from zero. In contrast, compared to nonprofit \r\nFig. 1 Changes in length of stay by hospital ownership type in California from 2014 to 2017 (N=113,590)\nKim and Jacobson BMC Health Services Research (2024) 24:1495 Page 6 of 9\r\nhospitals, government-owned hospitals had a 0.10 \r\nday (95% CI, 0.01 to 0.16) higher increase in inpatient \r\nlength of stay. For home discharge rates, however, gov\u0002ernment-owned hospitals also did not show a statisti\u0002cally significant difference from the nonprofit hospitals \r\n(Table 3).\r\nSensitivity analyses without age restrictions showed \r\nsimilar differential effects of the CJR by hospital owner\u0002ship type (Appendix Table 1). DID analyses with patient \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "characteristics as outcomes, e.g., proportion of racial \r\nminorities, show no increase in socially or medically chal\u0002lenging patient populations at government-owned hospi\u0002tals (Appendix Table  4), suggesting that the differential \r\nresponse for public hospitals is unlikely to be driven by \r\ntheir distinctive patient mix. When the wild cluster boot\u0002strap was applied to the DID and DDD analyses, the dif\u0002ference between nonprofit and government-hospital in \r\ninpatient length of stay was no longer statistically sig\u0002nificant (Appendix Table 2 & 3). With only three MSAs \r\nin the treatment group, however, the statistical power of \r\nthe analysis limited our ability to detect significant differ\u0002ences between hospital types.\r\nDiscussion\r\nWe examined differential effects of the CJR model by \r\nhospital ownership type. We found that the CJR model \r\naffected government-owned hospitals differently com\u0002pared to nonprofit and for-profit hospitals. Specifically, \r\ngovernment-owned hospitals in treated MSAs showed \r\na significant increase in inpatient length of stay, while \r\nnonprofit and for-profit hospitals showed a significant \r\ndecrease after the policy implementation. Regarding \r\nhome discharge rates, no statistically significant differ\u0002ences were found between hospitals after the CJR model.\r\nOur study findings suggest that public hospitals \r\nresponded to the Medicare’s bundled payment model dif\u0002ferently from their private counterparts. The difference in \r\npatient mix served in government hospitals, often con\u0002sidered “safety-net” hospitals, may have contributed to \r\nthese findings [23–25]. However, the differential changes \r\nin hospital behaviors persisted even after adjusting for \r\npatient characteristics. Furthermore, despite conduct\u0002ing analyses to determine if government hospitals began \r\nreceiving more socially and medically complex patients \r\nFig. 2 Changes in home discharge rates by hospital ownership type in California from 2014 to 2017 (N=113,590)\nKim and Jacobson BMC Health Services Research (2024) 24:1495 Page 7 of 9\r\nfollowing the policy implementation, no significant \r\nincrease was observed.\r\nThis observation raises important questions about \r\nthe effectiveness of the CJR model within the govern\u0002ment-owned hospitals. Unlike nonprofit and for-profit \r\nhospitals, which may have greater flexibility in opti\u0002mizing their operations and care delivery processes \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "to align with bundled payment models like the CJR, \r\ngovernment-owned hospitals may encounter unique \r\nchallenges. These challenges might stem from bureau\u0002cratic processes and resource limitations, which could \r\nlimit their ability to adapt effectively to such payment \r\nmodels [24]. Another unique factor affecting govern\u0002ment-owned hospitals, potentially limiting their adapt\u0002ability compared to other entities, is the concept of a \r\nsoft budget constraint. Existing literature shows that \r\nthe soft budget constraint of government-owned hospi\u0002tals is associated with decreased cost-efficiency in their \r\noperations [26, 27]. These hospitals may lack the moti\u0002vation to change their behavior as long as they are not \r\nconcerned about exceeding their budget through penal\u0002ties or are not actively seeking incentives under the CJR \r\nmodel. Further research is needed to address the spe\u0002cific challenges faced by government-owned hospitals \r\nin changing their behavior (i.e., care delivery process) \r\nunder bundled payment models. Ensuring that govern\u0002ment-owned hospitals can effectively participate in and \r\nbe benefitted from initiatives like the CJR model would \r\nadvance the success of value-based health care delivery \r\nacross various types of institutions.\r\nThis study has several limitations. Firstly, a potential \r\nviolation of the parallel trends assumption in the pre\u0002policy period was observed in the event study models. \r\nDespite adjustments in the main analyses, we acknowl\u0002edge that the estimates could still be biased. Secondly, \r\nthe de-identified patient information in the dataset pre\u0002vented detection of readmission rates, an important \r\nproxy for quality of care. Therefore, reduced volume of \r\ncare after the CJR model implementation – decreases \r\nin length of stay or increases in home discharge –do \r\nnot necessarily indicate better patient outcomes in this \r\nstudy. In addition, we had limited information available \r\nto explain why government-owned hospitals showed dif\u0002ferent changes in patient care after the implementation \r\nof the CJR model compared to other hospitals. Although \r\nwe conducted several DID analyses to assess whether \r\ngovernment-owned hospitals received a higher propor\u0002tion of high-risk patients after the CJR model implemen\u0002tation compared to other hospitals, we found no support \r\nfor this type of selection as a cause of the difference. \r\nTherefore, we assume that unobservable factors related \r\nto the hospital ownership status may have influenced \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "the observed differences in the impact of the CJR model. \r\nLastly, the study findings are limited to California and \r\nthe small number of treated MSAs reduced our statisti\u0002cal power with clustering. To generalize these results and \r\nachieve more accurate estimations with clustering, fur\u0002ther research based on national-level data is necessary.\r\nTable 2 Difference-in-differences analyses results of nonprofit, for-profit and government hospitals in California from 2015 to 2017 \r\n(N=238,326)\r\nThe pre-policy implementation trend was added to the analysis to adjust for the pre-policy trend identified in the event study results\r\nDID with Nonprofit Hospitals DID with For-profit Hospitals\r\nN Coefficient\r\n(95% CI)\r\nP Relative change (%) N Coefficient\r\n(95% CI)\r\nP Relative \r\nchange \r\n(%)\r\nLogged Adjusted Length of Stay 62,753 -0.02 (-0.04, -0.01) 0.000 -2.0 15,128 -0.04 (-0.06, -0.01) 0.007 -4.1\r\nHome Discharge Rates 62,753 0.02 (0.01, 0.03) 0.001 3.4 15,128 0.005 (-0.02, 0.03) 0.693 0.8\r\nDID with Government Hospitals\r\nN Coefficient\r\n(95% CI)\r\nP Relative change (%)\r\nLogged Adjusted Length of Stay 8,931 0.11 (0.04, 0.18) 0.001 19.6\r\nHome Discharge Rates 8,931 -0.01 (-0.04, 0.02) 0.624 -1.3\r\nTable 3 Triple differences results comparing nonprofit versus \r\nfor-profit versus government-owned hospitals in California from \r\n2015 to 2017 (N=86,812)\r\nThe pre-policy implementation trend was added to the analysis to adjust for the \r\npre-policy trend identified in the event study results\r\nFor profit relative to Nonprofit Hospitals\r\nn Coefficient (95% CI) P\r\nLogged Adjusted Length of Stay 86,812 -0.01 (-0.07, 0.04) 0.667\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "Home Discharge Rates 86,812 -0.02 (-0.07, 0.03) 0.537\r\nGovernment relative to Nonprofit Hospitals\r\nn Coefficient (95% CI) P\r\nLogged Adjusted Length of Stay 86,812 0.10 (0.04, 0.16) 0.002\r\nHome Discharge Rates 86,812 -0.03 (-0.09, 0.03) 0.310\nKim and Jacobson BMC Health Services Research (2024) 24:1495 Page 8 of 9\r\nConclusions\r\nThis work provides the first evidence of differential \r\neffects of the CJR model based on hospital ownership \r\ntype. Only government-owned hospitals did not show a \r\nreduction in inpatient length of stay. This work under\u0002scores the necessity of considering the unique circum\u0002stances of government-owned hospitals when using \r\nbundled payments to try to increase the efficiency of \r\ncare.\r\nAbbreviations\r\nBPCI Bundled Payments for Care Initiative\r\nCJR Comprehensive Care for Joint Replacement\r\nCPHS California’s Committee for the Protection of Human Subjects\r\nDDD Triple differences\r\nDID Difference-in-differences\r\nHCAI Health Care Access and Information\r\nMA Medicare Advantage\r\nMSA Metropolitan Statistical Area\r\nPDD Patient Discharge Data\r\nSNF Skilled Nursing Facility\r\nTM Traditional Medicare\r\nUS United States\r\nSupplementary Information\r\nThe online version contains supplementary material available at https://doi.\r\norg/10.1186/s12913-024-11905-0.\r\nSupplementary Material 1.\r\nAcknowledgements\r\nDr. Kim and Dr. Jacobson acknowledge support from AHRQ \r\n1R01HS026488-01A1a.\r\nAuthors’ contributions\r\nDr. Kim wrote the main manuscript text, conducted statistical analyses and \r\nprepared figures and tables. Dr. Jacobson supervised the research and edited \r\nthe manuscript.\r\nFunding\r\nThe authors acknowledge support from the Agency for Healthcare Research \r\nand Quality (AHRQ) 1R01HS026488-01A1. AHRQ did not contribute to the \r\nstudy design, data analysis or manuscript drafting and did not play a role in \r\nthe decision to submit the manuscript for review.\r\nData availability\r\nThe datasets supporting the conclusions of this article are provided by the \r\nCalifornia Department of Health Care Access and Information (HCAI). To use \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "California’s Patient Discharge Data (PDD), the authors obtained approval from \r\nthe Committee for the Protection of Human Subjects (CPHS) at the California \r\nHealth and Human Services. Access to the data requires creating a data \r\nrequest through the HCAI data request portal (https://datarequest.hcai.ca.\r\ngov/csm) and submitting a protocol for IRB review from CPHS (https://www.\r\ncdii.ca.gov/committees-and-advisory-groups/committee-for-the-protection\u0002of-human-subjects-cphs/).\r\nThe Hospital Annual Utilization Report dataset and the Four Quarter Summary \r\nHospital Utilization Patient Days by Type of Ownership datasets are publicly \r\navailable from the HCAI dataset repository at https://hcai.ca.gov/data/datas\r\nets/. Please note that if you are outside the United States, the links may not be \r\naccessible due to regional restrictions on California government websites. If \r\nyou encounter any issues accessing the provided links, please contact HCAI at \r\nHCAIDO@hcai.ca.gov or+1 (916) 440–8300 for assistance.\r\nDeclarations\r\nEthics approval and consent to participate\r\nThe study protocol was approved by the State of California’s Committee for \r\nthe Protection of Human Subjects (CPHS) and the University of Southern Cali\u0002fornia’s Institutional Review Board. California’s CPHS waived informed consent \r\nbased on the infeasibility of obtaining consent and the minimal risk of harm. \r\nThe research was based on de-identified publicly available secondary data\u0002sets. All methods were performed in accordance with the relevant guidelines \r\nand regulations.\r\nConsent for publication\r\nN/A.\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nAuthor details\r\n1\r\nLeonard Davis School of Gerontology, University of Southern California, 3715 \r\nMcClintock Ave., Los Angeles, CA 90089, USA. 2Leonard D. Schaeffer Center \r\nfor Health Policy & Economics, University of Southern California, 635 Downey \r\nWay, Los Angeles, CA 90089, USA. \r\nReceived: 22 June 2024 Accepted: 8 November 2024\r\nReferences\r\n1. Horwitz JR. Making profits and providing care: comparing non\u0002profit, for-profit and government hospitals. Health Aff (Millwood). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "2005;24(3):790–801.\r\n2. Sloan FA, Picone GA, Taylor DH, Chou SY. Hospital ownership and cost \r\nand quality of care: is there a dime’s worth of difference? J Health Econ. \r\n2001;20(1):1–21.\r\n3. Horwitz JR, Nichols A. Hospital ownership and medical services: \r\nmarket mix, spillover effects, and nonprofit objectives. J Health Econ. \r\n2009;28(5):924–37.\r\n4. Horwitz JR, Nichols A. Hospital service offerings still differ substantially by \r\nownership type. Health Aff (Millwood). 2022;41(3):331–58.\r\n5. Silverman EM, Skinner JS, Fisher ES. The association between for-profit \r\nhospital ownership and increased medicare spending. N Engl J Med. \r\n1999;341(6):420–6.\r\n6. Bai G, Zare H, Eisenberg MD, Polsky D, Anderson GF. Analysis suggests \r\ngovernment and nonprofit hospitals’ charity care is not aligned with their \r\nfavorable tax treatment. Health Aff (Millwood). 2021;40(4):629–36.\r\n7. Einav L, Finkelstein A, Ji Y, Mahoney N. Voluntary regulation: evidence \r\nfrom medicare payment reform. Q J Econ. 2021;137(1):565–618.\r\n8. NHE Fact Sheet | CMS. Available from: https://www.cms.gov/data-resea\r\nrch/statistics-trends-and-reports/national-health-expenditure-data/nhe\u0002fact-sheet. Cited 12 Feb 2024.\r\n9. Bureau UC. Census.gov. Health Insurance Coverage in the United States: \r\n2022. Available from: https://www.census.gov/library/publications/2023/\r\ndemo/p60-281.html. Cited 14 Feb 2024.\r\n10. Hospitals by Ownership Type. KFF. Available from: https://www.kff.org/\r\nother/state-indicator/hospitals-by-ownership/. Cited 15 Feb 2024.\r\n11. Navathe AS, Liao JM, Polsky D, Shah Y, Huang Q, Zhu J, et al. Comparison \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "of hospitals participating in medicare’s voluntary and mandatory ortho\u0002pedic bundle programs. Health Aff (Millwood). 2018;37(6):854–63.\r\n12. Smith B. CMS innovation center at 10 years — Progress and lessons \r\nlearned. N Engl J Med. 2021;384(8):759–64.\r\n13. Gray CF, Prieto HA, Duncan AT, Parvataneni HK. Arthroplasty care \r\nredesign related to the Comprehensive Care for Joint Replacement \r\nmodel: results at a tertiary academic medical center. Arthroplasty Today. \r\n2018;4(2):221–6.\r\n14. Navathe AS, Liao JM, Shah Y, Lyon Z, Chatterjee P, Polsky D, et al. Char\u0002acteristics of hospitals earning savings in the first year of mandatory \r\nbundled payment for hip and knee surgery. JAMA. 2018;319(9):930–2.\r\n15. Finkelstein A, Ji Y, Mahoney N, Skinner J. Mandatory medicare bundled \r\npayment program for lower extremity joint replacement and discharge \nKim and Jacobson BMC Health Services Research (2024) 24:1495 Page 9 of 9\r\nto institutional postacute care: interim analysis of the first year of a 5-year \r\nrandomized trial. JAMA. 2018;320(9):892–900.\r\n16. Ko H, Martin BI, Nelson RE, Pelt CE. Patient selection in the Comprehen-\r\nsive Care for Joint Replacement model. Health Serv Res. 2022;57(1):72–90.\r\n17. Haas DA, Zhang X, Kaplan RS, Song Z. Evaluation of economic and \r\nclinical outcomes under centers for medicare & medicaid services \r\nmandatory bundled payments for joint replacements. JAMA Intern Med. \r\n2019;179(7):924–31.\r\n18. Plate JF, Ryan SP, Black CS, Howell CB, Jiranek WA, Bolognesi MP, et al. No \r\nchanges in patient selection and value-based metrics for total hip arthro-\r\nplasty after comprehensive care for joint replacement bundle implemen-\r\ntation at a single center. J Arthroplasty. 2019;34(8):1581–4.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8483631131756406306,
+        "filename": "12913_2024_Article_11905.PMC11603975.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 459,
+      "total_chunks": 20,
+      "version": "1.0.0"
+    },
+    "text": "19. Kim H, Meath THA, Tran FW, Quiñones AR, McConnell KJ, Ibrahim SA. \r\nAssociation of medicare mandatory bundled payment system for hip and \r\nknee joint replacement with racial/ethnic difference in joint replacement \r\ncare. JAMA Netw Open. 2020;3(9):e2014475.\r\n20. Kim N, Jacobson M. Outcomes by race and ethnicity following a medi-\r\ncare bundled payment program for joint replacement. JAMA Netw Open. \r\n2024;7(9):e2433962.\r\n21. California Department of Health Care Access and Information. Depart-\r\nment of Health Carae Access and Information California inpatient data \r\nreporting manual, eight edition. 2021.\r\n22. California Department of Health Care Access and Information. 2017 \r\npatient discharge data dictionary. 2017.\r\n23. Duggan M, Gupta A, Jackson E, Templeton ZS. The impact of privatiza-\r\ntion: evidence from the hospital sector. National Bureau of Economic \r\nResearch; 2023. (Working Paper Series). Available from: https://www.nber.\r\norg/papers/w30824 . Cited 8 Feb 2024.\r\n24. Miller GD, Singh JA. Challenges of practicing rheumatology in a govern-\r\nment setting. Rheum Dis Clin N Am. 2019;45(1):39–51.\r\n25. Kishore S, Johnson M, Nayak R. Characteristics of public vs. private feder-\r\nally qualified health centers. J Gen Intern Med. 2022;37(4):987–9.\r\n26. Wright DJ. Soft budget constraints in public hospitals. Health Econ. \r\n2016;25(5):578–90.\r\n27. Shen YC, Eggleston K. The effect of soft budget constraints on access and \r\nquality in hospital care. Int J Health Care Finance Econ. 2009;9(2):211–32.\r\nPublisher’s Note\r\nSpringer Nature remains neutral with regard to jurisdictional claims in pub-\r\nlished maps and institutional affiliations.\n\n"
+  }
+]

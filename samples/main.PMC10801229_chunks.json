@@ -1,0 +1,1778 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Developmental Cognitive Neuroscience 65 (2024) 101337\r\nAvailable online 28 December 2023\r\n1878-9293/© 2023 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by\u0002nc-nd/4.0/).\r\nA multi-sample evaluation of the measurement structure and function of \r\nthe modified monetary incentive delay task in adolescents \r\nMichael I. Demidenko *, Jeanette A. Mumford , Nilam Ram , Russell A. Poldrack \r\nDepartment of Psychology, Stanford University, Stanford, United States \r\nARTICLE INFO \r\nKeywords: \r\nNeurodevelopment \r\nMonetary incentive delay task \r\nReward processing \r\nMeasurement invariance \r\nAdolescence \r\nFunctional magnetic resonance imaging \r\nABSTRACT \r\nInterpreting the neural response elicited during task functional magnetic resonance imaging (fMRI) remains a \r\nchallenge in neurodevelopmental research. The monetary incentive delay (MID) task is an fMRI reward pro\u0002cessing task that is extensively used in the literature. However, modern psychometric tools have not been used to \r\nevaluate measurement properties of the MID task fMRI data. The current study uses data for a similar task design \r\nacross three adolescent samples (N = 346 [Agemean 12.0; 44 % Female]; N = 97 [19.3; 58 %]; N = 112 [20.2; 38 \r\n%]) to evaluate multiple measurement properties of fMRI responses on the MID task. Confirmatory factor \r\nanalysis (CFA) is used to evaluate an a priori theoretical model for the task and its measurement invariance \r\nacross three samples. Exploratory factor analysis (EFA) is used to identify the data-driven measurement structure \r\nacross the samples. CFA results suggest that the a priori model is a poor representation of these MID task fMRI \r\ndata. Across the samples, the data-driven EFA models consistently identify a six-to-seven factor structure with \r\nrun and bilateral brain region factors. This factor structure is moderately-to-highly congruent across the samples. \r\nAltogether, these findings demonstrate a need to evaluate theoretical frameworks for popular fMRI task designs \r\nto improve our understanding and interpretation of brain-behavior associations. \r\n1. Introduction \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "The way in which phenomena are numerically represented in a study \r\nplays a critical role in the interpretations that a researcher can make. For \r\nover half a century, psychology has grappled with measurement issues \r\nto improve the reliability and interpretation of results (Association \r\nAmerican Educational Research et al., 2014; Borsboom, 2006; Cronbach \r\nand Meehl, 1955; Flake and Fried, 2020; Lilienfeld and Strother, 2020). \r\nWhile not a core concern in the initial work using functional magnetic \r\nresonance imaging (fMRI), measurement issues such as reliability (i.e., \r\nprecision of measurement) have become an increasing concern in the \r\nneuroimaging community (Bennett and Miller, 2010; Elliott et al., 2020; \r\nNikolaidis et al., 2022; Noble et al., 2019). However, the validity of \r\nmeasurements (i.e., the degree to which the measurement accurately \r\nreflects the target construct) has largely remained at the periphery. \r\nSince the inception of the blood oxygen level dependent (BOLD) \r\ncontrast (Kwong et al., 1992; Ogawa et al., 1990), neurodevelopmental \r\nresearchers have adopted several experimental tasks to measure the \r\nneural processes associated with latent constructs of cognitive func\u0002tioning. This includes the measurement of reward processing (Richards \r\net al., 2013; Silverman et al., 2015) and cognitive control (Luna, 2009; \r\nLuna et al., 2015) to better link changes in brain and behavior across the \r\ndevelopmental period from childhood to adulthood (i.e., adolescence \r\n[Sawyer et al., 2018]). To date, neurodevelopmental work has \r\ncontributed to progress in understanding the developing brain (Bethle\u0002hem et al., 2022; Mills et al., 2016) and has defined several neuro\u0002developmental frameworks (Casey et al., 2019; Ernst, 2014; Steinberg, \r\n2010). Despite this progress, the generalizability of neurodevelopmental \r\nfindings (Sherman et al., 2018), predictive ability of the frameworks \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "(Ernst et al., 2022) and reliability issues (Elliott et al., 2020; Noble et al., \r\n2019) in brain-behavior studies using fMRI remain a barrier to its ability \r\nto inform theory, clinical practice and public policy. \r\nTo confidently interpret a brain-behavior association, it is crucial to \r\nunderstand how the neural response elicited during fMRI tasks reflects \r\nthe specific mental process the researcher intended to measure \r\n(Francken et al., 2022). The monetary incentive delay (MID) task is a \r\npopular fMRI reward processing task that is extensively used in the adult \r\nand adolescent literature. Despite its popularity in brain-behavior \r\nresearch, the measurement properties of the task remain unclear. The \r\npurpose of the present study is to provide clarity about the measurement \r\n* Corresponding author at: Department of Psychology, Stanford University, 450 Serra Mall, Building 420, Stanford, CA 94305, United States. \r\nE-mail address: demidenm@stanford.edu (M.I. Demidenko). \r\nContents lists available at ScienceDirect \r\nDevelopmental Cognitive Neuroscience \r\njournal homepage: www.elsevier.com/locate/dcn \r\nhttps://doi.org/10.1016/j.dcn.2023.101337 \r\nReceived 27 November 2022; Received in revised form 11 December 2023; Accepted 26 December 2023 \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n2\r\nproperties of the MID task by evaluating the degree to which a nearly \r\nidentical MID task design elicits a neural response that can be and is \r\nmeasured in the same way across multiple adolescent samples. Holding \r\npreprocessing and analytic pipelines constant, both confirmatory \r\n(restricted, hypothesis-driven) and exploratory (unrestricted, \r\ndata-driven) factor analyses are used to determine whether a range of \r\ndefinitions of the reward processing constructs (i.e., approach and \r\navoidance) are related and interchangeable across samples. Results from \r\nthese analyses will be valuable in understanding the generalizability of \r\nneural findings within and across MID task contrasts and adolescent \r\nsamples. \r\n1.1. Task FMRI in correlational research: methodological and conceptual \r\nchallenges \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "A primary goal of contemporary neurodevelopmental frameworks is \r\nto explain brain-behavior associations across samples and conditions \r\n(Ernst et al., 2022; Rosenberg et al., 2018). The range of operationali\u0002zations of a given construct, such as reward, in fMRI pose methodo\u0002logical and conceptual challenges, as different operationalizations of \r\nvariables (e.g., contrasts from task fMRI) may not always map onto \r\npostulated construct(s). \r\nOne methodological challenge is designing fMRI tasks that can truly \r\nisolate specific mental processes (Poldrack and Yarkoni, 2016) such as \r\nsensitivity towards rewards (i.e., researcher’s construct of interest). In \r\nthe simplest form, BOLD signals obtained during two experimentally \r\nmanipulated conditions (e.g., low-probability/high-reward vs. \r\nhigh-probability/low-reward) of a task are compared to obtain scores \r\nthat measure between-person differences in how a presumed phenome\u0002non, such as motivation to approach rewarding stimuli, is manifested. \r\nThe assumption is that subtraction of the estimated signals between trial \r\ntypes is a valid numerical representation of a specific interindividual \r\ndifference in the construct of interest: arousal and allure of high reward \r\nstimuli that drives approach behaviors. However, this assumption is \r\noften violated because a contrast score does not always produce a \r\nmeasurement that accurately captures the latent mental process (Han\u0002son, 2022; Poldrack, 2010). \r\nOne conceptual challenge is the under-discussed gap between the \r\nexperimental and correlational psychology frameworks (Cronbach, \r\n1957). Whereas experimental psychologists aim to control their condi\u0002tions to find ordered structure in the behavior of their sub\u0002jects/participants through experimental designs (Skinner, 1956), \r\ncorrelational psychologists take advantage of naturally occurring indi\u0002vidual differences between participants to infer associations, or net\u0002works of associations, among variables. In the case of \r\nneurodevelopmental research that leverages both frameworks, ensuring \r\nthe consistency of the interpretation(s) across brain-behavior studies \r\nrequires confidence that (a) the fMRI task is a valid measure to isolate \r\nthe mental process of interest1 and (b) there is converging evidence \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "across different measures of a given construct reflecting the direction2 of \r\nassociations that are consistent with the theoretical framework. While a \r\nmental process from an experimental task can be demonstrated to occur \r\nacross administrations (Caplan, 2007; Henson, 2005), it is crucial for \r\nneurodevelopmental researchers using or developing tasks for correla\u0002tion brain-behavior studies to validate that the structure and function of \r\nthe construct aligns with the theory (Cronbach and Meehl, 1955; Flake \r\net al., 2022; Lilienfeld and Strother, 2020). Failing to undertake this \r\nchallenging work may lead to misinterpretation of the resulting \r\nbrain-behavior findings across studies. Engaging in these efforts may \r\nalso help standardize the verbal descriptions and language of the \r\nmeasured, complex mental processes. \r\nIn the neurodevelopmental literature, consistency of measurement is \r\noften established by citing work for a particular construct, such as \r\nreward (as author MD here has done in [Demidenko et al., 2020]) or \r\nmotivational processing during the MID task (as in [Bjork et al., 2010]), \r\nthrough reference to studies that use a range of fMRI task designs and \r\ncontrasts. In principle, this is a reasonable approach to justify and form a \r\ntestable hypothesis about the association among constructs based on \r\ncoherence across the literature. There are indeed a wide range of tasks \r\n(Richards et al., 2013; Sherman et al., 2018) and contrasts (Tervo-\u0002Clemmens et al., 2020) being used in the neurodevelopmental literature. \r\nThe diversity in tasks and contrasts is both a strength and limitation. \r\nMeasurement diversity is a strength because it provides the potential for \r\nconvergent evidence across different reward types, such as \r\ninstrumental-reward tasks (e.g., MID task) or decision-making tasks (e. \r\ng., Wheel of Fortune) (Richards et al., 2013), contributing inferences \r\nabout the overarching construct. Measurement diversity is a limitation \r\nbecause each study typically measures the construct of interest using a \r\nsingle task or set of contrasts, so the relations among the different \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "operational measures of what is assumed to be the same construct are \r\noften unclear. In practice, the postulated mental process reflected in the \r\nspecific study is accepted, ‘loosely connected’ (Haeffel, 2022, p. 2) and \r\nrarely confirmed empirically, which is problematic when testing the\u0002ories (Hull, 1952; Uttal, 2003). \r\n1.2. Tasks and contrasts: uncertainty about the measured process \r\nMotivational processing tasks are common tools used to study brain\u0002behavior associations in the neurodevelopmental literature. One hy\u0002pothesis is that an individuals’ motivational processing manifests as \r\nactivation of distinct brain regions comprising approach and avoidance \r\nsystems. Approach systems are thought to manifest in striatal and \r\norbitofrontal cortex regions, whereby the function of these systems is to \r\ntrack the appetitiveness, incentive salience and motivation to approach \r\nstimuli. Avoidance systems are thought to manifest in amygdalar, hip\u0002pocampal and insular regions, whereby the function of these systems is \r\nto track aversiveness of stimuli, negative valence, and motivation to \r\navoid stimuli (Richards et al., 2013). Both systems are developmentally \r\nimportant in that to they are hypothesized to have implications for when \r\nand how substance use and risk-taking may emerge and progress over \r\ntime (Doremus-Fitzwater et al., 2010; Ernst, 2014; Ernst and Luciana, \r\n2015; Luciana et al., 2012). While there are distinct questions that can \r\nbe formed based on the motivational processing literature, there are \r\nseveral challenges in interpreting and comparing functional activation \r\nacross the neurodevelopmental studies. \r\nTake for instance, the proposition that scores obtained from reward \r\ntasks used in fMRI can numerically represent a component of motiva\u0002tional processing (Schultz, 2015) that is important in neuro\u0002developmental research, such as reward anticipation (Silverman et al., \r\n2015). Studies evaluating brain-behavior associations using the MID \r\ntask have used a diverse set of contrasts to measure motivational pro\u0002cessing and test their brain-behavior hypotheses in the context of reward \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "anticipation. For example, in a late-adolescent sample, individual dif\u0002ferences in activity in the nucleus accumbens (NAcc) during combined \r\nLarge and Small Gain versus Neutral contrast were related to individual \r\ndifferences in marijuana use (Martz et al., 2016) whereas NAcc activity \r\nduring the Large Gain versus Neutral stimuli contrast was not related to \r\ndifferences in a broad measure of substance use (Demidenko et al., \r\n2020). In mid-adolescents, activity in the NAcc during the Large Gain \r\nversus Small Gain contrast was related to differences in alcohol use only \r\namong high sensation seekers in one study (Büchel et al., 2017) and only \r\ntobacco use in another study (Karoly et al., 2015). Some may argue that \r\nthe same construct – approach motivation – was measured in all these \r\nstudies, however, without empirical tests of measurement structure of \r\n1 Here, intentionally refer to the fMRI task and not a specific contrast for a \r\ngiven task. A researcher should theoretically and empirically demonstrate that \r\nthe task relates to the specified mental process in the context of contrasts based \r\non traditional univariate, multivariate or connectivity analytic approaches. 2 If a specific effect size is hypothesized it is also related to magnitude. See \r\n‘good enough’ belt as discussed in Serlin & Lapsley (1985) \r\nM.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n3\r\nthe fMRI task these differences in brain-behavior relations becomes \r\ndifficult to interpret. \r\nWhile meta-analyses of reward tasks have provided comprehensive \r\nreviews of brain regions involved in different components of reward \r\nprocessing (Bartra et al., 2013; Chen et al., 2022; Clithero and Rangel, \r\n2014; Diekhof et al., 2012; Dugr´e et al., 2018; Flannery et al., 2020; Lutz \r\nand Widmer, 2014; Oldham et al., 2018; Silverman et al., 2015; Wilson \r\net al., 2018), there are few studies to date that evaluate within- and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "between-study measurement properties of brain-brain associations in \r\nthese tasks. This, in part, is because most of the studies using reward \r\nfMRI tasks to measure motivational processing have obtained data from \r\nsmall samples using a wide variety of study designs, making the \r\nassessment of measurement properties difficult. However, some tasks, \r\nsuch as the MID, have a long history in the reward literature and have \r\nbeen administered in numerous studies, making them a good target for \r\ninvestigation of measurement properties. \r\nThe MID task (Knutson et al., 2000) was designed to elicit robust \r\nactivation of reward regions during reward anticipation and reward \r\nconsumption (Knutson and Heinz, 2015). The task has been cited as, ‘the \r\nmost widely used probe of human incentive motivational processing by \r\nnondrug rewards’ (Bjork, 2020, p. 2). The task has been reported to relate \r\nto affective ratings in adult and adolescent samples (Bjork et al., 2004; \r\nKnutson et al., 2001; Wu et al., 2014) and has been utilized extensively \r\nthroughout the neurodevelopmental and substance use literature \r\n(Balodis and Potenza, 2015; Bjork, 2020). Different variants of the task \r\nare currently used in large consortium (Casey et al., 2018; Schumann \r\net al., 2010) and longitudinal studies (Murray et al., 2020; Yau et al., \r\n2012). In the context of neurodevelopmental research, the MID task is \r\nused to evaluate changes in reward-related activity during adolescence \r\nand how these changes in neural activity are associated with outcomes \r\nincluding risk-taking and substance use (Casey et al., 2018; Bjork, 2020). \r\nOne hypothesized theoretical framework of the MID task that has \r\nbeen proposed decomposes the anticipatory phase into two distinct \r\nconstructs. In short, cues in the task elicit approach and avoidance sig\u0002nals (Knutson et al., 2014; Knutson and Greer, 2008), whereby levels of \r\napproach are presumed to manifest as activity in the NAcc whereas \r\nlevels of avoidance are presumed to manifest as activity in the anterior \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "insula (AI). During the anticipation phase, anticipatory gain and loss \r\ncues often differentially activate the NAcc, AI, medial premotor and \r\ndorsal striatal regions (Bjork et al., 2004; Knutson et al., 2003). \r\nMeta-analyses, based mostly on adult samples, have provided some \r\nevidence for the proposed hypothesis: activity in the bilateral AI is \r\nhigher during anticipatory loss versus gain conditions and the activity in \r\nthe right AI and bilateral NAcc are higher for anticipatory gain cues than \r\nfor neutral cues (Knutson and Greer, 2008). However, this theoretical \r\nframework has not been empirically tested using the tools of modern \r\npsychometrics. In fact, it remains unclear whether these are discernible \r\ncomponents of reward observed in the between-subject neural activity \r\nduring the anticipatory phase and how consistent this measurement \r\nproperty is across adolescent samples. \r\nUnderstanding the measurement properties of the MID task is critical \r\nto making valid interpretations about neural changes and their associ\u0002ation with behavior across adolescence. In human and animal models, \r\nthere are significant biological and behavioral changes with the onset of \r\npubertal development during adolescence (Dahl et al., 2018; Forbes and \r\nDahl, 2010; Spear, 2004). In particular, puberty is marked by changes in \r\ndopamine receptors (Spear, 2000) in reward-relevant regions that are \r\nimportant to motivational processing and risk-taking behaviors (Luciana \r\net al., 2012; Pfeifer and Berkman, 2018; Silverman et al., 2015). While \r\nthe MID task has repeatedly been shown to activate brain regions hy\u0002pothesized to be meaningful to approach and avoidance systems (Chen \r\net al., 2022; Oldham et al., 2018), there is little empirical evidence \r\nconfirming that the hypothesized approach and avoidance systems are \r\nobserved in the MID task consistently across adolescent samples. \r\nGiven the popularity of the MID task (Bjork, 2020), evaluating psy\u0002chometric properties of the task would be valuable to researchers asking \r\ndevelopmental and brain-behavior questions. If the between-subject \r\ncovariation between manifest variables from the MID task is not \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "consistent across adolescent and adult groups, the differences observed \r\nbetween different age groups may be attributed to a construct (i.e., \r\nmotivational processing) when in fact the difference may be due to \r\ndifferential item or test functioning (Association American Educational \r\nResearch et al., 2014). Second, if the between-subject covariation be\u0002tween the manifest variables from the MID task demonstrates a different \r\nnumber of factors and different structure across the samples, this may \r\nindicate that the studies are measuring meaningfully different con\u0002structs. In both cases, the bias in the measure may be inadvertently \r\nattributed to differences observed between groups, samples or \r\nbrain-behavior associations (Borsboom, 2006). \r\n2. Current study \r\nTo date, meta-analyses and systematic reviews of reward processing \r\nhave spanned diverse sets of tasks, task contrasts (Sherman et al., 2018; \r\nSilverman et al., 2015; Tervo-Clemmens et al., 2020) and different \r\nsoftware, preprocessing and analytic pipelines have the potential to \r\nimpact results in adolescent and adult samples (Botvinik-Nezer et al., \r\n2020; Carp, 2012). The neurodevelopmental cognitive neuroscience \r\nliterature would benefit from understanding the extent to which mea\u0002surement properties generalize across multiple adolescent samples that \r\ncollected data using the same reward task. The Adolescent Brain \r\nCognitive Development (ABCD; [Casey et al., 2018]), Michigan Longi\u0002tudinal Study (MLS; [Yau et al., 2012]) and Adolescent Health Risk \r\nBehavior (AHRB; [Demidenko et al., 2020]) studies collected data using \r\na nearly identical MID task. These MID task data allow for an empirical \r\ntest of the measurement properties of the task and its invariance across \r\nstudies. This would be an important first step in understanding how task \r\nresults can and can’t be interpreted within and between studies using \r\nthis version of the design. Here, the theoretical framework proposed in \r\nKnutson et al. (2014) is put to a severe test and data-driven measure\u0002ment properties are evaluated for the MID task across three adolescent \r\nfMRI samples. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "First, the degree to which a primary theoretical framework of the \r\nMID task is empirically supported across samples is evaluated using a \r\nrestrictive and semi-restrictive model. Aim 1a evaluates the degree to \r\nwhich task contrasts reflect the hypothesized latent factors, approach \r\nand avoidance. This is achieved by fitting a confirmatory (restricted) \r\nfactor (CFA) model to six anticipation task contrast measures for four \r\nbrain regions of interest (ROIs). The model articulates the hypothesis \r\nthat contrasts at these hypothesized regions (e.g., NAcc and AI) load \r\nonto two factors, approach and avoidance, and the hypothesis that the \r\nsame structure is present in each adolescent sample. The hypothesized \r\nstructure is based on the theoretical framework proposed in Knutson \r\net al. (2014) and is represented by the diagram in Fig. 1B. In Aim 1b, \r\ngiven the likelihood of non-zero cross-loadings across brain regions a \r\nless restrictive CFA is fit using the exploratory structural equation model \r\n(ESEM). Like CFA, ESEM fits an a priori factor model. Unlike the specific \r\nCFA model in Aim 1a, ESEM allows for empirically driven non-zero \r\ncross-loadings, providing a semi-restrictive test. Like Aim 1a, Aim 1b \r\nfits the ESEM model to examine invariance across the three samples of \r\nparticipants. The hypothesized two factor model is consistent with \r\nFig. 1B, except for adding data-driven non-zero loadings. \r\nSecond, because the hypothesized factor structure in Aim 1 may be \r\nan incorrect representation of the estimated neural activity, a data\u0002driven factor structure of MID task contrasts is evaluated and \r\ncompared across samples. In Aim 2, exploratory (unrestricted) factor \r\n(EFA) is used to evaluate the structure of the measures using a data\u0002driven approach across the three adolescent samples. This allows for \r\nthe flexibility in the number of factors and the item loadings. Due to the \r\nexploratory nature, no specific hypotheses are made but EFA is run on \r\neach study separately and compared qualitatively and quantitatively. \r\nPubertal development coincides with changes in motivational \r\nM.I. Demidenko et al. \n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Developmental Cognitive Neuroscience 65 (2024) 101337\r\n4\r\nprocessing during adolescence (Forbes and Dahl, 2010). Therefore, in \r\nAim 3, the effects of pubertal development are considered. Local SEM \r\n(sliding window) is used to examine how the factor loadings change \r\nacross the self-reported pubertal developmental scale in the ABCD study, \r\nto evaluate whether measurement properties from Aim 2 stabilizes as \r\nparticipants’ self-reported pubertal maturity increases. Due to the un\u0002clear evidence of how pubertal development may impact the measure\u0002ment properties of the MID task, no hypotheses are specified. \r\nThe introduction, hypotheses, methods, and analytic code (fMRI \r\nanalyses using python, and CFA, ESEM, EFA and LSEM models using R) \r\nwere pre-registered and are openly available online (https://osf. \r\nio/a6t8k; Demidenko et al., 2023). \r\n3. Methods \r\n3.1. Participants \r\n3.1.1. Michigan Longitudinal Study (MLS) \r\nThe MLS is a longitudinal community study that is designed to \r\ncharacterize neural differences between participants from families with \r\n(2/3) and without a parental history of alcohol use disorder. The MLS \r\nstudy includes two cohorts, a Child Risk and Neuropsychological Risk \r\ncohorts. The focus here is on the first available session of neuroimaging \r\nfor the Neuropsychological Risk cohort (Martz et al., 2016). For a full \r\ndescription of the study purpose see Zucker et al. (2000). MLS had a total \r\nof 177 participants (Age 18 - 23 years old) in the Neuropsychological \r\nRisk cohort that completed the imaging protocol. Participants who have \r\nthe necessary structural, functional, and behavioral data and pass \r\nquality control steps are retained for the final analyses. \r\n3.1.2. Adolescent Health Risk Behavior (AHRB) study \r\nThe AHRB study is a longitudinal multi-phase study that is designed \r\nto characterize neural differences of risk-taking behaviors (Demidenko \r\net al., 2020). The focus here is on the neuroimaging phase (Phase 2). For \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Phase 2 Wave 1, participants were recruited based on Phase 1 Wave 1 \r\nself-reported risk behaviors. AHRB recruited N = 115 high and aver\u0002age/low risk-taking adolescents (Age 17 - 21 years old) to complete the \r\nneuroimaging protocol. Of the 115 participants eligible for inclusion, \r\nseven participants could not undergo magnetic resonance imaging \r\n(MRI) so 108 completed the imaging protocol. Participants who have the \r\nnecessary structural, functional, and behavioral data and pass quality \r\ncontrol steps are retained for the final analyses. \r\n3.1.3. Adolescent Brain Cognitive Development (ABCD) study \r\nThe ABCD study is a longitudinal national study that is designed to \r\nstudy the ways socioeconomics and ethnicity affect substance use, \r\nmental health, and health outcomes across development (Volkow et al., \r\n2018). The ABCD study recruited 11,878 adolescents across 21 sites \r\n(Casey et al., 2018). The focus here is on the 4.0 brain imaging data that \r\nis released by the ABCD-BIDS Community Collection (ABCC; Feczko [ \r\net al., 2021]), which as of January 2023 (following stage 1 in principal \r\nacceptance) contains year 2 imaging data from approximately 7000 \r\nparticipants (Age 11 - 13 years old). Given the reported effects of motion \r\non reliability of task fMRI measures in the younger ABCD sample \r\n(Kennedy et al., 2022) participants that have a reported mean framewise \r\ndisplacement value for the MID that is > .90 are excluded from our \r\nanalysis. The ABCD sample (N = 11,878) is much larger than the MLS \r\nand AHRB samples, which poses an imbalance issue when testing for \r\ndifferences in factor structure across samples. To minimize this, a sub\u0002sample of 1000 participants are randomly selected across sites (to alle\u0002viate site effects) and low motion subjects are excluded. Independent of \r\nthe first 1000 randomly selected participants, another subsample of \r\n1000 participants are randomly selected to use as a held-out sample to \r\nevaluate the performance of the EFA and LSEM in the ABCD data. Thus, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "a total of 2000 adolescents are subsampled from the full ABCD sample \r\ndata and participants who have the necessary structural, functional, and \r\nbehavioral data and pass quality control steps are retained for the final \r\nanalyses. \r\n3.2. FMRI task & regions of interest \r\n3.2.1. Monetary Incentive Delay (MID) task \r\nAcross the ABCD, AHRB and MLS studies, reward processing is \r\nmeasured using comparable versions of the modified Monetary Incen\u0002tive Delay (MID) task. The task and their nuanced differences are \r\ndescribed below, and schematics provided in Fig. 2. \r\nThe MID task (Knutson et al., 2003) is used to model neural signa\u0002tures of the anticipation and receipt of monetary gains or losses. The \r\nmodified MID task from ABCD and AHRB study (Casey et al., 2018) are \r\nidentical in design. Apart from some minor differences in fix\u0002ation/probe/feedback durations, the version of the MID task in the MLS \r\n(Yau et al., 2012) is nearly identical to the ABCD and AHRB studies. \r\nConsistent across the ABCD, AHRB and MLS studies, during the MID task \r\neach trial starts with a cue type and consists of three phases: anticipa\u0002tion, probe, and outcome (that is, feedback). \r\nDetails about the tasks across the three studies are summarized in \r\nsupplemental Table S1. In the ABCD (Casey et al., 2018) and AHRB \r\n(Demidenko et al., 2020) versions of the modified MID task, the cues are \r\ndifferentiated by color (“Win” cue = Pink; “Dont Lose” cue = Yellow; “No \r\nMoney at Stake” cue = Teal). There are twelve trial orders of the task, \r\nconsisting of 50 contiguous trials and 10 trial types per run (5:42 min \r\nlong). In the MLS version of the MID task (Martz et al., 2016; Yau et al., \r\n2012), the cues are differentiated by color in grayscale (“Win” cue =\r\nRed; “Dont Lose” cue = Blue; “No Money at Stake” cue = White). Trials \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "are presented in pseudorandom order, there are 50 contiguous trials and \r\n100 trials total (lasting approximately 5 min long). In all three studies \r\nthe task difficulty is individualized by first obtaining a mean response \r\ntime during a practice trial of the task outside of the scanner. The task is \r\nindividualized to reach a 60% accuracy rate by adjusting the difficulty \r\n(i.e., probe duration). For example, in the ABCD/AHRB study, the dif\u0002ficulty is adjusted every third incentivized trial based on the overall \r\naccuracy for the last six trials. \r\nIn the ABCD, AHRB and MLS study, participants are compensated \r\nwith a fixed amount of money to participate in the study and receive \r\nadditional money in accordance with their performance during the MID \r\ntask. The average during the baseline data in the ABCD sample is $21.43 \r\n(Casey et al., 2018) and the maximum in the AHRB sample is $30 \r\nFig. 1. Brain Regions (A), Conceptual Figure for Confirmatory Factor Analysis \r\n(CFA) and Exploratory Structural Equation Model (B). Harvard-Oxford Bilateral \r\nNucleus Accumbens (NAcc; Yellow) and Anterior Insula (Red) regions imposed \r\non MNI152 2 mm brain. R = Right; L = Left; A = Anterior; P = Posterior. \r\nM.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n5\r\n(Demidenko et al., 2020), specific details for average or maximum \r\ncompensation in the MLS sample have not been reported. Compared to \r\nother approaches, such as rewarding “points” that can be exchanged for \r\ncandy (Cao et al., 2019), a monetary incentive is vital in motivational \r\nprocessing during the task if measuring arousal and valence. Several \r\ncontrasts are traditionally modeled in the MID task, for more details see \r\nOldham et al. (2018). \r\n3.2.2. Regions of interest (ROI) \r\nThe focus of this study is to evaluate the static mapping (Knutson \r\net al., 2014) of the MID task. Following the pre-specified theoretical \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "structure (Fig. 1), we limit the problem space to two bilateral brain re\u0002gions: the left and right nucleus accumbens (NAcc) and the left and right \r\nanterior insula (AI). The regions are defined using the Harvard-Oxford \r\nCortical and Subcortical atlas (50thr). In the Harvard-Oxford Cortical \r\natlas, the insula is not constrained to the AI. Therefore, the term \r\n‘Anterior Insula’ is used to identify the probability map on neurosynth. \r\norg on October 8th, 2022. The associated AI map (.nii.gz) is down\u0002loaded, thresholded at ~50 % (> 8) and used to mask the left and right \r\nROI from the Harvard-Oxford Cortical atlas to the anterior portions. The \r\nresulting left/right NAcc and left/right AI ROIs are used to extract the \r\nmean signal intensity values (from the contrast beta maps described \r\nbelow) for the subsequent analyses. \r\nThe NAcc and AI regions selected here are consistent with brain re\u0002gions commonly described in the reward circuitry (Bissonette et al., \r\n2014; Gentry et al., 2019; Haber, 2017), those indicated as meaningful \r\nto the anticipatory phase of the MID task (Knutson et al., 2014; Oldham \r\net al., 2018) and the regions associated with the terms ‘reward antici\u0002pation’, ‘approach behaviors’ and ‘avoidance behaviors’ using the \r\nNeuroQuery tool (Dock`es et al., 2021). \r\n3.3. MRI acquisition, preprocessing and analysis \r\n3.3.1. Acquisition \r\nThe acquisition details for the ABCD, AHRB and MLS datasets are \r\nsummarized in supplemental Table S2. \r\n3.3.2. Preprocessing anatomical and functional data \r\nStructural and functional MRI preprocessing is performed using \r\nfMRIPrep 23.1.0 (Esteban et al., 2019, 2022; RRID:SCR_016216), which \r\nis based on Nipype 1.8.3 ((Gorgolewski et al., 2011, 2018); RRID: \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "SCR_002502). Preprocessing between the ABCD, AHRB and MLS data\u0002sets are held constant except for two differences. The MLS study does not \r\ncollect fieldmaps and uses a spin-echo acquisition. Therefore, fMRI\u0002Prep’s fieldmap-less distortion correction is not possible to perform on \r\nthe MLS BOLD data. For all ABCD and AHRB data, fieldmap distortion \r\ncorrection is used when the participants do have fieldmap data. In \r\naddition, the time-repetition (TR) in MLS is 2000 ms and ABCD/AHRB is \r\n800 ms, due to the longer repetition-time in the MLS sample slice-time \r\ncorrection is applied in MLS and but not in ABCD/AHRB. Outside of \r\nthese exceptions, the preprocessing of the BIDS data use comparable \r\npipelines. \r\nPreprocessing of anatomical data. T1-weighted images are corrected \r\nfor intensity non-uniformity (INU) with N4BiasFieldCorrection (Tusti\u0002son et al., 2010), distributed with ANTs 2.3.3 (Avants et al., 2008, RRID: \r\nSCR_004757) and used as T1w-reference throughout the fMRIPrep \r\nworkflow. The T1w-reference is then skull-stripped with a Nipype \r\nimplementation of the antsBrainExtraction.sh workflow (from ANTs), \r\nusing OASIS30ANTs as target template. Brain tissue segmentation of \r\ncerebrospinal fluid (CSF), white-matter (WM) and gray-matter (GM) is \r\nperformed on the brain-extracted T1w using fast (FSL 6.0.5.1:57b01774, \r\nRRID:SCR_002823, Zhang, [ et al., 2001]). Brain surfaces are recon\u0002structed using recon-all (FreeSurfer 7.2.0, RRID:SCR_001847, Dale, ] \r\net al., 1999]), and the brain mask estimated previously is refined with a \r\ncustom variation of the method to reconcile ANTs-derived and \r\nFreeSurfer-derived segmentations of the cortical gray-matter of Mind\u0002boggle (RRID:SCR_002438, Klein, [ et al., 2017]). Volume-based spatial \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "normalization to one standard space (MNI152NLin2009cAsym) is per\u0002formed through nonlinear registration with antsRegistration (ANTs \r\n2.3.3), using brain-extracted versions of both T1w reference and the \r\nT1w template. The following template is selected for spatial normali\u0002zation: ICBM 152 Nonlinear Asymmetrical template version 2009c \r\n(Fonov [ et al., 2009], RRID:SCR_008796; TemplateFlow ID: \r\nMNI152NLin2009cAsym). \r\nPreprocessing of functional data. For each of the 2 BOLD functional \r\nruns, the following preprocessing is performed. First, a reference volume \r\nand its skull-stripped version are generated using a custom methodology \r\nof fMRIPrep. Head-motion parameters with respect to the BOLD refer\u0002ence (transformation matrices, and six corresponding rotation and \r\ntranslation parameters) are estimated before any spatiotemporal \r\nfiltering using mcflirt (FSL 6.0.5.1:57b01774, Jenkinson, [ et al., 2002]). \r\nThe estimated fieldmap [in ABCD and AHRB] is then aligned with \r\nrigid-registration to the target EPI (echo-planar imaging) reference run. \r\nThe field coefficients are mapped on to the reference EPI using the \r\ntransform. In the MLS data, BOLD runs are slice-time corrected to \r\n0.966 s (0.5 of slice acquisition range 0 s-1.93 s) using 3dTshift from \r\nAFNI (Cox and Hyde [, 1997], RRID:SCR_005927). The BOLD \r\ntime-series (including slice-timing correction when applied) are resam\u0002pled onto their original, native space by applying the transforms to \r\ncorrect for head-motion. The BOLD reference is then co-registered to the \r\nT1w reference using bbregister (FreeSurfer) which implements \r\nboundary-based registration (Greve and Fischl, 2009). Co-registration is \r\nconfigured with six degrees of freedom. Framewise displacement (FD) is \r\ncomputed using two formulations following Power (absolute sum of \r\nrelative motions, Power [ et al., 2014]) and Jenkinson (relative root \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "mean square displacement between affines, Jenkinson [ et al., 2002]). \r\nFig. 2. Motivational Processing: Schematics of the Monetary Incentive Delay (MID) task from the ABCD, AHRB and MLS samples. \r\nM.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n6\r\nFD and DVARS are calculated for each functional run, both using their \r\nimplementations in Nipype (following the definitions by Power [ et al., \r\n2014]). Principal components are estimated after high-pass filtering the \r\npreprocessed BOLD time-series (using a discrete cosine filter with 128 s \r\ncut-off) for anatomical CompCor (aCompCor). For aCompCor, three \r\nprobabilistic masks (CSF, WM and combined CSF+WM) are generated in \r\nanatomical space. The head motion (translations and rotations) esti\u0002mates are expanded with the inclusion of temporal derivatives and \r\nquadratic terms for each (Satterthwaite et al., 2013) and are included \r\nwith the aCompCor components and cosine estimates as nuisance re\u0002gressors in the first level design matrix. The BOLD time-series are \r\nresampled into standard space, generating a preprocessed BOLD run in \r\nMNI152NLin2009cAsym space. \r\n3.3.3. Analyses \r\nFirst level, second level and region of interest analyses are performed \r\nusing Python 3.9.7 and Nilearn version 0.9.2 (Abraham et al., 2014). \r\nIn the first level analysis, a design matrix is specified for each \r\nparticipant. The design matrix includes the 15 task-relevant regressors \r\n(see task schematic in Fig. 2) and a number of nuisance regressors that \r\nare calculated by fMRIPrep. The task relevant regressors include the \r\nonset and duration of the five anticipatory cue types (e.g., Large Gain or \r\nNo Money at Stake) and ten feedback cue types (e.g., You won $5 or You \r\ndid not win $5), convolved with glover hemodynamic function (HRF). \r\nThe nuisance regressors include estimated translation and rotation (+\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "derivatives & squared derivatives) of head motion, the first eight \r\naCompCor noise components and the corresponding cosine regressors \r\nfor high pass filtering (with a cutoff of 128 s) that are calculated by \r\nfMRIPrep (see preprocessing of functional data). Individual BOLD \r\ntimeseries are prewhitened using an ‘ar1’ noise model and spatially \r\nsmoothed using a 5 mm full-width half-maximum Gaussian kernel. A \r\nGLM is fit to estimate the brain masked BOLD timeseries by task-relevant \r\nconditions in the design matrix. For each individual subject and run, six \r\ncontrasts are computed using the estimated beta (supplemental Fig. S1): \r\n1. Anticipation Big Gain versus Neutral \r\n2. Anticipation Big Gain & Small Gain versus Neutral \r\n3. Anticipation Big Gain versus Big Loss \r\n4. Anticipation Big Loss versus Neutral \r\n5. Anticipation Big & Small Loss versus Neutral \r\n6. Anticipation Big Loss versus Big Gain \r\nFor each of the six contrasts and two runs, four ROI mean signal \r\nintensity values are estimated. For each of the four ROIs, voxels within \r\nthe ROI mask for a given MNI contrast beta map are extracted and \r\naveraged. If a participant’s beta map contains < 50 % of the voxels in an \r\nROI, the participant is excluded from the analyses. Across the three \r\nsamples, this produces a dataset of Six Contrasts x Four ROIs for each run \r\nacross N participants. \r\nFor each study (i.e., ABCD, AHRB, MLS), a second level model is used \r\nto estimate whole brain activation maps. For each participant, contrast \r\nestimates from the two MIDs runs are averaged using a weighted fixed \r\neffects model and a group level mixed effect model averaged the within\u0002subject estimates across subjects. These maps are used as measures of \r\naverage activation patterns during the MID tasks in each of the studies \r\nacross contrast types. The Big Gain versus Neutral contrast for each study \r\nis presented in-text, the remaining contrast types are provided in sup\u0002plemental materials and publicly on NeuroVault.org. Due to the influ\u0002ence of sample size on the t-statistic, each whole brain contrast map \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "across samples is converted to a Cohen’s d effect size using the formula: \r\nt− statistic ̅̅\r\nn √ . Cohen’s d, t-/z-statistical maps are shared on NeuroVault. Since \r\nno inferences are meant to be drawn from these maps, and the data are \r\nprimarily used for qualitative comparison of the task activation across \r\nthe samples, no cluster correction is applied to resulting statistical maps. \r\n3.4. Data analysis \r\n3.4.1. Restricted, semi-restricted and unrestricted factor analysis \r\nAll subsequent Confirmatory Factor Analysis (CFA, Restricted), \r\nExploratory Structural Equation Modeling (ESEM, Semi-restricted), \r\nExploratory Factor Analysis (EFA, Unrestricted), and Local Structural \r\nEquation Modeling (LSEM) are conducted in R version 4.2.1 (R R Core \r\nTeam, 2022). These analyses are performed on the extracted mean \r\nsignal intensity values for the four ROIs across six contrast types (in each \r\nof the two runs) for participants from the ABCD, AHRB and MLS samples \r\nfor data that pass quality control. Before running the structural models, \r\nthe associations among all ROIs across contrast types are evaluated \r\nusing product-moment correlations. To reduce the number of redundant \r\nparameters in the models, left and right ROIs whose correlations exceed \r\nr = .85 are constrained to be equal in the model. \r\nCFA and multi-group CFA are performed as implemented in the \r\nlavaan package (Hirschfeld and Brachel, 2014; Rosseel, 2012; Rosseel \r\net al., 2021) and used to describe how task contrast variables reflect the \r\nhypothesized factors and to test the invariance of that description across \r\nthe three adolescent samples (Aim 1a). An a priori model is specified \r\nusing lavaan syntax depicting the item level indicators across contrasts, \r\nruns and ROIs (see Fig. 1 for specified model) as indicators of two \r\nexogenous latent variables, approach, and avoidance, that may be \r\ncorrelated. Models were identified by fixing one of the factor loadings \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "for each latent factor to = ‘1’ and estimated using the maximum likeli\u0002hood estimator (ML). The CFA model comprising all three samples \r\nspecified the same factor structure across the combined three samples and \r\nso is used as the strict invariance model comparison (i.e., all constraints \r\nare equal). In the second step, configural invariance (factor structure) is \r\ninvoked by first including ‘group’ (i.e., ABCD, AHRB, MLS) in the CFA \r\nmodel to evaluate structural invariance across the three samples. If the \r\nmodels show adequate fit, in the third step, metric (item loadings) \r\ninvariance is invoked by adding a group equality constraint of ‘loadings’ \r\n(e.g., weak invariance), with invariance of the factor loadings across \r\ngroups tested via nested model comparison of model fits, using χ2 dif\u0002ference. Given the lack of measurement models of fMRI ROI mean signal \r\nintensity data, we do not plan to test strong invariance, such as scalar \r\ninvariances (D’Urso et al., 2022; Putnick and Bornstein, 2016). Indi\u0002vidual and multigroup model parameter estimates are reported and a \r\ntable with the χ2 statistic, degrees of freedom, p-value, root mean \r\nsquared error of approximation (RMSEA), comparative fit index (CFI), \r\nTucker-Lewis index (TLI) and standardized root mean square residual \r\n(SRMR) is provided. While traditional dynamic fit index cutoffs are \r\ndebatable (McNeish and Wolf, 2021), model fit cuts-offs are used to \r\ndetermine whether a model has ‘excellent fit’ (i.e., RMSEA ≤.05, CFI \r\n≥.95, TLI ≥.95, and SRMR ≤.05). These cut-offs are used in the fMRI \r\nconnectivity literature (Beltz and Gates, 2017) and are recommended \r\ncut-offs for CFA (Brown, 2006). Models exhibiting poor fit (i.e., RMSEA \r\n≥.10, CFI/TLI ≤.90, and SRMR ≥.10) will not be interpreted. Change in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "model fit indices in CFI (≤.005), RMSEA (≥.01) or SRMR (≥.025), and \r\nAIC/BIC differences via model comparisons (i.e., anova) are used as \r\nindicators whether models are worse fits to the data (Chen, 2007; Meade \r\net al., 2008). These indicators are used to provide converging evidence \r\nabout improvements in model fit and disagreements are contextualized \r\nin text. \r\nESEM is performed as implemented in the esemComp package (Sil\u0002vestrin and de Beer, 2022). ESEM is used to test a less restrictive model \r\n(Aim 1b). As previously described (Marsh et al., 2014; Zyl and Klooster, \r\n2022), measurement error and method covariance may contribute to \r\nnon-zero cross-loadings that may negatively impact model fit. ESEM \r\ncomplements EFA with target rotation towards the CFA model, but \r\nallowing for cross-loadings of items that increase fit to the data. Like the \r\nCFA model, a two-factor ESEM model is fit to all the item level indicators \r\nacross contrasts, runs and ROIs, with target rotation specified as the \r\nhypothesized structure in Fig. 1. The model is fit to the data using a ‘ML’ \r\nestimator with the variances of the latent variables fixed to ‘1’ for \r\nM.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n7\r\nidentification. \r\nEFA is performed as implemented in the factanal R package. This \r\ndata-driven approach is used to estimate an unrestricted (data-driven) \r\nfactor structure in the data for each study separately (Aim 2). First, a \r\nscree-plot, Horn’s parallel analysis (Dinno, 2009) as implemented using \r\nthe paran package (Dinno, 2018) and BIC estimate are used to converge \r\non the number of factors in the data that is most parsimonious. Using an \r\noblique, ‘promax’ rotation (not imposing orthogonalization on the data), \r\nitem loadings are estimated for the specified number of factors. The EFA \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "is performed on the individual samples (i.e., ABCD, AHRB and MLS). The \r\nresults are reported using heatmaps to indicate item loadings onto the \r\nexogenous variables. The EFA models are quantitatively compared be\u0002tween datasets using the Tucker index of factor congruence (Lor\u0002enzo-Seva and ten Berge, 2006) as implemented using the factor. \r\ncongruence() function in the psych package. \r\n3.4.2. Effect of pubertal developmental and sex at birth on EFA results \r\nThe ABCD sample is composed of youth in the early-to-middle pu\u0002bertal developmental stages. This may impact the factor structure of \r\nneural mechanisms derived from reward contrasts. Using the held-out \r\nsample (N = 1000), the EFA results from the above are invoked as a \r\nCFA structure for the ABCD data to evaluate potential impact of pubertal \r\ndevelopment on the factor structure (Olaru et al., 2020). To evaluate \r\nhow the factor structure differs across pubertal development (Aim 3), \r\nlocal SEM is performed as implemented in the sirt package (Robitzsch, \r\n2022). The pubertal developmental scale (range 1 – 5) is introduced as a \r\nmoderator into the CFA to examine if and how the factor loadings dif\u0002fer/change across the levels of pubertal development. Given that there \r\nmay be differences between child and parent reports of pubertal \r\ndevelopment in the ABCD sample (Demidenko, Kelly et al., 2022), a \r\nseparate model is run for the youth self-reported pubertal development \r\nand parent-reported pubertal development measures. To provide sup\u0002plemental information to the local SEM results, we evaluate measure\u0002ment invariance of the CFA structure across the self-reported sex at \r\nbirth, male and female, in the ABCD data. \r\n3.4.3. Sensitivity analysis: site and sampling effect \r\nSensitivity analyses are performed to evaluate the effect of ABCD \r\nsampling and the effect of University of Michigan as a site on the CFA \r\nand EFA models. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "First, the AHRB and MLS studies are both collected on 3T GE scan\u0002ners at the University of Michigan by the MRI Laboratory technicians. \r\nOne of the 21 ABCD sites includes the University of Michigan (‘site_id’ =\r\n13). To check the extent to which scanner site contributes to differences \r\nin factor structure, the CFA and EFA are rerun using only the data from \r\nthe University of Michigan sites (i.e., holding scanner type and location \r\nconstant). These results are reported in the supplemental materials. \r\nSecond, the CFA a priori (Fig. 1) model is bootstrapped (N = 300) \r\nusing the ABCD data and model fit statistics are extracted (as described \r\nabove). Then, the EFA model is bootstrapped (N = 300) using the ABCD \r\ndata to estimate the variability in the number of factors that best explain \r\nthe data. The extracted statistics (i.e., model fit and number of factors) \r\nare then reported in supplemental materials to visualize stability in these \r\nCFA/EFA estimates. \r\n4. Results \r\n4.1. Deviations from the stage 1 registered report \r\nThe analyses below are consistent with the analyses proposed in the \r\nStage 1 Registered Report with three minor and one major exception \r\n(https://osf.io/a6t8k). First, in the Stage 1 submission the fMRIPrep \r\npreprocessing pipeline proposed to perform slice-time correction on all \r\nthree samples. However, the ABCC data does not contain the necessary \r\nslice-timing information in the associated json files. The fast temporal \r\nsampling enabled by the multi-band sequence in the ABCD and AHRB \r\nfMRI data reduces the importance of slice-timing corrections in the short \r\nTR data. Thus, slice-timing correction is used in the MLS preprocessing \r\npipeline but is not used in ABCD and AHRB preprocessing pipelines. \r\nSecond, fieldmap-less distortion correction could not be applied on the \r\nMLS data because it is collected using spiral acquisition. As the AHRB \r\ndata do not contain missing fieldmaps and the ABCC data selects a single \r\nfieldmap within a session to apply on all the functional runs, fieldmap\u0002less distortion correction is not used in the preprocessing pipeline. Third, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "in the Stage 1 submission we proposed using the maximum-likelihood \r\nrobust (MLR) estimator when estimating the lavaan models. However, \r\nwhen applied to the data, this estimator had a high rate of singularity \r\nissues as compared to the standard maximum-likelihood estimator, \r\nspecifically for the ESEM. Since the proposed EFA analyses use the \r\nmaximum-likelihood (ML) estimator, the ML estimator is also used in \r\nthe lavaan models. Finally, one major protocol deviation is the exclusion \r\nof GE scanner sites in the ABCC data. As of October 2023, the GE data \r\ncontain fieldmap errors, which made the functional data not usable based \r\non the exclusion criteria. Hence, all ABCD data from GE scanner sites are \r\nexcluded and post hoc sensitivity analyses are performed to evaluate the \r\neffect of this deviation across different intervals of N in the non-GE \r\nABCD data. The final Stage 2 code & analyses are available on Github3\r\n. \r\n4.2. Sample selection: ABCD, AHRB and MLS \r\nFor the ABCD sample, the NDA contains N = 10,414 Year 2 follow\u0002up subjects (NDA Data Package #1209276). From these data, two sub\u0002samples of N = 48 subjects for each of the 21 study sites are subsampled \r\n(First: N = 1008, Second: N = 1008). From these three subsamples, \r\nsubjects are selected if they contain an a) anatomy, b) field map and c) \r\nMID data via ABCC as of January 2023. This results in N = 599 (Primary \r\nSample), N = 595 (Held-out sample) and N = 157 (site-13) that have \r\nusable MRI data. \r\nFrom the initial ABCD, AHRB and MLS samples, participants are \r\nexcluded based on five metrics to arrive at the final analytic sample. \r\nThese metrics are described in greater detail in supplemental Section \r\n2.1.2. For the ABCD sample, Primary N = 253, Held-out N = 248 and \r\nSite-13 N = 157 are excluded resulting in the final three ABCD samples \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "of N = 346, N = 347 & N = 0, respectively. For the AHRB sample, out of \r\nthe N = 108 participants that have MRI data, 11 participants are \r\nexcluded resulting in a final sample of N = 97. For the MLS sample, out \r\nof the N = 177 participants that have MRI data, 65 participants are \r\nexcluded resulting in a final sample of N = 112. For more specific details \r\nfor exclusion reasons, see supplemental Table S3. \r\n4.3. Descriptive statistics and main effects \r\nThe demographic information for each study is reported in Section \r\n2.1.3, Table S4. The ABCD, AHRB and MLS samples differ in their probe \r\nhit response accuracy (%) and probe response times (ms). The average \r\nprobe hit accuracy during the MID task in the ABCD, AHRB and MLS are \r\n57 % (SD = .04), 57 % (SD = .04) and 71 % (SD = .13), respectively. The \r\naverage probe mean response times during the MID task in the ABCD, \r\nAHRB and MLS are 269 ms (SD = 44 ms), 298 ms (SD = 21 ms) and \r\n205 ms (SD = 28 ms), respectively. For more details about the perfor\u0002mance and meaningful differences on the MID task across the three \r\nsamples, see supplemental Section 2.1.4, Fig. S4. \r\nFor each of the three samples, the Cohen’s d effect size maps for the \r\nBig Win > Neutral anticipatory contrast are reported in Fig. 3. The \r\nactivation in the ABCD, AHRB and MLS samples is consistent with re\u0002ported activation likelihood estimates in meta-analyses for MID task \r\ncontrasts (Oldham et al., 2018). Group-level activity is observed in the \r\nbilateral dorsal and ventral striatum, AI, supplementary motor cortex \r\nand occipital regions. The magnitude of the effect in the dorsal and \r\n3 Zenodo Demidenko et al. (2023) \r\nM.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n8\r\nventral striatum is largest in the MLS sample, followed by the ABCD and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "AHRB samples. \r\nCohen’s d maps for the other five contrasts (ABCD, AHRB, MLS), and \r\neach of the ABCD scanners and sites are provided in supplemental \r\nSection 2.1.5, Fig. S5, Fig. S6 and Fig. S7. The associated t-/z-statistic \r\nand Cohen’s d maps are available at the NeuroVault Collection #15642 \r\n(https://identifiers.org/neurovault.collection:15649). \r\n4.4. Aim 1: evaluating the a priori CFA model of the MID task \r\nThe goal of Aim 1 is to evaluate whether the proposed theoretical \r\nframework (Fig. 1B) for the MID task is empirically supported by task \r\nfMRI MID data using a restrictive (Aim 1a) and semi-restrictive model \r\n(Aim 1b). The proposed hypothesis is that the measurement structure, as \r\nvisually represented in Fig. 1B, is empirically represented in the data and \r\nconsistent across the three samples. The product-moment correlation \r\nmatrix between the 28 manifest variables across the three samples is \r\nreported in Fig. 4. \r\n4.4.1. Aim 1a: evaluating the confirmatory factor analysis model across the \r\nABCD, AHRB and MLS samples \r\nIn Aim 1a, an a priori model is specified depicting the item-level \r\nindicators across runs, ROIs and contrasts representing the two exoge\u0002nous latent variables, approach and avoidance. Using model fit statistics, \r\nthe CFA (restrictive) model is used to evaluate whether the model is \r\nempirically supported and consistent across the three samples. \r\nThe strict model (as specified in Fig. 1B) is fit to the data, by fitting \r\nthe a priori model to the combined mean signal intensity data (ABCD, \r\nAHRB and MLS). Based on the registered cut-off criteria (i.e., RMSEA \r\n≥.10, CFI/TLI ≤ = 0.90, and SRMR ≥.10), the model fit statistics, χ2 \r\n(354) = 23,971.2 p < .001; CFI = 0.12, TLI = .06, RMSEA = 0.35, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "SRMR = 0.20, indicate that the a priori strict model is a poor fit to these \r\ndata. Next, configural structural invariance is evaluated across the three \r\nsamples (or group structure) by only imposing the constraint that the \r\nfactor structure is equivalent across the three samples (i.e., item load\u0002ings, intercepts and residual variances are permitted to vary across \r\nsamples). The model fit statistics for the configural invariance model, χ2 \r\n(1072) = 24,733.9, p < .001; CFI = 0.12, TLI = .07, RMSEA = 0.35, \r\nSRMR = 0.21, indicate that the configural invariance model is also a \r\npoor fit to these data (Table 1). The fits of the strict (BIC: –7595) and the \r\nFig. 3. Group Cohen’s d activation maps for (A) ABCD, (B) AHRB and (C) MLS sample. Threshold: d min = .20 & max = 1.5. Map overlaid on MNI152N\u0002Lin2009cAsym brain. Cross placed on MNI coordinate associated with Right NAcc [12, 8, –10]. Note: The ‘Win’ cue type in the ABCD/AHRB sample is Pink and in the \r\nMLS it is Red. \r\nFig. 4. Product-moment correlations between the mean signal intensity for the [L]eft/[R]ight Nucleus Accumbens and Anterior Insula across six contrast types for \r\nRun 1 and Run 2 in ABCD, AHRB and MLS samples. Note: Manifest variable [1–28] labels specified in Fig. 5. \r\nM.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n9\r\nconfigural invariance models (BIC: –7132) are not significantly different \r\n(χ2[718] = 762.8, p = .12). As the configural invariance model had poor \r\nfit, metric invariance with further equivalence constraints on item \r\nloadings is simply included as a reference in Table 1 which contains the \r\ncomplete model fit statistics. \r\nBased on the parameters in the strict and configural invariance \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "models, as specified in Fig. 1B, the manifest variables do not form the \r\nlatent constructs of approach or avoidance. For the strict CFA model \r\n(supplemental Section 2.2.1, Table S5 and Fig. S8A), 9 of 16 (56 %) \r\nmanifest variables that are hypothesized to form the latent approach \r\nconstruct have βs ≤ .30. The pattern of low loadings is similar for the \r\nlatent Avoidance construct, also in the strict model. These results indi\u0002cate that the covariance structure in these data does not align with the a \r\npriori theoretical structure for an approach and avoidance measurement \r\nmodel. \r\n4.4.2. Aim 1b: evaluating the exploratory structural equation model across \r\nthe ABCD, AHRB and MLS samples \r\nIn Aim 1b, ESEM is used to fit an a priori factor model. Unlike the \r\nCFA model in Aim 1a, the ESEM allows for empirically driven non-zero \r\ncross-loadings. This is a less-restrictive model than the CFA, and so, the \r\ncross-loadings may improve the model misspecifications in this semi\u0002restrictive framework. Like Aim 1a, model fit statistics are used to \r\nevaluate whether the model was empirically supported and consistent \r\nacross the three samples. In the combined mean signal intensity data, as \r\nindicated by the fit statistics, χ2(323) = 23,358.4, p < .001, CFI = 0.14, \r\nTLI = 0.00, RMSEA = 0.36, SRMR = 0.18, the strict ESEM is a poor fit to \r\nthe data. Also, the ESEM (BIC = –8011) is a poorer fit to the data than \r\nthe strict CFA model (BIC = –7595), χ2(31) = 612.8, p < .001. Taken \r\ntogether, the CFA and ESEM provide empirical evidence that the a priori \r\nmodel, as specified in Fig. 1B, is a poor representation of the covariance \r\nstructure for the twenty-eight manifest variables from the MID task fMRI \r\ndata across the three samples. Thus, the hypothesis that the mean signal \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 460,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "intensities from bilateral NAcc and AI from the two BOLD runs across the \r\ncontrasts would load onto two factors, approach and avoidance, is not \r\nsupported. \r\n4.5. Aim 2: evaluating the data-driven specified structure of the MID task \r\nAim 2 uses an EFA (unrestricted) model to estimate the number of \r\nfactors and the item loadings in a measurement model for the contrasts \r\nand brain regions obtained from the MID task across the ABCD, AHRB \r\nand MLS samples. \r\nThe heatmap in Fig. 4 represents the product-moment correlations \r\namong the mean signal intensity values for the bilateral NAcc and AI \r\nfrom the two BOLD runs across the six contrast types in the ABCD, AHRB \r\nand MLS samples. A visually comparable structure across the three \r\nsamples can be observed. Based on parallel analyses and scree plots, a \r\nTable 1 \r\nModel Fits Statistics Across Confirmatory Factor Analysis (CFA) and Exploratory Structural Equation Modeling (ESEM). \r\nχ2 DF p-value RMSEA SRMR TLI CFI AIC BIC \r\nStrict CFA(Reference) 23,971.2 354 <.001 0.35 0.2 0.06 0.12 –7940 –7595 \r\nConfig MG-CFA 24,733.9 1072 <.001 0.35 0.21 0.07 0.12 –8125 –7132 \r\nMetric MG-CFA 24,856.7 1104 <.001 0.34 0.21 0.1 0.12 –8066 –7211 \r\nOverall ESEM 23,358.4 323 <.001 0.36 0.18 0 0.14 –8491 –8011 \r\nConfig = Configural; MG = Multi-group; CFA = Confirmatory Factor Analysis; DF = Degrees of Freedom; RMSEA = root mean squared error of approximation; CFI \r\n= comparative fit index, SRMR = standardized root mean squared residual. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Fig. 5. (A) Exploratory Factor Analysis loadings for the ABCD, AHRB and MLS samples, loadings < .20 are removed from the EFA results; and (B) Factor Inter\u0002correlation matrix (Φ). AD = ABCD; AB = AHRB; MS = MLS; R1 = Run 1, R2 = Run 2. L/R-Nacc = Left/Right Nucleus Accumbens; L/R-Ins = Left/Right Ante\u0002rior Insula. \r\nM.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n10\r\nparsimonious six factors best represent the covariance matrices for the \r\ntwenty-eight manifest variables in the ABCD and AHRB data, and seven \r\nfactors best represent the covariance matrix in the MLS data. Results \r\nfrom the EFA are shown in Fig. 5; factor structure and loadings in Fig. 5A \r\nand the Φ factor intercorrelation matrix in Fig. 5B. (for example of \r\nstructure and loadings diagram for ABCD, see supplemental Fig. S8B). \r\nAcross the three samples, separate factors are indicated by the Run 1 and \r\nRun 2 measures of the contrasts for the bilateral NAcc. Similarly, the \r\nRun 1 and Run 2 measures of the contrasts for the bilateral AI are in\u0002dicators of different factors. \r\nThe quantitative similarity of the factors obtained from the EFA \r\nmodels in Aim 2 are reported in Fig. 6. Fig. 6A consists of factor labels as \r\noutput by the data-driven process implemented in fa(). Fig. 6B, is \r\nexpanded on in detail here, consists of the relabeled factors based on \r\nqualitative/quantitative similarity. The data-driven factors identified \r\nfor the ABCD and AHRB data are highly similar, as indicated by the high \r\ncongruence of the pattern of factor loadings. For example, both ABCD \r\nand AHRB contain factors that are highly congruent (see Fig. 6B for \r\nheatmap and supplemental Section 2.2.2, Table S7 for Congruence \r\nmatrix) which are indicated by Run 1 NAcc Reward (AD4 ~ AB4, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "r = .95), Run 2 NAcc Reward (AD3~AB3, r = .96), Run 1 AI Reward \r\nversus Neutral (AD2 ~ AB2, r = .96), Run 2 AI Reward versus Neutral \r\n(AD1 ~ AB1, r = .97), and negative/positive loadings of Reward and \r\nLoss combinations for Run 1 (AD5 ~ AB5, r = .94) and Run 2 (AD6 ~ \r\nAB6, r = .95). Likewise, there is factor congruence between the MLS \r\ndata and ABCD/AHRB factors as well. Specifically, Run 2 NAcc Reward \r\n(AD3 ~ MS3, r = .98; AB3 ~ MS3, r = .97), Run 2 AI Reward versus \r\nNeutral (AD1 ~ MS1, r = .92; AB1 ~ MS1, r = .91). However, the \r\nstructure and loadings for the MLS results do differ from ABCD/AHRB. \r\nFor example, the simple, single factor indicated by the Run 1 AI Reward \r\nin ABCD/AHRB (AD2, AB3), is distributed across two factors in the MLS \r\ndata MS2 and MS5 (AD2 ~ MS2, r = .79; AD2 ~ MS5, r = .51; AB2 ~ \r\nMS2, r = .90; AB2 ~ MS5, r = .45). Consistent with findings from Aim 1, \r\nacross the three samples, the EFA results suggest that the factor structure \r\nunderlying the multidimensional associations among NAcc and AI re\u0002gions across the six contrasts for the two runs in these data is not the a \r\npriori theoretical structure that is hypothesized in Fig. 1B. Rather, mean \r\nsignal intensity in these regions and contrasts appear to be differentiated \r\nmore by ROI (NAcc versus AI) and run (Run 1 versus Run 2) than \r\napproach and avoidance latent constructs. \r\n4.6. Aim 3: effects of pubertal development on the ABCD EFA results \r\nThe ABCD sample contains participants that are at different stages of \r\npubertal development. Since pubertal development coincides with \r\nchanges in motivational processing during adolescence (Forbes and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Dahl, 2010), LSEM is used to evaluate whether the factor loadings \r\nchange across the self-reported pubertal development in the ABCD \r\nsample. \r\nThe ABCD EFA structure and loadings results from Aim 2 are used to \r\ninform the a priori model for the held-out sample in the LSEM analyses. \r\nA parsimonious four factor model is used that reflects an (1) Run 1 \r\nAvoidance AI, (2) Run 2 Avoidance AI, (3) Run 1 Approach NAcc and (4) \r\nRun 2 Approach NAcc. Based on the highly correlated residual variance \r\nwithin runs for several contrasts for the EFA results from Aim 2, in four \r\ncases for the NAcc and two cases of the AI, the a priori model included \r\ncorrelated residuals. While not having an ’excellent’ model fit based on \r\nthe cut-offs, the held-out sample model fit statistics are meaningfully \r\nimproved over the Aim 1 models, χ2(240) = 2117.1, p < .001, CFI \r\n= 0.77, TLI = 0.73, RMSEA = 0.15, SRMR = 0.10 (ΔCFI = 0.65, ΔTLI =\r\n0.67, ΔRMSEA = –0.20, ΔSRMR = –0.10). As we did not pre-register \r\nadditional model fit improvement procedures, extra steps are not \r\ntaken to prevent overfitting of the data in a sample size that may be \r\ninsufficient to estimate all parameters (e.g., loadings, variance and re\u0002sidual covariances). \r\nBased on the LSEM model, there is little consistent evidence that the \r\nparent or youth reported pubertal development moderates the factor \r\nloadings. In the parent LSEM permutation model (bootstraps = 1000), \r\nalthough the loading of the Right Big Win versus Big Lose Insula for Run 2 \r\nonto the NAcc Run 2 factor decreases across levels of PDS (p = .04), all \r\nother estimates are not significant (p > .05). Then, in the youth LSEM \r\npermutation model (bootstraps = 1000), while Right Big Win versus Big \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Lose Insula parameter loading does not significantly decrease across \r\nlevels of PDS, the loading of Left/Right All Lose versus Neutral Insula for \r\nRun 2 onto the Insula Run 2 factor decreases significantly across levels of \r\nthe PDS, all other estimates are not significant (p > .05). The global fit \r\nstatistics are reported in supplemental Section 2.2.3, Fig. S9. \r\n4.7. Sensitivity analyses \r\nSeveral sensitivity analyses were pre-registered. First, to complement \r\nthe LSEM analyses of whether pubertal stage moderated the factor \r\nloadings, a sensitivity analysis is performed to check for measurement \r\ninvariance of ABCD EFA structure across sex (Aim 3). Second, with \r\nmultiple samples being tested at the University of Michigan site, the CFA \r\nand EFA results were re-run for only the University of Michigan site. \r\nThird, the effect of sampling on the CFA fit statistics and the EFA number \r\nof factors in the ABCD data is evaluated. \r\nFig. 6. Factor Congruence across (A) data-driven factors for ABCD (AD), AHRB (AB) and MLS (MS) samples and (B) relabeled data-driven factors based on \r\nmultidimensional and qualitatively similarity. \r\nM.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n11\r\n4.7.1. Measurement invariance in ABCD for males/females \r\nOverall, the factor structure is comparable across males and females. \r\nFit statistics indicated comparable model fit to the data in the configural \r\ninvariance model across sex, χ2(484) = 2444.7, p < .001, CFI = 0.76, \r\nTLI = 0.73, RMSEA = 0.15, SRMR = 0.11, to the strict CFA model for \r\nthe held-out data, χ2(240) = 2133.0, p < .001, CFI = 0.77, TLI = 0.73, \r\nRMSEA = 0.15, SRMR = 0.10. Based on ANOVA comparisons, the sex \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "configural model (BIC = –.7253.4) fits the data better than the strict \r\nheld-out model (BIC = 7603.4), χ2(244) = 311.6, p = .002. \r\n4.7.2. Effect of University of Michigan site on CFA and EFA results \r\nThe pattern of findings are consistent when only analyzing AHRB/ \r\nMLS data from the University of Michigan (UM) site. The fit of the a \r\npriori model to the empirical data for the CFA model is similarly poor. \r\nFor the CFA model, the strict and configural CFA models are a poor fit to \r\nthe data (Strict: χ2(354) = 8843.5, p < .001, CFI = 0.13, TLI = 0.07, \r\nRMSEA = 0.34, SRMR = 0.20; Configural: χ2(713) = 9229.9, p < .001, \r\nCFI = 0.13, TLI = 0.08, RMSEA = 0.34, SRMR = 0.21). For the EFA \r\nanalysis, the ABCC data did not have usable data for University of \r\nMichigan site (site 13), so the EFA analyses were not re-ran for ABCD \r\nUM only site. Thus, the comparison between UM sites is the same as is \r\nobtained for AHRB and MLS samples (see Fig. 4 and 5), in that the EFA \r\nidentified the same 6-factor structure as found with the larger data. \r\n4.7.3. Effect of sampling on CFA model fit and EFA factors \r\nSampling within the held-out ABCD sample, there is little effect on \r\nthe CFA model fit statistics or the recommended factors for the EFA \r\nanalysis. Specifically, across the bootstrapped datasets (N = 300) the \r\nRMSEA (M =.36, SD =.01) & SRMR (M =.21, SD =.01) had minimal \r\nvariability. There is wider variability in the AIC (M = –4473.9, SD =\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "352.9) and BIC statistics (M = –4165.9, SD = 352.9). Finally, across the \r\nbootstrapped datasets the minimum and maximum recommended \r\nnumber of factors for the EFA are 6 and 7 (Mean: 6.2), respectively. The \r\ndistribution of these estimates are reported in supplemental Section 2.3, \r\nFig. S10. \r\n4.8. Post hoc analyses \r\nIn the Aim 1 and Aim 2 results, the factor structure and covariance \r\nmatrices indicate that the a priori ROI and contrast variables are more \r\ncongruent within runs than across runs. To better understand this \r\nfinding, run specific (i.e., Run 1 and Run 2) mean-level group maps for \r\nFig. 7. Differences in estimated Cohen’s d group activity between Runs [Run 1 - Run 2] for (A) ABCD, (B) AHRB and (C) MLS samples, and (D) pairwise similarity \r\n(Spearman’s rho) between run Cohen’s d maps. \r\nM.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n12\r\nthe Big Win > Neutral anticipation contrast are estimated for each of the \r\nthree samples using the run level estimates in a group level mixed effect \r\nmodel. The difference [Run 1 - Run 2] is calculated between the \r\nresulting maps. Fig. 7A-C reports the difference between the group-level \r\nrun maps for each sample. Across the three samples, the magnitude of \r\nthe activity decreases from Run 1 and Run 2. To evaluate the voxelwise \r\nsimilarity of Cohen’s d estimates between Run 1 and Run 2, pairwise_\u0002similarity() is used as implemented in the PyReliMRI package (Demi\u0002denko and Poldrack, 2023). The Spearman’s rank (rho) correlation \r\ncoefficient between the run maps is reasonably high (Fig. 7D), ABCD \r\nRun 1 ~ Run 2 rho = .82, AHRB Run 1 ~ Run 2 rho = .72, and MLS Run \r\n1 ~ Run 2 rho = .80. This demonstrates that, on average, the group-level \r\nactivation is relatively stable across samples and runs. However, the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "change in between-subject scores across runs may have substantially \r\nreduced the association between factors for each run. \r\n4.8.1. Protocol deviation for GE scanners \r\nThe Stage 2 analyses did not include the ABCD GE scanner data. The \r\nABCC data contained an error that resulted in faulty fieldmap data for all \r\nGE scanners. As of October 2023, the fix is not implemented and so the \r\ndata are not usable. To ensure the difference in sampling and the sample \r\nsize in ABCD data does not impact the above CFA and EFA results, a \r\nsensitivity analysis is performed. The primary (N = 346) and held-out \r\n(N = 347) ABCD data were combined into a larger dataset (N = 693). \r\nThen, the combined ABCD data were randomly sampled from N = 50 to \r\nN = 1000 (intervals of N = 10). CFA fit statistics and the recommended \r\nnumber of factors were calculated at each sample size. Besides the AIC/ \r\nBIC fit statistics which linearly scale with sample size, all other fit sta\u0002tistics did not meaningfully differ and the recommended number of \r\nfactors in the ABCD data are stable at six across the range of sample sizes \r\n(see supplemental Section 2.3.2, Fig. S11). \r\n5. Discussion \r\nThe theoretical dimensions of the approach and avoidance systems in \r\nthe MID task (Knutson et al., 2001) have been extensively discussed \r\n(Knutson et al., 2014; Knutson and Greer, 2008; Knutson and Srir\u0002angarajan, 2019) and characterized in meta-analyses of group-level \r\nmaps (Balodis and Potenza, 2015; Chen et al., 2022; Oldham et al., \r\n2018). However, it is not yet understood whether the between-subject \r\ncovariance structure supports this framework. The current empirical \r\nstudy uses a measurement approach to evaluate and understand the \r\nstructure of the MID task across three independent adolescent samples. \r\nThe [three] key findings are: (1) during the anticipation of the probe for \r\ngain and loss trials, the MID task consistently activates the bilateral AI \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "and dorsal/ventral striatal regions in group-level maps; (2) across the a \r\npriori ROIs and contrasts the model fit statistics from CFA do not support \r\nthe multidimensional structure for approach and avoidance system in \r\nthe data; however, (3) there is a consistent structure in the data that is \r\nrun and region specific. The results and interpretations are largely \r\nconsistent in the three independent adolescent samples with comparable \r\nfMRI tasks across multi-band (ABCD & AHRB) and single-band (MLS) \r\nMRI acquisition protocols. \r\nThe MID task activates regions that are consistent with the prior \r\nliterature (Chen et al., 2022; Oldham et al., 2018) but effects are \r\nattenuated in multi-band data. Specifically, across the ABCD, AHRB and \r\nMLS samples, activation is observed in the bilateral ventral striatum, AI, \r\nsupplementary motor cortex and occipital regions during the Big Win \r\nversus Neutral contrast. However, Cohen’s d estimates for neural activity \r\nare larger in the MLS (single-band) than the ABCD/ABCD samples \r\n(multi-band). While the observed effect size for neural activity for the \r\nBig Win > Neutral contrasts is largest in the MLS sample, the decrease in \r\nmagnitude of the effect from Run 1 to Run 2 is also largest in the MLS \r\ndata. The higher effect size in single- versus multi-band data is consistent \r\nwith prior work reporting that increased multi-band factors may reduce \r\nthe effect size in subcortical regions due to increased noise (see Fig. 2 in \r\nRisk et al., 2021, p. 7) and this may impact the neural activity during the \r\nMID task (Srirangarajan et al., 2021). To an extent, our results confirm \r\nthat the estimated neural effects in subcortical regions may be lower in \r\nmulti-band acquisitions. Nevertheless, the proportion of the difference \r\nattributable to the multi-band factor is unclear in these data. Specif\u0002ically, the MLS sample (single-band) had larger inherent smoothness in \r\nthe data, a different trial randomized scheme that holds constant across \r\nruns (as opposed to trials randomized for each run as in ABCD/AHRB) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 39,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "and higher probe accuracy/faster mean response times during the per\u0002formance of the MID task. As a result, higher smoothness in the data may \r\nproduce a larger effect as a result of the increased signal-to-noise ratio \r\n(Mikl et al., 2008) but come with lower spatial specificity (Blazejewska \r\net al., 2019). It is unclear, however, how task randomization and per\u0002formance may increase or decrease group-level activity across runs in \r\nthe MID task design. This highlights the nuanced differences in \r\ngroup-level estimates of neural activity across samples that needs to be \r\nbetter understood as a function of MRI acquisition and task \r\nadministration. \r\nWhen evaluating whether the between-subject covariation in the \r\nneural data supports the approach and avoidance systems multidimen\u0002sional structure as proposed in Knutson et al. (2014), the models \r\ndemonstrate a poor fit to these data. The measurement model includes \r\nthe a priori bilateral NAcc and AI brain regions from six contrasts across \r\ntwo separate MID task runs (as specified in the diagram in Fig. 1) from \r\nthe ABCD, AHRB and MLS sampled BOLD data. Neither the strict model \r\nnor the configural model (only constraining the factor structure) fit the \r\ndata well. Sensitivity analyses evaluating the model solely at the Uni\u0002versity of Michigan site (to keep facility/scanners constant) also \r\ndemonstrate that neither the strict nor the configural model fit the data \r\nwell. While the group-level neural activity is consistent with reported \r\nmeta-analytic results for the MID task (Oldham et al., 2018), the \r\ncovariance structure of the data combined from three samples is \r\ninconsistent with the theoretical framework (Knutson et al., 2014). This \r\nsuggests that the pre-specified multidimensional structure of the \r\napproach and avoidance manifest variables is not an adequate expla\u0002nation of the phenomenon evoked during this modified version of the \r\nMID task in these three adolescent samples. \r\nThe lack of evidence for the multidimensional structure of the \r\napproach and avoidance framework may be due to both methodological \r\nand conceptual challenges. Methodologically, the modified version of \r\nthe MID task in the current analyses cannot delineate anticipatory and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 40,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "action preparation/probe preparation processes (Richards et al., 2013). \r\nThis is a limitation observed in many MID tasks that use short (e.g., \r\n250 ms; Cao et al., 2019; Knutson et al., 2003) or long cue designs (e.g., \r\n2000 ms (Casey et al., 2018; Yau et al., 2012). In other words, after \r\nobserving the trial type, participants either immediately or after a brief \r\ndelay prepare to respond. While the current study models ‘anticipation’ \r\nas the entirety of the Cue and Fixation period, there may be modeling \r\ndecisions that may improve the delineation of the incentive salience and \r\naction preparation. Conceptually, conjunction analyses of published \r\nBOLD data have reported that there is meaningful overlap between \r\npositive and negative rewards in the AI and striatal regions (Bartra et al., \r\n2013). Overlap in the AI may be due to its role in executive control \r\npertaining to attention and cognitive control (Molnar-Szakacs and \r\nUddin, 2022) and overlap in the NAcc may reflect the fact that there are \r\ncontext specific responses in appetitive and avoidant processes (Ber\u0002ridge, 2019). These challenges may reduce the precision with which \r\nsmall effects of approach and avoidance processes may be disentangled \r\nin the data. \r\nDespite the lack of support for theoretical framework in the data, the \r\nEFA demonstrates consistent structure that is modestly-to-extremely \r\ncongruent across the samples. Across the three adolescent samples, the \r\ncovariance structure of the twenty-eight variables of the mean signal \r\nintensity values is best represented by six (in ABCD & AHRB) or seven \r\nfactors (in MLS). These data-driven factors delineate runs and brain \r\nregions. Specifically, the Left and Right NAcc or AI mean signal intensity \r\nM.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n13\r\nvalues load onto independent factors for Run 1 and Run 2. This finding is \r\nconsistent across the ABCD, AHRB and MLS samples. In fact, factor \r\ncongruence demonstrates that the run and region-specific factors have a \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 41,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "high degree of structural similarity between the ABCD and AHRB sam\u0002ples (r = .94 –.97) and moderate-to-high degree of structural similarity \r\nbetween the ABCD/AHRB and MLS samples (r = .51 –.98). However, \r\nacross each of the three samples there is little structural similarity be\u0002tween manifest variables for Run 1 and Run 2. It is unsurprising that the \r\nwithin run data are highly correlated as there is a high degree of overlap \r\nin stimuli used in the a priori contrasts (i.e., Big Win) and evidence from \r\nthe multivariate pattern analysis literature reports that there is a high \r\ndegree of similarity between stimuli within runs (Mumford et al., 2014). \r\nThe weak covariance between runs is surprising but consistent with the \r\nliterature reporting low test-retest reliability in univariate multi-session \r\nand multi-run task fMRI data (Elliott et al., 2020). The preserved \r\nstructure but lack of run congruence poses two conceptual questions: \r\nHow does averaging weakly related run variables modify the covariance \r\nstructure of the data; and are there analytic decisions that may increase \r\nreliability of between-person differences across runs while preserving \r\nthe factor structure? \r\nThe factor structures identified in the current study are consistent \r\nacross pubertal development, site effects and sampling variability. First, \r\nthe loadings in the run and region-specific factors are largely consistent \r\nacross the levels of pubertal development, for both child and parent \r\nreports, in the held-out ABCD data. Second, as briefly mentioned above, \r\nwhen the CFA/EFA and EFA analyses are constrained to only the Uni\u0002versity of Michigan site for the AHRB and MLS samples, the pattern of \r\nresults are consistent. Finally, when randomly subsampling the ABCD \r\ndata, the fit statistics for the CFA and the recommended number of \r\nfactors for the EFA are largely consistent. This demonstrates that the \r\nCFA and EFA results for the current data are insensitive to these pa\u0002rameters. However, the analyses are based on data collected in adoles\u0002cence. Complimentary work should also evaluate whether and how the \r\nfactor structure manifests in adulthood and other phases across the \r\nlifespan. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 42,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "The lack of between-subjects covariation between the bilateral NAcc \r\nand AI mean signal intensity values is surprising given the consistent \r\nactivation in these brain regions at the group-level. One explanation \r\nmay be that the increased noise in the multi-band data (Risk et al., 2021) \r\nmay have modified the structure of covariances among cortical and \r\nsubcortical regions. However, the covariance pattern in the a priori \r\nbrain regions is consistent in the single-band (MLS) and multi-band \r\n(ABCD/AHRB) MID task fMRI data. A second explanation for the lack \r\nof support for theoretical framework may be that the covariation may be \r\npresent at a more granular level, specifically, at the voxel or ROI \r\ntime-series data. However, in an independent analysis of the AHRB MID \r\ndata (Demidenko, Huntley et al., 2022), no evidence is reported for \r\ngroup or subgroup paths in combined and run specific time-series that \r\ndemonstrate model specified (group iterative multiple model estima\u0002tion) covariation between the bilateral insula and ventral striatum ROIs. \r\nEvidence from CFA and EFA model results obtained here do not \r\nprovide sufficient support to accept the approach and avoidance \r\nframework defined in Knutson et al. (2014) to explain the \r\nbetween-subject differences in univariate neural activity. While this \r\ndoes not undermine the experimental effect of the anticipatory phase in \r\nthe MID task across the adolescent samples, the results do demonstrate \r\nthat the measurements diverge from the theoretical framework. As \r\ndiscussed in the introduction, the scores obtained from a univariate \r\nanalysis during the MID task are a manifestation of between-person \r\ndifferences in what is a presumed phenomenon of motivation to \r\napproach rewarding stimuli. While subjecting biological process mea\u0002sures to modern psychometric procedures may not always be \r\nwell-reasoned, if brain-behavior researchers elect to use neural activity \r\nelicited during the MID task in correlational research it is prudent to \r\nprovide a sufficient description of the measured mental process \r\n(Francken et al., 2022) and leverage tools from the psychological testing \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 43,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "literature to determine how the proxy score for ‘motivational process\u0002ing’ derived from neural activity during the MID task supports an \r\ninterpretation for different populations and testing conditions (Associ\u0002ation American Educational Research et al., 2014; Slaney, 2017). \r\nWithout a well delineated framework, the approaches used to explain \r\nwhy activation in one group and a given contrast may differ from \r\nanother group may lack theoretical grounding. Despite the lack of sup\u0002port for the theoretical framework, there is evidence of a relatively \r\nconsistent and converging structure from the MID contrast data. \r\nRefining the interpretability of the underlying BOLD signal and the \r\nresulting theoretical framework for the MID task may be helpful as it \r\ncontinues to be used in large studies focused on individual differences \r\nresearch (e.g., IMAGEN [Schumann et al., 2010] and ABCD study [Casey \r\net al., 2018]). Future research may explore what phenotypes these \r\nfeatures are consistently related to and how they explain pre- and/or \r\npost-scan affective ratings across developmental samples. Further \r\nprobing the intercorrelations among the data-driven factors, self-report \r\nand behavioral data would help elaborate how these factors contribute \r\nto between-subject differences. \r\n5.1. Study limitations \r\nThe analyses here are based on pre-specified data preprocessing and \r\nanalytic decisions. It is well documented that there are a wide-range of \r\npipeline decisions which can impact the resulting estimates (Botvi\u0002nik-Nezer et al., 2020; Bowring et al., 2022; Churchill et al., 2015; Li \r\net al., 2021). As a result, decisions at the preprocessing and/or model \r\nfitting approach may have meaningfully impacted some of the results \r\nand interpretations. However, a strength of our study is that it leverages \r\nregistered reports (Chambers et al., 2014), whereby the conceptual and \r\nanalytic framework is reviewed prior to the access to the data and \r\nsubsequent analyses. Nevertheless, future research that uses alternative \r\npreprocessing and modeling decisions would help confirm the repro\u0002ducibility of these results and interpretations. \r\nThe modified version of the MID task used in the current study \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 44,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "maintains limitations from earlier designs (Knutson et al., 2003) that do \r\nnot allow for temporally separating the BOLD response between trials. \r\nSpecifically, the MID task is a rapid event-related design whereby the \r\ninterstimulus interval is shorter than the hemodynamic response func\u0002tion (Soares et al., 2016). This is confounded by the lack of an intertrial \r\ninterval between the current trials (t) feedback cue (i.e., participants \r\nread the feedback of whether they are successful in responding to the \r\nprobe and the amount they did/didn’t win/lose) and the onset of the \r\nsubsequent trial (t + 1). Given the slow properties of the BOLD signal \r\n(Buxton, 2012), this poses challenges in deconvolving the signal in \r\ntraditional GLM models. As a result, this may have contaminated the \r\nproperties of the “anticipatory” signal and thus the validity of the \r\ninterference. \r\nThird, a subset of the MID contrasts and specific selection of ROIs \r\nfrom Harvard-Oxford subcortical brain atlas are used in the current \r\nanalyses. The MID task includes a range of contrasts and modeling de\u0002cisions. Likewise, the use of the Harvard-Oxford subcortical brain atlas \r\nto extract the bilateral NAcc and AI alternative to a different atlas may \r\nhave a meaningful impact on the resulting estimates (Bryce et al., 2021). \r\nWhile the typical contrasts and a standard deterministic atlas are used in \r\nthese analyses, perhaps the data may be represented differently in an \r\nEFA model if these decisions were varied and/or the variable expanded. \r\nHowever, expanding the number of manifest variables for EFA may in\u0002crease the uncertainty around the estimates at small samples. \r\nFinally, GE scanner data are not included for these analyses which \r\nmay impact some of the estimates. While CFA fit statistics and EFA \r\nnumbers of factors are stable across sample sizes, it is feasible that the \r\nstructure of loadings may slightly differ in the GE data as these data may \r\ninclude different types of participants, sites and noise structure. \r\nFurthermore, the LSEM results may also be impacted because of the \r\nreduced sample size. While this may not impact the interpretations/ \r\nM.I. Demidenko et al. \n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 45,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Developmental Cognitive Neuroscience 65 (2024) 101337\r\n14\r\nconclusions in the current manuscript, the estimates should be consid\u0002ered in the context of this limitation. Nevertheless, this major deviation \r\nis fully documented, and sensitivity analyses were performed to evaluate \r\nthe robustness of the conclusions (Chambers and Tzavella, 2022). \r\n6. Conclusion \r\nModern psychometric tools have not been used to evaluate mea\u0002surement properties of the fMRI signals obtained during participants’ \r\nperformance of the MID task. The current study uses a comparable MID \r\ntask design across three adolescent samples to evaluate multiple theo\u0002retical and data-driven measurement properties of fMRI for twenty-eight \r\nfMRI-based manifest variables. Across the three samples, group-level \r\nneural activity during the MID anticipatory phase activated expected \r\nregions: bilateral NAcc and AI. Evaluation of an a priori multidimen\u0002sional approach and avoidance systems framework using CFA provided \r\nno support for the a priori framework based on twenty-eight manifest \r\nvariables across three adolescent samples. However, data-driven EFA \r\nmodels identified a six/seven factor structure of between-person \r\ncovariance that is congruent across samples, where the twenty-eight \r\nmanifest variables are indicators of run and bilateral brain region spe\u0002cific factors. Future research should evaluate the phenotypes that best \r\ncharacterize the covariance structure in the MID task during fMRI to \r\nenhance the interpretability of brain-behavioral findings within and \r\nbetween adolescent samples. \r\nData & code availability statement \r\nThe ABCD-BIDS input data can be accessed through the ABCD-BIDS \r\nCommunity Collection with an established Data Use Agreement (see htt \r\nps://abcdstudy.org/). The BIDS version of the MLS and AHRB data can \r\nbe obtained with the approval of Dr. Mary Heitzeg and/or Dr. Daniel \r\nKeating, respectively. \r\nR code \r\nThe .html file containing the description of the function, analyses, \r\nand associated code is named ‘ABCD_Analysis_CFA-ESEM-EFA-LSEM. \r\nhtml’ located within the Stage 2 Github folder (associated .rmd is also \r\nprovided). If using R version > 4.1 the script should run from start to \r\nfinish. \r\nPython code \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 46,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "The .py script to run the first level analysis with Nilearn’s imple\u0002mentation on the MID data is named ‘mid_firstlevel.py’ and is located in \r\nthe Stage 2 Github folder. The .py script to (1) extract region of interest \r\n(ROI) mean signal intensity estimates from the specified contrast beta \r\nmaps and (2) calculate the voxel overlap between the NAcc ROI and \r\nparticipants’ brain mask is named ‘betamap_roi.py’ and is located in the \r\nStage 2 Github folder. (Note: steps for acquiring ROI parcellations is not \r\nincluded in the script but a text file named ‘ROI_create.txt’ is provided in \r\nthe Stage 1 Github folder). The extracted values for a given subject, run, \r\ncontrast and ROI, as implemented using Nilearn’s functions, were \r\ncompared for 3 random files using fslmeants -i {beta_map.nii.gz} -m {roi. \r\nnii.gz} to confirm values were identical. The Second Level fixed effect \r\nmodel (estimates across runs) and group level model (estimates across \r\nsubjects) is implemented using Nilearn’s functions in the script ’mid_\u0002fixedeff.py’ and ‘mid_sgroup.py’, respectively, and is located in the \r\nStage 2 Github folder. \r\nCRediT authorship contribution statement \r\nMumford Jeanette A.: Methodology, Writing – original draft, \r\nWriting – review & editing. Demidenko Michael: Conceptualization, \r\nFormal analysis, Methodology, Project administration, Visualization, \r\nWriting – original draft, Writing – review & editing. Ram Nilam: \r\nMethodology, Writing – original draft, Writing – review & editing. \r\nPoldrack Russell A.: Conceptualization, Methodology, Supervision, \r\nWriting – original draft, Writing – review & editing. \r\nDeclaration of Competing Interest \r\nThe authors declare that they have no conflicts of interest. \r\nAcknowledgements \r\nMID is funded by the Ruth L. Kirschstein Postdoctoral Individual \r\nNational Research Service Award through the National Institute on Drug \r\nAbuse (F32DA055334-01A1) RAP is supported by the National Institute \r\nof Mental Health (R01MH117772 and R01MH130898). Thanks to Dr. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 47,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Daniel Keating for agreeing to share the Adolescent Health Risk \r\nBehavior (AHRB; R01HD075806) study data and to Dr. Mary Heitzeg for \r\nagreeing to share the Michigan Longitudinal Study (MLS; \r\nR01AA012217) data for this project. The authors would also like to \r\nthank the research participants and staff involved in data collection of \r\nthe Adolescent Brain Cognitive Development (ABCD) Study data. The \r\nABCD Study is a multisite, longitudinal study designed to recruit more \r\nthan 10,000 children ages 9 and 10 and follow them over 10 years into \r\nearly adulthood. The ABCD Study is supported by the National Institutes \r\nof Health (NIH) and additional federal partners under award numbers \r\nU01DA041048, U01DA050989, U01DA051016, U01DA041022, \r\nU01DA051018, U01DA051037, U01DA050987, U01DA041174, \r\nU01DA041106, U01DA041117, U01DA041028, U01DA041134, \r\nU01DA050988, U01DA051039, U01DA041156, U01DA041025, \r\nU01DA041120, U01DA051038, U01DA041148, U01DA041093, \r\nU01DA041089, U24DA041123, and U24DA041147. The list of sup\u0002porters is available at https://abcdstudy.org/federal-partners.html. The \r\nlist of participating sites and study investigators is available at https \r\n://abcdstudy.org/study-sites/. \r\nThanks to members of the Developmental Cognition and Neuro\u0002imaging lab at University of Minnesota, specifically Eric Feczko, Audrey \r\nHoughton, Rae McCollum, and Anders Perrone, for assisting and \r\nproviding access to the ABCD-BIDS Community Collection (ABCC) data. \r\nThe ABCC data repository grows and changes over time (https://collec \r\ntion3165.readthedocs.io/). Thanks to Krisanne Litinas at the Univer\u0002sity of Michigan for providing expert advice and scripts to convert the \r\nAHRB data into BIDS format. Thanks to Mary Soules and Ryan Klaus \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 48,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "(with assistance from Krisanne Litinas) at the University of Michigan for \r\nworking to convert the MLS data to BIDS format. Thanks to Dr. Brian \r\nKnutson for reviewing and commenting on the a priori hypotheses \r\nproposed for the Monetary Incentive Delay task. \r\nAppendix A. Supporting information \r\nSupplementary data associated with this article can be found in the \r\nonline version at doi:10.1016/j.dcn.2023.101337. \r\nReferences \r\nAbraham, A., Pedregosa, F., Eickenberg, M., Gervais, P., Mueller, A., Kossaifi, J., \r\nGramfort, A., Thirion, B., Varoquaux, G., 2014. Machine learning for neuroimaging \r\nwith scikit-learn. Front. Neuroinformatics 8. 〈https://www.frontiersin.org/articles/1 \r\n0.3389/fninf.2014.00014〉. \r\nAssociation American Educational Research, Association American Psychological, \r\nNational Council on Measurement in Education (Eds.), 2014. Standards for \r\nEducational and Psychological Testing. American Educational Research Association. \r\nAvants, B.B., Epstein, C.L., Grossman, M., Gee, J.C., 2008. Symmetric diffeomorphic \r\nimage registration with cross-correlation: Evaluating automated labeling of elderly \r\nand neurodegenerative brain. Med. Image Anal. 12 (1), 26–41. https://doi.org/ \r\n10.1016/j.media.2007.06.004. \r\nBalodis, I.M., Potenza, M.N., 2015. Anticipatory Reward Processing in Addicted \r\nPopulations: A Focus on the Monetary Incentive Delay Task. Biol. Psychiatry 77 (5), \r\n434–444. https://doi.org/10.1016/j.biopsych.2014.08.020. \r\nM.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n15\r\nBartra, O., McGuire, J.T., Kable, J.W., 2013. The valuation system: A coordinate-based \r\nmeta-analysis of BOLD fMRI experiments examining neural correlates of subjective \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 49,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "value. NeuroImage 76, 412–427. https://doi.org/10.1016/j. \r\nneuroimage.2013.02.063. \r\nBeltz, A.M., Gates, K.M., 2017. Network Mapping with GIMME. Multivar. Behav. Res. 52 \r\n(6), 789–804. https://doi.org/10.1080/00273171.2017.1373014. \r\nBennett, C.M., Miller, M.B., 2010. How reliable are the results from functional magnetic \r\nresonance imaging? Ann. N. Y. Acad. Sci. 1191 (1), 133–155. https://doi.org/ \r\n10.1111/j.1749-6632.2010.05446.x. \r\nBerridge, K.C., 2019. Affective valence in the brain: Modules or modes? Nat. Rev. \r\nNeurosci. 20 (4), 225–234. https://doi.org/10.1038/s41583-019-0122-8. \r\nBethlehem, R. a I., Seidlitz, J., White, S.R., Vogel, J.W., Anderson, K.M., Adamson, C., \r\nAdler, S., Alexopoulos, G.S., Anagnostou, E., Areces-Gonzalez, A., Astle, D.E., \r\nAuyeung, B., Ayub, M., Bae, J., Ball, G., Baron-Cohen, S., Beare, R., Bedford, S.A., \r\nBenegal, V., Alexander-Bloch, A.F., 2022. Brain charts for the human lifespan. \r\nNature 1–11. https://doi.org/10.1038/s41586-022-04554-y. \r\nBissonette, G., Gentry, R., Padmala, S., Pessoa, L., Roesch, M., 2014. Impact of appetitive \r\nand aversive outcomes on brain responses: Linking the animal and human \r\nliteratures. Front. Syst. Neurosci. 8. 〈https://www.frontiersin.org/articles/10.3389 \r\n/fnsys.2014.00024〉. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 50,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Bjork, J.M., 2020. The Ups and Downs of Relating Nondrug Reward Activation to \r\nSubstance Use Risk in Adolescents. Curr. Addict. Rep. https://doi.org/10.1007/ \r\ns40429-020-00327-7. \r\nBjork, J.M., Knutson, B., Fong, G.W., Caggiano, D.M., Bennett, S.M., Hommer, D.W., \r\n2004. Incentive-elicited brain activation in adolescents: Similarities and differences \r\nfrom young adults. J. Neurosci.: Off. J. Soc. Neurosci. 24 (8), 1793–1802. https:// \r\ndoi.org/10.1523/JNEUROSCI.4862-03.2004. \r\nBjork, J.M., Smith, A.R., Chen, G., Hommer, D.W., 2010. Adolescents, Adults and \r\nRewards: Comparing Motivational Neurocircuitry Recruitment Using fMRI. PLOS \r\nONE 5 (7), e11440. https://doi.org/10.1371/journal.pone.0011440. \r\nBlazejewska, A.I., Fischl, B., Wald, L.L., Polimeni, J.R., 2019. Intracortical smoothing of \r\nsmall-voxel fMRI data can provide increased detection power without spatial \r\nresolution losses compared to conventional large-voxel fMRI data. NeuroImage 189, \r\n601–614. https://doi.org/10.1016/j.neuroimage.2019.01.054. \r\nBorsboom, D., 2006. The attack of the psychometricians. Psychometrika 71 (3), 425–440. \r\nhttps://doi.org/10.1007/s11336-006-1447-6. \r\nBotvinik-Nezer, R., Holzmeister, F., Camerer, C.F., Dreber, A., Huber, J., \r\nJohannesson, M., Kirchler, M., Iwanir, R., Mumford, J.A., Adcock, R.A., Avesani, P., \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 51,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Baczkowski, B.M., Bajracharya, A., Bakst, L., Ball, S., Barilari, M., Bault, N., \r\nBeaton, D., Beitner, J., Schonberg, T., 2020. Variability in the analysis of a single \r\nneuroimaging dataset by many teams. Nature 582 (7810), 84–88. https://doi.org/ \r\n10.1038/s41586-020-2314-9. \r\nBowring, A., Nichols, T.E., Maumet, C., 2022. Isolating the sources of pipeline-variability \r\nin group-level task-fMRI results. Hum. Brain Mapp. 43 (3), 1112–1128. https://doi. \r\norg/10.1002/hbm.25713. \r\nBrown, T.A., 2006 (First edition). Confirmatory Factor Analysis for Applied Research, \r\nFirst edition.,. The Guilford Press,. \r\nBryce, N.V., Flournoy, J.C., Guassi Moreira, J.F., Rosen, M.L., Sambook, K.A., Mair, P., \r\nMcLaughlin, K.A., 2021. Brain parcellation selection: An overlooked decision point \r\nwith meaningful effects on individual differences in resting-state functional \r\nconnectivity. NeuroImage 243, 118487. https://doi.org/10.1016/j. \r\nneuroimage.2021.118487. \r\nBüchel, C., Peters, J., Banaschewski, T., Bokde, A.L.W., Bromberg, U., Conrod, P.J., \r\nFlor, H., Papadopoulos, D., Garavan, H., Gowland, P., Heinz, A., Walter, H., \r\nIttermann, B., Mann, K., Martinot, J.-L., Paill`ere-Martinot, M.-L., Nees, F., Paus, T., \r\nPausova, Z., Knutson, B., 2017. Blunted ventral striatal responses to anticipated \r\nrewards foreshadow problematic drug use in novelty-seeking adolescents. Nat. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 52,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Commun. 8 (1), 1–11. https://doi.org/10.1038/ncomms14140. \r\nBuxton, R.B., 2012. Dynamic Models of BOLD Contrast. NeuroImage 62 (2), 953–961. \r\nhttps://doi.org/10.1016/j.neuroimage.2012.01.012. \r\nCao, Z., Bennett, M., Orr, C., Icke, I., Banaschewski, T., Barker, G.J., Bokde, A.L.W., \r\nBromberg, U., Büchel, C., Quinlan, E.B., Desrivi`eres, S., Flor, H., Frouin, V., \r\nGaravan, H., Gowland, P., Heinz, A., Ittermann, B., Martinot, J.-L., Nees, F., \r\nWhelan, R., 2019. Mapping adolescent reward anticipation, receipt, and prediction \r\nerror during the monetary incentive delay task. Hum. Brain Mapp. 40 (1), 262–283. \r\nhttps://doi.org/10.1002/hbm.24370. \r\nCaplan, D., 2007. Experimental design and interpretation of functional neuroimaging \r\nstudies of cognitive processes. Hum. Brain Mapp. 30 (1), 59–77. https://doi.org/ \r\n10.1002/hbm.20489. \r\nCarp, J., 2012. On the Plurality of (Methodological) Worlds: Estimating the Analytic \r\nFlexibility of fMRI Experiments. Front. Neurosci. 6 https://doi.org/10.3389/ \r\nfnins.2012.00149. \r\nCasey, B.J., Cannonier, T., Conley, M.I., Cohen, A.O., Barch, D.M., Heitzeg, M.M., \r\nSoules, M.E., Teslovich, T., Dellarco, D.V., Garavan, H., Orr, C.A., Wager, T.D., \r\nBanich, M.T., Speer, N.K., Sutherland, M.T., Riedel, M.C., Dick, A.S., Bjork, J.M., \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 53,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Thomas, K.M., ABCD Imaging Acquisition Workgroup, 2018. The Adolescent Brain \r\nCognitive Development (ABCD) study: Imaging acquisition across 21 sites. Dev. \r\nCogn. Neurosci. 32, 43–54. https://doi.org/10.1016/j.dcn.2018.03.001. \r\nCasey, B.J., Heller, A.S., Gee, D.G., Cohen, A.O., 2019. Development of the emotional \r\nbrain. Neurosci. Lett. 693, 29–34. https://doi.org/10.1016/j.neulet.2017.11.055. \r\nChambers, C.D., Tzavella, L., 2022. The past, present and future of registered reports. \r\nArticle 1 Nat. Hum. Behav. 6 (1). https://doi.org/10.1038/s41562-021-01193-7. \r\nChambers, C.D., Feredoes, E., Muthukumaraswamy, S.D., Etchells, P., 2014. Instead of \r\n“playing the game” it is time to change the rules: registered reports at AIMS \r\nneuroscience and beyond. Article 1 AIMS Neurosci. 1 (1). https://doi.org/10.3934/ \r\nNeuroscience.2014.1.4. \r\nChen, F.F., 2007. Sensitivity of goodness of fit indexes to lack of measurement \r\ninvariance. Struct. Equ. Model. 14 (3), 464–504. https://doi.org/10.1080/ \r\n10705510701301834. \r\nChen, Y., Chaudhary, S., Li, C.-S.R., 2022. Shared and distinct neural activity during \r\nanticipation and outcome of win and loss: A meta-analysis of the monetary incentive \r\ndelay task. NeuroImage 264, 119764. https://doi.org/10.1016/j. \r\nneuroimage.2022.119764. \r\nChurchill, N.W., Spring, R., Afshin-Pour, B., Dong, F., Strother, S.C., 2015. An automated, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 54,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "adaptive framework for optimizing preprocessing pipelines in task-based functional \r\nMRI. PLOS ONE 10 (7), e0131520. https://doi.org/10.1371/journal.pone.0131520. \r\nClithero, J.A., Rangel, A., 2014. Informatic parcellation of the network involved in the \r\ncomputation of subjective value. Soc. Cogn. Affect. Neurosci. 9 (9), 1289–1302. \r\nhttps://doi.org/10.1093/scan/nst106. \r\nCox, R.W., Hyde, J.S., 1997. Software tools for analysis and visualization of fMRI data. \r\nNMR Biomed. 10 (4–5), 171–178. https://doi.org/10.1002/(SICI)1099-1492 \r\n(199706/08)10:4/5<171::AID-NBM453>3.0.CO;2-L. \r\nCronbach, L.J., 1957. The two disciplines of scientific psychology. Am. Psychol. 12 (11), \r\n671–684. https://doi.org/10.1037/h0043943. \r\nCronbach, L.J., Meehl, P.E., 1955. Construct validity in psychological tests. Psychol. Bull. \r\n52 (4), 281–302. https://doi.org/10.1037/h0040957. \r\nD’Urso, E.D., Maassen, E., Assen, M.A.L.M. van, Nuijten, M.B., Roover, K.D., & Wicherts, \r\nJ. (2022). The Dire Disregard of Measurement Invariance Testing in Psychological \r\nScience. PsyArXiv. 〈https://doi.org/10.31234/osf.io/n3f5u〉. \r\nDahl, R.E., Allen, N.B., Wilbrecht, L., Suleiman, A.B., 2018. Importance of investing in \r\nadolescence from a developmental science perspective. Nature 554 (7693), 441–450. \r\nhttps://doi.org/10.1038/nature25770. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 55,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 466,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Dale, A.M., Fischl, B., Sereno, M.I., 1999. Cortical surface-based analysis: I. Segmentation \r\nand surface reconstruction. NeuroImage 9 (2), 179–194. https://doi.org/10.1006/ \r\nnimg.1998.0395. \r\nDemidenko, M.I., & Poldrack, R.A. (2023). PyReliMRI: An Open-source Python tool for \r\nEstimates of Reliability in MRI Data [Computer software]. 〈https://zenodo.org/reco \r\nrd/8387971〉. \r\nDemidenko, M.I., Huntley, E.D., Jahn, A., Thomason, M.E., Monk, C.S., Keating, D.P., \r\n2020. Cortical and subcortical response to the anticipation of reward in high and \r\naverage/low risk-taking adolescents. Dev. Cogn. Neurosci. 44, 100798 https://doi. \r\norg/10.1016/j.dcn.2020.100798. \r\nDemidenko, M.I., Kelly, D.P., Hardi, F.A., Ip, K.I., Lee, S., Becker, H., Hong, S., \r\nThijssen, S., Luciana, M., Keating, D.P., 2022. Mediating effect of pubertal stages on \r\nthe family environment and neurodevelopment: An open-data replication and \r\nmultiverse analysis of an ABCD Study®. Neuroimage: Rep. 2 (4), 100133 https:// \r\ndoi.org/10.1016/j.ynirp.2022.100133. \r\nDemidenko, M.I., Huntley, E.D., Weigard, A.S., Keating, D.P., Beltz, A.M., 2022. Neural \r\nheterogeneity underlying late adolescent motivational processing is linked to \r\nindividual differences in behavioral sensation seeking. J. Neurosci. Res. 100 (3), \r\n762–779. https://doi.org/10.1002/jnr.25005. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 56,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Demidenko, M.I., Mumford, J.A., Ram, N., & Poldrack, R.A. (2023). Code for a Multi\u0002Sample Evaluation of the Measurement Structure and Function of the Modified Monetary \r\nIncentive Delay Task in Adolescents [Computer software]. 〈https://zenodo.org/ \r\nrecords/10211538〉. \r\nDiekhof, E.K., Kaps, L., Falkai, P., Gruber, O., 2012. The role of the human ventral \r\nstriatum and the medial orbitofrontal cortex in the representation of reward \r\nmagnitude—an activation likelihood estimation meta-analysis of neuroimaging \r\nstudies of passive reward expectancy and outcome processing. Neuropsychologia 50 \r\n(7), 1252–1266. https://doi.org/10.1016/j.neuropsychologia.2012.02.007. \r\nDinno, A., 2009. Exploring the sensitivity of Horn’s parallel analysis to the distributional \r\nform of random data. Multivar. Behav. Res. 44 (3), 362–388. https://doi.org/ \r\n10.1080/00273170902938969. \r\nDinno, A. (2018). paran: Horn’s Test of Principal Components/Factors (1.5.2) [Computer \r\nsoftware]. 〈https://CRAN.R-project.org/package=paran〉. \r\nDock`es, J., Varoquaux, G., Poline, J.-B., 2021. Preventing dataset shift from breaking \r\nmachine-learning biomarkers. GigaScience. 〈https://hal.archives-ouvertes.fr/hal-0 \r\n3293375〉. \r\nDoremus-Fitzwater, T.L., Varlinskaya, E.I., Spear, L.P., 2010. Motivational systems in \r\nadolescence: Possible implications for age differences in substance abuse and other \r\nrisk-taking behaviors. Brain Cogn. 72 (1), 114–123. https://doi.org/10.1016/j. \r\nbandc.2009.08.008. \r\nDugr´e, J.R., Dumais, A., Bitar, N., Potvin, S., 2018. Loss anticipation and outcome during \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 57,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "the monetary incentive delay task: a neuroimaging systematic review and meta\u0002analysis. PeerJ 6, e4749. https://doi.org/10.7717/peerj.4749. \r\nElliott, M.L., Knodt, A.R., Ireland, D., Morris, M.L., Poulton, R., Ramrakha, S., Sison, M. \r\nL., Moffitt, T.E., Caspi, A., Hariri, A.R., 2020. What is the test-retest reliability of \r\ncommon task-functional MRI measures? New empirical evidence and a meta\u0002analysis. Psychol. Sci. 31 (7), 792–806. https://doi.org/10.1177/ \r\n0956797620916786. \r\nErnst, M., 2014. The triadic model perspective for the study of adolescent motivated \r\nbehavior. Brain Cogn. 89, 104–111. https://doi.org/10.1016/j.bandc.2014.01.006. \r\nErnst, M., Luciana, M., 2015. Neuroimaging of the dopamine/reward system in \r\nadolescent drug use. CNS Spectr. 20 (4), 427–441. https://doi.org/10.1017/ \r\nS1092852915000395. \r\nErnst, M., Gowin, J., Gaillard, C., 2022. The triadic neural systems model through a \r\nmachine-learning mill. In: Borst, G., Houd´e, O. (Eds.), The Cambridge Handbook of \r\nCognitive Development. Cambridge University Press, pp. 516–534. https://doi.org/ \r\n10.1017/9781108399838.028. \r\nEsteban, O., Markiewicz, C.J., Blair, R.W., Moodie, C.A., Isik, A.I., Erramuzpe, A., Kent, J. \r\nD., Goncalves, M., DuPre, E., Snyder, M., Oya, H., Ghosh, S.S., Wright, J., Durnez, J., \r\nPoldrack, R.A., Gorgolewski, K.J., 2019. fMRIPrep: a robust preprocessing pipeline \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 58,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "M.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n16\r\nfor functional MRI. Nat. Methods 16 (1), 111–116. https://doi.org/10.1038/s41592- \r\n018-0235-4. \r\nEsteban, O., Markiewicz, C.J., Goncalves, M., Provins, C., Kent, J.D., DuPre, E., Salo, T., \r\nCiric, R., Pinsard, B., Blair, R.W., Poldrack, R.A., Gorgolewski, K.J., 2022. fMRIPrep: \r\na robust preprocessing pipeline for functional MRI [Computer software]. Zenodo. \r\nhttps://doi.org/10.5281/zenodo.7117719. \r\nFeczko, E., Conan, G., Marek, S., Tervo-Clemmens, B., Cordova, M., Doyle, O., Earl, E., \r\nPerrone, A., Sturgeon, D., Klein, R., Harman, G., Kilamovich, D., Hermosillo, R., \r\nMiranda-Dominguez, O., Adebimpe, A., Bertolero, M., Cieslak, M., Covitz, S., \r\nHendrickson, T., … Fair, D.A. (2021). Adolescent Brain Cognitive Development (ABCD) \r\nCommunity MRI Collection and Utilities (p. 2021.07.09.451638). bioRxiv. 〈https:// \r\ndoi.org/10.1101/2021.07.09.451638〉. \r\nFlake, J.K., Fried, E.I., 2020. Measurement schmeasurement: questionable measurement \r\npractices and how to avoid them. Adv. Methods Pract. Psychol. Sci. 3 (4), 456–465. \r\nhttps://doi.org/10.1177/2515245920952393. \r\nFlake, J.K., Luong, R., Shaw, M., 2022. Addressing a crisis of generalizability with large\u0002scale construct validation. Behav. Brain Sci. 45 https://doi.org/10.1017/ \r\nS0140525X21000376. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 59,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Flannery, J.S., Riedel, M.C., Bottenhorn, K.L., Poudel, R., Salo, T., Hill-Bowen, L.D., \r\nLaird, A.R., Sutherland, M.T., 2020. Meta-analytic clustering dissociates brain \r\nactivity and behavior profiles across reward processing paradigms. Cogn., Affect., \r\nBehav. Neurosci. 20 (2), 215–235. https://doi.org/10.3758/s13415-019-00763-7. \r\nFonov, V., Evans, A., McKinstry, R., Almli, C., Collins, D., 2009. Unbiased nonlinear \r\naverage age-appropriate brain templates from birth to adulthood. NeuroImage 47, \r\nS102. https://doi.org/10.1016/S1053-8119(09)70884-5. \r\nForbes, E.E., Dahl, R.E., 2010. Pubertal development and behavior: hormonal activation \r\nof social and motivational tendencies. Brain Cogn. 72 (1), 66–72. https://doi.org/ \r\n10.1016/j.bandc.2009.10.007. \r\nFrancken, J.C., Slors, M., Craver, C.F., 2022. Cognitive ontology and the search for neural \r\nmechanisms: Three foundational problems. Synthese 200 (5), 378. https://doi.org/ \r\n10.1007/s11229-022-03701-2. \r\nGentry, R.N., Schuweiler, D.R., Roesch, M.R., 2019. Dopamine signals related to \r\nappetitive and aversive events in paradigms that manipulate reward and \r\navoidability. Brain Res. 1713, 80–90. https://doi.org/10.1016/j. \r\nbrainres.2018.10.008. \r\nGorgolewski, K.J., Burns, C., Madison, C., Clark, D., Halchenko, Y., Waskom, M., \r\nGhosh, S., 2011. Nipype: a flexible, lightweight and extensible neuroimaging data \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 60,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "processing framework in python. Front. Neuroinformatics 5. 〈https://www.frontier \r\nsin.org/articles/10.3389/fninf.2011.00013〉. \r\nGorgolewski, K.J., Esteban, O., Markiewicz, C.J., Ziegler, E., Ellis, D.G., Jarecka, D., \r\nNotter, M.P., Johnson, H., Burns, C., Manh˜aes-Savio, A., Hamalainen, C., \r\nYvernault, B., Salo, T., Goncalves, M., Jordan, K., Waskom, M., Wong, J., Modat, M., \r\nLoney, F., Ghosh, S., 2018. nipy/nipype: 1. 1. 5 [Comput. Softw. ]. Zenodo. https:// \r\ndoi.org/10.5281/zenodo.1480713. \r\nGreve, D.N., Fischl, B., 2009. Accurate and robust brain image alignment using \r\nboundary-based registration. NeuroImage 48 (1), 63–72. https://doi.org/10.1016/j. \r\nneuroimage.2009.06.060. \r\nHaber, S.N., 2017. Chapter 1—anatomy and connectivity of the reward circuit. In: \r\nDreher, J.-C., Tremblay, L. (Eds.), Decision Neuroscience. Academic Press, pp. 3–19. \r\nhttps://doi.org/10.1016/B978-0-12-805308-9.00001-4. \r\nHaeffel, G.J., 2022. Psychology needs to get tired of winning. R. Soc. Open Sci. 9 (6), \r\n220099 https://doi.org/10.1098/rsos.220099. \r\nHanson, S.J., 2022. The failure of blobology: fMRI misinterpretation, maleficience and \r\nmuddle. Front. Hum. Neurosci. 16. 〈https://www.frontiersin.org/article/10.3389/fn \r\nhum.2022.870091〉. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 61,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Henson, R., 2005. What can functional neuroimaging tell the experimental psychologist? \r\nQ. J. Exp. Psychol. Sect. A 58 (2), 193–233. https://doi.org/10.1080/ \r\n02724980443000502. \r\nHirschfeld, G., Brachel, R. von, 2014. Improving multiple-group confirmatory factor \r\nanalysis in R – a tutorial in measurement invariance with continuous and ordinal \r\nindicators. Pract. Assess., Res., Eval. 19 (1) https://doi.org/10.7275/qazy-2946. \r\nHull, C.L., 1952. A behavior system; an introduction to behavior theory concerning the \r\nindividual organism. Yale University Press,. \r\nJenkinson, M., Bannister, P., Brady, M., Smith, S., 2002. Improved optimization for the \r\nrobust and accurate linear registration and motion correction of brain images. \r\nNeuroImage 17 (2), 825–841. \r\nKaroly, H.C., Bryan, A.D., Weiland, B.J., Mayer, A., Dodd, A., Feldstein Ewing, S.W., \r\n2015. Does incentive-elicited nucleus accumbens activation differ by substance of \r\nabuse? An examination with adolescents. Dev. Cogn. Neurosci. 16, 5–15. https://doi. \r\norg/10.1016/j.dcn.2015.05.005. \r\nKennedy, J.T., Harms, M.P., Korucuoglu, O., Astafiev, S.V., Barch, D.M., Thompson, W. \r\nK., Bjork, J.M., Anokhin, A.P., 2022. Reliability and stability challenges in ABCD task \r\nfMRI data. NeuroImage 252, 119046. https://doi.org/10.1016/j. \r\nneuroimage.2022.119046. \r\nKlein, A., Ghosh, S.S., Bao, F.S., Giard, J., H¨ame, Y., Stavsky, E., Lee, N., Rossa, B., \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 62,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Reuter, M., Neto, E.C., Keshavan, A., 2017. Mindboggling morphometry of human \r\nbrains. PLOS Comput. Biol. 13 (2), e1005350 https://doi.org/10.1371/journal. \r\npcbi.1005350. \r\nKnutson, B., Greer, S., 2008. Anticipatory affect: neural correlates and consequences for \r\nchoice. Philos. Trans. R. Soc. B: Biol. Sci. 363 (1511), 3771–3786. https://doi.org/ \r\n10.1098/rstb.2008.0155. \r\nKnutson, B., Heinz, A., 2015. Probing psychiatric symptoms with the monetary incentive \r\ndelay task. Biol. Psychiatry 77 (5), 418–420. https://doi.org/10.1016/j. \r\nbiopsych.2014.12.022. \r\nKnutson, B., Srirangarajan, T., 2019. Toward a deep science of affect and motivation. In: \r\nNeta, M., Haas, I.J. (Eds.), Emotion in the Mind and Body. Springer International \r\nPublishing, pp. 193–220. https://doi.org/10.1007/978-3-030-27473-3_7. \r\nKnutson, B., Westdorp, A., Kaiser, E., Hommer, D., 2000. FMRI visualization of brain \r\nactivity during a monetary incentive delay task. NeuroImage 12 (1), 20–27. https:// \r\ndoi.org/10.1006/nimg.2000.0593. \r\nKnutson, B., Adams, C.M., Fong, G.W., Hommer, D., 2001. Anticipation of increasing \r\nmonetary reward selectively recruits nucleus accumbens. RC159–RC159 J. Neurosci. \r\n21 (16). https://doi.org/10.1523/JNEUROSCI.21-16-j0002.2001. \r\nKnutson, B., Fong, G.W., Bennett, S.M., Adams, C.M., Hommer, D., 2003. A region of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 63,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "mesial prefrontal cortex tracks monetarily rewarding outcomes: characterization \r\nwith rapid event-related fMRI. NeuroImage 18 (2), 263–272. https://doi.org/ \r\n10.1016/S1053-8119(02)00057-5. \r\nKnutson, B., Katovich, K., Suri, G., 2014. Inferring affect from fMRI data. Trends Cogn. \r\nSci. 18 (8), 422–428. https://doi.org/10.1016/j.tics.2014.04.006. \r\nKwong, K.K., Belliveau, J.W., Chesler, D.A., Goldberg, I.E., Weisskoff, R.M., Poncelet, B. \r\nP., Kennedy, D.N., Hoppel, B.E., Cohen, M.S., Turner, R., 1992. Dynamic magnetic \r\nresonance imaging of human brain activity during primary sensory stimulation. \r\nProc. Natl. Acad. Sci. 89 (12), 5675–5679. https://doi.org/10.1073/ \r\npnas.89.12.5675. \r\nLi, X., Ai, L., Giavasis, S., Jin, H., Feczko, E., Xu, T., Clucas, J., Franco, A., Heinsfeld, A.S., \r\nAdebimpe, A., Vogelstein, J.T., Yan, C.-G., Esteban, O., Poldrack, R.A., Craddock, C., \r\nFair, D., Satterthwaite, T., Kiar, G., & Milham, M.P. (2021). Moving Beyond \r\nProcessing and Analysis-Related Variation in Neuroscience (p. 2021.12.01.470790). \r\nhttps://doi.org/10.1101/2021.12.01.470790. \r\nLilienfeld, S.O., Strother, A.N., 2020. Psychological measurement and the replication \r\ncrisis: four sacred cows. Can. Psychol. 61 (4), 281–288. https://doi.org/10.1037/ \r\ncap0000236. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 64,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Lorenzo-Seva, U., ten Berge, J.M.F., 2006. Tucker’s congruence coefficient as a \r\nmeaningful index of factor similarity. Methodol.: Eur. J. Res. Methods Behav. Soc. \r\nSci. 2, 57–64. https://doi.org/10.1027/1614-2241.2.2.57. \r\nLuciana, M., Wahlstrom, D., Porter, J.N., Collins, P.F., 2012. Dopaminergic modulation \r\nof incentive motivation in adolescence: age-related changes in signaling, individual \r\ndifferences, and implications for the development of self-regulation. Dev. Psychol. \r\n48 (3), 844–861. https://doi.org/10.1037/a0027432. \r\nLuna, B., 2009. Developmental changes in cognitive control through adolescence. Adv. \r\nChild Dev. Behav. 37, 233–278. https://doi.org/10.1016/s0065-2407(09)03706-9. \r\nLuna, B., Marek, S., Larsen, B., Tervo-Clemmens, B., Chahal, R., 2015. An integrative \r\nmodel of the maturation of cognitive control. Annu. Rev. Neurosci. 38, 151–170. \r\nhttps://doi.org/10.1146/annurev-neuro-071714-034054. \r\nLutz, K., Widmer, M., 2014. What can the monetary incentive delay task tell us about the \r\nneural processing of reward and punishment? Neurosci. Neuroeconomics 3, 33–45. \r\nhttps://doi.org/10.2147/NAN.S38864. \r\nMarsh, H.W., Morin, A.J.S., Parker, P.D., Kaur, G., 2014. Exploratory structural equation \r\nmodeling: an integration of the best features of exploratory and confirmatory factor \r\nanalysis. Annu. Rev. Clin. Psychol. 10, 85–110. https://doi.org/10.1146/annurev\u0002clinpsy-032813-153700. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 65,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Martz, M.E., Trucco, E.M., Cope, L.M., Hardee, J.E., Jester, J.M., Zucker, R.A., \r\nHeitzeg, M.M., 2016. Association of marijuana use with blunted nucleus accumbens \r\nresponse to reward anticipation. JAMA Psychiatry 73 (8), 838–844. https://doi.org/ \r\n10.1001/jamapsychiatry.2016.1161. \r\nMcNeish, D., Wolf, M.G., 2021. Dynamic fit index cutoffs for confirmatory factor analysis \r\nmodels (No Pagination Specified-No Pagination Specified). Psychol. Methods. \r\nhttps://doi.org/10.1037/met0000425. \r\nMeade, A.W., Johnson, E.C., Braddy, P.W., 2008. Power and sensitivity of alternative fit \r\nindices in tests of measurement invariance. J. Appl. Psychol. 93 (3), 568–592. \r\nhttps://doi.org/10.1037/0021-9010.93.3.568. \r\nMikl, M., Mareˇcek, R., Hluˇstík, P., Pavlicov´a, M., Drastich, A., Chlebus, P., Br´azdil, M., \r\nKrupa, P., 2008. Effects of spatial smoothing on fMRI group inferences. Magn. Reson. \r\nImaging 26 (4), 490–503. https://doi.org/10.1016/j.mri.2007.08.006. \r\nMills, K.L., Goddings, A.L., Herting, M.M., Meuwese, R., Blakemore, S.J., Crone, E.A., \r\nDahl, R.E., Güroglu, ˘ B., Raznahan, A., Sowell, E.R., Tamnes, C.K., 2016. Structural \r\nbrain development between childhood and adulthood: convergence across four \r\nlongitudinal samples. NeuroImage 141, 273–281. https://doi.org/10.1016/j. \r\nneuroimage.2016.07.044. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 66,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Molnar-Szakacs, I., Uddin, L.Q., 2022. Anterior insula as a gatekeeper of executive \r\ncontrol. Neurosci. Biobehav. Rev., 104736 https://doi.org/10.1016/j. \r\nneubiorev.2022.104736. \r\nMumford, J.A., Davis, T., Poldrack, R.A., 2014. The impact of study design on pattern \r\nestimation for single-trial multivariate pattern analysis. NeuroImage 103, 130–138. \r\nhttps://doi.org/10.1016/j.neuroimage.2014.09.026. \r\nMurray, L., Lopez-Duran, N.L., Mitchell, C., Monk, C.S., Hyde, L.W., 2020. Neural \r\nmechanisms of reward and loss processing in a low-income sample of at-risk \r\nadolescents. Soc. Cogn. Affect. Neurosci. https://doi.org/10.1093/scan/nsaa157. \r\nNikolaidis, A., Chen, A.A., He, X., Shinohara, R., Vogelstein, J., Milham, M., & Shou, H. \r\n(2022). Suboptimal phenotypic reliability impedes reproducible human neuroscience (p. \r\n2022.07.22.501193). bioRxiv. 〈https://doi.org/10.1101/2022.07.22.501193〉. \r\nNoble, S., Scheinost, D., Constable, R.T., 2019. A decade of test-retest reliability of \r\nfunctional connectivity: a systematic review and meta-analysis. NeuroImage 203, \r\n116157. https://doi.org/10.1016/j.neuroimage.2019.116157. \r\nOgawa, S., Lee, T.M., Kay, A.R., Tank, D.W., 1990. Brain magnetic resonance imaging \r\nwith contrast dependent on blood oxygenation. Proc. Natl. Acad. Sci. U. S. A. 87 \r\n(24), 9868–9872. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 67,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Olaru, G., Robitzsch, A., Hildebrandt, A., & Schroeders, U. (2020). Local Structural \r\nEquation Modeling for Longitudinal Data. PsyArXiv. 〈https://doi.org/10.31234/osf.io \r\n/q79c5〉. \r\nM.I. Demidenko et al. \nDevelopmental Cognitive Neuroscience 65 (2024) 101337\r\n17\r\nOldham, S., Murawski, C., Fornito, A., Youssef, G., Yücel, M., Lorenzetti, V., 2018. The \r\nanticipation and outcome phases of reward and loss processing: a neuroimaging \r\nmeta-analysis of the monetary incentive delay task. Hum. Brain Mapp. 39 (8), \r\n3398–3418. https://doi.org/10.1002/hbm.24184. \r\nPfeifer, J.H., Berkman, E.T., 2018. The development of self and identity in adolescence: \r\nneural evidence and implications for a value-based choice perspective on motivated \r\nbehavior. Child Dev. Perspect. 12 (3), 158–164. https://doi.org/10.1111/ \r\ncdep.12279. \r\nPoldrack, R.A., 2010. Mapping mental function to brain structure: How can cognitive \r\nneuroimaging succeed? Perspect. Psychol. Sci.: A J. Assoc. Psychol. Sci. 5 (5), \r\n753–761. https://doi.org/10.1177/1745691610388777. \r\nPoldrack, R.A., Yarkoni, T., 2016. From brain maps to cognitive ontologies: informatics \r\nand the search for mental structure. Annu. Rev. Psychol. 67 (1), 587–612. https:// \r\ndoi.org/10.1146/annurev-psych-122414-033729. \r\nPower, J.D., Mitra, A., Laumann, T.O., Snyder, A.Z., Schlaggar, B.L., Petersen, S.E., 2014. \r\nMethods to detect, characterize, and remove motion artifact in resting state fMRI. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 68,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "NeuroImage 84, 320–341. https://doi.org/10.1016/j.neuroimage.2013.08.048. \r\nPutnick, D.L., Bornstein, M.H., 2016. Measurement invariance conventions and \r\nreporting: the state of the art and future directions for psychological research. Dev. \r\nRev.: DR 41, 71–90. https://doi.org/10.1016/j.dr.2016.06.004. \r\nR Core Team, 2022. R: A language and environment for statistical computing. (4.2.1) \r\n[Computer software]. R Foundation for Statistical Computing,. 〈https://www. \r\nR-project.org/〉. \r\nRichards, J.M., Plate, R.C., Ernst, M., 2013. A systematic review of fMRI reward \r\nparadigms used in studies of adolescents vs. adults: the impact of task design and \r\nimplications for understanding neurodevelopment. Neurosci. Biobehav. Rev. 37 (5), \r\n976–991. https://doi.org/10.1016/j.neubiorev.2013.03.004. \r\nRisk, B.B., Murden, R.J., Wu, J., Nebel, M.B., Venkataraman, A., Zhang, Z., Qiu, D., 2021. \r\nWhich multiband factor should you choose for your resting-state fMRI study? \r\nNeuroImage 234, 117965. https://doi.org/10.1016/j.neuroimage.2021.117965. \r\nRobitzsch, A. (2022). sirt: Supplementary Item Response Theory Models (3.12–66) \r\n[Computer software]. 〈https://CRAN.R-project.org/package=sirt〉. \r\nRosenberg, M.D., Casey, B.J., Holmes, A.J., 2018. Prediction complements explanation in \r\nunderstanding the developing brain. Article 1 Nat. Commun. 9 (1). https://doi.org/ \r\n10.1038/s41467-018-02887-9. \r\nRosseel, Y., 2012. lavaan: an R package for structural equation modeling. Article 1 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 69,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 479,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "J. Stat. Softw. 48 (1). https://doi.org/10.18637/jss.v048.i02. \r\nRosseel, Y., Jorgensen, T.D., Rockwood, N., Oberski, D., Byrnes, J., Vanbrabant, L., \r\nSavalei, V., Merkle, E., Hallquist, M., Rhemtulla, M., Katsikatsou, M., Barendse, M., \r\nScharf, F., & Du, H. (2021). lavaan: Latent Variable Analysis (0.6–9) [Computer \r\nsoftware]. 〈https://CRAN.R-project.org/package=lavaan〉. \r\nSatterthwaite, T.D., Elliott, M.A., Gerraty, R.T., Ruparel, K., Loughead, J., Calkins, M.E., \r\nEickhoff, S.B., Hakonarson, H., Gur, R.C., Gur, R.E., Wolf, D.H., 2013. An improved \r\nframework for confound regression and filtering for control of motion artifact in the \r\npreprocessing of resting-state functional connectivity data. NeuroImage 64, \r\n240–256. https://doi.org/10.1016/j.neuroimage.2012.08.052. \r\nSawyer, S.M., Azzopardi, P.S., Wickremarathne, D., Patton, G.C., 2018. The age of \r\nadolescence. Lancet Child Adolesc. Health 2 (3), 223–228. https://doi.org/10.1016/ \r\nS2352-4642(18)30022-1. \r\nSchultz, W., 2015. Neuronal reward and decision signals: from theories to data. Physiol. \r\nRev. 95 (3), 853–951. https://doi.org/10.1152/physrev.00023.2014. \r\nSchumann, G., Loth, E., Banaschewski, T., Barbot, A., Barker, G., Büchel, C., Conrod, P.J., \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 70,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "Dalley, J.W., Flor, H., Gallinat, J., Garavan, H., Heinz, A., Itterman, B., Lathrop, M., \r\nMallik, C., Mann, K., Martinot, J.-L., Paus, T., Poline, J.-B., IMAGEN consortium, \r\n2010. The IMAGEN study: reinforcement-related behaviour in normal brain function \r\nand psychopathology. Mol. Psychiatry 15 (12), 1128–1139. https://doi.org/ \r\n10.1038/mp.2010.4. \r\nSherman, L., Steinberg, L., Chein, J., 2018. Connecting brain responsivity and real-world \r\nrisk taking: strengths and limitations of current methodological approaches. Dev. \r\nCogn. Neurosci. 33, 27–41. https://doi.org/10.1016/j.dcn.2017.05.007. \r\nSilverman, M.H., Jedd, K., Luciana, M., 2015. Neural networks involved in adolescent \r\nreward processing: an activation likelihood estimation meta-analysis of functional \r\nneuroimaging studies. NeuroImage 122, 427–439 (https://doi.org/v). \r\nSilvestrin, M., & de Beer, L.T. (2022). esemComp: ESEM-within-CFA syntax composer (R \r\npackage version 0.2) [Computer software]. 〈https://mateuspsi.github.io/esemCom \r\np〉. \r\nSkinner, B.F., 1956. A case history in scientific method. Am. Psychol. 11 (5), 221–233. \r\nhttps://doi.org/10.1037/h0047662. \r\nSlaney, K., 2017. Validating Psychological Constructs: Historical, Philosophical, and \r\nPractical Dimensions, 1st ed. 2017 edition.,. Palgrave Macmillan,. \r\nSoares, J.M., Magalh˜aes, R., Moreira, P.S., Sousa, A., Ganz, E., Sampaio, A., Alves, V., \r\nMarques, P., Sousa, N., 2016. A Hitchhiker’s guide to functional magnetic resonance \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 71,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "imaging. Front. Neurosci. 10, 515. https://doi.org/10.3389/fnins.2016.00515. \r\nSpear, L.P., 2000. The adolescent brain and age-related behavioral manifestations. \r\nNeurosci. Biobehav. Rev. 24 (4), 417–463. https://doi.org/10.1016/s0149-7634(00) \r\n00014-2. \r\nSpear, L.P., 2004. Adolescent brain development and animal models. Ann. N. Y. Acad. \r\nSci. 1021 (1), 23–26. https://doi.org/10.1196/annals.1308.002. \r\nSrirangarajan, T., Mortazavi, L., Bortolini, T., Moll, J., Knutson, B., 2021. Multi-band \r\nFMRI compromises detection of mesolimbic reward responses. NeuroImage 244, \r\n118617. https://doi.org/10.1016/j.neuroimage.2021.118617. \r\nSteinberg, L., 2010. A dual systems model of adolescent risk-taking. Dev. Psychobiol. 52 \r\n(3), 216–224. https://doi.org/10.1002/dev.20445. \r\nTervo-Clemmens, B., Quach, A., Calabro, F.J., Foran, W., Luna, B., 2020. Meta-analysis \r\nand review of functional neuroimaging differences underlying adolescent \r\nvulnerability to substance use. NeuroImage 209, 116476. https://doi.org/10.1016/j. \r\nneuroimage.2019.116476. \r\nTustison, N.J., Avants, B.B., Cook, P.A., Zheng, Y., Egan, A., Yushkevich, P.A., Gee, J.C., \r\n2010. N4ITK: improved N3 bias correction. IEEE Trans. Med. Imaging 29 (6), \r\n1310–1320. https://doi.org/10.1109/TMI.2010.2046908. \r\nUttal, W.R., 2003. The New Phrenology: The Limits of Localizing Cognitive Processes in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 72,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "the Brain. Bradford Books,. \r\nVolkow, N.D., Koob, G.F., Croyle, R.T., Bianchi, D.W., Gordon, J.A., Koroshetz, W.J., \r\nP´erez-Stable, E.J., Riley, W.T., Bloch, M.H., Conway, K., Deeds, B.G., Dowling, G.J., \r\nGrant, S., Howlett, K.D., Matochik, J.A., Morgan, G.D., Murray, M.M., Noronha, A., \r\nSpong, C.Y., Weiss, S.R.B., 2018. The conception of the ABCD study: from substance \r\nuse to a broad NIH collaboration. Dev. Cogn. Neurosci. 32, 4–7. https://doi.org/ \r\n10.1016/j.dcn.2017.10.002. \r\nWilson, R.P., Colizzi, M., Bossong, M.G., Allen, P., Kempton, M., Abe, N., Barros\u0002Loscertales, A.R., Bayer, J., Beck, A., Bjork, J., Boecker, R., Bustamante, J.C., Choi, J. \r\nS., Delmonte, S., Dillon, D., Figee, M., Garavan, H., Hagele, C., Hermans, E.J., MTAC, \r\n2018. The neural substrate of reward anticipation in health: a meta-analysis of fMRI \r\nfindings in the monetary incentive delay task. Neuropsychol. Rev. 28 (4), 496–506. \r\nhttps://doi.org/10.1007/s11065-018-9385-5. \r\nWu, C.C., Samanez-Larkin, G.R., Katovich, K., Knutson, B., 2014. Affective traits link to \r\nreliable neural markers of incentive anticipation. NeuroImage 84, 279–289. https:// \r\ndoi.org/10.1016/j.neuroimage.2013.08.055. \r\nYau, W.-Y.W., Zubieta, J.-K., Weiland, B.J., Samudra, P.G., Zucker, R.A., Heitzeg, M.M., \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 73,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3241992653878457009,
+        "filename": "main.PMC10801229.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 335,
+      "total_chunks": 74,
+      "version": "1.0.0"
+    },
+    "text": "2012. Nucleus accumbens response to incentive stimuli anticipation in children of \r\nalcoholics: relationships with precursive behavioral risk and lifetime alcohol use. \r\nJ. Neurosci. 32 (7), 2544–2551. https://doi.org/10.1523/JNEUROSCI.1390- \r\n11.2012. \r\nZhang, Y., Brady, M., Smith, S., 2001. Segmentation of brain MR images through a \r\nhidden Markov random field model and the expectation-maximization algorithm. \r\nIEEE Trans. Med. Imaging 20 (1), 45–57. https://doi.org/10.1109/42.906424. \r\nZucker, R.A., Fitzgerald, H.E., Refior, S.K., Puttler, L.I., Pallas, D.M., Ellis, D.A., 2000. \r\nThe Clinical and Social Ecology of Childhood for Children of Alcoholics: Description \r\nof a Study and Implications for a Differentiated: Description of a Study and \r\nImplications for a Differentiated Social Policy. Children of Addiction. Routledge,. \r\nZyl, L. van, Klooster, P.M. ten, 2022. Exploratory structural equation modeling: practical \r\nguidelines and tutorial with a convenient online tool for Mplus. Front. Psychiatry 12, \r\n795672. https://doi.org/10.3389/fpsyt.2021.795672. \r\nM.I. Demidenko et al. \n\n"
+  }
+]

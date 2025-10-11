@@ -1,0 +1,578 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Thermoeconomic optimization of \r\na hybrid power and cooling facility \r\nusing waste heat recovery from a \r\nmarine diesel engine\r\nMohamed Bechir Ben Hamida1, WaqidAl-Mussawi2, Mohamed Shaban3 & \r\nMohammad Marefati4\r\nImproving energy efficiency and reducing environmental impacts have become essential goals \r\nin today’s world. Finding ways to utilize waste heat for generating both power and cooling is a \r\nmeaningful step toward more sustainable energy use and better resource management. In this \r\nresearch, the aim is to enhance the basic efficiency of diesel engines by harnessing the waste heat. \r\nBy merging the diesel engine cycle with the ORC and the ejector-heat pipe cooling process, we can \r\nsimultaneously generate power and cooling. This study focuses on tapping into the unused heat from \r\na specific marine diesel engine to produce both power and cooling. The primary motivation is to cut \r\ndown on fossil fuel usage due to its adverse environmental impact. To put it another way, this research \r\nfocuses on increasing the base efficiency of diesel engines by recycling waste heat. By systematically \r\nintegrating the diesel engine cycle with the organic Rankine cycle and the ejector-heat pipe cooling \r\nsystem, we can produce both power and cooling. Ultimately, 2-archive multi-objective cuckoo search \r\nalgorithm-based optimization (MOCS2arc algorithm) establishes the optimized conceptual design. \r\nThe system offers an electrical output of 72.01 kW and cooling capabilities of 56.83 kW, achieving an \r\nexergy efficiency of 60.4%. Moreover, economic metrics, including the facility’s unit cost of the product \r\n($1259/GJ) and annual exergy destruction costs ($386,670), were ascertained. Under the optimization, \r\nexergy efficacy and SUCP of 64.9% and $902.21/GJ are achievable.\r\nKeywords Hybrid cooling and power, Waste heat recovery system, Marine diesel cycle, Exergoeconomic, \r\n2-archive multi-objective cuckoo search optimization algorithm\r\nToday, energy stands as humanity’s most strategic need, and its provision has evolved into an ongoing concern \r\nfor nations1–3. With the dwindling fossil fuel resources on one hand, and the adverse environmental effects they \r\ncause on the other, the importance and necessity of optimizing fossil fuel usage methods and energy production \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "becomes increasingly evident4,5. The rising consumption of fossil fuels, their limited availability, the steadily \r\nincreasing cost of energy, and the environmental contamination emitted from the release of carbon dioxide \r\nand greenhouse gases, all strongly advocate for the efficient use of available energy and energy conservation6. \r\nConsidering that the energy crisis is among the most fundamental challenges facing human societies, finding \r\nefficient energy production methods is a primary objective. Electricity production in thermal power plants is \r\naccompanied by significant losses7,8. Even under optimal production conditions, like those in a combined cycle, \r\nmore than 50% of the input thermal energy does not get converted into electricity9,10. Instead, it is wasted as \r\nheat through plant smokestacks, plant condensers, and other equipment. Thus, the utilization of cogeneration \r\nsystems emerges as a solution to reduce these losses and enhance the system’s efficiency11.\r\nCogeneration systems for simultaneous power, heat, and cooling serve as a solution to energy wastage \r\nand environmental challenges. By harnessing the maximum work, heat, and cooling produced from a single \r\nfuel source, these systems have attracted the attention of researchers. Such units employ a heat source and, by \r\nminimizing wasted energy, bring the system’s waste heat source temperature closer to ambient temperature, \r\n1Deanship of Scientific Research, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, Saudi Arabia. \r\n2Faculty of Engineering, University of Warith Al-Anbiyaa, Kerbala 56001, Iraq. 3Physics Department, Faculty \r\nof Science, Islamic University of Madinah, P. O. Box: 170, Madinah 42351, Saudi Arabia. 4Department of Energy \r\nEngineering, Faculty of Natural Resources and Environment, Science and Research Branch, Islamic Azad University, \r\nTehran, Iran. email: mssfadel@iu.edu.sa; mohamad.marefati@gmail.com\r\nOPEN\r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 1\r\nwww.nature.com/scientificreports\nthereby increasing the system’s thermal efficiency12,13. It is here that cogeneration systems for power, heat, and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "cooling operate as an alternative system, satisfying diverse energy needs, ranging from cooling and heating to \r\npower. Given the significance of energy conversion topics in global advancement, effective utilization of energy \r\nresources and incorporating the industry of waste heat recovery can serve as suitable strategies for enhancing the \r\nefficiency and performance of cogeneration energy systems14,15.\r\nNewly, there has been a heightened interest in recovering wasted heat, and researchers have proposed novel \r\nmethods for power generation through high and medium-temperature heat sources. Among the methods \r\nproposed for power cycles, diesel engines owing to their features such as lower environmental pollution, \r\neconomic feasibility16,17, high power, and elevated exhaust stream temperature can serve as an apt heat source \r\nin conjunction with other systems. Although, utilizing the marine engine waste heat potential that can be \r\nconsidered as a primary energy source for running power plan, very limited investigations have concentrated on \r\nthe recovery of potential energy from the exhaust streams of internal combustion in mentioned type of engines18.\r\nAgarwal et al.19 conducted an experimental research on agricultural machinery engines and power generators \r\nused the EGR method to study the pollution and performance of these engines. They concluded that with this \r\nmethod, the amount of NOX and the temperature of the exhaust gases decreased, but the levels of HC, CO, \r\nand particulate matter increased. In another investigation, researchers20, coupled two organic Rankine cycles \r\n(ORCs), one high-temperature and one low-temperature, using a heat exchanger, aiming to utilize the waste \r\nheat of engines. A waste heat recovery system for diesel engines was introduces by Song et al.21. In that study, \r\ntwo separate ORCs were used; one harnessed waste heat from the water chamber, and the other from exhaust gas \r\nemissions. For the appropriate fluid selection for each cycle and for optimizing system parameters, the highest \r\npower output generated by the system was set as the primary criterion. Moreover, by examining the results \r\nfrom the economic analysis and system design, they demonstrated that the system can be operational in real \r\nworld. Zhao et al.22 conducted research on a co-generation power and heat system with a 70 kW gas-powered \r\ninternal combustion engine in an office building in China. Scholars in another investigation23, conducted a \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "detailed assessment and optimization of the ORC system to harness waste heat from ship engine exhausts. The \r\nresearchers mentioned that utilizing R141b in the optimized ORC setup offers a promising and cost-effective \r\nmethod for marine waste heat recovery.\r\nAghdoudchaboki et al.24 developed an integrated system for eco-friendly ships to harness waste heat from \r\nmarine engines and produce both power and fresh water. Through a dual-objective optimization focused on \r\nexergy efficiency and total cost rate, an optimal condition was identified, boasting 35.96% exergy efficiency at a \r\ncost of $2.54/hr. To address the energy crisis and environmental pollution, Ouyang et al.25 focused on waste heat \r\nrecovery from natural gas engines, given their environmental edge over diesel engines. A new system had been \r\nintroduced that merges the supercritical CO2 Brayton cycle, a dual-effect cooling system using absorption, and \r\nthe Kalina cycle for waste heat recovery. This system enhances power output by 15.33% and shortens the return \r\non investment time by 25.6%. This makes it a viable method for capturing unused heat from natural gas motors.\r\nBoodaghi et al.26 introduced a dual-loop Organic Rankine Cycle system aimed at recovering waste heat from \r\na 12-cylinder stationary heavy-duty Diesel engine. A one-dimensional numerical model of the 1000 kW diesel \r\nengine was developed and subsequently validated against experimental data. The sensitivity analysis indicated \r\nthat the total power output increases with higher values of the SOI, N, and elevated pressure in the high\u0002temperature loop. Notably, the engine parameters did not influence the thermal efficiency or the rate of exergy \r\ndestruction. In reference27, both normal and advanced exergy analyses of a waste heat recovery system were \r\nconducted. The proposed system features a dual-loop organic Rankine cycle designed to capture the waste heat \r\navailable from the intake air. The total exergy destruction that could be avoided in the low-temperature loop was \r\nquantified at 46.62 kW, suggesting that it warrants greater focus compared to the high-temperature loop, which \r\nhad a lower exergy destruction of 12.42 kW. Furthermore, Etghani and Boodaghi28 proposed a hybrid energy \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "system that utilizes solar energy, incorporating a parabolic trough collector, a supercritical CO2 Brayton cycle, \r\na recuperative organic Rankine cycle, a proton exchange membrane electrolyzer, and a two-tank direct thermal \r\nenergy storage system. This system is capable of delivering a dependable and sustainable supply of electricity, \r\nhydrogen, and hot water, showcasing a promising and feasible poly-generation technology suitable for both grid\u0002connected and off-grid scenarios.\r\nAvazpour et al.29 conducted a thorough study on a parallel ORC system designed to recover waste heat \r\nfrom diesel engines used in off-road applications. Their approach integrated both transcritical and subcritical \r\noperational modes. For optimization, they employed a multi-objective genetic algorithm, targeting both exergy \r\nefficiency and specific investment cost. Through this bi-objective optimization, they attained a peak exergy \r\nefficiency of 45.92%, paired with a specific investment cost of $3350/kW. In a related development, Lebedevas \r\nand Čepaitis30 numerically examined the practical considerations of ORC implementation with common marine \r\nmedium-speed diesel engines, specifically citing the Wartsila 12V46F model. Their findings indicated that \r\ncomprehensive waste heat recovery from all auxiliary heat sources within an ORC system could potentially boost \r\nthe main engine’s energy efficiency by 13.5–21%. This efficiency gain was observed across a load range from \r\n100% down to 25% of the engine’s nominal power. Mahmoud et al.31 explored the use of a ground-cooled ORC \r\nsystem for recovering waste heat generated by a diesel generator. Their study utilized real-time experimental \r\ndata for ambient and ground temperatures. The ORC system, when operating at a design temperature of 300 °C, \r\nresulted in a 7.98% increase in overall output power compared to operating the diesel generator in isolation.\r\nIn our research, we aim to enhance the basic efficiency of diesel engines by harnessing the waste heat. By \r\nmerging the diesel engine cycle with the ORC and the ejector-heat pipe cooling process, we can simultaneously \r\ngenerate power and cooling. This study focuses on tapping into the unused heat from a specific marine diesel \r\nengine to produce both power and cooling. Our primary motivation is to cut down on fossil fuel usage due to \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "its adverse environmental impact. To put it another way, this research focuses on increasing the base efficiency \r\nof diesel engines by recycling waste heat. By systematically integrating the diesel engine cycle with the organic \r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 2\r\nwww.nature.com/scientificreports/\nRankine cycle and the ejector-heat pipe cooling system, we can produce both power and cooling. Ultimately, \r\n2-archive multi-objective cuckoo search algorithm-based optimization (MOCS2arc algorithm) establishes the \r\noptimized conceptual design. The key differences and contributions of our study are now clearly articulated as \r\nfollows:\r\ni. While many existing studies focus on dual ORC loops or single-mode heat recovery, our work proposes \r\na unique integration of an ORC with an ejector-heat pipe cooling subsystem, powered entirely by marine \r\ndiesel exhaust. The use of a heat pipe allows passive circulation, eliminating the need for a mechanical pump, \r\nwhich reduces auxiliary energy consumption and improves reliability.\r\nii. Unlike most prior studies that focus on stationary engines or land-based systems, our research specifically \r\ntargets marine diesel engines, which are underexplored despite their high thermal potential and continuous \r\noperation profiles.\r\niii. Our study applies the 2-Archive Multi-Objective Cuckoo Search (MOCS2arc) algorithm, which, compared \r\nto traditional multi-objective optimizers (e.g., NSGA-II, MOPSO), offers better convergence and diversity \r\nhandling through its dual-archive approach. This ensures a more comprehensive and balanced trade-off \r\nbetween exergy efficiency and cost.\r\niv. Many previous works focus on either thermodynamic or simple economic assessments. We provide a de\u0002tailed exergoeconomic breakdown, including cost of exergy destruction, component-level cost analysis, and \r\nsensitivity to key parameters, which is lacking in much of the existing literature.\r\nDescription of the proposed facility\r\nIn Fig. 1, we see a diagram showcasing the combined power and cooling system powered by a marine diesel \r\nengine. Table 1. provides the technical and functional details of this marine diesel engine. As illustrated, the \r\nheat produced from the engine’s exit first powers the ORC. After this, its remaining heat gets channelled to the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "ejector-heat pipe cooling system. In this setup, the ORC, equipped with an inbuilt heat exchanger, is primarily \r\ndesigned for waste heat capture and boosting overall efficiency. Within the ORC, the organic fluid initially heads \r\ntowards the internal heat exchanger. Here, by soaking up heat from the boiler sourced from the exhaust gas, it \r\ntransforms into saturated steam. This heated fluid, due to its high temperature and pressure, propels the turbine, \r\nFig. 1. scheme of the proposed combined cooling and power generation system.\r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 3\r\nwww.nature.com/scientificreports/\nthereby generating power. Following this, the temperature of the stream that departs from the boiler drops as it \r\nreleases its heat in the boiler, and then it advances to the cooling cycle’s generator. The cooling system consists of \r\nvarious components: a generator, ejector, a mock pump mimicking oscillatory movements inside the heat pipe, \r\nan expansion valve, a condenser, and lastly, an evaporator.\r\nThe fluid inside the generator gets heated from the exhaust gases and merges with the fluid coming from \r\nthe evaporator before making its way to the ejector. Owing to the pressure disparity, the high-pressure and low\u0002pressure streams combine in the ejector, resulting in a mid-level pressure. The outflow from the ejector then \r\nturns into a liquid. A fraction of this liquid utilizes the heat pipe’s oscillatory characteristic, simulating a pump \r\nto move into the generator. Concurrently, another segment experiences a drop in both pressure and temperature \r\nin the expansion valve, which consequently generates cooling in the evaporator.\r\nThermodynamic modelling\r\nEnergy analysis\r\nThe total energy can be expressed as the sum of internal energy, kinetic energy, and potential gravitational \r\nenergy as follows:\r\nE = U + KE + P E (1)\r\n∆Esystem = ∆U + ∆KE + ∆P E (2)\r\nExergy analysis\r\nThe exergy balance for a control volume is calculated from relation (3):\r\ndE\r\ndt =\r\n∑(\r\n1 − T0\r\nTi\r\n)\r\nQ˙ i −\r\n[\r\nW˙ c.v − P0\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "dV\r\ndt )\r\nc.v\r\n]\r\n+\r\n∑m˙ iei −∑m˙ eee − E˙ D (3)\r\nFor steady-state, steady-flow processes, relation (3) converts to Eq. (4):\r\n∑(\r\n1 − T0\r\nTi\r\n)\r\nQ˙ i −\r\n[\r\nW˙ c.v − P0\r\ndV\r\ndt )\r\nc.v\r\n]\r\n+\r\n∑m˙ iei −∑m˙ eee − E˙ D = 0 (4)\r\nUnlike exergy destruction, the exergy loss exits the system and enters the environment, which can be in the \r\nform of fluid flow or heat transfer to the surroundings. The exergy balance for a control volume is determined \r\naccording to relation (5):\r\nE˙ F = E˙ P + (\r\nE˙ D + E˙ L\r\n) (5)\r\nThe exergy efficiency is also determined according to relation (6):Table 2. gives the exergy balance equations, \r\nbased on the exergy of fuel and product.\r\nηex = E˙ P\r\nE˙ F\r\n= 1 − E˙ D + E˙ L\r\nE˙ F\r\n= 1 − I\r\nE˙ F\r\n(6)\r\nExergoeconomic analysis\r\nExergy is a basis for costing in a thermal system. In fact, thermoeconomic, or exergoeconomic, is based on \r\nthe notion that exergy is the only logical source for allocating expenditures related to the financial exchanges \r\nwith its environment and its inefficiencies. Essentially, exergy, which is a thermodynamic concept, is converted \r\ninto money, which is an economic concept. Therefore, the cost balance equations for system components are \r\nsummarized by32:\r\n∑C˙ i,k + C˙ q,k + Zk =∑C˙ e,k + C˙ w,k (7)\r\nParameter Value\r\nEngine type ZLC-6210-5\r\nNumber and arrangement of cylinders six-line\r\nCylinder diameter (mm) 210\r\nThe volume of a cylinder (litres) 10\r\nStroke (mm) 290\r\nMaximum fuel pressure (MPa) 5/13\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Engine power (kilowatt) 662\r\nFuel consumption rate (g/kWh) 202\r\nTable 1..  Technical features of the studied marine engine.\r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 4\r\nwww.nature.com/scientificreports/\nThe exergy balance equation in its general form, by expanding relation (7), becomes relation (8):\r\n∑(\r\nciE˙ i\r\n)\r\nk + cq,kE˙ q,k + Z˙\r\nk =\r\n∑(\r\nceE˙ e\r\n)\r\nk + cw,kw˙ k (8)\r\nHerein, the cost balance and auxiliary equations for each of the system components are addressed, and the \r\nresulting equations are presented in Table 3..\r\nPerformance evaluation of proposed system\r\nTo reach a better insight into the proposed combined plant, an assessment of the overall performance of \r\nthe proposed system is essential. To this end, the performance criterion has been expanded under the \r\nthermodynamics laws. Furthermore, the relationship for system’s unit cost of product (SUCP) for the proposed \r\ncombined facility has been developed and calculated. Thus, W˙ net denotes the net power output of the proposed \r\nsystem that can be calculated by:\r\nW˙ net = W˙ T ur − W˙ P ump (9)\r\nAdditionally, the energy and exergy efficiencies of the overall facility are defined by relations (10) and (11):\r\nη th = W˙ net + Q˙ cooling\r\nm˙ 1 (h1 − h2) (10)\r\nη ex = W˙ net + (\r\nE˙ Cooling)\r\nE˙ 1 − E˙ 2\r\n(11)\r\nElement Cost balance equation Auxiliary equation Cost of element\r\nBoiler C˙1 + C˙ 9 + Z˙b = C˙ 4 + C˙ 2 c1 = c2 1397 × (Ab)0.89\r\nTurbine C˙1 + Z˙ T ur = C˙ 2 + C˙W,T ur c1 = c2 ZT = 6000 (\r\nW˙ T\r\n)0.7\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Heat exchanger (ORC) C˙8 + C˙3 + Z˙Rec1 = C˙9 + C˙4 c3 = c4 ZHX = 130 ( AHX\r\n0.093 )0.78\r\nCondenser (ORC) C˙6 + C˙25 + Z˙P re = C˙26 + C˙7 c6 = c7 Zcond = 1773 ˙m\r\nPump C˙7 + Z˙Com + C˙W,Com = C˙8 cW,Com = cW,T ur ZP = 354 (\r\nW˙ T\r\n)0.71\r\nSteam generator C˙10 + C˙17 + Z˙BP = C˙18 + 11 c17 = c18 1397 × (AGen)0.89\r\nEjector C˙12 + C˙18 + Z˙W P = C˙13 + C˙19 c18 = c19 −\r\nCondenser (ejector) C˙11 + C˙13 + Z˙M ix = C˙14 − Zcond = 1773 ˙m\r\nExpansion valve C˙14 + C˙16 + Z˙Rec2 = C˙15 + C˙17 c16 = c17 114.5 × m˙ 12\r\nEvaporator C˙2 + C˙15 + Z˙Ref = C˙16 + C˙3 c2 = c3 2143 × (AEva)0.514\r\nTable 3..  Cost balance equations.\r\nElement Exergy balance based on fuel Exergy balance based on the product\r\nBoiler E˙ F,b = (E˙ 1 − E˙ 2) E˙ P,b = (E˙ 4 − E˙ 9)\r\nTurbine E˙ F,T ur = (E˙ 4 − E˙ 5) E˙ P,T ur = W˙ T ur\r\nHeat exchanger (ORC) E˙ F,IHE = (E˙ 5 − E˙ 6) E˙ P,IHE = (E˙ 9 − E˙ 8)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Condenser (ORC) E˙ F,Con1 = (E˙ 6 − E˙ 7) E˙ P,Con1 = (E˙ 19 − E˙ 18)\r\nPump E˙ F,P um = W˙ P um E˙ P,P um = (E˙ 8 − E˙ 7)\r\nSteam generator E˙ F,Gen = (E˙ 2 − E˙ 3) E˙ P,Gen = (E˙ 10 − E˙ 13)\r\nEjector E˙ F,Ej = (E˙ 10 + E˙ 15) E˙ P,Ej = E˙ 11\r\nCondenser (ejector) E˙ F,Con2 = (E˙ 11 − E˙ 12) E˙ P,Con2 = (E˙ 21 − E˙ 20)\r\nExpansion valve E˙ F,T V = E˙ 12 − E˙ 14 E˙ P,T V = E˙ 12 − E˙ 14\r\nEvaporator E˙ F,Eva = (E˙ 15 − E˙ 14) E˙ P,Eva = (E˙ 16 − E˙ 17)\r\nTable 2..  Exergy balance equations, based on the exergy of fuel and product.\r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 5\r\nwww.nature.com/scientificreports/\nAdditionally, SUCP factor can be measured for the proposed combined system by:\r\nSUCPsys = C˙ w,net + C˙ 17\r\nW˙ net + E˙ 17\r\n(12)\r\nhere, C˙ w,net shows the net price of generated power that is calculated by:\r\ncw,net = C˙ w,net\r\nW˙ net\r\n= C˙ w,T ur − C˙ w,P um\r\nW˙ T ur − W˙ P um\r\n(13)\r\nThe 2-archive multi-objective cuckoo search algorithm\r\nThe MOCS2arc algorithm is an advanced optimization technique designed to address complex multi-objective \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "problems by integrating the Cuckoo Search (CS) algorithm with a dual-archive strategy. The CS algorithm, \r\ninspired via the brood parasitism behavior of cuckoos, has been recognized for its effectiveness in global \r\noptimization tasks. The CS algorithm follows Lévy flight-based random walks to explore the search space \r\nefficiently. Mathematically, the position of a cuckoo is updated using:\r\nxt+1\r\ni = xt\r\ni + α + L(λ ) (14)\r\nwhere, α is the step size scaling factor and L(λ) represents a Lévy flight distribution given by:\r\nL(s) ∼ λ Γ (λ ) sin(πλ/2)\r\nπ S1+λ (15)\r\nThe Lévy flight enables a balance between exploration and exploitation, which is crucial for avoiding local \r\noptima. The two-archive mechanism in MOCS2arc maintains two separate archives:\r\nConvergence Archive: Stores high-quality solutions guiding the search towards Pareto front.\r\nDiversity Archive: Preserves solution diversity by maintaining a diverse set of solutions.\r\nThe MOCS2arc algorithm is comprised of the following steps\r\nInitialization\r\nThe algorithm starts via initializing a set of solutions randomly distributed in the search space. The initial \r\npopulation is evaluated, and non-dominated solutions are stored in the two archives.\r\nSolution generation via Lévy flights\r\nNew solutions are generated using Lévy flights:\r\nyi = xi + α + L(λ ) (16)\r\nFitness evaluation and archive update\r\nThe fitness of each solution is computed using objective functions. Solutions are stored based on their dominance \r\nin either CA or DA. With probability ( pa), poor solutions are discarded, and new solutions are introduced to \r\nmaintain diversity. Steps 2 to 4 are repeated iteratively until a stopping criterion, such as a predefined number of \r\niterations, is met33. Figure 2 demonstrates the flowchart of the MOCS2arc algorithm.\r\nResults and discussion\r\nResults of thermodynamic and exergoeconomic modelling\r\nTo analyse the proposed system from thermodynamic and thermoeconomic approaches, the simulations were \r\nused along with the Engineering software. The results obtained from the energy, exergy, and thermoeconomic \r\nanalysis of the system are mentioned in Table 4..\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "As shown in Table 4., the system designed in this research is capable of supplying electrical power of 72.01 kW \r\nand cooling capacity of 56.83 kW. The energy efficiency of the combined system is 31.44%, which has increased \r\nby approximately 28% compared to the basic organic Rankine cycle. Moreover, the unit cost of the total exergy \r\nand the cost of the total exergy destruction are respectively 1259 dollars per gigajoule and 386,670 dollars per \r\nyear. Figure 3 shows the destroyed exergy of the components that have the highest irreversibility. As observed, \r\nCondenser 1, due to its heat exchange with the external environment for cooling the turbine outlet flow, has the \r\nlargest share of exergy destruction.\r\nResults of thermoeconomic assessment\r\nTable 5. indicates the outcomes of the thermoeconomic investigation of the combined facility. In this table, from \r\nright to left, the order is destruction cost, price, relative cost difference, and thermoeconomic factor.\r\nParametric study\r\nImpact of combustion product temperature\r\nFigure 4 demonstrates that as the temperature of the combustion products rises, both the basic cycle’s energy \r\nefficiency and the system’s overall energy efficiency improve. For instance, at 635 K, their efficiencies stand at \r\n26.91% and 35.72% respectively. By analysing these results and the graphic representation, it’s evident that the \r\nsystem’s overall energy efficiency sees an enhancement of roughly 30% when compared to the base ORC’s energy \r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 6\r\nwww.nature.com/scientificreports/\nefficiency. However, the exergy efficiency sees a reduction as the temperature increases. In line with the observed \r\ntrend in energy efficiency, as combustion product temperatures rise, the power produced by the turbine and the \r\nheat supplied to the boiler also surge. Figure 4 depicts that with rising combustion product temperatures, the \r\nper-unit cost diminishes, while the total system exergy destruction rate amplifies. With elevated temperatures, \r\nthere’s a boost in both the turbine power and the cooling capacity of the system, thereby incurring higher costs. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "However, the aggregate per-unit cost of the entire system trends downwards. This drop can be attributed to the \r\nfact that factors raising the cost don’t escalate as sharply as other influential parameters.\r\nFig. 2. The structure of the MOCS2arc technique.\r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 7\r\nwww.nature.com/scientificreports/\nImpact of condenser temperature\r\nThe condenser, known for its significant exergy destruction and high ratio of exergy wastage, is the focus of \r\nthis section. Figure 5 showcases that, at a condenser temperature of 303.7 K, the entire system achieves its peak \r\nenergy efficiency, registering at 33.44%. However, this efficiency drops as the temperature ascends. Concurrently, \r\nthe system’s exergy efficiency bottoms out at 49.3% when the condenser temperature hits 307.2 K. Transitioning \r\nto Fig. 5, we observe a financial implication. As the condenser temperature elevates from 303.2 K to 310.2 K, the \r\nsystem’s unit cost climbs from 1259 to 1269 $/GJ. The rationale behind this uptick stems from the system’s cost \r\ndynamics. Based on the unit cost equation for the entire setup, both the net power output’s associated costs and \r\nthose of the cooling capacity have swelled. This, in turn, prompts an upswing in the system’s cumulative per-unit \r\ncost.\r\nImpact of evaporator temperature\r\nThe temperature of the evaporator has a pivotal role in the ejector refrigeration cycle. Figure 6 presents the effects \r\nof variations in evaporator temperature on the operational characteristics of the system. According to Fig. 6, \r\nFig. 3. Rates of exergy destruction in plant components.\r\nIndicator Value\r\nGenerated power by turbine 74.81 kW\r\nNet power generation 72.01 kW\r\nInlet heat flux 409.8 kW\r\nCondenser heating load (ORC subsystem) 222 kW\r\nCondenser heating load (Ejector subsystem) 168.1 kW\r\nCooling load generation 56.83 kW\r\nMass ratio of ejector 0.5228\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Energy efficiency (whole plant) 31.44%\r\nExergy efficiency (whole plant) 60.39%\r\nSUCP index 1259 $/GJ\r\nThe exergy destruction cost 386,670 $/year\r\nTable 4.. Results of thermodynamic and thermoeconomic modelling of proposed system.\r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 8\r\nwww.nature.com/scientificreports/\nwhen there’s an uptick in the evaporator temperature, the net output power of the entire system maintains a \r\nsteady trend without any discernible change. A rise in the evaporator temperature boosts the mass flow rate in \r\nthe ejector refrigeration cycle, which, in turn, amplifies the cooling capacity. Continuing with Fig. 6, increasing \r\nthe evaporator temperature sees both the energy and exergy efficiencies of the whole system trending upwards, \r\ndisplaying parallel trajectories. Specifically, as the evaporator temperature climbs, the energy efficiency jumps \r\nfrom 29.99 to 33.14%, while the exergy efficiency sees a more subtle increment, from 60.4 to 60.7%. Turning our \r\nattention to Fig. 6, it is observed that the system’s unit cost initially descends with rising evaporator temperature, \r\nhitting a nadir of 1259 $/GJ when the temperature reaches 283.2 K.\r\nFig. 4. Impact of combustion product temperature on performance of proposed system.\r\nComponent f, % r, %, $/yr Z˙ k + C˙D,k , $/yr Z˙ k , $/yr C˙D,k , $/yr\r\nBoiler 45.2 0.50 621.8 613 764\r\nTurbine 90.0 10.60 101,503 90307.5 11,196\r\nPump 69.85 0.98 3656.5 2552 1104\r\nCondenser (ORC) 1.0 157.51 70,863 794 70,854\r\nSteam Generator 38.30 0.87 628.0 240.2 388\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Heat Exchanger (ORC) 13.18 0.43 2100.3 322.72 2093\r\nEvaporator 77.40 27.40 1304.4 1303 381.5\r\nCondenser (Ejector) 37.72 4.60 4716 1776 2940\r\nEjector 0.0 5.72 5876 0.0 5876\r\nExpansion valve 73.65 1.07 1.9 0.6 1.4\r\nWhole plant 20.18 26.07 484,577 97,907 386,672\r\nTable 5.. Results of thermoeconomic assessment for proposed plant.\r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 9\r\nwww.nature.com/scientificreports/\nImpact of steam generator temperature\r\nThe generator temperature is a key factor in the ejector refrigeration cycle. Its influence on the facility overall \r\noperation is the primary focus of this section. Figure 7 elucidates the effects of generator temperature changes \r\non various performance indicators. According to Fig. 7, a hike in the generator temperature correlates with \r\nincreases in both the thermodynamics efficiencies of the whole system, and these efficiencies move in tandem. \r\nAs the generator temperature escalates, both the unit cost and the destructed exergy trend downwards. This \r\ndecline can be attributed to the heightened generator temperature, which brings about reductions in the costs \r\nassociated with the cooling capacity and the net power output. Consequently, this leads to a decrement in the \r\noverall per-unit cost for the system. Furthermore, as illustrated in the figure, there’s a decline in the system’s rate \r\nof exergy destruction.\r\nThe performance of the baseline ORC was simulated under identical inlet heat flux conditions (409.8 kW), \r\nand the results were as tabulated in Table 6..\r\nThis comparison clearly illustrates the 28% relative improvement in energy efficiency and a notable reduction \r\nin SUCP. The hybrid system not only produces more power but also introduces a cooling benefit, which the \r\nbaseline ORC lacks.\r\nOptimization results\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "The generated Pareto front effectively demonstrates the trade-off between exergy efficiency (ηexergy) and SUCP \r\nin an energy system optimization scenario. As observed in the scatter plot (see Fig.  8), increasing ηexergy\r\ncorresponds to a gradual reduction in SUCP, following an exponential decay trend. This behavior aligns with \r\nfundamental thermodynamic principles, where improvements in system efficiency lead to better utilization of \r\nenergy inputs and cost reductions associated with energy losses. The knee point, marked in the Pareto front, \r\nrepresents the optimal compromise between cost and efficiency. It is identified at η exergy ≈ 64.88% and \r\nSUCP ≈ $902.21/GJ. This point is where the rate of cost reduction per unit efficiency gain diminishes, \r\nmaking it the most cost-effective operating condition. Beyond this point, additional efficiency gains come at \r\na significantly higher cost, indicating diminishing returns. The Pareto front reveals a high-density region of \r\noptimal points around the knee, highlighting the stability of the cost-efficiency trade-off in this range. The \r\nbroad spread of points indicates variability in cost and efficiency due to different parameter combinations. This \r\nFig. 5. Impact of condenser temperature on facility’s operation.\r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 10\r\nwww.nature.com/scientificreports/\nsuggests that multiple configurations exist that can yield near-optimal performance, allowing for operational \r\nflexibility in selecting design parameters.\r\nThe exponential decay observed in the Pareto front suggests that initial improvements in efficiency yield \r\nsubstantial cost reductions, but as the system reaches higher efficiency values, the rate of cost savings decreases. \r\nThis trend is crucial for economic decision-making. From an engineering perspective, the Pareto front confirms \r\nthat higher exergy efficiency correlates with lower exergy destruction costs.\r\nConclusion\r\nThis investigation undertook an intricate energy, exergy, and economic exploration of a unique cycle aimed at \r\nconcurrent power and cooling generation by fusing the ORC, ejector-based cooling, and a heat pipe. Grounded \r\nin the principles of the first and second laws of thermodynamics, this assessment employed the exhaust heat \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "from a marine diesel engine. The layered cycle, articulated through thermodynamic laws, revealed a surge in \r\nenergy efficiency with augmented heat input to the boiler and elevated combustion product temperatures. While \r\nsignificant exergy losses were pinpointed in the ORC’s condenser and boiler, minor losses were attributed to the \r\nexpansion valve and pump. This innovatively designed system promises an electrical output of approximately \r\n72.01 kW alongside a cooling provision of 56.83 kW. Demonstrating an impressive 31.44% energy efficiency, \r\nit trumps the basic ORC’s efficiency by nearly 28%. Integral to its design, the system’s heightened efficiency \r\nowes much to the negated need for a pump, courtesy of the heat pipe’s capillary action. Economic evaluations \r\nspotlighted a unit exergy cost of 1259 $/GJ and an annual exergy destruction cost of 386,670$. Furthermore, a \r\nmeticulous investigation illuminated the repercussions of varied system parameters on overall performance. The \r\nkey findings of this investigation are as follows:\r\n(1) With an elevate in the exit temperature of combustion products entering the system, the overall energy \r\nefficiency has increased by ~30% compared to the energy efficiency of the basic ORC. Also, the exergetic \r\nefficacy has a decreasing trend with the increase in temperature.\r\n(2) With an increase in condenser temperature within the specified range, the net output power reaches its \r\nminimum value of 71.81 kW at 307.1 K and then follows an upward trend. Also, the maximum cooling \r\ncapacity of the entire system at the condenser temperature is 56.94 kW at 305.2 K.\r\nFig. 6. Impact of evaporator temperature on the facility’s performance.\r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 11\r\nwww.nature.com/scientificreports/\n(3) The unit cost increases by ~0.8% via increasing the condenser temperature from 303.2 K to 310.2 K. The \r\nexergy destruction rate also decreases.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "(4) Under the optimization, exergy efficacy and SUCP of 64.9% and $902.21/GJ are achievable.\r\nParameter Baseline ORC system Proposed hybrid system\r\nInput heat flux (kW) 409.8 409.8\r\nNet power output (kW) 57.5 72.01\r\nCooling output (kW) – 56.83\r\nEnergy efficiency (%) 24.5 31.44\r\nExergy efficiency (%) 51.3 60.39\r\nSUCP ($/GJ) 1478.2 1259\r\nTable 6.. Performance comparison between baseline ORC and proposed hybrid system.\r\nFig. 7. Impact of generator temperature on facility’s operation.\r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 12\r\nwww.nature.com/scientificreports/\nData availability\r\nData availabilityAll data generated or analysed during this study are included in this published article.\r\nReceived: 6 June 2025; Accepted: 18 August 2025\r\nReferences\r\n1. Pham, T. D., Nguyen, T. T. & Kien, L. C. Minimization of total costs for distribution systems with battery energy storage systems \r\nand renewable energy sources. Sci. Rep. 15 (1), 17147 (2025).\r\n2. Basem, A. et al. Technical and financial feasibility of a chemicals recovery and energy and water production from a dairy wastewater \r\ntreatment plant. Sci. Rep. 14 (1), 11143 (2024).\r\n3. Hai, T. et al. Utilizing the thermal energy from natural gas engines and the cold energy of liquid natural gas to satisfy the heat, \r\npower, and cooling demands of carbon capture and storage in maritime decarbonization: engineering, enhancement, and 4E \r\nanalysis. Int. J. Low-Carbon Technol. 19, 2093–2107 (2024).\r\n4. Ajaj, Y. et al. Innovative biomass waste heat utilization for green hydrogen production: A comparative and optimization study of \r\nsteam and organic Rankine cycles. Process Saf. Environ. Prot. 190, 148–174 (2024).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "5. Said, L. B. et al. Optimal utilization of geothermal energy through three organic cycles combined with a thermoelectric generator and \r\nan electrolysis unit. Case Stud. Therm. Eng. https://doi.org/10.1016/j.csite.2025.106149 (2025).\r\n6. Munther, H. et al. Evaluating the techno-economic potential of large-scale green hydrogen production via solar, wind, and hybrid \r\nenergy systems utilizing PEM and alkaline electrolyzers. Unconv. Resour. 5, 100122 (2025).\r\n7. Al-Rubaye, A. H. et al. A fuel gas waste heat recovery-based multigeneration plant integrated with a LNG cold energy process, a water \r\ndesalination unit, and a CO2 separation process. Heliyon 10, e26692 (2024).\r\n8. Zhang, Z., Fu, S. & Marefati, M. A waste heat and liquefied natural gas cold energy recovery-based hybrid energy cycle: An effort to \r\nachieve superior thermodynamic and environmental performances (Process Safety and Environmental Protection) (Elsevier, 2023).\r\n9. Bai, L. et al. A new biomass-natural gas dual fuel hybrid cooling and power process integrated with waste heat recovery process: \r\nExergoenvironmental and exergoeconomic assessments (Process Safety and Environmental Protection) Vol. 176 (Elsevier, 2023).\r\n10. Yi, S. et al. Sustainability and exergoeconomic assessments of a new MSW-to-energy incineration multi-generation process \r\nintegrated with the concentrating solar collector, alkaline electrolyzer, and a reverse osmosis unit. Sustainable Cities Soc. 91, 104412 \r\n(2023).\r\n11. Mohammadi, H., Mohammadi, M. & Ghasemi, A. Optimal configuration planning of rule and optimization-based driven storage \r\ncoupled micro cogeneration systems by the implementation of constraint programming. J. Energy Storage. 48, 103934 (2022).\r\n12. Arslan, M. & Yılmaz, C. Investigation of green hydrogen production and development of waste heat recovery system in biogas \r\npower plant for sustainable energy applications. Int. J. Hydrog. Energy. 48 (69), 26652–26664 (2023).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "13. Hou, S., Zhang, F. & Yang, Q. Comparative analysis of supercritical CO2–ORC combined cycle for gas turbine waste heat recovery \r\nbased on multi-objective optimization. Appl. Therm. Eng. 236, 121776 (2024).\r\n14. Ghasemi, A. et al. Thermodynamic assessment and optimization of a novel trigeneration energy system based on solar energy and \r\nMSW gasification using energy and exergy concept. J. Therm. Eng. 7 (1), 349–366 (2021).\r\n15. Maleki, Y., Pourfayaz, F. & Mehrpooya, M. Experimental study of a novel hybrid photovoltaic/thermal and thermoelectric \r\ngenerators system with dual phase change materials. Renew. Energy. 201, 202–215 (2022).\r\nFig. 8. The Pareto front for the trade-off between exergy efficiency and SUCP in the energy system under \r\nMOCS2arc algorithm-based optimization scenario.\r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 13\r\nwww.nature.com/scientificreports/\n16. Dere, C., Inal, O. B. & Zincir, B. Utilization of waste heat for onboard hydrogen production in ships. Int J Hydrogen Energy (Elsevier, \r\n2024).\r\n17. Sohrabi, A. et al. Comparative energy, exergy, economic, and environmental (4E) analysis and optimization of two high\u0002temperature Kalina cycles integrated with thermoelectric generators for waste heat recovery from a diesel engine. Energy. Conv. \r\nManag. 291, 117320 (2023).\r\n18. Xiao, X. et al. A comprehensive overview of determinations and analyses on the thermophysical properties of hydrates and \r\nhydrate-bearing sediments. Gas Sci. Eng. 127, 205344 (2024).\r\n19. Agarwal, D., Singh, S. K. & Agarwal, A. K. Effect of exhaust gas recirculation (EGR) on performance, emissions, deposits and \r\ndurability of a constant speed compression ignition engine. Appl. Energy. 88 (8), 2900–2907 (2011).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "20. Song, J. & Gu, C. Parametric analysis of a dual loop organic Rankine cycle (ORC) system for engine waste heat recovery. Energy. \r\nConv. Manag. 105, 995–1005 (2015).\r\n21. Zhao, X. L. et al. Performance improvement of a 70 kWe natural gas combined heat and power (CHP) system. Energy 35 (4), \r\n1848–1853 (2010).\r\n22. Zare, V. et al. Thermoeconomic analysis and optimization of an ammonia–water power/cooling cogeneration cycle. Energy 47 (1), \r\n271–283 (2012).\r\n23. Zhu, Y. et al. Thermo-economic analysis based on objective functions of an organic Rankine cycle for waste heat recovery from \r\nmarine diesel engine. Energy 158, 343–356 (2018).\r\n24. Aghdoudchaboki, Y. et al. Thermoeconomic assessment of a waste heat recovery system driven by a marine diesel engine for power \r\nand freshwater production. Int. J. Exergy. 33 (3), 231–253 (2020).\r\n25. Ouyang, T. et al. Advanced thermo-economic scheme and multi-objective optimization for exploiting the waste heat potentiality \r\nof marine natural gas engine. Energy 236, 121440 (2021).\r\n26. Boodaghi, H., Etghani, M. M. & Sedighi, K. A novel investigation of waste heat recovery from a stationary diesel engine using a \r\ndual-loop organic Rankine cycle. J. Brazilian Soc. Mech. Sci. Eng. 44 (8), 369 (2022).\r\n27. Boodaghia, H., Etghani, M. & Sedighia, K. Advanced exergy scrutiny of a Dual-loop organic Rankine cycle for waste heat recovery \r\nof a Heavy-duty stationary diesel engine. Energies 7, 7794 (2014).\r\n28. Etghani, M. M. & Boodaghi, H. Design and performance assessment of a novel Poly-generation system with stable production of \r\nelectricity, hydrogen, and hot water: energy and exergy analyses. Arab. J. Sci. Eng. 49 (8), 10471–10499 (2024).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "29. Avazpour, M., Saray, R. K. & Milani, S. M. Performance optimization of a transcritical-subcritical parallel organic Rankine cycle for \r\ndiesel engine waste heat recovery: Thermodynamic, economic, and environmental perspectives. Appl. Therm. Eng. 273, 126512 (2025).\r\n30. Lebedevas, S. & Čepaitis, T. Complex use of the main marine diesel engine high-and low-temperature waste heat in the organic \r\nRankine cycle. J. Mar. Sci. Eng. 12 (3), 521 (2024).\r\n31. Mahmoud, M. et al. Investigation of a ground-cooled organic Rankine cycle for waste heat recovery. Int. J. Thermofluids. 18, \r\n100348 (2023).\r\n32. Ayadi, B. et al. Multi-criteria/comparative analysis and multi-objective optimization of a hybrid solar/geothermal source system \r\nintegrated with a carnot battery. Case Stud. Therm. Eng. 54, 104031 (2024).\r\n33. Kumar, S. et al. A two-archive multi-objective multi-verse optimizer for truss design. Knowl. Based Syst. 270, 110529 (2023).\r\nAuthor contributions\r\nAuthor Statement: Mohamed Bechir Ben Hamida: Investigation, Software, Methodology, Writing – original \r\ndraft, Formal analysis, Waqid Al-Mussawi: Investigation, Software, Validation, Writing – original draft, Visu\u0002alization.Mohamed Shaban: Formal analysis, Investigation, Writing – review & editing.Mohammad Marefati: \r\nMethodology, Investigation, Formal analysis, Validation, Conceptualization, Project administration, Writing – \r\noriginal draft, Software, Methodology.\r\nFunding\r\nThis work was supported and funded by the Deanship of Scientific Research at Imam Mohammad Ibn Saud \r\nIslamic University (IMSIU) (grant number IMSIU-DDRSP2503).\r\nDeclarations\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nAdditional information\r\nCorrespondence and requests for materials should be addressed to M.S. or M.M.\r\nReprints and permissions information is available at www.nature.com/reprints.\r\nPublisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3678681051034727623,
+        "filename": "41598_2025_Article_16609.PMC12371068.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 275,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "institutional affiliations.\r\nOpen Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives \r\n4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in \r\nany medium or format, as long as you give appropriate credit to the original author(s) and the source, provide \r\na link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have \r\npermission under this licence to share adapted material derived from this article or parts of it. The images or \r\nother third party material in this article are included in the article’s Creative Commons licence, unless indicated \r\notherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence \r\nand your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to \r\nobtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommo\r\nns.org/licenses/by-nc-nd/4.0/.\r\n© The Author(s) 2025 \r\nScientific Reports | (2025) 15:30810 | https://doi.org/10.1038/s41598-025-16609-x 14\r\nwww.nature.com/scientificreports/\n\n"
+  }
+]

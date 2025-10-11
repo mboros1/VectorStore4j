@@ -1,0 +1,1754 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "1\r\nGenomic context sensitizes regulatory elements to genetic disruption\r\nRaquel Ordoñez1,9, Weimin Zhang1,9, Gwen Ellis1,5, Yinan Zhu1, Hannah J. Ashe1,6, \r\nAndré M. Ribeiro-dos-Santos1, Ran Brosh1, Emily Huang1,7, Megan S. Hogan1,8, Jef D. Boeke1,2,3, \r\nMatthew T. Maurano1,4,10,*\r\n1Institute for Systems Genetics, NYU School of Medicine, New York, NY 10016, USA\r\n2Department of Biochemistry Molecular Pharmacology, NYU School of Medicine, New York, NY \r\n10016, USA\r\n3Department of Biomedical Engineering, NYU Tandon School of Engineering, Brooklyn, NY \r\n11201, USA\r\n4Department of Pathology, NYU School of Medicine, New York, NY 10016, USA\r\n5Present address: Department of Biology, University of Vermont, Burlington, VT 05405, USA\r\n6Present address: School of Medicine, University of Maryland, Baltimore, MD 21201, USA\r\n7Present address: Highmark Health, Pittsburgh, PA 15222, USA\r\n8Present address: Neochromosome Inc., Long Island City, NY 11101, USA\r\n9These authors contributed equally\r\n10Lead contact\r\n*\r\nCorrespondence: maurano@nyu.edu\r\nKeywords: genome writing, genetic engineering, gene regulation, synthetic regulatory genomics, \r\nenhancer selectivity, genomic regulatory architecture\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n2\r\nSUMMARY\r\nEnhancer function is frequently investigated piecemeal using truncated reporter assays or single \r\ndeletion analysis. Thus it remains unclear to what extent enhancer function at native loci relies on\r\nsurrounding genomic context. Using the Big-IN technology for targeted integration of large DNAs, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "we analyzed the regulatory architecture of the murine Igf2/H19 locus, a paradigmatic model of \r\nenhancer selectivity. We assembled payloads containing a 157-kb functional Igf2/H19 locus and\r\nengineered mutations to genetically direct CTCF occupancy at the imprinting control region (ICR) \r\nthat switches the target gene of the H19 enhancer cluster. Contrasting activity of payloads deliv\u0002ered at the endogenous Igf2/H19 locus or ectopically at Hprt revealed that the Igf2/H19 locus \r\nincludes additional, previously unknown long-range regulatory elements. Exchanging compo\u0002nents of the Igf2/H19 locus with the well-studied Sox2 locus showed that the H19 enhancer cluster \r\nfunctioned poorly out of context, and required its native surroundings to activate Sox2 expression.\r\nConversely, the Sox2 locus control region (LCR) could activate both Igf2 and H19 outside its \r\nnative context, but its activity was only partially modulated by CTCF occupancy at the ICR. Anal\u0002ysis of regulatory DNA actuation across different cell types revealed that, while the H19 enhancers \r\nare tightly coordinated within their native locus, the Sox2 LCR acts more independently. We show \r\nthat these enhancer clusters typify broader classes of loci genome-wide. Our results show that \r\nunexpected dependencies may influence even the most studied functional elements, and our\r\nsynthetic regulatory genomics approach permits large-scale manipulation of complete loci to in\u0002vestigate the relationship between locus architecture and function.\r\nHIGHLIGHTS\r\n• Composite enhancer elements are subject to genomic context effects mapped to a specific \r\narchitecture of their endogenous loci.\r\n• Igf2/H19 expression is affected by long-range regulatory elements beyond the canonically \r\ndefined locus, and the H19 enhancer cluster in particular relies on the surrounding context at \r\nits endogenous locus.\r\n• The Sox2 LCR functions as an autonomous enhancer without requiring additional surrounding \r\ncontext.\r\n• The influence of genomic context is buffered at intact loci, but manifests more strongly as \r\nkey regulatory elements are deleted or repositioned.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n3\r\nINTRODUCTION\r\nGenomic regulatory elements are often treated as discrete peaks, but their collective activity es\u0002tablishes distinct genomic neighborhoods with widely varying regulatory element density and po\u0002sition relative to genes. Cross-tissue DNase I hypersensitive site (DHS) patterns frequently re\u0002semble the activity of their target genes (Thurman et al. 2012), suggesting a role for genomic \r\ncontext in DHS function. Since distinct expression programs often co-occupy nearby genomic \r\nspace, genomic regulatory architecture must provide for a degree of selectivity. Selective expres\u0002sion of certain genes might be facilitated through promoter-enhancer compatibility (Bergman et \r\nal. 2022; Martinez-Ara et al. 2022), competition for regulatory elements, interposing regulatory \r\nelements or genomic distance (Peterson and Stamatoyannopoulos 1993; Zuin et al. 2022), or \r\nboundary elements that confer compartmentalization and large-scale domain organization (Sym\u0002mons et al. 2014; Ringel et al. 2022). Questions of context and sufficiency have been studied in \r\na genomic context at the level of individual DHSs or transcription factor (TF) recognition se\u0002quences (Bolt et al. 2022; Blayney et al. 2023; Brosh et al. 2023). Yet enhancer elements are \r\ntypically investigated through limited genome engineering at their endogenous loci, and the lack \r\nof methods for genome editing of regions upwards of 10 kb has resulted in a limited understanding \r\nof locus architecture and genomic context at larger length scales.\r\nStudies of simpler reporter assays have shown that expression is modulated by genomic context \r\ncomposed of quantitative contributions of many elements acting at ranges upwards of 100 kb \r\n(Maricque et al. 2019; Hong and Cohen 2022; Ribeiro-Dos-Santos et al. 2022). Certain composite \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 473,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "regulatory elements such as locus control regions (LCR) confer position-independent expression, \r\nand super-enhancers are argued to have properties beyond those of their constituent enhancers \r\n(Li et al. 2002; Moorthy et al. 2017; Blobel et al. 2021). Autonomy might result from inclusion of \r\nmultiple regulatory elements to provide resilience, specific genomic features such as insulation or \r\ndomains, or simply additional intervening distance from other surrounding regulatory elements. \r\nThus it is possible that complex regulatory elements have evolved to permit more precise control \r\nover these features. However, the exact sequence elements required to confer robust locus ac\u0002tivity remain unclear.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n4\r\nThe canonical Igf2/H19 imprinted locus includes multiple complex regulatory elements and is a \r\nmodel for enhancer selectivity (Arney 2003). The insulin-like growth factor 2 (Igf2) gene is ex\u0002pressed from the paternal allele while the non-coding H19 gene is maternally expressed. The \r\n“boundary model” posits that an imprinting control region (ICR) located between the two genes \r\ndirects the activity of a shared enhancer cluster (Figure 1A) (Bell and Felsenfeld 2000; Hark et \r\nal. 2000). This ICR contains a tandem array of CTCF sites which are methylated and unoccupied\r\nby CTCF on the paternal allele, allowing the enhancers to interact with and activate the more \r\ndistal Igf2 gene. The maternal allele is unmethylated and occupied by CTCF, which acts as an \r\ninsulator that directs the enhancer cluster to activate the proximal H19 instead of Igf2 (Figure 1B). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "A transgenic YAC containing a 130-kb sequence from the Igf2/H19 locus has been shown suffi\u0002cient to recapitulate this pattern of imprinted gene expression when integrated randomly (Ain\u0002scough et al. 1997). Therefore, the Igf2/H19 bimodal regulation offers a unique paradigm to un\u0002derstand how locus architecture and genomic context might influence the activity of the individual \r\nregulatory components in a specific locus and their interactions with their regulatory landscape.\r\nHere we take advantage of our Big-IN technology (Brosh et al. 2021) for repeated delivery of large\r\nDNA sequences to develop a synthetic regulatory genomics approach to quantitatively dissect \r\nenhancer cluster context sensitivity. Using this approach to deliver payloads up to 158 kb in \r\nlength, we identified a new long-range distal enhancer cluster at the Igf2/H19 locus that, together \r\nwith the endogenous H19 enhancers, directs Igf2 and H19 expression in an ICR-dependent man\u0002ner. Replacement of the well-described Sox2 LCR by the H19 enhancer cluster shows that full \r\nfunction of the latter relies on additional elements at its endogenous locus. In contrast, the Sox2\r\nLCR can function outside its native context to drive robust expression of both Igf2 and H19. How\u0002ever, the Sox2 LCR responds only partially to the ICR, as it is able to maintain high H19 expres\u0002sion levels despite CTCF occupancy. We show that the independence of the Sox2 LCR and the \r\ncontext dependence of the H19 enhancers are reflected in cross-cell type patterns of regulatory \r\nDNA actuation which manifest broadly at many other loci genome-wide, providing clues to the \r\nregulatory architecture of these and other important developmentally regulated genes.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n5\r\nRESULTS\r\nA synthetic Igf2/H19 locus as a model for dissection of enhancer selectivity\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "To quantitatively dissect the sensitivity of enhancer elements to their broader genomic context, \r\nwe developed a synthetic regulatory genomics approach to manipulate the Igf2/H19 locus in cul\u0002tured cells. We employed our Big-IN technology (Brosh et al. 2021) for repeated delivery (Fig\u0002ure 1C) to mouse embryonic stem cells (mESC). To facilitate allele-specific engineering and \r\nreadout, we employed a C57BL/6J (B6, maternal) × CAST/EiJ (CAST, paternal) mESC line de\u0002rived from an M. musculus and M. musculus castaneus F1 hybrid mouse, which harbors hetero\u0002zygous point variants every 140 bp on average throughout its genomic sequence (Keane et al. \r\n2011; Eckersley-Maslin et al. 2014). We first installed a Big-IN landing pad (LP) replacing the \r\nIgf2/H19 locus on the B6 allele (Figure 1D). After comprehensive quality control using PCR gen\u0002otyping and targeted capture sequencing (Capture-seq), we identified clones with single-copy,\r\non-target landing pad integration, named LP-Igf2/H19 mESCs (Figure S1).\r\nWe then assembled in yeast a baseline payload containing a complete 157-kb Igf2/H19 locus into \r\na Big-IN delivery vector, starting from a B6 mouse-derived bacterial artificial chromosome (BAC). \r\nFrom this baseline payload, we derived a set of further engineered derivatives (Figure S2, Ta\u0002ble S1). Payloads were sequence-verified (Table S2) and delivered to LP-Igf2/H19 mESCs using \r\nBig-IN (Figure 1D). Multiple mESC clones were isolated for each payload and comprehensively \r\nverified for single-copy targeted payload integration using PCR genotyping and Capture-seq (Ta\u0002ble S3).\r\nAs both Igf2 and H19 are transcriptionally inactive in mESCs, we employed a mesendodermal \r\ndifferentiation protocol (Thomson et al. 2011) which induces robust expression of both Igf2 and \r\nH19 (Figure S3) and increased DNA accessibility at the enhancer cluster located downstream of \r\nH19 (Figure 1A). RNA-seq analysis to identify differentially expressed genes between mESCs \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "and differentiated mesendodermal cells confirmed that previously identified (Shen et al. 2008)\r\ngenes upregulated in mesendoderm were enriched and genes downregulated were depleted (Ta\u0002ble S4, Figure S4A-B). From the RNA-seq data, we identified a panel of 5 genes upregulated in \r\nmesendoderm and designed qRT-PCR assays to measure their expression across all samples in \r\nthis study (Figure S4C). Principal component analysis (PCA) of mesendoderm marker gene ex\u0002pression showed that the mESC and differentiated cells were clearly separated (Figure S4D).\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n6\r\nWhile stable parent-of-origin specific methylation is established at the Igf2/H19 ICR during devel\u0002opment, the methylation pattern maintained in cultured mESCs is more labile (Swanzey et al. \r\n2020). In addition, controlling methylation status of transfected DNA would require additional \r\nsteps (Schübeler et al. 2000; Butz et al. 2022). Thus we developed a genetic approach to reliably \r\ndirect CTCF occupancy at the ICR (Figure 1D). We engineered a methylation-insensitive ICR \r\n(MI-ICR) where CpGs were mutated in all 6 CTCF recognition sequences without reducing pre\u0002dicted CTCF binding energy (Figure S5A-B). Similarly, we engineered a ΔCTCF-ICR where all \r\n6 CTCF recognition sequences were surgically deleted (Figure S5A). We profiled both parental \r\nand engineered mESCs using CUT&RUN to verify the expected CTCF occupancy. In parental \r\ncells, we detected biallelic CTCF occupancy throughout the locus, except at the ICR, where only \r\nthe maternal B6 allele was occupied. Delivery of a wild-type ICR or a MI-ICR payload resulted in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 468,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "specific CTCF occupancy on the engineered allele, while the un-engineered CAST allele re\u0002mained unoccupied. In contrast, CTCF occupancy was absent in ΔCTCF-ICR payloads, demon\u0002strating that our synthetic ICR sequences can genetically direct CTCF occupancy independently \r\nof parental origin of the engineered chromosome (Figure S5C).\r\nWe developed an allele-specific qRT-PCR strategy for expression analysis of the engineered al\u0002lele. We designed two point variants in the H19 transcript sequence to distinguish the engineered \r\nand CAST alleles, and four synonymous point variants in the Igf2 transcript sequence (Figure 1D, \r\nFigure S6). We performed a ΔCt analysis using Gapdh as a reference, and scaled Igf2 and H19\r\nvalues between 0 (deletion of the engineered allele, ΔIgf2/H19) and 1 (normalizing H19 to the \r\n“Full-length” payload with constitutive CTCF occupancy, and Igf2 to the “Full-length” payload with \r\nabolished CTCF occupancy). This approach allowed us to rewrite the Igf2/H19 locus for functional \r\ndissection and permitted a precise transcriptional readout of the engineered allele.\r\nExpression analysis of the “Full-length” payloads demonstrated reciprocal Igf2 and H19 expres\u0002sion dependent upon CTCF occupancy at the ICR, with higher H19 expression in the presence \r\nof CTCF, and higher Igf2 expression in absence of CTCF (Figure 1E, Figure S7, Table S5). \r\nThus, our experimental system recapitulates the boundary model of the Igf2/H19 locus (Bell and \r\nFelsenfeld 2000; Hark et al. 2000) (Figure 1B). Surprisingly, we observed that the “ΔH19Enh”\r\npayloads, while completely lacking the H19 enhancer cluster, still retained modest expression of \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n7\r\nboth Igf2 and H19 (Figure 1E), suggesting that the canonical H19 enhancers are not the only \r\ndeterminant of gene expression at this locus.\r\nTo ensure reproducibility of our results, we analyzed several independent clones for each deliv\u0002ered payload to account for potential epigenetic variability during delivery and differentiation. A \r\nsubset of clones were differentiated multiple times and showed high concordance in expression \r\nof both mesendoderm marker genes and engineered alleles (Figure S8). We compared the var\u0002iability of the same payload in multiple independently isolated clones and found it similar to that \r\nacross multiple differentiations (Figure S9). While there have been suggestions of feedback be\u0002tween the two alleles at this locus (Sandhu et al. 2009), Igf2 expression in our system was not \r\ncorrelated between the engineered and CAST alleles (Figure S10).\r\nDissection of the Igf2/H19 regulatory architecture reveals a novel distal enhancer cluster\r\nWe thus investigated whether additional regulatory elements outside the engineered region play \r\na role in Igf2/H19 regulation (Figure 2A). Inversion of a locus preserves its internal organization \r\nbut alters the polarity and distance of interactions with surrounding elements. We thus engineered\r\npayloads with an inverted Igf2/H19 locus and delivered them to LP-Igf2/H19 mESCs (Figure 2B). \r\nThese “Full-length inverted” payloads showed strongly reduced H19 expression, while “ΔH19Enh \r\ninverted” payloads showed completely ablated H19 expression. These results indicate that H19\r\nexpression is highly sensitive to regulatory elements beyond the payload boundary. In contrast, \r\ninversion had little effect on Igf2 levels in the payloads with abolished CTCF occupancy. In pay\u0002loads with constitutive CTCF occupancy, Igf2 expression even increased slightly. As inverted \r\npayloads showed increased expression of Igf2 and reduced expression of H19, our results imply \r\nthe presence of regulatory elements downstream of the canonical 157-kb locus which cooperate\r\nwith known regulatory elements and exhibit differing influences on H19 and Igf2 (Figure 2A).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 475,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "As a complementary test of the reliance of Igf2/H19 expression on their broader genomic envi\u0002ronment, we relocated Igf2/H19 payloads to a completely different genomic location. The Hprt\r\nlocus is often used as a safe harbor for ectopic transgene expression in a permissive genomic \r\ncontext across many cell types. We thus started from a LP-Hprt mESC line, wherein a Big-IN \r\nlanding pad replaces the Hprt locus in chromosome X in a male mESC hybrid cell line (Camellato \r\net al. 2024). We additionally engineered a CRISPR/Cas9-mediated deletion of the B6 allele of the \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n8\r\nfull Igf2/H19 locus in these mESC (LP-Hprt-ΔIgf2/H19 cells) to maintain a single endogenous \r\ncopy of Igf2 and H19 in addition to the delivered payload (Figure S11A). When the “Full-length”\r\npayloads were delivered ectopically to the Hprt locus, not only were Igf2 and H19 expressed, but \r\nalso the ICR-regulated gene expression pattern was correctly recapitulated. However, both Igf2 \r\nand H19 expression was reduced by 50% as compared to the endogenous locus. Strikingly, Igf2 \r\nand H19 expression from the Hprt locus was completely ablated in “ΔH19Enh at Hprt” payloads \r\nlacking the H19 enhancers (Figure 2B). This suggests that Igf2/H19 expression can be decon\u0002structed into two parts: (i) a well-known ICR-regulated contribution of the H19 enhancers; and (ii) \r\na newly identified independent contribution of the surrounding genomic environment.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Based on these results, we examined three enhancer clusters downstream of Igf2 and H19 show\u0002ing DNase-seq activity in mesendodermal cells (Figure 2A) (Llères et al. 2019). All three clusters \r\nare contained within the same topological associated domain (TAD) in mESCs as the Igf2 and \r\nH19 genes (Llères et al. 2019). Three of these regions have been shown to form an allelic sub\u0002TAD structure with Igf2/H19 genes by 4C-seq and DNA FISH, and were named HIDAD (H19/Igf2\r\nDistal Anchor Domain), Syt8, and Lsp1 (Figure 2A) (Llères et al. 2019). We engineered three \r\nderivative landing pad mESC lines, each with a CRISPR/Cas9-mediated deletion of one of these \r\nregions. We then delivered Igf2/H19 payloads lacking the H19 enhancer cluster to each of these \r\nlanding pad cell lines. “ΔH19Enh” payloads delivered to ΔHIDAD and ΔSyt8 landing pad mESC\r\nlines (“ΔHIDAD & ΔH19Enh” and “ΔSyt8 & ΔH19Enh” respectively) showed no difference in ex\u0002pression relative to their delivery to LP-Igf2/H19 mESCs, while delivery to ΔLsp1 landing pad\r\nmESCs (“ΔLsp1 & ΔH19Enh”) showed negligible H19 expression and reduced Igf2 expression \r\n(Figure 2B). This implicates the Lsp1 enhancer cluster in the regulation of H19, and to a lower \r\nextent of Igf2. We observed a synergistic cooperation between the H19 enhancers and the sur\u0002rounding genomic context, with the expression of both genes being greater than the sum of the \r\nindividual activities (Figure 2C). These results highlight the contribution of the surrounding ge\u0002nomic environment to the Igf2/H19 locus regulation, and demonstrate the power of delivery at\r\ndefined ectopic sites to establish sufficiency.\r\nEnhancer sufficiency and robustness can be disrupted in different genomic contexts\r\nWe then asked whether the H19 enhancer cluster demonstrated context sensitivity similar to that \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 434,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "of the entire Igf2/H19 locus. The H19 enhancer cluster is a composite element composed of 11 \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n9\r\nDHSs covering 55 kb. We compared its function with the Sox2 locus control region (LCR) which,\r\nsimilar to the H19 enhancers, consists of 10 DHSs across 41 kb located also approximately 100 \r\nkb away from its target gene (Zhou et al. 2014; Li et al. 2014; Brosh et al. 2023) (Figure 3A). In \r\ncontrast to the H19 enhancers, the Sox2 LCR displays strong activity in mESCs, which is retained \r\ninto early mesendoderm differentiation (Figure S3). We therefore exchanged enhancer clusters \r\namong these two loci to establish the extent to which their function was tied to other elements of \r\ntheir surrounding locus.\r\nWe employed LP-Sox2 and LP-LCR mESCs harboring Big-IN landing pads replacing the full 143-\r\nkb Sox2 locus or just the Sox2 LCR, respectively (Brosh et al. 2023). We quantified the expression \r\nof the engineered Sox2 allele on a scale of 0 (ΔSox2) to 1 (“Sox2 & Sox2LCR”) using qRT-PCR \r\n(Figure 3B). We assembled payloads comprising just the H19 enhancers in both orientations \r\n(Figure 3B). When the H19 enhancers were delivered to LP-LCR mESCs replacing the Sox2\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "LCR, Sox2 expression remained very low even upon differentiation to mesendodermal cells (Fig\u0002ure 3B, left panel, “Sox2 & H19Enh” and “Sox2 & H19Enh (inv)”). To test whether the H19 en\u0002hancers relied upon other regulatory elements within the 157-kb payload boundaries, we edited \r\nthe “Full-length” Igf2/H19 payload in yeast to replace the Igf2 gene and its promoter with the Sox2\r\ngene and promoter (Figure S12), and delivered it to LP-Sox2 mESCs replacing the whole Sox2\r\nlocus (Figure 3B, “H19Enh & H19 & ICR (CTCF) & Sox2” and “H19Enh & H19 & ICR (no CTCF)\r\n& Sox2”). These too showed very low Sox2 expression (Figure 3B, left panel), suggesting that \r\nthe H19 enhancers were either incompatible with the Sox2 promoter or lacked key elements from \r\noutside the Igf2/H19 “Full-length” payloads.\r\nTo investigate whether the H19 enhancers relied on genomic elements outside the boundaries of \r\nour 157-kb payload, we delivered the same payloads at the Igf2/H19 locus (Figure 3B, right \r\npanel). Starting from LP-Igf2/H19 mESCs, we further engineered a CRISPR/Cas9-mediated de\u0002letion of the endogenous B6 Sox2 allele (LP-Igf2/H19-ΔSox2 cells, Figure S11B) to ensure only \r\ntwo copies of Sox2 were present after payload delivery. A payload with the full Sox2 locus includ\u0002ing its native LCR (“Sox2 & Sox2LCR”) resulted in a 1.5-fold increase in Sox2 expression when \r\ndelivered to the Igf2/H19 locus, relative to its endogenous location. In comparison, both payloads \r\nwherein the H19 enhancers replaced the Sox2 LCR (“Sox2 & H19Enh” and “Sox2 & H19Enh\r\n(inv)”, right panel) showed a 2.5-fold increase in Sox2 expression when delivered to the Igf2/H19\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n10\r\nlocus compared to at the Sox2 locus. Notably, the intervening sequence between the H19 en\u0002hancers and Igf2 was not required to activate Sox2, as the H19 enhancers drove similar Sox2\r\nexpression in payloads derived from the Sox2 locus (“Sox2 & H19Enh” and “Sox2 & H19Enh\r\n(inv)”) and from the Igf2/H19 locus (H19Enh & H19 & ICR (CTCF/no CTCF) & Sox2”). Finally, the \r\nH19 enhancers remained sensitive to CTCF occupancy at the intervening ICR, activating the \r\nSox2 promoter only in absence of CTCF (Figure 3B).\r\nWe next performed the cognate swap, replacing the H19 enhancers with the 41-kb Sox2 LCR in \r\nboth orientations, yielding “Sox2LCR & H19 & ICR & Igf2” and “Sox2LCR (inv) & H19 & ICR & \r\nIgf2” payloads. We profiled Igf2 and H19 expression in mESCs and scaled expression to that of \r\nthe “Full-length” payloads in mesendodermal cells for comparison. This showed that the Sox2\r\nLCR robustly boosted the expression of both Igf2 and H19 in undifferentiated cells relative to their \r\nnative state (Figure 3C, Figure S3). The convergent orientation of the Sox2 LCR (i.e. with CTCF \r\nsites oriented towards the target genes) yielded increased expression of both Igf2 and H19 genes\r\nrelative to the Sox2 LCR in the divergent orientation (Figure 3C), consistent with observations at \r\nthe endogenous Sox2 locus (de Wit et al. 2015; Brosh et al. 2023). In either orientation, the Sox2\r\nLCR activated Igf2 almost exclusively in the absence of CTCF binding at the ICR, matching the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "behavior of the endogenous H19 enhancer cluster (Figure 3C). But, in contrast to the H19 en\u0002hancers, the Sox2 LCR upregulated H19 expression in the absence of CTCF occupancy. Put \r\nanother way, CTCF occupancy at the ICR resulted in only a 5-8-fold difference in H19 expression, \r\ncompared to a >100-fold difference in Igf2 expression (Table 1). When linked to the Sox2 LCR \r\ninstead of the H19 enhancers, the relative effect of the ICR was weaker on H19 expression but \r\nstronger on Igf2 expression (Table 1). Thus, the Sox2 LCR did not fully recapitulate the activity \r\nof the endogenous regulation of the H19 enhancer cluster. Understanding this promiscuity in more \r\ndetail may provide important clues to the function of the endogenous ICR and the sequence de\u0002terminants of enhancer selectivity.\r\nCharacteristic patterns of coordinate DHS actuation across cell and tissue types\r\nRegulatory elements operate within complex neighborhoods, including extended regions of coor\u0002dinated transcriptional programs as well as examples of genes with distinct expression patterns \r\nrelative to their neighbors (Pachano et al. 2022). The contrasting function of the Sox2 LCR and \r\nH19 enhancer cluster in ectopic contexts suggests they may have different relationships with their \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n11\r\nnative genomic context. We analyzed cell-type selective accessibility at the Hprt, Sox2, and \r\nIgf2/H19 loci using DNase-seq data from 45 representative cell and tissue types from the mouse \r\nENCODE project (Vierstra et al. 2014). Hprt showed accessibility in all cell and tissue types, be\u0002fitting its status as a housekeeping gene (Figure S13A). In contrast, the Sox2 LCR was more \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 474,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "specific, while the Sox2-proximal DHSs and those at Igf2/H19 showed broader tissue-selective \r\naccessibility profiles. We further observed stereotypical differences in the pattern of coordinated \r\nDHS activity across tissue types surrounding each of the delivery sites (Figure 4A). The Sox2\r\nLCR was active specifically in mESC, while the rest of the locus harbored a series of more broadly \r\nactive enhancers. This is consistent with the observation that the LCR is required for Sox2 ex\u0002pression in mESC but becomes silent and dispensable upon differentiation to neuroectoderm\r\n(Zhou et al. 2014). A broader pattern of coordinated activity extended across the Igf2 and H19\r\ngenes and partially into Lsp1. In contrast, the Hprt locus was sparsely populated by mostly con\u0002stitutive DHSs, most prominently the DHSs at the Hprt and Phf6 promoters. The loci also differed \r\nin terms of gene and DHS density: Sox2 lies within a gene desert, Igf2 and H19 lie in a region rich \r\nwith other genes and DHSs, and Hprt is surrounded by an intermediate number of genes (Table \r\n2).\r\nRegulatory interaction can be reflected in correlated actuation of regulatory DNA across cell types \r\n(Thurman et al. 2012). We thus computed correlations in accessibility across 45 cell and tissue \r\ntypes between the Hprt, Sox2, and Igf2/H19 loci and their surrounding 1 Mb (Figure 4B, Fig\u0002ure S13B-D). While the Hprt transcription start site (TSS) showed no correlation with surrounding \r\nDHSs, the Sox2 LCR DHSs showed correlation only amongst themselves. Finally, the Sox2 TSS \r\nas well as the Igf2 TSS, H19 TSS, and H19 enhancers showed tight correlation with additional \r\nsurrounding regions. We defined these three patterns as uncorrelated, independent, and coordi\u0002nated activity, respectively, and analyzed their representation more broadly across the genome \r\n(Figure 4C-D). A random sample of genomic DHSs exhibited uncorrelated activity (Figure 4E). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Focusing on gene promoters (±1 kb from TSS) showed stronger correlation with surrounding re\u0002gions. Finally, mESC super-enhancers (Whyte et al. 2013) exhibited the highest rate of independ\u0002ent and coordinated activity, with only 27% being uncorrelated. These cross-cell type actuation \r\npatterns may provide a key feature of genomic context at tissue-selective genes and may distin\u0002guish “independent” from “context-dependent\" enhancer clusters.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n12\r\nDISCUSSION\r\nOur work shows that composite regulatory elements such as enhancer clusters recapitulate their \r\ncharacteristic function ectopically with degraded fidelity relative to their full native context. The \r\nSox2 LCR at first glance manifests the autonomy and independence implied by the classical def\u0002inition of an enhancer (Banerji et al. 1981), in that it drives robust expression at the Igf2/H19 locus.\r\nYet its influence on H19 expression differs from the endogenous H19 enhancers in that the Sox2\r\nLCR partially overrides the ICR, upregulating H19 even in the absence of CTCF occupancy. The \r\nH19 enhancers and ICR both harbor multiple CTCF sites convergent on H19, and the Sox2 LCR \r\nharbors CTCF sites pointing towards Sox2. Inverting the ICR has been shown to lower the range \r\nof expression between the paternal and maternal alleles (Matsuzaki et al. 2021), and we show \r\nthat inversion of the Sox2 LCR in the context of the ICR yields reduced expression, especially for \r\nH19 (Figure 3C). This suggests a CTCF-mediated link between the ICR and the enhancer cluster \r\nit modulates, although we note that the link between LCR orientation and expression at Sox2 is \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 471,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "not due solely to CTCF (de Wit et al. 2015; Brosh et al. 2023). It is possible that CTCF sites\r\nunderpin the robustness of the Sox2 LCR across genomic positions or its interaction with the ICR\r\n(Ribeiro-Dos-Santos et al. 2022), but this does not explain why the CTCF sites in the H19 en\u0002hancers behave differently. Thus more work is needed to further dissect whether there are specific \r\nsequence determinants within the Sox2 LCR (i.e. DHSs or TF recognition sequences) responsible \r\nfor such distinctive activity, or if its autonomy simply derives from its strength.\r\nThe H19 enhancers themselves are highly subordinated to their enclosing genomic context, and \r\nshow reduced activity upon any perturbation in the surrounding architecture, such as Lsp1 dele\u0002tion, delivery to an ectopic locus, or linkage to a heterologous promoter. Our work thus shows \r\ncomplex regulatory elements are subject to context sensitivity, in contrast to the view that such \r\nelements can exert dominant effects. Future research will be needed to establish the range at \r\nwhich this context requirement operates, and whether this requirement is tied to a single element, \r\nor reflects the contributions of many. For the H19 enhancers, our data show that the necessary \r\nelement(s) lie outside the 157-kb Igf2/H19 locus. It is unclear whether these partners resemble \r\nthe context-dependent or ‘facilitator’ DHSs previously reported (Blayney et al. 2023; Brosh et al. \r\n2023). Or, there might be repressive elements outside the 143-kb Sox2 locus that suppress the \r\nH19 enhancers. We also note that while Sox2 and Igf2 are at comparable distances to their native \r\nenhancer clusters, H19 lies much closer, and it is possible that the H19 enhancers would be able \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 474,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n13\r\nto activate a target gene ectopically at closer range. Finally, robust domain formation relies on \r\nCTCF sites throughout a locus (Despang et al. 2019). It is possible that the Lsp1 enhancers \r\nthemselves underpin the synergy with the H19 enhancers. Additionally, while the deletion of the \r\nSyt8 CTCF cluster did not affect H19 expression, it slightly increased Igf2 expression. Similarly, \r\nHIDAD includes a pair of CTCF sites that have been shown to interact with elements within the \r\nIgf2/H19 locus (Rao et al. 2014; Ye and Ma 2020; Richer et al. 2023), and its deletion increased \r\nIgf2 expression. Thus it is possible the CTCF sites within these regions underpin the overall ge\u0002nomic organization of the locus and their deletion could sensitize it to further disruption.\r\nOur analysis of cross-cell type correlation in regulatory DNA actuation suggests a broad influence \r\nof genomic context in potentiating enhancer cluster function. While there is little evidence for strict \r\ngenomic regulons in complex organisms, domains of coordinated expression have been observed\r\nin yeast (Cohen et al. 2000) and fly (Rubin and Green 2013). Mammalian genomes demonstrate \r\na certain compartmentalization of function, in that housekeeping and disease-associated genes \r\nare unevenly distributed genome-wide (Lercher et al. 2002; Muro et al. 2019), and TADs correlate \r\nwith tissue-selective expression patterns (Symmons et al. 2014). But the strength, generalizabil\u0002ity, and sequence determinants of these architectural context effects have been difficult to clarify \r\nacross mammalian genomes. Our analysis partitions genomic enhancer clusters into two classes \r\n– Independent and Coordinated – which differ in their interaction with genomic context. This sug\u0002gests that the coordinated tissue-specific accessibility and expression patterns observed at key \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "developmental loci (Bolt and Duboule 2020) might be required to reinforce the intrinsic propensi\u0002ties of regulatory elements therein. This is consistent with the β-globin genes, whose promoters \r\nadd developmental specificity to the activation provided by the LCR (Bender et al. 2000). The \r\nlarge gene deserts surrounding tissue-selective genes (e.g. Sox2 and Hbb) may be required to \r\ninsulate unrelated surrounding genes from this context effect, and might derive mechanistically \r\nfrom a reliance on cohesin for longer-range contacts for tissue-specific genes (Kane et al. 2022; \r\nRinzema et al. 2022) or models invoking diffusion of regulatory factors (Karr et al. 2022). We note \r\nthat while enhancers showing correlated cross-cell type accessibility patterns have appeared as \r\nredundant in deletion analyses (Hong et al. 2008; Frankel et al. 2010; Osterwalder et al. 2018; \r\nHörnblad et al. 2021), our sufficiency analysis suggests that these broader activity patterns can \r\nbe required for proper function.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n14\r\nIn this study, we showcase the potential of synthetic regulatory genomics to characterize and \r\ninterrelate multiple regulatory elements, to interpret complex loci, and to gain new insights into \r\ntranscriptional regulation. This approach can be easily applied to characterize many other ge\u0002nomic regions whose size, complexity, and/or allele-specific regulation challenge the limited\r\nscope of genome editing tools currently in wide use. We expect that dissecting specific sequence \r\nelements responsible for novel activities of synthetic combinations of regulatory elements will lead \r\nto generalizable models of locus architecture and gene regulation.\r\nLimitations of the study\r\nOur study is based on measurement of an expression phenotype after differentiation. While we \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "have performed measurements across replicate clones, our results might still be affected by the \r\nreproducibility of differentiation, or differences between clones in general, including variability be\u0002tween payloads delivered to different landing pad parental lines. While we investigated activity in \r\nmESCs and differentiated mesendodermal cells, accessibility at the H19/Igf2 locus shows a vari\u0002ety of activity patterns across different tissues (Figure 4A), and their regulation might differ from \r\nthe contexts studied here. We have developed a genetic strategy for manipulating CTCF occu\u0002pancy at the ICR in cell culture, but it is possible that locus function behaves differently upon \r\npassage through the germline. Finally, we only investigated two enhancer clusters and others \r\nmay behave differently.\r\nACKNOWLEDGEMENTS\r\nWe thank Brendan Camellato for the gift of pDONOR~Neo~EGFP, and Raven D. Luther for tech\u0002nical assistance with sequencing. This work was partially funded by National Institutes of Health \r\n(NIH) grants RM1HG009491 (to J.D.B.) and R35GM119703 (to M.T.M.).\r\nAUTHOR CONTRIBUTIONS\r\nR.O., M.S.H., and M.T.M. designed experiments. R.O., G.E., and R.B. performed experiments. \r\nW.Z. and Y.Z. assembled DNA payloads. G.E., H.J.A., and E.H. performed capture and sequenc\u0002ing. R.O. and A.M.R.-d.-S. performed computational analyses. R.O. and M.T.M. wrote the manu\u0002script. All authors edited the manuscript. M.T.M. and J.D.B. supervised work.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n15\r\nDECLARATION OF INTERESTS\r\nR.B., J.D.B. and M.T.M are listed as inventors on a patent application describing Big-IN. Jef Boeke \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 459,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "is a founder and Director of CDI Labs, Inc., a founder of and consultant to Opentrons Lab\u0002Works/Neochromosome, Inc, and serves or served on the Scientific Advisory Board of the follow\u0002ing: CZ Biohub New York, LLC, Logomix, Inc., Modern Meadow, Inc., Rome Therapeutics, Inc., \r\nSangamo, Inc., Tessera Therapeutics, Inc. and the Wyss Institute.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n16\r\nREFERENCES\r\nAinscough JF, Koide T, Tada M, Barton S, Surani MA. 1997. Imprinting of Igf2 and H19 from a \r\n130 kb YAC transgene. Development 124: 3621–3632.\r\nArney KL. 2003. H19 and Igf2--enhancing the confusion? Trends Genet 19: 17–23.\r\nAvsec Ž, Weilert M, Shrikumar A, Krueger S, Alexandari A, Dalal K, Fropf R, McAnany C, Gagneur \r\nJ, Kundaje A, et al. 2021. Base-resolution models of transcription-factor binding reveal soft \r\nmotif syntax. Nat Genet 53: 354–366.\r\nBanerji J, Rusconi S, Schaffner W. 1981. Expression of a beta-globin gene is enhanced by remote \r\nSV40 DNA sequences. Cell 27: 299–308.\r\nBell AC, Felsenfeld G. 2000. Methylation of a CTCF-dependent boundary controls imprinted ex\u0002pression of the Igf2 gene. Nature 405: 482–485.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Bender MA, Bulger M, Close J, Groudine M. 2000. Beta-globin gene switching and DNase I sen\u0002sitivity of the endogenous beta-globin locus in mice do not require the locus control region. \r\nMol Cell 5: 387–393.\r\nBergman DT, Jones TR, Liu V, Ray J, Jagoda E, Siraj L, Kang HY, Nasser J, Kane M, Rios A, et \r\nal. 2022. Compatibility rules of human enhancer and promoter sequences. Nature 607: 176–\r\n184.\r\nBlayney JW, Francis H, Rampasekova A, Camellato B, Mitchell L, Stolper R, Cornell L, Babbs C, \r\nBoeke JD, Higgs DR, et al. 2023. Super-enhancers include classical enhancers and facilita\u0002tors to fully activate gene expression. Cell 186: 5826-5839.e18.\r\nBlobel GA, Higgs DR, Mitchell JA, Notani D, Young RA. 2021. Testing the super-enhancer con\u0002cept. Nat Rev Genet 22: 749–755.\r\nBolt CC, Duboule D. 2020. The regulatory landscapes of developmental genes. Development\r\n147: dev171736.\r\nBolt CC, Lopez-Delisle L, Hintermann A, Mascrez B, Rauseo A, Andrey G, Duboule D. 2022. \r\nContext-dependent enhancer function revealed by targeted inter-TAD relocation. Nat Com\u0002mun 13: 3488.\r\nBonfield JK, Marshall J, Danecek P, Li H, Ohan V, Whitwham A, Keane T, Davies RM. 2021. \r\nHTSlib: C library for reading/writing high-throughput sequencing data. Gigascience 10: \r\ngiab007.\r\nBrachmann CB, Davies A, Cost GJ, Caputo E, Li J, Hieter P, Boeke JD. 1998. Designer deletion \r\nstrains derived from Saccharomyces cerevisiae S288C: a useful set of strains and plasmids \r\nfor PCR-mediated gene disruption and other applications. Yeast 14: 115–132.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Brosh R, Coelho C, Ribeiro-Dos-Santos AM, Ellis G, Hogan MS, Ashe HJ, Somogyi N, Ordoñez \r\nR, Luther RD, Huang E, et al. 2023. Synthetic regulatory genomics uncovers enhancer con\u0002text dependence at the Sox2 locus. Mol Cell 83: 1140-1152.e7.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n17\r\nBrosh R, Laurent JM, Ordoñez R, Huang E, Hogan MS, Hitchcock AM, Mitchell LA, Pinglay S, \r\nCadley JA, Luther RD, et al. 2021. A versatile platform for locus-scale genome rewriting and \r\nverification. Proc Natl Acad Sci U S A 118: e2023952118.\r\nButz S, Schmolka N, Karemaker ID, Villaseñor R, Schwarz I, Domcke S, Uijttewaal ECH, Jude J, \r\nLienert F, Krebs AR, et al. 2022. DNA sequence and chromatin modifiers cooperate to confer \r\nepigenetic bistability at imprinting control regions. Nat Genet 54: 1702–1710.\r\nCamellato BR, Brosh R, Ashe HJ, Maurano MT, Boeke JD. 2024. Synthetic reversed sequences \r\nreveal default genomic states. Nature.\r\nChakraborty S, Kopitchinski N, Zuo Z, Eraso A, Awasthi P, Chari R, Mitra A, Tobias IC, Moorthy \r\nSD, Dale RK, et al. 2023. Enhancer-promoter interactions can bypass CTCF-mediated \r\nboundaries and contribute to phenotypic robustness. Nat Genet 55: 280–290.\r\nCohen BA, Mitra RD, Hughes JD, Church GM. 2000. A computational analysis of whole-genome \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "expression data reveals chromosomal domains of gene expression. Nat Genet 26: 183–186.\r\nde Wit E, Vos ESM, Holwerda SJB, Valdes-Quezada C, Verstegen MJAM, Teunissen H, Splinter \r\nE, Wijchers PJ, Krijger PHL, de Laat W. 2015. CTCF Binding Polarity Determines Chromatin \r\nLooping. Molecular Cell 60: 676–684.\r\nDespang A, Schöpflin R, Franke M, Ali S, Jerković I, Paliou C, Chan W-L, Timmermann B, Wittler \r\nL, Vingron M, et al. 2019. Functional dissection of the Sox9-Kcnj2 locus identifies nonessen\u0002tial and instructive roles of TAD architecture. Nat Genet 51: 1263–1271.\r\nDobin A, Davis CA, Schlesinger F, Drenkow J, Zaleski C, Jha S, Batut P, Chaisson M, Gingeras \r\nTR. 2013. STAR: ultrafast universal RNA-seq aligner. Bioinformatics 29: 15–21.\r\nEckersley-Maslin MA, Thybert D, Bergmann JH, Marioni JC, Flicek P, Spector DL. 2014. Random \r\nmonoallelic gene expression increases upon embryonic stem cell differentiation. Dev Cell 28: \r\n351–365.\r\nFrankel N, Davis GK, Vargas D, Wang S, Payre F, Stern DL. 2010. Phenotypic robustness con\u0002ferred by apparently redundant transcriptional enhancers. Nature 466: 490–493.\r\nGeorgolopoulos G, Psatha N, Iwata M, Nishida A, Som T, Yiangou M, Stamatoyannopoulos JA, \r\nVierstra J. 2021. Discrete regulatory modules instruct hematopoietic lineage commitment and \r\ndifferentiation. Nat Commun 12: 6790.\r\nGietz RD, Schiestl RH. 2007. High-efficiency yeast transformation using the LiAc/SS carrier \r\nDNA/PEG method. Nat Protoc 2: 31–34.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Halow JM, Byron R, Hogan MS, Ordoñez R, Groudine M, Bender MA, Stamatoyannopoulos JA, \r\nMaurano MT. 2021. Tissue context determines the penetrance of regulatory DNA variation. \r\nNat Commun 12: 2850.\r\nHark AT, Schoenherr CJ, Katz DJ, Ingram RS, Levorse JM, Tilghman SM. 2000. CTCF mediates \r\nmethylation-sensitive enhancer-blocking activity at the H19/Igf2 locus. Nature 405: 486–489.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n18\r\nHong CKY, Cohen BA. 2022. Genomic environments scale the activities of diverse core promot\u0002ers. Genome Res 32: 85–96.\r\nHong J-W, Hendrix DA, Levine MS. 2008. Shadow enhancers as a source of evolutionary novelty. \r\nScience 321: 1314.\r\nHörnblad A, Bastide S, Langenfeld K, Langa F, Spitz F. 2021. Dissection of the Fgf8 regulatory \r\nlandscape by in vivo CRISPR-editing reveals extensive intra- and inter-enhancer redundancy. \r\nNat Commun 12: 439.\r\nJohn S, Sabo PJ, Canfield TK, Lee K, Vong S, Weaver M, Wang H, Vierstra J, Reynolds AP, \r\nThurman RE, et al. 2013. Genome-scale mapping of DNase I hypersensitivity. Current proto\u0002cols in molecular biology / edited by Frederick M Ausubel . [et al] Chapter 27: Unit 21.27.\r\nKane L, Williamson I, Flyamer IM, Kumar Y, Hill RE, Lettice LA, Bickmore WA. 2022. Cohesin is \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "required for long-range enhancer action at the Shh locus. Nat Struct Mol Biol 29: 891–897.\r\nKarr JP, Ferrie JJ, Tjian R, Darzacq X. 2022. The transcription factor activity gradient (TAG) \r\nmodel: contemplating a contact-independent mechanism for enhancer-promoter communica\u0002tion. Genes Dev 36: 7–16.\r\nKeane TM, Goodstadt L, Danecek P, White MA, Wong K, Yalcin B, Heger A, Agam A, Slater G, \r\nGoodson M, et al. 2011. Mouse genomic variation and its effect on phenotypes and gene \r\nregulation. Nature 477: 289–294.\r\nLercher MJ, Urrutia AO, Hurst LD. 2002. Clustering of housekeeping genes provides a unified \r\nmodel of gene order in the human genome. Nat Genet 31: 180–183.\r\nLi B, Dewey CN. 2011. RSEM: accurate transcript quantification from RNA-Seq data with or with\u0002out a reference genome. BMC bioinformatics 12: 323.\r\nLi H, Durbin R. 2009. Fast and accurate short read alignment with Burrows-Wheeler transform. \r\nBioinformatics 25: 1754–1760.\r\nLi Q, Peterson KR, Fang X, Stamatoyannopoulos G. 2002. Locus control regions. Blood 100: \r\n3077–3086.\r\nLi Y, Rivera CM, Ishii H, Jin F, Selvaraj S, Lee AY, Dixon JR, Ren B. 2014. CRISPR reveals a \r\ndistal super-enhancer required for Sox2 expression in mouse embryonic stem cells. PLoS \r\nOne 9: e114485.\r\nLlères D, Moindrot B, Pathak R, Piras V, Matelot M, Pignard B, Marchand A, Poncelet M, Perrin \r\nA, Tellier V, et al. 2019. CTCF modulates allele-specific sub-TAD organization and imprinted \r\ngene activity at the mouse Dlk1-Dio3 and Igf2-H19 domains. Genome Biol 20: 272.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Maricque BB, Chaudhari HG, Cohen BA. 2019. A massively parallel reporter assay dissects the \r\ninfluence of chromatin structure on cis-regulatory activity. Nat Biotechnol 37: 90–95.\r\nMartinez-Ara M, Comoglio F, van Arensbergen J, van Steensel B. 2022. Systematic analysis of \r\nintrinsic enhancer-promoter compatibility in the mouse genome. Mol Cell 82: 2519-2531.e6.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n19\r\nMatsuzaki H, Miyajima Y, Fukamizu A, Tanimoto K. 2021. Orientation of mouse H19 ICR affects \r\nimprinted H19 gene expression through promoter methylation-dependent and -independent \r\nmechanisms. Commun Biol 4: 1410.\r\nMoorthy SD, Davidson S, Shchuka VM, Singh G, Malek-Gilani N, Langroudi L, Martchenko A, So \r\nV, Macpherson NN, Mitchell JA. 2017. Enhancers and super-enhancers have an equivalent \r\nregulatory role in embryonic stem cells through regulation of single or multiple genes. Genome \r\nRes 27: 246–258.\r\nMuro EM, Ibn-Salem J, Andrade-Navarro MA. 2019. The distributions of protein coding genes \r\nwithin chromatin domains in relation to human disease. Epigenetics Chromatin 12: 72.\r\nNeph S, Kuehn MS, Reynolds AP, Haugen E, Thurman RE, Johnson AK, Rynes E, Maurano MT, \r\nVierstra J, Thomas S, et al. 2012. BEDOPS: high-performance genomic feature operations. \r\nBioinformatics 28: 1919–1920.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Osterwalder M, Barozzi I, Tissières V, Fukuda-Yuzawa Y, Mannion BJ, Afzal SY, Lee EA, Zhu Y, \r\nPlajzer-Frick I, Pickle CS, et al. 2018. Enhancer redundancy provides phenotypic robustness \r\nin mammalian development. Nature 554: 239–243.\r\nPachano T, Haro E, Rada-Iglesias A. 2022. Enhancer-gene specificity in development and dis\u0002ease. Development 149: dev186536.\r\nPeterson KR, Stamatoyannopoulos G. 1993. Role of gene order in developmental control of hu\u0002man gamma- and beta-globin gene expression. Molecular and Cellular Biology 13: 4836–\r\n4843.\r\nR Core Team. 2018. R: A Language and Environment for Statistical Computing. R Foundation for \r\nStatistical Computing, Vienna, Austria.\r\nRan FA, Hsu PD, Wright J, Agarwala V, Scott DA, Zhang F. 2013. Genome engineering using the \r\nCRISPR-Cas9 system. Nat Protoc 8: 2281–2308.\r\nRao SSP, Huntley MH, Durand NC, Stamenova EK, Bochkov ID, Robinson JT, Sanborn AL, \r\nMachol I, Omer AD, Lander ES, et al. 2014. A 3D map of the human genome at kilobase \r\nresolution reveals principles of chromatin looping. Cell 159: 1665–1680.\r\nRibeiro-Dos-Santos AM, Hogan MS, Luther RD, Brosh R, Maurano MT. 2022. Genomic context \r\nsensitivity of insulator function. Genome Res 32: 425–436.\r\nRicher S, Tian Y, Schoenfelder S, Hurst L, Murrell A, Pisignano G. 2023. Widespread allele-spe\u0002cific topological domains in the human genome are not confined to imprinted gene clusters. \r\nGenome Biol 24: 40.\r\nRingel AR, Szabo Q, Chiariello AM, Chudzik K, Schöpflin R, Rothe P, Mattei AL, Zehnder T, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 476,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Harnett D, Laupert V, et al. 2022. Repression and 3D-restructuring resolves regulatory con\u0002flicts in evolutionarily rearranged genomes. Cell 185: 3689-3704.e21.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n20\r\nRinzema NJ, Sofiadis K, Tjalsma SJD, Verstegen MJAM, Oz Y, Valdes-Quezada C, Felder A-K, \r\nFilipovska T, van der Elst S, de Andrade Dos Ramos Z, et al. 2022. Building regulatory land\u0002scapes reveals that an enhancer can recruit cohesin to create contact domains, engage CTCF \r\nsites and activate distant genes. Nat Struct Mol Biol 29: 563–574.\r\nRubin AF, Green P. 2013. Expression-based segmentation of the Drosophila genome. BMC Ge\u0002nomics 14: 812.\r\nSandhu KS, Shi C, Sjölinder M, Zhao Z, Göndör A, Liu L, Tiwari VK, Guibert S, Emilsson L, Imreh \r\nMP, et al. 2009. Nonallelic transvection of multiple imprinted loci is organized by the H19 \r\nimprinting control region during germline development. Genes & Development 23: 2598–\r\n2603.\r\nSchübeler D, Lorincz MC, Cimbora DM, Telling A, Feng YQ, Bouhassira EE, Groudine M. 2000. \r\nGenomic targeting of methylated DNA: influence of methylation on transcription, replication, \r\nchromatin structure, and histone acetylation. Mol Cell Biol 20: 9103–9112.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Shen X, Liu Y, Hsu Y-J, Fujiwara Y, Kim J, Mao X, Yuan G-C, Orkin SH. 2008. EZH1 mediates \r\nmethylation on histone H3 lysine 27 and complements EZH2 in maintaining stem cell identity \r\nand executing pluripotency. Mol Cell 32: 491–502.\r\nSwanzey E, McNamara TF, Apostolou E, Tahiliani M, Stadtfeld M. 2020. A Susceptibility Locus \r\non Chromosome 13 Profoundly Impacts the Stability of Genomic Imprinting in Mouse Pluripo\u0002tent Stem Cells. Cell Rep 30: 3597-3604.e3.\r\nSymmons O, Uslu VV, Tsujimura T, Ruf S, Nassari S, Schwarzer W, Ettwiller L, Spitz F. 2014. \r\nFunctional and topological characteristics of mammalian regulatory domains. Genome Re\u0002search 24: 390–400.\r\nThomson M, Liu SJ, Zou L-N, Smith Z, Meissner A, Ramanathan S. 2011. Pluripotency factors in \r\nembryonic stem cells regulate differentiation into germ layers. Cell 145: 875–889.\r\nThurman RE, Rynes E, Humbert R, Vierstra J, Maurano MT, Haugen E, Sheffield NC, Stergachis \r\nAB, Wang H, Vernot B, et al. 2012. The accessible chromatin landscape of the human ge\u0002nome. Nature 489: 75–82.\r\nVierstra J, Rynes E, Sandstrom R, Zhang M, Canfield T, Hansen RS, Stehling-Sun S, Sabo PJ, \r\nByron R, Humbert R, et al. 2014. Mouse regulatory DNA landscapes reveal global principles \r\nof cis-regulatory evolution. Science 346: 1007–1012.\r\nWhyte WA, Orlando DA, Hnisz D, Abraham BJ, Lin CY, Kagey MH, Rahl PB, Lee TI, Young RA. \r\n2013. Master transcription factors and mediator establish super-enhancers at key cell identity \r\ngenes. Cell 153: 307–319.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 469,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Wild J, Hradecna Z, Szybalski W. 2002. Conditionally amplifiable BACs: switching from single\u0002copy to high-copy vectors and genomic clones. Genome Res 12: 1434–1444.\r\nYe T, Ma W. 2020. ASHIC: hierarchical Bayesian modeling of diploid chromatin contacts and \r\nstructures. Nucleic Acids Res 48: e123.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n21\r\nZhao Y, Coelho C, Lauer S, Majewski M, Laurent JM, Brosh R, Boeke JD. 2023. CREEPY: \r\nCRISPR-mediated editing of synthetic episomes in yeast. Nucleic Acids Res 51: e72.\r\nZhou HY, Katsman Y, Dhaliwal NK, Davidson S, Macpherson NN, Sakthidevi M, Collura F, Mitch\u0002ell JA. 2014. A Sox2 distal enhancer cluster regulates embryonic stem cell differentiation po\u0002tential. Genes & Development 28: 2699–2711.\r\nZuin J, Roth G, Zhan Y, Cramard J, Redolfi J, Piskadlo E, Mach P, Kryzhanovska M, Tihanyi G, \r\nKohler H, et al. 2022. Nonlinear control of transcription through enhancer-promoter interac\u0002tions. Nature 604: 571–577.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n22\r\nSTAR METHODS\r\nKEY RESOURCES TABLE\r\nREAGENT or RESOURCE SOURCE IDENTIFIER\r\nBacterial and virus strains\r\nParental S. cerevisiae strain Brachmann et al., \r\n1998(Brachmann et \r\nal. 1998)\r\nBY4741\r\nPayload S. cerevisiae strain This paper Table S1\r\nE. Coli TransforMax EPI300 Lucigen EC300150\r\nChemicals, peptides, and recombinant proteins\r\n0.1% gelatin EMD Millipore ES006-B\r\n2-mercaptoethanol Sigma M3148\r\nAdvanced DMEM/F-12 ThermoFisher 12634010\r\nBbsI-HF NEB R3539L\r\nBlasticidin ThermoFisher A1113902\r\nBsaI-HF V2 NEB R3733S\r\nCHIR99021 R&D Systems 4423\r\nCopyControl Induction Solu\u0002tionLucigen CCIS125\r\nDNA endonuclease DNase I Sigma D4527-20KU\r\nEsp3I NEB R0734S\r\nFBS BenchMark 100-106\r\nganciclovir Sigma PHR1593\r\ngeneticin G418 ThermoFisher 10131035\r\nGlutaMAX ThermoFisher 35050061\r\nGoTaq Green Promega M7123\r\nKAPA 2× Hi-Fi Hotstart Read\u0002ymixRoche 07958935001\r\nKnockOut DMEM ThermoFisher 10829018\r\nLIF Sigma ESG1107\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n23\r\nMEM nonessential amino ac\u0002idsThermoFisher 11140050\r\nN2 Supplement ThermoFisher 17502048\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Neurobasal ThermoFisher 21103049\r\nnucleosides EMD Millipore ES008-D\r\nPD0325901 Sigma PZ0162\r\nPen-Strep ThermoFisher 15140122\r\nproaerolysin Aerohead Scientific n/a\r\nProteinase K ThermoFisher EO0491\r\npuromycin ThermoFisher A1113803\r\nRNAse A Sigma R4642-50MG\r\nSodium Pyruvate ThermoFisher 11360070\r\nTrypLE-Select ThermoFisher 12563011\r\nY-27632 ROCK inhibitor Cell Signaling Tech\u0002nology 13624S\r\nAntibodies\r\nCTCF antibody Cell Signaling 2899S\r\nCritical commercial assays\r\nCUT&RUN Assay Kit Cell Signaling 86652\r\nDNeasy Blood & Tissue kit QIAGEN 69506\r\nKAPA SYBR FAST Kapa Biosystems KK4610\r\nMultiscribe High-Capacity \r\ncDNA Reverse Transcription \r\nKit\r\nThermoFisher 4368814\r\nNEBNext Poly(A) mRNA \r\nMagnetic Isolation Module\r\nNEB E7490\r\nNEBNext Ultra II Directional \r\nRNA Library Prep Kit\r\nNEB E7760S\r\nNucleobond XtraBAC kit Takara 740436\r\nTurbo DNA-free kit ThermoFisher AM1907\r\nZymo yeast miniprep I proto\u0002colZymo Research D2001\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n24\r\nZymoPURE maxiprep kit Zymo Research D4203\r\nZyppy Plasmid Miniprep Kit Zymo Research D4020\r\nDeposited data\r\nSequencing data This paper GSE241708\r\nExperimental models: Cell lines\r\nParental C57BL6/6J ×\r\nCAST/EiJ (BL6xCAST)\r\nmESCs\r\nEckersley-Maslin et \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "al., 2014(Eckersley\u0002Maslin et al. 2014)\r\nClone 4\r\nC57BL6/6J × CAST/EiJ \r\n(BL6xCAST) Landing Pad \r\nand Payload mESC clones\r\nThis paper Table S3\r\nOligonucleotides\r\nCloning primers This paper Table S6\r\nGenotyping primers This paper Table S6\r\nqRT-PCR primers This paper Table S6\r\nSynthetic fragments This paper Table S6\r\nRecombinant DNA\r\nPayloads This paper Table S1, Data S1\r\npCAG-iCre Addgene 89573\r\npDONOR-tagBFP-PSM\u0002EGFPAddgene 100603\r\npLM1110 Addgene 168460\r\npLM1110_URA3 This paper n/a\r\npLP-PIGA2 (pLP300) Addgene 168462\r\npYTK-Cas9 Zhao et al., \r\n2022(Zhao et al. \r\n2023)\r\nn/a\r\nSoftware and algorithms\r\nSequencing processing pipe\u0002lineThis paper TBD\r\nBWA Li and Durbin 2009(Li \r\nand Durbin 2009)\r\nhttps://github.com/lh3/bwa\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n25\r\nbcftools Bonfield et al., \r\n2021(Bonfield et al. \r\n2021)\r\nhttps://github.com/samtools/bcftools\r\nBEDOPS Neph et al., \r\n2012(Neph et al. \r\n2012)\r\nhttps://bedops.readthedocs.io/en/latest/\r\nR R Core Team 2018(R \r\nCore Team 2018)\r\nhttps://www.r-project.org\r\nRSEM Li and Dewery \r\n2011(Li and Dewey \r\n2011)\r\nhttps://github.com/deweylab/RSEM\r\nSTAR Dobin et al. \r\n2013(Dobin et al. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "2013)\r\nhttps://github.com/alexdobin/STAR\r\nRESOURCE AVAILABILITY\r\nLead contact\r\nFurther information and requests for resources and reagents should be directed to and will be \r\nfulfilled by the Lead Contact, Matthew T. Maurano (maurano@nyu.edu).\r\nMaterials availability\r\nAll unique/stable reagents generated in this study are available upon request from the Lead Con\u0002tact with a completed Materials Transfer Agreement.\r\nData and code availability\r\nSequencing data have been deposited in the Gene Expression Omnibus (GEO) database, \r\nhttps://www.ncbi.nlm.nih.gov/geo (accession no. GSE241708). DNase-seq data were obtained \r\nfrom https://www.encodeproject.org for ES_E14 (ENCLB890BTE, DS21450). ChIP-nexus (Avsec \r\net al. 2021) for Nanog (GSM4072778) and RNA-seq (GSE222038 samples GSM6912138-\r\nGSM6912143) for mESC were obtained from the GEO repository.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n26\r\nEXPERIMENTAL MODEL AND SUBJECT DETAILS\r\nLanding Pads and CRISPR/Cas9 plasmids for genome integration\r\npLP-PIGA2 (pLP300) (Addgene 168462) (Figure 1C and Figure S1A) was described previously \r\n(Brosh et al. 2021) and harbors a pEF1α-PuroR-P2A-hmPIGA-P2A-mScarlet-EIF1pA cassette \r\nflanked by LoxM and LoxP sites, as well as a pPGK1-ΔTK-SV40pA backbone counter-selectable \r\nmarker cassette. To target landing pads to specific genomic loci, guide RNAs (gRNAs) (Table S6) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "were cloned into pSpCas9(BB)-2A-Puro (pCas9-Puro, Addgene 62988) using BbsI Golden Gate \r\nreactions as described (Ran et al. 2013). Landing pad homology arms (HAs) corresponding to \r\nthe sequence flanking genomic Cas9 cut sites were amplified from BACs (Table S7). HAs were \r\ncloned to flank the LoxM and LoxP sites in pLP-PIGA2 using a BsaI Golden Gate reaction (Ta\u0002ble S6). DNA suitable for transfection was prepped using the Zymo-PURE maxiprep kit (Zymo \r\nResearch D4203) according to the manufacturer’s protocol.\r\nPayload assembly\r\nAll payloads were assembled into Yeast Assemblon Vector (YAV) pLM1110 (Brosh et al. 2021)\r\n(Addgene #168460). This is a multifunctional vector supporting (i) low-copy DNA propagation, \r\nselection (LEU2), and efficient homology-dependent recombination in yeast; (ii) low-copy propa\u0002gation, selection (KanR), and copy number induction in TransforMax EPI300 E. coli (Lucigen \r\nEC300150) (Wild et al. 2002); and (iii) transient visualization and selection (eGFP-BSD, enhanced \r\ngreen fluorescent protein - Blasticidin-S deaminase) in mammalian cells (Brosh et al. 2021).\r\nThree different strategies were used to assemble payloads into pLM1110 (Table S1), using dif\u0002ferent primers, gRNAs, and synthetic DNA fragments (Table S6):\r\n(1) BAC fragment assembly in yeast\r\nDesired segments of Igf2/H19 BAC RP23-50N22 (Table S7) were released by an in vitro\r\nCRISPR/Cas9 digestion using a pair of synthetic gRNAs and recombinant Cas9 and assembled \r\ninto BsaI-digested pLM1110 as previously described (Brosh et al. 2021).\r\n(2) CRISPR/Cas9 Engineering of EPisomes in Yeast (CREEPY)\r\nExisting payloads were modified in yeast, as in Zhao et al. (Zhao et al. 2023), using CRISPR/Cas9 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 467,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "and synthetic linker fragment(s) (IDT) to mediate sequence deletions, insertions, or inversions. \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n27\r\nYeast cells carrying a parental payload were transformed with pYTK-Cas9 plasmids (single-plas\u0002mid system co-expressing a yeast-codon optimized Cas9, the targeting gRNA and a HIS3 marker) \r\ntogether with 100 ng of the synthetic linker fragment(s) (Table S1), and selected for a Leu+/His+\r\nphenotype. gRNAs (Table S6) were cloned into pYTK-Cas9 using a Esp3I Golden Gate reaction.\r\n(3) Payload inversion\r\nTo deliver payloads in an inverted orientation, the flanking Lox sites were swapped in yeast. \r\nSource constructs were first digested using I-SceI, releasing the payload sequence from the back\u0002bone including the Lox sites. This digestion product was then co-transformed into yeast cells with \r\nI-SceI-digested pLM1110_URA3 (a derivative of pLM1110 carrying a URA3 marker instead of \r\nLEU2) and terminal linker fragments including the repositioned Lox sites (400-500 bp gBlocks, \r\nIDT) (Table S1, Table S6) to enable homologous recombination-dependent assembly. Yeast \r\nwere then selected for a Ura+ phenotype, depleting the wild-type Leu+ recombinants.\r\nYeast transformation, payload validation, and transfer to E. coli\r\nThe following steps were performed as previously described (Brosh et al. 2023). Specifically, \r\nyeast transformations were performed using the Lithium acetate method (Gietz and Schiestl \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "2007). For screening of correct clones, DNA was isolated from individual yeast colonies by resus\u0002pension in 10-40 µL of 20 mM NaOH and boiling for 3 cycles of 95 °C for 3 min and 4°C for 1 min. \r\n2 µL of yeast lysate was used as a template in a 10 µL GoTaq Green reaction (Promega M7123) \r\nwith 0.25 µM of primers. Clones were screened for the intended payload structure using primers \r\nthat target newly formed junctions (positive screen), and in some cases using primers that target \r\nregions that are present in the parental plasmid but absent in the intended plasmid (negative \r\nscreen). Assembled payloads were isolated from candidate yeast clones using the Zymo yeast \r\nminiprep I protocol (Zymo Research D2001) and transformed into TransforMax EPI300 E. coli \r\ncells by electroporation using the manufacturer’s protocol.\r\nPayload DNA screening and preparation\r\nPayload DNA was prepped and verified as previously described (Brosh et al. 2023). Briefly, for \r\ninitial verification, TransforMax EPI300 E. coli colonies were picked into 3-5 mL LB-Kan supple\u0002mented with CopyControl Induction Solution (Lucigen CCIS125) and cultured overnight at 30 °C \r\nwith shaking at 220 RPM. Crude DNA was extracted and payload assembly verification was per\u0002formed by diagnostic digestion with restriction enzymes, PCR verification of new junctions, and \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n28\r\nSanger sequencing, depending on the payload. All assembled payloads were subsequently se\u0002quenced to high coverage depth (Table S8).\r\nSequence-verified payload clones were grown overnight in 2.5 mL cultures of LB-Kan at 30 °C \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 39,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "with shaking, diluted 1:100 in LB-Kan supplemented with CopyControl Induction Solution, and \r\nincubated for an additional 8-16 hours at 30 °C with shaking. For transfection, DNA was purified \r\nfrom induced E. coli using the Nucleobond XtraBAC kit (Takara 740436) and preps were stored \r\nat 4 °C.\r\nmESC culture\r\nmESC were cultured as previously described (Brosh et al. 2023). Specifically, C57BL/6J ×\r\nCAST/EiJ (B6xCAST) mESCs were cultured on plates coated with 0.1% gelatin (EMD Millipore \r\nES006-B) in 80/20 medium comprising 80% 2i medium and 20% mESC medium. 2i medium con\u0002tained a 1:1 mixture of Advanced DMEM/F12 (ThermoFisher 12634010) and Neurobasal-A (Ther\u0002moFisher 10888022) supplemented with 1% N2 Supplement (ThermoFisher 17502048), 2% B27 \r\nSupplement (ThermoFisher 17504044), 1% GlutaMAX (ThermoFisher 35050061), 1% Pen-Strep \r\n(ThermoFisher 15140122), 0.1 mM 2-mercaptoethanol (Sigma M3148), 1,250 U/mL LIF (ESGRO \r\nESG1107l), 3 μM CHIR99021 (R&D Systems 4423), and 1 μM PD0325901 (Sigma PZ0162). \r\nmESC medium contained knockout DMEM (ThermoFisher 10829018) supplemented with 15% \r\nFBS (BenchMark 100-106), 0.1 mM 2-mercaptoethanol, 1% GlutaMAX, 1% MEM nonessential \r\namino acids (ThermoFisher 11140050), 1% nucleosides (EMD Millipore ES008-D), 1% Pen\u0002Strep, and 1,250 U/mL LIF. Cells were grown at 37 °C in a humidified atmosphere of 5% CO2 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 40,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "and passaged twice per week on average.\r\nmESC genome engineering\r\nLanding pad integrations were performed using the Neon Transfection System as previously de\u0002scribed into B6xCAST ΔPiga mESCs, in which the endogenous Piga gene was deleted (Brosh et \r\nal. 2021). LP-PIGA2 integration at the Igf2/H19 locus (replacing a 157-kb genomic region) was \r\nperformed using 5 µg of pLP-PIGA2 and 2.5 µg of each pCas9-GFP plasmid expressing B6-\r\nspecific gRNAs mIgf2_1b and mIgf2_4b, followed by 1 µg/mL puromycin (ThermoFisher \r\nA1113803) selection for mESCs harboring a landing pad and 1 µM ganciclovir (GCV, Sigma \r\nPHR1593) selection against LP-PIGA2 backbone’s HSV1-ΔTK gene.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n29\r\nThe genomic deletion of the Igf2/H19 B6 allele was performed by replacing the 157-kb genomic \r\nregion with a selectable module (Figure S11A). The donor vector pDONOR~Neo~EGFP con\u0002tained a positive selection cassette expressing eGFP, a Neomycin resistance gene and a nega\u0002tive selection marker expressing tagBFP and was derived from pDONOR-tagBFP-PSM-EGFP \r\n(Addgene 100603). Flanking the positive selection cassette, 500 bp homology arms correspond\u0002ing to the genomic sequence flanking the Cas9 cut sites were cloned. Landing pad cells were \r\nfurther transformed using 5 µg of pDONOR~Neo~EGFP vector and 2.5 µg of each pCas9-GFP \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 41,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "plasmid expressing B6-specific gRNAs mIgf2_1b and mIgf2_4b, followed by 400 µg/mL Geneticin \r\nG418 (Thermo Fisher, 10131035) selection for 4 days.\r\nGenomic deletions of the Sox2 locus (Figure S11B) and the downstream enhancer clusters \r\n(Lsp1, Syt8, and HIDAD) were performed by co-transfecting cells with 2.5 μg of each pCas9-GFP \r\nand 2.5ul of 100 µM ssODN (IDT) bridging oligo with an overlap of 50 bp on each side of the \r\ndeletion and modified with 5’ and 3’ Phosphorothioate bonds to prevent degradation. The follow\u0002ing gRNAs were used for each deletion: mSox2_5p-1 and mSox2_3p-5 for the Sox2 locus; \r\nmIgf2_26b and mIgf2_27b for the HIDAD DHS cluster; mIgf2_28b and mIgf2_29b for the Syt8\r\nDHS cluster; mIgf2_29b and mIgf2_30b for the Lsp1 DHS cluster.\r\nPayload deliveries were performed as previously described (Brosh et al. 2021) with 10 × 106\r\nmESCs, 10 μg payload DNA and 10 μg pCAG-iCre plasmid (Addgene #89573) per transfection. \r\nTransfected mESCs were selected with 10 μg/mL blasticidin for 2 days starting day 1 post-trans\u0002fection and with 2 nM proaerolysin for 2 days starting day 7 post-transfection.\r\nFor landing pad integration, payload delivery, and genomic deletions, individual mESC clones \r\nwere manually picked approximately 10 days post-transfection into gelatinized 96-well plates pre\u0002filled with 30 µL TrypLE-Select, which was neutralized with 200 µL mESC medium. Immediately \r\nafter, 25 µL were transferred into a new plate with 75 µL of 2i media, obtaining two replica plates \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 42,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "with 90% and 10% relative densities. Three days later, crude gDNA was extracted from the 90% \r\nplate as described (Brosh et al. 2021) and used in PCR genotyping to identify candidate clones, \r\nwhich were then expanded from the 10% density plate for further verification and phenotypic \r\ncharacterization. Genomic DNA was extracted from expanded clones using the DNeasy Blood & \r\nTissue kit (QIAGEN 69506).\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n30\r\nmESC genotyping\r\nGenotyping mESC clones was performed either using PCR followed by gel electrophoresis as \r\ndescribed or using real-time quantitative PCR (qPCR), which was performed with the KAPA SYBR \r\nFAST (Kapa Biosystems KK4610) on a LightCycler 480 Real-Time PCR System (Roche) using \r\neither 96-well or 384-well qPCR plates as previously described (Brosh et al. 2023). In most cases \r\nloading was performed using an Echo 550 liquid handler (Labcyte): a 384-well qPCR plate was \r\nprefilled with 5 µL KAPA SYBR FAST and 4 µL water per well. 100 nL of each 100 μM primer and \r\n0.5 µL of each crude gDNA sample were transferred by the Echo. Genotyping payload clones \r\ntypically included, in addition to assays designed to detect the newly formed left and right junc\u0002tions, assays to detect the loss of the landing pad, the absence of the payload vector backbone, \r\nand for large (>100 kb) payloads, allele-specific assays to detect internal delivered regions. Gen\u0002otyping primers are listed in Table S6.\r\nHigh-throughput sequencing verification\r\nIllumina sequencing libraries were prepared from purified DNA as previously described (Brosh et \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 43,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "al. 2023). The library construction method for each sample is listed in Table S8.\r\nHybridization capture (Capture-seq) for targeted resequencing of engineered regions was per\u0002formed as previously described (Brosh et al. 2021). Briefly, biotinylated bait was generated using \r\nnick translation from BACs covering the Igf2/H19 (RP23-50N22 or RP23-137N15), Hprt (RP23-\r\n412J16) or Sox2 locus (RP23-144O8 or RP23-274P9) (see Table S7 for BAC coordinates), land\u0002ing pad plasmid (pLP-PIGA2), payload plasmid backbone, pCAG-iCre and pSpCas9 plasmids. \r\nBait sets and sequencing statistics are listed in Table S8.\r\nThe sequencing parameters and the analysis pipeline are detailed in (Brosh et al. 2023). The full \r\nprocessing pipeline is also available at https://github.com/mauranolab/mapping.\r\nPayload sequence verification\r\nPayload sequence verification to identify potential sample swaps or contamination was performed \r\nas previously described (Brosh et al. 2023). Briefly, mean sequencing coverage was calculated \r\nfor the genomic regions corresponding to the payload sequence and to the non-payload sequence\r\n(i.e. the portion of the engineered locus not included in the payload). Mean coverage was then \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n31\r\nnormalized by the payload vector backbone coverage. Coverage analysis results and quality con\u0002trol (QC) calls for each sample are reported in Table S9 and summarized in Table S2.\r\nTo detect payload DNA variants that might have been introduced during assembly or propagation \r\nin yeast or bacteria, we analyzed variant calls relative to the payload custom reference having \r\nsequencing depth above 10 and quality score above 50 (DP ≥ 10 and QUAL ≥ 50). Payload \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 44,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "variants are reported in Table S10 and QC calls are summarized in Table S2.\r\nmESC clone sequence verification\r\nmESC clone sequence verification was performed as previously described (Brosh et al. 2023)\r\nwith slight modifications. Briefly, mean sequencing coverage depth was calculated for the ge\u0002nomic regions corresponding to the payload and non-payload (as defined above); and for the \r\npayload vector backbone, landing pad, landing pad backbone, and pCAG-iCre custom refer\u0002ences. Coverage depth of engineered regions was normalized by the mean genomic coverage of \r\ntheir flanks (i.e. the un-engineered portion of the genomic region targeted by the bait), such as \r\nthat a single copy corresponds to a value of ∼0.5. For landing pad clones, we expect normalized \r\ncoverage depth of 0.5 ±0.3 for the non-payload region and <0.1 for landing pad backbone. For \r\npayload clones, the expected coverage depth was adjusted according to the expected ploidy of \r\nthe site, such as the limits are ploidy / 2 ±0.3 for the payload region (0.2-0.8 for 1x; 0.7-1.3 for 2x; \r\n1.2-1.8 for 3x), 0.5 ±0.3 for the non-payload region and <0.1 for the landing pad, payload vector \r\nbackbone and pCAG-iCre. Coverage depth analysis QC calls for each clone are reported in Ta\u0002ble S11.\r\nWe further verified the presence of BL6 allele variants, which are lost in regions replaced by \r\nlanding pads and restored by delivered payloads, by calculating allelic ratios as the mean propor\u0002tion of reads supporting the reference (BL6) allele (propREF) for the genomic regions described \r\nabove. Expected proportions of the reference allele were adjusted according to ploidy to: 0.3-0.7 \r\nfor 2x; 0.47-0.87 for 3x for payload regions, and 0-0.2 for non-payload regions. Regions with 10 \r\nor fewer variants were ignored. Allelic ratio QC calls for each clone are reported in Table S11.\r\nTo verify genomic integration sites, we detected sequencing read pairs mapping to two different \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 45,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "reference genomes using bamintersect (Brosh et al. 2021) as previously described (Brosh et al. \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n32\r\n2023) with slight modifications: same-strand reads mapping within 500 bp were clustered; a min\u0002imum width threshold of 125 bp was required for reporting; and junctions with few reads \r\n(ReadsPer10M < 20 or junctions representing less than 5% of the total ReadsPer10M) were ex\u0002cluded. Bamintersect junctions were classified hierarchically based on position (Table S12). Re\u0002sults and QC calls for each clone are reported in Table S13.\r\nMesendodermal differentiation\r\nDifferentiation to mesendodermal cells was adapted from a published protocol (Thomson et al. \r\n2011). mESCs were first recovered into 2i media for two days. On day 1 of differentiation, mESCs \r\nwere seeded on plates coated with 0.1% gelatin (EMD Millipore ES006-B) in N2/B27 differentia\u0002tion medium, containing a 1:1 mixture of DMEM/F12 (ThermoFisher 11330032) and Neurobasal \r\n(ThermoFisher 21103049), supplemented with 0.5% N2 Supplement (ThermoFisher 17502048), \r\n1% B27 Supplement (ThermoFisher 17504044), 1% GlutaMAX (ThermoFisher 35050061), 1% \r\nPen-Strep (ThermoFisher 15140122), 1% MEM nonessential amino acids (ThermoFisher \r\n11140050), 100 μM sodium pyruvate (ThermoFisher 11360070), 0.1 mM 2-mercaptoethanol \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 46,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "(Sigma M3148), supplemented with 10 μM ROCK inhibitor Y-27632 (Cell Signaling 13264). On \r\nday 2, ROCK inhibitor was removed and differentiation media was supplemented with 3 μM \r\nCHIR99021 (R&D Systems 4423) replenished daily for 3 additional days. On day 5, plates were \r\nrinsed twice using PBS and cells were collected for further studies.\r\nDNase-seq\r\nDNase digestion was performed as described previously (John et al. 2013; Georgolopoulos et al. \r\n2021) and adapted to 200 µL thermocycler tubes. Briefly, nuclei were extracted from cells and \r\nincubated with limiting concentrations of the DNA endonuclease DNase I (Sigma D4527-20KU) \r\nsupplemented with Ca2+ and Mg2+ for 3 min at 37 °C. Digestion was stopped by the addition of \r\nEDTA, and the samples were treated with proteinase K and RNase A. Short double-hit fragments \r\nwere isolated from DNaseI digestion using magnetic bead polyethylene glycol (PEG) fractiona\u0002tion. Illumina libraries were generated and sequenced on an Illumina NextSeq 500. Sequencing\r\nstatistics are listed in Table S8.\r\nCUT&RUN\r\nCUT&RUN experiments were conducted using the CUT&RUN (Cleavage Under Targets & Re\u0002lease Using Nuclease) assay kit (Cell Signaling Technology, #86652) following the manufacturer’s \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n33\r\nprotocol. For each reaction, 5 × 106 cells were used. Positive (H3K4me3) and negative (Rabbit \r\nmAb IgG) controls were performed using the antibodies provided in the kit. The CTCF antibody \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 47,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "(Cell Signaling Technology, #2899S) was used at a dilution of 1/50 for overnight incubation at \r\n4°C. DNA fragments were purified using the DNA Clean & Concentrator-5 Kit (Zymo, D4014) \r\naccording to the manufacturer’s procedures, and eluted in 15 µL. Up to 11.15 µL purified DNA \r\nwas taken directly into end repair for library construction using the Illumina dsDNA protocol as \r\npreviously described (Brosh et al. 2023). During PCR enrichment of adaptor-ligated DNA, the \r\nextension time was reduced to 15 sec to exclude amplification of large library DNA fragments \r\n(>1,000 bp) and reduce background signal. The sequencing parameters and the analysis pipeline \r\nare detailed in (Halow et al. 2021). The full processing pipeline is also available at \r\nhttps://github.com/mauranolab/mapping. Sequencing statistics are listed in Table S8.\r\nRNA Isolation, cDNA synthesis and mRNA expression analysis by real-time qRT-PCR\r\nExpression assays were performed as previously described (Brosh et al. 2023). Briefly, RNA was \r\nisolated using the RNeasy-mini (QIAGEN 74106) protocol followed by DNase treatment using the \r\nTurbo DNA-free kit (ThermoFisher AM1907). cDNA was synthesized from 1-2 μg total RNA with \r\nthe Multiscribe High-Capacity cDNA Reverse Transcription Kit (ThermoFisher 4368814).\r\nReal-time quantitative reverse transcription PCR (qRT-PCR) was performed using KAPA SYBR \r\nFAST (Kapa Biosystems KK4610) on a 384-well LightCycler 480 Real-Time PCR System (Roche) \r\nand threshold cycle (Ct, also called Cp) values were calculated using Abs Quant/2nd Derivative \r\nMax analysis. Primers were designed to detect Igf2 and H19 transcripts in an allele-specific man\u0002ner (Figure S6 and Table S6). In most cases loading was performed using an Echo 550 liquid \r\nhandler (Labcyte): a 384-well qPCR plate was prefilled with 5 µL KAPA SYBR FAST and 4 µL \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 48,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "water per well. 100 nL of each 100 μM primer and 1 µL of each cDNA sample were transferred \r\nby the Echo. Thermal cycling parameters were as follows: 3 min pre-incubation at 95 °C, followed \r\nby 40 amplification cycles of 3 sec at 95 °C, 10 sec at 60 °C and 10 sec at 72 °C. Sox2 expression \r\nwas quantified using a similar protocol but with annealing temperature lowered to 57 °C as in \r\n(Brosh et al. 2021).\r\nAssays were performed in duplicate and replicate wells on the same plate were averaged after \r\nmasking wells with no or very low amplification (Cp > 30) and low RNA quality (Gapdh Cp > 19). \r\nRaw Ct values are listed in Data S2. ΔCt values for the BL6 and CAST alleles were computed \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n34\r\nrelative to Gapdh (Hprt in the time course differentiation experiment). Clones demonstrating non\u0002specific differentiation under ESC culture conditions were identified as having high Igf2 CAST \r\nallele expression (ΔCt < 7 in ESC) and discarded (n=5). Replicate ΔCt measurements of the \r\nsame clone across different plates and differentiations were averaged. Activity was reported as \r\n2-ΔCt, scaled to yield expression values ranging from 0 (ΔIgf2/H19) and 1 (“Full-length”) (Ta\u0002ble S5). Scaling was performed by subtracting the median of the ΔIgf2/H19 samples in 2i, then \r\ndividing by the difference between the median of the appropriate “Full-length” payload sample: \r\nconstitutive CTCF occupancy for H19, and abolished CTCF occupancy for Igf2 and the median \r\nof the ΔIgf2/H19 samples.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 49,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Activity = (x - ΔIgf2/H19) / (Full-length - ΔIgf2/H19)\r\nSox2 expression was scaled similarly, and as previously described in (Brosh et al. 2023). Briefly, \r\nSox2 fold change was defined as the difference between the BL6 and CAST Sox2 alleles, calcu\u0002lated as 2ΔCt[CAST-BL6]. Fold change was scaled to yield expression values ranging from 0 (ΔSox2) \r\nto 1 (“Sox2 & Sox2LCR”) by subtracting the mean fold change calculated for the ΔSox2 samples \r\nfrom all data points, then dividing by the mean fold change of the appropriate wild-type payload \r\nsamples (“Sox2 & Sox2LCR” or “Sox2LCR”).\r\nTranscriptional analysis of mesendoderm differentiated cells\r\nTranscriptomic analysis of mesendoderm differentiated cells was performed in 6 independent en\u0002gineered clones: 3 clones including the “Full-length” payload with constitutive CTCF occupancy\r\nat Igf2/H19 and 3 clones including “Full-length” payload with abolished CTCF occupancy. RNA\u0002seq libraries were prepared from 500 ng of total RNA using the NEBNext Ultra II Directional RNA \r\nLibrary Prep Kit for Illumina (NEB E7760S), and performing PolyA selection for ribosomal deple\u0002tion using NEBNext Poly(A) mRNA Magnetic Isolation Module (NEB E7490) according to the \r\nmanufacturer’s protocol. Libraries were sequenced in single-end mode on a NextSeq 500 (Ta\u0002ble S8).\r\nTranscriptional profiles from 6 mESC replicates were analyzed from published RNA-seq data. \r\nReads were aligned to the mouse genome build mm10 using STAR and mapped to transcripts \r\nusing RSEM. Raw reads counts were normalized using DESeq2 and differential expressed genes \r\nwere determined as p < 0.05, |FC| > 1. Enrichment analysis of protein coding genes was done \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 50,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n35\r\nusing clusterProfiler on published sets of genes with high or low expression in differentiated mes\u0002endoderm (p < 0.05) (Shen et al. 2008).\r\nCross-cell type DHS correlation analysis\r\nTissue-specific accessibility patterns were based on a master peak list of 45 representative sam\u0002ples from mouse ENCODE DNase-seq data (Halow et al. 2021). The cell-type activity spectrum \r\n(MCV, for multi-cell verified) was computed using ‘bedmap --count’ to consider overlaps with the \r\ncenter ±25 bp of each feature. MCV was then scaled from 0 to 1 by dividing by 45.\r\nAccessibility per DHS peak per cell/tissue type was quantified using bedmap --max from density \r\ntracks. The Pearson correlation coefficient (r) was calculated pairwise between each viewpoint \r\nand each DHS within the surrounding 1-Mb window. We then fitted a loess regression curve (span \r\n= 0.2). The coordinates for the Sox2 LCR correspond to the DHS23 to DHS26 (Brosh et al. 2023)\r\n(Table S7). Gene TSS viewpoints were computed as TSS ±1 kb.\r\nDHS accessibility correlation was assessed for three viewpoint sets: (i) 1000 random DHSs se\u0002lected from a peak master list of 45 representative samples from mouse ENCODE DNase-seq \r\ndata (Halow et al. 2021) and located at least 10 kb away from a gene TSS; (ii) promoters of \r\nprotein-coding genes (±1 kb from TSS, Gencode release M23, genes located in mitochondrial \r\nDNA were excluded); (iii) mESC super-enhancers (Whyte et al. 2013). Viewpoints with less than \r\n80% mappable sequence in the 1 Mb surrounding window were excluded. DHS correlation pat\u0002terns were grouped based on the number of instances within a 1-Mb window that the smoothed \r\nPearson correlation exceeded 0.25: 0 times (uncorrelated), 1 time (independent), and 2+ times \r\n(coordinated).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 51,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 468,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "available under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\nFIGURES\r\nFigure 1. Engineering the Igf2/H19 locus\r\n(A) Igf2/H19 locus in mESC and differentiated mesendodermal cells. DNase-seq tracks show activation of the \r\nenhancer cluster upon differentiation. Triangles indicate CTCF recognition sequence orientation. (B) Barrier \r\nmodel where CTCF occupancy at the imprinting control region (ICR) directs activity of the endogenous enhancer \r\ncluster towards H19 or Igf2 (Bell and Felsenfeld 2000; Hark et al. 2000). (C) Schematic of engineering and \r\ndelivery strategy. Payloads were assembled in yeast, amplified in bacteria, and delivered to mESCs using Big\u0002IN. Multiple independent clones were systematically verified for correct genome engineering and differentiated \r\ninto mesendodermal cells for further phenotyping. (D) Schematic of Igf2/H19 locus engineering using Big-IN. \r\nCpG mutations (methylation-insensitive ICR [MI-ICR]) or CTCF deletions (ΔCTCF-ICR) permit genetic control of\r\nCTCF occupancy. B6 or engineered variants in H19 and Igf2 genes permit allele-specific expression analysis. \r\n(E) Expression analysis of the engineered Igf2/H19 locus in mesendodermal cells. Schemes on the left represent \r\neach delivered payload. At right, each point represents the expression of the engineered H19 or Igf2 gene in an \r\nindependent clone, measured using allele-specific qRT-PCR. Bars indicate median. Expression was normalized \r\nto Gapdh and then scaled between 0 (ΔIgf2/H19 locus) and 1 (“Full-length” rescue payloads), normalizing H19\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 52,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "to the “Full-length” payload with constitutive CTCF occupancy, and Igf2 to the “Full-length” payload with abol\u0002ished CTCF occupancy (dashed lines). Payloads with both constitutive CTCF occupancy (orange hexagon) or \r\nabolished CTCF occupancy (empty hexagon) at the ICR were assessed.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\nFigure 2. Identification of long-range regulatory elements at the Igf2/H19 locus\r\n(A) The Igf2/H19 locus and extended downstream region showing DNase-seq and CTCF CUT&RUN in mESC \r\nand differentiated mesendodermal cells. Triangles indicate CTCF recognition sequence orientation. “Full-length” \r\nand “ΔH19Enh at Igf2/H19” are repeated from Figure 1E for reference. (B) Expression analysis in mesendoder\u0002mal cells of Igf2/H19 payloads when delivered to the Igf2/H19 locus, to a genomic safe harbor locus (Hprt), or to \r\nIgf2/H19 locus in conjunction with distal candidate enhancers deletions. Each point represents the expression of \r\nthe engineered H19 or Igf2 in an independent clone using allele-specific qRT-PCR with bars indicating the me\u0002dian. First two rows are from Figure 1E. Expression was normalized to Gapdh and then scaled between 0 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 53,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "(ΔIgf2/H19 locus) and 1 (“Full-length” rescue payloads), normalizing H19 to the “Full-length” payload with con\u0002stitutive CTCF occupancy, and Igf2 to the “Full-length” payload with abolished CTCF occupancy, which are also \r\nrepresented as dashed lines. Payloads with both constitutive CTCF occupancy (orange hexagon) or abolished \r\nCTCF occupancy (empty hexagon) at the ICR were assessed. (C) Contribution of the H19 enhancers and the \r\nnative context in the expression levels of H19 and Igf2 genes in the payloads with constitutive CTCF occupancy\r\nor abolished CTCF occupancy, respectively. The presence (black dots) and absence (gray dots) of each element \r\nis indicated. Bars indicate median and error bars represent the interquartile range. Dashed horizontal lines indi\u0002cate the expected transcriptional output of adding both the enhancers and the surrounding context (bottom), \r\nversus the measured transcriptional output (top). Source data are from (B).\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\nFigure 3. Enhancer interchangeability at the Igf2/H19 and Sox2 loci\r\n(A) Sox2 and locus control region (LCR) showing DNase-seq and CTCF CUT&RUN in mESC and mesendoder\u0002mal cells. Triangles indicate CTCF recognition sequence orientation. (B-C) Points represent independently en\u0002gineered clones and bars indicate the median (B) Expression analysis in differentiated mesendodermal cells\r\nharboring payloads including the wild-type Sox2 locus, the Sox2 locus with the LCR replaced by the H19 en\u0002hancer cluster, and the Igf2/H19 locus with the Igf2 gene and promoter replaced by the Sox2 gene and promoter. \r\nEach payload was delivered both to the Sox2 locus (left) and Igf2/H19 locus (right). Expression of the engineered \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 54,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 463,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Sox2 allele was normalized to the wild-type CAST allele and then scaled between 0 (ΔSox2 locus) to 1 (“Sox2\r\n& Sox2 LCR”), which are also represented as dashed lines. (C) Igf2 and H19 expression analysis in mESC \r\nengineered with a “Full-length” Igf2/H19 rescue payload, or payloads wherein the H19 enhancer was replaced \r\nby the Sox2 LCR in either orientation. Expression was normalized to Gapdh and then scaled between 0 \r\n(ΔIgf2/H19 locus) and 1 (“Full-length”), normalizing H19 to the “Full-length” payload with constitutive CTCF oc\u0002cupancy, and Igf2 to the “Full-length” payload with abolished CTCF occupancy. Payloads with both constitutive \r\nCTCF occupancy (orange hexagon) or abolished CTCF occupancy (empty hexagon) at the ICR were assessed. \r\nThe dashed lines indicate basal expression of “ΔH19Enh” in mESCs and expression of “Full-length” Igf2/H19 \r\nrescue payload in differentiated mesendodermal cells.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\nFigure 4. Cross-cell type accessibility patterns reflect locus function\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 55,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "(A) Accessibility patterns at the Hprt, Sox2 and Igf2/H19 loci across 45 cell and tissue types, ordered by hierar\u0002chical clustering of genomic DHSs as in (Halow et al. 2021). Shading represents the Sox2 LCR and H19 en\u0002hancers. (B) Correlation of DHS accessibility across Hprt, Sox2 and Igf2/H19 loci. Each line represents the \r\nPearson correlation coefficient (r) between the DHS located at the viewpoint with every other DHS in a 1-Mb \r\nwindow. Viewpoints are shaded in each plot. (C) Schematic representation of uncorrelated, independent and \r\ncoordinated DHS clusters. Multiple regions of high Pearson r values indicate coordinated DHS activity potentially \r\ndue to synchronized activation in specific tissues. Corr: Pearson correlation coefficient. (D) Heatmaps showing \r\nthe Pearson correlation coefficient (r) between the DHS located at the viewpoint and the surrounding DHS within \r\na 1-Mb window. Three different sets of viewpoints are represented: random DHSs, promoters of protein coding \r\ngenes (±1 kb from TSS), and mESC super-enhancers (SE) (Whyte et al. 2013); each row portrays the region \r\nsurrounding a different viewpoint. Rows are not shown to scale. DHS correlation patterns were grouped into \r\nuncorrelated, independent and coordinated based on the number of peaks exceeding r > 0.25. (E) Representa\u0002tion of DHSs correlation patterns for various genomic features.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n42\r\nTABLES\r\nH19 expression Igf2 expression\r\nPayload Differentiation\r\nΔCTCF\r\n-ICR\r\nMI\u0002ICRRatio (MI-ICR/ \r\nΔCTCF-ICR)\r\nΔCTCF\u0002ICRMI\u0002ICRRatio (MI-CR/ \r\nΔCTCF-ICR)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 56,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Full-length Mesendoderm 0.04 1.0 26 1.0 0.11 9\r\nSox2LCR & H19 & ICR \r\n& Igf2\r\nmESC 0.16 0.9 5 3.4 0.02 162\r\nSox2LCR (inverted) & \r\nH19 & ICR & Igf2\r\nmESC 1.76 14.6 8 6.5 0.05 136\r\nTable 1. Comparison of ICR function when linked to H19 enhancers and the Sox2 LCR.\r\nComparison of H19 and Igf2 expression for pairs of payloads with either constitutive CTCF occu\u0002pancy (MI-ICR) or abolished CTCF occupancy (ΔCTCF-ICR). Expression was normalized to \r\nGapdh and then scaled between 0 (ΔIgf2/H19 locus) and 1 (“Full-length”), normalizing H19 to the \r\n“Full-length” payload with constitutive CTCF occupancy, and Igf2 to the “Full-length” payload with \r\nabolished CTCF occupancy.\r\nLocus\r\nGene density\r\n(Genes / Mb)\r\nDHS density in mESC\r\n(DHS / Mb)\r\nDHS density in Mesendoderm\r\n(DHS / Mb)\r\nHprt 8 42 52\r\nSox2 1 37 30\r\nIgf2/H19 32 58 75\r\nTable 2. Regulatory environment complexity.\r\nGene and DHS density was calculated by counting the number of genes or DHS hotspots (FDR \r\n< 0.05), respectively, in a window of 1 Mb sequence centered on each locus. Genes include all \r\nvalidated (level 1) or manually annotated (level 2) Gencode VM23 protein coding transcripts.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n43\r\nSupplementary Materials\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 57,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "TABLE OF CONTENTS\r\nSUPPLEMENTARY FIGURES................................................................................................... 44\r\nFigure S1. Big-IN landing pad at Igf2/H19............................................................................... 44\r\nFigure S2. Schematic representation of engineered payloads. .............................................. 45\r\nFigure S3. Mesendodermal differentiation time course........................................................... 46\r\nFigure S4. Mesendodermal marker expression profiling......................................................... 47\r\nFigure S5. Engineering the imprinting control region to control CTCF occupancy. ................ 48\r\nFigure S6. Allele-specific qRT-PCR expression analysis........................................................ 49\r\nFigure S7. Igf2/H19 payloads expression analysis on logarithmic scale. ............................... 50\r\nFigure S8. Expression consistency analysis in clones differentiated multiple times. .............. 51\r\nFigure S9. Replicate variability analysis.................................................................................. 52\r\nFigure S10. Expression of engineered versus CAST allele of Igf2 in mesendoderm. ............ 53\r\nFigure S11. Igf2/H19 and Sox2 deletions................................................................................ 54\r\nFigure S12. H19, Igf2 and Sox2 gene and promoter regions.................................................. 55\r\nFigure S13. DHS accessibility correlation. .............................................................................. 56\r\nSUPPLEMENTARY TABLES .................................................................................................... 57\r\nTable S1. Payloads and assembly details............................................................................... 57\r\nTable S2. Summary of payload sequencing QC. .................................................................... 57\r\nTable S3. mESC clones. ......................................................................................................... 57\r\nTable S4. Summary of RNA-seq sequencing libraries............................................................ 58\r\nTable S5. qPCR expression values and activity...................................................................... 58\r\nTable S6. Primers, gRNAs, and synthetic DNA fragments. .................................................... 58\r\nTable S7. Genomic coordinates.............................................................................................. 59\r\nTable S8. Summary of payload and mESC capture sequencing libraries. ............................. 59\r\nTable S9. Payload sequencing coverage QC. ........................................................................ 60\r\nTable S10. Payload variant calling.......................................................................................... 60\r\nTable S11. mESC clone capture sequencing coverage QC. .................................................. 60\r\nTable S12. Bamintersect junction categories.......................................................................... 61\r\nTable S13. mESC clones bamintersect results....................................................................... 62\r\nSUPPLEMENTARY DATA......................................................................................................... 63\r\nData S1. Landing pad and payload sequences. ..................................................................... 63\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 58,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 470,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Data S2. Raw qRT-PCR Ct values.......................................................................................... 63\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n44\r\nSUPPLEMENTARY FIGURES\r\nFigure S1. Big-IN landing pad at Igf2/H19.\r\n(A) Engineering strategy for LP-Igf2/H19 mESCs. The B6 allele of the 157-kb Igf2/H19 locus was replaced with \r\na landing pad (LP-PIGA2). Landing pad integration was driven by Cas9 using a pair of gRNAs targeting both the \r\nreplaced allele and the landing pad plasmid and by short homology arms that facilitate homology-directed repair. \r\nLanding pad mESCs were selected with puromycin, while ganciclovir (GCV) selects against landing pad back\u0002bone integration. Cre recombinase-mediated cassette exchange (RMCE) enabled replacement of the landing \r\npad with a series of payloads. Payload-transfected cells were transiently selected with blasticidin, followed by \r\ncounterselection of remaining landing pad mESCs cells with proaerolysin. (B) Schematic of mESC clone verifi\u0002cation pipeline. Representative examples of targeted capture sequencing validation throughout the engineering \r\nprocess: parental (ΔPiga) mESCs, LP-Igf2/H19 clone D05, and full-length A09 payload clones. Ticks under each \r\ncoverage track indicate heterozygous (B6xCAST, blue) or homozygous non-reference (CAST, yellow) variants.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 59,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 462,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n45\r\nFigure S2. Schematic representation of engineered payloads.\r\nShown are DNase-seq and CTCF CUT&RUN tracks and the CTCF sites and DNase Hypersensitive Sites (DHS) \r\nidentified throughout the Igf2/H19 locus. Inverted sequences are colored in red. Hexagons denote payloads pairs \r\nthat are identical except for their ICR structure.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n46\r\nFigure S3. Mesendodermal differentiation time course.\r\nExpression analysis using qRT-PCR during a differentiation time course from mESC to mesendodermal cells.\r\nH19 and Igf2 expression was measured using allele-specific primers for the engineered and the CAST alleles, \r\nand Sox2 expression using primers that amplify both alleles. Each point represents the expression of an inde\u0002pendently engineered mESC clone normalized to Hprt. Lines represent medians. The selected time point for \r\nfurther differentiation experiments is represented as a vertical dashed line.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n47\r\nFigure S4. Mesendoderm marker gene expression profiling.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 60,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "(A-B) Gene set enrichment analysis of differentially expressed genes in RNA-seq data from mesendoderm dif\u0002ferentiated cells vs. mESC. The two sets of genes high (A) and low (B) in mesendoderm were obtained from \r\ngene expression profiles from (Shen et al. 2008). NES, Normalized Enriched Score.\r\n(C-D) qRT-PCR expression analysis of mesoderm marker genes identified from RNA-seq.\r\n(C) Quantification across all clones in mESC and differentiated cells.\r\n(D) Principal component analysis. Clones are colored by differentiation batch, and shape denotes mESC (circles)\r\nand mesendodermal cells (triangles).\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n48\r\nFigure S5. Engineering the imprinting control region to control CTCF occupancy.\r\n(A) Detail of the Igf2/H19 ICR showing CTCF occupancy in mESC. Triangles indicate CTCF recognition se\u0002quence orientation. Assembled payloads included either CTCF site deletions resulting in abolished CTCF occu\u0002pancy (ΔCTCF-ICR, empty hexagon) or CpG mutations resulting in constitutive CTCF occupancy (methylation\u0002insensitive ICR or MI-ICR, orange hexagon). *, Point deletion detected in the “Full-length” ΔCTCF-ICR payload \r\n(see BS09866A in Table S10); this point variant is not expected to confound the measured activities of the \r\nintegrated payload. (B) Detail on the methylation-insensitive mutations in the MI-ICR design where all CpGs in \r\nthe 6 CTCF recognition sequences were mutated without significant alteration of the CTCF canonical recognition \r\nsequence. (C) CUT&RUN CTCF signal at the Igf2/H19 locus in differentiated mesendodermal cells. Genotypes\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 61,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 471,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "for each track are indicated at the left. The shaded region denotes the ICR. The CTCF recognition site orienta\u0002tions are indicated at top by triangles.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n49\r\nFigure S6. Allele-specific qRT-PCR expression analysis.\r\n(A) Schematic representation of the H19 gene, including the CAST variants present in the unengineered allele \r\nand a detailed sequence view including the allele-specific primers used in the qRT-PCR assays (as detailed in \r\nTable S6). (B) Schematic representation of the Igf2 gene. Shown below are CAST variants present in the un\u0002edited allele, and engineered synonymous variants in exon 4. The detailed sequence view includes the allele\u0002specific primers used in the qRT-PCR assays (as detailed in Table S6) and the gRNA used for payload engi\u0002neering. (C) Codons overlapping the 4 point substitutions in the wild-type and engineered Igf2 showing their \r\ngenomic frequencies. (D) Allele-specific qRT-PCR assay for H19 and Igf2 expression in differentiated mes\u0002endodermal cells. Transcripts from engineered alleles were measured using allele-specific primers in LP\u0002Igf2/H19 as well as “Full-length” payload clones with constitutive or abolished CTCF binding to the ICR. Each \r\npoint represents the expression of the engineered H19 or Igf2 gene in an independent clone, measured using \r\nallele-specific qRT-PCR. Bars indicate median.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 62,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n50\r\nFigure S7. Igf2/H19 payloads expression analysis on logarithmic scale.\r\nExpression was normalized to Gapdh and then to the reference “Full-length” rescue payloads, which are also \r\nrepresented as dashed lines (“Full-length” payload with constitutive CTCF occupancy for H19 and “Full-length”\r\npayload with abolished CTCF occupancy for Igf2). Each point represents the expression of the engineered H19\r\nor Igf2 in an independent clone using allele-specific qRT-PCR with bars indicating the median. Payloads with \r\nboth constitutive CTCF occupancy (orange hexagon) or abolished CTCF occupancy (empty hexagon) at the ICR \r\nwere assessed. Data are the same as in Figure 1E, Figure 2B, and Figure S6D.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n51\r\nFigure S8. Expression consistency analysis in clones differentiated multiple times.\r\nShown are mesendoderm marker gene and engineered gene (H19. Igf2, and Sox2) expression by differentiation \r\nbatch. Independent clones are listed along the x-axis, and each point represents a unique differentiation batch.\r\nPayload ID and delivery location are listed above.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n52\r\nFigure S9. Replicate variability analysis.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 63,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 440,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "Analysis of standard deviation (stdev) of mesendoderm marker and engineered gene expression across repli\u0002cates. Replicates were considered as multiple clones for the same payload (gray), multiple clones for the same \r\npayload while first averaging data from different differentiations (blue), or across differentiations for the same \r\nclone (red). Variation across differentiations was computed only for clones differentiated multiple times.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n53\r\nFigure S10. Expression of engineered versus CAST allele of Igf2 in mesendoderm.\r\n(A) Expression of all payloads, grouped by whether the payload contained an ICR with abolished or constitutive \r\nCTCF occupancy (x-axis). CTCF occupancy at the ICR reduced expression of the Engineered but not CAST Igf2\r\nallele. (B) Analysis of the correlation between Engineered and CAST alleles in the same clone. Each point rep\u0002resents a distinct clone.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n54\r\nFigure S11. Igf2/H19 and Sox2 deletions.\r\n(A) Engineering of Igf2/H19 B6-allele deletion. The B6 allele of the Igf2/H19 locus in chromosome 7 was deleted \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 64,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "through replacement by pDONOR~Neo~EGFP. Representative examples of targeted capture sequencing vali\u0002dation are shown: coverage tracks for parental (ΔPiga) mESCs and LP-Hprt-ΔIgf2/H19 mESCs including dele\u0002tion of the B6 Igf2/H19 allele (ΔIgf2/H19B6) clone D05. Ticks under each coverage track indicate heterozygous \r\n(B6xCAST, blue) or homozygous non-reference (CAST, yellow) variants. (B) Engineering of Sox2 B6-allele de\u0002letion. The B6 allele of the Sox2 locus at chromosome 3 was deleted using Cas9 and a single-stranded oligode\u0002oxynucleotide (ssODN) as a donor for homology-directed repair. Representative examples of targeted capture \r\nsequencing validation are shown: coverage tracks for parental (ΔPiga) mESCs and LP-Igf2/H19-ΔSox2 mESCs\r\nincluding deletion of the Sox2 B6 allele clone B04. Ticks under each coverage track indicate heterozygous \r\n(B6xCAST, blue) or homozygous non-reference (CAST, yellow) variants. Puro, puromycin-resistance gene; \r\nPIGA, human mini PIGA gene; mScr, mScarlet; ΔTK, truncated thymidine kinase; BSD, blasticidin-resistance \r\ngene; eGFP, enhanced green fluorescent protein gene; NeoR, Neomycin-resistance gene.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n55\r\nFigure S12. H19, Igf2 and Sox2 gene and promoter regions.\r\nGenomic region surrounding H19 gene and the ICR (A), Igf2 gene (B), and Sox2 gene (C), showing DNase-seq \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 65,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "and CTCF CUT&RUN in mESC and differentiated mesendodermal cells, together with ChIP-nexus data for \r\nNanog transcription factor occupancy in mESC. The region engineered in those payloads including gene and \r\npromoter swaps is represented by the black bar and highlighted in yellow (see Table S7 for region coordinates).\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n56\r\nFigure S13. DHS accessibility correlation.\r\n(A) Cell and tissue selectivity of DHSs at the Hprt, Sox2, and Igf2/H19 loci. Accessibility was assessed as the \r\nproportion of 45 samples from mouse ENCODE which had a DHS. DHSs overlapping CTCF sites and TSS were \r\nanalyzed separately. Bars represent the median, boxes represent the interquartile range, and whiskers the min\u0002imum and maximum values. (B-D) Heatmap of pairwise correlations (Pearson r coefficient) of DHS accessibility \r\nin the 1-Mb regions surrounding Igf2/H19 (B), Sox2 (C) and Hprt (D). Correlations were computed across 45 \r\nmice ENCODE DNase-seq samples. Relevant regulatory elements or genes are labeled with distinct colors. \r\nDNE, Distal Neural Enhancer (Chakraborty et al. 2023).\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n57\r\nSUPPLEMENTARY TABLES\r\nTable S1. Payloads and assembly details.\r\nStrategies and reagents used for payload, as well as sequencing data. See Methods for details \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 66,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 440,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "of each assembly strategy, Table S6 for cloning primer sequences, gRNA sequences and syn\u0002thetic fragment sequences. Source or intermediate payloads not delivered to mESCs were as\u0002signed “Intermediate” in the “Assembly Step” field and those not including an ICR sequence in \r\nthe design are assigned n/a in the “ICR design” field. Payload ID, a unique name for each payload.\r\nThis table is provided as a separate file.\r\nTable S2. Summary of payload sequencing QC.\r\nDelivered payloads (n=19)\r\nPassed Failed No call\r\nCoverage 18 (94.7%) 1 (5.3%)(a) 0\r\nVariant calls 19 (100%) 0 0\r\n(a) We detected a subclonal internal deletion by a drop in coverage in Igf2_Igf2_dCTCFinICR \r\n(BS09866A in Table S9). mESC clones were additionally screened for correct sequence integra\u0002tion after delivery.\r\nTable S3. mESC clones.\r\nSummary of mESC clones described in this manuscript. Genetic Modification details DNA ele\u0002ments integrated and their integration site in square brackets; transiently transfected plasmids \r\n(e.g. pSpCas9 or pCAG-Cre) are indicated by null. See Table S5 for payload labels used in fig\u0002ures. “Bl6/C_LP300(Igf2_1_4)_D5” corresponds to LP-Igf2/H19 mESCs, “BL6/C \r\nLP300(Igf2_1_4)_D5 dSox2_201026_B4” corresponds to LP-Igf2/H19-ΔSox2 mESCs including \r\nthe deletion of the Sox2 B6 allele, “BL6/C LP300(Hprt_3g_4g)_20210414_C04” corresponds to \r\nLP-Hprt mESCs, “Bl6/C_LP300(Hprt_3_4)_C04_dIgf2_C9” corresponds to LP-Hprt-ΔIgf2/H19 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 67,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "cells including deletion of the Igf2/H19 B6 allele, “BL6/C LP300(Sox2_1g_5g)_201007_D4” cor\u0002responds to LP-Sox2 mESCs, and “Bl6/C LP305(Sox2_6g_7g)_20210326_C01” corresponds to \r\nLP-LCR mESCs. Sample ID, a unique sequencing library identifier; Clone ID, a unique descriptor \r\nof the mESC clone; Payload ID, LIMS name for relevant payload or landing pad; Source, publi\u0002cation in which this mESC clone was first described.\r\nThis Table is provided as a separate file.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n58\r\nTable S4. Summary of RNA-seq sequencing libraries.\r\nSample ID, a unique sequencing library ID; Repository ID, a unique ID RNA-seq data obtained \r\nfrom the GEO repository; Clone ID, a unique descriptor of mESC clones; Source, unique identifier \r\nfor a specific differentiation experiment date. For each sample, the Number of pass-filter align\u0002ments, Uniquely mapped and Nonredundant reads is provided. Batch indicates the differentiation \r\nbatch.\r\nThis Table is provided as a separate file.\r\nTable S5. qPCR expression values and activity.\r\nIgf2, H19 and Sox2 expression in engineered clones. Payload ID, a unique name for each pay\u0002load. Location, delivery location in the genome. Additional Deletions, presence of additional dele\u0002tions engineered in that mESC clone. Label, display name used in Figure panels. Clone ID, a \r\nunique identifier for each engineered mESC clone. Cell Type, indicates whether expression was \r\nmeasured in mESC or mesendodermal cells differentiated for 5 days (Mesendoderm_5). Assay, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 68,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "targeted gene. deltaCt, ΔCt values relative to Gapdh for each gene. Activity, expression quantifi\u0002cation as detailed in Methods.\r\nThis Table is provided as a separate file.\r\nTable S6. Primers, gRNAs, and synthetic DNA fragments.\r\nPrimer pairs (qRT-PCR, genotyping PCR, amplification of DNA fragments for payload assembly, \r\nhomology arms cloning), gRNA sequences and synthetic DNA sequences used in this study. For \r\nthe primers used to clone left and right homology arms (HAs) using Golden Gate reactions, primer \r\nsequences contain BsaI sites in lower case, gRNA binding sites (underlined), and PAMs (bold). \r\nFor the gRNAs used for landing pad integrations and payload assembly, allele-specific gRNAs \r\nare identified as having CAST variants overlapping the PAM, the gRNA seed sequence or both.\r\nThis Table is provided as a separate file.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n59\r\nTable S7. Genomic coordinates.\r\nCoordinates (mm10) for payloads, genomic locus deletions (marked with a “d”), BACs, enhancer \r\nclusters (Enh), and engineered variants. Igf2SV, Igf2 synonymous variants; MI-ICR, methylation\u0002insensitive ICR with CpGs in CTCF sites mutated; and ΔCTCF-ICR, CTCF motif deletions in the \r\nΔCTCF-ICR and locus features. See Table S5 for payload labels used in figures.\r\nThis Table is provided as a separate file.\r\nTable S8. Summary of payload and mESC capture sequencing libraries.\r\nSample ID, a unique sequencing library ID; Payload ID, a descriptor of the relevant landing pad \r\nor payload (see Table S5 for payload labels used in figures); Clone ID, a unique descriptor of \r\nmESC clones. For each sample, the number (#) of sequenced, analyzed and duplicate reads is \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 69,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "provided. Bait Set is provided for capture samples.\r\nThis Table is provided as a separate file.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n60\r\nTable S9. Payload sequencing coverage QC.\r\nSummary Table for payload DNA sequencing coverage depth analysis. Length (bp) and normal\u0002ized (norm) coverage were calculated for regions corresponding to the payload sequence, includ\u0002ing different chromosomes for those that apply, as defined in Methods. Quality control (QC) calls \r\nare included with comments for unexpected values. See Table S5 for payload labels used in \r\nfigures.\r\nThis Table is provided as a separate file.\r\nTable S10. Payload variant calling.\r\nSummary Table for payload variants relative to custom references, related to Table S2. Ref, ref\u0002erence sequence; Alt, variant sequence; Qual, quality score; DP, sequencing depth; Feature, the \r\ncustom reference feature overlapping the variant; RefSeq, variant and surrounding sequence; \r\nComments, annotation and interpretation of variant location and relevance. None of the detected \r\nvariants are expected to confound the measured activities of integrated payloads. See Table S5\r\nfor payload labels used in Figures.\r\nThis Table is provided as a separate file.\r\nTable S11. mESC clone capture sequencing coverage QC.\r\nSummary of QC analyses of Capture-seq samples derived from engineered mESC clones, in\u0002cluding sequencing coverage, allelic ratios, and integration site analysis (bamintersect). See \r\nMethods for more detail. Samples captured with both Igf2/H19 and Sox2 baits (Table S8) show \r\nborderline low coverage signal at Sox2 (~0.65x) due to lower capture efficiency of this last bait, \r\nresulting in apparent low payload coverage (marked as FAIL: low coverage [PL]). Clone ID, a \r\nunique descriptor of the mESC clone; Sample ID, a unique sequencing library identifier; Payload \r\nID, unique identifier for relevant payload or landing pad. See Table S5 for payload labels used in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 70,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "figures.\r\nThis Table is provided as a separate file.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n61\r\nTable S12. Bamintersect junction categories.\r\nHierarchical criteria used to classify bamintersect junctions. bam1 and bam2 are the two refer\u0002ences to which junction reads were mapped. LP, Landing Pad; PL, payload; BB, backbone; Jx, \r\nJunction; Chr, chromosome.\r\nbam1 bam2\r\nClone TypePriority Jx class Chr Position StrandChr Position Strand\r\nLP 1 L Jx HAL's chr 0-1250 bp left of HAL + LP First 1250 bp -\r\nLP 2 R Jx HAR's chr0-1250 bp right of HAR - LP Last 1250 bp +\r\nLP 3 LP-BB bam1 or bam2 maps to LP backbone\r\nLP 4 off\u0002targetNone of the above\r\nPL 1 L Jx(a) HAL's chr 0-1250 bp left of HAL + PL First 1250 bp -\r\nPL 2 R Jx(a) HAR's chr0-1250 bp right of HAR - PL Last 1250 bp +\r\nPL 3 L ITR-PL(b) LP First 1250 bp + PL First 1250 bp -\r\nPL 4 R ITR-PL(b) LP Last 1250 bp - PL Last 1250 bp +\r\nAny 5 Non\u0002informative(c)Within engineered region\r\n(+1250 bp left and right)\r\nAny\r\nAny 6 PL-BB(d) bam1 or bam2 maps to PL backbone\r\nAny 7 off\u0002targetNone of the above\r\na For payloads with wild-type termini, CAST allele reads are indistinguishable from B6 allele reads.\r\nb Only applicable to payloads delivered to LP-LCR mESCs as the LP ITRs remain flanking the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 71,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "integration site after PL delivery (Brosh et al. 2023). c Non-informative junctions often originate from the CAST allele within the engineered locus. d LP-BB and PL-BB junctions can result from trace contamination with landing pad or payload\r\nplasmids.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n62\r\nTable S13. mESC clones bamintersect results.\r\nSummary of bamintersect integration site analysis for mESC clones capture sequencing samples. \r\nEach line describes a junction (Jx) detected by bamintersect (see Methods). Samples BS17489A \r\nand BS17493A missed the left junction due to a known low mappability region overlapping the \r\nSox2 left homology arm. Samples BS24926A, BS24928A and BS24305A showed low coverage \r\nof the right junction, Chrom (chromosome), chromStart, chromEnd, and Strand for bam1 and \r\nbam2 refer to the mapped coordinates for the first and second reference genome, respectively. \r\nNearestGene indicates the nearest UCSC gene, including distance in bp (negative value indicates \r\nan upstream gene) for mm10 or nearest feature for custom references. ReadsPer10M is the num\u0002ber of read pairs supporting the junction per 10 million sequencing reads. Sample ID, a unique \r\nsequencing library identifier; Payload ID, LIMS name for relevant payload or landing pad; Clone \r\nID, a unique descriptor of the mESC clone; Genomes indicate the reference genomes compared. \r\nJunc_type indicates the junction classification based on criteria detailed in Table S12. See Ta\u0002ble S5 for payload labels used in figures.\r\nThis Table is provided as a separate file.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 72,
+      "doc_items": [],
+      "end_page": 62,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7877876554909901372,
+        "filename": "nihpp-2023.07.02.547201v4.PMC10541140.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 63,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 407,
+      "total_chunks": 73,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n63\r\nSUPPLEMENTARY DATA\r\nData S1. Landing pad and payload sequences.\r\nSequences for landing pads and payloads described in this paper, provided in fasta format. For \r\nlanding pads, sequences include the integrated region (excluding the homology arms). For pay\u0002loads, sequences include the region from LoxM to LoxP. See Table S5 for payload labels used \r\nin the Figures.\r\nThis Table is provided as a separate file.\r\nData S2. Raw qRT-PCR Ct values.\r\nRaw qRT-PCR Ct values for all clones and assays. Payload ID, a unique name for each payload; \r\nLabel, name as in Figure panels. Location, delivery location in the genome. Additional Deletions, \r\npresence of additional deletions engineered in that mESC clone. Label, display name used in \r\nFigure panels. Clone ID, a unique identifier for each mESC engineered clone. Cell Type, indicates \r\nwhether expression was measured in mESC or mesendodermal cells differentiated for 5, 8 or 10 \r\ndays. Batch indicates the differentiation batch. Assay, targeted gene and allele (engineered or \r\nCAST). Cp, threshold cycle.\r\nThis Table is provided as a separate file.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.07.02.547201; this version posted March 12, 2024. The copyright holder for this preprint\n\n"
+  }
+]

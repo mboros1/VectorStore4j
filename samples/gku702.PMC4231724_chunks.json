@@ -1,0 +1,410 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "Published online 26 September 2014 Nucleic Acids Research, 2014, Vol. 42, No. 19 e145\r\ndoi: 10.1093/nar/gku702\r\nFOAM (Functional Ontology Assignments for\r\nMetagenomes): a Hidden Markov Model (HMM)\r\ndatabase with environmental focus\r\nEmmanuel Prestat1,2,†, Maude M. David1,†, Jenni Hultman1, Neslihan Tas¸ 1,\r\nRegina Lamendella1, Jill Dvornik1, Rachel Mackelprang1,3, David D. Myrold4,\r\nAri Jumpponen2, Susannah G. Tringe3, Elizabeth Holman1, Konstantinos Mavromatis3 and\r\nJanet K. Jansson1,3,5,6,7,*\r\n1Earth Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA, 2Division of Biology,\r\nKansas State University, Manhattan, Kansas 66506, USA, 3DOE Joint Genome Institute, Walnut Creek, CA 94598,\r\nUSA, 4Department of Crop and Soil Science, Oregon State University, Corvallis, OR 97331, USA, 5DOE Joint\r\nBioenergy Institute, Emeryville, CA 94608, USA, 6Department of Plant and Microbial Biology, University of California,\r\nBerkeley 94720, USA and 7Center for Permafrost (CENPERM), University of Copenhagen, Copenhagen 1017,\r\nDenmark\r\nReceived February 11, 2014; Revised July 11, 2014; Accepted July 21, 2014\r\nABSTRACT\r\nA new functional gene database, FOAM (Functional\r\nOntology Assignments for Metagenomes), was de\u0002veloped to screen environmental metagenomic se\u0002quence datasets. FOAM provides a new functional\r\nontology dedicated to classify gene functions rele\u0002vant to environmental microorganisms based on Hid\u0002den Markov Models (HMMs). Sets of aligned protein\r\nsequences (i.e. ‘profiles’) were tailored to a large\r\ngroup of target KEGG Orthologs (KOs) from which\r\nHMMs were trained. The alignments were checked\r\nand curated to make them specific to the targeted\r\nKO. Within this process, sequence profiles were en\u0002riched with the most abundant sequences available\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "to maximize the yield of accurate classifier models.\r\nAn associated functional ontology was built to de\u0002scribe the functional groups and hierarchy. FOAM\r\nallows the user to select the target search space\r\nbefore HMM-based comparison steps and to easily\r\norganize the results into different functional cate\u0002gories and subcategories. FOAM is publicly available\r\nat http://portal.nersc.gov/project/m1317/FOAM/.\r\nINTRODUCTION\r\nContinuous evolution of next generation sequencing (NGS)\r\npermits acquisition of increasingly large DNA and RNA\r\nsequence datasets at a relatively low cost. These NGS\r\napproaches have resulted in tremendous breakthroughs\r\nin the study of human-associated microbial communities\r\n(1,2). The environmental microbiology scientific commu\u0002nity is also applying NGS to study the composition of\r\nphylogenetic and functional genes in microbial commu\u0002nities (metagenomics) and to study which genes are ex\u0002pressed (metatranscriptomics). Recent examples include\r\nunderstanding of the impact of climate change on carbon\r\ncycling and greenhouse gas emissions in soil and sediment\r\nmicrobial communities (3–6), and mining of metagenomes\r\nfor genes that encode novel enzymes of interest for biotech\u0002nology applications and biofuel production (7,8). However,\r\na current bottleneck in meta-omic analyses of environmen\u0002tal microbial communities is the lack of tools to accurately\r\nassess functional information without excessive computa\u0002tional time.\r\nIn particular, soil has been considered the ‘grand chal\u0002lenge’ for metagenomics sequencing projects for several\r\nreasons (9). First, the majority of the microorganisms in\r\nsoil have never been cultivated and their functions are\r\nnot known. Second, the high diversity and complexity of\r\nsoil microbial communities is a challenge for metagenome\r\nassembly (10). Third, the annotations suffer from lack\u0002ing functional assignments (as the microorganisms from\r\nwhich they originate have not yet been cultivated and no\r\ngenome sequence data exists), and there are several genes\r\nthat have more than one functional assignment in existing\r\ndatabases making correct gene assignments difficult. This\r\ndeficiency is exemplified when screening for genes involved\r\nin specific biochemical cycles, such as methane oxidation or\r\n*To whom correspondence should be addressed. Tel: +1 509 375 3982; Fax: +1 509 371 6955; Email: janet.jansson@pnnl.gov\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "†The authors wish it to be known that, in their opinion, the first two authors should be considered as Joint First Authors.\r\n\u0002C The Author(s) 2014. Published by Oxford University Press on behalf of Nucleic Acids Research.\r\nThis is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by-nc/4.0/), which\r\npermits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited. For commercial re-use, please contact\r\njournals.permissions@oup.com\ne145 Nucleic Acids Research, 2014, Vol. 42, No. 19 PAGE 2 OF 7\r\nmethanogenesis in KEGG (Kyoto Encyclopedia of Genes\r\nand Genomes), which are currently classified by Gene\r\nOntology (11) within five categories: ‘biological process’,\r\n‘metabolic process’, ‘biosynthetic process’, ‘cellular biosyn\u0002thetic process’ and ‘alkane biosynthetic process’. Another\r\nexample, KEGG Brite (12), classifies methanogenesis at the\r\nfourth functional sublevel (as ‘methane metabolism’). Fi\u0002nally, there remain computational challenges when screen\u0002ing big datasets, such as those represented by gigabases (Gb)\r\nto terabases (Tb) of sequence data, due to the requirement\r\nfor access to super computers and excessive computational\r\ntime (13).\r\nMATERIALS AND METHODS\r\nTo address these challenges we aimed to build a manu\u0002ally curated and validated database for screening of envi\u0002ronmental metagenomic and metatranscriptomic sequence\r\ndatasets for functional genes. We focused on biochemical\r\nfunctions and metabolic pathways important in environ\u0002mental microbial ecology, including global carbon and ni\u0002trogen cycles, by manually selecting and organizing func\u0002tional gene information into a database here called ‘FOAM’\r\n(Functional Ontology Assignments for Metagenomes).\r\nFirst, KEGG orthologs (KOs) (12) were retrieved to fit\r\nwithin a hierarchical organization from general features to\r\nspecific pathways (such as denitrification, methanogenesis,\r\netc.). KEGG KO (a reference set of homologous genes, con\u0002sistent in known functions) benefits from stability, good\r\nmaintenance, curation, and third party annotation. The\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "KEGG KO was chosen as the FOAM ‘unit’ because it is\r\na qualitative and dynamically maintained knowledge base\r\nassociated with a rich tool environment that is available\r\nwithin or outside of KEGG. Additionally, using KEGG\r\nKO permits the use of all visualization KEGG tools or\r\nthird party software that have been released [e.g. Cytoscape\r\n(14), Glamm (15), Voronto (16), iPATH (17), bioconductor\r\nPathview package (18)]. KEGG KO lists the genes defined\r\nin KEGG that belong to each functional and homologous\r\nfamily and, as a consequence, these can be multi-domain\r\nand multi-functional. Here, to provide accurate functional\r\nannotation, each FOAM module was constructed to ideally\r\ntarget one function.\r\nThe reduced size of the resultant FOAM database, com\u0002pared to non-specific sequence databases, was a first step to\u0002wards significant improvement in the speed and specificity\r\nof similarity searches. In addition, to improve upon the sen\u0002sitivity of conventional heuristic alignment programs, we\r\nturned each KO set into Hidden Markov Models (HMMs;\r\n19) by fetching their corresponding protein family (Pfam)\r\nprofiles (20) as described in Figure 1. This step generated\r\na sizeable number of conflicts (several Pfam per KO and\r\nvice versa) that were automatically resolved by functional\r\nassignments to KO. For the few remaining unresolved assig\u0002nations, the corresponding set of sequences was manually\r\nsplit according to the topology of their phylogenetic trees.\r\nAt this point the HMMs were re-trained from the new pool\r\nof sequences.\r\nBy retrieving the sequences of the corresponding Pfam\r\nof each selected KO, in addition to the sequences already\r\npresent in the FOAM database, we ensured precise de\u0002tection of functions from potentially distant homologs.\r\nWith this method, ∼74 000 peptide sequence profiles were\r\nspecifically tailored and trained to predict functions as de\u0002fined in KEGG KO. This profile-based searching approach\r\nenabled identification of less conserved regions along se\u0002quence alignments. Thus this method is applicable for\r\nsearching for more distant homologs, similar to the ap\u0002proach used by Pfam (20) and TIGRFAM (21). However,\r\nwe found that most Pfam and TIGRFAM models provide\r\nmultiple KEGG KO assignments and did not serve our\r\nneeds for retrieval of functionally specific annotations from\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "metagenomes. Also, Pfam and TIGRFAM do not focus\r\non environmental processes and cover only few functions\r\nof interest for different environmental sources. Addition\u0002ally, Pfam and TIGRFAM are based on a simplified align\u0002ment, called ‘SEED’, which is composed of a collection of\r\nsequences representative of a protein family, whereas our\r\naim was a more comprehensive recruitment of more distant\r\nhomologs. Recently, FunGene (22) was published as a new\r\ntoolkit specialized to process amplicon data for functional\r\ngenes, focusing on marker genes (∼100 currently available).\r\nFunGene provides users with HMMs for their marker genes\r\nof interest as a tool to test primers and probes. Moreover,\r\nFunGene allows users to build and submit new HMMs.\r\nFOAM is complementary to FunGene: it includes ∼3000\r\ncustom protein models obtained by enriching Pfams rele\u0002vant to environmental microbiology with more protein se\u0002quences. An additional attribute of FOAM is that KO as\u0002signments were screened during the manual calibration to\r\nensure that the Pfam alignments all targeted the same KO. If\r\nparts of the alignments targeted other KOs they were omit\u0002ted from building the models or manually reassigned. Im\u0002portantly, FOAM is a database that can be complemented\r\nwith input from the user community. The FOAM database\r\nis by no means complete and we encourage recommenda\u0002tions from future users for additional categories to input\r\ninto FOAM.\r\nOntology definition\r\nThe ontology was defined according to following con\u0002straints: (i) cover major biochemical functions and path\u0002ways relevant to environmental microbiology; (ii) orga\u0002nize functional classes hierarchically to simplify functional\r\ngroup selections before or after the search step; (iii) use\r\nKEGG KO‘s to refine the functional classification. FOAM\r\ntherefore benefits from the quality of KEGG annotation\r\nand all the tools that make use of KO IDs. Several KOs\r\nare present in several functional classes to keep the pathway\r\ncomplete at the higher level.\r\nTo address the first two constraints, we mainly drew from\r\na comprehensive bacterial physiology and metabolism ref\u0002erence text (23) that was completed by KEGG BRITE on\u0002tology (12) information. The resulting FOAM hierarchy is\r\nlimited to five functional levels: level 1 is the most general\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "function group definition and level 5 the most refined, with\r\nlevel 5 corresponding to KO levels. The resulting FOAM\r\nontology is distributed in the form of a tabulated file on\r\nthe FOAM website. For example, the level 1 FOAM en\u0002try #11 refers to the nitrogen cycle (Table 1; http://portal.\r\nnersc.gov/project/m1317/FOAM/data/release 1/) and con-\nPAGE 3 OF 7 Nucleic Acids Research, 2014, Vol. 42, No. 19 e145\r\nFigure 1. HMM building pipeline: example with KO:K16157 (methane monooxygenase). Step 1––find Pfam(s) combination assigned to the KO of interest\r\n(a) and (b) check for redundancy. Step 2––fetch IMG peptide sequences which hit the retrieved Pfam(s). Step 3––fetch from Pfam-A database the HMM\r\nof interest. Step 4––alignment (hmmalign) and filter each Pfam from extra sequences obtained in IMG. Step 5––stitch filtered alignments. Step 6––draw\r\na Maximum Likelihood tree (fasttree). Step 7––find clusters in tree with same KO. Step 8––split alignment (step 5 output) by cluster (step 7 output) and\r\nbuild HMM for each, and process the ‘Trusted Cutoff’ computation.\r\ntains 52 KOs. There are four functional groups at level\r\n2 of the database: ‘reduction of nitrogenous compounds’\r\n(i.e. reductive reactions involving nitrogen compounds), ‘ni\u0002trogen fixation’, ‘ammonia assimilation’ and ‘nitrification’.\r\nThe FOAM level 2 group, ‘reduction of nitrogenous com\u0002pounds’, is further subdivided into four categories: ‘den\u0002itrification’, ‘assimilatory nitrate reduction’, ‘dissimilatory\r\nnitrate reduction’ and ‘hydroxylamine reduction’. Subse\u0002quently, the FOAM level 2 group of ‘nitrification’ is sub\u0002divided into the following categories: ‘ammonia to hydrox\u0002ylamine’ and ‘hydroxylamine to nitrite’. This example illus\u0002trates that some KOs (e.g. hydroxylamine oxidoreductase)\r\nmay be found in more than one FOAM category, as gene\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "products may be involved in more than one biochemical\r\npathway.\r\nDatabase construction\r\nApproximately 74 000 HMMs were generated and dis\u0002tributed into either a single file, or 21 HMMer (19) for\u0002matted files, where each HMM corresponded to the most\r\nrefined functional level in the hierarchical FOAM ontol\u0002ogy. To generate models, we developed a pipeline, trig\u0002gered for each KO referenced in FOAM. Then, based on\r\nKEGG assignment information, the system retrieved all\r\ncombinations of Pfams assigned to a KO. From those\r\ncombinations, sequences in the IMG (version 4) protein\r\ndatabase containing the Pfams were retrieved; including\r\nprotein sequences annotated from microbial genomes and\r\nmetagenomes. This process enriched preexisting Pfams with\r\nadditional sequence information (particularly metagenomic\r\nsequences). The sequences were aligned with Pfam models\r\nusing hmmalign (part of HMMer 3 suite) and recurring gaps\r\nwere removed after this step. At this stage, we gained a num\u0002ber of protein profiles (defined as an alignment or model\r\nthat represents a group of sequences which serves for com\u0002parison) per KO equal to retrieved Pfams. An individual\r\nPfam usually has multiple-KO assignments, making them\r\nless specific. Therefore, profiles were grafted together into\r\none alignment and a Maximum Likelihood tree was built\r\nthrough the FastTree program (24) to identify clades on the\r\ntopology consistent with sequence KO annotation––here\r\ncalled clusters (Figure 1). Grafting alignments is relevant\r\nbecause some sequences may be present in several Pfams,\r\nlinking them with other sequences in a different Pfam (see\r\nFigure 1 step 5 and Venn diagram in Supplementary Data\r\n2).\r\nDetection of KO consistent branches was done by brows\u0002ing the tree from the leaves to ascendant nodes provided\r\nthat the subtree gathered leaves with only the same KO as\u0002signment. Once completed, the subtree was excised and the\r\nalgorithm restarted from the remaining tree. A consistent\r\nsubtree was defined as the largest subtree that has a single\r\nKO annotation. Due to the nature of the KO annotation it\r\nis possible that some genes may have had more than one\r\nKO assigned to them. In that case, we still accepted them\r\nif they had the common KO of the subtree. Furthermore,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "each KO was mapped to EC numbers and a consistent sub\u0002tree may have all genes assigned to the same EC number,\ne145 Nucleic Acids Research, 2014, Vol. 42, No. 19 PAGE 4 OF 7\r\nTable 1. The current FOAM database is made of 73 969 HMMs designed to target 2870 different Kos\r\n#HMM #KO #hmm/KO\r\n01 Fermentation 1342.5 173 7.76\r\n02 Homoacetogenesis 336 118 2.85\r\n03 Superpathway of thiosulfate metabolism 36 7 5.14\r\n04 Utililization of sugar, conversion of\r\npentose to EMP pathway intermediates\r\n100.5 14 7.18\r\n05 Fatty acid oxidation 1179.5 41 28.77\r\n06 Amino acid utilization biosynthesis\r\nmetabolism\r\n7773 805 9.66\r\n07 Nucleic acid metabolism 2734 288 9.49\r\n08 Hydrocarbon degradation 1415.5 85 16.65\r\n09 Carbohydrate Active enzyme (CAZy) 2305.5 305 7.56\r\n10 TCA cycle 478.5 35 13.67\r\n11 Nitrogen cycle 217.5 52 4.18\r\n12 Transporters 0.5 543 0.00\r\n13 Hydrogen metabolism 194.5 16 12.16\r\n14 Methanogenesis 524.5 57 9.20\r\n15 Methylotrophy 238 69 3.45\r\n16 Embden Meyerhof-Parnos (EMP) 209 35 5.97\r\n17 Gluconeogenesis 258 28 9.21\r\n18 Sulfur metabolism 35.5 33 1.08\r\n19 Synthesis of saccharides and deriviatives 2015.5 419 4.81\r\n20 Polymers hydrolysis 2740 358 7.65\r\n21 Cellular response to stress 11647 825 14.12\r\nTotal: 35781 Different KOs: 2870\r\nOn average, an HMM is made from an alignment of 81 peptide sequences and about 26 HMMs are built per KO. The file size is ∼7 GB.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "or the same first three digits of the EC number. In any of\r\nthe above scenarios, we reported the members of the sub\u0002tree and their corresponding annotation (common KO or\r\nEC number). A caveat of this approach is that we did not\r\nconsider the quality of the tree in the tree-splitting step (i.e.\r\nweakly supported branches were equally treated as strongly\r\nsupported ones), producing models of different qualities.\r\nNevertheless, we decided that the approach of rational clas\u0002sification is better than no classification at all. In the future,\r\nthe groups could be recomputed, or split more optimally\r\nwhen more data become available (e.g. more KOs). From\r\neach cluster related to the KO in process, we extracted the\r\nalignment from which HMMs were eventually built.\r\nRESULTS\r\nValidation\r\nAs FOAM was constructed entirely from protein sequences\r\nin Pfam and in JGI-IMG without sourcing KEGG pep\u0002tides, we used KEGG peptides for validation. Because each\r\nKEGG sequence has a KO assignment, resulting compar\u0002isons were relatively straightforward. We also compared\r\nFOAM HMMs to UNIPROT––Swissprot (25), but this re\u0002quired searching for files generated by KEGG to make the\r\nlink between KEGG and Swissprot IDs. Therefore, valida\u0002tion of HMMs in FOAM included all KEGG protein se\u0002quences (with genuine KO assignments) and those in Swis\u0002sprot. To accomplish this, the hmmsearch program was\r\nlaunched and the best hits with a ‘per domain’ score >25\r\nwere kept. In order to compute quality metrics, we had to\r\naddress a multi-class problem because each item (here se\u0002quence) had to be labeled with one of more than two KOs.\r\nTo do so, we built a ‘confusion matrix’ from which the val\u0002idation metrics were derived (Supplementary Table S1). As\r\neach FOAM HMM targets one or multiple KOs, or each\r\nclassified sequence, we considered the best hit as a true pos\u0002itive if at least one KO assigned by KEGG corresponded to\r\none predicted KO (an example of how a confusion matrix is\r\nfilled and metrics are computed is given in Table 2).\r\nValidation results are shown in Figure 2 and indicate\r\ngood FOAM classification performance for all indices. In\u0002deed, at the KO level (the most refined classification level)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "precision reached 92% in both tests; with 82% (Swissprot\r\ntest) or 69% (KEGG peptides test) sensitivity. Notably, a\r\nmajority of misclassifications at the KO level were assigned\r\nto very close KOs (in terms of ID which usually means func\u0002tional similarity) explaining the jump in values when KOs\r\nare gathered in higher classes starting at FOAM ontogeny\r\nlevel 4 which normally gathers several very close KOs.\r\nAs a specific example, we extracted the data from the\r\nvalidation we performed for K02588, which contains the\r\nnifH gene, and is known to be problematic (many false\r\npositives) due to its domain architecture. The Swissprot\r\ndatabase contains 70 proteins annotated as K02588. Run\u0002ning the HMMs, we were able to classify 68 of these cor\u0002rectly, 0 were incorrect, and 2 were false negatives; thus il\u0002lustrating the power of FOAM.\r\nDISCUSSION\r\nIn the new era of metagenomics, faced with the growth of\r\nlarge databases, increasing numbers of sequencing projects,\r\nand consequently large sequence datasets, we identified a\r\nneed for a functional gene database that covers the diver\u0002sity of known microbial metabolic processes; in particu\u0002lar for environmental metagenomes. The resulting FOAM\r\ndatabase that we present here has many strengths for the\r\nuser including core function models, i.e. FOAM HMMs\r\ntailored for KO assignments, and an organizational struc\u0002ture based on biochemical cycles with environmental rele-\nPAGE 5 OF 7 Nucleic Acids Research, 2014, Vol. 42, No. 19 e145\r\nTable 2. Example of confusion matrix construction for database validation\r\nThe matrix is initialized by labeling rows (KEGG assignment) and columns (FOAM assignment) according to the KO list available in FOAM. Then, for\r\neach classification in the hmmsearch output, a cell in the matrix is incremented: if K2 is predicted as K2, then tp2 is incremented, if K3 is predicted as K1,\r\nthen e31 is incremented. At the end, trace (diagonal summation), sums per row, sums per column are computed and quality metrics calculated. Here this\r\ncalculation has been performed for K00001, K00002, K00010, K00200.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "vance. The resulting HMM construction pipeline has sev\u0002eral strengths, including: (i) improved specificity for clas\u0002sifying peptides or translated reads/contigs into functions\r\nbecause sequences were selected according to phylogenetic\r\nanalyses to become KO-specific classifiers and (ii) increased\r\nsensitivity that is crucial when dealing with diverse and\r\nunderexplored environments (e.g. soil). The KEGG KO\r\nwas chosen as the FOAM ‘unit’ because it is a dynam\u0002ically maintained knowledge base associated with a rich\r\ntool set available within or outside of KEGG (KEGG\u0002ML, GLAMM, iPath, Voronto, etc.). That being said,\r\nFOAM does not aim to replace other existing systems,\r\nsuch as MG-RAST, IMG/M, KEGG genes, KO, Phylo\u0002facts (FAT-CAT) (26,27), or Pfam, for metagenome annota\u0002tion. Rather, FOAM provides the community with a tool for\r\nprecise functional annotations even when distant homologs\r\nhave been obtained by shotgun metagenomic sequencing.\r\nWe also defined a large set of environmentally important\r\nfunctions for gene mining, which we organized into 5 lev\u0002els of resolution. This enables the user to focus on specific\r\nfunctional groups by preselecting the relevant models or by\r\norganizing the results into classified functional families. As\r\nan example, we annotated two soil metagenomic datasets\r\nafter quality trimming/filtering and assembly using Velvet.\r\nThe coding regions were then searched from contigs using\r\nProdigal (in mode ‘meta’) and HMMer (19) run against the\r\nHMMs from FOAM CarboActive enzyme ontology group.\r\nThe first metagenome, from a prairie soil, was ∼300 Gbp,\r\nassembled in 5 901 346 contigs (N50: 609 bp), producing\r\n7 716 071 ORFs. The second metagenome, from adjacent\r\ncultivated soil, was ∼200 Gb, assembled in 4 592 072 con\u0002tigs (N50: 548 bp) with 6 059 007 ORFs. The annotation\r\nof these two datasets took ∼200 cpu hours. In another ex\u0002ample, we used the whole FOAM database to annotate 6\r\n657 648 Miseq reads (∼75 bp in length) from permafrost.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "The sequences were translated into all six reading frames\r\nand the translated file was run through hmmsearch on a\r\nDell PowerEdge R910 with 40 cores and 1 TB of RAM.\r\nThe hmmsearch devoted 5 cpus on average at any given time\r\nand this search took ∼55 h to run, i.e. ∼275 cpu hours.\r\nThese two examples demonstrate that FOAM is an appro\u0002priate tool for characterization and comparison of different\r\nfunctional genes in large and highly complex environmental\r\nmetagenome datasets.\r\nIn summary, analysis of current environmental\r\nmetagenomes is often challenging due to the high di\u0002versity and large proportion of uncharacterized microbial\r\ntaxa in most environmental habitats. Such data require\r\nmore sensitive tools to identify distant homologs while\r\nminimizing computational cost. The FOAM database rep\u0002resents a useful and expedient tool for informative analyses\r\nof these data. The assignment sensitivity was increased\r\nwith HMMs that were trained from sequence alignment\r\nprofiles, and use of HMMer 3.0 provided model queries\r\nthat were as expedient as BLAST (28,29). Additionally,\r\nFOAM allows easy narrowing of a search to specific target\ne145 Nucleic Acids Research, 2014, Vol. 42, No. 19 PAGE 6 OF 7\r\nFigure 2. Validation results. For each of the five functional levels available in the FOAM ontology, three metrics were computed: recall (or sensitivity),\r\nprecision (known also as ‘positive predictive value’ or sometime ‘specificity’) and F1-score (the harmonic mean of both). In all cases, precision stays >92%\r\nat the KO level to reach 97% at level 1 (21 classes). Recall varies much more, from 69% at the KO level, to 98% at level 1. Levels 2, 3 and 4 gave similar\r\nperformance results for both recall and precision; and their F1-score ‘mean’ within a range of 92–94%.\r\nfunctional categories. As each model is trained with an\r\naverage of 80 sequences, FOAM screens a dataset with a\r\nselective database ∼80× faster than BLAST to test the\r\nsame content, while resulting in a higher sensitivity.\r\nDeliveries (Results)\r\nHMM files and ontology are available here: http://portal.\r\nnersc.gov/project/m1317/FOAM/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "FOAM (the ontology)\r\nThe ontology is available as a tab-separated values file.\r\nFOAM (the HMMs)\r\nFOAM is currently made of 73 969 HMMs built to clas\u0002sify into 2870 different KO (about 25 HMMs per KO on av\u0002erage). A brief description of FOAM statistics is illustrated\r\nin Table 1.\r\nSUPPLEMENTARY DATA\r\nSupplementary Data are available at NAR Online.\r\nACKNOWLEDGMENT\r\nWe thank Olivia Mason for her help and her advice in or\u0002ganizing the database, as well as Vanessa Sochat for her as\u0002sistance with MetaCyc analyses and the website.\r\nFUNDING\r\nDOE-BER, (US Department of Energy - Biological and\r\nEnvironmental Research) Biological Systems Research\r\non the Role of Microbial Communities in Carbon Cy\u0002cling Program [DE-SC0004953]; US DOE [DE/AC02-\r\n05CH11231]. Funding for open access charge: DOE\u0002BER [DE-SC0004953].\r\nConflict of interest statement. None declared.\r\nREFERENCES\r\n1. Human Microbiome Jumpstart Reference Strains Consortium,\r\nNelson,K.E., Weinstock,G.M., Highlander,S.K., Worley,K.C.,\r\nCreasy,H.H., Wortman,J.R., Rusch,D.B., Mitreva,M., Sodergren,E.\r\net al. (2010) A catalog of reference genomes from the human\r\nmicrobiome. Science, 328, 994–999.\r\n2. Qin,J., Li,R., Raes,J., Arumugam,M., Burgdorf,K.S., Manichanh,C.,\r\nNielsen,T., Pons,N., Levenez,F., Yamada,T. et al. (2010) A human gut\nPAGE 7 OF 7 Nucleic Acids Research, 2014, Vol. 42, No. 19 e145\r\nmicrobial gene catalogue established by metagenomic sequencing.\r\nNature, 464, 59–65.\r\n3. Jansson,J.K. (2011) Towards ‘Tera-Terra’: Terabase sequencing of\r\nterrestrial metagenomes. Microbe, 6, 309–315.\r\n4. Mackelprang,R., Waldrop,M.P., DeAngelis,K.M., David,M.M.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "Chavarria,K.L., Blazewicz,S.J., Rubin,E.M. and Jansson,J.K. (2011)\r\nMetagenomic analysis of a permafrost microbial community reveals a\r\nrapid response to thaw. Nature, 480, 368–371.\r\n5. Luo,C., Rodriguez-R,L.M., Johnston,E.R., Wu,L., Cheng,L.,\r\nXue,K., Tu,Q., Deng,Y., He,Z., Shi,J.Z. et al. (2013) Soil microbial\r\ncommunity responses to a decade of warming as revealed by\r\ncomparative metagenomics. Appl. Environ. Microbiol., 37, 12 –13.\r\n6. Mason,O.U., Hazen,T.C., Borglin,S., Chain,P.S.G., Dubinsky,E.A.,\r\nFortney,J.L., Han,J., Holman,H.-Y.N., Hultman,J., Lamendella,R.\r\net al. (2012) Metagenome, metatranscriptome and single-cell\r\nsequencing reveal microbial response to Deepwater Horizon oil spill.\r\nISME J., 6, 1715–1727.\r\n7. Van Elsas,J.D., Costa,R., Jansson,J., Sjoling,S., Bailey,M., Nalin,R., ¨\r\nVogel,T.M. and van Overbeek,L. (2008) The metagenomics of\r\ndisease-suppressive soils – experiences from the METACONTROL\r\nproject. Trends Biotechnol., 26, 591–601.\r\n8. DeAngelis,K.M., D’haeseleer,P., Chivian,D., Simmons,B.,\r\nArkin,A.P., Mavromatis,K., Malfatti,S., Tringe,S. and Hazen,T.C.\r\n(2013) Metagenomes of tropical soil-derived anaerobic\r\nswitchgrass-adapted consortia with and without iron. Stand. Genomic\r\nSci., 7, 382–398.\r\n9. Jansson,J.K., Neufeld,J.D., Moran,M.A. and Gilbert,J.A. (2012)\r\nOmics for understanding microbial functional dynamics. Environ.\r\nMicrobiol., 14, 1–3.\r\n10. Pell,J., Hintze,A., Canino-Koning,R., Howe,A., Tiedje,J.M. and\r\nBrown,C.T. (2011) Scaling metagenome sequence assembly with\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "probabilistic de Bruijn graphs. PNAS, 109, 13272–13277.\r\n11. Ashburner,M.M., Ball,C.A.C., Blake,J.A.J., Botstein,D.D.,\r\nButler,H.H., Cherry,J.M.J., Davis,A.P.A., Dolinski,K.K.,\r\nDwight,S.S.S., Eppig,J.T.J. et al. (2000) Gene ontology: tool for the\r\nunification of biology. The gene ontology consortium. Nat. Genet.,\r\n25, 25–29.\r\n12. Kanehisa,M., Araki,M., Goto,S., Hattori,M., Hirakawa,M., Itoh,M.,\r\nKatayama,T., Kawashima,S., Okuda,S., Tokimatsu,T. et al. (2008)\r\nKEGG for linking genomes to life and the environment. Nucleic\r\nAcids Res., 36, D480–D484.\r\n13. Thomas,T.T., Gilbert,J.J. and Meyer,F. (2011) Metagenomics - a\r\nguide from sampling to data analysis. Microb. Inform. Exp., 2, 3.\r\n14. Shannon,P., Markiel,A., Ozier,O., Baliga,N.S., Wang,J.T.,\r\nRamage,D., Amin,N., Schwikowski,B. and\r\nIdeker,T. (2003) Cytoscape: a software environment for integrated\r\nmodels of biomolecular interaction networks. Genome Res.,\r\n13, 2498–2504.\r\n15. Bates,J.T., Chivian,D. and Arkin,A.P. (2011) GLAMM:\r\ngenome-linked application for metabolic maps. Nucleic Acids Res.,\r\n39, W400–W405.\r\n16. Santamaria,R. and Pierre,P. (2012) Voronto: mapper for expression\r\ndata to ontologies. Bioinformatics , 28, 2281–2282.\r\n17. Yamada,T., Letunic,I., Okuda,S., Kanehisa,M. and Bork,P. (2011)\r\niPath2.0: interactive pathway explorer. Nucleic Acids Res., 39,\r\nW412–W415.\r\n18. Luo,W. and Brouwer,C. (2013) Pathview: an R/Bioconductor\r\npackage for pathway-based data integration and visualization.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "Bioinformatics, 29, 1830–1831.\r\n19. Eddy,S.R.S. (2011) Accelerated profile HMM searches. PLoS\r\nComput. Biol., 7, e1002195.\r\n20. Finn,R.D., Mistry,J., Tate,J., Coggill,P., Heger,A., Pollington,J.E.,\r\nGavin,O.L., Gunasekaran,P., Ceric,G., Forslund,K. et al. (2010) The\r\nPfam protein families database. Nucleic Acids Res., 38, D211–D222.\r\n21. Haft,D.H., Haft,D.H., Selengut,J.D., Selengut,J.D., White,O. and\r\nWhite,O. (2003) The TIGRFAMs database of protein families.\r\nNucleic Acids Res., 31, 371–373.\r\n22. Fish,J.A., Chai,B., Wang,Q., Sun,Y., Brown,C.T., Tiedje,J.M. and\r\nCole,J.R. (2013) FunGene: the functional gene pipeline and\r\nrepository. Front. Microbiol., 4, 1–14.\r\n23. Kim,B.H. and Gadd,G.M. (2008) Bacterial Physiology and\r\nMetabolism. Cambridge University Press, Cambridge.\r\n24. Price,M.N., Dehal,P.S. and Arkin,A.P. (2010) FastTree\r\n2–approximately maximum-likelihood trees for large alignments.\r\nPLoS One, 5, e9490.\r\n25. UniProt Consortium (2008) The universal protein resource\r\n(UniProt). Nucleic Acids Res., 36, D190–D195.\r\n26. Krishnamurthy,N., Brown,D.P., Kirshner,D. and Sjolander,K. (2006) ¨\r\nPhyloFacts: an online structural phylogenomic encyclopedia for\r\nprotein functional and structural classification. Genome Biol., 7, 1–17.\r\n27. Afrasiabi,C., Samad,B., Dineen,D., Meacham,C. and Sjolander,K. ¨\r\n(2013) The PhyloFacts FAT-CAT web server: ortholog identification\r\nand function prediction using fast approximate tree classification.\r\nNucleic Acids Res., 41, W242–W248.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8346690646385650244,
+        "filename": "gku702.PMC4231724.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 110,
+      "total_chunks": 17,
+      "version": "1.0.0"
+    },
+    "text": "28. Altschul,S.F., Gish,W., Miller,W., Myers,E.W. and Lipman,D.J.\r\n(1990) Basic local alignment search tool. J. Mol. Biol., 215, 403–410.\r\n29. Camacho,C., Coulouris,G., Avagyan,V., Ma,N., Papadopoulos,J.,\r\nBealer,K. and Madden,T.L. (2009) BLAST+: architecture and\r\napplications. BMC Bioinformatics, 10, 1–9.\n\n"
+  }
+]

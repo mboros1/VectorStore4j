@@ -1,0 +1,122 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 1,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2316781479096242695,
+        "filename": "main.PMC11867123.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 2,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 5,
+      "version": "1.0.0"
+    },
+    "text": "Commentary\r\nEmbracing Model Heterogeneity for Better\r\nBrain-Behavior Associations\r\nDustin Scheinost and Marisa N. Spann\r\nNeuroimaging data can improve our understanding of the\r\nneurobiology that underlies psychiatric disorders and pu\u0002tatively inform interventions (1,2). However, the associa\u0002tions between individual differences in brain structure and\r\nfunction and individual differences in behavior and symp\u0002toms are complex. Variation in a single brain region is\r\nunlikely to explain a person’s behavior (3). Instead,\r\nbehavior is likely embedded in the coordination between\r\nseveral regions and networks. Unlike classical inferential\r\nmethods, machine learning can uncover widespread,\r\nmultivariate patterns hidden in classical methods.\r\nAccordingly, machine learning may better capture these\r\nassociations and is increasingly being used with neuro\u0002imaging data (1,2).\r\nZhao et al. (4) argue that we must go further. They note that\r\na key limitation of many machine learning applications for\r\npsychiatry is the handling of population heterogeneity. Within\r\nlarge samples, whether patients or not, considerable hetero\u0002geneity of demographic, socioenvironmental, and physiolog\u0002ical backgrounds shapes our brains, behaviors, and\r\nassociations. Most studies create a single model that is ex\u0002pected to generalize across populations. These models can\r\nhave several strengths, including handling sizable dataset\r\nshifts (5) (i.e., “characteristic differences between the data\r\nused to train and test a model”) and incorporating structure\r\nand function from several networks. Nevertheless, no single\r\nbrain-behavior association or machine learning model will fit\r\neveryone (2). Many current studies inherently ignore this pop\u0002ulation heterogeneity.\r\nThe heterogeneous machine learning framework pro\u0002posed by Zhao et al. (4) uses population heterogeneity to\r\nincrease the nuance of brain-behavior models. Population\r\nheterogeneity in neuroimaging and behavioral data are\r\nalready emerging topics for improving brain-behavior\r\nmodeling (1,2). However, the heterogeneity in brain\u0002behavior mapping is often ignored. Heterogeneous ma\u0002chine learning argues that an individual’s background should\r\ninform the appropriate models. This framework is the ma\u0002chine learning equivalent of adding interaction terms to a\r\nclassic statistical model. Essentially, outside variables\r\nmoderate the brain-behavior association. Heterogeneous\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 1,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2316781479096242695,
+        "filename": "main.PMC11867123.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 2,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 5,
+      "version": "1.0.0"
+    },
+    "text": "machine learning is data driven so that these variables can\r\nbe learned directly from the data.\r\nThis framework touches on bias and fairness in machine\r\nlearning. Bias refers to “results systematically prejudiced to\u0002ward an individual or a group based on their inherent and\r\nacquired characteristics.” In contrast, fairness is defined as\r\n“the absence of bias” (6). However, instead of viewing a biased\r\nmodel (i.e., one that only works well in a particular group) solely\r\nas a negative, heterogeneous machine learning may view it as\r\npart of a collection of models needed to predict behavior\r\nacross individuals. A key consideration with any biased model\r\nis to minimize its negative impact. For example, given a\r\ncollection of biased models, adding an algorithmic layer to\r\ndetermine the best model for an individual could lead to fair\u0002ness. Heterogeneous machine learning advocates for consid\u0002ering and learning this algorithmic layer.\r\nHeterogeneous machine learning should not be confused\r\nwith poor-performing models that do not generalize. A model\r\ndesigned for a particular subgroup is different from overfitting\r\nto a particular subgroup. An overfit model will not generalize\r\nwell to independent datasets. A model designed for a sub\u0002group should generalize across a range of dataset shifts (e.g.,\r\nscanner or site) except for the dimension that defined the\r\nsubgroup.\r\nWhile heterogeneous machine learning is a promising\r\nframework, some considerations exist. First, numerous factors\r\ncould show interaction terms. Discovering and testing the\r\nmost important ones is challenging. Current studies using\r\nheterogeneous machine learning concepts simplify the prob\u0002lem, relying on binary or low-dimensional discrete variables.\r\nFor example, these studies have created different models for\r\nmale and female participants (2) or used data-driven ap\u0002proaches to cluster a sample into a few subgroups (7). Incor\u0002porating higher dimensional subgroups or continuous\r\nvariables is significantly more challenging. It is unclear how\r\ncurrent algorithms will handle several continuous variables as\r\ninteraction terms and whether researchers can interpret the\r\nresults.\r\nSecond, in classical inference, interactions have smaller\r\neffect sizes than main effects. A rule of thumb suggests that 16\r\ntimes the sample is needed to estimate an interaction than is\r\nneeded for the main effect (8). Brain-behavior models exhibit\r\nmodest effect sizes, and machine learning is already data\r\nhungry. Furthermore, most available data come from Western,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 1,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2316781479096242695,
+        "filename": "main.PMC11867123.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 2,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 5,
+      "version": "1.0.0"
+    },
+    "text": "educated, industrialized, rich, and democratic participants (1).\r\nIt is unclear whether we have the sample size and diversity\r\nneeded for such approaches. However, it is argued that\r\ncurrently observed effect sizes are suppressed due to applying\r\nmodels in a one-size-fits-all manner. Accounting for population\r\nheterogeneity may increase observed effect sizes, thereby\r\nincreasing power.\r\nThird, heterogeneous machine learning does not address\r\nmany of the issues that have plagued machine learning.\r\nCommon errors [like data leakage (9)] and outright fraud (10)\r\nare possible with the framework. Similarly, models can easily\r\nSEE CORRESPONDING ARTICLE NO. 100397\r\nhttps://doi.org/10.1016/j.bpsgos.2024.100425\r\nª 2024 THE AUTHORS. Published by Elsevier Inc on behalf of the Society of Biological Psychiatry. This is an open access article under the\r\nCC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).\r\n1\r\nISSN: 2667-1743 Biological Psychiatry: Global Open Science January 2025; 5:100425 www.sobp.org/GOS\r\nBiological\r\nPsychiatry:\r\nGOS\nbe overinterpreted and overhyped. Careful adherence to field\r\nstandards and best practices is still needed regardless of the\r\nmachine learning framework that is used.\r\nOverall, Zhao et al. (4) provide a theorical way forward to\r\nimprove neuroimaging-based machine learning for psychiatry.\r\nIt is straightforward—in theory—and compelling. In practice,\r\nnew algorithmic development and additional training datasets\r\nare likely needed to fully achieve the framework.\r\nAcknowledgments and Disclosures\r\nThis work was supported by the U.S. Department of Health & Human Ser\u0002vices and National Institute of Mental Health (Grant Nos. K24MH127381 [to\r\nMNS], R01MH126133 [to MNS and DS], and R01MH121095 [to DS]).\r\nThe authors report no biomedical financial interests or potential conflicts\r\nof interest.\r\nArticle Information\r\nFrom the Departments of Radiology and Biomedical Imaging, Yale School of\r\nMedicine, New Haven, Connecticut (DS); Department of Biomedical Engi\u0002neering, Yale School of Engineering and Applied Science, New Haven,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 1,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2316781479096242695,
+        "filename": "main.PMC11867123.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 2,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 5,
+      "version": "1.0.0"
+    },
+    "text": "Connecticut (DS); Department of Statistics and Data Science, Yale Univer\u0002sity, New Haven, Connecticut (DS); Child Study Center, Yale School of\r\nMedicine, New Haven, Connecticut (DS); Wu Tsai Institute, Yale University,\r\nNew Haven, Connecticut (DS); Department of Psychiatry, Vagelos College of\r\nPhysicians and Surgeons, Columbia University, New York, New York (MNS);\r\nand New York State Psychiatric Institute, New York, New York (MNS).\r\nAddress correspondence to Dustin Scheinost, Ph.D., at dustin.\r\nscheinost@yale.edu.\r\nReceived Nov 14, 2024; accepted Nov 16, 2024.\r\nReferences\r\n1. Tejavibulya L, Rolison M, Gao S, Liang Q, Peterson H, Dadashkarimi J,\r\net al. (2022): Predicting the future of neuroimaging predictive models in\r\nmental health. Mol Psychiatry 27:3129–3137.\r\n2. Dhamala E, Yeo BTT, Holmes AJ (2023): One size does not fit all:\r\nMethodological considerations for brain-based predictive modeling in\r\npsychiatry. Biol Psychiatry 93:717–728.\r\n3. Noble S, Curtiss J, Pessoa L, Scheinost D (2024): The tip of the\r\niceberg: A call to embrace anti-localizationism in human neuroscience\r\nresearch. Imaging Neurosci 2:1–10.\r\n4. Zhao Q, Nooner KB, Tapert SF, Adeli E, Pohl KM, Kuceyeski A,\r\nSabuncu MR (2025): The transition from homogeneous to heteroge\u0002neous machine learning in neuropsychiatric research. Biol Psychiatry\r\nGlob Open Sci 5:100397.\r\n5. Adkinson BD, Rosenblatt M, Dadashkarimi J, Tejavibulya L, Jiang R,\r\nNoble S, Scheinost D (2024): Brain-phenotype predictions of language\r\nand executive function can survive across diverse real-world data: Dataset\r\nshifts in developmental populations. Dev Cogn Neurosci 70:101464.\r\n6. Mehrabi N, Morstatter F, Saxena N, Lerman K, Galstyan A (2022):\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 1,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2316781479096242695,
+        "filename": "main.PMC11867123.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 2,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 293,
+      "total_chunks": 5,
+      "version": "1.0.0"
+    },
+    "text": "A survey on bias and fairness in machine learning. arXiv. https://doi.\r\norg/10.48550/arXiv.1908.09635.\r\n7. Feczko E, Miranda-Dominguez O, Marr M, Graham AM, Nigg JT,\r\nFair DA (2019): The heterogeneity problem: Approaches to identify\r\npsychiatric subtypes. Trends Cogn Sci 23:584–601.\r\n8. Gelman A (2018): You need 16 times the sample size to estimate an\r\ninteraction than to estimate a main effect. Available at: https://statmodeling.\r\nstat.columbia.edu/2018/03/15/need16/. Accessed November 1, 2024.\r\n9. Verstynen T, Kording KP (2023): Overfitting to ‘predict’ suicidal idea\u0002tion. Nat Hum Behav 7:680–681.\r\n10. Rosenblatt M, Rodriguez RX, Westwater ML, Dai W, Horien C,\r\nGreene AS, et al. (2023): Connectome-based machine learning models\r\nare vulnerable to subtle data manipulations. Patterns (N Y) 4:100756.\r\nCommentary\r\n2 Biological Psychiatry: Global Open Science January 2025; 5:100425 www.sobp.org/GOS\r\nBiological\r\nPsychiatry:\r\nGOS\n\n"
+  }
+]

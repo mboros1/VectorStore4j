@@ -1,0 +1,914 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "OPEN\r\nREVIEW\r\nUnderstanding of molecular mechanisms\r\nin natural killer cell therapy\r\nSuk Ran Yoon1,2,3, Tae-Don Kim1,2,3 and Inpyo Choi1,2\r\nCancer cells and the immune system are closely related and thus influence each other. Although immune cells can suppress\r\ncancer cell growth, cancer cells can evade immune cell attack via immune escape mechanisms. Natural killer (NK) cells kill\r\ncancer cells by secreting perforins and granzymes. Upon contact with cancer cells, NK cells form immune synapses to deliver\r\nthe lethal hit. Mature NK cells are differentiated from hematopoietic stem cells in the bone marrow. They move to lymph nodes,\r\nwhere they are activated through interactions with dendritic cells. Interleukin-15 (IL-15) is a key molecule that activates mature\r\nNK cells. The adoptive transfer of NK cells to treat incurable cancer is an attractive approach. A certain number of activated NK\r\ncells are required for adoptive NK cell therapy. To prepare these NK cells, mature NK cells can be amplified to obtain sufficient\r\nnumbers of NK cells. Alternatively, NK cells can be differentiated and amplified from hematopoietic stem cells. In addition, the\r\nselection of donors is important to achieve maximal efficacy. In this review, we discuss the overall procedures and strategies of\r\nNK cell therapy against cancer.\r\nExperimental & Molecular Medicine (2015) 47, e141; doi:10.1038/emm.2014.114; published online 13 February 2015\r\nINTRODUCTION\r\nAs we gain a better understanding of the molecular mechan\u0002isms controlling natural killer (NK) cell activity, the potential\r\nof their possible application in cancer immunotherapy grows\r\nincreasingly. NK cells play key roles in innate and adaptive\r\nimmune responses through unique NK cell activation mechan\u0002isms during early host defense against viruses and tumors by\r\nperforming two major roles: contact-dependent cytotoxicity\r\nand cytokine production for immune modulation. Target cell\r\napoptosis is primarily mediated by perforin (Prf1)- and\r\ngranzyme B (GzmB)-mediated pathways and the regulation\r\nof immune responses is mediated by the secretion of cytokines\r\nsuch as interferon-γ and tumor-necrosis factor-α.\r\n1–3\r\nCompared with T and B cells, our understanding of the\r\ncheckpoints and the developmental stages that lead to the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "generation of cells committed to the NK cell lineage remain\r\npoorly defined. The developmental processes that drive hema\u0002topoietic stem cells (HSCs) into NK cells are being identified.4\r\nEmerging experimental evidence suggests that NK cell differ\u0002entiation depends on defined cytokines, the temporal induction\r\nof several transcription factors and microRNA (miRNA)-based\r\ngene expression.5 Recently, several research groups have\r\ndeveloped protocols for in vitro NK cell differentiation based\r\non reconstitution with cytokines, providing a good strategy for\r\namplifying NK cells for therapeutic applications.6–8 Recent\r\nadvances in understanding the manipulation of NK cell\r\nactivation and development have led to the hope that NK cells\r\ncould be harnessed as an immunotherapy for cancers and other\r\ndiseases.\r\nThis review provides the framework for understanding the\r\nimpact of NK cell activation, development/differentiation and\r\nits clinical implications. We summarize sequential activation\r\nprocesses such as priming, immune synapse formation, recep\u0002tor signaling, effector functions and its manipulation for tuning\r\nNK cell activity. In addition, fundamental questions are\r\ndiscussed concerning the development of successful NK cell\u0002based therapies.\r\nNK CELL ACTIVATION\r\nCurrent insights into the molecular specificities that regulate\r\nNK cell functions in vivo suggest that it might be possible to\r\ndesign NK cell-based immunotherapeutic strategies against\r\nhuman cancer. In this section, we review the overall processes\r\nof the NK cell activation mechanisms, including receptor\r\n1\r\nImmunotherapy Research Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon, Republic of Korea and 2Department of Functional\r\nGenomics, Korea University of Science and Technology, Daejeon, Republic of Korea\r\nCorrespondence: Dr I Choi, Immunotherapy Research Center, Korea Research Institute of Bioscience and Biotechnology, Yuseong-gu, Daejeon 305-806,\r\nRepublic of Korea.\r\nE-mail: ipchoi@kribb.re.kr\r\n3These authors contributed equally to this work.\r\nReceived 20 October 2014; revised 17 November 2014; accepted 2 December 2014\r\nExperimental & Molecular Medicine (2015) 47, e141; doi:10.1038/emm.2014.114\r\n& 2015 KSBMB. All rights reserved 2092-6413/15\r\nwww.nature.com/emm\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "signaling, immune synapse formation and NK roles, and\r\ndiscuss possible strategies for the NK cell targeting of human\r\ntumors and the development of successful NK cell-based\r\ntherapies.9\r\nReceptor signaling\r\nNK cell activation is controlled by a dynamic balance between\r\nthe positive and negative signals provided by two main types of\r\nreceptors.1,2,10,11 The receptors—NKG2D, NKp46, NKp30,\r\nNKp44, the activating form of killer cell immunoglobulin-like\r\nreceptor (KIR) known as KIR-S and CD16—provide positive\r\nsignals, finally triggering cytotoxicity and the production of\r\ncytokines. Some of these activating cell surface receptors\r\nstimulate protein tyrosine kinase-dependent pathways through\r\nreversible associations with transmembrane signaling adaptors.\r\nThese adaptor proteins harbor cytoplasmic immunoreceptor\r\ntyrosine-based activation motifs that consist of a consensus\r\namino-acid sequence with paired tyrosines and leucines (Yxx(I/\r\nL)x6–12Yxx(I/L)).12 These motifs are normally located in the\r\ncytoplasmic domains of ligand-binding transmembrane recep\u0002tors, such as the T cell receptor and high-affinity immunoglo\u0002bulin E receptor (FcεRI), and mediate interactions between the\r\ntransmembrane receptor complex and protein tyrosine kinases\r\nthat are required to initiate early and late signaling events.\r\nAdditional cell surface receptors that are not directly coupled to\r\nimmunoreceptor tyrosine-based activation motifs also partici\u0002pate in NK cell activation. These include NKG2D, which is well\r\nassociated with the DAP10 transmembrane signaling adaptor,\r\nas well as integrins and cytokine receptors.9 The discovery of\r\nNKG2D ligands, such as MICA, the RAET1 family and the\r\nNKp30 ligand B7H6 suggests that such receptors recognize\r\nmolecules that are rarely present on normal cells but are\r\nupregulated during infection or carcinogenesis (Figure 1).\r\nNK cells also express cell surface inhibitory receptors that\r\nantagonize activating pathways through protein tyrosine\r\nphosphatases.4,12 The typical inhibitory receptor KIR recog\u0002nizes ‘self’ and subsequently provides negative signals finally to\r\nsuppress NK cell activation by inhibition of stimulatory\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "signaling pathway. The ligand of KIR is major histocompat\u0002ibility complex (MHC) class I molecules of the self that is\r\npresent on normal cells.3 These inhibitory cell surface receptors\r\nare characterized by intracytoplasmic immunoreceptor\r\ntyrosine-based inhibition motifs2 present in the cytoplasmic\r\ndomains of several inhibitory receptors. After ligand binding,\r\nintracytoplasmic immunoreceptor tyrosine-based inhibition\r\nmotifs are phosphorylated on their tyrosine residues and\r\nrecruit lipid or tyrosine phosphatases. The tyrosine phosphor\u0002ylation status of several signaling components that are sub\u0002strates for both protein tyrosine kinase and protein tyrosine\r\nphosphatases is thus key molecules to the propagation of the\r\nNK cell effector pathways. Understanding the integration of\r\nthese multiple signals is central to the understanding and\r\nmanipulation of NK cell effector signaling pathways (Figure 1).\r\nCytokines are important signals for regulating the prolifera\u0002tion, survival, activation status and effector functions of the\r\nimmune system. In addition, NK cell development, survival\r\nand function require cytokines, including interleukin (IL)-2,\r\nIL-12, IL-15, IL-18 and IL-21.13 Among these, IL-15 has been\r\nshown to play a key role in NK cell development and priming\r\nFigure 1 Natural killer (NK) cell activation and its translation to\r\ntherapeutic application. The encounter between the NK cell and\r\ntarget cell results in adhesion and conjugation (Immune Synapse).\r\nThe dynamic balance between inhibitory and activating receptor\r\nsignaling at the cell–cell interface decides the outcome of the\r\nimmune synapse. Engagement of NK cell activating receptors\r\ninduces the phosphorylation of ITAM or kinase and tight actin\r\ncytoskeleton rearrangements that, in turn, lead to a more stable\r\nconjugation (Activation). NK cells can be primed or activated by\r\ncytokines locally secreted by other immune cells, inducing various\r\ntypes of immune-related gene expression including cytokines, NK cell\r\neffectors and noncoding microRNAs (miRNAs). Sustained stimulatory\r\nsignaling causes robust actin polymerization and polarization of the\r\nMTOC to the immune synapse. Lytic granules containing effectors\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "(for example, GzmB and Prf1) are transported along microtubule\r\ntracks for subsequent release. Prf1 and GzmB can induce target cell\r\napoptosis. Upon activation, cytokines, including pro-inflammatory\r\ncytokines (for example, interferon-γ (IFN-γ)), are also secreted for\r\nimmune regulation (NK cell functions). Major strategies to harness\r\nNK cell functions in cancer (Tuning NK cell activity). First, treatment\r\nwith cytokines promotes NK cell proliferation, differentiation and\r\nactivation and/or inhibits NK cell suppressors. Second, manipulating\r\nthe balance between stimulatory and inhibitory signaling can promote\r\nNK cell activation through the use of CAR and/or adoptive transfer of\r\nallosteric NK cells. In addition, these strategies are focused on NK\r\neffector activation by promoting TRAIL (tumor-necrosis factor (TNF)-\r\nrelated apoptosis-inducing ligand) or CD178 expression, as well as\r\nADCC activation via engineered Fc. Third, these strategies may be\r\nenhanced by anti-inhibitory antibodies specific for negative regulators\r\nsuch as KIR, NKG2A and PD1. ADCC, antibody-dependent cellular\r\ncytotoxicity; CAR, chimeric antigen receptor; GzmB, granzyme B;\r\nITAM, immunoreceptor tyrosine-based activation motif; ITIM,\r\nimmunoreceptor tyrosine-based inhibitory motif; KIR, killer cell\r\nimmunoglobulin-like receptor; MHC, major histocompatibility; MTOC,\r\nmicrotubule-organizing center; PD1, programmed cell death 1; Prf1,\r\nperforin; −, NK cell inhibition; +, NK cell activation. Substances\r\nthat act on NK cells are indicated in red text.\r\nDevelopment of NK cell therapy\r\nSR Yoon et al\r\n2\r\nExperimental & Molecular Medicine\nfor activation, based on studies on IL-15 or IL-15 receptor\u0002deficient mice.14,15 In a recent report on the development of\r\ninnate NK cell memory, a brief, combined activation with\r\nIL-12, IL-15 and IL-18 resulted in the generation of long-lived\r\nNK cells that exhibited enhanced functionality when they\r\nencountered a secondary stimulation,16 providing a new\r\npossibility of enhancing NK cell responsiveness to viral infec\u0002tions and tumors. An improved understanding of the cellular\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "and molecular networks of cytokine–cytokine receptor signals\r\nhas led to a resurgence of interest in the clinical use of\r\ncytokines that can sustain and/or activate NK cell antitumor\r\npotential.\r\nImmune synapse formation\r\nAs with other immune cells, the majority of NK cell effector\r\nfunctions require direct cell-to-cell contact. Target cell binding\r\nis accompanied by the creation of complex structures at the\r\ncell–cell interface, often considered the immune synapse.12,17\r\nThis concept was first proposed by DM Davis in 1999 as the\r\n‘missing-self’ recognition in inhibitory interactions.18 Recent\r\nprogress has contributed to the characterization of several types\r\nof NK cell immunological synapses and has demonstrated that\r\nNK cell immune synapses are the primary sites where the\r\nhighly complex regulation of NK cell activity occurs.9,19 The\r\nNK cell immunological synapse is the dynamic interface\r\nformed between an NK cell and its target cell. The formation\r\nof the NK cell immunological synapse involves several distinct\r\nstages, from the initiation of contact with a target cell to the\r\ndirected delivery of lytic granule contents for target cell lysis.17\r\nProgression through the individual stages is regulated, and this\r\ntight regulation underlies the precision with which NK cells\r\nselect and kill susceptible target cells, including virally infected\r\ntransformed cells and tumor cells that they encounter during\r\ntheir surveillance of the body.\r\nEffector molecules\r\nSeveral killing pathways in NK cell cytotoxicity have been\r\ncharacterized.1,4 First, the Prf1- and GzmB-mediated mechan\u0002ism demonstrates that granzymes are serine proteases that are\r\nfound primarily in the cytoplasmic granules of NK cells. Prf1\r\nfacilitates the delivery of Gzms into the cytosol of the target\r\ncell, whereas GzmB, the best-characterized Gzm, cleaves several\r\nprocaspases and other intracellular substrates to initiate the\r\nclassical apoptotic pathways. Second, the CD95 (FAS)-CD178\r\n(FAS ligand) pathway leads to the formation of a death\u0002inducing signaling complex and the subsequent activation of\r\ncaspases that promote the apoptotic process of the CD95-\r\nexpressing target cell. Third, the antibody-dependent cellular\r\ncytotoxicity mechanism is used by leukocytes, including NK\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "cells that express CD16 (Fc receptors) to kill antibody-coated\r\ntarget cells (Figure 1).\r\nAmong these cytotoxic effector molecules, the most general\r\nand best-known effectors are Prf1 and GzmB.20 The contact\r\nbetween an NK cell and a susceptible target cell results in\r\nconjugation and the formation of the immunological synapse.\r\nThe stimulation of NK cell-activating receptors by their ligands\r\non the target cell induces the phosphorylation of membrane\r\nproximal signaling molecules and the formation of a signaling\r\ncomplex comprising many signaling and adapter molecules at the\r\njunction. Positive feedback loops are generated, causing signal\r\namplification and sustained signaling that induce more robust\r\nactin polymerization at the synapse zone and polarization of the\r\nmicrotubule-organizing center and lytic granules to the immu\u0002nological synapse, where Prf1 and GzmB from lytic granules are\r\nsubsequently exocytosed to the target cell membrane.12\r\nMicroRNAs in NK cell biology\r\nThe miRNAs are an abundant class of endogenous small\r\nnoncoding RNAs (19–22 nucleotides) generated by the sequen\u0002tial processing of primary miRNA transcripts by the ribonu\u0002cleases Drosha in the nucleus and Dicer1 in the cytoplasm.\r\nMature miRNAs associate with the 3' untranslated regions of\r\nspecific target mRNAs to downregulate gene expression by\r\ntargeting mRNAs for translational suppression or mRNA\r\ndegradation. Recently, the involvement of miRNAs in immune\r\nresponses and the development of NK cells from hematopoietic\r\nstem cells has been widely investigated by gain and loss of\r\nfunction of specific miRNAs or by disruption of the molecules\r\ninvolved in the biogenesis/activity of all miRNAs (for example,\r\nArgonaute, Drosha and Dicer).21 The miRNAs also regulate\r\nfundamental NK cell processes such as development, prolifera\u0002tion, cytotoxicity and cytokine production, as shown in\r\nTable 1. The growing evidence for the impact of miRNAs on\r\nNK cell biology suggests that modulating the endogenous levels\r\nof a specific miRNA in NK cells represents a potential strategy\r\nfor immunotherapy.5,22\r\nTuning of NK cell activation\r\nUpon tuning the threshold for NK cell activation, NK cells\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "can exert effector functions against transformed self while\r\nTable 1 Selected microRNA with roles in NK cell biology\r\nMicroRNA Target genes\r\nCell type miRNA\r\nexpression\r\nmiR-27a* Human Prf1 and GzmB6 Mature NK cells\r\nmiR-150 Mouse c-Myb123 Developing NK cells\r\nPrf1, human and mouse124 Mature NK cells\r\nHuman and mouse IFNγ123 Mature NK cells\r\nmiR-223 Mouse GzmB125 Mature NK cells\r\nmiR-378, 30e Human Prf1 and GzmB126 Mature NK cells\r\nmiR-155 Human and mouse IFNγ127 Mature NK cells\r\nSHIP-1, human21 Mature NK cells\r\nNoxa and SOCS1, mouse128 Mature NK cells\r\nmiR-181 Human and mouse IFNγ129 Mature NK cells\r\nmiR-29 Human and mouse IFNγ130 Mature NK cells\r\nmiR-132, 212, 200a, STAT4, human131 Mature NK cells\r\nmiR-183 DAP12, human132 Mature NK cells\r\nAbbreviations: DAP12, DNAX activation protein of 12 kDa; GzmB, granzyme B;\r\nIFNγ, interferon-γ; miRNA, microRNA; NK, natural killer; Prf1, perforin; SHIP-1,\r\nSH2 (Src homology 2)-containing inositol phosphatase-1; SOCS1, suppressor of\r\ncytokine signaling 1; STAT4, signal transducer and activator of transcription 4.\r\nDevelopment of NK cell therapy\r\nSR Yoon et al\r\n3\r\nExperimental & Molecular Medicine\nsustaining tolerance to normal self. Recent progress in under\u0002standing NK cell biology brings this approach into the realm of\r\nclinical trials. An emerging idea is that the threshold of NK cell\r\nreactivity is tuned by their interactions with the environment.\r\nAs shown in the lower panel of Figure 1, the strategies used to\r\nharness NK cell functions in cancer therapy can be summarized\r\ninto three categories:23 (1) enhancing receptor signaling by\r\nmanipulating the balance between inhibitory and activating NK\r\nreceptors and NK cell effector functions, (2) blocking negative\r\nregulators through the use of monoclonal antibodies and (3)\r\ntreatment involving cytokines that promote NK cell prolifera\u0002tion, viability and activity.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "NK CELL GENERATION\r\nNK cell development\r\nNK cells have been known to originate from hematopoietic\r\nprecursor cells in the bone marrow (BM).24 However, hema\u0002topoietic precursor cells are also found in the lymph nodes and\r\nsecondary lymphoid tissues,8 the maternal decida25 and the\r\nthymus and liver of the fetus.26,27 Nevertheless, NK cell\r\ndevelopment primarily occurs in the BM microenvironment.\r\nIn general, NK cells are derived from CD34+ HSCs through\r\ndiscrete stages of development, such as precursor NK (pNK),\r\nimmature NK (iNK) and mature NK, and are characterized by\r\nthe sequential acquisition of surface receptors and effector\r\nfunction.28,29 HSCs give rise to different hematopoietic lineages\r\nvia common lymphoid progenitors and common myeloid\r\nprogenitors. Common lymphoid progenitors differentiate into\r\nNK/T progenitors that have the potential to develop into T\r\nand/or NK cells. Following this, NK/T cells differentiate into\r\npNK and iNK and finally into mature NK.8,30 Recently,\r\nGrzywacz et al.31 demonstrated that NK cells could also be\r\nderived from myeloid precursors such as common myeloid\r\nprogenitors and the CD33+CD13+ population. The transition\r\nfrom NK/T to pNK cells is defined by the expression of\r\nIL-2/15Rβ (the CD122 receptor).26 Along with IL-2Rβ expres\u0002sion, IL-7, stem cell factor and Flt3L (FMS-like tyrosine kinase\r\n3 ligand) commit HSCs to the NK lineage.32 In humans, pNKs\r\nare characterized by the CD34+CD122+CD56− phenotype, and\r\nthese pNK cells then respond to IL-15, a critical factor for the\r\nfinal maturation of NK cells.\r\nAs the cells differentiate from pNK to iNK cells, the\r\nexpression of Flt3 and IL-7Rα decreases, whereas the expres\u0002sion of IL-2Rβ, CD2 and 2B4 (CD244) increases.33,34 The iNK\r\ncells are identified by the expression of CD161 that is\r\nsupported by a population of CD3−CD56−CD161+ cells that\r\nwere found during in vitro NK cell differentiation from CD34+\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Lin− umbilical cord blood (UCB) cells.35 Although IL-15 is\r\nknown to be indispensable for NK cell development,36,37 the\r\ngeneration of pNKs from HSCs is likely an IL-15-independent\r\nmechanism.38 IL-15 and its specific receptor, IL-15R, mediate\r\nNK cell development from committed pNKs and promote\r\ntheir differentiation into iNK cells.39\r\nThe final maturation of NK cells is characterized by the\r\nacquisition of activating and inhibitory receptor expression.\r\nThe activating receptor NKp44 is the first NK cell receptor to\r\nbe expressed at the early stage of NK cell maturation. The\r\nNKp46, NKp30, NKG2D and DNAM-1 activating receptors are\r\nacquired at a later stage. The first inhibitory receptor to be\r\nexpressed during in vitro NK cell differentiation is CD94/\r\nNKG2A.8 The NK cell maturation process also includes the\r\nMHC class I-induced NK ‘education’ or ‘licensing’ that\r\ninvolves the recognition of self-MHC class I molecules by\r\ncognate inhibitory receptors such as KIRs.40,41 Further steps of\r\nNK cell maturation are required for the acquisition of the\r\ncytolytic machinery, such as perforin and granzymes.42\r\nFactors involved in NK differentiation\r\nAlthough the developmental pathways of NK cells are relatively\r\nunclear compared with that of T and B lymphocytes, the\r\nprocess of NK cell differentiation seems to be a coordinated\r\nmechanism that involves many cytokines, surface receptors and\r\ntranscription factors.\r\nThe BM microenvironment is a major source of cytokines\r\nthat initiates and facilitates NK differentiation. Within the BM,\r\nstromal cells assist the full maturation of NK cells,43,44\r\nsuggesting that the BM stroma itself is one of the critical\r\nfactors for the differentiation of NK cells. Although the intact\r\nBM microenvironment is essential for NK differentiation, the\r\nstromal cell requirement might be replaced, at least partially, by\r\nearly-acting cytokines, including stem cell factor, Flt3L and IL\u00027,32,45 that induce CD122 responsiveness through their recep\u0002tors on pNKs.\r\nTranscription factors are also involved in controlling the NK\r\ncell differentiation process. The Ets family (for example, PU.1\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "and Ets-1) and the Ikaros family (for example, Ikaros, Helios\r\nand Aiolos)46–48 are essential for the generation of NK cells\r\nin vivo by the specification or maintenance of pNKs. The\r\ninhibitors of DNA binding (Id proteins) including ID2 and\r\nID3,49 as well as E4BP4,50 also regulate cell-fate decisions in the\r\nearly stage of NK development. In addition, we have reported\r\nthat VDUP-1 (vitamin D3 upregulated protein 1), a stress\u0002response gene, regulates NK differentiation by controlling both\r\nCD122 expression and IL-15 responsiveness.51 Transcription\r\nfactors, including Gata-3,52 IRF-2,53 and Tox,6,54 are involved\r\nin the final maturation of NK cells; thus, their absence leads to\r\nthe incomplete development of functional NK cells or imma\u0002ture phenotypes of NK cells. The acquisition of mature NK cell\r\nfunction is also related to the presence of Eomesodermin\r\n(EOMES) and T cell-specific T-box transcription factor (T-bet)\r\n55 that induce the expression of the cytolytic machinery (for\r\nexample, perforin and granzymes) and interferon-γ.\r\n6,54,56\r\nProduction of NK cells in vitro\r\nRecently, NK cell immunotherapy has been developing rapidly.\r\nAchieving NK cell immunotherapy for cancer requires not only\r\nan adequate number of NK cells but also NK cell purity and\r\nfunctional activity. Human NK cells can be obtained either\r\ndirectly or indirectly from various sources, such as peripheral\r\nblood (PB), UCB, BM, embryonic stem cells (hESCs) or\r\ninduced pluripotent stem cells (iPSCs).29\r\nDevelopment of NK cell therapy\r\nSR Yoon et al\r\n4\r\nExperimental & Molecular Medicine\nNK cell generation efficiency from PB or UCB. NK cells can be\r\ndirectly isolated from PB or UCB and expanded for short or\r\nlong periods of time in vitro and subsequently infused for\r\ncancer treatment. Several protocols have been developed for\r\nthe expansion of PB NK cells for clinical studies.57 Purified PB\r\nNK cells have been expanded using various feeder cells, such as\r\nautologous irradiated feeder cells and third-party Epstein–Barr\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "virus-transformed lymphoblastoid B cell lines.58,59 In addition,\r\ngenetically modified K562 cells, including K562 cells trans\u0002duced with IL-21,60 or K562 cells double transduced with IL-15\r\nand 4-1BB (CD137) ligand (K562–mb15–41BBL),61 have been\r\nused as feeder cells for NK co-culture systems. The main\r\nadvantage of these methods is the immediate availability of the\r\ncells after long-term expansion in vitro compared with the de\r\nnovo production of NK cells. However, the prolonged exposure\r\nof NK cells to cytokines in vitro induces cell exhaustion that\r\nmay lead to a low functional activity of NK cells. Moreover, the\r\ncomplete removal of any residual viable tumor feeder in final\r\ncell products should be required for NK cell immunotherapy.\r\nAlternatively, NK cells can be selectively isolated from UCB,\r\nwhich is considered a good source for cell therapy. Positively\r\nisolated cord blood NK cells cultured on a feeder layer of\r\nmesenchymal stromal cells using a combination of IL-2, IL-15,\r\nFlt3L and IL-3 achieved an ∼60-fold expansion.62 However,\r\nbecause of the low initial numbers of NK cells in UCB, this is\r\nnot a feasible approach for generating the cell numbers\r\nrequired for application in NK cell therapy. To overcome the\r\nobstacles in directly isolating NK cells from fresh samples, NK\r\ncells can be generated from CD34+ HSCs in vitro. Generating\r\nNK cells from CD34+ stem cells can be advantageous because\r\nstem cells can be isolated and frozen. Furthermore, NK cells\r\ncan be manipulated during the process of differentiation from\r\nHSCs in vitro.\r\n63\r\nNK cell generation from UCB CD34+ stem cells. It has been\r\nshown that NK cells are originated from the CD34+ stem cell\r\ncompartment in vivo.\r\n64 Therefore, NK cells can be generated\r\nin vitro from CD34+ HSCs from BM33,45 or UCB65,66 using\r\ndifferent combinations of cytokines, BM stromal cells and\r\nculture media supplemented with animal or human sera.\r\nHowever, these culture systems contain components of animal\r\norigin and fail to produce significant numbers of NK cells. Kao\r\net al.67 demonstrated that using fetal bovine serum, UCB\r\nCD34+ cells differentiated into NK cells with a purity of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "40–60%, finally reaching a 300-fold expansion. Using complete\r\nmedium containing human serum, fetal bovine serum and\r\ncytokines including IL-15 and IL-21, methylprednisolone has\r\nbeen shown to induce the rapid differentiation of CD34+ HSCs\r\ninto NK cells, attaining a 10-fold expansion of NK cells.68 In\r\naddition, Spanholtz et al.69,70 developed a novel cell culture\r\ntechnique for the ex vivo expansion and differentiation of NK\r\ncells from UCB CD34+ cells in the absence of feeder cells using\r\na serum-free culture medium coupled with a mixture of\r\nheparin and cytokines that mimic the extracellular matrix of\r\nthe BM microenvironment. In this protocol, up to 1010 CD34+\r\ncell-derived NK cells without T-cell contamination could be\r\ngenerated. However, a transplantation study using nonobese\r\ndiabetic/severe combined immunodeficiency mice receiving\r\nhuman HSCs demonstrated that NK cell differentiation from\r\nUCB CD34+ cells was slower and less efficient than NK cell\r\ndifferentiation from BM CD34+ cells.66 Furthermore, that\r\nstudy also demonstrated that UCB CD34+ cells differentiated\r\ninto NK cells lacking the expression of KIRs, including CD158a\r\n(KIR2DL1), CD158b (KIR2DL2/DL3) and NKB1.66 Co-culture\r\nwith the feeder layer EL08.1D2 has shown that UCB CD34+\r\n-derived NK cells acquired the coordinated NK cell receptors\r\nthat represent cytotoxic CD56+ cells.71\r\nNK cell generation from BM or mobilized PB. Because NK cells\r\nare developed in the BM microenvironment in vivo, the BM\r\nmay be a rich source of CD34+ stem cells. NK cells with\r\nmature properties have been successfully generated using\r\nsorted CD34+ cells from the BM.28,45 The main disadvantages\r\nof working with BM stem cells are the limitations in cell\r\nnumber and the painful procedure of harvesting cells. To\r\nfacilitate harvesting, stem cells can alternatively be mobilized\r\nusing the granulocyte colony-stimulating factor.72 Giuliani\r\net al.73 generated differentiated NK cells from mobilized PB\r\nstem cells to study the effect of membrane-bound IL-15. In\r\n2010, we developed a protocol for generating NK cells using\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "isolated CD34+ cells from mobilized PB for clinical trials and\r\nperformed allogeneic NK cell transfer after haploidentical\r\nhematopoietic stem cell transplantation (HSCT).74 Recently,\r\nwe also developed a novel protocol for the generation of NK\r\ncells using T cell-depleted mononuclear cells from mobilized\r\nPB that allows for a shorter time period of differentiation and\r\nthe generation of increased NK cell numbers compared with\r\nthe earlier protocol.75\r\nNK cell generation from hESCs. Because hESCs or iPSCs can\r\ngive rise to CD34+ HSCs, they may serve as a source for NK\r\ncell differentiation.76 Knorr et al.77 engineered CD34+ cells,\r\nhESCs or iPSCs that expressed chimeric antigen receptors\r\n(CARs) specific for tumor-associated antigens for immu\u0002notherapy. However, the generation of NK cells from hESCs\r\nand iPSCs is still in the experimental phase, and the generation\r\nof CD34+ HSCs from hESCs and iPSCs for hESC- and iPSC\u0002based NK cell therapies still requires optimization.77–79\r\nIn summary, the methods for NK cell production in vitro for\r\napplication in immunotherapy are shown in Figure 2.\r\nNK CELL THERAPY\r\nBecause of their ability to recognize and lyse broad range of\r\ntumor cells without prior priming, NK cells emerged as\r\npromising candidates for cancer therapy. Because NK cells\r\nare found primarily in the blood, NK therapy has been most\r\nsuccessful in hematopoietic malignancies, such as leukemias.\r\nNK cell immunotherapy can be achieved by either activating\r\nendogenous NK cell response by administering NK stimulants\r\nor using exogenous NK cells via HSCT or adoptive cell transfer.\r\nSeveral strategies for NK cell immunotherapies for human\r\ncancer have been proposed.10\r\nDevelopment of NK cell therapy\r\nSR Yoon et al\r\n5\r\nExperimental & Molecular Medicine\nActivation of endogenous NK cell response\r\nNonfunctional NK cells are frequently found in cancer patients;\r\nthus, exogenous NK activators may be used to enhance the\r\nendogenous NK response to tumors. Cytokines, including IL-2,\r\nIL-12, IL-15, IL-18, IL-21 and type I interferons, have been\r\nused to activate endogenous NK cells both directly and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "indirectly.80,81 The administration of IL-2 has been shown to\r\nactivate and expand NK cell populations in some cancer\r\npatients,82,83 although IL-2 treatment is limited by severe side\r\neffects. To reduce the side effects of IL-2, combination therapy\r\nusing IL-2 together with IL-12 and IL-21 has been proposed.84\r\nIL-15 is a promising candidate for activating NK cells because\r\nIL-15 is indispensable for NK cell maturation. When combined\r\nwith chemotherapy, the administration of IL-15 potentiated\r\nantitumor effects.85 In addition, several immunomodulators\r\nhave been shown to increase the activity of NK cells against\r\ntumor cells. For example, thalidomide and lenalidomide\r\nincreased the number of peripheral blood NK cells and\r\nactivated NK function against myeloma cells that may be\r\nmediated through the stimulation of IL-2 production by T\r\ncells.86–88 Similarly, the adjuvant intravesical bacillus Calmette–\r\nGuerin89 and CpG oligodeoxynucleotides40 have been used to\r\nenhance antitumor activity in superficial bladder cancer and\r\nnon-Hodgkin’s lymphoma, respectively. Bortezomib, a protea\u0002some inhibitor, has also been applied to increase the suscept\u0002ibility of tumor cells by the upregulation of death receptors that\r\ntrigger cytolysis by NK cells.90\r\nNK cell adoptive immunotherapy\r\nAdoptive immunotherapy refers to the introduction of ex vivo\u0002manipulated cells to patients for clinical applications. NK cells\r\ncan be isolated, expanded or produced in vitro to be transferred\r\nin an autologous or allogeneic setting. The first trial involving\r\nadoptive transfer of NK cells for antitumor therapy was\r\nperformed by Rosenberg91 using a combination of ex vivo\u0002expanded autologous lymphokine-activated killer cells and\r\nexogenous IL-2. However, this trial induced only a 20%\r\nresponse, including partial and complete responses, a rate\r\nsimilar to the antitumor effect achieved by the administration\r\nof high-dose IL-2 alone.92\r\nUnlike autologous cell transfers, allogeneic adoptive cell\r\ntransfers have the benefit of mismatched KIR/KIR ligands\r\nbetween the host and donor NK cells, although these therapies\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "run a great risk of graft-versus-host disease (GVHD) that can\r\ncause severe damage to host tissues. Ruggeri et al.93 first\r\nidentified a correlation between donor KIR and host KIR\r\nligand expression in the occurrence of tumor relapse. Com\u0002pared with KIR-matched transplants, KIR mismatches,\r\nin which donor NK cells express KIRs that have no ligand in\r\nthe patient, produced graft-versus-tumor (GVT) effects in\r\nacute myeloid leukemia (AML) patients. In 2005, Miller\r\net al.94 performed a combined therapy of haploidentical NK\r\ncell infusion together with IL-2 administration for AML\r\npatients in a nontransplantation setting. This study demon\u0002strated the safety and efficacy of adoptively transferred human\r\nNK cells, with 26% of AML patients achieving complete\r\nremission. An infusion of haploidentical allogeneic NK cells\r\nhas also been applied to patients with poor prognosis in\r\nHodgkin’s lymphoma95 and various solid tumors, such as\r\nmelanoma and renal cancer.96 Another approach of adoptive\r\nimmunotherapy using the NK lymphoma-derived cell line\r\nNK-92 has been proposed, although limited data exist on the\r\nefficacy of this approach.97 To date, the adoptive transfer\r\ntherapy of NK cells can be applied either alone or in\r\ncombination with allogeneic stem cell transplantation by donor\r\nlymphocyte infusion (DLI).\r\nFigure 2 Production of natural killer (NK) cells in vitro for immunotherapy. Human NK cells can be obtained from various sources, such as\r\nperipheral blood (PB), umbilical cord blood (UCB), bone marrow (BM), mobilized PB (mPB) or embryonic stem cells (ESCs). NK cells can\r\nbe isolated from PB or UCB and expanded. In addition, NK cells can be generated using CD34+ hematopoietic stem cells (HSCs) from\r\nUCB, BM, mPB or ESCs. CD34+ HSCs are differentiated into CD56+ mature NK cells (mNK) via CD122+ precursor NK cells (pNK).\r\nFinally, mNK cells armed with effector functions are infused into the patient for adoptive immunotherapy.\r\nDevelopment of NK cell therapy\r\nSR Yoon et al\r\n6\r\nExperimental & Molecular Medicine\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Hematopoietic stem cell transplantation\r\nHSCT is a therapy that is often applied for hematological\r\nmalignancies and can be classified as autologous or allogeneic\r\ndepending on the source of the donor cells. Currently,\r\nallogeneic stem cell transplantation from unrelated or sibling\r\ndonors have been used for several hematological malignancies,\r\nsuch as AML and acute lymphoblast leukemia.63,93\r\nAllogeneic HSCT requires a human leukocyte antigen\r\n(HLA)-mismatched donor from which BM cells are harvested\r\nand infused into the patient. Because T cell receptors are highly\r\nindividualized and sensitive to non-self presentation, recipient\r\nantigen-presenting cells such as dendritic cells may aberrantly\r\nactivate donor-derived T cells. In the recipient, these activated\r\nT cells mediate the severe damage characteristic of GVHD.\r\nConversely, donor-derived T cells also recognize and kill\r\nresidual tumor cells in the recipient, referred to as the GVT\r\nor the graft-versus-leukemia effect. The current strategies used\r\nto improve the outcome of allogeneic HSCT in cancer therapy\r\nare focused on minimizing harmful GVDH reactions while\r\nmaximizing beneficial GVT effects. To reduce the risk of\r\nGVHD, T cells are often required to be depleted from donor\r\ngrafts, eliminating GVHD at the expense of inhibiting GVT\r\neffects.98 Unlike T cells, NK cells have been demonstrated to\r\nenhance GVT effects without the implication of GVHD.99\r\nAllogeneic NK cells in stem cell transplantation\r\nUnfortunately, many patients relapse after HSCT. To prevent\r\nrelapses in patients after HSCT, DLI can be used to induce\r\npotent GVT effect, although DLI may cause T cell-induced\r\nGVHD. To minimize the risk of GVHD, T cell-depleted DLI\r\nhas been applied. The introduction of T cell-depleted donor\r\nlymphocytes containing alloreactive NK cells improved the\r\nsurvival of patients by enhancing graft-versus-leukemia effect\r\nand reducing GVHD.100 DLI using purified donor NK cells has\r\nbeen shown to facilitate engraftment and induce GVT effects\r\nwithout contributing to GVHD in haploidentical HSCT.101\r\nGVT effects can be mediated by both donor-derived NK cells\r\nand NK cells that developed from donor hematopoietic stem\r\ncells.102,103\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Because NK cells can kill normal missing-self targets and\r\nrespond to target cells expressing foreign MHC class I alleles,\r\nNK cell alloreactivity can be beneficially utilized for HSCT. A\r\nprerequisite for NK cell alloreactivity is that the recipient must\r\nlack one or more KIR ligands present in the donor; thus, the\r\nrecipient’s MHC class I allele must not match the KIR of\r\ndonor-derived NK cells. Taking advantage of NK cell allor\u0002eactivity, allogeneic NK cells can be used in combination with\r\nHSCT to suppress GVHD and promote graft-versus-leukemia\r\neffect. Allogeneic NK cells from a HLA-mismatched donor can\r\ndecrease GVHD by killing the recipient antigen-presenting cells\r\n(for example, dendritic cells) that may otherwise initiate\r\nGVHD and produce the graft-versus-leukemia effect by killing\r\nresidual cancer cells in the recipient. Furthermore, allogeneic\r\nNK cells can directly kill the recipient’s T cells, leading to\r\nimproved engraftment.\r\nVelardi’s group93 initially demonstrated that donor-versus\u0002recipient NK cell alloactivity could prevent leukemia relapse in\r\nAML patients without increasing the risk of GVHD in\r\nhaploidentical HSCT. It has also been shown that the infusion\r\nof allogeneic KIR ligand-mismatched NK cells improved the\r\nsurvival rate and reduced the relapse rate for haploidentical\r\nHSCT in AML patients.93,104 Other studies have confirmed a\r\nbeneficial effect of a KIR-ligand mismatch on the relapse rate\r\nand the survival of the recipient.105,106 Although allogeneic NK\r\ncell products have been optimized for T-cell depletion and NK\r\ncell expansion,107 clinical standardized protocols for the\r\nproduction of NK cells are still lacking. Recently, our group\r\ndeveloped a protocol for allogeneic NK cell production without\r\nT-cell contamination for clinical trials. Using this protocol,\r\nallogeneic NK cells derived from HLA-mismatched donors\r\nwere transferred to AML patients after haploidentical trans\u0002plantation, resulting in reduced relapse rates and increased\r\nsurvival rates in patients.74,75\r\nOther clinical strategies for NK cell therapy\r\nSeveral other approaches have been developed to enhance the\r\neffect of NK cell immunotherapy by selectively blocking or\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "activating NK receptors.108 Blocking CD94/NKG2A or inhibi\u0002tory KIRs of NK cells might reduce the NK inhibitory signal,\r\nleading to enhanced NK activity,109 whereas upregulating the\r\nexpression of activating receptors, such as NKG2D on NK cells,\r\nor their ligands (ULBPs and MICA/B) on tumor cells, could\r\nincrease the NK activating signal.110 Histone deacetylase\r\ninhibitors111,112 and heat shock 90 inhibitors113 have been\r\nshown to upregulate the expression of NKG2D ligands, MICA\r\nand MICB on the tumor cells, thereby rendering tumor cells\r\nmore susceptible to NK cell-mediated cytotoxicity. Treatment\r\nof drugs such as melphalan, etoposide and doxorubicin that\r\ninduce DNA damage responses also increased the susceptibility\r\nof myeloma cells to NK cells by upregulating the NK activating\r\nligands, DNAX accessory molecule-1 (DNAM-1) ligand and\r\nNKG2D ligand.113 Antibodies that block inhibitory receptors\r\ncan be used to mimic the missing self-environment and\r\naugment NK cell-mediated killing. Recently, a human mono\u0002clonal antibody, 1-7F9, that prevents signaling via KIR2DL1,\r\nKIR2DL2 and KIR2DL3 was developed to increase NK cell\u0002mediated cytotoxicity against tumors expressing HLA-C.114,115\r\nIn addition, bortezomib, a proteasome inhibitor, has been\r\nshown to increase NK function by reducing the expression of\r\nMHC class I on the surface of myeloma cells.116\r\nNK cell effector functions can also be mediated by antibody\u0002dependent cellular cytotoxicity.117 Because NK cells execute\r\nantibody-dependent cellular cytotoxicity through the CD16\r\n(FCRγIII) receptor on their surface, treatment with an anti\u0002body can trigger effector functions of NK cells against tumor\r\ntargets. For example, in CD20+ lymphoma, the administration\r\nof the CD20 antibody rituximab induced antibody-dependent\r\ncellular cytotoxicity to antibody-coated target cells via binding\r\nto the CD16 receptor on the surface of NK cells.118,119\r\nSimilarly, bispecific antibodies for CD16 on NK cells and for\r\nDevelopment of NK cell therapy\r\nSR Yoon et al\r\n7\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Experimental & Molecular Medicine\nCD30 on non-Hodgkin’s lymphoma promoted NK cell recog\u0002nition and cytolysis of tumor cells.120\r\nGenetic engineering of NK cells may also become important\r\nin manipulating and enhancing their therapeutic potential.\r\nBecause T cells can successfully be genetically engineered to\r\nexpress a CAR for CD19, similar strategies have been developed\r\nfor NK cells. NK cells transduced with a disialoganglioside\r\nGD2-recognizing CAR have been applied to enhance cytotoxi\u0002city in neuroblastoma.121 Engineering NK cells with CARs\r\nspecific for CD19 or for CD20 has also been proposed as\r\ntreatment for leukemias and lymphomas, respectively.54,122\r\nCONCLUSION\r\nNK cells have diverse functions in regulating the innate and\r\nadaptive immune responses. These properties are derived from\r\nthe molecular characteristics of NK cells. They express several\r\ndifferent surface receptors that can recognize target cells that\r\nhave appropriate ligands on their surface. In addition, NK cells\r\ncan secrete cytokines and soluble factors to regulate other\r\nimmune cells, such as T cells and dendritic cells.\r\nThese functional properties make NK cells applicable for\r\nclinical treatment, with several groups achieving limited\r\nsuccess. To explore NK cell therapy more effectively, we need\r\nto understand NK cell biology and function in detail. NK cells\r\nare differentiated from HSCs. At each of the steps in NK cell\r\ndifferentiation, activation and genetic modification (for exam\u0002ple, CAR-NK cells) may serve as a critical target for successful\r\nclinical applications (Figure 3). In the preparation of NK cells,\r\nNK cells must be properly activated, and NK cell subsets\r\nshould be manipulated depending on the type of disease: NK\r\ncells with more cytolytic activity are required for the treatment\r\nof cancer, whereas NK cells that secrete interferons will be\r\nbeneficial for the treatment of viral infections.\r\nSeveral other issues should be considered for the develop\u0002ment of successful NK cell-based immunotherapy. Among\r\nthem is NK cell preparation, which includes the purity and\r\nexpansion of NK cells, and the criteria for donor selection (KIR\r\ngenotypes and alloreactive subset sizes). The optimal doses and\r\ntiming of administration of NK cells should also be deter\u0002mined. Additional factors for consideration include the opti\u0002mization of conditioning recipients, enhancement of NK cell\r\nfunction and tumor cell susceptibility.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "NK cell therapy can be combined with other immunothera\u0002pies, including cytotoxic T lymphocyte therapy and antibody\r\ntherapy. Understanding NK cell properties and functions will\r\nextend its field of application and enhance its availability to\r\nfight diseases in the future.\r\nCONFLICT OF INTEREST\r\nThe authors declare no conflict of interest.\r\nACKNOWLEDGEMENTS\r\nThis work was supported in part by grants from the GRL project\r\n(FGM1401223), the Ministry of Science, ICT & Future Planning,\r\nKRIBB Research Initiative Program, the Korean Health Technology\r\nR&D Project (A121934) and Basic Science Research Program through\r\nthe National Research Foundation of Korea (RBM0261413 and\r\nRBM0271413).\r\n1 Vivier E, Ugolini S, Blaise D, Chabannon C, Brossay L. Targeting natural\r\nkiller cells and natural killer T cells in cancer. Nat Rev Immunol 2012;\r\n12: 239–252.\r\n2 Vivier E, Ugolini S. Natural killer cells: from basic research to treatments.\r\nFront Immunol 2011; 2: 18.\r\n3 Romagne F, Vivier E. Natural killer cell-based therapies. F1000 Med Rep\r\n2011; 3: 9.\r\n4 Narni-Mancinelli E, Ugolini S, Vivier E. Tuning the threshold of natural\r\nkiller cell responses. Curr Opin Immunol 2013; 25: 53–58.\r\n5 Leong JW, Sullivan RP, Fehniger TA. microRNA management of NK-cell\r\ndevelopmental and functional programs. Eur J Immunol 2014; 44:\r\n2862–2868.\r\n6 Kim TD, Lee SU, Yun S, Sun HN, Lee SH, Kim JW et al. Human\r\nmicroRNA-27a* targets Prf1 and GzmB expression to regulate NK-cell\r\ncytotoxicity. Blood 2011; 118: 5476–5486.\r\n7 Yun S, Lee SH, Yoon SR, Kim MS, Piao ZH, Myung PK et al. TOX\r\nregulates the differentiation of human natural killer cells from hemato\u0002poietic stem cells in vitro. Immunol Lett 2011; 136: 29–36.\r\n8 Freud AG, Caligiuri MA. Human natural killer cell development. Immunol\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Rev 2006; 214: 56–72.\r\n9 Malhotra A, Shanker A. NK cells: immune cross-talk and therapeutic\r\nimplications. Immunotherapy 2011; 3: 1143–1166.\r\n10 Ljunggren HG, Malmberg KJ. Prospects for the use of NK cells in\r\nimmunotherapy of human cancer. Nat Rev Immunol 2007; 7:\r\n329–339.\r\n11 Vivier E, Nunes JA, Vely F. Natural killer cell signaling pathways. Science\r\n2004; 306: 1517–1519.\r\n12 Krzewski K, Strominger JL. The killer's kiss: the many functions of NK cell\r\nimmunological synapses. Curr Opin Cell Biol 2008; 20: 597–605.\r\n13 Romee R, Leong JW, Fehniger TA. Utilizing cytokines to function-enable\r\nhuman NK cells for the immunotherapy of cancer. Scientifica (Cairo)\r\n2014; 2014: 205796.\r\n14 Fehniger TA, Caligiuri MA. Interleukin 15: biology and relevance to human\r\ndisease. Blood 2001; 97: 14–32.\r\n15 Lucas M, Schachterle W, Oberle K, Aichele P, Diefenbach A. Dendritic\r\ncells prime natural killer cells by trans-presenting interleukin 15. Immu\u0002nity 2007; 26: 503–517.\r\nFigure 3 From hematopoietic stem cells (HSCs) to clinical application. Natural killer (NK) cells are differentiated from HSCs. For efficient\r\nNK cell therapy, each step of NK cell preparation is important. NK cell differentiation, activation and genetically modified NK cells\r\n(chimeric antigen receptor (CAR)-NK) are major strategies for the generation of potent NK cell therapy.\r\nDevelopment of NK cell therapy\r\nSR Yoon et al\r\n8\r\nExperimental & Molecular Medicine\n16 Cooper MA, Elliott JM, Keyel PA, Yang L, Carrero JA, Yokoyama WM.\r\nCytokine-induced memory-like natural killer cells. Proc Natl Acad Sci USA\r\n2009; 106: 1915–1919.\r\n17 Roda-Navarro P, Reyburn HT. Intercellular protein transfer at the NK cell\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "immune synapse: mechanisms and physiological significance. FASEB J\r\n2007; 21: 1636–1646.\r\n18 Davis DM, Chiu I, Fassett M, Cohen GB, Mandelboim O, Strominger JL.\r\nThe human natural killer cell immune synapse. Proc Natl Acad Sci USA\r\n1999; 96: 15062–15067.\r\n19 Orange JS. Formation and function of the lytic NK-cell immunological\r\nsynapse. Nat Rev Immunol 2008; 8: 713–725.\r\n20 Cao X, Cai SF, Fehniger TA, Song J, Collins LI, Piwnica-Worms DR et al.\r\nGranzyme B and perforin are important for regulatory T cell-mediated\r\nsuppression of tumor clearance. Immunity 2007; 27: 635–646.\r\n21 Sullivan RP, Leong JW, Schneider SE, Keppel CR, Germino E, French AR\r\net al. MicroRNA-deficient NK cells exhibit decreased survival but\r\nenhanced function. J Immunol 2012; 188: 3019–3030.\r\n22 Sullivan RP, Leong JW, Fehniger TA. MicroRNA regulation of natural\r\nkiller cells. Front Immunol 2013; 4: 44.\r\n23 Terme M, Ullrich E, Delahaye NF, Chaput N, Zitvogel L. Natural killer cell\u0002directed therapies: moving from unexpected results to successful strate\u0002gies. Nat Immunol 2008; 9: 486–494.\r\n24 Colucci F, Caligiuri MA, Di Santo JP. What does it take to make a natural\r\nkiller? Nat Rev Immunol 2003; 3: 413–425.\r\n25 Vacca P, Vitale C, Montaldo E, Conte R, Cantoni C, Fulcheri E et al. CD34\r\n+ hematopoietic precursors are present in human decidua and differenti\u0002ate into natural killer cells upon interaction with stromal cells. Proc Natl\r\nAcad Sci USA 2011; 108: 2402–2407.\r\n26 Ikawa T, Kawamoto H, Fujimoto S, Katsura Y. Commitment of common T/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "natural killer (NK) progenitors to unipotent T and NK progenitors in the\r\nmurine fetal thymus revealed by a single progenitor assay. J Exp Med\r\n1999; 190: 1617–1626.\r\n27 Phillips JH, Hori T, Nagler A, Bhat N, Spits H, Lanier LL. Ontogeny of\r\nhuman natural killer (NK) cells: fetal NK cells mediate cytolytic function\r\nand express cytoplasmic CD3 epsilon,delta proteins. J Exp Med 1992;\r\n175: 1055–1066.\r\n28 Miller JS, Alley KA, McGlave P. Differentiation of natural killer (NK) cells\r\nfrom human primitive marrow progenitors in a stroma-based long-term\r\nculture system: identification of a CD34+7+ NK progenitor. Blood 1994;\r\n83: 2594–2601.\r\n29 Luevano M, Madrigal A, Saudemont A. Generation of natural killer cells\r\nfrom hematopoietic stem cells in vitro for immunotherapy. Cell Mol\r\nImmunol 2012; 9: 310–320.\r\n30 Blom B, Spits H. Development of human lymphoid cells. Annu Rev\r\nImmunol 2006; 24: 287–320.\r\n31 Grzywacz B, Kataria N, Kataria N, Blazar BR, Miller JS, Verneris MR.\r\nNatural killer-cell differentiation by myeloid progenitors. Blood 2011;\r\n117: 3548–3558.\r\n32 Williams NS, Klem J, Puzanov IJ, Sivakumar PV, Schatzle JD, Bennett M\r\net al. Natural killer cell differentiation: insights from knockout and\r\ntransgenic mouse models and in vitro systems. Immunol Rev 1998; 165:\r\n47–61.\r\n33 Yu H, Fehniger TA, Fuchshuber P, Thiel KS, Vivier E, Carson WE et al.\r\nFlt3 ligand promotes the generation of a distinct CD34(+) human natural\r\nkiller cell progenitor that responds to interleukin-15. Blood 1998; 92:\r\n3647–3657.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "34 Sivori S, Falco M, Marcenaro E, Parolini S, Biassoni R, Bottino C et al.\r\nEarly expression of triggering receptors and regulatory role of 2B4 in\r\nhuman natural killer cell precursors undergoing in vitro differentiation.\r\nProc Natl Acad Sci USA 2002; 99: 4526–4531.\r\n35 Lanier LL, Chang C, Phillips JH. Human NKR-P1A. A disulfide-linked\r\nhomodimer of the C-type lectin superfamily expressed by a subset of NK\r\nand T lymphocytes. J Immunol 1994; 153: 2417–2428.\r\n36 Carson WE, Giri JG, Lindemann MJ, Linett ML, Ahdieh M, Paxton R et al.\r\nInterleukin (IL) 15 is a novel cytokine that activates human natural killer\r\ncells via components of the IL-2 receptor. J Exp Med 1994; 180:\r\n1395–1403.\r\n37 Cooper MA, Bush JE, Fehniger TA, VanDeusen JB, Waite RE, Liu Y et al.\r\nIn vivo evidence for a dependence on interleukin 15 for survival of natural\r\nkiller cells. Blood 2002; 100: 3633–3638.\r\n38 Vosshenrich CA, Ranson T, Samson SI, Corcuff E, Colucci F,\r\nRosmaraki EE et al. Roles for common cytokine receptor gamma-chain\u0002dependent cytokines in the generation, differentiation, and maturation of\r\nNK cell precursors and peripheral NK cells in vivo. J Immunol 2005; 174:\r\n1213–1221.\r\n39 Roychowdhury S, Blaser BW, Freud AG, Katz K, Bhatt D, Ferketich AK\r\net al. IL-15 but not IL-2 rapidly induces lethal xenogeneic graft-versus\u0002host disease. Blood 2005; 106: 2433–2435.\r\n40 Anfossi N, Andre P, Guia S, Falk CS, Roetynck S, Stewart CA et al. Human\r\nNK cell education by inhibitory receptors for MHC class I. Immunity\r\n2006; 25: 331–342.\r\n41 Yokoyama WM, Kim S. Licensing of natural killer cells by self-major\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "histocompatibility complex class I. Immunol Rev 2006; 214: 143–154.\r\n42 Montaldo E, Vacca P, Moretta L, Mingari MC. Understanding human NK\r\ncell differentiation: clues for improving the haploidentical hematopoietic\r\nstem cell transplantation. Immunol Lett 2013; 155: 2–5.\r\n43 van den Brink MR, Boggs SS, Herberman RB, Hiserodt JC. The generation\r\nof natural killer (NK) cells from NK precursor cells in rat long-term bone\r\nmarrow cultures. J Exp Med 1990; 172: 303–313.\r\n44 Ogasawara K, Hida S, Azimi N, Tagaya Y, Sato T, Yokochi-Fukuda T et al.\r\nRequirement for IRF-1 in the microenvironment supporting development\r\nof natural killer cells. Nature 1998; 391: 700–703.\r\n45 Mrozek E, Anderson P, Caligiuri MA. Role of interleukin-15 in the\r\ndevelopment of human CD56+ natural killer cells from CD34+ hemato\u0002poietic progenitor cells. Blood 1996; 87: 2632–2640.\r\n46 Warren LA, Rothenberg EV. Regulatory coding of lymphoid lineage choice\r\nby hematopoietic transcription factors. Curr Opin Immunol 2003; 15:\r\n166–175.\r\n47 Colucci F, Samson SI, DeKoter RP, Lantz O, Singh H, Di Santo JP.\r\nDifferential requirement for the transcription factor PU.1 in the generation\r\nof natural killer cells versus B and T cells. Blood 2001; 97: 2625–2632.\r\n48 Boggs SS, Trevisan M, Patrene K, Geogopoulos K. Lack of natural killer\r\ncell precursors in fetal liver of Ikaros knockout mutant mice. Nat Immun\r\n1998; 16: 137–145.\r\n49 Spits H, Couwenberg F, Bakker AQ, Weijer K, Uittenbogaart CH. Id2 and\r\nId3 inhibit development of CD34(+) stem cells into predendritic cell (pre\u0002DC)2 but not into pre-DC1. Evidence for a lymphoid origin of pre-DC2.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "J Exp Med 2000; 192: 1775–1784.\r\n50 Kamizono S, Duncan GS, Seidel MG, Morimoto A, Hamada K, Grosveld G\r\net al. Nfil3/E4bp4 is required for the development and maturation of NK\r\ncells in vivo. J Exp Med 2009; 206: 2977–2986.\r\n51 Lee KN, Kang HS, Jeon JH, Kim EM, Yoon SR, Song H et al. VDUP1 is\r\nrequired for the development of natural killer cells. Immunity 2005; 22:\r\n195–208.\r\n52 Samson SI, Richard O, Tavian M, Ranson T, Vosshenrich CA, Colucci F\r\net al. GATA-3 promotes maturation, IFN-gamma production, and liver\u0002specific homing of NK cells. Immunity 2003; 19: 701–711.\r\n53 Lohoff M, Duncan GS, Ferrick D, Mittrucker HW, Bischof S, Prechtl S\r\net al. Deficiency in the transcription factor interferon regulatory factor\r\n(IRF)-2 leads to severely compromised development of natural killer and\r\nT helper type 1 cells. J Exp Med 2000; 192: 325–336.\r\n54 Aliahmad P, de la Torre B, Kaye J. Shared dependence on the DNA\u0002binding factor TOX for the development of lymphoid tissue-inducer cell\r\nand NK cell lineages. Nat Immunol 2010; 11: 945–952.\r\n55 Townsend MJ, Weinmann AS, Matsuda JL, Salomon R, Farnham PJ,\r\nBiron CA et al. T-bet regulates the terminal maturation and homeostasis of\r\nNK and Valpha14i NKT cells. Immunity 2004; 20: 477–494.\r\n56 Gascoyne DM, Long E, Veiga-Fernandes H, de Boer J, Williams O,\r\nSeddon B et al. The basic leucine zipper transcription factor E4BP4 is\r\nessential for natural killer cell development. Nat Immunol 2009; 10:\r\n1118–1124.\r\n57 Koepsell SA, Miller JS, McKenna DH Jr. Natural killer cells: a review of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "manufacturing and clinical utility. Transfusion 2013; 53: 404–410.\r\n58 Siegler U, Meyer-Monard S, Jorger S, Stern M, Tichelli A, Gratwohl A et al.\r\nGood manufacturing practice-compliant cell sorting and large-scale\r\nexpansion of single KIR-positive alloreactive human natural killer cells\r\nfor multiple infusions to leukemia patients. Cytotherapy 2010; 12:\r\n750–763.\r\n59 Berg M, Lundqvist A, McCoy P Jr, Samsel L, Fan Y, Tawab A et al.\r\nClinical-grade ex vivo-expanded human natural killer cells up-regulate\r\nactivating receptors and death receptor ligands and have enhanced\r\ncytolytic activity against tumor cells. Cytotherapy 2009; 11: 341–355.\r\n60 Gong W, Xiao W, Hu M, Weng X, Qian L, Pan X et al. Ex vivo expansion of\r\nnatural killer cells with high cytotoxicity by K562 cells modified to co\u0002express major histocompatibility complex class I chain-related protein A,\r\n4-1BB ligand, and interleukin-15. Tissue Antigens 2010; 76: 467–475.\r\nDevelopment of NK cell therapy\r\nSR Yoon et al\r\n9\r\nExperimental & Molecular Medicine\n61 Fujisaki H, Kakuda H, Shimasaki N, Imai C, Ma J, Lockey T et al.\r\nExpansion of highly cytotoxic human natural killer cells for cancer cell\r\ntherapy. Cancer Res 2009; 69: 4010–4017.\r\n62 Boissel L, Tuncer HH, Betancur M, Wolfberg A, Klingemann H. Umbilical\r\ncord mesenchymal stem cells increase expansion of cord blood natural\r\nkiller cells. Biol Blood Marrow Transplant 2008; 14: 1031–1038.\r\n63 Shlomchik WD, Couzens MS, Tang CB, McNiff J, Robert ME, Liu J et al.\r\nPrevention of graft versus host disease by inactivation of host antigen\u0002presenting cells. Science 1999; 285: 412–415.\r\n64 Di Santo JP. Natural killer cell developmental pathways: a question of\r\nbalance. Annu Rev Immunol 2006; 24: 257–286.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "65 Carayol G, Robin C, Bourhis JH, Bennaceur-Griscelli A, Chouaib S,\r\nCoulombel L et al. NK cells differentiated from bone marrow, cord blood\r\nand peripheral blood stem cells exhibit similar phenotype and functions.\r\nEur J Immunol 1998; 28: 1991–2002.\r\n66 Kalberer CP, Siegler U, Wodnar-Filipowicz A. Human NK cell development\r\nin NOD/SCID mice receiving grafts of cord blood CD34+ cells. Blood\r\n2003; 102: 127–135.\r\n67 Kao IT, Yao CL, Kong ZL, Wu ML, Chuang TL, Hwang SM. Generation of\r\nnatural killer cells from serum-free, expanded human umbilical cord blood\r\nCD34+ cells. Stem Cells Dev 2007; 16: 1043–1051.\r\n68 Vitale C, Cottalasso F, Montaldo E, Moretta L, Mingari MC. Methylpredni\u0002solone induces preferential and rapid differentiation of CD34+ cord blood\r\nprecursors toward NK cells. Int Immunol 2008; 20: 565–575.\r\n69 Spanholtz J, Tordoir M, Eissens D, Preijers F, van der Meer A, Joosten I\r\net al. High log-scale expansion of functional human natural killer cells\r\nfrom umbilical cord blood CD34-positive cells for adoptive cancer\r\nimmunotherapy. PLoS One 2010; 5: e9221.\r\n70 Spanholtz J, Preijers F, Tordoir M, Trilsbeek C, Paardekooper J, de Witte T\r\net al. Clinical-grade generation of active NK cells from cord blood\r\nhematopoietic progenitor cells for immunotherapy using a closed-system\r\nculture process. PLoS One 2011; 6: e20740.\r\n71 Grzywacz B, Kataria N, Sikora M, Oostendorp RA, Dzierzak EA, Blazar BR\r\net al. Coordinated acquisition of inhibitory and activating receptors and\r\nfunctional properties by developing human natural killer cells. Blood\r\n2006; 108: 3824–3833.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "72 Petit I, Szyper-Kravitz M, Nagler A, Lahav M, Peled A, Habler L et al. G\u0002CSF induces stem cell mobilization by decreasing bone marrow SDF-1 and\r\nup-regulating CXCR4. Nat Immunol 2002; 3: 687–694.\r\n73 Giuliani M, Giron-Michel J, Negrini S, Vacca P, Durali D, Caignard A et al.\r\nGeneration of a novel regulatory NK cell subset from peripheral blood\r\nCD34+ progenitors promoted by membrane-bound IL-15. PLoS One\r\n2008; 3: e2241.\r\n74 Yoon SR, Lee YS, Yang SH, Ahn KH, Lee JH, Lee JH et al. Generation\r\nof donor natural killer cells from CD34(+) progenitor cells and sub\u0002sequent infusion after HLA-mismatched allogeneic hematopoietic cell\r\ntransplantation: a feasibility study. Bone Marrow Transplant 2010; 45:\r\n1038–1046.\r\n75 Choi I, Yoon SR, Park SY, Kim H, Jung SJ, Jang YJ et al. Donor-derived\r\nnatural killer cells infused after human leukocyte antigen-haploidentical\r\nhematopoietic cell transplantation: a dose-escalation study. Biol Blood\r\nMarrow Transplant 2014; 20: 696–704.\r\n76 Kaufman DS, Hanson ET, Lewis RL, Auerbach R, Thomson JA. Hemato\u0002poietic colony-forming cells derived from human embryonic stem cells.\r\nProc Natl Acad Sci USA 2001; 98: 10716–10721.\r\n77 Knorr DA, Kaufman DS. Pluripotent stem cell-derived natural killer cells\r\nfor cancer therapy. Transl Res 2010; 156: 147–154.\r\n78 Kaufman DS. Toward clinical therapies using hematopoietic cells derived\r\nfrom human pluripotent stem cells. Blood 2009; 114: 3513–3523.\r\n79 Woll PS, Grzywacz B, Tian X, Marcus RK, Knorr DA, Verneris MR et al.\r\nHuman embryonic stem cells differentiate into a homogeneous population\r\nof natural killer cells with potent in vivo antitumor activity. Blood 2009;\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "113: 6094–6101.\r\n80 Smyth MJ, Cretney E, Kershaw MH, Hayakawa Y. Cytokines in cancer\r\nimmunity and immunotherapy. Immunol Rev 2004; 202: 275–293.\r\n81 Becknell B, Caligiuri MA. Interleukin-2, interleukin-15, and their roles in\r\nhuman natural killer cells. Adv Immunol 2005; 86: 209–239.\r\n82 Farag SS, Caligiuri MA. Cytokine modulation of the innate immune system\r\nin the treatment of leukemia and lymphoma. Adv Pharmacol 2004; 51:\r\n295–318.\r\n83 Rosenberg SA. Interleukin-2 and the development of immunotherapy\r\nfor the treatment of patients with cancer. Cancer J Sci Am 2000;\r\n6(Suppl 1): S2–S7.\r\n84 Weiss JM, Subleski JJ, Wigginton JM, Wiltrout RH. Immunotherapy of\r\ncancer by IL-12-based cytokine combinations. Expert Opin Biol Ther\r\n2007; 7: 1705–1721.\r\n85 Jakobisiak M, Golab J, Lasek W. Interleukin 15 as a promising candidate\r\nfor tumor immunotherapy. Cytokine Growth Factor Rev 2011; 22:\r\n99–108.\r\n86 Hayashi T, Hideshima T, Akiyama M, Podar K, Yasui H, Raje N et al.\r\nMolecular mechanisms whereby immunomodulatory drugs activate natural\r\nkiller cells: clinical application. Br J Haematol 2005; 128: 192–203.\r\n87 Tai YT, Li XF, Catley L, Coffey R, Breitkreutz I, Bae J et al. Immunomo\u0002dulatory drug lenalidomide (CC-5013, IMiD3) augments anti-CD40\r\nSGN-40-induced cytotoxicity in human multiple myeloma: clinical impli\u0002cations. Cancer Res 2005; 65: 11712–11720.\r\n88 Hsu AK, Quach H, Tai T, Prince HM, Harrison SJ, Trapani JA et al. The\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "immunostimulatory effect of lenalidomide on NK-cell function is pro\u0002foundly inhibited by concurrent dexamethasone therapy. Blood 2011;\r\n117: 1605–1613.\r\n89 Brandau S, Riemensberger J, Jacobsen M, Kemp D, Zhao W, Zhao X et al.\r\nNK cells are essential for effective BCG immunotherapy. Int J Cancer\r\n2001; 92: 697–702.\r\n90 Ames E, Hallett WH, Murphy WJ. Sensitization of human breast cancer\r\ncells to natural killer cell-mediated cytotoxicity by proteasome inhibition.\r\nClin Exp Immunol 2009; 155: 504–513.\r\n91 Rosenberg S. Lymphokine-activated killer cells: a new approach to\r\nimmunotherapy of cancer. J Natl Cancer Inst 1985; 75: 595–603.\r\n92 Rosenberg SA, Lotze MT, Muul LM, Chang AE, Avis FP, Leitman S et al. A\r\nprogress report on the treatment of 157 patients with advanced cancer\r\nusing lymphokine-activated killer cells and interleukin-2 or high-dose\r\ninterleukin-2 alone. N Engl J Med 1987; 316: 889–897.\r\n93 Ruggeri L, Capanni M, Urbani E, Perruccio K, Shlomchik WD, Tosti A et\r\nal. Effectiveness of donor natural killer cell alloreactivity in mismatched\r\nhematopoietic transplants. Science 2002; 295: 2097–2100.\r\n94 Miller JS, Soignier Y, Panoskaltsis-Mortari A, McNearney SA, Yun GH,\r\nFautsch SK et al. Successful adoptive transfer and in vivo expansion of\r\nhuman haploidentical NK cells in patients with cancer. Blood 2005; 105:\r\n3051–3057.\r\n95 Bachanova V, Burns LJ, McKenna DH, Curtsinger J, Panoskaltsis-Mortari\r\nA, Lindgren BR et al. Allogeneic natural killer cells for refractory\r\nlymphoma. Cancer Immunol Immunother 2010; 59: 1739–1744.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "96 Geller MA, Cooley S, Judson PL, Ghebre R, Carson LF, Argenta PA et al. A\r\nphase II study of allogeneic natural killer cell therapy to treat patients with\r\nrecurrent ovarian and breast cancer. Cytotherapy 2011; 13: 98–107.\r\n97 Arai S, Meagher R, Swearingen M, Myint H, Rich E, Martinson J et al.\r\nInfusion of the allogeneic cell line NK-92 in patients with advanced renal\r\ncell cancer or melanoma: a phase I trial. Cytotherapy 2008; 10:\r\n625–632.\r\n98 Welniak LA, Blazar BR, Murphy WJ. Immunobiology of allogeneic\r\nhematopoietic stem cell transplantation. Annu Rev Immunol 2007; 25:\r\n139–170.\r\n99 Barao I, Murphy WJ. The immunobiology of natural killer cells and bone\r\nmarrow allograft rejection. Biol Blood Marrow Transplant 2003; 9:\r\n727–741.\r\n100 Soiffer RJ, Alyea EP, Hochberg E, Wu C, Canning C, Parikh B et al.\r\nRandomized trial of CD8+ T-cell depletion in the prevention of graft\u0002versus-host disease associated with donor lymphocyte infusion. Biol Blood\r\nMarrow Transplant 2002; 8: 625–632.\r\n101 Passweg JR, Tichelli A, Meyer-Monard S, Heim D, Stern M, Kuhne T et al.\r\nPurified donor NK-lymphocyte infusion to consolidate engraftment after\r\nhaploidentical stem cell transplantation. Leukemia 2004; 18:\r\n1835–1838.\r\n102 Ruggeri L, Mancusi A, Burchielli E, Aversa F, Martelli MF, Velardi A.\r\nNatural killer cell alloreactivity and haplo-identical hematopoietic trans\u0002plantation. Cytotherapy 2006; 8: 554–558.\r\n103 Ruggeri L, Mancusi A, Capanni M, Urbani E, Carotti A, Aloisi T et al.\r\nDonor natural killer cell allorecognition of missing self in haploidentical\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "hematopoietic transplantation for acute myeloid leukemia: challenging its\r\npredictive value. Blood 2007; 110: 433–440.\r\n104 Ruggeri L, Mancusi A, Perruccio K, Burchielli E, Martelli MF, Velardi A.\r\nNatural killer cell alloreactivity for leukemia therapy. J Immunother 2005;\r\n28: 175–182.\r\n105 Giebel S, Locatelli F, Lamparelli T, Velardi A, Davies S, Frumento G et al.\r\nSurvival advantage with KIR ligand incompatibility in hematopoietic stem\r\ncell transplantation from unrelated donors. Blood 2003; 102: 814–819.\r\nDevelopment of NK cell therapy\r\nSR Yoon et al\r\n10\r\nExperimental & Molecular Medicine\n106 Miller JS, Cooley S, Parham P, Farag SS, Verneris MR, McQueen KL et al.\r\nMissing KIR ligands are associated with less relapse and increased graft\u0002versus-host disease (GVHD) following unrelated donor allogeneic HCT.\r\nBlood 2007; 109: 5058–5061.\r\n107 Koehl U, Brehm C, Huenecke S, Zimmermann SY, Kloess S, Bremm M et\r\nal. Clinical grade purification and expansion of NK cell products for an\r\noptimized manufacturing protocol. Front Oncol 2013; 3: 118.\r\n108 Sentman CL, Barber MA, Barber A, Zhang T. NK cell receptors as tools in\r\ncancer immunotherapy. Adv Cancer Res 2006; 95: 249–292.\r\n109 Long EO, Barber DF, Burshtyn DN, Faure M, Peterson M, Rajagopalan S\r\net al. Inhibition of natural killer cell activation signals by killer cell\r\nimmunoglobulin-like receptors (CD158). Immunol Rev 2001; 181:\r\n223–233.\r\n110 Sutherland CL, Rabinovich B, Chalupny NJ, Brawand P, Miller R, Cosman\r\nD. ULBPs, human ligands of the NKG2D receptor, stimulate tumor\r\nimmunity with enhancement by IL-15. Blood 2006; 108: 1313–1319.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "111 Skov S, Rieneck K, Bovin LF, Skak K, Tomra S, Michelsen BK et al.\r\nHistone deacetylase inhibitors: a new class of immunosuppressors\r\ntargeting a novel signal pathway essential for CD154 expression. Blood\r\n2003; 101: 1430–1438.\r\n112 Diermayr S, Himmelreich H, Durovic B, Mathys-Schneeberger A, Siegler\r\nU, Langenkamp U et al. NKG2D ligand expression in AML increases in\r\nresponse to HDAC inhibitor valproic acid and contributes to allorecogni\u0002tion by NK-cell lines with single KIR-HLA class I specificities. Blood\r\n2008; 111: 1428–1436.\r\n113 Fionda C, Soriani A, Malgarini G, Iannitto ML, Santoni A, Cippitelli M.\r\nHeat shock protein-90 inhibitors increase MHC class I-related chain A and\r\nB ligand expression on multiple myeloma cells and their ability to trigger\r\nNK cell degranulation. J Immunol 2009; 183: 4385–4394.\r\n114 Romagne F, Andre P, Spee P, Zahn S, Anfossi N, Gauthier L et al.\r\nPreclinical characterization of 1-7F9, a novel human anti-KIR receptor\r\ntherapeutic antibody that augments natural killer-mediated killing of\r\ntumor cells. Blood 2009; 114: 2667–2677.\r\n115 Benson DM Jr., Bakan CE, Zhang S, Collins SM, Liang J, Srivastava S et\r\nal. IPH2101, a novel anti-inhibitory KIR antibody, and lenalidomide\r\ncombine to enhance the natural killer cell versus multiple myeloma effect.\r\nBlood 2011; 118: 6387–6391.\r\n116 Shi J, Tricot GJ, Garg TK, Malaviarachchi PA, Szmania SM, Kellum RE et\r\nal. Bortezomib down-regulates the cell-surface expression of HLA class I\r\nand enhances natural killer cell-mediated lysis of myeloma. Blood 2008;\r\n111: 1309–1317.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "117 Weiner GJ. Rituximab: mechanism of action. Semin Hematol 2010; 47:\r\n115–123.\r\n118 Dall'Ozzo S, Tartas S, Paintaud G, Cartron G, Colombat P, Bardos P et al.\r\nRituximab-dependent cytotoxicity by natural killer cells: influence of\r\nFCGR3A polymorphism on the concentration-effect relationship. Cancer\r\nRes 2004; 64: 4664–4669.\r\n119 Marcus R, Hagenbeek A. The therapeutic use of rituximab in non\u0002Hodgkin's lymphoma. Eur J Haematol Suppl 20075–14.\r\n120 Hartmann F, Renner C, Jung W, da Costa L, Tembrink S, Held G et al.\r\nAnti-CD16/CD30 bispecific antibody treatment for Hodgkin's disease: role\r\nof infusion schedule and costimulation with cytokines. Clin Cancer Res\r\n2001; 7: 1873–1881.\r\n121 Esser R, Muller T, Stefes D, Kloess S, Seidel D, Gillies SD et al. NK cells\r\nengineered to express a GD2 -specific antigen receptor display built-in\r\nADCC-like activity against tumour cells of neuroectodermal origin. J Cell\r\nMol Med 2012; 16: 569–581.\r\n122 Muller T, Uherek C, Maki G, Chow KU, Schimpf A, Klingemann HG\r\net al. Expression of a CD20-specific chimeric antigen receptor\r\nenhances cytotoxic activity of NK cells and overcomes NK-resistance of\r\nlymphoma and leukemia cells. Cancer Immunol Immunother 2008; 57:\r\n411–423.\r\n123 Bezman NA, Chakraborty T, Bender T, Lanier LL. miR-150 regulates\r\nthe development of NK and iNKT cells. J Exp Med 2011; 208:\r\n2717–2731.\r\n124 Kim N, Kim M, Yun S, Doh J, Greenberg PD, Kim TD et al. MicroRNA-150\r\nregulates the cytotoxicity of natural killers by targeting perforin-1. J Allergy\r\nClin Immunol 2014; 134: 195–203.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "125 Fehniger TA, Wylie T, Germino E, Leong JW, Magrini VJ, Koul S et al.\r\nNext-generation sequencing identifies the natural killer cell microRNA\r\ntranscriptome. Genome Res 2010; 20: 1590–1604.\r\n126 Wang P, Gu Y, Zhang Q, Han Y, Hou J, Lin L et al. Identification of resting\r\nand type I IFN-activated human NK cell miRNomes reveals\r\nmicroRNA-378 and microRNA-30e as negative regulators of NK cell\r\ncytotoxicity. J Immunol 2012; 189: 211–221.\r\n127 Trotta R, Chen L, Ciarlariello D, Josyula S, Mao C, Costinean S et al.\r\nmiR-155 regulates IFN-gamma production in natural killer cells. Blood\r\n2012; 119: 3478–3485.\r\n128 Zawislak CL, Beaulieu AM, Loeb GB, Karo J, Canner D, Bezman NA et al.\r\nStage-specific regulation of natural killer cell homeostasis and response\r\nagainst viral infection by microRNA-155. Proc Natl Acad Sci USA 2013;\r\n110: 6967–6972.\r\n129 Cichocki F, Felices M, McCullar V, Presnell SR, Al-Attar A, Lutz CT et al.\r\nCutting edge: microRNA-181 promotes human NK cell development by\r\nregulating Notch signaling. J Immunol 2011; 187: 6171–6175.\r\n130 Ma F, Xu S, Liu X, Zhang Q, Xu X, Liu M et al. The microRNA miR-29\r\ncontrols innate and adaptive immune responses to intracellular bacterial\r\ninfection by targeting interferon-gamma. Nat Immunol 2011; 12:\r\n861–869.\r\n131 Huang Y, Lei Y, Zhang H, Hou L, Zhang M, Dayton AI. MicroRNA\r\nregulation of STAT4 protein expression: rapid and sensitive modulation of\r\nIL-12 signaling in human natural killer cells. Blood 2011; 118:\r\n6793–6802.\r\n132 Donatelli SS, Zhou JM, Gilvary DL, Eksioglu EA, Chen X, Cress WD et al.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3664866203328362875,
+        "filename": "emm2014114a.PMC4346487.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 173,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "TGF-beta-inducible microRNA-183 silences tumor-associated natural\r\nkiller cells. Proc Natl Acad Sci USA 2014; 111: 4203–4208.\r\nThis work is licensed under a Creative Commons\r\nAttribution-NonCommercial-NoDerivs 3.0 Un\u0002ported License. The images or other third party material in\r\nthis article are included in the article’s Creative Commons\r\nlicense, unless indicated otherwise in the credit line; if the\r\nmaterial is not included under the Creative Commons license,\r\nusers will need to obtain permission from the license holder to\r\nreproduce the material. To view a copy of this license, visit\r\nhttp://creativecommons.org/licenses/by-nc-nd/3.0/\r\nDevelopment of NK cell therapy\r\nSR Yoon et al\r\n11\r\nExperimental & Molecular Medicine\n\n"
+  }
+]

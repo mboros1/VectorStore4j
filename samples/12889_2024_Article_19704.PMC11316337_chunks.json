@@ -1,0 +1,722 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "RESEARCH Open Access\r\n© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 \r\nInternational License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you \r\ngive appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the \r\nlicensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or \r\nother third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the \r\nmaterial. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation \r\nor exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://\r\ncreativecommons.org/licenses/by-nc-nd/4.0/.\r\nOsca et al. BMC Public Health (2024) 24:2165 \r\nhttps://doi.org/10.1186/s12889-024-19704-2\r\nBMC Public Health\r\n*Correspondence:\r\nA. Osca\r\naosca@psi.uned.es\r\n1\r\nDepartment of Social and Organizational Psychology, Faculty of \r\nPsychology, UNED, C/ Juan del Rosal, 10, Madrid 28040, Spain\r\nAbstract\r\nBackground Occupational stress is a serious problem in veterinary medicine; however, validated instruments to \r\nmeasure this problem are lacking. The aim of the current study was to address this literature gap by designing and \r\nvalidating a questionnaire and establishing the cut-off points for identifying veterinarians with high and low levels of \r\nstress.\r\nMethods The study involved two sub-studies with two Spanish samples. The first study (N=30 veterinarians; 66.7% \r\nwomen; 63.33% from small animal clinics) investigated the factors related to the work environment that caused the \r\nmost stress; the results were analyzed using thematic content analysis. The second study (N=1082; 70.8% women; \r\n71.4% from small animal clinics) involved designing and validating a questionnaire to measure sources of stress in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "veterinary medicine, as well as establishing the cut-off points for interpreting the results using receiver operating \r\ncharacteristics (ROC) curve analysis.\r\nResults The first study showed the main sources of stress and allowed items to be defined for the questionnaire. The \r\nsecond study validated the Sources of Stress in Veterinarian Medicine (SOS-VetMed) questionnaire and confirmed \r\nfive sources of stress with adequate reliability and validity indices: “work overload,” “work–family conflict,” “emotional \r\nburden of work,” “organizational factors,” and “emergency problems.” Exploratory and confirmatory factor analyses \r\nverified a structure of five factors (Cronbach’s alpha values ranging between 0.92 and 0.69). The five subscales of the \r\nSOS-VetMed questionnaire were positively correlated with two indicators of distress: “psychological complaints” and \r\n“psychosomatic complaints.” The cut-off points indicated that 45.83% and 19.95% of the veterinarians surveyed had \r\nhigh and low levels of stress, respectively.\r\nConclusions The results confirmed that the SOS-VetMed questionnaire could be used to determine the stress levels \r\nof veterinarians and to design intervention programs to improve their workplace health.\r\nKeywords Veterinary medicine, Source of stress, Questionnaire, Psychometric properties, Cut-off point\r\nDevelopment, validation, and cut-off points \r\nfor a questionnaire to measure sources \r\nof stress in veterinary medicine (SOS-VetMed)\r\nA. Osca1*, L. Millán1, L. Vela1 and J. Barrado1\nOsca et al. BMC Public Health (2024) 24:2165 Page 2 of 11\r\nBackground\r\nMost studies on workplace stress in veterinary medicine \r\nfocus more on describing its consequences on health and \r\nless on its causes. Some of these studies have focused on \r\nthe symptoms of psychological distress in these profes\u0002sionals, including burnout, anxiety, and depression [1, \r\n2], compassion fatigue [3], or post-traumatic stress [3, \r\n4]. Other studies have focused on physical symptoms \r\n(including pain and psychosomatic disorders) [5] and sui\u0002cidal tendencies [6]. In describing this symptomatology, \r\nreference is made to three sources of stress: stress spe\u0002cific to the profession, stress associated with interactions \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "with animals, and stress associated with interactions \r\nwith individuals responsible for the animals, but progress \r\nhas not been made in the assessment of these sources of \r\nstress [7].\r\nSeveral systematic reviews [8–10] confirm the absence \r\nof evaluation instruments and terminological confusion. \r\nScotney et al. [8] concluded by alluding that the disparity \r\nin terminologies used renders the determination of dif\u0002ferences between workplace stress and its consequences. \r\nStetina and Krouzecky [9] subsequently identified three \r\ncategories of stressors: biological, psychological, and \r\nsocial. However, some of the items included in these cat\u0002egories are stress precursors but not stressors in the strict \r\nsense, for example, sex and age are biological stressors, \r\nand rumination and alcohol abuse are psychological \r\nstressors. The last systematic review [10], distinguished \r\nbetween stress as a source and strain as an outcome. \r\nAlthough it does not refer to this distinction, it confirms \r\nthat more studies exist on the consequences of stress \r\nrather than on its causes.\r\nStudies analyzing the sources of workplace stress in \r\nveterinary medicine can be described in terms of their \r\nqualitative [11–13] or quantitative [1, 2, 14–19] nature; \r\nhowever, they only offer classifications or taxonomies of \r\nstressors ordered according to their importance. First, \r\nqualitative studies using interviews were conducted \r\nto identify and describe the main sources of stress. For \r\nexample, O’Connor [11] describes five stressors: “poor \r\nwork–life balance,” “interaction with animal owners,” \r\n“specific aspects of euthanasia,” “dealing with poor ani\u0002mal welfare,” and “staff management responsibilities.” To \r\ndate, qualitative studies are still being conducted to delve \r\ninto specific stressors such as violent reactions from cli\u0002ents [12] and bullying and cyberbullying [13].\r\nGardner [14] was one of the first authors to use a quan\u0002titative methodology to assess the sources of stress in this \r\nprofession. In a study involving 927 Australian veterinar\u0002ians, she identified of the seven most important blocks of \r\nstressors: working hours, client expectations, unexpected \r\noutcomes, the need to update, personal relationships, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "economic issues, and personal expectations. Subse\u0002quently, the Merck Animal Health Veterinary Wellbeing \r\nSurvey [1] questioned 3,540 veterinarians regarding the \r\nimportance of 11 issues; the topics most frequently con\u0002sidered critically important were “high levels of student \r\ndebt,” “stress levels of veterinarians,” and “suicide rate \r\namong veterinarians.” Connolly et al. [15] also developed \r\na taxonomy of occupational factors that impact the men\u0002tal health of Australian veterinarians. This contained nine \r\ngeneral stressors with the most common being “negative \r\nworking conditions,” “challenging relationships with cli\u0002ents,” and “adverse events and patient outcomes.” Vande \r\nGriek et al. [2] subsequently identified a taxonomy of \r\n15 major categories of stressors and 40 subcategories of \r\nmore specific stressors (N=1422 United States veteri\u0002narians). The most common stressor categories included \r\n“financial insecurity,” “client issues,” “coworker or inter\u0002personal issues,” and “work–life balance,” although the \r\nmost common subcategories were “clients unwilling to \r\npay,” “low income,” “cost of maintaining practice,” and \r\n“government or state board policies.”\r\nOther quantitative studies assessed the stress levels of \r\nveterinarians using questionnaires designed for other \r\nhealthcare professionals, usually nursing or emergency \r\nmedicine [16]. These studies focused on work overload \r\n[17], lack of control [18] or emotional stress [19].\r\nAs discussed, these studies differed and included a \r\nwide variety of stressors. The findings of most confirmed \r\nissues such as difficulties with clients, overwork, work–\r\nfamily conflict, economic problems, and euthanasia, but \r\nonly two employed questionnaires with psychometric \r\nguarantees for identifying general sources of stress in this \r\nprofession. The first questionnaire is the Veterinary Job \r\nDemands and Resources Questionnaire (Vet-DRQ) [20], \r\ndeveloped in the Netherlands. The authors combined \r\nqualitative and quantitative methodologies. They began \r\nwith three group interviews involving 13 recently gradu\u0002ated veterinarians in different fields. The gathered infor\u0002mation was used to design a questionnaire comprising 32 \r\nquestions covering seven sources of stress, although they \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "were not specific to veterinary medicine: “task ambigu\u0002ity,” “work overload,” “physical demands,” “job insecurity,” \r\n“working conditions,” “work–self conflict,” and “role con\u0002flicts.” The questionnaire was tested, using a sample of \r\n727 recently graduated veterinarians, and the subscales \r\nwere assessed using exploratory factor analysis. Andela \r\n[21] in France also combined qualitative and quantita\u0002tive methodologies to design the Veterinarians Stressors \r\nInventory. First, she interviewed 25 professionals and \r\ndeveloped a 39-question questionnaire that she tested on \r\na sample of 490 veterinarians. Through factor analyses, \r\nshe categorized eight valid and reliable sources of stress: \r\n“negative work–home interactions,” “issues with cowork\u0002ers,” “workload,” “responsibilities,” “financial issues,” \r\n“emotional demands,” “issues with clients,” and “feelings \r\nof being in danger.”\nOsca et al. BMC Public Health (2024) 24:2165 Page 3 of 11\r\nFinally, two questionnaires were used to assess stress \r\ncaused by the relationship with animal owners, which is \r\none of the most common sources of stress. These were \r\nthe Burden Transfer Inventory [22] and the Positive and \r\nNegative Experiences Scale [23].\r\nHowever, none of the proposed questionnaires offer \r\ninformation on the cut-off points that allow identifying \r\nstress levels. Cut-off points are essential to make reliable \r\ndiagnoses and formulate appropriate recommendations.\r\nConsidering this background, the objective of this \r\nstudy was to develop and validate the Sources of Stress in \r\nVeterinary Medicine (SOS-VetMed) questionnaire with \r\nregard to circumstances faced by veterinary professionals \r\nin Spain, and to establish the cut-off scores for identifying \r\nprofessionals who have high levels of stress and may have \r\nmore health issues. This study focused on (1) analyzing \r\nthe internal consistency and reliability of the SOS-Vet\u0002Med; (2) examining its factor solution through confir\u0002matory factor analysis; and (3) exploring cut-off scores \r\nor thresholds for identifying high levels of stress using \r\nreceiver operating characteristics (ROC) curve analysis.\r\nMethods\r\nTwo studies were conducted. In the first one, 30 vet\u0002erinarians from different sectors were asked to describe \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "the situations that caused the most stress in their daily \r\nwork. Their answers were analyzed by using thematic \r\ncontent analysis. This procedure allowed the investi\u0002gation of problems as they were experienced by the \r\naffected individuals. Based on the information from the \r\nfirst study, the second study involved designing a ques\u0002tionnaire and testing its psychometric characteristics \r\nby using a final sample of 1082 veterinarians. Finally, \r\ncut-off points for identifying veterinarians with stress \r\nwere determined. This study was approved by the Ethics \r\nCommittee of the National University of Distance Edu\u0002cation (Madrid, Spain; reference no.: 26-SISH-PSI-2023). \r\nWritten informed consent was obtained from all survey \r\nparticipants.\r\nQualitative study\r\nConvenience sampling was used for the qualitative study. \r\nVolunteers were recruited through a private social media \r\ngroup with a membership of more than 1,500 veterinar\u0002ians. The interviews were conducted by a practicing vet\u0002erinarian with a degree in psychology. This procedure \r\nallowed the interviewees to be candid and provide ade\u0002quate information. Thirty veterinarians were interviewed \r\nabout different aspects of their profession. One question \r\nwas asked in this study: “What do you find most stress\u0002ful in your daily work?” and the objective was to identify \r\ncategories of the sources of stress. Thematic saturation \r\n(i.e. the point during the analysis of the interviews at \r\nwhich no new themes emerge) was reached after the first \r\n15 interviews were coded and the analysis of the tran\u0002scripts generated no additional themes [11]. Therefore, \r\nthe sample was expanded to include another 15 younger \r\nprofessionals from different sectors. Eleven (36.6%) inter\u0002views were conducted face-to-face, and the rest were \r\nconducted via videoconference. The audio and video \r\nrecordings were subsequently transcribed and anony\u0002mized. Thematic content analysis involves familiarization \r\nwith the responses, coding of initial categories, reviewing \r\ncategories and refining and naming final categories. Two \r\nmeetings were held to reach a consensus on all catego\u0002ries and their meaning. In the first meeting, the coding \r\nand data analysis process was discussed, checking the \r\nresponses to ensure they accurately reflected the tran\u0002scripts’ contents. This stage identified 35 main sources \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "of stress in 4 categories and 9 subcategories. This stage \r\nensured the categories were informative and concise and \r\nhad names that clearly defined their meaning. In the sec\u0002ond meeting: (1) the 35 stressors were classified into the \r\ncorresponding categories; (2) the number of stressors in \r\neach category was counted; (3) the percentages of the \r\ntotal number of stressors (35 stressors) identified in the \r\nthirty interviews were calculated; and finally, (4) it was \r\nchecked whether the categories were more prevalent \r\ndepending on the work of the veterinarians (with small or \r\nlarge animals, on hospitals or farms, etc.).\r\nQuantitative study\r\nBased on the responses collected in the qualitative part \r\nof the study, an online questionnaire was developed. \r\nIt remained active for completion from October 2023 \r\nto December 2023. The questionnaire was advertised \r\nthrough the researchers’ social network, specifically in \r\na private Facebook group of veterinarians named “Ser \r\nVeterinario”, which has over 1,500 active members. This \r\ngroup is frequently used to consult on doubts, com\u0002plicated cases, and to share about emotionally difficult \r\nsituations.\r\nResults\r\nQualitative study\r\nSample characteristics\r\nThe final sample consisted of 30 veterinarians who \r\nworked in the north of Spain (Castile and Leon, Astur\u0002ias, Galicia, and Catalonia). More than 60% of the par\u0002ticipants were women (66.7%) and the rest were men \r\n(33.3%). The average age (standard deviation [SD]) was \r\n42.37 (8.65) years, and the average (SD) length of service \r\nas a working professional was 16.80 (7.24) years. 50% of \r\nthe sample were self-employed. The veterinarians were \r\nworking in small animal clinics (63.33%), in hospitals \r\n(20%) and livestock farms (16.66%).\nOsca et al. BMC Public Health (2024) 24:2165 Page 4 of 11\r\nFindings\r\nThe following categories of statements related to the \r\nsources of stress were obtained, and they were ordered, \r\nbased on the number of times they were reported in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "interviews (Table 1). The first category of statements was \r\nrelated to “stress caused by problems with animal own\u0002ers”. These statements were recorded in 17 (48.57%) of \r\n35 sources of stress. This statement was made by 10 self\u0002employed veterinarians and seven regularly employed \r\nveterinarians. This statement is the most frequent among \r\nall veterinarians, regardless of whether they work with \r\nsmall or large animals.\r\nThis category grouped problems with animal owners \r\nbecause they have to manage their own emotional reac\u0002tions when delivering bad news (e.g., “Owners are very \r\nupset because they consider their animals members of \r\ntheir families”) or they do not understand the diagnoses \r\nor follow the recommendations. A veterinarian working \r\non a livestock farm explained: “The most stressful thing, \r\nan argument with a farmer who did not agree with what I \r\nwas telling him … These are people who have been work\u0002ing all their lives and do not deal well with changes … My \r\njob is to convince them with good words that they are \r\ndoing it wrong, so that they will do it right.” The other \r\nstatements in this category were related to stress due to \r\nthe lack of recognition for the work they do and allusions \r\nto not being considered on the same level as human doc\u0002tors (e.g., “They don’t realize that we are the doctors for \r\ntheir animals”).\r\nThe second category included statements related to \r\nwork overload. These statements were made by self\u0002employed veterinarians (4 individuals) and regularly \r\nemployed veterinarians (5 individuals), with allusions to \r\nfatigue caused by “excessive working hours” or “exces\u0002sive bureaucratic burden.” These statements were made \r\non nine (25.71%) occasions. For veterinarians working \r\non livestock farms or in the countryside, the burden is \r\nincreased by the time spent on “commuting.” Emergen\u0002cies and on-call duty also represent an overload to the \r\npoint that some veterinarians indicated having stopped \r\nperforming such jobs. One veterinarian spoke of the \r\nuncertainty and fear this cause: “We no longer do emer\u0002gencies, but I used to warn all my friends in case I didn’t \r\ncome back from duty.”\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "The third category included responses related to “prob\u0002lems with the organization and working conditions.” \r\nThese problems included conflicts between colleagues \r\nor between bosses and employees, lack of coordination, \r\ninadequate distribution of tasks and responsibilities, and \r\nlow salaries. This was observed in five (14.28%) responses \r\nfrom veterinarians working as employees.\r\nThe fourth category comprised statements related to \r\nethical dilemmas. These statements were made by four \r\n(11.43%) respondents: three veterinarians were regularly \r\nemployed, and one veterinarian was self-employed. These \r\ndilemmas arise primarily because of economic reasons \r\nand to avoid confrontations with animal owners who \r\nare used to many medical services being free of charge. \r\nThe interviewees recognized the pressure they receive to \r\nreduce treatments and make them more economical (e.g., \r\none veterinarian explained: “To have the feeling that you \r\ncould have done more, that the animal could have been \r\nsaved. I’ve had several of those cases. That creates stress \r\nfor me because you could do more, and it’s not done for \r\nmoney”).\r\nQuantitative study\r\nSample characteristics\r\nThe questionnaire was answered by 1215 veterinar\u0002ians involved in small animal care (71.4%), large ani\u0002mals (13.9%), intensive production (3.7%), animal health \r\n(1.8%), agriculture (1.7%), research (1%), sales (1.1%), \r\nadministration (2.1%), and other jobs (3.2%). There were \r\nfewer professionals in non-healthcare than in other sec\u0002tors, and they were excluded from the study. Thus, the \r\nfinal sample comprised 1082 veterinarians dedicated to \r\nsmall animal medicine (80.22%), large animal medicine \r\n(15.62%), and intensive production (4.16%). Women \r\naccounted for 70.8% of the respondents and the rest were \r\nmen. The average age was 41.60 (SD=10.33) years, and \r\nthe average length of service in the profession was 16.67 \r\n(SD=9.97) years. In all, 39.7% had a bachelor’s degree, \r\nand the rest had a doctorate, master’s, or postgraduate \r\ndegree. With regard to their employment status, 52.9% \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "were contracted workers. Only 30.2% stated that they \r\nworked 40  h per week; 26% stated that they worked \r\nTable 1 Categories, sub-categories, and percentages\r\nCategory 1: Stressors related to problems with animal owners (48.57% \r\nrespondents):\r\nSub-categories:\r\nExcessive emotional reactions\r\nDo not follow the recommendations\r\nLack of recognition\r\nCategory 2: Sources of stress related to work overload (25.71% \r\nrespondents):\r\nSub-categories:\r\nExcessive working hours\r\nEmergencies\r\nCategory 3: Source of stress related to “problems with the organization \r\nand working conditions” (14.28% respondents)\r\nSub-categories:\r\nSocial conflicts\r\nLow salaries\r\nCategory 4: Sources of stress related to ethical dilemmas (11.42% \r\nrespondents):\r\nSub-categories:\r\nEconomic reasons\r\nAvoid confrontations with animal owners\nOsca et al. BMC Public Health (2024) 24:2165 Page 5 of 11\r\nbetween 41 h and 50 h per week, and 15.9% stated that \r\nthey worked for more than 50 h per week.\r\nFindings\r\nTable  2 shows the 30 items to evaluate the sources of \r\nstress for veterinarians. No veterinarian considered \r\nwork-family conflict as their main source of stress in the \r\nfirst study, but it appeared throughout the interviews \r\nbecause it is related to work overload. Previous research \r\non work stress in veterinarians has also included work\u0002family conflict [2, 14, 21], considering that for women is \r\nan important source of stress [24].\r\nConstruct and criterion validity and reliability\r\nFirst, we performed an exploratory factor analysis (EFA, \r\nprincipal components analysis with direct varimax rota\u0002tion) for the 30 items of the questionnaire. The EFA sug\u0002gested the presence of five factors (eigenvalues>1 and \r\nscree plot) that could explain 58.76% of the variance. \r\nSubsequentially, we performed two confirmatory factor \r\nanalyses to confirm this structure: (i) a five-correlated\u0002factor model (M1) and (ii) a hierarchical five-factor \r\nmodel with a general factor (second-order factor) (M2). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "The five-correlated-factor model showed a better model \r\nfit than the hierarchical model: χ2=3364.61; χ2/degrees \r\nof freedom=8.52; root mean square error of approxima\u0002tion=0.073; and comparative fit index=0.89 [24]. Fur\u0002thermore, the reliabilities of all factors were adequate, \r\nwith Cronbach’s alpha (α) values ranging between 0.92 \r\nfor work–family conflict and 0.69 for emergency prob\u0002lems (Table 3). With regard to the descriptive results, all \r\nmean scores of the subscales were above the central point \r\nof the response scale and ordered from the highest to the \r\nlowest, as follows: work overload (x̅= 3.95; SD=0.72), \r\nwork–family conflict (x̅= 3.91; SD=0.73), emotional bur\u0002den of work (x̅= 3.62; SD=0.79), organizational factors \r\n(x̅= 3.31; SD=0.90), and emergency problems (x̅= 3.05; \r\nSD=1.05).\r\nThe criterion validity of the questionnaire was tested \r\nby calculating the Pearson correlations between the \r\nfive sources of stress and two indicators of distress \r\nfrom the Burnout Assessment Tool [25]: “psychologi\u0002cal complaints” (five items; item example “I feel tense \r\nand stressed”; α=0.83) and “psychosomatic complaints” \r\n(five items; item example “I suffer from palpitations or \r\nchest pain”; α=0.78) (Table  3). This questionnaire was \r\nadministered alongside the SOS-VetMed. The Spanish \r\nversion offered by its authors was used (https://burn\u0002outassessmenttool.be/wp-content/uploads/2020/08/\r\nBAT_Spanish-short.pdf). The correlations were highly \r\nsignificant for all cases, although the highest correlations \r\nwere for the “emotional burden of work” (correlation \r\nwas 0.49 for psychological distress and 0.42 for physical \r\ndistress) and “work–family conflict” (correlation of 0.45 \r\nTable 2 Subscales and items of the SOS-VetMed questionnaire \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "and descriptive data (means and standard deviations)\r\nSubscales and items X SD\r\nWorkload 3.95 0.72\r\n1. Workload 4.04 0.93\r\n2. Working long hours 3.90 1.03\r\n3. Performing tasks that require more time than \r\nexpected\r\n3.78 1.00\r\n4. Bureaucratic administrative tasks, which are also \r\nincreased by new laws and regulations\r\n4.11 1.04\r\nWork–family conflict 3.91 0.96\r\n5. Difficulties in reconciling work and family life 4.06 1.03\r\n6. Work keeps me away from my family activities 4.10 1.02\r\n7. The time I devote to my work prevents me from \r\nparticipating in family responsibilities\r\n3.74 1.16\r\n8. After work I am too stressed out to participate in fam\u0002ily activities3.77 1.17\r\n9. Having trouble reconciling family and work 3.88 1.15\r\nEmotional burden of work 3.62 0.79\r\n10. Communicating bad news to clients about their pets 3.58 0.99\r\n11. Demands from difficult clients 4.25 0.88\r\n12. Arguments with customers over financial issues 3.90 1.09\r\n13. The emotional overload of work due to the bond \r\nwith animals\r\n3.80 1.08\r\n14. The feeling of being in danger due to dealing with \r\ndifficult customers\r\n3.14 1.29\r\n15. Cruelty to animals 3.64 1.23\r\n16. Believing that much more can be done for the \r\nanimal, but nothing else being done due to economic \r\nissues\r\n3.87 1.08\r\n17. Clients come with a diagnosis that has already been \r\narrived at and only want one to confirm it\r\n3.26 1.29\r\n18. Clients do not accept the death of their pets 3.42 1.19\r\n19. Clients’ emotional attachment to their pets 3.52 1.14\r\n20. Performing euthanasia 3.29 1.21\r\nOrganizational factors 3.31 0.90\r\n21. Lack of social recognition 3.93 1.17\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "22. Having no one to turn to for help and advice 3.25 1.25\r\n23. Problems with colleagues 3.11 1.29\r\n24. Problems with responsible bosses 2.86 1.50\r\n35. Difficulties in professional development 3.44 1.17\r\nEmergency problems 3.05 1.05\r\n26. On-call duty 3.27 1.57\r\n27. Always being reachable 3.73 1.46\r\n28. Having no one to turn to for help and advice in \r\nemergencies\r\n3.00 1.37\r\n29. The feeling of being in danger during on-call time 2.49 1.42\r\n30. The feeling of being in danger from handling and \r\ncaring for animals\r\n2.75 1.17\r\nN=1082 veterinarians; Response: 1 = “It never affects me” – 5 = “It always affects \r\nme”\nOsca et al. BMC Public Health (2024) 24:2165 Page 6 of 11\r\nfor psychological distress and 0.36 for physical distress). \r\nThe source of stress that showed weaker correlations, \r\nalthough also highly significant, was “emergency prob\u0002lems” (correlation of 0.39 for psychological distress and \r\n0.36 for physical distress).\r\nCut-off points\r\nThe cut-off points were calculated for the 30 items of the \r\nSOS-VetMed questionnaire to differentiate veterinarians \r\nwho have high levels of stress (i.e., above the high thresh\u0002old) from those who do not (i.e., below the low thresh\u0002old). Based on a previous report [26], two gold standards \r\nrelated to stress were used: “psychological complaints” \r\nscores and “psychosomatic complaints” scores [25]. For \r\nboth cases, the maximum threshold corresponds to the \r\n75th percentile and the minimum threshold corresponds \r\nto the 25th percentile. The SPSS 29 software allows cal\u0002culation of the 25th and 75th percentiles of the gold \r\nstandards: (1) 25th percentile: 2.60 for “psychological \r\ncomplaints” and 2.00 for “psychosomatic complaints”, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "and (2) 75th percentile: 4.00 for “psychological com\u0002plaints” and 3.40 for “psychosomatic complaints”. SPSS29 \r\nsoftware, in the classification option, also allows for the \r\ncalculation of ROC curves and the areas under the curve \r\n(AUC) (Figs. 1 and 2). An ROC curve is constructed by \r\nplotting sensitivity (proportion of true positives/all cases) \r\nTable 3 Means, standard deviations, correlations and reliabilities\r\nX¯ DT 1 2 3 4 5 6 7\r\n1.Emotional burden 3.62 0.79 0.89\r\n2. W/F Conflict 3.91 0.96 0.45** 0.92\r\n3. Emergency problems 3.05 1.05 0.51** 0.50** 0.80\r\n4. Organizational factors 3.31 0.90 0.54** 0.50** 0.56** 0.74\r\n5. Workload 3.95 0.72 0.42** 0.57** 0.40** 0.38** 0.69\r\n6. Psychological complains 3.27 0.98 0.49** 0.45** 0.39** 0.43** 0.40** 0.83\r\n7. Psychosomatic complains 2.68 0.91 0.42** 0.36** 0.36** 0.35** 0.33** 0.70** 0.78\r\nResponse: 1 = “It never affects me”, 5 = “It always affects me”\r\np ** The correlation is significant at 0.01 (bilateral)\r\nCronbach’s alpha in the diagonal\r\nFig. 1 ROC curve for the higher threshold\nOsca et al. BMC Public Health (2024) 24:2165 Page 7 of 11\r\nagainst 1 – specificity (proportion of false positives/\r\nall controls), for each possible cut-off score. By conven\u0002tion, sensitivity is plotted along the Y axis, whereas 1 – \r\nspecificity is plotted along the X axis. The ROC curve \r\nprovides a graphical representation of the proportion of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "veterinarians with stress correctly identified against the \r\nproportion incorrectly identified. The AUC for the high \r\nthreshold cut-off was 0.776 and for the low threshold \r\ncut-off was 0.831. In Table 4 the value 0.776 falls between \r\n0.780 and 0.882 (95% CI=0.741–0.810; p<0.000). Simi\u0002larly, the value 0.831 falls between 0.780 and 0.882 (95% \r\nCI=0.780-0.882; p<0.000) (Table  5). An AUC value \r\nclose to 1 indicates high precision [27], demonstrating \r\nthat both thresholds were effective. The Youden index, \r\ndefined as the maximum sum of sensitivity and speci\u0002ficity minus one [28], is another measure of diagnostic \r\naccuracy. Its values range from −1.0 to 1.0, with higher \r\nvalues indicating a test cut-off with greater discriminative \r\nability. The results show that the two Youden indexes also \r\noffer the highest values.\r\nAs shown in Tables 4 and 5, the optimal cut-off points \r\nwere 3.68 for the upper threshold and 2.98 for the lower \r\nthreshold. Therefore, veterinarians with scores≤2.98 \r\non the SOS-VetMed questionnaire were considered \r\nnot stressed, while veterinarians with scores≥3.68 were \r\nconsidered highly stressed. Based on these results, the \r\nTable 4 SOS-VetMed higher threshold cut-off score\r\nSOS VetMed Sensitivity 1 - Specificity Youden Index\r\n3.55 0.865 0.472 0.393\r\n3.58 0.860 0.455 0.405\r\n3.62 0.848 0.432 0.416\r\n3.65 0.815 0.408 0.407\r\n3.68 0.809 0.378 0.431\r\n3.72 0.781 0.360 0.421\r\n3.75 0.742 0.348 0.394\r\n3.78 0.719 0.329 0.390\r\n3.82 0.697 0.318 0.378\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "3.85 0.669 0.303 0.365\r\nTable 5 SOS-VetMed lower threshold cut-off score\r\nSOS VetMed Sensitivity 1 - Specificity Youden\r\nIndex\r\n2.85 0.883 0.437 0.446\r\n2.88 0.872 0.423 0.449\r\n2.92 0.863 0.366 0.497\r\n2.95 0.855 0.352 0.503\r\n2.98 0.841 0.296 0.546\r\n3.02 0.836 0.296 0.540\r\n3.05 0.827 0.296 0.531\r\n3.08 0.820 0.282 0.538\r\n3.12 0.804 0.268 0.537\r\n3.15 0.788 0.254 0.535\r\nFig. 2 ROC curve for the lower threshold\nOsca et al. BMC Public Health (2024) 24:2165 Page 8 of 11\r\npercentage of veterinarians with high, low, and inter\u0002mediate stress scores were 45.83%, 19.95%, and 34.20% \r\nrespectively.\r\nDiscussion\r\nAs we have observed, research on workplace stress in \r\nveterinary medicine has focused more on its health con\u0002sequences rather than on its causes. Descriptive studies \r\nand taxonomies for the different sources of stress among \r\nveterinarians exist, but questionnaires that provide suf\u0002ficient information on the psychometric characteristics \r\nof questionnaires are few. Therefore, the objective of \r\nthis study was to develop and validate the SOS-VetMed \r\nquestionnaire and establish cut-off points for identifying \r\nveterinarians who have high levels of stress and may have \r\nmore health issues. None of the existing studies have pro\u0002vided cut-off points, but these are essential for accurate \r\ndiagnoses and the design of effective and efficient pre\u0002vention programs.\r\nTwo sub-studies were conducted. In the first, which \r\nwas qualitative, a sizeable group of professionals were \r\nasked about the main sources of stress in their daily \r\nwork. Using the information obtained from the qualita\u0002tive study, an online questionnaire was then developed \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "and applied in a quantitative study that allowed the cor\u0002roboration of the main sources of stress among Spanish \r\nveterinarians. The analyses allowed us to assert that the \r\nSOS-MedVet questionnaire assesses different sources of \r\nstress with psychometric guarantees, and the determina\u0002tion of the cut-off points allowed us to identify veterinar\u0002ians who have high stress levels and an increased risk of \r\nhealth issues. In line with the results of research in this \r\narea [5, 6, 8–10], a high proportion of the participants \r\nshowed high levels of workplace stress.\r\nThis study also had other strengths, involving sample \r\nquality related to the number and diverse characteristics \r\nof the participating veterinarians. Although we did not \r\nanalyze a representative sample of the Spanish popula\u0002tion, the size of our two samples, as well as the diversity \r\nand professional experience of the veterinarians included, \r\nvalidate our results.\r\nThirty interviews were conducted, and more than 1000 \r\nveterinarians in small and large animal care were sur\u0002veyed. They had numerous years of professional expe\u0002rience, which is not common in research. This factor \r\nallowed us to gather valuable information.\r\nFor the qualitative and quantitative studies, relation\u0002ships with the respondents responsible for the animals \r\nand work overload were the main sources of stress for \r\nveterinarians who participated in this research.\r\nThe qualitative study showed that “problems with ani\u0002mal owners” were the main sources of stress, which is \r\nconsistent with reports of reviews on the subject [22]. In \r\nthe quantitative study, questions on this source of stress \r\nwere grouped with questions referring to negative emo\u0002tions produced by these relationships (because of cruelty \r\nto animals, ethical aspects, etc.), and a subscale called \r\n“emotional burden of work” was created.\r\nIn the quantitative study, the main source of stress was \r\n“work overload,” confirming one of the main issues in \r\nthe profession, which is also reflected in the reviews on \r\nthe subject [10]. For both studies, the discrepancy in the \r\norder of importance of these two sources of stress may \r\nbe explained by the differences in assessment. The inter\u0002views asked about the most stressful situations, whereas \r\nthe questionnaire used the Likert scale.\r\nWork–family conflict was considered the next most \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "important source of stress. This finding was consistent \r\nwith the reports of several studies and can be explained \r\nby long working hours and the high proportion of women \r\n[29, 30]. Stress due to “organizational factors” and “emer\u0002gency problems” had lower scores that were above the \r\nmidpoint of the scale. Organizational factors [1] have also \r\nbeen identified in other studies and include problems \r\nbetween colleagues, problems between employees and \r\nemployers, or difficulties in career advancement.\r\nThe source of stress with the lowest score was “emer\u0002gency problems.” However, this finding may be attributed \r\nto the large proportion of veterinarians with considerable \r\nseniority and who performed the fewest shifts, as several \r\ninterviewees acknowledged. Nevertheless, it is a source \r\nof stress to be considered, as observed in other studies \r\n[31].\r\nThe correlations between the sources of stress and \r\nhealth were highly significant for psychological and psy\u0002chosomatic complaints [9, 22] and the strongest corre\u0002lations were for stress due to the “emotional burden of \r\nwork” and “work–family conflict.”\r\nIn addition to the aforementioned contributions, one \r\nof the main contributions of this study is that it has pro\u0002vided cut-off points for the developed questionnaire. \r\nThese data confirmed that nearly 50% of the sample ana\u0002lyzed were at risk because they showed high stress levels \r\n(45.83%). This finding has been reported in other reviews \r\non the subject [8, 10], albeit it is empirically confirmed. \r\nOnly approximately 20% of participants had low levels \r\nof stress; the remaining participants had intermediate \r\nlevels.\r\nAs with any research, this study has some limitations \r\nthat should be addressed in the future. First, the sample \r\nwas collected in Spain, and therefore it would be useful \r\nto use information from other countries to improve gen\u0002eralizability. Second, determining whether the different \r\nstressors could be grouped into clusters that may be dan\u0002gerous to health would be useful [32]. Some clusters may \r\nhave deleterious effects such as working as a freelancer in \r\na bad working environment and spending many hours in \r\nthe emergency room. In addition, future studies should \n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "Osca et al. BMC Public Health (2024) 24:2165 Page 9 of 11\r\ninclude sociodemographic data because differences \r\nmay exist, depending, for instance, on sex or age. Other \r\nvariables that may modulate the correlations between \r\nsources of stress and health issues, such as coping strate\u0002gies [33] or family or work support [33, 34], should also \r\nbe included in future studies. Other sociodemographic \r\nvariables should also be considered, as recent research \r\nhas emphasized the influence of psychological charac\u0002teristics among veterinary medicine students, suggesting \r\nthat these factors play a crucial role in their overall well\u0002being [35]. Finally, longitudinal studies should be consid\u0002ered to more accurately explain the correlations found in \r\nthis study and to investigate whether reverse correlations \r\nexist (i.e., whether veterinarians with more health issues \r\nalso perceive their work as more stressful) [36].\r\nDespite these limitations, we believe that this article \r\nis valuable from theoretical and applied perspectives. It \r\nallowed us to theoretically describe and classify the main \r\nsources of stress with regard to circumstances faced by \r\nveterinary professionals in Spain and to develop and vali\u0002date a questionnaire, the SOS-MedVet questionnaire, \r\nwith psychometric guarantees. As we have observed, \r\nmany studies refer to stress in the profession, but very \r\nfew offer questionnaires [20, 21] and we have not found \r\nany study that provided cut-off points. The cut-off points \r\nallowed clinicians to know what the obtained scores \r\nindicated. From an applied perspective, the value of this \r\nstudy is that it permitted a diagnosis of the sources of \r\nstress that cause the most health issues and/or design \r\nintervention programs. For example, if two of the most \r\nsignificant sources of stress were “emotional burden” \r\nand “work overload,” specific activities could be orga\u0002nized in an attempt to reduce them. Training programs \r\naimed at improving communication with animal owners \r\nand helping them manage their emotions and the prob\u0002lems that may arise in their relationship can be imple\u0002mented [12]. Employers should create safe environments \r\nwhere employees feel comfortable to seek help and fos\u0002ter healthy work cultures [1]. To reduce the perception \r\nof work overload, veterinarians can also be trained in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "organizational skills and task design because an adequate \r\nand balanced distribution of tasks [37] can reduce physi\u0002cal fatigue and emotional exhaustion. In addition, these \r\ntypes of interventions would indirectly contribute to \r\ndecreasing other stressors that we also found to cause \r\nmany issues such as difficulty in balancing work and fam\u0002ily demands, and conflicts with colleagues. Finally, by \r\nknowing the cut-off points of this questionnaire, veteri\u0002narians who require individual psychological care by spe\u0002cialists may be diagnosed.\r\nConclusions\r\nThis study provided a validated tool to assess stress in \r\nveterinary professionals. By identifying specific stress\u0002ors and quantifying stress levels, the SOS-VetMed ques\u0002tionnaire allows for targeted interventions to promote \r\nveterinarian well-being and improve workplace health. \r\nFurthermore, given the growing awareness of men\u0002tal health issues in the veterinary profession, this study \r\noffered valuable information for practitioners, research\u0002ers, and policymakers alike. The findings enhance the \r\nunderstanding of the challenges faced by veterinarians \r\nand pave the way for evidence-based interventions to \r\nmitigate stress and promote health.\r\nAbbreviations\r\nAUC Area under the curve\r\nROC Receiver operating characteristic\r\nSD Standard deviation\r\nAcknowledgements\r\nWe are thankful of all veterinarians who participated in this research.\r\nAuthor contributions\r\nAO was involved in the study design, data analysis, creation of data collection \r\ntools, data analysis, interpretation of results, writing and editing the \r\nmanuscript. LM was involved in the study design, data analysis, creation of \r\ndata collection tools, data analysis (qualitative study) and interpretation of \r\nresults. LV was involved in data analysis (qualitative study). JB was involved in \r\nthe data analysis (quantitative study), interpretation of results and writing the \r\nmanuscript.\r\nFunding\r\nThis research was supported by the grant of Boehringer Ingelheim Animal \r\nHealth Spain.\r\nData availability\r\nThe dataset used and/or analyzed for the current study are available from the \r\ncorresponding author on reasonable request.\r\nDeclarations\r\nEthics approval and consent to participate\r\nThis study was approved by the Ethics Committee of the National University \r\nof Distance Education (Madrid, Spain; reference no.: 26-SISH-PSI-2023). All \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "the methods included in this study are in accordance with the declaration of \r\nHelsinki. Written informed consent was obtained from all survey participants.\r\nConsent for publication\r\nNot applicable.\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nReceived: 25 May 2024 / Accepted: 6 August 2024\r\nReferences\r\n1. Volk JO, Schimmack U, Strand EB, Lord LK, Siren CW. Executive summary of \r\nthe Merck animal health veterinary wellbeing study. J Am Vet Med Assoc. \r\n2018 [cited 2024 May 21];252(10):1231–1238. https://doi.org/10.2460/\r\njavma.252.10.1231. PMID: 29701527. https://pubmed.ncbi.nlm.nih.\r\ngov/29701527/\r\n2. Vande Griek OH, Clark MA, Witte TK, Nett RJ, Moeller AN, Stabler ME. \r\nDevelopment of a taxonomy of practice-related stressors experienced by \nOsca et al. BMC Public Health (2024) 24:2165 Page 10 of 11\r\nveterinarians in the United States. J Am Vet Med Assoc. 2018 [cited 2024 \r\nMay 21];252(2):227–233. https://doi.org/10.2460/javma.252.2.227. PMID: \r\n29319445; PMCID: PMC5985521. https://www.ncbi.nlm.nih.gov/pmc/articles/\r\nPMC5985521/\r\n3. Reif-Stice C, Smith-Frigerio S, Lawson CA, Venette S. Discerning the effect \r\nof the relationship between disclosure and responsiveness on depres\u0002sion, anxiety, and compassion fatigue among veterinarians. J Am Vet Med \r\nAssoc. 2023 [cited 2024 May 21];261(4):551–558. https://doi.org/10.2460/\r\njavma.22.08.0359. PMID: 36706015. https://pubmed.ncbi.nlm.nih.\r\ngov/36706015/\r\n4. Ouedraogo FB, Lefebvre SL, Hansen CR, Brorsen BW. Compassion satisfaction, \r\nburnout, and secondary traumatic stress among full-time veterinarians in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "the United States (2016–2018). J Am Vet Med Assoc. 2021 [cited 2024 May \r\n21];258(11):1259–1270. https://doi.org/10.2460/javma.258.11.1259. PMID: \r\n33978434. https://pubmed.ncbi.nlm.nih.gov/33978434/\r\n5. Fong K, Sangmin K. Correlates of occupational stress on emotional and \r\nphysical health in veterinary technicians. Int J Health Wellness Soc. 2022 \r\n[cited 2024 May 21];12(2):37–47. https://doi.org/10.18848/2156-8960/CGP/\r\nv12i02/37-47. https://www.proquest.com/openview/1c7e37ac5252fff548ed0\r\na851cdc7518/1?pq-origsite=gscholar&cbl=5529415.\r\n6. Nett RJ, Witte TK, Holzbauer SM, Elchos BL, Campagnolo ER, Musgrave \r\nKJ, Carter KK, Kurkjian KM, Vanicek CF, O’Leary DR, Pride KR, Funk RH. Risk \r\nfactors for suicide, attitudes toward mental illness, and practice-related \r\nstressors among US veterinarians. J Am Vet Med Assoc. 2015 [cited 2024 May \r\n21];247(8):945–55. https://doi.org/10.2460/javma.247.8.945. PMID: 26421408. \r\nhttps://pubmed.ncbi.nlm.nih.gov/26421408/\r\n7. Kramper S, Crosby ES, Waitz-Kudla SN, Weathers F, Witte TK. Highly stressful \r\nevents and posttraumatic stress disorder symptoms among veterinary pro\u0002fessionals: prevalence and associations with mental health and job-related \r\noutcomes. Psychol Trauma. 2023 [cited 2024 May 21];15(Suppl 2):S275-S285. \r\nhttps://doi.org/10.1037/tra0001432. Epub 2023 Jan 23. PMID: 36689377. \r\nhttps://pubmed.ncbi.nlm.nih.gov/36689377/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "8. Scotney RL, McLaughlin D, Keates HL. A systematic review of the effects \r\nof euthanasia and occupational stress in personnel working with ani\u0002mals in animal shelters, veterinary clinics, and biomedical research \r\nfacilities. J Am Vet Med Assoc. 2015 [cited 2024 May 21];247(10):1121-30. \r\nhttps://doi.org/10.2460/javma.247.10.1121. Erratum in: J Am Vet Med \r\nAssoc. 2016;248(3):281. PMID: 26517615. https://pubmed.ncbi.nlm.nih.\r\ngov/26517615/\r\n9. Stetina BU, Krouzecky C. Reviewing a decade of change for veterinarians: \r\npast, present and gaps in researching stress, coping and mental health \r\nrisks. Animals (Basel). 2022 [cited 2024 May 21];12(22):3199. https://doi.\r\norg/10.3390/ani12223199. PMID: 36428425; PMCID: PMC9686667. https://\r\npubmed.ncbi.nlm.nih.gov/36428425/\r\n10. Pohl R, Botscharow J, Böckelmann I, Thielmann B. Stress and strain among \r\nveterinarians: a scoping review. Ir Vet J. 2022 [cited 2024 May 21];75(1):15. \r\nhttps://doi.org/10.1186/s13620-022-00220-x. PMID: 35729648; PMCID: \r\nPMC9209636. https://pubmed.ncbi.nlm.nih.gov/35729648/\r\n11. O’Connor E. Sources of work stress in veterinary practice in the UK. Vet Rec. \r\n2019 [cited 2024 May 21];184(19):588. https://doi.org/10.1136/vr.104662. \r\nPMID: 31023870. https://pubmed.ncbi.nlm.nih.gov/31023870/\r\n12. Chan CKY, Wong PWC. Hong Kong veterinarians’ encounters with client\u0002related stress - a qualitative study. Front Vet Sci. 2023 [cited 2024 May \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "21];10:1186715. https://doi.org/10.3389/fvets.2023.1186715. PMID: 38098999; \r\nPMCID: PMC10720360. https://www.ncbi.nlm.nih.gov/pmc/articles/\r\nPMC10720360/\r\n13. Chan C, Lai J, Wong P. Intra-professional stress-demonstrating veterinarian \r\nidentity in Hong Kong. Aust Vet J. 2023 [cited 2024 May 21];101(1–2):49–57. \r\nhttps://doi.org/10.1111/avj.13214. PMID: 36352496. https://pubmed.ncbi.\r\nnlm.nih.gov/36352496/\r\n14. Gardner DH, Hini D. Work-related stress in the veterinary profession in New \r\nZealand. N Z Vet J. 2006 [cited 2024 May 21];54(3):119–24. https://doi.org/10\r\n.1080/00480169.2006.36623. PMID: 16751842. https://pubmed.ncbi.nlm.nih.\r\ngov/16751842/\r\n15. Connolly CE, Norris K, Martin A, Dawkins S, Meehan C. (2022). A taxonomy of \r\noccupational and organizational stressors and protectors of mental health \r\nreported by veterinary professionals in Australasia. Aus Vet J. 2022 [cited 2024 \r\nMay 21];33(8):367–376. https://doi.org/10.1111/avj.13167https://pubmed.\r\nncbi.nlm.nih.gov/35560212/\r\n16. Hayes GM, LaLonde-Paul DF, Perret JL, Steele A, McConkey M, Lane WG, Kopp \r\nRJ, Stone HK, Miller M, Jones-Bitton A. Investigation of burnout syndrome \r\nand job-related risk factors in veterinary technicians in specialty teaching \r\nhospitals: a multicenter cross-sectional study. J Vet Emerg Crit Care (San \r\nAntonio). 2020 [cited 2024 May 21];30(1):18–27. https://doi.org/10.1111/\r\nvec.12916. PMID: 31840933; PMCID: PMC7003767. https://pubmed.ncbi.nlm.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 477,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "nih.gov/31840933/\r\n17. Clarke P, Mills P, Doneley B. Relieving veterinarians’ workloads and stress: \r\nleveraging Australia’s veterinary technologists and nurses. Aust Vet J. 2023 \r\n[cited 2024 May 21];101(10):409–410. https://doi.org/10.1111/avj.13278. \r\nPMID: 37587786. https://pubmed.ncbi.nlm.nih.gov/37587786/\r\n18. Hilton KR, Burke KJ, Signal T. Mental health in the veterinary profession: \r\nan individual or organisational focus? Aust Vet J. 2023 [cited 2024 May \r\n21];101(1–2):41–48. https://doi.org/10.1111/avj.13215. PMID: 36369713; \r\nPMCID: PMC10100510. https://www.ncbi.nlm.nih.gov/pmc/articles/\r\nPMC10100510/\r\n19. Fong K, Kim S. Correlates of occupational stress on emotional and physical \r\nhealth in veterinary technicians. Int J Health Wellness Soc. 2022 [cited 2024 \r\nMay 21];12(2):37–47. https://doi.org/10.18848/21568960/CGP/v12i02/37-47. \r\nhttps://www.proquest.com/openview/1c7e37ac5252fff548ed0a851cdc7518/\r\n1?pq-origsite=gscholar&cbl=5529415.\r\n20. Mastenbroek NJ, Demerouti E, van Beukelen P, Muijtjens AM, Scherpbier AJ, \r\nJaarsma AD. Measuring potential predictors of burnout and engagement \r\namong young veterinary professionals; construction of a customised ques\u0002tionnaire (the Vet-DRQ). Vet Rec. 2014 Feb 15[cited 2024 May 21];174(7):168. \r\nhttps://doi.org/10.1136/vr.101761. PMID: 24306198. https://pubmed.ncbi.\r\nnlm.nih.gov/24306198/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "21. Andela M. Burnout, somatic complaints, and suicidal ideations among veteri\u0002narians: development and validation of the veterinarians stressors inventory. \r\nJ Vet Behav. 2020; [cited 2024 May 21];37:48–55. https://doi.org/10.1016/j.\r\njveb.2020.02.003. https://www-sciencedirect-com.bibliotecauned.idm.oclc.\r\norg/science/article/pii/S1558787820300320?via%3Dihub\r\n22. Spitznagel M, Updegraff ASG, Was C, Martin JT, Sislak M, Wiborg L, Twohig \r\nMP. An acceptance and commitment training program reduces burden \r\ntransfer, stress, and burnout among veterinary healthcare teams. J Am \r\nVet Med Assoc. 2022 [cited 2024 May 21];260(12):1554–1561. https://doi.\r\norg/10.2460/javma.22.05.0196. PMID: 35943946. https://pubmed.ncbi.nlm.\r\nnih.gov/35943946/\r\n23. Rhodes RL, Noguchi K, Agler LL. Female veterinarians’ experiences with \r\nhuman clients: The link to burnout and depression. Int J Workplace Health \r\nManag. 2022 [cited 2024 May 21];15(5):572–589. https://doi.org/10.1108/\r\nIJWHM-01-2021-0007. https://www.ingentaconnect.com/content/mcb/\r\nijwhm/2022/00000015/00000005/art00002\r\n24. McNeish D. Thanks coefficient alpha, we’ll take it from here. Psychol Methods. \r\n2018;23(3):412–433. https://doi.org/10.1037/met0000144. Epub 2017 May 29. \r\nPMID: 28557467. https://pubmed.ncbi.nlm.nih.gov/28557467/\r\n25. Schaufeli WB, Desart S, De Witte H. Burnout assessment tool (BAT)-devel\u0002opment, validity, and reliability. Int J Environ Res Public Health. 2020 [cited \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "2024 May 21];17(24):9495. https://doi.org/10.3390/ijerph17249495. PMID: \r\n33352940; PMCID: PMC7766078. https://www.ncbi.nlm.nih.gov/pmc/articles/\r\nPMC7766078/\r\n26. Notelaers G, Van der Heijden B, Hoel H, Einarsen S. Measuring bullying at \r\nwork with the short-negative acts questionnaire: identification of targets and \r\ncriterion validity. Work Stress. 2019 [cited 2024 May 21];33(1):58–75. https://\r\ndoi.org/10.1080/02678373.2018.1457736. https://www.tandfonline.com/doi/\r\nfull/10.1080/02678373.2018.1457736\r\n27. Mandrekar JN. Receiver operating characteristic curve in diagnostic test \r\nassessment. J Thorac Oncol. 2010 [cited 2024 May 21];5(9):1315-6. https://doi.\r\norg/10.1097/JTO.0b013e3181ec173d. PMID: 20736804. https://pubmed.ncbi.\r\nnlm.nih.gov/20736804/\r\n28. Youden WJ. Index for rating diagnostic tests. Cancer. 1950 [cited 2024 May \r\n21];3(1):32–5. https://doi.org/10.1002/1097-0142(1950)3:1%3C32::aid-cncr\r\n2820030106%3E3.0.co;2-3. PMID: 15405679. https://pubmed.ncbi.nlm.nih.\r\ngov/15405679/\r\n29. Berrada M, Ndiaye Y, Raboisson D, Lhermie G. The gender wage gap in \r\nthe French veterinary labor market. Front Vet Sci. 2022 [cited 2024 May \r\n21];9:1001012. https://doi.org/10.3389/fvets.2022.1001012. PMID: 36452149; \r\nPMCID: PMC9703345. https://www.ncbi.nlm.nih.gov/pmc/articles/\r\nPMC9703345/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "30. Emmett L, Aden J, Bunina A, Klaps A, Stetina BU. Feminization and stress in \r\nthe veterinary profession: a systematic diagnostic approach and associated \r\nmanagement. Behav Sci (Basel). 2019 [cited 2024 May 21];9(11):114. https://\r\ndoi.org/10.3390/bs9110114. PMID: 31739637; PMCID: PMC6912712. https://\r\nwww.ncbi.nlm.nih.gov/pmc/articles/PMC6912712/\nOsca et al. BMC Public Health (2024) 24:2165 Page 11 of 11\r\n31. Booth M, Rishniw M, Kogan LR. The shortage of veterinarians in emergency \r\npractice: A survey and analysis. J Vet Emerg Crit Care (San Antonio). 2021 \r\n[cited 2024 May 21];31(3):295–305. https://doi.org/10.1111/vec.13039. PMID: \r\n33377583. https://pubmed.ncbi.nlm.nih.gov/33377583/\r\n32. El Ansari W, Sebena R, El-Ansari K, Suominen S. Clusters of lifestyle behavioral \r\nrisk factors and their associations with depressive symptoms and stress: \r\nevidence from students at a university in Finland. BMC Public Health. 2024 \r\n[cited 2024 May 21];24(1):1103. https://doi.org/10.1186/s12889-024-18421-0. \r\nPMID: 38649903; PMCID: PMC11034152. https://www.ncbi.nlm.nih.gov/pmc/\r\narticles/PMC11034152/\r\n33. Dalum HS, Tyssen R, Moum T, Thoresen M, Hem E. Professional help-seeking \r\nbehaviour for mental health problems among veterinarians in Norway: a \r\nnationwide, cross-sectional study (The NORVET study). BMC Public Health. \r\n2022 [cited 2024 May 21];22(1):1308. https://doi.org/10.1186/s12889-022-\r\n13710-y. PMID: 35799295; PMCID: PMC9263054. https://pubmed.ncbi.nlm.\r\nnih.gov/35799295/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "34. Guzman Villegas M, Jubin J, Bucher CO, Bachmann AO. Self-efficacy, \r\nmindfulness, and perceived social support as resources to maintain the \r\nmental health of students in Switzerland’s universities of applied sciences: a \r\ncross-sectional study. BMC Public Health. 2024 [cited 2024 May 21];24(1):335. \r\nhttps://doi.org/10.1186/s12889-024-17692-x. PMID: 38297239; PMCID: \r\nPMC10829234. https://pubmed.ncbi.nlm.nih.gov/38297239/\r\n35. Muca E, Molino M, Ghislieri C, Baratta M, Odore R, Bergero D, Valle E. \r\nRelationships between psychological characteristics, academic fit and \r\nengagement with academic performance in veterinary medical students. \r\nBMC Vet Res. 2023;19(1):132. https://doi.org/10.1186/s12917-023-03695-\r\n0. PMID: 37620884; PMCID: PMC10463963. https://pubmed.ncbi.nlm.nih.\r\ngov/37620884/32\r\n36. Ford M, Matthews R, Wooldridge J, Mishra V, Kakar U, Strahan S. How do occu\u0002pational stressor-strain effects vary with time? A review and meta-analysis of \r\nthe relevance of time lags in longitudinal studies. Work Stress. 2014;28(1):9. \r\nhttps://doi.org/10.1080/02678373.2013.877096. https://www.tandfonline.\r\ncom/doi/abs/10.1080/02678373.2013.877096\r\n37. Aronsson G, Theorell T, Grape T, Hammarström A, Hogstedt C, Marteinsdottir I, \r\nSkoog I, Träskman-Bendz L, Hall C. A systematic review including meta-anal\u0002ysis of work environment and burnout symptoms. BMC Public Health. 2017 \r\n[cited 2024 May 21];17(1):264. https://doi.org/10.1186/s12889-017-4153-7. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8718568260761544662,
+        "filename": "12889_2024_Article_19704.PMC11316337.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 61,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "PMID: 28302088; PMCID: PMC5356239. https://www.ncbi.nlm.nih.gov/pmc/\r\narticles/PMC5356239/\r\nPublisher’s Note\r\nSpringer Nature remains neutral with regard to jurisdictional claims in \r\npublished maps and institutional affiliations. \n\n"
+  }
+]

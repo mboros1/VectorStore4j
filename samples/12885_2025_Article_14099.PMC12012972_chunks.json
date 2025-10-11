@@ -1,0 +1,650 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Li et al. BMC Cancer (2025) 25:744 \r\nhttps://doi.org/10.1186/s12885-025-14099-8\r\nRESEARCH Open Access\r\n© The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 \r\nInternational License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long \r\nas you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if \r\nyou modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or \r\nparts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated \r\notherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not \r\npermitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To \r\nview a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.\r\nBMC Cancer\r\nAssociation of pre‑diagnosis plasma \r\nproteomic contexture with overall survival \r\nof early‑ and late‑stage colon cancer patients\r\nShun Li1,2, Hao Wang1,2, Xiao‑Qian Xu1,2, Wei‑Ming Li1,2, Hong You3, Ji‑Dong Jia3, You‑Wen He4 and \r\nYuan‑Yuan Kong1,2*\r\nAbstract\r\nBackground The pre-diagnosis plasma proteomic contexture of colon cancer patients may reflect host immune \r\nand biological conditions and potentially associate with survival outcomes. We aimed to characterize pre-diag\u0002nosis proteomic contextures in colon cancer patients and determine potential association with overall survival \r\nof the patients.\r\nMethods Baseline plasma samples collected at an average of 7.90 years before diagnosis from colon cancer patients \r\nin the UK Biobank cohort were analyzed using Olink proteomics technology. Cox-regression analysis was applied \r\nto identify distinct pre-diagnosis proteomic contextures and determine their association with survival outcomes.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Results In early-stage colon cancer, a 10-protein pre-diagnosis profile was identified, involving biological processes \r\nof extracellular matrix remodeling and immune evasion through deregulation of innate immune activation. Increased \r\nactivity in these pathways before diagnosis was associated with poor survival outcomes. In late-stage cases, an 8-pro\u0002tein pre-diagnosis profile was linked to pathways involving in cell adhesion, angiogenesis, and pro-inflammatory \r\nresponse. Similarly, heightened activity in these pathways prior to diagnosis correlated with worse survival. When \r\ncombined with two demographic factors age and sex, these proteomic profiles demonstrated strong predictive \r\nassociations with survival outcomes at multiple time points post-diagnosis. The area under the receiver operating \r\ncharacteristic curve values were 0.85, 0.82, and 0.89 for early-stage cancer at 1, 5, and 10 years, respectively, and 0.71, \r\n0.72, and 0.79 for late-stage cancer over the same periods.\r\nConclusions Biological processes like extracellular matrix remodeling and pro-inflammatory response are active well \r\nbefore diagnosis and may play a critical role in shaping colon cancer progression.\r\nKeywords Pre-diagnosis proteomic contexture, Overall survival, Colon cancer, Association, Super and poor survivors\r\n*Correspondence:\r\nYuan‑Yuan Kong\r\nkongyy@ccmu.edu.cn\r\nFull list of author information is available at the end of the article\nLi et al. BMC Cancer (2025) 25:744 Page 2 of 14\r\nIntroduction\r\nColon cancer typically progresses over a lengthy \r\nperiod, evolving from benign polyps through a series \r\nof genetic and epigenetic alterations that span 10 to 15 \r\nyears [1]. This extended latency offers an opportunity \r\nfor baseline, pre-diagnosis proteomic markers to reveal \r\nbiological changes that may be associated with cancer \r\nprogression and survival outcomes long before clini\u0002cal diagnosis [2]. UK Biobank (UKBB), with its exten\u0002sive baseline plasma samples (53,014 samples for nearly \r\n3000 proteins) and long-term follow-up, provides an \r\ninvaluable resource for exploring these pre-diagnosis \r\nproteomic signatures [3]. The UKBB’s large-scale, com\u0002munity-based, longitudinal dataset allows for robust \r\nanalyses across diverse outcomes, strengthening the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "predictive power of potential biomarkers for broader \r\napplications.\r\nThe host’s biological predispositions, as reflected by \r\nits plasma proteomic profile, may play a pivotal role in \r\nshaping the trajectory of colon cancer development long \r\nbefore clinical diagnosis [4]. To capture the multifac\u0002eted biological processes that occur long before clinical \r\ndetection, we introduce the concept of an individual’s \r\npre-diagnosis proteomic contexture. This term refers to \r\na complex network of plasma proteins involved in criti\u0002cal biological pathways, offering a snapshot of the host’s \r\nimmune status, physiological conditions, and overall bio\u0002logical resilience or vulnerability. We hypothesize that \r\nthese proteomic contextures likely experience significant \r\nshifts during the pre-diagnostic phase of colon cancer, \r\nreflecting the individual’s capacity to resist or succumb to \r\ndisease progression. As such, they serve as a unique lens \r\nthrough which to examine the biological ‘fate’ of patients, \r\nclosely tied to cancer progression and long-term survival \r\noutcomes.\r\nDespite advances in identifying pre-diagnosis biomark\u0002ers linked to colon cancer risk [5, 6], few studies have \r\nexamined the association of pre-diagnosis proteomic \r\ncontextures with long-term survival outcomes [7]. In \r\nthis study, we explored these associations by first exam\u0002ining two contrasting survival outcomes—“super sur\u0002vivors” who outlive typical prognostic expectations, \r\nand “poor survivors” who experience rapid disease pro\u0002gression despite comparable staging at diagnosis. This \r\napproach leverages these survival extremes to provide an \r\nopportunity to uncover unique pre-diagnosis proteomic \r\ncontextures that may reflect underlying resilience or vul\u0002nerability of host immunity to aggressive cancer biology. \r\nBy taking advantage of the extensive baseline pre-diag\u0002nosis plasma proteomic data from the UKBB cohort at \r\nrecruitment, we aim to characterize pre-diagnosis prot\u0002eomic contextures associated with survival in both early\u0002and late-stage colon cancer.\r\nMethods\r\nThis study utilized data from the UK Biobank, a large\u0002scale biomedical resource that supports research by \r\nlinking comprehensive baseline health data with long\u0002term health outcomes across a diverse population \r\ncohort. Ethical approval for the study was granted by \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "the North West Multi-Centre Research Ethics Commit\u0002tee under UK Biobank application number 129053.\r\nThis study, based on data from the UK Biobank, lev\u0002eraged integrated health records and proteomic data to \r\ninvestigate pre-diagnosis protein contextures associ\u0002ated with long-term survival in colon cancer patients. \r\nWe selected participants diagnosed with colon cancer \r\nafter recruitment as our study cohort and examined \r\nproteomic differences between two distinct survival \r\ngroups: super survivors and poor survivors, in both \r\nearly and late stages. Differentially expressed proteins \r\n(DEPs) were identified and subjected to enrichment \r\nanalysis, with pre-diagnosis protein signatures con\u0002structed to predict survival outcomes in both stages. \r\nThe model’s performance was then tested in the entire \r\ncohort of colon cancer patients. Subgroup analyses \r\nwere performed to assess the model’s effectiveness by \r\nsex and age, and sensitivity analyses explored potential \r\nvariations in model performance based on tumor loca\u0002tion and metastasis sites.\r\nDefinitions of colon cancer and metastasis\r\nColon cancer and metastasis status were identified in \r\nthe UK Biobank cohort using the International Classi\u0002fication of Diseases, 10 th revision (ICD-10) codes from \r\nhospital records:\r\n• Colon Cancer: Defined by ICD-10 code C18, \r\nincluding subcategories C18.0-C18.9, covering \r\nmalignant neoplasms of the colon.\r\n• Metastasis: Defined by codes C77, C78, and C79 for \r\nsecondary malignant neoplasms (of lymph nodes, \r\nof respiratory and digestive organs, of other and \r\nunspecified sites, respectively). Specifically, C78.0 \r\nrefers to secondary malignant neoplasm of the lung, \r\nC78.6 refers to secondary malignant neoplasm of \r\nretroperitoneum and peritoneum, and C78.7 refers \r\nto secondary malignant neoplasm of the liver and \r\nintrahepatic bile duct.\r\n• Tumor location: Determined based on ICD-10 \r\ncodes: right-sided tumors (C18.0–C18.4) and left\u0002sided tumors (C18.5–C18.7).\nLi et al. BMC Cancer (2025) 25:744 Page 3 of 14\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Cohort selection\r\nThe cohort of colon cancer patients were identified \r\nfrom the UK Biobank cohort using ICD-10 codes.\r\n• Inclusion criteria: Confirmed diagnosis of colon \r\ncancer, defined by at least one documented ICD-10 \r\ncode for colon cancer (C18, including subcategories \r\nC18.0-C18.9).\r\n• Exclusion criteria:\r\na) A history of colon cancer prior to recruitment or \r\ndiagnosis within half-year after recruitment.\r\nb) Absence of plasma proteomics data collected at \r\nthe time of recruitment.\r\nClassification of super and poor survivors\r\nTo capture meaningful differences in survival-related \r\nproteomic expression, we used a data-driven approach \r\nto classify patients into super and poor survivor groups, \r\nreflecting the natural distribution of survival times \r\nwithin the cohort. Rather than applying arbitrary whole\u0002number thresholds, we derived the cut-off points based \r\non observed survival distributions (from diagnosis to \r\nall-cause mortality), ensuring biologically and clinically \r\nmeaningful groupings (Fig.  1B). These classifications \r\nfocus on survival extremes to identify distinct prot\u0002eomic patterns potentially that may influence survival \r\ntrajectories.\r\n• Super survivors were defined as patients whose sur\u0002vival exceeded the upper two-thirds percentile of the \r\ncohort’s survival distribution (> 6.08 years post-diag\u0002nosis, Fig. 1B). By deriving cut-offs from the cohort, \r\nthis data-driven approach avoids variations in sur\u0002vival times across different populations, ensuring that \r\nthe classification accurately reflects meaningful sur\u0002vival differences within the studied group. Although \r\n6.1% of these patients eventually succumbed to the \r\ndisease, their prolonged survival warranted this clas\u0002sification, as it may offer insights into biological fac\u0002tors contributing to survival.\r\n• Poor survivors were defined as patients with survival \r\ntime below the median of all deceased patients within \r\nthe cohort (< 1.17 years post-diagnosis, Fig. 1B). This \r\napproach captures individuals with markedly limited \r\nsurvival, enabling the identification of proteomic sig\u0002natures associated with aggressive disease and poor \r\nprognosis.\r\nThis approach allowed for a detailed comparison of \r\nproteomic profiles associated with both extended and \r\nlimited survival outcomes in colon cancer, facilitating \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "insights into potential biological factors linked to survival \r\noutcomes.\r\nProteomic data collection\r\nPlasma proteomic data were obtained from the UK \r\nBiobank’s April 2023 release, encompassing approxi\u0002mately 55,000 participants, and generated through the \r\nPharma Proteomics Project [8]. Multiplexed proteomic \r\nassays were performed on baseline plasma samples using \r\nthe Olink Explore 3072 platform, which utilizes dual \r\nbarcoded antibody technology for semi-quantitative \r\nreadouts of 2,923 proteins across 8 panels. After quality \r\ncontrol measures, 2,699 proteins with less than 30% miss\u0002ing values in the cohort were retained for analysis. The \r\nproteomic data in the UK Biobank was pre-normalized \r\nusing inverse-rank normalized approaches, ensuring \r\ncomparability across samples.\r\nStatistical analysis\r\nContinuous variables were summarized as means with \r\nstandard deviations (SD) for normally distributed data \r\nor medians with interquartile ranges (IQR) for data \r\nwith non-normal distribution. Group comparisons were \r\nconducted using the Student’s t-test for normally dis\u0002tributed variables and the Mann–Whitney U-test for \r\nnon-normally distributed data. Categorical variables \r\nwere expressed as frequencies and percentages and were \r\ncompared using Chi-square or Fisher’s exact test, as \r\nappropriate.\r\nDEPs were identified using unadjusted Cox regression \r\nmodels to account for survival time and normalized pro\u0002teomic datasets. A DEP was defined as a protein with \r\na log2 fold change outside the range of − 1 to 1 and an \r\nunadjusted p-value <0.05.\r\nTo identify biological pathways associated with sur\u0002vival, we performed Gene Ontology (GO) enrichment \r\nanalysis for metastatic and non-metastatic colon cancer \r\ngroups. Using the “clusterProfiler” package in R, proteins \r\nwere ranked by fold-change in expression between super \r\nand poor survivors. GO terms were derived from anno\u0002tated biological processes in reference gene sets, facili\u0002tating hierarchical classification of gene functions and \r\npathway insights relevant to survival.\r\nThe time from sample collection to diagnosis was cal\u0002culated for each individual as the time difference between \r\nthe date of baseline plasma sample collection and the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "date of colon cancer diagnosis. For survival analysis, \r\nunivariable and multivariable Cox proportional hazards \r\nregression models were used to assess the significance of \r\nsurvival differences between super and poor survivors, \r\nand the predictive value of selected protein biomarkers \r\nalongside clinical covariates, respectively. Hazard ratios \nLi et al. BMC Cancer (2025) 25:744 Page 4 of 14\r\nFig. 1 A Flow chart of the study. B. Survival time distribution from colon cancer diagnosis to death or last follow-up. Each vertical bar represents \r\nan individual diagnosed with colon cancer, illustrating the time from diagnosis to either death (red) or the last follow-up point (blue). Blue bars \r\nindicate participants who survived until the study’s end, while red bars denote those who succumbed to the disease during the follow-up period. \r\nPoor survivors referred to the patients who survived less than the median survival time of deceased patients (1.17 years), while super survivors \r\ndescribed patients who lived beyond two-thirds of the observed survival time (6.08 years)\nLi et al. BMC Cancer (2025) 25:744 Page 5 of 14\r\n(HRs) with 95% confidence intervals (CIs) were calcu\u0002lated to quantify the impact of each biomarker on sur\u0002vival risk.\r\nTo handle missing values in the proteomic dataset, \r\npredictive mean matching was used for data imputation. \r\nLasso regression was applied to select significant pro\u0002teins for inclusion in predictive models. Time-dependent \r\nreceiver operating characteristic (ROC) curves were cal\u0002culated using the timeROC package to evaluate the pre\u0002dictive performance of proteomic contextures at 1-year \r\n(short-term), 5-year (medium-term), and 10-year (long\u0002term) survival intervals across super survivors, poor \r\nsurvivors, and the broader colon cancer cohort. Model \r\naccuracy was assessed by the area under the ROC curve \r\n(AUROC) with 95% bootstrap confidence intervals. The \r\noptimal cut-off for proteomic contextures was deter\u0002mined by Youden Index using SurvivalROC package.\r\nSubgroup analyses were conducted to assess model \r\nperformance stratified by sex and age at diagnosis. \r\nAge at diagnosis was categorized using a cut-off of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "70 years as the median diagnosis age for colon can\u0002cer [9]. Sensitivity analysis was conducted for left-sided \r\nonly and right-sided only colon cancer cases, as well \r\nas for three common metastasis sites: liver, lung, and \r\nretroperitoneum/peritoneum.\r\nAll analyses were performed in R version 4.2.3 (R Foun\u0002dation for Statistical Computing), and statistical signifi\u0002cance was defined as a two-tailed P-value <0.05.\r\nResults\r\nA total of 7,119 colon cancer cases were identified in the \r\ncohort using ICD-10 codes, from which 5,693 new diag\u0002noses were included after excluding 1,426 cases for pre\u0002existing or near-term (diagnosis within half-year after \r\nrecruitment) diagnoses. Of the 5,693 patients, 594 had \r\npre-diagnosis plasma proteomic data available, analyzed \r\nusing the Olink platform (Fig.  1A). These samples were \r\ncollected at recruitment, with a mean time of 7.90 years \r\nfrom sample collection to diagnosis. The cohort was \r\ndivided by metastasis status and ICD-10 stage into two \r\ngroups: early-stage (stage I-II) cases without any metas\u0002tasis (n= 278) and late-stage (stage III-IV) cases with \r\nmetastasis (n= 316). Early-stage cases were diagnosed at \r\nan older average age (mean age at diagnosis: 70.34 years) \r\ncompared to late-stage cases (mean age: 67.90 years, \r\nTable 1). Additionally, early-stage cases exhibited longer \r\nsurvival durations from diagnosis to all-cause mortality \r\n(mean survival: 5.99 years for early-stage vs. 3.74 years \r\nfor late-stage). To identify distinct contexture associat\u0002ing with overall survival, we first selected patients in \r\neach group by survival duration into  \"poor\"  (surviving \r\n<1.17 years) and \"super\" survivors (surviving >6.08 years; \r\nFig. 1B).\r\nBaseline characteristics and survival patterns\r\nEarly- and late-stage groups differed markedly in demo\u0002graphic and survival patterns. In the early-stage cohort, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "133 super survivors and 16 poor survivors were identi\u0002fied (Table  2). The mean ages at recruitment for super \r\nand poor survivors were 60.97 and 64.25 years, respec\u0002tively (P= 0.06). Super survivors had a younger mean \r\nage at diagnosis of 66.56 years, compared with the 74.81 \r\nyears observed in poor survivors (P< 0.001). As expected, \r\nearly-stage super survivors exhibited a significantly \r\nlonger survival duration post-diagnosis (9.89 years) than \r\npoor survivors (0.44 years). Given similar ages at recruit\u0002ment, super survivors in early-stage cancer had a shorter \r\ninterval from baseline to diagnosis (5.04 years) than poor \r\nsurvivors (10.09 years).\r\nAmong late-stage cases, 65 super survivors and 89 \r\npoor survivors were identified, with similar mean ages \r\nat recruitment (59.57 years for super survivors and 60.84 \r\nyears for poor survivors, P= 0.16, Table 2). While super \r\nsurvivors were again younger at diagnosis (64.94 years) \r\nthan poor survivors (69.01 years), the age gap was nar\u0002rower than in the early-stage group. Similarly, although \r\nthe interval from baseline to diagnosis was shorter for \r\nsuper survivors (4.88 years) than for poor survivors \r\n(7.67 years), the difference was less pronounced than \r\nthat observed in early-stage cases (Table  2). Compared \r\nwith poor survivors, super survivors who lived more \r\nthan 10 years were diagnosed at a significantly younger \r\nage (mean 63.11 vs. 69.01 years) and more frequently \r\nexhibited lymph node-only metastases (50.0% vs. 6.7%, \r\nSupplementary Materials:  Table  S1). In contrast, liver \r\nmetastases were significantly more prevalent among \r\npoor survivors (70.8% vs. 32.1%, P= 0.001, Supplemen\u0002tary Materials: Table S1).\r\nIn both early- and late-stage groups, other factors, \r\nincluding body mass index (BMI), alcohol consumption, \r\nand smoking status, showed no significant differences \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "between super and poor survivors (Table  2). Together, \r\nthese findings highlight potential age- and stage-depend\u0002ent influences on survival, with diagnostic timing appear\u0002ing particularly relevant in early-stage cases.\r\nPre‑diagnosis proteomic expression differences \r\nbetween super and poor survivors\r\nProteomic analysis revealed distinct pre-diagnosis \r\nexpression contextures associated with survival out\u0002comes across early and late stages. In early-stage colon \r\ncancer, 143 pre-diagnosis DEPs were identified between \r\nsuper and poor survivors, with 120 DEPs upregulated \r\nand 23 downregulated in poor survivors prior to diagno\u0002sis (Fig. 2A, Supplementary materials: Table  S2, Fig.S1). \r\nThe highest fold changes were noted in insulin recep\u0002tor (INSR, 9.70 log2 fold change) and interleukin- 20 \nLi et al. BMC Cancer (2025) 25:744 Page 6 of 14\r\nreceptor A (IL20RA, − 4.21 log2 fold change), suggest\u0002ing a pre-diagnosis proteomic contexture that may drive \r\naggressive cancer progression in early stages.\r\nIn late-stage colon cancer, only 80 pre-diagnosis DEPs \r\nwere identified, with 75 upregulated and five downregu\u0002lated in poor survivors before diagnosis (Fig.  2B, Sup\u0002plementary materials: Table  S3, Fig.S1). Although fewer \r\nDEPs were detected, the pre-diagnosis proteomic shifts \r\nin late-stage cancer reflected survival-linked processes. \r\nThe most upregulated protein, A1BG (1.96 log2 fold \r\nchange), and downregulated protein, ITGB6 (−2.05 log2 \r\nfold change) in poor survivors, also suggest a distinct \r\npre-diagnosis protein contexture associated with late\u0002stage disease progression. This stage-specific variation \r\nin DEPs highlights how the pre-diagnosis proteomic \r\ncontexture shifts as the disease advances and survival \r\ndynamics evolve.\r\nGO enrichment and biological mechanisms\r\nGO enrichment analysis further elucidated survival\u0002associated pathways in each stage. In early-stage cases, \r\nsignificantly enriched terms related to extracellular \r\nmatrix (ECM) integrity and cell signaling were promi\u0002nent (the most enriched terms collagen-containing \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "extracellular matrix, Fig.  3A). The elevated pre-diag\u0002nosis expression of ECM-related proteins, such as \r\nADAMTS1, ADAMTS4, DDR1, and ACTA2, in poor \r\nsurvivors indicates that ECM remodeling processes \r\nTable 1 Baseline characteristics of early- and late-stage colon cancer cohorts in the UK Biobank\r\na\r\n N (%) or Mean (SD). BMI body-mass index\r\nb\r\n Stage information is not available in the UK Biobank, only lymph node metastasis was used as proxy for stage III, and distant metastasis was used as proxy for stage \r\nIV\r\nBaseline characteristica Early stage (316) Late stage (278) P value\r\nAge at recruitment (year) 61.27 (6.41) 60.26 (6.78) 0.06\r\nAge at diagnosis (year) 70.34 (7.40) 67.90 (7.32) < 0.001\r\nSex\r\nMale 183 (57.9) 145 (52.2) 0.18\r\nFemale 133 (42.1) 133 (47.8)\r\nEthnic (White %) 304 (96.5) 263 (96.0) 0.91\r\nBMI 27.98 (4.77) 27.87 (4.61) 0.77\r\nYear from baseline to diagnosis 8.56 (3.79) 7.15 (3.69) < 0.001\r\nYear from diagnosis to death 5.99 (3.89) 3.74 (3.85) < 0.001\r\nAlcohol drinker status\r\nNever 19 (6.0) 11 (4.0) 0.54\r\nPrevious 13 (4.1) 12 (4.3)\r\nCurrent 284 (89.9) 252 (90.6)\r\nSmoking\r\nNever 146 (46.2) 149 (53.6) 0.12\r\nPrevious 139 (44.0) 99 (35.6)\r\nCurrent 31 (9.8) 26 (9.4)\r\nSurvival status\r\nAlive 278 (88.0) 106 (38.1) < 0.001\r\nDeath 38 (12.0) 172 (61.9)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Stageb\r\nIII - 63 (22.7) -\r\nIV - 215 (77.3)\r\nMetastasis type\r\nLymph node metastasis only - 63 (22.7) -\r\nDistant metastasis only - 120 (43.2)\r\nBoth types of metastases - 95 (34.2)\r\nMetastasis site\r\nLiver and intrahepatic bile duct 153 (55.0) -\r\nLung 83 (29.8)\r\nRetroperitoneum and peritoneum 80 (28.8)\nLi et al. BMC Cancer (2025) 25:744 Page 7 of 14\r\nwere actively underway even before the clinical onset \r\nof cancer (Fig. 4A). Moreover, markers of immune eva\u0002sion through deregulation of innate immune activation \r\n(IL15), metabolic dysregulation (INSR, APOH), and \r\ngenomic instability (TP53) were upregulated in poor \r\nsurvivors long prior to disease diagnosis (Fig.  4A), \r\nlinking early ECM alterations, immune evasion, \r\nmetabolic shifts, and genomic instability to survival \r\noutcomes.\r\nIn contrast, late-stage cancer GO enrichment under\u0002scored processes associated with cell adhesion and \r\nactive inflammatory response initiated long before \r\ndiagnosis (Fig. 3B). Elevated expression of EDIL3 indi\u0002cated an active angiogenesis in poor survivors prior \r\nto diagnosis, while higher expression of TNFSF8 and \r\nPPP3R1 in poor survivors suggested pre-diagnosis \r\npro-inflammatory state (Fig.  4B). These findings sug\u0002gest that survival differences in both stages were \r\ndriven by pre-diagnosis active ECM remodeling or \r\ntumor cell adhesion. While early-stage survival differ\u0002ences may be additionally driven by metabolic factors \r\nand genomic instability, survival in late-stage disease \r\nmay further hinge on angiogenesis and inflammation.\r\nPre‑diagnosis proteomic contexture associated \r\nwith survival outcomes in all patients\r\nBuilding on our proteomic findings, we identified pre\u0002diagnosis proteomic contextures that were strongly \r\nassociated with survival outcomes in early- and late\u0002stage colon cancer, reflecting distinct biological pro\u0002cesses active before clinical diagnosis. For early-stage \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "colon cancer, among 12 DEPs identified within the top \r\nfive GO terms, a 10 pre-diagnosis proteomic contex\u0002ture (ACTA2, ADAMTS1, ADAMTS4, APOH, CCN3, \r\nDDR1, DPT, IL15, INSR, TP53; Supplementary mate\u0002rial: Table  S4) demonstrated the highest AUROC. \r\nSpecifically, all 10 pre-diagnosis proteins except IL15 \r\nwere higher in super survivors than poor survivors \r\n(Fig.  4A). This contexture demonstrated strong asso\u0002ciations with survival outcomes over 1, 5, and 10 years, \r\nwith AUROCs of 0.93, 0.92, and 0.91, respectively, in \r\nsuper and poor survivors. Incorporating age at diag\u0002nosis and sex further improved the AUROCs to 0.95, \r\n0.96, and 0.97 (Fig.  5A), as these factors themselves \r\ndemonstrated significant prognostic value (Supplemen\u0002tary Materials:  Fig.S2). These associations remained \r\nrobust across all 316 early-stage cases, with AUROCs \r\nof 0.86, 0.73, and 0.78, respectively. Similarly, when \r\ncombined age and sex, AUROCs reached 0.85, 0.82, \r\nTable 2 Baseline characteristics of super and poor survivors of early- and late-stage colon cancer in the UK Biobank cohort\r\na\r\n N (%) or Mean (SD). BMI body-mass index\r\nBaseline characteristica Early stage Late stage\r\nSuper survivors (133) Poor survivors\r\n(16)\r\nP value Super survivors (65) Poor survivors\r\n(89)\r\nP value\r\nAge at recruitment (year) 60.97 (6.63) 64.25 (5.21) 0.06 59.57 (6.58) 60.84 (6.21) 0.22\r\nAge at diagnosis (year) 66.56 (7.22) 74.81 (5.68) < 0.001 64.94 (6.56) 69.01 (7.32) < 0.001\r\nSex\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Male 73 (54.9) 11 (68.8) 0.43 39 (60.0) 39 (43.8) 0.07\r\nFemale 60 (45.1) 5 (31.2) 26 (40.0) 50 (56.2)\r\nEthnic (White %) 125 (94.7) 16 (100.0) 0.75 61 (95.3) 85 (95.5) 1.00\r\nBMI 27.65 (4.26) 30.01 (6.22) 0.06 27.30 (4.60) 28.37 (4.96) 0.18\r\nYear from baseline to diagnosis 5.04 (2.51) 10.09 (3.29) < 0.001 4.88 (2.46) 7.67 (3.60) < 0.001\r\nYear from diagnosis to death 9.89 (2.45) 0.44 (0.36) < 0.001 9.77 (2.61) 0.37 (0.32) < 0.001\r\nAlcohol drinker status\r\nNever 11 (8.3) 2 (12.5) 0.75 1 (1.5) 5 (5.6) 0.40\r\nPrevious 5 (3.8) 1 (6.2) 5 (7.7) 5 (5.6)\r\nCurrent 117 (88.0) 13 (81.2) 58 (89.2) 79 (88.8)\r\nSmoking\r\nNever 65 (48.9) 9 (56.2) 0.86 35 (53.8) 53 (59.6) 0.74\r\nPrevious 58 (43.6) 6 (37.5) 24 (36.9) 28 (31.5)\r\nCurrent 10 (7.5) 1 (6.2) 5 (7.7) 8 (9.0)\r\nSurvival status\r\nAlive 128 (96.2) 0 (0.0) < 0.001 58 (89.2) 0 (0.0) < 0.001\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "Death 5 (3.8) 16 (100.0) 7 (10.8) 89 (100.0)\nLi et al. BMC Cancer (2025) 25:744 Page 8 of 14\r\nand 0.89, respectively (Fig. 5B). For subgroup analysis, \r\nin early-stage cases, AUROCs were consistently higher \r\nfor women compared to men and for younger patients \r\ncompared to older patients (Supplementary Materi\u0002als:  Fig.S3-S4). Among 140 left-sided only early-stage \r\ncases, AUROCs were 0.84, 0.80, 0.89, respectively; \r\nin 152 right-sided only early-stage cases, AUROCs \r\nwere 0.74, 0.82, 0.85, respectively (Supplementary \r\nMaterials:  Fig.S5), suggesting no significant difference \r\nbetween these two groups.\r\nFor late-stage cases, Lasso regression refined the ini\u0002tial pool of 89 DEPs to 10 candidates, from which an \r\noptimized 8-protein contexture (CLSTN3, EDIL3, \r\nLGALS3BP, PKD1, PPP3R1, PSMD1, TNFSF8, and \r\nYY1; Fig. 4B & Supplementary material: Table S5) was \r\nidentified, demonstrating the highest AUROC and \r\nFig. 2 Volcano plot of baseline plasma proteins in super and poor survivors among early- and late-stage colon cancer patients. A. Early-stage colon \r\ncancer B. Late-stage colon cancer |Log2 Fold change|≥ 1 and p value <0.05 were applied. Grey represents not-significant change in expression. Red \r\nrepresents up-regulation in poor survivors. Blue represents down-regulation in poor survivors\nLi et al. BMC Cancer (2025) 25:744 Page 9 of 14\r\nhighlighting pathways linked to survival dynamics \r\nin advanced disease. This contexture showed strong \r\nassociations with survival outcomes over 1, 5, and 10 \r\nyears (AUROCs: 0.80, 0.80, and 0.81, respectively) and \r\nremained stable with the addition of age and sex, with \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "AUROCs at 0.82, 0.83, and 0.84, respectively (Fig. 5C). \r\nValidation across 278 late-stage cases further sup\u0002ported these associations, with AUROCs of 0.70, 0.69, \r\nand 0.74, which improved to 0.71, 0.72, and 0.79 upon \r\nincorporating demographic factors (Fig.  5D). Notably, \r\nthe AUROC for 63 stage III cases (1-year: 0.89, 5-year: \r\n0.79, 10-year: 0.86) was higher than that for 215 stage \r\nIV cases (1-year: 0.69, 5-year: 0.68, 10-year: 0.82) (Sup\u0002plementary Materials:  Fig.S6). Sensitivity analysis, \r\nwhich excluded deaths from non-cancer causes, showed \r\nconsistent model performance, with 1-year, 5-year, \r\nand 10-year AUCs (adjusted for age and sex) remain\u0002ing stable at 0.71, 0.72, and 0.79, respectively. In late\u0002stage cases, similar AUROC performance was observed \r\nacross subgroups, including comparisons between men \r\nand women (Supplementary Materials: Fig.S3), younger \r\nand older patients (Supplementary Materials:  Fig.S4), \r\nas well as between left-sided and right-sided tumors \r\n(Supplementary Materials:  Fig.S5). Furthermore, the \r\nmodel demonstrated comparable performance across \r\nvarious metastasis sites, including 153 cases with liver \r\nmetastases, 83 cases with lung metastases, and 80 cases \r\nwith retroperitoneal/peritoneal metastases (Supple\u0002mentary Materials: Fig.S7).\r\nDiscussion\r\nOur study identified the pre-diagnosis proteomic contex\u0002tures associated with survival outcomes in colon cancer \r\nacross early and late stages. By examining patients with \r\nextreme survival outcomes (i.e., super and poor sur\u0002vivors), we found that pre-existing alterations in prot\u0002eomic contextures, particularly in ECM remodeling and \r\ncell adhesion, were associated with survival trajectories \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "well before clinical diagnosis in both stages. In early\u0002stage cases, we identified a 10-protein pre-diagnosis \r\ncontexture associated with survival, which includes \r\nmultiple biological processes such as ECM remodeling \r\nand immune evasion. For late-stage cases, an 8-protein \r\npre-diagnosis contexture emerged, linked to processes \r\nincluding cell adhesion, angiogenesis and active inflam\u0002matory response. These associations suggest that, long \r\nbefore tumor detection, proteomic contexture changes in \r\nthe plasma may mirror a host’s immunological and bio\u0002logical environment, potentially shaping the fate of can\u0002cer progression and long-term survival.\r\nIn early-stage colon cancer, we identified a 10-pro\u0002tein pre-diagnosis proteomic contexture (ACTA2, \r\nADAMTS1, ADAMTS4, APOH, CCN3, DDR1, DPT, \r\nINSR, IL15, TP53) strongly associated with survival out\u0002comes. These proteins except for IL15 were elevated in \r\nFig. 3 Gene ontology enrichment analysis for DEPs upregulated in poor survivors in early- and late-stage colon cancer. The dot plot visualizes \r\nthe top enriched GO terms based on differentially expressed proteins upregulated in poor survivors. Dot size corresponds to the number \r\nof associated proteins, while color intensity reflects the level of statistical significance (p-value)\nLi et al. BMC Cancer (2025) 25:744 Page 10 of 14\r\nFig. 4 Violin plot of selected plasma protein levels in poor and super survivors of early- and late-stage colon cancer. The violin plot illustrates \r\nthe distribution of significant serum protein levels between poor survivors (PS) and super survivors (SS). Wider sections of the plot indicate a higher \r\nprobability of those protein levels in the corresponding group. Boxplots within the violins highlight the median and interquartile range\nLi et al. BMC Cancer (2025) 25:744 Page 11 of 14\r\npoor survivors before diagnosis and negatively associ\u0002ated with survival. Notably, previous studies linked ele\u0002vated levels of biomarkers such as ACTA2, ADAMTS4, \r\nAPOH, and DDR1 in colon cancer tissues to poor overall \r\nsurvival [10–13]. Importantly, our findings revealed that \r\nthese biomarkers were already upregulated years before \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "diagnosis, suggesting that the activation of tumor-sup\u0002portive processes initiated well before clinical detection. \r\nSpecifically, proteins identified in the early-stage contex\u0002ture, such as ACTA2 and AAMTS4, play pivotal roles in \r\nECM remodeling, a critical process that facilitates tumor \r\ncell detachment, invasion, and metastasis in colon cancer \r\n[14–16]. The overexpression of ACTA2 in colon cancer \r\ntissues enhances ECM stiffness, facilitating tumor cell \r\ninvasion and contributing to metastasis and poor prog\u0002nosis [14]. ADAMTS1 is involved in ECM remodeling \r\nFig. 5 Predictive model performance based on baseline serum proteins in the early- and late-stage colon cancer. This figure highlights \r\nthe performance of the most effective predictive model distinguishing between super and poor survivors in early-stage colon cancer based \r\non 10 baseline serum proteins (ACTA2, ADAMTS1, ADAMTS4, APOH, CCN3, DDR1, DPT, IL15, INSR, and TP53), and late-stage colon cancer based \r\non 8 pre-diagnostic plasma proteins (CLSTN3, EDIL3, LGALS3BP, PKD1, PPP3R1, PSMD1, TNFSF8, and YY1). The models all incorporated sex and age \r\nat diagnosis as predictors. The upper panels (A and B) showed models in the early stage. The lower panel (C and D) showed models in the late \r\nstage. Left panels (A and C) present results for model performance in super and poor survivors, and right panels (B and D) display validation \r\nacross patients using imputed data\nLi et al. BMC Cancer (2025) 25:744 Page 12 of 14\r\nby degrading various components of the matrix [17], \r\nlinking to enhanced metastatic potential and poorer \r\nsurvival in patients with colon cancer [18]. ECM remod\u0002eling is especially critical and a prerequisite for invasion \r\nand metastasis for colon cancer progression, serving as \r\npotential therapeutic targets [19, 20]. Our findings sug\u0002gest that active ECM remodeling may initiate approxi\u0002mately 8 years before clinical detection, highlighting the \r\npotential for early intervention to disrupt these tumor\u0002supportive processes [21]. Conversely, we found that \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "IL15, a key protein for immune cell activation, was asso\u0002ciated with improved survival. The down-regulated levels \r\nof IL15 in poor survivors indicated weakened immune \r\nsurveillance that could accelerate tumor onset and pro\u0002gression [22, 23]. Increasing studies additionally demon\u0002strated therapeutic potential of IL15 as target for colon \r\ncancer [24, 25]. Altogether, the pre-diagnosis proteomic \r\ncontexture reflects a spectrum of tumor-supportive pre\u0002dispositions before clinical diagnosis, particularly ECM \r\nremodeling and immune evasion, shaping overall survival \r\nfor early-stage colon cancer.\r\nIn late-stage colon cancer, we identified an 8-protein \r\npre-diagnosis proteomic contexture (CLSTN3, EDIL3, \r\nLGALS3BP, PKD1, PPP3R1, PSMD1, TNFSF8, and YY1), \r\nwith elevated levels associated with poor overall sur\u0002vival. Previous studies have showed CLSTN3, PPP3R1, \r\nand YY1 as critical factors in colon cancer detection and \r\nprogression [26–28]. Again, we further revealed that the \r\nchange of these biomarkers initiated long before diag\u0002nosis. Similar to early-stage findings, proteins involving \r\nECM remodeling and cell adhesion like CLSTN3 play \r\npivotal roles in late-stage colon cancer [29, 30]. In ani\u0002mal model, CLSTN3 increased tumor invasiveness and \r\nmetastasis by enhancing the ability of cancer cells to \r\ndetach from the primary tumor and invade surround\u0002ing tissues. A proteome-wide Mendelian randomization \r\nstudy prioritized CLSTN3 as a risk factor of colon cancer, \r\nwhere we further revealed that elevated CLSTN3 before \r\ndiagnosis was associated with poor overall survival [26]. \r\nMoreover, EDIL3, an angiogenesis-related protein, was \r\nsignificantly elevated in poor survivors before diagno\u0002sis, indicating early activation of tumor vascularization \r\n[31]. This early enhancement of blood vessel formation \r\nlikely fosters tumor growth and progression well before \r\nclinical detection, shaping survival trajectories in late\u0002stage colon cancer [32, 33]. PPP3R1 is a regulator of cal\u0002cium signaling and immune responses. In colon cancer \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "patients, elevated PPP3R1 levels have been linked to the \r\nestablishment of a pro-inflammatory tumor microenvi\u0002ronment, which can support tumor growth and suppress \r\nanti-tumor immune responses, leading to poor survival \r\n[27, 34]. Notably, we discovered that YY1, a transcription \r\nfactor highly expressed in colon cancer tissues, exhibits \r\nelevated levels well before diagnosis. YY1 plays a critical \r\nrole in regulating genes associated with cell prolifera\u0002tion, DNA repair, and tumor budding, and it is widely \r\nrecognized as a pivotal oncogenic factor throughout the \r\nprogression of the disease [28]. Its early upregulation \r\nunderscores its potential as both a therapeutic target \r\nand a predictive biomarker in colon cancer tissues [35]. \r\nCollectively, the contexture represents critical pathways, \r\nincluding ECM remodeling, angiogenesis, and pro\u0002inflammatory response, actively engaged prior to diagno\u0002sis and associated with more aggressive disease behavior \r\nin late-stage colon cancer.\r\nDespite these findings, the study has some limitations. \r\nFirst, due to its observational nature, it cannot estab\u0002lish causal relationships between identified proteins and \r\nsurvival outcomes. Further investigation of these pro\u0002teins’ roles in cancer progression and survival would be \r\nbeneficial to elucidate underlying mechanisms and to \r\nstrengthen their prognostic utility. Secondly, our analy\u0002sis was limited to baseline proteomic data, which does \r\nnot capture potential dynamic changes in biomarker lev\u0002els over the course of the disease. Future studies should \r\ninvestigate temporal changes in protein expression to \r\nprovide a more comprehensive view of how proteomic \r\nprofiles evolve with disease progression and treatment. \r\nThird, reliance on ICD-10 codes for diagnosis verification \r\nmay have resulted in missing cases, as pathology reports \r\nwere unavailable and imaging data was only accessible \r\nfor approximately one-fifth of participants within the \r\nUK Biobank cohort. Fourth, detailed stage information \r\n(stages I-IV) was unavailable in the UK Biobank dataset, \r\nand treatment data were incomplete. Metastasis status \r\nand metastasis site were used as surrogates for stage clas\u0002sification, which may introduce classification bias or limit \r\nfiner stratification of early-stage cases. Fifth, the findings \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "in the study lack external validation, underscoring the \r\nneed for replication in diverse populations to enhance \r\ntheir generalizability.\r\nIn conclusion, this study highlights the pre-diagnosis \r\nproteomic contexture associated with survival outcomes \r\nin early- and late-stage colon cancer, revealing distinct \r\nbiological pathways that reflect the host’s immune and \r\nphysiological state long before tumor diagnosis. In both \r\nstages, aggressive tumor-supportive processes such as \r\nECM remodeling and altered cell adhesion were evident \r\nprior to clinical detection, potentially shaping survival \r\ntrajectories. Early-stage cases exhibited a 10-protein sig\u0002nature indicative of metabolic shifts and immune eva\u0002sion, while late-stage cases were characterized by an \r\n8-protein signature emphasizing angiogenesis and pro\u0002inflammatory response. Future research should validate \r\nthese associations in broader populations and further \r\nexplore the therapeutic implications of these proteomic \nLi et al. BMC Cancer (2025) 25:744 Page 13 of 14\r\npatterns, enhancing our understanding of early tumori\u0002genesis and host-tumor interactions.\r\nSupplementary Information\r\nThe online version contains supplementary material available at https://doi.\r\norg/10.1186/s12885-025-14099-8.\r\nSupplementary Material 1.\r\nSupplementary Material 2.\r\nSupplementary Material 3.\r\nAcknowledgements\r\nWe acknowledged the financial support by the Project of the High-level Public \r\nHealth Professional Talents of the Beijing Municipal Health Commission under \r\nGrant [XUEKEGUGAN-01-018] and the Capital Medical University Cultivation \r\nProject (Natural Sciences Category) [PYZ24073]. These fundings did not affect \r\nstudy design, collection, analysis, and interpretation of the data and in the \r\nwriting of the report.\r\nAuthors’ contributions\r\nShun Li was responsible for conducting the study, performing data analysis, \r\nand drafting the manuscript. Hao Wang contributed to data collection \r\nand analysis. Xiao-Qian Xu provided analytical support. Wei-Ming Li was \r\ninstrumental in developing and refining the figures. Hong You and Ji-Dong \r\nJia revised the manuscript. You-Wen He contributed to data interpretation \r\nand conceptualization of the study. Yuan-Yuan Kong supervised the research \r\nand took overall responsibility for the study. All authors approved of the final \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "version of the manuscript.\r\nFunding\r\nThis study was supported by the Project of the High-level Public Health \r\nProfessional Talents of the Beijing Municipal Health Commission under Grant \r\n[XUEKEGUGAN-01-018] and the Capital Medical University Cultivation Project \r\n(Natural Sciences Category) [PYZ24073].\r\nData availability\r\nThe data that support the findings of this study are available in the UK Biobank \r\nat https://www.ukbiobank.ac.uk/ upon application.\r\nDeclarations\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nAuthor details\r\n1\r\nNational Clinical Research Center for Digestive Diseases, State Key Lab \r\nof Digestive Health, Beijing Friendship Hospital, Capital Medical University, \r\nBeijing, China. 2Clinical Epidemiology and EBM Unit, Beijing Clinical Research \r\nInstitute, Beijing, China. 3Liver Research Center, Beijing Friendship Hospital, \r\nCapital Medical University, Beijing, China. 4Department of Integrative Immu\u0002nobiology, Duke University School of Medicine, Durham, NC 27710, USA. \r\nReceived: 11 December 2024 Accepted: 7 April 2025\r\nReferences\r\n1. Atkin WS, Morson BC, Cuzick J. Long-term risk of colorectal cancer after \r\nexcision of rectosigmoid adenomas. N Engl J Med. 1992;326(10):658–62.\r\n2. Shao S, Neely BA, Kao TC, Eckhaus J, Bourgeois J, Brooks J, Jones EE, Drake \r\nRR, Zhu K. Proteomic Profiling of Serial Prediagnostic Serum Samples for \r\nEarly Detection of Colon Cancer in the U.S. Military. Cancer Epidemiol \r\nBiomarkers Prev. 2017;26(5):711–8.\r\n3. Sudlow C, Gallacher J, Allen N, Beral V, Burton P, Danesh J, Downey P, \r\nElliott P, Green J, Landray M, et al. UK biobank: an open access resource \r\nfor identifying the causes of a wide range of complex diseases of middle \r\nand old age. PLoS Med. 2015;12(3): e1001779.\r\n4. Bertuzzi M, Marelli C, Bagnati R, Colombi A, Fanelli R, Saieva C, Ceroti \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "M, Bendinelli B, Caini S, Airoldi L, et al. Plasma clusterin as a candidate \r\npre-diagnosis marker of colorectal cancer risk in the Florence cohort of \r\nthe European Prospective Investigation into Cancer and Nutrition: a pilot \r\nstudy. BMC Cancer. 2015;15:56.\r\n5. Harlid S, Gunter MJ, Van Guelpen B. Risk-Predictive and Diagnostic \r\nBiomarkers for Colorectal Cancer; a Systematic Review of Studies Using \r\nPre-Diagnostic Blood Samples Collected in Prospective Cohorts and \r\nScreening Settings. Cancers (Basel). 2021;13(17):4406.\r\n6. Seum T, Frick C, Cardoso R, Bhardwaj M, Hoffmeister M, Brenner H. Poten\u0002tial of pre-diagnostic metabolomics for colorectal cancer risk assessment \r\nor early detection. NPJ Precis Oncol. 2024;8(1):244.\r\n7. Levy JJ, Zavras JP, Veziroglu EM, Nasir-Moin M, Kolling FW, Christensen \r\nBC, Salas LA, Barney RE, Palisoul SM, Ren B, et al. Identification of Spatial \r\nProteomic Signatures of Colon Tumor Metastasis: A Digital Spatial Profil\u0002ing Approach. Am J Pathol. 2023;193(6):778–95.\r\n8. Sun BB, Chiou J, Traylor M, Benner C, Hsu YH, Richardson TG, Surendran \r\nP, Mahajan A, Robins C, Vasquez-Grinnell SG, et al. Plasma proteomic \r\nassociations with genetics and health in the UK Biobank. Nature. \r\n2023;622(7982):329–38.\r\n9. Marley AR, Nan H. Epidemiology of colorectal cancer. Int J Mol Epidemiol \r\nGenet. 2016;7(3):105–14.\r\n10. Ito S, Koshino A, Wang C, Otani T, Komura M, Ueki A, Kato S, Takahashi \r\nH, Ebi M, Ogasawara N, et al. Characterisation of colorectal cancer by \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "hierarchical clustering analyses for five stroma-related markers. J Pathol \r\nClin Res. 2024;10(4): e12386.\r\n11. Shang XQ, Liu KL, Li Q, Lao YQ, Li NS, Wu J. ADAMTS4 is upregulated in \r\ncolorectal cancer and could be a useful prognostic indicator of colorectal \r\ncancer. Rev Assoc Med Bras. 2020;66(1):42–7.\r\n12. Lu Y, Wang Y, Qiu Y, Xuan W. Analysis of the Relationship between the \r\nExpression Level of TTR and APOH and Prognosis in Patients with Colo\u0002rectal Cancer Metastasis Based on Bioinformatics. Contrast Media Mol \r\nImaging. 2022;2022:1121312.\r\n13. Jeitany M, Leroy C, Tosti P, Lafitte M, Le Guet J, Simon V, Bonenfant D, \r\nRobert B, Grillet F, Mollevi C, et al. Inhibition of DDR1-BCR signalling by \r\nnilotinib as a new therapeutic strategy for metastatic colorectal cancer. \r\nEMBO Mol Med. 2018;10(4):e7918.\r\n14. Lee HW, Park YM, Lee SJ, Cho HJ, Kim D-H, Lee J-I, Kang M-S, Seol HJ, Shim \r\nYM, Nam D-H, et al. Alpha-Smooth Muscle Actin (ACTA2) Is Required for \r\nMetastatic Potential of Human Lung Adenocarcinoma. Clin Cancer Res. \r\n2013;19(21):5879–89.\r\n15. Andreuzzi E, Capuano A, Poletto E, Pivetta E, Fejza A, Favero A, Doliana \r\nR, Cannizzaro R, Spessotto P, Mongiat M. Role of Extracellular Matrix \r\nin Gastrointestinal Cancer-Associated Angiogenesis. Int J Mol Sci. \r\n2020;21(10):3686.\r\n16. Chen J, Luo Y, Zhou Y, Qin S, Qiu Y, Cui R, Yu M, Qin J, Zhong M. Promotion \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "of Tumor Growth by ADAMTS4 in Colorectal Cancer: Focused on Mac\u0002rophages. Cell Physiol Biochem. 2018;46(4):1693–703.\r\n17. Silva SV, Lima MA, Hodgson L, Rodríguez-Manzaneque JC, Freitas VM. \r\nADAMTS-1 has nuclear localization in cells with epithelial origin and leads \r\nto decreased cell migration. Exp Cell Res. 2023;433(2): 113852.\r\n18. Lind GE, Kleivi K, Meling GI, Teixeira MR, Thiis-Evensen E, Rognum \r\nTO, Lothe RA. ADAMTS1, CRABP1, and NR3C1 identified as epige\u0002netically deregulated genes in colorectal tumorigenesis. Cell Oncol. \r\n2006;28(5–6):259–72.\r\n19. Kim MS, Ha SE, Wu M, Zogg H, Ronkon CF, Lee MY, Ro S. Extracellular \r\nMatrix Biomarkers in Colorectal Cancer. Int J Mol Sci. 2021;22(17):9185.\r\n20. Karlsson S, Nyström H. The extracellular matrix in colorectal cancer and \r\nits metastatic settling – Alterations and biological implications. Crit Rev \r\nOncol Hematol. 2022;175: 103712.\r\n21. Yuan Z, Li Y, Zhang S, Wang X, Dou H, Yu X, Zhang Z, Yang S, Xiao M. Extra\u0002cellular matrix remodeling in tumor progression and immune escape: \r\nfrom mechanisms to treatments. Mol Cancer. 2023;22(1):48.\r\n22. Cai M, Huang X, Huang X, Ju D, Zhu YZ, Ye L. Research progress of inter\u0002leukin-15 in cancer immunotherapy. Front Pharmacol. 2023;14:1184703.\r\n23. Bahri R, Pateras IS, D’Orlando O, Goyeneche-Patino DA, Campbell M, \r\nPolansky JK, Sandig H, Papaioannou M, Evangelou K, Foukas PG, et al. \r\nIL-15 suppresses colitis-associated colon carcinogenesis by inducing \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "antitumor immunity. Oncoimmunology. 2015;4(9): e1002721.\nLi et al. BMC Cancer (2025) 25:744 Page 14 of 14\r\n24. Lei S, Zhang X, Men K, Gao Y, Yang X, Wu S, Duan X, Wei Y, Tong R. Efficient \r\nColorectal Cancer Gene Therapy with IL-15 mRNA Nanoformulation. Mol \r\nPharm. 2020;17(9):3378–91.\r\n25. Thi VAD, Jeon HM, Park SM, Lee H, Kim YS. Cell-Based IL-15:IL-15Rα Secret-\r\ning Vaccine as an Effective Therapy for CT26 Colon Cancer in Mice. Mol \r\nCells. 2019;42(12):869–83.\r\n26. Sun J, Zhao J, Jiang F, Wang L, Xiao Q, Han F, Chen J, Yuan S, Wei J, Larsson \r\nSC, et al. Identification of novel protein biomarkers and drug targets for \r\ncolorectal cancer by integrating human plasma proteome with genome. \r\nGenome Med. 2023;15(1):75.\r\n27. Sun Z, Xia W, Lyu Y, Song Y, Wang M, Zhang R, Sui G, Li Z, Song L, Wu C, \r\net al. Immune-related gene expression signatures in colorectal cancer. \r\nOncol Lett. 2021;22(1):543.\r\n28. Shao Z, Yang W, Meng X, Li M, Hou P, Li Z, Chu S, Zheng J, Bai J. The \r\nrole of transcription factor Yin Yang-1 in colorectal cancer. Cancer Med. \r\n2023;12(10):11177–90.\r\n29. Oplawski M, Dziobek K, Zmarzły N, Grabarek B, Tomala B, Leśniak E, \r\nAdwent I, Januszyk P, Dąbruś D, Boroń D. Evaluation of Changes in the \r\nExpression Pattern of EDIL3 in Different Grades of Endometrial Cancer. \r\nCurr Pharm Biotechnol. 2019;20(6):483–8.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -7052974770240196787,
+        "filename": "12885_2025_Article_14099.PMC12012972.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 27,
+      "version": "1.0.0"
+    },
+    "text": "30. Capone E, Iacobelli S, Sala G. Role of galectin 3 binding protein in \r\ncancer progression: a potential novel therapeutic target. J Transl Med. \r\n2021;19(1):405.\r\n31. Aoka Y, Johnson FL, Penta K, Hirata Ki K, Hidai C, Schatzman R, Varner \r\nJA, Quertermous T. The embryonic angiogenic factor Del1 acceler-\r\nates tumor growth by enhancing vascular formation. Microvasc Res. \r\n2002;64(1):148–61.\r\n32. Tabasum S, Thapa D, Giobbie-Hurder A, Weirather JL, Campisi M, Schol \r\nPJ, Li X, Li J, Yoon CH, Manos MP, et al. EDIL3 as an Angiogenic Target of \r\nImmune Exclusion Following Checkpoint Blockade. Cancer Immunol Res. \r\n2023;11(11):1493–507.\r\n33. Kim N, Ko Y, Shin Y, Park J, Lee AJ, Kim KW, Pyo J. Comprehensive Analysis \r\nfor Anti-Cancer Target-Indication Prioritization of Placental Growth Factor \r\nInhibitor (PGF) by Use of Omics and Patient Survival Data. Biology (Basel). \r\n2023;12(7):970.\r\n34. Cho SH, Shim HJ, Park MR, Choi JN, Akanda MR, Hwang JE, Bae WK, Lee \r\nKH, Sun EG, Chung IJ. Lgals3bp suppresses colon inflammation and \r\ntumorigenesis through the downregulation of TAK1-NF-κB signaling. Cell \r\nDeath Discov. 2021;7(1):65.\r\n35. Shao ZY, Yang WD, Qiu H, He ZH, Lu MR, Shen Q, Ding J, Zheng JN, Bai J. \r\nThe role of USP7-YY1 interaction in promoting colorectal cancer growth \r\nand metastasis. Cell Death Dis. 2024;15(5):347.\r\nPublisher’s Note\r\nSpringer Nature remains neutral with regard to jurisdictional claims in pub-\r\nlished maps and institutional affiliations.\n\n"
+  }
+]

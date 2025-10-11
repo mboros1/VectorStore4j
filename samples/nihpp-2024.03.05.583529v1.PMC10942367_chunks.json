@@ -1,0 +1,794 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Microglia Depletion leads to Increased Susceptibility to Ocular Hypertension-Dependent Glaucoma\r\nCory A. Diemler1,2, Michael MacLean1, Sarah E. Heuer1,3, Amanda A. Hewes1, Olivia J. Marola1, Richard T. \r\nLibby4, and Gareth R. Howell1,2,4,*\r\n1 The Jackson Laboratory, Bar Harbor, ME. \r\n2 Graduate School of Biological Sciences and Engineering, University of Maine, Orono, ME. \r\n3 Graduate School of Biomedical Sciences, Tufts University School of Medicine, Boston, MA.\r\n4 Flaum Eye Institute, University of Rochester Medical Center, Rochester, NY.\r\n* Correspondence: gareth.howell@jax.org\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nAbstract\r\nIn recent years, microglia have been highlighted for playing integral roles in neurodegenerative diseases, \r\nlike glaucoma. To better understand the role of microglia during chronic ocular hypertension, we depleted \r\nmicroglia from aged (9-12 months old) DBA/2J (D2) mice, which exhibit age-related increases in intraocular \r\npressure, using a dietary CSF1R antagonist, PLX5622. Retinal ganglion cell (RGC) somas were counted, and \r\noptic nerve cross-sections stained and assessed for glaucomatous damage. Sustained administration of dietary \r\nPLX5622 significantly reduced the numbers of retinal microglia. Dietary PLX5622 did not lead to changes in \r\nintraocular pressure in D2 or normotensive DBA/2J-Gpnmb+ (D2-Gpnmb+) control mice. While PLX5622-\r\ntreated D2-Gpnmb+ did not develop optic nerve damage, PLX5622-treated D2 mice showed a significant \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "increase in moderate-to-severe optic nerve damage compared to D2 mice fed a control diet. In conclusion, \r\nglobal reduction of microglia exacerbated glaucomatous neurodegeneration in D2 mice suggesting microglia \r\nplay an overall beneficial role in protecting from ocular hypertension associated RGC loss.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nIntroduction\r\nGlaucoma is a leading cause of irreversible blindness worldwide (Tham et al., 2014), characterized by the \r\nprogressive death and dysfunction of retinal ganglion cells (RGCs), the projection neurons that form the optic \r\nnerve connecting the retina to the brain (Ramirez et al., 2017, Tribble et al., 2020, Quigley and Broman, 2006, \r\nHowell et al., 2011, Williams et al., 2019). Aging and elevated ocular hypertension (OHT; elevated intraocular \r\npressure, IOP) are the two major risk factors associated with glaucoma (Ramirez et al., 2017, Tribble et al., \r\n2020, Quigley and Broman, 2006, Howell et al., 2011, Williams et al., 2019). Current treatments for glaucoma \r\nfocus on lowering IOP, but not all patients with glaucoma present with increased IOP, and treatments focusing \r\non normalizing IOP do not always successfully prevent vision loss (Schuster et al., 2020). Even when \r\nindividuals receive proper treatment, approximately 10% still experience vision loss (Quigley and Broman, \r\n2006), underscoring the need to identify new therapeutic targets that protect and prevent the loss of RGC \r\nfunction.\r\nMicroglia in the retina and optic nerve influence the progression of glaucoma (Howell et al., 2012, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Heuss et al., 2018, Tribble et al., 2020, Howell et al., 2011, Rashid et al., 2019, Williams et al., 2019, Harder et \r\nal., 2020). They are the resident immune cell of the central nervous system and have distinct sets of functions \r\nfor maintaining homeostasis, including removal of cellular debris, monitoring for injury and pathogens and \r\ncoordinating immune responses (Sun et al., 2021, Ramirez et al., 2017, Bosco et al., 2008, Heuss et al., 2018, \r\nTribble et al., 2020, Rashid et al., 2019, Bachiller et al., 2018, Hickman et al., 2018, Song and Colonna, 2018, \r\nBosco et al., 2012). Microglia survey and continually respond to their environment. In response to changes in \r\nthe environment, such as an increase in IOP or injury, microglia adopt specific phenotypes which include \r\nmorphological changes and adaptations to their transcriptional profiles. These changes are seen before RGC \r\ndysfunction and death (Williams et al., 2017b, Howell et al., 2011, Bosco et al., 2012). It is proposed that \r\nmicroglial dysfunction contributes to a sustained inflammatory environment leading to changes in retinal \r\nintegrity and RGC loss (Rashid et al., 2019, Ramirez et al., 2017). \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nPrevious work by others has shown that diminishing microglial activation via minocycline treatment\r\n(Bosco et al., 2008, Baptiste et al., 2005) or irradiation (Bosco et al., 2012) promoted RGC survival in DBA/2J \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "(D2) mice, an aging OHT mouse model of glaucoma. However, both approaches likely affect a variety of other \r\nprocesses. A more specific approach to test the role of microglia is to deplete microglia using the colony \r\nstimulating factor 1 receptor (CSF1R) inhibitor PLX5622, which has been used to test the role of microglia in \r\nbrain diseases such as Alzheimer’s disease (Spangenberg et al., 2019). The role of microglia in the eye has \r\nbeen studied in various diseases using PLX5622. In an optic nerve crush study, using PLX5622 revealed \r\nmicroglia are not critically involved in RGC degeneration after an acute neuronal injury (Hilla et al., 2017). In a \r\ndiabetic retinopathy mouse model, PLX5622 treatment for approximately 2 months protected the retina from \r\nneurodegenerative and vascular damage (Church et al., 2022). Depletion of microglia using PLX5622 in a \r\nmodel of RGC degeneration, intravitreal injection of NMDA, led to RGC protection compared to controls \r\n(Takeda et al., 2018). In contrast, PLX5622 treatment in an acute inducible model of OHT resulted in increased \r\nRGC loss (Tan et al., 2022). However, widely used acute models of OHT have limited degeneration of RGCs \r\nand, given aging is the major risk factor for glaucoma, limited translational relevance. Therefore, to address \r\nthis, we focused our efforts on D2 mice which develop glaucomatous neurodegeneration due to age-related \r\nelevation of IOP (Anderson et al., 2002). To study the role of microglia in D2 glaucoma, microglia were \r\ndepleted using dietary PLX5622 beginning at 9.5 months of age, a time point after IOP elevation has begun and \r\na timepoint when the vast majority of eyes have not developed glaucomatous neurodegeneration (Libby et al., \r\n2005a). Glaucomatous neurodegeneration was assessed at 12 mos, when the majority of eyes show moderate to \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "severe glaucoma (Libby et al., 2005a). Loss of microglia significantly increased the proportion of eyes with \r\nsevere glaucomatous optic nerve damage and RGC soma loss, suggesting an overall beneficial role for \r\nmicroglia in the progression of glaucoma.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nMethods\r\nEthics statement\r\nAll research was approved by the Institutional Animal Care and Use Committee (IACUC) at The Jackson \r\nLaboratory (JAX, approval number 12005). Animals were humanely euthanized using cervical dislocation. \r\nAuthors performed euthanasia using methods approved by the American Veterinary Medical Association.\r\nAnimals\r\nAll mice were housed in a 12-hour light/12-hour dark cycle under previously described conditions, and fed ad \r\nlibtum (Howell et al., 2012, Howell et al., 2011). Our D2 and D2-Gpnmb+ colonies are routinely crossed with \r\nD2 mice from JAX production facility to prevent genetic drift as previously described (Howell et al., 2011).\r\nMicroglia depletion\r\nMicroglia were depleted by administering PLX5622, an inhibitor of the colony-stimulating factor 1 receptor, in \r\nthe chow (Elmore et al., 2014). PLX5622 was acquired from Chemgood (C-1521) and formulated in Purina \r\n5K52 mouse chow diet at a concentration of 1200mg/kg (ppm) by Research Diets Inc, followed by 10–20 kGy \r\ngamma irradiation. Chemical purity and proper diet concentration were validated through HPLC and mass \r\nspectrometry analysis through Chemgood and JAX Proteomics core. To evaluate efficiency of microglia \r\ndepletion, 2-4 mos or 9.5 mos D2 mice were provided PLX5622 diet for 3 weeks. To evaluate the effects of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "microglia depletion on glaucoma-relevant outcomes, cohorts of 9.5 mos D2 or D2-Gpnmb+ mice were provided \r\nPLX5622 diet for 10 weeks. Non-depleted control mice received standard 5K52 mouse chow diet. All cohorts \r\nincluded equal numbers of male and female mice.\r\nIOP measurements \r\nTo evaluate the effects of microglia depletion on IOP, a cohort of D2 mice were given dietary PLX5622 at 9.5 \r\nmos. At baseline and after 5 and 10 weeks of dietary PLX5622, IOPs were measured with a rebound tonometer \r\n(TonoLab; ICare, Raleigh, NC). Three readings were taken from each eye and averaged to obtain the reading \r\nfor a timepoint. \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nRetina and optic nerve isolation\r\nAt the appropriate age, all mice were euthanized. To obtain the retina, eyes were removed and fixed in 4% PFA \r\novernight at 4oC. Thereafter, the cornea was cut along the limbus to remove the lens and vitreous and the retina \r\nand attached portion of the optic nerve head separated. Retinas were either processed immediately for myeloid \r\ncell analysis, snap frozen for RNA-seq, or stored in 1x Phosphate Buffered Saline (PBS) at 4oC for \r\nimmunofluorescence. To obtain the retroorbital portion of the optic nerve for axon damage assessment, the head \r\nwas separated from the body, the skull opened, and the top part of the brain removed. The head was then fixed \r\nin Smith Rudt buffer (0.8% PFA, 1.2% glutaraldehyde in 0.1M phosphate buffer) for 48 hours. Thereafter, the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 477,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "rest of the brain was removed to expose the retroorbital portion of the optic nerves (up to the optic chiasm). Left \r\nand right optic nerves were then carefully removed from the base of the skull and stored in 0.1M phosphate \r\nbuffer at 4oC until required. \r\nRetina homogenization, myeloid cell preparation and flow cytometry analysis\r\nRetinas were homogenized and pooled as previously described (Williams et al., 2017a). Eyes were enucleated \r\nand placed directly into ice-cold HBSS. Retinas were dissected and placed into 100uL of HBSS with dispase \r\n(5U/mL) DNAse 1 (2000U/mL). Retinas were incubated for 20 minutes at 37oC whilst being shaken at \r\n350RPM in an Eppendorf Thermomixer R. Samples were gently triturated. For flow cytometric analysis, each \r\nsample was stained with DAPI, CD45 BV605 (clone 30-F11, BD Biosciences, 1:240), and CD11b PE (clone \r\nM1/70, Biolegend, 1:960), followed by processing on a FACSymphony A5 cytometer, and analysis using \r\nFlowJo (v10) software.\r\nRNA isolation, library preparation and RNA-sequencing\r\nRetinas were lysed and homogenized in TRIzol Reagent (ThermoFisher) using a Pellet Pestle Motor (Kimbal), \r\nthen RNA was isolated using the miRNeasy Micro kit (Qiagen), according to manufacturers’ protocols, \r\nincluding the optional DNase digest step. RNA concentration and quality were assessed using the Nanodrop \r\n8000 spectrophotometer (Thermo Scientific) and the RNA 6000 Pico Assay (Agilent Technologies). Libraries \r\nwere constructed using the KAPA mRNA HyperPrep Kit (Roche Sequencing and Life Science), according to \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nthe manufacturer’s protocol. Briefly, the protocol entails isolation of polyA containing mRNA using oligo-dT \r\nmagnetic beads, RNA fragmentation, first and second strand cDNA synthesis, ligation of Illumina-specific \r\nadapters containing a unique barcode sequence for each library, and PCR amplification. The quality and \r\nconcentration of the libraries were assessed using the D5000 ScreenTape (Agilent Technologies) and Qubit \r\ndsDNA HS Assay (ThermoFisher), respectively, according to the manufacturers’ instructions. Approximately, \r\n70M 150bp paired-end reads were sequenced per sample on an Illumina NovaSeq 6000 using the S4 Reagent \r\nKit v1.5 (Illumina, Cat#20028313) by the Genome Technologies Core at the Jackson Laboratory. \r\nRetina RNA-sequencing data analysis\r\nRaw FASTQ files were processed using standard quality control practices (Wingett and Andrews, 2018). High \r\nquality read pairs were aligned to the mouse genome (mm10) using STAR 2.7.9a (Dobin et al., 2013). A custom \r\ngenome was generated for D2 mice by incorporating REL-1505 variants into the reference genome (Keane et \r\nal., 2011, Dobin et al., 2013). Read pair counts were summed with the featureCounts function in subread 1.6.3 \r\nusing the Ensembl Release 68 transcriptome reference (Liao et al., 2013, Cunningham et al., 2022). Differential \r\nexpression analyses were completed using edgeR v3.40.2 within the R environment v4.2.3 using the \r\nglmQLFtest function (Robinson et al., 2010). Groups were defined as a combination of sex and treatment \r\n(~0+Group). Contrasts were defined to test for the average treatment effect, the treatment effect within each \r\nsex, the average sex effect, and the interaction effect between sex and treatment. Genes were filtered using \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "filterByExpr within edgeR prior to normalization. The clusterProfiler v4.6.2 R package was used to test for \r\noverrepresentation of KEGG gene sets within the list of differentially expressed genes (DEGs) with a false\u0002discovery rate of less than 0.05 (Wu et al., 2021, Yu et al., 2012, Kanehisa and Goto, 2000). \r\nAnalysis of glaucomatous damage\r\nIntracranial portions of optic nerves were processed and analyzed as previously described (Libby et al., 2005b, \r\nHowell et al., 2011, Libby et al., 2005a, Anderson et al., 2005). Briefly, fixed optic nerves were processed and \r\nembedded in plastic. One-micrometer-thick cross sections of optic nerve from behind the orbit were cut and \r\nstained with paraphenylenediamine (PPD). Two observers blinded to the experimental protocol determined the \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\ndegree of nerve damage using a validated grading method (Howell et al., 2007). No/early (NOE) damage was \r\ndefined as less than 5% axons damaged. This amount of damage is seen in age-matched mice of various strains \r\nthat do not develop glaucoma. It is called “No/early” because some of these eyes are undergoing early \r\nmolecular stages of disease, but they are not distinguishable from eyes with no/early glaucoma by conventional \r\nmorphologic analyses of axon number and nerve damage. Moderate (MOD) described nerves with many \r\ndamaged axons throughout the nerve, with an average of 30% axon loss. Severe (SEV) nerves had substantial\r\naxon loss (>50% lost) and damage. The axon damage assessment scheme as previously been validated using \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "axon counts (Libby et al., 2005b, Howell et al., 2011, Libby et al., 2005a, Anderson et al., 2005).\r\nImmunofluorescence and microscopy\r\nRetinas were permeabilized with 1xPBS and 0.3% TritonX-100 (PBT), blocked for 24 hours at 4°C in PBT + \r\n10% normal donkey serum (D9663-10ML, Sigma-Aldrich), washed once with PBT, and incubated in primary \r\nantibody solution containing goat anti-IBA1 (1:300, ab5076, Abcam) and rabbit anti-RBPMS (1:250,\r\nGTX118619, GeneTex). After primary incubation for 72 hours at 4°C, sections were washed 3 times with PBT \r\nand incubated in secondary antibodies (donkey anti-goat Alexa Fluor 568 and donkey anti-rabbit Alexa Fluor \r\n488 (both diluted 1:1000 in PBT)) for 24 hours at 4°C. Retinas were washed with PBS and mounted. Images \r\nwere captured using two methodologies. Retinas stained with anti-IBA1 were imaged on a Leica DM6\r\nmicroscope at 20X magnification. For IBA1, 3 images per retina were captured at 1024 × 1024 pixel frames and \r\ncounts were averaged. Analysis was performed using ImageJ2 (version 2.3.0/1.53q). Maximum projections \r\nwere generated from stacks, individual channels were isolated, and default thresholds were applied for IBA1. \r\nCell bodies were manually counted. Retinas stained with anti-RBPMS were imaged using a Leica Versa slide \r\nscanner at 10X magnification, capturing and merging individual tiles. RBPMS+ RGCs were counted across the \r\nwhole retina. IMARIS software was used for analysis (v9.5.1) by using the RBPMS signal channel and \r\nquantifying RGC soma using Spots function (threshold soma size of 10 microns).\r\nStatistical analysis\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nData were analyzed masked to treatment group. All statistical analyses were performed in GraphPad Prism9\r\nsoftware. Unless otherwise stated, data are presented as mean ± SEM. For IBA1+ microglia, Mann-Whitney test \r\nwas performed for statistical significance because data failed Shapiro-Wilk test for normalcy. To determine \r\ndifferences in IOP within genotype/age/treatment, three-way ANOVA was performed for statistical \r\nsignificance. For RBPMS+ RGC counts, Kruskal-Wallis test was performed for statistical significance because \r\ndata failed Shapiro-Wilk test for normalcy. Chi-squared tests were used to evaluate differences in optic nerve \r\ndamage distributions among groups. Unless specifically stated in the text, p < 0.05 was considered significant.\r\nResults\r\nCSF1R inhibition causes significant retinal microglia depletion in young and aging DBA/2J mice\r\nTo evaluate microglia depletion efficiency in the retina, we first assessed retinal microglia numbers in 2-\r\n4 mos male and female D2 mice provided with PLX5622 diet (1200 ppm), a similar concentration to that used \r\npreviously (Elmore et al., 2014). D2 mice given a standard chow diet were used as controls. After 3 weeks on \r\nPLX5622 diet, analysis of microglia number was determined by flow cytometry. A 75% reduction of CD45+ \r\nCD11b+ cells was observed in D2 retinas fed PLX5622 compared to the control diet (Figure1A). We next \r\nlooked at the effects of three weeks of PLX5622 treatment on retinas from D2 mice starting at 9.5 mos (after \r\nOHT in the majority of D2 eyes) using RNA-seq. Compared to retinas from D2 mice on a control diet, retinas \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "of D2 mice on PLX5622 showed many microglial-relevant genes were significantly downregulated (Figure 1B\u0002C), and there was a significant enrichment of differentially expressed genes involved in microglia-relevant \r\nbiological processes (Figure1D). Collectively, these data show that dietary PLX5622 administered for 3 weeks \r\nresults in the majority of microglia being depleted from retinas of young and middle aged D2 mice.\r\nCSF1R inhibition does not modify IOP levels or cause optic nerve damage in normotensive mice\r\nTo determine if PLX5622 treatment altered glaucoma-relevant phenotypes, D2 and normotensive D2-\r\nGpnmb+ controls (Howell et al., 2007) were provided either the PLX5622 diet or control diet from 9.5 to 12 \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nmos. IOP was assessed at baseline and after 5 and 10 weeks of dietary PLX5622 (just prior to harvest). Dietary \r\nPLX5622 did not significantly alter the IOP of D2 or D2-Gpnmb+ mice (Figure 2A). To determine whether \r\nPLX5622 treatment alone, independent of OHT, was sufficient to induce axon damage, optic nerves from D2-\r\nGpnmb+ mice fed PLX6522 diet or control diet were assessed. Optic nerves from D2-Gpnmb+ mice fed either \r\nPLX5622 diet or control diet showed no significant axon damage (Figure 2B-D), suggesting CSF1R inhibition, \r\nindependent of OHT, is not sufficient to induce RGC loss. \r\nCSF1R inhibition increased the number of D2 eyes with glaucomatous neurodegeneration\r\nTo determine the effect of microglia depletion on glaucomatous neurodegeneration, D2 mice were \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "provided dietary PLX5622 from 9.5 to 12 mos. Confirming our short-term administration studies (Figure 1), \r\nwhole mount retinal immunofluorescence revealed a significant reduction in the number of IBA1, selective \r\nmarker for microglia,+ cells in the inner plexiform layer (IPL) of PLX5622-treated mice compared to control \r\nchow mice (Figure 3). To determine changes in glaucoma severity, optic nerve cross-sections were evaluated \r\nfor RGC axonal damage using PPD. In D2 mice fed the control diet, 74% of optic nerves showed moderate-to\u0002severe glaucomatous neurodegeneration, similar to previous reports (Howell et al., 2012). In contrast, D2 mice \r\nfed dietary PLX5622, had a significant increase in glaucomatous damage, with 97% of optic nerves graded as\r\nmoderate-to-severe (Figure 4).\r\nPrevious studies using BAX-deficient D2 mice showed that the processes determining optic nerve \r\ndegeneration could be uncoupled from RGC soma loss (Libby et al., 2005b). Therefore, it is possible that RGC \r\nsomas are not lost in PLX5622-treated D2 mice with severe optic nerve damage. To test this, RBPMS+ RGCs \r\nfrom retinas from D2 mice fed the PLX5622 diet or control diet were counted (RBPMS is a marker of RGCs).\r\nRetinas from 12 mos D2 mice fed a control diet and classified as having no optic nerve damage, were used as \r\nthe control. Retinas from D2 mice fed the control diet classified as having severe optic nerve damage showed a \r\nsignificant reduction in the number of RBPMS+ RGC somas compared to retinas with corresponding no/early \r\ndamaged optic nerves. Retinas from D2 mice fed the PLX5622 diet classified as having severe optic nerve \r\ndamage also showed a significant reduction in RBPMS+ RGC somas compared to no/early damaged optic \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nnerve retinas (Figure 5). These data show that microglia depletion did not alter RGC soma survival and \r\nconfirms that RGC axonal degeneration and RGC soma loss remain coupled. \r\nDiscussion\r\nIt is unclear what role microglia have in regulating RGC death after injury, with reports suggesting they \r\ncould have beneficial and detrimental (Howell et al., 2012, Heuss et al., 2018, Tribble et al., 2020, Howell et al., \r\n2011, Rashid et al., 2019, Williams et al., 2019, Harder et al., 2020). To further understand the role of microglia \r\nin RGC death after an ocular hypertensive insult, we depleted microglia in D2 mice. We globally depleted \r\nmicroglia in D2 mice at 9.5 mos, before optic nerve damage occurs but after most D2 eyes develop elevated \r\nIOP (Anderson et al., 2005, Libby et al., 2005a). We found that global CSF1R inhibition via PLX5622 diet led \r\nto a robust reduction in microglia in retinal tissue. After 10 weeks on the PLX5622 diet, we did not see\r\ntreatment-induced changes in IOP but did observe an increase in the prevalence of moderate-to-severe optic \r\nnerve damage. This suggests that microglia play a beneficial role in maintaining and protecting RGCs during an \r\nOHT injury. Similar results were observed in an acute model of OHT (Tan et al., 2022). We saw a much larger \r\neffect in terms of optic nerve damage in our aging OHT model with PLX5622 treatment compared to the acute \r\ninducible model (Tan et al., 2022). This may be because we introduced the PLX5622 diet after IOP elevation in \r\nmany eyes, as opposed to depleting microglia prior to IOP elevation in the acute model of OHT study (Tan et \r\nal., 2022). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Global depletion of microglia appears damaging, suggesting an overall beneficial role of microglia in \r\nglaucomatous OHT. However, previous work by others showed that diminishing microglia activation via \r\nminocycline treatment (Bosco et al., 2008, Baptiste et al., 2005) promoted RGC survival in D2 mice, suggesting \r\na damaging role for microglia. While minocycline has been suggested to promote neuroprotection in various \r\ninjury models, it also affects other cells critical to inflammation such as peripheral macrophages (Dunston et al., \r\n2011). Minocycline has been shown to enhance in vitro neuronal survival in the absence of microglia (Huang et \r\nal., 2010) further complicating the interpretation of the neuroprotective effect of minocycline in OHT.\r\nMoreover, previous work by us and others has suggested that targeting specific microglia-relevant molecular \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\npathways, such as the complement cascade (Howell et al., 2011, Williams et al., 2016) or monocyte-like cell \r\nextravasation (Williams et al., 2019), provides neuroprotection. Taken together, the findings suggest nuanced \r\nroles for microglia in the context of glaucoma-relevant neurodegeneration. Understanding the differences \r\nbetween the damaging effects of global depletion of microglia, and the potential beneficial effects of targeting \r\nspecific microglia-relevant processes will provide a more comprehensive view of the role of microglia in \r\nglaucoma. \r\nReduction of microglia through PLX5622 treatment has been shown to have beneficial effects in mouse \r\nmodels relevant to Alzheimer’s disease (Elmore et al., 2014, Spangenberg et al., 2019). In contrast, our work \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "presented here and work by others (Tan et al., 2022) show PLX5622 is damaging in mouse models of \r\nglaucoma. These contrasting results suggest the mechanisms by which microglia respond to amyloid in \r\nAlzheimer’s disease (AD) to contribute to neuronal loss in the brain are different from microglia responses to \r\nocular hypertension. In the face of injury or disease in both the brain and retina, microglia change from a \r\nhomeostatic state to other transcriptional states, and whilst this transition from homeostatic microglia is thought \r\nto be initially beneficial, sustained inflammation can lead to neurotoxicity for RGCs (Rashid et al., 2019, \r\nRamirez et al., 2017). In AD, the transition of homeostatic microglia to a disease-associated microglia \r\nphenotype is TREM2-dependent (Deczkowska et al., 2018). One study suggested that variations in TREM2 do \r\nnot contribute to increased risk for primary open angle glaucoma (Margeta et al., 2020) while variations in \r\nTREM2 increased risk for AD. However, another study proposed TREM/TYROBP signaling may have a\r\nregulatory role in microglia responses in D2 mice (Tribble et al., 2020). Therefore, TREM2-dependent \r\nmicroglia responses may differ between glaucoma and AD, but this requires further investigation. Another\r\nmicroglia-relevant gene, apolipoprotein E (APOE), has been observed to have contradictory responses/affects \r\nbetween glaucoma and AD (Margeta et al., 2020). The E4 allele of APOE (APOE4) is the strongest genetic risk \r\nfor Alzheimer’s disease, yet in glaucoma the presence of APOE4 appears to be neuroprotective (Margeta et al., \r\n2020). Determining the similarities and differences between microglia in diseases of the brain and the eye could \r\nhelp identify shared versus distinct therapeutic targets. In addition, examining the eye carefully when testing \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nmicroglia-based treatments for AD will be important as treatments may have unexpected adverse effects in the \r\neye.\r\nHere, we focused on resident microglia, but infiltration of monocytes and monocyte-derived cells into \r\nthe optic nerve head, the critical site of injury in glaucoma, has been previously been reported (Williams et al., \r\n2019, Howell et al., 2012, Williams et al., 2017a). In the optic nerve head of D2 mice, monocytes were present \r\nprior to RGC axon damage but were missing in normotensive controls (Williams et al., 2019). Reduced \r\nextravasation of monocyte-like cells through genetic ablation of Itgam, (Cd11b) an important cell adhesion \r\nprotein for tissue infiltration of monocytes, lead to lessened glaucomatous neurodegeneration in D2 mice, \r\ndemonstrated through RGC axonal staining and soma counts (Williams et al., 2019). It is also possible that \r\nremoving Cd11b decreases the damaging actions of microglia (Williams et al., 2019). Pharmacological \r\ninhibition of infiltrating monocytes into the retina/optic nerve prevented loss of RGC soma and axons (Williams \r\net al., 2019). Further, inhibiting infiltration of monocytes cells into D2 optic nerve head through eye-specific \r\nradiation treatment protected the optic nerve from glaucomatous damage (Howell et al., 2012). On the other \r\nhand, significant glaucomatous damage occurred when monocyte-derived cells extravasated into the optic nerve \r\nhead through deletion of Glycam, a negative regulator of extravasation, in neuroprotected irradiated mice\r\n(Williams et al., 2017a). Therefore, one possibility for the increased damage in PLX5622-depleted D2 mice is \r\nthat the beneficial effects of resident microglia have been lost, enhancing the damaging effects of infiltrating \r\nmonocytes. \r\nIn conclusion, our data showed that dietary PLX5622 significantly reduced microglia number and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "microglia gene expression in the retina of D2 mice. This ablation did not prevent RGC axon and soma loss. \r\nRather, we saw an increase in the number of eyes with severe optic nerve damage, suggesting microglia play a \r\ncritical neuroprotective role during glaucoma pathogenesis.\r\nAcknowledgments\r\nWe thank the JAX Flow Cytometry core facility for their expertise and assistance, Dr. Philipp Henrich at the \r\nJAX Microscopy core for training and assistance, and JAX Genomic Technologies for expert assistance. This \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nstudy was supported by funding sources: EY035093 (GRH, RTL), Diana Davis Spencer Foundation (GRH), \r\nand by the University of Maine GSBSE T32 (CAD).\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nFigure Legends\r\nFigure 1. Dietary PLX5622 leads to retinal microglia depletion.\r\nA. Flow cytometry cell counts of CD45+ and CD11b+ cells between control diet (0.133±0.003) and 3 weeks of \r\ndietary PLX5622 (0.033±0.002) from 2-4 mos D2 retinas (data are presented as Mean±SEM, n=3; Welch’s t\u0002test, p<0.0001; ) B. Volcano plot of RNA-seq results comparing retinas from 9.5 mos PLX5622 treated D2 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "compared to control diet D2. C. Expression levels of microglial-relevant genes were significantly down \r\nregulated. D. Enriched KEGG pathways in the DEGs identified between PLX5622 and control diet retinas \r\nillustrated as a network. \r\nFigure 2. Microglia depletion does not alter IOP or optic nerve degeneration.\r\nA. IOP measurements of D2 mice on control diet, D2 mice on PLX5622 diet, D2-Gpnmb+ mice on control diet,\r\nD2-Gpnmb+ mice on PLX5622 diet were taken at 9mos (start of treatment), 10.5mos (5 weeks on diet) and \r\n12mos (10 weeks on diet; data presented as Mean±SEM). B-C. Qualitative assessment of optic nerve health. \r\nRGC axons with and without CSF1R inhibition were stained with PPD, which differentially stains sick and \r\ndying axons. Examples of D2-Gpnmb+ optic nerves without dietary PLX5622 (B), and with dietary PLX5622\r\n(C). D. The frequency of glaucomatous optic nerve damage in D2-Gpnmb+ mice on control diet (n=5) and \r\nPLX5622 diet (n=7) using a 3-point grading system (Methods). No difference in nerve damage was seen \r\nbetween treated and untreated eyes (Chi-square test, p<0.001).\r\nFigure 3. Prolonged CSF1R inhibition reduces microglia in aged D2 retinal tissue.\r\nA-B. Representative images of IBA1+ cells in the IPL of retinal flatmounts of 12mos D2 retinas with 10 weeks \r\nof A. control diet and B. PLX5622 treatment. C. Quantification of IBA1+ cells in the control diet (Mean±SEM, \r\n80.7±10.6, n=6) and PLX5622 diet (31.8±3.8, n=8). Scale bar in A and B, 50µm; ****, p<0.0001 (Welch’s t\u0002test). \r\nFigure 4. Microglial depletioin increased prevalence of severe optic nerve damage in D2 mice.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "available under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nA-C. Qualitative assessment of optic nerve health. RGC axons were stained with PPD, and examples of optic \r\nnerves with No/Early damage (NOE) (A), Moderate (MOD) (B), and severe (SEV) are shown (C). D. The \r\nfrequency of glaucomatous optic nerve damage in D2 mice on control diet (n=13) and PLX5622 diet (n=17) \r\nusing a 3-point grading system (Methods). There was an increased damage level observed in the PLX5622 \r\ntreated eyes (p<0.0001, Chi-square test was performed). Scale bar in A and B, 10µm.\r\nFigure 5. Reduction in microglia does not change RGC soma counts in severely damaged optic nerves.\r\nRepresentative images of RBPMS+ cells in retinal flatmounts of 12mos D2 retinas with No damage/early \r\nneurodegeneration (NOE) (A), severe damaged optic nerves on control diet (SEV.PLX5622l Diet) (B), and\r\nsevere damaged optic nerves on PLX5622 diet (SEV.Control diet) (C). D. Graph of RBPMS+ cells per retina \r\ncompared between damaged levels and treatment groups. NOE retinas (n=4) averaged 35597±3214 RBPMS+ \r\ncells. SEV control diet retinas (n=4) averaged 12778±7575 RBPMS+ cells, and SEV. PLX5622 diet retinas \r\n(n=6) averaged 14880±8206 RBPMS+ cells. Scale bar: 50µm. Data are presented as Mean±SEM. In D, \r\nKruskal-Wallis test was performed.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 467,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nReferences\r\nANDERSON, M. G., LIBBY, R. T., GOULD, D. B., SMITH, R. S. & JOHN, S. W. 2005. High-dose radiation \r\nwith bone marrow transfer prevents neurodegeneration in an inherited glaucoma. Proc Natl Acad Sci U \r\nS A, 102, 4566-71.\r\nANDERSON, M. G., SMITH, R. S., HAWES, N. L., ZABALETA, A., CHANG, B., WIGGS, J. L. & JOHN, S. \r\nW. 2002. Mutations in genes encoding melanosomal proteins cause pigmentary glaucoma in DBA/2J \r\nmice. Nat Genet, 30, 81-5.\r\nBACHILLER, S., JIMENEZ-FERRER, I., PAULUS, A., YANG, Y., SWANBERG, M., DEIERBORG, T. & \r\nBOZA-SERRANO, A. 2018. Microglia in Neurological Diseases: A Road Map to Brain-Disease \r\nDependent-Inflammatory Response. Front Cell Neurosci, 12, 488.\r\nBAPTISTE, D. C., POWELL, K. J., JOLLIMORE, C. A., HAMILTON, C., LEVATTE, T. L., ARCHIBALD, \r\nM. L., CHAUHAN, B. C., ROBERTSON, G. S. & KELLY, M. E. 2005. Effects of minocycline and \r\ntetracycline on retinal ganglion cell survival after axotomy. Neuroscience, 134, 575-82.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "BOSCO, A., CRISH, S. D., STEELE, M. R., ROMERO, C. O., INMAN, D. M., HORNER, P. J., CALKINS, D. \r\nJ. & VETTER, M. L. 2012. Early reduction of microglia activation by irradiation in a model of chronic \r\nglaucoma. PLoS One, 7, e43602.\r\nBOSCO, A., INMAN, D. M., STEELE, M. R., WU, G., SOTO, I., MARSH-ARMSTRONG, N., HUBBARD, \r\nW. C., CALKINS, D. J., HORNER, P. J. & VETTER, M. L. 2008. Reduced retina microglial activation \r\nand improved optic nerve integrity with minocycline treatment in the DBA/2J mouse model of \r\nglaucoma. Invest Ophthalmol Vis Sci, 49, 1437-46.\r\nCHURCH, K. A., RODRIGUEZ, D., VANEGAS, D., GUTIERREZ, I. L., CARDONA, S. M., MADRIGAL, J. \r\nL. M., KAUR, T. & CARDONA, A. E. 2022. Models of microglia depletion and replenishment elicit \r\nprotective effects to alleviate vascular and neuronal damage in the diabetic murine retina. J \r\nNeuroinflammation, 19, 300.\r\nCUNNINGHAM, F., ALLEN, J. E., ALLEN, J., ALVAREZ-JARRETA, J., AMODE, M. R., ARMEAN, I. M., \r\nAUSTINE-ORIMOLOYE, O., AZOV, A. G., BARNES, I., BENNETT, R., BERRY, A., BHAI, J., \r\nBIGNELL, A., BILLIS, K., BODDU, S., BROOKS, L., CHARKHCHI, M., CUMMINS, C., DA RIN \r\nFIORETTO, L., DAVIDSON, C., DODIYA, K., DONALDSON, S., EL HOUDAIGUI, B., EL \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "NABOULSI, T., FATIMA, R., GIRON, C. G., GENEZ, T., MARTINEZ, J. G., GUIJARRO-CLARKE, \r\nC., GYMER, A., HARDY, M., HOLLIS, Z., HOURLIER, T., HUNT, T., JUETTEMANN, T., \r\nKAIKALA, V., KAY, M., LAVIDAS, I., LE, T., LEMOS, D., MARUGAN, J. C., MOHANAN, S., \r\nMUSHTAQ, A., NAVEN, M., OGEH, D. N., PARKER, A., PARTON, A., PERRY, M., PILIZOTA, I., \r\nPROSOVETSKAIA, I., SAKTHIVEL, M. P., SALAM, A. I. A., SCHMITT, B. M., SCHUILENBURG, \r\nH., SHEPPARD, D., PEREZ-SILVA, J. G., STARK, W., STEED, E., SUTINEN, K., SUKUMARAN, \r\nR., SUMATHIPALA, D., SUNER, M. M., SZPAK, M., THORMANN, A., TRICOMI, F. F., URBINA\u0002GOMEZ, D., VEIDENBERG, A., WALSH, T. A., WALTS, B., WILLHOFT, N., WINTERBOTTOM, \r\nA., WASS, E., CHAKIACHVILI, M., FLINT, B., FRANKISH, A., GIORGETTI, S., HAGGERTY, L., \r\nHUNT, S. E., GR, I. I., LOVELAND, J. E., MARTIN, F. J., MOORE, B., MUDGE, J. M., MUFFATO, \r\nM., PERRY, E., RUFFIER, M., TATE, J., THYBERT, D., TREVANION, S. J., DYER, S., \r\nHARRISON, P. W., HOWE, K. L., YATES, A. D., ZERBINO, D. R. & FLICEK, P. 2022. Ensembl \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "2022. Nucleic Acids Res, 50, D988-D995.\r\nDECZKOWSKA, A., KEREN-SHAUL, H., WEINER, A., COLONNA, M., SCHWARTZ, M. & AMIT, I. \r\n2018. Disease-Associated Microglia: A Universal Immune Sensor of Neurodegeneration. Cell, 173,\r\n1073-1081.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nDOBIN, A., DAVIS, C. A., SCHLESINGER, F., DRENKOW, J., ZALESKI, C., JHA, S., BATUT, P., \r\nCHAISSON, M. & GINGERAS, T. R. 2013. STAR: ultrafast universal RNA-seq aligner. \r\nBioinformatics, 29, 15-21.\r\nDUNSTON, C. R., GRIFFITHS, H. R., LAMBERT, P. A., STADDON, S. & VERNALLIS, A. B. 2011. \r\nProteomic analysis of the anti-inflammatory action of minocycline. Proteomics, 11, 42-51.\r\nELMORE, M. R., NAJAFI, A. R., KOIKE, M. A., DAGHER, N. N., SPANGENBERG, E. E., RICE, R. A., \r\nKITAZAWA, M., MATUSOW, B., NGUYEN, H., WEST, B. L. & GREEN, K. N. 2014. Colony\u0002stimulating factor 1 receptor signaling is necessary for microglia viability, unmasking a microglia \r\nprogenitor cell in the adult brain. Neuron, 82, 380-97.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 472,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "HARDER, J. M., WILLIAMS, P. A., BRAINE, C. E., YANG, H. S., THOMAS, J. M., FOXWORTH, N. E., \r\nJOHN, S. W. M. & HOWELL, G. R. 2020. Complement peptide C3a receptor 1 promotes optic nerve \r\ndegeneration in DBA/2J mice. J Neuroinflammation, 17, 336.\r\nHEUSS, N. D., PIERSON, M. J., ROEHRICH, H., MCPHERSON, S. W., GRAM, A. L., LI, L. & \r\nGREGERSON, D. S. 2018. Optic nerve as a source of activated retinal microglia post-injury. Acta \r\nNeuropathol Commun, 6, 66.\r\nHICKMAN, S., IZZY, S., SEN, P., MORSETT, L. & EL KHOURY, J. 2018. Microglia in neurodegeneration. \r\nNat Neurosci, 21, 1359-1369.\r\nHILLA, A. M., DIEKMANN, H. & FISCHER, D. 2017. Microglia Are Irrelevant for Neuronal Degeneration \r\nand Axon Regeneration after Acute Injury. J Neurosci, 37, 6113-6124.\r\nHOWELL, G. R., LIBBY, R. T., MARCHANT, J. K., WILSON, L. A., COSMA, I. M., SMITH, R. S., \r\nANDERSON, M. G. & JOHN, S. W. 2007. Absence of glaucoma in DBA/2J mice homozygous for \r\nwild-type versions of Gpnmb and Tyrp1. BMC Genet, 8, 45.\r\nHOWELL, G. R., MACALINAO, D. G., SOUSA, G. L., WALDEN, M., SOTO, I., KNEELAND, S. C., \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "BARBAY, J. M., KING, B. L., MARCHANT, J. K., HIBBS, M., STEVENS, B., BARRES, B. A., \r\nCLARK, A. F., LIBBY, R. T. & JOHN, S. W. 2011. Molecular clustering identifies complement and \r\nendothelin induction as early events in a mouse model of glaucoma. J Clin Invest, 121, 1429-44.\r\nHOWELL, G. R., SOTO, I., ZHU, X., RYAN, M., MACALINAO, D. G., SOUSA, G. L., CADDLE, L. B., \r\nMACNICOLL, K. H., BARBAY, J. M., PORCIATTI, V., ANDERSON, M. G., SMITH, R. S., \r\nCLARK, A. F., LIBBY, R. T. & JOHN, S. W. 2012. Radiation treatment inhibits monocyte entry into \r\nthe optic nerve head and prevents neuronal damage in a mouse model of glaucoma. J Clin Invest, 122,\r\n1246-61.\r\nHUANG, W. C., QIAO, Y., XU, L., KACIMI, R., SUN, X., GIFFARD, R. G. & YENARI, M. A. 2010. Direct \r\nprotection of cultured neurons from ischemia-like injury by minocycline. Anat Cell Biol, 43, 325-31.\r\nKANEHISA, M. & GOTO, S. 2000. KEGG: kyoto encyclopedia of genes and genomes. Nucleic Acids Res, 28,\r\n27-30.\r\nKEANE, T. M., GOODSTADT, L., DANECEK, P., WHITE, M. A., WONG, K., YALCIN, B., HEGER, A., \r\nAGAM, A., SLATER, G., GOODSON, M., FURLOTTE, N. A., ESKIN, E., NELLAKER, C., \r\nWHITLEY, H., CLEAK, J., JANOWITZ, D., HERNANDEZ-PLIEGO, P., EDWARDS, A., \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "BELGARD, T. G., OLIVER, P. L., MCINTYRE, R. E., BHOMRA, A., NICOD, J., GAN, X., YUAN, \r\nW., VAN DER WEYDEN, L., STEWARD, C. A., BALA, S., STALKER, J., MOTT, R., DURBIN, R., \r\nJACKSON, I. J., CZECHANSKI, A., GUERRA-ASSUNCAO, J. A., DONAHUE, L. R., REINHOLDT, \r\nL. G., PAYSEUR, B. A., PONTING, C. P., BIRNEY, E., FLINT, J. & ADAMS, D. J. 2011. Mouse \r\ngenomic variation and its effect on phenotypes and gene regulation. Nature, 477, 289-94.\r\nLIAO, Y., SMYTH, G. K. & SHI, W. 2013. The Subread aligner: fast, accurate and scalable read mapping by \r\nseed-and-vote. Nucleic Acids Res, 41, e108.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nLIBBY, R. T., ANDERSON, M. G., PANG, I. H., ROBINSON, Z. H., SAVINOVA, O. V., COSMA, I. M., \r\nSNOW, A., WILSON, L. A., SMITH, R. S., CLARK, A. F. & JOHN, S. W. 2005a. Inherited glaucoma \r\nin DBA/2J mice: pertinent disease features for studying the neurodegeneration. Vis Neurosci, 22, 637-\r\n48.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "LIBBY, R. T., LI, Y., SAVINOVA, O. V., BARTER, J., SMITH, R. S., NICKELLS, R. W. & JOHN, S. W. \r\n2005b. Susceptibility to neurodegeneration in a glaucoma is modified by Bax gene dosage. PLoS Genet,\r\n1, 17-26.\r\nMARGETA, M. A., LETCHER, S. M., IGO, R. P., JR., COOKE BAILEY, J. N., PASQUALE, L. R., HAINES, \r\nJ. L., BUTOVSKY, O., WIGGS, J. L. & CONSORTIUM, N. 2020. Association of APOE With Primary \r\nOpen-Angle Glaucoma Suggests a Protective Effect for APOE epsilon4. Invest Ophthalmol Vis Sci, 61,\r\n3.\r\nQUIGLEY, H. A. & BROMAN, A. T. 2006. The number of people with glaucoma worldwide in 2010 and \r\n2020. Br J Ophthalmol, 90, 262-7.\r\nRAMIREZ, A. I., DE HOZ, R., SALOBRAR-GARCIA, E., SALAZAR, J. J., ROJAS, B., AJOY, D., LOPEZ\u0002CUENCA, I., ROJAS, P., TRIVINO, A. & RAMIREZ, J. M. 2017. The Role of Microglia in Retinal \r\nNeurodegeneration: Alzheimer's Disease, Parkinson, and Glaucoma. Front Aging Neurosci, 9, 214.\r\nRASHID, K., AKHTAR-SCHAEFER, I. & LANGMANN, T. 2019. Microglia in Retinal Degeneration. Front \r\nImmunol, 10, 1975.\r\nROBINSON, M. D., MCCARTHY, D. J. & SMYTH, G. K. 2010. edgeR: a Bioconductor package for \r\ndifferential expression analysis of digital gene expression data. Bioinformatics, 26, 139-40.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "SCHUSTER, A. K., ERB, C., HOFFMANN, E. M., DIETLEIN, T. & PFEIFFER, N. 2020. The Diagnosis and \r\nTreatment of Glaucoma. Dtsch Arztebl Int, 117, 225-234.\r\nSONG, W. M. & COLONNA, M. 2018. The identity and function of microglia in neurodegeneration. Nat \r\nImmunol, 19, 1048-1058.\r\nSPANGENBERG, E., SEVERSON, P. L., HOHSFIELD, L. A., CRAPSER, J., ZHANG, J., BURTON, E. A., \r\nZHANG, Y., SPEVAK, W., LIN, J., PHAN, N. Y., HABETS, G., RYMAR, A., TSANG, G., \r\nWALTERS, J., NESPI, M., SINGH, P., BROOME, S., IBRAHIM, P., ZHANG, C., BOLLAG, G., \r\nWEST, B. L. & GREEN, K. N. 2019. Sustained microglial depletion with CSF1R inhibitor impairs \r\nparenchymal plaque development in an Alzheimer's disease model. Nat Commun, 10, 3758.\r\nSUN, X. G., ZHANG, M. M., LIU, S. Y., CHU, X. H., XUE, G. Q., ZHANG, B. C., ZHU, J. B., GODJE \r\nGODJE, I. S., ZHU, L. J., HU, H. Y., HAI, W., SHEN, Y. J. & WANG, G. Q. 2021. Role of TREM-1 in \r\nthe development of early brain injury after subarachnoid hemorrhage. Exp Neurol, 341, 113692.\r\nTAKEDA, A., SHINOZAKI, Y., KASHIWAGI, K., OHNO, N., ETO, K., WAKE, H., NABEKURA, J. & \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 470,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "KOIZUMI, S. 2018. Microglia mediate non-cell-autonomous cell death of retinal ganglion cells. Glia,\r\n66, 2366-2384.\r\nTAN, Z., GUO, Y., SHRESTHA, M., SUN, D., GREGORY-KSANDER, M. & JAKOBS, T. C. 2022. \r\nMicroglia depletion exacerbates retinal ganglion cell loss in a mouse model of glaucoma. Exp Eye Res,\r\n225, 109273.\r\nTHAM, Y. C., LI, X., WONG, T. Y., QUIGLEY, H. A., AUNG, T. & CHENG, C. Y. 2014. Global prevalence \r\nof glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis. \r\nOphthalmology, 121, 2081-90.\r\nTRIBBLE, J. R., HARDER, J. M., WILLIAMS, P. A. & JOHN, S. W. M. 2020. Ocular hypertension \r\nsuppresses homeostatic gene expression in optic nerve head microglia of DBA/2 J mice. Mol Brain, 13,\r\n81.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\nWILLIAMS, P. A., BRAINE, C. E., FOXWORTH, N. E., COCHRAN, K. E. & JOHN, S. W. M. 2017a. \r\nGlyCAM1 negatively regulates monocyte entry into the optic nerve head and contributes to radiation\u0002based protection in glaucoma. J Neuroinflammation, 14, 93.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "WILLIAMS, P. A., BRAINE, C. E., KIZHATIL, K., FOXWORTH, N. E., TOLMAN, N. G., HARDER, J. M., \r\nSCOTT, R. A., SOUSA, G. L., PANITCH, A., HOWELL, G. R. & JOHN, S. W. M. 2019. Inhibition of \r\nmonocyte-like cell extravasation protects from neurodegeneration in DBA/2J glaucoma. Mol \r\nNeurodegener, 14, 6.\r\nWILLIAMS, P. A., MARSH-ARMSTRONG, N., HOWELL, G. R., LASKER, I. I. O. A. & \r\nGLAUCOMATOUS NEURODEGENERATION, P. 2017b. Neuroinflammation in glaucoma: A new \r\nopportunity. Exp Eye Res, 157, 20-27.\r\nWILLIAMS, P. A., TRIBBLE, J. R., PEPPER, K. W., CROSS, S. D., MORGAN, B. P., MORGAN, J. E., \r\nJOHN, S. W. & HOWELL, G. R. 2016. Inhibition of the classical pathway of the complement cascade \r\nprevents early dendritic and synaptic degeneration in glaucoma. Mol Neurodegener, 11, 26.\r\nWINGETT, S. W. & ANDREWS, S. 2018. FastQ Screen: A tool for multi-genome mapping and quality \r\ncontrol. F1000Res, 7, 1338.\r\nWU, T., HU, E., XU, S., CHEN, M., GUO, P., DAI, Z., FENG, T., ZHOU, L., TANG, W., ZHAN, L., FU, X., \r\nLIU, S., BO, X. & YU, G. 2021. clusterProfiler 4.0: A universal enrichment tool for interpreting omics \r\ndata. Innovation (Camb), 2, 100141.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "YU, G., WANG, L. G., HAN, Y. & HE, Q. Y. 2012. clusterProfiler: an R package for comparing biological \r\nthemes among gene clusters. OMICS, 16, 284-7.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2330908101813211239,
+        "filename": "nihpp-2024.03.05.583529v1.PMC10942367.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 144,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.03.05.583529; this version posted March 10, 2024. The copyright holder for this preprint\n\n"
+  }
+]

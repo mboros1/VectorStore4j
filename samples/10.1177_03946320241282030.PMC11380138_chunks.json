@@ -1,0 +1,914 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 471,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Original Research Article\r\nInternational Journal of\r\nImmunopathology and Pharmacology\r\nVolume 38: 1–20\r\n© The Author(s) 2024\r\nArticle reuse guidelines:\r\nsagepub.com/journals-permissions\r\nDOI: 10.1177/03946320241282030\r\njournals.sagepub.com/home/iji\r\nSyk protein inhibitors treatment for the\r\nallergic symptoms associated with hyper\r\nimmunoglobulin E syndromes: A focused on\r\na computational approach\r\nMariam Mansouri1, Ghyzlane ElHaddoumi1, Ilham Kandoussi1, Lahcen Belyamani2,3,4,\r\nAzeddine Ibrahimi1 and Naima El Hafidi1,2,5\r\nAbstract\r\nBackground: Mutations in the Spleen tyrosine kinase (Syk) protein have significant implications for its function and\r\nresponse to treatments. Understanding these mutations and identifying new inhibitors can lead to more effective therapies\r\nfor conditions like autosomal dominant hyper-IgE syndrome (AD-HIES) and related immunological disorders. Objective:\r\nTo investigate the impact of mutations in the Syk protein on its function and response to reference treatments, and to\r\nexplore new inhibitors tailored to the mutational profile of Syk. Methods: We collected and analyzed mutations affecting\r\nthe Syk protein to assess their functional impact. We screened 94 deleterious mutations in the kinase domain using\r\nmolecular docking techniques. A library of 997 compounds with potential inhibitory activity against Syk was filtered based\r\non Lipinski and Veber rules and toxicity assessments. We evaluated the binding affinity of reference inhibitors and 14\r\neligible compounds against wild-type and mutant Syk proteins. Molecular dynamics simulations were conducted to evaluate\r\nthe interaction of Syk protein complexes with the reference inhibitor and potential candidate inhibitors. Results: Among\r\nthe analyzed mutations, 60.5% were identified as deleterious, underscoring their potential impact on cellular processes.\r\nVirtual screening identified three potential inhibitors (IDs: 118558008, 118558000, and 118558092) with greater ther\u0002apeutic potential than reference treatments, meeting all criteria and exhibiting lower IC50 values. Ligand 1 (ID: 118558000)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "demonstrated the most stable binding, favorable compactness, and extensive interaction with solvents. A 3D pharma\u0002cophore model was constructed, identifying structural features common to these inhibitors. Conclusion: This study\r\nfound that 60.5% of reported mutations affecting the Syk protein are deleterious. Virtual screening revealed three top\r\npotential inhibitors, with ligand 1 (ID: 118558000) showing the most stable binding and favorable interactions. These\r\ninhibitors hold promise for more effective therapies targeting Syk-mediated signaling pathways. The pharmacophore model\r\nprovides valuable insights for developing targeted therapies for AD-HIES and related disorders, offering hope for patients\r\nsuffering from Hyper IgE syndrome with allergic symptoms.\r\n1\r\nBiotechnology Lab (MedBiotech), Bioinova Research Center, Medical and Pharmacy School, Mohammed V University, Rabat, Morocco\r\n2\r\nMohammed VI Center of Research and Innovation (CM6), Rabat, Morocco\r\n3\r\nMohammed VI University of Health Sciences (UM6SS), Casablanca, Morocco\r\n4\r\nEmergency Department, Military Hospital Mohammed V, Medical and Pharmacy School, Mohammed V University, Rabat, Morocco\r\n5\r\nDivision of Pediatric Immunoallergology and Infectious Diseases, Children University Hospital, Ibn Sina University, Rabat, Morocco\r\nCorresponding author:\r\nMansouri Mariam, Biotechnology Lab (MedBiotech), Bioinova Research Center, Medical and Pharmacy School, Mohammed V University, Impasse Souissi,\r\nRabat 10500, Morocco.\r\nEmail: mariam_mansouri@um5.ac.ma\r\nCreative Commons Non Commercial CC BY-NC: This article is distributed under the terms of the Creative Commons\r\nAttribution-NonCommercial 4.0 License (https://creativecommons.org/licenses/by-nc/4.0/) which permits non-commercial use,\r\nreproduction and distribution of the work without further permission provided the original work is attributed as specified on the\r\nSAGE and Open Access pages (https://us.sagepub.com/en-us/nam/open-access-at-sage).\nKeywords\r\ntargeting of Syk protein, autosomal dominant hyper-IgE syndrome, mutational effects, virtual screening, 3D\r\npharmacophore\r\nDate received: 6 May 2024; accepted: 14 August 2024\r\nIntroduction\r\nAutosomal Dominant Hyper-IgE Syndrome (AD-HIES) is\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "a rare primary immunodeficiency disorder that affects\r\nmultiple body systems, with a particularly significant\r\nimpact on the immune system.1 AD-HIES is characterized\r\nby a range of symptoms, most notably recurrent infections.\r\nAmong these infections, pneumonia is particularly prev\u0002alent, often caused by specific bacteria that target the lungs\r\nand induce inflammation.2\r\nHyper-IgE Syndrome (HIES), as a broader category,\r\ncurrently lacks a definitive and comprehensive treatment\r\nstrategy. The therapeutic approaches available for HIES\r\npredominantly focus on managing symptoms and pre\u0002venting infections. This involves a combination of anti\u0002biotics to treat bacterial infections, antifungal medications\r\nfor fungal infections, and prophylactic measures to reduce\r\nthe risk of future infections. Additionally, patients may\r\nreceive immunoglobulin replacement therapy to boost\r\ntheir immune defenses.3,4 In diseases like HIES that\r\npresent with allergic symptoms, mast cells play a pivotal\r\nrole as key immune effector cells. These cells are critical\r\nin the body’s allergic response and defense mechanisms.\r\nThe activation of mast cells occurs through a well-defined\r\nprocess. It begins when antigen-bound IgE (Immuno\u0002globulin E) binds to its high-affinity receptor (FcεRI)\r\nlocated on the surface of mast cells. This interaction\r\ntriggers a signaling cascade that involves the recruitment\r\nand activation of various kinases.5,6 One of the primary\r\nkinases involved in this process is Syk (spleen tyrosine\r\nkinase). Upon activation, Syk initiates a series of\r\ndownstream signaling events that lead to the degranula\u0002tion of mast cells. Degranulation is a process whereby\r\nmast cells release granules containing pro-inflammatory\r\nmediators, such as histamine, cytokines, and other che\u0002mokines, into the surrounding tissue. These mediators\r\nplay a crucial role in orchestrating the inflammatory re\u0002sponse, contributing to the symptoms observed in allergic\r\nreactions and in the pathophysiology of HIES.7,8\r\nSyk (Spleen Tyrosine Kinase) is of paramount impor\u0002tance in the immune system, particularly in innate immune\r\nresponses.9-12 While it was initially identified for its high\r\nexpression in hematopoietic cells and its vital role in\r\nadaptive immune responses, recent research has revealed\r\nadditional involvement of Syk in various biological\r\nfunctions, notably in innate immune responses.13 Syk plays\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "essential roles in macrophage-mediated inflammatory\r\nresponses and is closely linked to innate immune activa\u0002tion.13 Macrophages act as the frontline defense against\r\ninvading pathogens, crucially initiating innate immune re\u0002sponses. In macrophage-mediated inflammatory responses,\r\nSyk enhances phagocytosis by stimulating the generation of\r\nreactive oxygen species and inhibiting SOCS1.13 Addi\u0002tionally, Syk is essential for establishing an immediate\r\nimmune response and plays a critical role in innate antiviral\r\nimmunity.14 Gain-of-function variants in SYK have been\r\nidentified as causing immune dysregulation and systemic\r\ninflammation in humans and mice.15 Overall, Syk is a\r\ncritical immune signaling molecule and therapeutic target\r\nthat plays a crucial role in innate immune responses.16 SYK\r\nconsists of two consecutive SH2 domains followed by a\r\nC-terminal tyrosine kinase domain. Connecting these do\u0002mains are two linker regions: interdomain A, which lies\r\nbetween the two SH2 domains, and interdomain B, posi\u0002tioned between the C-terminal SH2 domain and the kinase\r\ndomain shown in Figure 1; Located at the C-terminal end of\r\nthe protein, the kinase domain of SYK (spleen tyrosine\r\nkinase) is responsible for catalyzing the tyrosine phos\u0002phorylation of multiple proteins.17 Activation of SYK oc\u0002curs when its tandem SH2 domains bind to immunoreceptor\r\ntyrosine-based activating motifs (ITAMs). This interaction\r\ntriggers the activation of the kinase domain, initiating its\r\ncatalytic function.18 The protein tyrosine kinase Syk is of\r\nvital importance in facilitating FcεRI signaling specifi\u0002cally in mast cells.19,20 The interaction between Syk and\r\nphosphorylated immunoreceptor tyrosine-based activa\u0002tion motifs (ITAMs) on the FcεRI receptor causes\r\nstructural alterations that interrupt its self-restrained\r\nconfiguration, consequently initiating the activation of\r\nSyk.21 The activation of Syk is essential for the cellular\r\nprocesses that lead to alterations in the morphology of\r\nmast cells.20 The prevailing approach to comprehending\r\nthe role of Syk has been through Syk mutation. It was\r\nshown that Syk plays a pivotal role not only in mast cells\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "but also in other hematopoietic cells.22,23 Inhibition of\r\nSyk has therapeutic benefits for autoimmune and allergic\r\ndiseases since Syk plays a critical role in triggering mast\r\ncell activation, a process central to autoimmune and\r\nallergic responses. Therefore, by inhibiting Syk, we can\r\nreduce mast cell activation, degranulation and the release\r\nof inflammatory mediators. The generation and release\r\nof inflammatory agents by mast cells may be reduced,\r\nleading to an alleviation of symptoms associated with\r\nthese disorders.24\r\n2 International Journal of Immunopathology and Pharmacology\nThis study seeks to comprehensively assess the impact\r\nof all identified SYK mutations to date on the stability and\r\nflexibility of molecular structures. Additionally, it specif\u0002ically examines the influence of these mutations on the\r\ninteraction between three known inhibitors and potent\r\ninhibitors extracted from the Binding Database, with the\r\noverarching objective of using in silico approaches to\r\nexplore specific inhibitors targeting the kinase domain of\r\nSYK protein as potential therapeutic candidates for treating\r\nAD-HIES disease. In pursuit of this goal, an in silico\r\napproach was employed to distinguish between neutral and\r\npathogenic mutations. Subsequently, virtual screening was\r\nconducted for the most potent inhibitors previously iden\u0002tified in the Binding Database, considering favorable\r\nADMET properties. The selected molecules were then\r\ndocked against the mutated models to investigate if these\r\nmutations influence the affinity.\r\nMaterials and methods\r\nMutations collection\r\nThree databases, namely Clinvar,25 Cosmic,26 and TCGA\r\nCancer,27 were utilized to gather all the mutations SNPs\r\nthat impact the Syk protein. Initially, 536 mutations were\r\ncompiled, and subsequently, duplicates were eliminated,\r\nresulting in a final count of 329 unique substitution mu\u0002tations. All mutations included in our analysis belong to the\r\nsame type, which are missense variants. Missense muta\u0002tions result in the substitution of one amino acid for another\r\nin the protein sequence, thereby changing the structure and\r\npotentially function of the protein. Exclusion criteria were\r\napplied to filter out mutations of other types, such as\r\nnonsense mutations (resulting in premature termination\r\ncodons) and frameshift mutations, as these types would\r\nresult in incomplete and consequently non-functional SYK\r\nproteins. Our objective was to identify mutations that are\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "involved in resistance, thus we focused solely on missense\r\nmutations.28\r\nTarget selection and preparation of wild-type and\r\nmutated models of Syk protein\r\nThe X-ray crystallographic structure of Syk protein (PDB\r\nID: 4fl2) with a resolution of 2.19 A was obtained from the ˚\r\nPDB database,17 The generation of 94 mutated structures of\r\nthe Syk protein was accomplished using the Chimera tool29\r\n(https://www.cgl.ucsf.edu/chimera/citations.html) and the\r\npreparation of the wild type and mutant models for the\r\nmolecular docking was performed using AutoDock Tools30\r\nsoftware (https://www.scripps.edu/search/?s=autodocktools),\r\nby removing water molecules, adding polar hydrogens and\r\nKollman charges, Subsequently, the structures were saved in\r\n(.pdbqt) format.\r\nPrediction of mutational effects\r\nTo ensure a dependable outcome, the functional impact of\r\nthe mutations on the protein structure of Syk was predicted\r\nusing two tools: PolyPhen-231 and Mutation-Assessor.32\r\nFigure 1. Flowchart explaining the mechanism of Syk protein signaling.\r\nMansouri et al. 3\nLigands dataset preparation and filtration\r\nTo search ligands that have potential inhibitory activity\r\nagainst the Syk protein, A library of 997 compounds was\r\nselected using IC50s filter from Binding database,33 the\r\nconversion to 3D conformation, the elimination of dupli\u0002cate and then the conversion into a PDB file format was\r\nperformed by using OpenBabel (https://openbabel.org/.)\r\nThe reference inhibitors have been collected from the\r\nliterature, and then downloaded with their 3D structures in\r\n(.sdf) format from the PubChem database.17\r\nThe previously downloaded potential inhibitors un\u0002derwent screening through multiple filters. The process\r\nbegan with the Drulito18 software, which helped eliminate\r\ninhibitors that did not comply with Lipinski and Veber\r\nrules. Subsequently, the StopTox34 tool was employed to\r\nretain only non-toxic molecules (https://stoptox.mml.unc.\r\nedu/).\r\nTo prepare ligands for molecular docking, the structures\r\nwere prepared using Autodock Tool 1.5.7130 by adding\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Gasteiger charges, and then finally, saved in the (.pdbqt)\r\nformat.\r\nDocking, scoring and visualization\r\nInitially, we identified the active site residues of the target\r\nprotein, which included Leu377, Ala451, Pro455, Arg498,\r\nGlu449, Ser511, Asp512, Asn499, Phe513, and Asn457.\r\nThese residues were chosen based on their known in\u0002volvement in the binding pocket of the protein and their\r\nimportance in ligand recognition and binding. To prepare\r\nfor docking simulations, we utilized AutoDock Tools 1.5.7\r\nto set up the grid box.30 The grid parameters were carefully\r\nselected, with a spacing of 1 A for the Syk protein to ensure ˚\r\naccurate representation of the binding site. The center\r\ncoordinates of the grid box were fixed at (X = \u000126.609, Y =\r\n6.211, Z = \u00012.729), and the dimensions were set to (X =\r\n22, Y = 22, Z = 18). The grid settings file was obtained from\r\nthe grid menu option, ensuring consistency and repro\u0002ducibility in our docking experiments. To evaluate the\r\nbinding affinity and bound conformation of the selected\r\nligands, we employed Autodock Vina, a widely used\r\nmolecular docking software known for its accuracy and\r\nefficiency.35 Autodock Vina employs an empirical scoring\r\nfunction to predict the binding energy between ligands and\r\nthe target protein, allowing us to prioritize ligands with\r\nlower affinity scores for further analysis. We used the\r\nLamarckian Genetic Algorithm (LGA) as implemented in\r\nAutoDock.\r\nSubsequently, we conducted a comprehensive analysis of\r\nall types of interactions between the protein and ligands\r\nusing BIOVIA Discovery Studio36 (https://discover.3ds.\r\ncom/discovery-studio-visualizer-download). This software\r\nfacilitated the visualization and interpretation of protein\u0002ligand interactions, allowing us to identify key binding\r\nresidues, hydrogen bonds, and other non-covalent interac\u0002tions critical for ligand binding and recognition. To further\r\nenglucidate the 3D protein-ligand interactions, hydrogen\r\nbonds, and ligand poses, we utilized PyMOL,37 a powerful\r\nmolecular visualization tool.37 PyMOL (https://www.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 437,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "pymol.org/) enabled us to generate high-quality 3D im\u0002ages of the protein-ligand complexes, providing valuable\r\ninsights into the binding mode and orientation of the ligands\r\nwithin the active site of the target protein.\r\nMolecular dynamics simulation\r\nIn order to study the protein-ligand interaction energy, MD\r\nsimulations using GROMACS v.2020.438 were performed.\r\nSyk protein with the reference ligand R343 and Syk protein\r\nwith the four main potential ligands (ID: 10344820,\r\n118558000, 118558008 and 118557092) at intervals of\r\n100 ns for these complexes. Protein-solvent interactions\r\nwere characterized by the CHARMM27 force field, while\r\nthe TIP3P model was applied to water. Each system was\r\nplaced in a dodecahedral simulation box with an edge\r\nlength of 1.0 nm and neutralized by adding an equal\r\nnumber of positive and negative ions to achieve the target\r\nionic concentration. The steepest descent algorithm was\r\nused to minimize system energy, and V scaling was used\r\nfor 100 ps in the NVT ensemble to balance it at 300 K.\r\nProduction cycles were performed using the NPT ensemble\r\nat a time step of 100 ps. The Parrinello-Rahman algorithm\r\nwas then used to equilibrate at a pressure of 1 atm. Using\r\nthe Verlet scheme, the LINCS algorithm was used to\r\nmaintain distance limits during the simulation.\r\nMolecular dynamics analysis\r\nUsing the gmx_rms tool in GROMACS.32, the RMSD of\r\nthe atomic coordinates, radius of gyration (Rg), solvent\r\naccessible surface area (SASA), and H-bond parameters\r\nwere determined in order to have a better understanding of\r\nthe structural changes that take place during the simulation.\r\n3D-pharmacophore model building\r\nTo investigate the three-dimensional (3D) distances between the\r\nshared features of the most 3 promising molecules, (1S,4R)-4-\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "[5-[6-[(5-chloro-4-methylpyridin-2-yl)amino]-4-methylpyridin\u00022-yl]-1,3-thiazol-2-yl]-4-hydroxy-2,2-dimethylcyclohexane\u00021-carboxylic acid (PubChem ID: 18558008), (1S,4 R)-4-\r\nhydroxy-4-[5-[6-[(4-methoxypyridin-2-yl)amino]-4-\r\nmethylpyridin-2-yl]-1,3-thiazol-2-yl]-2,2-dimethylcyclohexane\u00021-carboxylic acid (PubChem ID: 118558000) and, (1S,4 R)-4-\r\n[5-[6-[(5-fluoro-4-methylpyridin-2-yl)amino]-4-methylpyridin\u00022-yl]-1,3-thiazol-2-yl]-4-hydroxy-2,2-dimethylcyclohexane-1-\r\ncarboxylic acid (PubChem ID: 118558092), which showed\r\n4 International Journal of Immunopathology and Pharmacology\ngood results after molecular dynamics simulations, we em\u0002ployed a pharmacophoric query method. This approach allows\r\nfor the systematic identification and characterization of specific\r\nchemical features, such as hydrogen bond donors/acceptors\r\n(HBD/HBA), positive ionizable centers (PI), aromatic rings\r\n(ARO), and hydrophobic centers (Hyd), within the pharma\u0002cophoric map.\r\nThe Molecular Operating Environment (MOE) software\r\ntool39 (https://www.chemcomp.com/) (was selected for its ro\u0002bust capabilities in molecular modeling and pharmacophore\r\nanalysis. To initiate the process, the builder option within MOE\r\nwas utilized to construct a dedicated MOE database comprising\r\nthe molecular structures of the most promising molecules.\r\nSubsequently, energy optimization procedures were applied to\r\nthe molecules within the database to refine their geometric\r\nconformations and minimize steric clashes. This step ensures\r\nthat the molecules are in energetically favorable conformations\r\nfor subsequent analysis. Following energy optimization, the\r\nmolecules were aligned to generate a comprehensive phar\u0002macophoric map highlighting the common attributes shared\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "among the molecules. During the alignment process, emphasis\r\nwas placed on preserving the spatial arrangement of key\r\nchemical features, allowing for accurate comparison and\r\nanalysis. Within the pharmacophoric map, specific queries were\r\nexecuted to identify and quantify the 3D distances between\r\nshared features, providing insights into the spatial relationships\r\ncritical for ligand-receptor interactions. The distances between\r\nhydrogen bond donors/acceptors, aromatic rings, and other\r\nfunctional groups were systematically characterized, enabling a\r\nthorough assessment of the molecular interactions driving li\u0002gand binding and activity.\r\nResults\r\nMutational effect prediction\r\nA total of 539 mutations were gathered from the databases.\r\nAfter eliminating duplicates, 329 mutations remained, as\r\nshown in Supplemental data. The distribution of these\r\nmutations across the domains of the Syk protein shows a\r\nnotable concentration within the Kinase domain, high\u0002lighting its significance (Supplemental data).\r\nOnly concordant results between 3 tools were taken into\r\nconsideration when predicting the impact of mutations on\r\nSyk protein function. The analysis revealed a distribution\r\nof 130 neutral mutations, which do not alter function, and\r\n199 deleterious mutations, representing 39.5% and 60.5%\r\nof the total, respectively, as shown in Figure 2(A). In the\r\nkinase domain, a total of 139 mutations were identified,\r\nclassified according to their functional impact. Of these\r\nmutations, 45 were found to be neutral, while the remaining\r\n94 were found to be deleterious and affect the function of\r\nthe protein. (Figure 2(B)).\r\nCompounds screening\r\nA total of 997 inhibitors were initially selected based on their\r\nIC50 and went through different steps of screening as il\u0002lustrated in Figure 3. These compounds underwent screening\r\nthrough multiple filters as shown in the Figure 2. The first\r\nfilter applied was the rule of five of Lipinski and Veber, which\r\nis widely used in drug discovery to assess pharmacological\r\neffectiveness. This step yielded 280 orally bioavailable\r\nmolecules. Subsequently, a second filter was employed to\r\nidentify non-toxic molecules, resulting in 78 candidates.\r\nThese 78 molecules were further evaluated based on their\r\nIC50 values using a reference value of 0.45 nM, which was\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "the smallest value among the IC50 values of the three ref\u0002erence inhibitors. Following this step, 14 potential inhibitors\r\nwere identified (Figure 3). For the reference inhibitors, it was\r\nfound that the R112 inhibitor meets the criteria of the Lipinski,\r\nVeber rule and it is non-toxic orally. While the inhibitor R343\r\nrespects the Lipinski rule but does not respect the Veber rule\r\nand it is also non-toxic. For the PRT062607 inhibitor, it re\u0002spects Lipinski’s rule but does not respect Veber’s rule be\u0002cause its polar surface area exceeds 140 A, thus it is orally ˚\r\ntoxic. The information related to these inhibitors is listed in the\r\nTable 1.\r\nDocking and scoring\r\nA total of 1615 (17 × 95) dockings were conducted in this\r\nstudy, involving the wild-type and the 94 mutated types of\r\nthe Syk protein. These dockings included interactions with\r\n14 potential inhibitors and 3 reference inhibitors.\r\nThe initial phase of the study focused on the molecular\r\ndocking of the three reference inhibitors with both the wild\u0002type and the mutated structures of the Syk protein. The\r\nresults indicated that R343 exhibited the highest affinity\r\nwith the wild-type Syk protein, scoring \u00019.8 kcal/mol in\r\nterms of energy. The mutated types showed scores ranging\r\nfrom \u00019.7 to \u000110.1 kcal/mol, compared to the other two\r\nreference inhibitors, R112, and PRT062607, which ex\u0002hibited affinities of \u00018.7 and \u00018.6 kcal/mol, respectively\r\n(Supplemental data).\r\nNext, the 14 potential inhibitors were docked with the\r\nwild-type protein and the generated mutated structures.\r\nAmong these inhibitors, namely 118558008, 10344820,\r\n118558000, and 118558092 demonstrated superior affin\u0002ities compared to both the other potential inhibitors and the\r\nreference inhibitors for all mutations and the wild-type\r\ncrystal structure, with affinities ranging between \u00019.9 kcal/\r\nmol and \u000110.1 kcal/mol. These 4 inhibitors are represented\r\nwith their information on the table (Tables 2 and 3).\r\nInteraction visualization\r\nThe intricate diagram clarifies the hydrogen bonding\r\nnetwork established between the Spleen Tyrosine Kinase\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 473,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Mansouri et al. 5\nprotein, a pivotal player in cellular signaling, and its quartet\r\nof promising ligands. The hydrogen bonds, depicted as\r\ndashed lines, delineate the electron-rich donor-acceptor\r\ninteractions essential for stabilizing the protein-ligand\r\ncomplexes. Such interactions, often characterized by\r\ntheir directionality and strength, orchestrate specific\r\nbinding events, thereby influencing the protein’s confor\u0002mation and activity. (Figure 4).\r\nThe investigation into molecular bonds within our\r\ncompounds involved a comprehensive analysis of various\r\nbonding types using BIOVIA Discovery Studio. The ex\u0002amined interaction encompassed a wide spectrum,\r\nFigure 2. Distribution of mutations. (Neutral and deleterious); (A) Syk protein, (B) kinase domain; the analysis revealed a distribution of\r\n130 neutral mutations, which do not alter function, and 199 deleterious mutations, representing 39.5% and 60.5% of the total,\r\nrespectively, as shown in (A). In the kinase domain, a total of 139 mutations were identified, classified according to their functional\r\nimpact. Of these mutations, 45 were found to be neutral, while the remaining 94 were found to be deleterious and affect the function of\r\nthe protein (B).\r\nFigure 3. In silico study workflow.\r\n6 International Journal of Immunopathology and Pharmacology\nTable 1. Overview of chemical identifiers, compound names, molecular formulas, 2D structures, and FDA approval status of reference Syk protein inhibitors.\r\nReferenceinhibitors PRT062607 R112 R343PubChem\r\nCID\r\n44462758 9904854 10344820\r\nMolecular\r\nformula\r\nC19H23N O C 9 16H13FN O4 2 C21H17F N3 O6 4\r\nCompound\r\nname\r\n2-[[(1R,2S)-2-aminocyclohexyl]amino]-4-\r\n[3-(triazol-2-yl)anilino]pyrimidine-5-carboxamide\r\n003,30-((5-fluoro-2,4-pyrimidinediyl)diimino)bis\r\n(phenol)”\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "2-{3-[4-(2,2-Difluoro-3-oxo-3,4-dihydro-2H-benzo[1,4] oxazin-6-\r\nylamino)5-fluoro-pyrimidin-2-ylamino]phenoxy}N-methyl\u0002acetamide\r\nFDA\r\napprovalstatus\r\nPreclinical and clinical studies Clinical trials phase Clinical trials phase\r\n2D structure\r\nMansouri et al.7\nincluding conventional hydrogen bonds, carbon-hydrogen\r\nbonds, halogen bonds, alkyl bonds, Pi-alkyl bonds, van der\r\nWaals interactions, unfavorable donor-donor bonds,\r\nAmide-Pi stacked bonds, Pi-sigma bonds, and Pi-sulfur\r\nbonds. (Figure 5).\r\nThis analysis extended to the study of four complexes\r\n(Figure 5(A)–(D)) formed between the SYK (Spleen Ty\u0002rosine Kinase) protein and specific inhibitors (ID: 10344820,\r\nID: 118558000, ID: 118558008, ID: 118557092). Molecular\r\nTable 2. The affinity energy in (kcal/mol) between the Syk\r\nprotein (wild and mutated) and the 3 reference ligands.\r\nMutation PRT06260 R112 R343\r\nWildtype \u00018.6 \u00018.7 \u00019.8\r\nA441V \u00018.6 \u00018.7 \u000110.0\r\nA451V \u00018.6 \u00018.8 \u000110.0\r\nA508T \u00018.6 \u00019.0 \u00019.9\r\nA540T \u00018.6 \u00018.7 \u000110.0\r\nC439W \u00018.6 \u00018.6 \u000110.0\r\nD374N \u00018.6 \u00018.7 \u00019.9\r\nD512N \u00018.6 \u00018.1 \u00019.9\r\nD554N \u00018.6 \u00018.7 \u00019.9\r\nD554Y \u00018.6 \u00018.6 \u000110.0\r\nD603H \u00018.6 \u00018.7 \u00019.9\r\nE373A \u00018.6 \u00018.7 \u00019.9\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "E373K \u00018.6 \u00018.7 \u000110.0\r\nE440K \u00018.6 \u00018.6 \u000110.0\r\nE442K \u00018.6 \u00019.0 \u00019.9\r\nE449K \u00018.6 \u00018.7 \u000110.0\r\nE580K \u00018.6 \u00018.6 \u00019.8\r\nE586D \u00018.6 \u00018.7 \u000110.1\r\nE586K \u00018.6 \u00018.7 \u00019.8\r\nE600K \u00018.6 \u00018.7 \u00019.8\r\nE614G \u00018.6 \u00019.0 \u000110.1\r\nE623G \u00018.6 \u00018.7 \u000110.0\r\nF513C \u00018.6 \u00018.7 \u000110.0\r\nF549L \u00018.6 \u00018.7 \u00019.9\r\nG383E \u00018.6 \u00018.8 \u000110.0\r\nG437E \u00018.6 \u00018.7 \u00019.9\r\nG481S \u00018.6 \u00018.6 \u00019.9\r\nG514E \u00018.6 \u00018.7 \u00019.9\r\nG514R \u00018.6 \u00018.7 \u00019.9\r\nG532E \u00018.7 \u00018.7 \u000110.0\r\nG559E \u00018.6 \u00018.7 \u000110.0\r\nG569V \u00018.6 \u00018.7 \u000110.1\r\nG575E \u00018.6 \u00018.6 \u000110.0\r\nG578E \u00018.6 \u00018.7 \u000110.0\r\nG592W \u00018.6 \u00018.7 \u000110.0\r\nG596W \u00018.6 \u00019.0 \u00019.9\r\nH492Q \u00018.6 \u00018.7 \u000110.0\r\nI471M \u00018.6 \u00018.6 \u000110.0\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "I544T \u00018.6 \u00018.6 \u00019.9\r\nK387N \u00018.6 \u00018.8 \u000110.1\r\nK397E \u00018.6 \u00018.7 \u000110.0\r\nK397T \u00018.6 \u00018.6 \u00019.8\r\nK509R \u00018.6 \u00018.5 \u000110.0\r\nK527N \u00018.6 \u00019.0 \u000110.1\r\nK571E \u00018.6 \u00018.6 \u000110.0\r\nL365Q \u00018.6 \u00018.7 \u000110.0\r\nL404P \u00018.6 \u00018.7 \u000110.0\r\nL561F \u00018.6 \u00019.0 \u000110.0\r\nL604F \u00018.6 \u00018.7 \u00019.9\r\nL561S \u00018.6 \u00018.7 \u00019.9\r\nM424T \u00018.6 \u00019.0 \u000110.0\r\nM448L \u00018.7 \u00018.7 \u000110.0\r\nM591R \u00018.6 \u00018.7 \u00019.9\r\nN499H \u00018.5 \u00018.1 \u00019.9\r\nN545K \u00018.6 \u00018.5 \u000110.0\r\n(continued)\r\nTable 2. (continued)\r\nMutation PRT06260 R112 R343\r\nN628Y \u00018.6 \u00018.7 \u000110.0\r\nP411 \u00018.6 \u00018.7 \u000110.1\r\nP430L \u00018.6 \u00018.7 \u000110.0\r\nP430Q \u00018.6 \u00018.5 \u000110.1\r\nP535L \u00018.7 \u00018.8 \u00019.9\r\nP541L \u00018.6 \u00018.5 \u000110.1\r\nP541S \u00018.6 \u00018.7 \u00019.8\r\nQ462H \u00018.6 \u00018.7 \u000110.1\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "R367Q \u00018.9 \u00018.5 \u000110.0\r\nR434W \u00018.6 \u00018.7 \u00019.9\r\nR464S \u00018.6 \u00018.7 \u000110.1\r\nR520C \u00018.6 \u00018.7 \u00019.8\r\nR520H \u00018.6 \u00018.7 \u000110.0\r\nR590H \u00018.6 \u00018.6 \u000110.0\r\nR590Q \u00018.6 \u00019.0 \u000110.0\r\nR590W \u00018.6 \u00019.0 \u000110.0\r\nR616M \u00018.6 \u00018.7 \u00019.9\r\nR625W \u00018.6 \u00018.7 \u000110.1\r\nR627C \u00018.6 \u00018.7 \u000110.0\r\nR627H \u00018.6 \u00018.7 \u000110.0\r\nS379F \u00018.7 \u00019.0 \u00019.8\r\nS443Y \u00018.6 \u00018.7 \u000110.1\r\nS511N \u00018.6 \u00018.7 \u000110.1\r\nS550F \u00018.6 \u00018.7 \u000110.0\r\nS550Y \u00018.6 \u00018.7 \u000110.0\r\nS551G \u00018.6 \u00019.0 \u00019.7\r\nS557N \u00018.6 \u00019.0 \u00019.9\r\nT371M \u00018.6 \u00018.7 \u00019.9\r\nV401E \u00018.6 \u00018.7 \u000110.0\r\nV401M \u00018.6 \u00018.7 \u00019.9\r\nV433M \u00018.6 \u00018.7 \u00019.9\r\nV433A \u00018.6 \u00018.7 \u00019.7\r\nV560A \u00018.6 \u00018.7 \u000110.1\r\nV622A \u00018.6 \u00018.7 \u00019.9\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "V633M \u00018.6 \u00018.7 \u000110.0\r\nY389C \u00018.6 \u00019.0 \u00019.9\r\nY459D \u00018.6 \u00018.7 \u00019.9\r\nY539C \u00018.6 \u00018.7 \u00019.8\r\nY539N \u00018.6 \u00018.7 \u000110.0\r\nY568H \u00018.6 \u00018.7 \u000110.1\r\nThe results indicated that R343 exhibited the highest affinity with the wild\u0002type Syk protein, scoring \u00019.8 in terms of energy. The mutated types\r\nshowed scores ranging from \u00019.7 to \u000110.1, compared to the other two\r\nreference inhibitors, R112, and PRT06260, which exhibited affinities\r\nof \u00018.7 and 8.6, respectively.\r\n8 International Journal of Immunopathology and Pharmacology\nTable 3. Potential inhibitors for SYK and their relevant information.\r\nMolecule name 2D structure\r\nMolecularformula\r\n118558008 (1S,4R)-4-hydroxy-4-[5-[6-[(4-methoxypyridin-2-yl)amino]-4-methylpyridin-2-yl]-1,3-\r\nthiazol-2-yl]-2,2-dimethylcyclohexane-1-carboxylic acid\r\nC24H28N O4 4S\r\n10344820 Unii-Y4069R7J86 C21H17F N3 O6 4\r\n(continued)\r\nMansouri et al.9\nTable 3. (continued)\r\nMolecule name 2D structure\r\nMolecularformula\r\n118558000 (1S,4 R)-4-[5-[6-[(5-chloro-4-methylpyridin-2-yl)amino]-4-methylpyridin-2-yl]-1,3-\r\nthiazol-2-yl]-4-hydroxy-2,2-dimethylcyclohexane-1-carboxylic acid\r\nC24H27ClN O4 3S\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "118558092 (1S,4 R)-4-[5-[6-[(5-fluoro-4-methylpyridin-2-yl)amino]-4-methylpyridin-2-yl]-1,3-\r\nthiazol-2-yl]-4-hydroxy-2,2-dimethylcyclohexane-1-carboxylic acid\r\nC24H27FN O4 3S\r\nAmong these inhibitors, namely 118558008, 10344820, 118558000, and 118558092 demonstrated superior affinities compared to both the other potential inhibitors and the reference inhibitors for allmutations and the wild-type crystal structure, with affinities ranging between \u00019.9 Kcal/mol and \u000110.1 Kcal/mol.\r\n10 International Journal of Immunopathology and Pharmacology\nFigure 4. The hydrogen bonding network established between the Syk protein, and its quartet of promising ligands. The intricate\r\ndiagram elucidates the hydrogen bonding network established between the Syk protein (blue), a pivotal player in cellular signaling, and\r\nits quartet of promising ligands. The hydrogen bonds, depicted as dashed yellow lines, delineate the electron-rich donor-acceptor\r\ninteractions essential for stabilizing the protein-ligand complexes. Such interactions, often characterized by their directionality and\r\nstrength, orchestrate specific binding events, thereby influencing the protein’s conformation and activity. (A): Syk-118558008; (B): Syk\u000210344820; (C): Syk-118558000; (D): Syk-118558092.\r\nMansouri et al. 11\ndocking scores were calculated for each complex, and de\u0002tailed interactions are reported in Figure 5. The diversity\r\nobserved in each complex highlights the complexity of\r\nmolecular interactions, providing a solid foundation for drug\r\ndesign targeting the SYK signaling pathway. Conventional\r\nhydrogen bonds, crucial for specificity and stability, are\r\nabundant in all complexes. Van der Waals interactions sig\u0002nificantly contribute to stability by optimizing protein-ligand\r\ncontacts. The various types of Pi-interactions enhance the\r\nstabilization of complexes, emphasizing the importance of π-π\r\ninteractions in molecular recognition. Carbon hydrogen bonds\r\nadd a specific dimension to interactions, while halogen\r\n(fluorine) bonds can influence the stability of the complex.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Molecular dynamic analysis\r\nMolecular dynamics simulations were performed to eval\u0002uate the behavior of four selected ligands complexed to the\r\nSYK protein, alongside a baseline simulation using the\r\nR343 ligand in complex with the Syk protein. Analyzes\r\nfocused on RMSD, Rg, SASA, and hydrogen bonding\r\nmodels to evaluate the stability and interaction dynamics of\r\nFigure 5. The diverse types of interactions between ligands and key residues within the active site, presented through a 2D visualization.\r\nA: The 2D interaction between ligand 10344820 and the protein Syk; B: The 2D interaction between ligand 118558008 and the protein\r\nSyk; C: The 2D interaction between ligand 118558000 and the protein Syk; D: The 2D interaction between ligand 118557092 and the\r\nprotein Syk. The analysis of four complexes formed between the SYK protein and specific inhibitors (ID: 10344820, ID: 118558000, ID:\r\n118558008, ID: 118557092) revealed diverse molecular interactions. Notably, several residues exhibited consistent involvement\r\nacross all complexes, including SER 379, ARG 498, LEU 377, ASN 381, and LYS 533. These residues played pivotal roles in forming\r\nessential bonds. Common interaction types observed in all complexes encompassed conventional hydrogen bonds, van der Waals bonds,\r\nand, in subsets, alkyl and Pi-Alkyl bonds. Additionally, a halogen (fluorine) bond was shared between complexes 1 and 4. The\r\nrecurrence of these residues and interaction types suggests a consistent molecular pattern in the binding landscape, providing crucial\r\ninformation for the rational design of inhibitors targeting the SYK protein.\r\n12 International Journal of Immunopathology and Pharmacology\nthese complexes. The results are presented in Figures 6 and\r\n7 which presents the means and their standard deviations.\r\nFor the SYK-ligand complexes, namely ligand 1\r\n(PubChem ID: 118558000), ligand 2 (PubChem ID:\r\n118558008), ligand 3 (PubChem ID: 118558092) and li\u0002gand 4 (PubChem ID: 10344820), l RMSD analysis re\u0002vealed that ligand 1 had a closer match to the reference\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "structure with an RMSD value of (0.43 ± 0.06). Ligands 2\r\nand 3 exhibited slightly higher RMSD values of (0.55 ±\r\n0.03) and (0.56 ± 0.06), respectively, compared to the\r\nreference ligand complex (RMSD = 0.67 ± 0 .05). Ligand\r\n4, however, exhibited a higher RMSD value of (0.78 ±\r\n0.08). (Figure 6(A)).\r\nAnalysis of Rg values indicated the compactness or\r\nshape of the ligand-protein complex. Ligands 1, 2, and 3\r\nexhibited Rg values of (2.74 ± 0.02), (0.70 ± 0.02), and\r\n(0.73 ± 0.030), respectively, reflecting their respective\r\ncompactness relative to the ligand complex. Reference with\r\nan Rg value of (0.68 ± 0.02). Ligand 4 showed an Rg value\r\ncloser to the reference at 0.66 ± 0.02. (Figure 6-(B)).\r\nRegarding the SASA values, ligands 1, 2 and 3 pre\u0002sented values of (296.17 ± 1.73), (293.70 ± 1.95) and\r\n(296.64 ± 1.64), respectively. Which describe the solvent\u0002exposed surface of the ligand-protein complex. While li\u0002gand 2 and reference ligand-Syk complex had a SASA\r\nvalue of (294.50 ± 1.63). Ligand 4 displayed a SASA value\r\nof (294.32 ± 1.74) which is similar to the reference. (Figure\r\n6(C)).\r\nHydrogen bond analysis showed that ligand 1 formed a\r\nhigher number of hydrogen bonds (up to 7) with the SYK\r\nprotein compared to ligands 2 and 3. This contrasted with\r\nligand 4, which had fewer bonds hydrogen4 relative to the\r\nreference ligand complex.5 (Figure 6(D)).\r\n3D-pharmacophore model building\r\nIn this study, we developed a 3D pharmacophore model\r\nfrom three potential ligands. The inhibitors were analyzed\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "to identify key chemical features essential for their in\u0002hibitory activity, leading to the identification of seven key\r\nfeatures for interaction with the Syk protein: F1\r\n(Acc&ML), F2 (Don&Acc&ML), F3 (Acc&ML), F4 (ML/\r\nAro/Acc), F5 (Aro), F6 (Hyd), and F7 (Acc&ML). These\r\nfeatures include acceptor and metallic sites (F1, F3, F7), a\r\ndonor, acceptor, and metallic site (F2), as well as sites with\r\nmetallic, aromatic, and acceptor properties (F4). We also\r\nidentified an aromatic feature (F5) and a hydrophobic\r\nfeature (F6). Each feature was characterized to provide\r\ninformation on potential interactions with the Syk protein.\r\nFigure 8(A) shows the final pharmacophore model, illus\u0002trating the spatial arrangement of the seven identified\r\nfeatures (F1–F7) in 3D space. The model highlights key\r\nfunctional groups required for potential ligand-receptor\r\ninteractions essential for inhibitory activity. Figure 8(B)\r\nillustrates the pharmacophore model without the ligands\r\nsuperimposed, providing a clear visualization of the spatial\r\narrangement between features within the pharmacophore\r\nmodel. The inter-feature distances within the pharmaco\u0002phore model are summarized in Figure 8(C). These dis\u0002tances play a crucial role in defining spatial relationships\r\nbetween features and are important for ligand binding and\r\npharmacophore-based virtual screening studies (Figure 8).\r\nDiscussion\r\nIn this paper, we were able to gather all reported mutations\r\naffecting the Syk protein from the literature to investigate\r\ntheir functional impact. The findings indicated that 60.5%\r\nof these mutations were deemed deleterious, meaning they\r\nare likely to have a negative impact on the function or\r\nstructure of the protein.40 While 39.5% were considered\r\nneutral, suggesting that these mutations might not signif\u0002icantly affect the protein’s function or could have no\r\ndiscernible impact.41\r\nThrough virtual screening, we identified 3 potential\r\ninhibitors (IDs: 118558008, 118558000 and 118558092)\r\nthat surpass the reference compounds. Additionally, our\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "pharmacophore model provides valuable insights, poten\u0002tially guiding the development of targeted therapies for\r\nAD-HIES and related immunological disorders.\r\nHowever, it is important to note that while these in\u0002hibitors show potential benefits, they are not without\r\ndrawbacks. Some of these inhibitors have been associated\r\nwith undesirable side effects.42 As with many therapeutic\r\ninterventions, there is a need to strike a balance between the\r\ndesired efficacy in suppressing mast cell degranulation and\r\nthe potential risk of adverse effects. Thus, further research\r\nand development are essential to refine the specificity and\r\nsafety profile of SYK inhibitors to maximize their thera\u0002peutic potential while minimizing any unintended\r\nconsequences.42\r\nIndeed, PRT062607 is an example of an ATP\u0002competitive inhibitor of SYK that has been studied in\r\nthe context of various inflammatory and autoimmune\r\ndiseases. While it showed potential as a therapeutic agent\r\nfor targeting SYK and modulating mast cell degranulation,\r\nthere have been concerns regarding its selectivity, safety,\r\nand efficacy.43\r\nOne of the main issues associated with PRT062607 is its\r\ninsufficient selectivity, meaning that it not only targets\r\nSYK but also affects other kinases.44 In particular, its\r\ninhibition of vascular endothelial growth factor 2\r\n(VEGFR2) has been reported to cause an increase in blood\r\npressure, which can be a significant safety concern. The\r\nlack of specificity for SYK and the unintended effects on\r\nother kinases can lead to adverse reactions and limit its\r\nclinical use. As a result of the initial inhibitor’s\r\nMansouri et al. 13\nFigure 6. Molecular dynamics simulation results of Syk Protein with reference inhibitor R343 and four potential candidate inhibitors,\r\nexploring RMSD, Rg, SASA, and H-BOND parameters.\r\n14 International Journal of Immunopathology and Pharmacology\nshortcomings, our focus shifted towards proposing new,\r\nmore efficient molecules.\r\nStructures of the three potential inhibitors with the best\r\nbinding affinities shows that the three inhibitors: (1S,4 R)-4-[5-\r\n[6-[(5-chloro-4-methylpyridin-2-yl)amino]-4-methylpyridin-2-\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "yl]-1,3-thiazol-2-yl]-4-hydroxy-2,2-dimethylcyclohexane-1-\r\ncarboxylic acid (PubChem ID: 18558008), (1S,4 R)-4-\r\nhydroxy-4-[5-[6-[(4-methoxypyridin-2-yl)amino]-4-\r\nmethylpyridin-2-yl]-1,3-thiazol-2-yl]-2,2-dimethylcyclohexane\u00021-carboxylic acid (PubChem ID: 118558000) and, (1S,4 R)-4-\r\n[5-[6-[(5-fluoro-4-methylpyridin-2-yl)amino]-4-methylpyridin-2-yl]-\r\n1,3-thiazol-2-yl]-4-hydroxy-2,2-dimethylcyclohexane-1-\r\ncarboxylic acid (PubChem ID: 118558092) have similar\r\nchemical structures, in the presence of the pyridine group in\r\nFigure 7. Line plot with error bars representing mean and standard deviation values of RMSD, Rg, SASA, and H-BOND parameters\r\nfrom molecular dynamics simulations.\r\nFigure 8. The pharmacophore model, derived from the flexible alignment of the top 3 compounds, (A) the various features explored\r\nwithin its structure. (B) A simplified representation of the model. (C) The interfeature distances within the pharmacophore model.\r\nSeven significant features were identified and used to construct the pharmacophore model: F1: Acc&ML, F2: Don&Acc&ML, F3:\r\nAcc&ML, F4: ML|AroAcc, F5: Aro, F6: Hyd and, F7: Acc&ML.\r\nMansouri et al. 15\nthese three inhibitors. Fused pyridine derivatives have been\r\ncited to inhibit SYK with an IC50 between 0.3 Nm and 1 μM,\r\nand their uses focus on the treatment of respiratory diseases\r\nand inflammatory diseases.45\r\nIn conclusion, this comprehensive screening process\r\nidentified three promising candidate inhibitors that possess\r\nthe desired drug-like properties, safety profile and in\u0002creased affinity which can be explained by the large\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "number of hydrogen bonds that bind the protein with the 3\r\npotential inhibitors whose IDs are 118558008, 118558000\r\nand 118558092;\r\nThe results from molecular docking simulations and\r\npost-docking interaction visualization between the SYK\r\nprotein and four specific inhibitors unveil a detailed\r\nanalysis of the bonds formed in each complex. This mo\u0002lecular investigation provides essential insights for drug\r\ndesign, offering an in-depth understanding of the molecular\r\ninteractions between the protein and its ligands. This in\u0002depth analysis of molecular interactions between the SYK\r\nprotein and its inhibitors reveals a diversity of bonds, each\r\ncontributing specifically to the stability of the complexes.\r\nThese results offer crucial perspectives for rational drug\r\ndesign, underscoring the need to consider the variety of\r\nbonding forces in the development of therapeutic com\u0002pounds targeting the SYK protein.\r\nComplexes 1 to 4 demonstrate high molecular docking\r\nscores, suggesting a strong affinity between the SYK\r\nprotein and the inhibitors. Examination of the interactions\r\nreveals a diversity of bonds, including conventional hy\u0002drogen bonds, van der Waals, Pi-interactions (Pi-Sigma,\r\nPi-Alkyl, Amisz Pi-Stacked, Pi-sulfur), carbon hydrogen\r\nbonds, and halogen (fluorine) bonds. These bonds con\u0002tribute specifically to the stability of the complexes.\r\nConventional hydrogen bonds play a crucial role in the\r\nspecificity and stability of protein-ligand interactions,\r\npromoting molecular recognition. Van der Waals inter\u0002actions provide additional stability, optimizing contacts\r\nbetween the protein and the inhibitor. Various types of Pi\u0002interactions add a specific component to the stabilization\r\nof complexes, emphasizing the importance of π-π inter\u0002actions. Carbon hydrogen bonds introduce another di\u0002mension to molecular interactions, contributing to the\r\nspecificity of bonds. Finally, halogen (fluorine) bonds add\r\nextra complexity, potentially influencing the stability of\r\nthe complex.\r\nIn summary, the diversity of observed bond types un\u0002derscores the complexity of molecular interactions between\r\nthe SYK protein and its inhibitors. Each type of bond\r\ncontributes specifically to the stability and selectivity of the\r\ncomplexes, providing opportunities for the rational design\r\nof drugs targeting the SYK signaling pathway. These re\u0002sults enrich our understanding of molecular interactions\r\nand provide a solid foundation for future studies and the\r\ndevelopment of therapeutic compounds.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "The results of the molecular dynamics simulations\r\nprovide valuable insights into the behavior of four selected\r\nligands complexed to the SYK protein, as well as a ref\u0002erence simulation using the R343 ligand. The root mean\r\nsquare deviation (RMSD) measures the average deviation\r\nof the atomic positions between the starting structure and\r\nthe snapshots obtained during the simulation.46Lower\r\nRMSD values indicate more stable ligand binding within\r\nthe protein binding site.47Ligand 1 (PubChem ID:\r\n118558000) had the lowest RMSD of 0.43 ± 0.06 nm,\r\nsuggesting that it maintains a stable conformation\r\nthroughout the simulation period, closely resembling the\r\ninhibitor reference. This stability implies a strong and\r\ncoherent interaction with the SYK protein. Ligands 2 (0.55\r\n± 0.03 nm) and 3 (0.56 ± 0.06 nm) showed slightly higher\r\nRMSD values, indicating some flexibility or fluctuation in\r\ntheir binding orientations compared to the reference ligand\r\nR343 (RMSD = 0.67 ± 0.05 nm). Ligand 4 (PubChem ID:\r\n10344820), with an RMSD of 0.78 ± 0.08 nm, exhibited the\r\nhighest deviation among the ligands studied, suggesting\r\nless stable binding with the SYK protein and interaction\r\ndynamics potentially weaker.\r\nAs for the radius of gyration (Rg), it evaluates the\r\ncompactness or overall shape of the protein-ligand com\u0002plex. Ligands 1, 2, and 3 displayed Rg values of 2.74 ±\r\n0.02 nm, 2.70 ± 0.02 nm, and 2.73 ± 0.03 nm, respectively,\r\nindicating their different degrees of compactness within the\r\nprotein binding site relative to the reference (Rg = 2.68 ±\r\n0.02 nm). These Rg values suggest that while all ligands\r\nretain a generally compact structure, ligands 1 and 3 exhibit\r\nslightly larger Rg values, potentially indicating a more\r\nextended or differently shaped binding conformation\r\ncompared to ligands 2 and the ligand of reference.48\r\nConcerning Solvent Accessible Surface Area (SASA),\r\nthis measurement parameter measures the surface area of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "the ligand-protein complex accessible to solvent mole\u0002cules. Ligands 1, 2, and 3 showed SASA values of 296.17 ±\r\n1.73 nm2\r\n, 293.70 ± 1.95 nm2, and 296.64 ± 1.64 nm2,\r\nrespectively, indicating their different degrees of exposure\r\nto the solvent environment compared to the reference\r\n(SASA = 294.50 ± 1.63 nm2\r\n). Higher SASA values suggest\r\nthat ligands 1 and 3 may interact more broadly with the\r\nsolvent, potentially influencing their binding kinetics and\r\naccessibility within the protein pocket.49\r\nLately hydrogen bonds play an essential role in stabi\u0002lizing ligand-protein interactions. Ligand 1 formed a higher\r\nnumber of hydrogen bonds (up to 7) with the SYK protein,\r\nindicating strong and specific interactions that contribute to\r\nits stability within the binding site. In contrast, ligands 2\r\nand 3 formed fewer hydrogen bonds than ligand 1, sug\u0002gesting potentially weaker or less specific interactions.\r\nLigand 4 formed 4 hydrogen bonds, fewer than the ref\u0002erence ligand R343 (5 hydrogen bonds), which may impact\r\nits binding affinity and stability.47\r\n16 International Journal of Immunopathology and Pharmacology\nIn summary, these results collectively provide insight\r\ninto the dynamic behavior and interaction characteristics of\r\nSYK-ligand complexes. Ligands 1, 2, and 3 exhibit dif\u0002ferent degrees of stability, compactness, solvent exposure,\r\nand hydrogen bonding patterns compared to the reference\r\nligand R343. These results are crucial and served as a\r\nmatrix for the design of a 3D pharmacophore model from\r\nthe 3 potential ligands 1, 2 and 3.\r\nThe constructed pharmacophore model appears to\r\nidentify seven distinct features that are likely essential for\r\nthe inhibitors’ interaction with the SYK protein and con\u0002tribute to their potential effectiveness; (F1) is a Metal\r\nAcceptor and Ligand (Acc&ML), this feature represents a\r\nfunctional group that acts as a hydrogen bond acceptor and\r\nhas the potential to coordinate with metal ions.48 Hydrogen\r\nbond acceptors play a crucial role in stabilizing ligand\u0002receptor complexes through hydrogen bond interactions\r\nwith hydrogen donors on the receptor. Metal ligand\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "functionality enhances ligand binding specificity and af\u0002finity by coordinating with metal ions in the active site of\r\nthe protein.50 (F2) is a Donor, Acceptor, and Metal Ligand\r\n(Don&Acc&ML), this complex feature includes Hydrogen\r\nDonor Capability (Don), Hydrogen Acceptor Capability\r\n(Acc), and Ligand Feature metallic (ML). Hydrogen donor\r\nand acceptor capabilities contribute to potential hydrogen\r\nbonding interactions with the target receptor, thereby en\u0002hancing ligand-receptor binding. The property of the metal\r\nligand further strengthens the interaction by coordinating\r\nwith the metal ions present in the active site.51,52 (F3) is an\r\nAcceptor and Metal Ligand (Acc&ML) which is similar to\r\nFeature 1, this feature includes a hydrogen bond acceptor\r\nand metal ligand functionality. Hydrogen bond acceptors\r\nparticipate in stabilizing hydrogen bond interactions\r\nwith the target receptor, while the metal ligand property\r\ncontributes to binding specificity through coordination\r\nwith metal ions.53-55 (F4) is a Metal Ligand/Aromatic/\r\nAcceptor (ML/Aro/Acc), this feature combines the func\u0002tionalities of a metal ligand (ML), an aromatic (Aro) and an\r\nacceptor hydrogen (Acc). The aromatic nature suggests a\r\npotential for π–π interactions with aromatic residues on the\r\nreceptor, providing additional stabilizing forces for the\r\nligand-receptor complex.56 The hydrogen acceptor ability\r\nallows this functionality to form hydrogen bonds with\r\nappropriate donors on the receptor, thereby contributing to\r\nligand-receptor interactions. The metal ligand property\r\nenhances binding affinity through coordination with metal\r\nions.52 (F5) is an Aromatic (Aro), this feature represents an\r\naromatic moiety that can engage in aromatic stacking or\r\nπ–π interactions with complementary aromatic residues on\r\nthe receptor.57 These interactions provide stabilizing forces\r\nto the ligand-receptor complex, contributing to overall\r\nbinding affinity. (F6) is a Hydrophobic (Hyd), this feature\r\nrepresents a hydrophobic group that contributes to binding\r\naffinity by engaging in hydrophobic interactions with\r\nnon-polar residues on the receptor.58,59 These interactions\r\nare essential to stabilize the ligand-receptor complex in a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "non-aqueous environment. (F7) is an Acceptor and Metal\r\nLigand (Acc&ML), this feature is similar to Features 1 and\r\n3, including the Hydrogen Bond Acceptor and Metal Li\u0002gand features. It participates in the stabilization of hy\u0002drogen bonding interactions with the target receptor and\r\nimproves binding specificity through coordination with\r\nmetal ions.53,60\r\nIn conclusion, the constructed pharmacophore model\r\nidentifies seven distinct features that are likely essential for\r\nthe inhibitors’ interaction with the SYK protein and con\u0002tribute to their potential efficacy. These features include\r\nvarious functional groups such as hydrogen bond accep\u0002tors, donors, metal ligands, aromatic moieties, and hy\u0002drophobic groups. Each feature plays a crucial role in\r\nstabilizing ligand-receptor complexes through specific\r\ninteractions such as hydrogen bonding, coordination with\r\nmetal ions, π–π interactions, and hydrophobic interactions.\r\nComprehensive identification of these features shows key\r\nfunctional groups required for potential ligand-receptor\r\ninteractions, which is essential for the design and opti\u0002mization of effective SYK inhibitors.61,62\r\nThese findings offer promising prospects for future\r\nresearch and potential clinical benefits for affected indi\u0002viduals. To advance research on autosomal dominant\r\nhyper-IgE syndrome (AD-HIES) and its potential thera\u0002peutic approaches, several perspectives can be considered.\r\nFirst, rigorous experimental validation of potential in\u0002hibitors identified by virtual screening is essential to\r\nconfirm their efficacy and safety. Following successful\r\nvalidation, clinical trials should be initiated to evaluate\r\nthese inhibitors in real-world conditions in patients with\r\nAD-HIES. Additionally, exploring combination therapies\r\nwith multiple existing treatments could potentially improve\r\noutcomes for individuals suffering from allergic symptoms\r\nrelated to AD-HIES.\r\nAmong the identified inhibitors, ligand 1 with ID:\r\n118558000 stands out for its most stable binding (lowest\r\nRMSD), potentially favorable compactness (Rg), and ex\u0002tensive interaction with solvents (SASA), supported by a\r\nhigher number of hydrogen bonds. These results provide an\r\nin-depth understanding of the molecular mechanisms un\u0002derlying ligand binding to SYK and guide the future op\u0002timization of potential inhibitors targeting the Syk protein,\r\nparticularly in the context of allergies characteristic of\r\nhyper-IgE syndrome.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "In conclusion, these advances not only deepen our\r\nunderstanding of AD-HIES mechanisms but also guide the\r\ndevelopment of new targeted therapies, offering tangible\r\nhope for patients suffering from this rare pathology.\r\nAlthough this study provides valuable information on\r\nSyk mutations and potential inhibitors, several limita\u0002tions should be considered. First, the accuracy of virtual\r\nMansouri et al. 17\nscreening and molecular docking is highly dependent on\r\nthe computational models and assumptions used, which\r\nmay not fully replicate real-world conditions. Variability in\r\nprotein conformations and dynamics could impact the\r\nreliability of binding affinity predictions.\r\nAs well, the pharmacokinetic properties and toxicity\r\nprofiles of the identified inhibitors were evaluated com\u0002putationally and may not accurately reflect their in vivo\r\nbehavior. Experimental validation using in vitro assays and\r\nanimal models is essential to confirm efficacy and safety.\r\nConclusion\r\nIn conclusion, this study gathered all reported mutations\r\naffecting the Syk protein and identified that 60.5% of them\r\nare deleterious, impacting the function or structure of the\r\nprotein. Through virtual screening, three potential inhibi\u0002tors (ID: 118558008, 118558000, and 118558092) were\r\nfound to be superior to the reference compounds. Ligand 1\r\n(ID: 118558000) demonstrated the most stable binding,\r\nfavorable compactness, and extensive interaction with\r\nsolvents, supported by a higher number of hydrogen bonds.\r\nThe pharmacophore model provides information for the\r\ndevelopment of targeted therapies for AD-HIES and related\r\ndisorders. These advances are guiding the development of\r\nnew targeted therapies, offering hope to patients suffering\r\nfrom allergies in the context of Hyper IgE syndrome.\r\nAcknowledgements\r\nThis work was carried out under national funding from the\r\nMoroccan Ministry of Higher Education and Scientific Research\r\n(COVID-19 program) to A.I. This work was also supported by a\r\ngrant from the Moroccan Institute of Cancer Research and the\r\nPPR-1 program to A.I. and Biocodex grant to AI. The CNRST\u0002PPR2 program provided a informatic station to support bio\u0002informatic analyses for this study. The authors express their\r\ngratitude toward these funding sources. We would like to express\r\nour sincere gratitude to Professor Rachid Eljaoudi for his expertise\r\nand significant contributions to the integration of new results and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "the overall improvement of the manuscript. We also extend our\r\nthanks to Dr Nasma Boumajdi for her invaluable assistance in\r\ngenerating the molecular dynamics graphs as well as for her\r\ncritical insights. Their contributions were essential to the success\r\nof this work.\r\nAuthor contributions\r\n⁃ Mariam MANSOURI: Conceptualization, Data curation,\r\nFormal analysis, Methodology, Resources, Software, writing –\r\noriginal draft, Writing – review & editing. ⁃ Ghyzlane EL\r\nHADDOUMI: Data curation, Methodology, Software, Visuali\u0002zation, Writing – original draft. ⁃ Ilham KANDOUSSI: Con\u0002ceptualization, Data curation, Methodology, Supervision,\r\nValidation, Writing – review & editing. ⁃ Lahcen BELYAMANI:\r\nRessources, Supervision, Validation. ⁃ Azeddine IBRAHIMI:\r\nConceptualization, Funding acquisition, Resources, Supervision,\r\nValidation, Writing – review & editing. ⁃ Naima EL HAFIDI:\r\nConceptualization, Formal analysis, Funding acquisition, Meth\u0002odology, Supervision, Validation, Writing – review & editing.\r\nDeclaration of conflicting interests\r\nThe author(s) declared no potential conflicts of interest with re\u0002spect to the research, authorship, and/or publication of this article.\r\nFunding\r\nThe author(s) received no financial support for the research,\r\nauthorship, and/or publication of this article.\r\nORCID iD\r\nMariam Mansouri  https://orcid.org/0000-0003-4408-7593\r\nSupplemental Material\r\nSupplemental material for this article is available online.\r\nReferences\r\n1. Freeman AF and Holland SM (2009) Clinical manifestations,\r\netiology, and pathogenesis of the hyper-IgE syndromes.\r\nPediatric Research 65(5 Part 2): 32R–37R.\r\n2. Borst J and Ma L (2020) Oral ulcerations in a patient with\r\nautosomal dominant hyper-IgE syndrome (AD-HIES). BMJ\r\nCase Reports CP 13(11): e236705.\r\n3. Gernez Y, Freeman AF, Holland SM, et al. (2018) Autosomal\r\ndominant hyper-IgE syndrome in the USIDNET registry.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Journal of Allergy and Clinical Immunology 6(3): 996–1001.\r\n4. NORD (2018) Autosomal Dominant Hyper IgE Syndrome -\r\nSymptoms, Causes, Treatment. Washington, DC: NORD.\r\nhttps://rarediseases.org/rare-diseases/autosomal-dominant\u0002hyper-ige-syndrome/\r\n5. Kubala S and Tamara TH (2023) Editorial: mast cells in\r\nallergic diseases. Frontiers in Allergy 4: 1248954. DOI: 10.\r\n3389/falgy.2023.1248954/full.\r\n6. Galli SJ and Tsai M (2010) Mast cells in allergy and in\u0002fection: versatile effector and regulatory cells in innate and\r\nadaptive immunity. European Journal of Immunology 40(7):\r\n1843–1851.\r\n7. Amin K (2012) The role of mast cells in allergic inflam\u0002mation. Respiratory Medicine 106(1): 9–14.\r\n8. Galli S and Tsai M (2023) IgE and mast cells in allergic\r\ndisease. Nature Medicine 18: 693–704. https://www.nature.\r\ncom/articles/nm.2755\r\n9. Wang L, Duke L, Zhang PS, et al. (2003) Alternative splicing\r\ndisrupts a nuclear localization signal in spleen tyrosine ki\u0002nase that is required for invasion suppression in breast\r\ncancer. Cancer Research 63(15): 4724–4730.\r\n18 International Journal of Immunopathology and Pharmacology\n10. Turner M, Schweighoffer E, Colucci F, et al. (2000) Tyrosine\r\nkinase SYK: essential functions for immunoreceptor sig\u0002nalling. Immunology Today 21(3): 148–154.\r\n11. Mócsai A, Ruland J and Tybulewicz VLJ (2010) The SYK\r\ntyrosine kinase: a crucial player in diverse biological functions.\r\nNature Reviews Immunology 10(6): 387–402.\r\n12. Sada K, Takano T, Yanagi S, et al. (2001) Structure and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "function of Syk protein-tyrosine kinase. Journal of Bio\u0002chemistry 130(2): 177–186.\r\n13. Yi YS, Son YJ, Ryou C, et al. (2014) Functional roles of Syk\r\nin macrophage-mediated inflammatory responses. Mediators\r\nof Inflammation 2014: 270302.\r\n14. Liu S, Liao Y, Chen B, et al. (2021) Critical role of Syk\u0002dependent STAT1 activation in innate antiviral immunity.\r\nCell Reports 34(3): 108627.\r\n15. Wang L, Aschenbrenner D, Zeng Z, et al. (2021) Gain-of\u0002function variants in SYK cause immune dysregulation and\r\nsystemic inflammation in humans and mice. Nature Genetics\r\n53: 500–510. https://www.nature.com/articles/s41588-021-\r\n00803-4\r\n16. Zhou Y, Zhang Y, Wei Y, et al. (2023) Immunomodulatory\r\nrole of spleen tyrosine kinase in chronic inflammatory and\r\nautoimmune diseases. Immunity, Inflammation and Disease\r\n11(7): e934. https://onlinelibrary.wiley.com/doi/full/10.\r\n1002/iid3.934\r\n17. Kim S, Chen J, Cheng T, et al. (2023) PubChem 2023 update.\r\nNucleic Acids research 51: D1373–D1380. https://academic.\r\noup.com/nar/article/51/D1/D1373/6777787?login=false\r\n18. Jablonsky M, Haz A, Burcov ˇ a Z, et al. (2019) Pharmaco- ´\r\nkinetic properties of Biomass-extracted substances isolated\r\nby green solvents. Bioresources 14: 6294–6303.\r\n19. Siraganian RP, Zhang J, Suzuki K, et al. (2002) Protein\r\ntyrosine kinase Syk in mast cell signaling. Molecular Im\u0002munology 38(16): 1229–1233.\r\n20. de Castro RO (2011) Regulation and function of Syk tyrosine\r\nkinase in mast cell signaling and beyond. J Signal Transduct\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "2011(1): 507291. Available at: https://onlinelibrary.wiley.\r\ncom/doi/abs/10.1155/2011/507291\r\n21. Hindawi (2011) Figure 2|regulation and function of Syk\r\ntyrosine kinase in mast cell signaling and beyond. https://\r\nwww.hindawi.com/journals/jst/2011/507291/fig2/\r\n22. Siraganian RP, de Castro RO, Barbu EA, et al. (2010) Mast\r\ncell signaling: the role of protein tyrosine kinase Syk, its\r\nactivation and screening methods for new pathway partici\u0002pants. FEBS Letters 584(24): 4933–4940.\r\n23. Draber P, Sulimenko V and Dr ´ aberov ´ a E (2012) Cytoskel- ´\r\neton in mast cell signaling. Frontiers in Immunology 3: 130.\r\nDOI: 10.3389/fimmu.2012.00130.\r\n24. Pamuk ON and Tsokos GC (2010) Spleen tyrosine kinase in\u0002hibition in the treatment of autoimmune, allergic and auto\u0002inflammatory diseases. Arthritis Research & Therapy 12(6): 222.\r\n25. Landrum MJ, Lee JM, Benson M, et al. (2018) ClinVar:\r\nimproving access to variant interpretations and supporting\r\nevidence. Nucleic Acids Res 46: D1062–D1067.\r\n26. Tate JG, Bamford S, Jubb HC, et al. (2019) COSMIC: the\r\ncatalogue of somatic mutations in cancer. Nucleic Acids\r\nResearch 47(D1): D941–D947.\r\n27. Cancer Genome Atlas Research NetworkWeinstein JN,\r\nCollisson EA, et al. (2013) The cancer genome atlas pan\u0002cancer analysis project. Nat Genet 45(10): 1113–1120.\r\n28. Burley SK, Berman HM, Kleywegt GJ, et al. (2017) Protein\r\ndata bank (PDB): the single global macromolecular structure\r\narchive. In: Wlodawer A, Dauter Z and Jaskolski M, (eds)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Protein Crystallography: Methods and Protocols. New\r\nYork, NY: Springer. DOI: 10.1007/978-1-4939-7000-1_26.\r\n29. Chen JE, Huang CC and Ferrin TE (2015) RRDistMaps: a\r\nUCSF Chimera tool for viewing and comparing protein\r\ndistance maps. Bioinformatics 31(9): 1484–1486.\r\n30. Morris GM, Huey R, Lindstrom W, et al. (2009) AutoDock4\r\nand AutoDockTools4: automated docking with selective\r\nreceptor flexibility. Journal of Computational Chemistry\r\n30(16): 2785–2791.\r\n31. Adzhubei I, Jordan DM and Sunyaev SR (2013) Predicting\r\nfunctional effect of human missense mutations using Poly\u0002Phen-2. Current Protocols in Human Genetics.\r\n32. Boris R, Antipin Y, Chris S, et al. (2011) Predicting the\r\nfunctional impact of protein mutations: application to cancer\r\ngenomics. Nucleic Acids Research 39(17): e118. https://\r\nacademic.oup.com/nar/article/39/17/e118/2411278?login=\r\nfalse\r\n33. Liu T, Lin Y, Wen X, et al. (2007) BindingDB: a web\u0002accessible database of experimentally determined protein–\r\nligand binding affinities. Nucleic Acids Research 35:\r\nD198–D201.\r\n34. Joyce VBB, Alves VM, Braga RC, et al. (2022) STopTox: an in\r\nsilico alternative to animal testing for acute systemic and topical\r\ntoxicity. Environmental Health Perspectives 130: 027012. https://\r\nwww.ncbi.nlm.nih.gov/pmc/articles/PMC8863177/\r\n35. Trott O and Olson AJ (2009) AutoDock Vina: improving the\r\nspeed and accuracy of docking with a new scoring function,\r\nefficient optimization, and multithreading. Journal of\r\nComputational Chemistry 31(2): 455–461.\r\n36. Dassault Systèmes (2024) Discovery Studio. Velizy-Villa- ´\r\ncoublay, France: Dassault Systèmes. https://www.3ds.com/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "products/biovia/discovery-studio\r\n37. Yuan S, Chan HCS and Hu Z (2017) Using PyMOL as a\r\nplatform for computational drug design. Wiley Interdisci\u0002plinary Reviews: Computational Molecular Science 7(2):\r\ne1298. DOI: 10.1002/wcms.1298.\r\n38. GROMACS (2020) Welcome to the GROMACS docu\u0002mentation. https://manual.gromacs.org/documentation/\r\n2020.4/index.html\r\n39. Chemical Computing Group (CCG). https://www.\r\nchemcomp.com/Research-Citing_MOE.htm\r\n40. Jayaraj JM and Muthusamy K (2024) Role of deleterious\r\nnsSNPs of klotho protein and their drug response: a com\u0002putational mechanical insights. Journal of Biomolecular\r\nStructure and Dynamics 42(6): 2886–2896.\r\nMansouri et al. 19\n41. Mansouri M, El Haddoumi G, Bendani H, et al. (2023) In\r\nsilico analyses of all STAT3 missense variants leading to\r\nexplore divergent AD-HIES clinical phenotypes. Evolu\u0002tionary Bioinformatics Online 19: 11769343231169374.\r\n42. Chihara K, Kimura Y, Honjo C, et al. (2013) Syk inhibitors.\r\nNihon Rinsho Meneki Gakkai Kaishi 36(4): 197–202.\r\n43. Solouki S, August A and Huang W (2019) Non-receptor\r\ntyrosine kinase signaling in autoimmunity and therapeutic\r\nimplications. Pharmacology & Therapeutics 201: 39–50.\r\n44. Coffey G, Rani A, Betz A, et al. (2017) PRT062607 achieves\r\ncomplete inhibition of the spleen tyrosine kinase at tolerated\r\nexposures following oral dosing in healthy volunteers.\r\nJournal of Clinical Pharmacology 57(2): 194–210.\r\n45. Norman P (2014) Spleen tyrosine kinase inhibitors: a review\r\nof the patent literature 2010 – 2013. Expert Opinion on\r\nTherapeutic Patents 24(5): 573–595.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "46. Loganathan L, Kuriakose BB, Mushfiq S, et al. (2021)\r\nMechanistic insights on nsSNPs on binding site of renin and\r\ncytochrome P450 proteins: a computational perceptual study\r\nfor pharmacogenomics evaluation. Journal of Cellular\r\nBiochemistry 122(10): 1460–1474.\r\n47. Haddoumi GE, Mansouri M, Bendani H, et al. (2023) Se\u0002lective non-toxics inhibitors targeting DHFR for tuberculosis\r\nand cancer therapy: pharmacophore generation and molec\u0002ular dynamics simulation. Bioinformatics and Biology In\u0002sights 17: 11779322231171778.\r\n48. El Haddoumi G, Mansouri M, Kourou J, et al. (2024)\r\nTargeting decaprenylphosphoryl-β-D-ribose 20\r\n-epimerase\r\nfor innovative drug development against mycobacterium\r\ntuberculosis drug-resistant strains. Bioinformatics and Bi\u0002ology Insights 18: 11779322241257039.\r\n49. El Haddoumi G, Mansouri M, Bendani H, et al. (2023)\r\nFacing antitubercular resistance: identification of potential\r\ndirect inhibitors targeting InhA enzyme and generation of\r\n3D-pharmacophore model by in silico approach. Adv Appl\r\nBioinform Chem 16: 49–59.\r\n50. Kenny PW (2022) Hydrogen bond donors in drug design.\r\nJournal of Medicinal Chemistry 65(21): 14261–14275. DOI:\r\n10.1021/acs.jmedchem.2c01147.\r\n51. Chen D, Oezguen N, Urvil P, et al. (2016) Regulation of\r\nprotein-ligand binding affinity by hydrogen bond pairing.\r\nScience Advances 2(3): e1501240. DOI: 10.1126/sciadv.\r\n1501240. https://www.ncbi.nlm.nih.gov/pmc/articles/\r\nPMC4820369/\r\n52. Huang F, Cheng C and Feng G (2012) Introducing ligand\u0002based hydrogen bond donors to a receptor: both selectivity\r\nand binding affinity for anion recognition in water can be\r\nimproved. The Journal of Organic Chemistry 77(24):\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "11405–11408. DOI: 10.1021/jo302271t.\r\n53. Levitt M and Perutz MF (1988) Aromatic rings act as hy\u0002drogen bond acceptors. Journal of Molecular Biology\r\n201(4): 751–754.\r\n54. Igarashi M, Nozawa T, Matsumoto T, et al. (2021) Parallel\u0002stacked aromatic molecules in hydrogen-bonded inorganic\r\nframeworks. Nature Communications 12(1): 7025.\r\n55. Scheiner S, Kar T and Pattanayak J (2002) Comparison of\r\nvarious types of hydrogen bonds involving aromatic amino\r\nacids. Journal of the American Chemical Society 124(44):\r\n13257–13264.\r\n56. Annan A, Raiss N, Elmir EH, et al. (2023) Revolutionizing\r\nantiretroviral therapy for human immunodeficiency virus/\r\nAIDS: a computational approach using molecular docking,\r\nvirtual screening, and 3D pharmacophore building to address\r\ntherapeutic failure and propose highly effective candidates.\r\nInternational Journal of Immunopathology and Pharma\u0002cology 37: 03946320231207514.\r\n57. Annan A, Raiss N, Lemrabet S, et al. (2024) Proposal of\r\npharmacophore model for HIV reverse transcriptase inhib\u0002itors: combined mutational effect analysis, molecular dy\u0002namics, molecular docking and pharmacophore modeling\r\nstudy. International Journal of Immunopathology and\r\nPharmacology 38: 3946320241231465.\r\n58. Córdova-Sintjago T, Villa N, Fang L, et al. (2014) Aromatic\r\ninteractions impact ligand binding and function at serotonin 5-\r\nHT2C G protein-coupled receptors: receptor homology mod\u0002eling, ligand docking, and molecular dynamics results validated\r\nby experimental studies. Molecular Physics 112(3–4): 398–407.\r\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3979624/\r\n59. Brylinski M (2018) Aromatic interactions at the ligand\u0002protein interface: implications for the development of\r\ndocking scoring functions. Chemical Biology and Drug\r\nDesign 91(2): 380–390.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 578336088296065618,
+        "filename": "10.1177_03946320241282030.PMC11380138.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 251,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "60. Toplak Z, Merzel F, Pardo LA, et al. (2021) Molecular ˇ\r\ndynamics-derived pharmacophore model explaining the\r\nnonselective aspect of KV10.1 pore blockers. International\r\nJournal of Molecular Sciences 22(16): 8999.\r\n61. Seidel T, Ibis G, Bendix F, et al. (2010) Strategies for 3D\r\npharmacophore-based virtual screening. Drug Discovery\r\nToday: Technologies 7(4): e221–e228.\r\n62. Sanapalli BKR, Yele V, Jupudi S, et al. (2021) Ligand-based\r\npharmacophore modeling and molecular dynamic simulation\r\napproaches to identify putative MMP-9 inhibitors. RSC\r\nAdvances 11(43): 1–31.\r\nAppendix\r\nAbbreviations\r\nAD-HIES Autosomal dominant hyper IgE Syndrome\r\nSyk Spleen Tyrosine Kinase\r\nITAMs Immunoreceptor tyrosine-based activating\r\nmotifs\r\nSOCS1 Suppressor of cytokine signaling protein 1\r\n20 International Journal of Immunopathology and Pharmacology\n\n"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "2025 Ewha Womans University College of Medicine and Ewha Medical Research Institute \r\nThis is an open-access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by\u0002nc/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.\r\n*Corresponding email: mpsohyun@ewha.ac.kr\r\nReceived: June 23, 2025 Revised: July 15, 2025 Accepted: July 16, 2025\r\ne-emj.org 1 / 9\r\nEwha Med J 2025;48(3):e44\r\nhttps://doi.org/10.12771/emj.2025.00486\r\neISSN: 2234-2591\r\nOpen Access\r\nOriginal article\r\nAutomated early detection of androgenetic alopecia using deep \r\nlearning on trichoscopic images from a Korean cohort: a \r\nretrospective model development and validation study\r\nMin Jung Suh1, Sohyun Ahn2*, Ji Yeon Byun3\r\n1\r\nEwha Womans University College of Medicine, Seoul, Korea\r\n2\r\nEwha Medical Research Institute, Ewha Womans University College of Medicine, Seoul, Korea\r\n3\r\nDepartment of Dermatology, Ewha Womans University College of Medicine, Seoul, Korea\r\nIntroduction\r\nBackground/rationale\r\nHair loss, especially androgenetic alopecia (AGA), is a com\u0002mon dermatological condition that has a considerable impact on \r\npatients’ quality of life. Early detection is essential, both for initiat\u0002ing timely treatment and for preventing further progression \r\nduring the subtle and potentially reversible stages of the disease \r\n[1]. In clinical settings, the Basic and Specific (BASP) classifica\u0002tion system is widely used to assess the severity of hair loss, sys\u0002tematically categorizing frontal and vertex scalp patterns into \r\nstructured scores [2]. However, BASP scoring is based on manual \r\nvisual assessment, which introduces subjectivity and variability \r\nbetween observers.\r\nTo overcome these limitations, deep learning–based approach\u0002es have increasingly been explored in dermatology, providing au\u0002tomated and objective tools for image-based diagnosis [3]. Con\u0002volutional neural networks (CNNs), in particular, have shown \r\nstrong performance in medical imaging tasks [4], including \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "trichoscopic image analysis [5]. Building on this foundation, our \r\nstudy aimed to develop and validate a deep learning–based classi\u0002fication model capable of distinguishing BASP 0 (no hair loss) \r\nfrom BASP 1–3 (early-stage hair loss) directly from scalp images, \r\nwith the goal of improving diagnostic reproducibility and stan\u0002Purpose: This study developed and validated a deep learning model for the automated early detection of androgenetic alopecia (AGA) using trichoscopic \r\nimages, and evaluated the model’s diagnostic performance in a Korean clinical cohort.\r\nMethods: We conducted a retrospective observational study using 318 trichoscopic scalp images labeled by board-certified dermatologists according to the \r\nBasic and Specific (BASP) system, collected at Ewha Womans University Medical Center between July 2018 and January 2024. The images were categorized \r\nas BASP 0 (no hair loss) or BASP 1–3 (early-stage hair loss). A ResNet-18 convolutional neural network, pretrained on ImageNet, was fine-tuned for binary \r\nclassification. Internal validation was performed using stratified 5-fold cross-validation, and external validation was conducted through ensemble soft voting \r\non a separate hold-out test set of 20 images. Model performance was measured by accuracy, precision, recall, F1-score, and area under the curve (AUC), with \r\n95% confidence intervals (CIs) calculated for hold-out accuracy.\r\nResults: Internal validation revealed robust model performance, with 4 out of 5 folds achieving an accuracy above 0.90 and an AUC above 0.93. In external \r\nvalidation on the hold-out test set, the ensemble model achieved an accuracy of 0.90 (95% CI, 0.77–1.03) and an AUC of 0.97, with perfect recall for ear\u0002ly-stage hair loss. No missing data were present, and the model demonstrated stable convergence without requiring data augmentation.\r\nConclusion: This model demonstrated high accuracy and generalizability for detecting early-stage AGA from trichoscopic images, supporting its potential \r\nutility as a screening tool in clinical and teledermatology settings.\r\nKeywords: Alopecia; Computer neural networks; Scalp; Deep learning; Dermatologists\ne-emj.org 2 / 9\r\ndardization.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "This study was specifically designed to address common chal\u0002lenges in medical image analysis, such as small dataset size and \r\nclass imbalance. To evaluate model performance, we employed a \r\n2-tier experimental strategy. First, we performed internal valida\u0002tion using stratified 5-fold cross-validation across the entire data\u0002set to assess training stability and to identify optimal training con\u0002figurations [6]. Next, informed by these findings, we conducted \r\nexternal validation with a hold-out test set using ensemble voting, \r\nthereby simulating real-world application on previously unseen \r\nimages [7]. This sequential approach allowed us to evaluate both \r\nmodel training dynamics and real-world generalizability.\r\nTo support these experiments, we redefined BASP labels into \r\nbinary categories (BASP 0 vs. BASP 1–3), implemented class-pre\u0002serving validation through stratified sampling, and selected Res\u0002Net-18, a lightweight yet effective CNN architecture known for \r\nits balance of performance and computational efficiency in small\u0002to medium-sized datasets.\r\nObjectives\r\nThe aim of this study was to evaluate the model’s diagnostic ac\u0002curacy, generalizability, and clinical utility using both internal \r\ncross-validation and external hold-out testing, providing evidence \r\nfor its potential application in dermatological screening. Addition\u0002ally, we sought to address class imbalance through stratified sam\u0002pling, to assess the feasibility of binary BASP classification, and to \r\ndemonstrate the use of a ResNet-18 CNN for the automated as\u0002sessment of early-stage AGA.\r\nMethods\r\nEthics statement\r\nThis study was approved by the Institutional Review Board \r\n(IRB) of Ewha Womans University Medical Center (IRB no., \r\nEUMC 2025-01-037). The requirement for informed consent \r\nwas waived due to the retrospective nature of the study and the \r\nuse of de-identified image data.\r\nStudy design\r\nThis was a retrospective observational study aimed at develop\u0002ing a deep learning model for classifying hair loss severity based \r\non the BASP system.\r\nSettings\r\nA total of 318 trichoscopic images were collected from patients \r\nvisiting the Department of Dermatology at Ewha Womans Uni\u0002versity Medical Center (Seoul, Republic of Korea) between July 7, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "2018, and January 31, 2024. All images were acquired using the \r\nDermLite DL Cam Photo dermoscopy system (3Gen Inc.) and \r\nwere captured from the frontal and vertex scalp regions during \r\nroutine clinical assessments. Images of the occipital region, \r\nthough used by dermatologists for clinical comparison during \r\nBASP scoring, were excluded from both model training and eval\u0002uation.\r\nParticipants\r\nEligible participants included patients aged 15 to 84 years who \r\npresented with concerns regarding hair loss. No additional inclu\u0002sion or exclusion criteria were applied beyond clinical presenta\u0002tion, and all trichoscopic images with valid BASP annotations \r\nwere included in the study. Labeling was performed by board-cer\u0002tified dermatologists using the BASP classification system, result\u0002ing in 151 images labeled as BASP 0 and 167 images labeled as \r\nBASP 1, 2, or 3 (Table 1). There were no missing data in the final \r\ndataset used for model development and evaluation.\r\nVariables\r\nThe primary outcome variable was binary classification of hair \r\nloss severity, defined as class 0 for BASP 0 and class 1 for BASP \r\n1–3. This binary categorization was derived from the original \r\n4-class BASP labels (BASP 0, 1, 2, and 3), which were assigned by \r\ndermatologists.\r\nImage preprocessing and model configuration\r\nEach trichoscopic image was paired with its corresponding \r\nBASP score using a consistent filename-label mapping system, \r\nenabling the model to learn the association between image fea\u0002tures and hair loss severity. Images were resized to 224 × 224 pix\u0002els and normalized to a mean of 0.5 and standard deviation of 0.5 \r\nfor each RGB channel.\r\nA ResNet-18 CNN pretrained on ImageNet was used as the \r\nbackbone. The final fully connected layer was replaced with a \r\n2-unit output layer for binary classification. Model training was \r\nperformed using the Adam optimizer (learning rate = 0.001), a \r\nbatch size of 128, and the cross-entropy loss function. No data \r\naugmentation or early stopping strategies were used. Each model \r\nwas trained for a fixed 100 epochs.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "Table 1. Distribution of original data \r\nBASP label 0 1 2 3 Total\r\nNo. of images 151 109 47 11 318\r\nBASP, Basic and Specific.\ne-emj.org 3 / 9\r\nValidation test\r\nInternal validation: Stratified 5-fold cross-validation\r\nThe entire dataset (n = 318) underwent stratified 5-fold \r\ncross-validation to ensure class balance within each fold. In every \r\nfold, 80% of the data were used for training and 20% for evalua\u0002tion. The model with the highest validation accuracy over the 100 \r\nepochs was selected for reporting performance.\r\nExternal validation: Hold-out ensemble testing\r\nTo evaluate generalizability, a hold-out test set of 20 images was \r\ncreated by randomly sampling 10 images from BASP 0 and 10 \r\nfrom BASP 1–3, ensuring class balance. The BASP 1–3 subset \r\nconsisted of 4 BASP 1, 3 BASP 2, and 3 BASP 3 images, reflecting \r\nthe distribution of hair loss stages (Table 2). These 20 images \r\nwere completely excluded from model training and validation \r\nprocesses.\r\nModel training and prediction\r\nThe remaining 298 images were used to train 5 ResNet-18 mod\u0002els via stratified 5-fold cross-validation. Each model was then ap\u0002plied to the hold-out set. Final predictions were determined by en\u0002semble soft voting, where the average class probabilities from the 5 \r\nmodels were combined to determine the predicted label. This en\u0002semble approach was intended to simulate a real-world diagnostic \r\nscenario and enhance robustness in performance estimation.\r\nBias mitigation strategies\r\nTo address potential sources of bias in this small and imbal\u0002anced dataset, stratified k-fold cross-validation was used to ensure \r\nthat all original samples were included in both training and valida\u0002tion while maintaining class distribution across folds. This ap\u0002proach mitigated selection bias and maximized data utility. Data \r\naugmentation was intentionally excluded to avoid introducing ar\u0002tificial variability. Additionally, ensemble prediction via soft voting \r\nacross 5-fold-specific models was used in the hold-out test phase \r\nto reduce model variance and improve generalizability.\r\nStudy size\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "In total, 318 images were analyzed. No a priori sample size cal\u0002culation was performed; instead, all eligible labeled images from \r\nthe institutional database were used to reflect real-world clinical \r\ndata availability. Post hoc 95% confidence intervals (CIs) were \r\ncalculated for model accuracy in the hold-out set, based on the \r\nprimary endpoint of binary classification performance.\r\nEvaluation metrics\r\nPerformance on the hold-out set was assessed using ensemble \r\naccuracy, confusion matrix, receiver operating characteristic \r\n(ROC) curve analysis, area under the curve (AUC), and the 95% \r\nCI for accuracy. Classification metrics included accuracy, preci\u0002sion, recall, F1-score, and AUC. For the hold-out evaluation, a \r\n95% CI for accuracy was computed using the Wald method.\r\nStatistical methods\r\nAll statistical analyses and model training were performed using \r\nPython ver. 3.9 (https://www.python.org/) and PyTorch ver. 1.12 \r\n(Meta) in the Google Colab environment. Image preprocessing, \r\nmodel definition, training, and evaluation were implemented us\u0002ing in-house PyTorch-based scripts. Visualization of results, in\u0002cluding ROC curves and confusion matrices, was conducted us\u0002ing Matplotlib ver. 3.7 (Hunter). No statistical hypothesis testing \r\n(such as P-values) was conducted, as the focus was on classifica\u0002tion performance and generalizability rather than group compari\u0002sons. Python code is available in Supplement 1.\r\nResults\r\nParticipants\r\nA total of 318 trichoscopic scalp images were included for bina\u0002ry classification. Of these, 159 images were labeled as BASP 0 (no \r\nhair loss, class 0) and 159 images were labeled as BASP 1, 2, or 3 \r\n(early hair loss, class 1). No data were excluded, and all labeled \r\nimages were used in both model training and evaluation.\r\nInternal validation: stratified 5-fold cross-validation\r\nThe complete dataset (n = 318) was used in stratified 5-fold \r\ncross-validation, ensuring equal class distribution within each \r\nfold. Each fold was trained for 100 epochs, with the model achiev\u0002ing the highest validation accuracy selected. The best epoch and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "corresponding performance metrics—accuracy, precision, recall, \r\nF1-score, and AUC—are summarized in Table 3.\r\nThe model demonstrated stable performance across most folds, \r\nwith 4 out of 5 achieving accuracy above 0.90 and AUC values \r\nabove 0.93. One fold (Fold 5) showed relatively lower perfor\u0002mance but still maintained an AUC of 0.8202. Detailed training \r\ncurves for each fold are shown in Fig. 1, illustrating how both ac\u0002Table 2. Dataset configuration for hold-out ensemble voting \r\ntest \r\nClass 0 Class 1\r\nBASP label 0 1 2 3\r\nHold-out test set 10 4 3 3\r\nBASP, Basic and Specific.\ne-emj.org 4 / 9\r\nTable 3. Fold-wise metrics for stratified 5-fold cross-validation \r\nFold Best epoch Accuracy Precision Recall F1-score AUC\r\n1 100 0.9375 0.9677 0.9091 0.9375 0.9423\r\n2 17 0.8906 0.8462 0.9706 0.9041 0.9353\r\n3 4 0.9219 0.9143 0.9412 0.9275 0.9618\r\n4 33 0.9206 0.9375 0.9091 0.9231 0.9707\r\n5 31 0.7460 0.7429 0.7879 0.7647 0.8202\r\nAll performance metrics were rounded to 4 decimal places.\r\nAUC, area under the curve.\r\nFig. 1. (A–J) Epoch-wise accuracy and area under the receiver operating characteristic curve (AUC) for each fold.\r\nA\r\nE\r\nI\r\nB\r\nF\r\nJ\r\nC\r\nG\r\nD\r\nH\r\ncuracy and AUC progressed and converged over the 100 epochs. \r\nThe average epoch time per fold ranged from 8.3 to 8.6 seconds, \r\nconfirming the computational efficiency of ResNet-18 in this \r\nsmall- to medium-scale medical imaging task.\r\nExternal validation: hold-out test with ensemble voting\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "To assess generalizability, a separate hold-out test set of 20 im\u0002ages was created. The hold-out set included 10 class 0 and 10 class \r\n1 images, selected via stratified sampling for balanced class repre\u0002sentation. Detailed sample composition and individual model \r\npredictions are provided in Supplement 2. These samples were \r\nFold 1: epoch accuracy\r\nFold 3: epoch accuracy\r\nFold 5: epoch accuracy\r\nFold 2: epoch accuracy\r\nFold 4: epoch accuracy\r\nFold 1: epoch AUC\r\nFold 3: epoch AUC\r\nFold 5: epoch AUC\r\nFold 2: epoch AUC\r\nFold 4: epoch AUC\ne-emj.org 5 / 9\r\nexcluded from training and reserved solely for external validation. \r\nThe remaining 298 images were used to train 5 ResNet-18 mod\u0002els using stratified 5-fold cross-validation. The best-performing \r\nmodel for each fold was selected based on the highest classifica\u0002tion accuracy on the respective test fold. These models, trained on \r\nthe reduced dataset, demonstrated consistently high performance: \r\nall folds achieved accuracy above 0.80 and AUC above 0.86, with \r\n1 fold reaching 0.95 in both metrics (Table 4). These results indi\u0002cate stable and effective training despite the reduced sample size. \r\nDetailed fold-wise metrics are presented below, and training \r\ncurves are shown in Fig. 2.\r\nEach of the 5 models was then used to independently predict \r\nthe 20-image hold-out test set. Final ensemble predictions were \r\nmade using soft voting, averaging the predicted probabilities for \r\neach class across the 5 models. The ensemble model correctly \r\nclassified 18 out of 20 images, achieving an accuracy of 0.9000. \r\nNotably, all 10 class 1 images were correctly identified, resulting in \r\nperfect recall for early hair loss detection. Two class 0 images were \r\nmisclassified as class 1. The ROC curve showed an AUC of 0.970, \r\nand the 95% CI for accuracy, calculated using the Wald method, \r\nTable 4. Fold-wise metrics from training on the 298-image dataset \r\nFold Best epoch Accuracy Precision Recall F1-score AUC\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "1 11 0.8333 0.8621 0.8065 0.8333 0.8788\r\n2 14 0.8000 0.7632 0.9063 0.8286 0.8650\r\n3 23 0.9500 0.9143 1.0000 0.9552 0.9542\r\n4 22 0.8475 0.8929 0.8065 0.8475 0.9182\r\n5 23 0.8644 0.8966 0.8387 0.8667 0.9389\r\nAUC, area under the curve.\r\nFig. 2. (A–J) Epoch-wise accuracy and area under the receiver operating characteristic curve (AUC) for each fold trained on 298 \r\nimages.\r\nFold 1: accuracy\r\nFold 3: accuracy\r\nFold 5: accuracy\r\nFold 2: accuracy\r\nFold 4: accuracy\r\nFold 1: AUC\r\nFold 3: AUC\r\nFold 5: AUC\r\nFold 2: AUC\r\nFold 4: AUC\r\nA\r\nE\r\nI\r\nB\r\nF\r\nJ\r\nC\r\nG\r\nD\r\nH\ne-emj.org 6 / 9\r\nwas 0.768 to 1.032.\r\nThe confusion matrix and ROC curve illustrating ensemble \r\nperformance are presented in Fig. 3. Detailed predictions for each \r\nof the 20 hold-out images, including model-specific votes and en\u0002semble results, are provided in Supplement 3.\r\nDiscussion\r\nKey results\r\nThis study developed a ResNet-18-based deep learning model \r\nfor classifying trichoscopic images by early-stage AGA severity us\u0002ing the BASP system. The model consistently demonstrated high \r\nperformance in internal validation via stratified 5-fold cross-vali\u0002dation and maintained robust generalizability in external ensem\u0002ble testing. High accuracy and AUC values in both validation set\u0002tings confirmed the model’s reliable discrimination between \r\nBASP 0 and BASP 1–3, even on previously unseen data.\r\nInterpretation\r\nThe goal of this study was to assess the feasibility of deep learn\u0002ing for early-stage hair loss screening based on the BASP classifi\u0002cation. The model showed consistently high performance across \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "stratified internal folds, reflecting its ability to learn relevant pat\u0002terns from trichoscopic images despite the limited data. Notably, \r\n4 out of 5 internal folds achieved strong accuracy and AUC scores, \r\nwith only 1 fold showing relatively reduced performance, likely \r\ndue to incidental variation in class composition within that partic\u0002ular split. Nevertheless, this fold still maintained a respectable \r\nAUC of 0.8202, suggesting overall robustness across validation \r\nsubsets.\r\nThis stability may be attributed to the binary simplification of \r\nBASP labels (BASP 0 vs. BASP 1–3), which reduced class frag\u0002mentation and enhanced the signal-to-noise ratio during training. \r\nStratified 5-fold cross-validation further mitigated bias from class \r\nimbalance and ensured that every image contributed to both \r\ntraining and validation—a critical design choice for small datasets. \r\nImportantly, data augmentation was deliberately excluded, yet the \r\nmodel still exhibited stable convergence across folds (Figs. 1, 2), \r\nindicating that core patterns were sufficiently learnable from raw \r\nimage features alone.\r\nPerformance on the external hold-out test set further validated \r\nthe model’s generalizability. Ensemble soft voting, based on 5 in\u0002dependently trained models, successfully classified 18 out of 20 \r\nimages, achieving 90% accuracy and an AUC of 0.970. All early \r\nhair loss cases (class 1) were correctly identified, resulting in per\u0002fect recall. In clinical screening, such a low false-negative rate is \r\ncrucial for timely intervention and minimizing missed diagnoses.\r\nThese findings collectively suggest that, with careful design, \r\nsuch as label restructuring, stratified sampling, and ensemble eval\u0002uation, even small, real-world clinical datasets can support the de\u0002velopment of reliable deep learning models for early-stage disease \r\ndetection. While the external test set was limited to 20 images, the \r\nensemble approach helped compensate for this limitation by re\u0002ducing model variance and strengthening prediction confidence.\r\nFig. 3. Confusion matrix (A) and receiver operating characteristic (ROC) curve (B) for ensemble predictions on the hold-out set. \r\nAUC, area under the ROC curve.\r\nA Confusion matrix (hold-out ensemble) B ROC curve on hold-out set True label True positive rate\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "Prediction label False positive rate\r\nAUC=0.970 \ne-emj.org 7 / 9\r\nComparison with previous studies\r\nWhile previous research has applied CNNs to dermatologic \r\nimaging, few studies have specifically targeted early-stage AGA or \r\nintegrated BASP classification into model development. Most ex\u0002isting approaches rely on multiclass classification or segmentation \r\ntasks, which typically require larger datasets and extensive manual \r\nlabeling.\r\nIn contrast, this study demonstrates that clinically meaningful \r\nclassification can be achieved through strategic label simplifica\u0002tion and robust validation strategies, even with limited data. By \r\nemploying stratified cross-validation and ensemble-based external \r\ntesting, this work addresses a common gap in medical artificial in\u0002telligence (AI) research: the reliance on internal metrics without \r\nassessment of generalizability to unseen data.\r\nLimitations\r\nThe main limitation of this study is its small sample size \r\n(n = 318), which may restrict generalizability. In particular, images \r\nlabeled as BASP 2 and 3 were underrepresented, potentially limit\u0002ing the model’s ability to learn nuanced patterns across progres\u0002sive hair loss stages. A larger, more diverse dataset would support \r\nmore robust training and enable a more comprehensive evalua\u0002tion, including an expanded hold-out test set. All images were ob\u0002tained from a single institution under specific imaging conditions, \r\nwhich may not capture the full variability seen in wider clinical \r\nsettings, such as differences in scalp types, lighting, or trichoscop\u0002ic equipment. Additionally, only one CNN architecture (Res\u0002Net-18) was evaluated. Comparative assessments across multiple \r\narchitectures or training configurations could provide greater in\u0002sight into model optimization.\r\nTraining hyperparameters, such as batch size and learning rate, \r\nwere not systematically optimized. Although a batch size of 8 was \r\ninitially tested, training did not converge effectively under that \r\ncondition. A batch size of 128 was subsequently adopted based on \r\nsuccessful convergence and was maintained throughout the study. \r\nBeyond this adjustment, no systematic exploration or substudy \r\nwas conducted to identify optimal configurations for further im\u0002proving model performance in this dataset.\r\nFinally, the performance variability observed across cross-vali\u0002dation folds—most notably in Fold 5—highlights the model’s \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "sensitivity to class composition and sampling variation, under\u0002scoring the challenges of training on limited, imbalanced medical \r\ndatasets.\r\nGeneralizability\r\nDespite the limited dataset, ensemble-based hold-out testing \r\ndemonstrated strong generalizability to unseen images. The mod\u0002el’s high recall for early-stage AGA suggests potential clinical value \r\nas a screening tool, especially in resource-limited settings such as \r\nprimary care or teledermatology. However, because all data were \r\nsourced from a single institution using one specific dermoscopy \r\ndevice, and all images were from Korean patients, broader gener\u0002alization across different populations (varying in age, sex, ethnici\u0002ty, and imaging equipment) will require future validation using \r\nmulticenter, multi-ethnic, and multi-device datasets.\r\nSuggestions for further studies\r\nTo build upon these findings and develop a practical diagnostic \r\nframework for early-stage AGA, several future directions are sug\u0002gested.\r\nFirst, multicenter data collection encompassing diverse popula\u0002tions, imaging devices, and clinical environments is essential to \r\nenhance generalizability and reduce bias related to demographics \r\nor equipment. Larger and more balanced datasets would also en\u0002able finer label granularity—for example, distinguishing BASP 1 \r\n(early) from BASP 2–3 (progressive)—to better reflect the clini\u0002cal spectrum of hair loss.\r\nSecond, comparative evaluation of alternative neural network \r\narchitectures, such as EfficientNet, DenseNet, or vision trans\u0002formers, should be performed to identify optimal trade-offs \r\namong diagnostic accuracy, computational efficiency, and deploy\u0002ment feasibility.\r\nThird, integrating explainability techniques (such as Grad\u0002CAM) and uncertainty quantification methods (like CIs or Mon\u0002te Carlo dropout) may improve clinical trust and facilitate hu\u0002man–AI collaboration. Fairness metrics should also be monitored \r\nto assess potential bias across age, sex, or ethnicity subgroups.\r\nFinally, real-world implementation studies in primary care or \r\nteledermatology—including workflow simulations and user feed\u0002back—will be vital for validating the model’s practical utility and \r\neducational value in early diagnosis scenarios.\r\nConclusion\r\nThis study demonstrated the feasibility of a deep learning–\r\nbased approach for early detection of AGA by leveraging BASP \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "score classification. By simplifying the task to a binary distinction \r\nbetween non-hair loss (BASP 0) and early hair loss (BASP 1–3), \r\nthe model achieved strong performance in both internal valida\u0002tion and ensemble-based external testing, without requiring data \r\naugmentation or extensive hyperparameter tuning. The use of \r\nstratified cross-validation and ensemble soft voting enabled robust \r\nlearning even with a limited dataset, suggesting practical applica\u0002bility in clinical screening scenarios. In particular, the high recall \r\nfor early hair loss cases indicates strong potential for timely inter-\ne-emj.org 8 / 9\r\nvention. These results support the integration of automated \r\nBASP-based assessment tools into dermatological workflows, \r\npromoting more standardized and objective evaluation of hair \r\nloss in clinical and teledermatology practice.\r\nFurthermore, such deep learning–based systems may reduce \r\nthe burden of manual labeling, minimize subjectivity in early hair \r\nloss diagnosis, and offer consistent alerts for possible AGA, there\u0002by improving the accessibility, accuracy, and standardization of \r\ndermatologic care.\r\nORCID\r\nMin Jung Suh: https://orcid.org/0009-0007-6087-7823\r\nSohyun Ahn: https://orcid.org/0000-0002-0116-3325\r\nJi Yeon Byun: https://orcid.org/0000-0003-4519-9474\r\nAuthors’ contribution\r\nConceptualization: MJS, SHA, JYB. Data curation: MJS, JYB. \r\nFormal analysis: MJS. Funding acquisition: SHA, JYB. Methodol\u0002ogy: MJS. Project administration: SHA. Visualization: MJS. In\u0002vestigation: MJS. Resources: JYB, SHA. Software: MJS. Supervi\u0002sion: SHA, JYB. Writing–original draft: MJS. Writing–review & \r\nediting: MJS, SHA, JYB.\r\nConflict of interest\r\nSo Hyun Ahn has been an assistant editor of the journal since \r\n2024, and Ji Yeon Byun has been an assistant editor of the journal \r\nsince 2016. However, they were not involved in the editorial or \r\npeer-review process of this manuscript. Otherwise, no potential \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "conflict of interest relevant to this article was reported.\r\nFunding\r\nNone.\r\nData availability\r\nDue to privacy concerns, the raw trichoscopic image data can\u0002not be publicly shared (see Fig. 4 for a representative example).\r\nAcknowledgments\r\nNone.\r\nSupplementary materials\r\nSupplementary files are available from https://doi.org/10.7910/\r\nDVN/BSXO6A\r\nSupplement 1. Python-based training and evaluation code ( Ju\u0002pyter Notebook, .ipynb format).\r\nSupplement 2. Hold-out set composition.\r\nSupplement 3. Model-wise predictions and ensemble results for \r\neach image in the hold-out test set.\r\nReferences\r\n1. Starace M, Orlando G, Alessandrini A, Piraccini BM. Female \r\nandrogenetic alopecia: an update on diagnosis and manage\u0002ment. Am J Clin Dermatol 2020;21:69-84. https://doi.org/\r\n10.1007/s40257-019-00479-x\r\n2. Lee JY, Kim CH, Lee WS. Relationship between illness behav\u0002ior and hair loss pattern according to the basic and specific \r\n(BASP) classification. Ann Dermatol 2023;35:318-320. \r\nhttps://doi.org/10.5021/ad.21.085\r\n3. Lee S, Lee JW, Choe SJ, Yang S, Koh SB, Ahn YS, Lee WS. Clin\u0002ically applicable deep learning framework for measurement of \r\nthe extent of hair loss in patients with alopecia areata. JAMA \r\nDermatol 2020;156:1018-1020. https://doi.org/10.1001/ja\u0002madermatol.2020.2188\r\n4. Esteva A, Kuprel B, Novoa RA, Ko J, Swetter SM, Blau HM, \r\nThrun S. Dermatologist-level classification of skin cancer with \r\ndeep neural networks. Nature 2017;542:115-118. https://doi.\r\norg/10.1038/nature21056\r\n5.Kuhn M, Johnson K. Applied predictive modeling. Springer; \r\n2013. https://doi.org/10.1007/978-1-4614-6849-3\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8859553426348625894,
+        "filename": "emj-2025-00486.PMC12362284.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 141,
+      "total_chunks": 15,
+      "version": "1.0.0"
+    },
+    "text": "Fig. 4. (A, B) Example of scalp image and Basic and Specific (BASP) classification data.\r\nA B\ne-emj.org 9 / 9\r\n6. Goodfellow I, Bengio Y, Courville A. Deep learning. MIT Press; \r\n2016.\r\n7.Ismail Fawaz H, Forestier G, Weber J, Idoumghar L, Muller PA. \r\nDeep learning for time series classification: a review. Data Min \r\nKnowl Discov 2019;33:917-963. https://doi.org/10.1007/\r\ns10618-019-00619-1\n\n"
+  }
+]

@@ -1,0 +1,770 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": true,
+      "headings": [],
+      "min_heading_level": 1,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Development and application of an\r\nalgorithm for detecting Phaeocystis globosa\r\nblooms in the Case 2 Southern\r\nNorth Sea waters\r\nROSA ASTORECA1*, VE´ RONIQUE ROUSSEAU1, KEVIN RUDDICK2, CE´ CILE KNECHCIAK1, BARBARAVAN MOL2,\r\nJEAN-YVES PARENT1 AND CHRISTIANE LANCELOT1\r\n1\r\nECOLOGIE DES SYSTE`MES AQUATIQUES (ESA), FACULTE´ DES SCIENCES, UNIVERSITE´ LIBRE DE BRUXELLES, CAMPUS PLAINE, CP 221, BOULEVARD DU TRIOMPHE,\r\nB-1050 BRUSSELS, BELGIUM AND 2MANAGEMENT UNIT OF THE NORTH SEA MATHEMATICAL MODELS (MUMM), ROYAL BELGIAN INSTITUTE FOR NATURAL\r\nSCIENCES, 100 GULLEDELLE, B-1200 BRUSSELS, BELGIUM\r\n*CORRESPONDING AUTHOR: rastorec@ulb.ac.be\r\nReceived August 1, 2008; accepted in principle November 11, 2008; accepted for publication November 6, 2008; published online 16 December, 2008\r\nCorresponding editor: William Li\r\nWhile mapping algal blooms from space is now well-established, mapping undesirable algal\r\nblooms in eutrophicated coastal waters raises further challenge in detecting individual phytoplankton\r\nspecies. In this paper, an algorithm is developed and tested for detecting Phaeocystis globosa blooms\r\nin the Southern North Sea. For this purpose, we first measured the light absorption properties of\r\ntwo phytoplankton groups, P. globosa and diatoms, in laboratory-controlled experiments. The main\r\nspectral difference between both groups was observed at 467 nm due to the absorption of the\r\npigment chlorophyll c3 only present in P. globosa, suggesting that the absorption at 467 nm can be\r\nused to detect this alga in the field. A Phaeocystis-detection algorithm is proposed to retrieve chloro\u0002phyll c3 using either total absorption or water-leaving reflectance field data. Application of this\r\nalgorithm to absorption and reflectance data from Phaeocystis-dominated natural communities\r\nshows positive results. Comparison with pigment concentrations and cell counts suggests that the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "algorithm can flag the presence of P. globosa and provide quantitative information above a chloro\u0002phyll c3 threshold of 0.3 mg m23 equivalent to a P. globosa cell density of 3 \u0002 106 cells L21\r\n.\r\nFinally, the possibility of extrapolating this information to remote sensing reflectance data in these\r\nturbid waters is evaluated.\r\nINTRODUCTION\r\nIn recent years, several attempts have been made to\r\nidentify phytoplankton functional groups using ocean\r\ncolour data. These studies serve different purposes such\r\nas (i) harmful algal bloom detection (Millie et al., 1997;\r\nKahru and Mitchell, 1998; Staehr and Cullen, 2003),\r\n(ii) accurate retrieval of satellite-derived chlorophyll a\r\nconcentrations in waters with different dominating\r\nphytoplankton populations (Sathyendranath et al., 2004)\r\nor (iii) mapping the distribution of phytoplankton groups\r\n(i.e. diatoms) at a global scale (Alvain et al., 2005).\r\nDiscrimination and identification between phyto\u0002plankton groups is based on their inherent optical prop\u0002erties, namely light absorption and backscattering\r\n(Stuart et al., 2000; Vaillancourt et al., 2004). The inter\u0002species differences in these optical properties can be\r\nretrieved from remote sensing data provided they are\r\ndistinct enough to alter the absorption/reflectance\r\nspectra at certain wavelengths and do not vary signifi\u0002cantly with the physiological state of the phytoplankton.\r\nThe light absorption characteristics of phytoplankton\r\ngroups depend on the pigment composition (Hoepffner\r\ndoi:10.1093/plankt/fbn116, available online at www.plankt.oxfordjournals.org\r\n# 2008 The Author(s)\r\nThis is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (http://creativecommons.org/\r\nlicenses/by-nc/2.0/uk/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is\r\nproperly cited.\r\nJOURNAL OF PLANKTON RESEARCH j VOLUME 31 j NUMBER 3 j PAGES 287–300 j 2009\nand Sathyendranath, 1991) and on packaging (Morel\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "and Bricaud, 1981). Pigment composition, and specifi\u0002cally the proportion of auxiliary pigments such as caro\u0002tenoids relative to the total chlorophyll a content, varies\r\nwith light or nutrient regimes (Johnsen et al., 1994;\r\nHenriksen et al., 2002; Staehr et al., 2002).\r\nCertain bloom forming species with specific optical\r\nsignatures have already been identified from remote\r\nsensing. With the notable exception of coccolithophores\r\nwhich can be detected from their very strong scattering\r\n(Smyth et al., 2002), taxa-specific algorithms are gener\u0002ally based on detecting the absorption of one or more\r\npigments which are characteristic of the target taxa. For\r\nexample, the unique combination of absorption features\r\nin the green (565 nm) caused by phycobilipigments of\r\ncyanobacteria, e.g. Trichodesmium, forms the basis of an\r\nalgorithm for the detection of this genus (Subramaniam\r\net al., 1999). The ultraviolet absorption characteristics of\r\nred-tide forming dinoflagellates have been used by\r\nKahru and Mitchell (Kahru and Mitchell, 1998) to\r\ndifferentiate them from other species. An algorithm for\r\nmapping of cyanobacteria in inland waters was devel\u0002oped by Simis et al. (Simis et al., 2005), who detected\r\nphycocyanin based on red absorption (620 nm).\r\nThe prymnesiophyte Phaeocystis globosa, referred here\u0002after as Phaeocystis, blooms each spring in the Southern\r\nBight of the North Sea stimulated by nitrate enrichment\r\n(Lancelot, 1995; Lancelot et al., 1998). This species\r\nforms large ungrazed colonies (up to 3 mm diameter)\r\nthat accumulate in the water and create, under windy\r\nconditions, thick layers of foul-smelling foam on\r\nbeaches, making it undesirable (Lancelot et al., 1987;\r\nLancelot, 1995). At that time of the year, Phaeocystis and\r\ndiatoms form the bulk phytoplankton community in the\r\nBelgian coastal zone (Rousseau, 2000; Muylaert et al.,\r\n2006) and together can reach high levels of chlorophyll\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "a detectable from space (Peters et al., 2005). The relative\r\ncontribution of diatom and Phaeocystis to the spring\r\nbloom varies between years with most years being\r\ndominated by Phaeocystis (Breton et al., 2006).\r\nSatellite imagery provides useful information on con\u0002centrations of chlorophyll a and can be used as a tool\r\nfor mapping the magnitude and the geographical\r\nextent of blooms in this area. However, the bulk chloro\u0002phyll a information is not sufficient to identify whether\r\na bloom consists of the undesirable Phaeocystis. Recently,\r\nLubac et al. (Lubac et al., 2008) proposed multispectral\r\nand hyperspectral approaches to detect Phaeocystis based\r\non two reflectance ratios and the position of the\r\nmaxima and minima of second derivative analysis of\r\nreflectance spectra, respectively. These methods are\r\nessentially qualitative and are discussed in more detail\r\nlater.\r\nThe objective of this study is to identify an optical\r\nfeature which could be used to discriminate between\r\ndiatoms and Phaeocystis on the basis of reflectance data\r\nand hence to develop an algorithm for the detection of\r\nPhaeocystis in turbid coastal waters. As a first step, the\r\ndifferences in the absorption signature of cultured\r\nPhaeocystis and diatoms representative of the Belgian\r\ncoastal zone are analysed under different light con\u0002ditions. The differences in the water-leaving reflectance\r\nspectra are then analysed for samples dominated either\r\nby diatoms or Phaeocystis. Finally, an algorithm is devel\u0002oped and validated to detect the presence and quantify\r\nPhaeocystis in Southern North Sea waters and the possi\u0002bility of detecting Phaeocystis from space is assessed.\r\nMETHOD\r\nCultures\r\nPure strains of the diatoms Thalassiosira rotula and Ditylum\r\nbrightwellii were obtained from the Plymouth Culture\r\nCollection. The P. globosa strain BCZ05 was isolated from\r\nthe central Belgian Coastal Zone. Inoculates were grown\r\nin nutrient replete conditions in 0.2 mm filtered seawater\r\nenriched with F20 medium in Nalgene polycarbonate\r\nflasks placed over stir plates in a culture room at 8–108C\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "under a 12 h:12 h light:dark cycle. Silicate was added to\r\nthe diatom cultures. Two different light intensities were\r\napplied to each species: 100 (HL) and 10 (LL) mmol\r\nquanta m22 s\r\n21 (Philips Master TL-D 30W/865).\r\nField samples\r\nSampling was carried out in Belgian and adjacent\r\ncoastal waters during 7 campaigns covering spring,\r\nsummer and late summer from 2004 to 2007 aboard\r\nthe RV Belgica. The area is characterized by high\r\nbiomass phytoplankton blooms that, combined with\r\nsediment resuspension (Fettweis and Van Den Eynde,\r\n2003) and dissolved material from riverine origin, result\r\nin an optically complex type of water (Astoreca et al.,\r\n2006). Sampling stations are reported in Fig. 1. At all\r\nstations, water-leaving reflectance was measured and a\r\n20 L seawater sample was taken at the surface for the\r\nmeasurement of particulate, phytoplankton and\r\ncoloured dissolved organic matter (CDOM) light\r\nabsorption, high performance liquid chromatography\r\n(HPLC) pigments and phytoplankton community com\u0002position. Filtration was performed immediately after\r\nsampling. Filters were kept in liquid nitrogen less than 1\r\nweek and then stored at 2808C until analysis. Both cul\u0002tures and field samples were sampled for light absorp\u0002tion, pigments and phytoplankton counts.\r\nJOURNAL OF PLANKTON RESEARCH j VOLUME 31 j NUMBER 3 j PAGES 287–300 j 2009\r\n288\nWater-leaving reflectance measurements\r\nWater-leaving radiance reflectance rw, was calculated\r\nfrom simultaneous above-water measurements of down\u0002welling irradiance Ed\r\n0+, upwelling radiance Lsea0+ and sky\r\nradiance Lsky\r\n0+, using three TriOS-RAMSES hyperspec\u0002tral spectroradiometers mounted on a steel frame at the\r\nprow of the RV Belgica with zenith angles of the sea\u0002and sky-viewing radiance sensors of 408:\r\nrw ¼\r\np\r\n\u0002\r\nL0þ\r\nsea \u0003 rskyL0þ\r\nsky\u0003\r\nE0þ\r\nd\r\nð1Þ\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "where rsky is the reflection coefficient for the wave\u0002roughened air-water interface. This corresponds to\r\n“Method 1” of the NASA protocols (Mueller et al.,\r\n2000). More information on this system and data proces\u0002sing can be found in Ruddick et al. (Ruddick et al. 2006).\r\nLight absorption determination\r\nPhytoplankton, particle and total absorption measurements\r\nSeawater was filtered onto 25 mm glass fibre filters\r\n(Whatman GF/F). The absorbance spectra of particles\r\nODpart(l) retained on each filter was determined\r\nfollowing the transmittance–reflectance method (Tassan\r\nand Ferrari, 1995). The transmittance and reflectance of\r\neach filter were measured between 400 and 750 nm\r\nwith a UVIKON 930 dual beam spectrophotometer\r\nequipped with a 6 cm-integrating sphere for the 2004–\r\n2006 samples and with a Perkin Elmer Lambda 650\r\nspectrophotometer equipped with a 15 cm-integrating\r\nsphere for the 2007 samples. The absorbance spectrum\r\nof non-algal particles retained on the filter ODNAP(l)\r\nwas measured after particle bleaching with NaOCl\r\n(0.13% active chlorine) following Ferrari and Tassan\r\n(Ferrari and Tassan, 1999). Pathlength amplification was\r\ncorrected using an algorithm which has been validated\r\nfor several phytoplankton species and non-algal par\u0002ticles (Tassan and Ferrari, 1998). Absorbance values at\r\neach wavelength were converted into absorption\r\ncoefficients by:\r\napart=NAPðlÞ ¼ 2:303\u0004ODpart=NAPðlÞ\r\nX ð2Þ\r\nwhere X is the ratio of filtered volume to the filter\r\nclearance area.\r\nThe absorption spectra apart/NAP (l) were then cor\u0002rected for scattering in the near infrared by subtracting\r\nan average over 748–752 nm from all the measured\r\nFig. 1. Sampling stations in the Belgian Coastal Zone and adjacent waters in the Southern North Sea. Borders of the Belgian Coastal Zone are\r\nindicated as bold lines.\r\nR. ASTORECA ET AL. j PHAEOCYSTIS GLOBOSA DETECTION IN COASTAL WATERS\r\n289\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "spectra (Babin et al., 2003). The aNAP(l) spectra were\r\ncorrected by fitting an exponential function to the data\r\nbetween 400 and 750 nm (Babin et al., 2003).\r\nThe phytoplankton absorption coefficient aph (m21\r\n)\r\nwas obtained from\r\naphðlÞ ¼ apartðlÞ \u0003 aNAPðlÞ ð3Þ\r\nAbsorption spectra of aph were normalized at 675 nm\r\nin order to remove the variations associated with chlor\u0002ophyll a and to highlight the differences in the blue\u0002green part of the spectrum.\r\nCDOM absorption measurements\r\nSome 100 mL of seawater were filtered through a\r\n0.2 mm Nuclepore polycarbonate membrane, prefiltered\r\nwith Milli-Q water. This filtrate was used to rinse both\r\na clean amber bottle and the filtration flask and was\r\nthen discarded. A second volume was filtered and kept\r\nin the bottle at 48C. Absorbance of the filtered water\r\nwas measured in a UVIKON 930 dual beam spectro\u0002photometer using a 10 cm quartz cuvette (Tilstone et al.,\r\n2002). Absorbance values (ODCDOM) at each wave\u0002length were converted into absorption coefficients\r\naCDOM using:\r\naCDOMðlÞ ¼ 2:303\u0004ODCDOMðlÞ\r\nl ð4Þ\r\nwhere l (m) is the length of the cuvette.\r\nA baseline correction was applied to the aCDOM\r\nspectra by subtracting an average over 683–687 nm\r\nfrom all the spectral values (Babin et al., 2003).\r\nThe total absorption coefficient at was obtained from\r\natðlÞ ¼ apartðlÞ þ aCDOMðlÞ þ awðlÞ ð5Þ\r\nwhere aw is the absorption of pure water obtained from\r\nBuiteveld et al. (Buiteveld et al. 1994).\r\nPigment determination\r\nSubsamples were filtered onto 25 mm glass Whatman\r\nGF/F filters for HPLC chlorophyll a and pigment\r\ndetermination. Filters were kept at 2808C until analy\u0002sis. HPLC determination was carried out following\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Wright et al. (Wright et al., 1991). Cut filters were soni\u0002cated in centrifuge tubes with 2 mL of 100% cold\r\nacetone for 30 s and then left at 48C for 2 h before cen\u0002trifugation. Pigment extracts were analysed using a\r\nWaters HPLC system (Waters 600 Controller, Waters\r\n717 Autosampler and Waters 996 Photodiode Array\r\nDetector) and a reverse-phase Waters Spherisorb 5 mm\r\nODS2 column. The linear solvent gradient included\r\nsolvent A (80:20 methanol: 0.5 M ammonium acetate),\r\nsolvent B (90:10 acetonitrile:water) and solvent C\r\n(100% ethyl acetate). Pigments were detected by\r\nabsorption at 436 nm and identified based on compari\u0002son of retention time and spectra with standards\r\n(International Agency for 14C determination,\r\nDenmark). The main pigments identified were the light\r\nharvesting pigments (LHP): chlorophyll c3 (chl c3),\r\nchlorophyll c1+2 (chl c1+2), chlorophyll a (chl a) and\r\nfucoxanthin (fuco), and the photo-protective carotenoids\r\n(PPC): diadinoxanthin (diadino), diatoxanthin (diato)\r\nand betacaroten (beta-car).\r\nPhytoplankton enumeration and biomass\r\nSome 10–50 mL of phytoplankton sub-sample, pre\u0002served with 1% lugol-glutaraldehyde solution and\r\nstored at 48C in the dark, were analysed under inverted\r\nmicroscopy (Leitz Fluovert, Germany) according to the\r\nUtermo¨hl method. At least 400 cells were enumerated\r\nin each sample. Magnification was chosen according to\r\nphytoplankton size: 40X or 100X for Phaeocystis colo\u0002nies, and 100X or 200X for diatoms. Phaeocystis colony\r\ncell density was determined based on colony volume\r\nmeasurements (Rousseau et al., 1990). Diatom carbon\r\nbiomass was calculated on the basis of cell concen\u0002tration and specific biometry using the size-dependant\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "density relationship recommended by Menden-Deuer\r\nand Lessard (Menden-Deuer and Lessard, 2000). The\r\ncarbon biomass of Phaeocystis colonies was estimated\r\nby biovolume measurement (Rousseau et al., 1990).\r\nPhaeocystis- and diatom-dominance in a sample was\r\ndefined on the basis of a biomass contribution\r\nof .70%.\r\nData treatment and statistics\r\nThe entire dataset comprises a total of 85 measure\u0002ments. From the 7 sampling campaigns only those in\r\nbloom condition reflected by healthy Phaeocystis colonies\r\nwere considered. The final dataset for the development\r\nand validation of the algorithm consists then of 31\r\nsamples.\r\nThe second derivative of each absorption spectrum\r\nwas computed with the software Peakfit 4.12 to identify\r\nand resolve the position of the absorption maxima\r\nattributable to photosynthetic pigments. The second\r\nderivative analysis identifies portions of the absorption\r\nspectra that have the greatest curvature. In general,\r\nlocal minima in the second derivative correspond to\r\nspectral regions with enhanced absorption.\r\nJOURNAL OF PLANKTON RESEARCH j VOLUME 31 j NUMBER 3 j PAGES 287–300 j 2009\r\n290\nThe Mann–Whitney U statistic was used to test the\r\ndifferences between two groups of samples at different\r\nwavelengths.\r\nRESULTS\r\nIdentification of a unique spectral\r\nabsorption feature in Phaeocystis\r\nFigure 2A–C compares the normalized phytoplankton\r\nabsorption aph spectra for the two diatoms and\r\nPhaeocystis each grown at two light levels. Differences in\r\nthe magnitude of the phytoplankton absorption aph\r\nspectra are observed for both phytoplankton groups\r\nwhen comparing growth conditions. The two diatom\r\nspecies show an enhanced absorption between 400 and\r\n510 nm at HL and between 510 and 650 nm at LL\r\n(Fig. 2A and B). Phaeocystis shows enhanced absorption\r\nbetween 400 and 490 nm at HL (Fig. 2C). No signifi\u0002cant differences in magnitude and shape of the spectra\r\nwere found when comparing phosphorus limited and\r\nphosphorous replete conditions for both diatoms and\r\nPhaeocystis (data not shown).\r\nThe spectral shape of aph is similar between both\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "diatoms and light conditions but different from that of\r\nPhaeocystis (Fig. 2A–C). The spectral second derivative\r\nanalysis of the two diatom spectra identifies seven major\r\nabsorption maxima for both HL and LL conditions, i.e.\r\nat 412, 437, 465, 500, 587, 637 and 675 nm (Fig. 2D\r\nFig. 2. Phytoplankton absorption aph spectra normalized to 675 nm for the diatoms T. rotula (A), D. brightwellii (B) and the prymnesiophyte\r\nPhaeocystis (C) for HL and LL conditions. Second derivative analysis calculated from the absorption spectra for the diatoms T. rotula (D),\r\nD. brightwellii (E) and the prymnesiophyte Phaeocystis (F). HL (thick line): 100 mmol quanta m22 s\r\n21\r\n, LL (thin line): 10 mmol quanta m22 s\r\n21\r\n.\r\nR. ASTORECA ET AL. j PHAEOCYSTIS GLOBOSA DETECTION IN COASTAL WATERS\r\n291\nand E). The second derivative spectrum of Phaeocystis\r\nidentifies only six major absorption maxima, i.e. at 412,\r\n438, 467, 588, 636 and 675 nm, the maximum at\r\n500 nm being absent in Phaeocystis (Fig. 2F).\r\nNormalized phytoplankton absorption at the maxima\r\nwavelengths identified by the second derivative analysis\r\nwas used to characterize the intra- and inter-species\r\nvariability of absorption spectra (Table I). No significant\r\nintra-species variability of phytoplankton absorption\r\nresulting from HL and LL growth conditions was\r\nobserved either for the two diatoms or for Phaeocystis\r\n(Table I). Comparison between both diatoms shows sig\u0002nificant differences at 467 and 500 nm (P , 0.01 and\r\nP , 0.02 respectively; Table I).\r\nInter-species differences between diatoms and\r\nPhaeocystis are much more significant at all wavelengths\r\nexcept 637 nm, with the highest significant difference at\r\n467 nm (P , 0.001; Table I).\r\nThe absorption coefficient of phytoplankton results\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "from the absorption of all pigments present in a sample\r\n(Hoepffner and Sathyendranath, 1991) and is affected\r\nby the pigment packaging (Morel and Bricaud, 1981).\r\nThe concentrations per cell for the main pigments of\r\nboth diatoms and Phaeocystis, measured during the\r\ndifferent experiments, are shown in Table II.\r\nComparison between the two groups shows that they\r\nshare the same pigment composition except for chl c3\r\nwhich is only present in Phaeocystis.\r\nThe effects of light conditions on pigments suggest\r\nthat diatoms and Phaeocystis increase the synthesis of\r\nLHP at LL. The PPC remain stable in T. rotula and\r\nPhaeocystis but increase in D. brightwellii at LL.\r\nThe contribution of the different pigments to the\r\nobserved maxima of the phytoplankton absorption\r\nspectrum (Fig.2A–C) was estimated on the basis of\r\na correlation analysis performed between the absorption\r\nat maxima identified by the second derivative analysis\r\n(Fig. 2D–F) and the absolute pigment concentrations\r\n(Table III). The wavelengths of absorption maxima of in\r\nvivo pigments were extracted from Hoepffner and\r\nSathyendranath (Hoepffner and Sathyendranath, 1991)\r\nand Johnsen et al. (Johnsen et al., 1994) for comparison\r\nwith our wavelengths identified by second derivative\r\nanalysis. Results show significant contributions of the\r\ndifferent pigments at the following wavelengths: chl a at\r\n412 nm and at 437 nm, chl c3 at 467 nm, fuco and\r\nbeta-car at 500 nm, chl c3 and chl a at 588 m, and chl\r\na at 637 nm and at 675 nm (Table III).\r\nThe low significance of the intra-species variability of\r\nphytoplankton absorption aph spectra for both diatoms\r\nand Phaeocystis compared to the higher differences\r\nobserved between diatoms and Phaeocystis allows the use\r\nof aph spectra averaged between light conditions to\r\nTable I: Mann–Whitney U-test showing the variability in the normalized phytoplankton absorption for\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "the two light conditions within each species (intra-species), between diatoms, and between diatoms and\r\nPhaeocystis (inter-species)\r\nSpecies Conditions\r\nWavelengths (nm)\r\n412 437 467 500 588 637\r\nT. rotula HL–LL U 6.0 6.0 6.0 6.0 0 0\r\np 0.08 0.08 0.08 0.08 0.08 0.08\r\nD. brightwellii HL–LL U 6.0 6.0 6.0 3.0 1.0 0\r\np 0.08 0.08 0.08 1 0.24 0.08\r\nPhaeocystis HL–LL U 9.0 9.0 5.0 – 0 0\r\np 0.05 0.05 0.83 – 0.05 0.05\r\nT. rotula-D. brightwellii U 10.0 8.0 0.5 1.5 10.5 8.5\r\np 0.60 0.35 0.01* 0.02* 0.68 0.40\r\nDiatoms-Phaeocystis U 4.0 3.0 0 – 3.0 12.5\r\np 0.005* 0.003* 0.001** – 0.003* 0.06\r\n*P , 0.05, level of significance.\r\n**P , 0.001, level of significance.\r\nTable II: Pigment concentrations normalized\r\nto cell number (pg cell21) for the different\r\ngrowth conditions of the species\r\nPigments\r\nT. rotula D. brightwellii T. rotula D. brightwellii Phaeocystis Phaeocystis\r\nHL LL HL LL HL LL\r\nchl c3 0 0 0 0 0.65 0.64\r\nchl c1+2 0.21 0.83 3.78 17.82 0.13 0.16\r\nchl a 1.30 4.92 33.59 68.96 1.76 1.78\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "fuco 0.36 0.90 10.58 23.27 0.35 0.53\r\nLHP 1.86 6.66 47.95 110.06 2.89 3.10\r\ndiadino 0.10 0.10 5.17 4.59 0.08 0.07\r\ndiato 0.06 0.02 0.62 1.55 0.06 0.04\r\nBeta-car 0.05 0.09 0.84 2.50 0.002 0.02\r\nPPC 0.21 0.21 6.64 8.63 0.14 0.13\r\nHL: 100 mmol quanta m22 s21\r\n, LL: 10 mmol quanta m22 s21.\r\nLHP: light-harvesting pigments, PPC: photo-protective carotenoids.\r\nJOURNAL OF PLANKTON RESEARCH j VOLUME 31 j NUMBER 3 j PAGES 287–300 j 2009\r\n292\nhighlight the differences between both groups (Fig. 3).\r\nThe main differences in spectral shape observed\r\nbetween the mean aph spectra of diatoms and of\r\nPhaeocystis are found between 450 and 520 nm and at\r\n587 nm (Fig. 3A). The second derivative analysis\r\n(Fig. 3B) shows clearly that the minimum observed at\r\n467 nm is only present in Phaeocystis and is much more\r\npronounced than the slight minimum observed at\r\n465 nm for diatoms. At 500 nm, the second derivative\r\nof aph for diatoms shows a local minimum that is not\r\npresent in Phaeocystis. Statistical analysis suggests 467 nm\r\nas the wavelength at which the difference between\r\ndiatoms and Phaeocystis is the most pronounced (Table I)\r\nand thus, could serve for the discrimination between\r\nthese groups. Phaeocystis absorption at 467 nm corre\u0002sponds to the presence of chl c3 (Table III). The use of\r\nchl c3 as a marker of Phaeocystis cells is further supported\r\nby the good correlation (Pearson r = 0.95, P , 0.0001, n\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "= 31) between chl c3 concentration and Phaeocystis cell\r\ndensity for data collected in Belgian waters during\r\nPhaeocystis blooms (Fig. 4).\r\nDevelopment of a Phaeocystis-detection\r\nalgorithm based on retrieval of chl c3\r\nThe Phaeocystis phytoplankton absorption aph at 467 nm\r\nis then used for the development of a Phaeocystis\r\ndetection algorithm which can be used with both\r\ntotal absorption at and water-leaving reflectance rw\r\ndata. This algorithm is based on a “baseline” concept\r\nwhere two blue bands are chosen on either side of the\r\nchl c3 absorption band, the third band lc3 ¼ 467 nm.\r\nAbsorption algorithm\r\nThe basic assumption of the algorithm is that at at lc3\r\nin the absence of chl c3, denoted as at-c3, can be suffi\u0002ciently well-approximated by an exponential interp\u0002olation of at between l1 and l2:\r\nat\u0003c3ðlc3Þ ¼ atðl1Þ\r\n½1\u0003w\u0005\r\n\u0004atðl2Þ\r\nw ð6Þ\r\nFig. 3. Average phytoplankton absorption aph spectra of diatoms and\r\nof Phaeocystis normalized to 675 nm from cultures at different light\r\ngrowth conditions (A) and second derivative analysis (B).\r\nFig. 4. Measured chl c3 (mg m23) as a function of Phaeocystis cell\r\nnumber (106 L21\r\n) for field Belgian Coastal Zone data. Regression line\r\nfor this relationship is shown.\r\nTable III: Correlations between phytoplankton\r\nabsorption aph (m21\r\n) at main wavelengths\r\nfrom the second derivative analysis and\r\nabsolute pigment concentrations (mg m23\r\n)\r\nWavelength (nm)\r\nPigments\r\nchl c1 + 2 chl c3 fuco diadino diato beta-car chl a\r\n412 0.85*\r\n437 0.62 0.53 0.05 0.05 0.85*\r\n467 0.17 0.87* 0.57\r\n500 0.92* 0.81 0.90 0.95*\r\n588 0.22 0.86* 0.83*\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "637 0.40 0.74 0.92*\r\n675 0.93*\r\nPigments related to these wavelengths were extracted from literature\r\n(Hoepffner and Sathyendranath, 1991; Johnsen et al., 1994).\r\n*P , 0.05, level of significance.\r\nR. ASTORECA ET AL. j PHAEOCYSTIS GLOBOSA DETECTION IN COASTAL WATERS\r\n293\nwhere the interpolation weighting is given by:\r\nw ¼ lc3 \u0003 l1\r\nl2 \u0003 l1\r\nð7Þ\r\nThis exponential interpolation is preferred over a\r\nlinear one because it will fit better the absorption spec\u0002trum in the presence of particulate or dissolved yellow\r\nsubstance.\r\nThen the deviation from the baseline that can be\r\nattributed to chl c3 at lc3 (ac3), namely the “extra chl c3\r\nabsorption”, can be calculated from:\r\nac3ðlc3Þ ¼ atðlc3Þ \u0003 atðl1Þ\r\n½1\u0003w\u0005\r\n\u0004atðl2Þ\r\nw ð8Þ\r\nThe wavelengths l1 and l2 are chosen at 450 and\r\n480 nm, respectively, because they are located at the\r\nextremes of the chl c3 absorption maximum (Fig. 3) and\r\nthus are not affected by chl c3 absorption.\r\nThe algorithm (8), given in its absorption version,\r\ncan be used directly as a three-band algorithm for\r\nretrieving ac3 from in situ measurements of total absorp\u0002tion at(l1), at(l2) and at(lc3), noting that these measure\u0002ments must include all absorbing components, i.e.\r\nphytoplankton, non-algal particles, CDOM and pure\r\nwater itself.\r\nThe algorithm is demonstrated in Fig. 5A which shows\r\ntwo total absorption at spectra measured for Phaeocystis\u0002dominated and diatom-dominated samples. One spec\u0002trum was measured at station 130 on the 10 May 2004\r\nduring a bloom of Phaeocystis (chl a ¼ 43.9 mg m23\r\n, chl\r\nc3 ¼ 2.97 mg m23, aCDOM(442) ¼ 0.36 m21). The other\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "spectrum was recorded at station 230 the 30 June 2005\r\nduring a diatom dominated condition (chl a ¼\r\n7.44 mg m23\r\n, chl c3 = 0.00 mg m23, aCDOM(442) ¼\r\n0.27 m21\r\n). The principle of the baseline algorithm is\r\nshown in Fig. 5B which shows an enlargement of Fig. 5A\r\nbetween 440 and 500 nm. For the diatom-dominated\r\nsample (June 2005), the measured total absorption at\r\ncoincides with the baseline at 467 nm, indicating no\r\nimpact of the pigment chl c3. In contrast, for the\r\nPhaeocystis-dominated sample (May 2004), the measured at\r\nis noticeably higher than the baseline at 467 nm. This\r\ndifference between the baseline and the measured at\r\n,\r\nalbeit small (equivalent to an absorption coefficient differ\u0002ence of about 0.1 m21\r\n), is attributed to chl c3 absorption.\r\nReflectance algorithm\r\nFor use with satellite data, this algorithm must be\r\nexpressed with water-leaving reflectance rw as input.\r\nFig. 5. Total absorption at (m21) spectra (A) and water-leaving reflectance rw (C) measured at sea for Phaeocystis-dominated (10 May 2004) and\r\ndiatom-dominated (30 June 2005) samples. Enlargement of the region 440–500 nm to show the principle of the algorithm based on at (B) and\r\nreciprocal of water-leaving reflectance 1/rw for the spectra shown in (C) with enlargement of the region 440–500 nm (D). The baselines\r\nobtained by exponential interpolation between 450 and 480 nm are superimposed as bold dotted lines (B and D). The 467 nm feature is shown\r\nas a vertical dotted line.\r\nJOURNAL OF PLANKTON RESEARCH j VOLUME 31 j NUMBER 3 j PAGES 287–300 j 2009\r\n294\nSince rw depends on both total absorption at\r\n, and total\r\nbackscatter bb, it is necessary to use reflectance ratios to\r\nremove dependence on backscatter and isolate the\r\nabsorption-related signal. This is achieved by using an\r\nextra fourth band lNIR, chosen in the near infrared\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "(NIR) and supposing that (i) at ratios can be approxi\u0002mated by the reciprocal of the corresponding rw ratio,\r\ni.e. at(l)/at(lNIR) \u0006 rw(lNIR)/rw(l) and 2) at can be\r\napproximated by the pure water absorption coefficient\r\nin the NIR, at(lNIR) \u0006 aw(lNIR) giving:\r\natðliÞ \u0006 awðlNIRÞ\r\n\u0004 ðrwðlNIRÞÞ\r\nðrwðliÞÞ fori ¼ 1; 2; c3 ð9Þ\r\nIn certain circumstances this approximation may be\r\nless accurate. For example, in Case 1 waters or in Case\r\n2 waters with significantly non-white particles or for\r\nextremely turbid waters there may be significant spectral\r\nvariation of the product rw(l) * at(l). Such cases are\r\nbeyond the scope of the present study but may still be\r\namenable to retrieval of chl c3 by appropriate modifi\u0002cation of equation (9) or redesign of this component of\r\nthe model.\r\nSubstituting from equation (9) into (8) gives the algor\u0002ithm for retrieval of chl c3 from reflectance data:\r\nac3ðlc3Þ ¼ \r\n1\r\nrwðlc3Þ\r\n\u0003 1\r\nrwðl1Þ\r\nð1\u0003wÞ\r\n\u0004 1\r\nrwðl2Þ\r\nw\r\n!\r\n\u0004awðlNIRÞ \u0004rwðlNIRÞ\r\nð10Þ\r\nHere the NIR band lNIR ¼ 700 nm is chosen using\r\ndata for aw(700) ¼ 0.57 m21 reported by Buiteveld et al.\r\n(Buiteveld et al., 1994).\r\nThus, the chl c3 absorption at lc3 given by ac3(lc3)\r\ncan be estimated from the reflectance measurements at\r\nfour bands rw(l1), rw(l2), rw(lc3) and rw(lNIR).\r\nTo illustrate this algorithm, Fig. 5C shows the two rw\r\nspectra measured during the Phaeocystis-dominated and\r\ndiatom-dominated bloom conditions as in Fig. 5A. The\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "rw version of this algorithm is shown in Fig. 5D, which\r\ncorresponds to the reciprocal of the rw spectra from\r\nFig. 5C. For the diatom-dominated sample (June 2005),\r\nthe measured rw reciprocal is slightly below the baseline\r\nat 467 nm, indicating a negligible impact of the pigment\r\nchl c3. In contrast, the measured reciprocal of rw of the\r\nPhaeocystis-dominated sample (May 2004) is noticeably\r\nhigher than the baseline at 467 nm. This difference\r\nbetween the baseline and the measured rw, albeit small\r\n(equivalent to a rw difference of only 0.0004), is attribu\u0002ted to chl c3 absorption. The algorithm (10) uses this\r\ndifference, normalized by the product of rw and pure\r\nwater absorption at a NIR wavelength, to estimate the\r\nextra absorption from chl c3. The chl c3 absorption\r\nretrieved from rw is estimated as 0.022 m21 and\r\n20.0001 m21 for the Phaeocystis (May) and diatom (June)\r\nspectra, respectively. In this case, there is a clear distinc\u0002tion between the two taxa on the basis of rw spectra at\r\nthe 467 nm chl c3 absorption peak.\r\nValidation of the chl c3 retrieval algorithm\r\nFigure 6A and B compares the chl c3 absorption\r\nretrieved from total absorption and from reflectance\r\ndata with measured chl c3 concentrations. The\r\nregression performed using total absorption data input\r\n(r\r\n2 = 0.72, P , 0.0001, n = 31) gives much better\r\nresults than that performed using reflectance data input\r\n(r\r\n2 = 0.56, P , 0.0001, n = 31). The relation between\r\nchl c3 and Phaeocystis cell number shown in Fig. 4 is\r\nthen used for converting chl c3 concentration into\r\nPhaeocystis biomass (Fig. 6C and D) to allow the quantifi\u0002cation of the bloom. The results of the regressions give\r\na higher regression coefficient for chl c3 absorption\r\nretrieved from total absorption at with Phaeocystis cell\r\nnumber (r\r\n2 = 0.94, P , 0.0001, n = 31) than for chl c3\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "absorption retrieved from rw and Phaeocystis cell number\r\n(r\r\n2 = 0.57, P , 0.0001, n = 31).\r\nDISCUSSION\r\nPigment composition and absorption of\r\nPhaeocystis and diatoms\r\nIn this paper, an algorithm based on the absorption of\r\nchl c3 at 467 nm is proposed to detect Phaeocystis in field\r\nsamples. The extent to which chl c3 is specific of\r\nPhaeocystis is discussed here based on the absorption\r\ncharacteristics of Phaeocystis and diatoms.\r\nThe characteristic aph spectral shape shown by\r\nPhaeocystis with main peaks at 412, 440 and 467 nm is\r\nalso found for both P. pouchetii (Stuart et al., 2000) and for\r\nP. antarctica (Moisan and Mitchell, 1999) suggesting that\r\nthese are characteristic of the family Phaeocystaceae. The\r\ndiatoms investigated show an enhanced aph at 412, 440\r\nand 500 nm, as already reported for the diatoms\r\nThalassiosira spp., Chaetoceros spp. and Skeletonema costatum\r\n(Sathyendranath et al., 1987; Johnsen et al., 1994; Stuart\r\net al., 2000; Stramski et al., 2002). The aph signature of\r\ndiatoms and Phaeocystis results from their specific pigment\r\ncomposition. The pigment composition obtained for our\r\nR. ASTORECA ET AL. j PHAEOCYSTIS GLOBOSA DETECTION IN COASTAL WATERS\r\n295\nP. globosa strain (Table II) is similar to that found for\r\nanother strain of the same species (Zapata et al., 2004)\r\nand also for P. pouchetii (Llewellyn and Gibb, 2000),\r\nand for P. antarctica (Moisan and Mitchell, 1999). The\r\nreported pigment composition for Phaeocystis includes\r\nchl a, chl c1 + 2, chl c3, 190\r\nbutanoyloxyfucoxanthin,\r\n190\r\nhexanoyloxyfucoxanthin, fuco, diadino, diato and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "beta-car. In our Phaeocystis cultures, however, no\r\n190\r\nbutanoyloxyfucoxanthin or 190hexanoyloxyfucoxanthin\r\nwere detected. The absence of these two carotenoids has\r\nalready been reported for P. globosa blooms in Belgian\r\nwaters (Antajan et al., 2004; Muylaert et al., 2006) and in\r\nthe English Channel (Breton, 2000) and constitutes a sig\u0002nificant difference between high-latitude and North Sea\r\nPhaeocystis species. Our results for pigment composition of\r\ndiatoms which include chl a, chl c1 + 2, fuco, diadino,\r\ndiato and beta-car agree with that reported for 10 species\r\nof diatoms of different size (Llewellyn and Gibb, 2000).\r\nThe highest pigment to chl a contribution is made by\r\nfuco in diatoms and chl c3 followed by fuco in Phaeocystis\r\n(Table II). The latter result is similar to that of Moisan\r\nand Mitchell (Moisan and Mitchell, 1999) who found that\r\nchlorophylls c are the major contributors in prymnesio\u0002phytes. As shown by pigment compositions, the main\r\ndifference between Phaeocystis and diatoms is the presence\r\nof chl c3 in Phaeocystis which absorbs at 467 nm and differs\r\nfrom chl c1+2 present in diatoms and Phaeocystis which\r\nabsorbs at 465 nm.\r\nThe significant regression between retrieved chl c3\r\nabsorption and Phaeocystis cell number suggests that the\r\ndetection of chl c3 indicative of a Phaeocystis bloom is\r\npossible when the phytoplankton community is domi\u0002nated by Phaeocystis, i.e. during the spring bloom. Chl c3\r\nis a marker of Phaeocystis species (Claustre et al., 1990;\r\nVaulot et al., 1994; Breton et al., 2000; Antajan et al.,\r\n2004), but its presence has been reported in most of the\r\nprymnesiophytes (Jeffrey and Wright, 1994; Zapata\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "et al., 2004) and in some diatoms such as Rhizosolenia seti\u0002gera or Thalassionema nitzchioı¨des (Stauber and Jeffrey,\r\n1988: Llewellyn and Gibb, 2000). In the Belgian waters,\r\nhowever, Phaeocystis is the dominant prymnesiophyte and\r\nthe proportion of chl c3 containing diatoms is negligible\r\nduring the year (Rousseau, 2000). Therefore, chl c3 has\r\nbeen found to be a good marker for Phaeocystis in\r\nBelgian waters, as previously found for the English\r\nChannel (Breton, 2000). However, the Phaeocystis cellular\r\ncontent of chl c3 (0.10 pg chl c3 cell21) estimated from\r\nour field data, i.e. the slope of the regression line in\r\nFig. 4, is higher than those previously reported for the\r\nEnglish Channel (0.06 pg chl c3 cell21\r\n; Breton et al.,\r\n2000) and for Belgian waters (0.05–0.07 pg chl c3\r\ncell21\r\n; Antajan et al., 2004).\r\nFig. 6. (A) Chl c3 retrieval from total absorption at data using the algorithm developed in equation (8) and (B) chl c3 retrieval from\r\nwater-leaving reflectance rw data using the algorithm developed in equation (10), as a function of field chl c3 concentration. (C) Chl c3 retrieval\r\nfrom total absorption at data using the algorithm developed in equation (8) and (D) chl c3 retrieval from water-leaving reflectance rw data using\r\nthe algorithm developed in equation (10), as a function of Phaeocystis cell number.\r\nJOURNAL OF PLANKTON RESEARCH j VOLUME 31 j NUMBER 3 j PAGES 287–300 j 2009\r\n296\nEstimation of the uncertainty in the\r\nretrieval of chl c3 from absorption and\r\nwater-leaving reflectance spectra\r\nThe algorithm developed in this work, defined by\r\nequations (8) and (10), can be used to flag the presence\r\nof chl c3 concentrations and to quantify Phaeocystis\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "blooms in the field. The algorithm results can, however,\r\nbe subject to interference from other water components,\r\nnamely non-algal particles and CDOM, both of them\r\nusually referred to as yellow substance (YS), which are\r\npresent in variable amounts in Belgian waters (Astoreca\r\net al., 2006). For example, in the multispectral approach\r\nproposed by Lubac et al. (Lubac et al., 2008) to detect\r\nPhaeocystis blooms using current ocean colour sensors in\r\nthe Eastern English Channel, two remote sensing reflec\u0002tance ratios (Rrs(490)/Rrs(510) and Rrs(442.5)/Rrs(490))\r\nwere found to be successful. However, a sensitivity\r\nanalysis showed that the behaviour of the first ratio is\r\nhighly sensitive to the relative contribution of CDOM\r\nand to the phytoplankton assemblage composition\r\n(Lubac et al., 2008).\r\nTo investigate whether our algorithm is affected by\r\nYS (non-algal particle+CDOM absorption), the algor\u0002ithm was applied to absorption of non-chl c3 containing\r\nphytoplankton on the one hand and of YS on the other\r\nhand (Fig. 7). This corresponds to the error, expressed\r\nin absorption, caused by the baseline approximation for\r\nsamples with no chl c3. The absorption of non-chl c3\r\ncontaining phytoplankton (n ¼ 29) and of YS (n ¼ 85)\r\nwere taken from field measurements comprised in the\r\nentire database. The non-chl c3 containing phytoplank\u0002ton includes different proportions of diatoms. The YS\r\nabsorption at 467 nm varies from 0.08 to 2.16 m21 and\r\nthe spectral slope varies from 0.010 to 0.018 nm21\r\n. As\r\na reference, the variation in the optical constituents of\r\nthese coastal waters is illustrated in Fig. 8 with phyto\u0002plankton absorption contributing from 14 to 73%; NAP\r\nfrom 2 to 67% and CDOM from 7 to 81% to total\r\nabsorption.\r\nRemarkably, because of the exponential baseline\r\napproach, the YS baseline error is nearly zero, showing\r\nthat the algorithm is not affected by YS absorption and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "thus can be used in turbid Case 2 waters, e.g. Southern\r\nBight of the North Sea. The baseline error for non-chl\r\nc3 phytoplankton has a maximum value of 0.006 m21\r\nmeaning that below this value the algorithm is not able\r\nto detect extra chl c3 from Phaeocystis. This probably\r\nexplains the scattering observed at low chl c3 concen\u0002trations in the relationship between retrieved extra chl\r\nc3 either from at or rw with measured chl c3 (Fig. 6).\r\nThus, the limit from which the Phaeocystis bloom can be\r\ndetected is 0.3 mg chl c3 m23 equivalent to 3 \u0002 106\r\ncells L21. Coincidentally, this value is close to the refer\u0002ence abundance of Phaeocystis cells from which the dis\u0002turbance from a well-balanced ecosystem in coastal\r\nPhaeocystis-dominated ecosystems could be scaled\r\n(i.e. 4 \u0002 106 cells L21\r\n, Lancelot et al., 2008) suggesting\r\nthat the ocean colour could be used for detecting unde\u0002sirable blooms of Phaeocystis in Belgian coastal waters\r\nprovided all other sources of uncertainty can be\r\nsufficiently controlled.\r\nApplicability and limitations of the\r\nchl c3 retrieval\r\nSince the magnitude of the chl c3 absorption is small, it\r\nis unlikely that accurate quantitative retrieval of this\r\nFig. 8. Ternary plot illustrating the relative contribution of CDOM,\r\nphytoplankton and NAP to total absorption at 467 nm, for all samples\r\nin this study, including the chl c3 containing (filled circles) and the\r\nnon-chl c3 containing samples (open circles). The relative contribution\r\nof a given absorption component for a given sample can be read on\r\nthe corresponding axis, where the component label is positioned at\r\nthe middle of the scale for that component.\r\nFig. 7. Baseline error results when applying the algorithm to non-chl\r\nc3 phytoplankton (open diamonds) and to YS data (filled diamonds).\r\nR. ASTORECA ET AL. j PHAEOCYSTIS GLOBOSA DETECTION IN COASTAL WATERS\r\n297\npigment will be possible from remote sensing in the way\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "that chl a is now routinely retrieved. However, the\r\nresults show that the detection of Phaeocystis blooms\r\nwould be possible for Phaeocystis cell concentrations\r\nhigher than 3 \u0002 106 cells L21 (Fig. 6C and D). Below\r\nthis threshold, the large uncertainty precludes retrieval\r\nof accurate Phaeocystis cell density. At this stage, the\r\nalgorithm described here may be used as a Phaeocystis\r\nflag and could supplement chl a imagery by providing\r\nbasic information on the presence of undesirable\r\nPhaeocystis. It is likely that this flag will be subject to a\r\ndetection limit for chl c3 absorption retrieved from rw\r\nof 0.006 m21 since only the higher chl c3 absorption\r\nconditions will noticeably affect the rw spectrum.\r\nThanks to a careful design via a baseline technique\r\nwhich removes most of the interference from non\u0002phytoplankton absorption the present algorithm is likely\r\nto provide reliable detection of chl c3 absorption (or\r\nconcentration) even in the presence of non-algal particle\r\nand CDOM absorption. Finally, the present version of\r\nthe algorithm is not suitable for high rw (e.g. above\r\n0.06) since the assumption at(l)/at(lNIR) \u0006 rw(lNIR)/\r\nrw(l) must then be modified to account for the\r\nnon-linear increase of rw with backscatter.\r\nIs remote sensing of Phaeocystis from\r\nspace feasible?\r\nIn the previous sections, various issues have been ident\u0002ified which add uncertainties when transforming an\r\nalgorithm based on phytoplankton absorption to algor\u0002ithms based on total absorption and hence on recipro\u0002cal water-leaving reflectance. The further problem of\r\natmospheric correction errors will affect the perform\u0002ance of satellite algorithms for Phaeocystis detection. The\r\nuse of a baseline technique operating over a short wave\u0002length range will ensure that atmospheric correction\r\nerrors relating to the spectrally-correlated errors typical\r\nof imperfect aerosol estimation or Rayleigh-aerosol\r\ncoupling will have minimal impact on algorithm\r\nperformance. The absence of significant wavelength\u0002specific gaseous absorption features near the wave\u0002lengths considered (450, 467 and 480 nm) is also a\r\npositive feature. However, the very small perturbations\r\non the water-leaving reflectance spectrum that need to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "be detected will impose a constraint on the radiometric\r\nperformance of the sensor and spectrally uncorrelated\r\nerrors at the level of 0.0001 or above arising from\r\natmospheric correction or sensor calibration are likely\r\nto cause interference in attempts to use chl c3 absorp\u0002tion as a way of detecting Phaeocystis blooms. The\r\npresent study provides a realistic perspective for taxon\u0002specific detection and thus guides the design of future\r\nsensors regarding wavelength requirements for chl c3\r\ndetection (450 nm, 467 nm and 480 nm, or preferably\r\nhyperspectral) and radiometric accuracy required.\r\nACKNOWLEDGEMENTS\r\nThe captains and crew of the R.V. Belgica are thanked\r\nfor their assistance with seaborne measurements. Two\r\nanonymous reviewers are acknowledged for their con\u0002structive comments to improve the manuscript.\r\nFUNDING\r\nThis study was funded by the STEREO programme\r\nof the Belgian Federal Science Policy Office in the\r\nframework of the BELCOLOUR (SR/00/003),\r\nBELCOLOUR-2 (SR/00/104), BELMER (C90224)\r\nand BELSIOP (SR/11/83) projects. This work also\r\nbenefits from scientific achievements of the AMORE III\r\n(SD/NS/03A) project funded by the SSD Programme\r\nof the Belgian Federal Science Policy.\r\nREFERENCES\r\nAlvain, S., Moulin, C., Dandonneau, Y. et al. (2005) Remote sensing\r\nof phytoplankton groups in case 1 waters from global SeaWiFS\r\nimagery. Deep-Sea Res. I, 52, 1989–2004.\r\nAntajan, E., Chre´tiennot-Dinet, M. -J., Leblanc, C. et al. (2004)\r\n190\r\n-hexanoyloxyfucoxanthin may not be the appropriate pigment to\r\ntrace occurrence and fate of Phaeocystis: the case of P. globosa in\r\nBelgian coastal waters. J. Sea Res., 52, 165–177.\r\nAstoreca, R., Ruddick, K., Van Mol, B. et al. (2006) Variability of the\r\nInherent and Apparent Optical Properties in a highly turbid coastal\r\narea: Impact for the calibration of Remote Sensing algorithms.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "EARSeL eProceedings, 5, 1–17.\r\nBabin, M., Stramski, D., Ferrari, G. M. et al. (2003) Variations in the\r\nlight absorption coefficients of phytoplankton, nonalgal particles,\r\nand dissolved organic matter in coastal waters around Europe.\r\nJ. Geophys. Res., 108, 3211. doi:10.1029/2001JC000882.\r\nBreton, E. (2000) Qualite´ du pool nutritif et nutrition des cope´podes\r\npe´lagiques en Manche orientale. The`se de doctorat, Universite´ du\r\nLittoral-Cote d’Opale, 281pp.\r\nBreton, E., Brunet, C., Sautour, B. et al. (2000) Annual variations of\r\nphytoplankton biomass in the Eastern English Channel: compari\u0002son by pigment signatures and microscopic counts. J. Plankton Res.,\r\n22, 1423–1440.\r\nBreton, E., Rousseau, V., Parent, J.-Y. et al. (2006) Hydroclimatic\r\nmodulation of diatom/Phaeocystis blooms in nutrient-enriched\r\nBelgian coastal waters (North Sea). Limnol. Oceanogr., 51,\r\n1401–1409.\r\nBuiteveld, H., Hakvoort, J. M. H. and Donze, M. (1994) The optical\r\nproperties of pure water. In Jaffe, J. S.(ed.), Proceedings of Ocean Optics\r\nXII, SPIE, pp. 174–183.\r\nJOURNAL OF PLANKTON RESEARCH j VOLUME 31 j NUMBER 3 j PAGES 287–300 j 2009\r\n298\nClaustre, H. A. P. S., Williams, R., Marty, J.-C. et al. (1990) A bio\u0002chemical investigation of a Phaeocystis sp. bloom in the Irish Sea.\r\nJ. Mar. Biol. Assoc. UK, 70, 197–207.\r\nFerrari, G. and Tassan, S. (1999) A method using chemical oxidation\r\nto remove light absorption by phytoplankton pigments. J. Phycol.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "35, 1090–1098.\r\nFettweis, M. and Van Den Eynde, D. (2003) The mud deposits and\r\nthe high turbidity in the Belgian-Dutch coastal zone, Southern\r\nBight of the North Sea. Cont. Shelf Res., 23, 669–691.\r\nHenriksen, P., Riemann, B., Kaas, H. et al. (2002) Effects of\r\nnutrient-limitation and irradiance on marine phytoplankton pig\u0002ments. J. Plankton Res., 24, 835–858.\r\nHoepffner, N. and Sathyendranath, S. (1991) Effect of pigment com\u0002position on absorption properties of phytoplankton. Mar. Ecol. Prog.\r\nSer., 73, 11–23.\r\nJeffrey, S. and Wright, S. (1994) Photosynthetic pigments in the\r\nHaptophyta. In Green, J. C. and Leadbeater, B. S. C. (eds), The\r\nHaptophyta Algae. Clarendon Press, Oxford, pp. 111–132.\r\nJohnsen, G., Samset, O., Granskog, L. et al. (1994) In vivo absorption\r\ncharacteristics in 10 classes of bloom-forming phytoplankton: taxo\u0002nomic characteristics and responses to photoadaptation by means of\r\ndiscriminant and HPLC analysis. Mar. Ecol. Prog. Ser., 105,\r\n149–157.\r\nKahru, M. and Mitchell, B. G. (1998) Spectral reflectance and\r\nabsorption of a massive red tide off Southern California. J. Geophys.\r\nRes., 103, 601–621.\r\nLancelot, C. (1995) The mucilage phenomenon in the continental\r\ncoastal waters of the North Sea. Sci. Total Environ., 165, 83–102.\r\nLancelot, C., Billen, G., Sournia, A. et al. (1987) Phaeocystis blooms\r\nand nutrient enrichment in the continental coastal zones of the\r\nNorth Sea. Ambio, 16, 38–46.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Lancelot, C., Keller, M., Rousseau, V. et al. (1998) Autoecology of the\r\nmarine haptophyte Phaeocystis sp. In Anderson, D. A., Cembella, A.\r\nM. and Hallegraef, G. (eds), NATO Advanced Workshop on the physiologi\u0002cal ecology of Harmful Algal Blooms. NATO-ASI Series 41 Series G\r\nEcological Science, pp. 209–224.\r\nLancelot, C., Rousseau, V. and Gypens, N. (2008) Ecologically-based\r\nindicators for Phaeocystis disturbance in eutrophied Belgian coastal\r\nwaters (Southern North Sea) based on field observations and eco\u0002logical modeling. J. Sea Res. doi:10.1016/j.seares.2008.05.010. In\r\npress.\r\nLlewellyn, C. A. and Gibb, S. W. (2000) Intra-class variability in the\r\ncarbon, pigment and biomineral content of prymnesiophytes and\r\ndiatoms. Mar. Ecol. Prog. Ser., 193, 33–44.\r\nLubac, B., Loisel, H., Guiselin, N. et al. (2008) Hyperspectral and mul\u0002tispectral ocean color inversions to detect Phaeocystis globosa blooms\r\nin coastal waters. J. Geophys. Res., 113, C06026. doi:10.1029/\r\n2007JC004451.\r\nMenden-Deuer, S. and Lessard, E. J. (2000) Carbon to volume\r\nrelationships for dinoflagellates, diatoms, and other protist plankton.\r\nLimnol. Oceanogr., 45, 569–579.\r\nMillie, D. F., Schofield, O. M., Kirkpatrick, G. J. et al. (1997)\r\nDetection of harmful algal blooms using photopigments and\r\nabsorption signatures: a case study of the Florida red tide dinofla\u0002gellate Gymnodinium breve. Limnol. Oceanogr., 42, 1240–1251.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Moisan, T. A. and Mitchell, B. G. (1999) Photophysiological acclim\u0002ation of Phaeocystis antarctica Karsten under light limitation. Limnol.\r\nOceanogr., 44, 247–258.\r\nMorel, A. and Bricaud, A. (1981) Theoretical results concerning light\r\nabsorption in a discrete medium, and applications to specific\r\nabsorption of phytoplankton. Deep-Sea Res., 28, 1375–1393.\r\nMueller, J., Davis, C., Arnone, R. et al. (2000) Above-water radiance\r\nand remote sensing reflectance measurements and analysis proto\u0002cols. Ocean Optics protocols for satellite ocean color sensor validation. Revision\r\n2. NASA, Greenbelt, Maryland, pp. 98–107.\r\nMuylaert, K., Gonzalez, R., Franck, M. et al. (2006) Spatial variation\r\nin phytoplankton dynamics in the Belgian coastal zone of the\r\nNorth Sea studied by microscopy, HPLC-CHEMTAX and under\u0002way fluorescence recordings. J. Sea Res., 55, 253–265.\r\nPeters, S. W. M., Eleveld, M. A., Pasterkamp, R. et al. (2005) Atlas of\r\nChlorophyll-a concentration for the North Sea based on MERIS imagery of\r\n2003. Vrije Universiteit Amsterdam, The Netherlands.\r\nRousseau, V. (2000) Dynamics of Phaeocystis and diatom blooms in the eutro\u0002phicated coastal waters of the Southern Bight of the North Sea. PhD Thesis.\r\nUniversite´ Libre de Bruxelles, Bruxelles, 205 pp.\r\nRousseau, V., Mathot, S. and Lancelot, C. (1990) Calculating carbon\r\nbiomass of Phaeocystis sp. from microscopic observations. Mar. Biol.,\r\n107, 305–314.\r\nRuddick, K., De Cauwer, V., Park, Y. et al. (2006) Seaborne measure\u0002ments of near infrared water-leaving reflectance: The similarity\r\nspectrum for turbid waters. Limnol. Oceanogr., 51, 1167–1179.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Sathyendranath, S., Lazzara, L. and Prieur, L. (1987) Variations in the\r\nspectral values of specific absorption of phytoplankton. Limnol.\r\nOceanogr., 32, 403–415.\r\nSathyendranath, S., Watts, L., Devred, E. et al. (2004) Discrimination\r\nof diatoms from other phytoplankton using ocean-colour data. Mar.\r\nEcol. Prog. Ser., 272, 59–68.\r\nSimis, S. G. H., Peters, S. W. M. and Gons, H. J. (2005) Remote\r\nsensing of the cyanobacterial pigment phycocyanin in turbid inland\r\nwater. Limnol. Oceanogr., 50, 237–245.\r\nSmyth, T. J., Moore, G. F., Groom, S. B. et al. (2002) Optical modeling\r\nand measurements of a coccolithophore bloom. Appl. Opt., 41,\r\n7679–7688.\r\nStaehr, P. A. and Cullen, J. J. (2003) Detection of Karenia mikimotoi by\r\nspectral absorption signatures. J. Plankton Res., 25, 1237–1249.\r\nStaehr, P. A., Henriksen, P. and Markager, S. (2002) Photoacclimation\r\nof four marine phytoplankton species to irradiance and nutrient\r\navailability. Mar. Ecol. Prog. Ser., 238, 47–59.\r\nStauber, J. L. and Jeffrey, S. W. (1988) Photosynthetic pigments in\r\nfifty-one species of marine diatoms. J. Phycol., 24, 158–172.\r\nStramski, D., Sciandra, A. and Claustre, H. (2002) Effects of tempera\u0002ture, nitrogen, and light limitation on the optical properties of the\r\nmarine diatom Thalassiosira pseudonana. Limnol. Oceanogr., 47, 392–403.\r\nStuart, V., Sathyendranath, S., Head, E. J. et al. (2000) Bio-optical\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "characteristics of diatom and prymnesiophyte populations in the\r\nLabrador Sea. Mar. Ecol. Prog. Ser., 201, 91–106.\r\nSubramaniam, A., Carpenter, E. J., Karentz, D. et al. (1999)\r\nBio-optical properties of the marine diazotrophic cyanobacteria\r\nTrichodesmium spp. I. Absorption and photosynthetic action spectra.\r\nLimnol. Oceanogr., 44, 608–617.\r\nTassan, S. and Ferrari, G. (1995) An alternative approach to absorp\u0002tion measurements of aquatic particles retained on filters. Limnol.\r\nOceanogr., 40, 1358–1368.\r\nTassan, S. and Ferrari, G. (1998) Measurement of light absorption by\r\naquatic particles retained on filters: determination of the optical\r\nR. ASTORECA ET AL. j PHAEOCYSTIS GLOBOSA DETECTION IN COASTAL WATERS\r\n299\npathlength amplification by the ‘transmittance-reflectance’ method.\r\nJ. Plankton Res., 20, 1699–1709.\r\nTilstone, G., Moore, G. F., Sorensen, K. et al. (2002) REVAMP, Regional\r\nValidation of MERIS Chlorophyll products in North Sea coastal water,\r\nREVAMP protocols document. EU, EVG1-CT-2001-00049, 77 pp.\r\nVaillancourt, R. D., Brown, C. W., Guillard, R. R. et al. (2004) Light\r\nbackscattering properties of marine phytoplankton: relationships to\r\ncell size, chemical composition and taxonomy. J. Plankton Res., 26,\r\n191–212.\r\nVaulot, D., Birrien, J. B., Marie, D. et al. (1994) Morphology, ploidy,\r\npigment composition, and genome size of cultured strains of\r\nPhaeocystis (Prymnesiophyceae). J. Phycol., 30, 1022–1035.\r\nWright, S., Jeffrey, S., Mantoura, R. et al. (1991) An improved HPLC\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2162682678140381211,
+        "filename": "fbn116.PMC2639444.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 147,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "method for the analysis of chlorophylls and carotenoids from\r\nmarine phytoplankton. Mar. Ecol. Prog. Ser., 77, 183–196.\r\nZapata, M., Jeffrey, S. W., Wright, S. W. et al. (2004) Photosynthetic pig\u0002ments in 37 species (65 strains) of Haptophyta: implications for ocean\u0002ography and chemotaxonomy. Mar. Ecol. Prog. Ser., 270, 83–102.\r\nJOURNAL OF PLANKTON RESEARCH j VOLUME 31 j NUMBER 3 j PAGES 287–300 j 2009\r\n300\n\n"
+  }
+]

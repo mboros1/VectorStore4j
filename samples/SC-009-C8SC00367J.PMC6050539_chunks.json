@@ -1,0 +1,554 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "Guiding protein delivery into live cells using DNA\u0002programmed membrane fusion†\r\nLele Sun,‡ab Yanjing Gao,‡ab Yaoguang Wang, c Qin Wei, c Jiye Shi,a Nan Chen,a\r\nDi Li *ad and Chunhai Fan a\r\nIntracellular delivery of proteins provides a direct means to manipulate cell function and probe the\r\nintracellular environment. However, direct cytoplasmic delivery of proteins suffers from limited\r\navailability of efficient toolsets, and thus remains challenging in research and therapeutic applications.\r\nNatural biological cargo delivery processes, like SNARE (soluble N-ethylmaleimide-sensitive factor\r\nattachment protein receptor) complex mediated membrane fusion and other vesicle fusion in live cells,\r\nenable targeted delivery with high efficiency. A surrogate of SNARE machinery represents a new\r\ndirection in intracellular protein delivery. Here, we report a DNA-programmed membrane fusion strategy\r\nfor guiding the efficient intracellular delivery of proteins into live cells. The inherent programmability of\r\nDNA hybridization provides spatiotemporal control of the fusion between protein-encapsulated\r\nliposomes and cell membranes, enabling rapid release of proteins directly into the cytoplasm, while still\r\nremaining functional due to the bypassing of the endosomal trap. We further demonstrate that delivered\r\nexogenous Cytochrome c effectively regulates the cell fate. Hence, this DNA-mediated fusion strategy\r\nholds great potential for protein drug delivery, regenerative medicine and gene editing.\r\nIntroduction\r\nIntroducing exogenous proteins into live cells plays an essential\r\nrole in cell biological research and therapeutic applications.1\r\nHowever, most proteins cannot directly diffuse through the\r\nlipid bilayer of cell membrane because of their hydrophilicity\r\nand large size.2 Although viral vector-based toolsets could ach\u0002ieve intracellular delivery of a DNA plasmid that encodes\r\na protein of interest, this genetic approach lacks regulation and\r\ncould induce stress responses, carcinogenesis, or immunoge\u0002nicity.3,4 On the contrary, direct intracellular delivery of proteins\r\nrepresents a straightforward approach to modulate cell func\u0002tions and treat diseases.1,5 For example, the plasmid expressed\r\ngenome editing tool, the Cas9 protein, suffers from a high\u0002frequency of off-target effects,6 and yet recent results suggest\r\nthat intracellular delivery of functional Cas9 leads to higher\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "genome modication and higher specicity compared to DNA\r\ntransfection.7–9\r\nHowever, unlike nucleic acid delivery, which is indirect and\r\nhas been extensively studied, protein delivery suffers from\r\na limited availability of efficient toolsets, and thus remains\r\na challenge in research and therapeutic applications.10 Current\r\nintracellular cargo release tools, which are either physical\r\nmembrane-disruption-mediated or carrier-mediated, are\r\nhampered by insufficient delivery efficiency and unpredictable\r\ncell function toxicity.8 Therefore, it is highly desirable to develop\r\nnew intracellular delivery tools to target proteins for delivery\r\ninto a wide variety of primary cells with integrated high effi\u0002ciency and controllable cytotoxicity.\r\nMembrane fusion is a universal process in live cells as it\r\nfacilitates the transport of entities between and within cells.11,12\r\nIn live cells, membrane fusion is primarily mediated by SNARE\r\ncomplexes which facilitate lipid mixing, followed by pore\r\nformation and concomitant content transfer.13,14 Inspired by the\r\nSNARE machinery, several synthetic complexes have been\r\ndeveloped as articial membrane fusion systems.15–19 For\r\nexample, Kros’s group has designed a fully synthetic membrane\r\nfusion system using a complementary pair of lipidated coiled\r\npeptides. The synthetic membrane fusion process delivers car\u0002gos directly into the cytoplasm, bypassing the endolysosomal\r\npathway.20 They demonstrated the application of their articial\r\nliposome-cell fusion system in a broad spectrum of small\r\nmolecule delivery processes.21–25 Recent studies have revealed\r\nthat DNA–lipid hybrids in a zipperlike hybridizing could also\r\na\r\nDivision of Physical Biology & Bioimaging Centre, Shanghai Synchrotron Radiation\r\nFacility, Key Laboratory of Interfacial Physics and Technology, Shanghai Institute of\r\nApplied Physics, Chinese Academy of Sciences, Shanghai 201800, China. E-mail:\r\ndli@chem.ecnu.edu.cn\r\nb\r\nUniversity of Chinese Academy of Sciences, Beijing 100049, China\r\nc\r\nKey Laboratory of Chemical Sensing & Analysis in Universities of Shandong, School of\r\nChemistry and Chemical Engineering, University of Jinan, Jinan 250022, China\r\nd\r\nSchool of Chemistry and Molecular Engineering, East China Normal University,\r\nShanghai 200241, China\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "† Electronic supplementary information (ESI) available: Experimental sections,\r\nsupporting tables and gures. See DOI: 10.1039/c8sc00367j\r\n‡ These authors contributed equally to this work.\r\nCite this: Chem. Sci., 2018, 9, 5967\r\nReceived 23rd January 2018\r\nAccepted 14th June 2018\r\nDOI: 10.1039/c8sc00367j\r\nrsc.li/chemical-science\r\nThis journal is © The Royal Society of Chemistry 2018 Chem. Sci., 2018, 9, 5967–5975 | 5967\r\nChemical\r\nScience\r\nEDGE ARTICLE\r\nOpen Access Article. Published on 15 June 2018. Downloaded on 7/13/2018 2:53:04 PM. This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence. View Article Online View Journal | View Issue\nserve as articial tethers to drag different liposomes into close\r\nproximity to drive membrane fusion.26 Here, we have demon\u0002strated a DNA-programmed membrane fusion strategy for\r\nguiding protein delivery between live cell membranes and\r\narticial liposomes on both suspension cells and adherent cells,\r\nand protein delivery was independent of the endolysosomal\r\npathway. We also exemplied that cell fates could be regulated\r\nby DNA-mediated delivery of exogenous proteins.\r\nResults and discussion\r\nDNA-mediated fusion between liposomes and cell membranes\r\nand enzyme delivery\r\nThe principle of DNA-mediated membrane fusion is outlined in\r\nFig. 1a. 30\r\ncholesterol-functionalized single stranded (ss-) DNA\r\n(28 nt, anchor 1) and its complementary 50\r\ncholesterol\u0002functionalized ss-DNA (anchor 2) (Table S1†) were used to\r\nmediate fusion between live cell membranes and articial\r\nliposomes (with a mean diameter of 100 nm, for the composi\u0002tion of the lipids, see Fig. S1 and the Experimental section†). In\r\norder to enhance the retention time of the DNA strands on the\r\ncell membranes,24 we compared the docking stability of the\r\nDNA variations with different cholesterol modication\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "numbers, and found that ss-DNA with 3 cholesterol modica\u0002tions had higher docking stability (Fig. S2 and S3†), thus ss-DNA\r\nwith 3 cholesterol functionality at either 30 or 50 end was used in\r\nthe present work to drag liposomes and cell membranes into\r\nclose proximity. We found that cholesterol decorated ss-DNA\r\ncould be easily inserted into cell membranes without perturb\u0002ing the cell functions (Fig. S4 and S5†).27–29 Herein the orienta\u0002tion of cholesterol group was rationally designed at the same\r\nend of double stranded (ds-) DNA; thereby a zipperlike hybrid\u0002ization brings liposomes into close proximity to cell surfaces,\r\nwhich facilitates further membrane fusion.15,28\r\nIn particular, we employed horseradish peroxidase (HRP, an\r\nenzyme extracted from plant cells) encapsulated within lipo\u0002somes as an example of protein cargo (ca. 14 HRP per liposome,\r\nfor detailed calculations see the Experimental section†). The\r\nmotivation of using HRP as the protein cargo is its high enzy\u0002matic activity. Classical uorophore cargos are less convincing\r\nfor illustrating content mixing between small liposomes (<100\r\nnm) and cells because uorophore cargos in liposomes are\r\nstrongly diluted in large cells, which makes them barely\r\nvisible.30 HRP catalyzes the oxidation of a nonuorescent\r\nsubstrate Amplex Red into a uorescent product resorun in\r\nthe presence of H2O2. Amplex Red is an uncharged molecule\r\nthat can passively diffuse across the lipid bilayer walls into the\r\naqueous interior of cells, while the negatively charged uores\u0002cent product resorun cannot cross the phospholipid bilayer at\r\nneutral pH, which leads to its accumulation in the cellular\r\nFig. 1 (a) A schematic illustration of the DNA-mediated membrane fusion between the live cells and the liposomes, and the subsequent\r\ncytoplasmic delivery of active proteins. (b) and (c) confocal microscopy images of the L1210 and HeLa cells taken after the membrane fusion\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "experiments. Green channel: the fluorescence of the NBD labelled liposomes, red channel: the fluorescence of resorufin (the product of HRP),\r\nblue channel: nuclear staining using Hoechst 33 258, overlay: the green, red and blue channels plus the bright field image and enlarged view:\r\na single cell from the overlay channel. Scale bar: 15 mm in (b); 30 mm in (c).\r\n5968 | Chem. Sci., 2018, 9, 5967–5975 This journal is © The Royal Society of Chemistry 2018\r\nChemical Science Edge Article\r\nOpen Access Article. Published on 15 June 2018. Downloaded on 7/13/2018 2:53:04 PM. This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence. View Article Online\ninterior.31 Moreover, H2O2 can also freely diffuse through\r\ncellular membranes. Therefore, upon delivering exogenous\r\nHRP into a cell, HRP could catalyze the uorogenic reaction\r\ninside the cytoplasm, and in turn stain the cytoplasm.\r\nWe rst performed a series of control experiments to conrm\r\nthe solidity of this strategy. (1) We incubated Amplex Red or\r\nresorun with untreated cells (L1210 and HeLa) in the presence\r\nof H2O2, and did not detect the uorescence of resorun (Fig. S6\r\nand S7†). The lack of resorun uorescence conrmed that\r\nH2O2 did not increase the permeability of the cell membrane\r\nwithin the concentration range in our experiments (0.5 mM),\r\nand that intracellular HRP is the prerequisite for catalyzing the\r\nuorogenic reaction. (2) We also incubated untreated cells\r\n(L1210 and HeLa) with free HRP (not encapsulated within\r\nliposomes), and then treated the cells with Amplex Red and\r\nH2O2. We found that the uorescent products were clustered in\r\nthe cytoplasm and remained in this cluster-like distribution for\r\nat least two hours (Fig. S8†). These results indicated that live\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "cells could uptake HRP and that the uorescent products are\r\nconned in the intracellular vesicles for a longer time rather\r\nthan rapidly diffusing into the cytoplasm.\r\nWith the above results, we tested this strategy with both\r\nL1210 (suspension) and HeLa (adherent) cells (Fig. 1b and c),\r\nand found that liposomes incorporated with nitro\u0002benzoxadiazole (NBD) uorophore labelled lipids (NBD-PE)\r\ncould efficiently dock onto the cytomembrane via zipperlike\r\nDNA hybridization and that the uorescent products were\r\nevenly distributed inside not only the cytoplasm but also the\r\nnucleus of almost every cell (see amplied gure in Fig. S9†),\r\nwhich clearly suggested direct intracellular delivery of the\r\nprotein cargos. Notably, there are many nucleopores on the\r\nnuclear membrane, therefore small molecules such as resorun\r\ncan get into the nucleus via passive diffusion. We noticed the\r\nred uorescence of resorun also located at the plasma\r\nmembrane. According to a previous report on DNA-mediated\r\nfusion between liposomes and planar lipid bilayers, only 10%\r\nof the docked liposomes can fuse with the planar lipid bilayers\r\nwithin a short time,32 thereby the uorescence of resorun\r\nlocated at the plasma membrane was attributed to the lipo\u0002somes that are still docked on the plasma membrane.\r\nIn addition, we emphasized that the zipperlike hybridization\r\nis the prerequisite for membrane fusion, while anti-zipperlike\r\nhybridization did not lead to efficient cargo release\r\n(Fig. S10†). Notably, there might also remain a possibility that\r\nHRP encapsulated within liposomes is released into the culture\r\nmedium during the process of membrane fusion, and then\r\ndiffuses into the cytoplasm via transient membrane destabili\u0002zation during fusion.23 However, this possibility was excluded\r\nby the results of a control experiment incubating anchor 1\r\nencoded cells with free HRP and empty liposomes carrying\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "anchor 2, which indicated that the catalytic product resorun\r\nwas clustered in cells instead of evenly distributed (Fig. S11†). In\r\nanother control experiment, in the absence of one or two of the\r\nanchor strands, the NBD-PE labelled liposomes could not be\r\nefficiently docked onto cell membranes, and the red uores\u0002cence signal from resorun was weak and clustered rather than\r\nbeing evenly distributed in the cytoplasm (Fig. S12 and S13†),\r\nindicating that liposomes containing HRP were taken up by\r\ncells via endocytosis and that the uorescence products were\r\nconned in vesicles.\r\nProtein delivery is a result of membrane fusion bypassing\r\nendocytosis\r\nWe next conrmed that the efficient intracellular protein\r\ndelivery was a result of membrane fusion. Endocytosis is the\r\nprimary pathway for cells to take in small particles including\r\nliposomes.10 Previous work has indicated that treating cells with\r\nendocytosis inhibitors could effectively inhibit various endocy\u0002totic pathways, for example, endocytic chlorpromazine (CPZ,\r\ninterfering with clathrin-dependent endocytosis)33,34 and\r\nmethyl-b-cyclodextrin (MbCD, disrupting caveola-dependent\r\nendocytosis).35,36 We also found that CPZ or methyl-b-cyclodex\u0002trin could reduce the cellular uptake of liposomes by L1210 and\r\nHeLa cells (Fig. S14†).\r\nWe thus performed membrane fusion experiments in the\r\npresence of CPZ or MbCD to investigate the possible endocy\u0002tosis. However, we found that HRP encapsulated within DNA\u0002encoded liposomes could still be efficiently released into cells,\r\nas conrmed by the evenly distributed red uorescence of\r\nresofurin in the cytoplasm (Fig. 2a, b, d and e). In addition,\r\ncontrol experiments indicated that neither CPZ nor MbCD\r\ntreatment could change the permeability of the cell membranes\r\nwhich leads to the transmembrane diffusion of uorescent\r\nresorun and free HRP into the cytoplasm, even when the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "liposomes are docking onto the cell membranes (Fig. S15 and\r\nS16†). We next performed membrane fusion experiments at 4 \u0002C\r\nbased on the consideration that low temperature could shut\r\ndown all possible endocytosis pathways. We found that HRP\r\ncould be still delivered into cells, however, the delivery effi\u0002ciency was lower, as indicated by the weakened uorescence in\r\ncells (Fig. 2c and f), which was attributed to the decreased rate\r\nof membrane fusion at a low temperature.37 We also demon\u0002strated that DNA hybridization did not improve the cellular\r\nuptake of liposomes (Fig. S17 and S18†), which excludes the\r\npossibility that improved cellular uptake of HRP loaded lipo\u0002some results in an even distribution of uorescent products\r\ninside cells.\r\nWe then stained the cells with lysotracker to localize the\r\nlysosomes in order to further exclude the possible endolysoso\u0002mal pathway. We found that the lysosomes were scattered in the\r\ncytoplasm and that only a small fraction of resorun could be\r\ncolocalized with the lysosomes (Fig. 2g and h). These results\r\nfurther supported the conclusion that DNA-mediated fusion\r\nhad dominantly released the protein cargos directly into the\r\ncytoplasm, bypassing the endolysosomal system.\r\nSpecic fusion of liposomes and different cells through\r\nspecic DNA hybridization\r\nThe richness of the DNA sequence and the specicity of the DNA\r\nhybridization suggests the possibility of directing the fusion\r\nbetween different DNA encoded cells and liposomes in a mixed\r\nsystem, which could be useful in intelligent protein delivery and\r\ncell function regulation.38–40 As depicted in Fig. 3, we designed\r\nThis journal is © The Royal Society of Chemistry 2018 Chem. Sci., 2018, 9, 5967–5975 | 5969\r\nEdge Article Chemical Science\r\nOpen Access Article. Published on 15 June 2018. Downloaded on 7/13/2018 2:53:04 PM. This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence. View Article Online\na ternary system to address specic DNA-mediated fusion. In\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "this ternary system, L1210 cells were decorated with two\r\nanchoring strands, anchor 1 and anchor 3 (30\r\ncholesterol\u0002functionalized DNA, see Table S1†), and stained by cell\r\ntracker violet. Two liposomes, NBD-PE labelled liposomes\r\n(liposome A, green) and Lissamine rhodamine (Rh)-PE labelled\r\nFig. 2 Confocal microscopy images of L1210 and HeLa cells taken after membrane fusion experiments but also treated with an endocytosis\r\ninhibitor or low temperature: (a) L1210/CPZ, (b) L1210/MbCD, (c) L1210/4 \u0002C, (d) HeLa/CPZ, (e) HeLa/MbCD and (f) HeLa/4 \u0002C. Green channel: the\r\nfluorescence of the NBD labelled liposomes, red channel: the fluorescence of resorufin, blue channel: nuclear staining using Hoechst 33 258,\r\noverlay: the green, red and blue channels plus the bright field image and enlarged view: a single cell from the overlay channel. Scale bar: 15 mm in\r\n(a–c); 30 mm in (d–f). (g) and (h) Confocal microscopy images of L1210 and HeLa cells taken after membrane fusion experiments and lysosome\r\nstaining treatment. Green channel: the fluorescence of the lysotracker, red channel: the fluorescence of resorufin, blue channel: nuclear staining\r\nusing Hoechst 33 258, overlay: the green, red and blue channels plus the bright field image and enlarged view: a single cell from the overlay\r\nchannel. Scale bar: 15 mm in (g); 30 mm in (h).\r\n5970 | Chem. Sci., 2018, 9, 5967–5975 This journal is © The Royal Society of Chemistry 2018\r\nChemical Science Edge Article\r\nOpen Access Article. Published on 15 June 2018. Downloaded on 7/13/2018 2:53:04 PM. This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence. View Article Online\nliposomes (liposome B, red), were encoded by anchor 2\r\n(50\r\ncholesterol-functionalized DNA which is complementary to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "anchor 1) and anchor 4 (50\r\ncholesterol-functionalized DNA\r\nwhich is complementary to anchor 3), respectively. Only the\r\npresence of both anchor 2 and 4 resulted in the simultaneous\r\ndocking of two liposomes onto the cell membranes (Fig. 3a–f).\r\nWe further designed another quaternary system including\r\nL1210 cells by staining with cell tracker violet (cell A) and cell\r\ntracker deep red (cell B). The cells were decorated with anchor 1\r\n(cell A) and anchor 3 (cell B). Two liposomes, liposomes A0 and\r\nB0\r\n, were encoded by anchor 2 and anchor 4, respectively\r\n(Fig. 3g). Upon mixing cells A and B with liposomes A0 and B0\r\n, we\r\nfound that liposome A0 specically docks onto cell A, while\r\nliposome B0 specically docks onto cell B (Fig. 3h). Based on the\r\nabove results, we further demonstrated specic docking and\r\nfusion in a mixed system, in which HRP containing NBD-PE\r\nlabelled liposomes were encoded by anchor 2, while the cells\r\nwere decorated with anchor 1 (cell A) and anchor 3 (cell B). We\r\nfound that membrane fusion and enzyme delivery could only\r\noccur between anchor encoded liposomes and cell A (Fig. S19†).\r\nThese results clearly highlighted the great potential of DNA\r\nhybridization for selective fusion in mixed systems.\r\nMoreover, DNA hybridization-guided liposome docking\r\ngreatly improved the efficiency of the cargo delivery. We\r\ncompared the present strategy with a recently reported protein\r\ndelivery strategy, carried out with the aid of cationic amphi\u0002philic peptides. In the cationic amphiphilic peptide aided\r\nmethod, evenly distributed resorun only appeared in a portion\r\nof the cells (Fig. S20†),41 which highlighted the efficiency of the\r\nDNA-mediated fusion strategy.\r\nProgrammable DNA hybridization enables programmable\r\ndocking of liposomes onto cell membranes\r\nHaving conrmed that DNA could facilitate specic membrane\r\nfusion, we immediately realized that the inherent program\u0002mable nature of DNA hybridization42–52 provides versatile\r\npossibilities to mediate the programmable fusion and further\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "programmable delivery of exogenous DNA or protein cargos\r\ninto cells, which are urgently needed but are hardly available by\r\nother vectors. For example, one constraint on delivering protein\r\nFig. 3 (a–c) A schematic illustration of the DNA encoded selective docking of liposomes onto L1210 cells in ternary systems. The red and green\r\nwavy lines represent cholesterol-functionalized DNA. (d–f) Confocal microscopy images of L1210 cells taken after mixing the liposomes and\r\ncells corresponding to the setup depicted in (a), (b) and (c). (g) A schematic illustration of the DNA encoded selective docking of liposomes onto\r\nL1210 cells in quaternary systems. (h) Confocal microscopy images of L1210 cells taken after mixing the liposomes and cells as depicted in (g).\r\nGreen channel: the fluorescence of the NBD labelled liposomes, red channel: the fluorescence of Rh labelled liposomes, blue channel: cells\r\nstained by cell tracker violet BMQC dye, cyan channel: cells stained by cell tracker deep red dye, and overlay: the green, red and blue channels\r\nplus the bright field image in (d–f); the green, red, blue and cyan channels plus the bright field image in figure (h). Scale bar: 10 mm.\r\nThis journal is © The Royal Society of Chemistry 2018 Chem. Sci., 2018, 9, 5967–5975 | 5971\r\nEdge Article Chemical Science\r\nOpen Access Article. Published on 15 June 2018. Downloaded on 7/13/2018 2:53:04 PM. This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence. View Article Online\ndrugs is a lack of delivery vehicles that allow for the controlled\r\ndelivery of more than a single protein.53–55 Herein we have\r\nexemplied that the spatial and temporal fusion of liposomes\r\nwith cell membranes could be rationally controlled by\r\nprogrammable DNA hybridization.\r\nWe rst demonstrated the spatial control of membrane\r\nfusion by introducing a DNA strand (cDNA) that is fully\r\ncomplementary to anchor 5 which had encoded on the lipo\u0002somes (Table S2†). Anchor 1 encoded on the cell surface is\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 475,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "partially hybridized with anchor 5 (Fig. 4a). Thereby the spatial\r\ndocking and fusion of the liposome encoded with anchor 5\r\ncould be relieved by a strand displacement reaction in the\r\npresence of cDNA. Indeed, upon the introduction of cDNA, the\r\nliposomes incorporated with NBD uorophore labelled lipids\r\nwere gradually released from the surface of the L1210 cells,\r\nleading to weakened NBD uorescence on the cell surfaces\r\n(Fig. 4b and c, S21†). As described above, not all the docked\r\nliposomes would fuse with the cell membrane within a short\r\ntime. However, the rate of the strand replacement reactions is\r\ngenerally rapid.56 Notably, in our study, the toehold length is 12\r\nnt (Table S2†), therefore it is reasonable to rapidly remove the\r\nunfused liposomes from the cell membrane via the strand\r\nreplacement reaction.\r\nIn addition, we further demonstrated that the temporal\r\ncontrol of the fusion could also be rationally controlled by the\r\nhybridization chain reaction, a strategy usually used to elongate\r\nDNA strands.57–59 As shown in Fig. 4d, the two liposomes B and\r\nC were incorporated with NBD and Rh uorophore labelled\r\nlipids, respectively. Two hairpin strands (H1 and H2) were\r\nencoded on the surface of the L1210 cells and liposome C,\r\nrespectively. An inducer strand was encoded on liposome B\r\n(Table S3†). By rational design, the hairpin structure has a short\r\nloop region and a long stem region which ensure a thermody\u0002namic steady state. In the absence of inducer strands, the two\r\nhairpins fold into hairpin structures separately. Upon the\r\nintroduction of the inducer strand, the steady state is disturbed\r\nFig. 4 (a) A schematic illustration of the spatial control of the docking and fusion of the liposomes with the cell surface by strand–displacement\r\nreactions. (b) The time-dependent normalized fluorescence intensity of NBD on the outside of the L1210 cells after the introduction of cDNA. (c)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "Confocal microscopy images showing the time-dependent fluorescence decrease of NBD on the outside of the L1210 cells upon the intro\u0002duction of cDNA. Scale bar: 15 mm. (d) A schematic illustration of the temporal control of the sequential docking and fusion of two liposomes with\r\ncell surfaces by hybridization chain reactions. (e) Confocal microscopy images of L1210 cells. Green channel: the fluorescence of NBD labelled\r\nliposome B, red channel: the fluorescence of Rh labelled liposome C and the blue channel: nuclear staining using Hoechst 33 258. Overlay: the\r\ngreen, red and blue channels plus the bright field image. Scale bar: 15 mm.\r\n5972 | Chem. Sci., 2018, 9, 5967–5975 This journal is © The Royal Society of Chemistry 2018\r\nChemical Science Edge Article\r\nOpen Access Article. Published on 15 June 2018. Downloaded on 7/13/2018 2:53:04 PM. This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence. View Article Online\nby the hybridization of the inducer and H1, and thus the HCR\r\nreaction is triggered by the alternating sequential hybridization\r\nof H1, the inducer strands and H2. Therefore, upon mixing\r\nliposomes B and C with the L1210 cells, we observed the\r\nsequential docking of the liposomes onto the cell surface, as\r\nconrmed by the coexistence of NBD and Rh in Fig. 4e. Control\r\nexperiments suggested that HCR is the prerequisite for\r\ninducing the programmable fusion of two liposomes on the cell\r\nsurfaces; lacking either the inducer strands or the H2 strand did\r\nnot result in the sequential docking of two liposomes onto the\r\ncell surfaces (Fig. S22†).\r\nIntracellular delivery of exogenous protein through DNA\u0002mediated membrane fusion to regulate cell fate\r\nThe ability to directly transfer protein into the cytosol suggests\r\nthe possibility of regulating cell fate using exogenous proteins.\r\nHerein we exemplied this possibility with liposome encapsu\u0002lated Cytochrome c (Cyt c). Cytochrome c is an important\r\ncomponent of the oxidation respiratory chain. However, during\r\nthe transduction of apoptotic signals, the alteration of the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "permeability of mitochondrial membranes causes the trans\u0002location of Cyt c into the cytoplasm, which in turn activates the\r\ndeath-driving proteolytic proteins, caspases.60,61 Therefore\r\nexogenous Cyt c is a model system used to challenge the cross\r\nmembrane ability of various vector tools.62,63 We also delivered\r\nCyt c into HeLa and L1210 cells using the present DNA\u0002mediated membrane fusion strategy, and indeed found\r\ndramatically decreased cell viability (Fig. 5). Notably, the\r\npresent fusion method bypasses the endosome–lysosome–\r\nlysosome escape pathway, which, in principle, enables the rapid\r\ndelivery of protein cargos. In the present study, the 30 min of\r\nincubation time is much shorter compared with those in other\r\nendocytotic-dependent delivery vectors (see the Experimental\r\nsection†),64,65 suggesting an advantage for the rapid delivery of\r\nprotein drugs in therapy.\r\nConclusions\r\nIn conclusion, we have developed a biomimetic membrane\r\nfusion strategy via DNA hybridization, which enables targeted,\r\nprogrammable fusion between liposomes and cell membranes.\r\nThe HRP based signal amplication strategy enables us to easily\r\ndetect membrane fusion and direct intracellular delivery of\r\nprotein cargos. The inhibitor treatment and lysosomal staining\r\nexperiments suggested that the intracellular delivery of lipo\u0002some encapsulated cargos bypassed the endocytotic pathway\r\nand went directly into the cytoplasm. This strategy could also be\r\nextended to delivering other bioactive macromolecular cargos,\r\nsuch as nucleic acids, protein/nucleic acid complexes, and\r\nsmall molecule drugs. In this work, we demonstrated only the in\r\nvitro applications, because it might be much harder to modify\r\nthe target cells with cholesterol modied DNA in vivo. However,\r\nin vivo applications can be envisioned since DNA engineered\r\ncell surfaces have been extensively studied for enhancing the\r\nefficacy of cell therapy.66,67 For example, a previous study has\r\nindicated that lipophilic DNA could be inserted into the cyto\u0002membrane of tumor cells in vivo, and local injection of\r\nmembrane anchored immunostimulatory oligonucleotides\r\npromoted the physical association of immunostimulatory\r\noligonucleotides with tumor cells.68 This hints at potential in\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "vivo applications of this strategy for DNA-programmed rapid\r\ndelivery of exogenous proteins, which opens new doors for\r\na variety of biological and translational applications. Further\u0002more, as cell engineering is rapidly developing now, DNA based\r\nmembrane fusion might become a promising method for cell\r\nsurface engineering.\r\nConflicts of interest\r\nThere are no conicts of interest to declare.\r\nAcknowledgements\r\nThis work was supported by the National Basic Research\r\nProgram of China (2013CB932803 and 2013CB933800), the\r\nNational Key R&D Program of China (2016YFA0201200 and\r\n2016YFA0400900), NSFC (21675166, 21390414, 21473236,\r\n31371015 and 21329501), and the Key Research Program of\r\nFrontier Sciences, CAS (QYZDJ-SSW-SLH031).\r\nFig. 5 The viability of L1210 and HeLa cells upon different treatments:\r\n(1) incubating the cells with anchor 1; (2) preincubating the cells with\r\nanchor 1, followed by treating the cells with free Cyt c; (3) pre\u0002incubating the cells with anchor 1, followed by treating the cells with\r\nliposomes encapsulating Cyt c; (4) preincubating the cells with anchor\r\n1, followed by treating the cells with anchor 2 encoded liposomes\r\nencapsulating Cyt c. Data are presented as the mean \u0003 SD of 5 parallel\r\nexperiments.\r\nThis journal is © The Royal Society of Chemistry 2018 Chem. Sci., 2018, 9, 5967–5975 | 5973\r\nEdge Article Chemical Science\r\nOpen Access Article. Published on 15 June 2018. Downloaded on 7/13/2018 2:53:04 PM. This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence. View Article Online\nNotes and references\r\n1 D. S. D’Astolfo, R. J. Pagliero, A. Pras, W. R. Karthaus,\r\nH. Clevers, V. Prasad, R. J. Lebbink, H. Rehmann and\r\nN. Geijsen, Cell, 2015, 161, 674–690.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "2 M. Sanchez-Navarro, M. Teixido and E. Giralt, Nat. Chem.,\r\n2017, 9, 727–728.\r\n3 N. Somia and I. M. Verma, Nat. Rev. Genet., 2000, 1, 91–99.\r\n4 K. A. Mix, J. E. Lomax and R. T. Raines, J. Am. Chem. Soc.,\r\n2017, 139, 14396–14398.\r\n5 B. Leader, Q. J. Baca and D. E. G olan, Nat. Rev. Drug\r\nDiscovery, 2008, 7, 21–39.\r\n6 J. Doudna, Nature, 2015, 528, S6.\r\n7 J. A. Zuris, D. B. Thompson, Y. Shu, J. P. Guilinger,\r\nJ. L. Bessen, J. H. Hu, M. L. Maeder, J. K. Joung, Z.-Y. Chen\r\nand D. R. Liu, Nat. Biotechnol., 2015, 33, 73–80.\r\n8 M. Wang, J. A. Zuris, F. Meng, H. Rees, S. Sun, P. Deng,\r\nY. Han, X. Gao, D. Pouli, Q. Wu, I. Georgakoudi, D. R. Liu\r\nand Q. Xu, Proc. Natl. Acad. Sci. U. S. A., 2016, 113, 2868–2873.\r\n9 L. Zhang, P. Wang, Q. Feng, N. Wang, Z. Chen, Y. Huang,\r\nW. Zheng and X. Jiang, NPG Asia Mater., 2017, 9, e441.\r\n10 M. P. Stewart, A. Sharei, X. Y. Ding, G. Sahay, R. Langer and\r\nK. F. Jensen, Nature, 2016, 538, 183–192.\r\n11 R. Jahn, T. Lang and T. C. Sudhof, Cell, 2003, 112, 519–533.\r\n12 H. R. Marsden, I. Tomatsu and A. Kros, Chem. Soc. Rev.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "2011, 40, 1572–1585.\r\n13 W. Xu, J. Wang, J. E. Rothman and F. Pincet, Angew. Chem.,\r\nInt. Ed., 2015, 54, 14388–14392.\r\n14 R. Jahn and R. H. Scheller, Nat. Rev. Mol. Cell Biol., 2006, 7,\r\n631–643.\r\n15 G. Stengel, R. Zahn and F. Hook, J. Am. Chem. Soc., 2007, 129,\r\n9584–9585.\r\n16 N. Chuard, G. Gasparini, D. Moreau, S. L¨orcher, C. Palivan,\r\nW. Meier, N. Sakai and S. Matile, Angew. Chem., Int. Ed.,\r\n2017, 56, 2947–2950.\r\n17 W. Zong, S. Ma, X. Zhang, X. Wang, Q. Li and X. Han, J. Am.\r\nChem. Soc., 2017, 139, 9955–9960.\r\n18 L. Kong, S. H. C. Askes, S. Bonnet, A. Kros and F. Campbell,\r\nAngew. Chem., Int. Ed., 2016, 55, 1396–1400.\r\n19 J. Yang, J. Tu, G. E. M. Lamers, R. C. L. Olsthoorn and\r\nA. Kros, Adv. Healthcare Mater., 2017, 6, 1700759.\r\n20 V. P. Torchilin, R. Rammohan, V. Weissig and\r\nT. S. Levchenko, Proc. Natl. Acad. Sci. U. S. A., 2001, 98,\r\n8786–8791.\r\n21 F. Versluis, J. Voskuhl, B. van Kolck, H. Zope, M. Bremmer,\r\nT. Albregtse and A. Kros, J. Am. Chem. Soc., 2013, 135,\r\n8057–8062.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "22 J. Yang, Y. Shimada, R. C. L. Olsthoorn, B. E. Snaar-Jagalska,\r\nH. P. Spaink and A. Kros, ACS Nano, 2016, 10, 7428–7435.\r\n23 J. Yang, A. Bahreman, G. Daudey, J. Bussmann,\r\nR. C. L. Olsthoorn and A. Kros, ACS Cent. Sci., 2016, 2,\r\n621–630.\r\n24 Z. J. Meng, J. Yang, Q. Liu, J. W. de Vries, A. Gruszka,\r\nA. Rodriguez-Pulido, B. J. Crielaard, A. Kros and\r\nA. Herrmann, Chem.–Eur. J., 2017, 23, 9391–9396.\r\n25 H. R. Zope, F. Versluis, A. Ordas, J. Voskuhl, H. P. Spaink and\r\nA. Kros, Angew. Chem., Int. Ed., 2013, 52, 14247–14251.\r\n26 P. M. G. L¨offler, O. Ries, A. Rabe, A. H. Okholm,\r\nR. P. Thomsen, J. Kjems and S. Vogel, Angew. Chem., Int.\r\nEd., 2017, 56, 13228–13231.\r\n27 P. A. Beales and T. K. Vanderlick, Adv. Colloid Interface Sci.,\r\n2014, 207, 290–305.\r\n28 Y. H. M. Chan, B. van Lengerich and S. G. Boxer, Proc. Natl.\r\nAcad. Sci. U. S. A., 2009, 106, 979–984.\r\n29 L. Sun, Y. Gao, Y. Xu, J. Chao, H. Liu, L. Wang, D. Li and\r\nC. Fan, J. Am. Chem. Soc., 2017, 139, 17525–17532.\r\n30 S. M. Christensen, P.-Y. Bolinger, N. S. Hatzakis,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "M. W. Mortensen and D. Stamou, Nat. Nanotechnol., 2012,\r\n7, 51–55.\r\n31 H. M. Piwonski, M. Goomanovsky, D. Bensimon, A. Horovitz\r\nand G. Haran, Proc. Natl. Acad. Sci. U. S. A., 2012, 109, E1437–\r\nE1443.\r\n32 B. van Lengerich, R. J. Rawle, P. M. Bendix and S. G. Boxer,\r\nBiophys. J., 2013, 105, 409–419.\r\n33 L. H. Wang, K. G. Rothberg and R. G. W. Anderson, J. Cell.\r\nPhysiol., 1993, 123, 1107–1117.\r\n34 L. Liang, J. Li, Q. Li, Q. Huang, J. Y. Shi, H. Yan and\r\nC. H. Fan, Angew. Chem., Int. Ed., 2014, 53, 7745–7750.\r\n35 T. Moriyama, K. Sasaki, K. Karasawa, K. Uchida and K. Nitta,\r\nJ. Cell. Physiol., 2017, 232, 3565–3573.\r\n36 Y. P. Han, X. M. Li, H. B. Chen, X. J. Hu, Y. Luo, T. Wang,\r\nZ. J. Wang, Q. Li, C. H. Fan, J. Y. Shi, L. H. Wang, Y. Zhao,\r\nC. F. Wu and N. Chen, ACS Appl. Mater. Interfaces, 2017, 9,\r\n21200–21208.\r\n37 R. Vancini, G. Wang, D. Ferreira, R. Hernandez and\r\nD. T. Brown, J. Virol., 2013, 87, 4352–4359.\r\n38 N. A. Peppas and D. A. Carr, Chem. Eng. Sci., 2009, 64, 4553–\r\n4565.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "39 B. Kim and Y. Shin, J. Appl. Polym. Sci., 2007, 105, 3656–3661.\r\n40 M. A. Shaker and H. M. Younes, J. Controlled Release, 2015,\r\n217, 10–26.\r\n41 M. Akishiba, T. Takeuchi, Y. Kawaguchi, K. Sakamoto,\r\nH.-H. Yu, I. Nakase, T. Takatani-Nakase, F. Madani,\r\nA. Graslund and S. Futaki, Nat. Chem., 2017, 9, 751–761.\r\n42 P. Yin, H. M. T. Choi, C. R. Calvert and N. A. Pierce, Nature,\r\n2008, 451, 318–322.\r\n43 L. Zhang, Z. Yang, T. Thu Le, I. T. Teng, S. Wang,\r\nK. M. Bradley, S. Hoshika, Q. Wu, S. Cansiz, D. J. Rowold,\r\nC. McLendon, M.-S. Kim, Y. Wu, C. Cui, Y. Liu, W. Hou,\r\nK. Stewart, S. Wan, C. Liu, S. A. Benner and W. Tan,\r\nAngew. Chem., Int. Ed., 2016, 55, 12372–12375.\r\n44 N. Zhang, T. Bing, L. Shen, R. Song, L. Wang, X. Liu, M. Liu,\r\nJ. Li, W. Tan and D. Shangguan, Angew. Chem., Int. Ed., 2016,\r\n55, 3914–3918.\r\n45 S. E. Seo, T. Li, A. J. Senesi, C. A. Mirkin and B. Lee, J. Am.\r\nChem. Soc., 2017, 139, 16528–16535.\r\n46 S. Wan, L. Zhang, S. Wang, Y. Liu, C. Wu, C. Cui, H. Sun,\r\nM. Shi, Y. Jiang, L. Li, L. Qiu and W. Tan, J. Am. Chem.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "Soc., 2017, 139, 5289–5292.\r\n47 C. Jin, T. Fu, R. Wang, H. Liu, J. Zou, Z. Zhao, M. Ye, X. Zhang\r\nand W. Tan, Chem. Sci., 2017, 8, 7082–7086.\r\n5974 | Chem. Sci., 2018, 9, 5967–5975 This journal is © The Royal Society of Chemistry 2018\r\nChemical Science Edge Article\r\nOpen Access Article. Published on 15 June 2018. Downloaded on 7/13/2018 2:53:04 PM. This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence. View Article Online\n48 B. Zhao, J. Shen, S. Chen, D. Wang, F. Li, S. Mathur, S. Song\r\nand C. Fan, Chem. Sci., 2014, 5, 4460–4466.\r\n49 S. Wang, X. Cai, L. Wang, J. Li, Q. Li, X. Zuo, J. Shi, Q. Huang\r\nand C. Fan, Chem. Sci., 2016, 7, 2722–2727.\r\n50 Y. Wang, Z. Li, T. J. Weber, D. Hu, C.-T. Lin, J. Li and Y. Lin,\r\nAnal. Chem., 2013, 85, 6775–6782.\r\n51 Q. Zhang, Y. Qiao, F. Hao, L. Zhang, S. Wu, Y. Li, J. Li and\r\nX.-M. Song, Chem.–Eur. J., 2010, 16, 8133–8139.\r\n52 Y. Wang, L. Tang, Z. Li, Y. Lin and J. Li, Nat. Protoc., 2014, 9,\r\n1944–1955.\r\n53 M. P. Lutolf, F. E. Weber, H. G. Schmoekel, J. C. Schense,\r\nT. Kohler, R. Muller and J. A. Hubbell, Nat. Biotechnol.,\r\n2003, 21, 513–518.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "54 T. P. Richardson, M. C. Peters, A. B. Ennett and D. J. Mooney,\r\nNat. Biotechnol., 2001, 19, 1029–1034.\r\n55 M. R. Battig, B. Soontornworajit and Y. Wang, J. Am. Chem.\r\nSoc., 2012, 134, 12410–12413.\r\n56 D. Y. Zhang and E. Winfree, J. Am. Chem. Soc., 2009, 131,\r\n17303–17314.\r\n57 R. M. Dirks and N. A. Pierce, Proc. Natl. Acad. Sci. U. S. A.,\r\n2004, 101, 15275–15278.\r\n58 Z. L. Ge, M. H. Lin, P. Wang, H. Pei, J. Yan, J. Y. Sho,\r\nQ. Huang, D. N. He, C. H. Fan and X. L. Zuo, Anal. Chem.,\r\n2014, 86, 2124–2130.\r\n59 Y. Zhang, Y. Wang, H. Wang, J.-H. Jiang, G.-L. Shen, R.-Q. Yu\r\nand J. Li, Anal. Chem., 2009, 81, 1982–1987.\r\n60 X. J. Jiang and X. D. Wang, J. Biol. Chem., 2000, 275, 31199–\r\n31203.\r\n61 X. J. Jiang and X. D. Wang, Annu. Rev. Biochem., 2004, 73, 87–\r\n106.\r\n62 K. Dutta, D. Hu, B. Zhao, A. E. Ribbe, J. M. Zhuang and\r\nS. Thayumanavan, J. Am. Chem. Soc., 2017, 139, 5676–5679.\r\n63 N. W. S. Kam and H. J. Dai, J. Am. Chem. Soc., 2005, 127,\r\n6021–6026.\r\n64 H. Lee, D. H. M. Dam, J. W. Ha, J. Yue and T. W. Odom, ACS\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2237470432394650603,
+        "filename": "SC-009-C8SC00367J.PMC6050539.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 359,
+      "total_chunks": 23,
+      "version": "1.0.0"
+    },
+    "text": "Nano, 2015, 9, 9859–9867.\r\n65 H. Chang, J. Lv, X. Gao, X. Wang, H. Wang, H. Chen, X. He,\r\nL. Li and Y. Cheng, Nano Lett., 2017, 17, 1678–1684.\r\n66 H. Kim, K. Shin, O. K. Park, D. Choi, H. D. Kim, S. Baik,\r\nS. H. Lee, S.-H. Kwon, K. J. Yarema, J. Hong, T. Hyeon and\r\nN. S. Hwang, J. Am. Chem. Soc., 2018, 140, 1199–1202.\r\n67 C. J. Capicciotti, C. Zong, M. O. Sheikh, T. Sun, L. Wells and\r\nG.-J. Boons, J. Am. Chem. Soc., 2017, 139, 13342–13348.\r\n68 H. Liu, B. Kwong and D. J. Irvine, Angew. Chem., Int. Ed.,\r\n2011, 50, 7052–7055.\r\nThis journal is © The Royal Society of Chemistry 2018 Chem. Sci., 2018, 9, 5967–5975 | 5975\r\nEdge Article Chemical Science\r\nOpen Access Article. Published on 15 June 2018. Downloaded on 7/13/2018 2:53:04 PM. This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence. View Article Online\n\n"
+  }
+]

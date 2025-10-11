@@ -1,0 +1,1226 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "1 Borrelia PeptideAtlas: A proteome resource of common Borrelia\r\n2 burgdorferi isolates for Lyme research\r\n3\r\n4 Authors\r\nPanga Jaipal. Reddy1*, Zhi Sun1*, Helisa H. Wippel1*, David Baxter1, Kristian Swearingen1 5 , David D. \r\nShteynberg1, Mukul K. Midha1, Melissa J. Caimano2, Klemen Strle3, Yongwook Choi4, Agnes P. Chan4 6 , \r\nNicholas J. Schork4, Robert L. Moritz1# 7\r\n8 Affiliations\r\n9 1. Institute for Systems Biology, Seattle, Washington, USA\r\n10 2. Department of Medicine, UConn Health, Farmington, Connecticut, USA \r\n11 3. Department of Molecular Biology and Microbiology, Tufts University School of Medicine, Boston, \r\n12 Massachusetts, USA\r\n13 4. Translational Genomics Research Institute, Phoenix, Arizona, USA\r\n14\r\n15 *Equal first authors\r\n16 Corresponding author: Robert L. Moritz (rmoritz@systemsbiology.org), Phone: 206-732-1200, Fax: \r\n17 206-732-1299. \r\n18\r\n19 ORCID ID\r\n20 Panga Jaipal. Reddy 0000-0002-4481-3631\r\n21 Zhi Sun 0000-0003-3324-6851\r\n22 Helisa Wippel 0000-0002-9811-6700\r\n23 David H. Baxter 0000-0003-4468-2069\r\n24 Kristian Swearingen 0000-0002-6756-4471\r\n25 David D. Shteynberg 0000-0001-7982-0498\r\n26 Mukul Midha 0000-0003-4053-0682\r\n27 Melissa J. Caimano 0000-0003-1170-4102\r\n28 Klemen Strle 0000-0002-0109-6791\r\n29 Yongwook Choi 0000-0003-4017-9669\r\n30 Agnes P. Chan 0000-0003-2373-9580\r\n31 Nicholas J. Schork 0000-0003-0920-5013\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "32 Robert L. Moritz 0000-0002-3216-9447\r\n33\r\n34\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n35 Abstract\r\n36 Lyme disease , caused by an infection with the spirochete Borrelia burgdorferi, is the most common\r\n37 vector-borne disease in North America. B. burgdorferi strains harbor extensive genomic and \r\n38 proteomic variability and further comparison is key to understanding the spirochetes infectivity and \r\n39 biological impacts of identified sequence variants. To achieve this goal, both transcript and mass \r\n40 spectrometry (MS)-based proteomics was applied to assemble peptide datasets of laboratory\r\n41 strains B31, MM1, B31-ML23, infective isolates B31-5A4, B31-A3, and 297, and other public \r\n42 datasets, to provide a publicly available Borrelia PeptideAtlas \r\n43 (http://www.peptideatlas.org/builds/borrelia/). Included is information on total proteome, \r\n44 secretome, and membrane proteome of these B. burgdorferistrains. Proteomic data collected from \r\n45 35 different experiment datasets, with a total of 855 mass spectrometry runs, identified 76,936\r\n46 distinct peptides at a 0.1% peptide false-discovery-rate, which map to 1,221 canonical proteins (924 \r\n47 core canonical and 297 noncore canonical) and covers 86% of the total base B31 proteome. The \r\n48 diverse proteomic information from multiple isolates with credible data presented by the Borrelia \r\n49 PeptideAtlas can be useful to pinpoint potential protein targets which are common to infective \r\n50 isolates and may be key in the infection process. \r\n51\r\n52\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n53 Background & Summary\r\n54 The spirochete Borrelia burgdorferi is the causative agent of Lyme disease, the main vector-borne \r\n55 infection in North America, with over 476,000 cases per year between 2010 and 2018 [1, 2]. B. \r\n56 burgdorferi is transmitted to humans through the bite of infected nymphal or adult blacklegged \r\n57 ticks, and the untreated infection may cause a multisystem disorder characterized by early and later \r\n58 stage signs and symptoms [3, 4]. The early stage symptoms happen within the first 30 days after \r\n59 the tick bite and may include, among others, fever, joint aches and swollen lymph nodes, and rash \r\n60 (erythema migrans) [3]. When symptoms persist for months after the tick bite, later symptoms \r\n61 could be manifested: facial palsy, arthritis with severe joint pain and swelling, severe headaches, \r\n62 and inflammation of the brain [3]. Treatment is done with the use of antibiotics, and most cases of \r\n63 Lyme disease can be cured within 2 to 4 weeks [5], even though patients may continue to present \r\n64 symptoms for more than 6 months after the treatment ends, condition called Post-Treatment Lyme \r\n65 Disease Syndrome (PTLDS) [6]. Therefore, an early and correct diagnosis of Lyme disease is key to \r\n66 initiate the treatment of infection at its early stages and prevent extreme symptoms. Currently \r\n67 available tests, including the current CDC-recommended 2-tiered testing protocol, are designed to \r\n68 detect antibodies against B. burgdorferi in patient blood, which takes several weeks to be produced \r\n69 and can result in a false negative diagnosis[7]. Therefore, the development of alternative diagnostic \r\n70 methodologies, such as next-generation serologic assays [7], which include recombinant proteins \r\n71 and synthetic peptides targeting important factors in the B. burgdorferi infection, survival and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "72 proliferation mechanisms are needed. \r\n73 Borrelia burgdorferi is an atypical Gram-negative bacteria due to lack of LPS in its cell wall and the \r\n74 presence of immuno-reactive glycolipids, a peptidoglycan layer, and lipoproteins in the outer \r\n75 membrane [8-11] (Figure 1). These lipoproteins play a key role in the infectivity and proliferation \r\n76 of the spirochete in ticks and in mammal hosts [12], and are mostly encoded by the spirochete linear \r\n77 and circular plasmids, besides the single chromosome harbored [13]. Specifically, the B. burgdorferi\r\n78 B31 genome sequence revealed the presence of one linear chromosome with 843 genes, and 21 \r\n79 plasmids (12 linear and 9 circular) with 670 genes and 167 pseudogenes [9, 14]. Out of a total of \r\n80 1,513 genes, 1,291 are predicted as unique protein-coding genes [14]. B31 is the most commonly \r\n81 studied B. burgdorferi non-infective laboratory isolate, but an increasing number of infective \r\n82 genotypes have been isolated in North America and around the world, which are isolated from \r\n83 infected ticks or Lyme patients and display different pathogenic and infective patterns [15]. The \r\n84 genetic variability of subtypes of B. burgdorferi isolates – e.g., varying number of plasmids encoding \r\n85 for infection-related lipoproteins – may ultimately lead to diverse (i) severity of Lyme symptoms \r\n86 and (ii) spirochetal response to the antibiotic treatment [15]. Hence a proteogenomic approach \r\n87 combining genome sequencing data with transcriptomic and proteomic data from different isolates \r\n88 is a robust strategy to unveil the Borrelia pathogenicity and begin to develop new strategies for \r\n89 more efficient diagnosis and treatment of Lyme disease. \r\n90 Although numerous proteomic reports exist for B. burgdorferi isolates [16-23], no information is \r\n91 available as a searchable compendium of public data, and users have to resort to obtaining raw \r\n92 information files and search any, or all, of these data individually. In this study, we include in-house \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "93 acquired mass spectrometry (MS) and publicly available data to perform a comprehensive \r\n94 proteome analysis of 6 different laboratory B. burgdorferi isolates: two commercially available \r\n95 isolates B31 [24] and MM1 [25, 26], the genotype B31-ML23 [27], and 3 infective isolates 297 [28], \r\n96 B31-A3 [18], and B31-5A4 [29]. These datasets include information on the total proteome, \r\n97 secretome, and membrane proteome of the Borrelia isolates (Figure 1a&b). The uniform analysis \r\n98 of the total 855 MS runs through the Trans-Proteomic Pipeline (TPP) (Figure 1c) allowed the \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n99 identification of 76,936 distinct peptide sequences at false discovery rate (FDR) levels less than \r\n100 0.1%. These unique peptides map to 1,221 canonical proteins among all isolates with a protein\u0002101 level FDR less than 1% covering 86% of the total B31 proteome coverage. Additionally, for the \r\n102 comparison of protein abundance levels with mRNA levels, we performed transcriptomic analysis \r\n103 of isolates B31, 5A4-B31, and MM1. The complex and detailed proteomic results achieved here \r\n104 were gathered in a public repository called Borrelia PeptideAtlas, with interface made available at \r\n105 http://www.peptideatlas.org/builds/borrelia/. PeptideAtlas is a unique public community resource \r\n106 which contains large scale assembly of mass spectrometry data uniformly processed through the \r\n107 TPP [30, 31]. This repository has data from a wide range of samples, e.g., including human, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "108 Saccharomyces cerevisiae, Drosophila melanogaster and Candida albicans [32-36] among others. \r\n109 The Borrelia PeptideAtlas allows the assessment of protein content of B. burgdorferi isolates and \r\n110 compare detectable protein sequences. The continuous update of this repository with expandable \r\n111 data sources for many other B. burgdorferi isolates, including clinically relevant isolates, will enable \r\n112 the investigation of the dynamic proteome of this spirochete through its infection stages and their \r\n113 vastly different environments. The diverse proteomic information from multiple infective isolates \r\n114 with credible data presented by the Borrelia PeptideAtlas can be useful to understand the protein \r\n115 complement of each isolate and assist in pinpointing potential protein targets which are common \r\n116 to infective isolates and may be key in the infection process. The Borrelia PeptideAtlas is readily \r\n117 available as an important resource for the Lyme disease research community. \r\n118\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n119\r\n120 Figure 1. Overview of experimental workflow for the development of the Borrelia PeptideAtlas. (a) Cartoon \r\n121 representing B. burgdorferi structure. (b) Experiment workflow. B. burgdorferi was cultured in different \r\n122 environmental conditions, including log phase, stationary phase, and stressed conditions for total proteome \r\n123 analysis. Different enrichment assays were applied for the analysis of the secretome, the membrane \r\n124 proteome, lipid rafts, and acetylation. Samples were prepared directly for LC-MS analysis, or alternatively \r\n125 fractionated prior to LC-MS. Further details in Methods. (c) Trans Proteomic Pipeline (TPP) for the Borrelia \r\n126 PeptideAtlas assembly. \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n127 Methods\r\n128 B. burgdorferi isolates and spirochete culture\r\n129 For the in-house performed experiments, 2 common commercially available laboratory isolates of\r\n130 B. burgdorferi [B31 (ATCC 35210) [24], MM1 (ATCC 51990) [25, 26]], and the infective isolate B31-\r\n131 5A4 (a clonal isolate of 5A4 that has been passaged through rodents to maintain infectivity) [29]\r\n132 were cultured in BSK-H complete media with 10% rabbitserum, at 34 °C in 5.0% CO2 incubator. B31-\r\n133 5A4 was cultured at a low passage to minimize loss of endogenous plasmids. The spirochetes were \r\nharvested and collected at mid-log phase (3 to 5 × 107) or stationary phase (3 to 5 × 108 134 ) for \r\n135 proteomic analysis. For secretome analysis, mid-log phase cells were harvested, washed and \r\n136 transferred to serum-free media, i.e., BSK-H media without rabbit serum grown for 24 h at 34 °C in \r\n137 5.0% CO2 incubator. The culture was centrifuged at 3,000 rpm for 1 h and collected both the media \r\n138 and the bacteria were collected. The media was used for secretome analysis and bacteria were \r\n139 used for stress proteome analysis. \r\n140 Total proteome extraction\r\n141 B. burgdorferi pellets collected from log phase, stationary phase and stressed bacteria (grown in \r\n142 serum-free media for 24 h) were washed with PBS buffer (pH 7.4) four times to remove the media \r\n143 and centrifuged at 300 × g for 3 min at each wash. The bacterial pellets were dispersed in lysis \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "144 buffer of 8 M urea in 100 mM ammonium bicarbonate and protease inhibitor cocktail (CoMplete,\r\n145 (Roche)). The bacterial cell lysis was performed using freeze-thaw cycle followed by sonication (30 \r\n146 s pulse, 20% amplitude, 5 cycles). Cell lysate was centrifuged at 25,000 rpm for 30 min and clear \r\n147 supernatant was collected for total proteome analysis. The protein samples were stored at - 80 °C \r\n148 until used.\r\n149 Secretome extraction\r\n150 B. burgdorferi B31 culture at mid-log phase was washed with PBS buffer to remove the media and \r\n151 allow transfer of the bacteria to serum free BSK media (BSK media without rabbit serum) for 24 hrs.\r\n152 The bacteria were collected by centrifugation at 300 × g for 3 min, and the media was used for the \r\n153 secretome analysis. To the media, four volumes of chilled acetone were added and precipitated \r\n154 the protein for 30 min at 4 °C. Protein pellets were collected by centrifugation and washed with \r\n155 acetone two more times. Protein pellet was dissolved in lysis buffer (8 M urea in 100 mM \r\n156 ammonium bicarbonate). \r\n157 Membrane proteome analysis\r\n158 B. burgdorferi B31 was cultured as above and harvested by centrifugation at 3,000 rpm for 60 min. \r\n159 The bacterial pellets were washed with ice cold PBS buffer (pH 8.0) three times. The bacterial pellets \r\nwere resuspended in PBS buffer (pH 8.0) with final cell number of 108 160 /mL of buffer. 10 mM Sulfo\u0002161 NHS-SS-Biotin (Thermo-Fisher Scientific, USA) was prepared according to the manufacture’s guide. \r\n162 The stock solution of Sulfo-NHS-SS-Biotin was added to the bacterial pellets and mixed via pipette. \r\n163 The bacterial pellets were incubated at 4 °C for 60 min for the labeling reaction. Each bacterial \r\n164 pellet was centrifuged at 5,000 rpm for 20 min and supernatant was discarded. Tris buffered saline \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 464,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "165 (TBS, pH 7.4) was added to the bacterial pellets and incubated at room temperature for 15 min and \r\n166 centrifuged at 16,000 rpm for 10 min. B. burgdorferi pellets were washed with PBS buffer (pH 7.4) \r\n167 and dispersed in 100 mM Tris buffer (pH 8.0) containing the protease inhibitor cocktail. The cell \r\n168 lysis was performed using freeze-thaw cycles as described above. The B. burgdorferi B31 lysate was \r\n169 centrifuged at 25,000 rpm for 30 min and the supernatant was collected for soluble proteome \r\n170 analysis. The resultant protein pellet was washed with 100 mM Tris buffer (pH 8.0) and dissolved \r\n171 in membrane dissolving buffer (8 M urea having protease inhibitor cocktail) and incubated at 4 °C \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n172 for 30 min with intermediate vortexing. The sample was centrifuged at 25,000 rpm for 30 min and \r\n173 the supernatant was collected for membrane protein analysis. Alternatively, DynaBeads \r\n174 (Dynabeads MyOne Streptavidin T1, Invitrogen) were prepared by adding PBS buffer (pH 7.4).\r\n175 Membrane fractions were transferred to the tubes having beads and incubated for 1 h at 4 °C with \r\n176 end-over-end rotation. Beads were sequestered by a magnet and sequential washing steps were \r\n177 performed as follows: 1 mL per wash and 8 min per wash with solution-I (2% SDS), solution-II (6 M \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "178 urea, 0.1% SDS, 1 M NaCl and 50 mM Tris pH 8.0), solution-III (4 M urea, 0.1% SDS, 200 mM NaCl, 1 \r\n179 mM EDTA and 50 mM Tris pH 8.0) and solution-IV (0.1% SDS, 50 mM NaCl and 50 mM Tris pH 8).\r\n180 The bound proteins were eluted in 2 × SDS-PAGE sample buffers. \r\n181 In-solution digestion and high-pH fractionation\r\n182 Isolates B31, MM1 and B31-5A4 protein samples (log phase, stationary phase, stressed bacteria, \r\n183 and secretome) were digested with trypsin for proteomic analysis. Briefly, 100 µg of protein from \r\n184 each condition were reduced with 5 mM Tris (2-carboxyethyl) phosphine (TCEP) and alkylated with \r\n185 iodoacetamide. Proteomic-grade modified trypsin (Promega) was added at a 50:1 protein-to\u0002186 enzyme ratio and incubated at 37 °C overnight. Samples were fractionated using high-pH \r\n187 fractionation, and the remaining samples were analyzed by LC-MS/MS directly. In the first \r\n188 experiment set trypsin digested peptides were reconstituted in 200 mM ammonium formate (pH \r\n189 10) and fractionated on an Agilent 1200 Series HPLC system. Peptides were loaded on ZORBAX SB\u0002190 C18 column (4.6 × 150 mm, 5 µm particle size) and fractionated using a linear gradient of 0-100% of \r\n191 B (60% acetonitrile in 20 mM ammonium formate pH 10). A total of 24 fractions were collected \r\n192 over the elution profile and pooled to create 8 disparate fractions, each containing 3 of the original \r\n193 24, separated by 7 fractions in between ,i.e. (1,9,17), (2,10,18), (3,11,19) etc. For B31, B31-5A4 and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "194 MM1 protein samples tryptic peptides were fractionated on the Agilent 1200 Series Gradient HPLC \r\n195 system with a flow rate of 100 µL/min of buffer A [0.1% (vol/vol) triethylammonium bicarbonate \r\n196 (TEAB) in water] and 1%/min gradient of buffer B [60% (vol/vol) acetonitrile, 0.1% (vol/vol) TEAB in \r\n197 water], with a Brownlee Aquapore RP-300 column (100 mm × 2.1 mm i.d. from Perkin-Elmer). The \r\n198 total 56 fractions were pooled to 14 final fractions through groupings of 3 disparate fractions to \r\n199 cover the range. These fractions were lyophilized and reconstituted in 0.1% formic acid and 2% \r\n200 acetonitrile for LC-MS/MS analysis. \r\n201 SDS-PAGE and in-gel digestion\r\n202 The biotin labeled proteins eluted in 2 × SDS-PAGE sample buffers were mixed with reducing agent \r\n203 and bromophenol blue (BPB) and resolved on 12% SDS-PAGE gel. The gel was stained with \r\n204 SimplyBlue Safe Stain (Invitrogen, Carlsbad, CA). Each lane of the SDS-PAGE was cut into five bands \r\n205 and processed for in-gel digestion. In brief, the gel pieces were washed with 50 mM ammonium \r\n206 bicarbonate (AmBic) and 2:1 ratio of acetonitrile:AmBic alternatively,three times for five min each \r\n207 to remove the stain. Gel bands were treated with DTT (56 °C for 1 h) and iodoacetamide (20 min in \r\n208 the dark) for reducing and alkylating the cysteine residues. Trypsin (500 ng/µL) along with sufficient \r\n209 50 mM AmBic was added to each gel band and incubated at 37 °C overnight. Peptide elution was \r\n210 performed by adding 60% of acetonitrile in 0.1% TFA to the bands,vortexing for 10 min and collectint \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "211 the solution into a fresh tube. The process was repeated two more times with acetonitrile gradient \r\n212 70% and 80% in 0.1% TFA and pooled to the previous fraction. \r\n213 Enrichment of phosphorylated peptides\r\n214 For the enrichment of phosphorylated peptides of isolates B31-5A4 and MM1, tryptic peptides from \r\nlog phase pellets (~5 × 107 215 cells) were resuspended in 500 µL of loading buffer [80% acetonitrile, 5% \r\n216 trifluoroacetic acid (TFA), 0.1 M glycolic acid], and incubated with 400 µg of MagReSyn Ti-IMAC HP \r\n217 (Resyn Biosciences). Beads were washed 3 times with 500 µL of 80% acetonitrile and 1% TFA, 3 \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n218 times with 500 µL of 10% acetonitrile and 0.2% TFA, and peptides were eluted with 200 µL of 2% \r\n219 ammonium hydroxide. Samples were cleaned up with a C18 Atlas column (Tecan, USA) and \r\n220 prepared for LC-MS analysis. \r\n221 LC-MS/MS analysis\r\n222 Q-Exactive HF\r\n223 Borrelia burgdorferi samples, except B31-Biotin labeled samples, were analyzed either on an \r\n224 EasynLC (Thermo Fisher Scientific) coupled with Q-Exactive HF mass spectrometer (Thermo Fisher \r\n225 Scientific). The purified dried peptides were dissolved in loading buffer (0.1% formic acid (FA) in \r\n226 water) and loaded on to the Acclaim PepMap 100 trap (2 cm long, 75 μm ID, C18 3 μm; Thermo \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "227 Fisher Scientific). Analytical column (PICOCHIP: 105 cm, 1.9 µm, REPROSIL Pur C-18-AQ, 120 Å, New \r\n228 Objective, USA) with a flow rate of 300 nL/min was used for the separation of the peptides with a \r\n229 linear gradient of 5–35% buffer-B (90% acetonitrile in 0.1% FA) over 120 min. The data acquisition \r\n230 parameters include: mass range 375-1375 m/z, MS resolution of 30,000 (at m/z 200), MS/MS \r\nresolution of 15,000 (at m/z 200), full scan target at 3 × 106 231 , 40 top intense peaks with charge state \r\n232 >2 were selected for fragmentation using HCD with 28% normalized collision energy, dynamic \r\n233 exclusion time of 25 s and profiler mode with positive polarity. Alternatively, B31-Biotin labelled \r\n234 peptides were analyzed using Agilent 1100 nano pump coupled to an LTQ Velos Pro-Orbitrap Elite \r\n235 mass spectrometry (Thermo Scientific, USA). Sample was loaded onto a trap column consisting of \r\n236 a fritted capillary (360 μm o.d., 150 μm i.d.). Peptides were separated with in-house packed column \r\n237 with a 20 cm bed of C18 (Dr. Maisch ReproSil-Pur C18-AQ, 120 Å, 3 μm) having an integrated fritted \r\n238 tip (360 μm o.d.), 75 μm i.d., 15 μm i.d. tip; New Objective). Data-dependent acquisition was \r\n239 performed by selecting top precursor ions for fragmentation using collision-induced dissociation \r\n240 (CID) with 30 sec dynamic exclusion time limit. \r\n241 Orbitrap Fusion Lumos\r\n242 B31, B31-5A4, and MM1 pooled fractions – 14 fractions per isolate – were analyzed on a Vanquish \r\n243 Neo UHPLC coupled to an Orbitrap Fusion Lumos instrument (Thermo Scientific, USA), equipped \r\n244 with a Easy-Spray nanoelectrospray source. Peptides were loaded onto a trap column (0.5 cm × \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "245 300-μm i.d., stationary phase C18) with a flow rate of 10 µL/min of mobile phase: 98% (vol/vol) LC\u0002246 MS solvent A [0.1% (vol/vol) formic acid (FA) in water] and 2% (vol/vol) LC-MS solvent B [0.1% \r\n247 (vol/vol) FA in acetonitrile]. Peptides were chromatographically separated on a 50-cm analytical \r\n248 column [(EASY-Spray ES803A, Thermo Scientific); 75 µm × 50 cm, PepMap RSLC C18, 2-µm i.d, 100-\r\n249 Å-pore-size particles] applying a 115-min linear gradient: from 3% solvent B to 8% solvent B in 10 \r\n250 min, to 30% solvent B in 90 min, and ramped to 80% solvent B in 5 min, at a flow rate of 250 nL/min. \r\n251 The column temperature was set to 45 °C. Spray voltage was set to 1.8 kV and s-lens RF levels at \r\n252 30%. The mass spectrometer was set to high resolution data-dependent acquisition (DDA) of 15\r\n253 topN most intense ions with charge state of +2 to +5. Each MS1 scan (120,000 resolving power at \r\n254 200 m/z, automated gain control (AGC) of 125%, scan range 300 to 1,500 m/z, and dynamic \r\n255 exclusion of 30 s, with maximum fill time of 50 ms) was followed by 15 MS2 scans (30,000 resolving \r\n256 power at 200 m/z, AGC of 200%, maximum fill time of 54 ms). Higher-energy collisional dissociation \r\n257 (HCD) was used with 1.6 m/z isolation window and normalized collision energy of 30%. \r\n258 Triple-TOF\r\n259 Log phase B31 and MM1 Borrelia samples were analyzed using 5600+ Triple-TOF mass spectrometry \r\n260 (ABSciex, USA) coupled with Eksigent 400 nano-HPLC (Sciex, USA). Peptides from the 2 isolates were \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "261 run separately by loading on trap column (200 μm × 0.5 mm, Chrom XP C18-CL 3 μm, 120 Å, Eksigent, \r\n262 AB Sciex). Peptides were separated on analytical column (75 μm × 20 cm, ChromXP C18- CL 3 μm, \r\n263 120 Å, Eksigent, Sciex) with the gradient of buffer B (95% acetonitrile in 0.1% formic acid) and \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n264 flowrate was 300 nL/min. The linear gradient profile from 3 to 40% buffer B in 103 min, increased \r\n265 to 80% in 105 min and continued to 113 min.Buffer B was then brought down to 3% in 115 min and \r\n266 continued until 140 min. Precursor mass was measured at MS1 level in high resolution mode with \r\n267 mass range of 400-1250 m/z. The TOF-MS parameters includes: nanospray ionization, curtain gas \r\n268 (CUR)- 25, ion source gas 1 (GS1)- 3, interface heater temperature (IHF)- 150, ion spray voltage \r\n269 floating (ISDF)-2300, declustering potential (DP)-100, collision energy (CE)-10, accumulation time\u0002270 50 ms, mass tolerance 100 ppm, exclude former peptide ion- 15 sec after first detection and \r\n271 precursors selected for each cycle top 30 intense peaks with charge state 2 to 4 having greater than \r\n272 or equal to 150 counts were selected for fragmentation using rolling collision energy. Similarly, at \r\n273 MS2 level, spectra were collected in m/z range of 100-1500 m/z with 50 ms accumulation time in \r\n274 high sensitivity mode. \r\n275 Tims-TOF PRO\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "276 All 14 MM1 pooled fractions from high pH fractionation were spiked in with iRT standard peptides \r\n277 (Biognosys AG, Schlieren, Switzerland) and subjected to mass spectrometry (MS) analysis using a \r\n278 timsTOF PRO mass spectrometer (Bruker), coupled to a Vanquish Neo HPLC system (Thermo-Fisher \r\n279 Scientific) in nanoflow setup for both Data-Dependent Acquisition-Parallel Accumulation-Serial \r\n280 Fragmentation (DDA-PASEF) and Data-Independent Acquisition (DIA) PASEF modes. Both modes \r\n281 were operated with 99.9% water, 0.1% formic acid/Milli-Q water (v/v, buffer A), and 99.9% ACN, \r\n282 0.1% formic acid (v/v, buffer B). Peptides were trapped on a 0.5 cm x 0.3 mm trap cartridge Chrom \r\n283 XP C18, 3 μm (Thermo-Fisher Scientific) at 10 μL/min, and separated on a C18 UHP 15 cm x 0.15 mm \r\n284 × 1.5 μm column (Bruker/PepSep) at either 600 nL/min or 1 μL/min for 66 and 45 minutes, \r\n285 respectively. The gradient elution profile for both flow rates was as follows: 3% to 25% B in 51 min \r\n286 (37 min for 1 μL/min), 25% to 35% B in 15 min (8 min for 1 μL/min), 35% to 80% B in 1 min, followed \r\n287 by an isocratic flow at 80% B for 2 min. The Captive Spray ion source was equipped with a 20 μm \r\n288 emitter (Bruker) and the parameters were as follows: 1700 V Capillary voltage, 3.0 L/min dry gas, \r\n289 and temperature set to 180 °C. The DDA-PASEF data covered 100–1700 m/z range with 6 (for 45 \r\n290 min gradient length) or 8 (for 66 min) PASEF ramps. The TIMS settings were 100 ms ramp and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "291 accumulation time (100% duty cycle), resulting in 0.9 s (45 min) 1.1 s (66 min) of total cycle time. \r\n292 Active exclusion was enabled with either a 0.2 (45 min) and 0.3 (66 min) min release. The default \r\ncollision energy with a base of 0.6 1/K0 [V s/cm2] is set at 20 eV and 1.6 1/K0 [V s/cm2 293 ] at 59 eV was \r\n294 used. Isolation widths were set at 2 m/z at <700 m/z and 3 m/z at >800 m/z. To achieve more \r\n295 comprehensive coverage, 14 fractions were acquired using DIA-PASEF preformed py5 scheme \r\n296 (Bruker) with 32 X 25 Da windows, covering the m/z range of 400-1200 and 1/K0 range of 0.6 to \r\n297 1.42, resulting in a total cycle time of 1.8 s. \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n298\r\n299 Figure 2. Mass spectrometry runs. (a) Number of MS runs per environmental condition of B. burgdorferi\r\n300 analyzed for total proteome, or protein enrichment methodology (secretome, acetylation, membrane \r\n301 proteome, lipid rafts). (b) Number of MS runs per instrument used. Bruker instruments: BrukerDaltonics ion \r\n302 trap, TripleTOF 5500, TimsTOF. Thermo Scientific instruments: Orbitrap Elite, Orbitrap Fusion Lumos, Q\u0002303 Exactive HF, LTQ Orbitrap XL, LCQ Duo. \r\n304 Proteomic data analysis\r\n305 In-house developed Trans-Proteomic Pipeline TPP v6.2.0 Nacreous, Build 202302160135-8863 was \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "306 used for the mass spectrometry data analysis for both identification and quantitation of the \r\n307 proteins. Mass spectrometry raw data (.raw, .d, and .wiff files) from in-house performed \r\n308 experiments and public datasets were converted into .mzML files using msConvert 3.0.5533 [37]\r\n309 and AB_SCIEX_MS_Converter 1.3 Beta from AB SCIEX. The converted files were searched using \r\n310 comet version 2023.01 rev. 0 [38]. All files were searched against a combined reference database, \r\n311 which comprised the following genome assemblies and proteomes. For isolate B31, the Uniprot [39]\r\n312 proteome (ProteomeID UP000001807 [9, 14]), with 1,291 protein sequences (Table 1). This \r\n313 database was named “core proteome” in the build. Also, the RefSeq [40] assembly with accession \r\n314 GCF_000008685.2 containing 1,359 protein sequences, and the GenBank [41] assembly\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n315 GCA_000008685.2 with 1,339 sequences. Total number of non-redundant protein sequences for \r\n316 isolate B31 is 1,485. For isolate B31-5A4, the GenBank assembly GCA_024662195.1 with 1,429 \r\n317 protein sequences, the RefSeq assembly GCF_024662195.1 with 1,354 sequences, and the ISB \r\n318 assembly with 814 sequences (not published). The total number of non-redundant protein \r\n319 sequences for isolate B31-5A4 is 1,443. For isolate MM1, the GenBank assembly GCA_003367295.1 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "320 with 1,302 protein sequences, and the RefSeq assembly GCF_003367295.1 with 1,159 sequences, \r\n321 and an overall total of 1,383 non-redundant protein sequences (Table 1). All public protein \r\ndatabases were downloaded on April 7th 322 2023. The final combined protein databaseincluded 116 \r\n323 contaminant sequences from cRAP database (http://www.thegpm.org/crap/), downloaded on July \r\n22nd 324 2022 (Table 1), containing all 3 isolates with 2,619 unique sequences and an equal number of \r\n325 decoy sequences (generated using the decoy tool in Trans-Proteomic Pipeline with “randomize \r\n326 sequences and interleave entries” decoy algorithm) The following data analysis parameters were \r\n327 used: peptide mass tolerance 20 ppm, fragment ions bins tolerance of 0.02 m/z and monoisotopic \r\n328 mass offset of 0.0 m/z for Q-Exactive and Orbitrap Fusion Lumos, fragment ions bins tolerance of \r\n329 1.0005 m/z and a monoisotopic mass offset of 0.4 m/z for LTQ Orbitrap Elite/XL, peptide mass \r\n330 tolerance 20 ppm, fragment ions bins tolerance of 0.1 m/z and monoisotopic mass offset of 0.0 m/z \r\n331 for Triple-TOF and Tims-TOF, peptide mass tolerance 3.1 Da, fragment ions bins tolerance of 1.0005 \r\n332 m/z and monoisotopic mass offset of 0.4 m/z for LTQ/LCQ Duo/amaZon ion trap, semi-tryptic \r\n333 peptides, allowed 2 missed cleavages, static modification- carbamidomethylation of cysteine \r\n334 (+57.021464 Da) and variable modifications- oxidation of methionine and tryptophan (+15.994915 \r\n335 Da), protein N-terminal acetylation (+42.0106), peptide N-terminal Gln to pyro-Glu (−17.0265), \r\n336 peptide N-terminal Glu to pyro-Glu (−18.0106), phosphorylation of Ser, Thr, or Tyr (+79.9663). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "337 PeptideProphet was used to assign the scores for peptide spectral matches (PSM) for individual files \r\n338 and iProphet was used to assign the score for peptides [31, 42, 43]. Uniprot proteomes are available \r\n339 at https://www.uniprot.org/proteomes/, and NCBI RefSeq and GenBank genome assemblies are \r\n340 available at https://www.ncbi.nlm.nih.gov/assembly/. \r\n341 Table 1. Number of protein sequences per reference database. \r\n#proteins B31 B31-5A4 MM1\r\nRefSeq 1,359 1,354 1,159\r\nGenBank 1,339 1,429 1,302\r\nUniProt 1,291\r\nISB 814\r\nTotal non-redundant 1,485 1,443 1,383\r\n342 PeptideAtlas Assembly\r\n343 The iProphet outputs from Q-Exactive, Orbitrap Fusion Lumos, LTQ Orbitrap Elite/XL, Tims-TOF DDA \r\n344 and Triple-TOF runs werefurther processed using two round of reSpect to identify chimeric \r\n345 spectra[44]. For the first round of reSpect, the MINPROB was set to 0 and the MINPROB was set to \r\n346 0.5 for the second round of reSpect. The new set of .mzML files generated by both rounds of reSpect \r\n347 were searched using comet with the precursor mass tolerance 3.1 and isotope_error off, and \r\n348 processed using the TPP as for the initial files. Using the PeptideAtlas processing pipeline, all the \r\n349 iProphet results from standard and reSpect were filtered at a variable probability threshold to \r\n350 maintain a constant peptide-spectrum match (PSM) FDR of 0.05% for each experiment. The filtered \r\n351 data was assessed with the MAYU software [45] to calculate decoy-based FDRs at the peptide\u0002352 spectrum match (PSM), distinct peptide, and protein levels. PTMProphet [46] was used to access \r\n353 the localization confidence of the sites with post-translational modifications (PTMs), and for low \r\n354 resolution ITCID runs DALTONTOL=0.6 and DENOISE NIONS=b parameters were applied. Otherwise, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "available under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n355 default options were used. Bio Tools SeqStats (https://metacpan.org/pod/Bio::Tools::SeqStats) was \r\n356 used to get protein molecular weight, length, pI, and GRAVYin scores [47]. All results were collated \r\n357 in the Borrelia PeptideAtlas, made available at http://www.peptideatlas.org/builds/borrelia/. \r\n358 Label-free quantitation\r\n359 StPeter was used for a label-free quantitation of the build data using spectral counting through a \r\n360 seamless interface in the TPP [48]. The merged protein databases were clustered using OrthoFinder\r\n361 [49]. The representative protein sequence from each protein cluster was extracted. The protein \r\n362 database of the PTMProphet output from each experiment was refreshed to the representative \r\n363 protein database mapping using the RefreshParser tool in TPP. ProteinProphet and StPeter were \r\n364 run on the updated PTMProphet file. The StPeter FDR cutoff value 0.01 and minimum probability \r\n365 0.9 were used. For FTMS HCD/CID and Tims-TOF runs, a mass tolerance of 0.01 was used. \r\n366 RNA transcript analysis\r\n367 To generate RNA for sequencing, B. burgdorferi isolates B31, MM1, and B31-5A4 were cultured as \r\n368 previously described, and the cells were collected by centrifugation. Total RNA was extracted using \r\n369 Qiagen RNEasy Mini kits (Qiagen, USA) according to the manufacturer’s instructions, including an \r\n370 on-column DNAse digestion step. RNA concentration was measured using a NanoDrop \r\n371 spectrophotometer (Thermo-Fisher Scientific, USA) and quality assayed by Agilent BioAnalyzer\r\n372 (Agilent, USA). Prior to library construction, 1 µg of total RNA was depleted of ribosomal-RNA \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "373 transcripts using MICROBExpress Bacterial mRNA Enrichment Kits (Thermo-Fisher Scientific, USA).\r\n374 Libraries were prepared using NEBNext Ultra II Directional RNA Library Prep Kit for Illumina (New \r\n375 England Biolabs, USA) and NEBNext Multiplex Oligos for Illumina (NEB, USA). The libraries were \r\n376 prepared according to manufacturer’s instructions with insert size approximately 400 bp. Library \r\n377 quality was validated by Agilent Bioanalyzer and yield measured by Qubit HS DNA assay (Thermo \r\n378 Fisher Scientific, USA). Libraries were run on an Illumina NextSeq500 sequencer with High Output \r\n379 Flowcell (Illumina, USA) for 150 cycles. Reads were mapped to the B31 reference genome (Genbank \r\n380 assembly accession GCA_000008685.2) using STAR [50] with quantMode enabled. Mapped reads \r\n381 were visualized with Integrative Genomics Viewer [51] and counts normalized in reads per kilobase \r\n382 of transcript per million reads mapped (RPKM). \r\n383 Data Record 1\r\n384 Mass spectrometry data from 9 public datasets, comprising a total of 617 DDA-MS runs, of isolates \r\n385 B31, B31-ML23, B31-A3, and 297, were used for the Borrelia PeptideAtlas assembly through TPP \r\n386 analysis, with the following identifiers: data on isolate B31 PeptideAtlas dataset PASS00497 [16], \r\n387 ProteomeXchange datasets PXD010065 [17], PXD007904 [21], PXD002365 [22], PXD001860 [23], \r\n388 and MassIVE dataset MSV000085503 [19]; data on isolate B31-ML23 PXD015685 [27], data on \r\n389 isolate B31-A3 PXD005617 [18]; and data on isolate 297 was obtained from the public resource \r\n390 PXD000876 [20] (Supplementary Table S1). \r\n391 Data Record 2\r\n392 Mass spectrometry data from 17 different in-house experiments using laboratory isolates B31, B31-\r\n393 5A4, and MM1, with a total of 210 DDA- and 28 DIA-MS runs (Thermo Scientific instrument .raw \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "394 files, Bruker instruments .d files), were analyzed through the TPP pipeline and deposited to the \r\n395 ProteomeXchange Consortium via the PRIDE [52] partner repository with the dataset identifier \r\n396 PXD042072. \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n397 Technical Validation\r\n398 Borrelia PeptideAtlas assembly\r\n399 The Borrelia PeptideAtlas repository contains information on peptides identified by mass \r\n400 spectrometry-based proteomics of different infective (B31-5A4, B31-A3, 297) and non-infective \r\n401 (B31, B31-ML23, MM1) B. burgdorferi laboratory isolates. The current build (2023-05) comprises \r\n402 extensive proteomics analysis on the total proteome, the secretome and the membrane proteome \r\n403 of the isolates from 9 public datasets and 17 in-house performed experiments with a total of 26 \r\n404 experiments and 855 MS runs. To generate the build, the dense MS-based proteomic data, which \r\n405 includes 57 million MS/MS spectra, was searched using combined reference databases of B31, B31-\r\n406 5A4 and MM1, and uniformly processed through the TPP (see “Methods”). This approach includes \r\n407 the use of the post-search engine reSpect to boost peptide identification from chimeric spectra [44]\r\n408 and MAYU [45] to help estimate decoy-based FDR levels for the Borrelia build, which include \r\n409 multiple large datasets. This strategy allowed the match of approximately 8 million PSMs with FDR \r\n410 level threshold less than 0.0005 at the PSM level, and identification of a total of 76,936 distinct \r\n411 peptides at 0.1% peptide FDR (Figure 3a). These peptides mapped to a total of 1,581 proteins \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "412 among all isolates with a protein-level FDR less than 1% (Figure 3b), including 924 core canonical \r\n413 and 297 noncore canonical. The description of all protein categories and a summary of the proteins \r\n414 identified within each category in the build are shown in Table 2, and complete information on \r\n415 proteins identified in the build is made available in Supplementary Table S2. Specifically, for the \r\n416 B31 core proteome, 1,107 non-redundant proteins to which at least one peptide was mapped were \r\n417 identified, covering 86% of the B31 core proteome (Table 3). Figure 3 c-e shows the frequency \r\n418 distributions of observed and theoretical tryptic peptides by length (aa), distributions of peptide \r\n419 charge and the number of distinct peptides per million observed in each isolate experiment, \r\n420 respectively. The majority of the identified peptides had a charge state of 2+ or 3+ with a length of \r\n421 7 to 30 amino acids, and most of the identified peptides presented at least one trypsin missed \r\n422 cleavage site. Figure 3f illustrates the frequency (%) of the primary sequence coverage for canonical \r\n423 proteins, i.e., the percentage value of amino acids which were identified for each protein, which \r\n424 ranged from 6% to 100%. The complex and detailed proteomic results achieved with the Borrelia \r\n425 PeptideAtlas repository were made available at http://www.peptideatlas.org/builds/borrelia/. \r\n426\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n427 Table 2. Protein identification categories in the Borrelia PeptideAtlas build. \r\nProtein label #proteins Technical definition\r\nCanonical 924 Proteins with at least two 9AA or greater peptides with a total extent of 18AA or greater that \r\nare uniquely mapping within the core reference proteome.\r\nNoncore \r\nCanonical\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "297 Proteins with at least two 9AA or greater peptides with a total extent of 18AA or greater that \r\ndo not map in the core reference proteome, but rather to an isoform, contaminant, or other \r\nprotein missing from the core reference proteome.\r\nWeak 47 Protein has more unique peptides than shared peptides, and only one uniquely mapping \r\npeptide 9AA or greater.\r\nInsufficient \r\nevidence\r\n4 Protein has more unique peptides than shared peptides, but none are 9AA or greater\r\nMarginally \r\nDistinguished\r\n253 Protein has unique peptides, but there are not more unique peptides than shared peptides, \r\nand the extended length of unique peptides is < 18AA.\r\nIndistinguishable \r\nRepresentative\r\n56 Protein has no unique peptides, and there are several indistinguishable proteins, but this one \r\nis assigned to be an Indistinguishable Representative and the others are Indistinguishable.\r\nTotal 1,581\r\n428\r\n429 Table 3. Proteome coverage. Database: name of database, which collectively form the reference database \r\n430 for this build. #entries: total number of entries. #proteins: total number of non-redundant entries. #obs\u0002431 proteins: number of non-redundant protein sequences within the subject database to which at least one \r\n432 observed peptide maps. %observed: the percentage of the subject proteome covered by one or more \r\n433 observed peptides. #unObs-proteins: number of non-redundant protein sequences within the subject \r\n434 database to which no observed peptide maps.\r\nDatabase #entries #proteins #obs-proteins %observed #unObs-proteins\r\nB31 CoreProteome 1,291 1,291 1,107 85.7 184\r\nB31 3,989 1,485 1,235 83.2 250\r\nMM1 2,461 1,383 1,159 83.8 224\r\nB31-5A4 3,597 1,443 1,221 84.6 222\r\n435\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n436\r\n437 Figure 3. Borrelia PeptideAtlas experiment contribution. (a) Number of peptides which contributed to each \r\n438 experiment, and the cumulative number of distinct peptides for the build as of that experiment. (b) \r\n439 Cumulative number of canonical proteins contributed by each experiment. Height of red bar is the number \r\n440 of proteins identified in experiment; height of blue bar is the cumulative number of proteins; width of the bar \r\n441 (x-axis) shows the number of spectra identified (PSMs), above the threshold, for each experiment. (c) \r\n442 Frequency distributions of peptide length by number of amino acids. The figure shows frequency of distinct \r\n443 peptides (in blue), distinct tryptic peptides with no missed cleavages (in orange), and theoretical, i.e., not \r\n444 observed, tryptic peptides with no missed cleavage (in green). (d) Frequency distributions of peptide charge. \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n445 (e) Number of distinct peptides per million observed in each isolate experiments. (f) Relative protein \r\n446 sequence coverage for canonical proteins based on sequence coverage, i.e., the % of amino acids of the \r\n447 primary sequence which were identified. (g) Histogram showing the frequency distribution of PSMs of \r\n448 phosphorylated sites (serine, threonine, and tyrosine), identified for B31 UniProt core proteome, according \r\n449 to PTMProphet probability (nP). nP ranges from 0.8 to 0.99. no-choice: shows PSMs with only one possible \r\n450 phosphorylation site available, hence nP=1. Blue, yellow, and green bars indicate serine, threonine, or \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "451 tyrosine phosphorylated sites, respectively. \r\n452 Post-translational modifications\r\n453 For protein phosphorylation analysis of the Borrelia PeptideAtlas each dataset was further analyzed \r\n454 by PTMProphet, embedded in the TPP pipeline, to compute localization probabilities (P) of \r\n455 phosphor-sites, including: serine (pS), threonine (pT) and tyrosine (pY) residues (Figure 3g). \r\n456 PTMProphet applies Bayesian models for each passing PSM that contains a phosphor PTM as \r\n457 reported by the search engine [46]. PTMProphet probabilities for STY-sites present in the Borrelia \r\n458 build range from 0 to 1 (highest significance), with greater values indicating higher probability that \r\n459 a phosphate group is present at the site, based on MS/MS evidence [46]. The complete information \r\n460 on PTMProphet analysis for all 4 databases (B31 core proteome, B31, B31-5A4, and MM1) is made \r\n461 available in Supplementary Table S3. Specifically, in the B31 core proteome, the total number of \r\n462 potential phosphor sites among the observed proteins is 25,547 for serine, 14,296 for threonine \r\n463 and 14,788 for tyrosine. The number of potential phosphorsites with peptide coverage among \r\n464 these proteins is 2,711 (10.61%) for serine, 1,720 (12.03%) for threonine and 1,153 (7.80%) for \r\n465 tyrosine. Among these a total of 211 phospho-serine sites, 193 phospho-threonine sites and 83 \r\n466 phospho-tyrosine sites were identified with PTMProphet probability ≥0.99. Considering all \r\n467 phosphor-sites (STY) with P ≥ 0.99 identified in all canonical proteins in the build, including the \r\n468 redundancy of phosphor-sites, a total of 42,156 phosphor-sites were seen throughout 1,542 \r\n469 proteins (Supplementary Table S3). \r\n470 During its life B. burgdorferi is exposed to different environmental conditions while cycling through \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "471 ticks and mammalian hosts, including: changes in temperature, pH and nutrient sources [53]. \r\n472 Furthermore, B. burgdorferi lacks genes of the tricarboxylic acid cycle and oxidative phosphorylation \r\n473 and is not capable of de novo biosynthesis of carbohydrates, amino acids, or lipids; instead relying \r\n474 on the host’s metabolism. Protein phosphorylation in B. burgdorferi has been described with a \r\n475 critical role in the pathogen’s growth and chemotaxis signal transduction [54]. During the tick \r\n476 phase, specifically, B. burgdorferi relies uniquely on glycolysis for ATP production [53]. Glycerol is a \r\n477 carbohydrate readily available in ticks, and once transported to the spirochete cytoplasm it is \r\n478 phosphorylated by the glycerol kinase GlpK to generate glycerol 3-phosphate, which will follow the \r\n479 glycolytic cascade [55]. Here, we use the glycerol kinase GlpK as an example of a phosphorylated \r\n480 protein to show the Borrelia PeptideAtlas interface (Figure 4). GlpK is a canonical protein identified \r\n481 with 171 phospho-sites with P ≥ 0.99. Figure 4 shows the Borrelia PeptideAtlas interface after \r\n482 searching results for GlpK protein identifier (UniProt entry O51257) in the build protein browser. \r\n483 Figure 4a displays the GlpK primary sequence coverage of 100%, and Figure 4b illustrates the \r\n484 distribution of all observed distinct peptides for that protein. It is possible to open the peptide \r\n485 browser for each peptide by clicking on the individual blue bar. In the same page, it is possible to \r\n486 visualize pSTY-sites distributed in the protein sequence, with the corresponding PTMProphet \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "487 probabilities (Figure 4c), and a view table with information on the distinct observed peptides, which \r\n488 contain the phospho-sites (Figure 4d). The Borrelia PeptideAtlas PTM summary can be accessed at \r\n489 http://www.peptideatlas.org/builds/borrelia/, in the “PTM coverage” section. \r\n490\r\n491 Figure 4. Borrelia PeptideAtlas view of glycerol kinase (gene name GlpK, UniProt entry O51257)\r\n492 phosphorylated sites. Example of the protein PTM summary on the Borrelia PeptideAtlas. (a) View of the \r\n493 protein search tab and corresponding primary protein sequence coverage, in red. (b) View of the primary \r\n494 protein sequence display with observed peptides. (c) Distribution of phosphorylated sites in OspC protein \r\n495 sequence with PTMProphet probabilities, ranging from less than 0.01 to 1. (d) Information on observed \r\n496 peptides including empirical suitability score (ESS) empirical observability score (EOS). Accession: peptide \r\n497 accession; start: start position in the protein; pre AA: preceding (towards the N terminus) amino acid; \r\n498 sequence: amino acid sequence of detected peptide, including any mass modifications; fol AA: following \r\n499 (towards the C terminus) amino acid; ESS: empirical suitability score, derived from peptide probability, EOS, \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n500 and the number of times observed. This is then adjusted sequence characteristics such as missed cleavage \r\n501 [MC] or enzyme termini [ET], or multiple genome locations [MGL]; NET: highest number of enzymatic termini \r\n502 for this protein; NMC: lowest number of missed cleavage for this protein; Best Prob: highest iProphet \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "503 probability for this observed sequence; Best Adj Prob: highest iProphet-adjusted probability for this observed \r\n504 sequence; N Obs: total number of observations in all modified forms and charge states; EOS: empirical \r\n505 Observability Score, a measure of how many samples a particular peptide is seen in relative to other peptides \r\n506 from the same protein; SSRT: Sequence Specific Retention time provides a hydrophobicity measure for each \r\n507 peptide using the algorithm of Krohkin et al. Version 3.0 [56]; N Prot Map: number of proteins in the reference \r\n508 database to which this peptide maps; N Gen Loc: number of discrete genome locations which encode this \r\n509 amino acid sequence; Subpep of: number of observed peptides of which this peptide is a subsequence. \r\n510 Genome coverage of B. burgdorferi isolates\r\n511 Due to the variability of the plasmid content in different B. burgdorferi isolates – which account for \r\n512 approximately one-third of the genome [57], combined reference databases of laboratory isolates \r\n513 B31, B31-5A4 and MM1 were used to search the dense proteomic data when constructing the build. \r\n514 These databases comprise reference genome assemblies from NCBI RefSeq, GenBank, and UniProt \r\n515 proteome (see “Methods”). As aforementioned, isolate B31 genome contains a linear chromosome \r\n516 (843 genes) and 21 plasmids (12 linear and 9 circular, 670 genes and 167 pseudogenes total) [14]. \r\n517 Of the 1,513 genes, 1,291 are predicted as unique protein-coding genes. The infective B31-5A4 \r\n518 genome assembly indicates the presence of, besides the linear chromosome, 11 linear plasmids and \r\n519 9 circular plasmids (ISB, not published). Isolate MM1 has 15 plasmids (7 linear and 8 circular), \r\n520 including the unique lp28-8 and the conserved chromosome [58]. \r\n521 The linear chromosome carries approximately 65% of all genes in B. burgdorferi, which encode \r\n522 housekeeping proteins involved in DNA replication, transcription and translation regulation, besides \r\n523 energy metabolism [14]. Here, more than 95% of proteins encoded by the chromosome genome \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "524 were identified with FDR levels less than 1% throughout all isolates (Figure 5; Supplementary Table \r\n525 S2). Circular plasmid cp26 and linear plasmid lp54 are stable and present in all B. burgdorferi isolates \r\n526 studied to date [59], including B31, B31-5A4 and MM1, and hence considered a control for encoded \r\n527 proteins identified in the build (Figure 6). Plasmid cp26 encodes proteins which are essential for \r\n528 early stages of infection in mammalian hosts, e.g. outer surface protein C (OspC) [60]. Thus, it is \r\n529 considered an essential plasmid for the spirochete growth and survival [41]. Similarly to cp26, the \r\n530 linear plasmid lp54 is present in all B. burgdorferi genotypes and encodes critical proteins in tick \r\n531 colonization, e.g. surface proteins OspA and OspB, in tissue attachment and proliferation, such as \r\n532 Decorin-binding proteins A and B, and Crasp1, which plays a critical role in evasion of the host \r\n533 immune system by binding proteins of the complement system [61]. Accordingly, 96% of proteins \r\n534 encoded by cp26 had peptide coverage for B31, 100% for B31-5A4, and 93% for MM1; and around \r\n535 85% of proteins encoded by lp54 had peptide coverage for the 3 isolates (Figure 5; Supplementary \r\n536 Table S2); the remaining plasmids display varying frequencies of proteins identified throughout the \r\n537 isolates, ranging from 37% to 85%. The complete information on non-detected proteins by LC-MS \r\n538 (“missing proteins”) for each isolate reference database is made available in Supplementary Table \r\n539 S4, which includes the plasmid information. We note that 80% of missing proteins are described as \r\n540 hypothetical proteins or of unknown function in UniProt B31 core proteome, 5% are membrane \r\n541 proteins, and the remaining 15% have variable descriptions, including flagellar and transporter \r\n542 proteins. \r\n543 Figure 6 shows the physicochemical characteristics of proteins of the B31 core proteome, including \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "544 total expected proteins in the proteome, observed and missing proteins in the Borrelia PeptideAtlas. \r\n545 The features comprise protein isoelectric point (pI), GRAVY index score, molecular weight (kDa), and \r\n546 length (number of amino acids). The frequency distributions of these features indicate that missing \r\n547 proteins have similar characteristics as those of the observed proteins, with relatively higher \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n548 frequencies of basic (pI > 10), hydrophobic (GRAVY score > 0) and small proteins (less than 20 kDa) \r\n549 (Figure 6a-d). To further investigate the mRNA levels of the non-detected proteins, transcriptomic \r\n550 analysis of isolates B31, MM1 and B31-5A4 was performed (Supplementary Table S4). Transcripts \r\n551 were not detected by RNAseq for approximately 50% of the missing proteins (Supplementary Table \r\n552 S5). The other 50% have RPKM ranging from 1 to 1,379. A considerable number of canonical \r\n553 proteins detected for the B31 core proteome (around 42%) had low levels of mRNA RPKM, i.e.,\r\n554 lower than 100 counts, and the remaining transcripts showed a range of 101-149,599 RPKM \r\n555 (Supplementary Table S4). Therefore, proteins not detected for the B31 core proteome show \r\n556 absence or relatively lower abundance of their corresponding transcripts. The frequency \r\n557 distribution of log10 RPKM for transcripts of observed and missing proteins is shown in Figure 6e. \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n558\r\n559 Figure 5. Genome coverage for isolates. Histograms showing the distribution of chromosomal and plasmid \r\n560 coverage for the reference database of isolates B31, B31-5A4, and MM1. Blue bars indicate total number of \r\n561 genes expected for the chromosome or corresponding plasmid. Orange bars indicate number of genes, which \r\n562 correspond to proteins, observed in the chromosome or corresponding plasmid. na: not assigned. \r\n563\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n564\r\n565 Figure 6. Protein physicochemical properties. Total: number of total proteins in the B31 UniProt reference \r\n566 database (core proteome). Observed: number of observed proteins in the B31 core proteome. Missing: \r\n567 number of proteins not observed in the B31 core proteome. (a,b) Frequency distributions for protein \r\n568 isoelectric point (pI) and GRAVY score, shown as violin plot. Protein GRAVY index score indicates average \r\n569 hydrophobicity and hydrophilicity. GRAVY score below 0 indicates hydrophilic protein, while scores above 0, \r\n570 hydrophobic [47]. (c,d) Frequency distribution for protein molecular weight (kDa) and protein length (number \r\n571 of amino acids), shown as stacked histograms. (e) Frequency distribution of mRNA log10 RPKM for observed \r\n572 and not observed (missing) proteins in blue and orange, respectively, shown as a histogram. \r\n573\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n574 Usage Notes\r\n575 The Borrelia PeptideAtlas provides a publicly accessible resource, important for the Lyme disease \r\n576 research community. Our goal is to provide an expandable data source for many other B. \r\n577 burgdorferi isolates, including clinically relevant isolates, and subjected to different growth \r\n578 conditions, enabling the investigation of the dynamic proteome of this spirochete through its \r\n579 infection stages and their vastly different environments. The diverse proteomic information from \r\n580 multiple infective isolates with credible data presented by the Borrelia PeptideAtlas can be useful \r\n581 to pinpoint potential protein targets which are common to infective isolates and may be key in the \r\n582 infection process – such as outer membrane proteins. A list of membrane protein targets present \r\n583 in the build can be identified. With in silico prediction of signal peptides and secondary structures \r\n584 of membrane proteins, this dense proteomic data can be further investigated for host-pathogen \r\n585 protein interactomics with different technologies. Moreover, this resource provides access to \r\n586 information regarding a wide range of potential proteins and PTMs relevant to chronic, acute and \r\n587 post treatment Lyme disease to develop sensitive diagnostic assays in the Lyme community. The \r\n588 Borrelia PeptideAtlas is a dynamic proteome resource in terms of size and complexity and will be \r\n589 updated to include new data periodically as more genomic and proteomic data is made available \r\n590 for new clinical and laboratory isolates. The collection of the raw data, protein, and peptide \r\n591 information are publically available in the Borrelia PeptideAtlas at \r\n592 http://www.peptideatlas.org/builds/borrelia/. \r\n593 Code Availability\r\n594 The authors do not have code specific to this work to disclose. \r\n595 Acknowledgements\r\n596 This work was funded in part by the National Institutes of Health grants from the National Institutes \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "597 of Health, National Institute of Allergy and Infectious Diseases (NIAID) R21AI142302 (RLM),\r\n598 R21AI133335 (RLM), and R01AI029735 (MJC), National Institute for General Medical Sciences \r\n599 (NIGMS) R01GM087221, the Office of the Director S10OD026936, and the National Science \r\n600 Foundation award 1920268. We thank the Wilke Family Foundation, and the Steven and Alexandra \r\n601 Cohen Foundation for their generous support. \r\n602 Author contributions\r\n603 Panga J. Reddy: performed B. burgdorferi culturing, mass spectrometry data generation \r\n604 experiments and data analysis, PeptideAtlas generation. \r\n605 Zhi Sun: performed mass spectrometry data analysis, PeptideAtlas generation, and edited the \r\n606 manuscript. \r\n607 Helisa H. Wippel: performed B. burgdorferi culturing, mass spectrometry data generation \r\n608 experiments and data analysis, PeptideAtlas generation, manuscript writing and preparation. \r\n609 David H. Baxter: performed B. burgdorferi genome and RNA sequencing data generation and \r\n610 sequence data analysis. \r\n611 Kristian E. Swearingen: performed sample preparation experiments. \r\n612 David D. Shteynberg: performed mass spectrometry data analysis. \r\n613 Mukul Midha: performed mass spectrometry experiments. \r\n614 Melissa J. Caimano: Provided B31-5A4, biological, and technical expertise for preparing B. \r\n615 burgdorferi and edited the manuscript. \r\n616 Klemen Strle: provided Clinical, biological, and technical expertise for preparing B. burgdorferi and \r\n617 edited the manuscript. \r\n618 Yongwook Choi: performed B. burgdorferi genome sequence data analysis. \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 477,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "619 Agnes P. Chan: performed B. burgdorferi genome sequence data analysis. \r\n620 Nicholas J. Schork: performed B. burgdorferi genome sequence data analysis and edited the \r\n621 manuscript. \r\n622 Robert L. Moritz: conceived the project, secured funding, designed experiments, provided technical \r\n623 expertise, managed the project, and performed manuscript writing, preparation, and finalization.\r\n624 Competing interests\r\n625 The authors declare no competing interests. \r\n626 Supplementary Table Legends\r\n627 Supplementary Table S1. Experiment contribution. Complete information on public datasets and \r\n628 in-house (ISB) performed experiments. Interactive table is made available at \r\n629 http://www.peptideatlas.org/builds/borrelia/. \r\n630 Supplementary Table S2. Borrelia PeptideAtlas identified proteins. Complete information on \r\n631 proteins identified for the Borrelia build, with FDR levels less than 1%. Description of each \r\n632 PeptideAtlas protein category is included in the table. \r\n633 Supplementary Table S3. Phosphorylated sites. Information on phosphorylated sites – serine, \r\n634 threonine, and tyrosine – covered for the 4 different reference databases: B31 Core Proteome \r\n635 (UniProt), B31, MM1, and B31-5A4, further described in Methods. Description of each category is \r\n636 included in the table. \r\n637 Supplementary Table S4. Transcriptomic information. RNAseq data collected for isolates B31, \r\n638 MM1, and B31-5A4. Strand 2_RPKM: second strand cDNA counts normalized in reads per kilobase \r\n639 of transcript per million reads mapped (RPKM). \r\n640 Supplementary Table S5. Information on missing proteins. Complete information on missing \r\n641 proteins (not observed) in the reference databases of B31, B31-5A4, and MM1. \r\n642\r\n643\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n644 References\r\n645 1. Schwartz AM, Kugeler KJ, Nelson CA, Marx GE, Hinckley AF. Use of Commercial Claims Data \r\n646 for Evaluating Trends in Lyme Disease Diagnoses, United States, 2010-2018. Emerg Infect Dis. \r\n647 2021;27(2):499-507. doi: 10.3201/eid2702.202728. PubMed PMID: 33496238; PubMed Central \r\n648 PMCID: PMCPMC7853566.\r\n649 2. Kugeler KJ, Schwartz AM, Delorey MJ, Mead PS, Hinckley AF. Estimating the Frequency of \r\n650 Lyme Disease Diagnoses, United States, 2010-2018. Emerg Infect Dis. 2021;27(2):616-9. doi: \r\n651 10.3201/eid2702.202731. PubMed PMID: 33496229; PubMed Central PMCID: PMCPMC7853543.\r\n652 3. Steere AC, Malawista SE, Hardin JA, Ruddy S, Askenase W, Andiman WA. Erythema \r\n653 chronicum migrans and Lyme arthritis. The enlarging clinical spectrum. Annals of internal medicine. \r\n654 1977;86(6):685-98. doi: 10.7326/0003-4819-86-6-685. PubMed PMID: 869348.\r\n655 4. Steere AC, Grodzicki RL, Kornblatt AN, Craft JE, Barbour AG, Burgdorfer W, et al. The \r\n656 spirochetal etiology of Lyme disease. The New England journal of medicine. 1983;308(13):733-40. \r\n657 Epub 1983/03/31. doi: 10.1056/NEJM198303313081301. PubMed PMID: 6828118.\r\n658 5. Schoen RT. Challenges in the Diagnosis and Treatment of Lyme Disease. Curr Rheumatol \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "659 Rep. 2020;22(1):3. Epub 20200107. doi: 10.1007/s11926-019-0857-2. PubMed PMID: 31912251.\r\n660 6. Maksimyan S, Syed MS, Soti V. Post-Treatment Lyme Disease Syndrome: Need for Diagnosis \r\n661 and Treatment. Cureus. 2021;13(10):e18703. Epub 20211012. doi: 10.7759/cureus.18703. PubMed \r\n662 PMID: 34659931; PubMed Central PMCID: PMCPMC8507427.\r\n663 7. Branda JA, Body BA, Boyle J, Branson BM, Dattwyler RJ, Fikrig E, et al. Advances in \r\n664 Serodiagnostic Testing for Lyme Disease Are at Hand. Clinical infectious diseases : an official \r\n665 publication of the Infectious Diseases Society of America. 2018;66(7):1133-9. doi: \r\n666 10.1093/cid/cix943. PubMed PMID: 29228208; PubMed Central PMCID: PMCPMC6019075.\r\n667 8. Tilly K, Rosa PA, Stewart PE. Biology of infection with Borrelia burgdorferi. Infectious disease \r\n668 clinics of North America. 2008;22(2):217-34, v. Epub 2008/05/03. doi: 10.1016/j.idc.2007.12.013. \r\n669 PubMed PMID: 18452798; PubMed Central PMCID: PMC2440571.\r\n670 9. Fraser CM, Casjens S, Huang WM, Sutton GG, Clayton R, Lathigra R, et al. Genomic sequence \r\n671 of a Lyme disease spirochaete, Borrelia burgdorferi. Nature. 1997;390(6660):580-6. Epub \r\n672 1997/12/24. doi: 10.1038/37551. PubMed PMID: 9403685.\r\n673 10. DeHart TG, Kushelman MR, Hildreth SB, Helm RF, Jutras BL. The unusual cell wall of the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "674 Lyme disease spirochaete Borrelia burgdorferi is shaped by a tick sugar. Nat Microbiol. \r\n675 2021;6(12):1583-92. Epub 20211124. doi: 10.1038/s41564-021-01003-w. PubMed PMID: \r\n676 34819646; PubMed Central PMCID: PMCPMC8612929.\r\n677 11. Takayama K, Rothenberg RJ, Barbour AG. Absence of lipopolysaccharide in the Lyme disease \r\n678 spirochete, Borrelia burgdorferi. Infection and immunity. 1987;55(9):2311-3. doi: \r\n679 10.1128/iai.55.9.2311-2313.1987. PubMed PMID: 3623705; PubMed Central PMCID: \r\n680 PMCPMC260699.\r\n681 12. Bernard Q, Thakur M, Smith AA, Kitsou C, Yang X, Pal U. Borrelia burgdorferi protein \r\n682 interactions critical for microbial persistence in mammals. Cell Microbiol. 2019;21(2):e12885. Epub \r\n683 20180708. doi: 10.1111/cmi.12885. PubMed PMID: 29934966.\r\n684 13. Steere AC. Lyme disease. The New England journal of medicine. 2001;345(2):115-25. doi: \r\n685 10.1056/NEJM200107123450207. PubMed PMID: 11450660.\r\n686 14. Casjens S, Palmer N, van Vugt R, Huang WM, Stevenson B, Rosa P, et al. A bacterial genome \r\n687 in flux: the twelve linear and nine circular extrachromosomal DNAs in an infectious isolate of the \r\n688 Lyme disease spirochete Borrelia burgdorferi. Molecular microbiology. 2000;35(3):490-516. doi: \r\n689 10.1046/j.1365-2958.2000.01698.x. PubMed PMID: 10672174.\r\n690 15. Strle K, Jones KL, Drouin EE, Li X, Steere AC. Borrelia burgdorferi RST1 (OspC type A) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 39,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "691 genotype is associated with greater inflammation and more severe Lyme disease. Am J Pathol. \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n692 2011;178(6):2726-39. doi: 10.1016/j.ajpath.2011.02.018. PubMed PMID: 21641395; PubMed \r\n693 Central PMCID: PMCPMC3123987.\r\n694 16. Angel TE, Luft BJ, Yang X, Nicora CD, Camp DG, 2nd, Jacobs JM, et al. Proteome analysis of \r\n695 Borrelia burgdorferi response to environmental change. PloS one. 2010;5(11):e13800. Epub \r\n696 20101102. doi: 10.1371/journal.pone.0013800. PubMed PMID: 21072190; PubMed Central PMCID: \r\n697 PMCPMC2970547.\r\n698 17. Bontemps-Gallo S, Gaviard C, Richards CL, Kentache T, Raffel SJ, Lawrence KA, et al. Global \r\n699 Profiling of Lysine Acetylation in Borrelia burgdorferi B31 Reveals Its Role in Central Metabolism. \r\n700 Front Microbiol. 2018;9:2036. Epub 20180831. doi: 10.3389/fmicb.2018.02036. PubMed PMID: \r\n701 30233522; PubMed Central PMCID: PMCPMC6127242.\r\n702 18. Dowdell AS, Murphy MD, Azodi C, Swanson SK, Florens L, Chen S, et al. Comprehensive \r\n703 Spatial Analysis of the Borrelia burgdorferi Lipoproteome Reveals a Compartmentalization Bias \r\n704 toward the Bacterial Surface. Journal of bacteriology. 2017;199(6). Epub 20170228. doi: \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 40,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "705 10.1128/JB.00658-16. PubMed PMID: 28069820; PubMed Central PMCID: PMCPMC5331670.\r\n706 19. Jacobs JM, Yang X, Luft BJ, Dunn JJ, Camp DG, 2nd, Smith RD. Proteomic analysis of Lyme \r\n707 disease: global protein comparison of three strains of Borrelia burgdorferi. Proteomics. \r\n708 2005;5(5):1446-53. doi: 10.1002/pmic.200401052. PubMed PMID: 15800874.\r\n709 20. Schnell G, Boeuf A, Jaulhac B, Boulanger N, Collin E, Barthel C, et al. Proteomic analysis of \r\n710 three Borrelia burgdorferi sensu lato native species and disseminating clones: relevance for Lyme \r\n711 vaccine design. Proteomics. 2015;15(7):1280-90. Epub 20150204. doi: 10.1002/pmic.201400177. \r\n712 PubMed PMID: 25475896.\r\n713 21. Toledo A, Huang Z, Coleman JL, London E, Benach JL. Lipid rafts can form in the inner and \r\n714 outer membranes of Borrelia burgdorferi and have different properties and associated proteins. \r\n715 Molecular microbiology. 2018;108(1):63-76. Epub 20180215. doi: 10.1111/mmi.13914. PubMed \r\n716 PMID: 29377398; PubMed Central PMCID: PMCPMC5867248.\r\n717 22. Toledo A, Perez A, Coleman JL, Benach JL. The lipid raft proteome of Borrelia burgdorferi. \r\n718 Proteomics. 2015;15(21):3662-75. Epub 20150928. doi: 10.1002/pmic.201500093. PubMed PMID: \r\n719 26256460.\r\n720 23. Payne SH, Monroe ME, Overall CC, Kiebel GR, Degan M, Gibbons BC, et al. The Pacific \r\n721 Northwest National Laboratory library of bacterial and archaeal proteomic biodiversity. Sci Data. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 41,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "722 2015;2:150041. Epub 20150818. doi: 10.1038/sdata.2015.41. PubMed PMID: 26306205; PubMed \r\n723 Central PMCID: PMCPMC4540001.\r\n724 24. Baranton G, Postic D, Saint Girons I, Boerlin P, Piffaretti JC, Assous M, et al. Delineation of \r\n725 Borrelia burgdorferi sensu stricto, Borrelia garinii sp. nov., and group VS461 associated with Lyme \r\n726 borreliosis. Int J Syst Bacteriol. 1992;42(3):378-83. doi: 10.1099/00207713-42-3-378. PubMed \r\n727 PMID: 1380285.\r\n728 25. Hughes CA, Johnson RC. Methylated DNA in Borrelia species. Journal of bacteriology. \r\n729 1990;172(11):6602-4. doi: 10.1128/jb.172.11.6602-6604.1990. PubMed PMID: 2228977; PubMed \r\n730 Central PMCID: PMCPMC526854.\r\n731 26. Xu Y, Johnson RC. Analysis and comparison of plasmid profiles of Borrelia burgdorferi sensu \r\n732 lato strains. Journal of clinical microbiology. 1995;33(10):2679-85. doi: 10.1128/jcm.33.10.2679-\r\n733 2685.1995. PubMed PMID: 8567905; PubMed Central PMCID: PMCPMC228555.\r\n734 27. Medina-Perez DN, Wager B, Troy E, Gao L, Norris SJ, Lin T, et al. The intergenic small non\u0002735 coding RNA ittA is required for optimal infectivity and tissue tropism in Borrelia burgdorferi. PLoS \r\n736 Pathog. 2020;16(5):e1008423. Epub 20200504. doi: 10.1371/journal.ppat.1008423. PubMed PMID: \r\n737 32365143; PubMed Central PMCID: PMCPMC7224557.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 42,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "738 28. Caimano MJ, Iyer R, Eggers CH, Gonzalez C, Morton EA, Gilbert MA, et al. Analysis of the \r\n739 RpoS regulon in Borrelia burgdorferi in response to mammalian host signals provides insight into \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n740 RpoS function during the enzootic cycle. Molecular microbiology. 2007;65(5):1193-217. Epub \r\n741 20070723. doi: 10.1111/j.1365-2958.2007.05860.x. PubMed PMID: 17645733; PubMed Central \r\n742 PMCID: PMCPMC2967192.\r\n743 29. Kawabata H, Norris SJ, Watanabe H. BBE02 disruption mutants of Borrelia burgdorferi B31 \r\n744 have a highly transformable, infectious phenotype. Infection and immunity. 2004;72(12):7147-54. \r\n745 doi: 10.1128/IAI.72.12.7147-7154.2004. PubMed PMID: 15557639; PubMed Central PMCID: \r\n746 PMCPMC529111.\r\n747 30. Desiere F, Deutsch EW, King NL, Nesvizhskii AI, Mallick P, Eng J, et al. The PeptideAtlas \r\n748 project. Nucleic acids research. 2006;34(Database issue):D655-8. doi: 10.1093/nar/gkj040. PubMed \r\n749 PMID: 16381952; PubMed Central PMCID: PMCPMC1347403.\r\n750 31. Deutsch EW, Mendoza L, Shteynberg D, Slagel J, Sun Z, Moritz RL. Trans-Proteomic Pipeline, \r\n751 a standardized data processing pipeline for large-scale reproducible proteomics informatics. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 43,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "752 Proteomics Clinical applications. 2015;9(7-8):745-54. Epub 20150402. doi: \r\n753 10.1002/prca.201400164. PubMed PMID: 25631240; PubMed Central PMCID: PMCPMC4506239.\r\n754 32. Bundgaard L, Jacobsen S, Sorensen MA, Sun Z, Deutsch EW, Moritz RL, et al. The Equine \r\n755 PeptideAtlas: a resource for developing proteomics-based veterinary research. Proteomics. \r\n756 2014;14(6):763-73. Epub 2014/01/18. doi: 10.1002/pmic.201300398. PubMed PMID: 24436130; \r\n757 PubMed Central PMCID: PMC4340707.\r\n758 33. Deutsch EW, Lam H, Aebersold R. PeptideAtlas: a resource for target selection for emerging \r\n759 targeted proteomics workflows. EMBO reports. 2008;9(5):429-34. Epub 2008/05/03. doi: \r\n760 10.1038/embor.2008.56. PubMed PMID: 18451766; PubMed Central PMCID: PMC2373374.\r\n761 34. Hesselager MO, Codrea MC, Sun Z, Deutsch EW, Bennike TB, Stensballe A, et al. The Pig \r\n762 PeptideAtlas: A resource for systems biology in animal production and biomedicine. Proteomics. \r\n763 2016;16(4):634-44. Epub 2015/12/25. doi: 10.1002/pmic.201500195. PubMed PMID: 26699206; \r\n764 PubMed Central PMCID: PMC4786621.\r\n765 35. McCord J, Sun Z, Deutsch EW, Moritz RL, Muddiman DC. The PeptideAtlas of the Domestic \r\n766 Laying Hen. Journal of proteome research. 2017;16(3):1352-63. Epub 2017/02/09. doi: \r\n767 10.1021/acs.jproteome.6b00952. PubMed PMID: 28166638; PubMed Central PMCID: \r\n768 PMC5877420.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 44,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "769 36. Vialas V, Sun Z, Loureiro y Penha CV, Carrascal M, Abian J, Monteoliva L, et al. A Candida \r\n770 albicans PeptideAtlas. Journal of proteomics. 2014;97:62-8. Epub 2013/07/03. doi: \r\n771 10.1016/j.jprot.2013.06.020. PubMed PMID: 23811049; PubMed Central PMCID: PMC3951211.\r\n772 37. Kessner D, Chambers M, Burke R, Agus D, Mallick P. ProteoWizard: open source software \r\n773 for rapid proteomics tools development. Bioinformatics. 2008;24(21):2534-6. Epub 2008/07/09. \r\n774 doi: 10.1093/bioinformatics/btn323. PubMed PMID: 18606607; PubMed Central PMCID: \r\n775 PMC2732273.\r\n776 38. Eng JK, Jahan TA, Hoopmann MR. Comet: an open-source MS/MS sequence database search \r\n777 tool. Proteomics. 2013;13(1):22-4. Epub 2012/11/14. doi: 10.1002/pmic.201200439. PubMed \r\n778 PMID: 23148064.\r\n779 39. UniProt C. UniProt: the Universal Protein Knowledgebase in 2023. Nucleic acids research. \r\n780 2023;51(D1):D523-D31. doi: 10.1093/nar/gkac1052. PubMed PMID: 36408920; PubMed Central \r\n781 PMCID: PMCPMC9825514.\r\n782 40. O'Leary NA, Wright MW, Brister JR, Ciufo S, Haddad D, McVeigh R, et al. Reference sequence \r\n783 (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic \r\n784 acids research. 2016;44(D1):D733-45. Epub 20151108. doi: 10.1093/nar/gkv1189. PubMed PMID: \r\n785 26553804; PubMed Central PMCID: PMCPMC4702849.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 45,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 476,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "available under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n786 41. Clark K, Karsch-Mizrachi I, Lipman DJ, Ostell J, Sayers EW. GenBank. Nucleic acids research. \r\n787 2016;44(D1):D67-72. Epub 20151120. doi: 10.1093/nar/gkv1276. PubMed PMID: 26590407; \r\n788 PubMed Central PMCID: PMCPMC4702903.\r\n789 42. Keller A, Shteynberg D. Software pipeline and data analysis for MS/MS proteomics: the \r\n790 trans-proteomic pipeline. Methods in molecular biology. 2011;694:169-89. Epub 2010/11/18. doi: \r\n791 10.1007/978-1-60761-977-2_12. PubMed PMID: 21082435.\r\n792 43. Shteynberg D, Deutsch EW, Lam H, Eng JK, Sun Z, Tasman N, et al. iProphet: multi-level \r\n793 integrative analysis of shotgun proteomic data improves peptide and protein identification rates \r\n794 and error estimates. Molecular & cellular proteomics : MCP. 2011;10(12):M111 007690. Epub \r\n795 2011/08/31. doi: 10.1074/mcp.M111.007690. PubMed PMID: 21876204; PubMed Central PMCID: \r\n796 PMC3237071.\r\n797 44. Shteynberg D, Mendoza L, Hoopmann MR, Sun Z, Schmidt F, Deutsch EW, et al. reSpect: \r\n798 software for identification of high and low abundance ion species in chimeric tandem mass spectra. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 46,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "799 Journal of the American Society for Mass Spectrometry. 2015;26(11):1837-47. Epub 2015/10/01. \r\n800 doi: 10.1007/s13361-015-1252-5. PubMed PMID: 26419769; PubMed Central PMCID: \r\n801 PMC4750398.\r\n802 45. Reiter L, Claassen M, Schrimpf SP, Jovanovic M, Schmidt A, Buhmann JM, et al. Protein \r\n803 identification false discovery rates for very large proteomics data sets generated by tandem mass \r\n804 spectrometry. Molecular & cellular proteomics : MCP. 2009;8(11):2405-17. Epub 20090716. doi: \r\n805 10.1074/mcp.M900317-MCP200. PubMed PMID: 19608599; PubMed Central PMCID: \r\n806 PMCPMC2773710.\r\n807 46. Shteynberg DD, Deutsch EW, Campbell DS, Hoopmann MR, Kusebauch U, Lee D, et al. \r\n808 PTMProphet: Fast and Accurate Mass Modification Localization for the Trans-Proteomic Pipeline. \r\n809 Journal of proteome research. 2019;18(12):4262-72. Epub 20190722. doi: \r\n810 10.1021/acs.jproteome.9b00205. PubMed PMID: 31290668; PubMed Central PMCID: \r\n811 PMCPMC6898736.\r\n812 47. Kyte J, Doolittle RF. A simple method for displaying the hydropathic character of a protein. \r\n813 J Mol Biol. 1982;157(1):105-32. doi: 10.1016/0022-2836(82)90515-0. PubMed PMID: 7108955.\r\n814 48. Hoopmann MR, Winget JM, Mendoza L, Moritz RL. StPeter: Seamless Label-Free \r\n815 Quantification with the Trans-Proteomic Pipeline. Journal of proteome research. 2018;17(3):1314-\r\n816 20. Epub 20180214. doi: 10.1021/acs.jproteome.7b00786. PubMed PMID: 29400476; PubMed \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 47,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "817 Central PMCID: PMCPMC5891225.\r\n818 49. Emms DM, Kelly S. OrthoFinder: phylogenetic orthology inference for comparative \r\n819 genomics. Genome Biol. 2019;20(1):238. Epub 20191114. doi: 10.1186/s13059-019-1832-y. \r\n820 PubMed PMID: 31727128; PubMed Central PMCID: PMCPMC6857279.\r\n821 50. Dobin A, Davis CA, Schlesinger F, Drenkow J, Zaleski C, Jha S, et al. STAR: ultrafast universal \r\n822 RNA-seq aligner. Bioinformatics. 2013;29(1):15-21. Epub 20121025. doi: \r\n823 10.1093/bioinformatics/bts635. PubMed PMID: 23104886; PubMed Central PMCID: \r\n824 PMCPMC3530905.\r\n825 51. Robinson JT, Thorvaldsdottir H, Winckler W, Guttman M, Lander ES, Getz G, et al. Integrative \r\n826 genomics viewer. Nat Biotechnol. 2011;29(1):24-6. doi: 10.1038/nbt.1754. PubMed PMID: \r\n827 21221095; PubMed Central PMCID: PMCPMC3346182.\r\n828 52. Perez-Riverol Y, Bai J, Bandla C, Garcia-Seisdedos D, Hewapathirana S, Kamatchinathan S, et \r\n829 al. The PRIDE database resources in 2022: a hub for mass spectrometry-based proteomics \r\n830 evidences. Nucleic acids research. 2022;50(D1):D543-D52. doi: 10.1093/nar/gkab1038. PubMed \r\n831 PMID: 34723319; PubMed Central PMCID: PMCPMC8728295.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 48,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n832 53. Corona A, Schwartz I. Borrelia burgdorferi: Carbon Metabolism and the Tick-Mammal \r\n833 Enzootic Cycle. Microbiol Spectr. 2015;3(3). doi: 10.1128/microbiolspec.MBP-0011-2014. PubMed \r\n834 PMID: 26185064; PubMed Central PMCID: PMCPMC7942402.\r\n835 54. Pappas CJ, Iyer R, Petzke MM, Caimano MJ, Radolf JD, Schwartz I. Borrelia burgdorferi \r\n836 requires glycerol for maximum fitness during the tick phase of the enzootic cycle. PLoS Pathog. \r\n837 2011;7(7):e1002102. Epub 20110707. doi: 10.1371/journal.ppat.1002102. PubMed PMID: \r\n838 21750672; PubMed Central PMCID: PMCPMC3131272.\r\n839 55. von Lackum K, Stevenson B. Carbohydrate uuntilization by the Lyme borreliosis spirochete, \r\n840 Borrelia burgdorferi. FEMS Microbiol Lett. 2005;243(1):173-9. doi: 10.1016/j.femsle.2004.12.002. \r\n841 PubMed PMID: 15668016.\r\n842 56. Krokhin OV. Sequence-specific retention calculator. Algorithm for peptide retention \r\n843 prediction in ion-pair RP-HPLC: application to 300- and 100-A pore size C18 sorbents. Analytical \r\n844 chemistry. 2006;78(22):7785-95. doi: 10.1021/ac060777w. PubMed PMID: 17105172.\r\n845 57. Casjens SR, Di L, Akther S, Mongodin EF, Luft BJ, Schutzer SE, et al. Primordial origin and \r\n846 diversification of plasmids in Lyme disease agent bacteria. BMC Genomics. 2018;19(1):218. Epub \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 49,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "847 20180327. doi: 10.1186/s12864-018-4597-x. PubMed PMID: 29580205; PubMed Central PMCID: \r\n848 PMCPMC5870499.\r\n849 58. Jabbari N, Glusman G, Joesch-Cohen LM, Reddy PJ, Moritz RL, Hood L, et al. Whole genome \r\n850 sequence and comparative analysis of Borrelia burgdorferi MM1. PloS one. 2018;13(6):e0198135. \r\n851 Epub 20180611. doi: 10.1371/journal.pone.0198135. PubMed PMID: 29889842; PubMed Central \r\n852 PMCID: PMCPMC5995427.\r\n853 59. Casjens SR, Gilcrease EB, Vujadinovic M, Mongodin EF, Luft BJ, Schutzer SE, et al. Plasmid \r\n854 diversity and phylogenetic consistency in the Lyme disease agent Borrelia burgdorferi. BMC \r\n855 Genomics. 2017;18(1):165. Epub 20170215. doi: 10.1186/s12864-017-3553-5. PubMed PMID: \r\n856 28201991; PubMed Central PMCID: PMCPMC5310021.\r\n857 60. Grimm D, Tilly K, Byram R, Stewart PE, Krum JG, Bueschel DM, et al. Outer-surface protein \r\n858 C of the Lyme disease spirochete: a protein induced in ticks for infection of mammals. Proceedings \r\n859 of the National Academy of Sciences of the United States of America. 2004;101(9):3142-7. Epub \r\n860 20040217. doi: 10.1073/pnas.0306845101. PubMed PMID: 14970347; PubMed Central PMCID: \r\n861 PMCPMC365757.\r\n862 61. Bestor A, Stewart PE, Jewett MW, Sarkar A, Tilly K, Rosa PA. Use of the Cre-lox \r\n863 recombination system to investigate the lp54 gene requirement in the infectious cycle of Borrelia \r\n864 burgdorferi. Infection and immunity. 2010;78(6):2397-407. Epub 20100315. doi: \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 50,
+      "doc_items": [],
+      "end_page": 27,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6707453359983395959,
+        "filename": "nihpp-2023.06.16.545244v1.PMC10312716.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 28,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 137,
+      "total_chunks": 51,
+      "version": "1.0.0"
+    },
+    "text": "865 10.1128/IAI.01059-09. PubMed PMID: 20231410; PubMed Central PMCID: PMCPMC2876536.\r\n866\r\n867\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.06.16.545244; this version posted June 16, 2023. The copyright holder for this preprint\n\n"
+  }
+]

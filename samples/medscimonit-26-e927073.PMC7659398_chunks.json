@@ -1,0 +1,1034 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 465,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "Received: 2020.06.27\r\nAccepted: 2020.08.24\r\nAvailable online: 2020.09.16\r\nPublished: 2020.11.08\r\n287961133\r\nIdentification of the Prognostic Value and \r\nClinical Significance of Interferon Regulatory \r\nFactors (IRFs) in Colon Adenocarcinoma\r\nABCDEF 1 Munire Yuemaier*\r\nAEFG 1 Zhiqiang Zhou*\r\nABCDE 2 Youxu Zhou\r\nCDE 1 Chengwen Wu\r\nCDEF 1 Fei Li\r\nBCEF 1 Xiaodan Liang\r\nBCDEF 1 Haihan Kang\r\nFG 1 Dongfang Shen\r\nEFG 1 Fei Gao\r\nE 2 Jinxi Lin\r\n* Munire Yuemaier and Zhiqiang Zhou equal contribution\r\nCorresponding Author: Jinxi Lin, e-mail: 357653176@qq.com\r\nSource of support: Key Science and Technology Foundation of Henan Province (No. 122102310239), the Guided Project and Key Topics in Fujian \r\nProvince: Endoscopic injection marking method in the advanced treatment of colorectal cancer precision (No. 2018Y0066), and \r\nthe Henan Health Science and Technology Innovative Talent Funding Project (No. 201004121)\r\nBackground: Colon adenocarcinoma (COAD) is one of the most common malignant tumors and has high incidence and mor\u0002tality rates. The interferon regulatory factor (IRF) family is known as a key transcription factor in the IFN signal\u0002ing pathway and cellular immunity. This research explored the relationship between the IRF family and COAD \r\nthrough use of bioinformatics technology.\r\nMaterial/Methods: Using the UALCAN and GEPIA databases, we analyzed the transcription and prognostic value of IRFs in COAD, \r\nand GSCALite was used in cancer genomics analysis. TIMER, LinkedOmics, and Metascape were used to assess \r\nthe potential function of IRFs in COAD.\r\nResults: The transcription levels of IRF3 were elevated in COAD tissues, while IRF2/4/6 were downregulated compared \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "with normal patients in subgroup analyses of race, age, weight, sex, nodal metastasis, individual cancer stag\u0002es, TP53 mutation status, and histological subtypes. IRF3 and IRF7 in COAD were significantly associated with \r\na poor prognosis. Drug sensitivity analysis revealed that the expression level of IRF2/4/8 was negatively asso\u0002ciated with drug resistance. A significant correlation was found between the IRF family and immune cell infil\u0002tration. Moreover, enrichment analysis revealed that the IRFs were associated with response to tumor necrosis \r\nfactor, transcription misregulation in cancer, and JAK-STAT signaling pathway. We also identified several kinase \r\nand miRNA targets of the IRF family in COAD.\r\nConclusions: We identified IRF3 and IRF7 as prognostic biomarkers in COAD, and the IRF family was associated with immune \r\ncell infiltration and gene regulation networks, providing additional evidence showing the significant role of the \r\nIRF family in COAD.\r\nMeSH Keywords:\t Biological Markers • Colorectal Neoplasms • Interferon Regulatory Factors\r\nFull-text PDF: https://www.medscimonit.com/abstract/index/idArt/927073\r\nAuthors’ Contribution: \r\nStudy Design A\r\n Data Collection B\r\n Statistical Analysis C\r\nData Interpretation D\r\n Manuscript Preparation E\r\n Literature Search F\r\nFunds Collection G\r\n1 Department of General Surgery, The Second Affiliated Hospital of Zhengzhou \r\nUniversity, Zhengzhou, Henan, P.R. China\r\n2 Department of General Surgery, The Third Affiliated Hospital of Fujian Traditional \r\nChinese Medical University, Fuzhou, Fujian, P.R. China\r\ne-ISSN 1643-3750\r\n© Med Sci Monit, 2020; 26: e927073\r\nDOI: 10.12659/MSM.927073\r\ne927073-1\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\nBackground\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 479,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "Colon adenocarcinoma (COAD) has a high incidence rate and \r\nis the third most common adenocarcinoma worldwide. High\u0002risk groups include people older than 50 years, with a fam\u0002ily history, and with hereditary familial polyposis, as well as \r\nyounger patients, who, unfortunately, tend to be diagnosed \r\nat a more advanced stage of COAD. To identify these patients \r\nmore quickly and easily, reliable biomarkers are needed to pre\u0002dict disease status and prognosis. In 2018 alone, there were \r\nover 1.8 million new colon cancer cases and 880 000 COAD\u0002related deaths. Notably, the disease is beginning to develop \r\nat a younger age [1,2]. Despite the decreased incidence of \r\nCOAD-related deaths because of improvements in early de\u0002tection through screening programs, including endoscopy and \r\nfecal occult blood testing, patients continue to present with \r\nadvanced disease [3]. Molecular markers, such as carcinoem\u0002bryonic antigen (CEA) and carbohydrate antigen 19-9(CA19-\r\n9), have been used in COAD diagnosis. However, patients at \r\nall COAD stages continue to die of the disease [4,5]. Therefore, \r\nexploring reliable biomarkers of the early pathological chang\u0002es from the molecular mechanism could be crucial for early di\u0002agnosis, overall survival prediction, treatment effect, and tar\u0002geted therapy development.\r\nInterferon regulatory factors (IRFs) belong to the family of tran\u0002scription factors and include IRF1-IRF9 members in both hu\u0002mans and mice. They are known for their critical roles in adap\u0002tive immunity [6]. Nonetheless, they are expressed in all tissue \r\ncells except for immune cells. Accumulating evidence indicates \r\nthat IRFs crucially function in cell differentiation and apopto\u0002sis, cell cycle, and immunological regulation, which are asso\u0002ciated with tumor progression [7,8]. Studies have shown that \r\nIRFs are involved in tumorigenesis by activating tumor-relat\u0002ed gene transcription [9]. For instance, the elevated expres\u0002sion level of IRF2 in cancer cells promotes the activity of NF-kB \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "during delivery of the activators (such as TNF-a). By enhanc\u0002ing the activity of NF-kB, the carcinogenic potential of IRF2 \r\nis increased [10]. However, the differences in the expression \r\nlevels, molecular mechanisms, genetic variations, and prog\u0002nostic significance of most IRFs in COAD have not been thor\u0002oughly studied. In the present study, we performed bioinfor\u0002matics analysis in public databases, including ULACAN, GEPIA, \r\nTCGA, and TIMER, to explore the correlation between IRF fam\u0002ily members and COAD.\r\nMaterial and Methods\r\nDatasets\r\nA total of 286 COAD patients were enrolled from The Cancer \r\nGenome Atlas (TCGA) dataset. None of them had received any \r\nform of chemoradiotherapy. We assessed the IRFs at the mRNA \r\nlevel using the following bioinformatics portals.\r\nUALCAN\r\nUALCAN (http://ualcan.path.uab.edu) was used for evaluation \r\nof differences in IRF expression profiles between COAD and \r\nhealthy tissues in the TCGA COAD dataset (n= 286). This site \r\nanalyzes the relative expression of a target gene(s) of the tu\u0002mor and normal samples, including the analysis of tumor sub\u0002groups based on individual cancer stage, tumor grade, or oth\u0002er clinicopathologic features [11]. Using these functions, we \r\nassessed the relationship between IRFs expression level and \r\npatient survival using the t test. P<0.05 was considered sta\u0002tistically significant.\r\nGEPIA\r\nWe used the online database Gene Expression Profiling \r\nInteractive Analysis (GEPIA) (http://gepia.cancer-pku.cn/in\u0002dex.html), a web-based tool to deliver gene expression corre\u0002lation analysis with data based on TCGA. The functions that \r\nGEPIA provides include correlation analysis, patient survival \r\nanalysis, and profiling plotting [12]. Through use of this data\u0002base, we assessed correlations between the expression lev\u0002el of IRFs and disease-free survival (DFS)/overall survival (OS) \r\nin COAD. The top 10 genes correlated with each IRFs member \r\nin COAD were analyzed using the Spearman correlation test. \r\nP<0.05 was considered statistically significant.\r\nGSCALite\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "GSCALite (http://bioinfo.life.hust.edu.cn/web/GSCALite/) pro\u0002vides a methylation module to establish the IRFs methylation \r\nlevel in COAD [13]. The t test was used to define differences \r\nin methylation between tumor and normal samples. We tested \r\nthe association between paired mRNA expression and methyl\u0002ation based on Pearson’s product-moment correlation coeffi\u0002cient, and it follows a t distribution. P values were adjusted by \r\nFDR, with FDR £0.05 considered as significant. Moreover, the \r\nsingle-nucleotide variation (SNV) frequency and variant types \r\nof IRFs in COAD, as well as the association between the IRF \r\nfamily and drug sensitivity, were explored. The SNV summary \r\nand oncoplot waterfall plot were generated using maftools [14].\r\nTIMER\r\nThe Tumor Immune Estimation Resource (TIMER) (cistrome.\r\nshinyapps.io/timer) is a public web resource that can infer the \r\nabundance of tumor-infiltrating immune cells (TIICs) from the \r\ngene expression profiles. The 6 major analytic modules, includ\u0002ing gene expression, clinical outcomes, and somatic mutations. \r\nThey enable users to analyze the correlation between immune \r\ne927073-2\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\ninfiltrations and various factors [15]. In the present study, the \r\nIRFs expression was correlated with the abundance of immune \r\ncell infiltrates in COAD as assessed with the gene module, and \r\nthe results are displayed by scatter plots. Furthermore, to com\u0002pare TIICs abundance in COAD with different copy number dis\u0002tortions of the IRF family, we used SCNA modules, and for each \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "TIIC subset, a box plot was generated to compare the distri\u0002bution of the abundance of TIICs with different gene muta\u0002tion status, with the statistical significance estimated using \r\nthe two-sided Wilcoxon rank-sum test. This analysis was per\u0002formed based on the TCGA COAD dataset (n=286). P<0.05 was \r\nconsidered statistically significant.\r\nLinkedOmics\r\nLinkedOmics (http://www.linkedomics.org/) includes multi-omics \r\ndata and clinical data for 32 cancer types from the TCGA data\u0002set [16]. We performed kinase target enrichment and miRNA \r\ntarget enrichment of the IRF family in COAD. The results are \r\ngraphically presented in volcano plots, heat maps, or scatter \r\nplots. The rank criterion was the minimum number of genes \r\n(size) of 9 and the simulation of 500, and P<0.05 was consid\u0002ered statistically significant.\r\n250\r\n200\r\n150\r\n100\r\n50\r\n0\r\nTranscript per million\r\nExpression of IRF1 in COAD based on sample types\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nPrimary rtumor\r\n(n=286)\r\nP=0.179 60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nExpression of IRF2 in COAD based on sample types\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nPrimary rtumor\r\n(n=286)\r\nP=4.39E-12 125\r\n100\r\n75\r\n50\r\n25\r\n0\r\nTranscript per million\r\nExpression of IRF3 in COAD based on sample types\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nPrimary rtumor\r\n(n=286)\r\nP=1.62E-12\r\n20\r\n15\r\n10\r\n5\r\n0\r\n–5\r\nTranscript per million\r\nExpression of IRF41 in COAD based on sample types\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nPrimary rtumor\r\n(n=286)\r\nP=1.55E-12 20\r\n15\r\n10\r\n5\r\n0\r\n–5\r\nTranscript per million\r\nExpression of IRF5 in COAD based on sample types\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nPrimary rtumor\r\n(n=286)\r\nP=0.160 70\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "0\r\nTranscript per million\r\nExpression of IRF6 in COAD based on sample types\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nPrimary rtumor\r\n(n=286)\r\nP=8.56E-04\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\n–10\r\nTranscript per million\r\nExpression of IRF47 in COAD based on sample types\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nPrimary rtumor\r\n(n=286)\r\nP=5.01E-03 100\r\n80\r\n60\r\n40\r\n20\r\n0\r\n–20\r\nTranscript per million\r\nExpression of IRF8 in COAD based on sample types\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nPrimary rtumor\r\n(n=286)\r\nP=0.236 150\r\n125\r\n100\r\n75\r\n50\r\n25\r\n0\r\nTranscript per million\r\nExpression of IRF9 in COAD based on sample types\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nPrimary rtumor\r\n(n=286)\r\nP=0.311\r\nA\r\nD\r\nG\r\nB\r\nE\r\nH\r\nC\r\nF\r\nI\r\nFigure 1. (A–I) The expression level of IRFs in COAD and normal tissues (ULCAN). The transcriptional level of IRF3 was substantially \r\nupregulated in COAD tissues relative to normal tissues. P<0.05 was considered statistically significant.\r\ne927073-3\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\nMetascape\r\nMetascape (http://metascape.org) is a productive gene function \r\nannotation analysis tool to annotate a large number of genes \r\nand to identify enriched pathways [17]. The top 10 genes cor\u0002related with each IRFs member in COAD were extracted from \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "the GEPIA dataset, and these genes were analyzed through \r\nMetascape. With GO and KEGG methods, we are able to ana\u0002lyze a gene list related to IRFs to identify the most frequently \r\naltered linked genes and constructed protein-protein interac\u0002tion networks from lists of genes and proteins.\r\nResults\r\nExpression level of IRFs in COAD\r\nThe differences in transcription levels of IRFs between COAD \r\nand normal tissues were evaluated using the UALCAN databas\u0002es to study the expression profiles of IRFs in COAD patients. \r\nCompared with normal tissues, IRF3 (Figure 1C, P=1.62E-12) \r\nwas upregulated in COAD tissues (Figure 1). However, IRF2 \r\n(Figure 1B, P=4.39E-12), IRF4 (Figure 1D, P=1.55E-08), IRF6 \r\n(Figure 1F, P=8.56E-04), and IRF7 (Figure 1G, P=5.01E-03) were \r\ndownregulated in COAD tissues relative to the healthy tissues, \r\nand there were no significant differences in the transcription \r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nExpression of IRF2 in COAD based on patient’s race Expression of IRF2 in COAD based on patient’s age\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nCaucasian\r\n(n=193)\r\nAfrican\u0002American\r\n(n=55)\r\nAsian\r\n(n=11)\r\n*** *** 60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nTCGA sample TCGA sample TCGA sample\r\nNormal\r\n(n=41)\r\n21–40 Yrs\r\n(n=12)\r\n61–80 Yrs\r\n(n=149)\r\n81–100 Yrs\r\n(n=32)\r\n***\r\n41–60 Yrs\r\n(n=90)\r\n***\r\nExpression of IRF2 in COAD based on patient’s weight\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nNormal\r\nweight\r\n(n=70)\r\nObese\r\n(n=56)\r\nExtreme\r\nobese\r\n(n=10)\r\n***\r\nExtreme\r\nweight\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "(n=74)\r\n*** ***\r\nExpression of IRF2 in COAD based on patient’s gender\r\nExpression of IRF2 in COAD based on nodal metastasis\r\nstatus\r\nExpression of IRF2 in COAD based on individual cancer\r\nstages\r\nExpression of IRF2 in COAD based on TP53 muation\r\nstatus\r\nExpression of IRF2 in COAD based on histological\r\nsubtypes\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nFemale\r\n(n=127)\r\nMale\r\n(n=156)\r\n***\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nN0\r\n(n=166)\r\nN1\r\n(n=70)\r\nN2\r\n(n=47)\r\n*** ***\r\n*** 60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nTCGA sample TCGA sample TCGA sample\r\nNormal\r\n(n=41)\r\nStage1\r\n(n=45)\r\nStage3\r\n(n=80)\r\nStage4\r\n(n=39)\r\n*** ***\r\nStage2\r\n(n=120)\r\n***\r\n***\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nMucinous\r\nadenocarcinoma\r\n(n=37)\r\nAdenocarcinoma\r\n(n=243)\r\n***\r\n***\r\nNormal\r\n(n=41)\r\nTP53-NonMutant\r\n(n=122)\r\nTP53-Mutast\r\n(n=160)\r\n***\r\n150\r\n125\r\n100\r\n75\r\n50\r\n25\r\n0\r\nTranscript per million\r\nExpression of IRF3 in COAD based on patient’s race Expression of IRF3 in COAD based on patient’s age\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nCaucasian\r\n(n=193)\r\nAfrican\u0002American\r\n(n=55)\r\nAsian\r\n(n=11)\r\n***\r\n*\r\n***\r\n150\r\n125\r\n100\r\n75\r\n50\r\n25\r\n0\r\nTranscript per million\r\nTCGA sample TCGA sample TCGA sample\r\nNormal\r\n(n=41)\r\n21–40 Yrs\r\n(n=12)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "61–80 Yrs\r\n(n=149)\r\n81–100 Yrs\r\n(n=32)\r\n*** ***\r\n41–60 Yrs\r\n(n=90)\r\n***\r\n***\r\nExpression of IRF3 in COAD based on patient’s weight\r\n150\r\n125\r\n100\r\n75\r\n50\r\n25\r\n0\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nNormal\r\nweight\r\n(n=70)\r\nObese\r\n(n=56)\r\nExtreme\r\nobese\r\n(n=10)\r\n***\r\nExtreme\r\nweight\r\n(n=74)\r\n***\r\n***\r\nExpression of IRF3 in COAD based on patient’s gender\r\nExpression of IRF3 in COAD based on nodal metastasis\r\nstatus\r\nExpression of IRF3 in COAD based on individual cancer\r\nstages\r\nExpression of IRF3 in COAD based on TP53 muation\r\nstatus\r\nExpression of IRF3 in COAD based on histological\r\nsubtypes\r\n125\r\n100\r\n75\r\n50\r\n25\r\n0\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nFemale\r\n(n=127)\r\nMale\r\n(n=156)\r\n***\r\n150\r\n125\r\n100\r\n75\r\n50\r\n25\r\n0\r\nTranscript per million\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nN0\r\n(n=166)\r\nN1\r\n(n=70)\r\nN2\r\n(n=47)\r\n***\r\n***\r\n***\r\n125\r\n100\r\n75\r\n50\r\n25\r\n0\r\nTranscript per million\r\nTCGA sample TCGA sample TCGA sample\r\nNormal\r\n(n=41)\r\nStage1\r\n(n=45)\r\nStage3\r\n(n=80)\r\nStage4\r\n(n=39)\r\n*** ***\r\nStage2\r\n(n=120)\r\n*** ***\r\n120\r\n100\r\n80\r\n60\r\n40\r\n20\r\nTranscript per million\r\n120\r\n100\r\n80\r\n60\r\n40\r\n20\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nMucinous\r\nadenocarcinoma\r\n(n=37)\r\nAdenocarcinoma\r\n(n=243)\r\n***\r\n***\r\nNormal\r\n(n=41)\r\nTP53-NonMutant\r\n(n=122)\r\nTP53-Mutast\r\n(n=160)\r\n*** ***\r\nA\r\nB\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "Figure 2. The transcription level of IRF2 (A) and IRF3 (B) in subgroups of COAD patients, stratified according to the following criteria: \r\nrace, age, weight, sex, nodal metastasis, individual cancer stages, TP53 mutation status, and histological subtypes (UALCAN). \r\nData are mean±SE. * P<0.05; ** P<0.01; *** P<0.001.\r\ne927073-4\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\n20\r\n15\r\n10\r\n5\r\n0\r\n–5\r\nTranscript per million\r\nExpression of IRF4 in COAD based on patient’s race Expression of IRF4 in COAD based on patient’s weight\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nCaucasian\r\n(n=193)\r\nAfrican\u0002American\r\n(n=55)\r\nAsian\r\n(n=11)\r\n*** *** ***\r\n20\r\n15\r\n10\r\n5\r\n0\r\n–5\r\nTranscript per million\r\nTCGA sample TCGA sample TCGA sample\r\nNormal\r\n(n=41)\r\n*** ***\r\n21–40 Yrs\r\n(n=12)\r\n61–80 Yrs\r\n(n=149)\r\n81–100 Yrs\r\n(n=32)\r\n41–60 Yrs\r\n(n=90)\r\n*** ***\r\nExpression of IRF4 in COAD based on patient’s age\r\n20\r\n15\r\n10\r\n5\r\n0\r\n–5\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nNormal\r\nweight\r\n(n=70)\r\nObese\r\n(n=56)\r\nExtreme\r\nobese\r\n(n=10)\r\n*** ***\r\nExtreme\r\nweight\r\n(n=74)\r\n*** **\r\nExpression of IRF4 in COAD based on patient’s gender\r\n20\r\n15\r\n10\r\n5\r\n0\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "–5\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nFemale\r\n(n=127)\r\nMale\r\n(n=156)\r\n*** ***\r\nExpression of IRF4 in COAD based on nodal metastasis\r\nstatus\r\nExpression of IRF4 in COAD based on individual cancer\r\nstages\r\nExpression of IRF4 in COAD based on TP53 muation\r\nstatus\r\nExpression of IRF4 in COAD based on histological\r\nsubtypes 20\r\n15\r\n10\r\n5\r\n0\r\n–5\r\nTranscript per million\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nN0\r\n(n=166)\r\nN1\r\n(n=70)\r\nN2\r\n(n=47)\r\n*** *** ***\r\n20\r\n15\r\n10\r\n5\r\n0\r\n–5\r\nTranscript per million\r\nTCGA sample TCGA sample TCGA sample\r\nNormal\r\n(n=41)\r\nStage1\r\n(n=45)\r\nStage3\r\n(n=80)\r\nStage4\r\n(n=39)\r\n*** ***\r\nStage2\r\n(n=120)\r\n*** ***\r\n20\r\n15\r\n10\r\n5\r\n0\r\n–5\r\nTranscript per million\r\n20\r\n15\r\n10\r\n5\r\n0\r\n–5\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nMucinous\r\nadenocarcinoma\r\n(n=37)\r\nAdenocarcinoma\r\n(n=243)\r\n*** ***\r\nNormal\r\n(n=41)\r\nTP53-NonMutant\r\n(n=122)\r\nTP53-Mutast\r\n(n=160)\r\n*** ***\r\n80\r\n70\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nExpression of IRF6 in COAD based on patient’s race Expression of IRF6 in COAD based on patient’s weight\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nCaucasian\r\n(n=193)\r\nAfrican\u0002American\r\n(n=55)\r\nAsian\r\n(n=11)\r\n*** *** ***\r\n80\r\n70\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nTCGA sample TCGA sample TCGA sample\r\nNormal\r\n(n=41)\r\n**\r\n21–40 Yrs\r\n(n=12)\r\n61–80 Yrs\r\n(n=149)\r\n81–100 Yrs\r\n(n=32)\r\n41–60 Yrs\r\n(n=90)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "** **\r\nExpression of IRF6 in COAD based on patient’s age\r\n70\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nNormal\r\nweight\r\n(n=70)\r\nObese\r\n(n=56)\r\nExtreme\r\nobese\r\n(n=10)\r\nExtreme\r\nweight\r\n(n=74)\r\n** **\r\n***\r\nExpression of IRF6 in COAD based on patient’s gender\r\n70\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nFemale\r\n(n=127)\r\nMale\r\n(n=156)\r\n** **\r\nExpression of IRF6 in COAD based on nodal metastasis\r\nstatus\r\nExpression of IRF6 in COAD based on individual cancer\r\nstages\r\nExpression of IRF6 in COAD based on TP53 muation\r\nstatus\r\nExpression of IRF6 in COAD based on histological\r\nsubtypes 80\r\n60\r\n40\r\n20\r\n0\r\nTranscript per million\r\nTCGA sample\r\nNormal\r\n(n=41)\r\nN0\r\n(n=166)\r\nN1\r\n(n=70)\r\nN2\r\n(n=47)\r\n*\r\n***\r\n80\r\n60\r\n40\r\n20\r\n0\r\nTranscript per million\r\nTCGA sample TCGA sample TCGA sample\r\nNormal\r\n(n=41)\r\nStage1\r\n(n=45)\r\nStage3\r\n(n=80)\r\nStage4\r\n(n=39)\r\n*\r\nStage2\r\n(n=120)\r\n*** **\r\n80\r\n60\r\n40\r\n20\r\n0\r\nTranscript per million\r\n80\r\n70\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nMucinous\r\nadenocarcinoma\r\n(n=37)\r\nAdenocarcinoma\r\n(n=243)\r\n*** **\r\nNormal\r\n(n=41)\r\nTP53-NonMutant\r\n(n=122)\r\nTP53-Mutast\r\n(n=160)\r\n***\r\n**\r\nTCGA sample TCGA sample TCGA sample TCGA sample\r\n70\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\n–10\r\nTranscript per million\r\nExpression of IRF7 in COAD based on patient’s race Expression of IRF7 in COAD based on patient’s weight\r\nTCGA sample\r\nNormal\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "(n=41)\r\nCaucasian\r\n(n=193)\r\nAfrican\u0002American\r\n(n=55)\r\nAsian\r\n(n=11)\r\n** 60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\n–10\r\nTranscript per million\r\nTCGA sample TCGA sample TCGA sample\r\nNormal\r\n(n=41)\r\n21–40 Yrs\r\n(n=12)\r\n61–80 Yrs\r\n(n=149)\r\n81–100 Yrs\r\n(n=32)\r\n41–60 Yrs\r\n(n=90)\r\nExpression of IRF7 in COAD based on patient’s age\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\n–10\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nNormal\r\nweight\r\n(n=70)\r\nObese\r\n(n=56)\r\nExtreme\r\nobese\r\n(n=10)\r\nExtreme\r\nweight\r\n(n=74)\r\n**\r\nExpression of IRF7 in COAD based on patient’s gender\r\n70\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\n–10\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nFemale\r\n(n=127)\r\nMale\r\n(n=156)\r\n**\r\nExpression of IRF7 in COAD based on nodal metastasis\r\nstatus\r\nExpression of IRF7 in COAD based on individual cancer\r\nstages\r\nExpression of IRF7 in COAD based on TP53 muation\r\nstatus\r\nExpression of IRF7 in COAD based on histological\r\nsubtypes 60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\n–10\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nN0\r\n(n=166)\r\nN1\r\n(n=70)\r\nN2\r\n(n=47)\r\n* *\r\n80\r\n60\r\n40\r\n20\r\n0\r\n–20\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nStage1\r\n(n=45)\r\nStage3\r\n(n=80)\r\nStage4\r\n(n=39)\r\n*\r\n*\r\nStage2\r\n(n=120)\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\n–10\r\nTranscript per million\r\n70\r\n60\r\n50\r\n40\r\n30\r\n20\r\n10\r\n0\r\n–10\r\nTranscript per million\r\nNormal\r\n(n=41)\r\nMucinous\r\nadenocarcinoma\r\n(n=37)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "Adenocarcinoma\r\n(n=243)\r\n*\r\nNormal\r\n(n=41)\r\nTP53-NonMutant\r\n(n=122)\r\nTP53-Mutast\r\n(n=160)\r\n**\r\nA\r\nB\r\nC\r\nFigure 3. The transcription level of IRF4 (A), IRF6 (B), and IRF7 (C) in subgroups of COAD patients, stratified according to different \r\ncriteria (UALCAN). Data are mean±SE. * P<0.05; ** P<0.01; *** P<0.001.\r\ne927073-5\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\nlevels of IRF1/5/8/9 between COAD and healthy tissues. \r\nAdditionally, UALCAN allowed us to discover the relationship \r\nbetween the expression levels of IRFs in COAD and patholog\u0002ical clinical features. The boxplots indicate that transcription \r\nlevels of IRF2 (Figure 2A), IRF4 (Figure 3A), and IRF6 (Figure 3B) \r\nin COAD patients were downregulated compared with normal \r\npatients in subgroup analyses regarding race, age, weight, sex, \r\nnodal metastasis, individual cancer stages, TP53 mutation sta\u0002tus, and histological subtypes. In contrast, the IRF3 mRNA lev\u0002els (Figure 2B) were higher in COAD patients than in healthy \r\npersons in the subgroup analyses in all pathological clinical \r\nfeatures. There was no significant change in IRF7 (Figure 3C). \r\nInterestingly, the expression levels of IRF3 were significantly \r\ndifferent, and overweight and male patients had much high\u0002er IRF3 mRNA levels. Moreover, regarding nodal metastasis, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "the IRF3 levels in the N2 stage were noticeably higher than in \r\nthe other stages. In the TP53-nonmutant type and mucinous \r\nadenocarcinoma, IRF3 mRNA levels were distinctly upregulat\u0002ed. In the methylation analysis, the methylation levels of most \r\nIRFs in COAD tissues were elevated, whereas IRF1 was down\u0002regulated (Figure 4A). In addition, methylation was negative\u0002ly correlated with the expression of IRFs in COAD (Figure 4B).\r\nPrognostic value of IRF family in COAD\r\nGEPIA established the prognostic value of IRFs expression levels \r\nin COAD patients. In COAD patients, high expression levels of \r\nIRF3/7 were significantly associated with poor OS (Figure 5A). \r\nHowever, the expression level of IRFs in COAD patients was \r\nindependent of DFS (Figure 5B). Overall, elevated mRNA lev\u0002els of IRF3/7 were significantly associated with poor progno\u0002sis; therefore, IRF3/7 are potential biomarkers for predicting \r\nthe survival of COAD patients.\r\nGenetic variation\r\nThe genetic variation in the IRF family in COAD is shown in \r\nFigure 6. These variations include missense mutation, splice \r\nsite, frameshift insertion, frameshift deletion, multi-hit, non\u0002sense mutation, and in-frame deletion (Figure 6). Next, the \r\nrole of the IRF family in crucial cancer-related pathways was \r\nevaluated. We established that the IRF family is involved in \r\nactivation of tumor cell apoptosis pathways and the hormone \r\nER pathway. We also found that IRFs inhibit the cell cycle and \r\nDNA damage pathways (Figure 7). Therefore, genomic aber\u0002rations could serve as potential biomarkers for drug screen\u0002ing and affect clinical responses to treatment. Drug sensitivity \r\nanalysis showed the expression levels of IRF2/4/8 were nega\u0002tively associated with drug resistance (Figure 8).\r\nImmune infiltration of IRF family in COAD patients\r\nWe next used the TIMER web resource to investigated whether \r\nIRFs expression is related to immune infiltration levels in COAD. \r\nTumor purity is an important factor in using genomic approach\u0002es because it influences the analysis of immune infiltration in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "clinical tumor samples [18]. The expression levels of IRF fami\u0002ly members in COAD was associated with infiltrating immune \r\nMethylation di\u0013erence between tumor and normal samples.\r\nSpearman correlation coe\bcient of methylation and gene expression.\r\nMethylation Di\u0003 (T · N) 0.0 0.1 0.2\r\nSpearm correlation coe\bcient –0.5–0.4–0.3–0.2\r\nCancer types\r\nCOAD\r\nCancer types\r\nCOAD\r\nIRF4\r\nIRF6\r\nIRF7\r\nIRF8\r\nIRF5\r\nIRF2\r\nIRF1\r\nSymbol\r\nIRF6\r\nIRF3\r\nIRF7\r\nIRF5\r\nIRF8\r\nIRF4\r\nIRF1\r\nSymbol\r\n-Log1O(FDR) 5 10 15 20 25\r\n-Log1O(FDR) 5 10 15 20\r\nA\r\nB\r\nFigure 4. Methylation level of the IRFs in COAD tissues. The difference in IRF family methylation in COAD and normal specimens (A). \r\nCorrelation between IRF family methylation and IRF family expression in COAD (B).\r\ne927073-6\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\ncells, including neutrophils, CD8+ T cells, dendritic cells, mac\u0002rophage B cells, and CD4+ T cells (Figure 9, Table 1). In gener\u0002al, our results reveal the relationship between IRFs expression \r\nlevels and immune infiltration levels in COAD. Additionally, the \r\ncopy number variations in the IRF family suppressed the lev\u0002els of infiltrating immune cells (Figure 10).\r\nEnrichment analysis of IRF family in COAD\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "We further investigated the potential role of IRFs in COAD \r\npathogenesis and development via gene enrichment analy\u0002sis of the pathways and processes in 90 neighboring genes \r\n(Figure 11, Table 2). IRFs and the vicinal genes were significantly \r\nenriched in molecular functions (MF), biological processes (BP), \r\ncellular component (CC), and pathways involved in interac\u0002tions. GO enrichment analysis showed highly enriched signal \r\nregulation pathways, including type I interferon signaling cas\u0002cade, response to interferon-gamma, regulation of cytokine \r\nproduction, response to tumor necrosis factor, and interleu\u0002kin-27-mediated signaling axis (Figure 11A, 11B, Table 3). The \r\ntop 7 KEGG pathways of the IRF family members and adjacent \r\ngenes are shown in Figure 11C, 11D and Table 4. Among these \r\npathways, RIG-I-like receptor-signaling cascade, viral carcino\u0002genesis, HTLV-1 infection, and transcription misregulation in \r\ncancer were associated with the development and pathogene\u0002sis of COAD. Moreover, the mCODE was retrieved and revealed \r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nOverall survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nOverall survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nOverall survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nOverall survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nOverall survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nDisease free survival\r\n1.0\r\n0.8\r\n0.6\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nDisease free survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nDisease free survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nDisease free survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nOverall survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nOverall survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nOverall survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nOverall survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nDisease free survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nDisease free survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nDisease free survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nDisease free survival\r\n1.0\r\n0.8\r\n0.6\r\n0.4\r\n0.2\r\n0.0\r\nPercent survival\r\n0 50 100 150\r\nMonths\r\nDisease free survival\r\nA\r\nB\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "Figure 5. The prognostic value of mRNA level of IRFs in COAD. In COAD patients, the upregulated IRF3/7 was significantly related to \r\nthe poor OS (A), while all members of the IRF family showed no prognostic value in DFS (B). The expression of other IRFs had \r\nno association with OS in COAD patients.\r\ne927073-7\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\nthat the IRF family and adjacent genes participate in the JAK\u0002STAT signaling pathway and tuberculosis (Figure 11E, 11F).\r\nKinase and miRNA targets of IRF family in COAD\r\nTo determine the role of IRFs in COAD, we then explored the \r\nkinase target and miRNA target of the IRF family in COAD \r\n(Table 5). The results suggested that kinase LCK and LYN are \r\ncommon targets of IRF1/4/7/8/9. The kinase target of IRF5 is \r\nSYK and FYN. Kinase ATR as well as STK are kinase targets for \r\nIRF6. The kinase targets of IRF3 are IKBKB and PLK3. The miR\u0002NA targets of IRFs are shown in Table 6. The (TGTATGA) MIR\u000217-5P, MIR-20A, MIR-106A, MIR-106B, MIR-20B, MIR519D, \r\nand (TGTATGA) MIR-485-3P were suggested to be the miRNA \r\ntargets of IRF3. (CCAGGGG) MIR-331 and (CAGTCAC) MIR-134 \r\nwere suggested to be the miRNA targets of IRF7.\r\n5\r\n4\r\n3\r\n2\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "1\r\n0\r\n24%\r\n21%\r\n21%\r\n17%\r\n14%\r\n14%\r\n10%\r\n10%\r\n10%\r\nIRF2\r\nIRF7\r\nIRF1\r\nIRF6\r\nIRF5\r\nIRF9\r\nIRF3\r\nIRF4\r\nIRF8\r\nAltered in 29 (100%) of 29 samples.\r\nCancer types\r\nCOAD Missense_Mulation Frame_Shift_Ins\r\nFrame_Shift_Del\r\nNonsense_Mulation\r\nSplice_Site\r\nMulti_Hit\r\nIn_Frame_Del\r\n01234567\r\nA\r\nB\r\nFigure 6. The genetic variation analysis of the IRF family in COAD. (A) Summary plot displays genetic variation frequency and variant \r\ntypes of IRF family in COAD. (B) Waterfall plot shows the genetic variation distribution of IRF family in COAD and a genetic \r\nvariation classification.\r\ne927073-8\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\nDiscussion\r\nThe prognosis of COAD mainly depends on the extent of dis\u0002ease, and lack of reliable biomarkers results in late diagnosis \r\nand high mortality in COAD [19]. If a genetic diagnosis can be \r\nused to detect COAD at an early stage for effective interven\u0002tion, the prognosis of patients will be greatly improved. The \r\nIRF family plays an important function in cancer immunobiol\u0002ogy. During tumorigenesis, each member strictly controls the \r\nproduction and function of cells involved in the antitumor im\u0002mune response [20]. The diverse role of IRFs in cancers has \r\nbeen reported, suggesting that IRFs modulate tumor progres\u0002sion and could be used as biomarkers. However, for COAD, \r\nthere is no such specific description of the correlation be\u0002tween IRFs and COAD.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "Firstly, we explored the transcription level of IRFs in COAD. \r\nIRF2/4/6 was downregulated in COAD patients regarding all \r\nkind of clinic pathologic features, while only IRF3 was highly \r\nexpressed in COAD tissues. IRF1/5/8/9 showed the result was \r\nnot statistically significant; however, a few studies showed that \r\nincreased IRF1 and IRF2 levels were found in CRC tissues, and \r\nPathway (A: Activate; I: Inhibit)\r\nPercent\r\nSymbol\r\n25\r\n25\r\n29\r\n16\r\n0\r\n25\r\n–6 13\r\n13\r\n13\r\n13\r\n13\r\n4\r\n16\r\n7\r\n10\r\n–6\r\n–15\r\n–3\r\n–12\r\n–12\r\n–15\r\n–6\r\n–6\r\n–6\r\n–3 13 –6\r\n19 0\r\n–3\r\n–3\r\n–3\r\n0\r\n–3 7 –15\r\n–18\r\n0\r\n47\r\n0\r\n0\r\n0\r\n0\r\n0\r\n13\r\n7\r\n0\r\n–28\r\n–6\r\n–15\r\n–25 4\r\n4\r\n–21\r\n–15\r\n–25 0 25\r\nApoptosis_A\r\nCell cycle_A\r\nApoptosis_I\r\nCell cycle_I\r\nDNA Damage response_I\r\nDNA Damage response_A\r\nEMT_A\r\nHormone AR_A\r\nEMT_I\r\nHormone AR_I\r\nHormone ER_\r\nHormone ER_I\r\nA\r\nPI3K/AKT_A\r\nRAS/MAPK_A\r\nPI3K/AKT_I\r\nRAS/MAPK_I\r\nRTK_I\r\nRTK_A\r\nIRF8\r\nIRF7\r\nIRF6\r\nIRF5\r\nIRF4\r\nIRF3\r\nIRF2\r\nIRF1\r\nFigure 7. Cancer-related pathways analysis of the IRF family in COAD.\r\n–log10 (FDR) 10 20 30 40 –log10 (FDR) 10 20\r\n0.0 0.2\r\nSpearman correlation\r\n–0.4 –0.2\r\nA B\r\nFigure 8. (A, B) Role of IRF family members in drug sensitivity. A positive correlation indicates that high gene expression is resistant to \r\ndrugs and vice versa.\r\ne927073-9\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 464,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "Indexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\nPurity\r\n0.25 0.50 0.75 1.000.0 0.1 0.2 0.3 0.4 0.0 0.2 0.4 0.60.0 0.1 0.2 0.3 0.4 0.0 0.1 0.2 0.3 0.1 0.2 0.3 0.3 0.6 0.9\r\nCOAD\r\nIRF1 Expression level (log2 TPM)\r\n10\r\n8\r\n6\r\n4\r\nB Cell CD8+T Cell CD4+T Cell Macrophage Neutrophil Dendritc Cell\r\nPurity\r\n0.25 0.50 0.75 1.000.0 0.1 0.2 0.3 0.4 0.0 0.2 0.4 0.60.0 0.1 0.2 0.3 0.4 0.0 0.1 0.2 0.3 0.1 0.2 0.3 0.3 0.6 0.9\r\nCOAD\r\nIRF2 Expression level (log2 TPM)\r\n6\r\n5\r\n4\r\n3\r\nB Cell CD8+T Cell CD4+T Cell\r\nInltration level\r\nInltration level\r\nMacrophage Neutrophil Dendritc Cell\r\nPurity\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "0.25 0.50 0.75 1.000.0 0.1 0.2 0.3 0.4 0.0 0.2 0.4 0.60.0 0.1 0.2 0.3 0.4 0.0 0.1 0.2 0.3 0.1 0.2 0.3 0.3 0.6 0.9\r\nCOAD\r\nIRF3 Expression level (log2 TPM)\r\n7\r\n6\r\n5\r\n4\r\nB Cell CD8+T Cell CD4+T Cell\r\nInltration level\r\nMacrophage Neutrophil Dendritc Cell\r\nPurity\r\n0.25 0.50 0.75 1.000.0 0.1 0.2 0.3 0.4 0.0 0.2 0.4 0.60.0 0.1 0.2 0.3 0.4 0.0 0.1 0.2 0.3 0.1 0.2 0.3 0.3 0.6 0.9\r\nCOAD\r\nIRF4 Expression level (log2 TPM)\r\n5\r\n4\r\n3\r\n2\r\n1\r\n0\r\nB Cell CD8+T Cell CD4+T Cell\r\nInltration level\r\nMacrophage Neutrophil Dendritc Cell\r\nPurity\r\n0.25 0.50 0.75 1.000.0 0.1 0.2 0.3 0.4 0.0 0.2 0.4 0.60.0 0.1 0.2 0.3 0.4 0.0 0.1 0.2 0.3 0.1 0.2 0.3 0.3 0.6 0.9\r\nCOAD\r\nIRF5 Expression level (log2 TPM)\r\n5\r\n4\r\n3\r\n2\r\n1\r\nB Cell CD8+T Cell CD4+T Cell\r\nInltration level\r\nMacrophage Neutrophil Dendritc Cell\r\nPurity\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "0.25 0.50 0.75 1.000.0 0.1 0.2 0.3 0.4 0.0 0.2 0.4 0.60.0 0.1 0.2 0.3 0.4 0.0 0.1 0.2 0.3 0.1 0.2 0.3 0.3 0.6 0.9\r\nCOAD\r\nIRF6 Expression level (log2 TPM)\r\n7\r\n6\r\n5\r\n4\r\nB Cell CD8+T Cell CD4+T Cell\r\nInltration level\r\nMacrophage Neutrophil Dendritc Cell\r\nPurity\r\n0.25 0.50 0.75 1.000.0 0.1 0.2 0.3 0.4 0.0 0.2 0.4 0.60.0 0.1 0.2 0.3 0.4 0.0 0.1 0.2 0.3 0.1 0.2 0.3 0.3 0.6 0.9\r\nCOAD\r\nIRF7 Expression level (log2 TPM)\r\n6\r\n4\r\n2\r\nB Cell CD8+T Cell CD4+T Cell\r\nInltration level\r\nMacrophage Neutrophil Dendritc Cell\r\nPurity\r\nCOAD\r\nF8 Expression level (log2 TPM)\r\n6\r\n4\r\n2\r\nB Cell CD8+T Cell CD4+T Cell\r\nMacrophage Neutrophil Dendritc Cell\r\nA\r\nB\r\nC\r\nD\r\nE\r\nF\r\nG\r\nB\r\ne927073-10\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "This work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\nPurity\r\n0.25 0.50 0.75 1.000.0 0.1 0.2 0.3 0.4 0.0 0.2 0.4 0.60.0 0.1 0.2 0.3 0.4 0.0 0.1 0.2 0.3 0.1 0.2 0.3 0.3 0.6 0.9\r\nCOAD\r\nIRF7 Expression level (log2 TPM)\r\n6\r\n4\r\n2\r\nB Cell CD8+T Cell CD4+T Cell\r\nInltration level\r\nMacrophage Neutrophil Dendritc Cell\r\nPurity\r\n0.25 0.50 0.75 1.000.0 0.1 0.2 0.3 0.4 0.0 0.2 0.4 0.60.0 0.1 0.2 0.3 0.4 0.0 0.1 0.2 0.3 0.1 0.2 0.3 0.3 0.6 0.9\r\nCOAD\r\nIRF8 Expression level (log2 TPM)\r\n6\r\n4\r\n2\r\nB Cell CD8+T Cell CD4+T Cell\r\nInltration level\r\nMacrophage Neutrophil Dendritc Cell\r\nPurity\r\n0.25 0.50 0.75 1.000.0 0.1 0.2 0.3 0.4 0.0 0.2 0.4 0.60.0 0.1 0.2 0.3 0.4 0.0 0.1 0.2 0.3 0.1 0.2 0.3 0.3 0.6 0.9\r\nCOAD\r\nIRF9 Expression level (log2 TPM)\r\n8\r\n7\r\n6\r\n5\r\n4\r\n3\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "B Cell CD8+T Cell CD4+T Cell\r\nInltration level\r\nMacrophage Neutrophil Dendritc Cell\r\nH\r\nI\r\nFigure 9. Correlation of IRFs expression with immune infiltration level in COAD tissues (TIMER). The scatter plots (A–I) identify the \r\ndifferent profiles of immune cells associated with IRFs.\r\nTumor purity B cells CD8+T cells CD4+T cells Macrophages Neutrophils Dendritic cells\r\nr r r r r r r\r\nIRF1 (–) (+) (+) (+) (+) (+++) (+++)\r\nIRF2 (–) (++) (+++) (++) (++) (++) (+++)\r\nIRF3 (–) (–) (–) (+) (–) (–) (–)\r\nIRF4 (– –) (++) (+) (+++) (++) (+++) (+++)\r\nIRF5 (–) (–) (–) (+) (++) (++) (+)\r\nIRF6 (–) (+) (+) (+) (+) (+) (+)\r\nIRF7 (–) (–) (–) (+) (+) (++) (++)\r\nIRF8 (–) (+) (+) (+) (+) (++) (+)\r\nIRF9 (–) (+) (++) (++) (++) (+++) (+++)\r\nTable 1. Comparison of gene expression and immune cell landscape.\r\nCorrelation of immune cell landscape of COAD compared with TCGA gene expression of IRFs (TIMER). r – categorized Pearson’s \r\ncorrelation coefficient; (– –): –0.5 to –0.3, weak negative association; (–): –0.3 to 0.1, little association; (+): +0.1 to 0.3, little \r\nassociation; (++): +0.3 to +0.5, weak positive association; (+++): +0.5 to +1.0, strong positive association.\r\nthe high expression level of IRF2 was related to a more than \r\n2-fold increase in the risk of all-cause mortality in CRC pa\u0002tients [21,22]. Although IRF7 was downregulated in COAD tis\u0002sues, IRF3 and IRF7 were significantly associated with poorer \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "overall survival. These data indicate that differentially ex\u0002pressed IRFs may play a significant role in COAD. As a recent \r\nstudy suggests, b-catenin is overexpressed in colorectal can\u0002cer and its expression level is positively associated with the \r\nlevel of IRF3 in CRC cells [23].\r\nThe present study demonstrates the molecular characteristics \r\nof IRFs in COAD. In COAD, the frequent genetic alterations in \r\nIRFs were differentially expressed. Genomic aberrations could \r\nserve as potential biomarkers for drug screening and affect \r\nclinical responses to treatment. Drug sensitivity analysis shows \r\nthe expression levels of IRF2/4/8 were negatively associated \r\nwith drug resistance, indicating that they are potential novel \r\nmarkers for drug screening.\r\nNext, we focused on immune cell infiltration. Interestingly, \r\nin COAD patients, IRF3/5/7 had a weak correlation with B \r\ncells and CD8+ T cells infiltration level, while IRF1/2/4/6/8/9 \r\nshowed a strong correlation with infiltration levels of all 6 \r\ntypes of immune cells (neutrophils, CD8+ T cells, dendritic \r\ne927073-11\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\ncells, macrophage, B cells, and CD4+ T cells), and the change \r\nof copy number in the IRF family inhibits the level of infiltrating \r\nimmune cells. Unlike the other IRF members, IRF3 expression \r\nhad a very weak correlation with infiltration levels of B cells, \r\nCD8+ T cells, neutrophils, macrophages, and dendritic cells, but \r\nhad a significant correlation with the CD4+T cells infiltration \r\nlevel in COAD patients. Studies revealed that, compared with \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "normal colon tissues, there were more CD4+T cells in colorec\u0002tal cancer tissues [24], and the correlation between IRF3 and \r\nCD+4 T cells suggested its role as a biomarker of IRF3 in COAD.\r\nCOAD\r\nB Cell CD8+ T Cell B CD4+ T Cell Macrophage Neutrophil Dendritic Cell\r\n1.5\r\n1.0\r\n0.5\r\n0.0\r\nInltration level\r\nCOAD\r\nB Cell CD8+ T Cell B CD4+ T Cell Macrophage Neutrophil Dendritic Cell\r\n1.5\r\n1.0\r\n0.5\r\n0.0\r\nInltration level\r\nCOAD\r\nB Cell CD8+ T Cell B CD4+ T Cell Macrophage Neutrophil Dendritic Cell\r\n1.5\r\n1.0\r\n0.5\r\n0.0\r\nInltration level\r\nCOAD\r\nB Cell CD8+ T Cell B CD4+ T Cell Macrophage Neutrophil Dendritic Cell\r\n1.5\r\n1.0\r\n0.5\r\n0.0\r\nInltration level\r\nCOAD\r\nB Cell CD8+ T Cell B CD4+ T Cell Macrophage Neutrophil Dendritic Cell\r\n1.5\r\n1.0\r\n0.5\r\n0.0\r\nInltration level\r\nCOAD\r\nB Cell CD8+ T Cell B CD4+ T Cell Macrophage Neutrophil Dendritic Cell\r\n1.5\r\n1.0\r\n0.5\r\n0.0\r\nInltration level\r\nCOAD\r\nB Cell CD8+ T Cell B CD4+ T Cell Macrophage Neutrophil Dendritic Cell\r\n1.5\r\n1.0\r\n0.5\r\n0.0\r\nInltration level\r\nCOAD\r\nB Cell CD8+ T Cell B CD4+ T Cell Macrophage Neutrophil Dendritic Cell\r\n1.5\r\n1.0\r\n0.5\r\n0.0\r\nInltration level\r\nCOAD\r\nB Cell CD8+ T Cell B CD4+ T Cell Macrophage Neutrophil Dendritic Cell\r\n1.5\r\n1.0\r\n0.5\r\n0.0\r\nInltration level\r\nCopy number\r\nDeep delection Arm-level deletion\r\nDiploid/Normal\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "Arm-level gain\r\nCopy number\r\nDeep delection Arm-level deletion\r\nDiploid/Normal\r\nArm-level gain\r\nHigh amplication\r\nCopy number\r\nDeep delection\r\nArm-level deletion\r\nDiploid/Normal\r\nArm-level gain\r\nHigh amplication\r\nCopy number\r\nArm-level deletion\r\nDiploid/Normal\r\nArm-level gain\r\nCopy number\r\nDeep delection\r\nArm-level deletion\r\nDiploid/Normal\r\nArm-level gain\r\nCopy number\r\nDeep delection\r\nArm-level deletion\r\nDiploid/Normal\r\nArm-level gain\r\nCopy number\r\nArm-level deletion\r\nDiploid/Normal\r\nArm-level gain\r\nHigh amplication\r\nCopy number\r\nArm-level deletion\r\nDiploid/Normal\r\nArm-level gain\r\nHigh amplication\r\nCopy number\r\nArm-level deletion\r\nDiploid/Normal\r\nArm-level gain\r\nA\r\nC\r\nE\r\nG\r\nI\r\nB\r\nD\r\nF\r\nH\r\nFigure 10. (A–I) Effect of copy number variation of the IRF gene family on the level of immune cell infiltration.\r\nWith GO enrichment analysis and KEGG pathway enrichment \r\nanalysis, we found a potential role of IRFs in COAD develop\u0002ment. The IRF family was mostly enriched in the type I inter\u0002feron signaling cascade, which was expected because, expect \r\nfor IRF6, the other members are all the primary regulator of \r\ntype I IFN activation. The type I IFN signaling pathway is im\u0002portant for innate antiviral immunity, and pathway damage is \r\nrelated to increased risk of tumorigenesis. IRF9 can enhance \r\nthe p53 pathway when cells are exposed to endogenous in\u0002duced or exogenous type I interferon, suggesting that IRF9 \r\ne927073-12\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\n02468\r\n–log10 (P)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "10 12 14 16\r\nGO: 0060337: type I interferon signaling pathway\r\nGO: 0034341: response to interferon-gamma\r\nGO:0001817: regulation of cytokine production\r\nGO: 0034612: respone to tumor necrosis factor\r\nGO: 0070106: interleukin-27-mediated signaling pathway\r\nGO:0050856: regulation of T cell receptor signaling pathway\r\nGO: 2001034: positive regulation of double-strand break repair via nonhomologous end joining\r\nGO: 0097191: extrinsic apoptotic signaling pathway\r\nGO: 0003725: double-standed RNA binding\r\nGO: 0046777: protein autophosphorylation\r\nGO: 1905476: negative regulation of protein localization to membrane\r\nGO: 0035456: response to interferon-beta\r\nGO: 0002683: negative regulation of immune system process\r\nGO: 0006302: double-strand break repair\r\nGO: 0030155: regulation of cell adhesion\r\nGO: 0051603: proteolysis involved in cellular protein catabolic process\r\nGO: 0042803: protein homodimerization activity\r\nGO: 0046579: positive regulation of Ras protein signaling transduction\r\nGO: 0002479: antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent\r\nGO: 2001252: positive regulation of chromosome organization\r\n02468\r\n–log10 (P)\r\n10 12\r\nColor MCODE GO Description Log10 (P)\r\nMCODE_1\r\nMCODE_1\r\nMCODE_1\r\nhsa_M00684\r\nM00684\r\nhsa05152\r\nJAK-STAT signaling\r\nJAK-STAT signaling\r\nTuberculosis\r\n–8.1\r\n–8.1\r\n–7.4\r\nhsa05168: Herpes simplex infection hsa04622: RIG-I_like receptor signaling pathway hsa05203: Viral carcinogenesis hsa05202: Transcriptional misregulation in cancer hsa04142: Lysosome hsa04114: Oocyte meiosis hsa05166: HTLV-I infection\r\nA\r\nC\r\nE\r\nB\r\nD\r\nF\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 478,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "Figure 11. Functional enrichment analysis of IRFs in COAD (Metascape). (A, B) The enriched terms in GO analysis, colored by P value; \r\n(C, D) The enriched terms in KEGG pathways analysis, colored by P values. (E) PPI network and 3 most significant MCODE \r\ncomponents. (F) Independent functional enrichment analysis of 3 MCODE components.\r\nhas an anti-proliferation effect [7,20]. Results also showed \r\nthat the IRFs were mainly associated with response to tumor \r\nnecrosis factor, transcription misregulation in cancer, and the \r\nJAK-STAT signaling pathway. The JAK-STAT pathway is a com\u0002mon signal transduction pathway, but under pathological con\u0002ditions, the activation of this pathway is associated with the \r\nproliferation of many malignant tumors [25]. An immunohis\u0002tochemical experiment showed that the expression levels of \r\nJAK-1 and STAT-3 proteins were upregulated in colon cancer \r\ntissues, and the levels were an independent risk factor for the \r\nprognosis of colon cancer [26]. As our study showed, IRFs are \r\nclosely related to the JAK-STAT pathway, which suggests that \r\nthe high expression level of IRF3/7 in COAD patients may have \r\na deeper relationship with the JAK-STAT signaling pathway in \r\ntumor development.\r\nFinally, due to the different interactions of IRFs and the SRC fam\u0002ily tyrosine kinases (LCK, LYN, and FYN), they play different roles \r\ne927073-13\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "IRF1 UBE2L6, GBP1, TAP1, STAT1, C5orf56, GBP4, PSMB9, PARP14, ETV7, SAMD9L\r\nIRF2 CASP3, CAMK2D, ATP10D, CYLD, TLR3, CTSO, TNFSF10, LITAF, JAK1, JAK2\r\nIRF3 PNKP, SNRNP70, PTOV1-AS2, AC018766.4, LENG1, SMG9, PRKD2, SUV420H2, CLASRP, PPP1R12C\r\nIRF4 LAX1, PRR33, GPR174, KCNA3, CTD-2020K17.1, ZNF80, TRAF3IP3, RP11-686D22.10, NCF1B, UBASH3A\r\nIRF5 AP1M1, GDI1, C17orf62, RP11-1072A3.3, IKBKG, TFE3, SCPEP1, MAP3K3, TBC1D25, SAMHD1\r\nIRF6 LPGAT1, C1orf106, PLEKHA6, F11R, KDM5B, PPP2R5A, ETV3, BROX, GOLPH3L, PIK3C2B\r\nIRF7 XAF1, MX1, ISG15, IFIT1, OAS2, IFI44, IRF9, DHX58, HSH2D, AP001610.5\r\nIRF8 NUB1, RP11-542M13.2, MCM4, NBN, MAX, IMPA1, SSX2IP, TCEA1P2, CDC27, TRAF3\r\nIRF9 PARP9, XAF1, OAS2, DDX60, SP100, PARP14, IFI44, IFIT3, SP110,USP1\r\nTable 2. Top 10 correlated genes of each member of IRF family in COAD (GEPIA).\r\nGO Category Description Count % Log10(P) Log10(q)\r\nGO: 0060337 GO biological processes Type I interferon signaling pathway 12 15.58 –15.70 –11.73\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "GO: 0034341 GO biological processes Response to interferon-gamma 13 16.88 –13.12 –9.61\r\nGO: 0001817 GO biological processes Regulation of cytokine production 15 19.48 –7.87 –4.69\r\nGO: 0034612 GO biological processes Response to tumor necrosis factor 9 11.69 –6.14 –3.09\r\nGO: 0070106 GO biological processes Interleukin-27-mediated signaling \r\npathway\r\n3 3.90 –5.30 –2.42\r\nGO: 0050856 GO biological processes Regulation of T cell receptor signaling \r\npathway 4 5.19 –5.14 –2.34\r\nGO: 2001034 GO biological processes\r\nPositive regulation of double-strand \r\nbreak repair via nonhomologous and \r\njoining\r\n3 3.90 –4.77 –2.02\r\nGO: 0097191 GO biological processes Extrinsic apoptotic signaling pathway 6 7.79 –4.09 –1.44\r\nGO: 0003725 GO Molecular Functions Double-stranded RNA binding 4 5.19 –4.01 –1.37\r\nGO: 0046777 GO biological processes Protein autophosphorylation 6 7.79 –3.97 –1.36\r\nGO: 1905476 GO biological processes Negative regulation of protein localization \r\nto membrane 3 3.90 –3.93 –1.33\r\nGO: 0035456 GO biological processes Response to interferon-beta 3 3.90 –3.88 –1.31\r\nGO: 0002683 GO biological processes Negative regulation of immune system \r\nprocess\r\n8 10.39 –3.82 –1.27\r\nGO: 006302 GO biological processes Double-strand break repair 6 7.79 –3.74 –1.21\r\nGO: 0030155 GO biological processes Regulation of cell adhesion 9 11.69 –3.35 –0.90\r\nGO: 0051603 GO biological processes Proteolysis involved in cellular protein \r\ncatabolic process 9 11.69 –3.29 –0.87\r\nGO: 0042803 GO Molecular Functions Protein homodimerzation activity 8 10.39 –2.98 –0.62\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "GO: 0046579 GO biological processes Positive regulation of RAS protein signal \r\ntransduction 3 3.90 –2.87 –0.54\r\nGO: 0002479 GO biological processes\r\nAntigen processing and presentation of \r\nexogenous peptide antigen via MHC class \r\nI, TAP-dependent\r\n3 3.90 –2.75 –0.46\r\nGO: 2001252 GO biological processes Positive regulation of chromosome \r\norganization 4 5.19 –2.54 –0.34\r\nTable 3. GO function enrichment analysis of IRF family members and neighbor genes in COAD (Metascape).\r\ne927073-14\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\nItems Category Description Count % Log10(P) Log10(q)\r\nhsa05168 KEGG pathway Herpes simplex inflection 12 15.58 –12.17 –9.48\r\nhsa04622 KEGG pathway RIG-I-like receptor signaling pathway 5 6.49 –5.53 –3.61\r\nhsa05203 KEGG pathway Viral cacinogenesis 6 7.79 –4.35 –2.56\r\nhsa05202 KEGG pathway Transcriptional misregulation in cancer 4 5.19 –2.58 –1.23\r\nhsa04142 KEGG pathway Lysosome 3 3.90 –2.14 –0.87\r\nhsa04114 KEGG pathway Oocyte meiosis 3 3.90 –2.14 –0.87\r\nhsa05166 KEGG pathway HTLV-I infection 4 5.19 –2.04 –0.81\r\nTable 4. KEGG function enrichment analysis of IRF family members and neighbor genes in COAD (Metascape).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "IRFs Enriched kinase target Description Leading edge num P value\r\nIRF1 Kinase_LCK LCK proto-oncogene,\r\nSrc family tyrosine Kinase\r\n25 0\r\nKinase_LYN LYN proto-oncogene,\r\nSrc family tyrosine Kinase\r\n26 0\r\nIRF2 Kinase_LCK LCK proto-oncogene,\r\nSrc family tyrosine Kinase\r\n24 0\r\nKinase_SYK spleen associated tyrosine Kinase 18 0\r\nIRF3 Kinase_IKBKB Inhibitor of nuclear factor Kappa B Kinase \r\nsubunit bata\r\n6 0\r\nKinase_PLK3 polo like Kinase 3 5 0\r\nIRF4 Kinase_LCK LCK proto-oncogene,\r\nSrc family tyrosine Kinase\r\n22 0\r\nKinase_LYN LYN proto-oncogene,\r\nSrc family tyrosine Kinase\r\n22 0\r\nIRF5 Kinase_SYK Spleen associated tyrosine Kinase 22 0\r\nKinase_FYN FYN proto-oncogene,\r\nSrc family tyrosine Kinase\r\n31 0\r\nIRF6 Kinase_ATR ATR serine/threonine Kinase 30 0\r\nKinase_STK4 serine/threonine Kinase 5 0\r\nIRF7 Kinase_LYN LYN proto-oncogene,\r\nSrc family tyrosine Kinase\r\n20 0\r\nKinase_LCK LCK proto-oncogene,\r\nSrc family tyrosine Kinase\r\n28 0\r\nIRF8 Kinase_LYN LYN proto-oncogene,\r\nSrc family tyrosine Kinase\r\n27 0\r\nKinase_LCK LCK proto-oncogene,\r\nSrc family tyrosine Kinase\r\n21 0\r\nIRF9 Kinase_LYN LYN proto-oncogene,\r\nSrc family tyrosine Kinase 21 0\r\nKinase_LCK LCK proto-oncogene,\r\nSrc family tyrosine Kinase\r\n25 0\r\nTable 5. Kinase target networks of the IRF family in COAD.\r\ne927073-15\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\nIRFs Enriched miRNA target Leading edge num P value\r\nIRF1 GTATTAT, MIR-369-3p 42 0\r\nCTTGTA, MIR-381 44 0\r\nIRF2 GTGTTGA, MIR-505 25 0\r\nGCACCTT, MIR-18A, MIR-18B 44 0\r\nIRF3 GCACTTT, MIR-17-5P, \r\nMIR-20A, MIR-106A, MIR-106BMIR-20B, MIR519D\r\n229 0\r\nTGTATGA, MIR-485-3P 63 0\r\nIRF4 CAGTATT, MIR-200B, MIR-200C, MIR-429 166 0.042\r\nACTGTGA, MIR-27A, MIR-27B 152 0.060\r\nIRF5 ATGCTGC, MIR-103, MIR-107 67 0.002\r\nTCCAGAG, MIR-518C 46 0.002\r\nIRF6 GACAATC, MIR-219 53 0\r\nGCACTTT, MIR-17-5P, MIR-20A, MIR-106A, MIR-106B, MIR-20B, MIR-519D 203 0\r\nIRF7 CCAGGGG, MIR-331 21 0\r\nCAGTCAC, MIR-134 17 0\r\nIRF8 CACTTTG, MIR-520G, MIR-520H 43 0\r\nAAGCAAT, MIR-137 57 0\r\nIRF9 CCAGGTT, MIR-490 21 0\r\nTATCTGG, MIR-488 16 0\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "Table 6. miRNA target networks of the IRF family in COAD.\r\nin oncogenesis. The common kinase targets of IRF1/4/7/8/9 \r\nare LCK and LYN. LCK is important in tumorigenesis because \r\nthe expression level of LCK is elevated in colorectal cancer \r\ncells, suggesting that LCK has a cancer-promoting role in CRC \r\n[27,28]. As the common kinase target of IRF5/6, SYK has been \r\nfound to be a cancer suppressor in colorectal cancer [29]. PLK3, \r\nwhich is the kinase target of IRF3, contributes to regulation \r\nof cell proliferation and apoptosis, and studies showed that \r\nPLK3 was overexpressed in breast and ovarian cancer, but \r\nthere is little evidence of the role of PLK3 in COAD [30]. The \r\nmiRNA targets of IRF3 are upregulated in human colon can\u0002cer. For example, MIR-17-5p and MIR-20a are both highly ex\u0002pressed in colon cancer tissues, and the MIR-106 family was \r\nalso found to be closely involved in the initiation and devel\u0002opment of colorectal cancer [31,32]. On the contrary, the miR\u0002NA target of IRF7, MIR-331, was reported to be a tumor sup\u0002pressor in colorectal carcinoma [33].\r\nThis study is the first to systematically demonstrate the as\u0002sociation between the IRF family and COAD; however, it has \r\nsome limitations. Because all the information was obtained \r\nfrom public databases, there are many influencing factors, \r\nsuch as the size and location of the tumor, and the medical \r\nparameters are incomplete, which could influence the results. \r\nSince the IRFs are correlated with cell cycle control and apop\u0002tosis, carcinogenesis, and immune responses, further studies \r\nare needed to elucidate the molecular mechanism involved.\r\nConclusions\r\nOverall, these results indicate that IRF3 and IRF7 are prognos\u0002tic biomarkers in COAD, and IRF family members are associat\u0002ed with immune cell infiltration and gene regulation networks. \r\nThese results add to the growing evidence of the significant \r\nrole of IRFs in COAD, and contribute to developing the prog\u0002nostic value of IRFs in COAD.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "Conflict of interests\r\nNone.\r\ne927073-16\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\nReferences:\r\n1. Bray F, Ferlay J, Soerjomataram I et al: Global cancer statistics 2018: \r\nGLOBOCAN estimates of incidence and mortality worldwide for 36 can\u0002cers in 185 countries [published correction appears in Cancer J Clin, 2020; \r\n70(4): 313]. Cancer J Clin, 2018; 68(6): 394–424\r\n2. Reddy BS: Diet and colon cancer: Evidence from human and animal model \r\nstudies. In diet, nutrition, and cancer: A critical evaluation. Macronutrients \r\nand Cancer, 1986; 1: 47–65\r\n3. Edwards BK, Ward E, Kohler BA et al: Annual report to the nation on the \r\nstatus of cancer, 1975–2006, featuring colorectal cancer trends and impact \r\nof interventions (risk factors, screening, and treatment) to reduce future \r\nrates. Cancer, 2010; 116(3): 544–73\r\n4. Zhong W, Yu Z, Zhan J et al: Association of serum levels of CEA, CA199, \r\nCA125, CYFRA21-1 and CA72-4 and disease characteristics in colorectal can\u0002cer. Pathol Oncol Res, 2015; 21(1): 83–. doi: 10.1007/s12253-014-9791-9.\r\n5. Shibutani M, Maeda K, Nagahara H et al: Significance of CEA and CA19-9 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 39,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "combination as a prognostic indicator and for recurrence monitoring in pa\u0002tients with stage II colorectal cancer. Anticancer Res, 2014; 34(7): 3753–58\r\n6. Mancino A, Natoli G: Specificity and function of IRF family transcription fac\u0002tors: Insights from genomics. J Interferon Cytokine Res, 2016; 36(7): 462–69\r\n7. Chen YJ, Li J, Lu N, Shen XZ: Interferon regulatory factors: A key to tumour \r\nimmunity. Int Immunopharmacol, 2017; 49: 1–5\r\n8. Yanai H, Negish H, Taniguchi T: The IRF family of transcription factors. \r\nInception, impact and implications in oncogenesis. Oncoimmunology, 2012; \r\n1(8): 1376–86\r\n9. Vaughan PS, van der Meijden CM, Aziz F et al: Cell cycle regulation of his\u0002tone H4 gene transcription requires the oncogenic factor IRF-2. J Biol Chem, \r\n1998; 273(1): 194–99\r\n10. Chae M, Kim K, Park SM et al: IRF-2 regulates NF-kappaB activity by mod\u0002ulating the subcellular localization of NF-kappaB. Biochem Biophys Res \r\nCommun, 2008; 370(3): 519–24\r\n11. Chandrashekar DS, Bashel B, Balasubramanya SAH et al: UALCAN: A por\u0002tal for facilitating tumor subgroup gene expression and survival analyses. \r\nNeoplasia, 2017; 19(8): 649–58\r\n12. Tang Z, Li C, Kang B et al: GEPIA: A web server for cancer and normal gene \r\nexpression profiling and interactive analyses. Nucleic Acids Res, 2017; \r\n45(W1): W98–102\r\n13. Zeng Q, Sun S, Li Y et al: Identification of therapeutic targets and prognos\u0002tic biomarkers among CXC chemokines in the renal cell carcinoma micro\u0002environment. Front Oncol, 2020; 9: 1555\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 40,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "14. Mayakonda A, Koeffler HP: Maftools: Efficient analysis, visualization and \r\nsummarization of MAF files from large-scale cohort-based cancer studies. \r\nBioRxiv, 2016; 5: 052662\r\n15. Li T, Fan J, Wang B et al: TIMER: A web server for comprehensive analysis \r\nof tumor-infiltrating immune cells. Cancer Res, 2017; 77(21): e108–10\r\n16. Vasaikar SV, Straub P, Wang J, Zhang B: LinkedOmics: Analyzing multi-omics \r\ndata within and across 32 cancer types. Nucleic Acids Res, 2018; 46(D1): \r\nD956–63\r\n17. Zhou Y, Zhou B, Pache L et al: Metascape provides a biologist-oriented re\u0002source for the analysis of systems-level datasets. Nat Commun, 2019; 10(1): \r\n1523\r\n18. Yoshihara K, Shahmoradgoli M, Martínez E et al: Inferring tumour purity and \r\nstromal and immune cell admixture from expression data. Nat Commun, \r\n2013; 4: 2612\r\n19. Yang Y, Li XJ, Li P, Guo XT: MicroRNA-145 regulates the proliferation, migra\u0002tion and invasion of human primary colon adenocarcinoma cells by target\u0002ing MAPK1. Int J Mol Med, 2018; 42(6): 3171–80\r\n20. Savitsky D, Tamura T, Yanai H, Taniguchi T: Regulation of immunity and onco\u0002genesis by the IRF transcription factor family. Cancer Immunol Immunother, \r\n2010; 59(4): 489–510\r\n21. Hong M, Zhang Z, Chen Q et al: IRF1 inhibits the proliferation and metas\u0002tasis of colorectal cancer by suppressing the RAS-RAC1 pathway. Cancer \r\nManag Res, 2018; 11: 369–78\r\n22. Mei Z, Wang G, Liang Z et al: Prognostic value of IRF-2 expression in colorec\u0002tal cancer. Oncotarget, 2017; 8(24): 38969–77\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 41,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "23. Ding C, He J, Zhao J et al: b-catenin regulates IRF3-mediated innate immune \r\nsignalling in colorectal cancer. Cell Prolif, 2018; 51(5): e12464\r\n24. Toor SM, Murshed K, Al-Dhaheri M et al: Immune checkpoints in circulat\u0002ing and tumor-infiltrating CD4+ T cell subsets in colorectal cancer patients. \r\nFront Immunol, 2019; 10: 2936\r\n25. Cui C, Cheng X, Yan L et al: Downregulation of TfR1 promotes progression \r\nof colorectal cancer via the JAK/STAT pathway. Cancer Manag Res, 2019; \r\n11: 6323–41\r\n26. Tang S, Yuan X, Song J et al: Association analyses of the JAK/STAT signaling \r\npathway with the progression and prognosis of colon cancer. Oncol Lett, \r\n2019; 17(1): 159–64\r\n27. Nakamura K, Chijiiwa Y, Nawata H: Augmented expression of LCK message \r\ndirected from the downstream promoter in human colorectal cancer speci\u0002mens. Eur J Cancer, 1996; 32A(8): 1401–7\r\n28. Janikowska G, Janikowski T, Pyka-Pająk A et al: Potential biomarkers for \r\nthe early diagnosis of colorectal adenocarcinoma – transcriptomic analy\u0002sis of four clinical stages. Cancer Biomark, 2018; 22(1): 89–99\r\n29. Yang Z, Huo L, Chen H et al: Hypermethylation and prognostic implication \r\nof Syk gene in human colorectal cancer. Med Oncol, 2013; 30(2): 586\r\n30. Helmke C, Becker S, Strebhardt K: The role of Plk3 in oncogenesis. Oncogene, \r\n2016; 35(2): 135–47\r\n31. Motoyama K, Inoue H, Takatsuno Y et al: Over- and under-expressed mi\u0002croRNAs in human colorectal cancer. Int J Oncol, 2009; 34(4): 1069–75\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 42,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2422917380396768022,
+        "filename": "medscimonit-26-e927073.PMC7659398.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 249,
+      "total_chunks": 43,
+      "version": "1.0.0"
+    },
+    "text": "32. Peng Q, Shen Y, Zhao P et al: Biomarker roles identification of miR-106 \r\nfamily for predicting the risk and poor survival of colorectal cancer. BMC \r\nCancer, 2020; 20(1): 506\r\n33. Zhang H, Wang R, Wang M: miR-331-3p suppresses cell invasion and mi\u0002gration in colorectal carcinoma by directly targeting NRP2. Oncol Lett, 2019; \r\n18(6): 6501–8\r\ne927073-17\r\nIndexed in: [Current Contents/Clinical Medicine] [SCI Expanded] [ISI Alerting System]\r\n[ISI Journals Master List] [Index Medicus/MEDLINE] [EMBASE/Excerpta Medica]\r\n[Chemical Abstracts/CAS]\r\nYuemaier M. et al.:\r\nThe role of IRFs in COAD\r\n© Med Sci Monit, 2020; 26: e927073\r\nThis work is licensed under Creative Common Attribution\u0002NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)\r\nDATABASE ANALYSIS\n\n"
+  }
+]

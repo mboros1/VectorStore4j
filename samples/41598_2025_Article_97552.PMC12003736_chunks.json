@@ -1,0 +1,674 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "A multimodal MRI-based machine \r\nlearning framework for classifying \r\ncognitive impairment in cerebral \r\nsmall vessel disease\r\nGuihan Lin1,5, Weiyue Chen1,5, YongkangGeng2,5, Bo Peng3, Surui Liu3, Minjiang Chen1, \r\nChunying Pang2, Pengjun Chen1, Chenying Lu1, ZhihanYan4, Shuiwei Xia1, Yakang Dai3 & \r\nJiansong Ji1\r\nThe heterogeneity of cerebral small vessel disease (CSVD) with mild cognitive impairment (MCI) \r\npresents a challenge for diagnosis and classification. This study aims to propose a multimodal magnetic \r\nresonance imaging (MRI)-based machine learning framework to effectively classify MCI and NCI in \r\nCSVD patients. We enrolled 165 CSVD patients, categorized into NCI (n=81) and MCI (n=84) groups \r\nbased on neurocognitive assessments. Multimodal MRI data, including T1-weighted, resting-state \r\nfunctional MRI, and diffusion tensor images, were collected. Image preprocessing, feature extraction \r\nand selection were applied to obtain MRI features from three modalities. The AutoGluon platform \r\nwas utilized for model development, and traditional machine learning algorithms were applied for \r\ncomparison. The models were validated using a validation cohort of 83 CSVD patients, and their \r\nperformance was assessed via receiver operating characteristic curve analysis. The AutoGluon model \r\nto distinguish MCI from NCI based on multimodal MRI features demonstrated high area under the \r\ncurve (AUC), accuracy, sensitivity, specificity, precision, balanced accuracy, and F1-score in the training \r\ncohort (0.926, 88.48%, 88.10%, 88.89%, 89.16%, 88.50%, and 88.63%, respectively) and validation \r\ncohort (0.878, 81.93%, 86.36%, 76.92%, 80.85%, 81.64%, and 83.51%, respectively). Other traditional \r\nmachine learning models had AUCs of 0.755–0.831, and their prediction accuracies were significantly \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "lower than that of AutoGluon model (P<0.001). Our study provides a multimodal MRI-based machine \r\nlearning framework, utilizing the AutoGluon platform, that outperforms traditional algorithms in \r\nclassifying MCI and NCI, offering a promising tool for the early prediction of MCI in CSVD.\r\nKeywords Cerebral small vessel disease, Cognitive impairment, Multimodal MRI, Machine learning, \r\nAutoGluon\r\nAbbreviations\r\nALFF Amplitude of low-frequency fluctuation\r\nAUC Area under the curve\r\nCatBoost Categorical boosting\r\nCDR Clinical dementia rating\r\nCSVD Cerebral small vessel disease\r\nDT Decision tree\r\nDTI Diffusion tensor imaging\r\nET Extremely randomized trees\r\nFA Fractional anisotropy\r\nFC Functional connectivity\r\n1Zhejiang Key Laboratory of Imaging and Interventional Medicine, Zhejiang Engineering Research Csaenter of \r\nInterventional Medicine Engineering and Biotechnology, Key Laboratory of Precision Medicine of Lishui City, The \r\nFifth Affiliated Hospital of Wenzhou Medical University, Lishui 323000, Zhejiang, China. 2School of Life Science \r\nand Technology, Changchun University of Science and Technology, Changchun 130000, China. 3Suzhou Institute \r\nof Biomedical Engineering and Technology, Chinese Academy of Sciences, Suzhou 215163, China. 4Wenzhou Key \r\nLaboratory of Structural and Functional Imaging, Wenzhou 325000, China. 5Guihan Lin, Weiyue Chen and Yongkang \r\nGeng these have contribute equally to this study. email: daiyk@sibet.ac.cn; jjstcty@wmu.edu.cn\r\nOPEN\r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 1\r\nwww.nature.com/scientificreports\nFD Fractal dimension\r\nfMRI Functional magnetic resonance imaging\r\nGBM Gradient boosting machine\r\nKNN K-nearest neighbors\r\nLR Linear regression\r\nMCI Mild cognitive impairment\r\nMD Mean diffusivity\r\nMRI Magnetic resonance imaging\r\nMMSE Mini-mental state examination\r\nMoCA Montreal cognitive assessment\r\nNCI No cognitive impairment\r\nPR Precision-recall\r\nReHo Regional homogeneity\r\nRF Random forest\r\nROC Receiver operating characteristic SVM, support vector machine\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "XGBoost Extreme gradient boosting\r\nCerebral small vessel disease (CSVD) encompasses a range of clinical, radiological, and pathological conditions \r\nresulting from several causes affecting the tiny blood vessels in the brain, including arterioles, capillaries, and \r\nvenules1,2. CSVD was previously disregarded due to the absence of noticeable symptoms, but it is now recognized \r\nas a significant contributor to vascular cognitive impairment3. It has been suggested that CSVD can cause \r\nvarious frontal symptoms, particularly decreased executive and memory functions, by damaging the subcortical \r\nnetwork4. However, unlike mild cognitive impairment (MCI) related to Alzheimer’s disease, CSVD-related MCI \r\n(CSVD-MCI) is often overlooked. Moreover, the mechanisms behind cognitive deterioration resulting from \r\nvascular disease differ from those associated with neurodegenerative disorders5. CSVD-MCI will eventually \r\nprogress to moderate to severe dementia without opportune intervention; thus, detecting cognitive decline early \r\nis critical for CSVD-MCI prevention and intervention.\r\nAccording to the latest Vascular Impairment of Cognition Classification Consensus Study guidelines, \r\ndiagnosing MCI generally requires evaluating clinical symptoms, structural magnetic resonance imaging (MRI), \r\nand neuropsychological assessment6. In practice, a detailed neuropsychological assessment is time-consuming \r\nand not applicable to all patients, especially those who are illiterate or have aphasia2,7. Even in the most practicable \r\nsettings, these neuropsychological assessments are difficult to administer and must be performed by well-trained \r\nneurologists; otherwise, there is a risk of misdiagnosis due to inadequate assessment. Indeed, it has been shown \r\nthat the results of neuropsychological assessments such as the Montreal Cognitive Assessment (MoCA) vary \r\nwidely due to investigator bias8.\r\nMRI is crucial for diagnosing MCI, particularly for evaluating the structural and functional aspects of the \r\nbrain. This helps determine the extent of CSVD and the likelihood of MCI9,10. In patients with CSVD, structural \r\nMRI reveals white matter hyperintensities and lacunes, particularly on T2-weighted and fluid-attenuated \r\ninversion recovery images11. However, these imaging markers alone are insufficient for diagnosing cognitive \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "impairment because white matter hyperintensities are common in older adults12,13. Therefore, other imaging \r\nmethods are needed to predict and diagnose cognitive decline. Diffusion tensor imaging (DTI) can assess the \r\narchitecture of deep white matter, providing insights into minor alterations potentially associated with MCI14,15. \r\nIn addition, resting-state functional MRI (rs-fMRI) is used to assess the hemodynamics of the brain, allowing for \r\nthe study of functional connectivity (FC)16. However, no studies have directly compared or combined structural \r\nMRI, DTI, and rs-fMRI in patients with CSVD, and future studies applying multimodal MRI images to predict \r\nMCI progression in patients with CSVD are needed.\r\nIn recent years, machine learning has made significant progress in neuroimaging, greatly promoting the \r\nautomation and intelligent processing of medical images. As an analytical method capable of processing high\u0002dimensional data, machine learning has been successfully applied to individualized clinical tasks such as \r\nautomatic lesion detection and segmentation, disease classification, risk assessment, and outcome prediction17. \r\nWhile machine learning has achieved remarkable results in identifying MCI in patients with CSVD, some \r\nlimitations and challenges still need to be overcome. Firstly, most studies have focused only on using single\u0002modal imaging data18. Therefore, while many current methods have achieved ideal results in specific tasks, \r\nthey are still insufficient in integrating data from different modalities to assess the complexity of CSVD-related \r\ncognitive impairment more comprehensively. Secondly, the complexity and high dimensionality of multimodal \r\nMRI data have significantly increased the difficulty of data processing and model integration, resulting in few \r\nstudies successfully integrating these data into machine learning classifiers to improve prediction performance. \r\nThirdly, most studies have relied on traditional machine learning methods, which are highly sensitive to feature \r\nselection and parameter adjustment, and it is challenging to achieve good generalization capabilities in complex \r\nscenarios with multimodal and high-dimensional data.\r\nTherefore, in this study, we propose a novel multimodal MRI-based machine learning framework that \r\nintegrates structural, diffusion, and functional MRI data to enhance the classification of CSVD-MCI. By \r\nleveraging the complementary strengths of these modalities, our framework overcomes the limitations of \r\nsingle-modality studies. Using the AutoGluon platform, we automate feature selection and model optimization, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "addressing the challenges of traditional machine learning techniques, such as sensitivity to feature selection \r\nand parameter tuning. These improvements significantly improves classification performance and model \r\ngeneralizability, advancing the field by providing a more robust tool for early detection and personalized \r\ntreatment of CSVD-MCI.\r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 2\r\nwww.nature.com/scientificreports/\nMaterials and methods\r\nParticipants\r\nThis study was performed in accordance with the Helsinki Declaration, and approved by the Ethics Committee \r\nof the Fifth Affiliated Hospital of Wenzhou Medical University (approval number: 2024-266). For the training \r\ncohort, patients were recruited from the outpatient and inpatient departments of the Fifth Affiliated Hospital of \r\nWenzhou Medical University between September 2019 and January 2024. The inclusion criteria for all patients \r\nwere as follows: (1) aged 50–80  years, (2) able to cooperate in completing all examination items and sign \r\ninformed consent, and (3) a CSVD diagnosis confirmed by imaging examination (see Appendix E1 for details). \r\nThe exclusion criteria for all patients were as follows: (1) a history of brain tumors, head trauma, or surgery; (2) \r\ncerebral hemorrhage, large-area cerebral infarction, or stenosis of large cerebral blood vessels; (3) the diagnosis \r\nof other neurological conditions that can cause cognitive impairment, such as Parkinson’s disease, Alzheimer’s \r\ndisease, or Lewy body dementia, after three years of follow-up; (4) accompanied by severe visual, auditory, or \r\nlanguage dysfunction; (5) accompanied by mental illness or drug and alcohol abuse; (6) accompanied by serious \r\nphysical diseases, such as heart or liver disease, renal insufficiency, or systemic malignant tumors; and (7) MRI \r\ncontraindications, such as metal dentures, cardiovascular stents, or pacemakers.\r\nAccording to the cognitive level assessment using neuropsychological scales, the patients were further divided \r\ninto NCI (n=81) and MCI (n=84) groups after three years of follow-up. The inclusion criteria for the NCI group \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "were as follows: (1) no memory impairment, (2) cognitive performance consistent with their age and education \r\nlevel, and (3) a Clinical Dementia Rating (CDR) of 0. The inclusion criteria for the MCI group were as follows: \r\n(1) diagnosed with memory impairment within the past three months, (2) objective memory impairment, (3) a \r\nCDR of 0.5 despite normal overall cognitive function, and (4) not diagnosed with dementia.\r\nFor the validation cohort, patients with CSVD and MCI (n=44) or NCI (n=39) were recruited using the \r\nsame inclusion and exclusion criteria between January 2021 and January 2024. The patient recruitment flowchart \r\nis shown in Fig. 1.\r\nFig. 1. Flow chart showing inclusion and exclusion criteria and final patient population of the study. CSVD, \r\ncerebral small vessel disease; MCI, mild cognitive impairment; NCI, no cognitive impairment; PD, Parkinson’s \r\ndisease; AD, Alzheimer’s disease.\r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 3\r\nwww.nature.com/scientificreports/\nClinical data collection and neuropsychological scale evaluation\r\nGeneral clinical data, including age, sex, education years, smoking, drinking, hypertension, diabetes, \r\nhyperlipidemia, low-density lipoprotein-cholesterol (LDL-C), total cholesterol (TC), and high-density \r\nlipoprotein-cholesterol (HDL-C), were collected for all patients. Within one week of the MRI scan, two \r\nexperienced neurologists, both of whom were trained in standardized testing procedures, independently \r\nadministered a series of neuropsychological scale assessments. Any discrepancies between their ratings was \r\ndiscussed and resolved. The Mini-Mental State Evaluation (MMSE) and MoCA were used to evaluate global \r\ncognitive function. Additionally, a battery of neuropsychological tests was administered to assess memory, \r\nlanguage, attention, executive, and visuospatial functions: the Stroop Color Word Test, Auditory Verbal Learning \r\nTest, Complex Figure Test, Digit Span Test, Clock Drawing Test, and Verbal Fluency Test.\r\nMRI image acquisition\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "All patients were scanned using a Philips Ingenia CX 3.0 T scanner and a 32-channel head coil. Foam pads were \r\nplaced around the patient’s head to avoid head movement. The scanning parameters were as follows. 3D-T1 \r\nimages of the whole brain were obtained using a sagittal three-dimensional magnetization prepared rapid gradient \r\necho sequence: repetition time (TR)=8.464 ms, echo time (TE)=3.248 ms, field of view (FOV)=256×256 mm, \r\nflip angle=12°, matrix=256×256, slice thickness=1  mm, number of signal averages (NSA)=1, number of \r\nslices=170. rs-fMRI was conducted using a multiband echo-planar imaging (EPI) sequence: TR=2000  ms, \r\nTE=30  ms, FOV=240×240  mm, flip angle=90°, matrix=64×64, slice thickness=4  mm, gap=1  mm, \r\nNSA=1, number of slices=40. DTI was acquired using a diffusion-weighted double spin-echo EPI sequence: \r\nTR=9000  ms; TE=85  ms; FOV=240×240  mm; flip angle=90°; matrix=128×128; slice thickness=2  mm; \r\ngap=1 mm; NSA=1; number of slices=74; 64 diffusion-weighted directions with a b of 1000 s/mm2, and 11 \r\nimages with a b of 0 s/mm2.\r\nImage preprocessing\r\nThe T1 images were preprocessed following a standard procedure19, including (1) resampling images to \r\n256×256×256 using a standard template; (2) N3 bias field correction; (3) skull stripping; (4) brain tissue \r\nsegmentation into gray matter, white matter, and cerebrospinal fluid; (5) brain-region labeling according to the \r\n90-brain-region anatomical automatic labeling (AAL) template20; and (6) cortical reconstruction.\r\nThe rs-fMRI images were preprocessed using the Data Processing and Analysis of Brain Imaging (DPABI) \r\nfunctional MRI preprocessing toolbox (v8.2, http://rfmri.org/dpabi)21 with the following steps: (1) time points \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "were adjusted by removing the first 10, (2) slice timing and motion correction, (3) images were registered to \r\nthe standard Montreal Neurological Institute (MNI) space, (4) images were smoothed with a 4×4×4 mm3 full \r\nwidth at half maximum Gaussian kernel, (5) linear drift was removed and band-pass filtered at 0.01–0.2 Hz, (6) \r\ncovariates were regressed, (7) template matching using the AAL 116-brain-region template, and (8) generation \r\nof FC matrices.\r\nDTI images were preprocessed using FSL software (v6.0.7, https://fsl.fmrib.ox.ac.uk/fsl/oldwiki/)22 and \r\nDMRITool software (v0.1.1, https://diffusionmritool.github.io/)23 with the following steps: (1) top-up: \r\ncorrecting susceptibility-induced distortions and extracting brain from corrected b0 images using FSL; (2) \r\neddy correction24: correcting eddy current-induced distortions and patient motion using FSL to handle high \r\nb-value DTI images; (3) generating b-value and gradient value text files, fitting the diffusion tensor on eddy\u0002corrected data; (4) generating masks; (5) extracting matrices to generate fractional anisotropy (FA)25 and mean \r\ndiffusivity (MD)26 maps; (6) computing DTI skeleton images; and (7) constructing brain-region features based \r\non a 48-brain-region template.\r\nFeature extraction\r\nWe extracted 426 features from the T1 images based on different AAL brain-region templates: 90 from the \r\nsegmented gray matter, 90 from the white matter, 90 from the cerebrospinal fluid, 78 from the cortical thickness, \r\nand 78 from the cortical surface area. In addition, 7134 features were extracted from the rs-fMRI images based \r\non 116 AAL brain-region templates: 116 from the ALFF, 116 from the fractional ALFF (fALFF), 116 from the \r\nReHo, and 116 from the voxel-mirrored homotopic connectivity images after processing, and 6670 from the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "upper triangular matrix of FC networks based on the AAL 116-brain-region template. Furthermore, 96 features \r\nwere extracted from the DTI images: 48 from the FA and 48 from the MD images based on the Johns Hopkins \r\nUniversity template. In total, 7656 features were extracted. All features were normalized using the Z-score \r\nnormalization formula (\r\nx′ = x−µ\r\nσ\r\n)\r\n, where x represents the original feature dataset, x’ represents the normalized \r\nfeature dataset, and μ and σ represent the mean and standard deviation of the original feature dataset.\r\nWe repeated the feature extraction process twice on 100 randomly selected patients in two weeks to evaluate \r\nthe intra-observer repeatability, which was assessed using intraclass correlation coefficients (ICCs). Features \r\nwith ICCs greater than 0.8 were considered to have good reproducibility.\r\nFeature selection\r\nThe feature dimensionality was high after feature extraction, which may lead to overfitting if they are inputted \r\ndirectly into the classification models. In order to reduce the feature dimensionality, the most discriminative \r\nfeatures were selected through the following feature selection process. Firstly, an independent samples t-test was \r\napplied to the feature set, considering a P<0.05 as statistically significant27. Secondly, after verifying normality \r\nand performing appropriate transformations when necessary, Pearson’s correlation analysis was performed \r\nto determine the uniqueness of features, and features with correlation coefficients greater than 0.5 with the \r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 4\r\nwww.nature.com/scientificreports/\nsignificance level set at P<0.05 were further excluded28. Finally, we selected 144 features from the initial 7656 to \r\ninput into the machine learning model for classification tasks.\r\nModel construction and evaluation\r\nThis study utilized the AutoGluon model29, which automates the entire machine learning process from data \r\nprocessing to model training, tuning, and model fusion. Its strengths are its simplicity, robustness, fault tolerance, \r\npredictions’ predictability, and ability to identify the relevance of features more accurately. The model’s input \r\ndata structure consisted of features from individual modalities (T1 image, rs-fMRI, and DTI) and integrated \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "features from all three modalities. AutoGluon can efficiently process high-dimensional data, which is especially \r\nimportant for datasets containing features from multiple modalities. On the input feature vector dataset, the \r\nAutoGluon model trains multiple types of machine learning models on the same data, including SVM, k\u0002nearest neighbor (KNN), K-means, decision tree (DT), extreme gradient boosting (XGBoost), RF, extremely \r\nrandomized tree (ET), gradient boosting machine (GBM), categorical boosting (CatBoost), linear regression \r\n(LR), WeightEnsemble, neural network implemented in PyTorch (NN_TORCH), and neural network with \r\nFastAI backend (NN_FASTAI) models. These base classifiers are described in Appendix E2, and the parameters \r\nof the algorithms are listed in Table S1. Through AutoGluon’s automated hyperparameter tuning function, \r\nwe can quickly find the most suitable parameter settings among a large number of candidate models, greatly \r\nimproving the performance of the model and saving a lot of computing and debugging time. The outputs of \r\nthese models are then inputted into a linear model to obtain the final output, which involves weighting the \r\noutputs using weights determined through training. AutoGluon’s multi-layer stacked integration technique \r\nsignificantly improves the accuracy of the models. It ensures that each classifier sees the entire dataset through \r\nk-fold cross-validation and supports intermediate checkpoints during training, making it possible to recover \r\nfrom a checkpoint and continue training even if a failure occurs.\r\nWe built the model using the training cohort and calculated the classification performance metrics to evaluate \r\nthe model performance. To ensure the robustness and reliability of the results, we conducted three replicate \r\nexperiments using the above process to validate the model’s generalization ability and assess the consistency \r\nof the results. The average results of the replicate experiments were used as the final classification performance \r\nmetrics. The specific metrics included the AUC, accuracy, sensitivity (recall), specificity, precision, balanced \r\naccuracy, and F1-score. The formulas used to calculate these quantitative performance metrics are described \r\nin Appendix E3. The precision-recall (PR) curves of each model were also plotted. To visualize the location of \r\nbrain regions, BrainNet Viewer toolkit (v1.7, https://www.nitrc.org/projects/bnv/) was performed by mapping \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "the brain regions in the AAL atlase to the smoothed brain surface. The overall machine learning framework of \r\nthis study is shown in Fig. 2.\r\nModel validation\r\nWe used the validation cohort to further validate the model performance. We extracted multimodal MRI \r\nfeatures from T1-weighted, rs-fMRI, and DTI images using the imaging processing pipeline described above. \r\nInfluential MRI features were selected from multimodal images and inputted into the trained predictive model. \r\nWe conducted two independent samples t-tests on the MRI features to observe their impact in the validation \r\ncohort. A P-value of >0.05 indicates that the MRI feature is unreliable for identifying patients with MCI.\r\nStatistical analysis\r\nThe statistical analyses were conducted using SPSS (version 26.0; IBM SPSS Inc., Chicago, IL, USA). The \r\nnormality of all variables was tested using the Kolmogorov–Smirnov test. Normally distributed variables are \r\ndescribed using means and standard deviations and compared between groups using a t-test. Non-normally \r\ndistributed variables were described using medians and interquartile ranges and compared between groups using \r\na Mann–Whitney U-test. Sex, hypertension, and diabetes were compared between groups using a χ2 test. Model \r\nperformance comparisons were conducted using the Delong test, a robust statistical method for distinguishing \r\nbetween different models. A two-tailed P-value of<0.05 was considered statistically significant.\r\nResults\r\nDemographic characteristics\r\nThe training cohort comprised 165 patients with CSVD, 84 with MCI and 81 with NCI. The validation \r\ncohort comprised 83 patients with CSVD, 44 with MCI and 39 with NCI. The demographic data of training \r\nand validation cohorts are shown in Table 1. In both cohorts, age, sex, educational years, smoking, drinking, \r\nhypertension, diabetes, hyperlipidemia, LDL-C, TC, and HDL-C did not differ significantly between the patients \r\nwith MCI and those with NCI (all P>0.05). However, the patients with MCI had significantly lower MMSE \r\nand MoCA scores than those with NCI in both cohorts (all P<0.05). Furthermore, the MMSE and MoCA were \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "re-administered to the patients in the training cohort at their three-year follow-up. Notably, MMSE and MoCA \r\nscores did not differ significantly between baseline and the three-year follow-up for patients with MCI and NCI \r\n(all P>0.05; Table S2), indicating that the diagnoses were relatively accurate.\r\nPerformance of multimodal features\r\nThe intra-observer repeatability of the selected features in the training cohort was satisfactory (ICCs=0.823–\r\n0.976). Table 2 demonstrates the classification performance of the AutoGluon models with different MRI \r\nfeatures for distinguishing MCI from NCI in the training cohort. The model using only T1-weighted image \r\nfeatures achieved an AUC of 0.751 [95% confidence interval (CI): 0.678–0.815] and an accuracy of 74.55%. \r\nThe model using only rs-fMRI features had an AUC of 0.842 (95% CI 0.778–0.894) and an accuracy of 82.42%. \r\nAnd the model using only DTI features had an AUC of 0.807 (95% CI 0.738–0.864) and an accuracy of 76.97%. \r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 5\r\nwww.nature.com/scientificreports/\nMoreover, the model combining features from all modalities achieved the superior performance compared to \r\nT1 image model (DeLong’s test, P<0.001), rs-fMRI model (DeLong’s test, P=0.013), and DTI model (DeLong’s \r\ntest, P=0.003), with an AUC of 0.926 (95% CI 0.875–0.961). Then, we conducted χ2 tests on the accuracy results \r\nof different models. The combined model had a higher accuracy of 88.48%, compared to T1 image (χ2=10.639, \r\nP=0.001), rs-fMRI (χ2=4.474, P=0.034), and DTI model (χ2=7.656, P=0.006). Besides, the PR curves also \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "illustrate the superior predictive capability of the combined model (Figure S1A). These results demonstrate that \r\ncombining features from multiple MRI modalities improves the classification of patients with MCI and NCI.\r\nPerformance of different machine learning models\r\nThe different machine learning models were developed using single- and multi-modal MRI features to differentiate \r\nMCI from NCI, and the ROC curves and AUCs of the different models are shown in Fig. 3. Table 3 shows the \r\nclassification performance of different machine learning models using multimodal MRI features to distinguish \r\nMCI from NCI. The AutoGluon model outperformed the other models (DeLong’s test, all P<0.05), achieving \r\nthe highest AUC of 0.926 (95% CI 0.875–0.961). The KNN and DT models also performed well with AUCs of \r\n0.815 (95% CI 0.745–0.884) and 0.831 (95% CI 0.765–0.896), respectively. However, the SVM, K-means, and RF \r\nmodels exhibit relatively lower AUCs of 0.772 (95% CI 0.701–0.844), 0.755 (95% CI 0.680–0.829), 0.768 (95% CI \r\n0.696–0.840), respectively. Then, we further conducted χ2 tests on the accuracy results of different models. The \r\nSVM, KNN, DT, K-means, and RF models all had P<0.001, indicating significant lower accuracies compared to \r\nthe AutoGluon model. And the PR curves also demonstrated the better predictive performance of the AutoGluon \r\nmodel (Figure S1B). These results suggest that the proposed AutoGluon model outperforms traditional machine \r\nlearning models in classification accuracy and is particularly effective for leveraging multimodal MRI features to \r\nclassify patients with MCI and NCI.\r\nFig. 2. The machine learning framework for distinguishing between MCI and NCI based on multimodal MRI \r\nimages. Multimodal MRI features were first obtained using image preprocessing, feature extraction, and feature \r\nselection methods from T1 images, rs-fMRI, and DTI images using DPABI (v8.2), FSL (v6.0.7), and DMRITool \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "(v0.1.1) software. Machine learning models were used to classify multimodal features of MCI and NCI patients \r\nand performance metrics were calculated. Additionally, brain regions associated with MCI were identified \r\nusing BrainNet Viewer toolkit (v1.7). MCI, mild cognitive impairment; NCI, no cognitive impairment; DTI, \r\ndiffusion tensor imaging; AUC, area under the curve.\r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 6\r\nwww.nature.com/scientificreports/\nFeature importance ranking\r\nWe utilized the Beware Default Random Forest Importance method to compare the importance of multimodal \r\nMRI features in classifying patients with MCI and NCI in the training cohort. After analysis, the specific features \r\nand their corresponding importance values were obtained. The feature importance rankings and corresponding \r\nweights obtained from the classification of patients with MCI and NCI using the AutoGluon model based on \r\nmultimodal MRI features are shown in Fig. 4. These results indicate the importance of various brain regions in \r\nthe classification task, with the left superior temporal gyrus showing the largest weight, followed by the right \r\ncuneus region. The weights reflect the significance of each feature’s contribution to the classification outcome, \r\nwith larger weights indicating greater importance. The top ten features in terms of their importance rankings are \r\nshown in Fig. 5, representing distinct brain regions for T1-weighted, rs-fMRI, and DTI images.\r\nModel validation and evaluation\r\nWe further validated the performance of the AutoGluon model based on multimodal MRI features using the \r\nvalidation cohort. The features extracted from the validation cohort patients still had good intra-observer \r\nreproducibility (ICC=0.811–0.935). The AutoGluon model classified patients with MCI and NCI with an AUC \r\nof 0.878 (95% CI 0.805–0.951), accuracy of 81.93%, sensitivity of 86.36%, specificity of 76.92%, precision of \r\nT1 Images rs-fMRI DTI AUC Accuracy (%) Sensitivity(%) Specificity(%) Precision(%) Balanced accuracy (%) F1-score (%)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "√ × × 0.751 74.55 69.05 80.25 78.38 74.65 73.42\r\n× √ × 0.842 80.00 76.19 83.95 83.12 80.07 79.50\r\n× × √ 0.807 76.97 71.43 82.72 81.08 77.08 75.95\r\n√ √ √ 0.926 88.48 88.10 88.89 89.16 88.50 88.63\r\nTable 2. The classification performance using AutoGluon model with single- and multi-modal MRI features \r\nin classification between MCI and NCI. MCI, mild cognitive impairment; NCI, no cognitive impairment; DTI, \r\ndiffusion tensor imaging; AUC, area under the curve.\r\nCharacteristic\r\nTraining cohort (n=165)\r\np value\r\nValidation cohort (n=83)\r\nNCI (n=81) MCI (n=84) NCI (n=39) MCI (n=44) p value\r\nAge, years* 61.93±7.39 61.33±7.99 0.622 60.41±8.24 63.64±9.12 0.096\r\nSex (%) 0.673 0.630\r\n Female 47 (58.0) 46 (54.8) 21 (53.8) 26 (59.1)\r\n Male 34 (42.0) 38 (45.2) 18 (46.2) 18 (40.9)\r\nEducation, years* 8.19±2.13 8.64±2.10 0.167 8.10±2.95 7.23±3.42 0.218\r\nSmoking (%) 0.186 0.413\r\n Yes 23 (18.4) 32 (38.1) 16 (41.0) 22 (50.0)\r\n No 58 (81.6) 52 (61.9) 23 (59.0) 22 (50.0)\r\nDrinking (%) 0.743 0.239\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": " Yes 27 (33.3) 26 (31.0) 21 (53.8) 18 (40.9)\r\n No 54 (66.7) 58 (69.0) 18 (46.2) 26 (59.1)\r\nHypertension (%) 0.354 0.219\r\n Yes 29 (35.8) 36 (42.9) 16 (41.0) 24 (54.5)\r\n No 52 (64.2) 48 (57.1) 23 (59.0) 20 (45.5)\r\nDiabetes (%) 0.469 0.590\r\n Yes 12 (14.8) 16 (19.0) 7 (17.9) 10 (22.7)\r\n No 69 (85.2) 68 (81.0) 32 (82.1) 34 (77.3)\r\nHyperlipidemia (%) 0.406 0.103\r\n Yes 15 (18.5) 20 (23.8) 5 (12.8) 12 (27.3)\r\n No 66 (81.5) 64 (76.2) 34 (81.2) 32 (82.7)\r\nLDL-C (mmol/L)* 2.58±0.91 2.84±0.73 0.120 2.46±0.79 2.73±0.72 0.187\r\nTC (mmol/L)* 3.57±1.21 3.88±1.05 0.156 3.36±1.09 3.67±1.13 0.304\r\nHDL-C (μmol/L)* 9.21±3.79 10.29±4.07 0.148 9.46±4.25 10.05±2.89 0.527\r\nMMSE* 27.00 (26.00, 28.00) 27.00 (23.50, 27.00) <0.001 28.00 (27.00, 28.00) 27.00 (23.50, 27.00) 0.002\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "MoCA* 25.00 (24.00, 26.00) 19.50 (17.00, 27.00) <0.001 25.00 (24.00, 26.00) 20.50 (16.50, 27.00) 0.001\r\nTable 1. Demographic information of all cerebral small vessel disease patients. MCI, mild cognitive \r\nimpairment; NCI, no cognitive impairment; LDL-C, low-density lipoprotein-cholesterol; TC, total cholesterol; \r\nHDL-C, high-density lipoprotein-cholesterol; MMSE, Mini-Mental State Examination; MoCA, Montreal \r\nCognitive Assessment. *Continuous values expressed as the mean±standard deviation.\r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 7\r\nwww.nature.com/scientificreports/\n80.85%, balanced accuracy of 81.64%, and F1-score of 83.51%. Some important MRI features extracted from \r\nrs-fMRI images differed significantly between patients with MCI and NCI in the training cohort but not in \r\nthe validation cohort. Therefore, some rs-fMRI features were less reliable than T1-weighted and DTI features. \r\nConsequently, the performance of the AutoGluon model in the validation cohort was slightly lower than in the \r\ntraining cohort; however, this difference was not statistically significant (DeLong’s test, P=0.429).\r\nDiscussion\r\nThis study aimed to develop an effective and accessible model to meet the critical clinical need of early \r\nidentification of CSVD-related MCI. To this end, we compiled a comprehensive dataset, including clinical \r\nassessments, neuropsychological evaluations, and multimodal MRI data from CSVD patients who were followed \r\nfor three years. Using a data-driven approach with the AutoGluon platform, we integrated features from three \r\nFig. 3. The receiver operating characteristic curves to differentiate between MCI and NCI using different \r\nmachine learning models that were built using single-modality and multimodal MRI features. (A) T1 image \r\nmodality; (B) rs-fMRI modality; (C) DTI modality; (D) combination of all modalities. AUC, area under the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "curve; SVM, support vector machine; KNN, k-nearest neighbors, DT, decision tree; RF, random forest.\r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 8\r\nwww.nature.com/scientificreports/\nMRI modalities (T1-weighted, rs-fMRI and DTI) for the first time, and developed AutoGluon automated \r\nmachine learning model, which yielded the highest classification performance among the models tested. Our \r\nmodel relies on MRI protocols routinely used in clinical diagnostics for suspected cognitive impairment in \r\nCSVD, aligning with established imaging guidelines. During validation with an independent cohort, the model \r\nmaintained high AUC and accuracy, confirming its generalizability and robustness in identifying CSVD patients \r\nat high risk of MCI.\r\nBased on the feature importance ranking results, some brain regions were more important in distinguishing \r\nMCI and NCI in patients with CSVD. Specifically, the left superior temporal gyrus and right cuneus had larger \r\nweights in the classification task, indicating their significance in the pathophysiology of MCI. These findings \r\nprovide important insights into the pathological mechanisms of CSVD. The relationship of the left superior \r\ntemporal gyrus and the right cuneus with MCI has garnered considerable attention. Some studies indicate that \r\npatients with MCI often exhibit structural and functional abnormalities in the left superior temporal gyrus and \r\nright cuneus regions30. Alterations in the left superior temporal gyrus and right cuneus in patients with MCI \r\nare closely associated with cognitive decline31. These brain regions are closely linked with cognitive functions \r\nsuch as language, memory, and executive function, and their structural and functional abnormalities may lead \r\nto cognitive impairment and other symptoms in patients with MCI.\r\nThe pathophysiological mechanisms of the abnormalities in the left superior temporal gyrus and right \r\ncuneus may be related to various factors, including microvascular changes, white matter damage, and neuronal \r\nloss. Specific vascular pathologies, such as microinfarcts and hypoperfusion, are key contributors to these \r\nabnormalities. Wardlaw et al.32 indicated that patients with CSVD often exhibit microvascular alterations, including \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "microvascular spasm, microaneurysms, and microvascular rupture, leading to local cerebral hypoperfusion and \r\nFig. 4. Feature importance ranking in classification between MCI and NCI using multimodal features and the \r\nAutoGluon model.\r\nModel AUC Accuracy (%) Sensitivity (%) Specificity (%) Precision (%) Balanced accuracy (%) F1-score (%)\r\nSVM 0.772 72.73 73.81 71.61 72.94 72.71 73.37\r\nKNN 0.815 80.00 78.57 81.48 81.48 80.03 80.00\r\nDT 0.831 78.79 79.76 77.78 78.82 78.77 79.29\r\nK-means 0.755 72.73 73.81 71.61 72.94 72.71 73.37\r\nRF 0.768 75.15 76.19 74.07 75.29 75.13 75.74\r\nAutoGluon 0.926 88.48 88.10 88.89 89.16 88.50 88.63\r\nTable 3. The classification performance using different machine learning models in classification between \r\nMCI and NCI with multimodal MRI features. MCI, mild cognitive impairment; NCI, no cognitive impairment; \r\nAUC, area under the curve; SVM, support vector machine; KNN, k-nearest neighbors, DT, decision tree; RF, \r\nrandom forest.\r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 9\r\nwww.nature.com/scientificreports/\nsubsequent ischemia and microinfarction in brain tissues, thereby exacerbating the abnormalities in the left \r\nsuperior temporal gyrus. These microinfarcts disrupt both gray and white matter structures, impairing neural \r\nnetworks and contributing to cognitive decline. Pantoni et al.33 demonstrated that long-standing hypertension \r\ncan cause arteriolosclerosis and narrowing of small arteries in the cerebral white matter, resulting in impaired \r\nwhite matter perfusion, accelerated demyelination, and death of white matter neurons, thus contributing to \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "white matter damage in the right cuneus. Chronic hypoperfusion and ischemia, in turn, worsen these processes, \r\nleading to persistent neuronal dysfunction. Cannistraro et al.2 found that patients with CSVD often exhibit \r\nneuronal loss and brain tissue atrophy, which may be associated with chronic cerebral ischemia, hypoxia, and \r\nneuronal intolerance to ischemia and microinfarcts. These pathological changes, including microinfarcts, may \r\nlead to apoptosis and loss of neurons in the right cuneus, affecting its function and structure. In addition, \r\nhypoperfusion is commonly observed in CSVD, leading to insufficient oxygen supply to critical brain regions, \r\nincluding the right cuneus. In patients with MCI, the affected regions, including the superior temporal gyrus \r\nand cuneus, may also be influenced by factors such as vascular inflammation, microcirculatory disorders, and \r\nneuroinflammation, leading to additional cellular damage, synaptic disruption, and functional impairment, \r\nfurther exacerbating cognitive decline. Therefore, the left superior temporal gyrus and right cuneus may play \r\ncrucial roles in the pathogenesis of MCI, and further research is warranted to gain a deeper understanding of \r\nthe mechanisms underlying their involvement, which could ultimately provide more effective approaches for the \r\nearly diagnosis and treatment of MCI.\r\nOur study introduced a multimodal MRI-based machine learning model, leveraging the AutoGluon platform, \r\nto distinguish between MCI and NCI in CSVD patients through a comprehensive analysis of T1-weighted, rs\u0002fMRI, and DTI features. This integrative approach enabled an in-depth evaluation of structural, functional, and \r\nmicrostructural brain characteristics, overcoming the limitations of a single MRI modality in comprehensively \r\ncapturing pathological changes. The multimodal fusion model achieved an accuracy of 88.48% and an AUC of \r\n0.926 in distinguishing MCI from NCI in the training cohort, outperforming traditional models based on a single \r\nMRI modality in classifying CSVD-related cognitive impairment. In addition, the automatic feature selection \r\nFig. 5. The top ten brain regions ranked by feature importance in classifying between MCI and NCI using \r\nmultimodal features and the AutoGluon model according to different modalities based on BrainNet Viewer \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "toolkit (v1.7), such as T1 images, DTI, and rs-fMRI. DTI, diffusion tensor imaging.\r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 10\r\nwww.nature.com/scientificreports/\nand model tuning capabilities in AutoGluon further enhanced the classification accuracy and adaptability of the \r\nframework. When validated on an independent cohort, the model demonstrated a robust accuracy of 81.93% \r\nand maintained high AUC (0.878), sensitivity (86.36%), and specificity (76.92%), underscoring its potential \r\napplicability in early diagnosis and personalized treatment strategies for CSVD. In our study, early diagnosis \r\nof MCI through multimodal MRI data enables clinicians to identify subtle brain changes in CSVD patients \r\nbefore cognitive decline becomes clinically detectable. By integrating multiple imaging modalities with machine \r\nlearning, our framework further improves the accuracy of MCI classification, supports personalized treatment \r\nstrategies, and enhances clinical decision-making, especially in resource-limited settings.\r\nThis study had several limitations. Firstly, as a retrospective study, it is susceptible to selection bias, which \r\nmay limit its generalizability. In order to address this, future prospective studies should include larger, more \r\ndiverse patient cohorts to improve their model’s robustness across different populations. Secondly, its relatively \r\nsmall sample size limits the statistical power. Future studies should incorporate larger datasets to ensure their \r\nmodel’s broader applicability, and the application of bootstrapping techniques are needed to ensure statistical \r\nrobustness. Thirdly, while our model was internally validated, it lacks external independent testing, which is \r\ncrucial for confirming its generalizability in clinical settings. Future studies should focus on external validation \r\nusing independent cohorts. Fourth, it utilized only three MRI modalities (T1-weighted, rs-fMRI, DTI) and did \r\nnot incorporate other potentially valuable imaging modalities, such as arterial spin labeling or susceptibility\u0002weighted imaging, potentially limiting its broader clinical applicability. Future studies should incorporate more \r\nimaging modalities to enhance the model’s diagnostic accuracy and clinical utility. Lastly, the reliability of rs\u0002fMRI features in the validation cohort was relatively lower, which could be attributed to patient characteristics, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "differences in scan quality, or the increased sensitivity of functional connectivity measures to subtle brain activity \r\nchanges, leading to less consistency across cohorts. Future research should focus on improving the reliability of \r\nrs-fMRI features by using larger sample sizes and advanced preprocessing techniques, and exploring subgroup \r\nanalyses to better understand these inconsistencies. In addition, cross-validation or external validation methods \r\ncan be considered to further improve the reliability of feature selection.\r\nConclusions\r\nThis study enhances understanding of the complex mechanisms underlying cognitive decline in patients \r\nwith CSVD by revealing the relationship between multimodal MRI features and MCI from anatomical, \r\nmicrostructural, and functional perspectives. We used the AutoGluon platform to construct a novel machine \r\nlearning model based on multimodal MRI features to distinguish between MCI and NCI in patients with CSVD. \r\nThe proposed model represents a valuable tool for early diagnosis and personalized treatment strategies, which \r\ncould help guide clinical decision-making and improve the prognosis of patients with CSVD with cognitive \r\nimpairment.\r\nData availability\r\nThe datasets used and/or analysed during the current study are available from the corresponding author on \r\nreasonable request.\r\nReceived: 25 November 2024; Accepted: 4 April 2025\r\nReferences\r\n1. Rost, N. S. & Etherton, M. Cerebral small vessel disease. Continuum 26, 332–352. https://doi.org/10.1212/con.0000000000000841\r\n(2020).\r\n2. Cannistraro, R. J. et al. CNS small vessel disease: A clinical review. Neurology 92, 1146–1156. https://doi.org/10.1212/wnl.0000000\r\n000007654 (2019).\r\n3. Zanon Zotin, M. C., Sveikata, L., Viswanathan, A. & Yilmaz, P. Cerebral small vessel disease and vascular cognitive impairment: \r\nFrom diagnosis to management. Curr. Opin. Neurol. 34, 246–257. https://doi.org/10.1097/wco.0000000000000913 (2021).\r\n4. Jellinger, K. A. Pathology and pathogenesis of vascular cognitive impairment-a critical update. Front. Aging Neurosci. 5, 17. https:/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "/doi.org/10.3389/fnagi.2013.00017 (2013).\r\n5. Du, J. et al. Structural brain network disruption at preclinical stage of cognitive impairment due to cerebral small vessel disease. \r\nNeuroscience 449, 99–115. https://doi.org/10.1016/j.neuroscience.2020.08.037 (2020).\r\n6. Banerjee, G., Wilson, D., Jäger, H. R. & Werring, D. J. Novel imaging techniques in cerebral small vessel diseases and vascular \r\ncognitive impairment. Biochem. Biophys. Acta. 1862, 926–938. https://doi.org/10.1016/j.bbadis.2015.12.010 (2016).\r\n7. Stephens, S. et al. Neuropsychological characteristics of mild vascular cognitive impairment and dementia after stroke. Int. J. \r\nGeriatr. Psychiatry 19, 1053–1057. https://doi.org/10.1002/gps.1209 (2004).\r\n8. Jia, X. et al. A comparison of the Mini-Mental State Examination (MMSE) with the Montreal Cognitive Assessment (MoCA) for \r\nmild cognitive impairment screening in Chinese middle-aged and older population: a cross-sectional study. BMC Psychiatry 21, \r\n485. https://doi.org/10.1186/s12888-021-03495-6 (2021).\r\n9. Prins, N. D. & Scheltens, P. White matter hyperintensities, cognitive impairment and dementia: An update. Nat. Rev. Neurol. 11, \r\n157–165. https://doi.org/10.1038/nrneurol.2015.10 (2015).\r\n10. Hilal, S. et al. Enlarged perivascular spaces and cognition: A meta-analysis of 5 population-based studies. Neurology 91, e832–e842. \r\nhttps://doi.org/10.1212/wnl.0000000000006079 (2018).\r\n11. van de Pol, L. A. et al. Magnetic resonance imaging predictors of cognition in mild cognitive impairment. Arch. Neurol. 64, 1023–\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 470,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "1028. https://doi.org/10.1001/archneur.64.7.1023 (2007).\r\n12. Wen, W., Sachdev, P. S., Li, J. J., Chen, X. & Anstey, K. J. White matter hyperintensities in the forties: their prevalence and topography \r\nin an epidemiological sample aged 44–48. Hum. Brain Mapp. 30, 1155–1167. https://doi.org/10.1002/hbm.20586 (2009).\r\n13. Wardlaw, J. M. Prevalence of cerebral white matter lesions in elderly people: a population based magnetic resonance imaging study: \r\nThe Rotterdam Scan Study. J. Neurol. Neurosurg. Psychiatry 70, 2–3. https://doi.org/10.1136/jnnp.70.1.2 (2001).\r\n14. Alexander, A. L., Lee, J. E., Lazar, M. & Field, A. S. Diffusion tensor imaging of the brain. Neurotherapeutics J. Am. Soc. Exper. \r\nNeuroTherapeutics 4, 316–329. https://doi.org/10.1016/j.nurt.2007.05.011 (2007).\r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 11\r\nwww.nature.com/scientificreports/\n15. Sundgren, P. C. et al. Diffusion tensor imaging of the brain: Review of clinical applications. Neuroradiology 46, 339–350. https://d\r\noi.org/10.1007/s00234-003-1114-x (2004).\r\n16. Yu, H. et al. Abnormal amplitude of low frequency fluctuation and functional connectivity in non-neuropsychiatric systemic lupus \r\nerythematosus: A resting-state fMRI study. Neuroradiology 61, 331–340. https://doi.org/10.1007/s00234-018-2138-6 (2019).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "17. Greener, J. G., Kandathil, S. M., Moffat, L. & Jones, D. T. A guide to machine learning for biologists. Nat. Rev. Mol. Cell Biol. 23, \r\n40–55. https://doi.org/10.1038/s41580-021-00407-0 (2022).\r\n18. Chen, H. F. et al. Microstructural disruption of the right inferior fronto-occipital and inferior longitudinal fasciculus contributes \r\nto WMH-related cognitive impairment. CNS Neurosci. Ther. 26, 576–588. https://doi.org/10.1111/cns.13283 (2020).\r\n19. Peng, B. et al. A multilevel-ROI-features-based machine learning method for detection of morphometric biomarkers in Parkinson’s \r\ndisease. Neurosci. Lett. 651, 88–94. https://doi.org/10.1016/j.neulet.2017.04.034 (2017).\r\n20. Tzourio-Mazoyer, N. et al. Automated anatomical labeling of activations in SPM using a macroscopic anatomical parcellation of \r\nthe MNI MRI single-subject brain. Neuroimage 15, 273–289. https://doi.org/10.1006/nimg.2001.0978 (2002).\r\n21. Yan, C. G., Wang, X. D., Zuo, X. N. & Zang, Y. F. DPABI: Data processing & analysis for (Resting-State) brain imaging. \r\nNeuroinformatics 14, 339–351. https://doi.org/10.1007/s12021-016-9299-4 (2016).\r\n22. Woolrich, M. W. et al. Bayesian analysis of neuroimaging data in FSL. Neuroimage 45, S173-186. https://doi.org/10.1016/j.neuroi\r\nmage.2008.10.055 (2009).\r\n23. Cheng, J., Shen, D., Yap, P. T. & Basser, P. J. Single- and multiple-shell uniform sampling schemes for diffusion MRI using spherical \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "codes. IEEE Trans. Med. Imaging 37, 185–199. https://doi.org/10.1109/tmi.2017.2756072 (2018).\r\n24. Andersson, J. L. R. & Sotiropoulos, S. N. An integrated approach to correction for off-resonance effects and subject movement in \r\ndiffusion MR imaging. Neuroimage 125, 1063–1078. https://doi.org/10.1016/j.neuroimage.2015.10.019 (2016).\r\n25. Basser, P. J. & Pierpaoli, C. Microstructural and physiological features of tissues elucidated by quantitative-diffusion-tensor MRI. \r\nJ. Magn. Reson. Ser. B 111, 209–219. https://doi.org/10.1006/jmrb.1996.0086 (1996).\r\n26. Basser, P. J., Mattiello, J. & LeBihan, D. MR diffusion tensor spectroscopy and imaging. Biophys. J. 66, 259–267. https://doi.org/10.\r\n1016/s0006-3495(94)80775-1 (1994).\r\n27. Jafari, P. & Azuaje, F. An assessment of recently published gene expression data analyses: Reporting experimental design and \r\nstatistical factors. BMC Med. Inform. Decis. Mak. 6, 27. https://doi.org/10.1186/1472-6947-6-27 (2006).\r\n28. Williams, S. Pearson’s correlation coefficient. N. Z. Med. J. 109, 38 (1996).\r\n29. Erickson, N., Mueller, J., Shirkov, A., Zhang, H., Larroy, P., Li, M. Smola, A. Autogluon-tabular: Robust and accurate automl for \r\nstructured data. arXiv preprint arXiv:2003.06505. (2020).\r\n30. Xin, H. et al. Disrupted topological organization of resting-state functional brain networks in cerebral small vessel disease. Hum. \r\nBrain Mapp. 43, 2607–2620. https://doi.org/10.1002/hbm.25808 (2022).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "31. Bokde, A. L. et al. Functional connectivity of the fusiform gyrus during a face-matching task in subjects with mild cognitive \r\nimpairment. Brain J. Neurol. 129, 1113–1124. https://doi.org/10.1093/brain/awl051 (2006).\r\n32. Wardlaw, J. M. et al. ESO Guideline on covert cerebral small vessel disease. Eur. Stroke J. https://doi.org/10.1177/23969873211012132\r\n(2021).\r\n33. Pantoni, L. Cerebral small vessel disease: From pathogenesis and clinical characteristics to therapeutic challenges. Lancet Neurol.\r\n9, 689–701. https://doi.org/10.1016/s1474-4422(10)70104-6 (2010).\r\nAuthor contributions\r\nGuihan Lin: Writing-original draft, Visualization, Project administration, Methodology, Investigation, Formal \r\nanalysis, Data curation. Weiyue Chen: Writing-review & editing, Project administration, Data curation, For\u0002mal analysis. Yongkang Geng: Writing-original draft, Project administration, Methodology, Formal analysis. Bo \r\nPeng: Project administration, Methodology. Surui Liu: Project administration, Investigation. Minjiang Chen: \r\nWriting-review & editing, Validation. Chunying Pang: Project administration, Investigation. Pengjun Chen: \r\nProject administration, Investigation. Chenying Lu: Validation, Resources. Zhihan Yan: Supervision, Resourc\u0002es. Yakang Dai: Supervision, Resources, Conceptualization. Jiansong Ji: Visualization, Validation, Supervision, \r\nConceptualization, Methodology, Investigation. All authors reviewed the manuscript.\r\nFunding\r\nThis study is supported by Zhejiang Public Welfare Research Program (LGF20H220002, LGF19H180010), and \r\nZhejiang Provincial Healthcare Program (2024KY562).\r\nDeclarations\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nAdditional information\r\nSupplementary Information The online version contains supplementary material available at https://doi.org/1\r\n0.1038/s41598-025-97552-9.\r\nCorrespondence and requests for materials should be addressed to Y.D. or J.J.\r\nReprints and permissions information is available at www.nature.com/reprints.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5855482607022470374,
+        "filename": "41598_2025_Article_97552.PMC12003736.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 340,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and \r\ninstitutional affiliations.\r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 12\r\nwww.nature.com/scientificreports/\nOpen Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives \r\n4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in \r\nany medium or format, as long as you give appropriate credit to the original author(s) and the source, provide \r\na link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have \r\npermission under this licence to share adapted material derived from this article or parts of it. The images or \r\nother third party material in this article are included in the article’s Creative Commons licence, unless indicated \r\notherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence \r\nand your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to \r\nobtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommo\r\nns.org/licenses/by-nc-nd/4.0/.\r\n© The Author(s) 2025 \r\nScientific Reports | (2025) 15:13112 | https://doi.org/10.1038/s41598-025-97552-9 13\r\nwww.nature.com/scientificreports/\n\n"
+  }
+]

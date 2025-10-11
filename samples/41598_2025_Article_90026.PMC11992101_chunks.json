@@ -1,0 +1,674 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Differences between suspected \r\nkeratoconus and subclinical \r\nkeratoconus via multiparameter \r\nanalysis in Chinese populations\r\nYusu Peng1, Qingqing Feng2, Ting Shao1, Jiafan Zhang1, Sai Liu1, HuifengWang1, Hua Li1 & \r\nKeli Long1\r\nKeratoconus (KC) is a contraindication for corneal refractive surgery and can cause serious damage to \r\nthe patient’s vision. To improve the safety of the surgery, we aim to distinguish between suspected \r\nKC and subclinical KC, while also developing a predictive model for KC. This cross-sectional study \r\ninvestigated 116 eyes with suspected KC (I-S Value>1.4 D and ≤1.9 D) and 28 eyes with subclinical KC. \r\nAll the Chinese subjects were examined via the Pentacam and Corvis ST (Oculus, Wetzlar, Germany). \r\nThe 90 parameters of the Belin/Ambrósio System, Topometric/KC System, and Corvis ST System were \r\nextracted from internal CSV files and analyzed. The differences in all the parameters between the two \r\ngroups were compared, and ROC curves were created. LASSO regression was employed to simplify \r\nthe number of parameters, and a logistic regression model was constructed for KC prediction. The \r\nsuspected KC group, in contrast to the subclinical KC group, predominantly consisted of females and \r\nolder patients. The highest AUC parameters of the three systems were PachyProgIndexMax [0.896 \r\n(0.839, 0.954), cutoff=1.445], IHD [0.787 (0.691, 0.883), cutoff=0.029], SPA1 [0.811 (0.718, 0.904), \r\ncutoff=87.485]. For the first discovery, the corneal diameter in the suspected KC group (11.56±0.38) \r\nwas smaller than that in the subclinical KC group (11.91±0.33) (P<0.05) [AUC=0.736 (0.641, 0.832), \r\ncutoff=11.825]. Seven relevant parameters were identified via LASSO regression (AUC=0.954), \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "including IHD, Cornea Diameter, DARatioMax_2 mm, BADDy, BADD, PachyProgIndexMax, and \r\nCBI. The prediction accuracy of the logistic regression model was 0.902 (AUC=0.964). Our model \r\neffectively predicts an elevated risk of suspected KC to subclinical KC and even KC in younger Chinese \r\nmen, particularly those exhibiting increased corneal diameter and morphological and biomechanical \r\nparameters. This model might help with screening for preoperative refractive surgery, thereby \r\nimproving surgical safety.\r\nKeywords Suspected keratoconus, Subclinical keratoconus, I-S value, Corneal diameter, Prediction model\r\nCorneal refractive surgery is gradually becoming safer and more effective because of advancements in \r\nfemtosecond and excimer laser technology. Before surgery, it has always been important to carefully determine \r\nthe surgical indication1. Keratoconus (KC) is recognized as a contraindication for corneal refractive surgery \r\nand poses a significant risk to the patient’s vision. Therefore, it is crucial to conduct thorough screenings for \r\npatients who may exhibit signs of suspected keratoconus (refer to Fig. 1D). This condition is characterized by \r\nan abnormal steepening of the corneal topography, which may present as an asymmetric, truncated, or skewed\u0002axis bowtie in the inferior focal area, while the fellow eye remains free of keratoconus2\r\n (Fig. 1C). Subclinical KC \r\n(Fig. 1B) shares a similar topographic asymmetry with suspected KC, although the fellow eye has KC3 (Fig. 1A) \r\nand may progress to KC4. Thus, it is especially crucial to identify individuals who may have KC before they \r\nexperience visual loss or exhibit a positive slit-lamp test result.\r\nThe examination of corneal topography via various design principles is necessary to diagnose KC. The \r\nPentacam can measure anterior and posterior corneal surface curvature and corneal thickness with accuracy \r\nvia its unique Belin/Ambrósio system, whereas the Topometric/KC system shows significance in the diagnosis \r\n1Eye Institute of Shandong First Medical University, Qingdao Eye Hospital of Shandong First Medical University, State \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Key Laboratory Cultivation Base, Shandong Key Laboratory of Eye Diseases, School of Ophthalmology, Shandong \r\nFirst Medical University, 5 Yan’erdao Road Qingdao, Qingdao 266071, Shandong Province, China. 2Qingdao Central \r\nHospital, University of Health and Rehabilitation Sciences, Qingdao, China. email: longkeli2002@aliyun.com\r\nOPEN\r\nScientific Reports | (2025) 15:12412 | https://doi.org/10.1038/s41598-025-90026-y 1\r\nwww.nature.com/scientificreports\nof KC5–8\r\n. According to recent reports9,10, KC can occur when corneal collagen fibers rupture in the early stages \r\nof the disease, and changes in corneal biomechanical characteristics occur earlier than changes in corneal \r\nmorphological changes. Therefore, analyzing the combination of morphology and biomechanics via the Pentcam \r\nand Corvis ST to differentiate between KC and other conditions is a highly effective strategy11–13.\r\nAn increasing number of artificial intelligence-related models, such as decision trees, random forests, and \r\nmachine learning, have been found to be applicable in predicting KC14–17. Hu et al.18 employed UHR-OCT \r\nto produce thickness indices that demonstrated significant diagnostic effectiveness in differentiating between \r\nsuspected and subclinical KC in comparison to normal eyes. However, there is limited diagnostic power in \r\ndifferentiating between suspected and subclinical KC, and there is insufficient research available to predict the \r\nprobability of suspected KC advancing to subclinical or even KC. To thoroughly investigate the differences \r\nbetween suspected KC and subclinical KC, as well as to attempt to construct models of the correlation between \r\nthem for prediction analysis, we extracted all of the detection-related original data from the Pentcam system and \r\nthe Corvis ST system for this study.\r\nFig. 1. Subclinical KC patient and Suspected KC patient. (A) Keratoconus(KC) eye, I-S Value=1.73, \r\nBADD=6.03; (B) Contralateral subclinical KC eye, I-S Value=1.47, BADD=1.93; (C) Normal eye, I-S \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Value=1.08, BADD=1.44; (D) Contralateral suspected KC eye, I-S Value=1.61, BADD=1.53.\r\nScientific Reports | (2025) 15:12412 | https://doi.org/10.1038/s41598-025-90026-y 2\r\nwww.nature.com/scientificreports/\nPatients and methods\r\nThis study was approved by the Ethics Committee of Qingdao Eye Hospital of Shandong First Medical University. \r\nApproval was obtained following the principles outlined in the Helsinki Declaration. Each participant provided \r\ninformed consent before their data were analyzed.\r\nInclusion and exclusion criteria for participants\r\nPatients from the Qingdao Eye Hospital of Shandong First Medical University were recruited for this study. \r\nThe criteria for patients in the suspected KC group included the following: normal slit-lamp examination \r\n(stromal thinning, Vogt’s striae, Fleischer’s ring); corrected distance visual acuity of 20/20 or better (Snellen); I-S \r\nValue>1.4D and ≤1.9D2,19; presence of yellow or red color-coded number (≥1.6 SD) in at least one of the five \r\ndifferential parameters (BADDf, BADDb, BADDp, BADDt, BADDa) in the Belin/Ambrósio Enhanced Ectasia \r\nDisplay; or white or yellow color-coded number in the final parameter “BADD”18; and follow-up for at least one \r\nyear with no KC development. The criteria for inclusion of patients with subclinical KC were consistent with \r\nthe abovementioned diagnostic criteria for suspected KC in terms of corrected distance visual acuity, slit-lamp \r\nexamination, I-S Value, and topographic signs, with KC in fellow eyes3.\r\nThe exclusion criteria included individuals who had worn corneal contact lenses for less than 4 weeks (for \r\nhard contact lenses) or less than 2 weeks (for soft contact lenses); individuals with a history of eye diseases such \r\nas cataracts, retinal detachment, or mild corneal endothelial dystrophy; individuals with moderate to severe dry \r\neyes or high intraocular pressure (IOP); individuals with scar constitution; and individuals who were pregnant \r\nor lactating.\r\nOphthalmology-related examination\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "The basic data of the patients, including their sex and age, were collected.\r\nCorneal morphological parameters: A total of fifty-five original parameters (using internal CSV files) \r\nwere collected via the Belin/Ambrósio system and the Topometric/KC system via the Pentacam anterior \r\nsegment analysis system (Oculus, Germany). These included fifteen Belin/Ambrósio system parameters, \r\nsuch as K1, K2, Astigm, BADDf, BADDb, BADDp, BADDt, BADDa, BADDy, BADD, PachyProgIndexMin, \r\nPachyProgIndexMax, PachyProgIndexAvg, ARTMax, DistApexThinLoc; 40 Topometric/KC system parameters: \r\nCorneaDia, RSagMin, ISV, IVA, KI, CKI, IHA, IHD, D0 mmPachy, D2 mmPachy, D4 mmPachy, D6 mmPachy, \r\nD8 mmPachy, D2 mmStdDev, D4 mmStdDev, D6 mmStdDev, D8 mmStdDev, CVolD3 mm, CVolD5 mm, \r\nand CVol. D7 mm, KMaxFront, MaxZonalMean3 mm, KMaxZonalMean4 mm, KMaxZonalMean5 mm, I-S \r\nValue, PRC3 mmZone, ARC3 mmZone, ThinnestPachy, ChordMu.polarvector, ABCDA, ABCDB, ABCDC, \r\nIrisConvexityMid, IrisConvexityMax, IrisConvexityAxisMax, IrisConvexityMin, IrisConvexityAxisMin, Rf, Rs, \r\nCFSagZonalMean4 mm.\r\nThe corneal biomechanical parameters included the following: the biomechanical parameters of the cornea \r\nwere assessed via a Corvis ST Corneal Biomechanics Meter (Oculus, Wegzal, Germany) following a 20 min \r\nPentacam examination for each patient. Thirty-five parameters were collected from the system’s original data \r\n(internal CSV file), including A1Time, A1Velocity, A2Time, A2Velocity, HCTime, PeakDist, A1DeformationAmp, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "A2DeformationAmp, A1DeflectionLength, HCDeformationAmp, HCDeflectionLength, A2DeflectionLength, \r\nA1DeflectionAmp, HCDeflectionAmp, A2DeflectionAmp, DeflectionAmpMax_mm, DeflectionAmpMax_ms, \r\nA1DeflectionArea, HCDeflectionArea, A2DeflectionArea, A1dArcLength, HCdArcLength, A2dArcLength, \r\ndArcLengthMax, MaxInverseRadius, Radius, PachySlope, DefAmpMax, DARatioMax2 mm, IntegratedRadius, \r\nDARatioMax1 mm, ARTh, SPA1, CBI.\r\nStatistical methods\r\nAll continuous variables were assessed for normality via the Shapiro‒Wilk test. Normally distributed variables \r\nwere reported as the means±SDs (x±s), with group comparisons performed via t-tests. Skewed variables were \r\ndescribed by the median and interquartile range (M (P25, P75)), and differences between groups were analyzed \r\nby the Wilcoxon rank sum test. Categorical variables were presented as constituent ratios (%), with chi-square \r\ntests used for intergroup comparisons.\r\nROC analysis was performed on various parameters of the Belin/Ambrósio system, Topometric/KC system, \r\nand Corvis ST system for the suspected KC group and the subclinical KC group. The best cutoff value was \r\nselected as the most approximate index.\r\nAfter the continuous variables from the three systems were normalized and the categorical variables were \r\nencoded into dummy variables, a mathematical prediction model was established via LASSO regression to \r\ndifferentiate between the suspected KC and subclinical KC populations. Through 10-fold cross-validation, \r\nthe λ with the minimum mean error and λ (1 se) were obtained. A logistic regression-based mathematical \r\nprediction model was constructed based on the parameters selected by λ (1 se). The diagnostic performance \r\nof the mathematical model was evaluated via the area under the receiver operating characteristic curve (AUC), \r\naccuracy, sensitivity, and specificity.\r\nAll the statistical analyses were carried out via R studio (version 4.4.0), and the difference was determined as \r\nstatistically significant when P<0.05.\r\nResults\r\nAnalysis of basic patient data\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "A total of 144 persons (144 eyes) were included in this study.\r\nApproximately 72 (62.1%) of the 116 individuals (116 eyes) in the suspected KC group were female, and 44 \r\n(37.9%) were male, with an average age of 25.00 (20.00, 29.00). The subclinical KC group consisted of 28 people \r\nScientific Reports | (2025) 15:12412 | https://doi.org/10.1038/s41598-025-90026-y 3\r\nwww.nature.com/scientificreports/\n(28 eyes), with an average age of 21.00 (17.75, 24.00) years. Nine (32.1%) of them were female, and 19 (67.9%) \r\nwere male.\r\nParameter difference analysis of the two groups in the Belin/Ambrósio system, the \r\nTopometric/KC system, and the Corvis ST system\r\nEleven of the 15 (73.3%) Belin/Ambrósio system parameters (P<0.05) were significantly different between \r\nthe suspected KC group and the subclinical KC group, including BADDb, BADDp, BADDt, BADDa, BADDy, \r\nBADD, PachyProgIndexMin, PachyProgIndexMax, PachyProgIndexAvg, ARTMax, and DistApexThinLoc. \r\nFurthermore, 19 out of 40 (47.5%) Topological/KC system parameters (P<0.05), including Cornea Diameter, \r\nIVA, IHA, IHD, D0mmPachy, D2mmPachy, D4mmPachy, D8mmPachy, D2mmStdDev, D4mmStdDev, \r\nD6mmStdDev, D8mmStdDev, CVolD3mm, CVolD5mm, CVolD7mm, PRC3mm.Zone, ThinnestPachy, ABCDB, \r\nand ABCDC, were significantly different between the suspected KC group and the subclinical KC group. Finally, \r\n9 out of 34 (26.5%) Corvis ST system parameters (P<0.05) were significantly different between the suspected KC \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "group and the subclinical KC group, including A1Time, A1DeformationAmp, DARatioMax_2mm, Integrated \r\nRadius, DARatioMax_1mm, ARTh, SPA1, and CBI (Table 1).\r\nAssessment of the diagnostic power of the two groups under the AUC of the Belin/Ambrósio \r\nsystem, Topometric/KC system, and Corvis ST system\r\nThe Belin/Ambrósio system was used to differentiate between the suspected KC group and the subclinical \r\nKC group, and 8 out of 15 parameters had an AUC greater than 0.7 (P<0.05). These parameters included \r\nPachyProgIndexMax [0.896 (0.839, 0.954, cutoff=1.445], ARTMax [0.894 (0.838, 0.951), cutoff=377.000], \r\nBADDa [0.893 (0.836, 0.950), cutoff=1.010], BADD [0.878 (0.817, 0.939), cutoff=1.980], BADDp [0.811 (0.730, \r\n0.892), cutoff=1.935], PachyProgIndexAvg [0.811 (0.730, 0.892), cutoff=1.185], BADDy [0.758 (0.667, 0.848), \r\ncutoff=0.745], BADDb [0.747 (0.648, 0.847), cutoff=0.525]. Moreover, we found that 7 of the 40 Topometric/\r\nKC system parameters had an AUC greater than 0.7 (P<0.05), including the D6mmStdDev. Finally, 4 of \r\nthe 35 Corvis ST system parameters had an AUC greater than 0.7 (P<0.05), including SPA1 [0.811 (0.718, \r\n0.904), cutoff=87.485], DARatioMax_2 mm [0.784 (0.691, 0.878), cutoff=4.710], CBI [0.771 (0.657, 0.885), \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "cutoff=0.278], DARatioMax_1 mm [0.750 (0.653, 0.847), cutoff=1.584] (Table 2; Fig. 2).\r\nScreening of sensitive variables via LASSO Regression and Establishment of a logistic \r\nregression prediction model\r\nThe characteristics of the suspected and subclinical KC populations were screened via LASSO regression. All \r\nquantitative parameters were normalized, and categorical variables were set as dummy variables. Variables \r\nwere screened, and a LASSO regression was created via tenfold cross-validation. Then, λ_min=0.009 and \r\nλ_1se=0.064 were obtained. We then used λ_1se to construct a LASSO regression and eliminated the following \r\nvariables: BADDy, BADD, Cornea Diameter, IHD, DARatioMax_2 mm, CBI, and PachyProgIndexMax (Fig. 3; \r\nTable 3).\r\nThe AUC (95% CI) of the LASSO regression based on the variables listed above was 0.954 (0.921, 0.986); the \r\nsensitivity was 0.905; the specificity was 1.000; and the accuracy was 0.908.\r\nBased on the variables selected by LASSO regression, the following logistic regression equation was \r\nestablished:\r\nlogit (Risk Score) = log(p/(1 − p )) = −62.18 + 243.19 × IHD + 3.06 × Cornea Diameter + 2.62\r\n× DARatioMax_2mm + 1.29 × BADDy + 1.23 × BADD + 1.03\r\n× P achyP rogIndexMax + 0.68 × CBI\r\nSuspected and subclinical KC were assessed via the risk score derived from the logistic model; the AUC (95% \r\nCI) was 0.964 (0.938, 0.991). The sensitivity and specificity were 0.888 and 0.963, respectively, and the accuracy \r\nwas 0.902 (Fig. 4).\r\nDiscussion\r\nEpidemiological research indicates that the incidence of keratoconus in the global population affects \r\napproximately 0.05% of people20. The onset usually occurs at or around the age of 20. Males in Asian populations \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "typically experience disease onset earlier and experience a faster rate of progression than females21, which is in \r\nline with the findings from the subclinical KC group in this study.\r\nIn this study, we found that, even within the same asymmetrical corneal population, there were morphological \r\nand biomechanical differences between the suspected and subclinical KC groups. When comparing the fraction \r\nof parameter differences, Pentcam outperformed Corvis ST, particularly for the Belin/Ambrósio system (73.3%). \r\nThe sensitivity of a single parameter in each system was not very high. PachyProgIndexMax (0.896) and ARTMax \r\n(0.894) were the two largest AUCs of the parameters in the Belin/Ambrosio System. These values were higher \r\nthan those reported in studies conducted by Awad et al.22 and Orkun Muftuoglu. et al.8 compared forme fruste \r\nkeratoconus eyes to normal eyes (0.64, 0.88; 0.679, 0.772), but the results were lower than those of Vázquez et \r\nal. (0.92, 0.93)23 because the majority (85.7%) of the control group they chose had normal map morphology.\r\nAdditionally, we discovered that the Belin/Ambrósio deviation correlation parameters (BADDa, BADDb, \r\nBADDp, BADDy, and BADD) also had high diagnostic values (AUC=0.893, 0.747, 0.811, 0.745). It was \r\npreviously acknowledged that a BADD>1.6 SD was abnormal23. However, this study discovered that to \r\ndifferentiate between the suspected and subclinical KC groups, BADD>1.98 SD was considered abnormal. \r\nThe primary cause of this discrepancy is due to previous studies comparing corneas with normal eyes16,24. The \r\nScientific Reports | (2025) 15:12412 | https://doi.org/10.1038/s41598-025-90026-y 4\r\nwww.nature.com/scientificreports/\ncontrol group selected in this study had asymmetric subclinical KC, and the BADD in some cases was observed \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "to be more than 1.6 SD, which may be the reason for the high BADD cutoff value in this study.\r\nAccording to our analysis of the Topometric/KC system, IHD, and IVA were the most correlated parameters \r\nin terms of marginal corneal dilatation, KC, and irregular astigmatism (AUC=0.787, 0.762). The greater the \r\ndegree of vertical asymmetry of the cornea, the greater the likelihood of KC development25,26. Both IHD and \r\nIVA significantly increased the progression of subclinical KC (AUC=0.855, 0.842) after one year of follow-up. \r\net al.27. This finding was consistent with that of the present study, suggesting that IHD and IVA could be used as \r\ncrucial markers of the development of KC.\r\nThe corneal diameter in the subclinical KC group (11.88±0.34) was surprisingly greater than that in the \r\nsuspected KC group (11.56±0.38). With a lower sensitivity (0.607) but a higher specificity (0.784), the AUC \r\nSubclincial KC\r\n(N=28)\r\nSuspected KC\r\n(N=116) P\r\nBasic parameters\r\nAge 21.00 (17.75, 24.00) 25.00 (20.00, 29.00) 0.005*\r\nsex(%)\r\nFemale 9 (32.1%) 72 (62.1%) 0.008*\r\nMale 19 (67.9%) 44 (37.9%)\r\nBelin/Ambrósio System\r\nBADDb 1.15 (0.74, 1.83) 0.14 (-0.26, 0.90) <0.001\r\nBADDp 2.26 (1.33, 2.91) 1.07 (0.37, 1.62) <0.001\r\nBADDt 0.94±0.98 0.24±0.82 0.001\r\nBADDa 1.81±0.52 0.73±0.73 <0.001\r\nBADDy 1.55±0.81 0.67±0.99 <0.001\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "BADD 2.61±0.73 1.56±0.63 <0.001\r\nPachyProgIndexMin 0.88±0.20 0.75±0.14 0.004\r\nPachyProgIndexMax 1.78 (1.61, 1.94) 1.32 (1.18, 1.46) <0.001\r\nPachyProgIndexAvg 1.24 (1.10, 1.34) 1.07 (0.96, 1.14) <0.001\r\nARTMax 289.54±56.31 408.36±79.91 <0.001\r\nDistApexThinLoc 0.77 (0.61, 0.91) 0.61 (0.44, 0.78) 0.004\r\nTopometric/KC System\r\nCornea Diameter(mm) 11.88±0.34 11.57±0.40 <0.001\r\nIVA 0.28 (0.26, 0.30) 0.24 (0.22, 0.26) <0.001\r\nIHA 17.45 (10.15, 23.58) 13.15 (5.10, 19.83) 0.037\r\nIHD 0.03 (0.03, 0.03) 0.02 (0.02, 0.03) <0.001\r\nD0mmPachy(µm) 508.71±29.66 531.16±28.22 <0.001\r\nD2mmPachy(µm) 520.43±29.78 540.34±28.25 0.003\r\nD4mmPachy(µm) 554.43±31.02 569.90±29.11 0.021\r\nD8mmPachy(µm) 688.86±37.63 705.59±34.48 0.038\r\nD2mmStdDev 3.00 (2.00, 4.00) 2.00 (2.00, 2.00) <0.001\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "D4mmStdDev 13.00 (9.75, 15.00) 8.00 (6.00, 10.25) <0.001\r\nD6mmStdDev 25.00 (19.75, 28.25) 16.00 (12.00, 20.00) <0.001\r\nD8mmStdDev 41.00 (30.75, 48.00) 27.00 (21.00, 35.00) <0.001\r\nCVolD3mm 3.75 (3.60, 3.90) 3.90 (3.70, 4.00) 0.006\r\nCVolD5mm 10.98±0.64 11.36±0.59 0.007\r\nCVolD7mm 23.77±1.37 24.51±1.26 0.013\r\nPRC3mm.Zone 6.10±0.27 6.27±0.20 0.004\r\nThinnestPachy(µm) 508.71±29.66 531.13±28.21 <0.001\r\nABCDB 0.15 (0.00, 1.00) 0.00 (0.00, 0.10) 0.003\r\nABCDC 0.65 (0.40, 1.10) 0.50 (0.10, 0.70) 0.002\r\nCorvis ST System\r\nA1Time(ms) 7.37 (7.09, 7.51) 7.49 (7.30, 7.66) 0.006\r\nA1DeformationAmp 0.14±0.01 0.14±0.01 0.009\r\nDARatioMax_2mm 5.02 (4.66, 5.18) 4.47 (4.23, 4.78) <0.001\r\nIntegrated Radius 8.80±1.00 8.24±1.15 0.014\r\nDARatioMax_1mm 1.62 (1.60, 1.65) 1.58 (1.55, 1.61) <0.001\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "ARTh 402.74 (339.83, 492.15) 470.35 (404.09, 561.28) 0.007\r\nSPA1 81.46 (76.62, 86.84) 99.55 (87.51, 108.80) <0.001\r\nCBI 0.77 (0.22, 0.97) 0.02 (0.00, 0.40) <0.001\r\nTable 1. Differenence of all parameters between the subclincial KC group and suspected KC group. Values \r\nwere presented as mean±standard deviation, counts (M (P25, p75)) and percentages (%); N was presented as \r\nsample quantity; Parameters with P<0.05 were selected to be included in the table.\r\nScientific Reports | (2025) 15:12412 | https://doi.org/10.1038/s41598-025-90026-y 5\r\nwww.nature.com/scientificreports/\nwas 0.736 (0.641, 0.832), and the cutoff value was 11.825. Currently, there are significant differences in corneal \r\ndiameter measurements from country to country. Alfonso JF. et al.28 measured the corneal diameter of myopic \r\nindividuals via Orbscan TM and reported that it ranged from 10.40 to 13.60 mm, whereas it ranged from 11.50 \r\nto 12.30 mm for emmetropia individuals found by Sanchis-Gimeno, J. A et al.29 The corneal diameter of healthy \r\nindividuals measured with the IOL Master 700 was 11.72±0.45  mm. The corneal diameter of the Chinese \r\nmyopic population was measured by Xu G. et al.30 via Pentacam, and the result was 11.65±0.38 mm, which was \r\nconsistent with the results from the suspected KC group (11.56±0.38 mm) in our study. The corneal diameter \r\nwas found to be greater in both KC and contralateral eyes (12.14 mm and 12.17 mm), according to research by \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "François-Xavier Crahay et al.31. The corneal diameter we measured in the subclinical KC group was not as large \r\nas that measured by François-Xavier Crahay because the corneal diameter and shape of the white population \r\ndiffer from those of the Chinese population32,33. However, the KC population we studied had a larger corneal \r\ndiameter. Thus, corneal diameter may be a crucial parameter for differentiating corneas in KC patients from \r\nthose in the normal group.\r\nFig. 2. ROC curve of Belin/Ambrósio system, Topometric/KC system and Corvis ST system between the two \r\ngroups.\r\nVariable Cutoff AUC(95%CI) ACC SEN SPE P\r\nBelin/Ambrósio System\r\nPachyProgIndexMax 1.455 0.896 (0.839, 0.954) 0.778 0.929 0.741 0.000*\r\nARTMax 377.000 0.894 (0.838, 0.951) 0.729 0.672 0.964 0.000*\r\nBADDa 1.010 0.893 (0.836, 0.950) 0.722 0.964 0.664 0.000*\r\nBADD 1.980 0.878 (0.817, 0.939) 0.799 0.893 0.776 0.000*\r\nBADDp 1.935 0.811 (0.730, 0.892) 0.812 0.643 0.853 0.000*\r\nPachyProgIndexAvg 1.185 0.811 (0.730, 0.892) 0.799 0.643 0.836 0.000*\r\nBADDy 0.745 0.758 (0.667, 0.848) 0.646 0.929 0.578 0.000*\r\nBADDb 0.525 0.747 (0.648, 0.847) 0.674 0.821 0.638 0.000*\r\nTopometric/KC System\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "D6mmStdDev 23.500 0.809 (0.717, 0.901) 0.847 0.607 0.905 0.000*\r\nIHD 0.029 0.787 (0.691, 0.883) 0.847 0.500 0.931 0.000*\r\nD4mmStdDev 11.500 0.783 (0.680, 0.886) 0.812 0.607 0.862 0.000*\r\nIVA 0.255 0.762 (0.666, 0.858) 0.646 0.786 0.612 0.000*\r\nD8mmStdDev 42.500 0.757 (0.658, 0.856) 0.826 0.500 0.905 0.000*\r\nD2mmStdDev 2.500 0.744 (0.652, 0.837) 0.736 0.607 0.767 0.000*\r\nCornea Diameter 11.825 0.736 (0.641, 0.832) 0.750 0.607 0.784 0.000*\r\nCorvis ST System\r\nSPA1 87.485 0.811 (0.718, 0.904) 0.755 0.750 0.778 0.000*\r\nDARatioMax_2mm 4.710 0.784 (0.691, 0.878) 0.713 0.741 0.707 0.000*\r\nCBI 0.278 0.771 (0.657, 0.885) 0.734 0.741 0.733 0.000*\r\nDARatioMax_1mm 1.584 0.750 (0.653, 0.847) 0.573 0.889 0.500 0.000*\r\nTable 2. Assessment of the diagnostic ability of the two groups under the AUROC of the three systems. ACC: \r\naccuracy; SEN: sensitivity; SPE: specificity. Parameters with AUC > 0.7 were selected to be included in the \r\ntable.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Scientific Reports | (2025) 15:12412 | https://doi.org/10.1038/s41598-025-90026-y 6\r\nwww.nature.com/scientificreports/\nThe use of biomechanical examination is still vital in differentiating between KC and healthy corneas16,34. In \r\nthis study, we found that 26.5% of the Corvis ST system parameters differed between the two groups. The highest \r\nAUC values were found for SPA1 (0.811), DARatioMax_2mm (0.784), CBI (0.771), and DARatioMax_1mm \r\n(0.750). No parameter had a particularly high diagnostic efficacy, but this is subject to future research.\r\nRacial differences in ocular parameters are critical for disease diagnosis, extending beyond corneal diameter \r\nto biomechanical metrics. Research conducted by Liu, Yan et al.35 and Guo, Li-Li et al.36 documented elevated \r\nfalse-positive rates of the CBI within Chinese populations. Vinciguerra, Riccardo et al.37 highlighted disparities \r\nin SPA1, SSI, and ARTH between Chinese and Caucasian populations, subsequently introducing the cCBI, \r\nwhich outperformed CBI in diagnosing keratoconus in Chinese individuals. Additionally, Guo, Yihan et al.38\r\nrevealed variations in the age-biomechanics relationship between these populations. This study focuses on \r\nChinese samples, limiting its applicability to other ethnicities. Future multicenter, multiethnic studies are needed \r\nto confirm these findings.\r\nNo parameter in our work has an AUC of more than 0.9 because KC, especially in its early stages, cannot be \r\ndiagnosed with a single parameter; rather, a comprehensive analysis necessitates the combination of multiple \r\ncharacteristics. Therefore, we developed a LASSO regression prediction model, which was first suggested in 1996 \r\nby Robert Tibshirani39. This method of compressed estimation is used here. It produces a more refined model \r\nby building a penalty function that compresses some coefficients and sets others to zero. Complex collinear \r\ndata are specifically designed to be handled by this biased estimation. There were 92 parameters in this study; \r\nhowever, there may have been connections between the parameters. We chose seven parameters via LASSO \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "regression. AUC=0.964 indicates that the logistic regression model based on the seven parameters has increased \r\ndiagnostic power, effectively resolving the issue that prior studies were unable to differentiate between suspected \r\nand subclinical KC18.\r\nCurrently, a large body of research using artificial intelligence to predict the progression of keratoconus has \r\nbeen conducted14,15,17,40,41, with good diagnostic power. For the first time, we used the internal parameters of the \r\nexamination system to compare the differences between the two types of asymmetrical corneas in our study, and \r\nthe result was a more precise prediction model. The results of our analysis of the samples we used in this model \r\nshowed that IHD had the largest coefficient, indicating the strongest correlation with the development of the \r\nKC. We then studied the corneal diameter, DARatioMax_2mm, BADDy, BADD, PachyProgIndexMax, and CBI. \r\nThe logistic regression model’s AUC was 0.964, which was greater than that of studies of sequences 1 (0.849), 2 \r\nVariable Coefficient\r\nintercept 1.78937717\r\nBADDy -0.0740568\r\nBADD -0.299099\r\nPachyProgIndexMax -0.4744784\r\nCornea Diameter -0.2527814\r\nIHD -0.2887178\r\nDARatioMax2mm -0.1781822\r\nCBI -0.1117249\r\nTable 3. Variables and coefficients selected by the LASSO regression.\r\nFig. 3. Coefficient path plot of variables screened by LASSO regression.\r\nScientific Reports | (2025) 15:12412 | https://doi.org/10.1038/s41598-025-90026-y 7\r\nwww.nature.com/scientificreports/\n(0.950), and 4 (0.945). This study’s sensitivity (0.963) was greater than that of sequences 1–4 (0.754, 0.903, 0.936, \r\n0.844), but its specificity (0.888) was lower than that of sequences 2–4 (0.943, 0.972, 0.901) (Table 4).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "The sample sizes for all of the abnormal corneas were greater than those used in this investigation above \r\nresearches. Importantly, this study’s sample size was limited, which might have had an impact on the model’s \r\ncapacity for accurate prediction. Furthermore, biased estimation may arise if the sample data do not accurately \r\nreflect the characteristics of the real subclinical and suspected populations. Importantly, the model might not \r\nprecisely encapsulate the attributes of the complete population. In future investigations, we will gather additional \r\nclinical practice samples to improve our model and increase the authenticity and accuracy of model prediction.\r\nSequence Study\r\nClassification\r\ncriteria and sample size Methods AUC SEN SPE ACC\r\n1 Zhang, X. et al.[14] VAE-NT eyes(59) vs. Normal eyes(142) Combined tomographic and biomechanical parameters 0.849 0.754 0.871 /\r\n2 Song, P. et al.[15] SKC eyes(31) vs. Normal eyes(35) Classifcation And Regression Tree (CART) 0.95 0.903 0.943 0.924\r\n3 Smadja, D.et al[17] FFKC eyes(47) vs. Normal eye(95) Automated Decision Tree / 0.936 0.972 /\r\n4 Ambrósio, R. et al.[41] VAE-NT eyes(551) vs. normal eyes(1680) TBI_v.2 0.945 0.844 0.901 /\r\n5 Lopes, B. T. et al.[42] VAE-NT eyes(188) vs. stable(298) Pentacam Random Forest Index(PRFI) 0.968 0.966 0.852 /\r\n6 Our study SuspectedKC(116) vs. Subclincia KC(28) Combined tomographic and biomechanical parameters 0.964 0.963 0.888 0.902\r\nTable 4. Classification, methods and AUC of previous relevant studies and this study. SEN: sensitivity; SPE: \r\nspecificity; ACC: accuracy.\r\nFig. 4. ROC curve of the logistic regression model.\r\nScientific Reports | (2025) 15:12412 | https://doi.org/10.1038/s41598-025-90026-y 8\r\nwww.nature.com/scientificreports/\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "In conclusion, the probability of developing keratoconus in suspected cases may be influenced by a \r\ncombination of morphological and biomechanical factors in Chinese populations. Evaluating parameters \r\nsuch as increased corneal diameter, Belin-related indices, and biomechanical metrics could be instrumental in \r\ndetermining the likelihood of keratoconus, especially in the context of inferior and superior corneal asymmetry.\r\nIntegrating these factors into the assessment process could improve safety and enhance decision-making in \r\nrefractive surgery.\r\nData availability\r\nData is provided within the manuscript.\r\nReceived: 3 October 2024; Accepted: 10 February 2025\r\nReferences\r\n1. Binder, P. S. Ectasia after laser in situ keratomileusis. J. Cataract Refract. Surg. 29 (12), 2419–2429. https://doi.org/10.1016/j.jcrs.20\r\n03.10.012 (2003).\r\n2. Klyce, S. D). Chasing the suspect: keratoconus. Br. J. Ophthalmol. 93 (7), 845–847. https://doi.org/10.1136/bjo.2008.147371 (2009).\r\n3. Henriquez, M. A., Hadid, M. & Izquierdo, L. Jr. A systematic review of subclinical Keratoconus and Forme Fruste Keratoconus. J. \r\nRefractive Surg. (Thorofare N J. : 1995). 36 (4), 270–279. https://doi.org/10.3928/1081597X-20200212-03 (2020).\r\n4. Shirayama-Suzuki, M. et al. Longitudinal analysis of corneal topography in suspected keratoconus. Br. J. Ophthalmol. 93 (6), \r\n815–819. https://doi.org/10.1136/bjo.2008.140012 (2009).\r\n5. Chen, D. & Lam, A. K. Intrasession and intersession repeatability of the Pentacam system on posterior corneal assessment in the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "normal human eye. J. Cataract Refract. Surg. 33 (3), 448–454. https://doi.org/10.1016/j.jcrs.2006.11.008 (2007).\r\n6. Orucoglu, F. & Toker, E. Comparative analysis of anterior segment parameters in normal and keratoconus eyes generated by \r\nscheimpflug tomography. J. Ophthalmol. 2015, 925414. https://doi.org/10.1155/2015/925414 (2015).\r\n7. Luz, A., Lopes, B., Salomão, M. & Ambrósio, R. Application of corneal tomography before keratorefractive procedure for laser \r\nvision correction. J. Biophotonics. 9 (5), 445–453. https://doi.org/10.1002/jbio.201500236 (2016).\r\n8. Muftuoglu, O., Ayar, O., Hurmeric, V., Orucoglu, F. & Kılıc, I. Comparison of multimetric D index with keratometric, pachymetric, \r\nand posterior elevation parameters in diagnosing subclinical keratoconus in fellow eyes of asymmetric keratoconus patients. J. \r\nCataract Refract. Surg. 41 (3), 557–565. https://doi.org/10.1016/j.jcrs.2014.05.052 (2015).\r\n9. Ma, J., Wang, Y., Wei, P. & Jhanji, V. Biomechanics and structure of the cornea: implications and association with corneal disorders. \r\nSurv. Ophthalmol. 63 (6), 851–861. https://doi.org/10.1016/j.survophthal.2018.05.004 (2018).\r\n10. Roberts, C. J. & Dupps, W. J. Jr. Biomechanics of corneal ectasia and biomechanical treatments. J. Cataract Refract. Surg. 40 (6), \r\n991–998. https://doi.org/10.1016/j.jcrs.2014.04.013 (2014).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "11. Nemeth, G. et al. Repeatability of ocular biomechanical data measurements with a Scheimpflug-based noncontact device on \r\nnormal corneas. J. Refractive Surg. (Thorofare N J. : 1995). 29 (8), 558–563. https://doi.org/10.3928/1081597X-20130719-06 (2013).\r\n12. Ali, N. Q., Patel, D. V. & McGhee, C. N. Biomechanical responses of healthy and keratoconic corneas measured using a noncontact \r\nscheimpflug-based tonometer. Investig. Ophthalmol. Vis. Sci. 55 (6), 3651–3659. https://doi.org/10.1167/iovs.13-13715 (2014).\r\n13. Shetty, R. et al. Understanding the correlation between Tomographic and Biomechanical Severity of Keratoconic Corneas. Biomed. \r\nRes. Int. 2015 (294197). https://doi.org/10.1155/2015/294197 (2015).\r\n14. Zhang, X. et al. Prognostic nomograms Predicting risk of Keratoconus in very asymmetric ectasia: combined corneal Tomographic \r\nand Biomechanical assessments. Front. Bioeng. Biotechnol. 10, 839545. https://doi.org/10.3389/fbioe.2022.839545 (2022).\r\n15. Song, P., Ren, S., Liu, Y., Li, P. & Zeng, Q. Detection of subclinical keratoconus using a novel combined tomographic and \r\nbiomechanical model based on an automated decision tree. Sci. Rep. 12 (1), 5316. https://doi.org/10.1038/s41598-022-09160-6\r\n(2022).\r\n16. Chen, X. et al. Screening of sensitive in vivo characteristics for early keratoconus diagnosis: a multicenter study. Front. Bioeng. \r\nBiotechnol. 11, 1158299. https://doi.org/10.3389/fbioe.2023.1158299 (2023).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "17. Smadja, D. et al. Detection of subclinical keratoconus using an automated decision tree classification. Am. J. Ophthalmol. 156 (2), \r\n237–246e1. https://doi.org/10.1016/j.ajo.2013.03.034 (2013).\r\n18. Hu, L. et al. Corneal Vertical and Horizontal Thickness profiles generated by UHR-OCT for suspected and subclinical Keratoconus \r\ndiagnosis. J. Refractive Surg. (Thorofare N J. : 1995). 37 (7), 438–445. https://doi.org/10.3928/1081597X-20210330-01 (2021).\r\n19. Rabinowitz, Y. S. & Rasheed, K. KISA% index: a quantitative videokeratography algorithm embodying minimal topographic \r\ncriteria for diagnosing keratoconus. J. Cataract Refract. Surg. 25 (10), 1327–1335. https://doi.org/10.1016/s0886-3350(99)00195-9\r\n(1999).\r\n20. Gomes, J. A. et al. Group of panelists for the Global Delphi Panel of Keratoconus and Ectatic diseases. Global consensus on \r\nkeratoconus and ectatic diseases. Cornea 34 (4), 359–369. https://doi.org/10.1097/ICO.0000000000000408 (2015).\r\n21. Saini, J. S., Saroha, V., Singh, P., Sukhija, J. S. & Jain, A. K. Keratoconus in Asian eyes at a tertiary eye care facility. Clin. Experimental \r\nOptometry. 87 (2), 97–101. https://doi.org/10.1111/j.1444-0938.2004.tb03155.x (2004).\r\n22. Awad, E. A., Samra, A., Torky, W. A., El-Kannishy, A. M. & M. A., & Objective and subjective diagnostic parameters in the fellow \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "eye of unilateral keratoconus. BMC Ophthalmol. 17 (1), 186. https://doi.org/10.1186/s12886-017-0584-2 (2017).\r\n23. Ruiseñor Vázquez, P. R. et al. Pentacam Scheimpflug tomography findings in topographically normal patients and subclinical \r\nkeratoconus cases. Am. J. Ophthalmol. 158 (1), 32–40e2. https://doi.org/10.1016/j.ajo.2014.03.018 (2014).\r\n24. Song, P. et al. Assessment of corneal pachymetry distribution and morphologic changes in subclinical keratoconus with normal \r\nbiomechanics. Biomed. Res. Int. 1748579. https://doi.org/10.1155/2019/1748579 (2019).\r\n25. Hashemi, H. et al. Best indicators for detecting Keratoconus Progression in children: a Report from the Shahroud Schoolchildren \r\nEye Cohort Study. Cornea 41 (4), 450–455. https://doi.org/10.1097/ICO.0000000000002896 (2022).\r\n26. Wahba, S. S., Roshdy, M. M., Fikry, R. R., Abdellatif, M. K. & Abodarahim, A. M. Topographic asymmetry indices: correlation between \r\nInferior Minus Superior Value and Index of Height Decentration. J. Ophthalmol. 7875148. https://doi.org/10.1155/2018/7875148\r\n(2018).\r\n27. Shajari, M. et al. Early tomographic changes in the eyes of patients with Keratoconus. J. Refractive Surg. (Thorofare N J. : 1995). 34\r\n(4), 254–259. https://doi.org/10.3928/1081597X-20180124-01 (2018).\r\n28. Alfonso, J. F. et al. Pupil size, white-to-white corneal diameter, and anterior chamber depth in patients with myopia. J. Refractive \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 476,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Surg. (Thorofare N J. : 1995). 26 (11), 891–898. https://doi.org/10.3928/1081597X-20091209-07 (2010).\r\n29. Sanchis-Gimeno, J. A., Sanchez-Zuriaga, D. & Martinez-Soriano, F. White-to-white corneal diameter, pupil diameter, central \r\ncorneal thickness and thinnest corneal thickness values of emmetropic subjects. Surg. Radiologic Anatomy: SRA. 34 (2), 167–170. \r\nhttps://doi.org/10.1007/s00276-011-0889-4 (2012).\r\n30. Xu, G. et al. Distribution of White-to-White corneal diameter and Anterior Chamber depth in Chinese myopic patients. Front. \r\nMed. 8, 732719. https://doi.org/10.3389/fmed.2021.732719 (2021).\r\nScientific Reports | (2025) 15:12412 | https://doi.org/10.1038/s41598-025-90026-y 9\r\nwww.nature.com/scientificreports/\n31. Shirama, K., Harada, T., Kohda, M. & Hokano, M. Fine structure of melanocytes and macrophages in the harderian gland of the \r\nmouse. Acta Anat. 131 (3), 192–199. https://doi.org/10.1159/000146512 (1988).\r\n32. Ding, L., Wang, J., Niu, L., Shi, W. & Qian, Y. Pentacam Scheimpflug Tomography findings in Chinese patients with different \r\ncorneal diameters. J. Refractive Surg. (Thorofare N J. : 1995). 36 (10), 688–695. https://doi.org/10.3928/1081597X-20200730-02\r\n(2020).\r\n33. Qin, B. et al. Anterior segment dimensions in Asian and caucasian eyes measured by optical coherence tomography. Ophthalmic \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Surg. Lasers Imaging: Official J. Int. Soc. Imaging Eye. 43 (2), 135–142. https://doi.org/10.3928/15428877-20120102-03 (2012).\r\n34. Li, Y. et al. Relationship between corneal biomechanical parameters and corneal sublayer thickness measured by Corvis ST and \r\nUHR-OCT in keratoconus and normal eyes. Eye Vis. (London England). 8 (1), 2. https://doi.org/10.1186/s40662-020-00225-z\r\n(2021).\r\n35. Liu, Y., Zhang, Y. & Chen, Y. Application of a scheimpflug-based biomechanical analyser and tomography in the early detection of \r\nsubclinical keratoconus in Chinese patients. BMC Ophthalmol. 21 (1), 339. https://doi.org/10.1186/s12886-021-02102-2 (2021).\r\n36. Guo, L. L. et al. Comparison of the morphological and biomechanical characteristics of keratoconus, forme fruste keratoconus, and \r\nnormal corneas. Semin. Ophthalmol. 36 (8), 671–678. https://doi.org/10.1080/08820538.2021.1896752 (2021).\r\n37. Vinciguerra, R. et al. Corneal biomechanics differences between Chinese and caucasian healthy subjects. Front. Med. 9, 834663. \r\nhttps://doi.org/10.3389/fmed.2022.834663 (2022).\r\n38. Guo, Y., Guo, L. L., Yang, W., Tian, L. & Jie, Y. Age-related analysis of corneal biomechanical parameters in healthy Chinese \r\nindividuals. Sci. Rep. 14 (1), 21713. https://doi.org/10.1038/s41598-024-72054-2 (2024).\r\n39. Tibshirani, R. & Series, B. Regression shrinkage and selection via the lasso[J].Journal of the Royal Statistical Society, 58(1). (1996). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "https://doi.org/10.1111/j.2517-6161.1996.tb02080.x. (1996).\r\n40. Ambrósio, R., Jr, Machado, A. P., Leão, E., Lyra, J. M. G., Salomão, M. Q., Esporcatte,L. G. P., da Fonseca Filho, J. B. R., Ferreira\u0002Meneses, E., Sena, N. B., Jr, Haddad,J. S., Costa Neto, A., de Almeida, G. C., Jr, Roberts, C. J., Elsheikh, A., Vinciguerra,R., \r\nVinciguerra, P., Bühren, J., Kohnen, T., Kezirian, G. M., Hafezi, F., … Lopes,B. T. Optimized Artificial Intelligence for Enhanced \r\nEctasia Detection Using Scheimpflug-Based Corneal Tomography and Biomechanical Data. American journal of ophthalmology, \r\n251, 126–142. https://doi.org/10.1016/j.ajo.2022.12.016 (2023).\r\n41. Lopes, B. T. et al. Jr. Enhanced Tomographic Assessment to detect corneal Ectasia based on Artificial Intelligence. Am. J. \r\nOphthalmol. 195, 223–232. https://doi.org/10.1016/j.ajo.2018.08.005 (2018).\r\nAcknowledgements\r\nThis study was supported by the project of the Research Fund of the Department of Health of Shandong Prov\u0002ince, 202107020443.\r\nAuthor contributions\r\nY.S.P. and K.L.L. contributed to the design of the study and confrmation of patient recruitment. Q.Q.F and T.S \r\ncontributed to the manuscript preparation and data analysis. J.F.Z, S.L, H.F.W and H.L contributed to the exam\u0002ination and data collection. All authors reviewed the manuscript.\r\nDeclarations\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nAdditional information\r\nCorrespondence and requests for materials should be addressed to K.L.\r\nReprints and permissions information is available at www.nature.com/reprints.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8305997825151826883,
+        "filename": "41598_2025_Article_90026.PMC11992101.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 294,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and \r\ninstitutional affiliations.\r\nOpen Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives \r\n4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in \r\nany medium or format, as long as you give appropriate credit to the original author(s) and the source, provide \r\na link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have \r\npermission under this licence to share adapted material derived from this article or parts of it. The images or \r\nother third party material in this article are included in the article’s Creative Commons licence, unless indicated \r\notherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence \r\nand your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to \r\nobtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommo\r\nns.org/licenses/by-nc-nd/4.0/.\r\n© The Author(s) 2025 \r\nScientific Reports | (2025) 15:12412 | https://doi.org/10.1038/s41598-025-90026-y 10\r\nwww.nature.com/scientificreports/\n\n"
+  }
+]

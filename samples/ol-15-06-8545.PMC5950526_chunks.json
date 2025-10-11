@@ -1,0 +1,674 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "ONCOLOGY LETTERS 15: 8545-8555, 2018\r\nAbstract. Lung cancer (LC) is a leading cause of cancer‑\u0002associated mortalities worldwide. Adenocarcinoma (AC) \r\nand squamous cell carcinoma (SCC) account for ~70% of all \r\ncases of LC. Since AC and SCC are two distinct diseases, \r\ntheir corresponding prognostic genes associated with patient \r\nsurvival time are expected to be different. To date, only a \r\nfew studies have distinguished patients with good prognosis \r\nfrom those with poor prognosis for each specific subtype. \r\nIn the present study, the Cox filter model, a feature selection \r\nalgorithm that identifies subtype‑specific prognostic genes \r\nto incorporate pathway information and eliminate redundant \r\ngenes, was adopted. By applying the proposed model to data \r\non non‑small cell lung cancer (NSCLC), it was demonstrated \r\nthat both redundant gene elimination and search space \r\nrestriction can improve the predictive capacity and the model \r\nstability of resulting prognostic gene signatures. To conclude, \r\na pre‑filtering procedure that incorporates pathway informa\u0002tion for screening likely irrelevant genes prior to complex \r\ndownstream analysis is recommended. Furthermore, a feature \r\nselection algorithm that considers redundant gene elimination \r\nmay be preferable to one without such a consideration.\r\nIntroduction\r\nLung cancer (LC) is a leading cause of cancer‑associated \r\nmortalities worldwide. Histologically, LC is stratified into two \r\ncategories, small cell lung cancer (SCLC) and non‑small cell \r\nlung cancer (NSCLC), of which the latter is more prevalent (1). \r\nNSCLC can be further classified into three major subtypes, \r\nwhere adenocarcinoma (AC) and squamous cell carcinoma \r\n(SCC) together account for ~70% of the total cases of LC (2). \r\nSince AC and SCC differ in cell of origin, location within \r\nthe lung, growth pattern and molecular mechanisms, they are \r\nregarded as two distinct diseases (3). Until recently, however, \r\nNSCLC subtypes had been typically treated with same thera\u0002peutic approaches (1). Apart from a lack of timely detection \r\nof tumors, the administration of homogenous treatments to \r\nNSCLC patients regardless of the histology subtypes might \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "account for why no substantial improvement in the 5‑year \r\nsurvival rate of patients with NSCLC has been made over \r\nthe years (3,4). Therefore, more ‘personalized’ therapeutic \r\nstrategies for AC and SCC patients are highly desirable, which \r\nnecessitates the identification of subtype‑specific prognostic \r\nmolecular markers for AC and SCC.\r\nFeature selection or variable selection, which aims at \r\nselecting a gene signature (subset) among thousands of genes \r\nwith objectives, including diagnosis of diseases, segmentation \r\nof disease subtypes and drug response or survival predic\u0002tion for patients, is currently becoming a routine practice in \r\nbioinformatics (5,6). Regarding NSCLC, extensive efforts \r\nhave been devoted to distinguishing AC from SCC and also to \r\ndistinguish patients with good prognosis from those with poor \r\nprognosis with the aid of feature selection algorithms (3,7‑11). \r\nCompared with the diagnosis task or the classification task, \r\nit has been demonstrated that the prognosis task is more \r\ndifficult to accomplish (12,13). Furthermore, the present study \r\nfocused on subtype‑specific prognosis, with extra consider\u0002ation on subtype information to introduce more complexity \r\nto statistical modeling. Subtype‑specific prognostic genes \r\nmay be identified by either separate application of a feature \r\nselection method to each subtype or by a modification of an \r\nexisting method to enable the identification of subtype‑specific \r\nprognostic genes (14). Compared with a separate modeling \r\nmethod where feature selection algorithms that can handle \r\nsurvival data (LASSO method and random forest method) \r\nwas implemented on each subtype, a natural extension is more \r\ntheoretically sound but accompanied with extra statistical \r\ncomplexity (15). The two feature selection algorithms, the \r\nCox filter method and the Cox‑Threshold Gradient Descent \r\nRegularization (Cox‑TGDR) method (15,16), belong to the \r\nnatural extension category. (Both the Cox filter method and \r\nthe Cox‑TGDR method were proposed by the authors). These \r\ntwo methods are all based on the seminal model of survival \r\nanalysis: A Cox regression model (17).\r\nGene expression profiles contain grouping structure with \r\ngenes inside each group that are highly correlated and there\u0002fore more likely to co‑function together to affect biological \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Identification of subtype‑specific prognostic signatures \r\nusing Cox models with redundant gene elimination\r\nSUYAN TIAN\r\nDivision of Clinical Research, The First Hospital of Jilin University, Changchun, Jilin 130021, P.R. China\r\nReceived September 29, 2017; Accepted March 2, 2018\r\nDOI: 10.3892/ol.2018.8418\r\nCorrespondence to: Professor Suyan Tian, Division of Clinical \r\nResearch, The First Hospital of Jilin University, 71 Xinmin Street, \r\nChangchun, Jilin 130021, P.R. China\r\nE‑mail: windytian@hotmail.com\r\nKey words: pathway information, Cox model, non‑small cell lung \r\ncancer, feature selection, survival prediction, subtype‑specific \r\nprognosis, redundant gene elimination\n8546 TIAN: PROGNOSTIC GENES FOR LUNG CANCER SUBTYPES\r\nprocesses (18,19). However, both the Cox filter method and \r\nthe Cox‑TGDR method are typical gene‑based feature selec\u0002tion methods where the underlying grouping structure is \r\nignored (20). By contrast, a pathway‑based feature selection \r\nmethod incorporates the grouping structure either explicitly or \r\nimplicitly to guide the selection of relevant genes (21). Many \r\nstudies have demonstrated that a pathway‑based feature selec\u0002tion method is usually superior to its gene‑based counterpart \r\nin terms of predictive capacity, model stability and biological \r\ninterpretation (21‑25).\r\nFurthermore, a failure to account for the correlations among \r\ngenes may result in many ‘redundant’ genes being included, \r\nand therefore an increase in the false positive rate. As the Cox \r\nfilter method screens the relevant genes individually (see the \r\nMaterials and Methods section for details), it has no control over \r\nthe false positive rate. The simulations conducted in previous \r\nstudies (15,16) have justified this point. Until the drawback of \r\nfalse positive rate is fully addressed, the widespread application \r\nof the Cox filter method remains challenging.\r\nIn this article, the Cox filter method was extended so \r\nthat the resulting extension not only accounts for the interac\u0002tions/dependency among genes but also eliminates many \r\nredundant genes. The GeneRank method (26) was employed \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "to pre‑filter genes and subsequently average correlation coef\u0002ficients were calculated to determine the correlation of a \r\nspecific gene with other genes in the search space. Given that \r\nthe GeneRank method was also used to pre‑filter genes in a \r\nprevious study by the present authors (14), these two studies \r\nhave some similarities. Nevertheless, the objectives of the \r\nstudies differ dramatically. The aim of the previous study (14) \r\nwas to illustrate that for different outcomes of interest \r\n(e.g., segmentation of different subtypes versus predicted \r\nsurvival time), the corresponding relevant genes differ and \r\ntherefore a supervised learning method is preferred over an \r\nunsupervised method. By contrast, the present study focuses \r\non the identification of subtype‑specific gene signatures.\r\nAfter the proposed procedure was applied to the NSCLC \r\ngene expression data and compared with several relevant \r\nalgorithms, whether the proposed procedure can identify \r\ngene signatures with better predictive performance and more \r\nmeaningful biological implication than other methods was \r\ndetermined.\r\nMaterials and methods\r\nExperimental data. The microarray data included GSE30219, \r\nGSE37745 and GSE50081 datasets, which were publicly assess\u0002able from the Gene Expression Omnibus (GEO, https://www.\r\nncbi.nlm.nih.gov/geo/) repository. The inclusion criteria were: \r\ni) Being profiled on the Affymetrix HG‑U133 Plus 2.0 plat\u0002form; ii) inclusion of AC and SCC subtypes; iii) inclusion of \r\nearly pathological stages (stage I or II); iv) no administration \r\nof adjuvant therapy to patients; and v) availability of the raw \r\ndata so that the same pre‑processing procedure was used to \r\nobtain the gene expression values. There were 85 AC and 21 \r\nSCC patients, 40 AC and 24 SCC patients, 127 AC and 42 SCC \r\npatients in GSE30219, GSE37745 and GSE50081, respectively. \r\nIn total, there were 339 patients in the integrated dataset that \r\ncombined these three datasets together, which served as the \r\ntraining set in the present study.\r\nThe RNA‑Seq data were downloaded from The Cancer \r\nGenome Atlas Data Portal (level 3) (https://tcga‑data.nci.nih\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": ".gov/tcga/). The cohorts that were considered are: LUAD for \r\nAC subtype and LUSC for SCC subtype. By restricting the \r\npatients to those at early stages of disease, not undergone \r\nany adjuvant treatment and where survival information was \r\navailable, 70 AC and 55 SCC patients were included.\r\nPre‑processing procedures. Raw data (CEL files) of the \r\nmicroarray data sets were downloaded from the GEO reposi\u0002tory. The expression values were obtained using the fRMA \r\nalgorithm (27) and were normalized using quantile normal\u0002ization separately for each experiment. Then, the expression \r\nvalues of these three studies were combined together and the \r\nCOMBAT algorithm (28) was used to eliminate the potential \r\nbatch effects. The resulting data served as the training set and \r\nwere referred to as the integrated dataset.\r\nCounts‑per‑million (CPM) values for the RNA‑seq data \r\nwere calculated and log2 transformed by Voom function (29) in \r\nR limma package (30). The RNA‑seq data were used as the test \r\nset to validate the performance of resulting prognostic signa\u0002tures. There were 14,573 unique genes annotated by both the \r\nmicroarray data and the RNA‑seq data. The protein‑to‑protein \r\ninteraction information was retrieved from the Human Protein \r\nReference Database (HPRD, http://www.hprd.org). There were \r\n9,672 protein‑coding genes annotated by the HPRD database \r\n(Release 9). The downstream analysis was carried out using \r\nthe overlapped 8,023 genes annotated by the microarray data, \r\nthe RNA‑seq data and the HPRD database. Compared with \r\na previous study by the authors, the training set and the total \r\ngenes under consideration were different in the present study. \r\nSpecifically, the data from GSE50081 experiment were used to \r\ntrain the prognostic signatures, and a number of pre‑filtering \r\nsteps were performed to downsize the number of genes under \r\nconsideration in the microarray data to 6,202 (16).\r\nStatistical methods. Cox filter method. The Cox filter \r\nmethod (16) was used to identify genes that were informative \r\nof survival rate for AC/SCC histology subtypes. In this method, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "each gene was fit with a Cox model. The hazard function of \r\npatient i for gene g (g=1,…,p) is given by:\r\nEq. 1\r\nwhere, Xij=(Xij1,...,Xijp)\r\nT represents the actual expression values \r\nfor the p genes under consideration and λ0g(t) is an unknown \r\nbaseline hazard function. I (j=SCC) is an indicator, it takes \r\nthe value of 1 if the histology subtype j of patient i is SCC \r\nor otherwise the value of 0. The values of βACg (i.e., β2g) and \r\nβSCCg (i.e., β2g+β3g) determine if subtype‑specific prognostic \r\ngenes exist. Specifically, βACg≠0 but βSCCg=0 corresponds to an \r\nAC‑specific gene while βSCCg≠0 but βACg=0 corresponds to an \r\nSCC‑specific gene.\r\nGeneRank. The GeneRank method (26) calculates ranks \r\nfor genes by accounting for both the gene expression values \r\nand the connectivity information among them. Firstly, \r\naccording to whether a connection is recorded between genes \r\nin the HPRD database, a pxp adjacency matrix was made \r\n(here, p is the number of genes under consideration) whose \nONCOLOGY LETTERS 15: 8545-8555, 2018 8547\r\nijth and jith components are 1 if gene i and gene j are connected, \r\n0 otherwise. Then, the GeneRank method solves the following \r\nequation:\r\nEq. 2\r\nwhere W stands for the adjacency matrix of genes, and D is \r\na diagonal matrix, where diagonal components record the \r\nnumber of genes that a specific gene is connected to in the \r\ngene network graph. The gene expression value is represented \r\nby exp. In the GeneRank method, d is a tuning parameter, \r\nbalancing the effect of the expression value of a gene and its \r\nlevel of importance inside the whole gene‑to‑gene interac\u0002tion network. The gene expression values only determine the \r\nranks of the genes when d equals to 0. On the other hand, the \r\nGeneRanks depend completely on the connectivity level of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "genes when d=1. The default value of d is 0.5.\r\nIn the present study, the ranks generated by the GeneRank \r\nmethod were used to rearrange genes in the ascending order \r\nand then the search domain was restricted to the top ranked \r\ngenes in the resulting list. With this filter, the least important \r\ngenes in both pathway connectivity and expression difference \r\nwere ruled out.\r\nRedundant gene elimination. To eliminate the redundant \r\ngenes, which are highly correlated with the true causal genes \r\nand therefore tend to be also selected by a feature selection \r\nalgorithm, particularly a filter method, a method proposed \r\npreviously (31) was adopted to account for the correlation \r\ncoefficients between genes during the filtering process. \r\nSpecifically, the average correlation coefficient between a \r\ncandidate gene g and other genes in the restricted search space \r\nwas calculated as follows:\r\nEq. 3\r\nwhere, |cor(g.j)| represents the absolute value of Pearson's \r\ncorrelation coefficient (PCC) between gene g and gene j, and \r\n|S| is the total number of genes in the search space. Then, a gene \r\nis regarded to be relevant if it fits two conditions: i) its corre\u0002sponding adjusted P‑values of the Cox filter model are <0.05. \r\n(The BH procedure was used to adjust for multiple comparison \r\nproblem); and ii) its average absolute correlation coefficients \r\nin the search space are <0.2. With the second restriction, \r\ni.e., the restriction on the average PCC value of a gene, some \r\ncontrol over the redundant genes is provided. Originally, a new \r\nstatistic was defined that multiplied the adjusted P‑value by \r\ncorgs for gene g, and this was used to determine the significance \r\nlevel of genes. The newly defined statistic was named as RRP \r\n(P‑value with redundant gene removal). However, it is realized \r\nthat RRP has some fatal drawbacks. For instance, if the PCCs \r\nof a gene with other genes in the search space are all close to \r\n0, then its RRP is extremely small although the P‑value in the \r\nCox filter model for this specific gene is 1. As a result, the RRP \r\nstatistic had been overruled.\r\nSign average. A regression model would become \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "non‑identifiable when the number of covariates exceeds the \r\nnumber of samples. To avoid this, the risk profile of a patient \r\nwas summarized as the sign average (13,32) of the expression \r\nvalues over all selected genes. Specifically for each subtype, \r\nall genes inside the selected gene subset, i.e., the AC‑specific \r\nand SCC‑specific prognostic genes are stratified into either \r\nthe hazardous group H or the preventive group P according \r\nto the signs of their estimated effects in the Cox filter method, \r\ni.e., β2g for AC and β2g+β3g for SCC. In the hazardous group, \r\nthe genes for which increased expression is associated with a \r\nhigher hazard are included. Conversely, the genes for which \r\nan increment in expression is associated with a lower hazard \r\nof mortality are put in the preventive group. Of note, there are \r\ntwo sets of notations, i.e., HAC in which β2g >0 and PAC in which \r\nβ2g <0 for AC patients, and HSCC in which β2g+β3g >0 and PSCC\r\nin which β2g+β3g <0 for SCC patients in the present study. \r\nDenoting the number of genes inside the gene set GS as |GS|, \r\nthe sign average for AC patient i(i=1,…, n1) and SCC patient \r\nj (j= n1+1,…, n) is defined respectively as:\r\nEq. 4\r\nStatistical metrics. The first metric used to evaluate the \r\nperformance of a resulting prognostic gene signature is the \r\ncensoring‑adjusted C‑statistic (33) over the follow‑up period \r\n(0, τ). It is defined as:\r\nEq. 5\r\nwhere g(X) is the risk score for a subject with predictor vector \r\nX. Although a value of 0.5 for the C‑index corresponds to the \r\nrandom guess model, a moderate value in between 0.6‑0.7 \r\nalready indicates a satisfactory performance as discussed \r\npreviously (34).\r\nIn order to evaluate the stability or robustness of the \r\nresulting signatures, a Rand index was also calculated. With \r\nk runs (e.g., the resulting gene lists by training on k different \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "datasets) of an algorithm, the Rand index is defined as\r\nEq. 6\r\nwhere ∩ represents the size of intersection between two gene \r\nlists, and ∪ represents the size of union between two gene \r\nsubsets gsi and gsj, where gsi and gsj were obtained from the \r\ni\r\nth and jth runs, respectively. Given the present study aims to \r\nselect subtype‑specific prognostic genes for AC and SCC, \r\nthese metrics were calculated separately for AC and SCC.\r\nThe proposed procedure consisted of three steps. Firstly, \r\nall 8,023 genes were ranked in the ascending order according \r\nto their GeneRanks. Secondly, for a specific k value (k varies \r\nfrom 200 to 7,800 with an increment of 200 to 8,023), the \r\nsearch space (the number of genes under consideration) was \r\nrestricted to those on the top k of this ordered gene list, and \r\nthe corresponding adjusted P‑values for β2 and (β2+β3) coef\u0002ficients for a gene and the absolute average of its correlation \r\ncoefficients with other genes in the search space were consid\u0002ered together to select prognostic genes for AC and SCC. \n8548 TIAN: PROGNOSTIC GENES FOR LUNG CANCER SUBTYPES\r\nFinally, the sign averages for AC‑ and SCC‑specific genes and \r\nthe performance statistics were calculated. Steps 2 and 3 were \r\nrepeated over all possible k values. The optimal k value for \r\nAC and SCC subtypes is the one with the largest C‑statistics \r\nand the smallest sizes of the resulting gene signatures on the \r\ntraining set. Fig. 1 illustrates the proposed procedure, which \r\nis referred to as the Cox filter method with redundant gene \r\nelimination (RGE) herein.\r\nThe proposed procedure first imposed search space \r\nrestriction and subsequently removed redundant genes inside \r\nthe restricted search space. One may argue a procedure \r\nin the reverse order, i.e., the removal of redundant genes \r\nfollowed by search space restriction, may lead to same or \r\nat least similar results. However, conducting redundant \r\ngene elimination first may result in the remaining genes \r\nbeing almost uncorrelated with each other. The connectivity \r\nweights of those genes are approximately at the same level, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "and the rearrangement of genes according to GeneRanks \r\nbecomes meaningless. This method also does not take into \r\nconsideration pathway information, Alternatively, a strategy \r\ninstead of a combination of the GeneRank method and \r\nredundant gene elimination may be employed. However, this \r\nFigure 1. Flowchart for the proposed Cox filter method with redundant gene elimination. The Cox filter + RGE method may be divided into three steps: i) \r\nAscending ranking of genes under consideration according to the ranks given by the GeneRank method; ii) restricting the search space to the first k genes and \r\nfitting the Cox filter models for these k genes; and iii) calculating the corresponding P‑values and average absolute Pearson's correlation coefficients for each \r\ngene and determining the relevance level of the gene (with P‑value<0.01 and corgs<0.2 deemed to indicate relevance). Steps 2 and 3 are repeated over a grid \r\nof values for k (k=200, 400, …7800, 8023). AC, adenocarcinoma; HPRD, Human Protein Reference Database; PCC, Pearson's correlation coefficient; RGE, \r\nredundant gene elimination; SCC, squamous cell carcinoma.\nONCOLOGY LETTERS 15: 8545-8555, 2018 8549\r\nwas not investigated as it is beyond the scope of the present \r\nstudy.\r\nBiological relevance and gene set enrichment analysis. The \r\nGeneCards database (www.genecards.org) was used to search \r\nfor the biological relevance of the selected genes, and the String \r\nsoftware (www.string‑db.org) was used to obtain enriched \r\npathways/gene sets for the AC‑specific and SCC‑specific \r\nprognostic signatures.\r\nStatistical language and packages. R language (version 3.2; \r\nwww.r‑project.org) was used to carry out all statistical analysis \r\nin the present study. The R packages used included survival, \r\nsurvAUC, gelnet, pathClass, limma, annotation, affy and \r\nhgu133plus2.db.\r\nResults\r\nIn the present study, the integrated data of three microarray \r\nexperiments were used to train the final models. The perfor\u0002mance of the resulting prognostic signatures was validated on \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "the RNA‑Seq dataset, which is independent from the micro\u0002array datasets. Firstly, Schoenfeld residuals were calculated to \r\ntest the proportional hazards assumption of the Cox models. \r\nThe P‑values for those tests ranged from 0.003 to 0.9999; \r\nP<0.05 for 141 values and P<0.01 for 27 values. These numbers \r\nwere <5% and 1% of the total number of genes. Therefore, the \r\nproportional hazard assumption is valid in the present study.\r\nThe C‑statistics and the model sizes on the training set \r\nare given in Fig. 2. Based on these two statistics, the resulting \r\nsignatures of the first 1,000 genes for AC and the first \r\n4,000 genes for SCC were chosen and presented in Table I. \r\nIn the same table, the performance statistics for the Cox filter \r\nmethod (15) with search space restriction but without redundant \r\ngene elimination, the Cox filter method with redundant gene \r\nelimination but no space restriction and the original Cox filter \r\nmethod (corresponding to the Cox filter method without both \r\nredundant gene elimination and space restriction) and two \r\nother relevant algorithms (the Cox‑TGDR method (16) and the \r\nLASSO (35) for AC and SCC, respectively) were also listed.\r\nThe most important finding is that the additional redundant \r\ngene elimination indicates significant gains in terms of perfor\u0002mance statistics, i.e., better C‑statistics and smaller sizes of the \r\nresulting signatures, which is in consistent with the findings \r\nof other investigators (31,36). Of note, it is usually common \r\nthat the test set has a poorer performance compared with the \r\ntraining set, due to the following reasons: i) The different \r\ncharacteristics among patients in the training set and the test \r\nset; or/and ii) the potential of over‑fitting. Given a moderate \r\nvalue of >0.6 for the C‑index is regarded to have a satisfactory \r\nperformance (33), the predictive performances of the resulting \r\nprognostic signatures obtained by the proposed procedure are \r\nall acceptable. Furthermore, the training set used previously \r\n(i.e., the data of GSE50081) has a moderate sample size. To \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "date, a perfect performance has not been achieved with the \r\ntest set using this specific training set (14‑16). To address this, \r\ntwo additional microarray experiments were included, and \r\nthe training set used in the present study is a combination of \r\nall three studies. The resulting signatures trained from the \r\nintegrated data outperform the signatures from GSE50081.\r\nAnother finding is that with a suitable restriction on the \r\nsearch space, the resulting prognostic signatures tend to have \r\na better performance than those without such a restriction \r\n(as shown in Table I and Fig. 2). This supports the use of a \r\npre‑filtering process (e.g., ranking genes using the GeneRank \r\nmethod on expression levels and importance level in the gene \r\nnetwork following by selecting the top genes in the resulting \r\nlist) prior to downstream analysis. A pre‑filtering process may \r\nscreen out the genes that are highly unlikely to be relevant \r\ngenes and thus reduces the computing burden. Compared with \r\nother relevant algorithms, the Cox filter method has the best \r\nperformance. The Cox filter method is easier to implement and \r\nmore computationally efficient than the Cox‑TGDR method, \r\nwhich may make the advantage of a pre‑filtering procedure \r\nwith regards to reducing the computing burden less obvious. \r\nHowever, the present authors do not exclude the probability \r\nthat the Cox‑TGDR method is optimal for some specific data \r\nstructures, and therefore such an advantage is more essential \r\nin those applications.\r\nThe patients were stratified into two groups‑patients with a \r\nhigh risk of mortality and those with a low risk of mortality‑by \r\nusing the median values of the resulting sign average scores \r\nfor the patients in the training set. Then, the Kaplan‑Meier \r\ncurves were constructed (Fig. 3), and the two curves were \r\ncompared using log‑rank tests. In the training set, the P‑values \r\nFigure 2. Determination of the optimal cutoffs for AC subtype and SCC \r\nsubtype search spaces by training of the NSCLC microarray data: (A) The \r\nC‑statistic under all scenarios (with k taking different values, i.e., k=200, \r\n400, …7800, 8023; (B) The sizes of resulting prognostic signatures under all \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "scenarios. The C‑statistic and the final sizes determine the optimal cutoffs \r\nfor the restricted search space of AC and SCC, respectively, i.e., the one \r\nwith the largest C‑index and the smallest final model size was chosen. AC, \r\nadenocarcinoma; NSCLC, non‑small cell lung cancer; SCC, squamous cell \r\ncarcinoma. \n8550 TIAN: PROGNOSTIC GENES FOR LUNG CANCER SUBTYPES\r\nof the corresponding log‑rank tests were 3.59x10‑14 for AC and \r\n9.37x10‑8 for SCC, respectively. However, the corresponding \r\nP‑values were 0.075 and 0.123 in the test set, indicating a \r\nstatistically non‑significant difference between the survival \r\nFigure 3. Kaplan‑Meier plots of AC‑specific prognostic signature and SCC‑specific prognostic signature. Based on the risk scores (i.e., the sign averages of \r\nAC‑specific signature for AC patients and the sign averages of SCC‑specific signature for SCC patients), patients were divided into two categories (low‑risk \r\ngroup and high‑risk group) using the medians of risk scores as cutoffs. The P‑values of log‑rank tests comparing the survival curves of the low‑risk and \r\nhigh‑risk groups are shown. AC, adenocarcinoma; SCC, squamous cell carcinoma.\r\nTable I. Performance statistics for the non‑small cell lung cancer application using different algorithms.\r\nC‑statistics ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑\r\nVariable Size Rand index (%) Training set Test set\r\nG(1)~G(1000) + RGE: AC 35 26.97 0.725 0.694\r\nG(1)~G(4000) +RGE: SCC 44 16.84 0.833 0.817\r\nG(1)~G(1000): AC 45 26.04 0.703 0.714\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "G(1)~G(4000): SCC 380 26.91 0.702 0.771\r\nCox‑filter +RGE: AC 259 16.67 0.699 0.610\r\nCox‑filter +RGE: SCC 119 15.44 0.824 0.805\r\nCox‑filter: AC 329 24.05 0.681 0.538\r\nCox‑filter: SCC 836 27.85 0.714 0.778\r\nCox‑TGDR: AC 62 7.78 0.684 0.559\r\nCox‑TGDR: SCC 76 5.77 0.721 0.567\r\nLASSO: AC 9 14.87 0.724 0.583\r\nLASSO: SCC 10 12.39 0.814 0.706\r\nG(1)~G(k): The search space is the first k genes ordered by the GeneRank method. The results were trained using the integrated dataset and \r\nverified using the TCGA RNA‑sequencing data. AC, Adenocarcinoma; RGE, redundant gene elimination; SCC, squamous cell carcinoma; \r\nTGDR, Threshold Gradient Descent Regularization.\nONCOLOGY LETTERS 15: 8545-8555, 2018 8551\r\ncurves of the high‑risk and low‑risk groups. Furthermore, \r\nother cutoffs (mean, the first and third quartiles) were used, \r\nand the results remained the same. Given there were few \r\nmortalities recorded for the RNA‑seq data and there were no \r\nmortalities in the identified low‑risk groups, the predictive \r\nperformance evaluated on the basis of the log‑rank tests is still \r\nacceptable.\r\nFor the 35‑gene AC‑specific prognostic signature and the \r\n44‑gene SCC‑specific prognostic signature, the GeneCards \r\ndatabase was searched for the biological relevance of these \r\nselected genes. According to the GeneCards database, \r\nCYP1A2, EGAG9, BRDT, DDC, ADCYAP1R1, PIWIL4, \r\nCENT2, TACR1, ABCA2 and NEFH are directly associated \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "with LC. EGAG9, CYP1A2, CRISP3, BRDT, BRSK1, DDC, \r\nTACR1, ABCA2, CTNNA3, CCNO, TAC3 and CA6 are \r\ndirectly associated with AC among the AC‑specific signatures. \r\nAmong the SCC‑specific signatures, CP19A1, CYP3A4, KLF2, \r\nACLY, MASP1, SOX18, SERPINE2, BHLHE41, PDYN, \r\nFGF4, NUAK1, GCNT1, CCT4 and EBNA1BP2 are directly \r\nassociated with LC. FGF4, CYP19A1, PTPN2, CYP3A4, \r\nSERPINE2, SOX18, MMP20, MASP1, KLF2, ERP44, \r\nNUAK1 and RAET1E are directly associated with SCC. All \r\nrespective remaining genes in each category were indirectly \r\nassociated with LC, AC and SCC. Among the indirectly related \r\ngenes, many genes were associated with the corresponding \r\ndiseases through their association with the well‑known cancer \r\ngene: TP53. Additionally, there was no overlap between the \r\nAC‑specific and SCC‑specific prognostic signatures. Likewise, \r\nthere was no overlap between the AC‑specific prognostic and \r\nSCC‑specific prognostic signatures when the LASSO method \r\nimplemented separately for each subtype. By contrast, there \r\nwere substantial overlaps (32/106, 30.19%) between the \r\nAC‑specific prognostic signature and the SCC‑specific prog\u0002nostic signature when the Cox‑TGDR method was used. The \r\nresulting prognostic signatures by the proposed procedure, \r\nthe Cox‑TGDR and the separate LASSO analysis are listed \r\nin Table II. The overlapping signatures as identified by the \r\nLASSO method, the Cox‑TGDR method and the proposed \r\nprocedure for AC and SCC are presented in Fig. 4.\r\nGiven there was no overlap between the AC‑specific and \r\nSCC‑specific prognostic signatures, how these signatures \r\nintersected at the pathway level was examined. Using the String \r\nsoftware, enriched pathways/gene sets for the AC‑specific \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "prognostic SCC‑specific prognostic signatures were searched \r\nseparately. Using the default cutoff value of 0.05 for the False \r\nDiscovery Rate (FDR), there were 5 GO Biological Process \r\n(BP) terms, 1 GO Molecular Function (MF) terms, 4 GO \r\nCellular Component (CC) terms and 0 KEGG pathways that \r\nwere significantly enriched by the AC‑specific prognostic \r\ngenes, respectively. These sets of gene are listed in Table III. \r\nBy contrast, there were 11 BP terms, 0 MF terms, 23 CC terms \r\nand 2 KEGG pathways that were significantly enriched for the \r\nSCC‑specific genes. The enriched gene sets for the SCC‑specific \r\nprognostic signature are listed in Table IV. Furthermore, there \r\nwas no overlap between the enriched gene sets for AC and \r\nSCC, indicating the pathways enriched by the subtype‑specific \r\ngenes differ. With redundant gene elimination, the identified \r\nAC‑specific and SCC‑specific signatures differ completely at \r\nthe levels of genes and pathways. By contrast, without redun\u0002dant gene elimination, there were substantial overlaps between \r\nthe identified signatures, which suggest redundant gene elimi\u0002nation is beneficial for identifying those genes that are specific \r\nfor a particular subtype.\r\nDiscussion\r\nIn this article, the Cox filter model was extended to solve two \r\nadditional issues. One issue was how to incorporate pathway \r\ninformation by excluding the genes with less importance in \r\nthe gene‑to‑gene interaction network. The other issue involved \r\neliminating the potential redundant genes by adding an extra \r\nrestriction on the average absolute correlation coefficients of a \r\ngene with other genes in the search space.\r\nUsing NSCLC gene expression data, it was demonstrated \r\nthat the proposed method does outperform the original \r\nCox‑filter method and the Cox‑TGDR method. Similar to \r\nthe Cox filter method, the Cox‑TGDR method is capable \r\nof identifying subtype‑specific prognostic genes and does \r\nnot take pathway information into consideration. However, \r\nit is superior to the original Cox‑filter method in terms of \r\nredundant gene elimination, since it considers the additive \r\neffects among genes, so the proposed method presents certain \r\nadvantages.\r\nApart from different objectives, there are substantial \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "differences between the present study and a previous study by \r\nthe authors (14). Firstly, the patients were classified into either \r\nthe high‑risk group or the low‑risk group according to survival \r\ntime in the previous study (14). Secondly, no separation on \r\nAC and SCC subtypes was made in the previous study (14), \r\ntherefore the resulting signatures were general for these two \r\nsubtypes instead of being specific for each subtype. Thirdly, \r\nthe Radical Coordinate Visualization plot (36), which was \r\nused for feature selection in the previous study (14), imposes \r\nrestrictions on the maximal size of a resulting gene signature. \r\nFinally, GSE50081, which was used as the training set in the \r\nprevious study (14), accounted for 40% of the size of the inte\u0002grated data. In the previous study, it was concluded that no \r\ngood separation between the two risk groups was obtained; \r\nsince the best C‑index (the same test set was used in these two \r\nstudies) was only 0.54 (14). By contrast, the present study used \r\nsurvival time data directly and a larger data set to identify \r\nsubtype‑specific prognostic genes with the Cox filter method, \r\nwhich has no restriction on the maximal size of a signature. \r\nWith these advantages, the C‑statistics have been improved \r\ndramatically in the present study.\r\nConsistent with other studies(31,37), it was demonstrated in \r\nthe present study that redundant gene elimination has beneficial \r\neffects on feature selection. With redundant gene elimination \r\nby comparing the Cox filter method with RGE and the original \r\nCox filter method, the resulting signatures have better predictive \r\nperformance, smaller model sizes and more subtype‑specific \r\ngenes. Furthermore, the present study demonstrated that the use \r\nof a pre‑filtering process prior to downstream analysis is very \r\nbeneficial, which is consistent with previous findings by the \r\nauthors(9) and the work by others(38,39). Therefore, it is highly \r\nrecommended to carry out the pre‑filtering process, particu\u0002larly when a very complicated and time‑consuming statistical \r\nmethod was selected for downstream analysis. Certainly, the \r\nmethod of conducting the pre‑filtering procedure is also of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "importance. In the present study, the GeneRank method was \n8552 TIAN: PROGNOSTIC GENES FOR LUNG CANCER SUBTYPES\r\nTable II. Resulting prognostic gene signatures by the proposed procedure, the Cox‑TGDR method and the separate LASSO \r\nanalysis for each subtype.\r\nCox filter with RGE LASSO Cox‑TGDR ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑ ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑ ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑\r\nAC‑specific SCC‑specific AC‑specific SCC‑specific AC‑specific SCC‑specific Overlapped genesa\r\n(44.3%) (55.7%) (47.4%) (52.6%) (28.3%) (41.5%) (30.2%)\r\nN4BP3 PASK EBAG9 ZPBP ELSPBP1 N4BP3 COMMD6\r\nNLRP4 EIF1AY KRT15 TENC1 AKAP4 GNRHR DR1\r\nADCYAP1R1 SLC22A9 TACR1 RAD50 RHOD PAH MICALCL\r\nGRM6 ZNF518A FCER1A CRYAA CD177 MBD6 PRMT6\r\nERMAP CYP3A4 C6orf203 MASP1 ALOX12B VAV2 SEMA3A\r\nGRK7 PLAC8 WNT7A IL1A MMP3 APIP IBTK\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "TACR1 EBNA1BP2 ENG SATB1 ACTR1B RDX HUS1B\r\nCTNNA3 NYNRIN LMTK2 CDH5 ABCC2 CLNK DDB2\r\nPAH BHLHE41 NF2 TMF1 TTPAL SLC1A6 RNF32\r\nCCNO EVC2 AKT1 DNAJB2 STXBP6 PPCDC\r\nRAB3C NCOA7 SLC6A2 HIST1H1C ZNF91\r\nCA6 NUAK1 PKP1 LMX1A DRD4\r\nSPINK5 CPN2 GCNT1 GPR26 IL5RA\r\nPIWIL4 CYP19A1 STRA13 RAPSN ASCL2\r\nRABGAP1 BCAP29 NUMA1 PSMF1 GABARAPL1\r\nSLC22A4 KCNJ8 IL1F10 EPHA4 NRG1\r\nNEURL2 FAM115A E2F2 UPK2 GTF2A1L\r\nSNX24 CKAP2 SLC2A4 RGS13 PRLHR\r\nBRDT KLF2 RNF220 NUP88 DCP1B\r\nNEFH SOX18 AP4E1 RRP1B NUP205\r\nPLCD4 ANKRD7 LSM10 FUBP3 PLEKHG4\r\nABCA2 PKN2 CPSF7 NFIB EMB\r\nDDC FGF4 TRIM63 KRT85 ADAM2\r\nCRISP3 PTPN2 ALOX12 RAD52 SSR4\r\nSIRPB1 GCNT1 CEACAM3 PRKAG1 FAM71C\r\nCWC25 GABRA4 CARD16 CD3EAP KRT2\r\nAAGAB TAF1B COL23A1 ARG1 SIM1\r\nSAP30L CCT4 SARS2 KCNA10 PAPPA2\r\nFBXO44 CCDC42 PITX1 FGF10 EPB41L1\r\nEBAG9 BFSP2 NGFR ZNF417 PAIP2B\r\nBRSK1 ZFAND5 MAP4 TM4SF1\r\nGABRB1 SERPINE2 ATG4B KRT15\r\nCYP1A2 RBM11 FANCC\r\nCETN2 PDYN JDP2\r\nTAC3 PGS1 EIF2B1\r\nRAET1E KLK6\r\nRYR3 LINGO1\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "ZPBP RFXAP\r\nSLC17A1 ZBTB25\r\nACLY IL5\r\nMMP20 S100A1\r\nNUDT5 BIRC3\r\nERP44 GRIN2B\r\nMASP1 FBXW7\r\na\r\nGenes that are overlapped between the AC‑specific prognostic signatures and the SCC‑specific prognostic signatures. The proportion of each \r\nstratum (i.e., AC‑specific genes, SCC‑specific genes and overlapped genes) was listed below each category. AC, lung adenocarcinoma; SCC, \r\nlung squamous cell carcinoma; RGE, redundant gene elimination; TGDR, Threshold Gradient Descent Regularization.\nONCOLOGY LETTERS 15: 8545-8555, 2018 8553\r\nused, which considers pathway information. Numerous studies \r\nhave previously demonstrated that incorporating pathway \r\ninformation improves the predictive capacity of a feature selec\u0002tion method (21‑25). Likewise, a pre‑filtering procedure that \r\nincorporates pathway information is also more helpful for a \r\nfeature selection process. To conclude, the GeneRank method \r\nis preferable as a pre‑filtering procedure over a method that \r\ndoes not consider any pathway information, such as moderated \r\nt‑tests in the R limma package (30).\r\nAcknowledgements\r\nThe author would like to thank Ms. Bing Wang of Jilin \r\nUniversity for preparing the TIFF formatted figures.\r\nFunding\r\nThe present study was supported by the Natural Science \r\nFoundation of China (grant no. 31401123).\r\nTable III. Enriched GO terms and Kyoto Encyclopedia of Genes and Genomes pathways using the 35‑gene lung adenocarcinoma‑\u0002specific prognostic signature.\r\nPathway ID Pathway description FDR\r\nCellular component \r\n GO.0002199 Zona pellucida receptor complex 4.84x10‑14\r\n GO.0005832 Chaperonin‑containing T‑complex 8.25x10‑12\r\n GO.0044297 Cell body 3.66x10‑4\r\n GO.0005874 Microtubule 5.04x10‑3\r\nBiological process \r\n GO.0007339 Binding of sperm to zona pellucida 1.39x10‑8\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": " GO.1901998 Toxin transport 1.50x10‑6\r\n GO.0051084 De novo posttranslational protein folding 3.32x10‑6\r\n GO.0007338 Single fertilization 6.64x10‑6\r\n GO.0006457 Protein folding 5.19x10‑4\r\nMolecular function \r\n GO.0051082 Unfolded protein binding 2.37x10‑3\r\nThe 35‑gene lung adenocarcinoma prognostic signature was identified using the Cox filter method with redundant gene elimination. The search \r\nspace was restricted to the first 1,000 genes (the orders were obtained using the GeneRanks method). FDR, False Discovery Rate; GO, Gene \r\nOntology.\r\nFigure 4. Venn‑diagrams of the respective AC‑specific and SCC‑specific prognostic signatures as selected by the proposed method, the Cox‑TGDR method \r\nand the LASSO method. These two Venn‑diagrams showed there were no or few overlaps between the signatures selected by different feature selection \r\nmethods. AC, lung adenocarcinoma; EBAG9, estrogen receptor binding site associated, antigen, 9; KRT15, keratin 15; MASP1, mannan binding lectin serine \r\npeptidase 1; RGE, redundant gene elimination; SCC, lung squamous cell carcinoma; TACR1, tachykinin receptor 1; TGDR, Threshold Gradient Descent \r\nRegularization; ZBP1, Z‑DNA binding protein 1.\n8554 TIAN: PROGNOSTIC GENES FOR LUNG CANCER SUBTYPES\r\nAvailability of data and materials\r\nAll data used in present study were publicly assessable. \r\nSpecifically, the microarray data included GSE30219, \r\nGSE37745 and GSE50081 datasets from the Gene Expression \r\nOmnibus (GEO, https://www.ncbi.nlm.nih.gov/geo/) reposi\u0002tory, and the RNA‑Seq data were downloaded from The \r\nCancer Genome Atlas Data Portal (level 3) (https://tcga‑data.\r\nnci.nih.gov/tcga/).\r\nAuthors' contributions\r\nST conceived and designed the study, analyzed the data and \r\ninterpreted the results and wrote the paper.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Table IV. Enriched GO terms and KEGG pathways using the 44‑gene SCC subtype specific prognostic signature.\r\nPathway ID Pathway description FDR\r\nCellular component\r\n GO.0005681 Spliceosomal complex 1.12x10‑13\r\n GO.0071013 Catalytic step 2 spliceosome 5.34x10‑12\r\n GO.0030529 Ribonucleoprotein complex 2.33x10‑7\r\n GO.0071942 XPC complex 7.11x10‑6\r\n GO.0097525 Spliceosomal snRNP complex 9.11x10‑6\r\n GO.0005686 U2 snRNP 2.25x10‑4\r\n GO.0016607 Nuclear speck 1.37x10‑3\r\n GO.0005654 Nucleoplasm 4.32x10‑3\r\n GO.0044428 Nuclear part 4.32x10‑3\r\n GO.0000974 Prp19 complex 5.58x10‑3\r\n GO.0005684 U2‑type spliceosomal complex 1.66x10‑2\r\n GO.0043227 Membrane‑bounded organelle 1.68x10‑2\r\n GO.0032991 Macromolecular complex 1.76x10‑2\r\n GO.0043226 Organelle 1.76x10‑2\r\n GO.0044424 Intracellular part 1.76x10‑2\r\n GO.0031981 Nuclear lumen 2.31x10‑2\r\n GO.0097458 Neuron part 2.40x10‑2\r\n GO.0031410 Cytoplasmic vesicle 2.49x10‑2\r\n GO.0044446 Intracellular organelle part 2.49x10‑2\r\n GO.0005622 Intracellular 3.01x10‑2\r\n GO.0016023 Cytoplasmic membrane‑bounded vesicle 4.67x10‑2\r\n GO.0036477 Somatodendritic compartment 4.67x10‑2\r\n GO.0043231 Intracellular membrane‑bounded organelle 4.67x10‑2\r\nBiological process\r\n GO.0000398 mRNA splicing, via spliceosome 3.62x10‑11\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": " GO.0008380 RNA splicing 2.74x10‑10\r\n GO.0006397 mRNA processing 2.33x10‑9\r\n GO.0007217 Tachykinin receptor signaling pathway 2.60x10‑9\r\n GO.0060359 Response to ammonium ion 4.28x10‑3\r\n GO.0000715 Nucleotide‑excision repair, DNA damage recognition 9.43x10‑3\r\n GO.0043279 Response to alkaloid 1.64x10‑2\r\n GO.0032355 Response to estradiol 2.00x10‑2\r\n GO.0043278 Response to morphine 4.27x10‑2\r\n GO.0046878 Positive regulation of saliva secretion 4.27x10‑2\r\n GO.0006289 Nucleotide‑excision repair 4.38x10‑2\r\nKEGG pathways \r\n 3040 Spliceosome 4.66x10‑19\r\n 3420 Nucleotide excision repair 3.49x10‑2\r\nThe 44‑gene SCC prognostic signature was identified using the Cox filter method with redundant gene elimination. The search space was \r\nrestricted to the first 4,000 genes (The orders were obtained using the GeneRanks method). FDR, False Discovery Rate; GO, Gene Ontology; \r\nKEGG, Kyoto Encyclopedia of Genes and Genomes; SCC, squamous cell carcinoma.\nONCOLOGY LETTERS 15: 8545-8555, 2018 8555\r\nEthics approval and consent to participate\r\nNot applicable.\r\nConsent for publication\r\nNot applicable.\r\nCompeting interests\r\nThe authors declare that they have no competing interests.\r\nReferences\r\n1. Lemjabbar‑Alaoui H, Hassan OU, Yang YW and Buchanan P: \r\nLung cancer: Biology and treatment options. Biochim Biophys \r\nActa 1856: 189‑210, 2015.\r\n2. Lu C, Onn A and Vaporciyan A: Cancer of the lung. In: \r\nHolland‑Frei Cancer Medicine. Kufe DW, Pollock RE, \r\nWeichselbaum RR, Bast RC, Gansler TS, Holland JF and Frei E \r\n(eds). 8th edition. People's Medical Publishing House, Shelton, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "CT, 2010.\r\n3. Pikor LA, Ramnarine VR, Lam S and Lam WL: Genetic \r\nalterations defining NSCLC subtypes and their therapeutic \r\nimplications. Lung Cancer 82: 179‑189, 2013.\r\n4. Siegel R, Naishadham D and Jemal A: Cancer statistics, 2012. \r\nCA Cancer J Clin 62: 10‑29, 2012.\r\n5. Saeys Y, Inza I and Larrañaga P: A review of feature selection \r\ntechniques in bioinformatics. Bioinformatics 23: 2507‑2517, \r\n2007.\r\n6. Hira ZM and Gillies DF: A review of feature selection and \r\nfeature extraction methods applied on microarray data. Adv \r\nBioinformatics 2015: 198363, 2015.\r\n7. Ben‑Hamo R, Boue S, Martin F, Talikka M and Efroni S: \r\nClassification of lung adenocarcinoma and squamous cell \r\ncarcinoma samples based on their gene expression profile in the \r\nsbv IMPROVER Diagnostic Signature Challenge. Syst Biom 1: \r\n83‑92, 2013.\r\n8. Tian S and Suárez‑fariñas M: Hierarchical‑TGDR: Combining \r\nbiological hierarchy with a regularization method for multi‑class \r\nclassification of lung cancer samples via high‑throughput \r\ngene‑expression data. Syst Biom 1: 93‑102, 2013.\r\n9. Tian S and Suárez‑Fariñas M: Multi‑TGDR: A regularization \r\nmethod for multi‑class classification in microarray experiments. \r\nPLoS One 8: e78302, 2013.\r\n10. Zhu CQ, Ding K, Strumpf D, Weir BA, Meyerson M, Pennell N, \r\nThomas RK, Naoki K, Ladd‑Acosta C, Liu N, et al: Prognostic and \r\npredictive gene signature for adjuvant chemotherapy in resected \r\nnon‑small‑cell lung cancer. J Clin Oncol 28: 4417‑4424, 2010.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "11. Der SD, SykesJ, Pintilie M, Zhu CQ, Strumpf D, Liu N, Jurisica I, \r\nShepherd FA and Tsao MS: Validation of a histology‑independent \r\nprognostic gene signature for early‑stage, non‑small‑cell lung \r\ncancer including stage IA patients. J Thorac Oncol 9: 59‑64, \r\n2014.\r\n12. Zhao Q, Shi X, Xie Y, Huang J, Shia B and Ma S: Combining \r\nmultidimensional genomic measurements for predicting cancer \r\nprognosis: Observations from TCGA. Brief Bioinform 16: \r\n291‑303, 2014.\r\n13. Zhao SD, Parmigiani G, Huttenhower C and Waldron L: \r\nMás‑o‑menos: A simple sign averaging method for discrimination \r\nin genomic data analysis. Bioinformatics 30: 3062‑3069, 2014.\r\n14. Tian S: Classification and survial prediction for early‑stage lung \r\nadenocarcinoma and squamous cell carcinoma patients. Oncol \r\nLett 14: 5464‑5470, 2017.\r\n15. Tian S: Identification of subtype‑specific prognostic genes for \r\nearly‑stage lung adenocarcinoma and squamous cell carcinoma \r\npatients using an embedded feature selection algorithm. PLoS\r\nOne 10: e0134630, 2015.\r\n16. Tian S, Wang C and An MW: Test on existence of histology \r\nsubtype‑specific prognostic signatures among early stage lung \r\nadenocarcinoma and squamous cell carcinoma patients using a \r\nCox‑model based filter. Biol Direct 10: 15, 2015.\r\n17. Cox DR: Regression models and life‑tables. J R Stat Soc B 34: \r\n187‑220, 1972.\r\n18. Wang S, Nan B, Zhou N and Zhu J: Hierarchically penalized \r\nCox regression with grouped variables. Biometrika 96: 307‑322, \r\n2009.\r\n19. Breheny P and Hunag J: Penalized methods for bi‑level variable \r\nselection. Stat Interface 2: 369‑380, 2009.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "20. Tian S, Wang C, Chang HH and Sun G: Identification of prog\u0002nostic genes and gene sets for early‑stage non‑small cell lung \r\ncancer using bi‑level selection methods. Sci Rep 7: 46164, 2017.\r\n21. Tian S, Chang HH and Wang C: Weighted‑SAMGSR: Combining \r\nsignificance analysis of microarray‑gene set reduction algorithm \r\nwith pathway topology‑based weights to select relevant genes. \r\nBiol Direct 11: 50, 2016.\r\n22. JohannesM, Brase JC, Fröhlich H, Gade S, GehrmannM, FälthM, \r\nSültmann H and Beissbarth T: Integration of pathway knowledge \r\ninto a reweighted recursive feature elimination approach for risk \r\nstratification of cancer patients. Bioinformatics 26: 2136‑2144, \r\n2010.\r\n23. Chen L, Xuan J, Riggins RB, Clarke R and Wang Y: Identifying \r\ncancer biomarkers by network‑constrained support vector \r\nmachines. BMC Syst Biol 5: 161, 2011.\r\n24. Sun H, Lin W, Feng R and Li H: Network‑regularized \r\nhigh‑dimensional Cox regression for analysis of genomic data. \r\nStat Sin 24: 1433‑1459, 2014.\r\n25. Sokolov A, Carlin DE, Paull EO, Baertsch R and Stuart JM: \r\nPathway‑based genomics prediction using generalized elastic \r\nnet. PLoS Comput Biol 12: e1004790, 2016.\r\n26. Morrison JL, BreitlingR, Higham DJ and Gilbert DR: GeneRank: \r\nUsing search engine technology for the analysis of microarray \r\nexperiments. BMC Bioinformatics 6: 233, 2005.\r\n27. McCall MN, Bolstad BM and Irizarry RA: Frozen robust multi\u0002array analysis (fRMA). Biostatistics 11: 242‑253, 2010.\r\n28. Johnson WE, Li C and Rabinovic A: Adjusting batch effects \r\nin microarray expression data using empirical bayes methods. \r\nBiostatistics 8: 118‑127, 2007.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "29. Law CW, Chen Y, Shi W and Smyth GK: Voom: Precision \r\nweights unlock linear model analysis tools for RNA‑seq read \r\ncounts. Genome Biol 15: R29, 2014.\r\n30. Smyth GK: Limma: Linear Models for Microarray Data. In \r\nBioinformatics and Computational Biology Solutions Using R \r\nand Bioconductor 397‑420, 2005.\r\n31. Gu J, Lu Y, Liu C and Lu H: Multiclass classification of sarcomas \r\nusing pathway based feature selection method. J Theor Biol 362: \r\n3‑8, 2014.\r\n32. Eng KH, Wang S, Bradley WH, Rader JS and Kendziorski C: \r\nPathway‑index models for construction of patient‑specific risk \r\nprofiles. Stat Med 32: 1524‑1535, 2013.\r\n33. Uno H, Cai T, Pencina MJ, D'Agostino RB and Wei LJ: On the \r\nC‑statistics for evaluating overall adequacy of risk prediction \r\nprocedures with censored survival data. Stat Med 30: 1105‑1117, \r\n2011.\r\n34. Laimighofer M, Krumsiek J, Buettner F and Theis FJ: Unbiased \r\nprediction and feature selection in high‑dimensional survival \r\nregression. J Comput Biol 23: 279‑290, 2016.\r\n35. Tibshirani R: Regression shrinkage and selection via the Lasso. \r\nJ Royal Statistical Society Series B (Methodological) 58: \r\n267‑288, 1996.\r\n36. Hoffman P, Grinstein G, Marx K, Grosse I and Stanley E: \r\nDNA visual and analytic data mining. Proceedings Vis'97 \r\n(cat no. 97CB36155), 1997.\r\n37. Ge R, Zhou M, Luo Y, Meng Q, Mai G, Ma D, Wang G and Zhou F: \r\nMcTwo: A two‑step feature selection algorithm based on maximal \r\ninformation coefficient. BMC Bioinformatics 17: 142, 2016.\r\n38. Chu W, Li R and Reimherr M: Feature screening fo time‑varying \r\ncoefficient models with ultrahigh dimensional longitudinal data. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6343936781704273494,
+        "filename": "ol-15-06-8545.PMC5950526.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 99,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Ann Appl Stat 10: 596‑617, 2016.\r\n39. Yang G, Yu Y, Li R and Buu A: Feature screening in ultrahigh \r\ndimensional Cox's model. Stat Sin 26: 881‑901, 2016.\r\nThis work is licensed under a Creative Commons \r\nAttribution-NonCommercial-NoDerivatives 4.0 \r\nInternational (CC BY-NC-ND 4.0) License.\n\n"
+  }
+]

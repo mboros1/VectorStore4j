@@ -1,0 +1,242 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2408879413123407472,
+        "filename": "jove-48-2361.PMC3197388.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 10,
+      "version": "1.0.0"
+    },
+    "text": "Journal of Visualized Experiments www.jove.com\r\nCopyright © 2011 Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported\r\nLicense\r\nFebruary 2011 | 48 | e2361 | Page 1 of 7\r\nVideo Article\r\nRecapitulation of an Ion Channel IV Curve Using Frequency Components\r\nJohn R. Rigby1, Steven Poelzing1\r\n1\r\nBioengineering, University of Utah\r\nCorrespondence to: Steven Poelzing at poelzing@cvrti.utah.edu\r\nURL: http://www.jove.com/video/2361\r\nDOI: doi:10.3791/2361\r\nKeywords: Biophysics, Issue 48, Ion channel, Kir2.1, impedance spectroscopy, frequency response, voltage clamp, electrophysiology\r\nDate Published: 2/8/2011\r\nCitation: Rigby, J.R., Poelzing, S. Recapitulation of an Ion Channel IV Curve Using Frequency Components. J. Vis. Exp. (48), e2361,\r\ndoi:10.3791/2361 (2011).\r\nAbstract\r\nINTRODUCTION: Presently, there are no established methods to measure multiple ion channel types simultaneously and decompose the\r\nmeasured current into portions attributable to each channel type. This study demonstrates how impedance spectroscopy may be used to identify\r\nspecific frequencies that highly correlate with the steady state current amplitude measured during voltage clamp experiments. The method\r\ninvolves inserting a noise function containing specific frequencies into the voltage step protocol. In the work presented, a model cell is used to\r\ndemonstrate that no high correlations are introduced by the voltage clamp circuitry, and also that the noise function itself does not introduce any\r\nhigh correlations when no ion channels are present. This validation is necessary before the technique can be applied to preparations containing\r\nion channels. The purpose of the protocol presented is to demonstrate how to characterize the frequency response of a single ion channel type\r\nto a noise function. Once specific frequencies have been identified in an individual channel type, they can be used to reproduce the steady state\r\ncurrent voltage (IV) curve. Frequencies that highly correlate with one channel type and minimally correlate with other channel types may then be\r\nused to estimate the current contribution of multiple channel types measured simultaneously.\r\nMETHODS: Voltage clamp measurements were performed on a model cell using a standard voltage step protocol (-150 to +50 mV, 5mV steps).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2408879413123407472,
+        "filename": "jove-48-2361.PMC3197388.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 10,
+      "version": "1.0.0"
+    },
+    "text": "Noise functions containing equal magnitudes of 1-15 kHz frequencies (zero to peak amplitudes: 50 or 100mV) were inserted into each voltage\r\nstep. The real component of the Fast Fourier transform (FFT) of the output signal was calculated with and without noise for each step potential.\r\nThe magnitude of each frequency as a function of voltage step was correlated with the current amplitude at the corresponding voltages.\r\nRESULTS AND CONCLUSIONS: In the absence of noise (control), magnitudes of all frequencies except the DC component correlated poorly\r\n(|R|<0.5) with the IV curve, whereas the DC component had a correlation coefficient greater than 0.999 in all measurements. The quality of\r\ncorrelation between individual frequencies and the IV curve did not change when a noise function was added to the voltage step protocol.\r\nLikewise, increasing the amplitude of the noise function also did not increase the correlation. Control measurements demonstrate that the\r\nvoltage clamp circuitry by itself does not cause any frequencies above 0 Hz to highly correlate with the steady-state IV curve. Likewise,\r\nmeasurements in the presence of the noise function demonstrate that the noise function does not cause any frequencies above 0 Hz to correlate\r\nwith the steady-state IV curve when no ion channels are present. Based on this verification, the method can now be applied to preparations\r\ncontaining a single ion channel type with the intent of identifying frequencies whose amplitudes correlate specifically with that channel type.\r\nVideo Link\r\nThe video component of this article can be found at http://www.jove.com/video/2361/\r\nProtocol\r\n1. Prepare Noise Function and Input Signal\r\n1. Create a noise function containing the desired frequency components. This can be done by describing the desired frequency components in\r\nthe frequency domain and then calculating the inverse fast Fourier transform. In this study, 1 - 15 kHz was used. All Fourier transforms and\r\ninverse Fourier transforms described in this study were calculated using Matlab's FFT and IFFT functions.\r\n2. Scale the amplitude of the noise function appropriately. In this study the noise function was scaled such that the zero to peak amplitude of the\r\nnoise function was 50 or 100 mV.\r\n3. Create a stimulus file using methods appropriate for the acquisition software being used. For Clampex 8, first create a text file with the\r\nappropriate header. Below the header, insert the time increments for a single sweep in the first column. The time increments should have\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2408879413123407472,
+        "filename": "jove-48-2361.PMC3197388.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 10,
+      "version": "1.0.0"
+    },
+    "text": "the same temporal spacing as the sampling interval used in the measurements. For each sweep in the voltage step protocol insert the exact\r\nvoltages desired at each time step. This should include the noise function.\r\n2. Perform Voltage Clamp Measurements\r\n1. Create a measurement protocol within the acquisition software that is compatible with the stimulus file generated previously. In Clampex,\r\nthere is a menu that allows the user to associate a stimulus file with the current protocol.\nJournal of Visualized Experiments www.jove.com\r\nCopyright © 2011 Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported\r\nLicense\r\nFebruary 2011 | 48 | e2361 | Page 2 of 7\r\n2. Attach a model (or biological) cell to the measurement equipment.\r\n3. Perform the experiment as scheduled. For control purposes, make sure to include periodic measurements that do not include any noise\r\nfunctions.\r\n3. Post Experiment Analysis\r\n1. Calculate the IV curve for an individual recording. If the recording is at steady state when the noise function is applied, the IV curve can be\r\ncreated using a steady state portion of the recording temporally outside the range of the noise function. If the recording was not at steady\r\nstate, the noise function may interfere with calculation of the IV curve, so a second recording should be made without the noise function\r\npresent.\r\n2. For each voltage step in a recording calculate the fast Fourier transform of the portion of the recording where the noise function was inserted.\r\nCombine the Fourier transform for each voltage step into a m x n matrix, where m is the number of frequencies in the FFT, and n is the\r\nnumber of voltage steps. In this configuration, each row of the matrix represents the amplitude of a single frequency at all voltage steps in the\r\nexperiment.\r\n3. For each frequency (ie each row in the above matrix) correlate the row with the IV curve generated in 3.1 and record the correlation\r\ncoefficient.\r\n4. Plot the correlation coefficient vs frequency to visualize frequencies which highly correlate with the IV curve. Since the DC component is\r\ncontained within the first frequency of the FFT, the correlation coefficient for this frequency should always be > 0.99.\r\n4. Representative Results:\r\nRepresentative voltage clamp measurements are shown for a model cell without (Figure 1A) and with (Figure 1B) a noise function inserted into\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2408879413123407472,
+        "filename": "jove-48-2361.PMC3197388.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 10,
+      "version": "1.0.0"
+    },
+    "text": "the voltage step protocol. The IV curve was also calculated for the model cell (Figure 1C). For each sweep, in the recordings from Figure 1,\r\nthe FFT was calculated over the time frame where the noise function was inserted (see red box in Figures 1A, 1B). Figures 2A and 2B show\r\nthe FFTs calculated for the recordings shown in Figure 1A and 1B, respectively. Upon visual inspection, the DC component (highlighted in\r\nred) appears to mimic the shape of the IV curve. Without the noise function, all frequencies above DC appear to have amplitudes near zero\r\n(Figure 2A). When the noise function is inserted, frequencies between 1 and 15 kHz have visually noticeable amplitudes (Figure 2B). Figure\r\n3 shows the result of correlating individual frequency amplitudes over the range of voltage steps against the IV curve. Figure 3A-C shows the\r\ncorrelation coefficients when the experiment was done under control conditions (no noise function) and with noise amplitudes of 50 and 100\r\nmV, respectively. Notice in all cases, the DC component appears to correlate nearly perfectly with the IV curve. Indeed, for all recordings, the\r\ncorrelation coefficient for this frequency was greater than 0.99 (R = 0.9996 ± 1E-5, mean ± standard deviation). When we look at Figure 3A\r\n(control conditions), there are no frequencies besides the DC component whose amplitude significantly correlates with the IV curve. Specifically,\r\nnone of these frequencies have correlation coefficients greater than 0.5. Upon insertion of the lowest amplitude noise function (50 mV), these\r\nsame frequencies still had correlation coefficients less than 0.5. The correlation coefficients for these frequencies also did not become greater\r\nthan 0.5 when the noise amplitude was increased to 100 mV.\nJournal of Visualized Experiments www.jove.com\r\nCopyright © 2011 Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported\r\nLicense\r\nFebruary 2011 | 48 | e2361 | Page 3 of 7\r\nFigure 1. Model Cell Recordings: Voltage clamp recordings are shown for a model cell without (1A) and with (1B) a noise function included in the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2408879413123407472,
+        "filename": "jove-48-2361.PMC3197388.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 10,
+      "version": "1.0.0"
+    },
+    "text": "voltage step protocol. For the first and last 20 ms of each sweep, the potential was kept at the holding potential (0 mV). Each voltage step was\r\n80 ms long, and the noise function was inserted 40 ms after the beginning of the step. The noise function had a duration of 30 ms and contained\r\nfrequencies between 1 and 15 kHz. Voltage was stepped fro, -150 to +50 mV in 5 mV increments. An IV curve for the model cell is also shown\r\n(1C). To make the recordings easier to read, only every fifth sweep was included in 1A and 1B, but all sweeps were included in 1C.\nJournal of Visualized Experiments www.jove.com\r\nCopyright © 2011 Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported\r\nLicense\r\nFebruary 2011 | 48 | e2361 | Page 4 of 7\r\nFigure 2. FFT of Recordings: The FFT was calculated for the 30 ms portion of each sweep where the noise function is to be inserted (the area\r\nbounded by the red box in Figures 1A, 1B). Figures 2A and 2B show the FFTs calculated without and with the noise function, respectively. Once\r\nagain, for clarity, only the FFT from every fifth sweep is included in the figure, but all sweeps were used in future calculations.\nJournal of Visualized Experiments www.jove.com\r\nCopyright © 2011 Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported\r\nLicense\r\nFebruary 2011 | 48 | e2361 | Page 5 of 7\r\nFigure 3. IV Frequency Correlations: The results of correlations between the IV curve of a recording and the amplitude of individual frequencies\r\nover the range of voltage steps is shown. Figures 1A - 1C show the correlation coefficient for frequencies from 0 to 20 kHz under control\r\nconditions, and in the presence of 50 or 100 mV noise functions, respectively.\r\nFigure 4. Re-Creation of the IV Curve: The IV curve for the model cell (same as Figure 1C) and the magnitude of two frequencies were overlaid.\r\nThe first frequency was the DC component (R = 0.995), and the second was a randomly chosen frequency with low correlation (R = 0.3212). The\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2408879413123407472,
+        "filename": "jove-48-2361.PMC3197388.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 10,
+      "version": "1.0.0"
+    },
+    "text": "frequency amplitudes were scaled to approximately the same amplitude as the IV curve.\nJournal of Visualized Experiments www.jove.com\r\nCopyright © 2011 Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported\r\nLicense\r\nFebruary 2011 | 48 | e2361 | Page 6 of 7\r\nDiscussion\r\nThere are technical obstacles that presently prevent researchers from measuring multiple ion channel types simultaneously with the intent\r\nof later determining how much current should be attributed to each channel type. Because of this limitation, ion channels are usually studied\r\nindividually using techniques such as voltage, current, and action potential clamp.1To study individual channel types, heterologous expression\r\nsystems are often used.2 When working with cells isolated from tissue, such as cardiomyocytes, other means must be used to block various ion\r\nchannels. For example, sodium channels can be inactivated by a slow depolarizing voltage ramp,3 inward rectifying potassium channels can be\r\nblocked with extracellular BaCl2,4 and calcium channels can be blocked using verapamil.5\r\nOne method used that partially overcomes this limitation is to measure current flux through two channels types simultaneously, then repeat the\r\nmeasurement after selectively blocking one channel type with an appropriate agent. Subtraction of the two measurements can then be used to\r\nestimate the amount of current attributable to the channel type that was blocked.6 However, there are two major limitations to this technique.\r\nFirst, chemical agents have not been identified that can selectively block each ion channel, and some widely used drugs have non-specific\r\ninteractions with other channel types.5,7 Second, it cannot be determined from this technique whether one channel is modulated by another\r\nchannel. For example, heterogeneous expression of NaV 1.5 and Kir 2.1 has been shown in guinea pig ventricles, and it has been suggested\r\nthat a synergistic relationship exists between the two channels, such that higher Kir 2.1 expression in the right ventricle depresses conduction\r\nvelocity.\r\n8\r\nPresently, this cannot be verified.\r\nIn this study, we suggest that impedance spectroscopy may be a useful tool for studying multiple ion channel types measured simultaneously.\r\nAlthough the method presented has never been used to discern currents from two channel types measured simultaneously, impedance\r\nspectroscopy has been used to study a number of other aspects of ion channel function. Goodman and Art showed using turtle auditory hair\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2408879413123407472,
+        "filename": "jove-48-2361.PMC3197388.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 10,
+      "version": "1.0.0"
+    },
+    "text": "cells that current clamp protocols can be modified to tune a cell to different frequencies, and the oscillations in the transmembrane potential\r\nis due to an interplay between an inward rectifying K+ channel and a Ca2+ channel.9 Han and Frazier demonstrated that impedance can be\r\nmeasured in a single cell over a wide range of frequencies ( 100 hZ to 5 MhZ), and the increase in impedance observed when K+ or Ca2+\r\nchannels were blocked could be a simple means to detect channel block in high throughput drug screens.10 Hayashi and Fishman have used\r\ncomplex conductance to study kinetic properties of an inward rectifying K+ channel.11 Other groups have inserted a single frequency into the\r\nvoltage clamp protocol of different channel types and showed that the observed frequency response agreed with the expected response for\r\nsome frequencies but not others.12,13 Millonas and Hanck suggested the reason some frequencies did not produce the expected response is the\r\npresence of multiple rate constants in the Markov model.12 Studies such as these, as well as others, have demonstrated that there are instances\r\nwhen ionic currents measured from ion channels while using impedance spectroscopy do not agree with the theoretical frequency response. This\r\nis not a concern in this study because the purpose of the method in this study is to identify frequencies that correlate with the current amplitude\r\nindependent of the underlying assumptions of the membrane electrical circuit. Furtheremore, the current amplitude is calculated from portions\r\nof the recordings that do not have any noise functions inserted into them. A number of other studies also present models of numerous ion\r\nchannels exhibiting numerous conducting and non-conduction states all with their own rate constants.14,15,16 Thompson et al showed that the\r\nselectivity filter of the KcsA channel has different binding sites for Na\r\n+\r\n, Li+, and K+, and the energetic costs of moving from one binding site to\r\nanother as an ion moves through the selectivity filter is what makes the channel preferentially conduct K+ ions through its pore.17 In this paper\r\nwe inserted a range of frequencies (noise function) into a voltage step protocol and looked for frequencies whose amplitude highly correlate\r\nwith the overall current amplitude. Since strong evidence has been presented suggesting multiple rate constants play a role in conduction of\r\nions through different channels, introduction of the frequencies associated with these rate constants may cause certain frequencies to resonate\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2408879413123407472,
+        "filename": "jove-48-2361.PMC3197388.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 10,
+      "version": "1.0.0"
+    },
+    "text": "or highly correlate with the current amplitude, which would not have otherwise. The technique demonstrated in this study is performed on a\r\nmodel cell, which is a parallel RC circuit that is usually used to test the voltage clamp circuitry and acquisition equipment. It is not expected that\r\nany frequencies besides DC would correlate with the current magnitude, and this is shown in our data. We also show that addition of the noise\r\nfunction did not cause any frequencies to highly correlate with the current amplitude. These two findings are critical because they show that the\r\nmeasurement equipment and noise function do not by themselves cause any frequencies to correlate with the current amplitude. When future\r\nstudies make measurements using membranes containing ion channels, it is expected that, depending on the channel used, frequencies that\r\ncorrespond to rate constants in the selectivity filter or possibly the pore will influence the frequency response of the channel and affect which\r\nfrequencies have high or low correlation with the current amplitude.\r\nSince this method is a new technique for studying ion channels, there are a number of directions future studies could follow. First, the technique\r\nshould be used to characterize the frequency response of specific isolated channels. Additional work also needs to be done to calibrate the\r\nfrequency amplitudes to the current amplitudes. Once multiple channels are characterized individually, multiple channel types should be\r\nmeasured simultaneously. The technique could also be adapted for use in action potential clamp, current clamp, and field stimulation studies.\r\nWhile this is a new technique, it shows what may be a powerful way to make electrophysiological measurements that were previously not\r\npossible and provide valuable new insights into the physiological role of ion channels.\r\nDisclosures\r\nNo conflicts of interest declared.\r\nAcknowledgements\r\nThis work was supported by the National Institutes of Health grant number R21-HL094828-01 awarded to Dr. Poelzing.\nJournal of Visualized Experiments www.jove.com\r\nCopyright © 2011 Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported\r\nLicense\r\nFebruary 2011 | 48 | e2361 | Page 7 of 7\r\nReferences\r\n1. Hamill, O.P., Marty, A., Neher, E., Sakmann, B. & Sigworth, F.J. Improved patch-clamp techniques for high-resolution current recording from\r\ncells and cell-free membrane patches. Pflugers Arch 391, 85-100 (1981).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2408879413123407472,
+        "filename": "jove-48-2361.PMC3197388.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 10,
+      "version": "1.0.0"
+    },
+    "text": "2. Ukomadu, C., Zhou, J., Sigworth, F.J. & Agnew, W.S. [mu]l Na\r\n+\r\n channels expressed transiently in human embryonic kidney cells: Biochemical\r\nand biophysical properties. Neuron 8, 663-676 (1992).\r\n3. Abriel, H. et al. Novel Arrhythmogenic Mechanism Revealed by a Long-QT Syndrome Mutation in the Cardiac Na+ Channel. Circ Res 88,\r\n740-745 (2001).\r\n4. Giles, W.R. & Imaizumi, Y. Comparison of potassium currents in rabbit atrial and ventricular cells. J Physiol 405, 123-145 (1988).\r\n5. Lee, K.S. & Tsien, R.W. Mechanism of calcium channel blockade by verapamil, D600, diltiazem and nitrendipine in single dialysed heart cells.\r\nNature 302, 790-794 (1983).\r\n6. Ozdemir, S. et al. Pharmacological Inhibition of Na/Ca Exchange Results in Increased Cellular Ca2+ Load Attributable to the Predominance of\r\nForward Mode Block. Circ Res 102, 1398-1405 (2008).\r\n7. Zhang, S., Zhou, Z., Gong, Q., Makielski, J.C. & January, C.T. Mechanism of Block and Identification of the Verapamil Binding Domain to\r\nHERG Potassium Channels. Circ Res 84, 989-998 (1999).\r\n8. Veeraraghavan, R. & Poelzing, S. Mechanisms underlying increased right ventricular conduction sensitivity to flecainide challenge.\r\nCardiovasc. Res 77, 749-756 (2008).\r\n9. Goodman, M. & Art, J. Positive feedback by a potassium-selective inward rectifier enhances tuning in vertebrate hair cells. Biophysical\r\nJournal 71, 430-442 (1996).\r\n10. Han, A. & Frazier, A.B. Ion channel characterization using single cell impedance spectroscopy. Lab Chip 6, 1412-1414 (2006).\r\n11. Hayashi, H. & Fishman, H. Inward rectifier K+-channel kinetics from analysis of the complex conductance of Aplysia neuronal membrane.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2408879413123407472,
+        "filename": "jove-48-2361.PMC3197388.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 351,
+      "total_chunks": 10,
+      "version": "1.0.0"
+    },
+    "text": "Biophysical Journal 53, 747-757 (1988).\r\n12. Millonas, M.M. & Hanck, D.A. Nonequilibrium response spectroscopy of voltage-sensitive ion channel gating. Biophys. J 74, 210-229 (1998).\r\n13. Misakian, M., Kasianowicz, J., Robertson, B. & Petersons, O. Frequency response of alternating currents through the Staphylococcus aureus\r\nalpha-hemolysin ion channel. Bioelectromagnetics 22, 487-493 (2001).\r\n14. Sale, H. et al. Physiological Properties of hERG 1a/1b Heteromeric Currents and a hERG 1b-Specific Mutation Associated With Long-QT\r\nSyndrome. Circ Res 103, e81-95 (2008).\r\n15. Blatz, A.L. & Magleby, K.L. Quantitative description of three modes of activity of fast chloride channels from rat skeletal muscle. J Physiol 378,\r\n141-174 (1986).\r\n16. Kuo, J.J., Lee, R.H., Zhang, L. & Heckman, C.J. Essential role of the persistent sodium current in spike initiation during slowly rising inputs in\r\nmouse spinal neurones. The Journal of Physiology 574, 819-834 (2006).\r\n17. Thompson, A.N. et al. Mechanism of potassium-channel selectivity revealed by Na(+) and Li(+) binding sites within the KcsA pore. Nat.\r\nStruct. Mol. Biol 16, 1317-1324 (2009).\n\n"
+  }
+]

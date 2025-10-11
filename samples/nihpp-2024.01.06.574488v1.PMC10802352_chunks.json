@@ -1,0 +1,2210 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": true,
+      "headings": [],
+      "min_heading_level": 1,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "1\r\nSynthetase and Hydrolase Specificity Collec4vely Excludes 2’-Deoxyguanosine from Bacterial \r\nAlarmone\r\nRich W. Zhou1, Isis J. Gordon1, Yuanyuan Hei1 and Boyuan Wang1*\r\n1-Department of Pharmacology, UT Southwestern Medical Center, Dallas, TX 75390, USA\r\nAbstract\r\nIn response to starvaRon, virtually all bacteria pyrophosphorylate the 3’-hydroxy group of GTP or \r\nGDP to produce two messenger nucleoRdes collecRvely denoted as (p)ppGpp. Also known as \r\nalarmones, (p)ppGpp reprograms bacterial physiology to arrest growth and promote survival. \r\nIntriguingly, although cellular concentraRon of dGTP is two orders of magnitude lower than that \r\nof GTP, alarmone synthetases are highly selecRve against using 2’-deoxyguanosine (2dG) \r\nnucleoRdes as substrates. We thus hypothesize that producRon of 2dG alarmone, (p)pp(dG)pp, \r\nis highly deleterious, which drives a strong negaRve selecRon to exclude 2dG nucleoRdes from \r\nalarmone signaling. In this work, we show that the B. sub'lis SasB synthetase prefers GDP over \r\ndGDP with 65,000-fold higher kcat/Km, a specificity stricter than RNA polymerase selecRng against \r\n2’-deoxynucleoRdes. Using comparaRve chemical proteomics, we found that although most \r\nknown alarmone-binding proteins in Escherichia coli cannot disRnguish ppGpp from pp(dG)pp, \r\nhydrolysis of pp(dG)pp by the essenRal hydrolase, SpoT, is 1,000-fold slower. This inability to \r\ndegrade 2’-deoxy-3’-pyrophosphorylated substrate is a common feature of the alarmone \r\nhydrolase family. We further show that SpoT is a binuclear metallopyrophoshohydrolase and that \r\nhydrolysis of ppGpp and pp(dG)pp shares the same metal dependence. Our results support a \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "model in which 2’-OH directly coordinates the Mn2+ at SpoT acRve center to stabilize the \r\nhydrolysis-producRve conformaRon of ppGpp. Taken together, our study reveals a vital role of 2’-\r\nOH in alarmone degradaRon, provides new insight on the catalyRc mechanism of alarmone \r\nhydrolases, and leads to the conclusion that 2dG nucleoRdes must be strictly excluded from \r\nalarmone synthesis because bacteria lack the key machinery to down-regulate such products. \r\nIntroduc4on\r\nHyperphosphorylated guanosine nucleoRdes are an important class of bacterial second \r\nmessenger 1-3. Produced by transferring the b,g-diphosphate of ATP to the 3’-OH of GTP or GDP, \r\nthese nucleoRdes are collecRvely denoted as (p)ppGpp (Figure 1A). First discovered over half a \r\ncentury ago in amino-acid starved E. coli, these nucleoRdes are o`en referred to as “alarmones” \r\nfor their funcRons to alert bacteria to starvaRon and to reprogram cells to arrest growth and \r\npromote survival 4. This process, known as the stringent response, is key to the fitness of bacteria \r\nunder fluctuaRng condiRons and plays a pivotal role in pathogenesis of many infecRous species5.\r\nE. coli encodes two alarmone synthetases, RelA and SpoT 6, 7(Figure 1A). SpoT also possesses a \r\nhydrolase domain that cleaves the 3’-diphosphate from alarmones 6. RelA shares the same \r\ndomain architecture to SpoT, but RelA hydrolase domain is a pseudoenzyme bearing inacRvaRng \r\nmutaRons. Nevertheless, both alarmone synthetases and hydrolases are termed RelA-SpoT \r\nhomolog (RSH) proteins 8. MulRple mechanisms have been reported to trigger alarmone \r\naccumulaRon in response to starvaRon. For example, RelA associates to translaRng ribosomes \r\nand is acRvated by uncharged tRNA as a signal of amino acid-starvaRon 9. SpoT senses signals \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "available under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n2\r\nincluding apo acyl carrier protein (fady-acid starvaRon), YeK protein (carbon starvaRon) and the \r\nlack of branched-chain amino acids in favor of alarmone acculumaRon10-12. E. coli also encodes \r\nGppA, a hydrolase that converts pppGpp to ppGpp, making ppGpp the predominant alarmone \r\nspecies in E. coli (Figure 1A, top) 13. Once accumulated in bacterial cells, (p)ppGpp bind many \r\nprotein effectors to modulate their acRvity, stability, or interacRons 3, 14, 15. In E. coli, for example, \r\nppGpp reprograms transcripRon by directly binding to RNA polymerase, down-regulaRng \r\ntranslaRon by inhibiRng mulRple ribosome-associated GTPases and modulaRng nucleoRde and \r\namino-acid metabolism by interacRng with related metabolic enzymes. Despite efforts to idenRfy \r\n(p)ppGpp binding proteins from several bacterial organisms16-20, how (p)ppGpp Rps the balance \r\nbetween growth and survival is not completely understood. \r\nRecently, several RSH synthetases were found to pyrophosphorylate the 3’-end of transfer RNAs\r\nand 3’-OH of adenosine nucleoRdes 21, 22. Their products are no longer capable of supporRng \r\nprotein translaRon and energy metabolism, respecRvely (Figure 1A). AcRviRes of these homologs \r\nare so strong that they cause cytotoxicity. Genes of these RSH-synthetase toxins are found co\u0002operonic with their anRtoxin genes encoding an anRdote to ensure survival of the host 23.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "AcRvaRon of these toxins occurs through either recognizing phage proteins in the host or being \r\nsecreted into another bacterial cell 21, 24. In the first scenario, the toxicity sacrifices the infected \r\nhost cell to abort phage replicaRon and protect the bacterial populaRon while in the second, the \r\ntoxin antagonizes the growth of the recipient cell, potenRally from a compeRng species, to \r\nestablish the host’s advantage in the niche 21, 24 (Figure 1A). These new discoveries show that RSH \r\nsynthetases can evolve to adapt pyrophosphate-accepRng substrates with different nucleobase \r\nand/or 5’-appendages. Nonetheless, no RSH synthetase has been observed to tolerate 2’-deoxy \r\nmodificaRon of the substrate. Recently, PaRl et al. showed that dGTP binds alarmone synthetases \r\nwith similar affinity to GTP but is not a substrate 25, suggesRng a negaRve-selecRon pressure that \r\nexcludes 2dG nucleoRdes from alarmone signaling. Furthermore, because cellular concentraRons \r\nof dGTP (ca. 50 µM) are 2 orders of magnitude lower than GTP (ca. 5 mM) 26, 27, an alarmone \r\nsynthetase lacking specificity against 2dG substrates would only produce a small quanRty of \r\n(p)pp(dG)pp. We therefore hypothesize that producRon of (p)pp(dG)pp is highly deleterious, \r\nwhich drives the strong ribonucleoRde specificity of RSH synthetases. \r\nTo test our hypothesis, we first quanRfied the GDP versus dGDP specificity of B. sub'lis SasB (also \r\nknown as YjbM, RelQ or SAS1), a single-domain RSH synthetase. SasB uRlilzes dGDP with 65,000-\r\nfold lower kcat/Km, a specificity to exclude 2’-deoxynucleoRdes stricter than RNA polymerases. To \r\nexplore the potenRal fitness consequence of (p)pp(dG)pp producRon, we used chemical \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "proteomics to idenRfy E. coli proteins binding to pp(dG)pp or ppGpp, which led to the surprising \r\ndiscovery that pp(dG)pp is a poor substrate of ppGpp hydrolase, SpoT (Figure 1A, bodom). This \r\ninability to hydrolyze 2’-deoxy hyperphosphorylated substrate is conserved across several\r\ndistantly related RSH hydrolyases. Our biochemical data show that 2’-OH plays a key role in \r\nstabilizing the catalyRcally producRve conformaRon of SpoT-ppGpp complex, likely by direct \r\ncoordinaRon to the Mn2+ at the SpoT catalyRc center. Our work revealed a previously overlooked, \r\nvital role of 2’-OH in alarmone degradaRon, provided new insights to the catalyRc mechanisms of \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n3\r\nRSH hydrolases and opens the possibility that the inability to hydrolyze pp(dG)pp constrains the \r\nnucleoRde specificity of alarmone signaling. \r\nResults\r\nB. sub'lis SasB has a slow pp(dG)pp-synthetase ac4vity \r\nB. sub'lis SasB is a single-domain RSH synthetase allosterically acRvated by pppGpp28. Given its\r\nstability and high acRvity in the acRvated state, SasB is widely used for (p)ppGpp synthesis in vitro. \r\nImportantly, PaRl et al. reported that SasB shows stronger acRvity at pH 8.5 than at 6.5 when \r\npyrophosphorylaRng GTP analogs in which 2’-OH is replaced with a fluorine or an amino group25. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "We thus used high pH (9.1) and a high concentraRon of SasB (50 µM) to drive the difficult \r\nsynthesis of pp(dG)pp. In 72 hours, a majority of dGDP was hyperphosphorylated (Figure 1B), \r\nwhich was confirmed to be pp(dG)pp (1) using MS (Figure 1C) and NMR (SI-NMR document). \r\nSurprised by this new acRvity, we characterized its Michaelis-Menten kineRcs at pH 7.8 and 30oC. \r\nSynthesis of pp(dG)pp by SasB has a kcat of 0.075/min and Km of 3.1 mM for dGDP, compared to \r\n694/min and 0.44 mM for GDP in ppGpp synthesis (Figure 1D and E). These consRtute a 65,000-\r\nfold difference in kcat/Km in favor of GDP as the diphosphate acceptor. The specificity is much \r\nstricter than the selecRon of rNTPs for transcripRon elongaRon by bacterial, eukaryoRc and viral \r\nRNA polymerases, which typically come with a kcat/Km difference between 100-1,000 folds 29-31, \r\nindicaRng a strong selecRon pressure against the synthesis of pp(dG)pp. \r\npp(dG)pp and ppGpp have near-iden4cal sets of binding proteins\r\nBecause of the extremely weak pp(dG)pp synthetase acRvity and the direct compeRRon between \r\nGDP and dGDP for the acRve center25, expressing SasB or other ppGpp synthetases in bacterial \r\ncells is unlikely to produce a substanRal amount of pp(dG)pp. To understand the potenRal \r\nconsequence of pp(dG)pp producRon were it ever to get made at a significant level, we instead \r\nuse capture compound mass spectrometry (CCMS) to compare the binding of ppGpp and \r\npp(dG)pp to proteins in E. coli lysate (Figure 2A). A similar approach has been used by us and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "others to idenRfy dozens of ppGpp-binding proteins in E. coli 19, 20. Given the structural similarity \r\nbetween pp(dG)pp and ppGpp, we expect that they should share most binding proteins.\r\nNevertheless, if pp(dG)pp is indeed toxic as we hypothesized, it likely acts through a protein \r\neffector not shared with ppGpp because ppGpp inducRon alone does not compromise viability. \r\nTo idenRfy effectors proteins that can disRnguish between ppGpp and pp(dG)pp, we generated \r\nphoto-crosslinking probes for both nucleoRdes, herea`er referred to as “capture compounds”, to \r\ncarry out a comparaRve CCMS study (Figure 2B). We first used SasB to synthesize analogs of \r\nppGpp and pp(dG)pp in which the 3’-b-phosphate is subsRtuted by a thiophosphate (Figure 2B). \r\nThese nucleoRdes, G4P3bS (2) and dG4P3bS (3), were then conjugated to a bromoacetylated \r\npepRde bearing a diazirine moiety and a bioRn handle (4, see also SI Figure 1) to give rise capture \r\ncompounds 5 and 6. We then used each capture compound to covalently tag its binding proteins \r\nin a E. coli lysate for enrichment and idenRficaRon using MS. To enable quanRtaRve MS readout, \r\nwe grew E. coli in M9-glucose (M9G) minimal medium using light (14N) or heavy (15N) ammonium \r\nchloride as the sole nitrogen source (Figure 2A). Cells were harvested in mid-exponenRal phase \r\nand lysed. We performed a pair of crosslinking reacRons for each capture compound: we added \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n4\r\n100 µM each capture compound to both lysates, and excess, 5.0 mM naRve ppGpp to only the \r\nheavy lysate to compete with the capture compound for binding. A`er UV exposure, covalent \r\ncrosslinking effecRvely bioRnylates proteins bound to capture compounds. Notably, both ppGpp \r\nand pp(dG)pp capture compounds produced similar padern of bioRnylated proteins on a \r\nstreptavidin immunoblot (Figure 2C, compare le` lanes), in agreement to our expectaRon of their \r\noverlapping interactomes. Presence of naRve ppGpp strongly diminished protein tagging by all \r\ncapture compounds (Figure 2C, compare two lanes within each blot), suggesRng that most tagged \r\nproteins bind ppGpp. \r\nWe next combined crosslinking reacRons with and without excess ppGpp for each capture \r\ncompound and used immobilized streptavidin to enrich bioRnylated proteins, which were then \r\ndigested for LC-MS analysis (Figure 2A). Each capture compound was tested in two biological \r\nreplicates using E. coli lysates prepared from separate cultures. TrypRc fragments from ppGpp or \r\npp(dG)pp-binding proteins are expected to be enriched in 14N isotope. Thus, we use the average \r\nabundance raRo of 14N over 15N trypRc fragments of each protein, denoted as ‘L/H’ herea`er, as \r\na metric of the protein’s interacRon specificity to the nucleoRde-of-interest. For proteins detected \r\nby at least two unique trypRc fragments in both replicates, their log2(L/H) correlates well between \r\nreplicates, suggesRng excellent reproducibility (Figure 2D). Remarkably, for proteins idenRfied by \r\nboth ppGpp and pp(dG)pp capture compounds, their log2(L/H) correlates equally well across \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "capture compounds with a squared Pearson correlaRon coefficient, R2 of 0.887 compared to \r\n0.894 and 0.886 between replicates (Figure 2E). Since proteins idenRfied only in one dataset \r\nwould be excluded from Log2(L/H) correlaRon analysis, we also used the total number of pepRde\u0002spectrum matches(#PSM) as a metric of the crosslinking yield for each protein. Strong correlaRon \r\nof #PSM was also observed between capture compounds and the R2 of 0.970 was only slightly \r\nlower than 0.992 and 0.995 found between replicates (Figure 2F and G). For each capture \r\ncompound, we selected top 20% protein of highest L/H as hits for ppGpp- or pp(dG)pp binding, \r\nleading to 55 and 56 hits for ppGpp and pp(dG)pp capture compound, respecRvely, with an \r\nintersecRon of 45 (SI Spreadsheet 1).\r\nTo provide a quanRtaRve view on the sensiRvity of ppGpp-binding protein to the missing 2’-OH \r\nin pp(dG)pp, we selected four E. coli ppGpp effectors, namely consRtuRve ornithine \r\ndecarboxylase (SpeC), inducible lysine decarboxylase (LdcI), inosine-guanosine kinase (Gsk) and \r\namidophosphoribosyltransferase (PurF) and compared their binding enthalpy and affinity with \r\nppGpp and pp(dG)pp using isothermal RtraRon calorimetry (ITC). In published ppGpp-bound \r\ncrystal structures, 2’-OH makes no contact with LdcI and accepts long (> 3.5 Å) H-bonds from Gsk \r\nand PurF 19, 32, 33. Nevertheless, affinity of pp(dG)pp to all for proteins are on the same order to \r\nthat of ppGpp (SI Figure 2). Taken together, interactomes of ppGpp and pp(dG)pp largely overlap, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "suggesRng that 2’-OH is not a requirement for ppGpp binding to most protein effectors. \r\n2’-OH is required for the ac4vity of RSH hydrolases\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n5\r\nSince the hypothesized detrimental effect of pp(dG)pp requires one or more effector proteins \r\nthat responds differently to ppGpp and pp(dG)pp, we examined hits idenRfied with most different \r\nLog2(L/H) or #PSMs by two capture compounds. Table 1 summarized 7 differenRally captured hits \r\n(Figure 2E and F, blue symbols) selected using following thresholds (Figure 2E and F, doded lines): \r\neither their Log2(L/H) found by the pp(dG)pp capture compound deviates from the regression line \r\nby more than one Log2 unit or their #PSM differs by greater than 3 folds between capture \r\ncompounds. All 7 hits were idenRfied with stronger crosslinking to ppGpp capture compounds, \r\namong which SpoT is the only known ppGpp-binding protein (Figure 2E, arrowhead). Since there \r\nis no obvious structural or funcRonal commonplace shared by these hits, we next focused on \r\nvalidaRng whether SpoT can discern between ppGpp and pp(dG)pp. E. coli SpoT is an essenRal \r\nprotein because it possesses the only hydrolase acRvity that effecRvely downregulates alarmones. \r\nTo test pp(dG)pp hydrolysis by SpoT, we purified full-length recombinant SpoT from Acinetobacter \r\nbaumannii, SpoTAb, a homolog that displays much beder soluRon behavior34 (See Figure 3A for \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "sequence alignment). Harnessing the acRvity of nucleoRde disphosphate kinase (Ndk), pyruvate \r\nkinase (PK) and lactose dehydrogenase (LDH), we coupled the producRon of GDP or dGDP by SpoT \r\nacRvity to the reducRon of NADH, which was detected as a decrease of absorbance at 340 nm \r\n(Figure 3B). We compared hydrolysis kineRcs for ppGpp and pp(dG)pp by SpoTAb at pH 7.5 in the \r\npresence of 5 mM MgCl2. Strikingly, the missing 2’-OH decreases the kcat by 100 folds and \r\nincreases Km by 9.6 folds (Figure 3C and D), resulRng in a 1,000-fold loss in kcat/Km. Given the 55% \r\nsequence idenRty between hydrolase domains of SpoTAb and E. coli SpoTEc (Figure 3A), the lader\r\nlikely shares similar deficiency in pp(dG)pp hydrolysis. \r\nTable 1. Hit proteins preferentially crosslinked to ppGpp capture compound\r\nUniprot \r\nAccession Gene Protein description Hit by capture compound\r\nlog2(H/L) \r\ndifference*\r\n# PSMs \r\nratio*\r\nP0AG24 spoT\r\nBifunctional (p)ppGpp \r\nsynthase/hydrolase SpoT both 1.22 3.0\r\nP00962 glnS Glutamine--tRNA ligase both 1.35 1.4\r\nP46853 yhhX Uncharacterized oxidoreductase YhhX both 1.28 1.6\r\nP0A6T5 folE GTP cyclohydrolase 1 ppGpp only 1.61 2.3\r\nP0A6P1 tsf Elongation factor Ts ppGpp only 1.64 1.8\r\nP0A6A3 ackA Acetate kinase ppGpp only NA 3.3\r\nP0A6A4 pssA\r\nCDP-diacylglycerol--serine O\u0002phosphatidyltransferase ppGpp only NA NA\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "* NA occurs when no log2(L/H) or PSM values were found using pp(dG)pp probe.\r\nBecause 2’-deoxy alarmones have never been detected in any bacterial organism, there is no \r\nobvious selecRon pressure that drives RSH hydrolases to avoid pp(dG)pp. We therefore speculate\r\nthat the slow hydrolysis of pp(dG)pp may reflect a criRcal role of 2’-OH in the enzymology shared \r\nby all RSH hydrolases. In addiRon to long RSH proteins possessing both synthetase and hydrolase \r\ndomains, RSH hydrolases also exist as small, single-domain enzymes known as small alarmone \r\nhydrolases (SAHs) (See Figure 3A). To date, most SAHs characterized in vitro hydrolyze (pp)pApp, \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n6\r\nalthough some bifuncRonal SAHs also accept (pp)pGpp as substrates 35-38. To test SAHs’ acRvity \r\non 2’-deoxy substrates, we first chemically synthesized pp(dA)pp from 2’-deoxyadenosine by two \r\nrounds of 3’,5’-bisphosphorylaRon using first diphosphoryl-chloride and then phosphoramidate \r\nchemistry (Figure 3E) 39. In agreement with our speculaRon, two (pp)pApp-specific SAHs from \r\nBacteroides caccae (Aph1Bc) and Methylobacterium extorquens(SAHMe) and the bifuncRonal SAHs \r\nfrom Homo Sapiens (MESH1) all hydrolyze pp(dA)pp albeit by 21-48 folds slower compared to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "ppApp (Figure 3F). Similarly, Mesh1 is 53-fold slower in hydrolyzing pp(dG)pp than ppGpp (Figure \r\n3G). Taken together, inefficiency of hydrolyzing 2’-deoxy-3’-pyrophosphorylated nucleoRdes is \r\nprobably a common feature of all RSH hydrolases. \r\nAc4vity of SpoTAb requires two divalent metal ca4ons\r\nTo further understand the role of 2’-OH in alarmone hydrolysis, we inspected the ppGpp-bound \r\ncrystal structures of SpoTAb (PDBID: 7QPR and Figure 4A) 32. The first and foremost contact \r\ninvolving 2’-OH is a 3.0-Å H-bond to Tyr51, a residue invariant across the RSH hydrolase family \r\n(Figure 5A, Tyr51 in yellow sRcks and H-bond in black dashes)8. Surprisingly, in contrast to the \r\nprofound effect of 2’-deoxy modificaRon, disrupRng this H-bond by the Y51F mutaRon only \r\nincreased the Km by 2.4 fold and decreased the kcat by 47% for ppGpp hydrolysis (Figure 3C, yellow \r\ndata points). This result suggests that the 2’-OH has another more significant role in enabling \r\ncatalysis by SpoT. All RSH hydrolases device four invariant residues, two hisRdines and two \r\naspartates, herea`er referred to as the 2H2D moRf, to accommodate a Mn2+ caRon8. In the \r\nSpoTAb-ppGpp complex, this Mn2+ also receives coordinaRon from the 3’-a-phosphate (Figures \r\n3A and 4A, 2H2D moRf highlighted in light blue and coordinaRon bonds in red dashes). Intriguingly, \r\nin all four SpoTAb subunits in the asymmetric unit, the distance between the 2’-oxygen and this \r\nMn2+ is 3.5- 4.0 Å (Figure 4A, right panel, green dash). Similar posiRoning between ppGpp and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "the Mn2+ center is also observed in the crystal structure of another long-RSH protein, Rel from \r\nThermus thermophilus (PDBID: 6S2T) 40. Notably, both crystal structures were obtained using the \r\nwild-type hydrolase and thus the ppGpp observed must deviate from the opRmal conformaRon \r\nfor hydrolysis (otherwise the nucleoRde would have been hydrolyzed). We therefore speculate \r\nthat the 2’-OH may be in closer and stronger contact with the Mn2+ center during catalysis. \r\nBefore interrogaRng the role of this putaRve 2’-OH-metal interacRon, we first clarified the\r\nrequirements of divalent metal caRons for ppGpp hydrolysis by SpoTAb. Earlier works have \r\nrevealed controversial metal-dependence for different RSH hydrolases. For example, a SAH from \r\nCorynebacterium glutamicum, RelHCg, exhibits maximal acRvity at 1 mM Mn2+ or 7.5 mM Mg2+, \r\nsuggesRng a low-mM affinity binding site for these caRons in the RelHCg-ppGpp catalyRc complex \r\n36. We observed similar acRvaRon isotherms for SpoTAb by Mg2+ and Mn2+, with half-maximal \r\nacRvity reached at EC50 = 1.76 mM free Mg2+ or EC50 = 530 µM free Mn2+ (Figure 4D). It is \r\nnoteworthy that Mg2+ and Mn2+ bind ppGpp at 1:1 stoichiometry with 125 µM and 5.5 µM KD, \r\nrespecRvely (SI Figure3 A and B) and their chelaRon by ppGpp was taken into consideraRon when \r\nwe calculated free caRon concentraRons for Figure 5B. Also similar to RelHCg was the decline of \r\nhydrolase acRvity at high Mn2+ concentraRons by a yet unknown mechanism (Figure 4D, purple \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n7\r\ntrace). In contrast to this low-affinity response to metal caRons, SpoTAb was reported to require \r\nexclusively Mn2+ at much stronger affinity 34. Intriguingly, we also readily reproduced key results \r\nin this literature: SpoTAb purified using Mn2+-free buffer was acRve in the presence of 10 mM \r\nMgCl2, while the acRvity decreased by 90% upon addiRon of 1mM EDTA (Figure 4E). Importantly, \r\nEDTA has 5 orders-of-magnitude stronger affinity to Mn2+ than to Mg2+ and is hence able to \r\ncompete Mn2+ off the enzyme despite the presence of excess free Mg2+. These data conclusively \r\nshow that (1) SpoTAb can co-purify with Mn2+ and remains acRve in a Mn2+-free buffer, (2) the \r\nSpoTAb-Mn2+ complex has fast dissociaRon kineRcs to enable inhibiRon by EDTA; and, therefore,\r\n(3) the SpoTAb-Mn2+ complex has nanomolar affinity so it can stay thermodynamically stable at a \r\nworking concentraRon of 100 nM in our assays. To reconcile this high-affinity Mn2+ requirement \r\nwith the low-affinity dose-response for Mn2+ or Mg2+ in Figure 4D, we propose that SpoTAb-ppGpp \r\ncatalyRc complex contains two binding sites for divalent metal caRons: a high-affinity, M1 site for\r\nthe Mn2+ observed in crystal structure (Figure 4F, black circle) and a previously unreported, low\u0002affinity M2 site for Mg2+ or Mn2+ (Figure 4F, gray circle). Binding of appropriate caRon at both sites \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "are necessary for efficient catalysis. In this model, SpoTAb acRvaRon isotherm in Figure 4D reflects \r\nsaturaRon binding of the M2 site provided that M1 site is occupied by Mn2+. Mn2+ at M2 site \r\nprovides 2-fold stronger hydrolase acRvity than Mg2+. Assuming that EC50 values are a good \r\nesRmaRon of KD, the physiologically relevant ligand of M2 site should be Mg2+ given the esRmated \r\nfree-metal concentraRon on the order of 1 mM for Mg2+ (EC50 = 1.76 mM) and 1 µM for Mn2+\r\n(EC50 = 530 µM) 41. \r\nTo esRmate the affinity of Mn2+ binding at M1 site, we Rtrated Mn2+ up to 0.9 mM to SpoTAb\r\nhydrolysis reacRons in the presence of 5 mM Mg2+ and 1 mM EDTA. Under these condiRons, \r\ndissociaRon equilibrium of the Mn-EDTA complex controls the free Mn2+ at low concentraRons \r\nresembling conjugate acid-base pair controlling the pH, allowing us to vary free Mn2+\r\nconcentraRon from high-picomolar to high-nanomolar ranges (See Methods SecRon for free\u0002Mn2+ calculaRon for each RtraRon point). Fizng the acRvaRon isotherm of SpoTAb to Hill’s \r\nequaRon provides an apparent KD = 39 nM and a Hill coefficient = 1.0, in agreement to the well\u0002defined, single Mn2+ binding site present in the crystal structure. According to the apparent KD\r\nvalue, at 100 nM working concentraRon, SpoTAb-Mn2+ complex would dissociate by 45%, \r\nconsistent with the robust hydrolase acRvity of our SpoTAb protein in Mn2+-free, EDTA-free buffer. \r\nIntriguingly, increasing Mg2+ concentraRon to 30 mM increased the apparent KD for Mn2+ to 116 \r\nnM (Figure 4G). We think this increase is due to direct compeRRon between Mg2+ and Mn2+ for \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "the M1 site, and thus calculated the KD = 8.6 mM for Mg2+ and 29 nM for Mn2+, respecRvely (See \r\nMethods secRon for KD calculaRon). To test the efficacy of Mg2+ binding at M1 site for hydrolase \r\nacRvity, we Rtrated ppGpp hydrolysis reacRons containing 1 mM EDTA with Mg2+ and, graRfyingly, \r\nrestored low level of hydrolase acRvity with high Mg2+ (Figure 4H). Using KD, M2 = 1.76 mM (EC50\r\nof Mg2+ for M2 site, Figure 4D), and KD, M1 =8.6 mM (calculated KD of Mg2+ for M1), we fided our \r\ndata closely to a model in which Mg2+ binding at both sites is required for acRvity. Turnover \r\nnumber with Mg2+ binding at both sites is 5.5 min-1, about 10-fold lower compared to when M1 \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n8\r\nis occupied by Mn2+. Taken together, our data unambiguously demonstrate that SpoT is a \r\nbinuclear metallopyrophosphohydrolase. \r\npp(dG)pp and ppGpp hydrolysis shares near-iden4cal metal requirement\r\nWe next set out to invesRgate how the 2’-deoxy modificaRon leads to the poor kcat of pp(dG)pp \r\nhydrolysis. Assuming that 2’-OH plays a criRcal role in docking ppGpp to the M1-site Mn2+ as \r\nsuggested by the SpoTAb-ppGpp crystal structure (Figure 5A, black arrows), the residual acRvity \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "of pp(dG)pp hydrolysis by SpoTAb may come from two mechanisms. In the first mechanism, \r\npp(dG)pp is hydrolyzed via a transiRon state analogous to that of ppGpp hydrolysis, while the \r\nslow kineRcs is caused by the difficulty of pp(dG)pp sampling the producRve conformaRon \r\nwithout the putaRve 2’-OH-M1 interacRon (Figure 5A, green arrows). The second possible \r\nmechanism relies on a slow, M1-independent hydrolase acRvity that is manifested only by \r\npp(dG)pp (Figure 6A, red arrows). Importantly, the first model predicts that hydrolysis rate of \r\nppGpp and pp(dG)pp to respond similarly to the variaRon of divalent metals binding at both sites \r\nin the transiRon state. In light of this idea, we first varied occupancy of M2 site by carrying out \r\npp(dG)pp hydrolysis at a series of Mg2+ or Mn2+ concentraRons. As shown in Figure 5B, SpoTAb\r\nretains its low-affinity requirement for M2-site caRon, with a moderate increase of EC50 by 77% \r\nfor Mg2+ and 2% for Mn2+ compared to ppGpp hydrolysis. Notably, while Mg2+ binds pp(dG)pp and \r\nppGpp indisRnguishably in the absence of protein (SI Figure 3C), Mn2+ binds pp(dG)pp with an \r\nunexpected 2:1 stoichiometry according to our ITC experiment (SI Figure 3D). This interacRon may \r\nbe responsible for the different behaviors between ppGpp and pp(dG)pp hydrolysis at high Mn2+\r\nconcentraRon, i.e., pp(dG)pp hydrolysis is no longer faster with Mn2+ compared to Mg2+, and \r\nacRvity does not decline as [Mn2+] increase above 1.5 mM (compare Figures 5B and 4D). Because \r\nMn2+ is not the physiological metal at the M2 site, mechanisms underlying these observaRons \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "were not further invesRgated. Regardless, our data confirm that pp(dG)pp hydrolysis by SpoTAb\r\nalso requires Mg2+ or Mn2+ binding at a low-affinity site that presumably shares a similar \r\nenvironment to the M2 site for ppGpp hydrolysis (Figure 5B, top scheme). \r\nWe next varied the metal caRon bound to M1-site in SpoTAb. Among 4th period divalent transiRon\u0002metals, Cr2+ and Fe2+ are unstable to atmospheric oxygen at our reacRon pH, while Cu2+ strongly \r\ninhibits the coupling of substrate hydrolysis and colorimetric readout by PK and lDH (data not \r\nshown). We hence included only Mn2+, Co2+, Ni2+ or Zn2+ in this assay. We added each caRon at \r\n100 µM, 1,000-fold molar excess relaRve to SpoTAb, to drive its saturaRon of M1 site. We also \r\nused 1 mM EDTA to strip M1 site of any metal caRon. In all five reacRon condiRons, 10 mM Mg2+\r\nwas provided to ensure saturated Mg2+ occupancy at the M2 site. Using ppGpp as the substrate, \r\nSpoTAb was inacRve in buffers containing EDTA or Zn2+: the lader has been shown to potently \r\ninhibit Mesh1 by compeRng Mn2+ off the M1 site 42. Binding of Co2+ at M1 site doubled SpoTAb\r\nacRvity relaRve to the Mn2+-bound state (Figure 6C, compare blue to purple bar), while the\r\nneighboring element, Ni2+, provided less than 10% acRvity compared to Co2+ (Figure 5B, gray bar), \r\nsuggesRng that the coordinaRon geometry of the M1 metal is criRcally important to the catalyRc \r\nefficiency. Remarkably, despite much slower turnover, hydrolyRc acRvity for pp(dG)pp holds a \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n9\r\nlinear relaRonship with that for ppGpp across five buffer condiRon tested (Figure 6D and E). Thus, \r\ninfluence of the M1 metal on the acRvaRon energy is idenRcal between ppGpp and pp(dG)pp \r\nhydrolysis. Our data strongly support the model in which ppGpp and pp(dG)pp adopt idenRcal \r\nconformaRons for the rate-limiRng step of their hydrolysis (Figure 5A, green arrows), and that \r\nslow kcat of pp(dG)pp hydrolysis dues to the decreased sampling of this producRve conformaRon \r\nby the substrate. Taken together, our work revealed a potenRal reason why alarmone signaling \r\nrejects 2’-deoxynucleoRde, namely, the 2’-OH group has a criRcal role in enabling alarmone \r\ndegradaRon by RSH hydrolases. \r\nDiscussion\r\nIn this study, we found that the SasB synthetase possesses an extremely low acRvity to synthesize \r\npp(dG)pp from dGDP. SasB’s selecRvity against 2dG nucleoRdes by 65,000-fold kcat/Km difference \r\nis stronger than that of RNA polymerase34, in consistence with our hypothesis that bacteria avoid \r\nsynthesizing 2dG alarmones because of a strong negaRve-selecRon pressure. With the help of \r\nCCMS, we found that SpoT, and perhaps all RSH hydrolases, are deficient in hydrolyzing 2’-deoxy \r\n3’-pyrophosphorylated substrates. This finding opens the possibility that the inability to degrade \r\n(p)pp(dG)pp constrains alarmone signaling from uRlizing 2dG nucleoRdes. To delineate the role \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "of 2’-OH in the hydrolase acRvity of SpoT, we interrogated the divalent metal-caRon dependence \r\nof both ppGpp and pp(dG)pp hydrolysis and showed that SpoT is a binuclear \r\nmetallophosphohydrolase. Based on our new results, we present an updated model for the \r\ncatalyRc mechanism of RSH hydrolases and an outlook regarding the existence and funcRon of \r\n(p)pp(dG)pp in biology.\r\nNew insights to RSH hydrolase mechanisms\r\nThe ability to degrade alarmones is arguably more important than the ability to synthesize these \r\nmolecules. As a widespread feature across the bacterial kingdom, an organism o`en encodes \r\nmore than one synthetases, each specialized for producing alarmones under certain starvaRon \r\ncondiRons, but relies on a single hydrolase for alarmone degradaRon. DeleRon of the lone \r\nhydrolase in such organisms lead to loss of viability in many species, making these hydrolase \r\ndomains potenRal drug targets. In the past two decades, crystallographic studies have provided \r\nhigh-resoluRon snapshots for many single-domain SAHs or bifuncRonal, long-RSH proteins, some \r\nwith ppGpp, the substrate, present at the hydrolase acRve center. Despite this progress, the \r\nprecise catalyRc mechanism of alarmone hydrolysis has remained elusive. Specifically, it is unclear \r\nwhether the hydrolysis occurs by water directly adacking the 3’-a-phosphate (direct mechanism) \r\nor a protein nucleophile adacking the 3’-a-phosphate followed by subsequent hydrolysis of a \r\npyrophosphorylated protein intermediate (ping-pong mechanism). AddiRonally, all RSH \r\nhydrolases require an invariant Glu-Asp (ED) diad for hydrolase acRvity 8, whose side-chain \r\ncarboxylates are about 6Å away from the 3’-a-phosphorus or the acRve-center (M1-site) Mn2+\r\n(Figure 6A, highlighted in green)34. Lidle is known about the catalyRc role of this ED diad. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "In this study, we show that SpoTAb, and perhaps other members of the RSH hydrolase family are \r\nbinuclear metallopyrophosphohydrolases requiring a Mg2+ with millimolar EC50 in addiRon to the \r\n2H2D-chelated Mn2+ for catalysis. Importantly, all RSH hydrolases belongs to a clade of HD\u0002available under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n10\r\ndomain superfamily featuring the 2H2D metal-binding site43. A non-RSH member of this clade, \r\nStreptococcus pyogenes YqeK, a hydrolase of diadenosine tetraphosphate (Ap4A), has recently \r\nbeen crystallized with two Mg2+ around the catalyRc center (PDBID: 8WMY, Figure 6A, pink)44. \r\nWhile the first Mg2+ binds at the 2H2D site, the second Mg2+ is sandwiched between ADP and an \r\nAsp residue from the 2H2D moRf (Figure 6A). All YqeKSp a-helices embedding the 2H2D moRf \r\nsuperimposed well to those in SpoTAb with an RMSD = 3.0 Å across 80 Ca atoms (Figure 6A, orange, \r\nsee Figure 3A for sequence alignment). Intriguingly, superimposing the second Mg2+ in YqeKSp\r\nwith SpoTAb-ppGpp structure (Figure 6B, green sphere) revealed a metal binding site that would \r\nbe readily coordinated by Asp79, both 3’-phophates of ppGpp, and likely the ED diad consisRng \r\nof Glu82 and Asp83 (Figure 6B). We therefore propose that this Mg2+ approximates the M2 site \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "of SpoTAb and that the ED diad’s essenRal funcRon is to accommodate the M2-site divalent caRon \r\n(Figure 6B and 6C). In support of the role of 3’-phosphate as the M2-site ligand, we further \r\nconfirmed that SpoTAb is unable to hydrolyze a substrate missing the 3’-b-phosphate, ppGp (8)\r\n(Figure 6D). Our study also revealed a criRcal role of the 2’-OH group in stabilizing the catalyRcally\u0002producRve conformaRon of SpoTAb-ppGpp complex. This effect likely comes from direct \r\ncoordinaRon of 2’-OH to the M1-site Mn2+ as was indicated by the short O-Mn distance (3.5-4.0 \r\nÅ) in the crystal structure (Figure 6B and C). Since the M1-site Mn2+ would reach a valency of six \r\nupon coordinaRon by 2’-OH, the nucleophile adacking the 3’-a-phosphate should be acRvated by \r\nthe M2-site Mg2+. Because 3’-a-phosphate is apparently not accessible by any protein nucleophile \r\nfrom the correct geometry, we speculate this nucleophile should be a hydroxide deprotonated \r\nfrom a water molecule (Figure 6C). Notably, in substrate-free RSH-hydrolase structures, the loop \r\nbearing the ED diad retracts away from the acRve center, suggesRng flexibility between M1 and \r\nM2 sites unless bridged by the ppGpp substrate 38. Without 2’-OH latching on the Mn2+, geometry \r\nbetween 3’-a-phosphate and the adacking hydroxide may deviate from the opRmum, thus \r\nresulRng in a drasRc decrease of kcat (Figure 6A, red arrow). UlRmately, tesRng of our proposed \r\nmechanism would require a high-resoluRon structure of a RSH hydrolase bound to a transiRon\u0002state mimic 45.\r\nPoten4al existence and roles of pp(dG)pp and its synthetase\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "Our study reveals the potenRal lack of competent pp(dG)pp degradaRon machinery in bacteria, \r\nwhich should contribute, at least in part, to the negaRve selecRon against 2dG alarmones. It is \r\nalso noteworthy, however, that although SpoTAb hydrolyzes ppGpp with kcat/Km 1,000-fold faster \r\nthan pp(dG)pp, it is not nearly as selecRve compared to SasB. The more stringent selecRon on \r\nthe synthetase side of alarmone regulaRon suggests addiRonal selecRon pressure driving this \r\nspecificity. Upon acute starvaRon, both E. coli and B. sub'lis produce (p)ppGpp at millimolar \r\nlevels19, 35. In B. sub'lis, this high level of alarmone producRon is achieved by the strong \r\nsynthetase acRvity of SasB upon acRvaRon by pppGpp 28. ConsumpRon of GTP and GDP by this \r\nprocess, as well as the inhibiRon of guanylate kinase by ppGpp46, leads to depleRon of guanosine\u00025’-nucleoRdes. Low GTP level drives transcripRon reprogramming that adapts the bacterium to \r\nthe low-nutrient condiRon36. Nevertheless, had SasB synthetases not specifically exclude dGTP or \r\ndGDP, its acRvaRon would also deplete dGTP and potenRally interrupt DNA replicaRon. This effect \r\nis reminiscent of thymine-less death and may have severe fitness consequences 37. Thus, we \r\nspeculate that feed-forward synthetases like SasB undergo the strongest selecRon pressure to \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n11\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "avoid dGDP to insulate mass producRon of alarmones from 2’-deoxyribonucleoRdes and DNA \r\nreplicaRon. TesRng this speculaRon would entail data regarding GDP vs dGDP specificity of a \r\nhousekeeping synthetase (e.g., SpoTEC), although we have not been able to detect pp(dG)pp \r\nsynthesis by any RSH synthetase other than SasB. \r\nTo our best knowledge, no RSH synthetases have previously been shown to uRlize 2’-\r\ndeoxyribonucleoRde as diphosphate acceptor. Nevertheless, recent studies have revealed non\u0002canonical pyrophosphokinase acRviRes for RSH synthetases in toxin-anRtoxin modules. Toxicity\r\nof these proteins are achieved by rapid modificaRon of adenosine nucleoRdes or tRNA to disrupt \r\nenergy producRon or translaRon. Under physiological condiRons, these toxins are acRvated by \r\neither secreRon to another bacterium cell to antagonize the growth of the lader, or by recogniRon \r\nof phage proteins to halt phage replicaRon and protect the host bacterial populaRon 21, 24. Since \r\na strong, specific (p)pp(dG)pp synthetase acRvity would almost certainly deplete dGTP and \r\ndisrupt DNA synthesis, we speculate that if such an enzyme exists, it most likely to be encoded in \r\na toxin-anRtoxin (TA) module to carry out similar phage-defense or interspecific antagonism \r\nfuncRons. Importantly, single mutaRon is known to alter specificity of an enzyme to a structurally \r\nsimilar substrate. For example, the R132H mutant of human cytosolic isocitrate dehydrogenase I \r\n(IDH1) adopts a specific 2-hydroxyglutarate dehydrogenase acRvity associated to glioma and \r\nglioblastomas47. Thus, a stronger and more specific (p)pp(dG)pp synthetase is likely accessible \r\nfrom canonical RSH synthetases via a relaRvely short evoluRonary path. Once discovered, these \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 443,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "enzymes may serve as powerful tools to, for example, perturb 2’-deoxyribonucleoRde \r\nmetabolisms for further invesRgaRon of the mechanisms of thymine-less death. \r\nAcknowledgement\r\nThis work was supported by the Pathway of Independent Award from NIH (R00GM135536) and a \r\nResearch Grant from Robert Welch FoundaRon (I-2171) to B.W.. B.W. is a Southwestern Medical \r\nFoundaRon Scholar in Biomedical Research. We thank Dr. Andrew Lemoff at the UTSW Proteomics\r\nCore and Dr. Feng Lin as the UTSW Nuclear MagneRc Resonance Core for carrying mass \r\nspectrometry and NMR analysis, respecRvely. We thank Dr. Elliod M. Ross and Dr. Kimberly A. \r\nReynolds at UT Southwestern Medical Center for helpful discussions. \r\nAuthor contribu4ons\r\nB.W. conceived the project and designed the research. R.W.Z., I.J.G and B.W. performed proteomic \r\nand biochemical experiments and analyzed the data. Y.H. carried out NMR analysis of new \r\ncompounds and analyzed the data. R.W.Z. and B.W. wrote the manuscript with input from all \r\nauthors.\r\nReference\r\n(1) Potrykus, K.; Cashel, M. (p)ppGpp: SRll Magical? Annual Review of Microbiology 2008, 62, 35-\r\n51. DOI: 10.1146/annurev.micro.62.081307.162903.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n12\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "(2) Anderson, B. W.; Fung, D. K.; Wang, J. D. Regulatory Themes and VariaRons by the Stress\u0002Signaling NucleoRde Alarmones (p)ppGpp in Bacteria. Annu Rev Genet 2021, 55, 115-133. DOI: \r\n10.1146/annurev-genet-021821-025827 From NLM Medline.\r\n(3) Irving, S. E.; Choudhury, N. R.; Corrigan, R. M. The stringent response and physiological roles \r\nof (pp)pGpp in bacteria. Nat Rev Microbiol 2021, 19 (4), 256-271. DOI: 10.1038/s41579-020-\r\n00470-y.\r\n(4) Harms, A.; Maisonneuve, E.; Gerdes, K. Mechanisms of bacterial persistence during stress and \r\nanRbioRc exposure. Science 2016, 354 (6318). DOI: 10.1126/science.aaf4268 From NLM Medline.\r\n(5) Dalebroux, Z. D.; Swanson, M. S. ppGpp: magic beyond RNA polymerase. Nat Rev Microbiol \r\n2012, 10 (3), 203-212. DOI: 10.1038/nrmicro2720.\r\n(6) Sarubbi, E.; Rudd, K. E.; Xiao, H.; Ikehara, K.; Kalman, M.; Cashel, M. CharacterizaRon of the \r\nspoT gene of Escherichia coli. J Biol Chem 1989, 264 (25), 15074-15082.\r\n(7) Schreiber, G.; Metzger, S.; Aizenman, E.; Roza, S.; Cashel, M.; Glaser, G. Overexpression of the \r\nrelA gene in Escherichia coli. J Biol Chem 1991, 266 (6), 3760-3767.\r\n(8) Atkinson, G. C.; Tenson, T.; Hauryliuk, V. The RelA/SpoT Homolog (RSH) Superfamily: \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "DistribuRon and FuncRonal EvoluRon of ppGpp Synthetases and Hydrolases across the Tree of \r\nLife. Plos One 2011, 6 (8). DOI: ARTN e23479\r\n10.1371/journal.pone.0023479.\r\n(9) HaselRne, W. A.; Block, R. Synthesis of guanosine tetra- and pentaphosphate requires the \r\npresence of a codon-specific, uncharged transfer ribonucleic acid in the acceptor site of \r\nribosomes. Proc Natl Acad Sci U S A 1973, 70 (5), 1564-1568.\r\n(10) BadesR, A.; Bouveret, E. Acyl carrier protein/SpoT interacRon, the switch linking SpoT\u0002dependent stress response to fady acid metabolism. Mol Microbiol 2006, 62 (4), 1048-1063. DOI: \r\n10.1111/j.1365-2958.2006.05442.x From NLM Medline.\r\n(11) Germain, E.; Guiraud, P.; Byrne, D.; Douzi, B.; Djendli, M.; Maisonneuve, E. YeK acRvates the \r\nstringent response by triggering the alarmone synthetase SpoT in Escherichia coli. Nat Commun \r\n2019, 10 (1), 5763. DOI: 10.1038/s41467-019-13764-4 From NLM Medline.\r\n(12) Fang, M.; Bauer, C. E. RegulaRon of stringent factor by branched-chain amino acids. Proc Natl \r\nAcad Sci U S A 2018, 115 (25), 6446-6451. DOI: 10.1073/pnas.1803220115 From NLM Medline.\r\n(13) Hara, A.; Sy, J. Guanosine 5'-triphosphate, 3'-diphosphate 5'-phosphohydrolase. PurificaRon \r\nand substrate specificity. J Biol Chem 1983, 258 (3), 1678-1683. From NLM Medline.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "(14) Hauryliuk, V.; Atkinson, G. C.; Murakami, K. S.; Tenson, T.; Gerdes, K. Recent funcRonal \r\ninsights into the role of (p)ppGpp in bacterial physiology. Nature Reviews Microbiology 2015, 13\r\n(5), 298-309. DOI: 10.1038/nrmicro3448.\r\n(15) Liu, K. Q.; Bidner, A. N.; Wang, J. D. Diversity in (p)ppGpp metabolism and effectors. Current \r\nOpinion in Microbiology 2015, 24, 72-79. DOI: 10.1016/j.mib.2015.01.012.\r\n(16) Corrigan, R. M.; Bellows, L. E.; Wood, A.; Grundling, A. ppGpp negaRvely impacts ribosome \r\nassembly affecRng growth and anRmicrobial tolerance in Gram-posiRve bacteria. Proc Natl Acad \r\nSci U S A 2016, 113 (12), E1710-1719. DOI: 10.1073/pnas.1522179113.\r\n(17) Zhang, Y.; Zbornikova, E.; Rejman, D.; Gerdes, K. Novel (p)ppGpp Binding and Metabolizing \r\nProteins of Escherichia coli. Mbio 2018, 9 (2). DOI: ARTN e02188-17\r\n10.1128/mBio.02188-17.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n13\r\n(18) Yang, J.; Anderson, B. W.; Turdiev, A.; Turdiev, H.; Stevenson, D. M.; Amador-Noguez, D.; Lee, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "V. T.; Wang, J. D. The nucleoRde pGpp acts as a third alarmone in Bacillus, with funcRons disRnct \r\nfrom those of (p) ppGpp. Nature Communica'ons 2020, 11 (1). DOI: ARTN 5388\r\n10.1038/s41467-020-19166-1.\r\n(19) Wang, B.; Dai, P.; Ding, D.; Del Rosario, A.; Grant, R. A.; Pentelute, B. L.; Laub, M. T. Affinity\u0002based capture and idenRficaRon of protein effectors of the growth regulator ppGpp. Nat Chem \r\nBiol 2019, 15 (2), 141-150. DOI: 10.1038/s41589-018-0183-4.\r\n(20) Haas, T. M.; LavenRe, B. J.; Lagies, S.; Harter, C.; Prucker, I.; Ritz, D.; Saleem-Batcha, R.; Qiu, \r\nD.; Hudel, W.; Andexer, J.; et al. Photoaffinity Capture Compounds to Profile the Magic Spot \r\nNucleoRde Interactomes. Angew Chem Int Ed Engl 2022, 61 (22), e202201731. DOI: \r\n10.1002/anie.202201731 From NLM Medline.\r\n(21) Ahmad, S.; Wang, B.; Walker, M. D.; Tran, H. R.; Stogios, P. J.; Savchenko, A.; Grant, R. A.; \r\nMcArthur, A. G.; Laub, M. T.; Whitney, J. C. An interbacterial toxin inhibits target cell growth by \r\nsynthesizing (p)ppApp. Nature 2019, 575 (7784), 674-678. DOI: 10.1038/s41586-019-1735-9 \r\nFrom NLM Medline.\r\n(22) Kurata, T.; Brodiazhenko, T.; Alves Oliveira, S. R.; Roghanian, M.; Sakaguchi, Y.; Turnbull, K. J.; \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "Bulvas, O.; Takada, H.; Tamman, H.; Ainelo, A.; et al. RelA-SpoT Homolog toxins pyrophosphorylate \r\nthe CCA end of tRNA to inhibit protein synthesis. Mol Cell 2021, 81 (15), 3160-3170 e3169. DOI: \r\n10.1016/j.molcel.2021.06.005 From NLM Medline.\r\n(23) Jimmy, S.; Saha, C. K.; Kurata, T.; Stavropoulos, C.; Oliveira, S. R. A.; Koh, A.; Cepauskas, A.; \r\nTakada, H.; Rejman, D.; Tenson, T.; et al. A widespread toxin-anRtoxin system exploiRng growth \r\ncontrol via alarmone signaling. Proc Natl Acad Sci U S A 2020, 117 (19), 10500-10510. DOI: \r\n10.1073/pnas.1916617117 From NLM Medline.\r\n(24) Zhang, T.; Tamman, H.; 't Wallant, K. C.; Kurata, T.; LeRoux, M.; Srikant, S.; Brodiazhenko, T.; \r\nCepauskas, A.; Talavera, A.; Martens, C.; et al. Direct acRvaRon of a bacterial innate immune \r\nsystem by a viral capsid protein. Nature 2022. DOI: 10.1038/s41586-022-05444-z.\r\n(25) PaRl, P. R.; Vithani, N.; Singh, V.; Kumar, A.; Prakash, B. A revised mechanism for (p)ppGpp \r\nsynthesis by Rel proteins: The criRcal role of the 2'-OH of GTP. J Biol Chem 2020, 295 (37), 12851-\r\n12867. DOI: 10.1074/jbc.RA120.013636 From NLM Medline.\r\n(26) Benned, B. D.; Kimball, E. H.; Gao, M.; Osterhout, R.; Van Dien, S. J.; Rabinowitz, J. D. Absolute \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "metabolite concentraRons and implied enzyme acRve site occupancy in Escherichia coli. Nat \r\nChem Biol 2009, 5 (8), 593-599. DOI: 10.1038/nchembio.186.\r\n(27) Wheeler, L. J.; Rajagopal, I.; Mathews, C. K. SRmulaRon of mutagenesis by proporRonal \r\ndeoxyribonucleoside triphosphate accumulaRon in Escherichia coli. DNA Repair (Amst) 2005, 4\r\n(12), 1450-1456. DOI: 10.1016/j.dnarep.2005.09.003 From NLM Medline.\r\n(28) Steinchen, W.; Schuhmacher, J. S.; Altegoer, F.; Fage, C. D.; Srinivasan, V.; Linne, U.; Marahiel, \r\nM. A.; Bange, G. CatalyRc mechanism and allosteric regulaRon of an oligomeric (p)ppGpp \r\nsynthetase by an alarmone. P Natl Acad Sci USA 2015, 112 (43), 13348-13353. DOI: \r\n10.1073/pnas.1505271112.\r\n(29) Mäkinen, J. J.; Shin, Y.; Vieras, E.; Virta, P.; Metsä-Ketel, M.; Murakami, K. S.; Belogurov, G. A. \r\nThe mechanism of the nucleo-sugar selecRon by mulR-subunit RNA polymerases. Nature \r\nCommunica'ons 2021, 12 (1). DOI: ARTN 796\r\n10.1038/s41467-021-21005-w.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n14\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "(30) Sousa, R.; Padilla, R. Mutant T7 Rna-Polymerase as a DNA-Polymerase. Embo Journal 1995, \r\n14 (18), 4609-4621. DOI: DOI 10.1002/j.1460-2075.1995.tb00140.x.\r\n(31) Wang, D.; Bushnell, D. A.; Westover, K. D.; Kaplan, C. D.; Kornberg, R. D. Structural basis of \r\ntranscripRon: role of the trigger loop in substrate specificity and catalysis. Cell 2006, 127 (5), 941-\r\n954. DOI: 10.1016/j.cell.2006.11.023 From NLM Medline.\r\n(32) Wang, B.; Grant, R. A.; Laub, M. T. ppGpp Coordinates NucleoRde and Amino-Acid Synthesis \r\nin E. coli During StarvaRon. Mol Cell 2020, 80 (1), 29-42 e10. DOI: 10.1016/j.molcel.2020.08.005.\r\n(33) Kanjee, U.; Gutsche, I.; Alexopoulos, E.; Zhao, B.; El Bakkouri, M.; Thibault, G.; Liu, K.; \r\nRamachandran, S.; Snider, J.; Pai, E. F.; et al. Linkage between the bacterial acid stress and \r\nstringent responses: the structure of the inducible lysine decarboxylase. EMBO J 2011, 30 (5), \r\n931-944. DOI: 10.1038/emboj.2011.5 From NLM Medline.\r\n(34) Tamman, H.; Ernits, K.; Roghanian, M.; Ainelo, A.; Julius, C.; Perrier, A.; Talavera, A.; Ainelo, \r\nH.; Dugauquier, R.; Zedek, S.; et al. Structure of SpoT reveals evoluRonary tuning of catalysis via \r\nconformaRonal constraint. Nat Chem Biol 2023, 19 (3), 334-345. DOI: 10.1038/s41589-022-\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "01198-x From NLM Medline.\r\n(35) Sun, D.; Lee, G.; Lee, J. H.; Kim, H. Y.; Rhee, H. W.; Park, S. Y.; Kim, K. J.; Kim, Y.; Kim, B. Y.; \r\nHong, J. I.; et al. A metazoan ortholog of SpoT hydrolyzes ppGpp and funcRons in starvaRon \r\nresponses. Nat Struct Mol Biol 2010, 17 (10), 1188-1194. DOI: 10.1038/nsmb.1906 From NLM \r\nMedline.\r\n(36) Ruwe, M.; Ruckert, C.; Kalinowski, J.; Persicke, M. FuncRonal CharacterizaRon of a Small \r\nAlarmone Hydrolase in Corynebacterium glutamicum. Front Microbiol 2018, 9, 916. DOI: \r\n10.3389/fmicb.2018.00916 From NLM PubMed-not-MEDLINE.\r\n(37) Potrykus, K.; Thomas, N. E.; Bruhn-Olszewska, B.; Sobala, M.; Dylewski, M.; James, T.; Cashel, \r\nM. EsRmates of Rel(Seq), Mesh1, and SAH(Mex) Hydrolysis of (p)ppGpp and (p)ppApp by Thin \r\nLayer Chromatography and NADP/NADH Coupled Assays. Front Microbiol 2020, 11, 581271. DOI: \r\n10.3389/fmicb.2020.581271 From NLM PubMed-not-MEDLINE.\r\n(38) Ahmad, S.; Gordon, I. J.; Tsang, K. K.; Alexei, A. G.; Sychantha, D.; Colauz, J.; Trilesky, S. L.; \r\nKim, Y.; Wang, B. Y.; Whitney, J. C. IdenRficaRon of a broadly conserved family of enzymes that \r\nhydrolyze (p)ppApp. P Natl Acad Sci USA 2023, 120 (14). DOI: ARTN e2213771120\r\n10.1073/pnas.2213771120.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "(39) Haas, T. M.; Ebensperger, P.; Eisenbeis, V. B.; Nopper, C.; Durr, T.; Jork, N.; Steck, N.; Jessen\u0002Trefzer, C.; Jessen, H. J. Magic spot nucleoRdes: tunable target-specific chemoenzymaRc synthesis. \r\nChem Commun (Camb) 2019, 55 (37), 5339-5342. DOI: 10.1039/c9cc01688k From NLM Medline.\r\n(40) Tamman, H.; Van Nerom, K.; Takada, H.; Vandenberk, N.; Scholl, D.; Polikanov, Y.; HoÄens, J.; \r\nTalavera, A.; Hauryliuk, V.; Hendrix, J.; et al. A nucleoRde-switch mechanism mediates opposing \r\ncatalyRc acRviRes of Rel enzymes. Nat Chem Biol 2020, 16 (8), 834-840. DOI: 10.1038/s41589-\r\n020-0520-2 From NLM Medline.\r\n(41) Chandrangsu, P.; Rensing, C.; Helmann, J. D. Metal homeostasis and resistance in bacteria. \r\nNat Rev Microbiol 2017, 15 (6), 338-350. DOI: 10.1038/nrmicro.2017.15 From NLM Medline.\r\n(42) Ding, C. K. C.; Rose, J.; Sun, T. A.; Wu, J. L.; Chen, P. H.; Lin, C. C.; Yang, W. H.; Chen, K. Y.; Lee, \r\nH.; Xu, E.; et al. MESH1 is a cytosolic NADPH phosphatase that regulates ferroptosis. Nat Metab \r\n2020, 2 (3), 270-+. DOI: 10.1038/s42255-020-0181-1.\r\n(43) Langton, M.; Sun, S.; Ueda, C.; Markey, M.; Chen, J.; Paddy, I.; Jiang, P.; Chin, N.; Milne, A.; \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "Pandelia, M. E. The HD-Domain Metalloprotein Superfamily: An Apparent Common Protein \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n15\r\nScaffold with Diverse Chemistries. Catalysts 2020, 10 (10). DOI: 10.3390/catal10101191 From \r\nNLM PubMed-not-MEDLINE.\r\n(44) Mo, X. Crystal structure of YqeK in complex with MG and ADP. 2023. DOI: \r\nhdps://doi.org/10.2210/pdb8WMY/pdb.\r\n(45) Graham, D. L.; Lowe, P. N.; Grime, G. W.; Marsh, M.; Riznger, K.; Smerdon, S. J.; Gamblin, S. \r\nJ.; Eccleston, J. F. MgF as a transiRon state analog of phosphoryl transfer. Chem Biol 2002, 9 (3), \r\n375-381. DOI: Pii S1074-5521(02)00112-6\r\nDoi 10.1016/S1074-5521(02)00112-6.\r\n(46) Kriel, A.; Bidner, A. N.; Kim, S. H.; Liu, K. Q.; Tehranchi, A. K.; Zou, W. Y.; Rendon, S.; Chen, R.; \r\nTu, B. P.; Wang, J. D. Direct RegulaRon of GTP Homeostasis by (p)ppGpp: A CriRcal Component of \r\nViability and Stress Resistance. Molecular Cell 2012, 48 (2), 231-241. DOI: \r\n10.1016/j.molcel.2012.08.009.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "(47) Dang, L.; White, D. W.; Gross, S.; Benned, B. D.; Biznger, M. A.; Driggers, E. M.; FanRn, V. R.; \r\nJang, H. G.; Jin, S.; Keenan, M. C.; et al. Cancer-associated IDH1 mutaRons produce 2-\r\nhydroxyglutarate. Nature 2009, 462 (7274), 739-744. DOI: 10.1038/nature08617 From NLM \r\nMedline.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nFigure 1. pp(dG)pp synthetase ac0vity of B. sub'lis SasB. (A) Known biochemical ac0vi0es and \r\nfunc0ons of RSH synthetases. (B) Anion-exchange chromatogram showing the progression of \r\npp(dG)pp synthesis by SasB. Arrows indicate elu0on volume of standard nucleo0des; (C) ESI-MS \r\nof pp(dG)pp in nega0ve mode. The compound was precipitated from concentrated anion\u0002exchange frac0ons using LiCl and ethanol and then re-dissolved in water prior to analysis. (D and \r\nE) Kine0cs of ppGpp (D) and pp(dG)pp (E) synthesis as a func0on of [GDP] or [dGDP]. FiPng curve \r\nfor a Michaelis-Menten model and parameters are shown. All reac0ons were carried out in the \r\npresence of 10 mM ATP. Apparent turnover is calculated as the ini0al velocity in µM/min divided \r\nby SasB concentra0on in µM. Error bar represents the range of two reac0ons set up separately. \r\nATP\r\nGDP\r\ndGDP\r\nppGpp\r\nGTP\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "Synthetase\r\nSynthetase\r\nSynthetase\r\nSasB (very slow)\r\nTHIS\r\nWORK\r\nHydrolase\r\npppGpp\r\nGMP pGpp AMP\r\nPPi\r\nATP\r\npp(dG)pp\r\nAMP\r\nATP\r\nADP\r\ntRNA tRNA-3’-pp\r\nppApp\r\nATP pppApp\r\nAMP pApp AMP\r\nPPi\r\nATP AMP\r\nPPi\r\nStringent\r\nresponse,\r\ndormancy and\r\npersistence\r\nBinds to\r\nmost known\r\nppGpp effectors\r\nEnergy depletion\r\nand cell death\r\nTranslation halt;\r\nphage defense\r\nRelA and SpoT\r\nSpoT\r\nSpoT\r\nGppA\r\nA\r\nStarvation\r\nphage\r\ninfection\r\ntype-VI\r\nsecretion\r\n5 10 15 20 25\r\n0\r\n50\r\n100\r\n150\r\n200\r\n250\r\nV (mL)\r\nA254 (mAU)\r\ndGDP + ATP\r\nATP\r\npp(dG)pp + AMP\r\n t = 0\r\n t = 72 hr\r\npurified\r\npp(dG)pp\r\nSasB\r\npH 9.1, 37oC\r\nAMP pp(dG)pp\r\ndGDP\r\nB\r\nD\r\nC\r\nppGpp synthesis E\r\nKm = 0.44 mM\r\nKcat = 694 min-1\r\nKm = 3.1 mM\r\nKcat = 0.075 min-1\r\npp(dG)pp synthesis\r\nX\r\n0 5 10\r\n0.00\r\n0.02\r\n0.04\r\n0.06\r\n0.08\r\n[dGDP] (mM)\r\n0 5 10\r\n0\r\n200\r\n400\r\n600\r\n800\r\n[GDP] (mM)\r\nApparent turnover\r\n(min-1)\r\npp(dG)pp\r\n1\r\nmonoisotopic\r\nm/z for [M-H]-\r\ncalculated: 586.0 Da\r\n550 600 650 found: 585.8 Da 0\r\n50\r\n100\r\nRe\r\nm/z (Da)\r\nl. abundance (%)\r\n585.8\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nSI Figure 1. Characteriza0on of bromoacetylated crosslinking pep0de (4, panel A). C18 HPLC \r\nchromatogram (right top) ESI-MS analysis in posi0ve mode (right boXem) are shown. \r\n4\r\nmonoisotopic\r\nm/z for [M+H]+\r\ncalculated: 979.4 Da\r\nfound: 979.3 Da\r\nHN NH\r\nS\r\nO\r\nH H H\r\nN N\r\nH\r\nH\r\nN OH\r\nO\r\nO\r\nO\r\nO\r\nN\r\nH\r\nH N N\r\nN\r\nO O\r\nO\r\nH\r\nN\r\nO\r\nBr\r\nBr (Xlinker) =\r\n4\r\n4\r\n950 1000 1050\r\n0\r\n100\r\nm/z\r\nrelative abundance (%)\r\n979.3 981.3\r\n0 5 10 15\r\n0\r\n200\r\n400\r\ntime (min)\r\nA214 (mAU)\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nFigure 2. Compara0ve CCMS between ppGpp and pp(dG)pp capture compounds. (A) CCMS \r\napproach using stable isotope-labeled bacterial lysates. (B) Scheme showing the synthesis of\r\nppGpp and pp(dG)pp capture compounds. See SI Figure 1 for structure and LC-MS \r\ncharacteriza0on of the bromoacetylated crosslinker pep0de (4). (C) Tagged E. coli proteome by \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 39,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "indicated capture compounds visualized using streptavidin western bloPng. E. coli lysate \r\ncontaining 200 µM capture compound (- ppGpp) or 200µM capture compound and 5 mM ppGpp \r\n(+ ppGpp) was illuminated with 360-nm UV lamp. Aliquots containing 15 µg protein was resolved \r\non 12% SDS-PAGE for immunobloPng. (C) Sta0s0cs of pep0des and proteins detected in six CCMS \r\ndatasets. (D and E) Log2(L/H) correla0on analysis between replicates (panel D) and between 3’-\r\nlinkage ppGpp versus pp(dG)pp capture compounds (panel E). Each dot represents the Log2(L/H) \r\nvalue of a protein reliably detected (see Table 1 for criteria) in both replicates. Regression line is \r\nshown in dash. In (E), the mean Log2(L/H) value from two replicates was used for ploPng. DoXed \r\nlines are one Log2 unit above or below the regression line and set the threshold for differen0ally \r\ncaptured hits favoring 3’-linkage ppGpp (blue dots) (see Table 1). The black data point represents \r\nGsk, a hit showing opposite preference in #PSM analysis. (F and G) Same to (D and E), except \r\n#PSM of all proteins detected by as few as one pep0de was ploXed for analysis. Each panel is a \r\nzoom-in for #PSM £ 60 with an inset showing all data points outside. \r\nA\r\nppGpp\r\ndiazirine X-linker\r\nbiotin\r\npeptide backbone\r\nm/z\r\n+ capture compound\r\n+ capture compound\r\nstrept\u0002avidin\r\npulldown\r\nlight/heavy\r\n(L/H) ratio\r\nBottom-up\r\nSILAC\r\nproteomics\r\nexcess ppGpp\r\n14N\r\nlysate\r\n15N\r\nlysate\r\nUV\r\n360nm\r\nUV\r\n360nm\r\nB\r\nO O\r\nO R2\r\nN\r\nN\r\nN\r\nNH\r\nO\r\nNH2\r\nP\r\nO\r\nOH\r\nP O\r\nO\r\nOH\r\nP O P\r\nOH\r\nR3 O\r\nO OH\r\nR5\r\nppGpp\r\n-3βS\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 40,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "pp(dG)pp\r\n-3βS\r\n2\r\n-SH\r\nGDP\r\n+\r\nATP S\r\ndGDP\r\n+\r\nATP S\r\nSasB\r\nR5β, R2 = -OH R5β, R2 = -OH\r\nR3β = R3β = -S-Xlinker\r\nBr (Xlinker)\r\n4 3’-linkage ppGpp\r\ncapture compound 5\r\n3\r\n-OH;\r\n-SH\r\n-H\r\nSasB\r\nR5β =\r\nR3β =\r\nR2 = -OH;\r\n-S-Xlinker\r\nR5β = -H\r\nR3β = R2 =\r\nBr (Xlinker)\r\n4 3’-linkage pp(dG)pp\r\ncapture compound 6\r\nC\r\nWB:\r\nStrapt\u0002avidin\r\nppGpp - + - +\r\nppGpp\r\ncapture\r\ncompound\r\n5\r\npp(dG)pp\r\ncapture\r\ncompound\r\n6\r\nP P\r\nG P P\r\nP P\r\nG P P\r\nO\r\nD\r\nF G\r\nE\r\n-1 0 1 2 3 4 5\r\n-1\r\n0\r\n1\r\n2\r\n3\r\n4\r\n5\r\nReplicate 2\r\nReplicate 1\r\nReplicate 2\r\nReplicate 1\r\nReplicate 2\r\nReplicate 1\r\nReplicate 2\r\nReplicate 1\r\nlog2(L/H) by pp(dG)pp capture compound (6)\r\n#PSM by pp(dG)pp capture compound (6)\r\nlog2(L/H)\r\nby\r\nppGpp\r\ncapture\r\ncompound\r\n(5)\r\n#PSM\r\nby\r\nppGpp\r\ncapture\r\ncompound\r\n(5)\r\nppGpp\r\ncapture compound (5)\r\npp(dG)pp\r\ncapture compound (6)\r\n-1 0 1 2 3 4 5\r\n-1\r\n0\r\n1\r\n2\r\n3\r\n4\r\n5\r\n-1 0 1 2 3 4 5\r\n-1\r\n0\r\n1\r\n2\r\n3\r\n4\r\n5\r\n0 20 40 60\r\n0\r\n20\r\n40\r\n60\r\n0 20 40 60\r\n0\r\n20\r\n40\r\n60\r\n1000\r\n1000\r\n0 0 300\r\n300\r\nhits preferring ppGpp\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 41,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "n = 263\r\nR2\r\n = 0.894\r\nn = 272\r\nR2 = 0.886\r\nn = 235\r\nR2\r\n = 0.887\r\nSpoT\r\nn = 491\r\nR2\r\n = 0.992\r\nn = 491\r\nR2 = 0.995\r\nlog2(L/H) correlation betwen replicates\r\nppGpp\r\ncapture compound (5)\r\npp(dG)pp\r\ncapture compound (6)\r\n#PSM correlation betwen replicates\r\n0 20 40 60\r\n0\r\n20\r\n40\r\n60\r\n1000\r\n1000\r\n0\r\nhits preferring ppGpp\r\nn = 591\r\nR2\r\n = 0.970\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nSI Figure 2. pp(dG)pp retains interac0on with known ppGpp effectors. (A) ITC traces (top) and \r\nfiPng isotherms (boXom) for indicated protein with ppGpp (black) or pp(dG)pp (red). 100 µM of \r\nPurF, Gsk and SpeC and 21.6µM of LdcI (counted as monomers) were 0trated with 10x \r\nconcentra0on of ligand. (B) fiPng parameters for datasets in (A). \r\nEffectors\r\nPurF\r\nPurF\r\n0.5 ppGpp\r\npp(dG)pp\r\n0.48 1.2 -12.4\r\n0.38 2.6 -15.8\r\nLigand KD (μM) ΔH (kCal/mol) Experimental n # of binding sites per subunit\r\nGsk 1 ppGpp\r\npp(dG)pp\r\n0.84 0.31 -16.3\r\n0.79 0.84 -15.9\r\nSpeC\r\nLdcI\r\nLdcI\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 42,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "0.5\r\n0.5\r\nppGpp\r\npp(dG)pp\r\n0.40 2.3 -13.3\r\n0.53 3.7 -8.0\r\nppGpp\r\npp(dG)pp\r\n0.51 2.6 -18.2\r\n0.69 5.3 -13.2\r\n0 10 20 30 40\r\n-2\r\n-1\r\n0\r\nt (min) µcal/sec\r\nppGpp\r\npp(dG)pp\r\n0.0 0.5 1.0 1.5 2.0\r\n-15\r\n-10\r\n-5\r\n0\r\nmolar\r\nratiokcal /mol\r\nt (min) µcal/sec\r\nmolar\r\nratiokcal /mol\r\nSpeC\r\n0 10 20 30 40\r\n-2\r\n-1\r\n0\r\nppGpp\r\npp(dG)pp\r\n0.0 0.5 1.0 1.5 2.0\r\n-15\r\n-10\r\n-5\r\n0\r\nGsk\r\n0 10 20 30 40\r\n-3\r\n-2\r\n-1\r\n0\r\nppGpp\r\npp(dG)pp\r\n0.0 0.5 1.0 1.5 2.0\r\n-20\r\n-15\r\n-10\r\n-5\r\n0\r\n0 10 20 30 40\r\n-0.6\r\n-0.4\r\n-0.2\r\n0.0\r\nppGpp\r\npp(dG)pp\r\n0.0 0.5 1.0 1.5 2.0\r\n-15\r\n-10\r\n-5\r\n0\r\nA\r\nB\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nFigure 3. RSH hydrolases have poor ac0vity on 2’-deoxy substrates. (A) Sequence alignment of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 43,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "hydrolase domains in long RSH proteins (E. coli and A. baumanii SpoT and S. equorum Rel), SAHs \r\nfrom B. cereus, M. extorquens and H. sapiens and a non-RSH family HD domain hydrolase, S. \r\npyogenes YqeK. Numbering of amino-acid posi0ons of SpoTAb are used. (B) Coupling of RSH \r\nhydrolase ac0vity to NADH consump0on. (C and D) Hydrolysis kine0cs of ppGpp (C) and pp(dG)pp \r\n(D) by SpoTAb ploXed as func0ons of substrate concentra0on and fiXed for a Michaelis-Menten \r\nmodel. Error bars indicate range of two reac0ons assembled separately. (E) Scheme showing the \r\nsynthesis of pp(dA)pp. (F and G) Ac0vity comparison of indicated hydrolase on 500 µM canonical \r\nand 2’-deoxy substrates. To provide appropriate level of absorbance signal, all 2’-deoxy substrate \r\nhydrolysis was carried out at 10x enzyme concentra0on rela0ve to hydrolysis of the canonical \r\nsubstrate. In Panels C, D, F and G, apparent turnover is calculated as the ini0al velocity in µM/min \r\ndivided by enzyme concentra0on in µM. \r\n0 1 2 3 4 5\r\n0.0\r\n0.2\r\n0.4\r\n0.6\r\n0 1 2 3 4 5\r\n0\r\n20\r\n40\r\n60\r\nKm = 34.4 μM \r\nkcat = 54 min-1\r\nWT\r\nY51F\r\nKm = 117 μM \r\nkcat = 29 min-1\r\nKm = 332 μM \r\nkcat = 0.53 min-1\r\n[ppGpp] (mM)\r\nppGpp hydrolysis by SpoTAb pp(dG)pp hydrolysis by SpoTAb\r\n2’-deoxyadenosine\r\np(dA)p\r\nP2O3Cl4, then Na2CO3\r\n1. (C4H9)N+ cation exchange;\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 44,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "2. iPr2NP(OFm)2 and DCI;\r\n3. mCPBA; 4. DBU.\r\nR5’ = R3’ = \r\nR5’ = R3’ = \r\nApparent turnover\r\n(min-1)\r\n[pp(dG)pp] (mM)\r\nC\r\nE F G\r\nA\r\nD\r\nO N\r\nN\r\nN\r\nN\r\nNH2\r\nR3’\r\nR5’\r\nOH\r\nO P\r\nO\r\nO\u0002O\u0002pp(dA)pp R5’ = R3’ = O P\r\nO\r\nO\r\nO\u0002P\r\nO\r\nO\u0002O\u0002Aph1Bc\r\nSAHMex\r\nMESH1\r\n0.01\r\n0.1\r\n1\r\n10\r\n100\r\n1000\r\nppApp\r\n21x\r\n48x\r\n47x 53x 163x\r\npp(dA)pp ppGpp pp(dG)pp\r\nApparent turnover\r\n(min-1)\r\nSpoTAb\r\nMESH1\r\n0.01\r\n0.1\r\n1\r\n10\r\n100\r\n1000\r\nApparent turnover\r\n(min-1)\r\nppGpp\r\npp(dG)pp dGDP\r\nGDP\r\nPPi\r\nhydrolase\r\nATP ADP ATP\r\nGTP\r\ndGTP\r\nPEP pyruvate lactate PK LDH\r\nNdk NADH NAD+ absorbs\r\n@ 340nm\r\nB SpoTEc\r\nSpoTAb\r\nRelSe\r\nAph1Bc\r\nSAHMe\r\nMESH1\r\nYqeKSp\r\nMYLFE------SLNQLIQTYLPEDQIKR-LRQAYLVARDAHEGQTRS--SGEPYITHPVAVACILAEMK\r\nMPGEEVSQAKQQLKLIIDPYLSVSEVEK-VLAACDFGDLAHTGITRK--SGEPYILHPIAVSCILANMR\r\nMAKIV-NLTGEEVVALTAQYMSESDVAI-VQKALDYATKAHISQVRQ--SGEPYIIHPIQVAGILADLH\r\nMT---------------------NTSTL-LEKALQIAVKAHSGQIDK--AGSAYIFHPIRVSNRCST--\r\nMSGLD------P-D-------RRRDVAL-VSRAADFAARRHADQQRKGAAREPYLNHLAEVATLLAETM\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 45,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "MG---------------------SEAAQ-LLEAADFAARKHRQQRRKDPEGTPYINHPIGVARILTHEA\r\nM-------------------TYEDYLPYSRTELLAKIAEQMSPKR---------FKHVLGVEKAALSLA\r\n116 SpoTEc\r\nSpoTAb\r\nRelSe\r\nAph1Bc\r\nSAHMe\r\nMESH1\r\nYqeKSp\r\n--L-----DYETLMAALLHDVIED--------TPATYQDMEQ-LFGKSV---AELVEGVSKLDKLKFRD\r\n--L-----DPETLMAALLHDVIED--------TQYTKDDIIE-RFGQTV---AELVDGVTKLSQSSDKE\r\n--L-----DVVTVACGFLHDVVED--------TDITLDEIEA-EFGKDV---RIIVDGVTKLGKVEYKS\r\n--------DDER-IVALLHDTIED--------TEVTAEYLLMEGFPRNI---VDAILSVTRNEDESYDD\r\nGEP-----DAALVAAGWLHDTLED--------TQTDREELER-LFGPRV---ASLVAEVTDDKSLPK--\r\nGIT-----DIVVLQAALLHDTVED--------TDTTLDEVEL-HFGAQV---RRLVEEVTDDKTL----\r\n--ECYGCNPDKAGLAALLHDYAKE-(20aa)-GMVGIYKIQE-DLGLKDKDILRAIEIHT---------\r\n169\r\nSpoTEc\r\nSpoTAb\r\nRelSe\r\nSAHBc\r\nSAHMe\r\nMESH1\r\nYqeKSp\r\nKKEAQAENFR-KMI-MAMVQDIR-VILIKLADRTHNMRT--LGSLRPDKRRRIARETLEI\r\nY--NKAASFR-KIL-QATLQDPR-VIIIKLADRYHNMTT--LGALRPDKRARIAQETFDI\r\nHEEQLAENHR-KML-MAMSKDIR-VILVKLADRLHNMRT--LKHLRKDKQERISRETMEI\r\nF----I--KR-------SRLNPI-GRQVKLHDLEDNMDI--TRLNELTEKDIY-------\r\n-----AERKR-RQVEAAPHKSAG-AKAIKLADKTSNLRS--LTASPPEGWERQ-------\r\n---PKLERKRLQVE-QAPHSSPG-AKLVKLADKLYNLRD--LNRCTPEGWSEH-------\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 46,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "---------------VGAAEMTLLDKVLYVADYIEEG-----------------------\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nFigure 4. SpoTAb is a binuclear metallopyrophosphohydroase. (A-C) Overview (A) and ac0ve\u0002center zoom-in (B and C) of the published crystal structure of SpoTAb-ppGpp complex. ppGpp and \r\nside chains of conserved residues related to this study are in s0ck model. 2’-oxygen is a red sphere\r\nand Mn2+ is a purple sphere. (D and E) ppGpp hydrolysis ac0vity of SpoTAb as a func0on of free \r\nMg2+ or Mn2+ concentra0on (D) and in the presence of 10 mM MgCl2 with or without 1 mM EDTA\r\n(E). Error bars in (D) indicate S.D. of three reac0ons assembled separately. (F) Es0mated affinity \r\nof metal binding and resulted specific ac0vity of SpoTAb in three different metal-binding states. \r\nSuperscript in the table indicate the Figure panel from which the parameter is derived. KD values \r\nes0mated from EC50 are in gray. (G and H) ppGpp hydrolysis ac0vity of SpoTAb as a func0on as a \r\nfunc0on of free Mn2+ concentra0on in the presence 10 (black) or 30 mM (red) MgCl2 and 1 mM \r\nEDTA (G) and as a func0on of free Mg2+ concentra0on in the presence of 1 mM EDTA (H). Error \r\nbars indicate range of two reac0ons assembled separately. Data were fiXed to Hill equa0on in (G) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 47,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "and a model in which ac0vity requires two Mg2+ binding independently at respec0ve KD of 1.76 \r\nand 8.6 mM in (H). In panels D, E, G and H, apparent turnover is calculated as the ini0al velocity \r\nin µM/min divided by enzyme concentra0on in µM. \r\nSimulated free Mn2+ (M)\r\nApparent turnover\r\n(min-1)\r\nSpoTAb\r\nppGpp\r\nA B\r\nE\r\nD\r\nF\r\nG H\r\nFree M2+ (μM)\r\n530\r\nKD, M1\r\n(μM)\r\nEC50(μM)\r\nKD, M2\r\n(μM)\r\nTurnover\r\n(min-1)\r\n1759\r\n1mM\r\nEDTA - +\r\n0\r\n50\r\n25\r\nApparent turnover\r\n(min-1)\r\nP\r\nP\r\nG P P\r\nO\r\nSpoT\r\nMn Mg\r\nM2= Mg2+; M1= apo M2= Mg2+; M1= Mn2+\r\n50o\r\nthen\r\n45o\r\nC\r\nMg\r\nM1\r\nM1\r\n[Mg2+]\r\n(mM)\r\nKD,Mn\r\n(nM)\r\n h\r\n4\r\n39\r\n1.0 1.1\r\n29\r\n116\r\nM2\r\nM2\r\n0 10-9 10-8 10-7 10-6 0\r\n20\r\n40\r\n60\r\nMg Mg\r\nM2= apo; M1= apo M2= Mg2+; M1= Mg2+\r\n0 2000 4000 6000 8000\r\n0\r\n50\r\n100\r\n150\r\nApparent turnover\r\n(min-1)\r\nMg2+\r\nMn2+\r\nMg2+\r\nMg2+ Mg2+\r\nMn2+\r\nMn2+ Mn2+\r\n0.0274G\r\n86004G\r\n17604D 545C\r\n1554D\r\n5.54H\r\n530 N.T. 4D\r\nN.T.\r\n10 20 30 40 50\r\n0\r\n2\r\n4\r\n6\r\nFree Mg2+ (mM)\r\nApparent turnover\r\n(min-1)\r\nVmax = 5.5 min-1\r\nMn Mg\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 48,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "M2= apo; M1= Mn2+\r\nM2= Mg2+; M1= Mn2+ Mn\r\nMg2+\r\nMn Mn\r\nM2= Mn2+; M1= Mn2+\r\nMn2+\r\nTyr51\r\nTyr51\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nFigure 5. ppGpp and pp(dG)pp hydrolysis share similar metal dependence for both M1 and M2 \r\nsites. (A) Two models accoun0ng for the slow hydrolysis of pp(dG)pp. pp(dG)pp either has a much \r\nlower chance to adopt to the same conforma0on required for ppGpp hydrolysis (green arrows) \r\nor goes through a different transi0on state (red arrow). (B) ppGpp hydrolysis ac0vity of SpoTAb as \r\na func0on of free Mg2+ or Mn2+ concentra0on. Error bars indicate S.D. among three reac0ons \r\nassembled separately. (C and D) Hydrolysis kine0cs of ppGpp (C) and (D) in the presence of 10mM \r\nMgCl2 and 100 µM indicated metal that saturates the M1 site. 1 mM EDTA was included in “apo” \r\nreac0ons. (E) Correla0on plot of pp(dG)pp and ppGpp hydrolysis ac0vi0es in panels C and D\r\nshowing the linear rela0onship when varying the metal ca0on bound to the M1 site. In Panels C\u0002E, apparent turnover is calculated as the ini0al velocity in µM/min divided by enzyme \r\nconcentra0on in µM. \r\nP\r\nP\r\nG P P\r\nP\r\nP\r\nG P P\r\nMn2+\r\nCo2+\r\nNi2+\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 49,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 478,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "Zn2+\r\n0.0\r\n0.2\r\n0.4\r\n0.6\r\n0.8\r\n1.0\r\nMn2+\r\nCo2+\r\nNi2+\r\nZn2+\r\n0\r\n50\r\n100\r\napo\r\napo\r\nApparent turnover\r\n(min-1)\r\nP\r\nP\r\nP P\r\nG P P\r\nO\r\nP\r\nP\r\nG P P\r\nP\r\nP\r\nG P P\r\nMn\r\nMn\r\nMn\r\nMn\r\nMg\r\nMg\r\nG P P\r\nO O\r\nMg\r\nMg\r\nwater\r\nwater GDP\r\nwater dGDP\r\n+\r\nP P\r\nG P P\r\nO\r\n+\r\npp(dG)pp\r\n+ SpoTAb\r\nmodel 1\r\nmodel 2\r\nppGpp\r\n+\r\nSpoTAb\r\nP P\r\nG\r\nP\r\nP\r\nA B\r\nC D E\r\nMn Mg\r\nM2= apo; M1= Mn2+\r\nM2= Mg2+; M1= Mn2+\r\nM2= Mg2+; M1= Mn2+\r\nMn\r\nMg2+\r\nMn Mn\r\nM2= Mn2+; M1= Mn2+\r\nMn2+\r\nMg2+\r\nMn2+ 543\r\nEC50(μM)\r\n3125\r\n0 2000 4000 6000 8000\r\n0.0\r\n0.2\r\n0.4\r\n0.6\r\n0.8\r\n1.0\r\nApparent turnover\r\n(min-1)\r\nFree M2+ (μM)\r\npp(dG)pp hydrolysis\r\nppGpp hydrolysis pp(dG)pp hydrolysis\r\nM1\r\nsite\r\nM1\r\nsite\r\n0 20 40 60 80 100\r\n0.5\r\n1.0\r\nppGpp turnover (min-1)\r\npp(d\r\nG)pp turnover (min-1)\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 50,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nSI Figure 3. ITC of ppGpp and pp(dG)pp using indicated divalent metal salts. FiPng results are \r\nshown for panels A-C. Results in panel D indicates that MnCl2 binds pp(dG)pp at 2:1 as the heat \r\nsignal declines towards to the baseline aner a molar ra0o of 2.0, but we cannot deconvolute the \r\nKD of each binding event. \r\n0 10 20 30 40\r\n0\r\n2\r\n4\r\n6\r\nt (min)\r\nt (min)\r\nt (min)\r\nt (min)\r\nµcal/sec µcal/sec\r\n0.0 1.0 2.0\r\n0\r\n1\r\n2\r\nmolar ratio\r\nkcal /mol kcal /mol\r\n0 10 20 30 40\r\n0.0\r\n0.2\r\n0.4\r\n0.6\r\n0.0 1.0 2.0\r\n-0.5\r\n0.0\r\n0.5\r\n1.0\r\nmolar ratio\r\n10 mM MgCl2 into\r\n 1 mM ppGpp \r\n2.0 mM MnCl2 into\r\n 0.20 mM ppGpp \r\n20 mM MnCl2 into\r\n1 mM pp(dG)pp \r\n2x injection\r\nvolume after\r\nthe arrowhead\r\nn = 0.941 \r\nKd = 126 μM\r\nΔH = 2.86 kcal/mol\r\n10 mM MgCl2 into\r\n 1 mM pp(dG)pp \r\nn = 0.961 \r\nKd = 98 μM\r\nΔH = 2.05 kcal/mol\r\nn = 0.872 \r\nKd = 5.5 μM\r\nΔH = 1.41 kcal/mol\r\n0 10 20 30 40\r\n0\r\n1\r\n2\r\n3\r\n4\r\n0.0 1.0 2.0\r\n0.0\r\n0.5\r\n1.0\r\n1.5\r\nmolar ratio\r\n0 20 40 60\r\n0.0\r\n0.5\r\n1.0\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 51,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "1.5\r\n2.0\r\n2.5\r\n0.0 1.0 2.0 3.0 4.0\r\n-0.2\r\n0.0\r\n0.2\r\n0.4\r\nmolar ratio\r\nA\r\nB\r\nC\r\nD\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nFigure 6. Proposed mechanism of ppGpp hydrolysis by SpoTAb. (A) Structural alignment of SpoTAb\r\n(orange, PDBID: 7QPR) and YqeKSp (pink, PDBID: 8WMY). For clarity, YqeKSp model includes only 5 \r\nclosely aligned a-helices and loop/hinge regions in between. 2D2H mo0f of both proteins and \r\nADP bound at YqeKSp ac0ve center are shown in s0ck model; ppGpp at SpoTAb ac0ve center is \r\nomiXed. (B) Close-in view of SpoTAb-ppGpp complex superimposed with the second Mg2+ in the \r\nYqeKSp structure. (C) Proposed binuclear metallopyrophosphohydrolase mechanism of SpoTAb. \r\nInterac0ons proposed based on the current study are shown in red bonds and arrows. (D)\r\nHydrolysis kine0cs of 500 µM ppGpp or ppGp by SpoTAb in the presence of 10mM MgCl2. To \r\nprovide appropriate level of absorbance signal, ppGp hydrolysis was carried out with 1 µM SpoTAb\r\ncompared to 100 nM for ppGpp.\r\nMn2+\r\nHO O\u0002O O\u0002Mg2+\r\nP O O\r\nO\u0002O\u0002OH\r\nO\r\nO\r\nO\u0002N\r\nHN\r\nN\r\nHN\r\nO\r\nO\r\nOPPi\r\nN\r\nP\r\nO\r\nO\u0002O\u0002O\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 52,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 471,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "N\r\nHN N\r\nO\r\nH2N\r\nAsp83\r\nGlu82\r\nHis78\r\nHis54\r\nAsp143\r\nAsp79\r\nA B\r\nC D\r\nSpoTAb\r\nYqeKSp\r\nMn2+\r\nMg2+\r\nHis78\r\nHis78\r\nAsp79\r\nGlu82\r\nAsp83\r\nADP\r\nAsp143\r\nHis54\r\nppGpp\r\nHydrolysis activity\r\nby SpoTAb\r\nppGp\r\n0\r\n10\r\n20\r\n30\r\nApparent turnover\r\n(min-1)\r\n40x\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nMethods\r\nContact for Reagent and Resource Sharing\r\nQuestions about or requests for methods, strains, and resources generated in this study can be \r\ndirected to Boyuan Wang (boyuan.wang@utsouthwestern.edu).\r\nMedia and Culture Conditions\r\nEscherichia coli was grown in LB (10 g/L NaCl, 10 g/L tryptone, 5 g/L yeast extract). Agar plates \r\nwere incubated at 37 oC unless noted otherwise. Large cultures (> 10 mL) were grown in baffled \r\nErlenmeyer flasks at 37 oC and 200 rpm on an orbital shaker, and OD600 measurements were taken \r\nusing a 1-cm plastic cuvette. If necessary, the culture was diluted to OD600 < 0.4 and the dilution \r\nwas factored in. Appropriate antibiotics was included at following concentrations for plasmid \r\nmaintenance: Carbenicillin—100 mg/mL; kanamycin—50 mg/mL; chloramphenicol—25 mg/mL. \r\nPlasmid construction\r\nAll primers and plasmids used are listed in Table S1 and S2, respectively\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 53,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "Sub-cloning: We used Gibson-assembly to ligate vector and insert DNA each of which were PCR\u0002amplified using primers containing appropriate overhangs to ensure ligation specificity. All PCR \r\nreactions were performed using the Q5 High-Fidelity DNA Polymerase (NEB) kit following the \r\ninstructions enclosed. PCR products were purified with agarose gel-electrophoresis followed by \r\ngel extraction prior to ligation (Zymoclean Gel DNA Recovery Kit). Circular plasmids were \r\nextracted from positive transformants and the presence of correct insert confirmed through Sanger \r\nsequencing.\r\nThe A. baumannii SpoT open reading frame (ORF) was sub-cloned into pET SUMO vector \r\n(Invitrogen) immediately downstream of the His6-SUMO ORF. The E. coli ldcI ORF was sub\u0002cloned into pCfa vector upstream of the C-Cfa intein-His6 ORF1\r\n.\r\nRecombinant protein production and purification\r\nProtein expression: all recombinant proteins were expressed in E. coli BL21(DE3) harboring the \r\ncorresponding expression plasmid. Expression strains were grown in LB containing the \r\nappropriate antibiotics at 37 oC to OD600 = 0.6. The culture was then cooled to 18 oC and induced \r\nby the addition of 400 µM IPTG. Cells were harvested 16 to 24 hours post-induction. ldcI was \r\nunderwent fast induction with 400 µM IPTG, at 30oC and harvested 3 hours post-induction.\r\nPurification of His-tagged proteins: His-tagged proteins were purified following the standard \r\nprotocol described below unless otherwise noted. SasB was purified by substituting 150mM NaCl \r\nwith 300 mM KCl in all buffers. SpoTAb was purified by substituting 150mM NaCl with 300mM \r\nNaCl and 150 mM KCl. The cell pellet from 1L of expression culture was resuspended in 25 mL \r\nlysis buffer containing 50 mM Tris-HCl pH 8, 150 mM NaCl, 1 mM TCEP, 20 µg/mL lysozyme, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 54,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 446,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "10 units Benzonase (MilliporeSigma) and 1 mM PMSF. Cells were disrupted through sonication \r\nand the lysate was cleared at 12,000 g for 1 hour. Cleared lysate was applied to 3 mL Ni-NTA \r\nresin equilibrated with the lysis buffer and allowed to flow through by gravity. The Ni-NTA resin \r\nwas washed with 5x column volumes of wash buffer 1 (50 mM Tris-HCl pH 8, 150 mM NaCl, 10 \r\nmM imidazole and 1 mM TCEP) and 10x column volumes of wash buffer 2 (50 mM Tris-HCl pH \r\n8.0, 150 mM KCl, 25 mM imidazole 1 mM TCEP). Bound protein was eluted with 3X column \r\nvolumes of elution buffer (50 mM Tris-HCl pH 8.0, 150 mM NaCl, 400 mM imidazole and 1 mM \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nTCEP. For SpoTAba, 50mM EDTA was used instead of imidazole. Imidazole/EDTA was dialyzed \r\nout using Amicon Ultra-15 Centrifugal Filters with the appropriate MW cutoff by repetitively \r\nconcentrating down the eluate and re-dilute with Imidazole/EDTA-free buffer.\r\nRemoval of affinity tags: All proteins except SasB were removed from affinity tags prior to usage \r\nfor biochemical/biophysical experiments. To remove the N-terminal His6 tag of recombinant \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 55,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "proteins expressed from the pET28b vector, thrombin (Sigma) was reconstituted in 20 mM Tris\u0002HCl pH 8.0, 150 mM NaCl and 20% (v/v) glycerol at 100 U/mL. Eluates off the Ni-NTA column \r\nwere dialyzed against 20 mM Tris-HCl pH 8.0 and 150 mM NaCl, and then treated with thrombin \r\n(10 U per µmol cleavage sites) at RT overnight. Upon confirming completion of cleavage using \r\nSDS-PAGE, the protein was concentrated, treated with 10 mM TCEP, and refined over a \r\nSuperdex-200 increase (10/300) column. To remove the N-terminal His6-Sumo tag, proteins off \r\nthe Ni-NTA column were exchanged into 20 mM Tris-HCl pH 8.0, 150 mM NaCl and 1 mM \r\nTCEP. The tagged protein was then treated with Sumo protease (10 µg per µmol cleavage sites) at \r\nRT for 2 hrs. The cleavage mixture was subjected to a reverse Ni-NTA process to clean up residual \r\nuncleaved protein. Flow-through containing cleaved protein was then concentrated and refined \r\nover a Superdex-200 increase (10/300) column.\r\nSize-exclusion chromatography (SEC): A Superdex-200 Increase 10/300 column (Cytiva) was \r\nused. SEC of all recombinant proteins with the exception of SasB was run in HBST buffer \r\ncontaining 20 mM HEPES-Na pH 7.5, 150 mM NaCl and 1 mM TCEP. Up to 10 mg protein was \r\ninjected in 1 mL and peak fractions were combined. SasB was run in 50mM Tris-HCl pH 8, \r\n300mM KCl and 1mM TCEP. Complete purification was confirmed with SDS-PAGE.\r\nSynthesis and purification of nucleotides bearing 3’-diphosphate or 3’-phosphate\r\nPurified B. subtilis SasB was used to synthesize pp(dG)pp 1, ppGpp-3bS 2, pp(dG)pp-3bS 3, and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 56,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "ppGpp. The reactions were conducted in 2mL containing 20mM Tris buffer(pH 9.1 or 8), 150 mM \r\nNaCl, 25mM MgCl2 and 1mM TCEP. Final pH was Tris-base 9.1 for 2’-deoxy and dG4P3γS and\r\nTris-HCl 8.0 for all 2’-OH guanine nucleotide synthesis. 250µM pppGpp was included to activate \r\nSasB 2. Each reaction included 20 mmol (10 mM, 1.0 eq) appropriate guanine nucleotide and 24 \r\nmmol (1.2 eq) ATP or ATPγS. Final concentrations of SasB were 50 µM for pp(dG)pp and 100 \r\nµM for dG4P3γS synthesis, which reached completion in 72 hours, and 1 µM for 2’-OH guanine \r\nnucleotide synthesis, which reached completion in 3 hours. To monitor reaction progress, 1 mL of \r\nreaction was analyzed on MonoQ 5/50 10-40%B in 15 mL. All MonoQ runs were complete with \r\nBuffers A: 5 mM Tris-HCl 8.0 and Buffer B: 5mM Tris-HCl 8.0 and 1mM NaCl. Upon completion, \r\nthe reaction was vortexed with 300uL chloroform for 1 minute, and spun at 21,000G for 5 min. \r\nThe aqueous layer was diluted 20-fold in water and resolved on MonoQ 10/100 10-40%B in 80mL. \r\nFractions containing the product were combined, lyophilized and re-dissolved in water to 5mL. \r\nLiCl powder was then added to 1 M concentration, and the products were precipitated by addition \r\nof 4x volume of ice-cold 100% ethanol. After staying in ice-water bath for 30 min, precipitate was \r\nspun down at 3,300G for 5 min and supernatant was aspirated. The nucleotides were washed with \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 57,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "1x volume of 95% EtOH. Sonication was used to disperse the precipitate for better removal of the \r\nleftover LiCl. The product was spun down and washed 3x before being re-dissolved in water and\r\nquantified based on light absorption at 252 nm and then lyophilized. Dried, colorless powder was \r\ndissolved with Milli-Q water into 100mM stocks and stored frozen -80oC. \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nppApp was synthesized using P. aeruginosa Tas1(230-439), also known as Tas1Tox, as previously \r\ndescribed 3. Briefly, 45µmol ADP was added in 9 portions to 2.5mL solution of 50 µmol ADP and\r\n50 pmol Tas1tox in 5 mL 20 mM HEPES 7.4, 150 mM NaCl, 20 mM MgCl2 and 1 mM TCEP-Na \r\nat 37oC with vigorous stirring, we added 45 µmol ATP in 9 portions over 10 minutes. After another \r\n5 minutes of incubation at 37oC, the reaction was complete and Tas1tox was inactivated with 2 \r\nmL chloroform. The aqueous phase was isolated, diluted to 25 mL with water, and ppApp purified \r\nsimilarly using MonoQ 10/100, precipitated with LiCl and EtOH as described above. \r\npp(dA)pp 7 was synthesized following strategy developed by Haas, et.al 4. 2’-deoxyadenosine\r\n(2dA) monohydrate (211 mg, 784 μmol) was coevaporated using dry MeCN (4 x 15 ml). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 58,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "Afterwards diphosphoryl chloride (1.25 mL, 2.28 g, 9.0 mmol, 11.5 eq) was added in one portion \r\nat −35°C to dissolve all 2dA. The reaction was immediately protected with dry N2 and stirred for \r\n3 h at 0°C. Afterwards, the reaction was suspended in 20mL dry ether, vortexed and sonicated at \r\n0°C. Dark gray insoluble content was collected by centrifugation, chilled in ice water, and ether \r\ndecanted. The insoluble was then dissolved by addition of ice-cold 0.5M NaHCO3 solution in 3-\r\nmL portions. A total 30 mL solution is needed to bring pH above 7.0. The resulted solution was \r\ndegassed, filtered, and 2’-deoxyadenosine-3’-5’-bisphosphate, p(dA)p, was purified using MonoQ \r\n10/100 and precipitated with LiCl and EtOH as described above. This crude p(dA)p (136 µmol, \r\n17%) was dissolved in 5 mL water and exchanged into tetrabutylammonium (TBA) salt. To do so, \r\nwe pre-treated a Hi-Trap CM Sepharose FF column (10 mL) with 2 mL 1 M TBA bromide solution \r\nfollow by washing with 10 mL water. Flowing the p(dA)p solution through the column gave rise \r\nto a solution of p(dA)p•TBA3, which was lyophilized and re-dissolved in dry DMF. Note that the \r\ncompound changed from colorless to brown following lyophilization but this did not affect the \r\nsubsequent reaction. To a 1mL DMF solution containing 40 µmol p(dA)p•TBA3 and 25.4 mg 4,5-\r\ndicyanoimidazole (215 µmol, 5.4 eq) was added 600 µL 0.2 M dry-DMF solution of (bis((9H\u0002fluoren-9-yl)methyl) diisopropylphosphoramidite (iPr2NP(OFm)2, 120 µmol, 3.0 eq). After \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 59,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "stirring the solution at RT for 15min, the reaction was treated with 25.6 mg 3-chloroperbenzoic \r\nacid (mCPBA, 77%, 191 µmol, 4.8 eq, pre-dissolved in 500 µL dry DMF) at 0oC for 15 min \r\nfollowed by 1,8-diazabicyclo(5.4.0)undec-7-ene (250 µL, large excess, pre-dissolved in 2 mL dry \r\nDMF) at RT for 15 min. Crude product was precipitated with 30 mL cold ether, collected by \r\ncentrifugation and washed with 10 mL cold ether. The precipitate was dissolved in 2 mL 50 mM \r\nTris-HCl 8.0, filtered and the final product, 2’-deoxyadenosine-3’-5’-bis(diphosphate), pp(dA)pp, \r\nwas purified and using MonoQ 10/100 and precipitated with LiCl and EtOH as described above. \r\nIsolated yield was 8.2 µmol, 20.5% for the second step and 3.4% overall. \r\nppGp 8 was obtained by cleaving the 3’-β phosphate of ppGpp with RNase T2. The reaction \r\noccurred in 2 mL of 20mM sodium acetate buffer pH 4.6, 150 mM NaCl, and 1mM TCEP. 20 \r\nµmol ppGpp was cleaved with 1U of T2 RNAse and monitored on MonoQ/5 50 until completion. \r\nChloroform precipitation of protein and aqueous extraction was performed as above. Sample was \r\nsimilarly applied to MonoQ 10/100 and eluted. LiCl and EtOH precipitation, quantification, and \r\nlyophilization was repeated as above.\r\nSolid-phase peptide synthesis\r\nNote that all equivalences are relative to the loading capacity of the solid support resin. \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 60,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 474,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nThe general procedure for a coupling-deprotection cycle: 10 eq. Fmoc protected amino acid and \r\n9.5 eq. of 1-[Bis(dimethylamino)methylene]-1H-1,2,3-triazolo[4,5-b] pyridinium 3-oxide \r\nhexafluorophosphate (HATU) dissolved in N,N-dimethylformamide (DMF) to achieve a final \r\nconcentration of 0.4M amino acid and 0.38M HATU. 20 eq. Of diisopropylethylamine (DIEA) \r\nwas then added and the mixture was applied to the solid support and left to react at room \r\ntemperature (RT) for 20 minutes, followed by 3 washes with DMF, 2x 8 min deprotection with \r\n20% (v/v) piperidine in DMF and 5 washes with DMF. Biotin was coupled following the same \r\nprocedure but without deprotection. For coupling of Fmoc-photoMet, usage of the amino acid, \r\nHATU and DIEA were reduced to 2.0, 1.9, and 10 eq., respectively, and coupling time extended \r\nto 1 hour at RT.\r\nThe Biotinyl-GKG structure first synthesized at 0.1-mmol scale on Fmoc-Gly-Wang resin (Sigma\u0002Alrich). The resin was swelled in DMF prior to the first coupling. Coupling-deprotection cycles \r\nwere performed with Fmoc-Gly-OH, Fmoc-Lys(Alloc)-OH, and Fmoc-Gly-OH (in this order), and \r\nthe N-terminal amine was biotinylated. Thereafter, The Alloc protecting group was quantitatively \r\nremoved by a 20-minute, RT treatment with 598 µL of phenylsilane (4.85 mmol) and 45.63 mg \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 61,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "(39.5 µmol) of tetrakis(triphenylphosphine)palladium(0) in 4 mL of DCM. The resin was then \r\nthoroughly washed with dichloromethane (DCM), air dried, and stored in a desiccator for further \r\nuse.\r\nSyntheses was continued on a 0.01-mmol scale. Resin bearing the Biotinyl-GKG fragment was \r\nweighed into individual vessels and re-swelled with DMF. Fmoc-photoMet-OH were coupled to \r\nthe lysine side chain followed by the linker residue: Fmoc-NH-PEG4-OH (ChemPep, Cat# \r\n280117). The N-terminus of the linker residue was then bromoacetylated by adding an 1 mL DMF \r\nsolution containing 40 mL bromoacetic anhydride and 50 mL DIEA (30 eq) for a 10-minute \r\nincubation at RT. Finally, the resin bearing each peptide was washed thoroughly with DCM, air \r\ndried, and the product peptide was cleaved from the resin with 3 mL neat trifluoroacetic acid (TFA) \r\ncontaining 2.5% (v/v) water and 2.5% (v/v) triisoproprylsilane at 60 oC for 8 min. TFA in the \r\nresulting solution was evaporated by a stream of nitrogen gas and the residual was triturated in \r\ncold diethyl ether to precipitate the peptide. The crude peptide was pelleted, washed once with \r\ndiethyl ether and re-dissolved in 50% (v/v) acetonitrile in water containing 0.1% TFA and \r\nlyophilized. The crude peptide was refined over a semi-preparative reverse phase (RP)-HPLC \r\n(Discovery BIO wide pore C18 column: 10 x 250 mm, 5 µm) using a linear gradient of solvent A \r\n(0.1% TFA in 90% acetonitrile) and B (0.1% TFA) with the percentage of B increasing from 5% \r\nto 25% over 10 minutes. Flow rate was 6 mL/min. Pure fractions of the product peptide were \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 62,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "combined and lyophilized. \r\nCapture compound synthesis\r\nCapture compounds were synthesized by conjugating 1.2 equivalence bromoaceylated peptide to \r\n2 µmol ppGpp-3bS at pH = 6.2 or pp(dG)pp-3bS and at pH = 7.5. Reactions were carried out at\r\n42 oC for 1 hr and then treated 5 µmol sodium 2-mercaptoethanesulfonate (MESNa, Sigma-Aldrich) \r\nfor 15 minutes. Product was purified using a MonoQ (5/50) column at RT oC using a linear gradient \r\nof buffer A (5 mM Tris-HCl pH 8.0) and buffer B (5 mM Tris-HCl pH 8.0, 1M NaCl), with the \r\npercentage of buffer A increasing from 20% to 40% in 10mL.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nIsothermal titration calorimetry (ITC)\r\nAll ITC experiments were performed in a MicroCal PEAQ-ITC (Malvern) instrument thermo\u0002equilibrated at 20o\r\nC with pure water in the reference cell. All ligands and proteins were suspended\r\nin the same buffer containing 20 mM HEPES-Na pH 7.5, 150mM NaCl, 2mM TCEP. The \r\ncell(protein) volume was 200uL. Ligand and protein concentrations are given in S Table #. The \r\ncell(protein) volume was 200uL. For all titrations, the ligand was injected at 1.9 µL/injection for \r\naltogether 21 injections. ITC data were processed using MicroCal PEAQ-ITC Analysis Software\r\n(Malvern), which automatically integrates heat signal and calculates the molar enthalpy change \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 63,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "(DHm) and the overall ligand-to-receptor molar ratio ([L]/[R]) at each injection. Titration trace was \r\ncorrected by using the default subtract baseline function. ΔHm was corrected by using the subtract \r\noffset function. All titrations were fitted against a sigmoidal Δ Hm to molar ratio relationship in a \r\nsingle-site model with both ligand-to-protein stoichiometry (n) and KD as variables. \r\nEffector capture and enrichment from E. coli lysate\r\nE. coli MG1655 was cultured at 37oC in 200-mL batchs in 1-L baffled flask with vigorous shaking \r\nto OD600 = 0.40. M9-Glucose SILAC medium containing 12.8 g/L Na2HPO4•7H2O, 3.0 g/L \r\nKH2PO4, 0.50 g/L NaCl, 0.4% (w/v) glucose, 1 mM MgCl2, 30 µM CaCl2, 20 µM FeSO4-EDTA \r\nand 0.50 g/L regular NH4Cl (light medium) or 0.51 g/L NH4Cl (15N, 99%, Cambridge Isotope \r\nLaboratories, heavy medium) were used. Lysates were prepared in 20 mM HEPES-Na 7.0, 300 \r\nmM NaCl and 1 mM TCEP at approximately 10 mg / mL protein. Then, for each capture \r\ncompound (2 or 3), two reactions were assembled in adjacent wells on a 96-well plate chilled on \r\nice. The effector-capture reaction consisted of 800 µg protein from the light lysate, 100 µM capture \r\ncompound, 1.8 mM MgCl2, and 0.2 mM MnCl2. The control reaction consisted of 800 µg protein \r\nfrom the heavy lysate, 100 µM capture compound, 5 mM ppGpp, 6.3 mM MgCl2 and 0.7 mM \r\nMnCl2. After exposure to 365-nm UV lamp for 2 minutes, reactions were then combined and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 64,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "extensively exchanged in a 10kDa-MWCO concentrator into a buffer containing 20 mM HEPES\u0002Na pH 7.5 and 200 mM NaCl. The final concentrate (approximately 100 µL) was diluted with 400 \r\nµL RIPA buffer (50 mM Tris 7.5, 150 mM NaCl, 0.1% SDS, 0.5% sodium deoxycholate, 1% \r\nTriton X-100) and incubated overnight with 200 µL MyOne Streptavidin C1 dynabeads (Thermo \r\nFisher Scientific) at 4 oC. On the second day, the protein in supernatant (flowthrough) was sampled \r\nfor Western blotting and then removed, and the dynabeads were washed at 4 oC twice with RIPA \r\nbuffer, once with 0.1 M Na2CO3, once with 100 mM Tris 8.0, 4 M guanidinium chloride (GuHCl) \r\nand twice more with RIPA buffer. Bound protein was eluted through boiling the dynabeads in 40 \r\nµL SDS-PAGE loading dye containing 2 mM biotin. The eluate was lyophilized and re-diluted \r\nusing water to 15µL, and resolved on 12% TGX-PAGE (Bio-Rad, Mini Protean) at 100V for 1 \r\nhour. \r\nLC-MS2 based proteomics\r\nThe PAGE gel containing proteins eluted from streptavidin pulldown was stained with Coomassie \r\nBrilliant Blue (CBB). The gel lane for each eluate was excised and regions below the 15-kDa or \r\nabove the 200-kDa marker were trimmed off. The gel lane was diced into 1-mm pieces, and then \r\ntreated with 10 mM DTT at 56 oC for 1 hr followed by 55 mM iodoacetamide at RT for 1 hr in the \r\ndark. After a brief wash with 0.1 M NH4HCO3, gel pieces were dehydrated with acetonitrile, dried \r\nover a lyophilizer, and re-hydrated with a minimal volume of 6 ng/µL trypsin in 0.1 M NH4HCO3\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 65,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "for digestion at RT overnight. Thereafter, tryptic fragments were extracted by four shrinking\u0002swelling iterations. In each iteration, gel pieces were first dehydrated with 5% formic acid in 50% \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n(v/v) acetonitrile (first two iterations) or neat acetonitrile (second two). Supernatant containing \r\ntryptic fragments was then removed for collection and gel pieces were re-swelled with 0.1 M \r\nNH4HCO3 in water. The combined supernatant was dried in a speedvac and reconstituted in 10 µL \r\n0.1% formic acid. 5 µL was used for LC-MS2 analysis.\r\nTryptic fragments were injected onto an Q Exactive HF mass spectrometer coupled to an Ultimate \r\n3000 RSLC-Nano liquid chromatography system. Samples were injected onto a 75 um i.d., 15-cm \r\nlong EasySpray column (Thermo) and eluted with a gradient from 0-28% buffer B over 90 min. \r\nBuffer A contained 2% (v/v) ACN and 0.1% formic acid in water, and buffer B contained 80% \r\n(v/v) ACN, 10% (v/v) trifluoroethanol, and 0.1% formic acid in water. The mass spectrometer \r\noperated in positive ion mode with a source voltage of 2.5 kV and an ion transfer tube temperature \r\nof 300 °C. MS scans were acquired at 120,000 resolution in the Orbitrap and up to 20 MS/MS \r\nspectra were obtained in the ion trap for each full spectrum acquired using higher-energy \r\ncollisional dissociation (HCD) for ions with charges 2-8. Dynamic exclusion was set for 20 s after \r\nan ion was selected for fragmentation. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 66,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "Raw MS data files were analyzed using Proteome Discoverer v3.0 SP1 (Thermo), with peptide \r\nidentification performed using a tryptic search with Sequest HT against the E. coli reviewed \r\nprotein database from UniProt. Fragment and precursor tolerances of 10 ppm and 0.02 Da were \r\nspecified, and three missed cleavages were allowed. Carbamidomethylation of Cys was set as a \r\nfixed modification, with oxidation of Met set as a variable modification. Quantification was \r\nprovided for peptides with only 14N-containing amino acids (light) and those with only 15N\u0002containing amino acids (heavy). The false-discovery rate (FDR) cutoff was 1% and XCorr-score \r\ncutoff was 1.8 for all peptides. \r\nLC-MS2 data processing\r\nWith each peptide group, Sequest returns quantifications of the light and heavy forms. A few \r\npeptides were returned with neither form quantified which were discarded. L/H ratio was directly \r\ncalculated for peptides with both light and heavy forms quantified. We then sorted all peptides by \r\ntheir L/H ratio. To avoid averaging bias introduced by extreme L/H values, we arbitrarily \r\nreassigned the L/H values of all the top 2% peptides and all peptides with only light form quantified\r\nwith the L/H value of the 98th percentile peptide. We similarly reassigned the L/H values of the \r\nbottom 2% peptides with the L/H value of the 2nd percentile peptide. We then calculated log2(L/H) \r\nfor all peptide groups by averaging log2(L/H) values of all peptide groups (equal weight) belonging \r\nto that protein. In addition to log2(L/H), we archived the total number of PSMs (#Totpep), peptide \r\ngroups (#Unipep) and peptide groups of arbitrarily assigned L/H values (#Arbpep). Only proteins \r\nreliably detected (criteria: #Unipep >= 3 OR (#Unipep = 2 AND #Arbpep = 0)) in BOTH replicates \r\nwere considered for hit selection and are shown in the log2(L/H) correlation plot. For each capture \r\ncompound, all reliably detected proteins were sorted by log2(L/H) averaged from two replicate \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 67,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "datasets and the top 20% were arbitrarily chosen as ppGpp-binding hits. These log2(L/H) values \r\nwere also used for the correlation plot between ppGpp and pp(dG)pp capture compounds (Figure \r\n2E). In contrast to the log2(L/H) correlation plot, all proteins with as few as one PSM detected in \r\neither replicate are included in the #PSM correlation plot. \r\nSasB activity assays\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nMichaelis-Menten characterization for SasB was carried out in a buffer containing 30 mM Tris pH \r\n7.8, 150 mM KCl, 120 mM NaCl, 15 mM MgCl2, 1 mM TCEP, and 1mM pppGpp as an activator. \r\nATP was included at a constant concentration of 8 mM and GDP/dGDP was varied from 1, 2, 5 \r\nand 10 mM. Final SasB concentration (counted as monomer) was 0.5 µM for ppGpp synthesis and \r\n50 µM for pp(dG)pp synthesis and reactions were stopped after 90 seconds and 3 hours, \r\nrespectively, by diluting 5µL into 1 mL 10 mM acetic acid. 200 µL diluted sample (1µL reaction) \r\nwas resolved on MonoQ 5/50 using a gradient formed by Buffer A (5 mM Tris-HCl 8.0) and buffer \r\nB: (5mM Tris-HCl 8.0 and 1mM NaCl) with percentage of buffer B increasing from 20% to 40% \r\nover 10 mL. The peak corresponding to the product in the 254-nm chromatogram was quantified \r\nusing the Evaluation module in the UNICORN 7.8 software. The extinction coefficient input was \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 68,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "0.013 and the “Amount” output was in units of mM from the original reaction. \r\nppGpp, pp(dG)pp, ppApp and pp(dA)pp hydrolysis assays\r\nAll hydrolysis assays were performed in 96-well plates at 30 oC in a BioTek Synergy H1 \r\nmicroplate reader (Agilent). Production of GDP, dGDP, or dADP was coupled to ADP production \r\nusing the activity of B. subtilis nucleoside diphosphate kinase (Ndk), and ADP production was \r\nquantitatively coupled to the stoichiometric consumption of NADH via the activity of excess \r\npyruvate kinase (PK, type-III from rabbit muscle, Sigma) and lactate dehydrogenase (LDH, from \r\nrabbit muscle, Roche). Total reactions are as follows:\r\nppGpp + PEP + NADH + H+® PPi + GTP + lactate + NAD+\r\npp(dG)pp + PEP + NADH + H+® PPi + dGTP + lactate + NAD+\r\nppApp + PEP + NADH + H+® PPi + ATP + lactate + NAD+\r\npp(dA)pp + PEP + NADH + H+® PPi + dATP + lactate + NAD+\r\nThe volume of each reaction was 100 µL unless noted otherwise. Absorbance of each reaction was \r\nmonitored for the absorbance at 340 nm (A340) every 1 minute. Concentrated stocks were \r\nprepared for reaction buffer, substrates, enzymes and additives and all reactions were assembled \r\nby first mixing all components except the substrate in a separate 96-well plate and pre-warmed to \r\n30oC. Finally, the substrate was simultaneously transferred to multiple wells at t = 0 to initiate the \r\nreaction. Each reaction contained 50 mM HEPES-Na pH 7.5, 70 mM NaCl, 50 mM KCl, 10 mM \r\nNH4Cl, 0.1 mM TCEP, 50 µM ATP, 500 µM NADH, 7.5 mM PEP, 10 U/mL PK, 10 U/mL LDH, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 69,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "1 µM B. subtilis Ndk, and appropriate concentrations of enzyme, substrate, divalent metal salt \r\nand/or EDTA as listed below. \r\n• Michaelis-Menten kinetics (Figures 3C and D): reactions contained 5 mM MgSO4. Substrates \r\nwere in the form of 1:1 mixture with MgSO4 at indicated final concentration to keep the free \r\nMg2+ concentration constant. The final concentration of SpoTAb was 100 nM (WT or Y51F \r\nmutant) for ppGpp hydrolysis and 1 µM for pp(dG)pp hydrolysis.\r\n• Hydrolysis of ppApp vs pp(dA)pp and ppGpp vs pp(dG)pp (Figures 3F and G): reactions \r\ncontained 5 mM MgSO4 and 500 µM substrate. Final concentration of enzymes was 100 nM \r\nfor Aph1Bc, 1 µM for SAHMex, 200 nM for MESH1 and 100 nM SpoTAb when hydrolyzing the \r\nribonucleotide substrate and 10-fold higher when hydrolyzing the 2’-deoxyribonucleotide \r\nsubstrate.\r\n• Single metal cation (Mg2+ or Mn2+) titration reactions (Figures 4D and 5B) contained 500 µM \r\nppGpp or pp(dG)pp. SpoTAb was used at 30 nM for ppGpp hydrolysis and 1 µM for pp(dG)pp \r\nhydrolysis. MgSO4 or MnCl2 was included at final, total concentrations of 0.5, 0.75, 1, 1.5, 2, \r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 70,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "3.5, 5, and 7.5 mM. When plotting for free metal concentration, 0.5 mM (1 equivalence to \r\nppGpp) was subtracted from the total concentration. \r\n• EDTA-buffered Mn2+ titration (Figure 4G): reactions contained 100 nM SpoTAb, 500 µM \r\nppGpp, 5 mM (black trace) or 30 mM (red trace) MgSO4, and 1 mM EDTA. MnCl2 was \r\nincluded at 50, 200, 400, 600, 800 and 900 µM (black symbols) or 50, 200, 400, 600, 800 µM \r\n(red symbols). Simulation of free Mn2+ concentration at each titration point is described in the \r\nnext section.\r\n• Mg2+ titration of EDTA-stripped SpoTAb (Figure 4H): reactions contained 100 nM SpoTAb, 500 \r\nµM ppGpp and 1 mM EDTA. MgSO4 was included at 0, 5, 10, 20, 35 and 50 mM. When \r\nplotting for free metal concentration, 1.5 mM (1 eq to ppGpp and EDTA) was subtracted from \r\nthe total concentration. \r\n• Single-point additive effects (Figures 4E, 5C and 5D): reactions contained 10 mM MgCl2 and \r\n500 µM ppGpp or pp(dG)pp. SpoTAb was used at 100 nM for ppGpp hydrolysis and 1 µM for \r\npp(dG)pp hydrolysis. As indicated, reactions also include 1 mM EDTA or 100 µM MnCl2, \r\nCoCl2, NiSO4 or ZnAc2.\r\nFor each reaction, a background reaction was assembled on the same plate in which the hydrolase \r\nstock is replaced by the hydrolase purification buffer without the enzyme. All reactions were \r\nassayed together with their corresponding background reaction. Linear regression of the A340 time \r\ncourse provided initial velocity for each reaction in the unit of min-1. Upon background subtraction, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 71,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "this initial velocity is converted to µM•min-1 by dividing the extinction coefficient of 1.94x10-3\r\nµM-1 for 100 µL reactions and 3.88x10-3 µM-1 for 200µL reactions. \r\nSimulation of free Mn2+ in the presence of Mg2+, EDTA and ppGpp\r\nWe first consider the distribution of EDTA across the following forms: completely protonated \r\nEDTA (denoted as “4-”), monoprotonated EDTA (3-), diprotonated EDTA (2-), Mg-EDTA chelate \r\n(MgEDTA) and Mn-EDTA chelate (MnEDTA). More protonated forms are negligible at our \r\nreaction pH of 7.5 provided the strong acidity of triprotonated EDTA (pKa = 2.7). [Mg2+] and \r\n[Mn2+] are used as the free metal concentrations. The weight of each species can be expressed as:\r\n[4!]:[3!]:[2!]:[MgEDTA]:[MnEDTA] = 1:\r\n[#!]\r\n%\"#\r\n:\r\n[#!]$\r\n%\"#%\"%\r\n:\r\n[&'$!]\r\n%&,()\r\n:\r\n[&($!]\r\n%&,(*\r\n(1)\r\nConstants Ka4 = 10-10.24, Ka3 = 10-6.16, KD,Mg = 10-8.79 and KD, Mn = 10-13.89 are available from \r\nliterature (ref). Note that the weight of [4-], [3-] and [2-] is dependent only on pH, which is constant \r\nin our experiment. Because EDTA binds Mn2+ 5.1 orders of magnitude stronger than Mg2+, while \r\nppGpp binds Mn2+ only 22-fold stronger than Mg2+ (5.5 µM vs 126 µM KD), any reactions \r\ncontaining x mM [Mg]total, 1 mM EDTA, 0.5 mM ppGpp and y (0.05 < y < 0.9) mM [Mn]total, the \r\nadded Mn2+ is expected to displace Mg2+ from MgEDTA chelate rather than Mg-ppGpp chelate. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 72,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "Thus, [Mg2+] can be approximated to (y+x-1.5) mM, allowing us to calculate the weight for \r\n[MgEDTA] provided any [Mn]total in this range. Additionally, [MnEDTA] proximates [Mn]total. At \r\neach [Mn]total, we solve [Mn2+] using equation (2).\r\n[Mn)*] = [&(]+,+-.\r\n+ -&![&(./01] (1 + [#!]%\"#\r\n+ [#!]$\r\n%\"#%\"%\r\n+ [&'$!]\r\n%&,()\r\n)𝐾/,&( (2)\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nWe then calculate the corresponding [4-] at each condition (see Table below). Note that [Mn] << \r\n[Mn]T in agreement to our estimation that most Mn2+ forms chelate with EDTA by displacing Mg2+. \r\nTo confirm that the quantity of Mn-ppGpp chelate is too little to affect our simulation, we used\r\n[Mg2+] at each condition and the KD, Mg-ppGpp = 126 µM obtained in ITC experiment (SI Figure 3)\r\nto calculate free ppGpp concentration, [ppGpp]. We then used KD, Mn-ppGpp = 5.5 µM to calculate \r\nthe molar ratio between Mn-EDTA chelate and Mn-ppGpp chelate following equation (3). The \r\nresults confirm that [MnppGpp] << [MnEDTA] in consistence with our basic assumption of the\r\nsimulation process. \r\n[&(./01]\r\n[&(33433] = [./01]/%&,(*\r\n[33433]/%&,(*//0//\r\n(3)\r\nSummary Table of simulation results. All units are M except the right most column.\r\n[Mn]T »\r\n[MnEDTA]\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 73,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "[Mg2+] [Mn2+] [4-] [ppGpp] [MnEDTA]\r\n[MnppGpp]\r\n0.00005 0.00355 1.48E-09 4.35E-10 1.77E-05 1.05E+04\r\n0.0002 0.0037 7.35E-09 3.51E-10 1.70E-05 8.79E+03\r\n0.0004 0.0039 2.06E-08 2.50E-10 1.62E-05 6.61E+03\r\n0.0006 0.0041 4.89E-08 1.58E-10 1.54E-05 4.39E+03\r\n0.0008 0.0043 1.36E-07 7.58E-11 1.47E-05 2.21E+03\r\n0.0009 0.0044 8.24E-07 1.41E-11 1.43E-05 4.20E+02\r\n0.00005 0.02855 1.20E-08 5.37E-11 2.21E-06 1.04E+04\r\n0.0002 0.0287 5.70E-08 4.52E-11 2.20E-06 8.79E+03\r\n0.0004 0.0289 1.53E-07 3.37E-11 2.18E-06 6.60E+03\r\n0.0006 0.0291 3.46E-07 2.23E-11 2.16E-06 4.41E+03\r\n0.0008 0.0293 9.30E-07 1.11E-11 2.15E-06 2.20E+03\r\nCalculating KD for Mn2+ and Mg2+ from apparent KD values of Mn2+ at two different Mg2+\r\nconcentrations\r\nWe consider three states of M1 site: metal free, Mn2+-bound and Mg2+-bound and denote their \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 74,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "concentrations as [M1], [M1Mn] and [M1Mg], respectively. The apparent KD of Mn2+ (KD, App) \r\ntreats both metal-free and Mg2+-bound state “unbound” (because the latter is also almost inactive):\r\n𝐾6,788 = ([&+]*[&+&'])[&($!]\r\n[&+&(] (1)\r\n[M1] and [M1Mg] are related by KD, Mg and free [Mg2+]:\r\n[M1Mg] = [&'$!]\r\n%&,()\r\n[M1] (2)\r\nThus, \r\n𝐾/,&( = [&+][&($!]\r\n[&+&(] = 𝐾6,788( %&,()\r\n[&'$!]*%&,()\r\n)\r\nUsing two sets of values: \r\nKD, App = 39 nM when [Mg2+] = 4 mM;\r\nKD, App = 116 nM when [Mg2+] = 29 mM;\r\nWe solved KD, Mn = 27 nM and KD, Mg = 8.6 mM.\r\nMultiple Sequence Alignment\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nAll RSH sequences in Figure 3A were aligned using Clustal Omega 5 and YqeKSp was aligned to \r\nSpoTAb based on superimposition of their crystal structures (PDBID: 9WMY and 7QPR).\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 75,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "Table S1. Primers\r\nPrimer name Sequence\r\npETSUMO F gacaagcttgcggccg\r\npETSUMO R accaccaatctgttctctgtgag\r\npCfa Cys FP tgcctgtcttacgacacagag\r\npCfa Nde1 RP atgtatatctccttcttaaagttaaacaaaattatttc\r\nSpoT Aba pETSUMO F ctcacagagaacagattggtggtatgcccggtgaggaagtg\r\nSpoT Aba pETSUMO R cggccgcaagcttgtctcagctcaccttcgagatttcc\r\nldcI pCfa F taagaaggagatatacatatgaacgttattgcaatattgaatcac\r\nldcI pCfa R tctgtgtcgtaagagagacattttttgctttcttctttcaatacc\r\nSpoT Y51F F gggagccattcattcttcaccc\r\nSpoT Y51F R gggtgaagaatgaatggctccc\r\nSpoT E82N F cgatgttattcaggacacccaatacac\r\nSpoT E82N R ggtgtattgggtgtcctgaataacatcg\r\nSpoT D83Q F ggtgtattgggtgttctcaataacatcg\r\nSpoT D83Q R cgatgttattgagaacacccaatacacc\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nTable S2. Plasmids\r\nPlasmid Name Relevant Genotype Source\r\nP1-1 PT7 -His6 -yjbMBs (sasB) Wang et al., 2019\r\nG74-6S PT7 -His6 -sumo-spoTAba This study\r\nG13-1 PT7 -His6 -speCEco Wang et al., 2019\r\nG23-1Cfa PT7-PurFEco-Cfa-His6 Wang et al., 2019\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 76,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 479,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "G24-1 PT7 -His6 -GsKEco Wang et al., 2019\r\nG77-1Cfa PT7-ldcIEco-Cfa-His6 This study\r\nG74-6S Y51F PT7 -His6 -sumo-spoTAba Y51F This study\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nTable S6. Strains\r\nStrain # Background Plasmid Source\r\n1 MG1655\r\n41 BL21(DE3) P1-1 Wang et al. 2019 \r\n45 BL21(DE3) G74-6S This study\r\n42 BL21(DE3) G13-1 Wang et al. 2019 \r\n43 BL21(DE3) G23-1Cfa Wang et al. 2019 \r\n44 BL21(DE3) G24-1S Wang et al. 2020\r\n45 BL21(DE3) G77-1Cfa This study\r\n47 BL21(DE3) G74-6S Y51F This study\r\n(1) Stevens, A. J.; Brown, Z. Z.; Shah, N. H.; Sekar, G.; Cowburn, D.; Muir, T. W. Design of a \r\nSplit Intein with Exceptional Protein Splicing Activity. J Am Chem Soc 2016, 138 (7), 2162-\r\n2165. DOI: 10.1021/jacs.5b13528 From NLM Medline.\r\n(2) Steinchen, W.; Schuhmacher, J. S.; Altegoer, F.; Fage, C. D.; Srinivasan, V.; Linne, U.; \r\nMarahiel, M. A.; Bange, G. Catalytic mechanism and allosteric regulation of an oligomeric \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 77,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 473,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "(p)ppGpp synthetase by an alarmone. P Natl Acad Sci USA 2015, 112 (43), 13348-13353. DOI: \r\n10.1073/pnas.1505271112.\r\n(3) Ahmad, S.; Wang, B.; Walker, M. D.; Tran, H. R.; Stogios, P. J.; Savchenko, A.; Grant, R. \r\nA.; McArthur, A. G.; Laub, M. T.; Whitney, J. C. An interbacterial toxin inhibits target cell \r\ngrowth by synthesizing (p)ppApp. Nature 2019, 575 (7784), 674-678. DOI: 10.1038/s41586-\r\n019-1735-9 From NLM Medline.\r\n(4) Haas, T. M.; Ebensperger, P.; Eisenbeis, V. B.; Nopper, C.; Durr, T.; Jork, N.; Steck, N.; \r\nJessen-Trefzer, C.; Jessen, H. J. Magic spot nucleotides: tunable target-specific chemoenzymatic \r\nsynthesis. Chem Commun (Camb) 2019, 55 (37), 5339-5342. DOI: 10.1039/c9cc01688k From \r\nNLM Medline.\r\n(5) Sievers, F.; Wilm, A.; Dineen, D.; Gibson, T. J.; Karplus, K.; Li, W.; Lopez, R.; McWilliam, \r\nH.; Remmert, M.; Soding, J.; et al. Fast, scalable generation of high-quality protein multiple \r\nsequence alignments using Clustal Omega. Mol Syst Biol 2011, 7, 539. DOI: \r\n10.1038/msb.2011.75 From NLM Medline.\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 78,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\npp(dG)pp—(1)\r\n13C NMR (151 MHz, D2O) δ 159.2, 154.0, 151.6, 137.8, 116.1, 85.3 (t, JC-P = 7.6 Hz), 83.7, 76.4 (d, JC-P = 6.0 Hz), 65.4 (d, JC-P = \r\n6.0 Hz), 37.8 (d, JC-P = 3.0 Hz).\r\n1\r\nH NMR (600 MHz, D2O) δ 8.04 (s, 1H), 6.25 (dd, J = 8.7, 6.1 Hz, 1H), 4.97 (td, J = 5.3, 2.3 Hz, 1H), 4.39 (tt, J = 4.0, 1.6 Hz, \r\n1H), 4.05 (m, 2H), 2.71 (m, 2H).\r\n160 150 140 130 120 110 100 90 80 70 60 50 40 30 20 10 0\r\nf1 (ppm)\r\n-30000\r\n-20000\r\n-10000\r\n0\r\n10000\r\n20000\r\n30000\r\n40000\r\n50000\r\n60000\r\n70000\r\n80000\r\n90000\r\n100000\r\n110000\r\n120000\r\n37.79\r\n37.81\r\n65.34\r\n65.38\r\n76.37\r\n76.41\r\n83.67\r\n85.19\r\n85.25\r\n85.29\r\n116.09\r\n137.83\r\n151.61\r\n154.00\r\n159.20\r\nO\r\nN N\r\nN NH\r\nH2N\r\nO\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nP O\r\nO\r\nHO\r\nOH\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 79,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 462,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "8.5 8.0 7.5 7.0 6.5 6.0 5.5 5.0 4.5 4.0 3.5 3.0 2.5 2.0 1.5 1.0 0.5 0.0\r\nf1 (ppm)\r\n-100000\r\n0\r\n100000\r\n200000\r\n300000\r\n400000\r\n500000\r\n600000\r\n700000\r\n800000\r\n900000\r\n1000000\r\n1100000\r\n1200000\r\n1300000\r\n1400000\r\n1500000\r\n2.10\r\n2.07\r\n1.06\r\n1.00\r\n1.01\r\n0.98\r\n2.67\r\n2.67\r\n2.68\r\n2.68\r\n2.69\r\n2.69\r\n2.70\r\n2.70\r\n2.71\r\n2.72\r\n2.72\r\n2.73\r\n2.74\r\n2.75\r\n4.03\r\n4.04\r\n4.04\r\n4.05\r\n4.06\r\n4.06\r\n4.38\r\n4.38\r\n4.39\r\n4.39\r\n4.39\r\n4.40\r\n4.40\r\n4.70\r\n4.96\r\n4.96\r\n4.97\r\n4.97\r\n4.97\r\n4.98\r\n6.24\r\n6.25\r\n6.25\r\n6.26\r\n8.04\r\nO\r\nN\r\nN\r\nN\r\nNH\r\nH2N\r\nO\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nP O\r\nO\r\nHO\r\nOH\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 80,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 446,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "31P NMR (162 MHz, D2O) δ -5.66 (d, J = 9.7 Hz, 1P), -5.79 (d, J = 9.7 Hz, 1P), -10.02 (dt, J = 19.4 Hz, J P-H = 6.5 Hz, 1P), -10.83 \r\n(dd, J = 20.8 Hz, J P-H = 7.5 Hz, 1P).\r\n-5.5 -6.0 -6.5 -7.0 -7.5 -8.0 -8.5 -9.0 -9.5 -10.0 -10.5 -11.0 -11.5\r\nf1 (ppm)\r\n-20\r\n-10\r\n0\r\n10\r\n20\r\n30\r\n40\r\n50\r\n60\r\n70\r\n80\r\n90\r\n100\r\n110\r\n120\r\n130\r\n140\r\n1.05\r\n1.06\r\n1.04\r\n0.98\r\n-10.92\r\n-10.87\r\n-10.79\r\n-10.74\r\n-10.12\r\n-10.08\r\n-9.99\r\n-9.96\r\n-9.92\r\n-5.82\r\n-5.76\r\n-5.69\r\n-5.63\r\nO\r\nN N\r\nN NH\r\nH2N\r\nO\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nP O\r\nO\r\nHO\r\nOH\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nppGpp-3bS—(2)\r\n1\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 81,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "H NMR (600 MHz, D2O) δ 8.04 (s, 1H), 5.89 (d, J = 6.5 Hz, 1H), 4.90 (ddd, J = 8.4, 5.1, 3.1 Hz, 1H), 4.80 (ddd, J = 6.5, 5.0, 1.3 \r\nHz, 1H), 4.46 (dt, J = 5.0, 2.5 Hz, 1H), 4.11 (m, 2H).\r\n13C NMR (151 MHz, D2O) δ 159.1, 154.0, 151.9, 137.9, 116.2, 86.6, 83.3 (dd, J C-P = 4.5 Hz), 74.7 (d, J C-P = 6.0 Hz), 73.0 (d, J C\u0002P = 4.5 Hz), 64.9 (d, J C-P = 6.0 Hz).\r\n9.0 8.8 8.6 8.4 8.2 8.0 7.8 7.6 7.4 7.2 7.0 6.8 6.6 6.4 6.2 6.0 5.8 5.6 5.4 5.2 5.0 4.8 4.6 4.4 4.2 4.0 3.8 3.6 3.4\r\nf1 (ppm)\r\n-200000\r\n0\r\n200000\r\n400000\r\n600000\r\n800000\r\n1000000\r\n1200000\r\n1400000\r\n1600000\r\n1800000\r\n2000000\r\n2200000\r\n2400000\r\n2600000\r\n2800000\r\n3000000\r\n2.011.061.061.051.001.00\r\n4.104.114.124.454.464.464.474.474.704.794.794.794.804.804.804.814.884.894.894.904.904.914.915.895.908.04\r\nO\r\nN\r\nN\r\nN\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 82,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "NH\r\nH2N\r\nO\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nP O\r\nS\r\nHO\r\nOH\r\nOH\r\n165 160 155 150 145 140 135 130 125 120 115 110 105 100 95 90 85 80 75 70 65 60 55 50\r\nf1 (ppm)\r\n-50000\r\n0\r\n50000\r\n100000\r\n150000\r\n200000\r\n250000\r\n300000\r\n350000\r\n64.9364.9773.0473.0774.6574.6983.3283.3583.3986.59116.20137.87151.93153.94159.09\r\nO\r\nN\r\nN\r\nN\r\nNH\r\nH2N\r\nO\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nP O\r\nS\r\nHO\r\nOH\r\nOH\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n31P NMR (243 MHz, D2O) δ 34.67 (d, J = 31.3 Hz, 1P), -5.79 (d, J = 21.2 Hz, 1P), -9.89 (dt, J = 19.6 Hz, JP-H = 5.6 Hz, 1P), -\r\n11.72 (dd, J = 31.5 Hz, JP-H = 8.6 Hz, 1P).\r\n36 34 32 30 28 26 24 22 20 18 16 14 12 10 8 6 4 2 0 -2 -4 -6 -8 -10 -12 -14 -16\r\nf1 (ppm)\r\n0\r\n500000\r\n1000000\r\n1500000\r\n2000000\r\n2500000\r\n1.04\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 83,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 471,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "1.07\r\n1.09\r\n1.00\r\n-11.80-11.77-11.67\r\n-11.64\r\n-9.95\r\n-9.93\r\n-9.90\r\n-9.87\r\n-9.84\r\n-9.82\r\n-5.83\r\n-5.75\r\n34.58\r\n34.60\r\n34.66\r\n34.71\r\n34.73\r\n-9 -10 -11 -12 -13\r\nf1 (ppm)\r\n0\r\n1000000\r\n2000000\r\n1.04\r\n1.07\r\n-11.80\r\n-11.77\r\n-11.67\r\n-11.64\r\n-9.95\r\n-9.93\r\n-9.90\r\n-9.87\r\n-9.84\r\n-9.82\r\nO\r\nN N\r\nN NH\r\nH2N\r\nO\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nP O\r\nS\r\nHO\r\nOH\r\nOH\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\npp(dG)pp-3bS—(3)\r\n1\r\nH NMR (600 MHz, D2O) δ 8.05 (s, 1H), 6.28 (t, J = 7.3 Hz, 1H), 5.02 (ddt, J = 9.3, 5.0, 2.4 Hz, 1H), 4.42 (tt, J = 4.0, 1.5 Hz, \r\n1H), 4.10 – 4.03 (m, 2H), 2.74 (dd, J = 3.7 Hz, 2H).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 84,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "13C NMR (151 MHz, D2O) δ 159.1, 153.9, 151.6, 137.9, 116.1, 85.3 (t, JC-P = 7.5 Hz), 83.7, 76.5 (d, JC-P = 4.5 Hz), 65.4 (d, JC-P = \r\n4.5 Hz), 37.8 (d, JC-P = 3.0 Hz).\r\n8.5 8.0 7.5 7.0 6.5 6.0 5.5 5.0 4.5 4.0 3.5 3.0 2.5 2.0 1.5 1.0 0.5 0.0\r\nf1 (ppm)\r\n0\r\n1000000\r\n2000000\r\n3000000\r\n4000000\r\n5000000\r\n6000000\r\n7000000\r\n8000000\r\n9000000\r\n10000000\r\n2.00\r\n2.04\r\n0.98\r\n0.99\r\n0.97\r\n0.95\r\n2.73\r\n2.74\r\n2.74\r\n2.75\r\n4.03\r\n4.04\r\n4.04\r\n4.05\r\n4.05\r\n4.06\r\n4.06\r\n4.06\r\n4.07\r\n4.07\r\n4.08\r\n4.09\r\n4.09\r\n4.10\r\n4.41\r\n4.41\r\n4.42\r\n4.42\r\n4.42\r\n4.43\r\n4.43\r\n4.70\r\n5.01\r\n5.01\r\n5.02\r\n5.02\r\n5.02\r\n5.03\r\n5.03\r\n5.03\r\n5.04\r\n6.27\r\n6.28\r\n6.30\r\n8.04\r\n8.05\r\nO\r\nN N\r\nN NH\r\nH2N\r\nO\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nP O\r\nS\r\nHO\r\nOH\r\n180 170 160 150 140 130 120 110 100 90 80 70 60 50 40 30 20 10 0\r\nf1 (ppm)\r\n-80000\r\n-60000\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 85,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "-40000\r\n-20000\r\n0\r\n20000\r\n40000\r\n60000\r\n80000\r\n100000\r\n120000\r\n140000\r\n160000\r\n180000\r\n200000\r\n220000\r\n240000\r\n37.83\r\n37.85\r\n65.38\r\n65.41\r\n76.50\r\n76.53\r\n83.73\r\n85.21\r\n85.26\r\n85.31\r\n116.10\r\n137.92\r\n151.64\r\n153.90\r\n159.11\r\nO\r\nN N\r\nN NH\r\nH2N\r\nO\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nP O\r\nS\r\nHO\r\nOH\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n31P NMR (162 MHz, D2O) δ 32.44 (d, J = 30.8 Hz, 1P), -7.09 (d, J = 20.2 Hz, 1P), -11.25 (dt, J = 20.2 Hz, JP-H = 3.2 Hz, 1P), -\r\n13.54 (dd, J = 29.2 Hz, JP-H = 4.9 Hz, 1P).\r\n40 35 30 25 20 15 10 5 0 -5 -10 -15 -20\r\nf1 (ppm)\r\n-20\r\n0\r\n20\r\n40\r\n60\r\n80\r\n100\r\n120\r\n140\r\n160\r\n180\r\n200\r\n220\r\n240\r\n260\r\n1.02\r\n1.07\r\n0.98\r\n1.00\r\n-13.64\r\n-13.61\r\n-13.46\r\n-13.43\r\n-11.35\r\n-11.32\r\n-11.22\r\n-11.19\r\n-11.17\r\n-7.16\r\n-7.03\r\n32.35\r\n32.54\r\nO\r\nN N\r\nN NH\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 86,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 438,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "H2N\r\nO\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nP O\r\nS\r\nHO\r\nOH\r\n-11.0 -12.0 -13.0 -14.0\r\nf1 (ppm)\r\n0\r\n100\r\n200\r\n1.02\r\n1.07\r\n-13.64\r\n-13.61\r\n-13.46\r\n-13.43\r\n-11.35\r\n-11.32\r\n-11.22\r\n-11.19\r\n-11.17 available under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\npp(dA)pp—(7)\r\n1\r\nH NMR (600 MHz, D2O) δ 8.44 (s, 1H), 8.14 (s, 1H), 6.47 (t, J = 7.4 Hz, 1H), 4.98 (m, 1H), 4.44 (m, 1H), 4.05 (m, 2H), 2.76 (m, \r\n2H).\r\n13C NMR (151 MHz, D2O) δ 155.5, 152.7, 148.9, 140.2, 118.5, 85.4 (t, JC-P = 6.0 Hz), 83.7, 76.4 (d, JC-P = 4.5 Hz), 65.3 (d, JC-P = \r\n6.0 Hz), 38.4 (d, JC-P = 4.5 Hz).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 87,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "9.0 8.5 8.0 7.5 7.0 6.5 6.0 5.5 5.0 4.5 4.0 3.5 3.0 2.5 2.0 1.5 1.0 0.5 0.0\r\nf1 (ppm)\r\n-100000\r\n0\r\n100000\r\n200000\r\n300000\r\n400000\r\n500000\r\n600000\r\n700000\r\n800000\r\n900000\r\n1000000\r\n1100000\r\n1200000\r\n1300000\r\n1400000\r\n1500000\r\n1600000\r\n1700000\r\n1800000\r\n1900000\r\n2000000\r\n1.96\r\n2.11\r\n1.00\r\n0.97\r\n1.00\r\n0.81\r\n0.96\r\n2.75\r\n2.76\r\n2.76\r\n2.77\r\n2.77\r\n2.79\r\n4.01\r\n4.02\r\n4.02\r\n4.02\r\n4.03\r\n4.04\r\n4.04\r\n4.04\r\n4.05\r\n4.06\r\n4.07\r\n4.08\r\n4.09\r\n4.44\r\n4.44\r\n4.70\r\n4.98\r\n6.45\r\n6.47\r\n6.48\r\n8.14\r\n8.44\r\nO\r\nN\r\nN\r\nN\r\nNH\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nP O\r\nO\r\nHO\r\nOH\r\nNH2\r\n160 150 140 130 120 110 100 90 80 70 60 50 40 30 20 10\r\nf1 (ppm)\r\n-20000\r\n0\r\n20000\r\n40000\r\n60000\r\n80000\r\n100000\r\n120000\r\n140000\r\n160000\r\n180000\r\n200000\r\n220000\r\n240000\r\n260000\r\n280000\r\n300000\r\n320000\r\n340000\r\n360000\r\n380000\r\n400000\r\n3\r\n420000 8.36\r\n38.39\r\n65.32\r\n65.36\r\n76.43\r\n76.46\r\n83.70\r\n85.44\r\n118.53\r\n140.16\r\n148.96\r\n152.68\r\n155.55\r\nO\r\nN\r\nN\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 88,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "N\r\nNH\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nP O\r\nO\r\nHO\r\nOH\r\nNH2\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n31P NMR (243 MHz, D2O) δ -6.35 – -7.36 (m, 2P), -10.70 (dt, J = 21.0 Hz, 1P), -11.50 (dd, J = 21.0 Hz, J P-H = 7.6 Hz, 1P).\r\n-6.0 -6.5 -7.0 -7.5 -8.0 -8.5 -9.0 -9.5 -10.0 -10.5 -11.0 -11.5 -12.0 -12.5\r\nf1 (ppm)\r\n-200000\r\n0\r\n200000\r\n400000\r\n600000\r\n800000\r\n1000000\r\n1200000\r\n1400000\r\n1600000\r\n1800000\r\n2000000\r\n2200000\r\n2400000\r\n2600000\r\n2800000\r\n0.93\r\n1.00\r\n1.95\r\n-11.56\r\n-11.53\r\n-11.47\r\n-11.44\r\n-10.77\r\n-10.75\r\n-10.66\r\n-6.93\r\n-6.85\r\n-6.83\r\nO\r\nN\r\nN\r\nN\r\nNH\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nP O\r\nO\r\nHO\r\nOH\r\nNH2\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 89,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\nppGp—(8)\r\n1\r\nH NMR (600 MHz, D2O) δ 8.05 (s, 1H), 5.84 (d, J = 7.1 Hz, 1H), 4.69 (t, J = 5.0 Hz, 1H), 4.63 (ddd, J = 7.4, 5.0, 2.4 Hz, 1H), \r\n4.40 (m, 1H), 4.12 – 4.05 (m, 2H).\r\n13C NMR (151 MHz, D2O) δ 159.2, 154.0, 152.0, 137.8, 116.2, 86.5, 84.0 (q, J C-P = 4.5 Hz), 73.5 (d, J C-P = 3.0 Hz), 73.4 (d, J C-P\r\n= 3.0 Hz), 65.2 (d, J C-P = 6.0 Hz).\r\n8.0 7.5 7.0 6.5 6.0 5.5 5.0 4.5 4.0 3.5 3.0 2.5 2.0 1.5 1.0 0.5 0.0\r\nf1 (ppm)\r\n-100000\r\n0\r\n100000\r\n200000\r\n300000\r\n400000\r\n500000\r\n600000\r\n700000\r\n800000\r\n900000\r\n1000000\r\n1100000\r\n1200000\r\n1300000\r\n2.13\r\n1.04\r\n1.05\r\n1.05\r\n1.00\r\n1.02\r\n4.05\r\n4.05\r\n4.06\r\n4.06\r\n4.07\r\n4.07\r\n4.08\r\n4.08\r\n4.09\r\n4.09\r\n4.10\r\n4.10\r\n4.11\r\n4.11\r\n4.12\r\n4.39\r\n4.39\r\n4.39\r\n4.40\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 90,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "4.40\r\n4.40\r\n4.62\r\n4.63\r\n4.63\r\n4.63\r\n4.64\r\n4.64\r\n4.65\r\n4.69\r\n4.70\r\n4.70\r\n4.71\r\n5.83\r\n5.85\r\n8.05\r\nO\r\nN\r\nN\r\nN\r\nNH\r\nH2N\r\nO\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nHO\r\nOH\r\n170 165 160 155 150 145 140 135 130 125 120 115 110 105 100 95 90 85 80 75 70 65 60 55 50 45 40\r\nf1 (ppm)\r\n-60000\r\n-40000\r\n-20000\r\n0\r\n20000\r\n40000\r\n60000\r\n80000\r\n100000\r\n120000\r\n140000\r\n160000\r\n180000\r\n200000\r\n220000\r\n240000\r\n260000\r\n280000\r\n300000\r\n65\r\n320000 .18\r\n65.2273.3873.4173.5273.5483.9884.0184.0484.0786.46116.17137.78151.99154.05159.17\r\nO\r\nN\r\nN\r\nN\r\nNH\r\nH2N\r\nO\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nHO\r\nOH\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n31P NMR (243 MHz, D2O) δ 3.90 (d, JP-H = 7.5 Hz, 1P), -5.35 (d, J = 20.3 Hz, 1P), -9.62 (dt, J = 20.7 Hz, J P-H = 5.3 Hz, 1P).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 91,
+      "doc_items": [],
+      "end_page": 46,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 6222802546656857616,
+        "filename": "nihpp-2024.01.06.574488v1.PMC10802352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 47,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 262,
+      "total_chunks": 92,
+      "version": "1.0.0"
+    },
+    "text": "5 4 3 2 1 0 -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 -12 -13 -14 -15 -16 -17\r\nf1 (ppm)\r\n0\r\n500000\r\n1000000\r\n1500000\r\n2000000\r\n2500000\r\n3000000\r\n0.991.001.02\r\n-9.68-9.66-9.64-9.59-9.57-9.55-5.40-5.313.893.92\r\nO\r\nN N\r\nN NH\r\nH2N\r\nO\r\nO P O\r\nO\r\nOH\r\nHO P\r\nO\r\nOH\r\nO\r\nP O\r\nOH\r\nHO\r\nOH\r\navailable under aCC-BY-NC-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.01.06.574488; this version posted January 7, 2024. The copyright holder for this preprint\n\n"
+  }
+]

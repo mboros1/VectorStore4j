@@ -1,0 +1,722 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "1\r\nBriefings in Bioinformatics, 22(3), 2021, 1–12\r\nhttps://doi.org/10.1093/bib/bbaa123\r\nProblem Solving Protocol\r\nEvaluating assembly and variant calling software\r\nfor strain-resolved analysis of large DNA viruses\r\nZhi-Luo Deng, Akshay Dhingra, Adrian Fritz, Jasper Götting,\r\nPhilipp C. Münch, Lars Steinbrück, Thomas F. Schulz,\r\nTina Ganzenmüller and Alice C. McHardy\r\nCorresponding author: Alice C. McHardy, Department Computational Biology of Infection Research, Helmholtz Centre for Infection Research,\r\nBraunschweig, Germany. Tel: +49 531 391-55271; E-mail: Alice.McHardy@helmholtz-hzi.de\r\nAbstract\r\nInfection with human cytomegalovirus (HCMV) can cause severe complications in immunocompromised individuals and\r\ncongenitally infected children. Characterizing heterogeneous viral populations and their evolution by high-throughput\r\nsequencing of clinical specimens requires the accurate assembly of individual strains or sequence variants and suitable\r\nvariant calling methods. However, the performance of most methods has not been assessed for populations composed of\r\nlow divergent viral strains with large genomes, such as HCMV. In an extensive benchmarking study, we evaluated 15\r\nassemblers and 6 variant callers on 10 lab-generated benchmark data sets created with two different library preparation\r\nprotocols, to identify best practices and challenges for analyzing such data.\r\nMost assemblers, especially metaSPAdes and IVA, performed well across a range of metrics in recovering abundant strains.\r\nHowever, only one, Savage, recovered low abundant strains and in a highly fragmented manner. Two variant callers, LoFreq\r\nand VarScan2, excelled across all strain abundances. Both shared a large fraction of false positive variant calls, which were\r\nstrongly enriched in T to G changes in a ‘G.G’ context. The magnitude of this context-dependent systematic error is linked to\r\nthe experimental protocol. We provide all benchmarking data, results and the entire benchmarking workf low named\r\nQuasiModo, Quasispecies Metric determination on omics, under the GNU General Public License v3.0 (https://github.com/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "hzi-bifo/Quasimodo), to enable full reproducibility and further benchmarking on these and other data.\r\nKey words: HCMV; strain mixtures; virus; benchmark; genome assembly; variant calling\r\nZ.-L. Deng is a postdoctoral researcher at the Department Computational Biology of Infection Research of the Helmholtz Centre for Infection Research.\r\nHis research focuses on viral genomics and microbiome.\r\nA. Dhingra was a PhD student at the Institute of Virology in Hannover Medical School working on next-generation sequencing of viruses. He is currently\r\na postdoctoral researcher.\r\nA. Fritz is a PhD student at the Department Computational Biology of Infection Research of the Helmholtz Centre for Infection Research. He focuses on\r\ndeveloping software for strain-resolved assembly and metagenomics.\r\nJ. Götting is a PhD student at the Institute of Virology in Hannover Medical School working on next-generation sequencing of viruses and NGS data analysis.\r\nP. C. Münch is a PhD student at the Department Computational Biology of Infection Research of the Helmholtz Centre for Infection Research and Max von\r\nPettenkofer Institute in Ludwig Maximilian University of Munich.\r\nL. Steinbrück is working on next generation sequencing at the Institute of Virology in Hannover Medical School.\r\nT. F. Schulz is the director of Institute of Virology in Hannover Medical School. And his research focuses on virology and infection.\r\nT. Ganzenmüller was working as a clinical virologist at the Institute of Virology in Hannover Medical School. She is currently working at the Institute for\r\nMedical Virology in University Hospital Tübingen as a senior physician.\r\nA. C. McHardy is the head of Department Computational Biology of Infection Research of the Helmholtz Centre for Infection Research. The department\r\nstudies the human microbiome, viral and bacterial pathogens, and human cell lineages within individual patients by analysis of large-scale biological and\r\nepidemiological data sets with computational techniques.\r\nSubmitted: 21 December 2019; Received (in revised form): 18 May 2020\r\n© The Author(s) 2020. Published by Oxford University Press. All rights reserved. For Permissions, please email: journals.permissions@oup.com\r\nThis is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "(http://creativecommons.org/licenses/by-nc/4.0/), which permits non-commercial re-use, distribution, and reproduction in any\r\nmedium, provided the original work is properly cited. For commercial re-use, please contact journals.permissions@oup.com\n2 Deng et al.\r\nIntroduction\r\nHuman cytomegalovirus (HCMV) causes a lifelong infection that\r\nis typically without major clinical symptoms. After primary\r\ninfection, HCMV persists latently in infected cells [1]. Primary or\r\n(re-)infections and reactivation of HCMV can cause significant\r\nmorbidity and severe complications in immunocompromised\r\nindividuals, such as HIV-infected persons, transplant recipients\r\nor congenitally infected children [2, 3]. HCMV has a double\u0002stranded DNA genome of approximately 235 kb, including ter\u0002minal and internal repeats, which contains at least 170 open\r\nreading frames [4]. With genome sizes of known viruses ranging\r\nfrom ∼1 kb (Circovirus SFBeef) to 2 Mb (Pandoravirus salinus) [5],\r\nHCMV belongs to the larger known viruses and has co-evolved\r\nwith its host for millions of years [6]. Multiple HCMV strain\r\ninfections (i.e. with more than one strain at the same time) prob\u0002ably contribute to prolonged viremia, delayed viral clearance and\r\nother complications [7–10].\r\nThe establishment of high-throughput sequencing tech\u0002niques and accompanying bioinformatics analysis methods has\r\ngreatly advanced viral genomic research [11–16]. Assembling\r\nviral genomes of individual virus strains from a mixed\r\npopulation and variant calling are essential for characterizing\r\nthe evolution and genetic diversity of viral pathogens such\r\nas HCMV in vivo. Although HCMV mutates and evolves more\r\nslowly than many RNA viruses and not any faster than\r\nother herpes viruses, high levels of genetic variation due to\r\nmixed (i.e. multiple) viral strain infections in an individual are\r\noften observed [17–20]. These multiple strain infections likely\r\nresult from reactivation of latent strains and/or re-infections\r\n[17, 21, 22].\r\nAssemblers leverage short read sequence data by linking\r\nsequences using kmer or read graphs, and, in some cases, vari\u0002ant frequencies, to reconstruct viral haplotypes, such as the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "recently developed HaROLD [23], which makes use of longitudi\u0002nal sequence data. There are also many variant callers available,\r\nincluding programs for calling low-frequency variants, such as\r\nLoFreq [24], VarScan2 [25], and the commercial CLC Genomics\r\nWorkbench [26]. Those programs use information on basecall\r\nand mapping quality to determine if a variant site in a read may\r\nbe due to sequencing error and mapping bias or ref lects true\r\nbiological diversity [24–26].\r\nA recent study on simulated and mock viromes suggests that\r\nthe choice of assembler largely inf luences virome characteriza\u0002tion [27]. Several assemblers that we evaluated, including IDBA\u0002UD [28], SPAdes [29], Ray [30] and Megahit [31], were previously\r\nassessed on more divergent, simulated and spiked mock viromes\r\n[27, 32]. This in one case included strains of less than 97% average\r\nnucleotide identity (ANI) [33], which resulted in shorter assem\u0002blies for low divergent community members. Viral haplotype\r\nassemblers reconstruct small viral genomes, such as HIV, Zika\r\nand hepatitis C virus, with good genome fractions. However,\r\nthese may be highly fragmented, in case of Savage [34], or consist\r\nof longer contigs with a substantial amount of misassemblies,\r\nin case of PEhaplo [35], QuasiRecomb [36] and PredictHaplo [37].\r\nViral haplotype assemblers have so far been mostly evaluated\r\non much smaller and more divergent genomes (genome size\r\naround 10 kb with divergence of up to 12.7%) [34, 38]. They have\r\nnot been assessed on substantially larger genomes with low\r\ndensity of variants so far. A recent assessment of variant callers\r\n[39] reported variable, in part complementary performances of\r\nFreeBayes [40], LoFreq, VarDict [41] and VarScan2 in minority\r\nvariant detection on simulated short read data from Respiratory\r\nSyncytial Virus (RSV), which is a small virus with a 15 kb genome\r\nsize.\r\nSo far, strain-level assembly and variant calling methods\r\nhave not been evaluated for large DNA viruses, where runtime\r\nand memory consumption of the algorithms might also be criti\u0002cal, nor on benchmark data that include experimental biases of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "library preparation and sequencing. To investigate these issues,\r\nin the largest benchmark of its kind so far, we created and\r\nsequenced ten samples of HCMV strains with different mixing\r\nratios and then evaluated 21 computational methods on the\r\nresulting WGS data. Analysis of these lab-created benchmark\r\ndata sets allowed us to dissect the effects of computational\r\nmethods and library preparation protocols.\r\nResults\r\nCreation and quality control of viral sequence samples\r\nTo produce a benchmark dataset of mixed viral strains, which\r\nalso includes technical artifacts introduced in experimental data\r\ngeneration, we created viral strain mixtures mimicking clinical\r\nsamples from patients with mixed strain infections in vitro. For\r\nthis, we combined viral DNA of the HCMV strains TB40/E BAC4\r\nand AD169 (designated as “TA”), derived directly from bacte\u0002rial artificial chromosomes (BAC) with these viral genomes and\r\nprepared from Escherichia coli, or the strains TB40/E BAC4 and\r\nMerlin (designated as ‘TM’), which were amplified in human\r\ncell-cultures, respectively, at mixing ratios of 1:1, 1:10 and 1:50.\r\nThe ANIs between each pair of those strains are around 0.977\r\n(Table S1). In addition, pure strains were sequenced separately in\r\neach experiment, resulting in four data sets with the TB40/E and\r\nAD169 strains without target enrichment and the TB40/E and\r\nMerlin strain after enrichment. For the TA mixture experiments,\r\nwe used a library preparation protocol (protocol 1, details in\r\nMaterial and Methods) without target enrichment and for the TM\r\nmixtures a protocol including target enrichment (protocol 2). All\r\n10 samples (6 HCMV strain mixtures and 4 pure strains) were\r\nsequenced using 2× 300 bp paired-end sequencing (Illumina\r\nMiSeq), resulting in 1.58 million raw reads on average per sample.\r\nAfter quality control, 1.1 million quality reads per sample with\r\naverage base quality above 30 remained.\r\nAs the HCMV strains for the TA mixtures and corresponding\r\npure strain samples were extracted from E. coli BACs, E. coli\r\nreads were found in those samples with an average fraction\r\nof 48.6 ± 16.5% (Table S2). Based on the genome size of HCMV\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "(235 K) and E. coli (4.6 M), the abundance of contaminating E. coli\r\nis thus around 5%. The three TM data sets and the pure Merlin\r\nstrain, TM-0-1, did not include detectable bacterial contamina\u0002tion, but 51.7% of the reads of TM-1-0 (pure TB40/E strain) were\r\nof human origin.\r\nStrain-resolved genome assembly\r\nFor mixed strain data sets, the ultimate aim for assembly is to\r\nrecover the genomes of individual strains. To obtain a compre\u0002hensive performance overview for existing software, we evalu\u0002ated the performances of the generic (meta-)genome assemblers\r\nSPAdes, metaSPAdes [42], Megahit, ABySS [43], Ray, IDBA-UD,\r\nTadpole, which is a part of the BBMAP toolkit [44] and IVA [45],\r\nVicuna [46], as well as the viral haplotype assemblers Savage,\r\nPredictHaplo, PEhaplo, QuasiRecomb, ShoRAH [47] and VirGenA\r\n[48] on our data sets (Material and Methods).\nEvaluating assembly and variant calling software for strain-resolved analysis of large DNA-viruses 3\r\nFigure 1. Radar plot of assembler performances with six metrics across the 10\r\nsamples. Values were scaled based on the average performance for each metric\r\nacross tools and samples (best performance 1, lowest performance 0). All the\r\nmetrics were calculated using the combined reference statistics from MetaQuast,\r\nexcept for NGA50, which is only available in genome-specific report. The NGA50\r\nis the average NGA50 for individual genomes and samples.\r\nAssemblies were assessed based on common assembly\r\nquality metrics with metaQUAST [49], such as genome fraction,\r\nduplication ratio, largest alignment and NGA50 using both strain\r\ngenomes as references for the respective mixtures (Methods,\r\nFigure 1). The genome fraction is defined as the fraction of\r\nthe reference genome covered by at least one contig. The\r\nduplication ratio is the number of bases of the reference genome\r\ncovered, divided by the total number of aligned bases from the\r\nassembly. The largest alignment is the size of the biggest contig\r\nthat aligned to the reference genome. The NGA50 value of an\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "assembly is calculated by first sorting the aligned contigs, after\r\nbeing split at misassembly events, by size in descending order\r\nand returning the length of the contig that exceeds 50% genome\r\nfraction. If an assembler fails to produce 50% genome fraction,\r\nthe NGA50 value cannot be calculated and was set to 0 kb. To\r\nfurther summarize the performance of assemblers on the HCMV\r\ndatasets, we defined a composite quality metric for strain\u0002resolved assembly performances, consisting of a weighted score\r\ncombining the metaQUAST assembly metrics ‘duplication ratio’,\r\n‘genome fraction’, ‘largest alignment’, ‘NGA50’, ‘number of\r\ncontigs’ and ‘number of mismatches per 100 kb’ (Materials and\r\nMethods). In this weighted score, we considered genome fraction\r\nand largest alignment the most important metrics, since they\r\nref lect the ability of the assembler to reconstruct individual\r\nstrains and the completeness of the largest assembly.\r\nAll programs reconstructed the genome sequence much bet\u0002ter for the dominant than for the minor strain.With the weighted\r\nsummary score, metaSPAdes achieved the highest score (8.95),\r\nwith a large genome fraction assembled (73.8 ± 19.8% versus\r\n64.7 ± 30.2% for IVA, mean ± standard deviation) and second best\r\nfor largest alignment (145.9 ± 56.6 kb), NGA50 (102.3 ± 69.0 kb),\r\nthird best for number of contigs (12.4 ± 9.1) and duplication ratio\r\n(1.01 ± 0.01) (Figure 1, Tables S3 and S4). Next were IVA (8.56),\r\nwhich was ranked best for largest alignment, NGA50, and second\r\nbest for number of contigs, and ABySS (7.87) (Figure 1, Tables S3\r\nand S4). IVA produced on average the second fewest (8.1 ± 7.9),\r\nand longest contigs (159.6 ± 77.8 kb), especially for abundant\r\nstrains (160.8 ± 72.3 kb) (1/0, 50/1, 10/1), with only very few parts\r\nof the genomes covered multiple times (duplication ratio of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "1.01 ± 0.03) (Figures 1 and 2, Table S3). The Tadpole assembly\r\nhad the lowest duplication ratio (1.001 ± 0.001) and the fewest\r\nmismatches per 100 kb (18.5 ± 39.8, Figures 1 and 2, Table S3).\r\nHowever, this was mainly because it assembled very little data\r\nand generated short contigs (NGA50 12.4 ± 15.8 kb) that covered\r\njust half (52.9 ± 38.0%) of the underlying genomes.\r\nMegahit reconstructed overall the largest fraction of genomes\r\non average (79.8 ± 16.5% genomes fraction) but with a high\r\nlevel of duplication (1.7 ± 0.6) and mismatches per 100 kb\r\n(1715 ± 1684). The haplotype assembler Savage in reference\u0002based mode recovered the second most (79.1 ± 20.0% genome\r\nfraction) of both strains, even for the low abundant ones\r\n(Figure 2). However, it produced shorter contigs (largest contig\r\nlength 21.5 ± 22.8 kb) and many duplicates (1.38 ± 0.23).\r\nThe reference-based assembler VirGenA recovered most\r\n(95.8 ± 3.4%) of the genome sequence for the dominant strains,\r\nfollowed by Megahit (93.5 ± 5.7%), SPAdes (93.4 ± 2.4%), ABySS\r\n(92.7 ± 3.2%) and Ray (91.6 ± 7.8%), however much less for the\r\nlow abundant strains (0%, 38.3 ± 20.0%, 35.2 ± 6.6%, 37.3 ± 14.5%,\r\n12.2 ± 4.5%, respectively). MetaSPAdes and IVA also recovered a\r\nrelatively large fraction (83.4 ± 28.2% and 86.4 ± 21.2%, respec\u0002tively) of the dominant strains, but only little (38.7 ± 28.4% and\r\n8.5 ± 6.0%, respectively) of the genome for low abundant strains.\r\nAll other haplotype assemblers, i.e. Savage in de novo mode,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "PredictHaplo, PEhaplo, QuasiRecomb and ShoRAH, assembled no\r\ncontigs and were terminated after running for more than 10 days\r\nusing 24 CPU cores. Furthermore, we also tested 1000 random\r\nweights sets to calculate the summary score, and the top two\r\nassemblers (metaSPAdes and IVA) maintained this ranking for\r\n∼850 out of 1000 sets. This suggests that the assemblers with\r\ngood performance deliver a high-quality assembly across most\r\nmetrics.\r\nAs genome assembly can be computationally intensive\r\nand time-consuming, we also benchmarked the disk space\r\nconsumption (IO output), memory (maximum memory require\u0002ment) and run time of the different algorithms. Ray and\r\nABySS used less than 30 MB for the output while IVA, SPAdes,\r\nmetaSPAdes and Savage consumed more than 20 GB of disk\r\nspace for output or intermediate output (Figure 3). Megahit\r\nwas the most memory efficient assembler, using less than\r\n1 GB memory, whereas ABySS, VirGenA, Savage and Vicuna\r\nconsumed more than 10 GB. As to the run times, Megahit\r\nrequired around 10 mins for each assembly, while Vicuna and\r\nSavage needed more than 20 h with 24 threads on a server with\r\n62 2.4GHZ CPUs, 200 TB disk space and 1 TB memory.\r\nVariant calling\r\nWe evaluated the variant callers LoFreq, VarScan2, the low fre\u0002quency variant caller of the CLC genomics workbench, BCFtools\r\n[50], FreeBayes and the GATK HaplotypeCaller [51] on the six\r\nmixed strain and four pure strain (three different strains, details\r\nin material and methods) WGS samples. A ground truth was gen\u0002erated by pairwise genome alignment of the respective strains\r\nwith MUMmer [52] (Methods, Figure 4), which identified around\r\n3500–4000 variants, including ∼200 short insertions and dele\u0002tions (InDels). Sites in these genomes were then classified as\r\nvariant or nonvariant in this alignment, and compared to pre\u0002dicted variants, to determine true positive (TP), false negative\r\n(FN) and false positive (FP) calls. Since the major strain in each\n4 Deng et al.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "Figure 2. Performance of nine genome assemblers and one haplotype assembler (Savage) in reconstructing HCMV strains from mixed sequence samples. In the two\r\nmixture types, HCMV strains AD169 and Merlin are the high abundant strains, respectively, and TB40/E is less abundant, at ratios ranging from 1:1 to 1:50. Boxplots\r\ndisplay the median (black line) and interquartile range of individual assembly quality metrics (panels A–F) across the 10 data sets. ‘metaSPAdes’ is abbreviated as\r\n‘metaSPA’. Strain genomes are denoted by their abundances in individual mixtures. For instance, 1/10 (blue) indicates the low abundant strain in the 1:10 mixture (i.e.\r\nTB40/E in TA-1-10 and TM-1-10), and 10/1 (purple) represents the abundant strain in the 1:10 mixture (i.e. AD169 and Merlin in TA-1-10 and TM-1-10, respectively). The\r\nbest assembler for each metric is marked in bold red. To illustrate the performance of assemblers on each strain in the mixture with different abundance ratios, we\r\nused genome-specific reports here from metaQUAST. It should be noted that contrary to the combined reference statistics above (Figure 1), genome-specific estimates\r\nare based on nonunique mappings over the entire set of reference genomes with metaQUAST even when using the unique option, which leads to minor discrepancies\r\nin metrics, such as increased genome fraction, duplication ratio and number of mismatches.\r\nFigure 3. Input/output (I/O), memory consumption and run time of assembly\r\nprograms measured with the snakemake benchmarking function for all samples.\r\nEach dot in the boxplot indicates one sample.\r\nmixture was used as reference, we could evaluate the perfor\u0002mance of those variant callers in identifying low frequency vari\u0002ants originating from the minor strain in the mixture, with the\r\nexpected low frequency variants being 2 and 10%, respectively,\r\nin the mixtures with ratios of 1:50 and 1:10. Variant calls for\r\nwhich a false nucleotide was predicted for a variant site were\r\nalso considered as FPs. Based on the number of TP, FN and FPs,\r\nwe calculated precision, recall and the F1-score as detection\r\nquality metrics for each caller and sample. Precision, or purity,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "ref lects the fraction of predicted variants that are true variants:\r\nprecision = TP\r\nTP+FP ; it thus quantifies how reliable the predictions\r\nof a particular method are. Recall is sometimes also known\r\nas completeness, and measures the fraction of truly existing\r\nvariants in a data set that have been detected by a caller (recall = TP\r\nTP+FN ), it thus measures how complete the predictions of a caller\r\nare with respect to the variants that are there to discover. To\r\nallow a comparison based on a single metric, the F1-score is\r\ncommonly used, which is the harmonic mean of precision and\r\nrecall, i.e. F1 = 2 × precision×recall\r\nprecision+recall .\r\nApplying the commonly used cutoff of 20 for Phred\r\nquality scores (QUAL) [53] for accepting predicted variants,\r\nwe evaluated the performance of variant callers on single\r\nnucleotide polymorphisms (SNPs). LoFreq achieved the best\r\naverage precision (0.940 ± 0.011) and VarScan2 the highest\r\nrecall (0.872 ± 0.050, Figure 5A, Table S5) across mixture samples.\r\nLoFreq and VarScan2 consistently performed best across sam\u0002ples, with average F1-scores, of 0.890 ± 0.009 and 0.880 ± 0.011,\nEvaluating assembly and variant calling software for strain-resolved analysis of large DNA-viruses 5\r\nFigure 4. Schematic presentation of the variant calling benchmark. Mixed\r\nsamples include two HCMV strains at different abundance ratios. A genome\r\nalignment of the two strains was used to generate the ground truth, defining\r\ndivergent and conserved sites, denoted by G (‘genomic difference’) and G (‘no\r\ngenomic difference’), respectively. Based on the caller, sites were classified as\r\npredicted variants C, or predicted conserved C, defining true positive (TP, in\r\nblue), false positive (FP, in red) and false negative (FN, in orange) variant calls.\r\nIf a variant was called that differed from the ground truth variant, this was also\r\nconsidered a FP.\r\nrespectively (Figure 5B, Table S5). CLC had a slightly lower F1-\r\nscore (0.806 ± 0.025), and was more variable in performance\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "across samples, while BCFtools, GATK and Freebayes performed\r\npoorly (F1-score: 0.166 ± 0.288, 0.261 ± 0.388 and 0.289 ± 0.428,\r\nrespectively), particularly due to low recall (0.122 ± 0.230,\r\n0.215 ± 0.338 and 0.253 ± 0.386). Across all strains and abun\u0002dance ratios tested, LoFreq consistently performed well, while\r\nVarScan2 was consistent across abundance ratios but performed\r\ndifferently for the two strain mixtures (varied in precision)\r\nand CLC’s recall dropped dramatically for mixture TM-1-50.\r\nBCFtools, GATK and FreeBayes performed poorly in comparison\r\nfor all samples, and for highly diluted samples, their recall\r\nwas almost 0. To analyze the effect of their returned Phred\r\nquality scores on variant callers’ performances, we evaluated\r\nboth SNPs and InDels called with different thresholds for their\r\nquality scores using a recall-precision curve. LoFreq had the best\r\nrecall-precision balance followed by VarScan2 and CLC, while\r\nFreeBayes demonstrated high performance on samples TA-1-1\r\nand TM-1-1 (Figure S1). To compare variant caller performances\r\nunder optimized performance conditions, we also determined\r\nperformances of variants called using the best F1-scores\r\nover these different settings across all samples. Notably, the\r\nperformance of FreeBayes increased substantially, and that of\r\nCLC slightly, while the performances of other methods remained\r\nsimilar (Figure 5C and D, Figure S2, Table S6).\r\nThe callers achieving good recall, LoFreq, CLC and VarScan2,\r\nidentified around 2400 to 2700 shared true positive SNPs from\r\nall mixed strain samples when using a quality score threshold\r\nof 20 (Figure 6). On the pure strain samples, where no SNPs were\r\nexpected, LoFreq and VarScan2 predicted 61 ± 33 and 71 ± 42 FPs,\r\nrespectively, substantially less than for the mixed strain samples\r\n(164 ± 59 and 381 ± 163). Notably, of these FPs in mixtures,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "70.7 ± 17.3% (based on LoFreq predictions) and 37.6 ± 7.9%\r\n(based on VarScan2) were shared (Figure S3). This significant\r\noverlap (Fisher’s exact test P-value <2.2 × 10−16, odds ratio\r\n3416.8 ± 1601.1), indicates a systematic shared bias regardless\r\nof variant callers. Variant calling (Figure S4) indicated that allele\r\nfrequencies intended by dilutions were closely reached with\r\nprotocol 2 (TM mixture) and differed slightly more for protocol 1\r\n(TA mixture).\r\nGenomic context of variant calls\r\nWe analyzed whether there was a specific genomic signal asso\u0002ciated with variant calls, considering separately correct and\r\nfalse calls using mutational context analysis [54–56]. Focusing\r\nexemplarily on LoFreq, this approach analyzes the frequency of\r\na certain SNP together with its sequence context, specifically the\r\nf lanking3’ and 5\u0003 bases. For the predictions of a certain caller,\r\nthe genomic context of the six substitution types (C to A, C to\r\nG, C to T, T to A, T to C and T to G) was calculated with the R\r\npackage SomaticSignatures [56] for the six mixtures and four\r\npure strain samples (2 samples of TB40/E, 1 of Merlin, and 1\r\nof AD169). Since the analysis is not strand-specific, the above\r\nwere considered equivalent with G to T, G to C, G to A, A to T,\r\nA to G and A to C, respectively. We observed a strong, context\u0002independent preference for C to T or T to C transitions (with a\r\nfraction of 0.803 ± 0.016 of all variant calls across samples; top\r\npanel of Figure 7A and B), which was even more pronounced for\r\nthe true positives (middle panel of Figure 7A and B), but not for\r\nFPs. For variants observed across pairwise combinations of 30\r\nE. coli and 30 HIV genomes, which were obtained from NCBI\r\nRefSeq database (Table S7), respectively, we observed concordant\r\nresults (Figures S5 and S6). For these data, transitions accounted\r\nfor 0.716 ± 0.058 and 0.681 ± 0.017 of variants between genome\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "pairs, respectively.\r\nWe found a pronounced context-dependent signal for FP calls\r\nof LoFreq and VarScan2. Here, T to G variants in a G.G context cor\u0002respond mostly to FPs in the TA and TM mixtures (57.1 ± 10.0%\r\nand 86.8 ± 18.3%, respectively; bottom panel of Figure 7A and B).\r\nThis enrichment is highly significant (P-value <0.0001, Fisher’s\r\nexact test), with an odds ratio of around 45.2 for the TM mixture;\r\ni.e. T to G calls are 45.2 times more frequent in this context than\r\nin others and 19.9 more frequent for the TA mixture. For false\r\nvariant calls on the pure Merlin and AD169 samples, T to G calls\r\nin a G.G context were even more dominant. For LoFreq on the\r\npure Merlin (TM-0-1) sample, the genomic context pattern of\r\nfalse calls is highly correlated with the context pattern of FPs for\r\nall mixed strain samples, with an average Pearson correlation\r\nof 0.903 (P-value < 0.0001). For the AD169 strain and respective\r\nmixtures, this correlation (Pearson) is lower, on average 0.697, but\r\nstill highly significant (P-value < 0.0001).\r\nThe allele frequencies of the FP LoFreq variants were\r\nsubstantially lower than those of the true positive variants\r\n(Figure S7, Wilcoxon test P-value < 2.2 × 10−16), except for the\r\nTA-1-50 sample, which had the highest-level E. coli cloning\r\nvector contamination. False T to G calls in a G.G context had\r\na lower frequency than other false calls (P-value 1.181 × 10−10\r\nfor TM mixtures: Figure S8, 8.16 × 10−10 for TA mixtures). The\r\nallele frequency of those FP SNPs was slightly lower in protocol\r\n2 (TM, 0.0237 ± 0.0522) than in protocol 1 (TA, 0.0242 ± 0.0121)\r\nwith a Wilcoxon P-value = 0.000559, 95% CI = [0.00363, 0.0120].\r\nThe extent of the signal differed between samples created with\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "different protocols. Though the overall FP rate was similar, the\r\ncontext-dependent false calls T to G in G.G doubled in protocol\n6 Deng et al.\r\nFigure 5. Comparison of variant caller performances across samples. (A) and (B) SNPs with quality score > =20. (C) and (D) All variants including SNPs and InDels with\r\nthreshold of quality scores maximizing F1 (analyzed with RTG-tools). In the scatterplots, shapes indicate samples and colors the variant caller. The box in the boxplots\r\nindicates interquartile range (colored boxes), median (black line) and outliers (points outside of box) of caller performances across the samples. (A) and (C) share the\r\nsame figure legend (color and shape).\r\n2 (Figure 7A and B). We found no such signal for false LoFreq\r\nvariants calls on MiSeq sequencing data from HIV lab data\r\n[57], even though the frequency of GTG/CAC patterns in both\r\ngenomes are similar (Figure S9).\r\nMaterials and methods\r\nCreation and sequencing of HCMV strain mixtures\r\nWe created mixtures for two pairs of strains: ‘TB40/E BAC4’ with\r\n‘AD169 subclone HB5’ (TA) and TB40/E BAC4 with strain Merlin\r\n(TM). For each strain pair, mixtures with three different mix\u0002ing ratios, 1:1, 1:10 and 1:50, were created. Accordingly, strains\r\n‘AD169’ and ‘Merlin’ are the dominant strains in the mixtures,\r\nand their genomes were used as reference for variant calling in\r\nmixed samples. In addition, the pure strains were sequenced.\r\nThe name of the mixture specifies the included strains and the\r\nmixing ratio. For instance, a mixture of TB40/E and Merlin with\r\na ratio of 1:10 is denoted by TM-1-10. Pure strain samples are\r\ndenoted as TA-1-0 for TB40/E and TA-0-1 for AD169, which were\r\ncreated with protocol 1 (details, see below), as well as TM-1-0 for\r\nTB40/E and TM-0-1 for Merlin, created with protocol 2.\r\nTwo protocols were used to generate the sequencing libraries.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "In protocol 1, the DNA of TA mixtures (TA-1-1, TA-1-10 and TA\u00021-50) and pure strain samples (TA-0-1, TA-1-0) was extracted\r\nfrom the BAC host E. coli strain GS1783 using the Plasmid Midi\r\nKit (Macherey Nagel). Library preparation was performed using\r\nan Ultra II FS-Kit from NEB according to the standard protocol\r\nfrom the manufacturer. Fragmentation time was 10 mins and the\r\nlibrary was amplified 4 cycles for the mixtures and 5 cycles for\r\nthe pure BACs, multiplexed and sequenced on a MiSeq (Illumina)\r\nusing reagent kit v3 to generate 2 × 300 bp paired-end reads.\r\nProtocol 2 was used to generate the TM mixture data\r\nsets (TM-1-1, TM-1-10, TM-1-50) and the pure strain samples\r\ndata sets (Merlin, TM-0-1 and TB40/E BAC4, TM-1-0). The\r\nHCMV strains TB40/E BAC4 and Merlin were isolated from\r\ncell cultures. The library preparation was performed as we\r\npreviously described [20] with the KAPA library preparation kit\r\n(KAPA Biosystems, USA) with a few modifications. After PCR\r\npreamplification (6–14 cycles) with adapter-specific primers,\nEvaluating assembly and variant calling software for strain-resolved analysis of large DNA-viruses 7\r\nFigure 6. Intersection of SNPs between genomes and SNP calls from LoFreq, VarScan and CLC with score ≥20.\r\nup to 750 ng of DNA was target enriched for HCMV fragments\r\nusing HCMV-specific RNA baits. HCMV-enriched libraries\r\nwere indexed, amplified (17 to 20 cycles) using TruGrade\r\noligonucleotides (Integrated DNA Technologies), multiplexed\r\nand sequenced on a MiSeq (Illumina) using reagent kit v3 to\r\ngenerate 2 × 300 bp paired-end reads.\r\nQuality control of the sequencing data\r\nSequencing reads produced by the MiSeq sequencer were\r\nquality-controlled using fastp v0.19.4 [58]. Fastp is an all-in\u0002one FASTQ data preprocessing toolkit with functionalities\r\nincluding quality control, adapter detection, trimming, error\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "correction, sequence filtering and splitting. The remaining\r\nadapter sequences were clipped from the raw reads as well\r\nas bases at the 5\u0003 or 3\u0003 of the reads with a base quality score\r\nof less than 20. Reads shorter than 130 bp after trimming were\r\nremoved. The remaining PhiX sequences (originating from the\r\nIllumina PhiX spike-in control) were also removed from\r\nthe dataset by mapping all quality-controlled reads against\r\nthe PhiX reference genome downloaded from Illumina using\r\nBWA-MEM v0.7.17 [59]. Contamination from E. coli and the\r\nhuman host were also removed using the same method.\r\nConsensus assembly and evaluation\r\nTo benchmark the performance of commonly used assemblers,\r\nwe evaluated SPAdes v3.12.0 (with kmer sizes: 21, 33, 55, 77,\r\n99, 127 and —careful option), metaSPAdes v3.12.0 (kmer sizes:\r\n21, 33, 55, 77, 99, 127), Megahit v1.1.3 (kmer sizes: 21, 41, 61,\r\n81, 101, 121, 141, 151), Ray (kmer size: 31), ABySS v2.1.4 (kmer\r\nsize: 96), IDBA v1.1.3 (default settings), Tadpole v37.99 (default\r\nsettings), IVA v1.0.9 (default settings) and Vicuna v1.3 (default\r\nsettings). The quality of the resulting contigs or scaffolds was\r\nthen assessed with metaQUAST v5.0.2. Only contigs longer than\r\n500 bp were taken into account. Since the reference genomes of\r\nthose strains are highly similar, with an ANI around 98%, only\r\nunique mappings were considered in the assessment, i.e. not\r\nallowing a single contig to map to both reference genomes in\r\nthe combined reference report. The metrics include the overall\r\nnumber of aligned contigs, the largest alignment, genome frac\u0002tion, duplicate ratio, NGA50, number of mismatches per 100 kb.\r\nHere, ‘largest alignment’ refers to the largest contig or scaffold\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "that mapped to the reference genome. ‘Genome fraction’ repre\u0002sents the fraction of the genome recovered by contigs from an\r\nassembly. The ‘duplication ratio’ is the total number of aligned\r\nbases in the assembly divided by the total number of those in\r\nthe reference (https://github.com/ablab/quast). NGA50 is the N50\r\nvalue of the contigs that mapped to the reference genomes with\r\ncontigs being split at misassemblies. The NGA50 value cannot be\r\ncalculated for the assemblies which recover less than 50% of the\r\ngenome in terms of genome fraction and was set to 0 instead\r\nto ensure comparability. The individual reference report from\r\nmetaQUAST was used to evaluate the performance for abundant\r\nor low abundant strains in mixtures. All overall metrics values\r\nregardless of the specific strain in the mixture were calculated\r\nusing the combined reference report from metaQUAST, except\r\nfor NGA50.\r\nHaplotype reconstruction\r\nOf viral quasispecies assemblers, we ran PEHaplo v0.1, Predic\u0002tHaplo v0.4, Savage v0.4.0, QuasiRecomb v1.2, ShoRAH v1.9.95\r\nand VirGenA v1.4 with single reference mode using default\r\nsettings (for details see the code repository). We did not run\r\nHaROLD, as this requires longitudinal clinical samples from the\r\nsame source. The haplotype assemblies were evaluated using\r\nmetaQUAST together with the consensus assemblies mentioned\r\nabove.\r\nA composite quality metric for strain-resolved assembly\r\nTo summarize assembly performances, we defined a weighted\r\nscore based on the metaQUAST assembly metrics using com\u0002bined reference including genome fraction, largest alignment,\n8 Deng et al.\r\nFigure 7. Genomic context of LoFreq predictions for the TA (A) and TM (B) strain mixtures. ‘All’: genomic context pattern of all predicted SNPs, ‘TP’: true positive variant\r\ncalls and ‘FP’: false positive variant calls. The 16 mutation contexts for each mutation type are indicated once for the box in the lower right.\r\nNGA50, duplication ratio, number of contigs and number of mis\u0002matches per 100 kb. As NGA50 is not available in the combined\r\nreference report of metaQUAST, we used the average NGA50\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "based on individual genomes from the individual references\r\nreport. Of these metrics, we considered genome fraction and\r\nlargest alignment as the most important metrics, since they\r\nref lect the ability of the assembler to reconstruct individual\r\nstrains. To calculate a weighted summary score for assembler\r\nperformance, we weighted the above metrics by the factors 0.3,\r\n0.3, 0.1, 0.1, 0.1 and 0.1 (genome fraction, largest alignment,\r\nNGA50, duplication ratio, number of contigs and number of mis\u0002matches per 100 kb), respectively. The score of an assembler with\r\nmetric i was formulated based on the scale average performance\r\nspi and then multiplied by a factor of 10 to ensure the score is in\r\nthe range of 0–10:\r\nscorei = 10 × weighti × spi\r\n,\nEvaluating assembly and variant calling software for strain-resolved analysis of large DNA-viruses 9\r\nwhere spi is the scaled performance for metric i. The value was\r\nscaled into 0–1 with min–max normalization defined as follows:\r\nspi =\r\n\u0002 pi−min\r\nmax − min ,\r\nmax −pi\r\nmax − min ,\r\nif p bigger better\r\nif p smaller better\r\nIn the formula, pi is the average performance across all sam\u0002ples of the given assembler for metric i, and the min and max are\r\nthe smallest and largest average performance value on metric i\r\namong all assemblers.\r\nDetermination of genome differences between two\r\nstrains\r\nMUMmer v3.23 with default setting was used to align two\r\ngenomes of the strains in each mixture and to identify the\r\ndifferences between genomes as ground truth. Command ‘show\u0002snps’ of the MUMmer package was employed to determine the\r\nSNPs and short InDels differing between two aligned genomes\r\nwith parameter setting ‘—CTHr’, where the repeat regions\r\nwere masked. The genomic differences between TB40/E and\r\nMerlin were considered as the ground truth variants for the TM\r\nmixtures, while differences between TB40/E and AD169 were\r\nconsidered as the ground truth for the TA mixtures.\r\nVariant calling\r\nQuality-controlled reads were mapped against the reference\r\ngenome of the HCMV strains Merlin and AD169 using BWA-MEM\r\nwith a seed length of 31. HCMV Merlin and AD169 genomes\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "were used as reference genomes, as they were the major strains\r\nin all mixtures. The resulting BAM files were deduplicated with\r\nthe Picard package (http://broadinstitute.github.io/picard/) to\r\nremove possible amplification duplicates that may bias the allele\r\nfrequency of identified variants. To compare the performance of\r\ndifferent variant callers, we used LoFreq (parameter: -q 20 -Q 20\r\n-m 20), VarScan2 (—min-avg-qual 20 —P-value 0.01), FreeBayes\r\n(—p 1 -m 20 -q 20 -F 0.01 —min-coverage 10), CLC (overall read\r\ndepth ≥10, average basecall quality ≥20, forward/reverse read\r\nbalance 0.1–0.9 and variant frequency ≥0.1%), BCFtools (—p 0.01\r\n—ploidy 1 -mv -Ob) and GATK HaplotypeCaller (—min-base\u0002quality-score 20 -ploidy 1) to identify variants. The variants\r\nfrom the difference between genomes detected by MUMmer\r\nwere considered as positive variants. Based on this standard,\r\nprecision, recall and F1-score were computed to evaluate those\r\ncallers. The pairwise genome differences of 30 E. coli or 30 HIV\r\ngenomes were determined by MUMmer as well. To evaluate the\r\nperformance of different callers for SNP and InDel prediction,\r\nthe command vcfeval in RTG-tools [60] was used to generate\r\nrecall-precision curves based on the Phred scaled ‘QUAL’ score\r\nfield (—squash-ploidy -f QUAL —sample ALT).\r\nData and code availability\r\nThe benchmarking program developed in this study is available\r\nunder the GNU General Public License V3.0 at https://github.co\r\nm/hzi-bifo/Quasimodo. This program can also be used to assess\r\nvariant calling and assembly results for other viral mixed strain\r\ndata sets (see readme of the repository for details). All assem\u0002bly and variant calling results are freely accessible on Zenodo\r\n(10.5281/zenodo.3739874). The sequence data were deposited in\r\nENA with accession number PRJEB32127.\r\nDiscussion and conclusions\r\nMixed infections with multiple HCMV strains are commonly\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "observed in patients with active HCMV replication [10, 17–20].\r\nAccurately reconstructing the genomic sequences of the indi\u0002vidual haplotypes has implications for gaining a deeper under\u0002standing of viral pathogenicity and viral diversity within the\r\nhost. To identify the most suitable software for analysis of mixed\r\nviral genome sequencing samples with low evolutionary diver\u0002gence and comparatively large genomes, we evaluated multiple\r\nstate-of-the-art assemblers and variant callers on lab-generated\r\nstrain mixtures of HCMV.\r\nIn the assembly benchmarking, most metagenome and\r\ngenome assemblers, in particular metaSPAdes and IVA, recov\u0002ered the abundant strains well in terms of metrics such as\r\ngenome fraction, contig length and mismatches. When also\r\nconsidering strains of low abundance, Savage recovered the\r\nlargest fractions of both underlying genomes in the reference\u0002based mode. However, this was achieved in a highly fragmented\r\nmanner, consistent with reports by the authors (Table 3, [34]).\r\nThus, the state-of-the-art assembly methods, including both\r\ngeneric (meta-)genome and specialized viral quasispecies\r\nassemblers, do not yet reconstruct large viral HCMV genomes\r\nof low abundance and low variant density with high quality.\r\nThis may not be surprising since these programs were originally\r\ndesigned primarily for mixtures of large and much more\r\ndivergent microbial genomes, or for viral genomes with a tenth\r\nof the size of the HCMV genome, but a higher variant density. In\r\nterms of resource usage, Ray and ABySS produced the smallest\r\noutputs, while Megahit was the most memory efficient, as\r\nwell as fastest assembler with good performance (weighted\r\nscore > 5).\r\nOf the variant callers, LoFreq most faithfully identified\r\nonly true variants across all samples, closely followed by\r\nVarScan2. Both had high F1-scores even on the samples with\r\nhigh mixing ratios. When analyzing the genomic context of the\r\npredicted variants, for true positive calls, we observed a context\u0002independent enrichment of T to C and C to T transitions. A\r\npreference for transitions over transversions is common in\r\nmolecular evolution [61, 62]. This is the case in terms of\r\nobserved mutations and because transitions more often lead\r\nto synonymous mutations that tend to be neutral, rather than\r\nunder negative selection, as most nonsynonymous changes on\r\nthe population level.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "For false variant calls, we found a striking enrichment of\r\nT to G changes in a G.G context, representing an unreported\r\ncontext-dependent signal. Calls with this pattern had lower\r\nallele frequencies than true positive variant calls and were more\r\npronounced in sample with more PCR cycles used (protocol 2,\r\n6–14 cycles versus 4 in protocol 1), indicating a link to DNA\r\namplification. Amplification error introduced in PCR cycles will\r\naccumulate exponentially and occur at frequencies that depend\r\non when they were introduced: PCR-induced errors are mostly\r\nof lower frequency unless introduced in one of the very early\r\namplification cycles [57]. Schirmer and co-workers studied the\r\nerror profiles for the amplicon sequencing using MiSeq with dif\u0002ferent library preparation methods and showed that the library\r\npreparation method and the choice of primers are the most\r\nsignificant sources of bias and cause distinct error patterns [63].\r\nThey also observed a run-specific preference for the substituting\r\nnucleotide. They observed that A and C were more prone to\r\nsubstitution errors (A to C and C to A) compared to G and T,\r\nwhich differ from our results. We could not find the context\u0002dependent signal for an HIV quasispecies data set that had\n10 Deng et al.\r\nbeen generated with Nextera XT DNA Library Prep chemistry\r\n(Illumina) on Illumina’s MiSeq platform, suggesting that the FP\r\npattern originates from a step unique to the HCMV sequencing\r\nprotocol, such as preamplification and amplification PCR during\r\nlibrary preparation.\r\nNotably, the experimental protocols substantially affected\r\nthe nature of the generated data and bioinformatics results.\r\nProtocol 1 led to substantial amplification of E. coli host DNA and\r\nthus lower coverage of the viral strains. This, together with the\r\nresulting differences in actual mixing ratios relative to protocol\r\n2 likely explain the higher recall and slightly lower precision\r\nobserved in variant detection (Figure S4). An earlier study based\r\non simulated sequencing data also showed that variant calling\r\non lower coverage samples achieved higher recall and lower\r\nprecision [64]. Protocol 2 used more extensive DNA amplification\r\ntogether with cultivation in human cell culture. This resulted\r\nin higher coverage of viral strain genomes in comparison to\r\nprotocol 1, and the doubling of context-dependent FP variant\r\ncalls within a G.G context discussed above (Figure 7, Figure S10,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "S11).\r\nTaken together, our results suggest that for strain mixtures\r\nof large DNA viruses with low variant density, many assemblers\r\nreconstruct the abundant strain with high quality, but assembly\r\nof the low abundant strains is still challenging. Variant callers\r\ndesigned for low frequency variant detection provided the best\r\nresults and detected most true variants. These findings are rel\u0002evant for the interpretation of program outputs when analyzing\r\nclinical patient samples. We also provide a resource that facili\u0002tates further benchmarking, including our result evaluation and\r\nvisualization software QuasiModo, all produced benchmarking\r\ndata sets and results, for f lexible assessment of further methods\r\non these and similar data sets.\r\nKey Points\r\n• The strain-resolved de novo assembly of large DNA\r\nvirus with low variant density is challenging to all\r\nevaluated assemblers. Some generic (meta-) genome\r\nassemblers, such as metaSPAdes and IVA, performed\r\nparticularly well in recovering the dominant strain.\r\n• LoFreq and VarScan2 are good choices for identifying\r\nlow frequency variants from a strain mixture of large\r\nDNA viruses.\r\n• The pattern of false variant calls likely links to the\r\nexperimental protocol used to generate the sequenc\u0002ing data. More amplification cycles led to more pro\u0002nounced FP variant calls.\r\n• All the analyses can be reproduced using QuasiModo\r\ndeveloped in this study. QuasiModo can be also uti\u0002lized to evaluate other methods using the benchmark\u0002ing data sets in this study or similar data sets.\r\nSupplementary Data\r\nSupplementary data are available online at https://academi\r\nc.oup.com/bib.\r\nConf lict of interest\r\nThere is no conf lict of interest.\r\nAcknowledgments\r\nWe thank Dr. Till-Robin Lesker and Susanne Reimer\u0002ing for helpful comments. This work is supported by\r\nGerman Center for Infection Research (DZIF), Hannover\u0002Braunschweig site, TI Bioinformatics Platform and TTU\r\nInfections of the Immunocompromised Host, as well as\r\nby the Deutsche Forschungsgemeinschaft through the\r\nCollaborative Research Center 900 ‘Chronic Infections’. A.\r\nDhingra and J. Götting were supported by the graduate\r\nprogram ‘Infection Biology’ of the Hannover Biomedical\r\nResearch School.\r\nReferences\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "1. Goodrum F, Caviness K, Zagallo P. Human cytomegalovirus\r\npersistence. Cell Microbiol 2012;14:644–55.\r\n2. Griffiths P, Baraniak I, Reeves M. The pathogenesis of human\r\ncytomegalovirus. J Pathol 2015;235:288–97.\r\n3. Manicklal S, Emery VC, Lazzarotto T, et al. The ‘silent’ global\r\nburden of congenital cytomegalovirus. Clin Microbiol Rev\r\n2013;26:86–102.\r\n4. Dolan A, Cunningham C, Hector RD, et al. Genetic con\u0002tent of wild-type human cytomegalovirus. J Gen Virol\r\n2004;85:1301–12.\r\n5. Campillo-Balderas JA, Lazcano A, Becerra A. Viral genome\r\nsize distribution does not correlate with the antiquity of the\r\nhost lineages. Front Ecol Evol 2015;3:728.\r\n6. Murthy S, O’Brien K, Agbor A, et al. Cytomegalovirus distri\u0002bution and evolution in hominines. Virus Evol 2019;5:vez015.\r\n7. Nichols WG, Corey L, Gooley T, et al. High risk of death due\r\nto bacterial and fungal infection among cytomegalovirus\r\n(CMV)-seronegative recipients of stem cell transplants from\r\nseropositive donors: evidence for indirect effects of primary\r\nCMV infection. J Infect Dis 2002;185:273–82.\r\n8. Manuel O, Asberg A, Pang X, et al. Impact of genetic poly\u0002morphisms in cytomegalovirus glycoprotein B on outcomes\r\nin solid-organ transplant recipients with cytomegalovirus\r\ndisease. Clin Infect Dis 2009;49:1160–6.\r\n9. Vinuesa V, Bracho MA, Albert E, et al. The impact of virus\r\npopulation diversity on the dynamics of cytomegalovirus\r\nDNAemia in allogeneic stem cell transplant recipients. J Gen\r\nVirol 2017;98:2530–42.\r\n10. Arav-Boger R. Strain variation and disease severity in\r\ncongenital cytomegalovirus infection: in search of a viral\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "marker. Infect Dis Clin N Am 2015;29:401–14.\r\n11. Datta S, Budhauliya R, Das B, et al. Next-generation sequenc\u0002ing in clinical virology: discovery of new viruses. World J Virol\r\n2015;4:265–76.\r\n12. Liu S, Chen Y, Bonning BC. RNA virus discovery in insects.\r\nCurr Opin Insect Sci 2015;8:54–61.\r\n13. Quick J, Loman NJ, Duraffour S, et al. Real-time, portable\r\ngenome sequencing for Ebola surveillance. Nature\r\n2016;530:228–32.\r\n14. Quick J, Grubaugh ND, Pullan ST, et al. Multiplex PCR method\r\nfor MinION and Illumina sequencing of Zika and other\r\nvirus genomes directly from clinical samples. Nat Protoc\r\n2017;12:1261–76.\r\n15. Ali R, Blackburn RM, Kozlakidis Z. Next-generation sequenc\u0002ing and inf luenza virus: a short review of the published\r\nimplementation attempts. HAYATI J Biosci 2016;23:155–9.\r\n16. Martí-Carreras J, Maes P. Human cytomegalovirus genomics\r\nand transcriptomics through the lens of next-generation\nEvaluating assembly and variant calling software for strain-resolved analysis of large DNA-viruses 11\r\nsequencing: revision and future challenges. Virus Genes\r\n2019;55:138–64.\r\n17. Cudini J, Roy S, Houldcroft CJ, et al. Human cytomegalovirus\r\nhaplotype reconstruction reveals high diversity due to\r\nsuperinfection and evidence of within-host recombination.\r\nProc Natl Acad Sci U S A 2019;116:5693–8.\r\n18. Suárez NM, Wilkie GS, Hage E, et al. Human cytomegalovirus\r\ngenomes sequenced directly from clinical material: vari\u0002ation, multiple-strain infection, recombination, and gene\r\nloss. J Infect Dis 2019;220:781–91.\r\n19. Suárez NM, Musonda KG, Escriva E, et al. Multiple-strain\r\ninfections of human cytomegalovirus with high genomic\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "diversity are common in breast milk from human immun\u0002odeficiency virus-infected women in Zambia. J Infect Dis\r\n2019;220:792–801.\r\n20. Hage E, Wilkie GS, Linnenweber-Held S, et al. Char\u0002acterization of human cytomegalovirus genome diver\u0002sity in immunocompromised hosts by whole-genome\r\nsequencing directly from clinical specimens. J Infect Dis\r\n2017;215:1673–83.\r\n21. Chou SW. Acquisition of donor strains of cytomegalovirus by\r\nrenal-transplant recipients. N Engl J Med 1986;314:1418–23.\r\n22. Puchhammer-Stöckl E, Görzer I, Zoufaly A, et al. Emergence\r\nof multiple cytomegalovirus strains in blood and lung of lung\r\ntransplant recipients. Transplantation 2006;81:187–94.\r\n23. Goldstein RA, Tamuri AU, Roy S, et al. Haplotype assignment\r\nof virus NGS data using co-variation of variant frequencies.\r\nbioRxiv 2018;444877.\r\n24. Wilm A, Aw PPK, Bertrand D, et al. LoFreq: a sequence-quality\r\naware, ultra-sensitive variant caller for uncovering cell\u0002population heterogeneity from high-throughput sequencing\r\ndatasets. Nucleic Acids Res 2012;40:11189–201.\r\n25. Koboldt DC, Zhang Q, Larson DE, et al. VarScan 2: somatic\r\nmutation and copy number alteration discovery in cancer\r\nby exome sequencing. Genome Res 2012;22:568–76.\r\n26. CLC Manuals. clcsupport.com.\r\n27. Sutton TDS, Clooney AG, Ryan FJ, et al. Choice of assembly\r\nsoftware has a critical impact on virome characterisation.\r\nMicrobiome 2019;7:12.\r\n28. Peng Y, Leung HCM, Yiu SM, et al. IDBA-UD: a de novo\r\nassembler for single-cell and metagenomic sequencing data\r\nwith highly uneven depth. Bioinformatics 2012;28:1420–8.\r\n29. Bankevich A, Nurk S, Antipov D, et al. SPAdes: a new\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "genome assembly algorithm and its applications to single\u0002cell sequencing. J Comput Biol 2012;19:455–77.\r\n30. Boisvert S, Raymond F, Godzaridis E, et al. Ray meta: scalable\r\nde novo metagenome assembly and profiling. Genome Biol\r\n2012;13:R122.\r\n31. Li D, Liu C-M, Luo R, et al. MEGAHIT: an ultra-fast single-node\r\nsolution for large and complex metagenomics assembly via\r\nsuccinct de Bruijn graph. Bioinformatics 2015;31:1674–6.\r\n32. Aguirre de Cárcer D, Angly FE, Alcamí A. Evaluation of\r\nviral genome assembly and diversity estimation in deep\r\nmetagenomes. BMC Genomics 2014;15:989.\r\n33. Roux S, Emerson JB, Eloe-Fadrosh EA, et al. Benchmarking\r\nviromics: an in silico evaluation of metagenome-enabled\r\nestimates of viral community composition and diversity.\r\nPeerJ 2017;5:e3817.\r\n34. Baaijens JA, Aabidine AZE, Rivals E, et al. De novo assem\u0002bly of viral quasispecies using overlap graphs. Genome Res\r\n2017;27:835–48.\r\n35. Chen J, Zhao Y, Sun Y. De novo haplotype reconstruction\r\nin viral quasispecies using paired-end read guided path\r\nfinding. Bioinformatics 2018;34:2927–35.\r\n36. Töpfer A, Zagordi O, Prabhakaran S, et al. Probabilistic infer\u0002ence of viral quasispecies subject to recombination. J Comput\r\nBiol 2013;20:113–23.\r\n37. Prabhakaran S, Rey M, Zagordi O, et al. HIV haplotype infer\u0002ence using a propagating Dirichlet process mixture model.\r\nIEEE/ACM Trans Comput Biol Bioinform 2014;11:182–91.\r\n38. Schirmer M, Sloan WT, Quince C. Benchmarking of viral\r\nhaplotype reconstruction programmes: an overview of\r\nthe capacities and limitations of currently available pro\u0002grammes. Brief Bioinform 2014;15:431–42.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "39. Said Mohammed K, Kibinge N, Prins P, et al. Evaluating the\r\nperformance of tools used to call minority variants from\r\nwhole genome short-read data. Wellcome Open Res 2018;3:21.\r\n40. Garrison E, Marth G. Haplotype-based variant detection from\r\nshort-read sequencing. arXiv preprint. 2012;1207:3907.\r\n41. Lai Z, Markovets A, Ahdesmaki M, et al. VarDict: a novel and\r\nversatile variant caller for next-generation sequencing in\r\ncancer research. Nucleic Acids Res 2016;44:e108.\r\n42. Nurk S, Meleshko D, Korobeynikov A, et al. metaSPAdes:\r\na new versatile metagenomic assembler. Genome Res\r\n2017;27:824–34.\r\n43. Simpson JT, Wong K, Jackman SD, et al. ABySS: a paral\u0002lel assembler for short read sequence data. Genome Res\r\n2009;19:1117–23.\r\n44. Bushnell B. BBMap: a fast, accurate, splice-aware aligner.\r\nLawrence Berkeley National Lab. 2014.\r\n45. Hunt M, Gall A, Ong SH, et al. IVA: accurate de novo assembly\r\nof RNA virus genomes. Bioinformatics 2015;31:2374–6.\r\n46. Yang X, Charlebois P, Gnerre S, et al. De novo assembly of\r\nhighly diverse viral populations. BMC Genomics 2012;13:475.\r\n47. Zagordi O, Bhattacharya A, Eriksson N, et al. ShoRAH: esti\u0002mating the genetic diversity of a mixed sample from next\u0002generation sequencing data. BMC Bioinformatics 2011;12:119.\r\n48. Fedonin GG, Fantin YS, Favorov AV, et al. VirGenA: a\r\nreference-based assembler for variable viral genomes. Brief\r\nBioinform 2019;20:15–25.\r\n49. Mikheenko A, Saveliev V, Gurevich A. MetaQUAST:\r\nevaluation of metagenome assemblies. Bioinformatics\r\n2016;32:1088–90.\r\n50. Li H. A statistical framework for SNP calling, mutation\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "discovery, association mapping and population genetical\r\nparameter estimation from sequencing data. Bioinformatics\r\n2011;27:2987–93.\r\n51. Poplin R, Ruano-Rubio V, DePristo MA, et al. Scaling accurate\r\ngenetic variant discovery to tens of thousands of samples.\r\nbioRxiv 2018;201178.\r\n52. Kurtz S, Phillippy A, Delcher AL, et al. Versatile and open soft\u0002ware for comparing large genomes. Genome Biol 2004;5:R12.\r\n53. Lowy-Gallego E, Fairley S, Zheng-Bradley X, et al. Variant\r\ncalling on the GRCh38 assembly with the data from phase\r\nthree of the 1000 genomes project. Wellcome Open Res 2019;4:\r\n50.\r\n54. Nik-Zainal S, Alexandrov LB, Wedge DC, et al. Mutational\r\nprocesses molding the genomes of 21 breast cancers. Cell\r\n2012;149:979–93.\r\n55. Alexandrov LB, Nik-Zainal S, Wedge DC, et al. Signa\u0002tures of mutational processes in human cancer. Nature\r\n2013;500:415–21.\r\n56. Gehring JS, Fischer B, Lawrence M, et al. SomaticSignatures:\r\ninferring mutational signatures from single-nucleotide vari\u0002ants. Bioinformatics 2015;31:3673–5.\r\n57. Howison M, Coetzer M, Kantor R. Measurement error and\r\nvariant-calling in deep Illumina sequencing of HIV. Bioinfor\u0002matics 2019;35:2029–35.\n12 Deng et al.\r\n58. Chen S, Zhou Y, Chen Y, et al. Fastp: an ultra-fast all-in-one\r\nFASTQ preprocessor. Bioinformatics 2018;34:i884–90.\r\n59. Li H. Aligning sequence reads, clone sequences and assem\u0002bly contigs with BWA-MEM. arXiv preprin. 2013;1303:3997.\r\n60. Cleary JG, Braithwaite R, Gaastra K, et al. Comparing variant\r\ncall files for performance benchmarking of next-generation\r\nsequencing variant calling pipelines. bioRxiv 2015;023754.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 5983595154572053485,
+        "filename": "bbaa123.PMC8138829.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 172,
+      "total_chunks": 30,
+      "version": "1.0.0"
+    },
+    "text": "61. Vogel F. Non-randomness of base replacement in point\r\nmutation. J Mol Evol 1972;1:334–67.\r\n62. Lyons DM, Lauring AS. Evidence for the selective basis\r\nof transition-to-Transversion substitution bias in two RNA\r\nviruses. Mol Biol Evol 2017;34:3205–15.\r\n63. Schirmer M, Ijaz UZ, D’Amore R, et al. Insight into biases\r\nand sequencing errors for amplicon sequencing with the\r\nIllumina MiSeq platform. Nucleic Acids Res 2015;43:e37.\r\n64. Fumagalli M. Assessing the effect of sequencing depth and\r\nsample size in population genetics inferences. PLoS One\r\n2013;8:e79667.\n\n"
+  }
+]

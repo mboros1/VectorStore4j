@@ -1,0 +1,506 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "Multiple Targets, One Goal: Compounding life‐extending effects through Polypharmacology\r\nK. Avchaciov1*, K. J. Clay2*, K. Denisov, O. Burmistrova1, M. Petrascheck2‡, P. Fedichev1‡\r\n*co‐first authors\r\n‡ co‐corresponding authors: pscheck@scripps.edu, peter.fedichev@gero.ai\r\nAffiliations:  \r\n1\r\nGero PTE, 60 Paya Lebar Road # 05‐40B, Paya Lebar Square, 409051, Singapore\r\n2\r\nDepartment of Molecular and Cellular Biology, Molecular Medicine and Neuroscience\r\nThe Scripps Research Institute\r\n10550 N. Torrey Pines Rd.\r\nLa Jolla, CA 92037\r\nAbstract\r\nAnalysis of lifespan‐extending compounds suggested the most effective geroprotectorstarget multiple biogenic\r\namine receptors. To test this hypothesis, we used graph neural networks to predict such polypharmacological\r\ncompounds and evaluated them in C. elegans. Over 70% of the selected compounds extended lifespan, with\r\neffect sizes in the top 5% compared to the DrugAge database. This reveals that rationally designing\r\npolypharmacological compounds enables the design of geroprotectors with exceptional efficacy.\r\nKey takeaways:\r\n The most effective known geroprotectors act by polypharmacological mechanisms.\r\n Graph neural networks predicted polypharmacological geroprotectors with a hit rate of 70%.\r\n The predicted polypharmacological geroprotectors are exceptionally effective.\r\n The predicted polypharmacological mechanism was experimentally confirmed.\r\n Rationally designing polypharmacological compounds results in geroprotectors with exceptional\r\nefficacy.\r\n   \r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nText\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "The genetic foundation of lifespan regulation is becoming increasingly well‐understood both within and across\r\nvarious species, revealing the key age‐associated genes. Small molecule drugs, the mainstay of the\r\npharmaceutical industry, primarily modulate the activity of gene products—proteins, frequently targeting\r\nmultiple pathways simultaneously by engaging multiple targets. Therefore, it is crucial to understand how the\r\nactivity profiles of these molecules determine their life‐extending propertiesto optimize their anti‐aging effects.\r\nThe largest unbiased screen of biologically active molecules, particularly FDA‐approved drugs identified a\r\nsignificant cluster of drugsthat extend lifespan by modulating neuroendocrine and neurotransmittersystems.1,2\r\nWe recognized that most G‐protein coupled receptors (GPCR) inhibitors interact with multiple structurally\r\nsimilar targets suggesting that polypharmacological action increases efficacy. To test this notion, we clustered\r\ntarget proteins based on sequence similarity (see methods). Consequently, known or predicted compounds\r\ntarget any protein within a cluster, were classified as \"active\" on that cluster (Figure 1A).\r\nNext, we linked the lifespan extension property of a compound (LS+ label) to its activity against any single target\r\nby evaluating whether binding to any single target within a specified cluster significantly affects lifespan (Table\r\n1). The best correlation (Matthews Correlation Coefficient [MCC]  MCC=0.21) between activity and cluster, was\r\nthe 5‐Hydroxytryptamine Receptor 6 (HTR6) gene. We characterized different aspects of model performance by\r\nstandard precision and recall metrics. Precision characterized the model's accuracy by measuring the proportion\r\nof correctly identified true lifespan‐\r\nextending drugs. Recall, or sensitivity,\r\ncalculates the proportion of accurately\r\npredicted positive outcomes from all\r\nactual positives, evaluating the model's\r\nability to detect all true instances of\r\nlifespan extension.  \r\nWe then investigated whether combining\r\nactivities across different clusters could\r\nimprove the prediction of the LS+ label.\r\nWe developed a series of simple\r\nqualitative modelsthat classify a molecule\r\nas LS+ based on its activity against\r\nFigure 1: Computational modeling of lifespan extending molecules\r\nA) Overview schematic of computational pipeline identifying\r\npolypharmacological compounds and validation in C. elegans. B) Precision‐recall\r\nscatter plot for the models implying either single cluster activity (blue dots),\r\nmultiple clusters activity (green dots) and optimized combination of multiple\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "clusters (yellow dots). Red indicates the model selected for the downstream\r\nanalysis and experimental validation. Text labels indicate the leading target in\r\nthe family of structurally related targets and the number of simultaneously\r\nidentified activities for blue and green, respectively.\r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\ncombinations of up to five target classes. Figure 1B illustratesthe recall‐precision relationshipsfor models based\r\non single cluster activity (blue dots) compared with models scoring molecules by the number of clusters\r\nwith activity records (green dots). Finally, we characterized the models predicting the LS+ labels from a\r\ncombination of activities against multiple target clusters (yellow dots).\r\nThe best performing model corresponded to a \"polypharmacological\" multi‐target model, necessitating\r\nactivities across GPCRs clusters including DRD2, DRD3, HRH1, and HTR6 (Figure 1B, red dot). It exhibited\r\nsignificantly enhanced recall and precision compared to those based on activities against a single cluster (Fig 1B,\r\nprecision 0.35, recall 0.23, MCC 0.24, see Figure 1 and Table 2 for the summary of all models analyzed).  \r\nTo addressthe problem ofsparse biological activity in the ChemBL database (most ligands have only been tested\r\nto bind a few targets), we leveraged modern machine learning algorithms to infer unmeasured activities for\r\nboth known drugs and novel uncharacterized compounds. Specifically, we used Chemprop, a graph neural\r\nnetwork utilizing the Directed Message Passing Neural Network (D‐MPNN) architecture,3 to analyze 29 targets\r\nand 50,000 activity recordsto predict optimized combinations of LS+ targets. We applied this model to a curated\r\nlist of experimental and approved drugs to predict molecules active against at least two target–clusters\r\nsimultaneously (Table 3).\r\nIn addition to that, we utilized the model to screen the ZINC library of purchasable compounds.4 Following\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "medicinal chemistry filtering, we screened a set of 17 novel structures and 5 experimental or FDA‐approved\r\ndrugs for lifespan extension in C. elegans.\r\nSixteen molecules significantly extended the lifespan of C. elegans at one or more doses (Supplementary Table\r\n1, Figure 2A, B). The hit rate of over 70% (16/22) was approximately 1000‐fold higher than of an unbiased screen\r\nand more than sevenfold higher than the ~9% hit rate expected from a set of compounds targeting biogenic\r\namines (29/333 in the LOPAC screen2). Thus, a polypharmacology approach significantly outperforms selection\r\nbased on pharmacology class. Similarly, the effect sizes of the current series of molecules were significantly\r\nlarger than any previous screens. Of the 16 hits, 12 extended lifespan by over 40% and eight by more than 50%.\r\nThe mean lifespan extension of the 16 hits exceeded 48%. The average lifespan extension annotated for all\r\ngeroprotectors in DrugAge is ~19%.5 Only 42 of the 973 geroprotectors annotated in DrugAge extend the\r\nlifespan of C. elegans by 44% or more, establishing our set in the top 5% of all known lifespan‐extending\r\ncompounds.\r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nThe maximum effect size observed in our study was induced by a compound identified by ML (+74%) for\r\ncompound ZINC000019802386, which is structurally similar to Octoclothepin (Tanimoto similarity, T=0.45).\r\nThere are no known activities against our GPCR targets for ZINC000019802386 but close analogs interact with\r\nDRD1, DRD2, DRD3, and HTR2A. This extension is comparable to the best‐performing compounds annotated in\r\nDrugAge.5‐7  \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "To verify the polypharmacological properties of the hits, we selected two structurally distinct compounds,\r\nZiprasidone and Zotepine, both active against targets in at least three of the four identified clusters (Figure 2C)\r\nFigure 2: Computationally designed Geroprotectors target multiple G‐protein Coupled Receptors.\r\nA) Mean percent increase in lifespan extension observed at the optimal dose for two experiments for the 22 molecules\r\ndesigned. Mianserin wasincluded as a blinded positive control. Error barsindicated mean ± SD. Mean lifespan extension\r\nobserved for hits in the LOPAC screen is indicated by a dotted line to compare the effect sizes of between a phenotypic\r\nscreening strategy and our current strategy. B) Olanzapine, used as an intra–plate positive control, consistently\r\nextended lifespan across the screen. Significance was determined by unpaired, two‐tailed, student's t‐test where ****\r\n= p < 0.0001. Error bars indicated mean ± SD. C) Chemical structures of ziprasidone and zotepine. D) Graphs show\r\nsurvival plots of C.elegans wild type (N2),  serotonin (ser‐4, ser‐5) , octopamine (ser‐3) and dopamine (dop‐3) receptors\r\ntreated with DMSO or Zotepine (10 μM). E) Graphs show survival plots of C. elegans wild type N2, serotonin (ser‐4, ser‐\r\n5), octopamine (ser‐3) and dopamine (dop‐3) receptors treated with DMSO or Ziprasidone (10 μM).  \r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nand tested their effect in four mutant backgrounds most closely related to the annotated mammalian GPCRs:\r\ntwo serotonin receptor mutants, ser‐4(ok512) and ser‐5(vq1), a dopamine receptor mutant dop‐3(ok295), and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "an octopamine receptor mutant ser‐3(ok2007). Octopamine is the invertebrate equivalent of noradrenaline,\r\nand SER‐3 is analogous to mammalian adrenergic receptors.8‐10 Ziprasidone and Zotepine were selected over\r\nthe most active novel compound, ZINC000019802386, since the mammalian pharmacology of Ziprasidone and\r\nZotepine has been established.11\r\nAs expected, the lifespan effects of both molecules depended on multiple GPCRs. Zotepine's lifespan extension\r\nwas contingent upon ser‐3, ser‐4, and ser‐5 (Figure 2D). Although Zotepine still extended the lifespan in the\r\nmutantsser‐3(ok2007), ser‐4(ok512), and ser‐5(vq1), the effect wasless pronounced compared to the wild‐type\r\nN2, suggesting that binding to each receptor contributed partially and additively to the overall effect. However,\r\nthe dopamine receptor dop‐3 was not necessary for the longevity induced by Zotepine. Similarly, Ziprasidone's\r\neffect on extending the lifespan of C. elegans also required the same three GPCRs: ser‐3, ser‐4, and ser‐5 (Figure\r\n2E). Like Zotepine, Ziprasidone exhibited a reduced longevity effect in the ser‐4(ok512) mutant. Interestingly,\r\nunlike Zotepine, the lifespan extension by Ziprasidone was eliminated in the ser‐3(ok2007) and ser‐5(vq1)\r\nmutants, indicating a critical dependency on these receptors.\r\nA simple model in which GPCRs act as binary \"on‐off\" switches, with ligands blocking signaling by the different\r\nreceptors, only explains the interaction of Zotepine with the receptor mutants. In this binary model, blocking\r\nsignaling by each receptor modulates lifespan independently, partially contributing to the total effect size. This\r\nmodel does not explain the result for Ziprasidone. More recent modelssuggest modulation of GPCRs by \"ligand‐\r\nbias\", in which binding of the ligand causesthe GPCR to recruit distinct downstream effectorssuch as G‐proteins,\r\nG‐proteinsreceptor kinases, or arrestinsfavoring one signaling modality over another adding further complexity\r\nto the interpretation of polypharmacological effects.12,13\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "Thus, a polypharmacological ligand may have different functional selectivity or ligand bias for each individual\r\nreceptor.14 While the affinity of a ligand recruits it to a receptor, ligand‐bias modulates the downstream\r\nsignaling resulting in outcomes for ligands binding to the same receptor. Zoptepine and Ziprasidone require the\r\nsame receptors for their full lifespan extension but the receptors' quantitative contributions to the overall\r\nlongevity effect differ. This observation suggests that the two compounds differ in their downstream effector\r\nresponse. Similar considerations also explain why GPCR ligands often do not phenocopy receptor knockout\r\nphenotypes and vice versa.\r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nIn this study, we deviated from target–based drug discovery and explored the potential of\r\na  polypharmacological strategy to extend lifespan by generating small molecules that target multiple targets\r\nsimultaneously. Instead, we followed our observation that many of the most effective lifespan‐extending\r\ncompounds demonstrated polypharmacological activity profiles.8,15,16 To overcome  the complexity of rational\r\ndesign of  polypharmacological compounds, we employed a combination of statistical and machine learning\r\ntools to leverage insights from a large phenotypic lifespan screen. The resulting computational strategy\r\nidentified polypharmacological compounds whose validation confirmed the power of polypharmacology in the\r\ndesign of geroprotectors by: (I) an exceptional hit rate of over ~70%,  (II) an exception effect size in extending\r\nlifespan by over 40% compounds across the entire set and (III) multi‐target effects of the selected compounds.  \r\nThe proposed approach markedly differs from the prevalent method in current drug discovery, which identifies\r\nmolecules with high selectivity against a single therapeutic target. Until recently, polypharmacological action\r\nwas typically accidental and often considered undesirable for two reasons. First, the lead‐to‐drug optimization\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "becomes far more complex when multiple targets are involve.17 Second, targets are often evaluated based on\r\ntheir genetics, mostly single gene knockouts or alleles, with far less data available on how different alleles\r\ninteract. Consequently, polypharmacological design principles are challenging to implement in conventional\r\ndrug discovery pipelines, in part, because \"off‐target effects\" have often been found detrimental. However,\r\nretrospective analyses of successful drugs show that their therapeutic efficacy or safety often depends on\r\nmultiple targets, highlighting that unintended polypharmacology contributes to the success of a drug.18‐20 Our\r\nstudy establishes that computational strategies can solve the increased complexity of polypharmacological\r\nstrategies and validate their complex predictions in vivo.  \r\nThe only shortcoming in the current study was that the most novel structures did not extend lifespan. This\r\nobservation could be explained in two ways. First, the efficacy of a compound in an experiment may depend on\r\nmore than mere target engagement but also require suitable absorption, distribution, metabolism,  excretion,\r\nand toxicity (ADMET) properties.  None of the attributes were used in our computational pipeline and hence the\r\nperformance of our models may suffer when we deviate from well characterized structural motifs shared with\r\napproved drugs.  \r\nSecond, large neural networks, such as Chemprop used here, operate as “black boxes” that need to rely on\r\nlimited experimental data typically available in biomed datasets. Our demonstration provides evidence that\r\nmore often than notsuch systems operate assearch enginesin the chemicalspace and tend to favor compounds\r\nstructurally similar to those active in the training data. The current limitations may be overcome as more data\r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nbecomes available for training models, network architectures improve, and more aggressive train/test set splits\r\ncould be employed to achieve better generalization.\r\nIn summary, we produced evidence suggesting that selecting geroprotectors based on their\r\npolypharmacological activities against targets implicated in regulation of longevity process may be useful  in\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "identifying compounds with significant effects on lifespan. We demonstrate that developing\r\npolypharmacological geroprotectors can be assisted by modern ML tools and may help enhance efficacy in\r\nlifespan extension. While the neural network in this study did not identify novel pharmacophores, this outcome\r\nis secondary within the context of this work. We are optimistic that more advanced ML techniques will\r\neventually reach the generalization capabilities sufficient for the systematic identification of new chemical\r\nentities that utilize polypharmacology for greater geroprotective effects.\r\n   \r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nAcknowledgements\r\nPF and AK thank Dr. Andrey Tarkhov and Simon Steshin from Gero (at the time of writing) for discussions,\r\nsuggestions and technical assistance. Part of this work was funded by R01 AG067331 and R01 AG069206 (to\r\nM.P).\r\nAK, KD, OB, and PF are employed by Gero and declare no conflict of interest.\r\nMethods\r\nStatistical analysis of LOPAC library screening\r\nThe  LOPAC dataset was built from the Supplementary materials from Ye et al.1 The compound SMILES were\r\nretrieved from Pubchem using PUG‐REST.21 From the SMILE string we obtained all InchiKeys, including the\r\nInchiKey for the compound itself and the InchiKeys for the parent compounds. The InchiKey was used to get\r\nactivity data from the ChEMBL web services.22 In case no activity records were found for the precise InchiKey\r\nmatch, we search records by the first 14 characters of the InchiKey string. We obtain activities with the threshold\r\nin the minimal pChEMBL value equals 5 for 1029 of 1275 total compounds from the LOPAC dataset.23 Next we\r\nselected binding (B) and functional (F) assays with an inhibition type outcome (Ki, IC50, Kd, etc). ChEMBL targets\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "were clustered by protein sequence similarity using MMseqs2 with the sequence identity threshold of 0.5.24 The\r\nactivity values were aggregated within all targets of one cluster with the min function and then binarized at the\r\nthreshold of pChEMBL=7 (corresponding to 100 nM in standard units). Hereinafter, we defined target as  a\r\ncluster of similar proteins (see Supplementary Table 1) and activity on this target defined by the minimal value\r\nof pChEMBL from proteins in it. This results in 1256 LOPAC compounds with known structure and 281 activity\r\ntargets, among which only 594 compounds have at least one active target.  \r\nThe binary activity label is used for predicting a lifespan extension (LS+) label. We used standard metrics:\r\nprecision, recall, and the Matthews Correlation Coefficient (MCC), each of which characterizes different aspects\r\nof model performance.25 For instance, precision measures the proportion of accurately predicted positive\r\noutcomes from all predicted positives, assessing the model's accuracy in identifying true lifespan‐extending\r\ndrugs. Recall, or sensitivity, calculates the proportion of accurately predicted positive outcomes from all actual\r\npositives, evaluating the model's ability to detect all true instances of lifespan extension. The MCC offers a\r\ncomprehensive evaluation of binary classification by accounting for both positive and negative outcomes,\r\nmaking it especially useful in imbalanced datasets. It ranges from  ‐1 (inverse prediction) to +1 (perfect\r\nprediction).\r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nFor the models based on the number of activity records per ligand, we calculate the number of activities and\r\nproduce a binary label if this number is greater or equal to N, where the number N varies from 2 to 20.\r\nFor the model based on optimal selection of combinations of targets, we generated combinations of targets\r\n(from 2‐length to 5‐length tuples) and calculated the binary labels at different thresholds of simultaneously\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "active targets varying from 1 to length of the tuples. It can be expressed as a logic rule \"n in M\", where n is the\r\nnumber of simultaneously active targets, and M is the size of a tuple. For example, the best model in this work\r\nis \"2 in 3\" for the 3‐length tuple of targets ([DRD2,DRD3], [HRH1], [HTR6]), which requires at least two targets\r\nto be non‐zero (Supplementary Table 2).\r\nGraph neural network for predicting molecular interactions\r\nWe employed the graph neural network Chemprop to predict the binding affinities of small molecules from the\r\nCHEMBL database.3,22 Chemprop, a Directed Message Passing Neural Network, learns molecular propertiesfrom\r\nthe graph structure of molecules, where atoms serve as nodes and bonds as edges. For each molecule, we\r\nreconstructed its molecular graph from its SMILES string and identified the atoms and bonds using the RDKit\r\nopen‐source package.26 We then initialized a feature vector for each molecule based on computable features\r\nlisted in the table [Supplementary_table_[rdkit_features]]. List of descriptors was modified from the original\r\nChemprop paper by removing highly correlated features for speed improvement.\r\nThe model performs a series of message passing steps, aggregating information from neighboring atoms and\r\nbonds to understand the local chemistry. This information, combined with precomputed molecular features, is\r\nprocessed through a feed‐forward neural network, which predicts the property of interest. In our case, we\r\nsolved the multiclass classification problem of whether a molecule binds to one of target GPCR proteins listed\r\nin the Supplementary_table_[chemprop_targets]. We used the same method of retrieving binary labels for\r\neach target as described in \"Statistical analysis of LOPAC library screening\". The unknown activity values were\r\nexcluded from the loss evaluation during training.  \r\nWe enhanced the original Chemprop implementation by integrating DenseNet‐like skip connections into the\r\nfeedforward segment of the network. In this configuration, each layer sequentially receives the concatenated\r\nactivations from all preceding layers, enabling every neuron to access the learned features comprehensively.27\r\nTrain‐validation‐test split was performed with Butina algorithm28 and the cutoff 0.8 for Tanimoto similarity\r\ncomputed over RDKit Fingerprints and in the ratio 0.8/0.1/0.1. We performed a simple hyperparameter search.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "Optimal parameters were selected using grid search technique using the ROC‐AUC metric function on the test\r\nset. This procedure led us to the selection of an architecture described in the\r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nSupplementary_table_[chemprop_params]. Metrics on the test set at the end of the training procedure are\r\nlisted in the Supplementary_table_[chemprop_metrics].\r\nWe scored the ZINC in‐stock subset to predict the activities of the molecules against the selected GPCR targets\r\nand chose molecules with required predicted polypharmacological effect. We further applied QED\\ref[] filter\r\nand obtained 66 candidates for the experiment see [Supplementary_table_ZINC]. To reduce the experimental\r\nwork, we used Butina clustering algorithm to select structurally dissimilar compounds. At the end, we reduced\r\nthe list to 16 potentially active and non‐redundant compounds.\r\n   \r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nC. elegans strains\r\nThe Bristol strain (N2) was used at the wild‐type strain. The following strains used in this study were obtained\r\nfrom the Caenorhabditis Genetic Center (CGC; Minneapolis, MN): RB1631 [ser‐3(ok2007)], AQ866 [ser‐\r\n4(ok512)], and BZ973 [dop‐3(ok295)]. The strain VV212 [ser‐5(vq1)] was generated in Perez‐Gomez et. al.10\r\nLifespan assays\r\nLifespan assays were conducted in liquid culture 96 well plates as outlined in Clay et. al.29 Each permutation\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "(strain‐drug) was tested in trials of 50‐100 animals in each trial. These numbers have sufficient power to detect\r\ndifferences in lifespan of 20% or more in more than 95% of the time.30 Animals were treated with drugs on day\r\n1 of adulthood to avoid any developmental effects. Lifespan experiments were conducted blind. Statistical\r\nanalysis was performed using the Mantel‐Haenzel version of the log‐rank test and data are summarized in\r\nSupplementary_table_[Lifespan].\r\n   \r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nTable 1. Top 10 predictions of extended lifespan label by an activity on a single cluster (MCC ‐ Matthews\r\ncorrelation coefficient )\r\nCluster ID Gene symbol precision recall MCC\r\nhtr6 HTR6 0.346 0.231 0.242\r\nhrh1 HRH1 0.282 0.282 0.232\r\nhtr2a HTR2C,HTR2A 0.21 0.333 0.199\r\nhtr2b HTR2B 0.222 0.256 0.181\r\nadra1d ADRA1A, ADRA1D, ADRA1B 0.193 0.282 0.167\r\nadra2a ADRA2A, ADRA2B, ADRA2C 0.2 0.256 0.164\r\ndrd2 DRD3, DRD2 0.16 0.333 0.152\r\nfyn LCK, SRC, LYN, FYN, BLK, YES1 0.5 0.051 0.144\r\nhtr7 HTR7 0.185 0.128 0.105\r\ndrd4 DRD4 0.172 0.128 0.098\r\n   \r\navailable under aCC-BY-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nTable 2. Prediction of extended lifespan label by an activity on a combination of clusters\r\nGenes rule precision recall MCC\r\n[SHBG], [HTR6], [HRH1], [PGR,NR3C1,NR3C2,AR], [DRD3,DRD2] 2 in\r\n5\r\n0.485 0.41 0.41\r\n[SHBG], [HRH1], [HTR1D,HTR1B], [PGR,NR3C1,NR3C2,AR], [DRD3,DRD2] 2 in\r\n5\r\n0.483 0.359 0.382\r\n[HTR6], [HRH1], [DRD3,DRD2] 2 in\r\n3\r\n0.467 0.359 0.373\r\n[SHBG], [HTR6], [HRH1], [NISCH], [DRD3,DRD2] 2 in\r\n5\r\n0.467 0.359 0.373\r\n[SHBG], [HTR6], [HRH1], [DRD3,DRD2] 2 in\r\n4\r\n0.467 0.359 0.373\r\n[HTR6], [HRH1], [LCK,SRC,LYN,FYN,BLK,YES1], [PGR,NR3C1,NR3C2,AR],\r\n[DRD3,DRD2]\r\n2 in\r\n5\r\n0.467 0.359 0.373\r\n[HTR6], [HRH1], [NISCH], [PGR,NR3C1,NR3C2,AR], [DRD3,DRD2] 2 in\r\n5\r\n0.467 0.359 0.373\r\navailable under aCC-BY-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\n[HTR6], [HRH1], [NISCH], [LCK,SRC,LYN,FYN,BLK,YES1], [DRD3,DRD2] 2 in\r\n5\r\n0.467 0.359 0.373\r\n[HTR6], [HRH1], [NISCH], [DRD3,DRD2] 2 in\r\n4\r\n0.467 0.359 0.373\r\n[HTR6], [HRH1], [LCK,SRC,LYN,FYN,BLK,YES1], [DRD3,DRD2] 2 in\r\n4\r\n0.467 0.359 0.373\r\n   \r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nTable 3. Prediction of extended lifespan label the by number of activity records per ligand\r\nSum of actives precision recall MCC\r\n5 0.233 0.359 0.227\r\n4 0.186 0.462 0.214\r\n6 0.22 0.282 0.189\r\n8 0.25 0.179 0.166\r\n7 0.216 0.205 0.157\r\n3 0.11 0.462 0.11\r\n9 0.188 0.077 0.082\r\n10 0.167 0.051 0.059\r\n11 0.167 0.051 0.059\r\n13 0.2 0.026 0.05\r\navailable under aCC-BY-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nSupplementary Tables\r\nSupplementary_table_[lifespan]: Summary of lifespan statistics\r\nSupplementary_table_[drug_candidates]: Selected candidates for screening\r\nSupplementary_table_[chemprop_targets]: Molecular targets with gene symbols  \r\nSupplementary_table_[rdkit_features]: Molecular features and their RDKit implementation names\r\nSupplementary_table_[chemprop_params]: Model hyperparameters and training parameters\r\nSupplementary_table_[chemprop_metrics]: Classification metrics on test data subset\r\nSupplementary_table_[ZINC]: List of selected compounds and ZINC parameters\r\n   \r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\nReferences\r\n1 Ye, X., Linton, J. M., Schork, N. J., Buck, L. B. & Petrascheck, M. A pharmacological network for lifespan\r\nextension in CaenorhabdiƟs elegans. Aging cell 13, 206‐215 (2014). hƩps://doi.org:10.1111/acel.12163\r\n2 Carretero, M., Gomez‐Amaro, R. L. & Petrascheck, M. Pharmacological classes that extend lifespan of\r\nCaenorhabdiƟs elegans. Front Genet 6, 77 (2015). hƩps://doi.org:10.3389/fgene.2015.00077\r\n3 Heid, E. et al. Chemprop: A Machine Learning Package for Chemical Property PredicƟon. J Chem Inf Model\r\n64, 9‐17 (2024). hƩps://doi.org:10.1021/acs.jcim.3c01250\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "4 Irwin, J. J. et al. ZINC20‐A Free Ultralarge‐Scale Chemical Database for Ligand Discovery. J Chem Inf Model\r\n60, 6065‐6073 (2020). hƩps://doi.org:10.1021/acs.jcim.0c00675\r\n5 Barardo, D. et al. The DrugAge database of aging‐related drugs. Aging cell 16, 594‐597 (2017).\r\nhƩps://doi.org:10.1111/acel.12585\r\n6 Alavez, S., VanƟpalli, M. C., Zucker, D. J., Klang, I. M.& Lithgow, G. J. Amyloid‐binding compounds maintain\r\nprotein homeostasis during ageing and extend lifespan. Nature 472, 226‐229 (2011).\r\nhƩps://doi.org:10.1038/nature09873\r\n7 Miller, D. L. & Roth, M. B. Hydrogen sulfide increases thermotolerance and lifespan in CaenorhabdiƟs\r\nelegans. Proc Natl Acad Sci U S A 104, 20618‐20622 (2007). hƩps://doi.org:10.1073/pnas.0710191104\r\n8 Miller, H. A. et al. Serotonin and dopamine modulate aging in response to food odor and availability. Nat\r\nCommun 13, 3271 (2022). hƩps://doi.org:10.1038/s41467‐022‐30869‐5\r\n9 Petrascheck, M., Ye, X. & Buck, L. B. An anƟdepressant that extends lifespan in adult CaenorhabdiƟs\r\nelegans. Nature 450, 553‐556 (2007). hƩps://doi.org:10.1038/nature05991\r\n10 Perez‐Gomez, A. et al. A phenotypic CaenorhabdiƟs elegans screen idenƟfies a selecƟve suppressor of\r\nanƟpsychoƟc‐induced hyperphagia. Nature CommunicaƟons 9 (2018). hƩps://doi.org:10.1038/s41467‐\r\n018‐07684‐y\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "11 Wishart, D. S. et al. DrugBank: a comprehensive resource for in silico drug discovery and exploraƟon.\r\nNucleic Acids Res 34, D668‐672 (2006). hƩps://doi.org:10.1093/nar/gkj067\r\n12 Schmid, C. L., Raehal, K. M. & Bohn, L. M. Agonist‐directed signaling of the serotonin 2A receptor depends\r\non beta‐arresƟn‐2 interacƟons in vivo. Proc Natl Acad Sci U S A 105, 1079‐1084 (2008).\r\nhƩps://doi.org:10.1073/pnas.0708862105\r\n13 Zhang, M. et al. G protein‐coupled receptors (GPCRs): advances in structures, mechanisms, and drug\r\ndiscovery. Signal Transduct Target Ther 9, 88 (2024). hƩps://doi.org:10.1038/s41392‐024‐01803‐6\r\n14 Berg, K. A. & Clarke, W. P. Making Sense of Pharmacology: Inverse Agonism and FuncƟonal SelecƟvity. Int\r\nJ Neuropsychopharmacol 21, 962‐977 (2018). hƩps://doi.org:10.1093/ijnp/pyy071\r\n15 Rangaraju, S. et al. Suppression of transcripƟonal driŌ extends C. elegans lifespan by postponing the\r\nonset of mortality. Elife 4, e08833 (2015). hƩps://doi.org:10.7554/eLife.08833\r\n16 Chen, A. L. et al. Pharmacological convergence reveals a lipid pathway that regulates C. elegans lifespan.\r\nNat Chem Biol 15, 453‐462 (2019). hƩps://doi.org:10.1038/s41589‐019‐0243‐4\r\n17 Kabir, A. & Muth, A. Polypharmacology: The science of mulƟ‐targeƟng molecules. Pharmacol Res 176,\r\n106055 (2022). hƩps://doi.org:10.1016/j.phrs.2021.106055\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "18 Reddy, A. S. & Zhang, S. Polypharmacology: drug discovery for the future. Expert Rev Clin Pharmacol 6,\r\n41‐47 (2013). hƩps://doi.org:10.1586/ecp.12.74\r\n19 Lin, A. et al. Off‐target toxicity is a common mechanism of acƟon of cancer drugs undergoing clinical\r\ntrials. Sci Transl Med 11 (2019). hƩps://doi.org:10.1126/scitranslmed.aaw8412\r\n20 Bolognesi, M. L. & Cavalli, A. MulƟtarget Drug Discovery and Polypharmacology. ChemMedChem 11,\r\n1190‐1192 (2016). hƩps://doi.org:10.1002/cmdc.201600161\r\n21 Kim, S., Thiessen, P. A., Cheng, T., Yu, B. & Bolton, E. E. An update on PUG‐REST: RESTful interface for\r\nprogrammaƟc access to PubChem. Nucleic Acids Res 46, W563‐w570 (2018).\r\nhƩps://doi.org:10.1093/nar/gky294\r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\n22 Davies, M. et al. ChEMBL web services: streamlining access to drug discovery data and uƟliƟes. Nucleic\r\nAcids Res 43, W612‐620 (2015). hƩps://doi.org:10.1093/nar/gkv352\r\n23 Bento, A. P. et al. The ChEMBL bioacƟvity database: an update. Nucleic Acids Res 42, D1083‐1090 (2014).\r\nhƩps://doi.org:10.1093/nar/gkt1031\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "24 Steinegger, M. & Söding, J. MMseqs2 enables sensiƟve protein sequence searching for the analysis of\r\nmassive data sets. Nat Biotechnol 35, 1026‐1028 (2017). hƩps://doi.org:10.1038/nbt.3988\r\n25 Chicco, D. & Jurman, G. The advantages of the MaƩhews correlaƟon coefficient (MCC) over F1 score and\r\naccuracy in binary classificaƟon evaluaƟon. BMC genomics 21, 6 (2020). hƩps://doi.org:10.1186/s12864‐\r\n019‐6413‐7\r\n26 Greg Landrum, P. T., Brian Kelley, Ricardo Rodriguez, David Cosgrove, Riccardo Vianello, sriniker, gedeck,\r\nGareth Jones, NadineSchneider, Eisuke Kawashima, Dan Nealschneider, Andrew Dalke, MaƩ Swain, Brian\r\nCole, Samo Turk, Aleksandr Savelev, Alain Vaucher, Maciej Wójcikowski, jasondbiggs. rdkit/rdkit:\r\n2024_03_3 (Q1 2024) Release Zenodo (2024).  \r\n27 Haung, G. L., Z., Van Der Maaten, L, Weinberger, K. Q. Densely connected convoluƟonal networks.\r\nProceedings of the IEEE conference on computer vision and paƩern recogniƟon, 4700‐4708 (2017).  \r\n28 BuƟna, D. Unsupervised Data Base Clustering Based on Daylight's Fingerprint and Tanimoto Similarity: A\r\nFast and Automated Way To Cluster Small and Large Data Sets. Journal of Chemical InformaƟon and\r\nComputer Sciences 39, 747‐750 (1999). hƩps://doi.org:10.1021/ci9803381\r\n29 Clay, K. J. & Petrascheck, M. in Aging: Methods and Protocols   (ed Sean P. Curran)  77‐89 (Springer US,\r\n2020).\r\n30 Petrascheck, M. & Miller, D. L. ComputaƟonal Analysis of Lifespan Experiment Reproducibility. Front\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 17,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1186339435540567543,
+        "filename": "nihpp-2024.06.23.600269v1.PMC11230182.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 18,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 129,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "Genet 8, 92 (2017). hƩps://doi.org:10.3389/fgene.2017.00092\r\navailable under aCC-BY-ND 4.0 International license.\r\n(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2024.06.23.600269; this version posted June 28, 2024. The copyright holder for this preprint\n\n"
+  }
+]

@@ -1,0 +1,530 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Braess’s Paradox in Epidemic Game:\r\nBetter Condition Results in Less Payoff\r\nHai-Feng Zhang1*, Zimo Yang2*, Zhi-Xi Wu3, Bing-Hong Wang4 & Tao Zhou2\r\n1\r\nSchool of Mathematical Science, Anhui University, Hefei 230039, P. R. China, 2Web Sciences Center, University of Electronic\r\nScience and Technology of China, Chengdu 611731, P. R. China, 3\r\nInstitute of Computational Physics and Complex Systems,\r\nLanzhou University, Lanzhou 730000, P. R. China, 4\r\nDepartment of Modern Physics, University of Science and Technology of China,\r\nHefei 230026, P. R. China.\r\nFacing the threats of infectious diseases, we take various actions to protect ourselves, but few studies\r\nconsidered an evolving system with competing strategies. In view of that, we propose an evolutionary\r\nepidemic model coupled with human behaviors, where individuals have three strategies: vaccination,\r\nself-protection and laissez faire, and could adjust their strategies according to their neighbors’ strategies and\r\npayoffs at the beginning of each new season of epidemic spreading. We found a counter-intuitive\r\nphenomenon analogous to the well-known Braess’s Paradox, namely a better condition may lead to worse\r\nperformance. Specifically speaking, increasing the successful rate of self-protection does not necessarily\r\nreduce the epidemic size or improve the system payoff. The range and degree of the Braess’s Paradox are\r\nsensitive to both the parameters characterizing the epidemic spreading and the strategy payoff, while the\r\nexistence of the Braess’s Paradox is insensitive to the network topologies. This phenomenon can be well\r\nexplained by a mean-field approximation. Our study demonstrates an important fact that a better condition\r\nfor individuals may yield a worse outcome for the society.\r\nRecent outbreaks of global infectious diseases, including SARS (Severe Acute Respiratory Syndrome), H1N1\r\n(Swine Influenza) and H5H1 (Avian Influenza), have caused major public healthy threats owing to their\r\npotential mortalities and substantial economic impacts. According to the report of WHO, infectious\r\ndiseases cause more than 10 million deaths annually and accounting for 23% of the global disease burden1\r\n.\r\nVarious interventions thus have been developed to control infectious diseases, such as vaccination, treatment,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "quarantining and behavior change programs (e.g., social distancing and partner reduction)2\r\n.\r\nThough preemptive vaccination is the fundamental method for preventing transmission of infectious diseases\r\nas well as reducing morbidity and mortality3–5, practically, the immunization of individuals is more than a\r\nvoluntary behavior owing to the economic costs, logistical limitations, religious reasons, side effects, and so\r\non6\r\n. Therefore, instead of vaccinating, people may prefer to take some self-protective actions including reducing\r\noutside activities, detouring to avoid epidemic areas, wearing face masks, washing hands frequently, and so\r\nforth7–11. Generally speaking, these self-protective actions are less costly and cannot guarantee the safety against\r\nthe diseases.\r\nUnder such complicated environment, an individual’s strategy usually results from a tradeoff between cost and\r\nrisk. For instance, people may be laissez-faire to the spreading of common flu, while they will take vaccination for\r\nhepatitis B since the vaccines are very effective and hepatitis B is very difficult to cure. In contrast, people prefer to\r\ntake self-protection against HIV since its consequence is terrible while the effectivity and side effects of vaccines\r\nare both unknown. Accordingly, game-theoretic models may be suitable to characterize these decision-making\r\nprocesses3,4,12–17. Bauch et al.\r\n3,4 analyzed population behavior under voluntary vaccination policies for childhood\r\ndiseases via a game-theoretic framework, and they found that voluntary vaccination is unlikely to reach the\r\npopulation-level optimum due to the risk perception in vaccines and the effect of herd immunity. By coupling\r\ngame models and epidemic models, Bauch12 and Reluga et al.\r\n13 demonstrated that the self-interested behaviors of\r\nindividuals can lead to oscillations in vaccine uptake over time. Vardavas et al.\r\n14 considered the effects of\r\nvoluntary vaccination on the prevalence of influenza based on a minority game, and found that severe epidemics\r\ncould not be prevented unless proper incentives are offered. Basu et al.\r\n15 proposed an epidemic game model for\r\nHPV vaccination based on the survey data on actual perceptions regarding cervical caner, showing that the actual\r\nvaccination level is far lower than the overall vaccination goals. Perisic and Bauch16 studied the interplay between\r\nepidemic spreading dynamics and individual vaccinating behavior on social contact networks. Compared with\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "the homogeneously mixing model, they found that increasing the neighborhood size of the contact network can\r\nOPEN\r\nSUBJECT AREAS:\r\nCOMPUTATIONAL\r\nMODELS\r\nAPPLIED MATHEMATICS\r\nAPPLIED PHYSICS\r\nCOMPLEX NETWORKS\r\nReceived\r\n8 May 2013\r\nAccepted\r\n1 November 2013\r\nPublished\r\n21 November 2013\r\nCorrespondence and\r\nrequests for materials\r\nshould be addressed to\r\nT.Z. (zhutou@ustc.edu)\r\n* These authors\r\ncontributed equally to\r\nthis work.\r\nSCIENTIFIC REPORTS | 3 : 3292 | DOI: 10.1038/srep03292 1\neliminate the disease if individuals decide whether to vaccinate by\r\naccounting for infection risks from neighbors. Under the assumption\r\nthat people make decisions based on the information of the prior\r\nseasonal epidemic, Cornforth et al.\r\n17 found that both the flu vaccina\u0002tion rate and the disease prevalence are erratic due to the short\u0002sighted behavior of individuals in contact networks. More recent\r\nprogresses in this field are summarized in Refs18,19.\r\nAs mentioned above, in most related works, individuals are usually\r\ndivided into two opposite classes: vaccinated and laissez-faire, while\r\nless attention is paid on other alterative strategies in between. In this\r\npaper, we propose an evolutionary epidemic game model to study the\r\neffects of self-protection on the system payoff and epidemic size. We\r\nfind a counter-intuitive phenomenon analogous to the well-known\r\nBraess’s Paradox20 in network traffic dynamics, that is, the increasing\r\nof successful rate of self-protection may, on the contrary, decrease the\r\nsystem payoff. We provide a mean-field solution, which well repro\u0002duces such observation. This study raises an unprecedent challenge\r\non how to guide the masses of people to react to the outbreaks of\r\ninfectious diseases, since sufficient knowledge about and effective\r\nprotecting skills to the infectious disease, which sound very helpful\r\nfor every individual, may eventually enlarge the epidemic size and\r\ncause losses for the society. The model details are described in the\r\nMethods section, while here we proceed with presenting the results.\r\nResults\r\nWe first study the model in square lattices with von Neumann neigh\u0002borhood and periodic boundary conditions. Figure 1(a) presents the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "effect of the successful rate of self-protection, d (see Methods section\r\nfor the description of the model and parameters), on the decision\r\nmakings of individuals and the epidemic size. Clearly, as the increas\u0002ing of d, the condition gets better and better (the efficiency of self\u0002protection gets improved as the increase of d). A counter-intuitive\r\nphenomenon is observed when d lies in the middle range (,[0.3,\r\n0.4]), during which a better condition leads to a larger epidemic size.\r\nOne may think that though the epidemic size becomes larger, the\r\nsystem payoff (the sum payoff of all individuals) could still get higher\r\nsince individuals pay less in choosing self-protection than vaccina\u0002tion. However, as shown in Fig. 1(b) and Fig. 1(c), the system payoff\r\nis strongly negatively correlated with the epidemic size. That is to say,\r\na better condition (i.e., a larger d) could result in worse performance\r\nin view of both the larger epidemic size and the less system payoff (In\r\nFig. S1, we report the epidemic size as a function of d in square lattices\r\nwith different sizes, the simulation results indicate that our main\r\nresults are insensitive to the network sizes). This is very similar to\r\nthe so-called Braess’s Paradox, which states that adding extra capa\u0002city to a network when the moving entities selfishly choose their\r\nroute, can in some cases reduce overall performance20–22.\r\nFigure 2 shows the strategy distribution patterns of four repres\u0002entative cases. When d is small, it is unwise to take self-protection\r\nbecause of its low efficiency, and people prefer to take vaccination or\r\nlaissez faire. As shown in Fig. 2(b), there are only two strategies,\r\nvaccination and laissez faire, and thus d has no effect on the epidemic\r\nsize. Meanwhile, one can find that the infected laissez-faire indivi\u0002duals (dark red) and uninfected laissez-faire individuals (light red)\r\nare isolated by the vaccinated individuals and form respective per\u0002colating clusters. That is to say, the vaccinated individuals play the\r\nrole of firewall in preventing the contagion of disease to the whole\r\nsystem. Of course, this kind of partial separation can only be possible\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 462,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "when the number of vaccinated individuals is considerable, other\u0002wise, the number of vaccinated individuals is insufficient to cut off\r\nthe spreading paths of the disease. When d gets larger (,[0.3, 0.4]),\r\nthe advantage of self-protection starts to appear, so more individuals\r\nwill take self-protection and fewer individuals take vaccination or\r\nlaissez faire. However, low efficiency of self-protection (i.e., small d)\r\ncannot offset the losses coming from the reduced vaccinated indivi\u0002duals, which leads to the increase of the epidemic size (see the dark\r\nred points in Fig. 2(c)) as well as the decrease of the system payoff.\r\nAlso as shown in Fig. 2(c), the light-red percolating cluster (i.e.,\r\nuninfected laissez-faire individuals) is fragmented into pieces due\r\nto the decrease of irrelevant individuals (the irrelevant individuals\r\ninclude both vaccinated and successful self-protective individuals,\r\nsee Methods for the definition), which is also a reason of the decrease\r\nof the fraction of laissez-faire individuals: being laissez-faire becomes\r\nmore risky now. When d is large, the superiority of self-protection\r\nbecomes more striking and no one takes vaccination, then the epi\u0002demic size decreases as d increases. As shown in Fig. 2(d), only self\u0002protective and laissez-faire individuals coexist in the lattice. With\r\nfurther increase the value of d, though the self-protection strategy\r\nFigure 1 | Less payoff in better condition. (a) How the fractions of the three strategies and the epidemic size change with the successful rate of self\u0002protection d. (b) The epidemic size R‘ and the system payoff P as functions of d. (c) Correlation between the system payoff P and the epidemic size R‘,\r\nwhere each data point corresponds to a certain d. Panel (a) is divided into three regions by two vertical dash lines: (i) In the left region, no self-protective\r\nindividual exists and d has no effect on the epidemic size; (ii) In the middle region, the self-protection strategy gradually replaces vaccination and laissez\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "faire, and the epidemic size increases with d due to the decrement of vaccination fraction; (iii) In the right region, with high successful rate of self\u0002protection, individuals are unwilling to take vaccination and the epidemic size decreases with d. Parameters are set to be N 5 50 3 50 5 2500, l 5 0.5, m 5\r\n0.3, b 5 0.1, c 5 0.4, k 5 10 and I0 5 5. For this figure and all others (except snapshots), the simulation results are calculated after 1000 seasons when the\r\nsystem is in a steady state, and each data point is obtained by averaging over 100 independent runs.\r\nwww.nature.com/scientificreports\r\nSCIENTIFIC REPORTS | 3 : 3292 | DOI: 10.1038/srep03292 2\nis more efficient, the laissez-faire strategy is more attractive since\r\nsuccessful self-protective individuals becomes more and thus for\r\nsusceptible individuals, the risk of being infected becomes smaller.\r\nThis is the reason why the fraction of laissez-faire individuals become\r\nlarger as d goes approaching to 1. In fact, when d is very large, the\r\nuninfected laissez-faire individuals again form a percolating cluster\r\nsince the externality effect from the successful self-protective indivi\u0002duals makes laissez-faire individuals to be free-riders. Please see\r\nFig. 2(e) for the example at d 5 0.95.\r\nPrevious studies have shown that the contact patterns can dramat\u0002ically impact the disease dynamics and the individual’s decision\r\nmakings16,17, so it is necessary to further check our results on other\r\ntypes of networks. To this end, we implement the model on disparate\r\nnetworks including the Erdo¨s-Re´nyi (ER) networks23, the Baraba´si\u0002Albert (BA) networks24 and the well-mixed networks (also called\r\nfully connected networks or complete networks). Figure 3 demon\u0002strates that, in despite of the quantitative difference, the counter\u0002intuitive phenomenon can be observed for all kinds of networks.\r\nFigures S2–S5 present systematical simulation results about the\r\neffects of different parameters for different kinds of networks and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "one can always observe the counter-intuitive phenomenon when the\r\ncondition 0 , b , c , 1 is hold.\r\nAlthough the phenomenon is qualitatively universal for different\r\nkinds of networks, as shown in Fig. 3, there are quantitative differ\u0002ences between square lattices and other kinds of networks: (i) in ER,\r\nBA and well-mixed networks, the self-protection strategy are further\r\npromoted and could become the sole strategy in a certain range of d\r\n(Take the case of BA network in Fig. 3(c) as an example, the self\u0002protection strategy prevails on the whole network when d lies in the\r\ninterval , [0.3, 0.7]); (ii) the epidemic size in ER, BA and well-mixed\r\nnetworks is smaller than that in square lattices. In square lattices,\r\nlaissez-faire individuals could form clusters that are guarded by the\r\nsurrounding irrelevant individuals (i.e., vaccinated and successful\r\nself-protective individuals). Then they paid nothing but can escape\r\nfrom the infection. On the contrary, ER, BA and well-mixed net\u0002works do not display localized property and thus to choose laissez\u0002faire strategy is of high risk. Therefore, with delocalization, the\r\nlaissez-faire strategy is depressed while the self-protection strategy\r\ngets promoted and less individuals will get infected.\r\nTo verify the above inference, we remove a number of edges in the\r\nsquare lattice and randomly add the same number of edges. During\r\nthis randomizing process, the network connectivity is always guar\u0002anteed and the self-connections and multi-connections are not\r\nallowed. The number of removed edges, A, can be used to quantify\r\nthe strength of delocalization. As shown in Fig. 4, with the increasing\r\nof A, the self-protection strategy gets promoted and the clusters of\r\nuninfected laissez-faire individuals are fragmented into small pieces.\r\nWhen A gets larger and larger, the strategy distribution pattern\r\nbecomes closer and closer to that of ER, BA and well-mixed net\u0002works. The gradually changing process in Fig. 4 clearly demonstrates\r\nthat the main reason resulting in the quantitative differences is the\r\nstructural localization effects. In a word, the ER, BA and well-mixed\r\ndisplay essentially the same results since they do not have many\r\nlocalized clusters.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Figures 5 and 6 report the degree and width of the Braess’s paradox\r\nfor well-mixed networks25 (Figures S6, S7 and S8 present the degree\r\nand width of the Braess’s paradox for the other three kinds of net\u0002works under investigation). The degree of the Braess’s paradox is\r\ndefined as DR 5 Rmax 2 Rinitial, where Rmax is the maximal value\r\nof epidemic size and Rinitial is the value of epidemic size when the\r\nBraess’s paradox starts to happen. Fig. 5(a) presents an illustration\r\nabout the definition of DR, and Fig. 5(b) plots the value of DR for\r\ndifferent parameters. Each subpanel in Fig. 5(b) is associated with a\r\ngiven (l, m) pair with b and c being two variables. Analogously, the\r\nwidth of the Braess’s paradox is defined as Dd 5 dend 2 dstart, where\r\ndstart is the starting point corresponding to Rinitial and dend is the right\r\npoint when the Braess’s paradox disappears. Fig. 6(a) present an\r\nillustration about the definition of Dd. Figure 6(b) plots the value\r\nof Dd in the similar way to Fig. 5(b). The simulation results indicate\r\nthat when l is very small (e.g., l 5 0.2 in the top panels of Fig. 5(b)\r\nand Fig. 6(b)), the Braess’s paradox disappears, and with the increas\u0002ing of the value of l, the Braess’s paradox becomes more obvious. The\r\nparameters b and c also affect the existence of Braess’s paradox, for\r\ninstance, when b and c are all close to 1, the Braess’s paradox\r\nFigure 2 | Strategy distribution patterns. Subgraph (a) shows the epidemic size R‘ as a function of the successful rate of self-protection d. The window is\r\ndivided into three parts according to the tendency of R‘ 2 d curve. Subgraphs (b), (c), (d) and (e) are snapshots in the steady state of a season at d 5 0.2,\r\n0.35, 0.5 and 0.95. The grey, light red, dark red, light blue and dark blue points stand for vaccinated, uninfected laissez-faire, infected laissez-faire,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "uninfected self-protective, and infected self-protective individuals, respectively. Parameters are the same as in Fig. 1.\r\nwww.nature.com/scientificreports\r\nSCIENTIFIC REPORTS | 3 : 3292 | DOI: 10.1038/srep03292 3\ndisappears. In most cases, the values of DR and Dd are larger than 0,\r\nindicating the existence of the Braess’s paradox.\r\nLastly, we present an approximation analysis based on the mean\u0002field theory for well-mixed networks (see analysis in the Methods\r\nsection), which could reproduce the counter-intuitive phenomenon.\r\nFigure 7 compares the analytical prediction with simulation, indi\u0002cating a good accordance.\r\nDiscussion\r\nSpontaneous behavioral responses to epidemic situation are recog\u0002nized to have significant impacts on epidemic spreading, and thus to\r\nincorporating human behavior into epidemiological models can\r\nenhance the models’ utility in mimicking the reality and evaluating\r\ncontrol measures18,26–31. To this end, we proposed an evolutionary\r\nepidemic game where individuals can choose their strategies as vac\u0002cination, self-protection or laissez faire, towards infectious diseases\r\nand adjust their strategies according to their neighbors’ strategies and\r\npayoffs.\r\nStrikingly, we found a counter-intuitive phenomenon that a better\r\ncondition (i.e., larger successful rate of self-protection) may unfortu\u0002nately result in less system payoff. It is because when the successful\r\nrate of self-protection increases, people become more speculative and\r\nless interested in vaccination. Since a vaccinated individual indeed\r\nbrings the ‘externality’ effect to the system: the individual’s decision\r\nto vaccinate diminishes not only their own risk of infection, but also\r\nthe risk for those people with whom the individual interacts13, the\r\nreduction of vaccination can remarkably enhance the risk of infec\u0002tion. Qualitatively speaking, the counter-intuitive phenomenon is\r\ninsensitive to the network topology, while quantitatively speaking,\r\nnetworks with delocalized structure (e.g., ER, BA and well-mixed\r\nnetworks) have more self-protective individuals and less laissez-faire\r\nindividuals than networks with localized structure (e.g., square lat\u0002tices), and the epidemic size is larger in the latter case. Without the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "diverse behavioral responses of individuals, epidemic in delocalized\r\nstructure usually spreads more quickly and widely than in localized\r\nstructure32,33. The opposite observation reported in the current\r\nmodel again results from more and more speculative choices (i.e.,\r\nto be laissez-faire) at a low-risky situation. Therefore, this can be\r\nconsidered as another kind of ‘‘less payoff in better condition’’\r\nphenomenon.\r\nThe observed counter-intuitive phenomenon reminds us of the\r\nwell-known Braess’s Paradox in network traffic20,21. Zhang et al.\r\n34\r\nshowed that to remove some specific edges in a network can largely\r\nenhance its information throughput, and Youn et al.\r\n35 pointed out\r\nthat some roads in Boston, New York City and London could be\r\nclosed to reduce predicted travel times. Actually, Seoul has removed\r\na highway to build up a park, which, beyond all expectations, main\u0002tained the same traffic but reduced the travel time36. Very recently,\r\nPala et al.\r\n37 showed that Braess’s Paradox may occur in mesoscopic\r\nelectron systems, that is, adding a path for electrons in a nanoscopic\r\nnetwork may paradoxically reduce its conductance. This work pro\u0002vides another interesting example analogous to Braess’s Paradox,\r\nFigure 3 | Insensitivity to the network structures. To explore the impacts of different network structures on the epidemic size and strategy distribution,\r\nwe compare the results in square lattices (a), ER networks (b), BA networks (c) and well-mixed networks (d). The parameters are set as b 5 0.1,\r\nI0 5 5, c 5 0.4, and k 5 10. Each data point results from an average over 100 independent runs. The average degrees of the lattices, ER networks and BA\r\nnetworks are all set to be 4, and the simulations presented in subgraph (a), (b) and (c) are implemented with the same transmission and recovery\r\nrate, l 5 0.5 and m 5 0.3. For the well-mixed network (d), however, the parameters are different from others as l 5 0.0025 and m 5 1 for its different\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "average degree. The sizes of the ER, BA and well-mixed networks are set to be N 5 1000 and the size of the square lattice is N 5 2500.\r\nwww.nature.com/scientificreports\r\nSCIENTIFIC REPORTS | 3 : 3292 | DOI: 10.1038/srep03292 4\nnamely a higher successful rate of self-protection may eventually\r\nenlarge the epidemic size and thus cause system loss. Let’s think of\r\nthe prisoner’s dilemma, if every prisoner stays silent, they will be fine,\r\nwhile one more choice, to betray, makes the situation worse for them.\r\nAnalogously, if the successful rate d is small, few people will choose to be\r\nself-protective, while for larger d, people have more choices, which may\r\neventually reduce the number of vaccinated people and thus enlarge the\r\nepidemic size. Basically, both the original Braess’s Paradox and the\r\ncurrent counter-intuitive phenomenon are partially due to the addi\u0002tional choices to selfish individuals. This is easy to be understood in a\r\nsimple model like the prisoner’s dilemma game, but it is impressive to\r\nobserve such phenomenon in a complex epidemic game.\r\nHuman-activated systems are usually much more complex than\r\nour expectation, since people’s choices and actions are influenced\r\nby the environment and at the same time their choices and actions\r\nhave changed the environment. This kind of interplay leads to\r\nmany unexpected collective responses to both emergencies and\r\ncarefully designed policies, which, fortunately, can still be modeled\r\nand analyzed to some extent. This work raises an unprecedent\r\nchallenge to the public health agencies about how to lead the\r\npopulation towards an epidemic. The government should take\r\ncareful consideration on how to distribute their resources and\r\nmoney on popularizing vaccine, hospitalization, self-protection,\r\nself-treatment, and so on.\r\nFigure 4 | Delocalization promotes the self-protection strategy. The subgraphs (a)–(d) show how the fractions of the three strategies and the epidemic\r\nsize change with the successful rate of self-protection d, and subgraphs (e)–(h) are the corresponding snapshots for (a)–(d) with d 5 0.6. From (a) to (d),\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "the number of randomized edges, A, increases. Qualitatively, the counter-intuitive phenomenon always exists, no matter what the value of A.\r\nQuantitatively, the delocalization reduces the advantage of the laissez-faire strategy, which leads to a larger fraction of self-protective individuals. When A\r\nis large enough, self-protection becomes the dominating strategy for a certain range of d. Overall speaking, the epidemic size is smaller at larger A.\r\nParameters are the same as in Fig. 1. The meanings of different colors are the same to Fig. 2.\r\n(a) (b) DR\r\nFigure 5 | The degree of the Braess’s paradox region DR in well-mixed network. Subgraph (a) provides an illustration about the definition of DR for a\r\ngiven parameter set (b, c, l, m). Subgraph (b) presents the value of DR for different parameters, where each subpanel is associated with a given (l, m) pair\r\nwith b and c being two variables. The color in subgraph (b) stands for the value of DR. Other parameters: N 5 1000, I0 5 5 and k 5 10.\r\nwww.nature.com/scientificreports\r\nSCIENTIFIC REPORTS | 3 : 3292 | DOI: 10.1038/srep03292 5\nMethods\r\nModel. Considering a seasonal flu-like disease that spreads through a social contact\r\nnetwork38,39. At the beginning of a season, each individual could choose one of the\r\nthree strategies: vaccination, self-protection or laissez faire. If an individual gets\r\ninfected during this epidemic season, she will pay a costr. A vaccinated individual will\r\npay a cost c that accounts for not only the monetary cost of the vaccine, but also the\r\nperceived vaccine risks, side effects, long-term healthy impacts, and so forth. We\r\nassume that the vaccine could perfectly protect vaccinated individuals from infection\r\nin the following epidemic season. A self-protective individual will pay a less cost b,\r\nwhile a laissez-faire individual pays nothing. Denote d be the successful rate of self\u0002protection, that is, a self-protective individual will be equivalent to a vaccinated\r\nindividual with probability d or be equivalent to a laissez-faire individual with\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "probability 1 2 d. This will be determined right after an individual’s decision for\r\nsimplicity. Obviously, r . c . b . 0. Without loss of generality, we set the cost of\r\nbeing infected as r 5 1. Table 1 presents the payoffs for different strategies and\r\noutcomes.\r\nWhen the strategy of every individual is fixed, all individuals can be divided into\r\ntwo classes: susceptible individuals including laissez-faire individuals and a fraction 1\r\n2 d of self-protective individuals (i.e., unsuccessful ones), and irrelevant individuals\r\n(equivalent to be removed from the system) including vaccinated ones and a fraction\r\nd of self-protective individuals that are selected to be successful and will not be\r\ninfected in the following season of epidemic spreading. Among all susceptible indi\u0002viduals, I0 individuals are randomly selected and set to be infected initially. The\r\nspreading dynamics follows the standard susceptible-infected-removed (SIR)\r\nmodel40,41, where at each time step, each infected individual will infect all her sus\u0002ceptible neighbors with probability l, and then she will turn to be a removed indi\u0002vidual with probability m. The spreading ends when no infected individual exists.\r\nThen, the number of recovered individuals, R(‘), is called the epidemic size or the\r\nprevalence at one epidemic season.\r\nAfter this epidemic season, every individual updates her strategy by imitating her\r\nneighborhood. Firstly, she will randomly select one neighbor and then decide whether\r\nto take this neighbor’s strategy. We apply the Fermi rule42,43, namely an individual i\r\nwill adopt the selected neighbor j’s strategy with probability\r\nW si/sj\r\n\u0002 \u0003~ 1\r\n1zexp {k Pj{Pi\r\n\u0004 \u0005 \u0002 \u0003 , ð1Þ\r\nwhere si means the strategy of i, Pi is i’s payoff in the last season, and the parameter k\r\n. 0 characterizes the strength of selection: smaller k means that individuals are less\r\nresponsive to payoff difference. After the moment all individuals have decided their\r\nstrategies (and thus their roles in the epidemic spreading are also decided), a new\r\nseason starts. Without specific statement, we use the average epidemic size R‘ over\r\nmany epidemic seasons after the system becomes statistically stable to quantify the\r\nseverity of the epidemic.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Analysis on well-mixed network. It is beyond our ability to provide a thorough\r\ntheoretical analysis on the dynamics of the system for (i) the stochastic and\r\nnonlinear effects in Eq. (1), (ii) the multiple choices of individuals enclosed in the\r\nmodel, and (iii) the different time scales (in a sequential order) of the epidemic\r\ndynamics and the decision makings of individuals. Instead, an approximation\r\nanalysis based on the mean-field theory and numerical integral method for well\u0002mixed networks is given to quantitatively cross-check the observations reported in\r\nthe simulation results. Given a well-mixed network with size N, the dynamical\r\nequations are\r\nFigure 6 | The width of the Braess’s paradox region Dd in well-mixed network. Subgraph (a) provides an illustration about the definition of Dd for a\r\ngiven parameter set (b, c, l, m). Subgraph (b) presents the value of Dd for different parameters, where each subpanel is associated with a given (l, m) pair\r\nwith b and c being two variables. The color in subgraph (b) stands for the value of Dd. Other parameters: N 5 1000, I0 5 5 and k 5 10.\r\nFigure 7 | The analytical solution agrees well with the simulation. The analytical prediction based on the mean-field theory (see Method section)\r\n(b) is in good accordance with the simulation results (a). All results are implemented on a well-mixed network with N 5 1000,c 5 0.7, b 5 0.1, l 5 0.0025,\r\nm 5 1.0, I0 5 5 and k 5 10. The three dotted lines from left to right in two subgraphs correspond to the starting point of the Baress’s paradox, the ending\r\npoint of the Baress’s paradox, and the point with maximal fraction of rS.\r\nwww.nature.com/scientificreports\r\nSCIENTIFIC REPORTS | 3 : 3292 | DOI: 10.1038/srep03292 6\ndS\r\ndt ~{lNSI, ð2Þ\r\ndI\r\ndt ~lNSI{mI, ð3Þ\r\ndR\r\ndt ~mI, ð4Þ\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "where S, I and R stand for the fraction of susceptible, infected and recovered\r\nindividuals, respectively. Dividing Eq. (2) by Eq. (4), one has\r\ndS\r\ndR~{R0S, ð5Þ\r\nwhere R0~lN\r\nm\r\nis the basic reproduction number for the standard SIR model in\r\nwell-mixed population of size N40. Integrating Eq. (5), we get\r\nðSð Þ ?\r\nSð Þ0\r\ndS\r\nS ~\r\nð Rð Þ ?\r\nRð Þ0\r\n{R0dR, ð6Þ\r\nwhich leads to the solution\r\nln Sð Þ ?\r\nSð Þ0 ~{R0½ \u0002 Rð Þ ? {Rð Þ0 : ð7Þ\r\nWith the initial condition I(0) 5 I0/N 5 5/N, S(0) 5 1 2 5/N < 1 and R(0) 5 0\r\nas well as the equation R(‘) 1 S(‘) 5 1 in the thermodynamic limit, we have\r\nRð Þ ? ~1{exp½ \u0002 {R0Rð Þ ? : ð8Þ\r\nLet rV, rS and rL be the fraction of vaccinated, self-protective and laissez-faire\r\nindividuals, such that rV 1 rS 1 rL ; 1. Since only a fraction 1 2 rV 1 drS of\r\nindividuals are susceptible, using the similar techniques, one can easily obtain the\r\nepidemic size as\r\nR0\r\nð Þ ? ~ 1{rV{drS ð Þ 1{exp {R0R f g ½ \u0002 0ð Þ ? , ð9Þ\r\nThen, the probability of a susceptible individual to be infected reads\r\nv~ R0\r\nð Þ ?\r\n1{rV{drS\r\n~1{exp {R0R ½ \u0002 0ð Þ ? : ð10Þ\r\nThe payoffs of different strategies and states are thus easily to be obtained, which\r\nare summarized in Table 2.\r\nThe imitation dynamics governing the time evolution of the fractions of strategies\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "in the population is similar to the replicator dynamics of evolutionary game the\u0002ory39,44, as\r\ndrV\r\ndt ~ rV /? rH\r\nS\r\n\u0002 \u0003z rV /? rI\r\nS\r\n\u0002 \u0003z rV /? rH\r\nL\r\n\u0002 \u0003z rV /? rI\r\nL\r\n\u0002 \u0003, ð11Þ\r\ndrS\r\ndt ~ rH\r\nS /? rV\r\n\u0002 \u0003z rH\r\nS /? rHL\r\n\u0002 \u0003z rH\r\nS /? rIL\r\n\u0002 \u0003z rI\r\nS /? rV\r\n\u0002 \u0003\r\nz rI\r\nS /? rHL\r\n\u0002 \u0003z rI\r\nS /? rIL\r\n\u0002 \u0003,\r\nð12Þ\r\nwhere\r\nrV /? rH\r\nS ~ rHS ?rV\r\n\u0002 \u0003{ rV?rH\r\nS\r\n\u0002 \u0003\r\n~rV rH\r\nS\r\n1\r\n1zexp {k PV{PH\r\nS\r\n\u0004 \u0005 \u0002 \u0003 { 1\r\n1zexp {k PH\r\nS {PV\r\n\u0004 \u0005 \u0002 \u0003 ( )\r\n~rV rH\r\nS tanh k\r\n2\r\nPV{PH\r\nS\r\n\u0002 \u0003 h i\r\n~rV rS½ \u0002 dzð Þ 1{d ð Þ 1{v tanh k\r\n2\r\nð Þ {czb\r\nh i,\r\nð13Þ\r\nand the others are similar. Note that, to avoid confusion, we use t to denote the\r\ndynamics of epidemic at each epidemic season, while t is used to denote the serial\r\nnumber of epidemic seasons.\r\nLet rV(t), rS(t) and rL(t) be the initial fractions of vaccinated, self-protective and\r\nlaissez-faire individuals before the (t 1 1)th season of epidemic spreading. Given\r\nrV(0) 5 rS(0) 5 rL(0) 5 1/3, and the initial conditions as S(0) 5 (N9 2 5)/N9, I(0) 5\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "5/N9 and R(0) 5 0 for the following epidemic season, where N9 5 (1 2 rV 2 drS)N,\r\ndepending on the distribution of strategies at this season. Then, R9(‘) can be obtained\r\nby Eq. (9) and v by Eq. (10). Using the evolutionary dynamics described in Eqs. (11)–\r\n(13) and the fractions presented in Table 2, one can obtain the values of rV(1), rS(1)\r\nand rL(1), which are also the initial fractions of strategies at the beginning of the next\r\nseason. Repeat the above steps until the steady state, then we can calculate the desired\r\nvariables.\r\n1. World Health Organization. The world health report 2004: Changing history.\r\nWorld Health Organization (2004).\r\n2. Enns, E., Mounzer, J. & Brandeau, M. Optimal link removal for epidemic\r\nmitigation: A two-way partitioning approach. Math. Biosci. 235, 138–147 (2011).\r\n3. Bauch, C., Galvani, A. & Earn, D. Group interest versus self-interest in smallpox\r\nvaccination policy. Proc. Natl Acad. Sci. USA 100, 10564–10567 (2003).\r\n4. Bauch, C. & Earn, D. Vaccination and the theory of games. Proc. Natl Acad. Sci.\r\nUSA 101, 13391–13394 (2004).\r\n5. Perisic, A. & Bauch, C. A simulation analysis to characterize the dynamics of\r\nvaccinating behaviour on contact networks. BMC. Infect. Dis. 9, 77 (2009).\r\n6. Schimit, P. & Monteiro, L. A vaccination game based on public health actions and\r\npersonal decisions. Ecol. Model. 222, 1651–1655 (2011).\r\n7. Meloni, S. et al. Modeling human mobility responses to the large-scale spreading\r\nof infectious diseases. Sci. Rep. 1, 62 (2011).\r\n8. Perra, N., Balcan, D., Gonçalves, B. & Vespignani, A. Towards a characterization\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "of behavior-disease models. PLoS ONE 6, e23084 (2011).\r\n9. Fenichel, E.et al. Adaptive human behavior in epidemiological models. Proc. Natl\r\nAcad. Sci. USA 108, 6306–6311 (2011).\r\n10. Sahneh, F., Chowdhury, F. & Scoglio, C. On the existence of a threshold for\r\npreventive behavioral responses to suppress epidemic spreading. Sci. Rep. 2, 632\r\n(2012).\r\n11. Chen, F. Modeling the effect of information quality on risk behavior change and\r\nthe transmission of infectious diseases. Math. Biosci. 217, 125–133 (2009).\r\n12. Bauch, C. Imitation dynamics predict vaccinating behaviour. Proc. R. Soc. B 272,\r\n1669–1675 (2005).\r\n13. Reluga, T., Bauch, C. & Galvani, A. Evolving public perceptions and stability in\r\nvaccine uptake. Math. Biosci. 204, 185–198 (2006).\r\n14. Vardavas, R., Breban, R. & Blower, S. Can influenza epidemics be prevented by\r\nvoluntary vaccination? PLoS. Comput. Biol. 3, e85 (2007).\r\n15. Basu, S., Chapman, G. & Galvani, A. Integrating epidemiology, psychology, and\r\neconomics to achieve HPV vaccination targets. Proc. Natl Acad. Sci. USA 105,\r\n19018–19023 (2008).\r\n16. Perisic, A. & Bauch, C. Social contact networks and disease eradicability under\r\nvoluntary vaccination. PLoS. Comput. Biol. 5, e1000280 (2009).\r\n17. Cornforth, D., Reluga, T., Shim, E., Bauch, C. & Galvani, A. Erratic Flu\r\nVaccination Emerges from Short-Sighted Behavior in Contact Networks. PLoS.\r\nComput. Biol. 7, e1001026 (2011).\r\n18. Funk, S., Salathe´, M. & Jansen, V. Modelling the influence of human behaviour on\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "the spread of infectious diseases: a review. J. R. Soc. Interface 7, 1247–1256 (2010).\r\n19. Manfredi, P. & d’Onofrio, A. Modeling the Interplay Between Human Behavior\r\nand the Spread of Infectious Diseases (Springer, 2013).\r\n20. Braess, D. U¨ ber ein Paradoxon aus der Verkehrsplanung.Unternehmensforschung\r\n12, 258–268 (1968).\r\n21. Roughgarden, T. Selfish Routing and the Price of Anarchy (MIT Press, Cambridge,\r\nMA, 2005).\r\n22. Nicolaides, C., Cueta-Felgueroso, L. & Juanes, R. The price of anarchy in mobility\u0002driven contagion dynamics. J. R. Soc. Inteface 10, 20130495 (2013).\r\n23. Erdo˝s, P. & Re´nyi, A. On random graphs i. Publ Math Debrecen 6, 290–297 (1959).\r\n24. Baraba´si, A. & Albert, R. Emergence of scaling in random networks. Science 286,\r\n509–512 (1999).\r\nTable 1 | The payoffs for different strategies and outcomes\r\nHealthy Infected\r\nLaissez-faire 0 21\r\nSelf-protected 2b 21 2 b\r\nVaccinated 2c N/A\r\nTable 2 | The payoffs for different strategies and states. PV, PS and\r\nPLstand for average payoffs for individuals with strategy vaccina\u0002tion, self-protection and laissez faire, while the superscripts H\r\n(healthy) and I (infected) represent the final states\r\nStrategy & State Fraction Payoff\r\nVaccinated & Healthy rV PV 5 2c\r\nSelf-protective & Healthy rH\r\nS ~rS½ \u0002 dzð Þ 1{d ð Þ 1{v PHS ~{b\r\nSelf-protective & Infected rI\r\nS~rSð Þ 1{d v PIS~{b {1\r\nLaissez-faire & Healthy rH\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "L ~ 1{rV{rS ð Þð Þ 1{v PHL ~0\r\nLaissez-faire & Infected rI\r\nL~ 1{rV{rS ð Þv PIL~{1\r\nwww.nature.com/scientificreports\r\nSCIENTIFIC REPORTS | 3 : 3292 | DOI: 10.1038/srep03292 7\n25. Medlock, J., Luz, P., Struchiner, C. & Galvani, A. The Impact of Transgenic\r\nMosquitoes on Dengue Virulence to Humans and Mosquitoes. Am. Nat. 174,\r\n565–577 (2009).\r\n26. Zhang, H., Small, M., Fu, X., Sun, G. & Wang, B. Modeling the influence of\r\ninformation on the coevolution of contact networks and the dynamics of\r\ninfectious diseases. Physica D 241, 1512–1517 (2012).\r\n27. Zhang, H., Zhang, J., Zhou, C., Small, M. & Wang, B. Hub nodes inhibit the\r\noutbreak of epidemic under voluntary vaccination. New J. Phys. 12, 023015\r\n(2010).\r\n28. Salathe´, M. & Bonhoeffer, S. The effect of opinion clustering on disease outbreaks.\r\nJ. R. Soc. Interface 5, 1505–1508 (2008).\r\n29. Poletti, P., Ajelli, M. & Merler, S. The effect of risk perception on the 2009 H1N1\r\npandemic influenza dynamics. PLoS ONE 6, e16460 (2011).\r\n30. Funk, S., Gilad, E., Watkins, C. & Jansen, V. The spread of awareness and its\r\nimpact on epidemic outbreaks. Proc. Natl Acad. Sci. USA 106, 6872–6877 (2009).\r\n31. Coelho, F. & Codeço, C. Dynamic modeling of vaccinating behavior as a function\r\nof individual beliefs. PLoS. Comput. Biol. 5, e1000425 (2009).\r\n32. Eguı´luz, V. M. & Klemm, K. Epidemic threshold in structured scale-free networks.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Phys. Rev. Lett. 89, 108701 (2002).\r\n33. Zhou, T., Fu, Z. & Wang, B. Epidemic dynamics on complex networks. Prog. Nat.\r\nSci. 16, 452–457 (2006).\r\n34. Zhang, G., Wang, D. & Li, G. Enhancing the transmission efficiency by edge\r\ndeletion in scale-free networks. Phys. Rev. E. 76, 017101 (2007).\r\n35. Youn, H., Gastner, M. T. & Jeong, H. Price of Anarchy in Transportation\r\nNetworks: Efficiency and Optimality Control. Phys. Rev. Lett. 101, 128701 (2008).\r\n36. Baker, L. Removing roads and traffic lights speeds urban travel. Scientific\r\nAmerican pages 20–21, February 2009.\r\n37. Pala, M. G. et al. Transport Inefficiency in Branched-Out Mesoscopic Networks:\r\nAn Analog of the Braess Paradox. Phys. Rev. Lett. 108, 076802 (2012).\r\n38. Fu, F., Rosenbloom, D., Wang, L. & Nowak, M. Imitation dynamics of vaccination\r\nbehaviour on social networks. Proc. R. Soc. B 278, 42–49 (2011).\r\n39. Wu, B., Fu, F. & Wang, L. Imperfect vaccine aggravates the long-standing\r\ndilemma of voluntary vaccination. PLoS ONE 6, e20577 (2011).\r\n40. Anderson, R. & May, R. Infectious diseases of humans: dynamics and control\r\n(Oxford University Press, Oxford, 1992).\r\n41. Hethcote, H. The Mathematics of Infectious Diseases. SIAM Rev. 42, 599–653\r\n(2000).\r\n42. Traulsen, A., Nowak, M. & Pacheco, J. Stochastic dynamics of invasion and\r\nfixation. Phys. Rev. E. 74, 011909 (2006).\r\n43. Perc, M. & Szolnoki, A. Coevolutionary games–a mini review. BioSystems 99,\r\n109–125 (2010).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2154605819582320373,
+        "filename": "srep03292.PMC3836038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 439,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "44. Poletti, P., Caprile, B., Ajelli, M., Pugliese, A. & Merler, S. Spontaneous\r\nbehavioural changes in response to epidemics. J. Theor. Biol. 260, 31–40 (2009).\r\nAcknowledgments\r\nThis work was partially supported by the National Natural Science Foundation of China\r\nunder Grant Nos. 11005001, 11005051, 11222543, 11135001, 11275186, 91024026 and\r\n10975126. H.F.Z. acknowledges the Doctoral Research Foundation of Anhui University\r\nunder Grant No. 02303319. T.Z. acknowledges the Program for New Century Excellent\r\nTalents in University under Grant No. NCET-11-0070.\r\nAuthor contributions\r\nH.F.Z., Z.M.Y., Z.X.W., B.H.W. and T.Z. designed research, H.F.Z.and Z.M.Y. performed\r\nresearch, Z.-X.W. and T.Z. contributed the analytical results. T.Z. wrote the manuscript and\r\nall authors reviewed the manuscript.\r\nAdditional information\r\nSupplementary information accompanies this paper at http://www.nature.com/\r\nscientificreports\r\nCompeting financial interests: The authors declare no competing financial interests.\r\nHow to cite this article: Zhang, H.-F., Yang, Z., Wu, Z.-X., Wang, B.-H. & Zhou, T. Braess’s\r\nParadox in Epidemic Game: Better Condition Results in Less Payoff. Sci. Rep. 3, 3292;\r\nDOI:10.1038/srep03292 (2013).\r\nThis work is licensed under a Creative Commons Attribution\u0002NonCommercial-NoDerivs 3.0 Unported license. To view a copy of this license,\r\nvisit http://creativecommons.org/licenses/by-nc-nd/3.0\r\nwww.nature.com/scientificreports\r\nSCIENTIFIC REPORTS | 3 : 3292 | DOI: 10.1038/srep03292 8\n\n"
+  }
+]

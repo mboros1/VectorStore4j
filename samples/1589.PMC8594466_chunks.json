@@ -1,0 +1,914 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 457,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "RNA sequence and structure control assembly\r\nand function of RNA condensates\r\nRAGHAV R. POUDYAL,1,2,5 JACOB P. SIEG,1,2 BEDE PORTZ,3 CHRISTINE D. KEATING,1\r\nand PHILIP C. BEVILACQUA1,2,4\r\n1\r\nDepartment of Chemistry, Pennsylvania State University, University Park, Pennsylvania 16802, USA\r\n2\r\nCenter for RNA Molecular Biology, Pennsylvania State University, University Park, Pennsylvania 16802, USA\r\n3\r\nDepartment of Biochemistry and Biophysics, Perelman School of Medicine at the University of Pennsylvania, Philadelphia,\r\nPennsylvania 19104, USA\r\n4\r\nDepartment of Biochemistry, Microbiology, and Molecular Biology, Pennsylvania State University, University Park, Pennsylvania 16802, USA\r\nABSTRACT\r\nIntracellular condensates formed through liquid–liquid phase separation (LLPS) primarily contain proteins and RNA. Recent\r\nevidence points to major contributions of RNA self-assembly in the formation of intracellular condensates. As the majority\r\nof previous studies on LLPS have focused on protein biochemistry, effects of biological RNAs on LLPS remain largely un\u0002explored. In this study, we investigate the effects of crowding, metal ions, and RNA structure on formation of RNA con\u0002densates lacking proteins. Using bacterial riboswitches as a model system, we first demonstrate that LLPS of RNA is\r\npromoted by molecular crowding, as evidenced by formation of RNA droplets in the presence of polyethylene glycol\r\n(PEG 8K). Crowders are not essential for LLPS, however. Elevated Mg2+ concentrations promote LLPS of specific ribo\u0002switches without PEG. Calculations identify key RNA structural and sequence elements that potentiate the formation of\r\nPEG-free condensates; these calculations are corroborated by key wet-bench experiments. Based on this, we implement\r\nstructure-guided design to generate condensates with novel functions including ligand binding. Finally, we show that RNA\r\ncondensates help protect their RNA components from degradation by nucleases, suggesting potential biological roles for\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "such higher-order RNA assemblies in controlling gene expression through RNA stability. By utilizing both natural and ar\u0002tificial RNAs, our study provides mechanistic insight into the contributions of intrinsic RNA properties and extrinsic envi\u0002ronmental conditions to the formation and regulation of condensates comprised of RNAs.\r\nKeywords: condensate; RNA structure; riboswitch\r\nINTRODUCTION\r\nSubcellular organization of biomolecules such as RNAs\r\nand proteins is key to the regulation of cellular biology.\r\nRecent evidence points to important roles for mem\u0002brane-less organelles or intracellular condensates (ICs)\r\nsuch as stress granules (SGs), P-granules, and Cajal bodies,\r\namong others, in the spatial organization of biomolecules\r\n(Gomes and Shorter 2019). Studies suggest that these ICs\r\nform through liquid–liquid phase separation (LLPS) of bio\u0002polymers (Brangwynne et al. 2009; Alberti 2017).\r\nAssociative interactions such as H-bonding, charge-charge\r\ncontacts, cation-pi interactions, and hydrophobic interac\u0002tions play important roles for the formation of ICs that con\u0002tain RNA and proteins (Gomes and Shorter 2019).\r\nFurthermore, RNA-containing complex coacervates, which\r\nalso form by LLPS and lack lipid bilayer membranes, have\r\nalso been implicated in origins of life as bioreactors, where\r\nencapsulated nucleotides, magnesium, and RNA mole\u0002cules increase in local concentration (Koga et al. 2011;\r\nPoudyal et al. 2018). Our group previously demonstrated\r\nthat increase in concentration of biomolecules within con\u0002densates can activate RNA enzymes (Poudyal et al. 2019a).\r\nAs the structure of RNA can dictate which parts of the mol\u0002ecule are available for associative interactions, RNA struc\u0002ture likely plays important roles for its encapsulation within\r\nthe condensates. Despite concrete evidence of RNA en\u0002capsulation and enrichment in diverse artificial and biolog\u0002ical condensates (Aumiller et al. 2016; Frankel et al. 2016;\r\n5\r\nPresent address: Pfizer Inc., Cambridge, MA, 02139\r\nCorresponding authors: pcb5@psu.edu,\r\nkeating@chem.psu.edu, raghavp4@gmail.com\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Article is online at http://www.rnajournal.org/cgi/doi/10.1261/rna.\r\n078875.121.\r\n© 2021 Poudyal et al. This article is distributed exclusively by the RNA\r\nSociety for the first 12 months after the full-issue publication date (see\r\nhttp://rnajournal.cshlp.org/site/misc/terms.xhtml). After 12 months, it is\r\navailable under a Creative Commons License (Attribution-NonCom\u0002mercial 4.0 International), as described at http://creativecommons.\r\norg/licenses/by-nc/4.0/.\r\nRNA (2021) 27:1589–1601; Published by Cold Spring Harbor Laboratory Press for the RNA Society 1589\nDrobot et al. 2018; Boeynaems et al. 2019; Poudyal et al.\r\n2019a), little is known about how intrinsic properties of\r\nRNAs such as structure and sequence affect their encapsu\u0002lation within condensates formed by associative LLPS.\r\nSeveral key observations point to essential roles for\r\nbase-pairing in the assembly of intracellular condensates;\r\nhowever, the structural context for such base-pairing inter\u0002actions has not been clearly established. In vitro, base\u0002paired DNA has been reported to be less potent at form\u0002ing condensates with polylysine compared to single\r\nstranded DNA (Shakya and King 2018). Furthermore, in\r\nthe case of droplets composed entirely of DNA, repro\u0002gramming of complementarity was shown to enable\r\nassociation of unique droplets (Jeon et al. 2020). RNAs\r\ncontaining CAG and CUG trinucleotide repeats, which\r\nare associated with neurodegenerative phenotypes\r\n(Nalavade et al. 2013), can self-assemble into droplets\r\nboth in vitro and in vivo (Jain and Vale 2017). The mode\r\nof condensate assembly by such RNAs is likely due to\r\nthe high propensity for GC base-pairing, which can form\r\nextended networks of RNAs. More recently, RNAs with\r\nknown structure such as G-quadruplexes have also been\r\nshown to form condensates in the presence of crowding\r\nagent in vitro (Zhang et al. 2019). In this case, condensate\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "assembly is likely driven by the formation of trans G-quad\u0002ruplex, which can bring together multiple strands of RNA.\r\nFurthermore, RNA has been shown to stimulate formation\r\nof condensates with MEG-3 and PGL-3 P-granule proteins\r\nboth in vitro and in vivo (Smith et al. 2016; Putnam et al.\r\n2019). Interestingly, highly structured ribosomal RNA\r\ndoes not stimulate formation of PGL-3 condensates until\r\nthe RNA is heat denatured, supporting the importance of\r\nexchanging intramolecular base-pairing interactions with\r\nintermolecular ones in condensate assembly (Saha et al.\r\n2016). Total RNAs from yeast have also been shown to\r\nform condensates in the presence of crowding agents or\r\npolyamines (Van Treeck et al. 2018). Furthermore, changes\r\nin salt conditions have been reported to dramatically im\u0002pact the constituents of RNP condensates, with high con\u0002centrations of salt favoring RNA-rich condensates by\r\ndepleting proteins (Onuchic et al. 2019). Precipitation of\r\nDNA molecules in a length-dependent manner has also\r\nbeen observed in the presence of polyethylene glycol\r\n(PEG) and Mg2+ or NaCl (Paithankar and Prasad 1991).\r\nFurthermore, long mRNAs generated from rolling circle\r\ntranscription have been shown to form RNA nanoparticles\r\nthrough multimerization (Kim et al. 2015). Recently, it has\r\nbeen shown that addition of dimerization elements to\r\nRNA can significantly alter material properties of the RNP\r\ncondensates, suggesting important roles for RNA–RNA in\u0002teractions in such condensates (Ma et al. 2021). These\r\nstudies point to important contributions of both intrinsic\r\n(e.g., structure and sequence of RNA) and extrinsic factors\r\n(e.g., crowding, metal cations, and polyions) in facilitating\r\nLLPS of RNAs.\r\nIn this study, we sought to understand the contribution\r\nof RNA structure toward formation of condensates through\r\nLLPS. To that end, we used riboswitches as model RNAs to\r\nbuild several artificial condensates, which allowed us to\r\nisolate specific structural features in RNAs that potentiate\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "condensate formation. We first demonstrate that in molec\u0002ularly crowded conditions from PEG, RNA condensation is\r\nnon-specific, while in the absence of crowding agents,\r\nRNA condensation is sequence- and structure-specific.\r\nWe further show that RNAs that have a high-propensity\r\nto form oligomers (dimers up to hexamers) are prone to\r\nLLPS. Our study suggests that self-complementary (palin\u0002dromes) and non-self-complementary sequences in the\r\nunpaired regions of the structure play key roles in RNA\r\nmultimerization and affect condensate formation. To test\r\nthese principles, we apply RNA structural engineering\r\nand generate condensates with novel properties, also in\u0002troducing functional domains within the network of RNA\r\ninteractions involved in the assembly of condensates.\r\nFinally, we show that RNA-based condensates help pro\u0002tect RNA from degradation by a ribonuclease, suggesting\r\npotential roles for LLPS in RNA stabilization.\r\nRESULTS\r\nMolecular crowding induces condensation\r\nof bacterial riboswitches\r\nSeveral studies on RNA condensation provided initial in\u0002sights on role of RNA sequence on assembly of conden\u0002sates. For example, homopolymeric RNAs have been\r\nshown to undergo liquid–liquid phase separation in the\r\npresence of molecular crowders or sufficient divalent\r\nions (Van Treeck et al. 2018; Boeynaems et al. 2019;\r\nOnuchic et al. 2019). While an important step forward,\r\nsuch homopolymers of RNAs have little structure, and so\r\ncontributions of RNA secondary and tertiary structures to\u0002ward assembly of condensates cannot be deduced. At the\r\nother extreme, total RNAs from yeast have been shown to\r\nform condensates under specific conditions; while biolog\u0002ically relevant, the heterogeneity in RNA identity prevents\r\ndelineating effects of individual RNA base pairs or specific\r\nstructural domains toward the mechanism of assembly of\r\ncondensates (Van Treeck et al. 2018). To address this\r\ngap, we chose bacterial riboswitches as structured but\r\ntractable model RNAs to understand how external environ\u0002ment and RNA sequence and structural features facilitate\r\nformation of condensates.\r\nWe first sought to understand whether some bacterial\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "riboswitches could form RNA condensates in a structure\u0002dependent manner. We chose the guanine (Gua)\r\n(Mandal et al. 2003), guanidine (Gdn) (Nelson et al.\r\n2017), and ykkc_2C riboswitches (Sherlock et al. 2019),\r\nas they are similar in size (148–169 nt) and GC content,\r\nwhile forming structures of similar stability, with predicted\r\nPoudyal et al.\r\n1590 RNA (2021) Vol. 27, No. 12\nfree energies of −47.8, −56.9, and −47.5 kcal/mol, respec\u0002tively (Fig. 1A; Supplemental Fig. S1; Supplemental Table\r\n1). Upon renaturation in the presence of 2.5 to 10% (w/w)\r\nof the crowding agent polyethylene glycol (8000 Da), all\r\nthree riboswitches formed droplets in H10N15M10 buffer\r\n(Fig.1B, see Materials and Methods). These observations\r\nindicate that non-specific RNA condensation of these\r\nriboswitch RNAs may be promoted by high concentration\r\nof PEG 8K. At low concentrations of PEG 8K, the Gdn\r\nriboswitch formed well-defined condensates most readily,\r\neven with only 2.5% PEG 8K (Fig. 1B, image 6). This obser\u0002vation suggests that either the sequence or structure of the\r\nRNA may determine its propensity to form condensates in\r\nlow amounts or even the absence (see below) of crowding\r\nagents. It is especially important to investigate no-PEG\r\nconditions since PEG is a dehydrating agent and its rele\u0002vance to biology is uncertain (Buscaglia et al. 2013;\r\nTyrrell et al. 2015).\r\nTo further understand the composition of the conden\u0002sates, we used CF-647 fluorescent dye-tagged Gdn RNA\r\nand FITC-tagged PEG in the condensation experiments.\r\nThe resultant droplets were highly enriched in RNA, while\r\nPEG was excluded (Fig. 1C, compare panels 2 and 3).\r\nThese observations confirmed that RNA itself is the main\r\nmacromolecular component of the condensate.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Mg2+ promotes condensation of specific RNAs in the\r\nabsence of PEG\r\nIn an effort to understand how RNA structure, sequence,\r\nand environmental factors affect condensation, we elimi\u0002nated crowding agents in our experiments. Here, we\r\nwere specifically interested in the roles of Mg2+ in conden\u0002sate formation, which could be associated with RNA–RNA\r\ninteractions or specific structures. It has been shown that\r\nelevated Mg2+ levels can induce phase separation of ho\u0002mopolymeric RNAs in vitro (Onuchic et al. 2019). To test\r\nwhether elevated Mg2+ levels can drive RNA condensation\r\nin the absence of macromolecular crowding, we focused\r\non the Gua and Gdn RNAs as they showed apparent differ\u0002ences in condensation propensity at low PEG concentra\u0002tions (Fig. 1B, compare panels 2/3 with 6/7). We titrated\r\nMg2+ in our condensation experiments with CF-647-la\u0002beled Gdn and CF488-labeled Gua riboswitch RNAs.\r\nEven in the absence of a crowding agent, the Gdn ribo\u0002switch formed droplets at concentrations as low as 5 mM\r\nMg2+ (Fig. 2A). Both the amount of RNA inside droplets\r\nand size of the condensates increased with increasing con\u0002centration of Mg2+ (Fig. 2A). Specifically, when the largest\r\nvisible condensates were compared between 30 and 100\r\nmM Mg2+, both the average fluorescence intensity and\r\nsize of the condensates increased approximately 1.3- to\r\n1.5-fold (Supplemental Fig. S2A).\r\nTo investigate the potential role for Mg2+ and RNA stoi\u0002chiometry further, we compared condensation experiments\r\nat 2.5 and 10 µM Gdn RNA in 10 and 100 mM Mg2+. At 10\r\nmM Mg2+ we observed condensates for only 2.5 µM RNA;\r\nhowever, at 100 mM Mg2+, both 2.5 µM and 10 µM RNA\r\nsamples formed condensates (Supplemental Fig. S2B).\r\nThese results are consistent with Mg2+ shielding charges\r\nof anionic backbone of RNA allowing extensive RNA–RNA\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "interactions, and that more Mg2+ is required to allow such\r\nRNA–RNA interactions at high concen\u0002trations of RNA. Interestingly, when we\r\nperformed similarMg2+ titration exper\u0002iments with 2.5 µM Gua riboswitch, no\r\ndroplets were observed until 100 mM\r\nMg2+ (Fig. 2B). These data indicate\r\nthat sequence and structure of the\r\nriboswitch RNAs are critical for the for\u0002mation of condensates at elevated\r\nMg2+ in the absence of crowding\r\nagents. Furthermore, these observa\u0002tions are consistent with previous re\u0002ports on short oligonucleotides where\r\nincrease in cation concentration was\r\nfound to shift the equilibria from hair\u0002pin to dimers (Nakano et al. 2007).\r\nTo further understand the biophysi\u0002cal and biochemical properties of\r\nthese condensates, we tested whether\r\nNa+ ions could substitute for Mg2+\r\nions. In the absence of Mg2+, no con\u0002densates were visible for the Gdn\r\nriboswitch at 0.5 or even 1 M NaCl, de\u0002spite the ionic strength being greater\r\nA B\r\nC\r\nFIGURE 1. Macromolecular crowding induces condensate formation of bacterial ribo\u0002switches. (A) Secondary structure models of guanine (Gua), guanidine (Gdn), and ykkc_2c\r\nriboswitches based on NUPACK (Zadeh et al. 2011). See Supplemental Figure S1 for sequenc\u0002es. The 3′ ends of the RNAs are indicated with green arrows. (B) DIC microscope images of\r\nriboswitch RNA condensates in the presence of polyethylene glycol 8K (PEG8K). 10 µM\r\nRNA was renatured in the presence of H10N15M10 buffer (see Materials and Methods), and\r\nvarying amounts of polyethylene glycol (8K) for the indicated riboswitches. Renaturation was\r\ncarried out by heating the mixture at 90°C for 3 min, 65°C for 1 min, and holding at 37°C until\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "mounted on a glass slide with DIC visualization. (C) Condensates contain RNA and are deplet\u0002ed in PEG. Conditions as per image 8, except CF647-labeled guanidine riboswitch (8% la\u0002beled) and FITC-labeled PEG-8K (0.5% labeled) were used in all three images. See\r\nMaterials and Methods for excitation and emission parameters.\r\nRNA sequence and structure control RNA condensates\r\nwww.rnajournal.org 1591\nthan at 50 mM MgCl2 (Supplemental Fig. S3A), indicating\r\nthat divalent cations are needed to drive RNA condensa\u0002tion. We then investigated the dynamics of the RNA within\r\ndroplets by Fluorescence Recovery After Photobleaching\r\n(FRAP) at 50 mM Mg2+ (Supplemental Fig. S3B).\r\nFluorescence did not recover in the bleached region even\r\nafter 4 min, indicating that Gdn RNAs inside the droplets\r\nat 50 mM Mg2+ are largely immobile. This observation is\r\nconsistent with previously published reports on phase tran\u0002sition of RNAs containing triplet repeats (Jain and Vale\r\n2017) and may be the result of strong base-pairing between\r\nRNAs, although Mg2+-phosphate interactions could also\r\ncontribute to the lack of diffusion. Finally, Mg•ATP has\r\nbeen shown to completely dissolve proteinaceous conden\u0002sates even at concentrations as low as 4–8 mM (Patel et al.\r\n2017). We thus, formed Gdn RNA condensates in the pres\u0002ence of various concentrations of Mg•ATP. However, no\r\nsignificant effect of Mg•ATP on RNA droplets was observed\r\neven up to 10 mM Mg•ATP (Supplemental Fig. S3C).\r\nTogether, these observations suggest that biochemical\r\nand biophysical properties of condensates formed by ribo\u0002switches are distinct from many liquid-like condensates,\r\nwhich are formed by weak multivalent interactions and\r\ntypically show high diffusion of biomolecules and sensitivity\r\ntoward hydrotropes and salt (Aumiller et al. 2016; Patel et al.\r\n2017; Onuchic et al. 2019).\r\nTo further understand the contribution of RNA structure\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "toward formation of condensates, we predicted the pro\u0002pensity of multimerization for all three riboswitches using\r\nthe Nucleic Acid Package (NUPACK) (Zadeh et al. 2011).\r\nThe Gua riboswitch, which did not form RNA droplets\r\nreadily in the absence of crowding agents (Fig. 2), was pre\u0002dicted to form primarily dimers and not higher order multi\u0002mers (Fig. 3A, col 1). Strikingly, the Gdn riboswitch, which\r\ndemonstrated a high propensity to form RNA condensates\r\n(Figs. 1, 2), also had a high predicted propensity for multi\u0002merization (Fig. 3A, col 2), consistent with this behavior.\r\nThese in silico predictions suggest that RNAs predisposed\r\nto multimerization may be prone to forming condensates\r\nand that intermolecular RNA–RNA interactions are drivers\r\nof condensate formation.\r\nLoop-mediated intermolecular RNA interactions\r\ndrive RNA condensation\r\nTo further examine the relationship between multimeriza\u0002tion and RNA phase transition, we focused on the Gdn\r\nriboswitch, which forms condensates most readily. For\r\nthis RNA, the structure of the monomer consists of three he\u0002lical domains, two of which have internal bulges and un\u0002paired tetraloop regions (L1 and L2), while the remaining\r\nhelix forms an uninterrupted very stable stem–loop struc\u0002ture (SL) (Fig. 3B, left). Upon multimerization, structural fea\u0002tures that normally form intramolecularly are predicted to\r\nform intermolecularly, as is typical in most RNAs (Proctor\r\net al. 2003). Interestingly, the L1 and L2 loop sequences\r\nare palindromic and so are predicted to become part of\r\nthe dimerization helices as the dimerization motifs\r\nDM(L1/L1) and DM(L2/L2) (Fig. 3B, right). Notably, the he\u0002lices containing L1 and L2 are considerably less stable than\r\nthe SL region, approximately two- to fourfold in terms of\r\nfree energy change per nt (Supplemental Fig. S4A). This\r\nsuggests that during renaturation the SL domain is likely\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "to remain folded or to rapidly reform localized cis base\u0002pairs, while the L1 and L2 regions are likely to re-pair during\r\nthis step. To test this model, we generated two variants of\r\nthe Gdn riboswitch, wherein the L1 and L2 sequences\r\nwere changed to UGGU (M1) and ACCA (M2) (Fig. 3C,\r\nleft). (See also Supplemental Text for effects of mutants\r\non structure itself and Supplemental Fig. S5.) In silico,\r\nboth M1 and M2 mutant RNAs are predicted to not multi\u0002merize when they are present by themselves (Fig. 3C,\r\ngrid, cols 2 and 3), but to form higher-order multimers\r\nwhen both the mutant RNAs are present, similar to WT\r\n(Fig. 3C, grid, compare cols 1 and 4). Although NUPACK\r\nwill predict up to 10 monomers, we chose 6 for ease of in\u0002spection and clarity, as no new modes of interaction were\r\nobserved for the WT Gdn riboswitch when 10 monomer\r\ncomplexes were tested (Supplemental Fig. S4B).\r\nNext, we tested these predictions experimentally. When\r\nM1 (CF-647 labeled) and M2 (CF-488 labeled) were present\r\nby themselves, no condensates were visible until 20 mM\r\nMg2+ (Fig. 3D, panels 3 and 21), and even here RNA droplets\r\nwere sparse compared to the WT guanidine riboswitch\r\nB\r\nA\r\nFIGURE 2. RNA phase transition is dependent on RNA identity and\r\nmagnesium concentration. (A) 2.5 µM Guanidine riboswitch (CF\u0002647-labeled, ∼13% labeled RNA) was renatured in the presence of\r\n10 mM HEPES (pH 7.0) and the indicated amounts of Mg2+.\r\nContrast of the images was increased to aid in visualization at lower\r\nMg2+ levels. (B) Same as A but with Guanine riboswitch (CF-488-la\u0002beled, ∼10% labeled RNA). Note that the CF-647 label is essential\r\nto visualization: When 10 µM Gdn RNA was used (Fig. 1B) as opposed\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "to 2.5 µM (A), no condensates were visible in the absence of PEG 8K at\r\nthe 10 mM Mg2+ with DIC visualization (Fig. 1B, panel 5).\r\nPoudyal et al.\r\n1592 RNA (2021) Vol. 27, No. 12\n(compare to Fig. 2A). These data suggest that mutations of\r\nthe palindromic sequences indeed have a deleterious effect\r\non RNA condensation. Strikingly, when the mutants were\r\nmixed together, the droplets are visible even at 10 mM\r\nMg2+ and become larger with increas\u0002ing Mg2+ (Fig. 3D, rows 5 and 6), similar\r\nto WT guanidine riboswitch (Fig. 2A).\r\nCombined, these results suggest that\r\nloop–loop interactions play key roles\r\nin driving RNA multimerization and\r\ncondensation. Our data thus indicate\r\nthat RNA sequence and structures can\r\nbe rationally designed to tune and con\u0002trol the propensity of RNAs to form\r\ncondensates.\r\nTo understand whether modulation\r\nof RNA condensation by RNA structure\r\ncan be generalized, we turned our at\u0002tention from the Gdn riboswitch to\r\nthe Gua riboswitch (Fig. 4), which\r\ndoes not readily form condensates,\r\neven at 100 mM Mg2+ (Fig. 2B). In silico\r\npredictions suggested that SL1 and\r\nSL2 domains of monomeric Gua ribo\u0002switch (Fig. 4A) form helical structures\r\nin trans DM(SL1/SL1) and DM(SL2/\r\nSL2), which contain bulges (Fig. 4B).\r\nWe reasoned that mutating nucleo\u0002tides to strengthen the DM interactions\r\nmight promote RNA multimerization.\r\nWe began by considering strengthen\u0002ing of base-pairing in SL2. Specifically,\r\nwe looked at the two G•U wobbles at\r\nthe base of SL2 involving U100 and\r\nU101. Strengthening the SL2 dimeriza\u0002tion stem from two G•U wobbles to two\r\nGC base pairs in U101C and U100C:\r\nU101C as “M1” and “M2” in Figure\r\n4A were predicted by NUPACK to not\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "have any significant impact on RNA\r\nmultimerization (Fig. 4C, compare WT\r\nto M1 and M2). These mutations\r\nstrengthen base-pairing equally in the\r\nmonomeric and dimeric states, reveal\u0002ing that a design principle for driving\r\nLLPS is to strengthen selectively in the\r\nmultimeric state.\r\nBecause SL2 mutants were not\r\npredicted to affect multimerization,\r\nwe turned our attention to SL1.\r\nSpecifically, we considered a A24C:\r\nU25C double mutant, which was pre\u0002dicted to replace a single G•U wobble\r\nin the multimer structure with two GC\r\nbase pairs (Fig. 4B, inset) and to in\u0002crease the propensity of the guanine riboswitch to multimer\u0002ize (Fig. 4C, DM). The reason is that these mutations\r\npreferentially strengthen the dimer/multimeric state, much\r\nlike M1 + M2 in the guanidine riboswitch (Fig. 3C,D). To\r\nA B\r\nC\r\nD\r\nFIGURE 3. Loop–loop interactions mediate assembly of RNA condensates. (A) Propensity for\r\nRNA multimerization as predicted by NUPACK for guanine (Gua), guanidine (Gdn), and ykkc_2c\r\nnucleotide binding riboswitch (ykkc_2c). (B) NUPACK predicted architecture for multimerization\r\n(n= 6 here) of guanidine riboswitch. Self-complementary loops L1 and L2 form trans-strand dime\u0002rization motif (DM). Stem–loop structure (SL) is retained as a cis-strand structure within the multi\u0002mers. Each copy of the transcript is a separate color and labels are color matched. (C) Propensity\r\nfor RNA multimerization of the guanidine riboswitch as predicted by NUPACK for WT, M1, M2,\r\nand M1 + M2 mutants. M1 was CF647 labeled and M2 was CF488 labeled. (D) Guanidine ribo\u0002switch mutant RNAs were renatured with indicated amounts of Mg2+ (in the absence of PEG).\r\nSamples contained 2.5 µM total RNA, with ∼8% labeled with indicated dyes. For experiments\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "containing both M1 and M2, half amounts of individual RNAs were premixed while keeping\r\nthe total RNA concentrations identical to experiments containing single RNA only.\r\nRNA sequence and structure control RNA condensates\r\nwww.rnajournal.org 1593\ntest these in silico predictions, we compared the experimen\u0002tal condensation data of the A24C:U25C double mutant\r\n(Gua DM) to the WT (Fig. 4D). While no condensates were\r\nobserved for the WT Gua riboswitch until 150 mM Mg2+\r\n(Fig. 4D, top row), robust condensates formed in the\r\nA24C:U25C double mutant even at 20 mM Mg2+ (Fig. 4D,\r\nbottom row). This is similar to the Mg2+ response of the\r\nWT and M1+M2 Gdn riboswitches (Figs. 2, 3), although in\r\nthe case of the Gua riboswitch, the DM mutant turned on\r\ncondensation, while in the case of the Gdn riboswitch it\r\nonly restored it. Overall, these data indicate that structure\u0002guided modulation of trans-RNA–RNA interactions can be\r\nused to control the condensation behavior of RNAs.\r\nRNA structure probing\r\ncorroborates in silico predictions\r\nTo test our multimerization model, we\r\nperformed in-line probing (ILP) ex\u0002periments on the 5′\r\n-labeled Gua DM\r\nriboswitch inside of condensates\r\n(Supplemental Fig. S6). We chose\r\nthis RNA because in silico calculations\r\npredict a 15 nt base pair upon multi\u0002merization (Fig. 4A), which is double\r\nthe number for the Gdn riboswitch.\r\nThe ILP approach provides nucleo\u0002tide-level resolution of RNA structure,\r\nwith base-catalyzed hydrolysis of the\r\nRNA backbone occurring preferential\u0002ly in flexible, single-stranded regions\r\nof the RNA (Regulski and Breaker\r\n2008; Cakmak et al. 2020; Poudyal\r\net al. 2021). Because the multimeriza\u0002tion model predicts the single-strand\u0002ed loops of SL1 and SL2 in the\r\nmonomer conformation (Fig. 4A) to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "be base-paired in the multimer confor\u0002mation (Fig. 4B), nucleotides in this\r\nloop region were monitored by in\u0002line probing upon droplet formation.\r\nWe found that overall the Gua DM\r\nRNA exhibited similar ILP patterns in\r\nthe presence and absence of conden\u0002sates (Supplemental Fig. S6, compare\r\n“−Condensate” and “+Condensate”\r\nlanes), supporting a model in which\r\nthe Gua DM RNA adopts a similar\r\ncore secondary structure inside and\r\noutside of condensates. Moreover,\r\nthe ILP reactivity data were consistent\r\nwith the NUPACK-predicted second\u0002ary structures for −Condensate and\r\n+Condensate RNA populations\r\n(Supplemental Fig. S7, red maps to\r\nsingle-stranded regions).\r\nEvidence to support multimerization came from the SL1/\r\nSL1 and SL2/SL2 regions. The SL1/SL1 region showed a\r\nstriking change in ILP patterns (Fig. 4B; Supplemental\r\nFig. 6, gray). Upon multimerization, G23 has drastically re\u0002duced ILP reactivity while G22 has slightly enhanced reac\u0002tivity (Supplemental Fig. S6). This supports a very slight\r\nchange of a migrating bulge, with G23 pairing and G22\r\nunpairing upon multimerization as shown in Supplemental\r\nFigure S7C.\r\nOur ILP data also captured predicted SL2/SL2 interac\u0002tions. For example, in silico models predicted nucleotides\r\nC87 to G92 to be base-paired exclusively in the multimeric\r\nstate (Supplemental Figs. S6, S7). Indeed, we see\r\nA B\r\nC\r\nD\r\nFIGURE 4. Stabilization of RNA–RNA interactions favors LLPS of the Guanine riboswitch. (A)\r\nPredicted secondary structure of the Guanine riboswitch monomer. Regions containing un\u0002paired nucleotides that become part of base-paired structures post-multimerization are indi\u0002cated as SL1 and SL2 and encompassed with ovals. Colored arrows refer to positions of\r\nmutants below. (B) NUPACK model for multimerization of the Guanine riboswitch (n = 4\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "here). Self-complementary SL1 and SL2 form extended dimer helices (DM) in trans. The SL1\r\nregion was stabilized by the A24C:U25C double mutant designed to stabilize DM (SL1/SL1)\r\nregion (shown in dotted region). Each copy of the transcript is a separate color and labels\r\nare color-matched. (C) The SL2 region was stabilized by the M1 and M2 changes (SL2/SL2).\r\nSee panel A for color-matching arrows. (D). Microscopy images comparing formation of con\u0002densates by the WT (10% labeled RNA) and A24C:U25C double mutant guanine (15% labeled\r\nRNA) riboswitch. Samples contained 2.5 µM RNA in 10 mM HEPES and 15 mM NaCl (pH 7.0)\r\nwith indicated concentrations of Mg2+. Lines directly compare the 50 mM Mg2+ concentrations\r\nfor WT and DM, as well as the 100 mM Mg2+ concentrations.\r\nPoudyal et al.\r\n1594 RNA (2021) Vol. 27, No. 12\nexperimentally that ILP signals from this set of nucleotides\r\nare lower in the condensate fraction (Supplemental Fig.\r\nS6). Overall, the ILP data directly support the importance\r\nof loop–loop interactions in driving RNA condensation\r\nand indicate that NUPACK calculations are largely predic\u0002tive of phase separation.\r\nEngineering of new RNA-mediated condensate\r\nfunctions\r\nWe next sought to explore whether novel properties could\r\nbe engineered into RNA condensates, as guided by in sil\u0002ico structural predictions. The Gdn riboswitch was used as\r\nthe model system. In this RNA, the SL domain of the mono\u0002mer was the only structural element predicted to retain cis\u0002interactions during multimerization (Fig. 3B). We thus\r\ninvestigated whether this domain can be swapped with\r\nother functional RNA modules (Fig. 5A). A hybrid RNA\r\ntermed “GdnBroc” was designed, wherein we embedded\r\nthe fluorescence-activating broccoli aptamer at SL domain\r\n(Fig. 5A, middle) (Filonov et al. 2014). This design allows\r\nnative RNA folding to be readily determined owing to the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "fluorescence of the DFHBI ligand in the presence of its broc\u0002coli aptamer. On the basis of NUPACK, the resulting RNA\r\nwas predicted to multimerize and to adopt the same frame\u0002work of RNA–RNA interactions as the wild-type Gdn ribo\u0002switch (compare Fig. 5A, right to Fig. 3B, right).\r\nTo test whether the engrafted aptamer remains func\u0002tional, we performed cotranscriptional fluorescence mea\u0002surements for GdnBroc. The fluorescence from DFHBI\r\nincreased with time of transcription (Fig. 5B, dark green),\r\nsuggesting that the GdnBroc RNA contains a natively fold\u0002ed broccoli aptamer unit. Fluorescence was enhanced by\r\nKCl, as predicted for this G-quadruplex containing aptamer\r\n(Shelke et al. 2018), and missing in WT controls without\r\nbroccoli (Fig. 5B). To understand whether GdnBroc could\r\nform condensates and remain functional while in droplets,\r\nwe labeled the GdnBroc RNA on the 3′\r\n-end with CF 647\r\ndye, which we then used to form RNA condensates. The\r\n3′\r\n-end labeling with CF647 dye enabled simultaneous\r\ntracking of the total RNA (Ex. 633 nm, Em. 650 nm) (Fig.\r\n5C, top row) and the functional broccoli (Ex. 488, Em 510)\r\n100\r\n120\r\n140\r\n20\r\n40\r\n60\r\n80\r\n120\r\n40\r\n20\r\nBroc1\r\nBroc2\r\nBroc3\r\nBroc4\r\nBroc5\r\nBroc6\r\n20\r\nSL Broc\r\nBroc\r\nInsertion\r\nMultimerization\r\nA\r\nB\r\nDFHBI only\r\nCF-647 RNA\r\nBroccoli\r\nGdnWT\r\n+DFHBI\r\nGdnBroc\r\n+DFHBI\r\nGdnBroc\r\n+DFHBI/-KCl\r\nC\r\n10 μm\r\nFluorescence intensity\r\n(520 ± 15 nm )1\r\n5\r\n0 50 100 150 0\r\n106\r\nTime in minutes\r\nGdn WT\r\nGdn Broc\r\nGdn WT (No KCl)\r\nGdn Broc (No KCl)\r\n105\r\nλem(nm)\r\n650-700\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "λem(nm)\r\n500-550 \r\n1 23 4\r\n5 67 8\r\nGdnWT GdnBroc\r\n160\r\n180 160\r\nFIGURE 5. Structure-guided engineering toward condensates with novel functions. (A, left) Structure of the guanidine riboswitch monomer and\r\n(middle) with broccoli aptamer insert (green). (Right) Predicted multimerization architecture for the broccoli insert-containing guanidine ribo\u0002switch shown out to a hexamer. Each copy of the transcript is a separate color. (B) Fluorescence intensity at 520 ± 15 nm of in vitro transcription\r\nreactions in the presence of 10 µM DFHBI dye and 10 mM KCl for both WT (gold) and the broccoli insert-containing (green) guanidine riboswitch.\r\nNote that graphs for Gdn WT (±KCl) are indistinguishable. (C) Microscopy images showing fluorescence from either CF-647 labeled RNA (∼15%\r\nlabeled RNA) (top row) or from the broccoli aptamer (bottom row). All experiments contained 10 mM KCl to promote Broccoli fluorescence except\r\npanels 4 and 8.\r\nRNA sequence and structure control RNA condensates\r\nwww.rnajournal.org 1595\n(Fig. 5C, bottom row). As with the Gdn\r\nriboswitch (Fig. 5C, panel 2), GdnBroc\r\nformed condensates (Fig. 5C, panel\r\n3). Strikingly, when DFHBI was added\r\nto the GdnBroc condensates, fluores\u0002cence was observed in the green chan\u0002nel (Fig. 5C, panel 7), indicating that\r\nthe broccoli aptamer remains func\u0002tional and is natively folded within the\r\ncondensates. Importantly, when the\r\nGdn riboswitch without engineered\r\nbroccoli but with DFHBI was tested,\r\nno fluorescence was observed in the\r\ngreen channel (Fig. 5C, panel 6) even\r\nthough RNA was present (panel 2),\r\nsuggesting that fluorescence from\r\nbroccoli is not due to non-specific in\u0002teractions between the DFHBI dye\r\nand RNA in the condensates.\r\nAdditionally, the broccoli fluorescence\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "was sensitive to K+ (Fig. 5C, panels 4\r\nand 8), strongly supporting that the ob\u0002served fluorescence is indeed from the\r\nengrafted broccoli aptamer. Overall,\r\nthese data indicate that structure-guid\u0002ed engineering of RNA domains can be used to introduce\r\nnovel functions within condensates, while also showing\r\nthat some portions of an RNA can remain natively folded\r\neven when other parts dimerize within condensates.\r\nSpecificity of RNA interactions in condensates\r\nIntracellular condensates such as stress granules and\r\nP-granules have been shown to contain a wide variety of\r\nRNAs (Khong et al. 2017; Lee et al. 2020). We sought to un\u0002derstand whether different RNAs interact non-specifically\r\nwhen renatured together, as non-specific RNA–RNA inter\u0002actions can lead to misfolding of native RNA structures. As\r\nGdnBroc RNA contains a functional domain, it can report\r\non native RNA folding via fluorescence within the conden\u0002sates. Occurrence of non-native RNA–RNA interactions,\r\nwhich can lead to misfolding of RNA structures, can thus\r\nbe observed as a decrease in broccoli fluorescence in\r\nthe condensates.\r\nWe first formed droplets by mixing 3′\r\n-CF647-labeled\u0002GdnBroc (shown in Fig. 6A row 1, Supplemental Fig. S8A)\r\nwith increasing concentration of unlabeled GdnBroc (Fig.\r\n6A row 2, Supplemental Fig. S8B). In these experiments,\r\nthe droplets grew brighter for broccoli fluorescence (λem =\r\n510 nm), dimmer for CF647 fluorescence (λem = 650 nm) ow\u0002ing to dilution, and also larger as expected due to increased\r\nconcentration of condensate forming RNA (Fig. 6B green,\r\nSupplemental Fig. S8B).We then performed a similar exper\u0002iment but instead of adding unlabeled-GdnBroc, we added\r\na WT Gdn riboswitch, which has the same scaffold as the\r\nGdnBroc but lacks the functional broccoli unit (Fig. 6A,\r\nrow 3, Supplemental Fig. S8C). Addition of Gdn resulted\r\nin condensates with a slight decrease in broccoli and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 472,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "CF647 fluorescence compared to no added Gdn owing to\r\ndilution, as expected. The droplets remained fluorescent\r\nup to threefold excess Gdn WT RNA and the ratio of F500\r\nand F650 did not change appreciably with excess Gdn\r\n(Fig. 6B blue, Supplemental Fig. S8C). SinceGdnBroc is built\r\non the scaffold ofGdn, these data are consistent with correct\r\nfolding of the broccoli aptamer even in the presence of WT\r\nGdn, which is also predicted by heterodimer foldings in sil\u0002ico (Supplemental Fig. S9A, green is natively folded).\r\nFinally, we added a different RNA altogether, unlabeled\r\nGua DM RNA. This mixture showed fluorescence from the\r\nCF647 3′\r\n-end-labeled-GdnBroc RNA; but very little fluo\u0002rescence from the broccoli units (Fig. 6B orange,\r\nSupplemental Fig. S8D). These data suggest that when dif\u0002ferent RNAs are present in the condensate, non-specific\r\nRNA–RNA interactions can occur leading to colocalization\r\nand misfolding of the RNAs. The unfolded broccoli in the\r\npresence of non-native “scaffold” is also consistent with\r\nin silico heterodimer predictions (Supplemental Fig. S9B,\r\ngreen is misfolded).\r\nCondensates partially protect RNA from nuclease\r\ndegradation\r\nCondensates have been hypothesized to play important\r\nroles as bioreactors and containers for biomolecules such\r\nA B\r\nFIGURE 6. Presence of noncognate RNAs lead to misfolded RNAs in condensates.\r\n(A) Expected results. Monitoring nonspecific RNA–RNA interactions through broccoli fluores\u0002cence. Row 1: Condensates formed with 3′\r\n-CF 647-Gdn Broc RNA are expected to fluoresce\r\nboth in the 500–550 nm range (green) and the 650–700 nm (magenta). Row 2: Addition of un\u0002labeled GdnBroc RNA (“same RNA”) is expected to dilute the fluorescence from the 3′\r\n-CF\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "647-labeled Gdn Broc RNA while increasing the broccoli fluorescence. Row 3: Addition of un\u0002labeled WT guanidine riboswitch (“native scaffold”) is expected to dilute the fluorescence\r\nfrom both the 3′\r\n-CF 647-labeled Gdn Broc RNA and the broccoli element. Row 4: Addition\r\nof unlabeled double mutant Gua riboswitch (“non-native scaffold”) is expected to dilute the\r\nfluorescence from the 3′\r\n-CF 647-labeled Gdn Broc RNA but also disrupt broccoli fluorescence.\r\n(B) Actual results. Relative fluorescence of broccoli to CF-647 with condensates containing dif\u0002ferent RNAs. Range of relative fluorescence values of Gdnbroc without any additional RNAs is\r\nmarked in gray rectangle. Symbols are color coded with added RNAs in rows 2–4 of panel A.\r\nPoudyal et al.\r\n1596 RNA (2021) Vol. 27, No. 12\nas RNAs and proteins, especially in origins of life scenarios\r\n(Jia et al. 2014; Drobot et al. 2018; Poudyal et al. 2018).\r\nOne important characteristic of such compartments might\r\nbe protection of the encapsulated contents from degrada\u0002tion. To test whether RNA-based condensates could have\r\nsuch properties, we probed the sensitivity of RNA in con\u0002densates toward a ribonuclease. We incubated 3′\r\n-CF488\r\nlabeled Gdn WT RNA in condensates or in solution with\r\nG-specific RNase T1. In the absence of the nuclease, the\r\namount of RNA remained constant over 15 min for both so\u0002lutions and condensates, as expected (Fig. 7A top).\r\nHowever, in the presence of T1 nuclease, the RNA degrad\u0002ed more rapidly in the absence of droplets as compared to\r\ncondensates, suggesting that condensates partially pro\u0002tect RNA from degradation (Fig. 7A bottom and Fig. 7B).\r\nTo test this hypothesis further, we formed condensates\r\nfrom Gdn Broc RNA and challenged them with RNase T1.\r\nWe used real-time fluorescence measurements from the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "broccoli aptamer to provide a direct quantitative assess\u0002ment of intact RNA. Even after 30 min, 50% of the RNA re\u0002mained as fully functional broccoli aptamer when present\r\nas condensates compared to <10% in the absence of con\u0002densates (Fig. 7C). The observed rate constant for signal\r\ndecay from the broccoli aptamer was almost fourfold faster\r\nin the absence of condensates (0.11 vs. 0.03 min−1\r\n). These\r\ndata demonstrate that having RNAs encapsulated as con\u0002densates can protect the RNA from protein nucleases.\r\nWhile the exact mechanism of protection remains unclear,\r\nit could involve sequestration of unpaired Gs upon multi\u0002merization, making them inaccessible for the RNase T1.\r\nDISCUSSION\r\nOverall, our study provides a mechanistic framework for\r\nformation of RNA droplets through base-pairing-mediated\r\nRNA multimerization. Intermolecular RNA–RNA interac\u0002tions have been hypothesized to play important roles in\r\nboth the assembly and dynamics of intracellular RNP con\u0002densates. Here we have demonstrated the critical contri\u0002butions of specific RNA sequence and structural\r\nproperties in assembly of RNA-based condensates, as dis\u0002tinct from the more general contributions of environmental\r\nfactors such as crowding and ionic strength. Our data show\r\nthat specific RNA structures can promote condensation of\r\nRNAs even without the need for polyamines and crowding\r\nagents, which have been shown to facilitate assembly of\r\ncondensates of biological and syn\u0002thetic RNA molecules (Jain and Vale\r\n2017; Van Treeck et al. 2018; Zhang\r\net al. 2019).\r\nWe showed that without any macro\u0002molecular crowding, RNA multimeri\u0002zation is enhanced by RNA–RNA\r\ninteractions through base-pairing\r\nand divalent cations. Others have re\u0002ported that high concentrations of\r\nMg2+ and Ca2+ ions can drive forma\u0002tion of homopolymeric RNA coacer\u0002vates such as polyU (Onuchic et al.\r\n2019). However, in such RNAs, which\r\nhave minimal hydrogen bonding, con\u0002densation is driven primarily by non\u0002specific RNA interactions (Thrierr\r\net al. 1971; Young and Kallenbach\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "1978). In contrast, our study used\r\nhighly structured biological RNAs to\r\naddress contributions from RNA se\u0002quence and structure toward forma\u0002tion of RNA condensates. As RNA\r\nmultimers could lead to formation of\r\nlarge networks of RNA condensates,\r\nwe used in silico predictions to esti\u0002mate whether certain RNAs are prone\r\nto forming multimers. These predic\u0002tions suggested that for RNAs that\r\nform condensates, the overall struc\u0002ture of the RNA may remain largely un\u0002changed; however, many monomeric\r\nA B\r\nC\r\nFIGURE 7. RNA condensates protect RNA from RNase T1-mediated degradation. (A, top)\r\nDenaturing polyacrylamide gel image showing full-length Gdn RNA (3′\r\n-CF488-labeled) over\r\ntime in solution or as condensates without (top row) and with (bottom row) 0.3 U RNase T1.\r\nTime points are 0, 2.5, 5, 10, and 15 min. (B) Quantification of data in panel A. Error bars rep\u0002resent standard error n= 5. (C) Fluorescence of the broccoli aptamer as a function of time after\r\naddition of RNase T1 nuclease to Gdn Broc RNA. The RNA was either present in solution (or\u0002ange) or as condensates (green). Error bars represent standard error (n= 4). Fluorescence val\u0002ues were normalized to intensities at 0 min. Fitting the data to first order exponential decay\r\n(Equation 1, see Materials and Methods) provide observed rate constants of 0.03 and 0.11\r\nmin−1 for condensate and no condensate samples, respectively.\r\nRNA sequence and structure control RNA condensates\r\nwww.rnajournal.org 1597\ncis helices were predicted to be traded for trans helices,\r\nthereby allowing formation of the extended networks of\r\nRNA molecules that can generate condensates. We showed\r\nspecifically that palindromic sequences in the loop regions\r\nare critical in determining the propensity of a single RNA\r\nto form higher order multimers ultimately maturing into con\u0002densates; moreover, complementary nonpalindromic loop\r\nsequences can also interact in trans to yield similar behavior,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "as illustrated in Figure 3 M1 + M2. This is likely because no\r\nbase pairs have to be broken for loops to interact. These ob\u0002servations are in-line with biological instances where palin\u0002dromic sequences nucleate critical RNA–RNA interactions\r\nsuch as in the case of HIV, where the genome dimerization\r\nis initiated by the palindromic dimerization initiation se\u0002quence (DIS) (Lu et al. 2011). Furthermore, large unpaired\r\nloops in artificial RNA aptamers derived from SELEX have\r\nalso been shown to play critical role in the formation of hy\u0002drogels (Huang et al. 2017).\r\nOne feature of RNA-based condensates is the potential\r\nto control their internal network of RNA–RNA interactions.\r\nComplex coacervates and other RNP condensates formed\r\nby charge-charge interactions typically interact non-specif\u0002ically. As such, controlling encapsulation of RNAs with\r\nunique identity, structure, and function can be challenging\r\n(Boeynaems et al. 2019; Poudyal et al. 2019b). In contrast,\r\nwe demonstrated that mutations that selectively stabilize\r\nthe dimeric states of RNAs while not affecting the mono\u0002meric states can promote formation of functional RNA con\u0002densates. Based on this idea, we demonstrated that\r\nstructure-guided engineering allows complete turn on or\r\nturn off of RNA condensation. Furthermore, we provided\r\nevidence that specific RNA structures that do not engage\r\nin trans RNA–RNA interactions can be grafted with func\u0002tional RNA domains to generate RNA condensates with\r\nnovel properties.\r\nAlthough beyond the scope of this study, engineering of\r\ncondensates with functional RNAs presents opportunities\r\nto recruit and enrich specific proteins or other small metab\u0002olites via RNA aptamers into the condensates, providing a\r\ncompartment for biomolecular reactions. Native folding of\r\naptamers might be retained in complex mixtures by the or\u0002der in which the RNAs condense and by the very nature of\r\nthe partners. Indeed, we and others have shown that non\u0002specific enrichment of enzymes and substrates by complex\r\ncoacervates can lead to activation of enzymes (Poudyal\r\net al. 2019a). RNA-based condensates may also be useful\r\nin synthetic biological applications as bioreactors which\r\ncan activate chemical reactions. RNA condensates could\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "potentially be used in a similar fashion to increase local\r\nconcentration of specific oligonucleotides by base-pairing\r\ninteractions. Such increase of local concentration may be\r\nutilized to activate specific chemical reactions (Gartner\r\net al. 2004).\r\nWe found that condensates protected RNAs from a ribo\u0002nuclease. This observation indicates that intracellular con\u0002densates may also act as “containers” for RNAs and\r\nproteins until they are utilized in their specific processes\r\n(Riback et al. 2017). Such a mechanism would prevent\r\nRNAs from being degraded by cellular nucleases when\r\nnot being actively translated or performing native func\u0002tions (e.g., lncRNAs). mRNA-based nanoparticles, which\r\nare also highly packed, have been shown to have in\u0002creased resistance toward serum nucleases, consistent\r\nwith our observations of RNA condensates resisting T1\r\nRNase (Kim et al. 2015). However, because biomolecular\r\npartitioning within condensates is affected by the compo\u0002sition of proteins and RNAs that form the given conden\u0002sate, other condensate systems may have opposite\r\neffects, wherein recruitment of proteins could promote\r\nRNA degradation.\r\nOur results also have implications in origins of life\r\nscenarios, where RNA is hypothesized to have played\r\nboth informational and catalytic roles in the RNA World.\r\nFirst, condensates may have had similar protecting effects\r\nagainst other nucleases in the primordial world.\r\nAdditionally, as the mechanism of RNA condensate as\u0002sembly involves base-pairing of the unpaired nucleotides\r\nin loop regions, this protects the RNA from hydrolysis, as\r\n2′\r\nOH in base-paired nucleotides sample the “in-line” con\u0002formation less frequently compared to an unpaired nucle\u0002otide (Regulski and Breaker 2008). Although we used\r\nthermal denaturation to drive assembly of RNAs, cellular\r\nhelicases and other intracellular condensates (Nott et al.\r\n2016) may unfold RNA helices allowing for trans\r\nRNA–RNA interactions; alternatively, cotranscriptional\r\nfolding can lead to access of base pairs, which can drive\r\nformation of RNA multimers and RNA condensates.\r\nOverall, our study suggests that propensity of an RNA to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "undergo LLPS is “coded” in both its sequence and struc\u0002ture, and as such provides a foundation for using model\r\nRNA-based condensates such as those described herein\r\nto study biological condensation.\r\nMATERIALS AND METHODS\r\nReagents\r\nAll chemicals were purchased from Sigma unless otherwise not\u0002ed. DNA templates to make riboswitch RNA transcripts were pur\u0002chased from IDT. Sequences of riboswitches and primers used for\r\nPCR amplification are provided in the Supplemental Information.\r\nRibonuclease T1 was purchased from Thermo Fisher Scientific,\r\nand DFHBI dye was purchased from Tocris Biosciences.\r\nDNA template generation and RNA transcription\r\nTen nanograms of DNA template (top strand) was PCR amplified\r\nusing the forward and the reverse primer. All DNA templates gave\r\nsingle-band RNA transcripts on an 8% denaturating polyacryl\u0002amide gel. RNA bands were excised following UV-shadowing,\r\nPoudyal et al.\r\n1598 RNA (2021) Vol. 27, No. 12\nand ethanol precipitated as described (Poudyal et al. 2021). RNAs\r\nwere stored in RNase-free water until use in 10 to 20 µL aliquots at\r\n−20°C (∼100 µM).\r\n3′-end labeling of RNA\r\nRNAs were fluorescently labeled on the 3′ end using sodium peri\u0002odate-mediated oxidation followed by reductive amination using\r\na hydrazide-functionalized dye (Poudyal et al. 2021). In brief,\r\n1 nanomole of RNA was resuspended in a solution containing\r\n10 mM sodium periodate (freshly prepared) and 100 mM sodium\r\nacetate (pH 5.2). Samples were incubated at room temperature\r\nfor 1.5 h. They were then precipitated by adding 300 µL of 300\r\nmM sodium acetate, followed by 800 µL of 100% EtOH. Samples\r\nwere then kept in dry ice for 2 h, followed by centrifugation at 4°C\r\nat 14,000g for 30 min. Supernatant was decanted and pellet was\r\ndried. To initiate the coupling reaction, the pellets were resus\u0002pended in 2 µL of 10 mM hydrazide dye (CF488 or CF647, Sigma)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "derivative fluorophore (dissolved in anhydrous DMSO), 2 µL of 0.5\r\nM sodium acetate (pH 5.2), and 16 µL of water (in the given order)\r\nand left in the dark at 4°C for overnight. The RNAs were ethanol\r\nprecipitated as described above to remove excess unincorporat\u0002ed dye, followed by filtration using a 10,000 Da (Amicon) molec\u0002ular weight cut-off centrifugal filter unit. Labeling efficiencies\r\nwere calculated by ratios of RNA concentrations obtained by us\u0002ing absorbance values at 260 and 490 nm (for CF488, Ex. Coeff =\r\n70,000 M−1\r\ncm−1) or 650 nm (for CF650, Ex. Coeff = 240,000\r\nM−1\r\ncm−1). Labeled RNAs were added to the sample at the indi\u0002cated final concentrations during condensation experiments.\r\nStructure prediction\r\nAll RNA structure predictions were performed in NUPACK (http://\r\nwww.nupack.org/) using free-energy parameters from Mathews\r\net al. (1999). For RNA multimerization predictions, maximum\r\ncomplex size was typically capped at 6, and RNA concentration\r\nwas set at 10 µM. All structural predictions were carried out at\r\n37°C and 1 M NaCl.\r\nRNA condensation experiments\r\nIndicated concentration of RNA (2.5–10 µM) was resuspended in\r\n10 mM HEPES (pH 7.0) and 15 mM NaCl. Magnesium concentra\u0002tion was varied as indicated. As an example of our shorthand no\u0002tation, H10M10N15 buffer contains 10 mM HEPES (pH 7.0), 10 mM\r\nMgCl2, and15 mM NaCl. Experiments shown in Figure 1 also con\u0002tained polyethylene glycol as specified. Samples (20 µL) were first\r\nheated at 90°C for 3 min after which time they were moved to\r\n65°C and incubated for 1 min. Samples were finally moved\r\nto 37°C and incubated for 1 min. Following the incubation at\r\n37°C, samples were mixed using a pipette, and 10 µL was added\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "on a glass coverslip and viewed on Leica TCS SP5 laser scanning\r\nconfocal inverted microscope (LSCM) with a ×63 objective lens.\r\nThis procedure is a variation from a previously reported protocol\r\n(Jain and Vale 2017). The 488 (broccoli or CF488 dye) and 633 nm\r\nlasers (CF647 dye) were used for excitation, and emission spectra\r\nwere collected from 500–510 nm (broccoli or CF488 dye) and\r\n650–700 nm (CF647 dye). Images were acquired using Leica\r\nLAS AF software. For experiments containing the broccoli\r\naptamer, the buffer contained 10 mM KCl to promote formation\r\nof the G-quadruplex in the aptamer unless otherwise noted\r\n(Fernandez-Millan et al. 2017).\r\nIn-line probing (ILP) analysis of Gua DM RNA\r\nILP was performed in triplicate according to standard protocols\r\nfor ILP (Regulski and Breaker 2008; Poudyal et al. 2021) with\r\nsome key modifications to address the propensity of the RNA to\r\nform extensive trans interactions. Briefly, the RNA was 5′\r\n-end la\u0002beled using [γ32-P] ATP according to previously published meth\u0002ods. Then, 70,000 cpm (<3 nM) radiolabeled RNA was diluted\r\ninto 8 µL of water or 5 µM unlabeled RNA in water for the conden\u0002sate-minus and condensate-plus condition, respectively. The\r\nRNA samples were heated to 90°C in the block of a PCR thermo\u0002cycler. After 1 min, 2 µL of 5×ILP buffer was added for a final buff\u0002er concentration of 10 mM Tris, 30 mM MgCl2 15 mM NaCl,\r\n0.001% sodium dodecyl sulfate, pH 8.0. Heat denaturation at\r\n80°C instead of 90°C was chosen to minimize the RNA degrada\u0002tion at 30 Mg2+ concentration. Tubes were visibly turbid after the\r\ndenaturation step, confirming formation of RNA condensates.\r\nReactions were incubated for 18 h at 37°C and stopped with 30\r\nµL (3×) of formamide loading dye, composed of 50 mM EDTA\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "(pH 8.0) in 90% aqueous formamide, with trace xylene cyanol\r\nand bromophenol blue. (High concentration of formamide and\r\nexcess EDTA are required to prevent smearing.) The NR samples\r\nwere identical to condensate minus samples but stopped with\r\nformamide loading dye immediately after the renaturation step.\r\nLadders were prepared under denaturing conditions as previous\u0002ly described (Poudyal et al. 2021) followed by fractionation on a\r\n10% denaturing gel. For data analysis, the raw gel image was\r\nquantified with SAFA (Das et al. 2005) to produce ILP reactivities\r\nfor each nucleotide. The ILP reactivities for each nucleotide\r\nwere averaged over triplicate experiments and mapped to sec\u0002ondary structures using R2easyR (http://doi.org/10.5281/\r\nzenodo.4683742) and R2R (Weinberg and Breaker 2011).\r\nFluorescence recovery after photobleaching (FRAP)\r\nThe Gdn RNA condensates were prepared as described for previ\u0002ous experiments. An approximately 1 µM diameter was chosen as\r\nthe region of interest (ROI) for photobleaching. Laser power was\r\nset at 100% with 458, 476, 488, 514, 543, and 633 nm lasers all on\r\nat the same time for bleaching (Aumiller et al. 2016). Images were\r\nthen collected every 10 sec using the 633 nm laser for excitation\r\nand 650–700 nm emission window. Since no significant recovery\r\nof fluorescence was observed, FRAP data were not further\r\nanalyzed.\r\nT1 nuclease experiments\r\nThe guanidine riboswitch at 2.5 µM (CF 488-labeled) was resus\u0002pended in 10 mM HEPES (pH 7.0), 15 mM NaCl, and 50 mM\r\nMgCl2. For no condensate samples, the indicated amount of\r\nRNase T1 was added and samples were incubated from 2.5 to\r\n15 min at room temperature. Reactions were stopped by adding\r\ntwo volumes of stopping solution (50% formamide, 50 mM EDTA\r\nRNA sequence and structure control RNA condensates\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "www.rnajournal.org 1599\nand 0.1% SDS) and heating at 90°C for 30 sec. For condensate\r\nsamples, RNAs were renatured by heating at 90°C for 3 min after\r\nwhich time they were moved to 65°C and incubated for 1 min.\r\nSamples were finally moved to 37°C and incubated for 1 min prior\r\nto addition of RNase T1 2.5 to 15 min. Stopped reactions were\r\nseparated on a 10% denaturing polyacrylamide gel (8M urea).\r\nThe gel was visualized in the gel documentation instrument\r\n(BioRad) using UV-transillumination. For experiments with\r\nGdnBroc RNA, we collected fluorescence intensity from\r\nBroccoli RNA over time (520 ± 15 nm on Applied Biosystems\r\nStepOne Plus qRT-PCR instrument). Experiments were set up as\r\ndescribed for guanidine riboswitch RNA, with the following differ\u0002ences. For experiments with GdnBroc RNA, the buffer was sup\u0002plemented with 10 mM KCl and 10 µM DFHBI, which was\r\nadded after the renaturation. Using a multichannel pipette,\r\nRNAs (±condensates) were added to a 96-well plate containing\r\nthe RNase T1. Fluorescence measurements where then taken im\u0002mediately following the mixing on Applied Biosystems qPCR in\u0002strument. Pseudofirst order rate constants were obtained by\r\nfitting the florescence versus time data to the following equation.\r\nf(t) = e−k·t\r\n, (1)\r\nwhere f(t) is the fluorescence intensity at indicated time t, and k is\r\nthe observed rate constant. The equation provides acceptable fits\r\nfor the purpose of comparing relative rates of RNA degradation.\r\nSUPPLEMENTAL MATERIAL\r\nSupplemental material is available for this article.\r\nACKNOWLEDGMENTS\r\nThis work was supported by NASA grant 80NSSC17K0034 to\r\nP.C.B. and C.D.K., Maximizing Investigators’ Research Award\r\n(MIRA) grant 5R35GM127064 to P.C.B., and Simons Foundation\r\ngrant 290363 to R.R.P.\r\nReceived June 21, 2021; accepted September 15, 2021.\r\nREFERENCES\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Alberti S. 2017. Phase separation in biology. Curr Biol 27: R1097–\r\nR1102. doi:10.1016/j.cub.2017.08.069\r\nAumiller WM J, Cakmak F P, Davis BW, Keating CD. 2016. RNA-based\r\ncoacervates as a model for membraneless organelles: formation,\r\nproperties, and interfacial liposome assembly. Langmuir 32:\r\n10042–10053. doi:10.1021/acs.langmuir.6b02499\r\nBoeynaems S, Holehouse AS, Weinhardt V, Kovacs D, Van Lindt J,\r\nLarabell C, Van Den Bosch L, Das R, Tompa PS, Pappu RV, et al.\r\n2019. Spontaneous driving forces give rise to protein-RNA con\u0002densates with coexisting phases and complex material properties.\r\nProc Natl Acad Sci 116: 7889–7898. doi:10.1073/pnas\r\n.1821038116\r\nBrangwynne CP, Eckmann CR, Courson DS, Rybarska A, Hoege C,\r\nGharakhani J, Julicher F, Hyman AA. 2009. Germline P-granules\r\nare liquid droplets that localize by controlled dissolution/conden\u0002sation. Science 324: 1729–1732. doi:10.1126/science.1172046\r\nBuscaglia R, Miller MC, Dean WL, Gray RD, Lane AN, Trent JO,\r\nChaires JB. 2013. Polyethylene glycol binding alters human telo\u0002mere G-quadruplex structure by conformational selection.\r\nNucleic Acids Res 41: 7934–7946. doi:10.1093/nar/gkt440\r\nCakmak FP, Choi S, Meyer MO, Bevilacqua PC, Keating CD. 2020.\r\nPrebiotically-relevant low polyion multivalency can improve func\u0002tionality of membraneless compartments. Nat Commun 11:\r\n5949. doi:10.1038/s41467-020-19775-w\r\nDas R, Laederach A, Pearlman SM, Herschlag D, Altman RB. 2005.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "SAFA: semi-automated footprinting analysis software for high\u0002throughput quantification of nucleic acid footprinting experi\u0002ments. RNA 11: 344–354. doi:10.1261/rna.7214405\r\nDrobot B, Iglesias-Artola JM, Le Vay K, Mayr V, Kar M, Kreysing M,\r\nMutschler H, Tang TD. 2018. Compartmentalised RNA catalysis\r\nin membrane-free coacervate protocells. Nat Commun 9: 3643.\r\ndoi:10.1038/s41467-018-06072-w\r\nFernandez-Millan P, Autour A, Ennifar E, Westhof E, Ryckelynck M.\r\n2017. Crystal structure and fluorescence properties of the\r\niSpinach aptamer in complex with DFHBI. RNA 23: 1788–1795.\r\ndoi:10.1261/rna.063008.117\r\nFilonov GS, Moon JD, Svensen N, Jaffrey SR. 2014. Broccoli: rapid se\u0002lection of an RNA mimic of green fluorescent protein by fluores\u0002cence-based selection and directed evolution. J Am Chem Soc\r\n136: 16299–16308. doi:10.1021/ja508478x\r\nFrankel EA, Bevilacqua PC, Keating CD. 2016. Polyamine/nucleotide\r\ncoacervates provide strong compartmentalization of Mg2+, nucle\u0002otides, and RNA. Langmuir 32: 2041–2049. doi:10.1021/acs\r\n.langmuir.5b04462\r\nGartner ZJ, Tse BN, Grubina R, Doyon JB, Snyder TM, Liu DR. 2004.\r\nDNA-templated organic synthesis and selection of a library of\r\nmacrocycles. Science 305: 1601–1605. doi:10.1126/science\r\n.1102629\r\nGomes E, Shorter J. 2019. The molecular language of membraneless\r\norganelles. J Biol Chem 294: 7115–7127. doi:10.1074/jbc.TM118\r\n.001192\r\nHuang Z, Kangovi GN, Wen W, Lee S, Niu L. 2017. An RNA\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "aptamer capable of forming a hydrogel by self-assembly.\r\nBiomacromolecules 18: 2056–2063. doi:10.1021/acs.biomac\r\n.7b00314\r\nJain A, Vale RD. 2017. RNA phase transitions in repeat expansion dis\u0002orders. Nature 546: 243–247. doi:10.1038/nature22386\r\nJeon BJ, Nguyen DT, Saleh OA. 2020. Sequence-controlled adhesion\r\nand microemulsification in a two-phase system of DNA liquid\r\ndroplets. J Phys Chem B 124: 8888–8895. doi:10.1021/acs.jpcb\r\n.0c06911\r\nJia TZ, Hentrich C, Szostak JW. 2014. Rapid RNA exchange in aque\u0002ous two-phase system and coacervate droplets. Orig Life Evol\r\nBiosph 44: 1–12. doi:10.1007/s11084-014-9355-8\r\nKhong A, Matheny T, Jain S, Mitchell SF, Wheeler JR, Parker R. 2017.\r\nThe stress granule transcriptome reveals principles of mRNA accu\u0002mulation in stress granules. Mol Cell 68: 808–820 e805. doi:10\r\n.1016/j.molcel.2017.10.015\r\nKim H, Park Y, Lee JB. 2015. Self-assembled messenger RNA nano\u0002particles (mRNA-nps) for efficient gene expression. Sci Rep 5:\r\n12737. doi:10.1038/srep12737\r\nKoga S, Williams DS, Perriman AW, Mann S. 2011. Peptide-nucleotide\r\nmicrodroplets as a step towards a membrane-free protocell mod\u0002el. Nat Chem 3: 720–724. doi:10.1038/nchem.1110\r\nLee CS, Putnam A, Lu T, He S, Ouyang JPT, Seydoux G. 2020.\r\nRecruitment of mRNAs to P granules by condensation with intrin\u0002sically-disordered proteins. Elife 9: e52896. doi:10.7554/eLife\r\n.52896\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Lu K, Heng X, Garyu L, Monti S, Garcia EL, Kharytonchyk S,\r\nDorjsuren B, Kulandaivel G, Jones S, Hiremath A, et al. 2011.\r\nNMR detection of structures in the HIV-1 5’-leader RNA that regu\u0002late genome packaging. Science 334: 242–245. doi:10.1126/sci\r\nence.1210460\r\nPoudyal et al.\r\n1600 RNA (2021) Vol. 27, No. 12\nMa W, Zheng G, Xie W, Mayr C. 2021. In vivo reconstitution finds mul\u0002tivalent RNA-RNA interactions as drivers of mesh-like conden\u0002sates. Elife 10: e64252. doi:10.7554/eLife.64252\r\nMandal M, Boese B, Barrick JE, Winkler WC, Breaker RR. 2003.\r\nRiboswitches control fundamental biochemical pathways in\r\nBacillus subtilis and other bacteria. Cell 113: 577–586. doi:10\r\n.1016/s0092-8674(03)00391-x\r\nMathews DH, Sabina J, Zuker M, Turner DH. 1999. Expanded se\u0002quence dependence of thermodynamic parameters improves pre\u0002diction of RNA secondary structure. J Mol Biol 288: 911–940.\r\ndoi:10.1006/jmbi.1999.2700\r\nNakano S, Kirihata T, Fujii S, Sakai H, Kuwahara M, Sawai H,\r\nSugimoto N. 2007. Influence of cationic molecules on the hairpin\r\nto duplex equilibria of self-complementary DNA and RNA oligonu\u0002cleotides. Nucleic Acids Res 35: 486–494. doi:10.1093/nar/gkl1073\r\nNalavade R, Griesche N, Ryan DP, Hildebrand S, Krauss S. 2013.\r\nMechanisms of RNA-induced toxicity in CAG repeat disorders.\r\nCell Death Dis 4: e752. doi:10.1038/cddis.2013.276\r\nNelson JW, Atilho RM, Sherlock ME, Stockbridge RB, Breaker RR.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "2017. Metabolism of free guanidine in bacteria is regulated by a\r\nwidespread riboswitch class. Mol Cell 65: 220–230. doi:10.1016/\r\nj.molcel.2016.11.019\r\nNott TJ, Craggs TD, Baldwin AJ. 2016. Membraneless organelles can\r\nmelt nucleic acid duplexes and act as biomolecular filters. Nat\r\nChem 8: 569–575. doi:10.1038/nchem.2519\r\nOnuchic PL, Milin AN, Alshareedah I, Deniz AA, Banerjee PR. 2019.\r\nDivalent cations can control a switch-like behavior in heterotypic\r\nand homotypic RNA coacervates. Sci Rep 9: 12161. doi:10\r\n.1038/s41598-019-48457-x\r\nPaithankar KR, Prasad KS. 1991. Precipitation of DNA by polyethylene\r\nglycol and ethanol. Nucleic Acids Res 19: 1346. doi:10.1093/nar/\r\n19.6.1346\r\nPatel A, Malinovska L, Saha S, Wang J, Alberti S, Krishnan Y,\r\nHyman AA. 2017. ATP as a biological hydrotrope. Science 356:\r\n753–756. doi:10.1126/science.aaf6846\r\nPoudyal RR, Pir Cakmak F, Keating CD, Bevilacqua PC. 2018. Physical\r\nprinciples and extant biology reveal roles for RNA-containing\r\nmembraneless compartments in origins of life chemistry.\r\nBiochemistry 57: 2509–2519. doi:10.1021/acs.biochem.8b00081\r\nPoudyal RR, Guth-Metzler RM, Veenis AJ, Frankel EA, Keating CD,\r\nBevilacqua PC. 2019a. Template-directed RNA polymerization\r\nand enhanced ribozyme catalysis inside membraneless compart\u0002ments formed by coacervates. Nat Commun 10: 490. doi:10\r\n.1038/s41467-019-08353-4\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "Poudyal RR, Keating CD, Bevilacqua PC. 2019b. Polyanion-assisted ri\u0002bozyme catalysis inside complex coacervates. ACS Chem Biol 14:\r\n1243–1248. doi:10.1021/acschembio.9b00205\r\nPoudyal RR, Meyer MO, Bevilacqua PC. 2021. Measuring the activity\r\nand structure of functional RNAs inside compartments formed by\r\nliquid-liquid phase separation. Methods Enzymol 646: 307–327.\r\ndoi:10.1016/bs.mie.2020.06.010\r\nProctor DJ, Kierzek E, Kierzek R, Bevilacqua PC. 2003. Restricting the\r\nconformational heterogeneity of RNA by specific incorporation of\r\n8-bromoguanosine. J Am Chem Soc 125: 2390–2391. doi:10\r\n.1021/ja029176m\r\nPutnam A, Cassani M, Smith J, Seydoux G. 2019. A gel phase pro\u0002motes condensation of liquid P granules in Caenorhabditis ele\u0002gans embryos. Nat Struct Mol Biol 26: 220–226. doi:10.1038/\r\ns41594-019-0193-2\r\nRegulski EE, Breaker RR. 2008. In-line probing analysis of ribo\u0002switches. Methods Mol Biol 419: 53–67. doi:10.1007/978-1-\r\n59745-033-1_4\r\nRiback JA, Katanski CD, Kear-Scott JL, Pilipenko EV, Rojek AE,\r\nSosnick TR, Drummond DA. 2017. Stress-triggered phase separa\u0002tion is an adaptive, evolutionarily tuned response. Cell 168: 1028–\r\n1040.e19. doi:10.1016/j.cell.2017.02.027\r\nSaha S, Weber CA, Nousch M, Adame-Arana O, Hoege C, Hein MY,\r\nOsborne-Nishimura E, Mahamid J, Jahnel M, Jawerth L, et al.\r\n2016. Polar positioning of phase-separated liquid compartments\r\nin cells regulated by an mRNA competition mechanism. Cell\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "166: 1572–1584.e16. doi:10.1016/j.cell.2016.08.006\r\nShakya A, King JT. 2018. DNA local-flexibility-dependent assembly of\r\nphase-separated liquid droplets. Biophys J 115: 1840–1847.\r\ndoi:10.1016/j.bpj.2018.09.022\r\nShelke SA, Shao Y, Laski A, Koirala D, Weissman BP, Fuller JR, Tan X,\r\nConstantin TP, Waggoner AS, Bruchez MP, et al. 2018. Structural\r\nbasis for activation of fluorogenic dyes by an RNA aptamer lacking\r\na G-quadruplex motif. Nat Commun 9: 4542. doi:10.1038/s41467-\r\n018-06942-3\r\nSherlock ME, Sadeeshkumar H, Breaker RR. 2019. Variant bacterial\r\nriboswitches associated with nucleotide hydrolase genes sense\r\nnucleoside diphosphates. Biochemistry 58: 401–410. doi:10\r\n.1021/acs.biochem.8b00617\r\nSmith J, Calidas D, Schmidt H, Lu T, Rasoloson D, Seydoux G. 2016.\r\nSpatial patterning of P granules by RNA-induced phase separation\r\nof the intrinsically-disordered protein MEG-3. Elife 5: e21337.\r\ndoi:10.7554/eLife.21337\r\nThrierr JC, Dourlent M, Leng M. 1971. A study of polyuridylic acid. J\r\nMol Biol 58: 815–830. doi:10.1016/0022-2836(71)90042-8\r\nTyrrell J, Weeks KM, Pielak GJ. 2015. Challenge of mimicking the in\u0002fluences of the cellular environment on RNA structure by PEG-in\u0002duced macromolecular crowding. Biochemistry 54: 6447–6453.\r\ndoi:10.1021/acs.biochem.5b00767\r\nVan Treeck B, Protter DSW, Matheny T, Khong A, Link CD, Parker R.\r\n2018. RNA self-assembly contributes to stress granule formation\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 1498513209487547124,
+        "filename": "1589.PMC8594466.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 324,
+      "total_chunks": 38,
+      "version": "1.0.0"
+    },
+    "text": "and defining the stress granule transcriptome. Proc Natl Acad\r\nSci 115: 2734–2739. doi:10.1073/pnas.1800038115\r\nWeinberg Z, Breaker RR. 2011. R2R—software to speed the depiction\r\nof aesthetic consensus RNA secondary structures. BMC\r\nBioinformatics 12: 3. doi:10.1186/1471-2105-12-3\r\nYoung PR, Kallenbach NR. 1978. Secondary structure in polyuridylic\r\nacid. J Mol Biol 126: 467–479. doi:10.1016/0022-2836(78)\r\n90053-0\r\nZadeh JN, Steenberg CD, Bois JS, Wolfe BR, Pierce MB, Khan AR,\r\nDirks RM, Pierce NA. 2011. NUPACK: analysis and design of nucle\u0002ic acid systems. J Comput Chem 32: 170–173. doi:10.1002/jcc\r\n.21596\r\nZhang Y, Yang M, Duncan S, Yang X, Abdelhamid MAS, Huang L,\r\nZhang H, Benfey PN, Waller ZAE, Ding Y. 2019. G-quadruplex\r\nstructures trigger RNA phase separation. Nucleic Acids Res 47:\r\n11746–11754. doi:10.1093/nar/gkz978\r\nRNA sequence and structure control RNA condensates\r\nwww.rnajournal.org 1601\n\n"
+  }
+]

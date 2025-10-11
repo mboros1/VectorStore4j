@@ -1,0 +1,674 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Original article\r\nReconnoitering the sequence and structural analysis of Staphylococcus\r\naureus ‘‘A” protein\r\nParthasarathy Ranganathan a, Akila Varatharajan b,⇑, Khaloud Mohammed Alarjani c, Dunia A Farraj c,\r\nViji Rajendran d\r\na Faculty of Physiotherapy, Meenakshi Academy of Higher Education and Research, West K.K. Nagar, Chennai – 600078, Tamil Nadu, India\r\nb Central Research Laboratory, Department of Research, Meenakshi Academy of Higher Education and Research, West K.K. Nagar, Chennai – 600078, Tamil Nadu, India cDepartment of Botany and Microbiology, College of Science, King Saud University, Riyadh 11451, Saudi Arabia\r\ndDepartment of Marine Science and Convergence Technology, Hanyang University ERICA Campus, 55 Hanyangdaehak-ro, Sangnok-gu, Ansan-si, Gyeonggido 426-791, South Korea\r\narticle info\r\nArticle history:\r\nReceived 27 July 2023\r\nRevised 24 August 2023\r\nAccepted 9 September 2023\r\nAvailable online 14 September 2023\r\nKeywords:\r\nStaphylococcus aureus\r\n‘‘A” protein\r\nSequence analysis\r\nBioinformatics tools\r\nComputational modeling\r\nTherapeutic strategies\r\nabstract\r\nBackground: The Staphylococcus aureus ‘‘A” protein plays an essential role in the pathogenicity and viru\u0002lence of this bacterial species. To gain deeper insights into the protein’s characteristics, we conducted an\r\nin-depth analysis of its sequence and structure.\r\nObjective: This study aimed to unravel the underlying genetic and structural components that contribute\r\nto the protein’s functional properties.\r\nResults: Utilizing various bioinformatics tools and techniques, we first examined the protein’s primary\r\nsequence, identifying key amino acid residues and potential functional domains. Additionally, we\r\nemployed computational modeling and simulation approaches to determine the tertiary structure of\r\nthe ‘‘A” protein. Through this comprehensive analysis, we discovered novel features and interactions\r\nwithin the protein’s structure, shedding light on its potential mechanisms of action. Furthermore, we\r\ninvestigated the protein’s evolutionary conservation and compared it with related proteins from other\r\nbacterial species.\r\nConclusions: Overall, our findings provide valuable insights into the sequence and structure of the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Staphylococcus aureus ‘‘A” protein, which may have implications for understanding its role in\r\npathogenicity and guiding the development of novel therapeutic strategies.\r\n\u0001 2023 The Authors. Published by Elsevier B.V. on behalf of King Saud University. This is an open access\r\narticle under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).\r\n1. Introduction\r\nStaphylococci are typically commensal organisms that are com\u0002monly found on the skin and mucosa of humans and animals. Their\r\ndiameter ranges from 0.5 to 1.5 lm, and they are cocci that are\r\ngram-positive, occurring predominantly in groups but also as sin\u0002gle cells or in pairs. They are non-motile, and non-sporing and only\r\na few strains have capsules. Their colonies measure around 1 mm\r\nin diameter (Milani et al., 2023). Certain strains, particularly those\r\nresistant to oxacillin, pose a global threat to both humans and ani\u0002mals. These bacteria are spherical and belong to the bacilli group.\r\nFrequently present in the upper respiratory tract and on the skin,\r\nthey are commonly included in the body’s microbiota. Staphylo\u0002cocci are often positive for catalase and nitrate reduction, and they\r\nare facultative anaerobes capable of growing without oxygen.\r\nWhen grown on mannitol salt agar, a selective medium, Staphylo\u0002coccus aureus produces yellow colonies due to mannitol fermenta\u0002tion and subsequent pH drop. Staphylococcus aureus produces at\r\nleast four types of hemolytic activities a, b, d, and c (Sangeetha,\r\n2023).\r\nStaphylococci are bacteria with pyogenic properties, frequently\r\nresponsible for superlative infections. Minor injuries or immune\r\nsuppression can increase the likelihood of infection development.\r\nThey adhere to damaged skin, mucosa, or tissue surfaces and evade\r\nthe host’s defense mechanisms. Staphylococci colonize these sites\r\nhttps://doi.org/10.1016/j.sjbs.2023.103812\r\n1319-562X/\u0001 2023 The Authors. Published by Elsevier B.V. on behalf of King Saud University.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).\r\n⇑ Corresponding author at: Central Research Laboratory, Department of Research,\r\nMeenakshi Academy of Higher Education and Research, West K.K. Nagar, Chennai\r\n600078, Tamil Nadu, India.\r\nE-mail addresses: parthasarathy@maherfpt.ac.in (P. Ranganathan), akila.re\u0002searchassociate@maher.ac.in (A. Varatharajan), kalarjani@ksu.edu.sa\r\n(K. Mohammed Alarjani), dfarraj@ksu.edu.sa (D.A Farraj), viji86@hanyang.ac.kr\r\n(V. Rajendran).\r\nPeer review under responsibility of King Saud University.\r\nProduction and hosting by Elsevier\r\nSaudi Journal of Biological Sciences 30 (2023) 103812\r\nContents lists available at ScienceDirect\r\nSaudi Journal of Biological Sciences\r\njournal homepage: www.sciencedirect.com\nand cause tissue damage by multiplying and releasing toxins that\r\ninduce inflammation. These pathogens are clinically significant,\r\ncausing a wide range of illnesses in both humans and animals\r\nworldwide (Chakroborty et al., 2011).\r\nStaphylococcus aureus is responsible for various infections they\r\ncan cause a range of conditions, from superficial skin infections\r\nto severe diseases like respiratory system, intestinal tract, endo\u0002carditis, sepsis, and infections affecting the soft tissues, urinary\r\ntract, and bloodstream. Additionally, it is a significant foodborne\r\npathogen primarily because it produces enterotoxins that can lead\r\nto severe intoxications (Wu et al., 2011, Lu et al., 2014).\r\nIn Staphylococcus aureus, the peptidoglycan composition con\u0002sists of N-acetyl muramyl (L-Ala-D-iGln-L-Lys (Gly5)-D-Ala)-(b\u00024), N-acetyl glucosamine (Mur NAc-Glc NAc), and it generates the\r\nglycan strands. By forming amide bonds between penta glycine\r\ncross bridges (Gly5) and D-Ala residues of adjacent wall peptides,\r\nthe creation of a three-dimensional murein network is achieved\r\n(De Pedro and Cava, 2015).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "The carbohydrate and teichoic acid present in the cell wall of\r\nStaphylococcus is attached to glycan strands. Conversely, exterior\r\nproteins, such as Protein A, are covalently bound and associated\r\nwith pentaglycine cross bonds. Protein A has its N-terminal por\u0002tion, which includes five immunoglobulins (Ig) binding domains,\r\nsituated on the external of Staphylococcus (Rajagopal and Walker,\r\n2017). The C-terminal threonine residue of Protein A is amide\u0002linked to the murein sacculus. During synthesis, Protein A is ini\u0002tially produced in the cytoplasm as a pioneer with an N-terminal\r\nsignal peptide for secretion and a C-terminal cataloging indicator\r\nfor incorporation into the cell envelope.\r\nThe sorting signal of Protein A is cut by sortase A, specifically\r\namong the threonine and glycine of its LPXTG motif. The resulting\r\ncleaved polypeptide forms a thioester-linked intermediate at the\r\nlively site thiol of sortase. A nucleophilic outbreak by a lipid mole\u0002cule (c55-MUrNAc-(L-Ala-D-iGln-L-Lys(Gly5)-D-Ala-D-Ala)-(b-4)-\r\nGlc NAc) at these bond determinations the acyl enzymes. The\r\nexternal protein, now associated with the peptidoglycan initiator,\r\nis subsequently fused into the cell wall envelope through transpep\u0002tidation and transglycosylation reactions (Mazmanian et al., 1999\r\nTon-That et al., 1999). It plays a role in scavenging heme (por\u0002phyrin) by binding to both Fe(2 + ) and Fe(3 + ) heme, with the\r\nmajority being Fe(2 + ) heme. This protein utilizes as a high\u0002affinity heme-binding protein and likely participates in transfer\u0002ring heme–iron from cell wall-anchored Isd protein receptors to\r\nthe probable permease IsdF.\r\nThe research primarily aimed to obtain the primary virulent A\r\nprotein sequence of S. aureus from the SWISS-PROT database. Subse\u0002quently, a blast analysis was conducted on the retrieved sequence to\r\nidentify similar sequences. Multiple alignments were then per\u0002formed on these homologous sequences to identify functional\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "domains and motifs. An NJ tree was constructed by conducting a\r\nphylogenetic analysis of the related sequences. Moreover, the query\r\nprotein’s secondary structure was forecasted. Fingerprints and\r\nblocks were created through ungapped alignment. Comparative\r\nmodeling was carried out using homologous sequences in the SCOP\r\ndatabase to predict the folded tertiary structure of the query protein.\r\n2. Materials and methodology\r\nIn the current study, computational techniques were employed\r\nto analyze amino acid sequences in a biologically significant man\u0002ner. Insilico tools and resources were utilized to effectively charac\u0002terize a protein sequence, identify its biochemical functions, and\r\npredict its folded tertiary structure. Since even slight changes in\r\nstructure can greatly impact a protein’s function, the utilization\r\nof software tools with precision was crucial in these investigations.\r\n2.1. Basic local alignment search tool (BLAST)\r\nBLAST (Basic Local Alignment Search Tool), as defined by\r\nAltschul et al. (1990), has emerged as the standard for search and\r\nalignment tools. Despite its name, BLAST is far from basic it is an\r\nadvanced algorithm that has gained popularity because of its avail\u0002ability, speed, and accuracy, a BLAST search primarily involves\r\nquerying one or more databases, typically hosted by NCBI\r\n(https://www.ncbi.nlm.nih.gov/), with the sequence of interest to\r\nidentify homologous sequences. (McGinnis and Madden, 2004).\r\nBLAST is valuable for inferring function and also not only aids in\r\nidentifying gene family members but also provides insights into\r\nthe evolutionary relationships between sequences.\r\n2.2. E-value\r\nTo restrict the number of hits to the most significant ones, the\r\nE-value, also known as the expected value, can be modified. The\r\nE-value is influenced by the length of the query sequence and\r\nthe size of the database. For E-value < 10e \u0001 100, the sequences\r\nare considered identical, resulting in a long alignment between\r\nboth the query sequence and the hit sequence in their entirety.\r\nWhen the E-value falls between 10e \u0001 50 and 10e \u0001 100, the\r\nsequences are virtually equal, with a long stretch of the query pro\u0002tein matching the database. For E-value between 10e \u0001 10 and 10e\r\n\u0001 50, the sequences are closely related, potentially indicating a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 479,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "domain match or similarity. When the E-value is between 1 and\r\n10e \u0001 6, it becomes a gray area where the sequences could be true\r\nhomologs. However, for E-value > 1, the proteins are unlikely to be\r\nrelated. Hits with E-value > 10 are generally considered to be\r\ninsignificant unless the query sequence is very short.\r\n2.3. T blast n analysis\r\nThis method involved translating a protein sequence and con\u0002ducting comparisons to identify matches with other translated\r\nsequences. Each frame was systematically analyzed for similarity\r\nby introducing gaps. In the case of nucleotides, a list of word\r\nlengths eleven was generated and compared against the query\r\nsequence. This approach was described by Altschul et al. (1997).\r\n2.4. Multiple sequence alignment\r\nThe purpose of the multiple sequence alignment was to gener\u0002ate a concise and informative summary of sequence data, revealing\r\nthe relationships between sequences and a specific gene family.\r\nThe formulation of the Clustal W multiple alignment method can\r\nbe attributed to Thomson et al., 1994. For this study, the pairwise\r\naligned sequences obtained from the previous blast analysis were\r\ncarefully chosen to assess the levels of homology and relatedness.\r\nBy utilizing the dynamic programming method, all combinations of\r\nthe eleven sequences were compared to obtain similarity scores.\r\nThe sequences showing similarities were subjected to local align\u0002ment using dynamic programming, and the resulting consensus\r\nsequences from each comparison were aligned with one another.\r\nFinally, all sequences were combined using the consensus\r\nsequence as a guide. The most similar sequence obtained from this\r\nprocess, along with the conserved regions, was presented along\r\nwith comparative scores.\r\n2.5. Trees constructed using the neighbor-joining method\r\nThe purpose of this analysis was to investigate the evolutionary\r\nrelationships of the sequence, as outlined by Feng and Doolittle,\r\n1996. To accomplish this, a distance matrix was constructed, rep\u0002resenting the genetic distances between sequences, for each pair\u0002P. Ranganathan, A. Varatharajan, K. Mohammed Alarjani et al. Saudi Journal of Biological Sciences 30 (2023) 103812\r\n2\nwise comparison of the proteins. The sequences that were to be\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "aligned acted as the terminal nodes and leaves of the tree. By cal\u0002culating the distances between these sequences (nodes), a phylo\u0002genetic tree was constructed by connecting the most similar\r\nsequences.\r\n2.6. Analyzing predictions of pattern or domain\r\nFunctional domains and regular expression patterns were iden\u0002tified by detecting conserved regions in the multiple aligned\r\nsequences. In the present study, the prosite tool was utilized to dis\u0002cover patterns within the aligned sequences. Initially, the aligned\r\nsequences were examined to locate conserved regions. Subse\u0002quently, sequence information within these conserved regions\r\nwas recorded. The recorded information was searched in the data\u0002base to identify true positive and false positive hits. The false pos\u0002itive matches were re-evaluated, resulting in the creation of\r\noptimal patterns for the query sequence.\r\nThe given set of multiple aligned sequences was used to create\r\nan alignment encoded as hidden Markov models (Sonnhammer\r\net al., 1998). Each position within the alignment was designated\r\nas a match, delete, or insertion state, which facilitated the search\r\nfor sequence conservation within the alignment. The hidden Mar\u0002kov models for the query protein were constructed by searching\r\nthe aligned sequences in the Pfam database.\r\n2.7. Analysis of fingerprint\r\nThe diagnostic patterns construct indicating membership in the\r\nprotein family followed by according to Attwood et.al, 1998. We\r\nexamined all the conserved regions within the sequence and trans\u0002formed the sequence information into matrices that recorded the\r\nfrequency of residues observed at each position of the motifs.\r\nThese created fingerprints were then employed to detect distant\r\nrelatives of the protein within the prints database.\r\n2.8. Block search\r\nIn this research, the protein sequence was used to search the\r\nblock database to identify blocks and discover more members of\r\nthe protein family. The conserved segment of amino acids, which\r\nprovides a distinct function or structure to the queried protein,\r\nwas aligned without any gaps introduced. The resulting blocks\r\nwere then carefully matched in the correct order to validate the\r\nprotein’s family identity.\r\n2.9. Predicting secondary protein structure\r\nThe neural network-based n predicts algorithm was exploited\r\nto forecast the secondary structure of the query protein. This pre\u0002diction relies on the spatial organization of amino acids in the pri\u0002mary structure, which is influenced by hydrophobic interactions,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "hydrogen bonding involving C = O and N–H groups in the back\u0002bone, as well as van der Waals interactions. These interactions give\r\nrise to two distinct secondary structures that exhibit no distortion.\r\nTable 1\r\n‘‘A” protein sequence (A6QG34).\r\nMRIIKYLTIL VISVVILTSC QSSSSQESTK SGEFRIVPTT VALTMTLDKL DLPIVGKPTS 60 YKTLPNRYKD VPEIGQPMEP NVEAVKKLKP THVLSVSTIK DEMQPFYKQL NMKGYFYDFD\r\n120 SLKGMQKSIT QLGDQFNRKA QAKELNDHLN SVKQKsIENKA AKQKKHPKVL ILMGVPGSYL 180 VATDKSYIGD LVKIAGGENV IKVKDRQYIS SNTENLLNIN PDIILRLPHG\r\nMPEEVKKMFQ 240 KEFKQNDIWK HFKAVKNNHV YDLEEVPFGI TANVDADKAM TQLYDLFYKD KK 292\r\nTotal- 292 Amino acid residues\r\nTable 2\r\nTranslated ‘‘A” Protein Sequences.\r\nTTGAGAATCA TAAAGTATTT AACCATTTTA GTGATAAGCG TCGTTATCTT AACCAGCTGT 60\r\nCAATCTTCCA GTTCTCAACA ATCAACTAAA TCCGGCGAAT TCAGAATCGT ACCAACAACT 120\r\nGTTGCATTGA CAATGACATT GGACAAATTG GATTTACCAA TTGTCGGCAA ACCCACGTCA 180\r\nTATAAGACAT TGCCTAATCG TTATAAAGAT TACCGGAAAT TGGTCAACCA ATGGAGCCGA 240\r\nATGTTGAAGC TGTTAAAAAG TTAAAACCAA CACATGTTTT GAGTGTGTCA ACGATTAAAG 300\r\nATGAAATGCA ACCATTTTAC AAACAATTAA ATATGAAAGG CTACTTTTAT GATTTTGATA 360\r\nGTTTAAAAGG GATGCAAAAG TCGATTACAC AATTAGGTGA TCAATTTAAT CGTAAAGCAC 420\r\nAAGCAAAAGA ATTAAATGAC CATTTAAATT CTGTAAAGCA AAAAATTGAA AATAAAGCAG 480\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "CTAAACAAAA GAAACATCCC AAAGTATTAA TATTAATGGG TGTACCTGGT AGCTATTTAG 540\r\nTAGCAACTGA TAAATCATAT ATTGGTGATT TAGTTAAAAT AGCAGGTGGA GAAAATGTTA 600\r\nTTAAAGTGAA AGATCGTCAA TATATTTCGT CTAATACTGA AAATTTATTG AATATCAATC 660\r\nCAGATATTAT TTTAAGATTA CCACACGGAA TGCCTGAAGA AGTTAAGAAA ATGTTTCAAA 720\r\nAAGAATTTAA ACAAAATGAT ATTTGGAAAC ATTTTAAAGC TGTGAAAAAT AATCATGTTT 780\r\nATGACTTAGA GGAAGTGCCA TTCGGTATTA CAGCAAATGT TGATGCTGAT AAGGCAATGA 840\r\nCTCAATTGTA TGATTTATTT TATAAGGATA AAAAA 875\r\nTable 3\r\nTheoretical estimation pI: 9.36 Composition of Amino acids.\r\nAla (A) 12 4.1% Lys (K) 38 13.0%\r\nArg (R) 6 2.1% Met (M) 10 3.4%\r\nAsn (N) 16 5.5% Phe (F) 10 3.4%\r\nAsp (D) 18 6.2% Pro (P) 15 5.1%\r\nCys (C) 1 0.3% Ser (S) 18 6.2%\r\nGln (Q) 15 5.1% Thr (T) 16 5.5%\r\nGlu (E) 15 5.1% Trp (W) 1 0.3%\r\nGly (G) 13 4.5% Tyr (Y) 12 4.1%\r\nHis (H) 6 2.1% Val (V) 23 7.9%\r\nIle (I) 21 7.2% Pyl (O) 0 0.0%\r\nLeu (L) 26 8.9% Sec (U) 0 0.0%\r\n(B) 0 0.0%\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "(Z) 0 0.0%\r\n(X) 0 0.0%\r\nThe total number of negatively charged residues (Asp + Glu) is 33.\r\nThe total number of positively charged residues (Arg + Lys)\r\n44.\r\nThe N-terminal of the sequence considered is M (Met).\r\nInstability index:\r\nThe instability index (II) is computed to be 35.63.\r\nThis classifies the protein as stable.\r\nAliphatic index\r\n89.73.\r\nMolecular weight\r\n33270.71 Daltons.\r\nP. Ranganathan, A. Varatharajan, K. Mohammed Alarjani et al. Saudi Journal of Biological Sciences 30 (2023) 103812\r\n3\n2.10. Transmembrane helices\r\nThe TM pred algorithm (Krogh et al., 2001) was employed to\r\npredict the transmembrane regions and orientation of the query\r\nprotein. Initially, a hydrophobic analysis was performed by calcu\u0002lating the proportion of nonpolar amino acids in the protein. The\r\nneural network utilizes a dynamic programming algorithm to pre\u0002dict the helical orientation (topology) of the protein, taking into\r\naccount the percentage of hydrophobic amino acids present.\r\n2.11. Process of homology modeling\r\nTo predict the folded structure of the query protein, compara\u0002tive modeling (Moreira, 2003) was utilized. Sequences from the\r\nSCOP database that exhibited>30% similarity and possessed identi\u0002cal backbones were obtained. The template structure, which could\r\nbe a single or multiple structure within the protein family, was\r\nselected to model the query protein. In the prediction process,\r\nthe first step involved placing the side chains of the query\r\nsequence onto the template’s backbone. The structurally conserved\r\nregions, such as core secondary structure elements, were then\r\nmodeled, followed by the variable regions (connecting loops) in\r\nthe protein. Finally, the side chains were modeled, resulting in\r\nthe prediction of the folded 3D structure for the query protein.\r\n3. Results\r\nThe protein sequence of Staphylococcus aureus ‘‘A” virulent\r\nprotein, specifically the Heme uptake affinity protein (A6QG34),\r\nwas obtained from the Swiss-Prot database, which is an annotated\r\ndata bank. The details of this protein sequence can be found in\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 475,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Table 1.\r\nThe query protein comprises 292 amino acid residues, and the\r\ntranslated sequence of this query protein is provided in Table 2.\r\n3.1. Analysis and characterization of the query protein\r\nThe amino acid compositions of the query protein were deter\u0002mined by utilizing the Expasy Protparam tool, and the results are\r\ndisplayed in Table 3. The presence of all essential amino acids in\r\nthe protein indicates its stability. By calculating the sum of the\r\nmasses of the amino acid residues, the molecular weight of the\r\nprotein was determined to be 33270.71 Daltons.\r\n3.2. Blast search results\r\nFor Blast p analysis of the query protein, color-coded alignments\r\nof similar sequences were generated based on their expectation (E)\r\nvalues (Fig. 1). For T Blast N results, the translated query protein\r\nwas analyzed, and the color-coded alignments along with 111 sig\u0002nificant matches were obtained from multiple non-redundant\r\ndatabases (Fig. 2).\r\n3.3. Analysis of motif\r\nThe conserved regions identified in the query protein through\r\nmultiple alignments were subsequently searched in different pro\u0002tein secondary databases, such as Pfam, Prosite, and InterPro, to\r\nFig. 1. BLAST query results in Program: blast p Database: swiss Query: (292 letters).\r\nP. Ranganathan, A. Varatharajan, K. Mohammed Alarjani et al. Saudi Journal of Biological Sciences 30 (2023) 103812\r\n4\nestablish profiles, patterns, and blocks (Table 4, Table 5, Table 6,\r\nand Table 7).\r\n3.4. Analysis of fingerprint\r\nA seed alignment was created in the PRINTS database for the\r\nquery protein, encompassing a diagnostic signature found in 11\r\nsequences. The fingerprint performance in terms of diagnosis was\r\nnot particularly high, mainly due to the presence of only two\r\nmotifs. Motif 1 consists of a highly conserved hexapeptide region,\r\nwhile motif 2 extends over a hydrophobic C-terminal anchor.\r\n3.5. Block search\r\nWeighting schemes were employed to characterize the con\u0002stituent motifs and align them without introducing any gaps. The\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "previously established conserved set of residues for the query pro\u0002tein was once again searched to identify the blocks with the high\u0002est scores. Through a search across the blocks database for the A\u0002Fig. 2. T BLAST N Query = (292 letters).\r\nP. Ranganathan, A. Varatharajan, K. Mohammed Alarjani et al. Saudi Journal of Biological Sciences 30 (2023) 103812\r\n5\nprotein family, which comprises 11 sequences, two blocks were\r\ndiscovered.\r\n3.6. Secondary structure prediction\r\nSoftware tools are employed to analyze protein sequences,\r\naccurately predict their folding patterns, and interpret their bio\u0002chemical functions at the molecular level.\r\n3.7. Transmembrane helices\r\nConsidering that the query protein is a surface protein, compu\u0002tational techniques (specifically TMpred) were utilized to predict\r\nthe presence of transmembrane helices. The identification of\r\nnon-polar amino acid residues and transmembrane helices serves\r\nas a confirmation of the query protein’s surface protein nature.\r\n3.8. Homology modelling\r\nThe query protein was initially searched in different structural\r\nprotein databases, such as PDB, to find pre-existing folded tertiary\r\nstructures. However, no matches were found in these structural\r\nrepositories. Therefore, comparative modeling was employed to\r\npredict the protein’s structure. Sequences related to the query pro\u0002tein, such as a protein fragment from SCOP and human apilo pro\u0002teins, were used as templates for the homology modeling\r\nprocess. The resulting folded structure, as predicted earlier by the\r\nTMpred algorithms, displayed predominantly helical conforma\u0002tions in both models (Fig. 4).\r\n4. Discussion\r\nIn this study, a specific ‘‘A” protein from Staphylococcus aureus\r\nisolate was obtained from the Swiss-Prot database (A6QG34),\r\nTable 4\r\nIdentical sequences to ‘‘A” protein (A6QG34).\r\nWP_252597239.1:1–292\r\nMRVIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nYKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "SLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nVATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292 240\r\nWP_060585232.1:1–292\r\nMRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nYKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nSLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nVATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIVLRLPHGMPEEVKKMFQ KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292 240\r\nWP_187787496.1:1–292\r\nMRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nYKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nSLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLVLMGVPGSYL 180\r\nVATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292 240\r\nHCC5652601.1:1–292\r\nMRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "YKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nSLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nVATDKSYIGDLVKIAGGENVVKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292 240\r\nWP_224799133.1:1–292\r\nMRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nYKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nSLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nVATDKSYVGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ\r\nKEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\n240\r\nWP_160199169.1:1–292\r\nMRIIKYLTVLVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nYKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nSLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nVATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ 240\r\nKEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\nWP_130111794.1:1–292\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 452,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "MRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nYKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nSLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nVATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292 240\r\nCAC6283612.1:1–292\r\nMRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nYKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nSLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nVATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292 240\r\nWP_001220199.1:1–292\r\nMRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nYKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nSLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "VATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292 240\r\nWP_064127868.1:1–292\r\nMRIIKYLTILVVSVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nYKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nSLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nVATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ\r\nKEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\n240\r\nP. Ranganathan, A. Varatharajan, K. Mohammed Alarjani et al. Saudi Journal of Biological Sciences 30 (2023) 103812\r\n6\nwhich is an annotated primary protein data bank (Bairoch and\r\nApweiller, 1998). Whisstock and Lesk, (2003) reveals the protein’s\r\nsequence might provide insights into its structural characteristics.\r\nCertain regions of the sequence might be responsible for specific\r\nfunctions or interactions (Table 1). Exploring the sequence could\r\ninvolve identifying domains, motifs, or other functional elements.\r\nThe retrieved protein was then analyzed for its sequence and struc\u0002ture using different bioinformatics tools. To identify homologous\r\nsequences, the primary sequence was initially analyzed using NCBI\r\ntools, specifically blast P and T blast N. Table 2 translated ’A’ Pro\u0002tein Sequences‘‘ encapsulates the conversion of genetic informa\u0002tion from nucleic acids to proteins. This process is essential for\r\nunderstanding biological functions, evolutionary relationships,\r\nand various applications in science and medicine (Goldman et al.,\r\n2023). This analysis yielded 159 blast hits with E values ranging\r\nbetween e across multiple non-redundant databases.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Genomic analysis conducted on the invasive Staphylococcus aur\u0002eus indicated its association with the emm gene pool (Ferretti et al.,\r\n2001). During the translated blast analysis of the query protein, it\r\nwas found to have similarities with other emm gene types. Further\r\nexamination of the homologous sequence obtained from the pair\u0002wise analysis involved using the Clustal W multiple alignment\r\nmethod (Thomson et al., 1994). This analysis resulted in the iden\u0002tification of 10 groups and three motifs. Muhammad et al., (2023)\r\nreveals that encompasses the theoretical determination of the iso\u0002electric point (pI) of a protein and the description of the amino acid\r\ncomposition in that protein (Table 3). These concepts are central to\r\nunderstanding the properties and behavior of proteins in various\r\nbiological contexts.\r\nSignal peptide regions not only indicate homology but also pro\u0002vide insights into the function of a protein. Table 4 discussing iden\u0002tical sequences to the ‘‘A” protein (A6QG34) involves exploring the\r\nconservation, function, and evolutionary significance of proteins\r\nwith the same amino acid sequence (Ali et al., 2023). It can provide\r\ninsights into fundamental biological processes and contribute to\r\nvarious fields of research, including molecular biology, evolution\u0002ary biology, and biotechnology. When it comes to the query pro\u0002tein, a motif responsible for signal transfer was identified at the\r\nbeginning of the transmembrane domain. To predict the domains\r\nof the protein, the Pfam collection of hidden Markov models\r\nTable 5\r\nCLUSTAL O (1.2.4) Multiple Sequence Alignments.\r\nWP_252597239.1:1–292 MRVIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nWP_060585232.1:1–292 MRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nWP_187787496.1:1–292 MRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 477,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "HCC5652601.1:1–292 MRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nWP_224799133.1:1–292 MRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nWP_160199169.1:1–292 MRIIKYLTVLVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nWP_130111794.1:1–292 MRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nCAC6283612.1:1–292 MRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nWP_001220199.1:1–292 MRIIKYLTILVISVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nWP_064127868.1:1–292 MRIIKYLTILVVSVVILTSCQSSSSQESTKSGEFRIVPTTVALTMTLDKLDLPIVGKPTS 60\r\nWP_252597239.1:1–292 YKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nWP_060585232.1:1–292 YKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nWP_187787496.1:1–292 YKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nHCC5652601.1:1–292 YKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "WP_224799133.1:1–292 YKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nWP_160199169.1:1–292 YKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nWP_130111794.1:1–292 YKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nCAC6283612.1:1–292 YKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nWP_001220199.1:1–292 YKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nWP_064127868.1:1–292 YKTLPNRYKDVPEIGQPMEPNVEAVKKLKPTHVLSVSTIKDEMQPFYKQLNMKGYFYDFD 120\r\nWP_252597239.1:1–292 SLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nWP_060585232.1:1–292 SLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nWP_187787496.1:1–292 SLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLVLMGVPGSYL 180\r\nHCC5652601.1:1–292 SLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nWP_224799133.1:1–292 SLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "WP_160199169.1:1–292 SLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nWP_130111794.1:1–292 SLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nCAC6283612.1:1–292 SLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nWP_001220199.1:1–292 SLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nWP_064127868.1:1–292 SLKGMQKSITQLGDQFNRKAQAKELNDHLNSVKQKIENKAAKQKKHPKVLILMGVPGSYL 180\r\nWP_252597239.1:1–292 VATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ 240\r\nWP_060585232.1:1–292 VATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIVLRLPHGMPEEVKKMFQ 240\r\nWP_187787496.1:1–292 VATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ 240\r\nHCC5652601.1:1–292 VATDKSYIGDLVKIAGGENVVKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ 240\r\nWP_224799133.1:1–292 VATDKSYVGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ 240\r\nWP_160199169.1:1–292 VATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ 240\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "WP_130111794.1:1–292 VATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ 240\r\nCAC6283612.1:1–292 VATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ 240\r\nWP_001220199.1:1–292 VATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ 240\r\nWP_064127868.1:1–292 VATDKSYIGDLVKIAGGENVIKVKDRQYISSNTENLLNINPDIILRLPHGMPEEVKKMFQ 240\r\nWP_252597239.1:1–292 KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\nWP_060585232.1:1–292 KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\nWP_187787496.1:1–292 KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\nHCC5652601.1:1–292 KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\nWP_224799133.1:1–292 KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\nWP_160199169.1:1–292 KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\nWP_130111794.1:1–292 KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\nCAC6283612.1:1–292 KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "WP_001220199.1:1–292 KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\nWP_064127868.1:1–292 KEFKQNDIWKHFKAVKNNHVYDLEEVPFGITANVDADKAMTQLYDLFYKDKK 292\r\nP. Ranganathan, A. Varatharajan, K. Mohammed Alarjani et al. Saudi Journal of Biological Sciences 30 (2023) 103812\r\n7\n(HMM) was employed. This analysis grouped strongly matched\r\nsequences into common families (Krogh et al., 2001). The HMM\r\nanalysis indicated that the query protein belongs to the A protein\r\nfamily and is related to other surface protein families within the\r\nPfam database.\r\nThe analysis of fingerprints in the database confirmed the pres\u0002ence of the hydrophobic C terminal anchor motif and seed align\u0002ment for Protein A. Additionally, the ungapped alignment was\r\nutilized to create blocks, allowing for the inclusion of more mem\u0002bers into the family of the query protein. This further confirmed\r\nthe conserved regions within the motifs. Danoy et al., (2023) sum\u0002marizes the CLUSTAL O (1.2.4) is a version of the CLUSTAL software\r\nused for performing multiple sequence alignments (Table 5). This\r\ntool is important in various biological analyses, including under\u0002standing evolutionary relationships, predicting protein structures,\r\nand annotating functional motifs. However, like any alignment\r\ntool, it has its limitations and considerations for optimal usage.\r\nThe similarity search criteria were then employed to investigate\r\nthe structure and function of the query protein. The folding of the\r\nprotein is influenced by steric hindrance and hydrogen bonding\r\npatterns, which affect its torsional angles (Creighton, 1993). The\r\nprotein was found to contain amino acids with higher propensities\r\nfor helices, such as alanine, glutamic acid, and leucine. On the other\r\nhand, proline, which exhibits an index of 35.63%, was also present\r\nin the protein. Stable secondary structures were predicted for the\r\nprotein. Table 6 performing a motif scan for the ‘‘A” protein in sec\u0002ondary databases involves searching for conserved sequence pat\u0002terns that could correspond to functional elements (Li et al.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "2023). Secondary databases like InterPro, Pfam, PROSITE, and\r\nSMART offer resources for motif scanning, aiding in functional\r\nannotation and insights into protein sequences.\r\nAccording to Krogh et al., 2001, the presence of transmembrane\r\nhelices indicates that a protein is located in the membrane. The\r\nTampered analysis predicted two transmembrane helices with a\r\nstrong preference for this orientation in the query protein. This\r\nanalysis further confirmed the surface protein identity of the query\r\nprotein. Shinde et al., (2023) stated using the Pfam database for the\r\ncharacterization of various domains in a query protein enables a\r\ndeeper understanding of its functional and structural components\r\n(tabe 7). It provides insights into the protein’s potential roles,\r\ninteractions, and evolutionary context.\r\nFig. 1 the BLASTp query against the Swiss-Prot database with a\r\n292-letter query sequence provides information about homolo\u0002gous matches, potential functional annotations, and insights into\r\nthe relationships of the query protein with known sequences. Lai\r\nTable 6\r\nMotif Scan For A – Protein In Secondary Databases.\r\nTable 7\r\nCharacterization of various domains of the query protein in pfam database.\r\nDomain Start End\r\nPeripla_BP_2 49 265\r\nMuted 99 161\r\nNT5C 101 157\r\nICL 80 168\r\nDUF2098 95 163\r\nFig. 3. NJ Tree for multiple aligned sequence.\r\nP. Ranganathan, A. Varatharajan, K. Mohammed Alarjani et al. Saudi Journal of Biological Sciences 30 (2023) 103812\r\n8\net al., (2000) a TBLASTN query with a 292-letter translated nucleo\u0002tide sequence aims to identify potential protein-coding regions\r\nwithin the nucleotide sequence by comparing it to protein\r\nsequences in the database (Fig. 2). This approach is valuable for\r\ngene prediction, functional annotation, and understanding the\r\npotential coding capacity of DNA sequences.\r\nThe Neighbor-Joining (NJ) algorithm constructs a phylogenetic\r\ntree (Fig. 3) based on pairwise distances calculated from a multiple\r\nsequence alignment (Brinkman and Leipe, 2001). The NJ tree pro\u0002vides insights into the evolutionary relationships among the\r\nsequences and is valuable for understanding the relatedness and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "evolutionary history of species or sequences. Fig. 4 homology mod\u0002eling is a powerful computational tool for predicting the three\u0002dimensional structure of a protein based on the known structure\r\nof a related protein. It plays a crucial role in understanding protein\r\nstructure–function relationships, drug discovery, and molecular\r\nstudies. However, it’s essential to consider its limitations and val\u0002idate the resulting models rigorously (Kopp and Schwede, 2004).\r\n5. Conclusion\r\nThe protein mentioned above, retrieved from SWISS-PROT\r\nunderwent compositional, domain, fingerprint, secondary struc\u0002ture, and tertiary structure analyses using various software tools\r\nto establish its functions. The compositional analysis of the protein\r\nunveiled a higher number of aliphatic amino acids, and the insta\u0002bility index was determined to be 35%. Consequently, it was classi\u0002fied as a stable protein. The protein sequence was then subjected to\r\nBlast P and T blast n analyses to identify similar sequences.\r\nThrough Multiple Sequence Alignment using the Clustal tool,\r\nthe related sequences revealed the presence of three motifs. Sec\u0002ondary structure analysis and transmembrane analysis indicated\r\nthat the protein predominantly consists of helices in its secondary\r\nstructure. By employing homology modeling with similar\r\nsequences from the SCOP database, the folded tertiary structure\r\nof the query protein was determined.\r\nDeclaration of Competing Interest\r\nThe authors declare that they have no known competing finan\u0002cial interests or personal relationships that could have appeared\r\nto influence the work reported in this paper.\r\nAcknowledgments\r\nThe authors extend their appreciation to the Researchers sup\u0002porting project number (RSP2023R185), King Saud University,\r\nRiyadh, Saudi Arabia.\r\nAppendix A. Supplementary material\r\nSupplementary data to this article can be found online at\r\nhttps://doi.org/10.1016/j.sjbs.2023.103812.\r\nReferences\r\nAli, H., Mahmood, M., Adnan, M., Afzal, G., Perween, S., Akhtar, R.W., Jabeen, R., Asif,\r\nA.R., Faryal, S., Rahman, A., Muhammad, S.A., 2023. Comparative evolutionary\r\nand structural analyses of the TYRP1 gene reveal molecular mechanisms of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "biological functions in mammals. J. King Saud Univ.-Sci. 35, (6) 102772.\r\nAltschul, S.F., Gish, W., Miller, W., Myers, E.W., Lipman, D.J., 1990. Basic local\r\nalignment search tool. J. Mol. Biol. 215 (3), 403–410.\r\nAltschul, S.F., Madden, T.L., Schäffer, A.A., Zhang, J., Zhang, Z., Miller, W., Lipman, D.J.,\r\n1997. Gapped BLAST and PSI-BLAST: a new generation of protein database\r\nsearch programs. Nucleic Acids Res. 25 (17), 3389–3402.\r\nAttwood, G.T., Klieve, A.V., Ouwerkerk, D., Patel, B.K., 1998. Ammonia-hyper\r\nproducing bacteria from New Zealand ruminants. Appl. Environ. Microbiol. 64\r\n(5), 1796–1804.\r\nBairoch, A., Apweiler, R., 1998. The SWISS-PROT protein sequence data bank and its\r\nsupplement TrEMBL in 1998. Nucleic Acids Res. 26 (1), 38–42.\r\nBrinkman, F.S. and Leipe, D.D., 2001. Phylogenetic analysis. Bioinformatics: a\r\npractical guide to the analysis of genes and proteins, 2, p.349.\r\nChakroborty, D., Sarkar, C., Yu, H., Wang, J., Liu, Z., Dasgupta, P.S., Basu, S., 2011.\r\nDopamine stabilizes tumor blood vessels by up-regulating angiopoietin 1\r\nexpression in pericytes and Krüppel-like factor-2 expression in tumor\r\nendothelial cells. Proc. Natl. Acad. Sci. 108 (51), 20730–20735.\r\nFig. 4. Homology Modeling of A Protein (3D Structure).\r\nP. Ranganathan, A. Varatharajan, K. Mohammed Alarjani et al. Saudi Journal of Biological Sciences 30 (2023) 103812\r\n9\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Creighton, J.R., Parmeter, J.E., 1993. Metal CVD for microelectronic applications: An\r\nexamination of surface chemistry and kinetics. Crit. Rev. Solid State Mater. Sci.\r\n18 (2), 175–237.\r\nde Pedro, M.A., Cava, F., 2015. Structural constraints and dynamics of bacterial cell\r\nwall architecture. Front. Microbiol. 6, 449.\r\nFeng, D.F. and Doolittle, R.F., 1996. Progressive alignment of amino acid sequences\r\nand construction of phylogenetic trees from them. In Methods in enzymology\r\n(Vol. 266, pp. 368-382). Academic Press.\r\nFerretti, J.J., McShan, W.M., Ajdic, D., Savic, D.J., Savic, G., Lyon, K., Primeaux, C.,\r\nSezate, S., Suvorov, A.N., Kenton, S., Lai, H.S., 2001. Complete genome sequence\r\nof an M1 strain of Streptococcus pyogenes. Proc. Natl. Acad. Sci. 98 (8), 4658–\r\n4663.\r\nGoldman, A.D., Weber, J.M., LaRowe, D.E. and Barge, L.M., 2023. Electron transport\r\nchains as a window into the earliest stages of evolution. Proceedings of the\r\nNational Academy of Sciences, 120(34), p.e2210924120.\r\nKopp, J., Schwede, T., 2004. Automated protein structure homology modeling: a\r\nprogress report. Pharmacogenomics 5 (4), 405–416.\r\nKrogh, A., Larsson, B., Von Heijne, G., Sonnhammer, E.L., 2001. Predicting trans\r\nmembrane protein topology with a hidden Markov model: application to\r\ncomplete genomes. J. Mol. Biol. 305 (3), 567–580.\r\nLai, C.H., Chou, C.Y., Ch’ang, L.Y., Liu, C.S., Lin, W.C., 2000. Identification of novel\r\nhuman genes evolutionarily conserved in Caenorhabditis elegans by\r\ncomparative proteomics. Genome Res. 10 (5), 703–713.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Li, R., Xu, J., Qi, Z., Zhao, S., Zhao, R., Ge, Y., Li, R., Kong, X., Wu, Z., Zhang, X. and He,\r\nQ., 2023. High-resolution genome mapping and functional dissection of\r\nchlorogenic acid production in Lonicera maackii. Plant Physiology, p.kiad295.\r\nLu, L., Li, G.Y., Swindlehurst, A.L., Ashikhmin, A., Zhang, R., 2014. An overview of\r\nmassive MIMO: Benefits and challenges. IEEE J. Sel. Top. Signal Process. 8 (5),\r\n742–758.\r\nMazmanian, S.K., Liu, G., Ton-That, H., Schneewind, O., 1999. Staphylococcus aureus\r\nsortase, an enzyme that anchors surface proteins to the cell wall. Science 285\r\n(5428), 760–763.\r\nMcGinnis, S., Madden, T.L., 2004. BLAST: at the core of a powerful and diverse set of\r\nsequence analysis tools. Nucleic Acids Res. 32 (suppl_2), W20–W25.\r\nMilani, M., Curia, R., Shevlyagina, N.V., Tatti, F., 2023. Staphylococcus aureus. In:\r\nBacterial Degradation of Organic and Inorganic Materials. Springer, Cham.\r\nhttps://doi.org/10.1007/978-3-031-26949-3_1.\r\nMoreira, M.J., 2003. A conditional likelihood ratio test for structural models.\r\nEconometrica 71 (4), 1027–1048.\r\nMuhammad Rehman, H., Rehman, H.M., Naveed, M., Khan, M.T., Shabbir, M.A.,\r\nAslam, S. and Bashir, H., 2023. In Silico Investigation of a Chimeric IL24-LK6\r\nFusion Protein as a Potent Candidate Against Breast Cancer. Bioinformatics and\r\nBiology Insights, 17, p.11779322231182560.\r\nRajagopal, M. and Walker, S., 2017. Envelope structures of Gram-positive bacteria.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8551995243866273110,
+        "filename": "main.PMC10519841.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 28,
+      "version": "1.0.0"
+    },
+    "text": "Protein and sugar export and assembly in Gram-positive bacteria, pp.1-44.\r\nSangeetha, D., Sumathi, V., Ishwarya, R., 2023. Biofilm formation-An overview and\r\nits control Measures. Curr. Res. Life Sci., 101\r\nShinde, T.V., Shinde, T.G., Chougule, V.V., Ghorpade, A.R., Utekar, G.V., Jadhav, A.S.,\r\nPawar, B.S., Sanmukh, S.G., 2023. Comparative functional genomics studies for\r\nunderstanding the hypothetical proteins in variant Microti 12. Open Bioinform.\r\nJ. 16 (1).\r\nSonnhammer, E.L., Eddy, S.R., Birney, E., Bateman, A., Durbin, R., 1998. Pfam:\r\nmultiple sequence alignments and HMM-profiles of protein domains. Nucleic\r\nAcids Res. 26 (1), 320–322.\r\nThomson, E., Hanson, T.L., McLanahan, S.S., 1994. Family structure and child well\u0002being: Economic resources vs. parental behaviors. Soc. Forces 73 (1), 221–242.\r\nTon-That, H., Liu, G., Mazmanian, S.K., Faull, K.F., Schneewind, O., 1999. Purification\r\nand characterization of sortase, the transpeptidase that cleaves surface proteins\r\nof Staphylococcus aureus at the LPXTG motif. Proc. Natl. Acad. Sci. 96 (22),\r\n12424–12429.\r\nWhisstock, J.C., Lesk, A.M., 2003. Prediction of protein function from protein\r\nsequence and structure. Q. Rev. Biophys. 36 (3), 307–340.\r\nWu, H., Zhang, Y., 2011. Mechanisms and functions of Tet protein-mediated 5-\r\nmethylcytosine oxidation. Genes Dev. 25 (23), 2436–2452.\r\nP. Ranganathan, A. Varatharajan, K. Mohammed Alarjani et al. Saudi Journal of Biological Sciences 30 (2023) 103812\r\n10\n\n"
+  }
+]

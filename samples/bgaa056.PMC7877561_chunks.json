@@ -1,0 +1,770 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Carcinogenesis, 2021, Vol. 42, No. 1, 105–117\r\ndoi:10.1093/carcin/bgaa056\r\nAdvance Access publication June 12, 2020\r\nOriginal Article\r\n105\r\nReceived: April 21, 2020; Revised: May 28, 2020; Accepted: June 8, 2020\r\n© The Author(s) 2020. Published by Oxford University Press.\r\nThis is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License \r\n(http://creativecommons.org/licenses/by-nc/4.0/), which permits non-commercial re-use, distribution, and reproduction in any \r\nmedium, provided the original work is properly cited. For commercial re-use, please contact journals.permissions@oup.com\r\nOriginal Article\r\nDUOX2 promotes the progression of colorectal cancer \r\ncells by regulating the AKT pathway and interacting \r\nwith RPL3\r\nXue Zhang1,2, Jing Han1,2, Li Feng1, Lianghui Zhi2, Da Jiang1, Bin Yu2, Zhenya Zhang2, \r\nBo Gao2, Cong Zhang3, Meng Li2, Lianmei Zhao3,* and Guiying Wang2,4,*,\r\n1\r\nDepartment of Medical Oncology, Hebei Medical University Fourth Affiliated Hospital, Shijiazhuang 050000, Hebei, China, \r\n2\r\nThe Second General Surgery, Hebei Medical University Fourth Affiliated Hospital, Shijiazhuang 050000, Hebei, China, \r\n3\r\nScientific Research Center, Hebei Medical University Fourth Affiliated Hospital, Shijiazhuang 050000, Hebei, China and \r\n4\r\nDepartment of General Surgery, Hebei Medical University Third Affiliated Hospital, Shijiazhuang 050000, Hebei, China\r\n*To whom correspondence should be addressed. Tel: +86 0311 86095347; Fax: +86 0311 86032788; Email: wangguiyingtgzy@163.com\r\nCorrespondence may also be addressed to Lianmei Zhao. Tel: +86 0311 86095290; Fax: +86 0311 86032788; Email: zhaolianmei@hbydsy.com\r\nAbstract\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Dual oxidase 2 (DUOX2) is an important regulatory protein in the organic process of thyroid hormone iodine. Mounting \r\nevidence suggests that DUOX2 plays a crucial role in the occurrence and development of cancers. However, the function and \r\nmechanism of DUOX2 in colorectal cancer (CRC) have not been fully clarified. In the present study, the relationship between \r\nthe expression of DUOX2 and the clinicopathological features and prognosis of CRC patients was analyzed. Furthermore, \r\nthe effects of DUOX2 on proliferation and invasion in vitro and in vivo were examined. DUOX2-associated proteins were \r\nidentified by immunoprecipitation (IP). Next-generation sequencing detection was performed to illustrate the mechanism \r\nof DUOX2 in CRC cells. It was found that the expression levels of DUOX2 in metastatic sites were significantly higher than \r\nthose in primary tumor tissues, and this was demonstrated to be associated with poor prognosis. The knockdown of DUOX2\r\ninhibited the invasion and migration of CRC cells. Furthermore, DUOX2 regulated the stability of ribosomal protein uL3 \r\n(RPL3) by affecting the ubiquitination status of RPL3, and the invasion and migration ability of DUOX2 can be reversed by \r\nthe overexpression of RPL3. The downregulation of DUOX2 can affect the expression level of a large number of genes, and \r\na number of these are enriched in the PI3K–AKT pathway. Some of the changes caused by DUOX2 can be reversed by RPL3. \r\nIn summary, DUOX2 exhibits a significantly higher expression in CRC tumor samples, and facilitates the invasion and \r\nmetastasis ability of CRC cells by interacting with RPL3.\r\nIntroduction\r\nColorectal cancer (CRC) is one of the most common malignan\u0002cies worldwide, and the second leading cause of tumor death \r\n(1). With the aging of the population and the change in lifestyle, \r\nthe incidence of CRC is gradually increasing worldwide, which \r\nseriously endangers human health. Among the malignant tu\u0002mors in China, the incidence and mortality rate of CRC ranks \r\nthe top five, and approximately 60% of these patients are diag\u0002nosed in the middle and late stage (2). The 5-year survival rate \r\nof early stage patients can reach approximately 90%, while that \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "of advanced patients is merely less than 10% (3). Once recur\u0002rence and metastasis occur, the survival of CRC patients would \r\nbe greatly threatened. Therefore, there is an urgent need to iden\u0002tify novel metastasis-related biomarkers for CRC.\r\nDUOX2 belongs to the NADPH oxidase (NOX) family. In \r\nthis family, there are other six members: DUOX1, NOX1, NOX2, \r\nNOX3, NOX4 and NOX5. DUOX1 and DUOX2 genes are located on \r\nhuman chromosome 15, which are two closely related isoforms, \r\nand were originally discovered in the thyroid gland (4). These are \n106 | Carcinogenesis, 2021, Vol. 42, No. 1\r\nassociated with thyroid dyshormonogenesis and genetic tran\u0002sient congenital hypothyroidism (5–7). The NOX family plays \r\na different role in the carcinogenesis process. Recent studies \r\nhave revealed that DUOX2 is upregulated in liver cancer (8), \r\npancreatic cancer (9–11) and prostate cancer (12), while this \r\nis downregulated in lung cancer (13). In addition, DUOX2 may \r\naffect the therapeutic effect of gastrointestinal cancer (14,15). \r\nHowever, the role of DUOX2 in CRC remains unclear. The present \r\nstudy aims to clarify the role of DUOX2 in the invasion and me\u0002tastasis of CRC, and its possible mechanism.\r\nIn the previous study conducted by the investigators, 11 pairs \r\nof cancer tissues and normal tissues were compared, and it was \r\ndemonstrated that 1606 mRNAs are highly expressed in cancer \r\ntissues, when compared with para-cancer tissues (GSE104836) \r\n(16). In a further study, three CRC patients with lymphatic me\u0002tastasis and six CRC patients without lymphatic metastasis were \r\ncompared. It was found that DUOX2 is more highly expressed in \r\nCRC tissues, when compared with para-cancer tissues, and is \r\nalso more highly expressed in cancer tissues with lymph node \r\nmetastasis, when compared with cancer tissues without lymph \r\nnode metastasis. In the present study, the effect of DUOX2 on \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "the phenotype of CRC cells in vitro and in vivo was evaluated. \r\nFinally, the potential mechanism of dual oxidase 2 (DUOX2) in \r\ninteracting with ribosomal protein uL3 (RPL3) to promote the de\u0002velopment of CRC was revealed.\r\nMaterials and methods\r\nHuman CRC tissue samples\r\nFresh tissue specimens were collected from 89 CRC patients from Hebei \r\nMedical University Fourth Affiliated Hospital (Hebei, China), between \r\n2018 and 2019, for the real-time quantitative reverse-transcription poly\u0002merase chain reaction (qRT-PCR) test. All 89 paired CRC tissue samples \r\nincluded para-cancer tissue specimens (at least 5  cm away from the \r\nedge of the tumor mass) and cancer tissue specimens (confirmed by \r\npathological diagnosis). In addition, the paraffin specimens of 50 meta\u0002static CRC (mCRC) patients between 2010 and 2014 were collected for the \r\nimmunohistochemical (IHC) test. All mCRC patients had lymph nodes \r\nand liver metastases, and underwent resection of the primary lesion and \r\nmetastatic liver. Then, the clinicopathological features were simultan\u0002eously summarized. The present study was approved by the Ethics Review \r\nBoard of Hebei Provincial Tumor Hospital, and a signed informed consent \r\nwas provided by all subjects.\r\nThe qRT-PCR\r\nTotal RNA was extracted using TRIzol Reagent (Thermo, Waltham, MA), \r\nand reverse-transcribed into complementary DNA (cDNA) with the same \r\nRNA concentration for each sample using the Reverse Transcription \r\nSystem (Promega, Fitchburg, WI), according to the manufacturer’s instruc\u0002tions. Then, the prepared cDNA was subjected to quantitative PCR (qPCR) \r\nanalysis using the 7500 RT-PCR System (AB Applied Biosystems) with the \r\nqPCR Mix (Promega, Madison, WI). Real-time PCR assays were performed to \r\nquantify the mRNA levels of DUOX2, DUOXA2, CCDC113, PODXL2, PDZK1IP1, \r\nSYNE4, SHH, MAGEA3, RPL3, MYC, AKT1, EGFR and GAPDH. The comparative \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Ct method (ΔΔCt) was used to analyze relative expression of genes. The \r\nfold change was evaluated as 2−ΔΔCt. Three technical replicates per sample \r\nwere presented. The primers for CCDC113, PODXL2, PDZK1IP1, SYNE4, SHH\r\nand MAGEA3 were purchased from GeneCopoeia (Rockville, MD), and \r\nthe product IDs were HQP063033, HQP012148, HQP000201, HQP071160, \r\nHQP017098 and HQP010978, respectively. The other primer sequences are \r\npresented in Supplementary Table 1, available at Carcinogenesis Online.\r\nIHC staining\r\nIHC staining was performed to analyze the expression of DUOX2 in the \r\n50 collected mCRC samples. In order to further explore the relationship \r\nbetween DUOX2 and RPL3, tissue microarrays were used, which consisted \r\nof 35 pairs of CRC tissues and adjacent tissues. Antibodies against DUOX2 \r\n(Bioss, Beijing, China) or RPL3 (Proteintech, Wuhan, China) were applied at \r\na dilution of 1:200. The IHC results were independently assessed by at least \r\ntwo pathologists. Each section was scored according to the intensity of \r\nthe staining and the percentage of positive cells, respectively. The staining \r\nintensity was scored, as follows: 0 (negative), 1 (weak staining), 2 (mod\u0002erate intense staining) or 3 (strong staining). The extent of the staining \r\nwas scored based on the percentage of positive cells: 0 (≤5%), 1 (6–25%), \r\n2 (26–50%), 3 (50–75%) and 4 (>75%). The final IHC score was obtained by \r\nmultiplying the intensity and percentage scores.\r\nHematoxylin and eosin (H&E) staining\r\nThe paraffin sections were dewaxed in water, and stained with hema\u0002toxylin dye solution (Servicebio, Wuhan, China) for 3–5 min. Then, these \r\nwere washed by tap water, differentiated by differentiation solution \r\n(Servicebio, Wuhan, China), washed again by tap water, colored blue by \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "the blue solution (Servicebio, Wuhan, China), and washed by water again. \r\nAfterwards, the sections were successively dehydrated with 85 and \r\n95% gradient alcohol for 5 min, respectively, and stained with eosin dye \r\n(Servicebio, Wuhan, China) for 5 min. Finally, the tablet was dehydrated \r\nand sealed.\r\nWestern blot (WB) analysis\r\nWB analysis was performed according to a previously described pro\u0002cedure (17). The antibody for DUOX2 was purchased from ORIGENE \r\nTechnologies (Rockville). The antibody for RPL3 was purchased from \r\nBETHYL Laboratories (Montgomery). The antibodies for ubiquitin, GAPDH, \r\nE-cadherin and N-cadherin were purchased from Proteintech (Wuhan, \r\nChina). The antibodies for AKT, c-MYC, EGFR, MMP-2 and MMP-9 were pur\u0002chased from Cell Signaling Technology (Danfoss, Boston, MA). The anti\u0002body for p-AKT was purchased from Affinity (OH).\r\nCell culture\r\nThe SW480, SW620, HT29, HCT116 and DLD-1 CRC cell lines were pur\u0002chased from the Type Culture Collection of the Chinese Academy of \r\nScience (Shanghai, China). NCM460, which is a normal human colon mu\u0002cosa cell line, was obtained from INCELL (San Antonio, TX). All cell lines \r\nwere authenticated using short tandem repeat profiling at the time of pur\u0002chase. Next, SW480, SW620 and HT29 were cultured in Dulbecco’s modi\u0002fied Eagle’s medium (Thermo, MA, Waltham, MA). Then, NCM460, HCT116 \r\nand DLD-1 were cultured in RPMI-1640 medium (Thermo, Waltham, MA). \r\nBoth kinds of medium contained 10% fetal bovine serum and 1% anti\u0002biotic. All experiments were performed with mycoplasma-free cells.\r\nTransient transfection and stable transfection\r\nDUOX2 was silenced in HCT116 and SW480 cells using siRNAs (Invitrogen, \r\nCarlsbad), according to the manufacturer’s instructions. The target \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "sequences were as follows: si1-DUOX2, 5′-GGAGGACAACAUAGUGGUUTT\r\nAACCACUAUGUUGUCCUCCTT-3′; si2-DUOX2, 5′-CCAUGAUGCGAUCCUUC\r\nAUTTAUGAAGGAUCGCAUCAUGGTT-3′; si3-DUOX2, 5′-GCCAAAUGCUGUG\r\nUAAGAATTUUCUUACACAGCAUUUGGCTT-3′. The corresponding negative \r\ncontrol RNA target sequence was 5′-UUCUCCGAACGUGUCACGUTTACGU\r\nGACACGUUCGGAGAATT-3′. In order to stably knockdown DUOX2 in cells, \r\nthe siRNA targeting the si1-DUOX2 coding sequence was designed and \r\ninserted into the lentiviral vector (Genechem Co., Ltd., Shanghai, China). \r\nA scramble siRNA was used as the negative control. The knockdown effi\u0002ciencies were evaluated by qRT-PCR and WB analysis.\r\nPlasmid transfection\r\nIn order to overexpress DUOX2 and RPL3 in cells, an expression construct \r\nwas generated by subcloning the PCR-amplified full-length human DUOX2\r\nor RPL3 cDNA into an EX-E1601-M02 or EX-F0331-M02 vector (GeneCopoeia, \r\nAbbreviations\r\nCRC colorectal cancer\r\nIP immunoprecipitation\r\nMS mass spectrometry\r\nROS reactive oxygen species\r\nWB western blot\nX.Zhang et al. | 107\r\nRockville, MD). An empty vector was used as the negative control. The \r\noverexpression efficiencies were evaluated by WB analysis.\r\nCell proliferation and viability assays\r\nThe colony-formation assay was carried out to evaluate the cell prolif\u0002eration. Treated cells were seeded into a 6-well plate at 3000 cells/well, \r\nand cultured for 10  days. Then, the colonies were fixed with methanol \r\nand stained with crystal violet for 5–10 min, and the macroscopic colonies \r\nwere counted. Cell viability was evaluated by 3-(4,5-dimethylthiazol-2-yl)-\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "5-(3-carboxymethoxyphenyl)-2-(4-sulfophenyl)-2H-tetrazolium, inner salt \r\n(MTS) assay. Cells were cultured in 96-well plates at a density of 3000 cells/\r\nwell, and this was performed using a MTS assay kit (Promega, Fitchburg, \r\nWI) for 3 days, according to the manufacturer’s instructions.\r\nCell migration and Matrigel invasion assays\r\nCell migration and invasion assays were performed using the Transwell \r\nplate (Corning, NY) and wound scratch assay, respectively. For the inva\u0002sion assays, the chamber inserts were coated with 60 µl of Matrigel (BD, \r\nNJ), and dried for 12–16 h under sterile conditions in advance. Each upper \r\nchamber was plated with 1.5 × 105\r\n cells, and each assay was repeated for \r\nthree times. A microscope was used to quantify the number of migratory \r\nor invasive cells. The degree of invasion and migration was described as \r\nthe number of treated cells. For the wound scratch assay, wound healing \r\npercentage was defined, as follows: (initial scratch area − certain time \r\nscratch area)/initial scratch area.\r\nImmunoprecipitation (IP) and liquid \r\nchromatography–tandem mass spectrometry \r\n(LC–MS/MS)\r\nThe cell lysate of SW480 cells was obtained, and the total protein concen\u0002tration was measured. Then, 1 mg of protein lysate supernatants and 30 µl \r\nof precleared protein A/G beads (Roche, Switzerland) were mixed with 3 µg \r\nof primary antibody (rabbit IgG and DUOX2, respectively), and incubated \r\ntogether at 4°C overnight. Then, the proteins were separated by sodium \r\ndodecyl sulfate–polyacrylamide gel electrophoresis. Afterwards, silver \r\nstaining was performed. A significant band between 40 and 55 Kka was \r\nfound on the gel, when compared with the control group. The LC–MS/MS \r\nanalysis was carried out to identify the proteins from the samples. The \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Proteome discoverer software (version 1.4; Thermo Scientific) was used \r\nto the perform database search against the Oryctolagus cuniculus data\u0002base (46 601 proteins) using the Sequest algorithm. The criteria were as \r\nfollows: precursor mass tolerance of 15 ppm and fragment mass tolerance \r\nof 20 mmu. Then, the results were filtered using the following settings: \r\nmerely high confident peptides with a global false discovery rate of <1% \r\nbased on a target-decoy approach was included in the results. The proced\u0002ures for the LC–MS/MS analysis were carried out by Capitalbio Technology \r\nCorporation (Beijing, China).\r\nCoimmunoprecipitation\r\nThe total cell lysates of HCT116 and SW480 were, respectively, incubated \r\nwith the appropriate antibodies and protein A/G beads at 4°C overnight. \r\nThen, the beads were washed six times using tissue/cell lysates, mixed \r\nwith adequate amounts of protein loading buffer and boiled for 5–10 min. \r\nThe coprecipitates were analyzed by WB analysis.\r\nAnimal experiments\r\nThe animal studies were conducted in accordance with the inter\u0002national standards-3R principle of animal welfare, and approved by the \r\nExperimental Animal Ethics Committee of Hebei Medical University \r\nFourth Affiliated Hospital. Previously, two cell lines, which were stably \r\nknocked down of DUOX2 (i.e. HCT116 and HT29), were constructed. Five\u0002week-old female BALB/c nude mice were randomly divided into different \r\ngroups. For implantation, an equal number of HCT116 cells with DUOX2 \r\nknockdown or the corresponding negative control cells were resuspended \r\nin 150 µl of PBS, and subcutaneously injected into the front flank (n = 6/\r\ngroup) or caudal veins (n = 5/group) of nude mice. In addition, an equal \r\nnumber of HT29 cells with DUOX2 knockdown, or the corresponding nega\u0002tive control cells were injected into the caudal veins (n = 6/group). Finally, \r\nthe xenograft tumor, lung tissues and liver tissues were removed, photo\u0002graphed and weighed.\r\nStatistical analysis\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Almost each experiment was repeated for at least three times. The re\u0002sults were presented as mean ± standard deviation. The differences be\u0002tween the groups were evaluated using two-tailed Student’s t-test. The \r\ncorrelation analysis and survival data were analyzed using chi-square \r\ntest, the Kaplan–Meier method (log-rank test) and Fisher’s exact test. \r\nKendall’s tau-b analysis was used to analyze the correlation between \r\nDUOX2 and RPL3. The statistical analyses were performed using the \r\nGraphPad Prism 5.0 software (La Jolla, CA) and SPSS 21.0 software (SPSS). \r\nP < 0.05 was considered as statistically significant (*P < 0.05, **P < 0.01 \r\nand ***P < 0.001).\r\nData availability\r\nThe datasets generated and analyzed in the present study are available in \r\nthe GEO repository (GSE104836; https://www.ncbi.nlm.nih.gov/geo/query/\r\nacc) and (GSE139918; https://www.ncbi.nlm.nih.gov/geo/query/acc). The \r\nother data generated or analyzed in the present study are available from \r\nthe corresponding author upon reasonable request.\r\nResults\r\nGene screening and validation\r\nA total of 3221 mRNAs were differentially expressed in CRC tis\u0002sues, when compared with para-cancer tissues. These included \r\n1606 upregulated mRNAs and 1615 downregulated mRNAs, ac\u0002cording to the sequencing data shown in the previous study \r\nconducted by the investigators, which have been deposited \r\nin the GEO (GSE104836) (16). Compared with the cancer tis\u0002sues of the six CRC patients without lymph node metastasis, \r\n368 mRNAs were differentially expressed in the cancer tissues \r\nof three CRC patients with lymph node metastasis, which in\u0002cluded 238 upregulated mRNAs and 130 downregulated mRNAs. \r\nFurthermore, nine overlap mRNAs were screened out, which \r\nwere not only upregulated in CRC tissues, when compared \r\nwith para-cancer tissues, but also upregulated in cancer tissues \r\nwith lymph node metastasis, when compared with cancer tis\u0002sues without lymph node metastasis. These mRNAs are listed \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 474,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "as follows: CCDC113, PODXL2, PDZK1IP1, SYNE4, SHH, MAGEA3, \r\nDUOX2, DUOXA2 and NPFFR1 (Figure  1A). These were further \r\nverified by qRT-PCR in 24 pairs of CRC tissues and para-cancer \r\ntissues. NPFFR1 was not successfully amplified, which may be \r\ndue to the low expression of NPFFR1 in CRC tissues. The results \r\nrevealed that the expression of CCDC113, PODXL2, SYNE4, DUOX2\r\nand DUOXA2 was significantly higher in CRC tissues than in \r\npara-cancer tissues, which is consistent with the results of the \r\nsequencing data. Among these, DUOX2 was the most highly \r\nexpressed, and this was selected for further study (Figure 1B). \r\nThen, the sample number was expanded to 89 pairs, and it \r\nwas further confirmed that DUOX2 mRNA was more highly ex\u0002pressed in CRC tissues, when compared with para-cancer tis\u0002sues (Figure  1C). Among the 89 patients, 52 patients had no \r\nlymph node metastasis, while 37 patients had lymph node me\u0002tastasis. Furthermore, the DUOX2 mRNA expression was higher \r\nin CRC cancer tissues of patients with lymph node metastasis, \r\nwhen compared with that of patients without lymph node me\u0002tastasis (Figure 1D). As summarized in Table 1, the relationship \r\nbetween the expression of DUOX2 and the clinicopathological \r\nfeatures of the 89 CRC patients was analyzed. These results re\u0002vealed that the elevated expression of DUOX2 was significantly \r\nassociated with gender, tumor invasion, local lymph node me\u0002tastasis and TNM stage, indicating that DUOX2 may be correl\u0002ated to CRC progression.\n108 | Carcinogenesis, 2021, Vol. 42, No. 1\r\nFigure 1. The expression of DUOX2 in CRC tissues and metastatic tumor tissues and its relationship with survival. (A) There were 1606 upregulated mRNAs in CRC \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "tissues and 238 upregulated mRNAs in CRC tissues with lymph node metastasis. Make overlap and get nine mRNAs: CCDC113, PODXL2, PDZK1IP1, SYNE4, SHH, \r\nMAGEA3, DUOX2, DUOXA2, and NPFFR1. (B) Candidate genes were validated by qRT-PCR. (C) DUOX2 expression was analyzed by qRT-PCR in 89 paired samples including \r\npara-carcinoma tissues and CRC tissues. Statistical analysis was performed using the paired-samples T-test. (D) It was also analyzed in CRC tissues without lymph \r\nnode metastasis (n = 52) and CRC tissues with lymph node metastasis (n = 37). Independent-sample T-test was performed. (E) Representative immunohistochemistry \r\nstaining of DUOX2 in normal colonic mucosa, CRC tissues, metastatic lymph node tissues and metastatic liver tissues (200×). (F) Comparison of the IHC scores of DUOX2 \r\nprotein in different tissues (n = 50). (G) Overall survival analysis of DUOX2 expression in primary cancer tissues, (H) metastatic lymph node tissues and (I) metastatic \r\nliver tissues. *P < 0.05), ***P < 0.001.\nX.Zhang et al. | 109\r\nDUOX2 expression in mCRC tissues and metastatic \r\ntumor tissues and its relationship with survival\r\nThe DUOX2 protein expression was investigated in normal \r\ncolonic mucosa, CRC tissues, metastatic lymph node tis\u0002sues and metastatic liver tissues obtained from 50 cases \r\n(Figure 1E). The expression scores of DUOX2 in these collected \r\ntissues are presented in Supplementary Table 2, available at \r\nCarcinogenesis Online. This indicated that the order of the sig\u0002nificant upregulation extent of the DUOX2 expression in meta\u0002static lymph nodes and metastatic liver tissues was greater than \r\nprimary cancer tissues (P < 0.001, Figure  1F) and greater than \r\nthe normal colonic mucosa (P < 0.000). The Kaplan–Meier ana\u0002lysis revealed that higher DUOX2 expression in CRC tissues and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "metastatic lymph node tissues predicted the worse prognosis, \r\nwhen compared with lower DUOX2 expression, for mCRC pa\u0002tients (Figure 1G and H). However, the expression of DUOX2 in \r\nmetastatic liver tissues was not correlated with overall survival \r\n(Figure  1I), which was probably due to the limited number of \r\nsamples. Taken together, those results suggest that DUOX2 may \r\nact as a metastasis promoting factor that contributes to the pro\u0002gression of CRC.\r\nEffects of DUOX2 on invasion, metastasis and \r\nproliferation in vitro\r\nIn order to investigate the function of DUOX2, DUOX2 protein \r\nwas detected in normal intestinal epithelium cell line NCM460 \r\nand five CRC cell lines, which included SW480, SW620, HCT116, \r\nHT-29 and DLD-1 (Figure 2A). Then, si1-DUOX2, si2-DUOX2, si3-\r\nDUOX2 and the negative control (si-NC) were transfected into \r\nHCT116 and SW480 cells. This revealed that si1-DUOX2 and \r\nsi2-DUOX2 effectively downregulated the DUOX2 expression in \r\nHCT116 and SW480 cells (Figure  2B and C). Subsequently, the \r\nHCT116 and SW480 cell lines, which were transfected by si1-\r\nDUOX2 and si2-DUOX2, were used to perform MTS and colony \r\nformation, in order to investigate the effect of DUOX2 on pro\u0002liferation. These results revealed that there was no significant \r\ndifference in growth rate among the si1-DUOX2, si2-DUOX2 \r\nand si-NC groups, both in the HCT116 and SW480 cell lines \r\nTable 1. Correlation between DUOX2 expression and the clinicopathologic features in 89 CRC patients\r\nClinicopathologic features n\r\nDUOX2\r\nχ2 Low High P-value\r\nAll 89 44 45\r\nAge\r\n≤60 34 15 19 0.623 0.43\r\n>60 55 29 26\r\nGender\r\nMale 57 23 34 5.237 0.022*\r\nFemale 32 21 11\r\nTumor site\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "Left 60 30 30 0.023 0.879\r\nRight 29 14 15\r\nPathological type\r\nAdenocarcinoma 76 39 37 0.734 0.392\r\nNon-adenocarcinoma 13 5 8\r\nTumor size\r\n<5 cm 43 21 22 0.012 0.913\r\n≥5 cm 46 23 23\r\nTumor invasion\r\nT1 + T2 4 4 0 4.283 0.038*\r\nT3 + T4 85 40 45\r\nN stage\r\nN0 52 31 21 5.183 0.023*\r\nN1 + 2 37 13 24\r\nM stage\r\nM0 87 43 44 0.000 0.987\r\nM1 2 1 1\r\nTNM stage\r\nI + II 51 30 21 4.209 0.040*\r\nIII + IV 38 14 24\r\nTumor embolus\r\nNegative 69 32 37 1.151 0.283\r\nPositive 20 12 8\r\nNerve invasion\r\nNegative 80 40 40 0.100 0.752\r\nPositive 9 4 5\r\nPathological differentiation\r\nWell moderate 83 40 43 0.764 0.382\r\nPoor 6 4 2\r\nThe median expression level was used as the cutoff. Chi-square tests were used to analyze the correlation between the clinicopathologic features and the expression \r\nlevel of DUOX2.\r\n*P < 0.05 indicates the statistical significance.\n110 | Carcinogenesis, 2021, Vol. 42, No. 1\r\n(Figure  2D). This was also consistent with the results of the \r\ncolony-formation test (Figure  2E). In addition, the capacity of \r\ncell migration was determined by Transwell assay and wound \r\nhealing assay. The invasion abilities of those cells were assessed \r\nby Matrigel invasion assay. These results demonstrate that the \r\namount of migrating cells and invading cells significantly de\u0002creased in both the si1-DUOX2 and si2-DUOX2 groups, when \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "compared with the si-NC group, in both the HCT116 and SW480 \r\nFigure 2. Knockdown of DUOX2 decreases the migration and invasion of CRC cells in vitro. (A) DUOX2 protein expression levels in one normal intestinal epithelium \r\ncell line and five CRC cell lines. (B and C) Western blotting and qRT-PCR were performed to detect the DUOX2 expression levels in DUOX2 knockdown (si1-DUOX2, si2-\r\nDUOX2 and si3-DUOX2) and negative control (si-NC). *P < 0.05, **P < 0.01, N.S.P > 0.05. (D) MTS assay. DUOX2 knockdown did not attenuate the cell viability of HCT116 and \r\nSW480 cells. Each point indicates the mean of spectrometric absorbance OD492 ± SD of three independent experiments. (E) Colony assays. DUOX2 knockdown did not \r\nattenuate colony formation in HCT116 and SW480 cells. (F) Transwell migration assays. (G) Transwell invasion assays. The error bars represent the standard deviation. \r\n*P < 0.05, **P < 0.01, N.S.P > 0.05. (H and I) Wound healing assay. The migration rate was derived from the ratio of the difference in wound area at different times to the \r\ninitial wound area (200×). The tests were performed on SW480 and HCT116 cells. *P < 0.05, **P < 0.01.\nX.Zhang et al. | 111\r\ncell lines (Figure 2F and G). The wound healing percentages also \r\nmore significantly decreased in HCT116 and SW480 cells treated \r\nwith si1-DUOX2 and si2-DUOX2, when compared with the si-NC \r\ngroup (Figure  2H and I, Supplementary Figure A, available at \r\nCarcinogenesis Online). Overall, those results indicate that the \r\ninhibition of DUOX2 can reduce the ability of CRC cells to invade \r\nand metastasize, but has no effect on proliferation.\r\nThe relationship between DUOX2 and RPL3\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "In order to further explore the underlying molecular mechan\u0002isms of DUOX2 in CRC cells, DUOX2-associated proteins were \r\nidentified by IP. The differential band was observed to be specific \r\nto DUOX2, when compared with the IgG control, in the silver \r\nstained sodium dodecyl sulfate–polyacrylamide gel electrophor\u0002esis (Figure 3A). Next, the differential protein band was subjected \r\nto MS analysis (Report Number: JD-YX-2019-0184-JSFW-01). \r\nAmong the candidate proteins shown in Supplementary Table \r\n3, available at Carcinogenesis Online, RPL3 was chosen for further \r\nanalysis due to its high score, and because its subcellular local\u0002ization was consistent with the DUOX2 protein. Furthermore, it \r\ncould stably interacte with DUOX2, as validated by the WB ana\u0002lysis in HCT116 and SW480 cells (Figure 3B). In order to evaluate \r\nthe relationship of DUOX2 with RPL3, the effect of DUOX2 on \r\nthe expression level of RPL3 was initially investigated. The re\u0002sults revealed that the RPL3 protein expression was signifi\u0002cantly upregulated after the downregulation of DUOX2, in both \r\nthe HCT116 and SW480 cell lines (Figure  3C), while RPL3 did \r\nnot significantly change in the gene level (Figure 3D). The qRT\u0002PCR analysis of 23 CRC tissues revealed that there was no cor\u0002relation between DUOX2 and RPL3 in the gene level (Figure 3E). \r\nHowever, the IHC results revealed that there was a negative \r\ncorrelation between DUOX2 and RPL3 protein in CRC tissues, \r\nmetastatic lymph nodes and metastatic livers (Figure  3F and \r\nSupplementary Figure H, available at Carcinogenesis Online), sug\u0002gesting that DUOX2 can regulate RPL3 at the protein level.\r\nAccordingly, it was hypothesized that DUOX2 may regulate \r\nthe RPL3 generation or degradation. Thus, cycloheximide, an in\u0002hibitor of protein synthesis to treat HCT116 and SW480 cells, \r\nwas introduced, and this revealed that the RPL3 protein has a \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "short half-life of approximately 4 h. Furthermore, when DUOX2 \r\nwas knocked down, the rate of RPL3 protein deration slowed \r\ndown (Figure 3G). It was further hypothesized that the degrad\u0002ation of the RPL3 protein may be mediated by the ubiquitin–pro\u0002teasome pathway. The sh-Control group and sh-DUOX2 group \r\nwere treated with a proteasome inhibitor MG132, and the RPL3 \r\nprotein levels were measured. Obviously, for cells not treated \r\nwith MG132, the level of RPL3 protein significantly increased \r\nafter DUOX2 was downregulated, but this trend disappeared \r\nafter MG132 was added (Figure  3H). The protein levels of ubi\u0002quitin were detected by the WB test after the IP assay using \r\nthe RPL3 antibody. As expected, polyubiquitin chains were de\u0002tected in the RPL3 immune complex, and when DUOX2 protein \r\nlevels were downregulated, the total number of polyubiquitin \r\nchains significantly decreased. The same volume of protein was \r\nextracted from each group for the WB analysis, with the anti\u0002GAPDH antibody as the loading control (Figure 3I). These results \r\nsuggest that DUOX2 may affect the RPL3 protein expression by \r\naffecting the ubiquitination status of RPL3.\r\nRPL3 reverses the effects of DUOX2 in vitro\r\nIn order to further investigate the effects of DUOX2 and RPL3\r\non invasion and metastasis, a rescue test was designed, in \r\nwhich DUOX2 and RPL3 were successfully overexpressed after \r\ntransfecting plasmids into both HCT116 and SW480 cells \r\n(Figure 4A). Meanwhile, a negative control group was designed \r\nto avoid the interference. The Transwell results revealed that \r\nthe migration and invasion abilities of HCT116 and SW480 \r\ncells significantly increased after overexpressing DUOX2, while \r\nthe overexpression of RPL3 significantly reversed this trend \r\n(Figure 4B). These data indicated that RPL3 can reverse the ef\u0002fects of DUOX2 in vitro. Furthermore, the wound scratch assay \r\nwas also carried out, and it was revealed that the migration \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "ability was significantly enhanced after overexpressing DUOX2, \r\nwhile the trend disappeared after overexpressing DUOX2 and \r\nRPL3 at the same time (Figure 4C).\r\nThe knockdown of DUOX2 has a significant effect on \r\nthe PI3K–AKT pathway\r\nIn order to illustrate the mechanism of DUOX2 in CRC cells, next\u0002generation sequencing detection was performed on HCT116 \r\ncells transfected with si1-DUOX2, si2-DUOX2 and si-NC. The \r\nsequencing data were deposited in the GEO (GSE139918). It was \r\nfound that there were many differentially expressed genes in the \r\nsi1-DUOX2 group and si2-DUOX2 group, when compared with \r\nthe si-NC group (Figure 4D). In order to clarify the biological func\u0002tions of these genes in vivo and the involved signaling pathways, \r\nthe enrichment analysis of the differential genes was conducted \r\nbased on the KEGG database. In the present study, compared \r\nwith the si-NC group, 48 differentially expressed genes in the \r\nsi1-DUOX2 group and 25 differentially expressed genes in the \r\nsi2-DUOX2 group were enriched in the phosphatidylinositol 3 \r\nkinase/protein kinase B (PI3K–AKT) signaling pathway (Figure 4E). \r\nSeveral metastasis-related genes in the PI3K–AKT pathway were \r\nselected for further validation. The results revealed that after the \r\nknockdown of DUOX2, the expression level of the EGFR gene sig\u0002nificantly decreased, while the expression level of the AKT1 and \r\nMYC genes significantly increased (Figure 4F). Furthermore, it was \r\nalso verified that after the overexpression of DUOX2, the EGFR \r\nprotein levels increased, while the AKT, p-AKT and c-MYC pro\u0002tein levels significantly decreased. The increase in RPL3 protein \r\nlevel could not reverse the increase in EGFR, but could reverse \r\nthe decrease in AKT, p-AKT and c-MYC. In addition, E-cadherin, \r\nwhich is known to be associated with invasion and metastasis, \r\nwas selected for further investigation. These results revealed \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "that with the increase in DUOX2 expression, the expression of \r\nE-cadherin significantly decreased. However, the overexpression \r\nof RPL3 can reverse the change in E-cadherin (Figure 4G).\r\nEffects of DUOX2 on invasion and metastasis in vivo\r\nIn order to further study the role of DUOX2 in vivo, xenografts \r\nin nude mice were established using sh-DUOX2 and sh-Control \r\nstably infected HCT116 and HT-29 cells. More than 90% of \r\nthese cells were successfully transfected with the lentivirus \r\n(Supplementary Figure B, available at Carcinogenesis Online). The \r\nresults revealed that the expression of the DUOX2 gene and pro\u0002tein all significantly decreased after infection with sh-DUOX2 \r\n(Figure 5A and B). Furthermore, the lentivirus-infected HCT116 \r\ncells were transfected into the subcutaneous tissue of nude \r\nmice. Then, these nude mice were killed after 4 weeks, and the \r\ntransplanted tumors were weighed. However, there was no sig\u0002nificant difference in the weight of the transplanted tumors be\u0002tween the two groups (Supplementary Figure C and D, available \r\nat Carcinogenesis Online). In the sh-DUOX2 group, the expression \r\nof the DUOX2 protein significantly decreased, while the RPL3 \r\nexpression significantly increased, further verifying that RPL3 \r\nis the target of DUOX2 (Figure  5C). After injecting the treated \n112 | Carcinogenesis, 2021, Vol. 42, No. 1\r\nFigure 3. DUOX2 and RPL3 proteins are negatively correlated, DUOX2 interacts with RPL3 through ubiquitination. (A) The cell lysates were subjected to IP with anti-IgG \r\nantibody (IgG) or anti-DUOX2 antibody (IP). Differential bands between anti-DUOX2 and anti-IgG in the silver stained sodium dodecyl sulfate–polyacrylamide gel elec\u0002trophoresis were detected by MS. (B) The interaction between DUOX2 and RPL3 was proved by means of coimmunoprecipitation. (C) Total protein of HCT116 and SW480 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "cells, which were knockdown DUOX2 (sh-DUOX2) and the negative control (sh-Control), was extracted and subjected to western blotting using anti-DUOX2, anti-RPL3 \r\nand anti-GAPDH antibodies. (D) The expression of RPL3 gene levels after DUOX2 knockdown in HCT116 and SW480 cells. (E) Expression of DUOX2 and RPL3 genes in \r\nCRC tissues (n = 23). Statistical analysis was performed using Pearson correlation coefficient. (F) The expressions of DUOX2 and RPL3 protein in different tissues of CRC \r\npatients by immunohistochemistry. Kendall’s tau-b (Kendall) rank correlation coefficient was used to reflect the correlation between DUOX2 and RPL3 protein, *P < 0.05. \r\n(G) HCT116 and SW480 cells, which were knockdown DUOX2 (sh-DUOX2) and the negative control (sh-Control), were treated with cycloheximide (100 µg/ml), collected \r\nat the indicated time points and immunoblotted for RPL3 and GAPDH. (H) HCT116 and SW480 cells, which were knockdown DUOX2 (sh-DUOX2) and the negative con\u0002trol (sh-Control), were treated with MG132 (10 µM) for 12 h, total protein was extracted and subjected to western blotting using anti-RPL3 and anti-GAPDH antibodies. \r\n(I) Different groups of cells, sh-Control and sh-DUOX2, were lysed with IP lysis/wash buffer with protease inhibitor and phosphatase inhibitor. Anti-RPL3 antibody was \r\nused for IP, and the immune-precipitates were probed with antiubiquitin. The same volume of protein was extracted from each group for western blotting analysis with \r\nanti-GAPDH antibody as a loading control. *P < 0.05, **P < 0.01. \nX.Zhang et al. | 113\r\nFigure 4. RPL3 reverses the effects of DUOX2 in vitro, and the different genes after DUOX2 knockdown were enriched in the AKT pathway, while RPL3 reversed this \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "change partially. (A). Western blotting was performed to detect the DUOX2 protein in DUOX2-overexpressed (pcDNA3.1-DUOX2) and negative control (pcDNA3.1-\r\nControl) both in HCT116 and SW480 cells. (B) Transwell assays. The migration and invasion ability of the HCT116 and SW480 cells were significantly increased after \r\noverexpressing DUOX2, while the overexpression of RPL3 significantly reversed this trend. (C) Wound healing assay. The migration rate was derived from the ratio of \r\nthe difference in wound area at different times to the initial wound area (200×). The tests were performed on SW480 cells. N.S.P > 0.05, *P < 0.05, **P < 0.01, ***P < 0.001. (D) \r\nDifferentially expressed genes in DUOX2 knockdown (si1-DUOX2, si2-DUOX2) and negative control (si-NC) by next-generation sequencing as shown in the heatmap. (E) \r\nDifferent signaling pathways based on KEGG databases between si1-DUOX2 and si-NC group, or si2-DUOX2 and si-NC group. (F) Verification of related genes in PI3K–\r\nAKT pathway. (G) WB assay. The protein levels of E-cadherin (E-cad), EGFR, AKT, p-AKT, c-MYC after overexpression of DUOX2, or both of DUOX2 and RPL3.\n114 | Carcinogenesis, 2021, Vol. 42, No. 1\r\nFigure 5. Knockdown of DUOX2 inhibits the ability of tumor invasion and metastasis in vivo. (A and B) Western blotting and qRT-PCR were performed to detect the \r\nDUOX2 expression levels in DUOX2 knockdown (sh-DUOX2) and negative control (sh-Control). **P < 0.01. (C) IHC detection of DUOX2 and RPL3 proteins in xenograft \r\ntumor of nude mice, which were injected sh-DUOX2 or sh-Control HCT116 cells. (D) All the lung and liver tissues of different groups were extracted and stained with HE \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "staining. IHC test was preformed to detect the expression of DUOX2 and RPL3 proteins in lung metastases and liver metastases tissues. (E) Statistical analysis of lung \r\nand liver metastasis in different groups. (F) After injection of HT29 cells into the tail vein, significant subcutaneous nodules were found in the neck of nude mice. (H) \r\nThe weight of subcutaneous metastatic tumors in sh-DUOX2 group was significantly lower than those in sh-Control group (P = 0.014). (G) These nodules were stained \r\nwith HE. *P < 0.05), **P < 0.01.\nX.Zhang et al. | 115\r\nHCT116 cells via the tail vein for 10 weeks, the nude mice were \r\ndissected (n  =  4/group), while those injected with HT29 cells \r\n(n  =  6/group) were dissected after 9 weeks. All lung and liver \r\ntissues were extracted (Supplementary Figure E and G, available \r\nat Carcinogenesis Online) and stained with H&E (Figure 5D). The \r\nstatistical results demonstrated that the number of lung metas\u0002tasis nodes and liver metastasis nodes significantly decreased \r\nafter the knockdown of DUOX2 (Figure 5E). Interestingly, the sub\u0002cutaneous metastatic tumor node was also discovered in HT-29 \r\ncell-treated nude mice via the tail vein (Supplementary Figure \r\nF, available at Carcinogenesis Online). All metastatic tumors were \r\nremoved and weighed. The H&E staining was performed to de\u0002termine whether those metastatic tumors were metastatic \r\nlymph nodes. The results revealed that the nodules were infil\u0002trated by cancer cells without lymph node structure (Figure 5G). \r\nAlthough there was no significant difference in the number of \r\nmetastasis tumor nodes, the weight of the subcutaneous meta\u0002static tumors was significantly lower in the sh-DUOX2 group \r\nthan in the sh-Control group (P = 0.014; Figure 5F and H).\r\nDiscussion\r\nThe present study focused on the biological functions of DUOX2\r\nin CRC, as well as the possible molecular mechanisms. The \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "screening of the DUOX2 gene was based on a previous next\u0002generation sequencing result (16). In the present study, in order \r\nto better understand the role of DUOX2 in CRC, the expression of \r\nDUOX2 was analyzed at both the gene and protein level, and the \r\nexpression was consistent with the results obtained during the \r\nscreening process. The verification of these results at the gene \r\nlevel preliminarily confirmed that the expression of DUOX2 in \r\nCRC tissues was significantly higher, when compared with that \r\nin para-cancer tissues, and that the increase in expression of \r\nDUOX2 was significantly correlated to gender, tumor invasion, \r\nlocal lymph node metastasis and TNM stage. Due to the short \r\nfollow-up time, the survival of the 89 CRC patients was not \r\nstatistically analyzed. The IHC results for the mCRC patients \r\nrevealed that the expression of DUOX2 in the metastasis was \r\nsignificantly higher than that in primary cancer. Furthermore, \r\nthe follow-up results revealed that the high protein expression \r\nof DUOX2 indicates a short survival time. This conclusion is \r\nconsistent with a previous literature (18). Therefore, it was con\u0002sidered that DUOX2, as an oncogene, is involved in the develop\u0002ment of CRC.\r\nA study revealed that (15) the expression of DUOX2 is \r\nupregulated in 5-FU-resistant SNUC5 cells. Furthermore, the re\u0002active oxygen species (ROS) produced by DUOX2 can enhance \r\nthe migration and invasion abilities of CRC cells. It has been well \r\nknown that the microenvironment plays an important role in \r\ntumor development (19). The microenvironment of tumor cells \r\nis affected by a variety of factors. ROS, as the second messenger, \r\nis an important participant in cell signaling and regulation, \r\nwhich participates in the signal transduction process of gene \r\ntranscription and protein synthesis, and plays an important role \r\nin the occurrence and development of tumors. An increase in \r\nROS is one of the characteristics of cancer cells (20). ROS, such \r\nas H2\r\nO2, is part of the gut’s innate immune system in active en\u0002teritis, and plays an important role in maintaining mucosal bar\u0002riers and protecting the host from pathogens (21,22). However, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "when intracellular ROS production exceeds the defense cap\u0002acity of the intracellular antioxidant system, oxidative stress is \r\ncaused. Long-term exposure of cells to oxidative stress can lead \r\nto abnormal signal transduction, which can promote the devel\u0002opment of tumors (20). DUOX2 has been found to be expressed \r\nin epithelial cells in the gastrointestinal tract (23). The NOX \r\nfamily’s function is to produce H2\r\nO2 or superoxide (24). Among \r\nthese, NOX4, DUOX1 and DUOX2 exclusively produce H2O2 (20). \r\nDUOXA2 is the activation protein of DUOX2, and forms a cova\u0002lent complex with DUOX2, which is a key factor in the forma\u0002tion of H2\r\nO2 (25). It has been reported that DUOX2 mRNA and \r\nprotein are overexpressed in CRC tissues, when compared with \r\nthe normal colonic mucosa, and that the upregulation of DUOX2\r\nis correlated with poor prognosis (26–28). Based on existing \r\nstudies, it has been speculated that DUOX2 promotes the occur\u0002rence and development of CRC cells by producing excessive ROS \r\nand enhancing oxidative stress in the microenvironment.\r\nRPL3 belongs to the L3P family of ribosomal proteins (RPs), \r\nand is located in the cytoplasm. As key members of the body \r\nfor protein synthesis, RP family plays an important role in the \r\nprocess of genetic information transfer, which not only partici\u0002pates in the composition of translation mechanisms, but also \r\nimplicates a variety of biological functions (29). For instance, RP \r\ncan affect the growth, senescence, apoptosis, invasion, radiation \r\nand drug therapy resistance of cancer cells through various \r\nmechanisms. Previous studies have revealed that both hemato\u0002poietic and non-hematopoietic cancer cell lines with increased \r\nRPL3 expression exhibit enhanced sensitivity to drugs (30), \r\nwhile the loss of RPL3 makes chemotherapy drugs ineffective \r\n(31). RPL3 can upregulate p21 expression at the transcriptional \r\nlevel (31), and participate in the cell response to chemotherapy, \r\nacting as a critical regulator of the cell cycle, apoptosis and \r\nDNA repair (31). It has been found that the expression of RPL3\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "in CRC tissues is downregulated, when compared with the ad\u0002jacent normal tissues (32). These results suggest that RPL3 is an \r\nanticancer gene. Previous studies on RPL3 have mainly focused \r\non nucleolar stress, but the function of RPL3 in tumor invasion \r\nor metastasis remains unclear. The TCGA database revealed that \r\nthere is no significant correlation between the gene expression \r\nof DUOX2 and RPL3 in CRC (Supplementary Figure I, available \r\nat Carcinogenesis Online). The present study revealed that there \r\nis negative correlation between DUOX2 and RPL3 at the protein \r\nlevel, while there is no significant correlation at the gene level, \r\nwhich is consistent with the TCGA database. It was initially \r\ndemonstrated that RPL3 is one of interaction proteins of DUOX2, \r\nwhich can jointly regulate the ability of invasion and metastasis \r\nof CRC cells for the first time.\r\nThe PI3K/AKT signaling pathway promotes cell growth by \r\ninhibiting apoptosis of various cancer cells (33), and has a variety \r\nof functions, such as regulating cell growth and proliferation, \r\npromoting the progression of the cell cycle, and participating in \r\nvascular formation (34). In the present study, after the knockout \r\nof DUOX2 with si1 and si2, the changed genes were enriched in \r\ndifferent pathways, and PI3K/AKT was in the top four pathways. \r\nTherefore, it was considered that DUOX2 affects the function of \r\nthe PI3K/AKT pathway. Further studies have shown that RPL3\r\ncan reverse the effects of DUOX2 on several proteins through \r\nthis pathway. Hence, it could be concluded that DUOX2 modu\u0002lates the PI3K/AKT pathway through RPL3, thereby affecting the \r\ninvasion ability of tumor cells.\r\nSome previous works have reveal the potential role of DUOX2\r\nin the epithelia–mesenchymal transition (EMT) of CRC cells lines \r\n(15). EMT endures cells with the ability of metastasis and inva\u0002sion, and it is often expressed as the upregulation of N-cadherin \r\nand downregulation of E-cadherin (35), which are regarded as \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "landmark events of EMT (36). EMT is the key process for the in\u0002vasion and metastasis of tumor cells in a variety of malignan\u0002cies, such as breast cancer (37), CRC (38), prostate cancer (39) and \r\nlung cancer (40). In the present study, it was found that after the \n116 | Carcinogenesis, 2021, Vol. 42, No. 1\r\noverexpression of DUOX2, E-cadherin significantly decreased. \r\nThe trend exhibited by E-cadherin was reversed after RPL3 was \r\nsimultaneously increased, suggesting that DUOX2 may play an \r\nimportant role in the EMT process. In conclusion, DUOX2 affects \r\nthe invasion and metastasis abilities of CRC cells through mul\u0002tiple pathways.\r\nIn summary, the present study revealed that DUOX2 has a sig\u0002nificantly higher expression in CRC tumor samples, and facilitated \r\nthe invasion and metastasis abilities of CRC cells by interacting \r\nwith RPL3 and activating the AKT signaling pathway. The present \r\nstudy provided a new perspective on DUOX2 in regulating the \r\noccurrence and development of CRC. DUOX2 may be a prognostic \r\nfactor and a potential therapeutic target for CRC in the future.\r\nSupplementary material\r\nSupplementary data are available at Carcinogenesis online.\r\nSupplementary Figure. (A) Statistical figures for Figure 3H and \r\nI. (B) Phase-contrast and fluorescence images of lentivirus\u0002infected HCT116 and HT29 cells. (C) Nude mice subcutaneously \r\ninjected with HCT116 cells. (D) After injection of HCT116 cells \r\ninto the front flank 4 weeks later, the transplanted tumors \r\nwere sacrificed and weighed. There was no difference between \r\nsh-DUOX2 and sh-Control. N.S.P >0.05. (E–G) Lung and liver tissues \r\nwere taken from nude mice that received lentivirus-infected \r\nHCT116 and HT29 cells for tail vein injection. (H) The expres\u0002sions of DUOX2 and RPL3 protein in different tissues of CRC pa\u0002tients by immunohistochemistry as a supplement to Figure 3. (I) \r\nThe relationship of the gene expressions of DUOX2 and RPL3 in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 467,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "CRC in publicly available datasets. The data were collected from \r\nthe TCGA (http://gepia.cancer-pku.cn/detail.php?gene=).\r\nSupplementary Table 1. Gene primers used in this study\r\nSupplementary Table 2.  Expression of DUOX2 in para-cancer, \r\ncancer, metastatic lymph node and metastatic liver tissue\r\nSupplementary Table 3. The candidate proteins in IP group by \r\nMS analysis\r\nFunding\r\nThis work was supported by the Natural Science Foundation of \r\nChina (grant no. 81772550 and 81502032), the Youth outstanding \r\nfoundation of Hebei Province (grant no. H2019206697), the Health \r\nand Family Planning Commission of Hebei Province (grant no. \r\n220180584) and the Key project of Hebei Province Health and \r\nFamily Planning Commission (grant no. G201735).\r\nAcknowledgements\r\nThe authors would like to thank Dr Chunyan Ding for the IHC \r\ntechnical help, and the Experimental Animal Center of the \r\nFourth Hospital of Hebei Medical University for helping with the \r\nanimal experiments.\r\nConflict of Interest Statement: The authors disclose no conflict of \r\ninterest.\r\nReferences\r\n1. Bray, F. et al. (2018) Global cancer statistics 2018: GLOBOCAN estimates \r\nof incidence and mortality worldwide for 36 cancers in 185 countries. \r\nCA Cancer J. Clin., 68, 394–424.\r\n2. Chen, W. et al. (2016) Cancer statistics in China, 2015. CA Cancer J. Clin., \r\n66, 115–132.\r\n3. Courtney, R.J. et al. (2013) A population-based cross-sectional study of \r\ncolorectal cancer screening practices of first-degree relatives of colo\u0002rectal cancer patients. BMC Cancer, 13, 13.\r\n4. Landry, W.D. et al. (2014) ROS signalling, NADPH oxidases and cancer. \r\nBiochem. Soc. Trans., 42, 934–938.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "5. Kizys, M.M.L. et al. (2017) DUOX2 mutations are associated with con\u0002genital hypothyroidism with ectopic thyroid gland. J. Clin. Endocrinol. \r\nMetab., 102, 4060–4071.\r\n6. Jiang, H. et al. (2016) High prevalence of DUOX2 gene mutations among \r\nchildren with congenital hypothyroidism in central China. Eur. J. Med. \r\nGenet., 59, 526–531.\r\n7. Matsuo,  K. et  al. (2016) High prevalence of DUOX2 mutations in \r\nJapanese patients with permanent congenital hypothyroidism or tran\u0002sient hypothyroidism. J. Pediatr. Endocrinol. Metab., 29, 807–812.\r\n8. Wang,  J. et  al. (2015) PKCα promotes generation of reactive oxygen \r\nspecies via DUOX2 in hepatocellular carcinoma. Biochem. Biophys. Res. \r\nCommun., 463, 839–845.\r\n9. Wu, Y. et al. (2011) Up-regulation and sustained activation of Stat1 are \r\nessential for interferon-gamma (IFN-gamma)-induced dual oxidase 2 \r\n(Duox2) and dual oxidase A2 (DuoxA2) expression in human pancre\u0002atic cancer cell lines. J. Biol. Chem., 286, 12245–12256.\r\n10. Wu,  Y. et  al. (2016) Dual oxidase 2 and pancreatic adenocarcinoma: \r\nIFN-γ-mediated dual oxidase 2 overexpression results in H2\r\nO2-induced, \r\nERK-associated up-regulation of HIF-1α and VEGF-A. Oncotarget, 7, \r\n68412–68433.\r\n11. Wu, Y. et al. (2013) Functional activity and tumor-specific expression \r\nof dual oxidase 2 in pancreatic cancer cells and human malignan\u0002cies characterized with a novel monoclonal antibody. Int. J. Oncol., 42, \r\n1229–1238.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "12. Pettigrew,  C.A. et  al. (2012) DUOX enzyme activity promotes AKT \r\nsignalling in prostate cancer cells. Anticancer Res., 32, 5175–5181.\r\n13. Luxen, S. et al. (2008) Silencing of DUOX NADPH oxidases by promoter \r\nhypermethylation in lung cancer. Cancer Res., 68, 1037–1045.\r\n14. Nguyen, D.M. et al. (2015) Contribution of dual oxidase 2 (DUOX2) to \r\nhyper-radiosensitivity in human gastric cancer cells. Radiat. Res., 184, \r\n151–160.\r\n15. Kang,  K.A. et  al. (2018) DUOX2-mediated production of reactive \r\noxygen species induces epithelial mesenchymal transition in \r\n5-fluorouracil resistant human colon cancer cells. Redox Biol., 17, \r\n224–235.\r\n16. Li, M. et al. (2018) Differentially expressed lncRNAs and mRNAs iden\u0002tified by NGS analysis in colorectal cancer patients. Cancer Med., 7, \r\n4650–4664.\r\n17. Li, J. et al. (2020) The lncRNA FEZF1-AS1 promotes the progression of \r\ncolorectal cancer through regulating OTX1 and targeting miR-30a-5p. \r\nOncol. Res., 28, 51–63.\r\n18. Lin,  S.C. et  al. (2017) High immunoreactivity of DUOX2 is associated \r\nwith poor response to preoperative chemoradiation therapy and worse \r\nprognosis in rectal cancers. J. Cancer, 8, 2756–2764.\r\n19. Massagué, J. et al. (2016) Metastatic colonization by circulating tumour \r\ncells. Nature, 529, 298–306.\r\n20. Meitzler, J.L. et al. (2019) Hydrogen peroxide-producing NADPH oxidases \r\nand the promotion of migratory phenotypes in cancer. Arch. Biochem. \r\nBiophys., 675, 108076.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "21. MacFie, T.S. et al. (2014) DUOX2 and DUOXA2 form the predominant \r\nenzyme system capable of producing the reactive oxygen species H2\r\nO2\r\nin active ulcerative colitis and are modulated by 5-aminosalicylic acid. \r\nInflamm. Bowel Dis., 20, 514–524.\r\n22. Grasberger, H. et al. (2015) Increased expression of DUOX2 is an epithe\u0002lial response to mucosal dysbiosis required for immune homeostasis \r\nin mouse intestine. Gastroenterology, 149, 1849–1859.\r\n23. Chu,  F.F. et  al. (2017) Deficiency in Duox2 activity alleviates ileitis in \r\nGPx1- and GPx2-knockout mice without affecting apoptosis incidence \r\nin the crypt epithelium. Redox Biol., 11, 144–156.\r\n24. Yu, T. et al. (2018) Inhibition of NADPH oxidase activities ameliorates \r\nDSS-induced colitis. Biochem. Pharmacol., 158, 126–133.\r\n25. Korzeniowska, A. et al. (2019) Functional characterization of DUOX \r\nenzymes in reconstituted cell models. Methods Mol. Biol., 1982, \r\n173–190.\r\n26. Qi, R. et al. (2016) DUOX2 expression is increased in Barrett esophagus \r\nand cancerous tissues of stomach and colon. Gastroenterol. Res. Pract., \r\n2016, 1835684.\nX.Zhang et al. | 117\r\n27. Abdul, A. et al. (2016) A 19-gene expression signature as a predictor of \r\nsurvival in colorectal cancer. BMC Med. Genomics, 9, 58.\r\n28. Wang, R. et al. (2011) NADPH oxidase overexpression in human colon \r\ncancers and rat colon tumors induced by 2-amino-1-methyl-6-\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "phenylimidazo[4,5-b]pyridine (PhIP). Int. J. Cancer, 128, 2581–2590.\r\n29. Cuccurese, M. et al. (2005) Alternative splicing and nonsense-mediated \r\nmRNA decay regulate mammalian ribosomal gene expression. Nucleic \r\nAcids Res., 33, 5965–5977.\r\n30. Hawley, R.G. (2017) Correlating chemical sensitivity with low level ac\u0002tivation of mechanotransduction pathways in hematologic malignan\u0002cies. Explor. Res. Hypothesis Med., 2, 63–67.\r\n31. Esposito,  D. et  al. (2014) Human rpL3 plays a crucial role in cell re\u0002sponse to nucleolar stress induced by 5-FU and L-OHP. Oncotarget, 5, \r\n11737–11751.\r\n32. Russo,  A. et  al. (2016) Enhancement of 5-FU sensitivity by the \r\nproapoptotic rpL3 gene in p53 null colon cancer cells through com\u0002bined polymer nanoparticles. Oncotarget, 7, 79670–79687.\r\n33. Amaravadi, R.K. (2015) Transcriptional regulation of autophagy in RAS\u0002driven cancers. J. Clin. Invest., 125, 1393–1395.\r\n34. Francesca,  F. et  al. (2014) A novel functional interplay between \r\nProgesterone Receptor-B and PTEN, via AKT, modulates autophagy in \r\nbreast cancer cells. J. Cell. Mol. Med., 18, 2252–2265.\r\n35. Marcucci,  F. et  al. (2016) Epithelial-mesenchymal transition: a new \r\ntarget in anticancer drug discovery. Nat. Rev. Drug Discov., 15, 311–325.\r\n36. Klymkowsky,  M.W. et  al. (2009) Epithelial-mesenchymal transition: \r\na cancer researcher’s conceptual friend and foe. Am. J.  Pathol., 174, \r\n1588–1593.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 8563838855433373252,
+        "filename": "bgaa056.PMC7877561.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 183,
+      "total_chunks": 32,
+      "version": "1.0.0"
+    },
+    "text": "37. Joema, F.L. et al. (2016) EMT in breast carcinoma—a review. J. Clin. Med., 5, 65.\r\n38. Cao,  H. et  al. (2015) Epithelial-mesenchymal transition in colorectal \r\ncancer metastasis: a system review. Pathol. Res. Pract., 211, 557–569.\r\n39. Kanayama, H. (2016) Mechanism of invasion and metastasis of pros\u0002tate cancer: over view. Nihon Rinsho, 74, 129–134.\r\n40. Mittal, V. (2016) Epithelial mesenchymal transition in aggressive lung \r\ncancers. Adv. Exp. Med. Biol., 890, 37–56.\n\n"
+  }
+]

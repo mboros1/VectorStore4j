@@ -1,0 +1,794 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Distributed wireless power transfer \r\nbased on secondary-side-direct\u0002series topology for integration with \r\nbuilding-attached photovoltaic \r\nsystem\r\nZhecheng Zhang, Hao Chen, WanyingWeng, Yuanpeng Chen, JiandeWu & Xiangning He\r\nBuilding-attached photovoltaic (BAPV) systems integrate photovoltaic (PV) technology with buildings, \r\nattracting increasing attention as a promising solution to advancing eco-friendly objectives. In BAPV \r\nsystems, wireless power transfer (WPT) technology offers unique advantages; however, existing \r\nresearch faces challenges in effectively balancing cost, efficiency, and flexibility. This paper presents a \r\ndistributed WPT system based on secondary-side-direct-series (SSDS) topology. The proposed system \r\ninherits the high flexibility of conventional distributed WPT systems, while removing the secondary \r\nrectifiers within each module, noticeably reducing cost and size compared to conventional distributed \r\nWPT systems. Furthermore, this paper presents a planar and integrated design for the power and \r\ndetection coils, reducing volume, improving consistency and synchronization accuracy, and utilizing \r\nPCB litz wire in the power coil to enhance efficiency. In addition, this paper proposes a synchronization \r\nstrategy based on detection coil, ensuring the stability and safety of the proposed SSDS distributed \r\nWPT system. The proposed system is validated through simulations, and an 850W prototype system is \r\ndeveloped for experimental verification, achieving an efficiency of over 85%.\r\nKeywords Wireless power transfer, CLC-S compensation network, Building-attached photovoltaic, PCB \r\nplanar coils, PCB Litz wire\r\nAbbreviations\r\nLp, Ls, Lf, Ld The self-inductance of the primary coil, the secondary coil, the primary resonant inductor \r\nand the detection coil\r\nMps, Mpd, Msd The mutual inductance between the primary coil and the secondary coil, the primary coil \r\nand the detection coil, and the secondary coil and the detection coil\r\nkps, kpd, ksd The coupling coefficient between the primary coil and the secondary coil, the primary coil \r\nand the detection coil, and the secondary coil and the detection coil\r\nCf, Cp, Cs The capacitance of the resonant capacitors in the CLC-S compensation network\r\nCL The capacitance of the load-side filter capacitor\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "RL, Re The load resistance and the equivalent resistance of the rectifier\r\nRLf, Rp, Rs, Rline The parasitic resistance of the resonant inductor, the primary coil, the secondary coil and \r\nthe series-connected line\r\nZi, Zi1~Zi4 The input impedance\r\nZo, Zo1~Zo2 The output impedance\r\nvin The primary-side inverter output voltage\r\nvin1~vinN The primary-side inverter output voltage of Module #1~#N\r\nvo The system’s output voltage\r\nvo1~voN The output voltage of Module #1~#N\r\nvind The induced voltage on the detection coil\r\nvc The PWM carrier signal\r\nVdc The voltage of the DC source\r\nVin, Vo, Vind The phasor forms of vin, vo and vind\r\nCollege of Electrical Engineering, Zhejiang University, Hangzhou, China. email: eewjd@zju.edu.cn\r\nOPEN\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 1\r\nwww.nature.com/scientificreports\nVT The Thevenin equivalent voltage source\r\ni\r\nin The primary-side inverter output current\r\ni\r\nin1~iinN The primary-side inverter output current of Module #1~#N\r\ni\r\no The system’s output current (the secondary current)\r\ni\r\np The current of the primary coil\r\ni\r\np1 The primary coil current of Module #1\r\nIN The Norton equivalent current source\r\nIin, Io, Ip The phasor forms of i\r\nin, io\r\n and i\r\np\r\nf\r\ns\r\n, ω The switching frequency and the angular resonant frequency\r\nN The number of modules in the system\r\nPi The total input power of the system\r\nPo The total output power of the system\r\nη The efficiency of the system\r\nϕin the phase difference between Vin and Iin\r\nϕde, ϕoe The phase shift of vind caused by the detection error and the output error\r\nTs The switching period\r\nTc The period of the PWM carrier signal\r\nTtr The period of the transition interval\r\nTmse The maximum synchronization error\r\nKde, Koe The amplitude gain of vind caused by the detection error and the output error\r\nl\r\npc, wpc The length and width of the power coil\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Npc The number of turns of the power coil\r\nwr, dr The routing width and the routing clearance of the power coil\r\nNl The number of layers in the PCB\r\nNs The number of strands per layer when using the PCB litz wire\r\nws, wb The routing width of each strand and each bundle when using the PCB litz wire\r\nds The routing clearance between each strand when using the PCB litz wire\r\nAs The routing angle when using the PCB litz wire\r\nl\r\ndc, hdc The length and the height of the detection coil\r\nNdc The number of turns of the detection coil\r\nBp, Bs The magnetic fields generated by the primary coil and the secondary coil\r\nThe extensive use of fossil fuels has resulted in severe environmental challenges and the development of renewable \r\nenergy has garnered increasing attention1. Among various renewable energy sources, photovoltaic (PV) power \r\ngeneration, owing to its availability, low cost, and cleanliness, has been widely adopted in various fields2,3. Over \r\nthe past decade, numerous breakthroughs and innovations in the PV field have continually emerged, establishing \r\nphotovoltaic power generation as one of the most promising renewable energy sources4–6.\r\nBuilding-attached photovoltaic (BAPV) generation is widely utilized in urban areas7,8. In such systems, \r\nPV panels are typically mounted on the exterior surfaces of a building’s envelope, requiring wired electrical \r\nconnections between the PV panels and the building’s interior9. However, wires in BAPV systems are often \r\nexposed to harsh environmental conditions such as UV radiation, high temperatures, moisture, and mechanical \r\nstress. Over time, these factors can degrade the insulation, resulting in potential electrical faults, short circuits, \r\nor safety hazards. Therefore, eliminating the need for wires in BAPV systems or adequately protecting the wiring \r\nfrom environmental exposure is crucial. In this context, wireless power transfer (WPT) emerges as an ideal \r\nsolution for BAPV systems.\r\nAs a contactless energy transfer technology, WPT has been applied in various fields, including consumer \r\nelectronics, electric vehicles, and medical devices10,11. By integrating WPT technology into BAPV systems, the \r\nenergy generated by PV panels can be wirelessly transferred through the building envelope, eliminating the need \r\nfor physical perforations and wiring, enhancing the indoor environment and extending the system’s lifespan. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Moreover, WPT improves overall system safety due to its non-contact operation12 and offers a convenient plug\u0002and-play installation method13.\r\nThe incorporation of WPT into PV systems has been explored in previous studies14–23. In14, PV cells are used \r\nas the power source, and WPT is applied to achieve an underwater power supply. In15, PV energy is transmitted \r\nthrough WPT coils after DC/AC conversion by a micro-inverter, then rectified and regulated via a BUCK \r\nconverter to charge the battery. In16, a PV-based wireless charging system for a lunar rover is proposed, with a \r\nBUCK converter on the secondary side to achieve maximum power point tracking (MPPT). In17, a PV-based \r\nwireless charging system for electric vehicles is described. In18, a DC microgrid-based connection architecture \r\nfor wireless electric vehicle charging applications is proposed, along with a collaborative control strategy for PV \r\nsystems, energy storage systems, and DC microgrids, enabling stable power transfer for wireless electric vehicle \r\ncharging. In19, a hybrid compensation-based efficient wireless charging system with a solar photovoltaic interface \r\nis proposed. In20, a modular photovoltaic system equipped with a capacitive power transfer interface is proposed. \r\nIn21, WPT is integrated with a modular PV system, using two MPPT strategies that work collaboratively to \r\nenable the system to adapt to various operating conditions and environments.\r\nHowever, existing research faces challenges in effectively balancing cost, efficiency, and flexibility, which are \r\ncritical for BAPV applications.\r\nBased on system connectivity, existing solutions can be categorized into centralized WPT topology and \r\ndistributed WPT topology.\r\nThe centralized WPT topology has been applied in17–19. For applications with fixed power levels and operating \r\ncircumstances, such systems offer benefits like simplified design, reduced manufacturing costs, and high peak \r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 2\r\nwww.nature.com/scientificreports/\nefficiency. However, in BAPV applications, centralized WPT systems encounter difficulties in maintaining peak \r\nefficiency under significant variations in operating conditions and lack the required flexibility.\r\nThe distributed WPT topology has been investigated in20,21. This topology facilitates modular design and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "offers enhanced flexibility, allowing dynamic adjustment in component quantities to adapt to various operating \r\nconditions and environments. However, it may lead to increased device costs and a slight reduction in peak \r\nefficiency, which are disadvantageous for BAPV applications.\r\nThe configuration of coils is another crucial factor for BAPV applications, as it needs to be compact and \r\nresistant to harsh environmental conditions. PCB planar coils are advantageous for modular WPT systems \r\ndue to their ease of manufacture, high repeatability, and low profile24. Nevertheless, for the BAPV application, \r\nconventional PCB planar coils exhibit significant high-frequency loss25 and fail to meet the efficiency \r\nrequirements. To address the high loss issue, one potential solution is to introduce PCB litz wire. By arranging \r\nthe strands in a twisting pattern within a PCB winding, a litz-wire-like effect is achieved, facilitating improved \r\ncurrent distribution across the winding and reducing coil loss at specific frequency ranges26–29.\r\nConsidering the limitations in existing research, this paper introduces a distributed WPT system based \r\non secondary-side-direct-series (SSDS) topology for building-attached photovoltaic generation systems, as \r\nillustrated in Fig. 1. Figure 1a illustrates the installation method of the PV panels and the WPT modules. The \r\nprimary side of the WPT module is integrated with the PV panel and installed on the exterior of the building \r\nenvelope, while the secondary side is installed on the interior and directly connected in series. Figure  1b \r\nillustrates the circuit topology of the system.\r\nThe main contributions of the paper are as follows:\r\n1. A modular distributed WPT structure for building-attached photovoltaic generation systems is proposed. \r\nThis system adopts an SSDS topology with a CLC-S compensation network, maintaining the flexibility and \r\nmodularity of conventional distributed WPT topologies while eliminating rectifiers within each module.\r\n2. A PCB planar power coil integrated with a detection coil is proposed. The planar coil reduces volume and \r\nenhances the parameter consistency of the modules, and the utilization of PCB litz wire further improves \r\nthe efficiency. The detection coil is used to synchronize with the current from the secondary side. A mor\u0002tise-and-tenon structure is employed to securely fasten the primary coil and the detection coil, ensuring \r\nprecise detection of the secondary current.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "3. A synchronization scheme based on the detection coil is presented. Since the secondary sides of the modules \r\nare directly connected in series before rectification, the primary-side inverters of each module must be syn\u0002chronized. By implementing the proposed synchronization strategy, the system achieves high-performance \r\nsynchronization between modules, ensuring stability and safety.\r\nAs a distributed WPT system, the proposed system offers greater flexibility compared to centralized WPT \r\nsystems. Its planar and modular design further enhances the ease of manufacturing, assembly, and scalability, \r\nmaking it adaptable to various environments and power levels in BAPV applications.\r\nAdditionally, compared to conventional distributed WPT systems, the proposed system eliminates the \r\nsecondary rectifier within each module, significantly reducing system cost and volume. This cost advantage \r\nbecomes even more pronounced in large-scale production, leading to substantial system savings. Moreover, the \r\nFig. 1. Proposed SSDS distributed WPT system. (a) System installation diagram. (b) System topology diagram.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 3\r\nwww.nature.com/scientificreports/\nuse of PCB litz wire improves system efficiency, making the proposed system more efficient than conventional \r\ndistributed WPT systems.\r\nHowever, the control scheme of the proposed system is more complex than that of conventional distributed \r\nWPT systems. Nevertheless, thanks to an innovative synchronization strategy and well-designed hardware \r\nand software optimizations, the system demonstrates strong resistance to interference, high stability, and good \r\ncontrollability.\r\nIn summary, the proposed system achieves a balance among cost, efficiency, and flexibility, which are crucial \r\nfactors for BAPV applications, while ensuring system stability and controllability.\r\nThis paper is organized into the following chapters. Chapter “Distributed WPT system based on SSDS topology” \r\nanalyzes the implementation principles and system characteristics of the proposed distributed WPT system. \r\nChapter “Coil design and synchronization strategy” describes the design of coils and synchronization strategy, \r\nas well as the process and results of parameter optimization and simulation analysis. Chapter “Experimental \r\nverification” presents the experimental validation of the proposed topology and system.\r\nDistributed WPT system based on SSDS topology\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "WPT is a highly advantageous solution for BAPV systems, but existing WPT topologies face challenges in \r\nbalancing cost, efficiency, and flexibility. Compared to existing WPT topologies, SSDS topology eliminates the \r\nrectifiers on the secondary side within each module, directly connecting the secondary coils and compensation \r\nnetworks of each module in series, significantly reducing costs and volume, presenting a highly promising \r\nsolution for BAPV systems.\r\nThe compensation network plays a critical role in SSDS topology. Since the secondary sides of all modules are \r\ndirectly connected in series, the output of each module should exhibit voltage-source characteristics. Additionally, \r\nto minimize power losses and improve system efficiency, the inverter output should feature a zero-phase-angle \r\n(ZPA) characteristic. Among compensation networks that meet these requirements, the CLC-S compensation \r\nnetwork is an ideal solution due to its simple structure and minimal number of resonant components. This \r\nsection provides a detailed analysis about characteristics of the system.\r\nCharacteristics of single module\r\nThe proposed distributed WPT system based on SSDS topology is shown in Fig.  1(b). Each WPT module \r\nconsists of an inverter, primary and secondary coils, and primary and secondary compensation networks. In \r\nthis configuration, Lp and Ls represents the inductance of the primary and secondary coils, respectively, while \r\nMps denotes the mutual inductance between primary and secondary sides. The CLC-S compensation network \r\nconsists of Cf, Lf, Cp, and Cs. Additionally, CL and RL represent the filter capacitor and the load resistance, \r\nrespectively.\r\nThe circuit of a module is shown in Fig. 2a, where Vin, Iin, Vo, Io, and Ip are the phasor forms of the fundamental \r\ncomponent of the inverter output voltage vin, the inverter output current i\r\nin, the module’s output voltage vo\r\n, \r\nthe module’s secondary output current i\r\no\r\n, and the primary coil current i\r\np\r\n, respectively, and the PV panel is \r\nrepresented as a DC voltage source Vdc. To simplify the analysis further, the coupling coils are represented using \r\na T-model, and the rectifier is replaced by an equivalent resistor Re, as shown in Fig. 2b.\r\nThe compensation network parameters are designed by the following equations:\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "(Lf + Lp) · Cp = 1\r\nω2\r\nLf · Cf = 1\r\nω2\r\nLs · Cs = 1\r\nω2 ,\r\n(1)\r\nwhere ω=2πf\r\ns\r\n is the angular resonant frequency.\r\nTo facilitate analysis, the capacitor Cp is divided into two capacitors, Cp1 and Cp2, as presented in Fig. 2c:\r\nLf · Cp1 = 1\r\nω2\r\nLp · Cp2 = 1\r\nω2 .\r\n(2)\r\nBased on (1) and (2), an equivalent circuit consisting of two T resonant circuits is obtained, as depicted in \r\nFig. 2d. A detailed analysis of the T resonant circuit is provided in30 and the input impedance Zi2, and current \r\nIin can be calculated:\r\nZi2 = −(jwLf )\r\n2\r\nZi1\r\n= L2\r\nf\r\nM2\r\nps\r\nRe\r\nIin = Vin\r\nZi2\r\n= M2\r\nps\r\nL2\r\nfRe\r\nVin.\r\n(3)\r\nIt is evident that the input impedance of the compensation network is purely resistive, indicating that Vin and Iin\r\nare in phase, thus enabling the inverter to achieve ZPA.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 4\r\nwww.nature.com/scientificreports/\nThe analysis of the output characteristics involves both a Norton equivalent approach and a Thevenin \r\nequivalent approach. Since Zo1 is infinite, the circuit shown in Fig. 2d can be simplified to the circuit in Fig. 2e \r\nusing the Norton equivalent, where the Norton equivalent current source\r\nIN = Ip = Vin\r\n−jwLf\r\n. (4)\r\nEquation  (4) also indicates that the system has the characteristic of a constant current of primary coil. \r\nFurthermore, since Zo2 = 0, the circuit in Fig. 2(f) can be obtained using the Thevenin equivalent, where the \r\nThevenin equivalent voltage source\r\nVT = IN · jwMps = −Mps\r\nLf\r\nVin. (5)\r\nFinally, it can be obtained that\r\nVo = VT = −Mps\r\nLf\r\nVin\r\nIo = − Mps\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "LfRe\r\nVin.\r\n(6)\r\nFrom (6), it can be concluded that the module exhibits the output characteristics of a voltage source.\r\nCharacteristics of multi-module system\r\nThe equivalent circuit of SSDS topology with N modules is presented in Fig. 3 and the numbers in the variable \r\nsubscripts correspond to their respective module numbers. Considering Module #1, the remaining modules are \r\nsimplified into (N–1) equivalent voltage sources connected in series, as illustrated in Fig. 4a. These equivalent \r\nvoltage sources in series can be represented as:\r\nVT (all) = −Mps\r\nLf\r\n(Vin2 + Vin3 + ··· + VinN ). (7)\r\nFrom Fig. 4a, it can be observed that Iin1 is the sum of the current generated by the source Vin1 and VT(all). When \r\nconsidering Vin1 alone, as shown in Fig. 4b, VT(all) is treated as a short circuit and Iin1 is given by:\r\nFig. 2. Equivalent simplification process of the single-module system. (a) Single-module system. (b) First\u0002order harmonic decoupled equivalent circuit. (c) Cp\r\n is divided into two capacitors. (d) Equivalent circuit \r\nconsisting of two T resonant circuits. (e) Norton equivalent circuit. (f) Thevenin equivalent circuit.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 5\r\nwww.nature.com/scientificreports/\nIin1(Vin1) = M2\r\nps\r\nL2\r\nfRe\r\nVin1. (8)\r\nWhen considering VT(all) alone, as shown in Fig. 4c, Vin1 is short-circuited. In the left-side circuit, -jwLf and jwLf\r\nform a parallel resonance tank, resulting in neither current flow nor voltage drop at the dashed-line section. In \r\nthe right-side circuit, a series resonance occurs, and it can be readily deduced that:\r\nIin1(VT (all)) = −VT (all)\r\nRe\r\njwMps\r\njwLf\r\n= M2\r\nps\r\nL2\r\nfRe\r\n(Vin2 + Vin3 + ··· + VinN ) (9)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "When combing the source Vin1 and VT(all) and referencing (8) and (9), the input current of Module #1 is:\r\nFig. 3. Equivalent circuit of the multi-module system.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 6\r\nwww.nature.com/scientificreports/\nIin1 = Iin1(Vin1) + Iin1(VT (all)) = M2\r\nps\r\nL2\r\nfRe\r\n(Vin1 + Vin2 + Vin3 + ··· + VinN ). (10)\r\nFrom (10), it can be observed that the SSDS topology introduces a coupled characteristic between the modules \r\nwithin the system. The impact of this coupling characteristic on system efficiency will be analyzed in following \r\nsections.\r\nAs previously discussed, the output of each module exhibits the characteristics of a voltage source. This \r\ncharacteristic remains consistent when multiple modules are connected in series, leading to the following result:\r\nVo = −Mps\r\nLf\r\n(Vin1 + Vin2 + ··· + VinN )\r\nIo = − Mps\r\nLfRe\r\n(Vin1 + Vin2 + ··· + VinN ).\r\n(11)\r\nFig. 4. Application of the superposition theorem for calculation of Iin1. (a) Considering Vin1 and VT(all)\r\ntogether. (b) Considering Vin1 alone. (c) Considering VT(all) alone.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 7\r\nwww.nature.com/scientificreports/\nEfficiency analysis\r\nIn a practical system, the parasitic resistances in the resonant inductors, primary coils, secondary coils, and \r\nseries-connected lines must be considered, denoted as RLf, Rp, Rs, and Rline. When considering only Vin1, the \r\npractical circuit model is depicted in Fig. 5, and Io and Iin1 can be obtained as\r\nIo(Vin1) = VT\r\nZo + Zi3\r\nIin1(Vin1) = Vin1\r\nZi\r\n,\r\n(12)\r\nwhere VT represents the Thevenin equivalent voltage source at the output port of Module #1, expressed as\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "VT = Vin1(RLf + jwLf )jwMps\r\n−2jwLfRLf + RLf Rp + w2Lf 2 . (13)\r\nBy calculating the shunt current of Io(Vin1), the input currents of other modules, considering only Vin1, can also \r\nbe determined as:\r\nIin2(Vin1) = Iin3(Vin1) = ··· = IinN(Vin1) = α · Vin1, (14)\r\nFig. 5. The practical circuit model when considering only Vin1.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 8\r\nwww.nature.com/scientificreports/\nwhere\r\nα = (RLf + jwLf )jwMps\r\n−2jwLfRLf + RLf Rp + w2Lf 2 · jwMps(RLf + jwLf )\r\n(Zo + Zi3) (Zi1 + jwMps)\r\n(\r\nRLf\r\n) . (15)\r\nConsidering the combined effect of all voltage sources, from (12) to (15), the input currents of each module and \r\nthe total output current can be determined as\r\nIin =\r\n( 1\r\nZi\r\n+ (N − 1) · α\r\n)\r\nVin\r\nIo = β · Vin,\r\n(16)\r\nwhere\r\nβ = N · (RLf + jwLf ) · jwMps\r\n(Zo + Zi3)\r\n(\r\n−2jwLfRLf + RLf Rp + w2Lf 2\r\n) . (17)\r\nFor simplicity, (16) is derived under the assumption that all voltage sources have equal voltages, where\r\nVin = Vin1 = Vin2 = ··· = VinN (18)\r\nFrom (16), the total input power and total output power of the system can be derived as:\r\nPi = N · |Vin|·|Iin| · cos φin\r\nPo = Re · |Io|\r\n2\r\n, (19)\r\nwhere φin represents the phase difference between Vin and Iin.\r\nFinally, the efficiency can be calculated as\r\nη = Po\r\nPi\r\n. (20)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Figure 6 illustrates the variation in system efficiency as the load and the number of modules change. Table 1 lists \r\nthe system parameters used in the calculation of system efficiency.\r\nAccording to the results presented in Fig. 6, under most load conditions, system efficiency first increases and \r\nthen decreases as the number of modules increases. This indicates that, for different load conditions, there is an \r\noptimal number of modules that maximizes system efficiency.\r\nIt can also be calculated that, under the scenario of constant power transmission per module, the system’s \r\nAC–AC efficiency remains nearly constant due to the coupled nature between modules. This constant efficiency \r\ncharacteristic provides systems employing the SSDS topology with extremely high scalability.\r\nCoil design and synchronization strategy\r\nPlanar and integrated coil design\r\nIn the proposed distributed WPT system based on the SSDS topology, achieving accurate synchronization \r\nbetween modules is a critical challenge.\r\nTo address this, the system employs a detection coil to sense the secondary-side current while effectively \r\ndecoupling it from the primary-side current. Uniform coil parameters across all modules are required, and \r\nthe detection coil must be precisely designed to ensure decoupling from the primary coil. To meet these \r\nrequirements, PCB planar coils are selected for their superior consistency, compactness, and manufacturing \r\nprecision compared to conventional wound coils. Thus, a planar design is adopted for both the power and \r\ndetection coils, with a mortise-and-tenon structure integrated to achieve precise decoupling.\r\nThe power coils are designed in a DD structure, as shown in Fig. 7a, where l\r\npc, wpc, wr\r\n, dr, Npc and Nl are the \r\nlength, width of the power coil, routing width, routing clearance, the number of turns in the power coil and the \r\nnumber of layers in the PCB, respectively. A magnetic core is symmetrically positioned adjacent to the coils, as \r\ndepicted in Fig. 7b.\r\nThe airgap is set at 50 mm. Considering the transmission distance requirements, l\r\npc and wpc are set at 250 mm, \r\nNpc is set at 20, wr is set at 3 mm, and dr is set at 2 mm. An 8-layer PCB is used, with a copper thickness of 2oz.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Further analysis of the magnetic field generated by the power coil has been conducted, and the finite element \r\nsimulation results are presented in Fig. 8. According to the results presented in Fig. 8, the symmetric coil design \r\nand magnetic core configuration ensure that the magnetic field generated by the primary coil is symmetrically \r\ndistributed on both the upper and bottom sides. This characteristic is crucial for the placement of detection coils \r\nand the implementation of the synchronization strategy.\r\nDue to the significant high-frequency loss in conventional PCB planar coils, the use of PCB litz wire is \r\nessential. Figure 9 shows a segment of PCB litz wire at the bundle level. In the design of the PCB litz wire, several \r\ncritical parameters must be carefully considered, including the number of strands per layer Ns, routing width \r\nper strand ws, routing width per bundle wb, routing clearance between each strand ds, and routing angle As, with \r\ntrade-offs to optimize performance.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 9\r\nwww.nature.com/scientificreports/\nTo maximize the use of routing space, given current manufacturing capabilities, ds\r\n is set to 0.15 mm. wb is \r\nset to 3 mm to maintain consistency with wr. Ns, ws, and As are three remaining parameters, with effectively two \r\ndegrees of freedom left. Furthermore, Ns and As are set to different values to conduct finite element analysis, with \r\nPCB solid wire for comparison. The analyzing results of normalized resistance are presented in Fig. 10.\r\nIt can be observed that, using PCB litz wire effectively achieves an even distribution of current density, and \r\nreduces resistance and loss within a certain frequency range. At system operating frequency f\r\ns\r\n = 85 kHz, with \r\nNs = 5 and As = 30o, PCB litz wire exhibits significant advantages. These parameters are used for experimental \r\nvalidation in subsequent studies.\r\nThe detection coil is designed as two series-connected sub-coils arranged in the same polarity, and \r\northogonally mounted onto the primary coil using a mortise-and-tenon structure, as illustrated in Fig.  11a, \r\nwhere l\r\ndc and hdc represent the length and height of the detection coil, Bp\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": " and Bs represent the magnetic fields \r\nParameter Value Parameter Value\r\nLp 53 uH Rp 0.45Ω\r\nLs 53 uH Rs 0.45Ω\r\nMps 12.12 uH RLf 0.08Ω\r\nLf 15 uH Rline 0.01Ω\r\nCf 233.73 nF f\r\ns 85 kHz\r\nCp 51.56 nF w 2πfs\r\nCs 66.15 nF Vdc 60 V\r\nTable 1. The system parameters used in the calculation of system efficiency.\r\nFig. 6. System efficiency under different load resistance and number of modules.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 10\r\nwww.nature.com/scientificreports/\nFig. 9. Schematic diagram of PCB litz wire.\r\nFig. 8. Magnetic field distribution of the coils.\r\nFig. 7. DD coil and magnetic core configuration. (a)DD coil. (b)Magnetic core configuration.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 11\r\nwww.nature.com/scientificreports/\ngenerated by the primary and secondary coils. l\r\ndc is kept consistent with lpc, and hdc is fixed at 15 mm, with the \r\nnumber of turns Ndc configured to 4, comprising 2 turns on the upper-side and 2 turns on the bottom-side.\r\nFigure 11b presents the equivalent circuit of the power coils and the detection coil, where the subscripts p, \r\ns, d1, and d2 represent the primary coil, secondary coil, upper-side sub-coil of detection coil, and bottom-side \r\nsub-coil of detection coil, respectively. The detection coil is considered as consisting of two separate sub-coils \r\nconnected in series. Since the two sub-coils are symmetrically mounted on the upper and bottom sides of the \r\nprimary coil, the magnetic field generated by the primary coil current is equal in magnitude but opposite in \r\ndirection within the upper-side and bottom-side sub-coils in ideal condition, which means Mpd1 + Mpd2 ≈ 0. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Furthermore, the detection coil can be considered as a whole, leading to a simplified equivalent circuit diagram, \r\nas shown in Fig. 11(c), where the subscript d represents the whole detection coil, and\r\nMpd = Mpd1 + Mpd2 ≈ 0\r\nMsd = Msd1 + Msd2\r\nLd = Ld1 + Ld2 + 2Md1d2\r\n(21)\r\nSince Mpd ≈ 0, the decoupling between the detection coil and the primary coil can be ensured, and the integrated \r\ndesign based on mortise-and-tenon structure further ensures precise decoupling between the detection coil and \r\nthe primary current. On this basis, the induced voltage of the detection coil is given by\r\nVind = jwMsdIo, (22)\r\nwhere Vind is the phasor form of the induced voltage of the detection coil vind, Msd is the mutual inductance \r\nbetween the secondary coil and the detection coil.\r\nThe complete parameters for the power coils and detection coil are shown in Table 2.\r\nFig. 10. Finite element simulation results of the PCB litz wire. (a) Normalized resistance at different \r\nfrequencies. Normalization refers to the process of dividing the actual unit length resistance of the PCB litz \r\nwire by the unit length DC resistance of a solid PCB wire. AFR means the advantageous frequency range of \r\nPCB litz wire. (b) Current density distribution of the PCB litz wire with Ns = 5 and As = 30o at 85 kHz. (c) \r\nCurrent density distribution of the PCB solid wire at 85 kHz.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 12\r\nwww.nature.com/scientificreports/\nBased on the determined parameters, finite element analysis is conducted, with the results presented in \r\nTable 3, where the letter L represents self-inductance, M represents mutual inductance, and k represents the \r\ncoupling coefficient, the subscripts p, s, and d refer to the primary coil, secondary coil, and detection coil, \r\nrespectively.\r\nParameter Simulation result Parameter Simulation result\r\nLp 53.88 uH Ld 6.83 uH\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Ls 54.01 uH Mpd, kpd 11.51 nH, 0.0006\r\nMps, kps 12.15 uH, 0.2252 Msd, ksd 645.34 nH, 0.0336\r\nTable 3. Simulation results of coils without considering PCB Litz wire.\r\nParameter Value Parameter Value\r\nl\r\npc, wpc 250 mm ws 0.45 mm\r\nwr/wb 3 mm ds 0.15 mm\r\ndr 2 mm As 30o\r\nNpc 20 l\r\ndc 250 mm\r\nNl 8 hdc 15 mm\r\nNs 5 Ndc 4\r\nTable 2. Parameters of coils.\r\nFig. 11. Power coils and detection coil. (a) Schematic diagram. (b) Equivalent circuit. (c) Simplified equivalent \r\ncircuit.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 13\r\nwww.nature.com/scientificreports/\nAs shown in Table 3, the coupling coefficient between the detection coil and the primary coil is close to \r\n0, achieving the intended decoupling objective. The planar and integrated design further ensures that the \r\nmanufactured coils achieve precise decoupling.\r\nSynchronization strategy\r\nThis paper proposes a synchronization strategy based on detection coil, as depicted in Fig. 12, taking Module #1 \r\nas an example and the subscript “1” in the variable symbols denotes Module #1.\r\nWhen the detection coil is decoupled from the primary coil, the induced voltage vind1 on the detection coil of \r\nModule #1 is determined by (22), with its phase leading the secondary current i\r\no\r\n by 90 degrees.\r\nThe induced voltage vind1 is filtered and used as a reference for synchronization. A micro controller unit \r\n(MCU) on the primary side controls the inverter and calculates the phase difference between the carrier signal \r\nvc1 and vind1, which is denoted as Δφ1.\r\nThus, vc1 is aligned with vind1 by inserting a transition interval, as presented in Fig. 12b. The period of a \r\ntransition interval is given by:\r\nTtr = Tc ·\r\n(\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "1 + ∆φ1\r\n2π\r\n)\r\n. (23)\r\nSince vin1 leads vc1 by 90 degrees, by aligning vc1 with vind1, a 180o phase difference between vin1 and i\r\no\r\n can be \r\nensured. When all modules have completed the above process, the output voltages of all primary inverters (vin1, \r\nvin2, …, vinN) maintain a 180o phase difference with the common secondary current i\r\no\r\n and synchronization \r\nbetween modules is achieved. Moreover, as derived from (6), the output voltages of all modules (vo1, vo2, …, voN) \r\nare now in phase with i\r\no\r\n, reflecting a unit power factor characteristic at the output port of each module.\r\nTo ensure that the synchronization is sufficiently robust against external interference, targeted designs \r\nhave been implemented both in hardware and software. On the hardware side, the synchronization circuit is \r\nequipped with filtering circuits and Schmitt triggers to effectively suppress noise, spikes, and other disturbances \r\nat non-target frequencies. On the software side, the MCU continuously calculates the phase difference and \r\napplies algorithms for noise reduction. Therefore, the synchronization is robust enough to withstand external \r\ninterference.\r\nHowever, in practical systems, due to the presence of detection error and output error, synchronization error \r\nbetween modules is inevitable. Considering the initial secondary current Io(m) of the m-th synchronization cycle, \r\nits phase is set as the reference phase:\r\nIo(m) = Io(m)∠0◦, (24)\r\nwhere subscript “m” means the m-th synchronization cycle.\r\nThe detection error refers to the error introduced during the detection stage, caused by the incomplete \r\ndecoupling between the detection coil and the primary coil. As a result, in the m-th synchronization cycle, before \r\nsynchronization, the expression for Vind1 should be corrected as\r\nVind1(m) = jwMsd1Io(m) + jwMpd1Ip1(m) = Kde1(m)Vind1(m)∠(90◦ + φde1(m)), (25)\r\nFig. 12. Synchronization strategy. (a) Synchronization scheme diagram. (b) Waveforms of synchronization \r\nprocess.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Scientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 14\r\nwww.nature.com/scientificreports/\nwhere Vind1(m)\r\n represents the RMS value of vind1 under ideal conditions, 90° represents the ideal phase difference \r\nbetween vind1 and i\r\no\r\n. Kde1(m) and φde1(m) denotes the amplitude gain and phase shift of vind1 caused by the detection \r\nerror, respectively.\r\nThe phase shift of vind1 affects the synchronization process and leads to a phase shift in the inverter output \r\nvoltage vin1. The expression for Vin1 should be corrected as\r\nVin1(m) = Vin1∠(180◦ + φde1(m)), (26)\r\nwhere Vin1 presents the RMS value of vin1, and 180° represents the ideal phase difference between vin1 and i\r\no\r\n.\r\nThe output error refers to the error generated during the power transmission process, caused by factors such \r\nas component parameter deviations and parasitic parameter effects. The output error results in deviations in the \r\ngain and phase difference between vo1 and vin1, which no longer satisfy the conclusion in (6). Therefore, in the \r\nm-th synchronization cycle, Vo1 can be expressed as\r\nVo1(m) = −Mps\r\nLf\r\nVin1(m)Koe1(m)∠φoe1(m) = Mps\r\nLf\r\nVin1Koe1(m)∠(φde1(m) + φoe1(m)), (27)\r\nwhere Koe1(m) and φoe1(m) denotes the amplitude gain and phase shift of vo1 caused by the output error, respectively.\r\nBased on the above steps, in the m-th synchronization cycle, the output voltage of each module (Vo1(m), Vo2(m), \r\n…, VoN(m)) can be calculated. Furthermore, the initial secondary current of the (m+1)-th synchronization cycle \r\ncan be determined as\r\nIo(m+1) = Vo1(m) + Vo2(m) + ···VoN(m)\r\nRe\r\n. (28)\r\nThe mutual inductance values between the power coil and the detection coil used in the calculation are listed \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "in Table 4, while Koe and φoe are obtained by generating random numbers within a specific range during each \r\nsynchronization cycle.\r\nBy repeatedly performing the above calculation, the inverter output voltage of each module at any \r\nsynchronization cycle can be recursively derived, and the phase differences between them can be obtained. The \r\ntime difference corresponding to the maximum phase difference is the maximum synchronization error Tmse\r\nbetween the modules.\r\nFigure 13 presents the synchronization error calculated for a three-module system using the above method. \r\nThe maximum synchronization error Tmse = 164 ns=1.38%Ts, where Ts is the switching period. It can be \r\nobserved that the synchronization error is effectively minimized, ensuring the stable operation of the system.\r\nParameter design of CLC-S network\r\nBased on the coil parameters in Table 3, Cs can be calculated, while Cf, Lf, and Cp still contain one degree of \r\nfreedom. For a system employing three modules in series, the rated power of a single module is set at 300 W. \r\nReferring to the previous analysis of the efficiency of the practical system, the variation curves of system efficiency \r\nand loss with changes in Lf can be calculated, as illustrated in Fig. 14.\r\nGiven the results illustrated in Fig. 14, Lf is set to 15 µH. Consequently, Cf and Cp are also determined, as \r\nshown in Table 5.\r\nSimulation analysis\r\nA model is built in Simulink/Matlab to simulate the performance of the proposed topology and system, with \r\ncircuit parameter variations and parasitic effects being considered. The model applies the proposed SSDS \r\ntopology and the synchronization is performed every 50 switching periods.\r\nFirst, the entire system’s operation process is simulated, with modules #1, #2, and #3 soft-starting at 0s, 0.05s, \r\nand 0.1s, respectively. The simulation results are shown in Fig. 15a, where i\r\no\r\n is the secondary current, vin1, vin2, \r\nvin3 are inverter output voltages and VL is the voltage across the load resistor.\r\nAs shown in Fig. 15a, the module startup does not lead to severe power fluctuations, facilitating smooth \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "connection and disconnection of modules in a multi-module system. Moreover, since synchronization is \r\nachieved by inserting a transition interval, the synchronization does not introduce a significant transient process, \r\nthereby ensuring the stability of the system.\r\nThe next step is to downscale the time base. Figure 15b and c is obtained by enlarging the region outlined by \r\nthe red dashed box. According to the simulation results, the three modules achieved effective synchronization, \r\nwith a maximum synchronization error of Tmse = 188 ns=1.6%Ts.\r\nParameters Value Parameters Value\r\nMsd1 0.0336 Mpd1 0.0016\r\nMsd2 0.0336 Mpd2 − 0.0008\r\nMsd3 0.0336 Mpd3 0.0007\r\nTable 4. Parameters used in synchronization calculation.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 15\r\nwww.nature.com/scientificreports/\nExperimental verification\r\nFigure 16 shows the configuration of the experimental setup. In this experiment, a Hioki PW8001 power \r\nanalyzer and a Keysight DSO-X 3024T oscilloscope are used. Figure 16 illustrates the overall configuration of \r\nthe prototype system, which is arranged based on SSDS topology as depicted in Fig. 1. The system consists of \r\nthree switched-mode power supplies, three WPT modules, a centralized rectifier, and a centralized load. The \r\nthree switched-mode power supplies simulate the output of PV panels and supply power to the three WPT \r\nmodules. The primary inverters of each module convert the energy from DC to AC, which is then transmitted \r\nto the secondary side through the primary compensation network and primary coil. The secondary coils and \r\ncompensation networks of each module are directly connected in series based on the SSDS topology. The energy \r\ntransmitted to the secondary side is rectified by a centralized rectifier, providing DC power output at the load \r\nside.\r\nFigure 16b illustrates the specific hardware configuration of Module #1. Module #1 consists of a primary \r\ninverter, a primary compensation network, a primary coil, a detection coil, a secondary coil, and a secondary \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "compensation network. Figure  16c–e illustrate the specific hardware configurations of the primary coil, \r\nsecondary coil, and detection coil, respectively. The primary coil and the secondary coil are designed and \r\nmanufactured using PCB litz wire, while the detection coil is divided into two symmetrical sub-coils (upper-side \r\nand bottom-side). These sub-coils are assembled orthogonally with the primary coil through a mortise-and\u0002tenon structure. The coil parameters are consistent with those listed in Table 2, and the air gap between the \r\nprimary and secondary coils is 50 mm. Figure 16f–h illustrate the specific hardware configurations of the power \r\nboard, control board, and MCU core board of the primary-side inverter with detailed functional partitions \r\nexplicitly labeled in the figures.\r\nTable 6 provides the key parameters of the prototype system.\r\nFigure 17 presents the waveforms when the three modules are activated sequentially, where vin1, vin2, and vin3\r\nrepresent the output voltages of the three inverter modules, and i\r\no\r\n represents the secondary-side current.\r\nFigure 17a presents the waveforms of vin1, vin2, vin3 and i\r\no\r\n when only Module #1 is activated. Figure 17b \r\nreduces the oscilloscope time base to display the waveforms at the rising edge of the inverter output voltage \r\nin Fig.  17a. Figure  17c shows the waveforms of vin1, vin2, vin3 and i\r\no\r\n when both Module #1 and Module #2 \r\nFig. 13. Calculated results of synchronization error.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 16\r\nwww.nature.com/scientificreports/\nare activated. Figure 17d reduces the oscilloscope time base to display the waveforms at the rising edge of the \r\ninverter output voltage in Fig. 17c. According to the waveforms in Fig. 17d, when both Module #1 and Module \r\n#2 are activated, the Tmse between Module #1 and Module #2 is approximately 90ns. Figure 17e presents the \r\nwaveforms of vin1, vin2, vin3 and i\r\no\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": " when all three modules are activated. Figure 17f reduces the oscilloscope time \r\nbase to display the waveform at the rising edge of the inverter output voltage in Fig. 17e. Based on the waveforms \r\nin Fig. 17f, when all three modules are activated, the Tmse between the modules is approximately 178 ns.\r\nObservation of Fig.  17 indicates that the proposed synchronization strategy achieves high-quality \r\nsynchronization. When three modules operate simultaneously, the Tmse between modules is less than 2% of Ts.\r\nFigure 18 presents the inverter output voltage vin1, inverter output current i\r\nin1\r\n, primary current i\r\np1\r\n, and \r\nsecondary current i\r\no\r\n of Module #1, when three modules operate simultaneously. Figure  18a presents the \r\nfluctuations of vin1, i\r\nin1\r\n, i\r\np1\r\n and i\r\no\r\n over a longer time span, while Fig. 18b reduces the oscilloscope time base to \r\ndisplay the detailed waveforms of vin1, i\r\nin1\r\n, i\r\np1\r\n and i\r\no\r\n. Due to the inherent synchronization error, which cannot be \r\nfully eliminated, i\r\nin1\r\n and i\r\no\r\n exhibit fluctuations. However, the primary current remains nearly unaffected due to \r\nits current source characteristics. According to Fig. 18, the absolute fluctuations of i\r\nin1\r\n and i\r\no\r\n are both less than \r\nParameters Value\r\nLf 15 uH\r\nCf 233.73 nF\r\nCp 50.90 nF\r\nCs 64.91 nF\r\nTable 5. Parameters of CLC-S network.\r\nFig. 14. Calculated results of the variation curves of system efficiency and loss with changes in Lf.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 17\r\nwww.nature.com/scientificreports/\n300 mA, and the relative fluctuation is less than 4%. No significant transient process caused by synchronization \r\nis observed.\r\nFigure 19 shows the drain-source voltage vds1 of the inverter MOSFET, the inverter output current i\r\nin1\r\n, and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "the inverter drive signals pwm1 and pwm2 of Module #1. To ensure that the primary-side inverter operates \r\nunder ZVS (zero voltage switching) condition, the inductance of the resonant inductor Lf in the actual system \r\nshould be set slightly smaller than the inductance at resonance. It is evident that the MOSFET in the inverter \r\noperates under ZVS, which further enhances system efficiency.\r\nFigure 20 presents a screenshot from the power analyzer when the three modules are operating simultaneously. \r\nUdc1, Udc2, Udc3 represent the DC input voltages of the three WPT modules, and I\r\ndc1\r\n, I\r\ndc2\r\n, I\r\ndc3\r\n represent the \r\nDC input currents of the three WPT modules. Udc4 and I\r\ndc4\r\n correspond to the voltage and current across the \r\nload resistor. P1, P2, P3 denote the input power of the three WPT modules, and P4 represents the output power \r\nconsumed by the load. η denotes the system efficiency. As indicated in Fig. 20, with a total input power of 864 W, \r\nthe system efficiency exceeds 85%, with a total power loss of approximately 130 W.\r\nFigure 21 shows the temperature rise of the power coil during full-power operation. Under an ambient \r\ntemperature of 12  °C, after 30  min of full-power operation, the temperature rise of both the primary and \r\nsecondary coils is maintained within 20  °C. Thanks to the excellent heat dissipation capability of the PCB \r\nmaterial, the power coils perform well in terms of thermal management.\r\nFinally, Fig. 22 illustrates the installation method between the WPT module and the PV panel in a practical \r\napplication scenario. The primary side of WPT module is mounted on the backside of the PV panel. Owing to its \r\nplanar design, the WPT module can be easily embedded into the redundant space on the back of the PV panel, \r\navoiding additional volume overhead.\r\nConclusion\r\nThis paper proposes a distributed WPT system based on SSDS topology for integration with BAPV systems. \r\nAimed at BAPV application scenarios, a solution that balances cost, efficiency, and flexibility is presented. As a \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "distributed WPT system, the proposed system maintains the flexibility of conventional systems, allowing for easy \r\nscaling by adding or reducing modules. The adoption of the SSDS topology eliminates the need for secondary\u0002side rectifiers in each distributed WPT module, thereby reducing both cost and size, while simultaneously \r\nincreasing the synchronization requirements between modules.\r\nTo ensure hardware consistency and synchronization accuracy, while further reducing the volume and \r\nweight of the module, this paper adopts a fully planar design approach. The power and detection coils are \r\ndesigned and fabricated using PCB planar coils, with PCB litz wire applied to the power coils to further improve \r\nefficiency and reduce loss. The detection coil is precisely assembled with the primary coil through a mortise-and\u0002Fig. 15. Simulation verification of the synchronization strategy. (a) The entire system’s operation process. (b) \r\nWaveforms of synchronization. (c) Waveforms of synchronization (further enlarged).\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 18\r\nwww.nature.com/scientificreports/\ntenon structure, ensuring decoupling from the magnetic field generated by the primary current. The proposed \r\nsynchronization strategy, based on detection coils, ensures precise module synchronization and guarantees \r\nsystem stability.\r\nThe proposed topology, system, coil design, and synchronization strategy have been validated through both \r\nsimulations and experiments. Based on the SSDS topology, an 850  W prototype system consisting of three \r\ndistributed WPT modules has been designed and established. The system achieves soft switching of the switching \r\ndevices and over 85% system efficiency. The robust and precise synchronization strategy ensures system stability, \r\nwith a synchronization error of less than 2% of the switching period. As a result, fluctuations in both the primary \r\ninverter output current and the secondary current are maintained around 300 mA, and the synchronization \r\nprocess has minimal impact on smooth power transfer.\r\nFig. 16. Configuration of the experimental setup. (a) Overall experimental setup of the prototype system. (b) \r\nOverall configuration of Module #1. (c) Primary coil and detection coil. (d) Secondary coil. (e) Detection coil. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "(f) Power board of the primary inverter. (g) Control board of the primary inverter. (h) MCU core board of the \r\nprimary inverter.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 19\r\nwww.nature.com/scientificreports/\nFig. 17. Waveforms when the three modules are activated sequentially. (a) Only Module #1 is activated. (b) \r\nOnly Module #1 is activated. (c) Module #1 and Module #2 are activated. (d) Module #1 and Module #2 are \r\nactivated. (e) Three modules are all activated. (f) Three modules are all activated.\r\nParameters Value Parameters Value\r\nCoil parameters and compensation network parameters\r\nLp(Module #1) 53.21 uH ksd(Module #1) 0.0325\r\nLp(Module #2) 52.98 uH ksd(Module #2) 0.0340\r\nLp(Module #3) 53.06 uH ksd(Module #3) 0.0334\r\nLs(Module #1) 52.93 uH Lf(Module #1) 14.54 uH\r\nLs(Module #2) 53.12 uH Lf(Module #2) 14.39 uH\r\nLs(Module #3) 52.88 uH Lf(Module #3) 14.45 uH\r\nLd(Module #1) 6.81 uH Cf(Module #1) 231.91 nF\r\nLd(Module #2) 6.77 uH Cf(Module #2) 233.08 nF\r\nLd(Module #3) 6.79 uH Cf(Module #3) 229.85 nF\r\nkps(Module #1) 0.2242 Cp(Module #1) 52.11 nF\r\nvkps(Module #2) 0.2293 Cp(Module #2) 51.29 nF\r\nkps(Module #3) 0.2186 Cp(Module #3) 53.37 nF\r\nkpd(Module #1) 0.0006 Cs(Module #1) 66.29 nF\r\nkpd(Module #2) 0.0006 Cs(Module #2) 67.33 nF\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "kpd(Module #3) 0.0006 Cs(Module #3) 65.95 nF\r\nSystem parameters\r\n System rated input power 850 W\r\n Single module rated input \r\npower\r\n285 W\r\n Rated input voltage of each \r\nmodule 60 V\r\n Rated output voltage of the \r\nsystem 135 V\r\n Load 25 Ω\r\n Air gap 50 mm\r\nTable 6. The key parameters of the prototype system.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 20\r\nwww.nature.com/scientificreports/\nFig. 19. Experimental results of the voltage and current waveforms of the MOSFET. (a) Experimental \r\nwaveforms. (b) Experimental waveforms (enlarged).\r\nFig. 18. Experimental results of current fluctuations during stable operation of the system. (a) Experimental \r\nwaveforms. (b) Experimental waveforms (enlarged).\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 21\r\nwww.nature.com/scientificreports/\nFig. 21. The results of coil temperature rise test.\r\nFig. 20. Screenshot of the power analyzer.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 22\r\nwww.nature.com/scientificreports/\nData availability\r\nThe datasets used in this article are available from the corresponding author upon reasonable request.\r\nReceived: 27 December 2024; Accepted: 7 April 2025\r\nReferences\r\n1. Elavarasan, R. M. et al. A comprehensive review on renewable energy development, challenges, and policies of leading Indian \r\nStates with an international perspective. IEEE Access. 8, 74432–74457. https://doi.org/10.1109/ACCESS.2020.2988011 (2020).\r\n2. Sutikno, T., Arsadiando, W., Wangsupphaphol, A., Yudhana, A. & Facta, M. A review of recent advances on hybrid energy storage \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "system for solar photovoltaics power generation. IEEE Access. 10, 42346–42364. https://doi.org/10.1109/ACCESS.2022.3165798\r\n(2022).\r\n3. Dehghani, M. et al. Control of LPV modeled AC-microgrid based on mixed H2/H∞time-varying linear state feedback and robust \r\npredictive algorithm. IEEE Access. 10, 3738–3755. https://doi.org/10.1109/ACCESS.2021.3139341 (2022).\r\n4. Kaltenbrunner, M. et al. Flexible high power-per-weight perovskite solar cells with chromium oxide–metal contacts for improved \r\nstability in air. Nat. Mater. 14(10), 1032–1039. https://doi.org/10.1038/nmat4388 (2015).\r\n5. Zhang, C. & Park, N. G. Materials and methods for cost-effective fabrication of perovskite photovoltaic devices. Commun. Mater.\r\n5(1), 1–13. https://doi.org/10.1038/s43246-024-00636-8 (2024).\r\n6. Ghiasi, M., Wang, Z., Mehrandezh, M. & Paranjape, R. Enhancing efficiency through integration of geothermal and photovoltaic \r\nin heating systems of a greenhouse for sustainable agriculture. Sustain. Cities Soc. 118, 106040. https://doi.org/10.1016/j.scs.2024.\r\n106040 (2025).\r\n7. Sechilariu, M., Wang, B. & Locment, F. Building integrated photovoltaic system with energy storage and smart grid communication. \r\nIEEE Trans. Industr. Electron. 60(4), 1607–1618. https://doi.org/10.1109/TIE.2012.2222852 (2013).\r\n8. Liu, X., Liu, X., Jiang, Y., Zhang, T. & Hao, B. Photovoltaics and energy storage integrated flexible direct current distribution \r\nsystems of buildings: definition, technology review, and application. CSEE J. Power Energy Syst. 9(3), 829–845. https://doi.org/10.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "17775/CSEEJPES.2022.04850 (2023).\r\n9. Svetozarevic, B. et al. Dynamic photovoltaic building envelopes for adaptive energy and comfort management. Nat. Energy. 4(8), \r\n671–682. https://doi.org/10.1038/s41560-019-0424-0 (2019).\r\n10. Fathollahi, A., Derakhshandeh, S. Y., Ghiasian, A. & Khooban, M. H. Utilization of dynamic wireless power transfer technology in \r\nmulti-depot, multi-product delivery supply chain. Sustain. Energy Grids Netw. 32, 100836. https://doi.org/10.1016/j.segan.2022.10\r\n0836 (2022).\r\n11. Fathollahi, A., Gheisarnejad, M., Boudjadar, J., Homayounzadeh, M. & Khooban, M. H. Optimal design of wireless charging \r\nelectric buses-based machine learning: a case study of nguyen-dupuis network. IEEE Trans. Veh. Technol. 72(7), 8449–8458. \r\nhttps://doi.org/10.1109/TVT.2023.3247838 (2023).\r\n12. Wang, H., Sun, J. & Cheng, K. W. E. A compact and integrated magnetic coupler design with cross-coupling elimination utilizing \r\nLCC-S compensation network for Building attached photovoltaic systems. IEEE Trans. Magn. 59(11), 1–5. https://doi.org/10.1109\r\n/TMAG.2023.3278073 (2023).\r\n13. Minnaert, B., Ravyts, S., Driesen, J. & Stevens, N. Challenges for wireless power transfer in building-integrated photovoltaics. In \r\n2018 IEEE PELS Workshop on Emerging Technologies: Wireless Power Transfer (Wow) 1–5 (2018). https://doi.org/10.1109/WoW.2\r\n018.8450923.\r\n14. Anlan, C., Xuming, S. & Xiangjun, Q. Hardware design of micro PV—battery system for underwater wireless power supply. In \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "IEEE 6th International Electrical and Energy Conference (CIEEC) 3928–3932 (2023). https://doi.org/10.1109/CIEEC58067.2023.\r\n10167299.\r\nFig. 22. The installation method between the WPT module and the PV panel. (a)Front view of the PV panel. \r\n(b)Rear view of the PV panel. (c)Primary side of the WPT module.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 23\r\nwww.nature.com/scientificreports/\n15. Agusto, L., Muñoz, J., Villalón, A., Aliaga, R. & Guzmán, J. Wireless power transfer system for an embedded energy-storage system \r\nin a PV microinverter. In IEEE International Conference on Industrial Technology (ICIT) 1223–1228 (2020). https://doi.org/10.11\r\n09/ICIT45562.2020.9067104.\r\n16. Ji, B. et al. MPPT control for pv based wireless power transfer system in lunar rover by secondary side converter. In 2019 IEEE PELS \r\nWorkshop on Emerging Technologies: Wireless Power Transfer (WoW) 105–110 (2019). https://doi.org/10.1109/WoW45936.2019.9\r\n030675.\r\n17. Elwalaty, M., Jemli, M. & Azza, H. B. A two-rectangular coils wireless charging electric vehicle with photovoltaic generator. In \r\n19th International Conference on Sciences and Techniques of Automatic Control and Computer Engineering (STA) 455–460 (2019). \r\nhttps://doi.org/10.1109/STA.2019.8717272.\r\n18. Chen, H., Geng, Y., Shen, Q., Li, J. & Lu, Q. Collaborative control strategy design of photovoltaic energy storage and DC microgrid \r\nfor electric vehicles using wireless power transfer. In IEEE 3rd International Conference on Industrial Electronics for Sustainable \r\nEnergy Systems (IESES) 1–6 (2023). https://doi.org/10.1109/IESES53571.2023.10253740.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "19. Arulvendhan, K., Kandadai Nagaratnam, S., Narayanamoorthi, R., Alharbi, M. & Hussen, S. Hybrid compensation based efficient \r\nwireless charging system design with solar photovoltaic interface toward sustainable transportation. IEEE Access. 12, 87152–87166. \r\nhttps://doi.org/10.1109/ACCESS.2024.3414169 (2024).\r\n20. Zang, S., Yuan, C. K., James, C. & Hu, A. P. Modular-based PV system with contactless capacitive power transfer interface. In 2021 \r\nIEEE PELS Workshop on Emerging Technologies: Wireless Power Transfer (WoW) 1–5 (2021). https://doi.org/10.1109/WoW51332\r\n.2021.9462868.\r\n21. Zheng, Y. et al. Modular wireless power transmission for photovoltaic subpanel system. In 2021 IEEE Energy Conversion Congress \r\nand Exposition (ECCE) 546–553 (2021). https://doi.org/10.1109/ECCE47101.2021.9595115.\r\n22. Chittoor, P. K. & Bharatiraja, C. Building integrated photovoltaic powered wireless drone charging system. Sol. Energy. 252, 163–\r\n175. https://doi.org/10.1016/j.solener.2023.01.056 (2023).\r\n23. Wang, W. et al. Indoor organic photovoltaic module with 30.6% efficiency for efficient wireless power transfer. Nano Energy. 128, \r\n109893. https://doi.org/10.1016/j.nanoen.2024.109893 (2024).\r\n24. Lope, I., Carretero, C., Acero, J., Alonso, R. & Burdio, J. M. Frequency-dependent resistance of planar coils in printed circuit board \r\nwith Litz structure. IEEE Trans. Magn., 50(12), 1–9. https://doi.org/10.1109/TMAG.2014.2337836 (2014).\r\n25. Li, Z. et al. Design and optimization with litz wire version of PCB in solid-state transformer. In IEEE Applied Power Electronics \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Conference and Exposition (APEC), Long Beach, CA, USA: IEEE 1453–1459 (2024). https://doi.org/10.1109/APEC48139.2024.10\r\n509347.\r\n26. Serrano, J., Lope, I., Acero, J., Carretero, C. & Burdio, J. M. Mathematical description of PCB-adapted litz wire geometry for \r\nautomated layout generation of WPT coils. In IECON 2017–43rd Annual Conference of the IEEE Industrial Electronics Society, \r\nBeijing: IEEE 6955–6960. (2017). https://doi.org/10.1109/IECON.2017.8217216.\r\n27. Li, Z. et al. Oct., A transformer design with PCB Litz wire concept for solid state transformer. In 2023 IEEE Energy Conversion \r\nCongress and Exposition (ECCE), Nashville, TN, USA: IEEE 848–854 (2023).https://doi.org/10.1109/ECCE53617.2023.10362376.\r\n28. Lope, I., Acero, J. & Carretero, C. Analysis and optimization of the efficiency of induction heating applications with litz-wire planar \r\nand solenoidal coils. IEEE Trans. Power Electron. 31(7), 5089–5101. https://doi.org/10.1109/TPEL.2015.2478075 (2016).\r\n29. Rehlaender, P. et al. A PCB integrated winding using a litz structure for a wireless charging coil. In 21st European Conference on \r\nPower Electronics and Applications (EPE ’19 ECCE Europe), Genova, Italy P.1-P.9 (IEEE, 2019). https://doi.org/10.23919/EPE.2019\r\n.8914900.\r\n30. Li, Y. et al. Analysis, design, and experimental verification of a mixed high-order compensations-based WPT system with constant \r\ncurrent outputs for driving multistring leds. IEEE Trans. Industr. Electron. 67(1), 203–213. https://doi.org/10.1109/TIE.2019.2896\r\n255 (2020).\r\nAuthor contributions\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Z.Z. proposed the concept and completed the hardware and software design, simulation analysis, experimental \r\ntesting, and writing of the main manuscript text. H.C. assisted in the experimental testing, reviewed the man\u0002uscript, and participated in drawing Figs. 1, 2, 3 and 4. W.W. assisted in the simulation analysis, participated in \r\ndrawing Figs. 6, 7, 8, 9 and 10, and reviewed the manuscript. Y.C. assisted in the background research of the \r\nstudy and participated in simulation modeling. J.W. proposed the concept, provided guidance for the hardware \r\nand software design, and offered extensive revision suggestions. X.H. provided guidance for the hardware and \r\nsoftware design and reviewed the manuscript.\r\nFunding\r\nThe authors would like to acknowledges funding support from National Natural Science Foundation of China \r\n(52350003) and 2022 Shunde District Core Technology Breakthrough Project (2230218004234).\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nAdditional information\r\nCorrespondence and requests for materials should be addressed to J.W.\r\nReprints and permissions information is available at www.nature.com/reprints.\r\nPublisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and \r\ninstitutional affiliations.\r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 24\r\nwww.nature.com/scientificreports/\nOpen Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives \r\n4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in \r\nany medium or format, as long as you give appropriate credit to the original author(s) and the source, provide \r\na link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have \r\npermission under this licence to share adapted material derived from this article or parts of it. The images or \r\nother third party material in this article are included in the article’s Creative Commons licence, unless indicated \r\notherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence \r\nand your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 24,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 7287013705955395795,
+        "filename": "41598_2025_Article_97709.PMC12081659.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 25,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 93,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommo\r\nns.org/licenses/by-nc-nd/4.0/.\r\n© The Author(s) 2025 \r\nScientific Reports | (2025) 15:16926 | https://doi.org/10.1038/s41598-025-97709-6 25\r\nwww.nature.com/scientificreports/\n\n"
+  }
+]

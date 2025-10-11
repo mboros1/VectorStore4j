@@ -1,0 +1,746 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Addictive Behaviors Reports 17 (2023) 100490\r\nAvailable online 14 April 2023\r\n2352-8532/© 2023 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by\u0002nc-nd/4.0/).\r\nChanges in daily dose in open-label compared to double-blind: The role of \r\nclients’ expectations in injectable opioid agonist treatment \r\nSarin Blawatt a,b, Lourdes Atziri Gonzalez Arreola a, Tianna Magel a, Scott MacDonald c, \r\nScott Harrison c\r\n, Martin T. Schechter a,b, Eugenia Oviedo-Joekes a,b,* \r\na School of Population and Public Health, University of British Columbia, 2206 East Mall, Vancouver, BC V6T 1Z3, Canada b Centre for Health Evaluation & Outcome Sciences, Providence Health Care, St. Paul’s Hospital, 575-1081 Burrard St., Vancouver, BC V6Z 1Y6, Canada c Providence Health Care, Providence Crosstown Clinic, 84 West Hastings Street, Vancouver BCV6B 1G6, Canada \r\nARTICLE INFO \r\nKeywords: \r\nOpioid use disorder \r\nInjectable opioid agonist treatment \r\nPerson-centered care \r\nDrug preference \r\nDiacetylmorphine \r\nHydromorphone \r\nABSTRACT \r\nIntroduction: Though double-blind studies have indicated that hydromorphone and diacetylmorphine produce \r\nsimilar effects when administered through injectable opioid agonist treatment (iOAT) programs, participant \r\npreference may influence some aspects of medication dispensation such as dose. \r\nMethods: This is a retrospective longitudinal analysis. Participants (n = 131) were previously enrolled in a \r\ndouble-blind clinical trial for iOAT who continued to receive treatment in an open-label follow up study. Data \r\nincluded medication dispensation records from 2012 to 2020. Using linear regression and paired t-tests, average \r\ndaily dose totals of hydromorphone and diacetylmorphine were examined comparatively between double-blind \r\nand open-label periods. A subgroup analysis explored dose difference by preference using the proxy, blinding \r\nguess, a variable used to facilitate the measurement of treatment masking during the clinical trial by asking \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "which medication the participant thought they received. \r\nResults: During the open-label period, participants prescribed diacetylmorphine received 49.5 mg less than \r\nduring the double-blind period (95% CI − 12.6,-86.4). Participants receiving hydromorphone did not see a sig\u0002nificant dose decrease. Participants who guessed they received hydromorphone during the clinical trial, but \r\nlearned they were on diacetylmorphine during the open-label period, saw a decrease in total daily dose of 78.3 \r\nmg less (95% CI − 134.3,–22.4) during the open-label period. \r\nConclusion: If client preference is considered in the treatment of chronic opioid use disorder, clients may be able \r\nto better moderate their dose to suit their individual needs. Together with their healthcare providers, clients can \r\nparticipate in their treatment trajectories collaboratively to optimize client outcomes and promote person-cen\u0002tered treatment options. \r\n1. Introduction \r\nOpioid use disorder (OUD) contributes to significant health burdens \r\non communities including opioid related emergency department visits \r\n(Belzak & Halverson, 2018), infective endocarditis (Larney et al., 2017), \r\nincreased rates of HIV and HCV infections (Degenhardt et al., 2017) and \r\nunintentional fatal overdoses (Degenhardt et al., 2019). People who use \r\nillicit opioids are exposed to disproportionate levels of risk, including \r\nongoing exposure to the toxic unregulated drug supply and limited ac\u0002cess to programs that provide safer alternatives (Park et al., 2020). As \r\noverdose rates remain high across North America (Hedegaard et al., \r\n2021; Government of British Columbia, 2022) calls to supplement and \r\ndiversify current modalities of opioid agonist treatment (OAT) provision \r\nlook to expand access and engagement of people with OUD (Palis et al., \r\n2022; Park et al., 2020; Schottenfeld & O’Malley, 2016). Though there is \r\nno single solution, pharmacological interventions and access to psy\u0002chosocial supports are known to decrease morbidity and mortality, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "improve physical and mental health, reduce the use of illicit opioids, and \r\nwork to keep clients in treatment (Mattick et al., 2014; Sordo et al., \r\n2017; Wakeman et al., 2020). Treatment engagement for chronic health \r\nconditions, such as OUD, requires improving accessibility and desir\u0002ability and considering the complex dynamics in the provision of \r\naddiction care. \r\nOver the course of the last few decades, several European countries \r\n* Corresponding author at: St. Paul’s Hospital, 575-1081 Burrard St., Vancouver, BC V6Z 1Y6, Canada. \r\nE-mail address: eugenia.joekes@ubc.ca (E. Oviedo-Joekes). \r\nContents lists available at ScienceDirect \r\nAddictive Behaviors Reports \r\njournal homepage: www.elsevier.com/locate/abrep \r\nhttps://doi.org/10.1016/j.abrep.2023.100490 \r\nReceived 15 October 2022; Received in revised form 3 April 2023; Accepted 11 April 2023 \nAddictive Behaviors Reports 17 (2023) 100490\r\n2\r\nand Canada began offering injectable diacetylmorphine (i.e., pharma\u0002ceutical grade heroin) for the treatment of OUD as a way to engage \r\npeople in treatment by providing their preferred medication safely \r\n(Room, 2002). Randomized clinical trials showed this form of injectable \r\nopioid agonist treatment (iOAT) to be a clinically effective, safe alter\u0002native (Ferri et al., 2011). IOAT has also been demonstrated to be a cost\u0002effective way to decrease illicit opioid use and retain clients in treatment \r\n(Bansback et al., 2018; Dijkgraaf et al., 2005; Nosyk et al., 2012). To \r\nincrease accessibility and diversity of options, studies in Canada showed \r\na short-acting opioid, hydromorphone (an opioid analgesic licensed in \r\nmany countries for acute pain management), to be non-inferior to \r\ndiacetylmorphine in a double-blind randomized trial (Oviedo-Joekes \r\net al., 2016). Where available, iOAT medications are provided in a \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "specific setting for consumption under the observation of health care \r\nproviders. Following an induction protocol to reach a safe and effective \r\ndose, iOAT doses are individualized in consultation with the prescriber, \r\nthe client and the nurse (Oviedo-Joekes et al., 2019b). Clients are \r\noffered a range of other medical and non-medical services, either on site \r\nor by referral, depending on their respective needs (Canadian Research \r\nInitiative in Substance Misuse, 2019). Currently, iOAT medications do \r\nnot include long-acting depot injections (Haight et al., 2019; Johnson \r\net al., 2022) or other forms of short-acting medications (e.g., morphine \r\nor fentanyl), though other options might become more accessible in the \r\nfuture. \r\nThe two licensed iOAT medications approved by Health Canada for \r\nthe treatment of OUD, hydromorphone and diacetylmorphine (Health \r\nCanada, 2019, 2022), have been found to produce similar effects clini\u0002cally and subjectively when offered double-blind (Brands et al., 2004; \r\nDunn et al., 2018; Wallenstein et al., 1990) and have demonstrated non\u0002inferiority without breaking blinding (Oviedo-Joekes et al., 2016). \r\nWhile these studies contribute to the body of evidence for treatment \r\neffectiveness, they also enable iOAT to welcome people into care by \r\noffering them the ability to choose their preferred medication (Room, \r\n2002). Multiple treatment options open the door to client preference. \r\nFor example, 83.2% of participants in one double-blind study indicated \r\nthey preferred one medication (diacetylmorphine) over the other \r\n(hydromorphone) (Oviedo-Joekes et al., 2016). This measured aspect of \r\npreference may have influenced the on average higher health scores \r\nexperienced by those whose drug of choice aligned with what they \r\nthought they were receiving during the trial (Oviedo-Joekes et al., \r\n2017). \r\nThough double-blind studies provide robust evidence of treatment \r\neffectiveness, an important part of treatment outcomes involves the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "consideration of participants’ expectations (Colagiuri & Boakes, 2010; \r\nFairbairn et al., 2008; Oviedo-Joekes et al., 2017; Schnoll et al., 2008). \r\nClient preferences have been known to influence how individuals select, \r\nrespond to, and accept one medication over another and have important \r\nimpacts on treatment adherence (Sanders et al., 2013). Involving clients \r\nin shared decision-making has been shown to improve client-provider \r\ntherapeutic relationships (Palis et al., 2020) and promote client auton\u0002omy, self-confidence, and independence in the treatment of substance \r\nuse disorders (Marchand et al., 2019; Marshall et al., 2021). In line with \r\nrecent work that describes the role of drug preference when improving \r\ninterventions and services for people who use opioids (Buresh et al., \r\n2019; Ferguson et al., 2022; Morales et al., 2019), providing clients with \r\nthe opportunity to inform both medication and dose is an integral part of \r\nproviding person-centered care. \r\nWhile studies on methadone have assessed the impact of client’s \r\nperceptions on treatment outcomes (Nosyk et al., 2021; Walcher et al., \r\n2016), injectable hydromorphone and diacetylmorphine have yet to be \r\nexplored. The present study explores differences in the individualized \r\niOAT daily dose clients received during the blinding and after the \r\nmedication was provided open-label. This research question has mean\u0002ingful potential to help inform policy makers and clinical teams in \r\naddiction, strengthen the evidence for inclusive practice through shared \r\ndecision-making, and benefit current or potential services users. \r\n2. Methods \r\n2.1. Design, setting and participants \r\nThis is a retrospective longitudinal inferential study involving par\u0002ticipants from the Research on the Utilization of Therapeutic Hydro\u0002morphone (RUTH) study, conducted in Vancouver, Canada from 2016 to \r\n2019. Details of this study have previously been described elsewhere \r\n(Oviedo-Joekes et al., 2019b). Briefly, RUTH was a longitudinal cohort \r\nstudy of people receiving open-label injectable diacetylmorphine or \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "injectable hydromorphone involving participants that took part in the \r\nStudy to Assess Longer-term Opioid Medication Effectiveness (SALOME) \r\ntrial who were offered open-label injectable hydromorphone or diac\u0002etylmorphine once the trial ended. SALOME was a double-blind, phase \r\nIII, non-inferiority randomized clinical trial that tested if injectable \r\nhydromorphone compared to injectable diacetylmorphine. Treatments \r\nfor the double-blind SALOME trial and the open-label RUTH study were \r\ndelivered by Providence Health Care’s Crosstown Clinic. For the present \r\nanalysis, Crosstown clinic dispensation records were obtained. The \r\nstudy period for this analysis includes the SALOME Phase I double-blind \r\nperiod (2012 – 2014), the open-label RUTH cohort study (2016 – 2019), \r\nand Crosstown Clinic Dispensation Records (2012 – 2020). \r\n2.2. Treatment \r\nParticipants began treatment after an initial clinical induction phase \r\nspanning three days that involves communicative collaboration between \r\nthe physician, the nurse, and the client to reach an initial safe and \r\neffective dose (Oviedo-Joekes et al., 2019b). Medications were self\u0002administered (intravenously or intramuscularly) up to three times per \r\nday under the observation of registered nurses. Each visit required a \r\nminimum of three hours between doses. Participants could receive a \r\nmaximum daily dose of 500 mg/day for hydromorphone or 1000 mg/ \r\nday for diacetylmorphine. During SALOME, medications were pre\u0002scribed in diacetylmorphine milligrams to maintain double-blinding, \r\nwith a 2:1 ratio. Once in open-label, participants could increase their \r\ndaily dose of hydromorphone beyond the trial protocol limits, if needed. \r\nAt the time of this study, only hydromorphone was licensed in Canada \r\nfor OUD. Diacetylmorphine was provided under the special access pro\u0002gram and therefore subject to additional regulatory and prescribing \r\nrestrictions (e.g., dose limits). While receiving injectable treatment, \r\nparticipants were offered a wide array of services, either on site or by \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "referral. Services included, but were not limited to counseling, nutri\u0002tionists, primary care, and infectious disease specialists. \r\n2.3. Data collection \r\nThis study uses data from RUTH (open-label), SALOME (double\u0002blind), and dispensation records from Crosstown Clinic. Databases \r\ninclude the daily prescribed and received dose of injectable diac\u0002etylmorphine or hydromorphone. Prescribed doses refer to the amount \r\nof drug in milligrams a participant is prescribed by a physician or nurse. \r\nReceived doses refer to the amount of drug in milligrams that a partic\u0002ipant physically administered. These amounts can differ as participants \r\nor nurses can make daily adjustments in dose if necessary, though they \r\nare only able to reduce the amount received. Increases in doses required \r\na new prescription. \r\nRUTH (open-label) participants consented to have their Crosstown \r\nclinical data (i.e., daily dose) linked with their records from the SALOME \r\n(double-blind) clinical trial (i.e., study questionnaires and daily dose). In \r\naddition, participants consented to have their open-label RUTH study \r\nquestionnaire data linked to their Crosstown clinical data. RUTH ques\u0002tionnaires recorded participants’ behaviors from the previous 30 days to \r\nthe day the questionnaire is performed on the following topics: socio\u0002demographics, substance use patterns, physical and mental health, \r\nand participant experience of treatment, including dose satisfaction and \r\nS. Blawatt et al. \nAddictive Behaviors Reports 17 (2023) 100490\r\n3\r\na Visual Analog Scale (VAS) drug-liking score that rated six perceived \r\ndrug effects from 0 to 100, where higher scores indicate a larger \r\nmagnitude of the perceived effect. To measure treatment masking dur\u0002ing the double-blind SALOME trial, participants were asked what \r\ntreatment they thought they had received at the end of the 180-day \r\ntreatment period. This variable, blinding guess, included five response \r\noptions: a) heroin definitely, b) heroin possibly, c) hydromorphone \r\ndefinitely, d) hydromorphone possibly, and e) not sure (Oviedo-Joekes \r\net al., 2016). For the purpose of this analysis, blinding guess choices \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "were grouped by likelihood of drug (definitively and possibly heroin or \r\nhydromorphone), and the unsure. All data were linked using a unique \r\nparticipant identifier to preserve confidentiality. \r\n2.4. Data analysis \r\nA total of 115 (87%) out of 131 eligible participants were included in \r\nthis study. Of the 16 (13%) participants not included, six (37%) had \r\ndispensing discrepancies, two (12%) switched to oral medication, and \r\neight (50%) were removed as they received daily-total doses of hydro\u0002morphone that were higher than the maximum recommended dose \r\nduring the open-label period. Descriptive statistics were used to present \r\ndaily totals of prescribed medication, demographic information, and \r\nlongitudinal data of identified characteristics (e.g., chronic medical \r\nproblems, housing, health scores) that may have a clinical association \r\nwith receiving iOAT. As in prior analyses, data from days with co\u0002prescription of oral medications (e.g., hydromorphone, methadone, \r\nmorphine) and the first 30 days of treatment were removed from the \r\nanalysis. The latter was to account for initial dose adjustments to \r\nappropriately meet the participant’s needs (Oviedo-Joekes et al., \r\n2019a). \r\nLinear regression analysis and paired t-tests were used to explore \r\nassociations between received medication and dose between double\u0002blind and open-label periods. To address potential explanatory factors \r\nthat might have differed between study periods, the blinding itself was \r\nalso tested with paired t-tests by medication received, and a subgroup \r\nanalysis by blinding guess in the double-blind study was performed. In \r\nan effort to explore additional explanations for differences in dose, open\u0002label potency ratios for diacetylmorphine and hydromorphone were \r\ncalculated. Average total daily dose and percentile ranks of observations \r\nwere described and compared against the ratios currently being used in \r\nclinical practice (Oviedo-Joekes et al., 2011). For the subgroup analysis, \r\nwe included the eight participants whose doses of hydromorphone fell \r\noutside of current protocol boundaries. These observations were \r\nimputed with the maximum daily-total allowed plus one mg. (i.e., 501 \r\nmg a day). All analyses were conducted using R (Version 1.4.1106). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "3. Results \r\nOf the 115 participants included in the analysis, 67 received diac\u0002etylmorphine and 48 received hydromorphone in both double-blind and \r\nopen-label periods. The mean age was 44.6 years, 70.4% identified as \r\nmale, and 31% identified as Indigenous; 38.9% of participants indicated \r\nsatisfaction with dose, and the mean days of use of any illicit opioids was \r\n6.1 days (Table 1). Characteristics of participants did not significantly \r\ndiffer between the diacetylmorphine and hydromorphone groups. \r\n3.1. Double-blind vs. open-label \r\nTable 2 shows double-blind and open-label daily-total doses in mil\u0002ligrams and the dose difference in milligrams by medication type. We \r\ncompared the daily-total average dose received during the open-label \r\nRUTH study period to the daily-total average dose received during \r\nSALOME. During the open-label period, participants getting diac\u0002etylmorphine received 49.5 mg less (95% CI − 12.6, − 86.4) on average \r\nthan during the double-blind period. No significant decrease was noted \r\nin the participants receiving hydromorphone, even after performing a \r\nTable 1 \r\nOpen-label Study (RUTH) Participant Characteristics and Outcomes Receiving \r\nInjectable Diacetylmorphine or Hydromorphone in Both Double-blind \r\n(SALOME) and Open-label Periods. \r\nDiacetylmorphine \r\n(n = 67) \r\nHydromorphone \r\n(n = 48) \r\nTotal \r\n(n =\r\n115) \r\np\u0002value \r\nSocio\u0002demographics \r\nand relevant \r\nfactors: \r\nAge 44.5 ± 8.9 44.8 ± 9.8 44.6 \r\n± 9.2 \r\n0.89a \r\nGender 0.11b \r\nFemale 19 (28.4) 12 (25.0) 31 \r\n(27.0) \r\nMale 48 (71.6) 33 (68.8) 81 \r\n(70.4) \r\nTransgender 0 (0.0) 3 (6.3) 3 (6.3) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Ethnicity 0.99b \r\nIndigenous 21 (31.3) 15 (31.3) 36 \r\n(31) \r\nNon-indigenous 46 (68.7) 33 (68.7) 79 \r\n(69) \r\nDouble-blind study \r\nfactors: \r\nStable housingd \r\n0.17b \r\nYes 25 (37.3) 24 (50.0) 49 \r\n(42.6) \r\nNo 42 (62.7) 24 (50.0) 66 \r\n(57.4) \r\nLifetime chronic \r\nmedical probleme \r\n0.91b \r\nYes 37 (55.2) 26 (54.2) 63 \r\n(54.8) \r\nNo 30 (44.8) 22 (45.8) 52 \r\n(45.2) \r\nVAS Drug Likingf 63.5 ± 33.3 59.7 ± 33.7 62 ±\r\n33.3 \r\n0.56a \r\nRelated Adverse \r\nEvents(per \r\nperson) \r\ng \r\n<0.01b \r\nYes 55 (82.1) 22 (45.8) 77 \r\n(67) \r\nNo 12 (17.9) 26 (54.2) 38 \r\n(33.0) \r\nRelated Serious \r\nAdverse Events \r\n(per person) h \r\n<0.01b \r\nYes 10 (14.9) 0 (0.0) 10 \r\n(8.7) \r\nNo 57 (85.1) 48 (100.0) 105 \r\n(91.3) \r\nOpen-label study \r\nfactors: \r\nStable housingd \r\n0.51b \r\nYes 32 (47.8) 20 (41.7) 52 \r\n(45.2) \r\nNo 35 (52.2) 28 (58.3) 63 \r\n(54.8) \r\nHealth Scores \r\nPhysical healthi 24.5 ± 10.0 23.8 ± 9.4 24.2 \r\n± 9.7 \r\n0.73a \r\nPsychological \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "healthj \r\n8.1 ± 6.3 8.8 ± 5.9 8.4 ±\r\n6.1 \r\n0.54a \r\nSubstance use: \r\nDays of use in the \r\nprior monthk \r\nAlcohol 1.9 ± 4.1 3.1 ± 6.9 2.4 ±\r\n5.4 \r\n0.29a \r\nAny illicit opioid 4.8 ± 6.5 8.0 ± 8.3 6.1 ±\r\n7.3 \r\n0.03a \r\nAny illicit stimulant 9.6 ± 10.6 11.7 ± 10.9 10.5 \r\n± 10.7 \r\n0.32a \r\nSatisfaction with \r\ndosel \r\n0.01c \r\n(continued on next page) \r\nS. Blawatt et al. \nAddictive Behaviors Reports 17 (2023) 100490\r\n4\r\nsensitivity analysis that included the eight observations that fell outside \r\nof recommended prescribing dosages. \r\n3.2. Blinding guess \r\nTable 3 displays the doses of diacetylmorphine and dose difference \r\nfor participants receiving diacetylmorphine in the double-blind \r\nSALOME trial and diacetylmorphine in the open-label RUTH study by \r\nblinding guess. Participants receiving double-blind diacetylmorphine, \r\nbut thought they were definitively or possibly receiving hydro\u0002morphone, saw a significant decrease in daily-total average dose of 78.3 \r\nmg less (95% CI − 134.3, –22.4) during the open-label RUTH period \r\nwhen compared to the double-blind period. \r\n3.3. Difference in diacetylmorphine dose by prescriber and participants’ \r\ncharacteristics. \r\nTo further explore the data, the difference in in average daily-total \r\ndiacetylmorphine dose received in the open-label (cohort study) and \r\nthe blinding period (randomized study) was categorized as dose \r\ndecrease or increase (negative or positive milligrams if the participant \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "received lower or higher dose during the open-label period, respec\u0002tively). Analyses were conducted with the observed diacetylmorphine \r\ndifferences by prescriber during the open-label period, but they were not \r\nsignificant (Fisher’s exact test). Diacetylmorphine dose difference was \r\nalso considered by client characteristics. Overall, no statistical signifi\u0002cance was found among the main study variables with few exceptions. \r\nFor example, there was a reported decrease in use of any opioids in the \r\n30 days prior to the schedule research interview of − 8.84 mg (95% CI \r\n− 14.18, − 3.50). In addition, participants who had chronic medical \r\nproblems at baseline in the double-blind trial (SALOME) received − 55.1 \r\nmg less (95% CI − 108.2, − 1.9) during the open-label RUTH study in \r\naverage daily-total dose received when compared to SALOME. Those \r\nwho report not having a chronic medical condition received − 42.7 mg. \r\ndifference, although it was not significant (95% CI − 96.1, 10.7). \r\n3.4. Potency ratio \r\nPotency ratios between diacetylmorphine and hydromorphone open\u0002label were in the range of 1.4:1 and 1.6:1. Lower potency ratios were \r\nobserved on the lower dosage percentiles and stabilized at around 1.6:1 \r\nstarting at mid-range doses (i.e., 270 mg for hydromorphone and 430 mg \r\nfor diacetylmorphine). These observed potency ratios for diac\u0002etylmorphine to hydromorphone are lower than the observed potency \r\nratio of 2:1 in previous clinical trials. Potency ratios between hydro\u0002morphone and diacetylmorphine can be found in Table 4. \r\n4. Discussion \r\nThe present study demonstrates that clients receiving injectable \r\ndiacetylmorphine throughout a double-blind study period reduced their \r\nTable 1 (continued ) \r\nDiacetylmorphine \r\n(n = 67) \r\nHydromorphone \r\n(n = 48) \r\nTotal \r\n(n =\r\n115) \r\np\u0002value \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Yes 28 (50) 9 (23.1) 37 \r\n(38.9) \r\nNo 27 (48.2) 27 (69.2) 54 \r\n(56.8) \r\nUnknown 1 (1.8) 3 (7.7) 4 (4.2) \r\nMissing 11 9 20 \r\nVAS Drug Liking \r\n(T12) f \r\n77.0 ± 21.2 64.1 ± 29.2 71.7 \r\n± 25.5 \r\n0.01a \r\nData shown are mean ± standard deviation or number (%). a Unequal variance two sample t-test. b Chi-Square p-value. c Fisher Exact p-value. d At first visit in open-label study. Unstable housing is single resident occu\u0002pancy hotel rooms with restrictions or couch surfing, and street housing defined \r\nas outdoor, in vehicles or in public places. e Measured once, at the beginning of the double-blind trial, when all baseline \r\nmeasures were taken. f Visual Analog Scale (VAS) scores range from “not at all” [0] to “extremely” \r\n[100] and measures the experienced opioid drug effects. Double-blind VAS \r\nscores at six months. Total n = 105; diacetylmorphine = 62; hydromorphone =\r\n42. Open-label VAS scores at 12 months (T12) correspond to the year 2017. \r\nTotal n = 102; diacetylmorphine = 60; hydromorphone = 42. g Drug reactions per person with at least one event; data collected during the \r\ndouble-blind period only. h Drug reactions per person with at least one event; measured in phase one; \r\nsystematic data collected during the double-blind period only. i OTI (Opioid Treatment Index) total health scores range from 0 to 51, higher \r\nscores suggest more physical conditions. \r\nj MAP (Maudsley Addiction Profile) psychological health scores range from \r\n0 to 40, higher scores indicate poorer psychological health. k Average number of days in prior 30 before the interview across the 18 \r\nmonths duration of the study. l Dose satisfaction for this study were included in follow up number six and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "was categorized as a) Yes: yes, at every time point, b) No: no at least in one time \r\npoint and c) unknown (for participants who never provided an answer but had \r\nan average dose in the prior 30 days). Participants with no average dose (i.e., not \r\nretained) are not included. \r\nTable 2 \r\nDouble-blind (SALOME) and Open-label (RUTH) Daily-Total Doses and Dose \r\nDifference in Milligrams by Medication Type. \r\nGroup n SALOME \r\ndose in mg \r\nRUTH \r\ndose in \r\nmg \r\nDifference in mg \r\n(RUTH – SALOME) \r\nDiacetylmorphine 67 509.9 ±\r\n190.1 \r\n460.4 ±\r\n186.7 \r\n− 49.5 (-86.4, \r\n− 12.6)* \r\nHydromorphone 48 243.8 ±\r\n81.6 \r\n248.7 ±\r\n96.8 \r\n4.9 (–22.5, 32.3) \r\nHydromorphone \r\nsensitivity analysis \r\n56 267.4 ±\r\n99.9 \r\n284.8 ±\r\n126.3 \r\n17.4 (-8.7, 44.4) \r\nmg: milligrams. \r\nData shown are mean ± standard deviation and 95% confidence interval. \r\n(*) Indicates the difference in dose received within groups is significant at p <\r\n0.05. \r\nDifferences within groups calculated using t-test. \r\nSensitivity analysis included eight participants who received daily-total doses of \r\nhydromorphone that were greater than the maximum allowed dose per protocol \r\nin the open-label period. \r\nTable 3 \r\nDiacetylmorphine Dose and Dose Difference in Milligrams for Participants \r\nReceiving Diacetylmorphine in double-blind (SALOME) and Diacetylmorphine \r\nin open-label (RUTH) periods by Blinding Guess. \r\nBlinding Guess \r\nGroup \r\nn SALOME \r\nDiacetylmorphine \r\ndose in mg \r\nRUTH \r\nDiacetylmorphine \r\ndose in mg \r\nDifference \r\nin mg \r\n(RUTH – \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "SALOME) \r\nDiacetylmorphine \r\nDefinitively or \r\nPossibly \r\n23 535.8 ± 163.2 512.8 ± 198.9 –22.9 \r\n(-82.1, \r\n36.2) \r\nHydromorphone \r\nDefinitively or \r\nPossibly \r\n30 528.7 ± 187.9 450.4 ± 170.9 − 78.3 \r\n(-134.3, \r\n–22.4)* \r\nUnsure 14 427.1 ± 224.1 395.6 ± 187.8 − 31.5 \r\n(-132.9, \r\n70.0) \r\nDiacetylmorphine; mg: milligrams. \r\nData shown are mean ± standard deviation and 95% confidence interval. \r\n(*) Indicates the difference in dose received within groups is significant at p <\r\n0.05. \r\nS. Blawatt et al. \nAddictive Behaviors Reports 17 (2023) 100490\r\n5\r\ndaily dose once they received it open-label. When assessed for intra\u0002group characteristics or systematic errors, no differences in dose were \r\nfound to be clinically and statistically significant outside of blinding \r\nguesses. These findings have implications around the role of client ex\u0002pectations and perceptions in medication administration, client \r\nengagement with healthcare providers, and treatment success. To our \r\nknowledge, this is the first study to demonstrate that clients receiving \r\niOAT treatment may moderate their dose if expectations of medication \r\npreference are being met. \r\nParticipants in this study were formerly enrolled in the double-blind \r\nSALOME trial where the overall preference before the study began was \r\nfor injectable diacetylmorphine (83.2%) over injectable hydro\u0002morphone, and only if diacetylmorphine was not available, they would \r\naccept hydromorphone (Oviedo-Joekes et al., 2017). In addition, pre\u0002vious work indicated that participants in the double-blind (SALOME) \r\ntrial were more likely to suspect they were receiving hydromorphone if \r\nthey did not like the drug effect regardless of which drug they were \r\nreceiving (Oviedo-Joekes et al., 2017). This study is uniquely positioned \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "to explore expectations due to the double-blind vs. open-label nature of \r\nthe data. Given the majority of participants specified they would prefer \r\nto receive diacetylmorphine, we suggest that clients whose medication \r\nexpectations were not being met (i.e., in cases where the client wanted \r\ndiacetylmorphine, but they thought they were receiving hydro\u0002morphone) lowered their dose once diacetylmorphine became an \r\navailable option through open-label prescribing. These results are sup\u0002ported by a previous double-blind study that determined participants \r\nwho thought they were receiving diacetylmorphine reported higher \r\ndrug scores and drug effects than those on hydromorphone, even when \r\nthey were receiving a placebo (Dunn et al., 2018). These findings are in \r\nline with research that identifies how personal experience might influ\u0002ence the way clients perceive and engage with different forms of treat\u0002ment (Ridge et al., 2009). As the availability of illicit substances changes \r\nrapidly, the system will need to adapt, integrate, and diversify aspects of \r\nopioid preference into available treatment options, including the pro\u0002vision of fentanyl (Ferguson et al., 2022; Morales et al., 2019). \r\nThough doses of diacetylmorphine decreased in this study, clients \r\nreceiving hydromorphone saw a small increase in dose during the open\u0002label period. While not verifiable in this present analysis, this phe\u0002nomenon could be explained by the observed potency ratio of 1.6:1 \r\nrecorded during in the open-label study. This ratio is lower than the \r\nexpected 2:1 ratio that was previously observed in the double-blind \r\nperiod. Clinical guidelines show that diacetylmorphine’s potency ratio \r\ndoes not follow a linear relationship compared to other opioids (Office \r\nF´ed´eral de la Sant´e Publique, 2004) and similarly it was found to differ \r\nacross dose levels in the present analysis. In addition, hydromorphone \r\nwas a licensed opioid for opioid use disorder during the open-label study \r\nperiod, but diacetylmorphine was not licensed in Canada. Because of \r\nhydromorphone’s regulatory status, prescribers were able to prescribe \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "doses beyond clinical trial protocols for a small number of clients. \r\nRegardless of this elevation in overall milligrams received of hydro\u0002morphone, the increase was not found to be significant. Other possible \r\nexplanations for the difference in dose may have been adverse events (e. \r\ng., histamine reactions). During the open-label study (RUTH), data on \r\nadverse events were not systematically collected due to the proficiency \r\nwith which the double-blind trial (SALOME) documented previous \r\nevents. However, during the double-blind study (SALOME), average \r\ndaily-total dose did not appear to play a direct role in the relationship \r\nwith adverse events and data from three iOAT studies showed that \r\npeople with higher reported adverse events did not receive lower doses \r\n(Oviedo-Joekes et al., 2019b). Clients receiving iOAT medications have \r\nindividualized doses that stabilize over time, and many factors \r\ncontribute to received client doses, including clients that present with \r\nmultiple health conditions which require caution in dosing practices \r\n(MacDonald & Oviedo-Joekes, 2022). In this study, those who reported \r\nchronic medical health problems had significantly lower doses, as ex\u0002pected. Given these considerations, we are confident that the discrep\u0002ancy in dose for those receiving diacetylmorphine before and after \r\nblinding was driven by client preference. \r\nThe association between medication expectation during the double\u0002blind (SALOME) period and open-label (RUTH) dose for diac\u0002etylmorphine might suggests that addiction service engagement may be \r\ninfluenced by the effects of personal preference and the experience of \r\nbeing included in treatment decision-making. Previous research iden\u0002tifies that the creation of customized care plans with healthcare pro\u0002viders and service users is a foundational part of person-centered care \r\nand has been known to promote client autonomy (Martins et al., 2021), \r\nincrease client engagement (Park et al., 2020), lower the severity of \r\nsubstance use and psychiatric problems (Joosten et al., 2009), and \r\nstrengthen therapeutic-relationships by fostering mutual respect and \r\ntrust (Marchand et al., 2020; Palis et al., 2020). Shared decision-making \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "that incorporates client preference has the potential to avoid treatment \r\nincongruencies between the expectations and the application of treat\u0002ment. Incompatible treatment options might put clients in high-risk \r\nsituations (e.g., engaging with the illicit opioid market) if client needs \r\nare not met (Meyer et al., 2022). As lack of medication preference has \r\nbeen associated with an increase in odds of experiencing overdose \r\nevents (Whiteside et al., 2018), failing to provide the option for clients to \r\naccess their preferred treatment in a regulated and supportive envi\u0002ronment may be causing undue harm. \r\nThe landscape of British Columbia’s opioid epidemic demands the \r\nTable 4 \r\nPotency Ratios Between Hydromorphone and Diacetylmorphine by Prescribed and Received Doses in Milligrams. \r\nStatistics \r\n(n) \r\nHydromorphone in mg \r\n(n = 127) \r\nDiacetylmorphine in mg \r\n(n = 123) \r\nRatio for diacetylmorphine to hydromorphone \r\nDose Prescribeda \r\n10th percentile 203.1 265.1 1.3 \r\n25th percentile 254.0 361.0 1.4 \r\n50th percentile 317.8 501.0 1.6 \r\nMean 333.7 524.3 1.6 \r\n75th percentile 419.4 651.0 1.6 \r\n90th percentile 501.0 826.9 1.7 \r\nDose Receivedb \r\n10th percentile 156.4 220.3 1.4 \r\n25th percentile 196.3 294.0 1.5 \r\n50th percentile 273.1 431.2 1.6 \r\nMean 286.9 455.6 1.6 \r\n75th percentile 370.2 589.0 1.6 \r\n90th percentile 480.4 730.8 1.5 \r\nHydromorphone and Diacetylmorphine; mg: milligrams. a Dose Prescribed is the amount of drug in milligrams a participant was prescribed by a prescriber. b Dose Received is the amount of drug in milligrams that a participant physically administered. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "S. Blawatt et al. \nAddictive Behaviors Reports 17 (2023) 100490\r\n6\r\nimmediate prioritization of systemic changes to care provision and an \r\nincrease in access to services such as iOAT. British Columbia’s fentanyl\u0002related overdose deaths have increased (from 5% in 2012 to 84% in \r\n2021), while deaths attributable to other opioids have steadily declined \r\n(Government of British Columbia, 2022). People with OUD need a \r\nmyriad of safer alternatives, yet the availability of injectable diac\u0002etylmorphine and hydromorphone is limited in Canada due to financial, \r\nstructural and practical barriers that further marginalize this community \r\nof opioid users by providing them with inferior care (Dasgupta et al., \r\n2018). To safeguard best practices of person-centered care for people \r\nwith OUD, it is critical for healthcare providers, prescribers and policy \r\nmakers to consider the way in which client perceptions and preferences \r\nimpact treatment engagement and overall wellbeing. The results indi\u0002cate that the impacts of client preference should be further explored. \r\nClients who lowered their injectable diacetylmorphine dose once they \r\nknew they were receiving the medication they favored reflects a \r\ncomplexity in treatment engagement that must be better understood \r\nthrough future research. \r\n4.1. Limitations \r\nThe present study has many limitations, derived from the nature of it \r\nbeing a retrospective analysis (with data spanning eight years) and a \r\nstudy not designed or powered to test the questions explored in this \r\npaper. For example, we can only speculate that true client preference \r\nand expectation measures were accurately reflected by blinding guess. \r\nAdditionally, the data used in this study were not designed to test po\u0002tential meaningful factors by dose, as doses are individualized and our \r\nsample size is limited. As the array of available illicit opioids is \r\nconstantly changing, our findings are not intended to be prescriptive \r\nregarding the treatments accessed by participants in the data (e.g., \r\ndiacetylmorphine and hydromorphone). Situationally, the political, \r\nstructural, and social phenomenon that shape the needs of communities \r\nof people who use opioids will vary. It is our intention that these findings \r\npresent an opportunity to explore the potential benefits of encouraging \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "the inclusion of client perspectives as a part of treatment access and \r\nperson-centered care. This specific context should be considered when \r\nsituating our findings in this study. \r\n5. Conclusion \r\nAs treatment for OUD expands and diversifies, it is crucial for service \r\nproviders, prescribers, and stakeholders to identify how client percep\u0002tions and expectations regarding treatment (e.g., hydromorphone or \r\ndiacetylmorphine) might impact the dose received, and ultimately \r\nprogram adherence and client engagement. The implications of this \r\nstudy provide the opportunity to enhance person-centered care in up\u0002coming and established iOAT sites. As this analysis shows, client per\u0002spectives may have an effect on treatment dose received. These findings \r\nare in line with the promotion of shared decision-making models that \r\nreflect an inclusive approach to encouraging individualized client care. \r\nFunding \r\nThe RUTH Study was funded by a Canadian Institutes of Health \r\nResearch Project Grant. Further financial support was provided by and \r\nthe Canada Research Chairs Program (EOJ, MTS). All participants pro\u0002vided informed consent and were compensated monetarily for their \r\ntime. The funding sources had no role in the study design, conduct or \r\nanalysis of this study or the preparation, review or approval of this \r\nmanuscript. All research activities were approved by the Providence \r\nHealth Care Research Ethics Board (harmonized board of record) and \r\nFraser Health Authority (harmonized partner board) [H20-00794]. This \r\nwork was supported by the Canadian Institute of Health Research \r\nProject Grant [F15-00960] and Canada Research Chairs [F21-00475]. \r\nDeclaration of Competing Interest \r\nThe authors declare that they have no known competing financial \r\ninterests or personal relationships that could have appeared to influence \r\nthe work reported in this paper. \r\nData availability \r\nData will be made available on request. \r\nAcknowledgements \r\nThe authors respectfully acknowledge the unceded and traditional \r\nterritory of the Coast Salish Peoples, including the traditional territories \r\nof xʷməθkwəýəm (Musqueam), Skwxwu7mesh (Squamish), and Səlí̓ \r\nlwətaɬ (Tsleil-Waututh) Nations, upon which this research took place. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "We would like to thank all the clients, advisory committee members, \r\nexperts, and stakeholders who generously gave their input throughout \r\nsurvey development. We acknowledge the study participants who \r\nshared their experiences and time. We also thank Providence Health \r\nCare Crosstown Clinic administrators and care providers for their \r\ncommitment to delivering care with the fundamental philosophy of \r\nmeeting clients where they are at. The authors gratefully acknowledge \r\nthe RUTH, SALOME, and NAOMI study participants for their contribu\u0002tions of time and personal experiences over the many years. The authors \r\nalso wish to acknowledge the broader clinical and RUTH research team \r\nmembers for their commitments to the study, and the funders for making \r\nthis research possible. \r\nReferences \r\nBansback, N., Guh, D., Oviedo-Joekes, E., Brissette, S., Harrison, S., Janmohamed, A., … \r\nAnis, A. H. (2018). Cost-effectiveness of hydromorphone for severe opioid use \r\ndisorder: Findings from the SALOME randomized clinical trial. Addiction, 113(7), \r\n1264–1273. https://doi.org/10.1111/add.14171 \r\nBelzak, L., & Halverson, J. (2018). The opioid crisis in Canada: A national perspective. \r\nHealth Promotion and Chronic Disease Prevention in Canada, 38(6), 224–233. https:// \r\ndoi.org/10.24095/hpcdp.38.6.02 (La crise des opioides au Canada: Une perspective \r\nnationale.) \r\nBrands, B., Blake, J., Sproule, B., Gourlay, D., & Busto, U. (2004). Prescription opioid \r\nabuse in patients presenting for methadone maintenance treatment. Drug and Alcohol \r\nDependence, 73(2), 199–207. https://doi.org/10.1016/j.drugalcdep.2003.10.012 \r\nBuresh, M., Genberg, B. L., Astemborski, J., Kirk, G. D., & Mehta, S. H. (2019). Recent \r\nfentanyl use among people who inject drugs: Results from a rapid assessment in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Baltimore, Maryland. International Journal of Drug Policy, 74, 41–46. https://doi.org/ \r\n10.1016/j.drugpo.2019.08.006 \r\nColagiuri, B., & Boakes, R. A. (2010). Perceived treatment, feedback, and placebo effects \r\nin double-blind RCTs: An experimental analysis. Psychopharmacology, 208(3), \r\n433–441. https://doi.org/10.1007/s00213-009-1743-9 \r\nCanadian Research Initiative in Substance Misuse. (2019). National Injectable Opioid \r\nAgonist Treatment for Opioid Use Disorder Operational Guidance. (CRISM). https://cris \r\nm.ca/projects/ioat-guideline/. \r\nDasgupta, N., Beletsky, L., & Ciccarone, D. (2018). Opioid Crisis: No Easy Fix to Its Social \r\nand Economic Determinants. American Journal of Public Health, 108(2), 182–186. \r\nhttps://doi.org/10.2105/AJPH.2017.304187 \r\nDegenhardt, L., Grebely, J., Stone, J., Hickman, M., Vickerman, P., Marshall, B. D. L., … \r\nLarney, S. (2019). Global patterns of opioid use and dependence: Harms to \r\npopulations, interventions, and future action. The Lancet, 394(10208), 1560–1579. \r\nhttps://doi.org/10.1016/S0140-6736(19)32229-9 \r\nDegenhardt, L., Peacock, A., Colledge, S., Leung, J., Grebely, J., Vickerman, P., … \r\nLarney, S. (2017). Global prevalence of injecting drug use and sociodemographic \r\ncharacteristics and prevalence of HIV, HBV, and HCV in people who inject drugs: A \r\nmultistage systematic review. The Lancet: Global Health, 5(12). https://doi.org/ \r\n10.1016/S2214-109X(17)30375-3. e1192-e1207. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Dijkgraaf, M. G., van der Zanden, B. P., de Borgie, C. A., Blanken, P., van Ree, J. M., & \r\nvan den Brink, W. (2005). Cost utility analysis of co-prescribed heroin compared \r\nwith methadone maintenance treatment in heroin addicts in two randomised trials. \r\nThe. British Medical Journal, 330(7503). https://doi.org/10.1136/ \r\nbmj.330.7503.1297 \r\nDunn, K. E., Brands, B., Marsh, D. C., & Bigelow, G. E. (2018). Characterizing the \r\nsubjective, observer-rated, and physiological effects of hydromorphone relative to \r\nheroin in a human laboratory study. Psychopharmacology, 235(4), 971–981. https:// \r\ndoi.org/10.1007/s00213-017-4814-3 \r\nFairbairn, C. E., Dundon, W. D., Xie, H., Plebani, J. G., Kampman, K. M., & Lynch, K. G. \r\n(2008). Study blinding and correlations between perceived group assignment and \r\noutcome in a cocaine pharmacotherapy trial. American Journal on Addictions, 17(5), \r\n387–391. https://doi.org/10.1080/10550490802266078 \r\nS. Blawatt et al. \nAddictive Behaviors Reports 17 (2023) 100490\r\n7\r\nFerguson, M., Parmar, A., Papamihali, K., Weng, A., Lock, K., & Buxton, J. A. (2022). \r\nInvestigating opioid preference to inform safe supply services: A cross sectional \r\nstudy. International Journal of Drug Policy, 101, 103574. https://doi.org/10.1016/j. \r\ndrugpo.2021.103574 \r\nFerri, M., Davoli, M., & Perucci, C. A. (2011). Heroin maintenance for chronic heroin\u0002dependent individuals. Cochrane Database of Systematic Reviews, 12. https://doi.org/ \r\n10.1002/14651858.CD003410.pub4 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Government of British Columbia. (2022). Illicit Drug Toxicity Deaths in B.C. Retrieved \r\nOctober 14, 2022, from https://www2.gov.bc.ca/gov/content/life-events/death/cor \r\noners-service/statistical-reports. \r\nHaight, B. R., Learned, S. M., Laffont, C. M., Fudala, P. J., Zhao, Y., Garofalo, A. S., … \r\nInvestigators, R.-U.-S. (2019). Efficacy and safety of a monthly buprenorphine depot \r\ninjection for opioid use disorder: A multicentre, randomised, double-blind, placebo\u0002controlled, phase 3 trial. The Lancet, 393(10173), 778–790. https://doi.org/ \r\n10.1016/S0140-6736(18)32259-1 \r\nCanada, H. (2019). Government of Canada approves new treatment options for opioid \r\nuse disorder and supports research, treatment and harm reduction projects in \r\nOntario. Government of Canada. https://www.canada.ca/en/health-canada/news/ \r\n2019/05/government-of-canada-approves-new-treatment-options-for-opioid-use-d \r\nisorder-and-supports-research-treatment-and-harm-reduction-projects-in-ontario. \r\nhtml. \r\nCanada, H. (2022). Product information: Diacetylmorphine. Government of Canada. http \r\ns://health-products.canada.ca/dpd-bdpp/info.do?lang=en&code=101402. \r\nHedegaard, H., Minino, A. M., Spencer, M. R., & Warner, M. (2021). Drug Overdose \r\nDeaths in the United States, 1999–2020. National Center for Health Statistics Data \r\nBrief, 426, 1–8. https://www.ncbi.nlm.nih.gov/pubmed/34978529. \r\nJohnson, B., Flensburg, O. L., & Capusan, A. J. (2022). Patient perspectives on depot \r\nbuprenorphine treatment for opioid addiction - a qualitative interview study. \r\nSubstance Abuse Treatment, Prevention, and Policy, 17(1), 40. https://doi.org/ \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "10.1186/s13011-022-00474-2 \r\nJoosten, E. A., de Jong, C. A., de Weert-van Oene, G. H., Sensky, T., & van der Staak, C. P. \r\n(2009). Shared decision-making reduces drug use and psychiatric severity in \r\nsubstance-dependent patients. Psychotherapy and Psychosomatics, 78(4), 245–253. \r\nhttps://doi.org/10.1159/000219524 \r\nLarney, S., Peacock, A., Mathers, B. M., Hickman, M., & Degenhardt, L. (2017). \r\nA systematic review of injecting-related injury and disease among people who inject \r\ndrugs. Drug and Alcohol Dependence, 171, 39–49. https://doi.org/10.1016/j. \r\ndrugalcdep.2016.11.029 \r\nMacDonald, S., & Oviedo-Joekes, E. (2022). Injectable Opioid Agonist Therapy. In \r\nP. Selby, L. Rieb, V. Lam, M. Zhang, & J. Bertram (Eds.), Opioid Agonist Therapy. A \r\nprescriber’s Guide to Treatment ((3 ed.)). Centre for Addiction and Mental Health. \r\nMarchand, K., Beaumont, S., Westfall, J., MacDonald, S., Harrison, S., Marsh, D. C., … \r\nOviedo-Joekes, E. (2019). Conceptualizing patient-centered care for substance use \r\ndisorder treatment: Findings from a systematic scoping review. Substance Abuse \r\nTreatment, Prevention, and Policy, 14(1), 37. https://doi.org/10.1186/s13011-019- \r\n0227-0 \r\nMarchand, K., Foreman, J., MacDonald, S., Harrison, S., Schechter, M. T., & Oviedo\u0002Joekes, E. (2020). Building healthcare provider relationships for patient-centered \r\ncare: A qualitative study of the experiences of people receiving injectable opioid \r\nagonist treatment. Substance Abuse Treatment, Prevention, and Policy, 15(1), 7. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "https://doi.org/10.1186/s13011-020-0253-y \r\nMarshall, K., Maina, G., & Sherstobitoff, J. (2021). Plausibility of patient-centred care in \r\nhigh-intensity methadone treatment: Reflections of providers and patients. Addict \r\nScience and Clinical Practice, 16(1), 42. https://doi.org/10.1186/s13722-021-00251- \r\n9 \r\nMartins, M. L., Wilthagen, E. A., Oviedo-Joekes, E., Beijnen, J. H., de Grave, N., \r\nUchtenhagen, A., … Schinkel, A. H. (2021). The suitability of oral diacetylmorphine \r\nin treatment-refractory patients with heroin dependence: A scoping review. Drug and \r\nAlcohol Dependence, 227, 108984. https://doi.org/10.1016/j. \r\ndrugalcdep.2021.108984 \r\nMattick, R. P., Breen, C., Kimber, J., & Davoli, M. (2014). Buprenorphine maintenance \r\nversus placebo or methadone maintenance for opioid dependence. Cochrane \r\nDatabase Systematic Review, 2, CD002207. https://doi.org/10.1002/14651858. \r\nCD002207.pub4 \r\nMeyer, M., Strasser, J., Kock, ¨ P., Walter, M., Vogel, M., & Dürsteler, K. M. (2022). \r\nExperiences with take-home dosing in heroin-assisted treatment in Switzerland \r\nduring the COVID-19 pandemic–Is an update of legal restrictions warranted? \r\nInternational Journal of Drug Policy, 101. https://doi.org/10.1016/j. \r\ndrugpo.2021.103548 \r\nMorales, K. B., Park, J. N., Glick, J. L., Rouhani, S., Green, T. C., & Sherman, S. G. (2019). \r\nPreference for drugs containing fentanyl from a cross-sectional survey of people who \r\nuse illicit opioids in three United States cities. Drug and Alcohol Dependence, 204, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "107547. https://doi.org/10.1016/j.drugalcdep.2019.107547 \r\nNosyk, B., Guh, D. P., Bansback, N. J., Oviedo-Joekes, E., Brissette, S., Marsh, D. C., … \r\nAnis, A. H. (2012). Cost-effectiveness of diacetylmorphine versus methadone for \r\nchronic opioid dependence refractory to treatment. Canadian Medical Association \r\nJournal, 184(6). https://doi.org/10.1503/cmaj.110669. E317-E328. \r\nNosyk, B., Slaunwhite, A., Urbanoski, K., Hongdilokkul, N., Palis, H., Lock, K., … \r\nPauly, B. (2021). Evaluation of risk mitigation measures for people with substance \r\nuse disorders to address the dual public health crises of COVID-19 and overdose in \r\nBritish Columbia: A mixed-method study protocol. British Medical Journal Open, 11 \r\n(6), e048353. \r\nOffice F´ed´eral de la Sant´e Publique. (2004). Manuel Traitement avec prescription d’h´eroine. \r\nDirectives, recommandations, informations. \r\nOviedo-Joekes, E., Guh, D., Brissette, S., Marchand, K., MacDonald, S., Lock, K., … \r\nSchechter, M. T. (2016). Hydromorphone Compared With Diacetylmorphine for \r\nLong-term Opioid Dependence: A Randomized Clinical Trial. Journal of the American \r\nMedical Association Psychiatry, 73(5), 447–455. https://doi.org/10.1001/ \r\njamapsychiatry.2016.0109 \r\nOviedo-Joekes, E., Marchand, K., Palis, H., Guh, D., Brissette, S., Lock, K., … \r\nSchechter, M. T. (2017). Predictors of treatment allocation guesses in a randomized \r\ncontrolled trial testing double-blind injectable hydromorphone and \r\ndiacetylmorphine for severe opioid use disorder. Addiction Research and Theory, 25, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "263–272. https://doi.org/10.1016/j.drugalcdep.2003.10.012 \r\nOviedo-Joekes, E., Marsh, D. C., Guh, D., Brissette, S., & Schechter, M. T. (2011). Potency \r\nratio of hydromorphone and diacetylmorphine in substitution treatment for long\u0002term opioid dependency. Journal of Opioid Management, 7(5), 371–376. http://www. \r\nncbi.nlm.nih.gov/pubmed/22165036. \r\nOviedo-Joekes, E., Palis, H., Guh, D., Marchand, K., Brissette, S., Harrison, S., … \r\nSchechter, M. T. (2019). Treatment with injectable hydromorphone: Comparing \r\nretention in double blind and open label treatment periods. Journal of Substance Use \r\nand Addiction Treatment, 101, 50–54. https://doi.org/10.1016/j.jsat.2019.03.012 \r\nOviedo-Joekes, E., Palis, H., Guh, D., Marsh, D. C., MacDonald, S., Harrison, S., … \r\nSchechter, M. T. (2019). Adverse Events During Treatment Induction With Injectable \r\nDiacetylmorphine and Hydromorphone for Opioid Use Disorder. Journal of Addiction \r\nMedicine, 13(5), 354–361. https://doi.org/10.1097/ADM.0000000000000505 \r\nPalis, H., Belair, M. A., Hu, K., Tu, A., Buxton, J., & Slaunwhite, A. (2022). Overdose \r\ndeaths and the COVID-19 pandemic in British Columbia, Canada. Drug and Alcohol \r\nReview, 41(4), 912–917. https://doi.org/10.1111/dar.13424 \r\nPalis, H., Marchand, K., Beaumont, S., Guh, D., Harrison, S., MacDonald, S., … Oviedo\u0002Joekes, E. (2020). Physician Communication in Injectable Opioid Agonist Treatment: \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Collecting Patient Ratings With the Communication Assessment Tool. Journal of \r\nAddiction Medicine, 14(6), 480–488. https://doi.org/10.1097/ \r\nADM.0000000000000631 \r\nPark, S. E., Mosley, J. E., Grogan, C. M., Pollack, H. A., Humphreys, K., D’Aunno, T., & \r\nFriedmann, P. D. (2020). Patient-centered care’s relationship with substance use \r\ndisorder treatment utilization. Journal of Substance Use and Addiction Treatment, 118, \r\n108125. https://doi.org/10.1016/j.jsat.2020.108125 \r\nRidge, G., Gossop, M., Lintzeris, N., Witton, J., & Strang, J. (2009). Factors associated \r\nwith the prescribing of buprenorphine or methadone for treatment of opiate \r\ndependence. Journal of Substance Use and Addiction Treatment, 37(1), 95–100. \r\nhttps://doi.org/10.1016/j.jsat.2008.09.007 \r\nRoom, R. (2002). Heroin maintenance and attraction to treatment. European Journal of \r\nPublic Health, 12(3), 234–235. 12232965. \r\nSanders, J. J., Roose, R. J., Lubrano, M. C., & Lucan, S. C. (2013). Meaning and \r\nmethadone: Patient perceptions of methadone dose and a model to promote \r\nadherence to maintenance treatment. Journal of Addiction Medicine, 7(5), 307–313. \r\nhttps://doi.org/10.1097/ADM.0b013e318297021e \r\nSchnoll, R. A., Epstein, L., Audrain, J., Niaura, R., Hawk, L., Shields, P. G., … \r\nWileyto, E. P. (2008). Can the blind see? Participant guess about treatment arm \r\nassignment may influence outcome in a clinical trial of bupropion for smoking \r\ncessation. Journal of Substance Use and Addiction Treatment, 34(2), 234–241. https:// \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "doi.org/10.1016/j.jsat.2007.04.004 \r\nSchottenfeld, R. S., & O’Malley, S. S. (2016). Meeting the Growing Need for Heroin \r\nAddiction Treatment. Journal of the American Medical Association Psychiatry, 73(5), \r\n437–438. https://doi.org/10.1001/jamapsychiatry.2016.0139 \r\nSordo, L., Barrio, G., Bravo, M. J., Indave, B. I., Degenhardt, L., Wiessing, L., … Pastor\u0002Barriuso, R. (2017). Mortality risk during and after opioid substitution treatment: \r\nSystematic review and meta-analysis of cohort studies. The British Medical Journal, \r\n357, j1550. https://doi.org/10.1136/bmj.j1550 \r\nWakeman, S. E., Larochelle, M. R., Ameli, O., Chaisson, C. E., McPheeters, J. T., \r\nCrown, W. H., … Sanghavi, D. M. (2020). Comparative Effectiveness of Different \r\nTreatment Pathways for Opioid Use Disorder. Journal of the American Medical \r\nAssociation Network Open, 3(2), e1920622. \r\nWalcher, S., Koc, J., Reichel, V., Schlote, F., Verthein, U., & Reimer, J. (2016). The opiate \r\ndosage adequacy scale for identification of the right methadone dose–a prospective \r\ncohort study. BioMed Central: Pharmacology and Toxicology, 17, 15. https://doi.org/ \r\n10.1186/s40360-016-0058-9 \r\nWallenstein, S. L., Houde, R. W., Portenoy, R., Lapin, J., Rogers, A., & Foley, K. M. \r\n(1990). Clinical analgesic assay of repeated and single doses of heroin and \r\nhydromorphone. Pain, 41(1), 5–13. https://doi.org/10.1016/0304-3959(90)91102- \r\nO \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 6,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1361897096211442577,
+        "filename": "main.PMC10140796.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 7,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 123,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Whiteside, L. K., Goldstick, J., Dora-Laskey, A., Thomas, L., Walton, M., Cunningham, R., \r\n& Bohnert, A. S. B. (2018). Patient Preference for Pain Medication in the Emergency \r\nDepartment Is Associated with Non-fatal Overdose History. Western Journal of \r\nEmergency Medicine, 19(4), 722–730. https://doi.org/10.5811/ \r\nwestjem.2018.4.37019 \r\nS. Blawatt et al. \n\n"
+  }
+]

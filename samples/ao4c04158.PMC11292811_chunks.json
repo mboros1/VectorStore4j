@@ -1,0 +1,626 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "On-Chip Polarization Rotators Using Metasurface\r\nDura Shahwar,* Markku Kapulainen, Tomi Haatainen, Mikko Harjanne, Matteo Cherchi, Zhipei Sun,\r\nTimo Aalto, and Kirsi Tappura*\r\nCite This: ACS Omega 2024, 9, 33055−33063 Read Online\r\nACCESS Metrics & More Article Recommendations\r\nABSTRACT: Metasurfaces, with their ability to finely manipulate light properties (e.g.,\r\npolarization), represent a frontier in optical technology. Here, we report innovative gold-based\r\nmetasurfaces that are adept at changing the light polarization across a broad range of incident\r\nangles. Their expansive acceptance angle facilitates seamless integration with silicon waveguides,\r\nculminating in the realization of a novel, compact, broadband, and low-loss on-chip polarization\r\nrotator. The demonstrated metasurface devices show polarization conversion efficiencies as high as\r\n98.5% at 1550 nm in the free space measurements. Unlike conventional plasmonic metasurfaces,\r\nwhich lack broadband capabilities, our metasurface-based waveplates show extinction ratios of >15\r\ndB for a 120 nm bandwidth. These metasurfaces are positioned on top of up-reflecting mirrors\r\nfabricated in a micrometer-scale silicon-on-insulator platform to demonstrate on-chip polarization\r\nrotation. The demonstrated polarization rotator shows an extinction ratio of more than 10 dB for a\r\n100 nm bandwidth. This study marks the first successful demonstration of on-chip polarization\r\nmanipulation utilizing metasurface integration, heralding significant potential impacts for\r\nenhancing the functionality and miniaturization of photonic integrated circuits.\r\n1. INTRODUCTION\r\nMetasurfaces, two-dimensional analogues of metamaterials,\r\nhave emerged as an attractive alternative to bulk metamaterials\r\ndue to their lower losses and reduced fabrication challenges.\r\nThey have exhibited remarkable capabilities of manipulating\r\nlight, typically its phase and polarization properties,1−4 with\r\nsurface-confined structures and subwavelength spatial reso\u0002lutions. These unique properties of metasurfaces have been\r\nused to demonstrate a variety of devices and novel physical\r\nphenomena, such as meta-lenses,5,6 holography,7 invisible\r\ncloaks,8 optical spin hall effect,9 polarization converters,\r\npolarizers, and polarization-manipulating waveplates,10−16\r\nAmong the polarization control applications related to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "plasmonic metasurfaces, there has been a rapid rise in the\r\ndesigns of broadband reflective waveplates with high polar\u0002ization conversion ratios and a wide field of view compared to\r\nconventional birefringent materials.13 These high polarization\r\nconversion efficiencies (PCEs) can support the development of\r\npolarization management building blocks such as polarization\r\nrotators (PR) and splitters.\r\nPolarization management devices play a key role in photonic\r\nintegrated circuits (PICs).17 Among PICs, silicon photonics is\r\none of the most promising integration approaches for optics: it\r\nis versatile and widely used with multiple flavors. Silicon\r\nphotonics platforms can be based on so-called thick or thin\r\nsilicon-on-insulator (SOI) waveguides or even silicon nitride\r\nwaveguides.18 While thin-SOI waveguides typically have a\r\n200−300 nm thick Si core, the thick-SOI waveguide platform\r\nused in this work has a 3 μm thick Si core. Thick SOI is well\u0002known for its low optical losses (a few dB per meter or even\r\nless), suitability for ultradense integration (low loss), and small\r\npolarization dependence. Most of the building blocks of the\r\nthick-SOI platform support both polarizations, i.e., TE and TM\r\npolarized modes, but there is a challenge when the two\r\npolarizations need to be treated independently, for example, in\r\ntelecom and sensing applications.19\r\nMost of the conventional approaches for on-chip polar\u0002ization management are developed for thin waveguides made\r\non submicrometer thick layers of silicon (Si), silicon nitride\r\n(Si3N4), or compound semiconductor materials. In particular,\r\nconventional methods to generate reciprocal polarization\r\nrotations in SOI platforms are based on mode conversion20,21\r\nand mode evolution.22 A simple mode-evolution-based polar\u0002ization rotator utilizes adiabatic structures to change the mode\r\nin the waveguide, which usually leads to a long device. In\r\ncontrast, mode interference or mode coupling uses the beating\r\nbetween two modes of hybrid polarization to minimize the\r\ndevice length. PR developed for thin-SOI platforms have been\r\nreported to exhibit insertion losses of about 1 dB.23 However,\r\ndesigning these building blocks requires careful consideration,\r\nReceived: April 30, 2024\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "Revised: June 15, 2024\r\nAccepted: July 9, 2024\r\nPublished: July 20, 2024\r\nhttp://pubs.acs.org/journal/acsodf Article\r\n© 2024 The Authors. Published by American Chemical Society 33055\r\nhttps://doi.org/10.1021/acsomega.4c04158\r\nACS Omega 2024, 9, 33055−33063\r\nThis article is licensed under CC-BY-NC-ND 4.0\nand the most commonly used approaches are not well-suited to\r\n3 μm thick SOI waveguides.\r\nThe efforts for developing polarization management\r\ncomponents for thick-SOI platforms have been limited,\r\nbecause it is hard to achieve the required phase shifts between\r\nthe two orthogonal modes. However, for a micron-scale InP\r\nplatform, a polarization splitter−rotator was reported with an\r\nextinction ratio of more than 14 dB for a 1550 ± 10 nm\r\nwavelength.24 For a micron-scale silicon photonics platform, so\r\nfar, we have only demonstrated on-chip polarization splitters.25\r\nFurther, a new design concept has recently been proposed for\r\npolarization splitters and rotators based on an elegant approach\r\nusing a v-groove-assisted design for micron-scale silicon\r\nphotonics, but still to be experimentally demonstrated.26\r\nEven though typical solutions operate in the transmission\r\nmode, a recent study proposes a corrugated waveguide design\r\nfor a reflective polarization rotator in thin SOI with a PCE of\r\n93.1% for a 9.21 μm long device.27 There is also a report on a\r\nthin-SOI integrated plasmonic waveplate based on an\r\nasymmetric hybrid plasmonic waveguide with a demonstrated\r\nPCE of 91.5% for a bandwidth of 60 nm.28 Another elegant\r\napproach to achieve polarization rotation using twisted\r\nwaveguide approach has been demonstrated with 90% PCE\r\nat 1550 nm.29\r\nWhile meta-waveguides have been developed for polar\u0002ization manipulation applications using metamaterials30,31 to\r\ndate, polarization manipulating metasurfaces have been\r\ndemonstrated to work for free-space applications only. The\r\ncombinations of metasurfaces and PICs have been studied, but\r\npresent demonstrations focus on light-out coupled off-chip\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "applications,32 such as optical sensing and communication,\r\nincluding even switchable wavefront shaping.33 A recent study\r\nshows how metasurface-integrated on-chip can accurately\r\nchange the phase and amplitude of free-space emissions for\r\nstructured beams and holography applications.34 The\r\nemergence of metasurfaces has addressed key challenges that\r\nare difficult to solve with traditional optical devices. However,\r\nintegration of metasurfaces on-chip is limiting its realization for\r\nhigh-volume, low-cost devices due to the requirement of\r\nnanolithography and transferring fragile films.35 On-chip\r\nmetasurfaces may also suffer from coupling efficiencies which\r\nis crucial for PR and waveguide devices.36\r\nTo the best of our knowledge, there are no demonstrations\r\nof a waveguide-integrated metasurface applied to on-chip\r\npolarization manipulation. Here, we show that the unique\r\nfeatures of metasurfaces can be tailored for waveguide\r\napplications, specifically for polarization management in silicon\r\nphotonics. We propose and demonstrate a novel approach that\r\nintegrates a metasurface-based reflective plasmonic waveplate\r\non top of an upreflective mirror (URM) to realize compact and\r\nbroadband polarization rotating devices on the 3 μm SOI\r\nplatform. The nanostructured plasmonic metasurfaces are\r\nbased on gold (Au) nanorods, and they rotate the polarization\r\nof reflected light by the amount defined by the rotational\r\norientation of the metasurface with respect to the incoming\r\nlight. When placed on top of a URM, the metasurface acts as a\r\nreflective waveplate. The URMs are based on total internal\r\nreflection, and they are used for coupling light in and out of the\r\nchip or wafer on the 3 μm SOI platform with ∼1 dB coupling\r\nlosses.37\r\nThe use of a conventional waveplate on top of a URM is\r\nlimited by the divergence of light within the waveplate. To\r\nachieve efficient coupling from a reflective waveplate back to\r\nthe URM without any focusing optics, the total thickness of\r\nthe waveplate should be less than the mode-field diameter to\r\nlimit diffraction losses. Conventional waveplates are much\r\nthicker than this because of the limited birefringence\r\nachievable in ordinary crystalline materials. Such limitations\r\ncan be overcome by designing a suitable metasurface. The\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "fabricated Au metasurfaces, i.e., metasurface-based waveplates,\r\nshow PCE of 98.5% at 1550 nm and more than 91% for the\r\nwide wavelength range under study (1480−1630 nm). When\r\nintegrated with silicon waveguides via URMs, the resulting PR\r\nshow polarization extinction ratios (PER) of about 10 dB for a\r\nbandwidth of 120 nm, verifying the first-of-its-kind on-chip\r\npolarization rotator using metasurfaces integrated with SOI\r\nwaveguides.\r\n2. OUR CONCEPT OF METASURFACE-BASED\r\nON-CHIP POLARIZATION MANAGEMENT\r\nFigure 1 shows a schematic presentation of the proposed\r\nmetasurface-based waveplate device for 90° polarization\r\nrotation on top of a URM. The structure consists of a top\r\nanisotropic metasurface (Au nanorods), an intermediate silicon\r\ndioxide (SiO2) layer, and an Au layer serving as a back\r\nreflector. The intermediate silicon dioxide layer and bottom\r\ngold layer provide additional degrees of freedom for adjusting\r\nthe phase and amplitude of the reflected waves, which in turn\r\nenables enhancing the bandwidth performance of the proposed\r\nmetasurface device.\r\nIn our metasurface design concept, an s-polarized (p\u0002polarized) plane wave is incident on the metasurface at an\r\nangle marked with θi and the goal is to have only a p-polarized\r\n(s-polarized) plane wave reflected back from the metasurface.\r\nWhen the incident light interacts with the metasurface, light\r\nFigure 1. Our concept of metasurface-based on-chip polarization\r\nmanagement. (a) Schematic presentation of the proposed Au-based\r\nmetasurface for a 90° polarization rotation. (b) Illustration showing\r\nan incoming wave (red) and the reflected one (blue) with its\r\npolarization mirrored with respect to the main (y) axis of the\r\nmetasurface. (c) Cross-sectional and (d) 3D schematic of our\r\nproposed metasurface-based on-chip polarization management device.\r\nA 45° URM in the Si waveguide is used to integrate with a\r\nmetasurface on top. AR indicates antireflection.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "https://doi.org/10.1021/acsomega.4c04158\r\nACS Omega 2024, 9, 33055−33063\r\n33056\nundergoes multiple reflections between the metasurface and\r\nthe bottom Au reflector. After interference, the final reflected\r\nwave is formed. The anisotropic scattering by the nanorods\r\ncreates a large phase difference between the two orthogonally\r\npolarized modes over a broad wavelength range. This\r\nintroduces the phase shift required for the waveplate operation,\r\nsimilar to that reported previously for a metasurface designed\r\nfor smaller wavelengths (640−1290 nm).13\r\nFigure 1a shows the basic structure and relevant dimensions\r\nof the metasurface device: ax is the width, ay is the length and\r\naz is the height of the single nanorod, whereas g is the\r\ninterelement gap between the nanorods in the y direction and\r\ntSiO2 is the thickness of the dielectric layer between the\r\nnanorods and the planar gold reflector. The operational\r\nprinciple as a waveplate is sketched in Figure 1b, showing how\r\nthe polarization is reflected with respect to the eigenaxis of the\r\nmetasurface. To achieve 90° polarization rotation, the input\r\npolarization is set at a 45° angle (ϕ = 45°) with respect to the\r\neigenaxis of the metasurface (i.e., the longer axis of the\r\nnanorods or the y-axis in Figure 1a). As a result, both\r\neigenmodes are excited equally, and in the ideal case, the\r\nmetasurface induces a 180° phase shift between them, similar\r\nto the operation of a conventional waveplate. Finally, Figure\r\n1c,d illustrate the integration of the metasurface to a silicon\r\nphotonics waveguide mirror for implementing the proposed\r\nintegrated metasurface-based PR. The waveguide test structure\r\nconsists of a rib waveguide at the input followed by a rib-to\u0002strip converter, Euler bend and URM. The Euler bend ensures\r\nsingle-mode operation even if it is realized in a multimode strip\r\nwaveguide, which is adiabatically coupled to a single-mode rib\r\nwaveguide using a rib-strip converter. The rib waveguide is\r\nsingle mode over an ultrawide wavelength range (1.2−4 μm).37\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "As will be shown later in this paper, the designed\r\nmetasurface works with high efficiency over a broad range of\r\nangles of incidence (θi\r\n), i.e., with a field of view (2θi) of more\r\nthan 65°. This allows one to cope with the finite divergence of\r\nlight when it propagates twice through the URM, the gap\r\nbetween the URM and the metasurface, and the metasurface\r\nitself. In fact, the far-field half angle of the light emitted from\r\nthe URM is 15 ± 1°, and by using the ultrathin metasurface as\r\na waveplate, the real divergence angle can be kept much\r\nsmaller than this.\r\n3. RESULTS AND DISCUSSION\r\n3.1. Concept Designs. To demonstrate the performance\r\nof our on-chip polarization rotator, we first designed Au\u0002nanorod-based metasurfaces for a 1550 nm wavelength. ax, ay,\r\naz, g, px, and tSiO2 are the design parameters defining the\r\nmetasurface operation. The values for the parameters are\r\nselected, based on three-dimensional (3D) full-wave electro\u0002magnetic simulations, to achieve a 90° polarization rotation\r\nwith minimal absorption in the nanorods. A close-to-optimal\r\nperformance was obtained for the following parameter set: tSiO2\r\n= 160 nm, g = 16−25 nm, px = 252 nm, ax = 90 nm, ay = 262\r\nnm − g, and az = 50 nm. Figure 2a shows the simulated power\r\nrelative to the incident power, reflected from a metasurface\r\nwaveplate to the polarization orthogonal to that of the incident\r\nwave as a function of the rotational angle (ϕ) of the\r\nmetasurface. An efficient 90° rotation of the polarization is\r\nseen at angles of ϕ = 45° and ϕ = 135°. Absorption losses in\r\nthe nanorods (in Au and the Ti adhesion layer underneath Au)\r\nare small but non-negligible, i.e., less than 5.5% at the\r\nmaximum (at ϕ = 0° and ϕ = 180°) and near 3.5% at ϕ = 45°\r\nand ϕ = 135°, as can be seen in Figure 2b. It is notable that the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "contribution of the thin adhesion layer is relatively high, i.e.,\r\nroughly half of the losses at the ϕ angles, where the maxima\r\noccur and even being the main contributor at ϕ = 90°.\r\nVariation of the interelement gap (g) has a very small effect on\r\nFigure 2. Full-wave 3D EM simulations at λ = 1550 nm for\r\nmetasurface devices with ax = 90 nm, ay = 262 nm − g, az = 50 nm, px\r\n= 252 nm, and tSiO2 = 160 nm. (a) Simulated power relative to the\r\nincident power, reflected to the polarization orthogonal to that of the\r\nincident wave for g = 16, 20, 25, 4, and 50 nm with θi = 0, (b)\r\nabsorption losses in the Au nanorods, including the Ti adhesion layer,\r\nand the losses in Au only for g = 16, 20, and 25, and (c) simulated\r\npower relative to the incident power, reflected to the polarization\r\northogonal to that of the incident wave for different θi with g = 20 nm.\r\nAll of the curves are shown as a function of the rotational angle (ϕ) of\r\nthe metasurface.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.4c04158\r\nACS Omega 2024, 9, 33055−33063\r\n33057\nthe amount of polarization rotation and the insertion loss for g\r\n= 16−25 nm and for the θi angles of interest. This suggests that\r\nsmall deviations from the targeted values, which may occur in\r\nthe fabrication, are well tolerated. However, larger deviations\r\n(g = 4 or 50 nm in Figure 2) can significantly affect the\r\nperformance. The metasurface works efficiently for a broad\r\nrange of angles of incidence, as shown for the simulated\r\nreflected power in Figure 2c.\r\nTo study the coupling losses of the on-chip PR of different\r\nthicknesses, two-dimensional (2D) simulations were per\u0002formed for the system shown in Figure 3a. It represents the\r\nthick silicon waveguide terminated with URM and an isotropic\r\nmaterial block representing a reflective waveplate that is placed\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "on top of URM. Figure 3b,c shows the results of the 2D\r\nsimulations for the system. The thick waveplate corresponds to\r\na conventional waveplate, and the thin one imitates the case of\r\nthe proposed metasurface. The electric field profile in a cross\u0002sectional view is shown in Figure 3b. As there is no lateral\r\nguiding structure in the waveplate, the beam begins to diverge\r\nas it enters the plate. The amount of beam divergence and the\r\ncorresponding coupling loss increase with the thickness of the\r\nwaveplate. In Figure 3c, the power reflectance, or S11,\r\ncorresponding to the coupling efficiency, is shown as a\r\nfunction of the thickness of the waveplate. The coupling\r\nefficiency is less than −6 dB already at the thicknesses less than\r\n15 μm, and preferably, the thickness should be well below 2\r\nμm for relevant applications.\r\n3.2. Free-Space Metasurface Devices without Silicon\r\nWaveguides. A metasurface waveplate device exhibiting PER\r\nmore than 15 dB for a broad spectral range (120 nm) is shown\r\nin Figure 4a. Considering the 20 dB PER measured for a planar\r\ngold surface, it can be concluded that the metasurface\r\nimperfections contribute to about 2/3 of the total 3% of the\r\ninput light coupled with the wrong polarization at the output.\r\nA strong polarization rotation with PCE between 91 and 98.5%\r\nis observed for all the studied devices. The PERs of the\r\nmetasurfaces with different interelement gaps (g = 16−25 nm)\r\nare very similar, showing a conversion efficiency higher than\r\n90% for a wavelength range larger than 100 nm. The\r\nmeasurements suggest that a small variation in the gaps\r\nbetween the nanorods does not have a significant influence on\r\nPER, which is in excellent agreement with the simulations (see\r\nFigure 2). Furthermore, to study the effect of the rotational\r\nangle of the metasurface with respect to the polarization of\r\nincident light, the input polarization maintaining fiber (PMF)\r\nis rotated with 5° steps, and the corresponding optical power is\r\nmeasured at the detector. The maximum optical power is\r\nFigure 3. Coupling studies with 2D simulations. (a) Cross-sectional\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "schematic image of the 45° URM in the Si waveguide showing the\r\ndivergence of the reflected beam for a thick (black solid lines with\r\narrows) and thin (blue solid lines with arrows) reflective waveplate.\r\n(b) Cross-sectional view of the simulated electric field profile for the\r\nsystem shown in (a). (c) Simulated reflectance, or S11, corresponds to\r\nthe coupling efficiency of the light from the reflective waveplate back\r\nto the waveguide via a URM, shown as a function of the thickness of\r\nthe waveplate.\r\nFigure 4. Free-space metasurface waveplate measurements. (a)\r\nExample of a PER measurement from a metasurface device after\r\n90° rotation as a function of wavelength. (b) Measured reflected\r\npower (blue dots) for the polarization orthogonal to that of the\r\nincident wave as a function of the rotational angle, ϕ (changed by\r\nrotating the input PMF), and a sinusoidal fit to the results (orange\r\nsolid line).\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.4c04158\r\nACS Omega 2024, 9, 33055−33063\r\n33058\nobserved at ϕ = 45° or at its even multiples, as light undergoes\r\nthe phase shift two times. Figure 4b shows the measured\r\nresults and a sinusoidal fit of the data. The results are again in\r\nexcellent agreement with the simulations.\r\n3.3. Waveguide-integrated Metasurface-Based Polar\u0002ization Rotator Measurements. Figure 5 shows the PER\r\nmeasured for a waveguide-integrated polarization rotator as a\r\nfunction of the wavelength. More than 10 dB PER was\r\nobserved over the 120 nm bandwidth for the waveguide\u0002integrated PR. Unwanted reflections from the input facet of the\r\nwaveguide and the mirror surface reduce the achieved\r\nextinction ratio compared with that of the PER of the plain\r\nmetasurface waveplate device shown in Figure 4a. This can be\r\nimproved by further optimizing antireflection coatings for this\r\napplication and using a tilted waveguide facet at the input. The\r\nsingle-layer antireflection coatings cannot suppress reflections\r\nover this broad wavelength range, which causes some of the\r\nlight to experience two or more polarization rotations,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "especially at the left and right edges of the spectrum, as\r\nshown in Figure 5.\r\nThe waveguide-integrated PR device exhibits an overall loss\r\nof 8−10 dB, as illustrated in Figure 6a. This total loss\r\nencompasses various factors, including the coupling of the\r\nwaveguide and URM, the intrinsic loss of the metasurface,\r\ncoupling from URM to the metasurface and back, and\r\nscattering losses. The waveguide structure with a URM\r\n(without metasurface) has a coupling loss of 1.5−2.5 dB\r\ncompared to the fiber-to-fiber case for the whole wavelength\r\nrange (1400−1600 nm) as shown in Figure 6b for both\r\npolarizations. This loss only includes coupling from a\r\nwaveguide to a fiber though an URM, i.e., no reflection back\r\nto the waveguide. Hence, the total loss for this structure, in our\r\ncase, will be twice the value of 2.5 dB, accounting for the fact\r\nthat light undergoes coupling to and from the URM. The\r\nstandalone metasurface exhibits losses below 1.5 dB for both\r\npolarizations for the wavelength range of 1450−1630 nm\r\ncompared to a planar gold surface (coupled with PMF), as\r\nshown in Figure 6c. The measured loss values are of the same\r\norder of magnitude but somewhat higher than the simulated\r\nvalues for the wavelength range close to 1550 nm. The\r\nsimulated intrinsic loss of the nanorods is 3.5% at 1550 nm for\r\nϕ = 45°, which is in excellent agreement with the measured\r\nlosses of 3.5% at 1563 nm for the TM polarization. The small\r\ndifferences can be explained by the irregularities and surface\r\nroughness occurring in the fabricated Au nanorod arrays\r\ncompared with the simulated ideal geometries.\r\nFigure 5. PER as a function of wavelength for a waveguide integrated\r\npolarization rotator showing more than 10 dB of PER for a bandwidth\r\nof 120 nm.\r\nFigure 6. Loss analysis. (a) Total loss of a waveguide-integrated\r\npolarization rotator device. (b) Waveguide coupling losses without a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "metasurface on top of URM compared to the fiber-to-fiber case. (c)\r\nLosses of a standalone metasurface compared to a planar gold surface\r\nwith TE referring to ϕ = 45° and TM referring to ϕ = −45°.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.4c04158\r\nACS Omega 2024, 9, 33055−33063\r\n33059\nAssuming waveguide losses of 4−5 dB, as mentioned earlier,\r\nand 4 dB coupling losses from the URM to the metasurface\r\nand back to the URM, including the intrinsic losses of the\r\nmetasurface, the total loss would be 9 dB, which is in good\r\nagreement with the measured losses in Figure 6a. This explains\r\nthe reduction in PER observed in the waveguide-integrated\r\npolarization rotator device compared to a standalone PR\r\nmetasurface, as can be seen by comparing Figure 5 to Figure\r\n4a. The total loss analysis suggests that approximately 7.2 dB,\r\ni.e., 80% of the total loss, is due to coupling and propagation to\r\nand from the metasurface and URM, while the remaining 1.8\r\ndB loss, i.e., 20% of the total loss is attributed to the intrinsic\r\nloss of the nanorods and scattering.\r\nThe measured PER of the device is lower than the measured\r\nfree-space metasurface PER due to waveguide losses and\r\ncoupling loss between URM and the metasurface. The loss\r\nanalysis of the metasurface losses agrees well with the\r\nsimulated losses, reflecting the difference in the PER.\r\nThe oscillations observed in the measurements are due to\r\nthe back reflections from the facets of the waveguide and fiber\r\noptic polarization splitter with a limited extinction ratio of 25\r\ndB used in the measurement setup to ensure the injection of\r\none of the orthogonal polarization states into the device.\r\n4. CONCLUSIONS\r\nWe have demonstrated a gold-based metasurface waveplate\r\ndevice with high performance over a broad wavelength range\r\n(120 nm) with a PCE over 98.5%. We also proposed and\r\ndemonstrated an approach that provides a gateway to\r\nminiaturized optical devices enabling compact and broadband\r\nPR on a thick-SOI platform. With the implemented\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "metasurfaces, we have successfully demonstrated a compact\r\non-chip polarization rotator using nanorods on top of an up\u0002reflecting mirror on a thick-SOI waveguide platform. To the\r\nbest of our knowledge, this is the first demonstration of the\r\nsuccessful integration of a functional metasurface on a PIC for\r\non-chip polarization management.\r\nThe demonstrated proof-of-concept devices still have certain\r\nchallenges, such as the alignment of the metasurface chip on\r\ntop of a silicon waveguide chip. A practical solution for a\r\ncompact device is to use flip-chip bonding and transfer printing\r\ntechniques,38 or as the most compact solution, to fabricate the\r\nreflective metasurface directly on the horizontal surface of the\r\nURM. Further, to implement a device that is more useful from\r\nthe application point of view, such as PR serving as a Pauli-Z\r\ngate for quantum computing,39 more advanced designs are\r\nneeded in which different waveguides are used as input and\r\noutput, e.g., a Michelson interferometer based on a 50:50\r\nsplitter.\r\nIn this paper, we focused on plasmonic metal surfaces to\r\nachieve polarization rotation. Even though these metasurfaces\r\nare compact and have high optical confinement, they still\r\nsomewhat suffer from intrinsic optical losses (∼3.5%), which\r\nmay limit the efficiency of high-performance optical devices.\r\nThis could be improved by resorting to all-dielectric\r\nmetasurfaces, for example, a metasurface made of amorphous\r\nsilicon, a material readily available in the thick-SOI platform.40\r\nThe losses of the waveguides can be mitigated by using\r\nhydrogen annealed waveguides for reducing the surface wall\r\nroughness of the waveguides.41 Further, the coupling efficiency\r\nbetween the metasurface and waveguide may be improved by\r\nleveraging the resonant modes of a metasurface by matching\r\nthe resonant modes of the metasurface to the guided modes of\r\nthe waveguide.42,43\r\n5. METHODS\r\n5.1. Numerical Simulations. Three-dimensional (3D)\r\nfull-wave electromagnetic (EM) simulations of the geometry in\r\nFigure 1 were carried out to optimize the plasmonic\r\nmetasurface design for the targeted wavelength (λ) range\r\nFigure 7. Microscope and SEM images of the plasmonic metasurfaces\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "and URMs. (a) SEM image of 242 × 90 nm rectangular-shaped\r\nplasmonic nanorods. (b) Microscope image of a chip with plasmonic\r\nmetasurface devices (eight devices visible on top of the 20 × 30 μm\r\ngold mirrors). (c) A SEM image of an URM.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.4c04158\r\nACS Omega 2024, 9, 33055−33063\r\n33060\nnear 1550 nm with the Wave Optics module of COMSOL\r\nMultiphysics.44\r\nPeriodic boundary conditions were used for the sides of the\r\nsimulation region to imitate an infinite lattice of gold rods in\r\nthe arrangement of the metasurface. It should be mentioned\r\nthat the assumption of an infinite lattice is not justified for the\r\nwaveguide-integrated case, considering the mode-field diame\u0002ter of the beam (2.5 μm), its divergence angle, and the period\r\nof the metasurface (524 nm). However, the mode can be\r\nconsidered as an expansion of infinite plane waves incident at\r\ndifferent θi angles at the metasurface, the acceptance angle of\r\nwhich is larger than the largest θi of the mode (15 ± 1°). By\r\nadjustment of the size of the gold rod and the x and y\r\ndimensions of the simulation region, different metasurface\r\ndesigns with different periods and distances between the rods\r\ncould be tested in addition to the varied thicknesses of the\r\nSiO2 and Au layers. A linearly polarized plane wave was used as\r\nthe EM wave incident on the Au-rods from a port in the air,\r\nand the polarization state and the power of the reflected wave\r\nwere monitored at the same port position.\r\nIn addition to the 3D simulations, two-dimensional (2D)\r\nEM simulations were carried out to compare the coupling\r\nlosses of the proposed metasurface structure to those of a\r\nconventional reflective waveplate on top of the URM. The\r\nsimulations were performed using a 2D FDTD solver in Ansys\r\nLumerical45 for the structure shown in Figure 3a. The back\r\nsurface of the waveplate is metallized, which reflects the light\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "back to the waveguide via the same URM. The URM has an\r\nantireflection coating of 195 nm of Si3N4 with a refractive\r\nindex of 2.0, and there is a fixed 100 nm air gap between the\r\nURM and the waveplate. The refractive index of the waveplate\r\nis isotropic and has a value of 1.5. Light is launched into the\r\nfundamental mode of the Si waveguide, and the device loss is\r\ndetermined by calculating the amount of power coupled back\r\nto the fundamental mode.\r\n5.2. Fabrication Process. A 150 mm p-type silicon wafer\r\nis used as a substrate for the fabrication of the metasurface\u0002based polarization rotator waveplates. The design layout\r\nproduces 100 chips 2.0 × 2.5 mm in size. Each chip consists\r\nof 16 metasurface devices arranged in two rows. The chip with\r\nthe polarization rotator devices is designed to match the layout\r\nof silicon photonic chips having waveguides with URMs.\r\nAs the first step, 1.5 μm deep alignment marks are fabricated\r\ninto the silicon substrate by electron beam lithography (EBL)\r\nand dry etching. Then, EBL and lift-off processes are used to\r\ndefine 20 × 30 μm mirrors onto the substrate. For this, a gold\r\nlayer of a thickness of 100 nm is deposited with a 2 nm\r\ntitanium (Ti) adhesion layer on top of the patterned resist by\r\nevaporation followed by a lift-off in acetone with the assistance\r\nof ultrasonic agitation, leaving the 20 by 30 μm gold mirrors on\r\nthe surface. The mirror layer is then covered by a 160 nm thick\r\nlayer of silicon oxide (tSiO2) using Oxford Plasmalab Plasma\u0002enhanced chemical vapor deposition (PECVD) equipment.\r\nThe metasurface consisting of submicrometer scale\r\nrectangles (nanorods) in arrays is finally defined on top of\r\nthe dielectric by EBL and lift-off process. A 50 nm-thick layer\r\nof Au with a Ti adhesion layer is evaporated on a patterned\r\nEBL resist prior to an acetone bath with ultrasonic agitation.\r\nThe metasurface dimensions of the fabricated devices are as\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "follows: ax = 90 nm, ay = py − g, and az = 50 nm with g = 16−\r\n25 nm, while the period in x direction px = 252 nm and in y\r\ndirection py = 262 nm. As the final step, lanes are formed into\r\noxide by EBL and dry etching to prevent oxide chipping or\r\npeeling during dicing. A SEM image of a fabricated\r\nmetasurface and a microscopic image of the metasurfaces\r\narranged on a chip are presented in Figure 7a,b, respectively.\r\nThe 3 μm SOI waveguides and URMs were fabricated on\r\nseparate wafers with a combination of dry and wet etching. A\r\nSEM image of a 45° mirror is shown in Figure 7c.\r\n5.3. Optical Measurements. 5.3.1. Characterization of\r\nStandalone-Metasurfaces. To measure the PER of the\r\nmetasurface waveplate devices, we used the optical fiber\u0002based setup presented in Figure 8. A superluminescent diode\r\n(SLED) at λ = 1550 nm is used as a light source in the PER\r\nmeasurements, whereas rotation angle-dependent measure\u0002Figure 8. Measurement setup to measure the standalone metasurface\r\ndevice in reflection mode without the silicon photonics waveguide.\r\nThe multiaxis stages are used for the alignment, and the lensed PMF\r\nfiber is rotated during the measurements.\r\nFigure 9. (a) Measurement setup to measure the metasurface-based\r\nPR integrated with silicon photonics waveguides. The multiaxis stages\r\nare used for the alignment, and the lensed PMF fiber is rotated during\r\nthe measurements. The rest of the setup (outside the dashed box) is\r\nequivalent to the one in Figure 8. (b) Microscope image of a PMF\r\ncoupled with a silicon waveguide and a metasurface chip on top of the\r\nsilicon photonics waveguide.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.4c04158\r\nACS Omega 2024, 9, 33055−33063\r\n33061\nments are carried out using an erbium-doped fiber amplifier as\r\na spontaneous emission source. The light is polarized and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "directed toward the metasurface via a polarization maintaining\r\n(PM) 10/90 coupler using a lensed PMF. The coupler is used\r\nto separate a part of the reflected light for the measurements.\r\nThe coupler has low polarization dependence as compared to a\r\ncirculator and works regardless of which polarization axis of the\r\nfiber (slow or fast) the light is connected to. The alignment\r\nstages shown in Figure 8 are used to align the PMF and the\r\nmetasurface waveplate.\r\nThe capability of the setup to measure the maximum PER\r\nwas first checked with reference measurements on a planar\r\ngold surface. The reference measurements produced a PER of\r\nmore than 20 dB for the whole wavelength range studied\r\n(1480−1650 nm) without any polarization rotation. The\r\nmaximum PER is limited to 20−25 dB by the finite PER of the\r\nPMF and the PM splitter in the setup. After optimizing the\r\npower and angle, the power of the two orthogonal polar\u0002izations (Pϕ1 and Pϕ2) reflected from the Au metasurface\r\ndevices were measured and the PER was calculated using eq 1.\r\n= P\r\nP\r\nPER 10 log (dB) 10\r\n2\r\n1 (1)\r\nwhere Pϕ1 and Pϕ2 describe the power of the reflected wave\r\npolarized along ϕ1 = 45° and ϕ2 = −45°, respectively, when\r\nthe incident wave is polarized along ϕ1 = 45°. The PER\r\nmeasurements were carried out on multiple samples. The\r\nmaximum reflected power for the orthogonal polarizations is\r\nobserved at ϕ = ± 45°. Thus, the total rotational angle\r\nbetween the input and output polarizations is 90°.\r\n5.3.2. Characterization of Waveguide-integrated Polar\u0002ization Rotator. For the measurements of the waveguide\r\nintegrated polarization rotator, a gold metasurface chip is\r\nplaced on top of the URM of a silicon waveguide. The\r\nmetasurface chip is glued to a needle and then aligned with the\r\nwaveguide chip. The measurement setup is shown in Figure 9a.\r\nThe active alignment is done with the help of an infrared (IR)\r\ncamera. Figure 9b shows a microscopic image of a PMF\r\ncoupled with a silicon waveguide and a metasurface chip on\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "top of the silicon photonic waveguide chip. The light is\r\ninjected by using the PMF to match the optical axis of the\r\nwaveguide.\r\n■ AUTHOR INFORMATION\r\nCorresponding Authors\r\nDura Shahwar − VTT Technical Research Centre of Finland\r\nLtd, 02150 Espoo, Finland; QTF Centre of Excellence,\r\nDepartment of Electronics and Nanoengineering, Aalto\r\nUniversity, 02150 Espoo, Finland; orcid.org/0000-0002-\r\n3187-3619; Email: dura.shahwar@vtt.fi\r\nKirsi Tappura − VTT Technical Research Centre of Finland\r\nLtd, 02150 Espoo, Finland; QTF Centre of Excellence, VTT\r\nTechnical Research Centre of Finland Ltd, FI-02044 VTT\r\nEspoo, Finland; orcid.org/0000-0002-8032-9652;\r\nEmail: kirsi.tappura@vtt.fi\r\nAuthors\r\nMarkku Kapulainen − VTT Technical Research Centre of\r\nFinland Ltd, 02150 Espoo, Finland\r\nTomi Haatainen − VTT Technical Research Centre of Finland\r\nLtd, 02150 Espoo, Finland\r\nMikko Harjanne − VTT Technical Research Centre of Finland\r\nLtd, 02150 Espoo, Finland\r\nMatteo Cherchi − VTT Technical Research Centre of Finland\r\nLtd, 02150 Espoo, Finland; Present Address: Xanadu,\r\nCanada\r\nZhipei Sun − QTF Centre of Excellence, Department of\r\nElectronics and Nanoengineering, Aalto University, 02150\r\nEspoo, Finland; orcid.org/0000-0002-9771-5293\r\nTimo Aalto − VTT Technical Research Centre of Finland Ltd,\r\n02150 Espoo, Finland\r\nComplete contact information is available at:\r\nhttps://pubs.acs.org/10.1021/acsomega.4c04158\r\nAuthor Contributions\r\nD.S. and K.T. conceived and designed the project inspired by\r\ndiscussions with M.C. D.S. and M.K. performed the\r\nexperimental characterization and analyzed the measurement\r\nresults. K.T. carried out numerical simulations for the\r\nmetasurfaces. M.H. performed the numerical simulations for\r\nconventional waveplates. T.H. fabricated the metasurfaces.\r\nT.A. and M.C. supported the interpretation of the results. All\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "the authors contributed to the manuscript which was originally\r\nwritten by D.S. and K.T with the help of T.H., M.K., and M.H.\r\nZ.S., T.A., M.C., and K.T. reviewed and edited the manuscript.\r\nAll the authors discussed the results and commented on the\r\nmanuscript. All the work was carried out under the supervision\r\nof K.T.\r\nFunding\r\nAcademy of Finland Project Novel optical isolators to continue\r\nMoore’s law in photonics integration (NOIMO) (Decision\r\nnumber 333980) and the Academy of Finland Flagship\r\nProgramme, Photonics Research, and Innovation (PREIN)\r\n(Decision number 346545).\r\nNotes\r\nThe authors declare no competing financial interest.\r\n■ ACKNOWLEDGMENTS\r\nAuthors would like to thank fabrication experts at VTT\r\nTechnical Research Centre of Finland.\r\n■ REFERENCES\r\n(1) Huang, L.; Chen, X.; Mühlenbernd, H.; Li, G.; Bai, B.; Tan, Q.;\r\nJin, G.; Zentgraf, T.; Zhang, S. Dispersionless Phase Discontinuities\r\nfor Controlling Light Propagation. Nano Lett. 2012, 12 (11), 5750−\r\n5755.\r\n(2) yu, N.; Genevet, P.; Kats, M.; Aieta, F.; Tetienne, J.-P.; Capasso,\r\nF.; Gaburro, Z. Light Propagation with Phase Discontinuities:\r\nGeneralized Laws of Reflection and Refraction. Science 2011, 334,\r\n333−337.\r\n(3) Hu, Y.; Wang, X.; Luo, X.; Ou, X.; Li, L.; Chen, Y.; Ping, Y.;\r\nWang, S.; Wang, S.; Duan, H. All-Dielectric Metasurfaces for\r\nPolarization Manipulation: Principles and Emerging Applications.\r\nNanophotonics 2020, 9 (12), 3755−3780.\r\n(4) Chen, H.-T.; Taylor, A.; yu, N. A Review of Metasurfaces:\r\nPhysics and Applications. Rep. Prog. Phys. 2016, 79, 076401.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "(5) Khorasaninejad, M.; Capasso, F. Metalenses: Versatile Multi\u0002functional Photonic Components. Science 2017, 358, No. eaam8100.\r\n(6) Zhao, Z.; Pu, M.; Gao, H.; Jin, J.; Li, X.; Ma, X.; Wang, Y.; Gao,\r\nP.; Luo, X. Multispectral Optical Metasurfaces Enabled by\r\nAchromatic Phase Transition. Sci. Rep. 2015, 5 (1), 15781.\r\n(7) Zheng, G.; Mühlenbernd, H.; Kenney, M.; Li, G.; Zentgraf, T.;\r\nZhang, S. Metasurface Holograms Reaching 80% Efficiency. Nat.\r\nNanotechnol. 2015, 10 (4), 308−312.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.4c04158\r\nACS Omega 2024, 9, 33055−33063\r\n33062\n(8) Chu, H.; Li, Q.; Liu, B.; Luo, J.; Sun, S.; Hang, Z. H.; Zhou, L.;\r\nLai, Y. A Hybrid Invisibility Cloak Based on Integration of\r\nTransparent Metasurfaces and Zero-Index Materials. Light Sci. Appl.\r\n2018, 7 (1), 50.\r\n(9) Kim, M.; Lee, D.; Yang, Y.; Kim, Y.; Rho, J. Reaching the\r\nHighest Efficiency of Spin Hall Effect of Light in the Near-Infrared\r\nUsing All-Dielectric Metasurfaces. Nat. Commun. 2022, 13 (1), 2036.\r\n(10) Karamirad, M.; Ghobadi, C.; Nourinia, J. Metasurfaces for\r\nWideband and Efficient Polarization Rotation. IEEE Trans. Antennas\r\nPropag. 2021, 69 (3), 1799−1804.\r\n(11) Pouyanfar, N.; Nourinia, J.; Ghobadi, C. Multiband and\r\nMultifunctional Polarization Converter Using an Asymmetric\r\nMetasurface. Sci. Rep. 2021, 11 (1), 9306.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "(12) Kurosawa, H.; Choi, B.; Sugimoto, Y.; Iwanaga, M. High\u0002Performance Metasurface Polarizers with Extinction Ratios Exceeding\r\n12000. Opt. Express 2017, 25 (4), 4446−4455.\r\n(13) Jiang, Z. H.; Lin, L.; Ma, D.; Yun, S.; Werner, D. H.; Liu, Z.;\r\nMayer, T. S. Broadband and Wide Field-of-View Plasmonic\r\nMetasurface-Enabled Waveplates. Sci. Rep. 2014, 4 (1), 7511.\r\n(14) Abouelatta, M.; Obayya, S.; Hameed, M. F. O. Highly Efficient\r\nTransmissive Metasurface for Polarization Control. Opt. Quantum\r\nElectron. 2021, 53, 87.\r\n(15) Wu, Z.; Ra’di, Y.; Grbic, A. Tunable Metasurfaces: A\r\nPolarization Rotator Design. Phys. Rev. X 2019, 9 (1), 011036.\r\n(16) Zhao, Y.; Xiang, J.; He, A.; He, Y.; Guo, X.; Su, Y.\r\nMetamaterial-Enabled Fully On-Chip Polarization-Handling Devices.\r\nLaser Photonics Rev. 2023, 17 (11), 2300320.\r\n(17) Dai, D.; Liu, L.; Gao, S.; Xu, D.-X.; He, S. Polarization\r\nManagement for Silicon Photonic Integrated Circuits. Laser Photonics\r\nRev. 2013, 7 (3), 303−328.\r\n(18) Rahim, A.; Ryckeboer, E.; Subramanian, A. Z.; Clemmen, S.;\r\nKuyken, B.; Dhakal, A.; Raza, A.; Hermans, A.; Muneeb, M.; Dhoore,\r\nS.; Li, Y.; Dave, U.; Bienstman, P.; Le Thomas, N.; Roelkens, G.; Van\r\nThourhout, D.; Helin, P.; Severi, S.; Rottenberg, X.; Baets, R.\r\nExpanding the Silicon Photonics Portfolio With Silicon Nitride\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "Photonic Integrated Circuits. J. Light. Technol. 2017, 35 (4), 639−\r\n649.\r\n(19) Cherchi, M.; Bera, A.; Kemppinen, A.; Nissilä, J.; Tappura, K.;\r\nCaputo, M.; Lehtimäki, L.; Lehtinen, J.; Govenius, J.; Aalto, T.\r\nSupporting Quantum Technologies with a Micron-Scale Silicon\r\nPhotonics Platform. In Proceedings Volume 12004, Integrated Optics:\r\nDevices, Materials, and Technologies XXVI; SPIE OPTO, 2022.\r\n(20) Liu, B.; Shum, P.; Zhang, J.; Lo, G.-Q.. Fabrication Tolerance\r\nStudy on Mode-Coupling-Based Polarization Rotators. In 2010 IEEE\r\nInternational Conference on Communication Systems; IEEE, 2010; pp\r\n681−684. .\r\n(21) Xie, A.; Zhou, L.; Chen, J.; Li, X. Efficient Silicon Polarization\r\nRotator Based on Mode-Hybridization in a Double-Stair Waveguide.\r\nOpt. Express 2015, 23 (4), 3960−3970.\r\n(22) Watts, M. R.; Haus, H. A. Integrated Mode-Evolution-Based\r\nPolarization Rotators. Opt. Lett. 2005, 30 (2), 138−140.\r\n(23) Wang, S.; Li, P.; Yan, J. Monolithically Integrated Polarization\r\nRotator and Splitter with Designed Power Ratio. Opt. Express 2023,\r\n31 (9), 14128−14139.\r\n(24) Ito, M.; Fukui, T.; Tanemura, T.; Nakano, Y. Compact\r\nSymmetric Polarization Rotator-Splitter on InP. Opt. Express 2022, 30\r\n(3), 4179−4188.\r\n(25) Shahwar, D.; Cherchi, M.; Harjanne, M.; Kapulainen, M.;\r\nAalto, T. Polarization Splitters for Micron-Scale Silicon Photonics. In\r\nInternational Society for Optics and Photonics; SPIE; 2021; Vol. 11691,\r\np 1169104. .\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "(26) Suzuki, Y.; Elfiqi, A. E.; Fukui, T.; Ito, M.; Tanemura, T.;\r\nNakano, Y.. V-Groove-Assisted Polarization Splitter-Rotator on Multi\u0002Micron Silicon Photonics. In 2022 27th OptoElectronics and\r\nCommunications Conference (OECC) and 2022 International Conference\r\non Photonics in Switching and Computing (PSC); IEEE, 2022; pp 1−3. .\r\n(27) Liu, L.-Y.; Huang, H.-C.; Chen, C.-W.; Hsiao, F.-L.; Cheng, Y.-\r\nC.; Chen, C.-C. Design of Reflective Polarization Rotator in Silicon\r\nWaveguide. Nanomaterials 2022, 12 (20), 3694.\r\n(28) Gao, L.; Huo, Y.; Zang, K.; Paik, S.; Chen, Y.; Harris, J. S.;\r\nZhou, Z. On-Chip Plasmonic Waveguide Optical Waveplate. Sci. Rep.\r\n2015, 5 (1), 15794.\r\n(29) Hou, Z.-S.; Xiong, X.; Jia-Ji, C.; Chen, Q.-D.; Tian, Z.-N.; Ren,\r\nX.-F.; Sun, H.-B. On-Chip Polarization Rotators. Adv. Opt. Mater.\r\n2019, 7, 1900129.\r\n(30) Xu, H.; Dai, D.; Shi, Y. Anisotropic Metamaterial-Assisted All\u0002Silicon Polarizer with 415-Nm Bandwidth. Photonics Res. 2019, 7\r\n(12), 1432−1439.\r\n(31) Meng, Y.; Chen, Y.; Lu, L.; Ding, Y.; Cusano, A.; Fan, J. A.; Hu,\r\nQ.; Wang, K.; Xie, Z.; Liu, Z.; Yang, Y.; Liu, Q.; Gong, M.; Xiao, Q.;\r\nSun, S.; Zhang, M.; Yuan, X.; Ni, X. Optical Meta-Waveguides for\r\nIntegrated Photonics and Beyond. Light Sci. Appl. 2021, 10 (1), 235.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "(32) Guo, X.; Ding, Y.; Chen, X.; Duan, Y.; Ni, X. Molding Free\u0002Space Light with Guided Wave-Driven Metasurfaces. Sci. Adv. 2020,\r\n6, No. Eabb4142.\r\n(33) Zhong, H.; Zheng, Y.; Sun, J.; Wang, Z.; Zhang, L.; Liang, Y.;\r\nHua, Q.; Ning, M.; Ji, J.; Fang, B. Gigahertz-Rate-Switchable\r\nWavefront Shaping through Integration of Metasurfaces with\r\nPhotonic Integrated Circuit. 2023, arXiv:231108867. arXiv Preprint.\r\n(34) Hsieh, P.-Y.; Fang, S.-L.; Lin, Y.-S.; Huang, W.-H.; Shieh, J.-M.;\r\nYu, P.; Chang, Y.-C. Metasurfaces on Silicon Photonic Waveguides for\r\nSimultaneous Emission Phase and Amplitude Control. Opt. Express\r\n2023, 31 (8), 12487−12496.\r\n(35) Kamali, S. M.; Arbabi, E.; Arbabi, A.; Faraon, A. A Review of\r\nDielectric Optical Metasurfaces for Wavefront Control. Nanophotonics\r\n2018, 7 (6), 1041−1068.\r\n(36) Li, Z.; Kim, M.-H.; Wang, C.; Han, Z.; Shrestha, S.; Overvig, A.\r\nC.; Lu, M.; Stein, A.; Agarwal, A. M.; Loncar, ̌ M.; et al. Controlling\r\nPropagation and Coupling of Waveguide Modes Using Phase\u0002Gradient Metasurfaces. Nat. Nanotechnol. 2017, 12 (7), 675−683.\r\n(37) Aalto, T.; Cherchi, M.; Harjanne, M.; Bhat, S.; Heimala, P.;\r\nSun, F.; Kapulainen, M.; Hassinen, T.; Vehmas, T. Open-Access 3-\r\nΜm SOI Waveguide Platform for Dense Photonic Integrated Circuits.\r\nIEEE J. Sel. Top. Quantum Electron. 2019, 25 (5), 1−9.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "(38) Shi, W.; Zou, C.; Cao, Y.; Liu, J. The Progress and Trend of\r\nHeterogeneous Integration Silicon/III-V Semiconductor Optical\r\nAmplifiers. Photonics 2023, 10 (2), 161.\r\n(39) Heilmann, R.; Gräfe, M.; Nolte, S.; Szameit, A. Arbitrary\r\nPhotonic Wave Plate Operations on Chip: Realizing Hadamard, Pauli\u0002X and Rotation Gates for Polarisation Qubits. Sci. Rep. 2014, 4 (1),\r\n4118.\r\n(40) Khorasaninejad, M.; Crozier, K. B. Polarization Splitting at\r\nInfrared Wavelengths Using Silicon Nanoridges. In 2014 Conference\r\non Lasers and Electro-Optics (CLEO) - Laser Science to Photonic\r\nApplications; Optica Publishing Group: San Jose, CA, 2014; p\r\nSF1O.1..CLEO: 2014; OSA Technical Digest (online)\r\n(41) Marin, Y. E.; Bera, A.; Cherchi, M.; Aalto, T. Ultra-High-Q\r\nRacetrack Resonators on Thick SOI Platform Through Hydrogen\r\nAnnealing Smoothing. J. Light. Technol. 2023, 41 (11), 3642−3648.\r\n(42) Huang, L.; Jin, R.; Zhou, C.; Li, G.; Xu, L.; Overvig, A.; Deng,\r\nF.; Chen, X.; Lu, W.; Alu,\r\ǹ A.; et al. Ultrahigh-Q Guided Mode\r\nResonances in an All-Dielectric Metasurface. Nat. Commun. 2023, 14\r\n(1), 3433.\r\n(43) Yang, Z.; Jin, D. Polarized Upconversion Emission at\r\nMetasurface. Light Sci. Appl. 2023, 12 (1), 263.\r\n(44) COMSOL Multiphysis®, version 6.0, Www.Comsol.Com.\r\n(45) Lumerical Solution Inc.. Available: http://www.lumerical.com.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.4c04158\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -8764769780367254849,
+        "filename": "ao4c04158.PMC11292811.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 18,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "ACS Omega 2024, 9, 33055−33063\r\n33063\n\n"
+  }
+]

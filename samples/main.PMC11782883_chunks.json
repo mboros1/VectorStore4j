@@ -1,0 +1,1178 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "Review article\r\nDemystifying the black box: A survey on explainable artificial intelligence \r\n(XAI) in bioinformatics\r\nAishwarya Budhkar a , Qianqian Song b,* , Jing Su c,* , Xuhong Zhang a,*\r\na Department of Computer Science, Luddy School of Informatics, Computing, and Engineering, Indiana University Bloomington, 700 N Woodlawn Ave, Bloomington, IN \r\n47408, USA b Department of Health Outcomes and Biomedical Informatics, College of Medicine, University of Florida, 1889 Museum Rd, Suite 7000, Gainesville, FL 32611, USA c Department of Biostatistics and Health Data Science, School of Medicine, Indiana University, Indianapolis, HITS 3000 BSAT, Indianapolis, IN 46202, USA\r\nARTICLE INFO\r\nKeywords:\r\nExplainable AI (XAI)\r\nBioinformatics\r\nOmics\r\nBiomedical imaging\r\nABSTRACT\r\nThe widespread adoption of Artificial Intelligence (AI) and machine learning (ML) tools across various domains \r\nhas showcased their remarkable capabilities and performance. Black-box AI models raise concerns about decision \r\ntransparency and user confidence. Therefore, explainable AI (XAI) and explainability techniques have rapidly \r\nemerged in recent years. This paper aims to review existing works on explainability techniques in bioinformatics, \r\nwith a particular focus on omics and imaging. We seek to analyze the growing demand for XAI in bioinformatics, \r\nidentify current XAI approaches, and highlight their limitations. Our survey emphasizes the specific needs of \r\nboth bioinformatics applications and users when developing XAI methods and we particularly focus on omics and \r\nimaging data. Our analysis reveals a significant demand for XAI in bioinformatics, driven by the need for \r\ntransparency and user confidence in decision-making processes. At the end of the survey, we provided practical \r\nguidelines for system developers.\r\n1. Introduction\r\nIn the biomedical field, particularly in omics and imaging, AI has \r\nproven to be highly effective in a wide range of applications, such as \r\ngene expression analysis [1], protein structure prediction [2], disease \r\ndiagnosis through medical imaging [3], personalized treatment plan\u0002ning [4,5], and integrative multi-omics analysis [6]. The analysis of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "omics data aims to understand the molecular mechanisms and micro\u0002environment of the diseases, and provide targeted treatments [7,8]. \r\nHowever, the high-dimensional nature of omics data makes visual \r\nanalysis challenging, necessitating the use of complex deep learning \r\nmodels to extract insights. Techniques such as autoencoder models help \r\nreduce data dimensionality, allowing the learning of low-dimensional \r\nfeature representations to study different biological phenomena [9]. In \r\naddition to making predictions based on omics, researchers are inter\u0002ested in uncovering underlying biological mechanisms and processes for \r\nknowledge discovery [10]. However, the black-box nature of complex \r\nmodels, such as models based on neural networks with multiple layers, \r\nmakes it challenging to understand the reasons behind the model de\u0002cisions. This lack of interpretability raises concerns about trust, \r\naccountability, and security, limiting the application of deep learning \r\nmodels in bioinformatics area [8,11].\r\nSeveral AI models have been developed to gain novel insights from \r\nbiological datasets [7]. These models are used to uncover novel mo\u0002lecular pathways or biomarkers, which often requires additional refer\u0002ences from the biology literature, molecular databases, pathway \r\nanalysis tools, or inputs from physicians, clinicians, biologists, and other \r\nprofessionals. However, in bioinformatics applications, it is essential to \r\nconsider the needs of various stakeholders involved, including AI ex\u0002perts, biologists, and bioinformaticians [7,12,13]. AI experts aim to \r\ndevelop models that minimize prediction errors and ensure high preci\u0002sion, while bioinformaticians and biologists require detailed explana\u0002tions of the underlying rationales [7,12,14,15]. Therefore, the diverse \r\nneeds of the bioinformatics field must be given special consideration in \r\nthe development of AI models. Employing XAI techniques to elucidate \r\nmodel decisions can help understand model limitations and ensure \r\nsatisfaction of various user and application needs.\r\nThere are some common open problems in the field of XAI for the \r\nbiomedical field. First, there is a lack of consensus on the definitions of \r\ninterpretability, transparency, and explainability in the literature, \r\nleading to confusion and hindering clear communication in the field \r\n[14]. Second, different domains have different interpretability \r\n* Corresponding authors.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "E-mail addresses: qsong1@ufl.edu (Q. Song), su1@iu.edu (J. Su), zhangxuh@iu.edu (X. Zhang). \r\nContents lists available at ScienceDirect\r\nComputational and Structural Biotechnology Journal\r\njournal homepage: www.elsevier.com/locate/csbj\r\nhttps://doi.org/10.1016/j.csbj.2024.12.027\r\nReceived 13 November 2024; Received in revised form 21 December 2024; Accepted 23 December 2024 \r\nComputational and Structural Biotechnology Journal 27 (2025) 346–359\r\nAvailable online 10 January 2025\r\n2001-0370/© 2024 Published by Elsevier B.V. on behalf of Research Network of Computational and Structural Biotechnology. This is an open access article under\r\nthe CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).\nrequirements, and current work on model development and evaluation \r\ncriteria often fails to accommodate these differences [12]. Third, users \r\nmay have varying levels of understanding about the system and may \r\nrequire explanations tailored to their specific needs and knowledge \r\nlevels [12]. But still, it is both possible and valuable to establish working \r\ndefinitions of these terms for the purpose of this review, thereby pro\u0002moting clearer communication and a more cohesive understanding \r\nwithin the field. In addition, we provide general guidelines for choosing \r\nXAI algorithms and evaluation methods tailored to address the diverse \r\nneeds of end users, and develop algorithm categorization considering \r\nthe unique requirements of users and applications.\r\nIn this survey, we reviewed existing XAI methods in various sub\u0002domains, such as genomic, proteomics, particularly transcriptomics, and \r\npathology imaging data, providing guidelines for system developers, \r\nensuring a broad coverage of the needs of various stakeholders, \r\nincluding system developers with ML expertise, biologists, and other \r\nprofessionals. The motivation is to offer a foundational framework that \r\ndevelopers can adapt to their particular biomedical niche. Here omics \r\nrefers to high-throughput technologies and data-driven approaches \r\naimed at comprehensively characterizing biological molecules within \r\ncells, tissues, or organisms. Among these, transcriptomics focuses on the \r\ncomplete set of RNA transcripts (the transcriptome) present at a given \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "time, often measured through next-generation sequencing methods such \r\nas RNA-seq [16,17], providing insights into gene expression patterns \r\nand regulatory mechanisms. In parallel, imaging data such as medical \r\nimages derived from modalities like MRI, CT, or microscopy capture \r\nstructural or functional characteristics of tissues and organs, enabling \r\ndetailed visualization of biological processes and disease states. \r\nTogether these data types form complementary pillars of biomedical \r\nresearch: omics data reveal molecular-level complexity, while imaging \r\noffers anatomical and physiological perspectives, making them both \r\nprime candidates for the application of explainable AI techniques.\r\nAlthough this review is more focused on transcriptomics and imag\u0002ing, there are many related studies exploring other layers of biological \r\ndata. For instance, epigenomics research delves into modifications that \r\ninfluence gene regulation without altering the DNA sequence itself, \r\nwhile metabolomics examines the small molecules and metabolites that \r\nreflect cellular processes. Additionally, multi-omics integration brings \r\ntogether these various data types-encompassing transcriptomics, epi\u0002genomics, metabolomics, etc. and their integration to provide a more \r\nholistic view of complex biological systems [18–22]. The differences \r\nbetween our work and the existing review articles, which motivated us \r\nfor this survey, are summarized in Table A.1, and additionally, we \r\norganized the published frameworks at: https://github.com/asbudhkar/ \r\nXAI-in-Bioinformatics/tree/main.\r\n2. Terminology in explainable AI\r\nXAI encompasses a wide range of methods aimed at building trust in \r\nmodel decisions. Terms such as transparency, interpretability, and \r\nexplainability are often used interchangeably [28], but there is no \r\nwidely accepted distinction yet. Among these terms, explainability and \r\ninterpretability are more often used than others. Antoniadi et al. [7]\r\nstate that interpretability refers to “how much a model is understood”, \r\ntransparency provides a “holistic view of how the model works, its \r\ntraining data, methods, and feature explanations”, and explainability \r\nhelps stakeholders “understand the reasoning behind AI decisions”. \r\nAdadi [29] stated that interpretable systems are explainable if their \r\noperations can be understood by humans, which shows explainability is \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "closely related to the concept of interpretability. Tjoa et al. [14] used the \r\nterms “interpretability” and “explainability” interchangeably, consid\u0002ering research related to explainability if it attempts to “explain model \r\ndecisions”, “explain the model’s workings”, or “enhance user trust in the \r\nmodel”. Markus et al. [24] provided a formal definition stating that an \r\n“AI system is explainable if the model is inherently interpretable” or “an \r\ninterpretable model is provided additionally to explain the model out\u0002comes”. Gilpin et al. [30] stated that interpretability and fidelity are \r\nboth necessary components for explainability. They argued that a good \r\nexplanation should be understandable to humans (interpretability) and \r\naccurately describe model behavior in the entire feature space (fidelity) \r\n[24]. From this sense, interpretability and fidelity are deemed necessary \r\nfor explainability, with an explanation being interpretable faithful if it is \r\nunambiguous and not overly complex and faithful and if it is correct and \r\nTable A.1 \r\nSummary of differences of existing works from our work.\r\nPaper Summary\r\nGerlings, et al. (2020) \r\n[23]\r\nThe article conducts a systematic survey analyzing the \r\nmajor debates within XAI and advocates for a holistic and \r\nstakeholder-driven approach for XAI. The work highlights \r\nthe need of XAI for diverse AI applications without any \r\nspecific focus. Inspired by their work, we provide \r\napplication and stakeholder-driven categorization of \r\nmethods, and present guidelines to choose suitable XAI \r\nmethods with a focus on bioinformatics applications.\r\nTjoa, et al. (2020) [14] The survey provides a broad categorization of XAI \r\nmethods for the medical field. Our work has a narrow \r\nfocus on bioinformatics to develop categorization \r\nconsidering the unique needs of bioinformatics.\r\nTalukder, et al. (2020) \r\n[20]\r\nThe paper summarizes the DNN interpretation methods in \r\nrecent studies on genomics and epigenomics, focusing on \r\ncurrent data and computing-intensive topics such as \r\nsequence motif identification, genetic variations, gene \r\nexpression, chromatin interactions and non-coding RNAs.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "Mohseni, et al. (2021) \r\n[12]\r\nThe survey provides a hierarchical framework for the \r\ndesign and evaluation of XAI systems. Similarly, our work \r\naims to provide a granular view of XAI system design \r\nconsidering the distinctive needs of bioinformatics \r\napplications. Our work also presents detailed guidelines \r\nfor selecting interpretable models.\r\nAntoniadi, et al. (2021) \r\n[7]\r\nThe paper provides a comprehensive review of existing \r\nXAI systems in Clinical Decision Support Systems (CDSS) \r\nalong with their benefits and limitations. The focus of the \r\nwork is explainable ML-based CDSS. Our categorization of \r\nthe XAI works is done in consideration of the unique needs \r\nof bioinformatics field.\r\nMarkus, et al. (2021) \r\n[24]\r\nThe work provides general guidelines for users to choose \r\nXAI methods and evaluation metrics. Unlike ours, it is \r\ndirected towards a broader audience lacking consideration \r\nof specific requirements of bioinformatics applications and \r\nstakeholders.\r\nSidak, et al. (2022) \r\n[10]\r\nThe paper presents a detailed review of interpretability \r\nmethods for omics data. In contrast to ours, the review is \r\ntargeted towards biologists and not system developers. \r\nOur survey focuses on challenges for XAI techniques from \r\nsoftware and algorithmic perspective while accounting for \r\nunique needs of bioinformatics.\r\nToussaint et al. (2024) \r\n[19]\r\nThe paper provides insights into the isolated advances in \r\nthe omics sciences. Our survey also includes how XAI \r\nadvances in bioimaging field.\r\nNovakovsky et al. \r\n(2023) [25]\r\nIn this survey, the authors present an organized overview \r\nof the key interpretation approaches with the intention of \r\nempowering researchers working across topics in \r\ngenomics to incorporate xAI into their studies, and their \r\nfocus on the task of post-hoc interpretation. Our review \r\ncontains more broader topics in biomedical field and \r\nexamined different XAI models, including post-hoc ones.\r\nKarim et al. (2023) \r\n[26]\r\nThis review provides a brief overview of interpretable ML \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "tools and libraries for diverse data types (e.g. from tabular \r\ndata, texts and knowledge graphs (KGs) to bioimaging). It \r\nalso shows, through several case studies in bioimaging, \r\ncancer genomics and biomedical text mining, how \r\nbioinformatics research can benefit from XAI methods and \r\nimprove decision fairness. Our survey is more focused on \r\ndifferent data formats and types like multi-omics.\r\nZhou, et al. (2023) \r\n[27]\r\nThe paper provides a review of some model-agnostic and \r\nmodel-specific methods used in different bioinformatics \r\nareas. Our survey extends their review by including \r\nadditional XAI methods and works in bioinformatics. In \r\naddition, we provide guidelines for the efficient choice of \r\nXAI methods highlighting the need to consider system \r\ngoals and collaboration between different stakeholders.\r\nA. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n347\nsufficient to compute output from input. In this work, we use the terms \r\nexplainable, interpretable, and transparent interchangeably, consid\u0002ering a model to be explainable if any attempt is made to provide in\u0002sights into how the model arrived at its decision. Fig. B.1 demonstrates \r\nthe related concepts for explainability and interpretability.\r\nAnother concept is trustworthy AI, which is closely related to XAI, \r\nyet they address different aspects of how artificial intelligence systems \r\nare developed, evaluated, and accepted by users: XAI focuses primarily \r\non making the inner workings of AI models more transparent, inter\u0002pretable, and understandable to humans. Trustworthy AI, on the other \r\nhand, encompasses a broader set of attributes that ensure the AI system’s \r\noverall reliability and ethical alignment. While explainability may be \r\none part of it, trustworthiness also includes dimensions such as fairness, \r\nsafety, privacy, accountability, robustness, and compliance with regu\u0002lations, according to the EU regulations on AI usage (Regulation (EU) \r\n2024/1689 or AI Act [31]).\r\n2.1. Key dimensions of XAI methodologies\r\nThe algorithms are categorized from three different perspectives: \r\npost-hoc vs. ante hoc; model agnostic or specific, and their interpret\u0002ability level.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "2.1.1. Ante hoc versus post hoc\r\nIn the context of XAI, ante-hoc and post-hoc methods represent two \r\ndistinct approaches to achieve interpretability. Ante-hoc methods \r\ninvolve building models that are inherently transparent and interpret\u0002able from the start, thus reducing the need for separate explanatory \r\ntools. In contrast, post-hoc approaches are applied after a non\u0002transparent model (such as deep neural network) has been trained. \r\nThese explanations typically use techniques like feature importance \r\nmeasures, surrogate models, or counter-factual examples to clarify how \r\nthe model arrives at its predictions. While ante-hoc models offer inter\u0002pretability by design, they are not explanations in themselves; rather, \r\ntheir makes it easier for human users to understand and reason about the \r\nmodel’s behavior without relying on additional explanation methods.\r\nAnte hoc explanation models are inherently explainable, meaning \r\nthey are simple enough to understand and able to model relationships \r\nbetween input and output data. Examples of these models include linear \r\nregression, decision tree models, k-nearest neighbors, and rule-based \r\nlearners, which are also referred to as white box models [7,15]. A \r\ntrained neural network can be complemented with an interpretable \r\nmodel or analyzed post-training to gain insights into its decisions \r\nthrough post hoc explanation [32]. For instance, Local Interpretable \r\nModel-Agnostic Explanations (LIME) [33] provides feature-level expla\u0002nations by training an interpretable model to approximate the behavior \r\nof a complex model. Gradient-based methods like Grad-CAM [34] esti\u0002mate feature importance by analyzing the gradients of a trained neural \r\nnetwork to provide explanations [7,15]. In [21], SHAP (SHapley Addi\u0002tive exPlanations) explainers are used to calculate feature contributions \r\nfor each prediction on genomics and epigenomics data for insulin \r\nresistance early diagnosis.\r\n2.1.2. Model agnostic versus model specific\r\nModel-agnostic explanations are independent of the type of ML \r\nmodel used and can be applied to any ML algorithm [7,15]. They \r\noperate by understanding the change in input that influence the output \r\nto identify the regions or features in the input that most significantly \r\nimpact the model’s decision. These explanations do not impose strict \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "requirements on the model’s structure or design. In contrast, \r\nmodel-specific explanations can be applied to only a set of ML algo\u0002rithms due to their reliance on structure or attributes of the model. For \r\nexample, Grad-CAM, which requires a neural network with differen\u0002tiable layers to provide explanations [7,15].\r\n2.1.3. Global versus local\r\nGlobal explanation offers a comprehensive understanding of a \r\nmodel’s overall behavior, providing insights at the dataset level [7,15]. \r\nLocal explanation focuses on the reasoning behind the prediction of a \r\nsingle instance in the dataset, providing instance-level explanations. For \r\nexample, a local explanation might clarify why a loan application was \r\nrejected citing specific reasons for the individual applicant, such as low \r\nincome or being a defaulter.\r\n3. Study selection\r\nFor this review, we opted for a broad literature survey for works \r\npublished after 2017, rather than conducting a fully systematic review. \r\nWe consulted a diverse range of sources encompassing both computer \r\nscience and bioinformatics, including arXiv, bioRxiv, Nature, Briefings \r\nin Bioinformatics, the IEEE Digital Library, the ACM Digital Library, \r\nScienceDirect, Google Scholar, Frontiers, and MDPI. In particular, arXiv \r\nand bioRxiv facilitated timely access to emerging research prior to \r\nformal publication. We employed a variety of search terms—such as \r\n“explainable AI”, “interpretable”, “transparent”, “bioinformatics”, “pa\u0002thology imaging”, “histopathology”, “genomics”, “transcriptomics”, \r\n“proteomics”, “omics” and “XAI” to identify relevant studies. Articles \r\nwere initially screened based on their titles and abstracts, and those \r\ndeemed relevant were then examined in full. Selection criteria included \r\nthematic relevance, methodological rigor, clarity, and the use of \r\nappropriate interpretability techniques. We also incorporated additional \r\nreferences identified through the citations of key papers. Ultimately, this \r\nFig. B.1. Definition of machine learning (ML) explainability and related properties. Concepts adopted from [24]: a good explanation should be understandable to \r\nhumans (interpretability) and accurately describe model behavior in the entire feature space (fidelity). Interpretability can have properties of clarity and parsimony. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "Clarity implies that the explanation is unambiguous, while parsimony means that the explanation is presented in a simple and compact form. Fidelity has properties \r\nof completeness and soundness, and completeness implies that the explanation describes the entire dynamic of the ML model, while soundness concerns how correct \r\nand truthful the explanation is.\r\nA. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n348\nprocess yielded a set of 55 core articles on explainable methods in bio\u0002informatics, supplemented by further literature to address our specific \r\nresearch questions, with topics cover imaging (33), transcriptomics (14), \r\nproteomics (3), metabolomics (1) and genomics (4); post-hoc (48), ante\u0002hoc (7), global (14), local (45), model specific (38), model agnostic (17).\r\n4. Categorization of XAI models in bioinformatics\r\nBased on the review of XAI models, we categorize the works into self\u0002explainable and supplemental explainable models which can help re\u0002searchers select the most suitable XAI model for their research. Here self\u0002explainable models refer to inherently transparent or interpretable \r\nmodels, where the reasoning behind their predictions is clear from the \r\nmodel’s structure and parameters. The working of a self-explainable \r\nmodel is easy to understand with well-defined model design, mathe\u0002matical formulae, constraints, or hypotheses. On the other hand, a \r\nsupplemental explainable model are non-transparent models that do not \r\nnaturally reveal how their outputs are generated. For complex models \r\nwhose functioning is difficult to explain, a supplemental explainable \r\nmodel can be provided which uses a comparatively simpler model to \r\nexplain the complex model’s decisions. It can be done by providing local \r\nexplanations which are less complex and easy to understand or by using \r\ncomplementary measures to elucidate the decision-making of the com\u0002plex model. As a result, these complex models rely on additional \r\nFig. B.2. A conceptual overview categorizing XAI models into self-explainable models and supplemental explainable models. Self-explainable models offer inherent \r\ntransparency and do not require additional explanation techniques. In contrast, supplemental explainable models depend on external methods after training such as \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "LIME, SHAP, or saliency maps to reveal their decision-making processes. Representative examples within each category are listed to illustrate this fundamental \r\ndistinction in model interpretability.\r\nFig. B.3. A visual summary of common XAI techniques and their applications within the bioinformatics domain. The figure highlights a range of methods and \r\ndemonstrates how they can be applied to different types of biological data and analytical tasks.\r\nA. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n349\nexplanation techniques applied after training to shed light on their \r\ndecision-making processes. Fig. B.2 illustrates the categorization \r\nscheme.\r\nThe categorization into self-explainable and supplemental explain\u0002able models serves as a conceptual overlay to the key dimensions of XAI \r\ndiscussed previously (e.g., Ante Hoc vs. Post Hoc, Model Agnostic vs. \r\nModel Specific, and Global vs. Local). Self-explainable models generally \r\nalign with ante-hoc approaches, as their transparency is built directly \r\ninto the model’s structure, often making them more globally interpret\u0002able. In contrast, supplemental explainable models typically require \r\npost-hoc techniques that can be either model-agnostic or model-specific, \r\nand may provide either global or local insights.\r\nNote that since our work is focused on bioinformatics, there are \r\nfoundational efforts in XAI that have been explored in much broader \r\ncontexts. Historically, the field of XAI has seen a surge in methods and \r\nframeworks designed to make complex models more interpretable, from \r\ncomputer vision and natural language processing to high-stakes domains \r\nlike healthcare and finance. A more comprehensive overview of the \r\nbroader landscape of XAI can be found in seminal works such as [32,35]. \r\nWe also summarize the different XAI techniques and their applications \r\nin bioinformatics in Fig. B.3.\r\n4.1. Self-explainable models\r\nThese models are designed to ensure transparent explanations for \r\nend-users using methods such as mathematical formulas, hypotheses \r\nabout inputs or data modeling, or constraints that make decisions easy to \r\ninterpret. For example, linear models, decision trees, and rule-based \r\nsystems are inherently interpretable [7]. However, these models may \r\nnot always deliver the desired performance, prompting developers to \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "use more complex models to achieve better outcomes.\r\nSome models integrate interpretability directly into their design or \r\nleverage domain knowledge to enhance interpretability. For instance, \r\nDeep GoNet [36], a self-interpretable model incorporates ontology in\u0002formation into its layers to simplify interpretation. This model, \r\ndemonstrated for cancer diagnosis, provides explanations at the disease, \r\nsubdisease, and patient levels. Each neuron is associated with a bio\u0002logical concept and explanations are generated using the Layer-wise \r\nTable A.2 \r\nComparison of supplemental XAI methods.\r\nMethod Complexity and \r\nefficiency\r\nApplicability Limitations\r\nSaliency, \r\nSimonyan et al. \r\n(2013)[57]\r\nComputationally \r\nefficient since it \r\ninvolves gradient \r\ncomputations\r\nEfficient \r\nperformance \r\nfor imaging \r\napplications\r\nCan be prone to \r\nnoisy gradients. \r\nRequires in-depth \r\nevaluations to \r\nensure faithful \r\nexplanations\r\nDeconvolution, \r\nZeiler and Fergus \r\net al. (2014)[55]\r\nComputationally \r\nchallenging for \r\ndeep networks\r\nTraditionally \r\nused in signal \r\nprocessing\r\nDemonstrated high \r\nperformance on \r\nimages but may \r\nlead to noisy \r\nexplanations due \r\nto approximations \r\ninvolved\r\nGuided \r\nbackpropagation, \r\nSpringenberg et al. \r\n(2014)[60]\r\nComputationally \r\nefficient since it \r\ninvolves gradient \r\ncomputations\r\nEfficient \r\nperformance \r\nfor imaging \r\napplications\r\nCan lead to noisy \r\nexplanations. \r\nRequires in-depth \r\nevaluations to \r\nensure faithful \r\nexplanations\r\nLIME, Ribeiro et al. \r\n(2016)[33]\r\nRelatively efficient \r\ndue to local \r\ninterpretability. \r\nComplex input \r\nperturbations can \r\nmake it inefficient \r\nfor certain \r\nproblems\r\nModel agnostic, \r\nsimple, easy to \r\nimplement\r\nWrong \r\nassumptions about \r\ndata and \r\nunderlying model \r\nmay lead to poor \r\nperformance. \r\nChoice of \r\nsurrogate model \r\nand neighborhood \r\nfunction if \r\nincorrect may lead \r\nto wrong \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "explanations\r\nGuided Grad-CAM, \r\nSelvaraju et al. \r\n(2016)[66]\r\nComputationally \r\nefficient since it \r\ninvolves gradient \r\ncomputations\r\nProvides \r\ndetailed high\u0002resolution and \r\nclass \r\ncontrastive \r\nexplanations \r\ncompared to \r\nGrad-CAM\r\nMay lead to noisy \r\nresults. Requires \r\nin-depth \r\nevaluations to \r\nensure faithful \r\nexplanations\r\nLRP, Binder et al. \r\n(2016)[37]\r\nComputationally \r\nexpensive for deep \r\nneural networks\r\nProvides \r\ndetailed feature \r\nattributions at \r\neach layer in \r\nnetwork to \r\nexplain how \r\ninput features \r\ncontribute to \r\nmodel’s output\r\nComputationally \r\nexpensive and \r\nunsuitable for \r\nmodels with \r\nseveral layers\r\nCAM, Zhou et al. \r\n(2016)[63]\r\nComputationally \r\nexpensive for \r\ncomplex networks \r\nsince several linear \r\nmodels need to be \r\ntrained\r\nEfficient \r\nperformance \r\nfor imaging \r\napplications. \r\nProvides class \r\ncontrastive \r\nexplanation\r\nModel specific and \r\napplicable to a \r\ncertain set of \r\nmodel \r\narchitectures\r\nSHAP, Lundberg \r\nand Lee (2017)\r\n[46]\r\nComputationally \r\nexpensive due to \r\nthe requirement of \r\nmultiple subset \r\ncomputations for \r\nfeature \r\nimportance. \r\nApproximation \r\nmeasures may be \r\nrequired for \r\nefficient \r\nprocessing for \r\nhigh-dimensional \r\ndata\r\nModel agnostic. \r\nProvides both \r\nlocal and global \r\nexplanations. \r\nCaptures \r\ninteractions \r\namong \r\ndifferent \r\nfeatures\r\nComputationally \r\ninefficient for large \r\ndatasets. \r\nApproximation \r\nmeasures to speed \r\nup performance \r\nmay not be \r\napplicable to all \r\ndatasets\r\nIntegrated \r\ngradients, \r\nComputationally \r\nmoderate since it \r\nCapture \r\ninteractions \r\namong \r\nPerformance is \r\ninfluenced by \r\nbaseline chosen \r\nTable A.2 (continued )\r\nMethod Complexity and \r\nefficiency \r\nApplicability Limitations\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "Sundararajan et al. \r\n(2017)[51]\r\nperforms integral \r\nalong a direct path\r\nfeatures. \r\nApplicable to a \r\nlarge set of \r\nmodels\r\nand may lead to \r\nincorrect \r\nexplanations for \r\ncomplex models \r\ndue to \r\napproximations\r\nGrad-CAM, \r\nSelvaraju et al. \r\n(2017)[34]\r\nComputationally \r\nefficient since it \r\ninvolves gradient \r\ncomputations\r\nProvides fine\u0002grained visual \r\nexplanations. \r\nImproved \r\nlocalization \r\naccuracy \r\ncompared to \r\nCAM. Faster \r\nthan CAM due \r\nto reliance on \r\ngradients\r\nMay provide low\u0002resolution \r\nexplanations. \r\nRequires in-depth \r\nevaluations to \r\nensure faithful \r\nexplanations\r\nAttention-based \r\nmethods, Saihood \r\n(2023)[78], \r\nRaghavan (2023)\r\n[79]\r\nComplexity \r\ndepends on the \r\nemployed \r\nattention\u0002mechanism\r\nUtilize \r\nattention\u0002mechanism to \r\nimprove \r\nexplanations \r\nfor certain \r\napplications\r\nApplicable to a \r\nlimited set of \r\nmodels having \r\nattention \r\nmechanisms. \r\nComplex to \r\nunderstand due to \r\nthe varied \r\nattention \r\nmechanisms used\r\nA. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n350\nRelevance Propagation (LRP) technique [37] and domain-specific bio\u0002logical knowledge. FLAN [38] is a structurally constrained deep neural \r\nnetwork model designed to explain the relevance of input features to its \r\ndecisions. Like general additive models, FLAN processes each input \r\nfeature separately generating distinct latent representations, which are \r\nthen summed to provide the model output. By predicting on individual \r\nfeatures, their importance to the decision can be computed similarly to \r\nlinear models. The authors have demonstrated that FLAN achieves high \r\nperformance in several biological tasks while maintaining \r\nself-interpretability. Patrício et al. [39] proposed a self-interpretable \r\nmodel for diagnosing skin lesions which provides both natural lan\u0002guage explanations and visual explanations. The model uses concept \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "vectors and segmentation masks along with a coherent loss to capture \r\ndifferent concepts of skin lesions. Detected features are encoded by the \r\nGloVe model [40] to generate vector representations that facilitate \r\nhuman-like explanations. The authors have shown that the model’s \r\nperformance is comparable to existing black-box approaches, however, \r\nit can be challenging to obtain concept annotations for its broader \r\napplication.\r\n4.2. Supplemental explainable model\r\nComplex algorithms are often favored for their superior performance \r\nover self-explainable models. However, they often lack transparency in \r\ntheir decision-making process due to their intricate nature, making it \r\nchallenging to explain their behavior using formulae or system con\u0002straints. To address this, post-hoc techniques are employed, which uti\u0002lize simpler interpretable models to explain the behavior of the complex \r\nones. These techniques can approximate the model’s performance \r\nproviding local explanations with reduced complexity or quantify the \r\nimpact of different inputs on the output. However, it is crucial to strike a \r\nbalance between interpretability and performance. Table A.2 compares \r\nthe commonly used supplemental models.\r\n4.2.1. LIME\r\nLIME (Local Interpretable Model-Agnostic Explanations) [33] offers \r\nlocal explanations for complex models by approximating their pre\u0002dictions using interpretable models. Let f be the complex model to be \r\nexplained, and g ∈ G be a potentially interpretable model, such as linear \r\nor decision tree models. The complexity of the interpretable model’s \r\nexplanation is denoted by Ω(g), which could be, for example, the depth \r\nfor decision trees or the number of non-zero weights for linear models. \r\nThe first step is to select an instance x and then consider a proximity \r\nmeasure πx to compute the similarity between x and its n neighbors. \r\nThen a local interpretable model is trained to minimize the loss based on \r\nlocality denoted as L(f,g,πx). The interpretable model’s coefficients are \r\nutilized to explain the decisions made by the complex model. LIME \r\ngenerates the explanations using the following equation: \r\nξ(x) = argmingϵGL(f, g, πx) + Ω(g) (1) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "For bioinformatics studies, Yagin et al. [41] used LIME to identify \r\nbiomarkers associated with COVID-19 to provide valuable information \r\nfor clinicians for combating the disease. Similarly, Yilmaz et al. [42]\r\nused LIME to explore metabolites for the identification of acute \r\nmyocardial infarction using metabolomics data. LIME is used to identify \r\nimportant genes for the prognosis and treatment of bladder cancer using \r\ngene expression data [43]. Park et al. [44] utilized LIME to highlight key \r\ngenomic factors in predicting drug responses based on cancer gene \r\nexpression and mutation maps data.\r\nThe advantages of this model include its model-agnostic nature and \r\nits ability to explain decisions for different modalities, such as text and \r\nimage. Slack et al. [45] demonstrated several drawbacks of the method \r\nincluding sensitivity to the choice of proximity measure, high compu\u0002tational demands due to input perturbation, and vulnerability to \r\nadversarial attacks. The memory usage and speed of LIME depends on \r\nfactors like the number of neighbors, the chosen proximity measure and \r\nthe interpretable model used.\r\n4.2.2. SHAP\r\nSHAP (SHapley Additive exPlanations) [46] provides both local and \r\nglobal model-agnostic explanations by calculating the contribution of \r\neach feature, known as Shapley values. These values are computed by \r\nevaluating the difference in model outputs with and without each \r\nfeature included, across all potential subsets. For a complex model with \r\na prediction function f(x) and total features T, the Shapley values can be \r\nobtained using the following equation: \r\n∅i = ∑\r\nS⊆T\\{i}\r\n|S|!(|T| − |S| − 1 )!\r\n|T|! (fS∪i\r\n(\r\nxS∪{i}\r\n)\r\n− fs(xs)) (2) \r\nwhere S represents any subset which does not include the i\r\nth feature. \r\nComputing Shapley values exactly is challenging due to the vast number \r\nof feature subsets involved, leading to the development of approxima\u0002tion methods. These methods often assume feature independence and \r\nlinearity to simplify computation. Global explanations are obtained by \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "averaging the Shapley values in all instances.\r\nRamírez-Mena et al. [47] applied SHAP to elucidate predictions of a \r\nrandom forest model for prostate cancer detection. SHAP provides \r\nglobal explanations to identify crucial genes for patient screening and \r\nlocal explanations for personalized treatments. Sobhan et al. [48] used \r\nvariants of SHAP, including gradient SHAP and tree explainer SHAP to \r\ndevelop novel therapies for lung cancer by identifying biomarker genes \r\nfor individual patients. Additionally, the XAI-CNVMarker [49] frame\u0002work leveraged SHAP to discover potential biomarkers for breast cancer, \r\nwhich aids in drug development. Dwivedi et al. [50] employed gradient \r\nSHAP to identify relevant biomarkers for non-small cell lung cancer that \r\naid in the development of targeted therapy.\r\nSHAP has several advantages such as easy integration with any \r\nmodel and the ability to provide both local and global explanations. \r\nHowever, it has been shown to be vulnerable to adversarial attacks [45]. \r\nThe speed and memory requirement of SHAP depends on the complexity \r\nof the model, the approximation methods used, and the number of \r\nfeatures. Exact computation can be resource intensive potentially \r\nrequiring exponential time O\r\n(\r\n2T) for the computation and storage of \r\nmultiple subsets.\r\n4.2.3. Integrated gradients\r\nIntegrated Gradients (IG) offer both global and local explanations by \r\ncomputing gradients along a path from a chosen baseline to the original \r\ninput. It is based on two axioms, namely sensitivity and implementation \r\nirrelevance. Based on [51], considering a complex model function as f \r\nwith input x and reference x′, a straight-line path is assumed between x′ \r\nand x, and gradients are computed along the path. The integrated \r\ngradient along dimension i is: \r\nIGi(x) = (\r\nxi − xʹ\r\ni\r\n) ∫ 1\r\nα=0\r\n∂F(xʹ + α × (x − xʹ\r\n))\r\n∂xi\r\ndα (3) \r\nThe integral is approximated with a summation: \r\nIGapprox\r\ni (x) = (\r\nxi − xʹ\r\ni\r\n)∑m\r\nk=1\r\n∂F\r\n(\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "xʹ + k\r\nm × (x − xʹ\r\n)\r\n)\r\n∂xi\r\n× 1\r\nm (4) \r\nwhere m represents the number of steps for the approximation, typically \r\nranging between 20 and 300. Gao et al. [52] used IG to identify \r\nimportant amino acids for the prediction of transcription factors in gene \r\nregulation. Li et al. [13] utilized IG to attribute importance to genomic \r\nfeatures for cancer diagnosis using multimodal data such as histopa\u0002thology images and genomic sequences. Dwivedi et al. [50] employed IG \r\nto identify relevant biomarkers for non-small cell lung cancer identifi\u0002cation to aid for development of targeted treatments. Li et al. [53] used \r\nIG to reveal importance of radiological features used by their model for \r\nA. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n351\nsurvival prediction of cancer patients.\r\nIG can explain any differentiable model without specific architecture \r\nrequirements, but the choice of reference baseline can influence feature \r\nattributions. Although it can be applied to any model with differentiable \r\nfunctions, its reliability has been questioned in certain contexts [54]. \r\nThe speed depends on the number of integration steps, the number of \r\ndimensions, and the complexity of explanation generation. Memory \r\nrequirement is influenced by both the input and reference dimensions.\r\n4.2.4. Deconvolution\r\nZeiler et al. [55] introduced deconvolutional networks to visualize \r\nfeature activity in intermediate layers by reversing convolutional \r\nnetwork operations. This method approximates inverse pooling opera\u0002tions and applies transposed convolutional filters to understand the \r\nworkings of each layer. By reconstructing original inputs, important \r\nregions are revealed. Gao et al. [56] used deconvolution in signal pro\u0002cessing to visualize learned features for decoding brain activity, yielding \r\nrelevant explanations. The explanations were validated using known \r\nbrain region knowledge. The speed and memory requirements of \r\ndeconvolution method depends on the complex model used and how \r\nmuch temporary data needs to be stored.\r\n4.2.5. Saliency\r\nSimonyan et al. [57] proposed Saliency method that visualizes \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "Convolutional Neural Network (CNN) models by using gradients to \r\nhighlight input pixel relevance to the predicted class. For example, de \r\nSouza Jr et al. [58] used the saliency method to emphasize relevant \r\nimage regions for esophagus cancer classification using trained CNN \r\nmodels. Comparison with annotations from different XAI techniques \r\ndemonstrated promising results, with saliency performing the best and \r\nclosely matching expert annotations.\r\nSaliency is easy to compute but it can produce noisy or vanishing \r\ngradients with deep networks. Its speed depends on the size of complex \r\nmodel, requiring only a single backpropagation pass for gradient \r\ncomputation. The requirement to store feature maps dominates memory \r\nusage of the method. Shrikumar et al. [59] demonstrated that multi\u0002plying gradients with the input improved saliency results.\r\n4.2.6. Guided backpropagation\r\nSpringenberg et al. [60] presented guided backpropagation method \r\nwhich improves deconvolution results by backpropagating only positive \r\ngradients, resulting in sharper saliency maps compared to deconvolu\u0002tion. Badea et al. [61] adopted it to visualize histology features with \r\nsignificant gene correlations, offering biological interpretability. \r\nSimilarly, Wickstrøm et al. [62] used it for colorectal polyp segmenta\u0002tion, enhancing trust among users and facilitating comparison of \r\ndifferent models.\r\nWhile it provides detailed explanations, guided backpropagation \r\nmay suffer from vanishing gradients, requiring careful evaluation for \r\naccuracy. Its speed is constrained by forward and backward passes \r\nthrough the network, and its memory requirement depends on the \r\nstorage of feature maps and intermediate results.\r\n4.2.7. CAM\r\nClass Activation Mapping (CAM) [63] is a model-specific technique \r\nthat identifies important parts of an image for a particular class. CAM \r\nutilizes the global average pooling layer (GAP) after the last convolu\u0002tional layer in CNN models to generate explanations. For a feature map k \r\nin the last convolutional layer, denoted fk(x,y) for any image at spatial \r\nlocation x,y, the global average pooling is performed as follows: \r\nFk = ∑\r\nx,y\r\nfk(x, y) (5) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "For a class c, the input to softmax function is given as \r\n∑\r\nk\r\nwc\r\nkFk (6) \r\nwhere wk\r\nc indicates the importance of Fk for class c. Therefore, the \r\nimportant regions for a particular class in the image are represented as a \r\nlinear combination of weighted feature maps. CAM calculates the global \r\naverage of each feature map, resulting in n scalars if the last convolu\u0002tional layer has n feature maps. Subsequently, a linear model is learned \r\nfor each class. The combination of different weights learned for different \r\nclasses is then applied to weight the pixels in the image, generating \r\nsaliency maps that highlight the spatial regions of the image used by the \r\nmodel to make class predictions. Following CAM, there are several \r\nvariant versions proposed, including iCAM [64], Broad-CAM [65], \r\nGrad-CAM [34], and Guided Grad-CAM [66].\r\nCivit-Masot et al. [67] provided human-like explanations by gener\u0002ating a report containing relevant image region generated by Grad-CAM \r\nalong with the model’s confidence in classification, to enhance trust in \r\nthe model for both doctors and patients. The authors also included ac\u0002curacy information along with the top few features used by the model for \r\nprediction and their relevance scores computed using SHAP. Yin et al. \r\n[68] demonstrated that Grad-CAM highlights essential genes for survival \r\nprediction. Shovon et al. [69] used Grad-CAM to reveal the image re\u0002gions that the trained neural network model relies on for breast cancer \r\nclassification using histology images. Altini et al. [70] utilized \r\nGrad-CAM along with Mask-RCNN for instance segmentation, \r\nenhancing nuclei detection by distinguishing individual nuclei in\u0002stances. The authors claim that by integrating Grad-CAM with \r\nMask-RCNN they achieved state-of-the-art performance in nuclei \r\ndetection. Kallipolitis et al. [71] used Guided Grad-CAM to explain \r\nensemble models predictions by highlighting the key regions of histo\u0002pathology images used by the model for cancer classification. Similarly, \r\nKorbar et al. [72] used Guided Grad-CAM to assign contribution scores \r\nto image pixels, highlighting areas that the trained ResNet model used to \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "detect different colorectal polyps in histopathology images. Grad-CAM \r\nand Guided Grad-CAM are popular for elucidating imaging models, \r\nand attention-based models offer detailed visual explanations [68,73, \r\n74]. Cai et al. [64] introduced improved CAM (iCAM), a variant of CAM, \r\nto identify critical regions in images for predicting muscular dystrophy. \r\niCAM combines activation maps from both high and low-level CNN \r\nlayers leveraging the semantic information from top and bottom layers \r\nto generate fine-grained class discriminatory explanations. Lin et al. \r\n[65] developed Broad-CAM to enhance performance on small-scale data \r\nusing broad learning system (BLS) demonstrating its effectiveness in \r\nbreast cancer image classification. Several studies have used diverse \r\ndatasets together for XAI techniques to elucidate model operations. For \r\nTable A.3 \r\nComparison of CAM-based methods.\r\nMethod Applicability Comparison with CAM\r\niCAM, Cai et al. \r\n(2019)[64]\r\nUses activation maps of CNN \r\nlayers at both high and low \r\nlevel. Generates fine-grained \r\nclass discriminatory \r\nexplanations by using top and \r\nbottom layers\r\nImproved region localization \r\nwithout performance \r\ndegradation. \r\nComputationally expensive \r\ndue to the requirement of \r\nlearning weights at multiple \r\nlayers.\r\nBroadCAM, Lin \r\net al. \r\n(2023)[65]\r\nBroad learning system is \r\nutilized to improve \r\nperformance on small-scale \r\ndata\r\nRobust for small-scale data. \r\nComputationally expensive \r\ndue to overhead of additional \r\nusing broad learning system.\r\nGrad-CAM, \r\nSelvaraju et al. \r\n(2017)[34]\r\nGeneralization of CAM. \r\nInstead of training linear \r\nmodels to learn class \r\ndiscriminative feature map \r\nweights, gradients are used\r\nComputationally efficient. \r\nApplicable to a wider set of \r\nmodels.\r\nGuided Grad\u0002CAM, Selvaraju \r\net al. (2016)[66]\r\nImprovement over Grad\u0002CAM. Utilizes guided \r\nbackpropagation to improve \r\nexplanation quality\r\nProvides class discriminative \r\nas well as detailed \r\nexplanations.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "A. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n352\nexample, Li et al. [13] performed cancer diagnosis and prognosis using \r\nboth gene expression and image data. Similarly, Kayser et al. [75] used \r\nGrad-CAM and Integrated Gradients to reveal important genes and \r\nprovide visual explanations simultaneously. The authors used radiology \r\nreports along with imaging data to provide human-like explanations \r\n[75]. Li et al. [53] used Grad-CAM to reveal the significant regions in \r\nhistological images used by the model for survival prediction of cancer \r\npatients. Aryal et al. [76] used whole slide images and graph modeling \r\nfor cancer classification. They used Graph Grad-CAM to highlight \r\nimportant image areas for classification, showing that these areas \r\nclosely matched pathologists’ annotations.\r\nThe disadvantages of using CAM include its dependency on specific \r\narchitectures with a global average pooling layer, as well as the over\u0002head of training linear models over the GAP outputs to generate ex\u0002planations. Furthermore, CAM may not provide reliable explanations \r\nwith weakly labeled data due to unstable training from insufficient data, \r\nas noted by Lin et al. [65]. The speed is primarily determined by the \r\nforward pass and the computations required to learn linear models for \r\ngenerating saliency maps. Storage of feature maps from the last con\u0002volutional layers and any intermediate outputs dominate the memory \r\nusage. See Table A.3 for more details.\r\n4.2.8. Layer-wise relevance propagation\r\nLayer-wise relevance propagation (LRP) [37] is a model-agnostic \r\ntechnique that explains the contribution of input features to the \r\noutput by assigning a relevance score for each feature through decom\u0002position techniques. It propagates relevance scores from the output layer \r\nback to the input layer, layer by layer. While several versions of the \r\nalgorithm exist, the general strategy of LRP is explained in Binder et al. \r\n[37] as follows: Consider a complex model function f with multiple \r\nneural network layers. Each neuron in layer l contributes to the acti\u0002vation of neuron j in layer l+ 1. The algorithm ensures that the total \r\nrelevance is conserved in each layer, assuming that there is a known \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "relevance in the output layer l + 1. The relevance score R of each neuron \r\nis propagated backward through the network maintaining the total \r\nrelevance across all layers. Therefore, \r\n∑\r\ni\r\nRi→j\r\nl,l+1 = Rj\r\nl+1 (7) \r\nThe relevance of I is calculated using the β rule as follows: \r\nRi→j\r\nl,l+1 =\r\n(\r\n(1 + β)\r\nz+\r\nij\r\nz+\r\nj\r\n− β\r\nz−\r\nij\r\nz−\r\nj\r\n)\r\nRj\r\nl+1 (8) \r\nwhere zij = (\r\nwijxi\r\n)p such that p is the pixel and output of neuron j is given \r\nas xj = g\r\n( ∑\r\ni\r\nwij +b\r\n) with g is non-linear activation function and b is \r\nbias term. Here, zij\r\n+ and zij− denote the positive and negative contribution \r\nof neuron I to the activation of neuron j. The relevance score is conserved \r\nfrom layer l + 1 to l by dividing the individual contributions by total \r\ncontribution of all nodes. В is used to control the relevance distribution \r\nso that a larger β will provide sharper heatmaps. LRP can be applied to \r\nany differentiable model, but the initialization of relevance at the output \r\nlayer will affect the interpretation of relevance scores.\r\nBourgeais et al. [36] used LRP to compare the explanations of their \r\nDeep Go-Net model. Springenberg et al. [77] combined LRP with \r\nattention maps to highlight important image areas for cancer \r\nFig. B.4. Overview of evaluation techniques for XAI and the associated challenges. The subFig. a illustrates various evaluation strategies—ranging from human\u0002centered assessments, application-based and function-based. SubFig. b shows factors need to be consider for qualitative, quantitative and application-specific \r\nevaluations. Subfigure c shows some common challenges. Together, these elements underscore the need for careful, context-dependent evaluation frameworks \r\nthat ensure XAI methods meet their intended goals in practice.\r\nA. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n353\nclassification. The speed for LRP depends on the network parameters, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "including the number of layers and operations performed at each layer. \r\nThe size of complex model and the parameters to be stored at each layer \r\nfor relevance propagation need to be considered to calculate the mem\u0002ory usage of the method.\r\n4.2.9. Attention-based\r\nRecently, attention-based methods have been employed to enhance \r\nmodel transparency. A multi-orientation-based guided attention module \r\n(MOGAM) framework is proposed by Saihood et al. [78]. The framework \r\naims to leverage the varying texture distribution in lung nodules from \r\nCT scan images for lung cancer classification. MOGAM fuses several \r\ntexture feature descriptors (TFDs) such as contrast, dissimilarity, and \r\nhomogeneity and inputs using CNN models to generate attention maps. \r\nSaihood et al. [78] demonstrated enhanced interpretability on CT scan \r\nimages using Grad-CAM and Guided Grad-CAM.\r\nRaghavan et al. [74] presented attention-guided Grad-CAM for \r\nidentifying important regions in infrared breast cancer images. Channel \r\nand spatial attention are computed to assign weights to channels and \r\nimage regions, respectively, using CNN features. These attentions are \r\ncombined to focus on critical regions, resulting in a more robust and \r\ninterpretable heatmap. Causal attention is utilized by Chen et al. [73] for \r\nclassifying lymphoma ultrasound images, employing both channel and \r\nspatial attention aiding model generalization. The authors also used a \r\ncounterfactual explanation method using image perturbation for inter\u0002pretability. While attention-based methods offer promising advance\u0002ments for interpretability, their choice, effectiveness, and complexity \r\ndepend on the dataset and problem domain.\r\nFig. B.5. A decision-making flow chart for implementing XAI solutions in practice. The process consists multiple steps guide practitioners through selecting the \r\nappropriate XAI techniques—such as choosing between self-explainable models or post-hoc explanatory methods—based on data characteristics, desired inter\u0002pretability, and evaluation criteria. The chart culminates in an iterative refinement stage, ensuring that chosen XAI strategies align with stakeholder needs, ethical \r\nconsiderations, and real-world constraints.\r\nA. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n354\nTable A.2 provides a comparison among different supplemental XAI \r\nmethods.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "5. Opportunities and challenges of XAI in bioinformatics\r\n5.1. Resource-constrained environments\r\nResource constraints, such as storage, and computational time, are \r\ncrucial factors in selecting XAI techniques. Some techniques are \r\nresource-intensive, making them impractical for embedded devices with \r\nlimited memory. Research has focused on developing suitable solutions \r\nfor embedded and mobile devices with limitations on space and \r\ncomputation and that require real-time responses. For example, Chen \r\net al. [80] presented an AI system for detecting monkeypox from \r\nsmartphone-captured skin images utilizing CNN models VGG-16 [81]\r\nand MobileNetV3 [82], trained on ImageNet [83]. By employing \r\nquantization techniques to reduce operation precision from 32-bit to \r\n16-bit floats, MobileNetV3 optimizes model performance reducing its \r\nsize by 4 × . The best-performing model uses Grad-CAM to identify \r\nclass-discriminative features providing responses within seconds that \r\nare suitable for mobile devices. Another study [84] presents a light\u0002weight CNN model consisting of only three layers for retinal disease \r\ndiagnosis, delivering comparable performance to complex models with \r\nseveral layers. Predictions are explained using visualization maps \r\ngenerated by gradient activations. The authors claim that their model \r\nprovides accurate predictions for embedded devices, mobile systems, \r\nand IoT devices. AgileNN [85] designed for real-time performance on \r\nembedded devices employ light-weight neural networks and utilize \r\nbackpropagation-based techniques, which require a single pass to \r\ncompute input feature importance, resulting in real-time decisions. Ex\u0002periments on popular datasets demonstrated a 6 × reduction in output \r\nlatency. Self-interpretable models, that integrate explanations directly \r\ninto their design, can be computationally expensive depending on the \r\nmodel’s complexity [86]. Techniques that use interpretable models to \r\napproximate the workings of complex models through different \r\napproximation techniques and input perturbations may also require \r\nsubstantial computational resources. Backpropagation-based tech\u0002niques, which require a single pass to compute input feature importance, \r\nare comparatively faster [15]. Example-based techniques, which rely on \r\nclustering and similarity measures, have resource requirements that \r\nvary based on their specific implementation.\r\n5.2. Data challenges and security in XAI\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "When applying XAI techniques in bioinformatics, proper data pre\u0002processing and rigorous quality control procedures are essential for \r\nensuring that subsequent interpretations and insights are both reliable \r\nand meaningful. Factors, such as normalization, outlier handling, and \r\nbatch effect removal can significantly influence the outcomes of model \r\ntraining and the generation of explanations. Equally important is the \r\nrecognition that different types of biological data be it gene expression \r\nprofiles, epigenetic marks, metabolite concentrations, or imaging data, \r\neach have their own characteristics and noise patterns, necessitating \r\ntailored preprocessing strategies. For example, epigenomic and metab\u0002olomic technologies are highly sensitive to batch effects and outliers, \r\nnecessitating careful normalization. In the context of genomics, partic\u0002ularly for complex diseases, relying on single nucleotide polymorphisms \r\nmay not sufficiently predict outcomes, prompting the use of polygenic \r\nrisk scores as a more suitable approach. Furthermore, the inherent \r\nheterogeneity among both healthy individuals and within diseased \r\npopulations can complicate the identification of meaningful patterns. By \r\ncarefully considering the nature of the data and applying appropriate \r\nquality control measures, researchers can better ensure that the expla\u0002nations produced by XAI methods faithfully represent the underlying \r\nbiological processes rather than technical artifacts [87–89].\r\nWeakly labeled or unlabeled data pose significant challenges when \r\napplying existing XAI methods. Data preprocessing may be necessary to \r\naddress these challenges. For instance, BroadCAM [65] enhances per\u0002formance with weakly labeled data using a broad learning system. The \r\nauthors utilize a broad learning system to improve CAM performance \r\nsince CAM’s performance suffer from unstable training with \r\nweakly-labeled data.\r\nTo comply with AI regulations and safeguard user data privacy and \r\nsecurity, it is crucial to moderate the techniques used. Perturbation\u0002based explainability techniques, such as LIME and SHAP, can conceal \r\nbiases in the training data [45]. Adversarial classifiers can successfully \r\nhide biases by manipulating input perturbations during training. To \r\naddress these concerns and identify disparities in explanations metrics \r\nlike fidelity, stability, sparsity, and consistency are introduced [54]. \r\nFidelity assesses explanation accuracy, stability measures consistency \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "across similar data, sparsity gauges explanation complexity, and con\u0002sistency evaluates repeatability of explanations.\r\n5.3. Recent advances in generative AI for XAI\r\nGenerative large language models are making significant strides \r\nacross various fields due to their superior performance on a range of \r\ntasks [86]. ThyGPT [86], a computer-aided diagnosis model for thyroid \r\nnodules, leverages annotated ultrasound images and diagnostic reports \r\nto generate human-interpretable diagnosis explanations. However, \r\nobtaining annotated multimodal datasets can be challenging. Codon\u0002BERT [90] predicts gene expressions using codon patterns. It uses \r\nfine-tuned pre-trained BERT models and SHAP to explain predictions, \r\nthereby elucidating the model’s function. HistoGPT [91] generates \r\nhuman-like histopathology reports from whole slide images, enabling \r\nuser interaction. The model explains its decisions using saliency maps, \r\nindicating image regions that lead to specific findings. Keyword overlap \r\nand semantic similarity metrics are used for evaluation. While this \r\nresearch found limited examples of generative AI models explaining \r\nbioinformatics works, they hold great potential for advancing explain\u0002able solutions in the field and represent a promising avenue for future \r\nresearch.\r\n6. The limitations of current XAI techniques in bioinformatics\r\nRecent evaluations have uncovered limitations of existing XAI \r\ntechniques through experiments. Graziani et al. [92] assessed the ex\u0002planations of CAM, Grad-CAM, GradCAM+ +, and LIME on breast tissue \r\ndatasets. They found that the explanations generated by XAI algorithms \r\nwere similar for both a trained CNN model and a randomly initialized \r\none. Particularly, LIME provided inconsistent and non-repeatable ex\u0002planations across different hyperparameters. They suggested the \r\ndevelopment of quantitative evaluation methods instead of relying \r\nsolely on visualizations. Rudin et al. [93] advocate for the use of \r\nself-interpretable models, citing issues like incompleteness and low ac\u0002curacy of post-hoc explanations, their complexity and mismatch be\u0002tween model design and domain knowledge. For instance, FLAN [38], a \r\nconstrained neural network model is introduced for ease of interpreta\u0002tion, demonstrated good performance on various datasets containing \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "gene expression and imaging data. Chanda et al. [94] presented an \r\ninterpretable model which utilizes dermoscopic images to predict \r\nontology-based concepts using ResNet and Grad-CAM. Patrício et al.\r\n[39] proposed a self-explanatory model involving segmentation and \r\nfeature extraction, trained to predict concept-based explanations using \r\nground truth annotations. Similarly, Kayser et al. [75] developed an \r\ninterpretable model that uses annotations from radiology reports \r\ncapable of explaining predictions using radiology concepts.\r\nTo achieve optimal performance and reliable explanations, re\u0002searchers advocate for developing algorithms tailored for the unique \r\nneeds of applications and datasets. Current XAI methods often fail to \r\nprovide satisfactory explanations due to their lack of consideration of \r\nthe specific requirements of different bioinformatics data [27]. Sidak \r\nA. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n355\net al. [10] state that the classification of different XAI techniques is \r\ncomplex due to vague terminology and suggest that customization of \r\ntechniques for different scientific problems may be necessary due to the \r\nvaried requirements of the system and the characteristics of the data. \r\nThe review by Li et al. [95] demonstrates how XAI models developed \r\nspecifically considering the graph structure for GNN models provide \r\nbetter explanations for some applications, emphasizing the importance \r\nof considering the model architecture in developing better explainability \r\ntechniques. Furthermore, Patrício et al. [9] mention that the application \r\nrequirements dictate the choice of algorithms and explainability tech\u0002niques. They highlight the limitation of Recurrent Neural Network \r\n(RNN) models in generating long reports, which has led to the adoption \r\nof transformer-based models for textual explanations.\r\nStudies have emphasized the need to investigate data for biases or \r\nmisrepresentations and to ensure there are no security loopholes \r\ncompromising user privacy. For example, Tjoa et al. [14] stress the \r\nimportance of developing robust algorithms, as explanations can be \r\nmanipulated by input changes or noise, potentially leading to erroneous \r\ndecisions and interpretation. Markus et al. [24] recommend publicly \r\nreporting data quality to provide transparency about system limitations, \r\nand developing standards and regulations to safeguard user information \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "and ensure safe data usage. The authors address challenges associated \r\nwith medical data, such as expensive and time-consuming collection, \r\nhighly imbalanced and noisy data sets and note that labeling of data is \r\nexpensive due to the need for experts and conflicting opinions among \r\nthem. Thus, it is imperative to develop XAI algorithms that consider both \r\nthe characteristics and limitations of the data.\r\nIn a more general perspective, counterfactual and pro-hoc explana\u0002tions provide two complementary avenues for enhancing the effective\u0002ness of XAI [96]. Counterfactual explanations focus on illustrating how \r\nchanging certain input features might alter the model’s outcome, \r\nthereby illuminating decision boundaries and making it easier to iden\u0002tify and address underlying biases. Pro-hoc explanations, on the other \r\nhand, offer a set of alternative explanations for each possible outcome, \r\nrather than a single, post-hoc rationale. By leveraging example-based \r\nreasoning, this pro-hoc approach fosters what has been termed “fric\u0002tional AI”, a deliberate introduction of interpretive friction that en\u0002courages users to consider multiple plausible scenarios. In doing so, it \r\ncan mitigate cognitive pitfalls like automation bias and over-reliance, \r\nultimately promoting a more thoughtful engagement with AI recom\u0002mendations. Together, counterfactual and pro-hoc explanations not only \r\ndeepen our understanding of the relationships between inputs and \r\noutputs but also contribute to more trustworthy, user-aligned, and \r\ncontext-sensitive decision support systems [97].\r\nCurrent algorithms may require modification to accommodate \r\napplication resource limitations. Real-time systems, for example, require \r\nquick responses, while some mobile operating systems have very limited \r\nmemory and processing capabilities, restricting them to run only \r\nresource-constrained applications. Thus, XAI algorithms should be \r\ndeveloped with these computational constraints in mind. It is suggested \r\nthat resource-intensive explanation methods should be used carefully, \r\nand alternative techniques should be considered if the application \r\ncannot afford high computational capabilities [98]. The use of Large AI \r\n(LAI) models to process large datasets has increased, showing significant \r\nperformance improvements for several tasks [99]. While they demon\u0002strate considerable potential for applications in several bioinformatics \r\nuse cases but require further development to address challenges like \r\nlimited interpretability and high computational demands. Therefore, the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "development of XAI algorithms that align with application and stake\u0002holder requirements, consider unique data characteristics, and incor\u0002porate domain knowledge for model design or result validation \r\nrepresents promising future directions for further progress in the bio\u0002informatics field.\r\nWe also notice that it would be valuable to include a reflection on the \r\npotential misuse of XAI techniques, acknowledging that even well\u0002intentioned attempts to make AI decisions more interpretable can be \r\nmisapplied or misunderstood. For example, post-hoc XAI methods may \r\nrely on simplified surrogate models or heuristic explanations that do not \r\nfully capture the underlying complexity of the decision process, poten\u0002tially introducing inaccuracies or misleading conclusions. In such sce\u0002narios, stakeholders could be misled into believing they fully understand \r\nthe model’s reasoning, when in fact the provided explanations might \r\nonly scratch the surface. To mitigate these risks, one strategy is to \r\nconsider self-explainable models i.e., models inherently designed with \r\ntransparency in mind so that interpretability is not an afterthought but a \r\nfundamental characteristic of the approach. This shift can reduce the \r\ndanger of oversimplified explanations and offer more robust, faithful \r\ninsights into the model’s true decision-making criteria. Ultimately, \r\ncareful consideration of when and how to apply XAI, along with ongoing \r\ndialog about its limitations, is critical to ensuring that interpretability \r\nefforts do not inadvertently compromise the integrity or trustworthiness \r\nof AI-driven decisions [100].\r\n7. Validation and evaluation for XAI algorithms in \r\nbioinformatics\r\nSeveral evaluation metrics for XAI have been proposed in the liter\u0002ature; however, no standard evaluation measures have yet been uni\u0002versally adopted across applications [12,15,24].\r\n7.1. Human-based evaluation\r\nHumans are involved in analyzing the quality of the explanation. \r\nHumans are hired to provide generic evaluation of explanations through \r\ncrowdsourcing [14,15]. Although involving lay people is cost effective \r\ncompared to expert evaluations, the evaluation of explanations may be \r\nless reliable due to their limited knowledge [15]. It can also be \r\ntime-consuming due to the dependence on human evaluators [24]. \r\nMental model, user satisfaction, user trust and human-AI task perfor\u0002mance are some of the measures to evaluate explanations for AI novices \r\n[12].\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "Experts with domain-specific experience are involved in analyzing \r\nthe quality of explanations. For instance, doctors with significant \r\nexperience in the field are hired to assess the quality of AI-provided \r\nexplanations [14,15]. Using expert evaluations is costly and \r\ntime-consuming but more trustworthy than laypersons owing to the \r\napplication specific experience of experts [15]. Although it can be more \r\nreliable than non-experts, it is not feasible for all scenarios due to \r\nresource-constraints.\r\n7.2. Function-based evaluation\r\nIn function-based evaluation, proxy models are used to measure the \r\nquality of the explanation [14] with existing annotations are used to \r\nevaluate the explanations [15]. Correctness, completeness, and consis\u0002tency of explanations are computational measures for evaluating XAI \r\ntechniques [12]. Fidelity, contrastivity, stability, consistency, sparsity \r\nare some existing functional evaluation metrics [54,95]. The evaluation \r\nof XAI algorithms for bioinformatics applications involve several ap\u0002proaches. One common method is to validate explanations using the \r\nknown literature on gene biomarkers for specific diseases or using \r\npathway discovery tools together with the existing literature on the \r\nidentified pathways [36,41–43,47–49,68,101–103]. However, valida\u0002tion of novel biomarker discoveries that are not widely recognized is \r\noften lacking [68]. Although some studies provide visual explanations \r\nby highlighting relevant regions of pathological images used for model \r\npredictions, these works lack quantitative measures [53,69,71,73,78, \r\n104–106]. Domain experts are involved in the validation process in \r\nseveral studies like [107–109]. Their expertise can help ensure the ac\u0002curacy and relevance of the explanations provided by XAI algorithms. \r\nSome studies have introduced quantitative measures for evaluating ex\u0002planations. For example, Lombardi et al. [110] involve experts at \r\nA. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n356\ndifferent stages of model development, providing accuracy information \r\nand top features used for prediction based on user feedback. Krzyzinski ´\r\net al. introduced the Brier score [111,112] was introduced as a measure \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "to assess the quality of the explanations. Korbar et al. [72] used the \r\nintersection over union between important regions of the image pro\u0002vided by the XAI algorithm and the reference regions as an evaluation \r\nmeasure, although such references may not be available in all datasets. \r\nThe most relevant first curve (MoRF) and Area over Perturbation Curve \r\n(AOPC) were used as quantitative evaluation measures by Kallipolitis \r\net al. [79]. The authors assumed that randomly distorting the important \r\nregions should lead to a greater decrease in classification performance \r\ncompared to non-important regions for design of evaluation measures. \r\nMacedo et al. [113] developed a novel metric for the evaluation of ex\u0002planations to measure the tumor nuclei present in the important regions \r\nidentified by Grad-CAM for the classification of breast cancer. The au\u0002thors emphasized that the choice of evaluation metric is largely \r\ndependent on the problem requirements and suggested that users pri\u0002oritize models with higher values for both classification accuracy and \r\nexplanation evaluation metrics. Civit-Masot et al. [67] provide a report \r\nconsisting of classification accuracy along with the pathology image, \r\nwith highlighted regions identified by the algorithm as most important \r\nfor prediction to aid doctors in explaining the results to patients. \r\nSpringenberg et al. [77] used correlation with segmentation masks as a \r\nquantitative metric while Lamy et al. [108] used quantitative similarity \r\nbetween images as the evaluation metric.\r\nMoreover, while lot of applications have focused on applications and \r\nevaluations primarily in supervised learning contexts, unsupervised \r\nscenarios which are integral to many biomedical research endeavors, \r\npose distinct challenges for XAI evaluation, such as clustering, pattern \r\nrecognition and association rules [114–116]. Without ground-truth la\u0002bels, conventional metrics such as accuracy or F1-score are not directly \r\napplicable. Instead, evaluation often relies on human-centered methods, \r\nwhere domain experts assess the utility and interpretability of expla\u0002nations, as well as concept-based approaches that examine whether \r\ninferred clusters or latent factors align with known biomedical concepts \r\nor structures. Surrogate models and prototype-based explanations can \r\nbe used to approximate the underlying decision boundaries, enabling \r\nresearchers to assess factors like fidelity and stability. Ultimately, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "evaluating XAI in unsupervised learning settings requires a more \r\ncontext-specific blend of expert input, conceptual relevance, and model \r\nfidelity to ensure that explanations are both meaningful and credible.\r\nThe choice of evaluation methods largely depends on the specific \r\nrequirements of the application. Researchers commonly advocate for the \r\ndevelopment of standards for the validation of XAI explanations to \r\nensure a comprehensive evaluation. Moreover, ground truth availability \r\nlargely limits the choice of evaluation methods since annotations are not \r\nalways available in datasets and involvement of experts to provide an\u0002notations can be expensive. Additionally, the AI model used for the \r\napplication and the XAI technique employed to explain the model \r\nfunctioning also play a crucial role in determining the appropriate \r\nevaluation metric. Fig. B.4 provides an overview of evaluation tech\u0002niques for XAI applications and the associated challenges for ensuring \r\nholistic evaluation. Through our analysis we recognize that under\u0002standing the purpose of the application, system and privacy constrains, \r\nand end-user requirements is critical to choose appropriate XAI model. \r\nWe propose a flowchart for developers to facilitate the choice of XAI \r\ntechniques in Fig. B.5.\r\n8. Conclusion\r\nIn this work, we reviewed existing explainability works to gain \r\ndeeper insights into XAI techniques in bioinformatics, with a specific \r\nfocus on omics and imaging data. We discussed the current XAI methods \r\nused in bioinformatics along with their limitations and evaluation \r\ntechniques from the perspective of distinct needs of the bioinformatics \r\nfield. Through the review, we discovered it is crucial to consider the \r\nneeds of the application and its users when developing XAI techniques. It \r\nis also important to use domain knowledge to validate explanations. \r\nSince there are no clear guidelines for choosing the appropriate XAI \r\nmethod, based on the review we propose guidelines that can aid users to \r\nselect the appropriate XAI method.\r\nFunding\r\nJ.S. and A.B. were supported by the National Library of Medicine of \r\nthe National Institutes of Health (R01LM013771). J.S. was also sup\u0002ported by the National Institute on Alcohol Abuse and Alcoholism \r\n(R21AA031370 and U24AA026969), the National Institute of Health \r\nOffice of the Director (OT2OD031919), the Indiana University Melvin \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "and Bren Simon Comprehensive Cancer Center Support Grant from the \r\nNational Cancer Institute (P30CA 082709), and the Indiana University \r\nPrecision Health Initiative. Q.S. is supported by the National Institute of \r\nGeneral Medical Sciences of the National Institutes of Health \r\n(R35GM151089).\r\nCRediT authorship contribution statement\r\nJing Su: Writing – review & editing, Validation, Conceptualization. \r\nQianqian Song: Writing – review & editing, Validation, Conceptuali\u0002zation. Xuhong Zhang: Writing – review & editing, Supervision, \r\nMethodology, Conceptualization. Aishwarya Budhkar: Writing – \r\noriginal draft, Methodology, Conceptualization.\r\nDeclaration of Competing Interest\r\nNo competing interest is declared.\r\nAcknowledgments\r\nNot applicable.\r\nAuthor Agreement Statement\r\nWe declare that this manuscript is original, has not been published \r\nbefore and is not currently being considered for publication elsewhere.\r\nWe confirm that the manuscript has been read and approved by all \r\nnamed authors and that there are no other persons who satisfied the \r\ncriteria for authorship but are not listed.\r\nWe further confirm that the order of authors listed in the manuscript \r\nhas been approved by all of us. We understand that the Corresponding \r\nAuthor is the sole contact for the Editorial process. He/she is responsible \r\nfor communicating with the other authors about progress, submissions \r\nof revisions and final approval of proofs.\r\nReferences\r\n[1] Misra BB, Langefeld C, Olivier M, Cox LA. Integrated omics: tools, advances and \r\nfuture approaches. J Mol Endocrinol 2019;62(1):R21–45.\r\n[2] Senior AW, Evans R, Jumper J, Kirkpatrick J, Sifre L, Green T, et al. Improved \r\nprotein structure prediction using potentials from deep learning. Nature 2020; \r\n577(7792):706–10.\r\n[3] Litjens G, Kooi T, Bejnordi BE, Setio AAA, Ciompi F, Ghafoorian M, et al. A survey \r\non deep learning in medical image analysis. Med Image Anal 2017;42:60–88.\r\n[4] Ahmed Z. Multi-omics strategies for personalized and predictive medicine: past, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "current, and future translational opportunities. Emerg Top life Sci 2022;6(2): \r\n215–25.\r\n[5] Yu K-H, Beam AL, Kohane IS. Artificial intelligence in healthcare. Nat Biomed \r\nEng 2018;2(10):719–31.\r\n[6] Subramanian I, Verma S, Kumar S, Jere A, Anamika K. Multi-omics data \r\nintegration, interpretation, and its application. Bioinforma Biol Insights 2020;14. \r\n1177932219899051.\r\n[7] Antoniadi AM, Du Y, Guendouz Y, Wei L, Mazo C, Becker BA, et al. Current \r\nchallenges and future opportunities for XAI in machine learning-based clinical \r\ndecision support systems: a systematic review. Appl Sci 2021;11(11). Available \r\nfrom: 〈https://mdpi-res.com/d_attachment/applsci/applsci-11-05088/article \r\n_deploy/applsci-11-05088.pdf?version= 1622439587〉.\r\nA. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n357\n[8] Hartman E, Scott AM, Karlsson C, Mohanty T, Vaara ST, Linder A, et al. \r\nInterpreting biologically informed neural networks for enhanced proteomic \r\nbiomarker discovery and pathway analysis. Nat Commun 2023;14(1):5359.\r\n[9] Patrício C, Neves JC, Teixeira LF. Explainable deep learning methods in medical \r\nimage classification: a survey. ACM Comput Surv 2023;56(4). Article 85.\r\n[10] Sidak D, Schwarzerova ´ J, Weckwerth W, Waldherr S. Interpretable machine \r\nlearning methods for predictions in systems biology from omics data. Front Mol \r\nBiosci 2022;9:926623.\r\n[11] Janizek JD, Dincer AB, Celik S, Chen H, Chen W, Naxerova K, et al. Uncovering \r\nexpression signatures of synergistic drug responses via ensembles of explainable \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "machine-learning models. Nat Biomed Eng 2023;7(6):811–29.\r\n[12] Mohseni S, Zarei N, Ragan ED. A multidisciplinary survey and framework for \r\ndesign and evaluation of explainable AI systems. ACM Trans Inter Intell Syst \r\n2021;11(3–4). Article 24.\r\n[13] Li L, Pan H, Liang Y, Shao M, Xie S, Lu S, et al. PMFN-SSL: Self-supervised \r\nlearning-based progressive multimodal fusion network for cancer diagnosis and \r\nprognosis. Knowl-Based Syst 2024:111502.\r\n[14] Tjoa E, Guan C. A survey on explainable artificial intelligence (XAI): toward \r\nmedical XAI. IEEE Trans Neural Netw Learn Syst 2021;32(11):4793–813.\r\n[15] van der Velden BHM, Kuijf HJ, Gilhuijs KGA, Viergever MA. Explainable artificial \r\nintelligence (XAI) in deep learning-based medical image analysis. Med Image \r\nAnal 2022;79:102470.\r\n[16] Deshpande D, Chhugani K, Chang Y, Karlsberg A, Loeffler C, Zhang J, et al. RNA\u0002seq data science: from raw data to effective interpretation. Front Genet 2023;14: \r\n997383.\r\n[17] Conesa A, Madrigal P, Tarazona S, Gomez-Cabrero D, Cervera A, McPherson A, \r\net al. A survey of best practices for RNA-seq data analysis. Genome Biol 2016;17: \r\n1–19.\r\n[18] Fang X, Miao R, Wei J, Wu H, Tian J. Advances in multi-omics study of \r\nbiomarkers of glycolipid metabolism disorder. Comput Struct Biotechnol J 2022; \r\n20:5935–51.\r\n[19] Toussaint PA, Leiser F, Thiebes S, Schlesner M, Brors B, Sunyaev A. Explainable \r\nartificial intelligence for omics data: a systematic mapping study. Brief \r\nBioinforma 2024;25(1):bbad453.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "[20] Talukder A, Barham C, Li X, Hu H. Interpretation of deep learning in genomics \r\nand epigenomics. Brief Bioinforma 2021;22(3):bbaa177.\r\n[21] Torres-Martos A, ´ Anguita-Ruiz A, Bustos-Aibar M, Ramírez-Mena A, Arteaga M, \r\nBueno G, et al. Multiomics and eXplainable artificial intelligence for decision \r\nsupport in insulin resistance early diagnosis: a pediatric population-based \r\nlongitudinal study. Artif Intell Med 2024;156:102962.\r\n[22] Picard M, Scott-Boyer M-P, Bodein A, P´erin O, Droit A. Integration strategies of \r\nmulti-omics data for machine learning analysis. Comput Struct Biotechnol J 2021; \r\n19:3735–46.\r\n[23] Gerlings J., Shollo A., Constantiou I. Reviewing the need for explainable artificial \r\nintelligence (xAI). arXiv preprint arXiv:201201007. 2020.\r\n[24] Markus AF, Kors JA, Rijnbeek PR. The role of explainability in creating \r\ntrustworthy artificial intelligence for health care: a comprehensive survey of the \r\nterminology, design choices, and evaluation strategies. J Biomed Inform 2021; \r\n113:103655.\r\n[25] Novakovsky G, Dexter N, Libbrecht MW, Wasserman WW, Mostafavi S. Obtaining \r\ngenetics insights from deep learning via explainable artificial intelligence. Nat \r\nRev Genet 2023;24(2):125–37.\r\n[26] Karim MR, Islam T, Shajalal M, Beyan O, Lange C, Cochez M, et al. Explainable ai \r\nfor bioinformatics: methods, tools and applications. Brief Bioinforma 2023;24(5): \r\nbbad236.\r\n[27] Zhou Z., Hu M., Salcedo M., Gravel N., Yeung W., Venkat A., et al. XAI meets \r\nBiology: a comprehensive review of explainable AI in bioinformatics applications. \r\narXiv preprint arXiv:231206082. 2023.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "[28] Miller T. Explanation in artificial intelligence: Insights from the social sciences. \r\nArtif Intell 2019;267:1–38.\r\n[29] Adadi A, Berrada M. Peeking inside the black-box: a survey on explainable \r\nartificial intelligence (XAI). IEEE Access 2018;6:52138–60.\r\n[30] Gilpin L.H., Bau D., Yuan B.Z., Bajwa A., Specter M., Kagal L., editors. Explaining \r\nexplanations: An overview of interpretability of machine learning. In: \r\nProceedings of the 2018 IEEE 5th International Conference on data science and \r\nadvanced analytics (DSAA); 2018: IEEE.\r\n[31] Artificial Intelligence Act: MEPs adopt landmark law. 2024 [Available from: 〈htt \r\nps://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artifi \r\ncial-intelligence-act-meps-adopt-landmark-law〉.\r\n[32] Arrieta AB, Díaz-Rodríguez N, Del Ser J, Bennetot A, Tabik S, Barbado A, et al. \r\nExplainable Artificial Intelligence (XAI): concepts, taxonomies, opportunities and \r\nchallenges toward responsible AI. Inf Fusion 2020;58:82–115.\r\n[33] Ribeiro M.T., Singh S., Guestrin C. \"Why should i trust you?\": Explaining the \r\npredictions of any classifier. In: Proceedings of the 22nd ACM SIGKDD \r\nInternational Conference on Knowledge Discovery and Data Mining; San \r\nFrancisco, California, USA: Association for Computing Machinery; 2016. p. \r\n1135–1144.\r\n[34] Selvaraju R.R., Cogswell M., Das A., Vedantam R., Parikh D., Batra D., editors. \r\nGrad-CAM: visual explanations from deep networks via gradient-based \r\nlocalization. 2017 In: Proceedings of the IEEE International Conference on \r\nComputer Vision (ICCV); 2017 22-29 Oct. 2017.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "[35] Longo L, Brcic M, Cabitza F, Choi J, Confalonieri R, Del Ser J, et al. Explainable \r\nArtificial Intelligence (XAI) 2.0: a manifesto of open challenges and \r\ninterdisciplinary research directions. Inf Fusion 2024;106:102301.\r\n[36] Bourgeais V, Zehraoui F, Ben Hamdoune M, Hanczar B. Deep GONet: self\u0002explainable deep neural network based on gene ontology for phenotype \r\nprediction from gene expression data. BMC Bioinforma 2021;22(10):1–25.\r\n[37] Binder A., Montavon G., Lapuschkin S., Müller K.-R., Samek W., editors. Layer\u0002wise relevance propagation for neural networks with local renormalization \r\nlayers. Artificial neural networks and machine learning–ICANN 2016: In: \r\nProceedings of the 25th International Conference on Artificial Neural Networks, \r\nBarcelona, Spain, September 6-9, 2016, Proceedings, Part II 25; 2016: Springer.\r\n[38] Nguyen A-P, Vasilaki S, Martínez MR. FLAN: feature-wise latent additive neural \r\nmodels for biological applications. Brief Bioinforma 2023;24(3):bbad056.\r\n[39] Patrício C., Neves J.C., Teixeira L.F., editors. Coherent concept-based \r\nexplanations in medical image and its application to skin lesion diagnosis. In: \r\nProceedings of the IEEE/CVF Conference on Computer Vision and Pattern \r\nRecognition; 2023.\r\n[40] Pennington J., Socher R., Manning C.D., editors. Glove: global vectors for word \r\nrepresentation. In: Proceedings of the 2014 Conference on Empirical Methods in \r\nNatural Language Processing (EMNLP); 2014.\r\n[41] Yagin, Cicek FH, ˙IB, Alkhateeb A, Yagin B, Colak C, et al. Explainable artificial \r\nintelligence model for identifying COVID-19 gene biomarkers. Comput Biol Med \r\n2023;154:106619.\r\n[42] Yilmaz R. Investigation of potential biomarkers in prediction of acute myocardial \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 39,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "infarction via explainable artificial intelligence. Med Sci 2023;12(2).\r\n[43] Kırboga ˘ KK. Bladder cancer gene expression prediction with explainable \r\nalgorithms. Neural Comput Appl 2024;36(4):1585–97.\r\n[44] Park A, Lee Y, Nam S. A performance evaluation of drug response prediction \r\nmodels for individual drugs. Sci Rep 2023;13(1):11911.\r\n[45] Slack D., Hilgard S., Jia E., Singh S., Lakkaraju H., editors. Fooling lime and shap: \r\nAdversarial attacks on post hoc explanation methods. In: Proceedings of the \r\nAAAI/ACM Conference on AI, Ethics, and Society; 2020.\r\n[46] Lundberg S.M., Lee S.-I. A unified approach to interpreting model predictions. In: \r\nProceedings of the 31st International Conference on Neural Information \r\nProcessing Systems; Long Beach, California, USA: Curran Associates Inc.; 2017. p. \r\n4768–4777.\r\n[47] Ramírez-Mena A, Andr´es-Leon ´ E, Alvarez-Cubero MJ, Anguita-Ruiz A, Martinez\u0002Gonzalez LJ, Alcala-Fdez J. Explainable artificial intelligence to predict and \r\nidentify prostate cancer tissue by gene expression. Comput Methods Prog Biomed \r\n2023;240:107719.\r\n[48] Sobhan M., Mondal A.M., editors. Explainable machine learning to identify \r\npatient-specific biomarkers for lung cancer. 2022 In: Proceedings of the IEEE \r\nInternational Conference on Bioinformatics and Biomedicine (BIBM); 2022: IEEE.\r\n[49] Rajpal S, Rajpal A, Agarwal M, Kumar V, Abraham A, Khanna D, et al. XAI\u0002CNVMarker: Explainable AI-based copy number variant biomarker discovery for \r\nbreast cancer subtypes. Biomed Signal Process Control 2023;84:104979.\r\n[50] Dwivedi K, Rajpal A, Rajpal S, Agarwal M, Kumar V, Kumar N. An explainable AI\u0002driven biomarker discovery framework for non-small cell lung cancer \r\nclassification. Comput Biol Med 2023;153:106544.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 40,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "[51] Sundararajan M., Taly A., Yan Q., editors. Axiomatic attribution for deep \r\nnetworks. In: Proceedings of the International Conference on Machine Learning; \r\n2017: PMLR.\r\n[52] Gao L., Shu K., Zhang J., Sheng V.S., editors. Explainable Transcription Factor \r\nPrediction with Protein Language Models. 2023 IEEE International Conference on \r\nBioinformatics and Biomedicine (BIBM); 2023: IEEE.\r\n[53] Li Z, Jiang Y, Lu M, Li R, Xia Y. Survival prediction via hierarchical multimodal \r\nco-attention transformer: a computational histology-radiology solution. IEEE \r\nTrans Med Imaging 2023.\r\n[54] Dai J., Upadhyay S., Aivodji U., Bach S.H., Lakkaraju H., editors. Fairness via \r\nexplanation quality: Evaluating disparities in the quality of post hoc explanations. \r\nIn: Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society; \r\n2022.\r\n[55] Zeiler M.D., Fergus R., editors. Visualizing and understanding convolutional \r\nnetworks. Computer Vision–ECCV 2014: 13th European Conference, Zurich, \r\nSwitzerland, September 6-12, 2014, Proceedings, Part I 13; 2014: Springer.\r\n[56] Gao Y, Zhang Y, Wang H, Guo X, Zhang J. Decoding behavior tasks from brain \r\nactivity using deep transfer learning. IEEE Access 2019;7:43222–32.\r\n[57] Simonyan K., Vedaldi A., Zisserman A. Deep Inside Convolutional Networks: \r\nVisualising Image Classification Models and Saliency Maps. arXiv pre-print \r\nserver. 2014.\r\n[58] de Souza JrLA, Mendel R, Strasser S, Ebigbo A, Probst A, Messmann H, et al. \r\nConvolutional neural networks for the evaluation of cancer in barrett’s \r\nesophagus: explainable AI to lighten up the black-box. Comput Biol Med 2021; \r\n135:104578.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 41,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "[59] Shrikumar A., Greenside P., Shcherbina A., Kundaje A. Not just a black box: \r\nlearning important features through propagating activation differences. arXiv \r\npre-print server. 2017.\r\n[60] Springenberg J.T., Dosovitskiy A., Brox T., Riedmiller M. Striving for simplicity: \r\nThe all convolutional net. arXiv preprint arXiv:14126806. 2014.\r\n[61] Badea L, St˘anescu E. Identifying transcriptomic correlates of histology using deep \r\nlearning. PloS One 2020;15(11):e0242858.\r\n[62] Wickstrøm K., Kampffmeyer M., Jenssen R., editors. Uncertainty modeling and \r\ninterpretability in convolutional neural networks for polyp segmentation. 2018 \r\nIn: Proceedings of the 28th International Workshop on Machine Learning for \r\nSignal Processing (mlsp); 2018: IEEE.\r\n[63] Zhou B., Khosla A., Lapedriza A., Oliva A., Torralba A., editors. Learning deep \r\nfeatures for discriminative localization. In: Proceedings of the IEEE Conference on \r\nComputer Vision and Pattern Recognition; 2016.\r\nA. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n358\n[64] Cai J, Xing F, Batra A, Liu F, Walter GA, Vandenborne K, et al. Texture analysis for \r\nmuscular dystrophy classification in MRI with improved class activation \r\nmapping. Pattern Recognit 2019;86:368–75.\r\n[65] Lin J., Han G., Xu X., Liang C., Wong T.-T., Chen C., et al. BroadCAM: outcome\u0002agnostic class activation mapping for small-scale weakly supervised applications. \r\narXiv preprint arXiv:230903509. 2023.\r\n[66] Selvaraju R.R., Das A., Vedantam R., Cogswell M., Parikh D., Batra D. Grad-CAM: \r\nWhy did you say that? arXiv preprint arXiv:161107450. 2016.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 42,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "[67] Civit-Masot J, Banuls-Beaterio ˜ A, Domínguez-Morales M, Rivas-P´erez M, Munoz- ˜\r\nSaavedra L, Corral JMR. Non-small cell lung cancer diagnosis aid with \r\nhistopathological images using explainable deep learning techniques. Comput \r\nMethods Prog Biomed 2022;226:107108.\r\n[68] Yin Q., Chen W., Wu R., Wei Z., editors. Cox-ResNet: a survival analysis model \r\nbased on residual neural networks for gene expression data. 2022 In: Proceedings \r\nof the International Conference on Networking, Sensing and Control (ICNSC); \r\n2022: IEEE.\r\n[69] Shovon MSH, Mridha M, Hasib KM, Alfarhood S, Safran M, Che D. Addressing \r\nuncertainty in imbalanced histopathology image classification of HER2 breast \r\ncancer: an interpretable ensemble approach with threshold filtered single \r\ninstance evaluation (SIE). IEEE Access 2023;11:122238–51.\r\n[70] Altini N, Brunetti A, Puro E, Taccogna MG, Saponaro C, Zito FA, et al. NDG-CAM: \r\nnuclei detection in histopathology images with semantic segmentation networks \r\nand grad-CAM. Bioengineering 2022;9(9):475.\r\n[71] Kallipolitis A, Revelos K, Maglogiannis I. Ensembling EfficientNets for the \r\nclassification and interpretation of histopathology images. Algorithms 2021;14 \r\n(10):278.\r\n[72] Korbar B., Olofson A.M., Miraflor A.P., Nicka C.M., Suriawinata M.A., Torresani \r\nL., et al., editors. Looking under the hood: Deep neural network visualization to \r\ninterpret whole-slide image analysis outcomes for colorectal polyps. In: \r\nProceedings of the IEEE Conference on Computer Vision and Pattern Recognition \r\nWorkshops; 2017.\r\n[73] Chen D., Han Y., Dong Y., Zhou X., editors. Lymphoma ultrasound image \r\nclassification with causal attention and feature fusion. 2022 IEEE Smartworld, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 43,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "Ubiquitous Intelligence & Computing, Scalable Computing & Communications, \r\nDigital Twin, Privacy Computing, Metaverse, Autonomous & Trusted Vehicles \r\n(SmartWorld/UIC/ScalCom/DigitalTwin/PriComp/Meta); 2022: IEEE.\r\n[74] Raghavan K. Attention guided grad-CAM: an improved explainable artificial \r\nintelligence model for infrared breast cancer detection. Multimed Tools Appl \r\n2023:1–28.\r\n[75] Kayser M., Emde C., Camburu O.-M., Parsons G., Papiez B., Lukasiewicz T., \r\neditors. Explaining chest x-ray pathologies in natural language. In: Proceedings of \r\nthe International Conference on Medical Image Computing and Computer\u0002Assisted Intervention; 2022: Springer.\r\n[76] Aryal M., Yahyasoltani N. Explainable and position-aware learning in digital \r\npathology. arXiv preprint arXiv:230608198. 2023.\r\n[77] Springenberg M, Frommholz A, Wenzel M, Weicken E, Ma J, Strodthoff N. From \r\nmodern CNNs to vision transformers: assessing the performance, robustness, and \r\nclassification strategies of deep learning models in histopathology. Med Image \r\nAnal 2023;87:102809.\r\n[78] Saihood A, Karshenas H, Naghsh-Nilchi AR. Multi-orientation local texture \r\nfeatures for guided attention-based fusion in lung nodule classification. IEEE \r\nAccess 2023;11:17555–68.\r\n[79] Kallipolitis A, Yfantis P, Maglogiannis I. Improving explainability results of \r\nconvolutional neural networks in microscopy images. Neural Comput Appl 2023: \r\n1–19.\r\n[80] Campana MG, Colussi M, Delmastro F, Mascetti S, Pagani E. A transfer learning \r\nand explainable solution to detect mpox from smartphones images. Pervasive \r\nMob Comput 2024;98:101874.\r\n[81] Simonyan K., Zisserman A. Very deep convolutional networks for large-scale \r\nimage recognition. arXiv preprint arXiv:14091556. 2014.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 44,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "[82] Sandler M., Howard A., Zhu M., Zhmoginov A., Chen L.-C., editors. Mobilenetv2: \r\nInverted residuals and linear bottlenecks. In: Proceedings of the IEEE Conference \r\non Computer Vision and Pattern Recognition; 2018.\r\n[83] Deng J., Dong W., Socher R., Li L.-J., Li K., Fei-Fei L., editors. Imagenet: A large\u0002scale hierarchical image database. 2009 In: Proceedings of the Conference on \r\nComputer Vision and Pattern Recognition; 2009: IEEE.\r\n[84] Altan G. DeepOCT: an explainable deep learning architecture to analyze macular \r\nedema on OCT images. Eng Sci Technol, Int J 2022;34:101091.\r\n[85] Huang K., Gao W., editors. Real-time neural network inference on extremely \r\nweak devices: agile offloading with explainable AI. In: Proceedings of the 28th \r\nAnnual International Conference on Mobile Computing And Networking; 2022.\r\n[86] Yao J., Wang Y., Lei Z., Wang K., Li X., Zhou J., et al. AI-generated content \r\nenhanced computer-aided diagnosis model for thyroid nodules: a ChatGPT-style \r\nassistant. arXiv preprint arXiv:240202401. 2024.\r\n[87] Torres-Martos A, ´ Bustos-Aibar M, Ramírez-Mena A, C´amara-S´anchez S, Anguita\u0002Ruiz A, Alcal´\r\na R, et al. Omics data preprocessing for machine learning: a case \r\nstudy in childhood obesity. Genes 2023;14(2):248.\r\n[88] Whalen S, Schreiber J, Noble WS, Pollard KS. Navigating the pitfalls of applying \r\nmachine learning in genomics. Nat Rev Genet 2022;23(3):169–81.\r\n[89] Greener JG, Kandathil SM, Moffat L, Jones DT. A guide to machine learning for \r\nbiologists. Nat Rev Mol Cell Biol 2022;23(1):40–55.\r\n[90] Babjac A.N., Lu Z., Emrich S.J., editors. CodonBERT: using BERT for sentiment \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 45,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "analysis to better predict genes with low expression. In: Proceedings of the 14th \r\nACM International Conference on Bioinformatics, Computational Biology, and \r\nHealth Informatics; 2023.\r\n[91] Tran M., Schmidle P., Wagner S.J., Koch V., Lupperger V., Feuchtinger A., et al. \r\nGenerating highly accurate pathology reports from gigapixel whole slide images \r\nwith HistoGPT. medRxiv. 2024:2024.03. 15.24304211.\r\n[92] Graziani M., Lompech T., Müller H., Andrearczyk V., editors. Evaluation and \r\ncomparison of CNN visual explanations for histopathology. In: Proceedings of the \r\nAAAI Conference on Artificial Intelligence Workshops (XAI-AAAI-21), Virtual \r\nEvent; 2021.\r\n[93] Rudin C. Stop explaining black box machine learning models for high stakes \r\ndecisions and use interpretable models instead. Nat Mach Intell 2019;1(5): \r\n206–15.\r\n[94] Chanda T, Hauser K, Hobelsberger S, Bucher T-C, Garcia CN, Wies C, et al. \r\nDermatologist-like explainable AI enhances trust and confidence in diagnosing \r\nmelanoma. Nat Commun 2024;15(1):524.\r\n[95] Li Y., Zhou J., Verma S., Chen F. A survey of explainable graph neural networks: \r\ntaxonomy and evaluation metrics 2022.\r\n[96] Cabitza F, Natali C, Famiglini L, Campagner A, Caccavella V, Gallazzi E. Never tell \r\nme the odds: Investigating pro-hoc explanations in medical decision making. Artif \r\nIntell Med 2024;150:102819.\r\n[97] Del Ser J, Barredo-Arrieta A, Díaz-Rodríguez N, Herrera F, Saranti A, Holzinger A. \r\nOn generating trustworthy counterfactual explanations. Inf Sci 2024;655:119898.\r\n[98] Huang W, Suominen H, Liu T, Rice G, Salomon C, Barnard AS. Explainable \r\ndiscovery of disease biomarkers: the case of ovarian cancer to illustrate the best \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 46,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "practice in machine learning and Shapley analysis. J Biomed Inform 2023;141: \r\n104365.\r\n[99] Qiu J, Li L, Sun J, Peng J, Shi P, Zhang R, et al. Large AI models in health \r\ninformatics: applications, challenges, and the future. IEEE J Biomed Health \r\nInform 2023;27(12):6074–87.\r\n[100] Mohamed YA, Khoo BE, Asaari MSM, Aziz ME, Ghazali FR. Decoding the black \r\nbox: Explainable AI (XAI) for cancer diagnosis, prognosis, and treatment \r\nplanning-A state-of-the art systematic review. Int J Med Inform 2024:105689.\r\n[101] Withnell E, Zhang X, Sun K, Guo Y. XOmiVAE: an interpretable deep learning \r\nmodel for cancer classification using high-dimensional omics data. Brief \r\nBioinforma 2021;22(6):bbab315.\r\n[102] Ye T, Li S, Zhang Y. Genomic pan-cancer classification using image-based deep \r\nlearning. Comput Struct Biotechnol J 2021;19:835–46.\r\n[103] Bichindaritz I., Liu G., editors. An explainable deep network framework with case\u0002based reasoning strategies for survival analysis in oncology. In: Proceedings of the \r\nInternational KES Conference on Innovation in Medicine and Healthcare; 2023: \r\nSpringer.\r\n[104] Maouche I, Terrissa LS, Benmohammed K, Zerhouni N. An explainable AI \r\napproach for breast cancer metastasis prediction based on clinicopathological \r\ndata. IEEE Trans Biomed Eng 2023;70(12):3321–9.\r\n[105] Malhi A., Kampik T., Pannu H., Madhikermi M., Framling ¨ K., editors. Explaining \r\nmachine learning-based classifications of in-vivo gastral images. 2019 Digital \r\nImage Computing: Techniques and Applications (DICTA); 2019 2-4 Dec. 2019.\r\n[106] Foersch S, Glasner C, Woerl A-C, Eckstein M, Wagner D-C, Schulz S, et al. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 47,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "Multistain deep learning for prediction of prognosis and therapy response in \r\ncolorectal cancer. Nat Med 2023;29(2):430–9.\r\n[107] Shamai G, Livne A, Polonia ´ A, Sabo E, Cretu A, Bar-Sela G, et al. Deep learning\u0002based image analysis predicts PD-L1 status from H&E-stained histopathology \r\nimages in breast cancer. Nat Commun 2022;13(1):6753.\r\n[108] Lamy J-B, Sekar B, Guezennec G, Bouaud J, S´eroussi B. Explainable artificial \r\nintelligence for breast cancer: a visual case-based reasoning approach. Artif Intell \r\nMed 2019;94:42–53.\r\n[109] DeGrave AJ, Cai ZR, Janizek JD, Daneshjou R, Lee S-I. Auditing the inference \r\nprocesses of medical-image classifiers by leveraging generative AI and the \r\nexpertise of physicians. Nat Biomed Eng 2023:1–13.\r\n[110] Lombardi A, Arezzo F, Di Sciascio E, Ardito C, Mongelli M, Di Lillo N, et al. \r\nA human-interpretable machine learning pipeline based on ultrasound to support \r\nleiomyosarcoma diagnosis. Artif Intell Med 2023;146:102697.\r\n[111] Brier GW. Verification of forecasts expressed in terms of probability. Mon \r\nWeather Rev 1950;78(1):1–3.\r\n[112] Krzyzinski ´ M, Spytek M, Baniecki H, Biecek P. SurvSHAP (t): time-dependent \r\nexplanations of machine learning survival models. Knowledge-Based Syst 2023; \r\n262:110234.\r\n[113] Macedo D.C., De Lima John W., Santos V.D., LO M.T., MP N.F., Arrais N., et al., \r\neditors. Evaluating interpretability in deep learning using breast cancer \r\nhistopathological images. 2022 In: Proceedings of the 35th SIBGRAPI Conference \r\non Graphics, Patterns and Images (SIBGRAPI); 2022: IEEE.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 48,
+      "doc_items": [],
+      "end_page": 13,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4057622130424800190,
+        "filename": "main.PMC11782883.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 14,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 212,
+      "total_chunks": 49,
+      "version": "1.0.0"
+    },
+    "text": "[114] Li Y, Stanojevic S, Garmire LX. Emerging artificial intelligence applications in \r\nspatial transcriptomics analysis. Comput Struct Biotechnol J 2022;20:2895–908.\r\n[115] Anguita-Ruiz A, Segura-Delgado A, Alcal´a R, Aguilera CM, Alcal´a-Fdez J. \r\neXplainable Artificial Intelligence (XAI) for the identification of biologically \r\nrelevant gene expression patterns in longitudinal human studies, insights from \r\nobesity research. PLOS Comput Biol 2020;16(4):e1007792.\r\n[116] Zhang C, Wang L, Shi Q. Computational modeling for deciphering tissue \r\nmicroenvironment heterogeneity from spatially resolved transcriptomics. Comput \r\nStruct Biotechnol J 2024.\r\nA. Budhkar et al. Computational and Structural Biotechnology Journal 27 (2025) 346–359\r\n359\n\n"
+  }
+]

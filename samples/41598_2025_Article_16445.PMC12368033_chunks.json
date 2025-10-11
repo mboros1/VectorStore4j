@@ -1,0 +1,842 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Regional calibration of ecosystem \r\nservice valuation under climate and \r\ntourism influences: a case study in \r\nsubtropical Longyan, China\r\nHui Li, Enhao Chen, Shenglong Lin, Liang Cheng & Guofang Zhang\r\nPrecise evaluation of ecosystem service value (ESV) under climate variability is essential for supporting \r\nregional ecological management. This study has improved the equivalent factor method. This method \r\ntakes into account local factors such as temperature, precipitation, net primary productivity (NPP), \r\nand tourism revenue, and dynamically adjusts the equivalent coefficient for Longyan City (a humid \r\nsubtropical area in China). The Equivalent Factor Method after Improvement (EFMAI) is evaluated \r\nagainst the Functional Value Method (FVM) and the baseline Equivalent Factor Method before \r\nImprovement (EFMBI), using statistical indicators such as R², RMSE, and Theil’s U. Results indicate \r\nthat EFMAI substantially improves the accuracy of regulation and cultural service estimations, aligning \r\nclosely with FVM outputs. Specifically, ESV changes from 2010 to 2020 show that regulation services \r\ncontributed 47.6% of the total increase, followed by cultural services (29.4%), while supply services \r\nremained relatively stable, reflecting stronger dependence on exogenous socio-economic factors. \r\nDespite these improvements, EFMAI does not consistently outperform EFMBI in supply services due \r\nto the limited responsiveness of biophysical models to economic and institutional variables. Moreover, \r\ncultural service discrepancies arise from differences in measurement basis: EFMAI employs tourism \r\nincome, whereas FVM uses site-specific visitation data. Given these limitations, the method provides \r\na more nuanced tool for service valuation in policy-oriented regions similar to China and contributes to \r\nmethodological advancements in climate-adjusted ESV assessment.\r\nKeywords Ecosystem service value, Climate change, Tourism dynamics, Subtropical region\r\nThe valuation of ecosystem service value (ESV) is a core tool for quantifying natural capital and coordinating \r\necological conservation with sustainable development, particularly critical amid global climate change and \r\necological governance transitions. Accurately quantifying the value of ecosystem services helps inform policies \r\nfor biodiversity conservation, climate change mitigation, and sustainable land-use planning. Traditional \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "frameworks, such as the unit-area equivalent factor method proposed by Costanza et al.1, have facilitated \r\ncross-regional comparisons through standardized value classification. However, they often lack responsiveness \r\nto climatic dynamics (e.g., temperature, precipitation, net primary productivity [NPP] changes) and regional \r\necological processes. Internationally, methodologies like the InVEST model2, ARIES framework3, and TEEB \r\ninitiative4 have emerged, each offering strengths in quantifying spatial heterogeneity and trade-offs among \r\necosystem services. Yet, these models still struggle with representing the dynamic impacts of climate variables \r\non services such as carbon sequestration, water regulation, and cultural values5. This limitation is particularly \r\nevident in subtropical monsoon regions, where temperature variations and precipitation patterns directly affect \r\necosystem functioning6. For instance, although the InVEST model can assess carbon storage services, it lacks direct \r\nquantification of the temperature-driven plant transpiration cooling effect2; the TEEB framework relies on market \r\nproxy indicators (such as tourism revenue), but fails to fully incorporate the indirect influence of climate factors \r\non cultural services (such as the driving effect of climate comfort on ecotourism)4. In China, improvements to \r\nthe equivalent factor method by Xie et al.7,8—incorporating NPP and precipitation adjustments—have enhanced \r\nregional assessment accuracy. However, in subtropical monsoon climates, the complex impacts of temperature \r\nchanges on carbon cycling, vegetation growth, and scenic landscapes remain underrepresented. Climate-driven \r\nprocesses, such as carbon cycling and plant transpiration, are often underrepresented in current models, leading \r\nRural Revitalization Institute, Fujian Agriculture and Forestry University, Fuzhou, Fujian, China. email: \r\n752402277@qq.com\r\nOPEN\r\nScientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 1\r\nwww.nature.com/scientificreports\nto the undervaluation of regulatory services like climate regulation9\r\n. As a result, there is a growing need for \r\nlocalized approaches that incorporate both climatic and socio-economic factors, such as tourism income, which \r\ndirectly affect service values in regions with significant tourism development10. This study aims to fill these gaps \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "by introducing an equivalent factor method (EFMAI) that combines climate and tourism factors. This method \r\nhas been calibrated specifically for Longyan City in southern China. As a subtropical forest region, Longyan \r\nhas experienced significant climate changes in recent decades, including rising temperatures and changes in \r\nprecipitation patterns, which have affected the local ecosystem and services. Moreover, the region’s increasing \r\nreliance on ecotourism as a major economic driver requires a comprehensive assessment framework that can \r\nsimultaneously capture ecosystem services affected by climate and cultural services related to tourism. The \r\ncalibration of the EFMAI method is to quantify the spatio-temporal dynamics of ecosystem service value (ESV) \r\nin the Longyan area by combining temperature, net primary productivity (NPP), and precipitation with tourism \r\nrevenue data, providing a more regionally specific tool for local decision-making. The findings presented in \r\nthis paper aim to guide ecological compensation policies and climate adaptation strategies in regions similar \r\nto Longyan, and also offer insights into China’s contribution to global climate-sensitive ESV assessment, in line \r\nwith the goals of the Convention on Biological Diversity (CBD) and the Intergovernmental Panel on Climate \r\nChange (IPCC)11,12.\r\nData and methodology\r\nStudy area\r\nLongyan City is located in the west of Fujian Province (latitude 24°23’ −26°02’, longitude 115°51’ −117°45’). As \r\nthe core area of the western mountainous region of Fujian and the source of the Minjiang River, Jiulongjiang \r\nRiver, and Tingjiang River, it is an important ecological barrier in Fujian Province and a typical area rich in \r\n“green mountains and clear waters” resources13. Figure 1 presents the location and land use types of Longyan \r\nCity. The total area of the region is 19,028 square kilometers. It is mainly composed of low mountains and \r\nhills (accounting for 78.1%), with an altitude ranging from 100 to 1,548  m14. It has a subtropical monsoon \r\nFig. 1. Location and land use types of Longyan City, China. The base map was generated using 30-m \r\nresolution land use remote sensing data (2008–2020) from the Resources and Environment Science Data \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Center of the Chinese Academy of Sciences16. Land use types were classified into 6 major categories and 13 \r\nsubcategories following the Land Use Classification standard (GB/T 21010–2017)17, and spatial analysis and \r\nmap visualization were performed using ArcGIS 10.8 (ESRI, Redlands, CA, USA; https://www.esri.com/en-us/\r\narcgis/products/arcgis-desktop/overview).\r\nScientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 2\r\nwww.nature.com/scientificreports/\nclimate, with an average annual temperature of 18.7℃ and an annual precipitation of 1,637  mm. The water \r\nand heat conditions are abundant, and the forest coverage rate reaches 76.2%15. It has important ecological \r\nnodes such as the Meihua Mountain National Nature Reserve. The ecosystem is mainly composed of forests \r\n(accounting for 74.21%), farmland (9.95%), and water bodies (0.53%) (in 2020), featuring the typical complexity \r\nof a mountainous ecosystem and diversity of service function.\r\nData sources and validation\r\nLand Use Data: 30-m resolution remote sensing data (2008–2020) from the Resources and Environment Science \r\nData Center of the Chinese Academy of Sciences16 were classified into 6 major categories and 13 subcategories \r\nfollowing the Land Use Classification standard (GB/T 21010–2017)17. Spatial analysis was performed using \r\nArcGIS 10.8, with field validation confirming a classification accuracy of 92.3%18. NPP and Meteorological \r\nData: Annual net primary productivity (NPP) data (1 km resolution, 2008–2020) were derived from MODIS \r\nMOD17A3HGF products via Google Earth Engine (GEE)19. Daily temperature and precipitation data were \r\nobtained from the National Meteorological Science Data Center and interpolated to 1 km grids using Kriging, \r\nachieving a cross-validation error of ±5%20. Socioeconomic Data: Crop yields, prices, and tourism income \r\nwere sourced from the Longyan Statistical Yearbook (2009–2021)21 and National Compilation of Agricultural \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Product Cost and Revenue Data22. Land use classification accuracy was validated using 200 field samples, \r\nyielding a Kappa coefficient of 0.8923. MODIS NPP data showed a strong correlation (R² = 0.87) with flux tower \r\nmeasurements, and interpolated meteorological data had an average absolute error≤3% compared to station \r\nobservations24.\r\nImproved equivalent factor method (EFMAI)\r\nCalculation of the equivalent factor\r\nThis study calculates the ecosystem service value based on standard equivalent factors by analyzing the planting \r\narea, yield, and price of major crops in Longyan City (including rice, sweet potato, potato, soybean, peanut, \r\nflue-cured tobacco, and sugarcane). Subsequently, the corresponding value coefficients are further calculated \r\naccording to the per-unit-area service functions of different ecosystems. The formulas are as follows:\r\nFij=Pij × Aij × Qij\r\nAj\r\n(1)\r\nDj=\r\n∑\r\nj\r\nSij × Fij (2)\r\nIn the formula:\r\nFij: Average net profit per unit area of crop i in year j (CNY·hm−2);\r\ni: Crop type;\r\nPij: Unit price of crop i in year j (CNY·t−1);\r\nAij: Planting area of crop ii in year j (hm2);\r\nAj: Total planting area of the seven crops in year j (hm2);\r\nQij: Yield per unit area of crop ii in year j (t·hm−2);\r\nDj: Ecosystem service value per standard equivalent factor in year j (CNY·hm−2);\r\nSij: Percentage of the planting area of crop ii relative to the total planting area of all seven crops in year j.\r\nIntroduce climate regulating factors\r\nGiven the continuous changes in the internal structure and external morphology of ecosystems across regions \r\nand time, this study introduces spatiotemporal adjustment factors for Net Primary Productivity (Pij=Bij/B) \r\nand precipitation (Rij=Wij/W), representing the ratio of local NPP and precipitation to the national average, \r\nrespectively13. According to the “IPCC Climate Change Report (AR6)”, an increase in global temperature will \r\ndirectly affect the efficiency of plant photosynthesis and the rate of soil respiration: On one hand, a moderate \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "increase in temperature (such as an annual average temperature rise of 1–2 °C) can enhance the carbon sink \r\ncapacity by extending the plant growth season; on the other hand, extreme high temperatures (such as an increase \r\nin the number of days≥35 °C) will inhibit vegetation productivity and accelerate the decomposition of soil organic \r\nmatter, resulting in a decrease in carbon storage capacity15. At the same time, this article also draws on the climate \r\nregulation calculation formula from the functional value method25:Ept=∑3\r\ni PTi×Ai ×D× 106\r\n/(3600 × r) × Pe\r\nwhere:\r\nEpt: Heat consumed by plant transpiration (kW·h/a);\r\nPTi: Heat consumption per unit area of land use type i [kJ/(m²·d)]·a;\r\nAi: Area of land use type i (km²), including cropland, forest, and grassland;\r\nD: Annual days with daily average temperature exceeding 26 °C (considered as air-conditioning usage days);\r\nr: Air-conditioning energy efficiency ratio (fixed at 3);\r\nPe: Electricity price (CNY/kW·h).\r\nBased on the above conclusion and considering other methods, temperature, as an ecological factor, plays a \r\ndominant role in the value of climate regulation services, but traditional equivalent factors are based on national \r\naverages. Thus, we define a temperature spatiotemporal adjustment factor (Cij=T ij/T ) as the ratio of the \r\naverage temperature of land use type i in year j to the national average temperature.\r\nFinally, dynamic NPP, precipitation, and temperature adjustment factors are integrated \r\nwith the static equivalent factor table for Longyan City’s ecosystem service value per unit \r\narea:eij=P ij × ei1orRij × ei2orP ij × Cij × ei3where:\r\nScientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 3\r\nwww.nature.com/scientificreports/\nemi: Equivalent factor for the n-th ecosystem service;\r\ni1: Services including food production, raw material supply, gas regulation, environmental purification, \r\nnutrient cycling, and biodiversity maintenance;\r\ni2: Water supply and hydrological regulation;\r\ni3: Climate regulation.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Calibration of aesthetic landscapes\r\nAesthetic landscapes refer to natural and human-made scenes with aesthetic value provided by ecosystems, \r\nincluding mountains, rivers, forests, grasslands, oceans, and culturally integrated landscapes such as traditional \r\nvillages and historical sites. Due to data availability, the Functional Value Method (FVM) often uses tourism \r\nincome as a proxy to quantify aesthetic value. However, this method has limitations, as it relies solely on \r\ntourism income and neglects other factors that might influence aesthetic value, such as retail sales of consumer \r\ngoods.To address this issue, many scholars argue that aesthetic landscape value should not be solely based on \r\nstatic land-use equivalent factors26. Miao Yuexin and others suggest that aesthetic landscape value should be \r\nmeasured by tourism income, but the measurement should take into account the proportional contribution of \r\neach land-use type27. Additionally, recent studies have shown that, besides land-use types and tourism income, \r\nother factors such as cultural heritage and ecological health play significant roles in determining the value of \r\naesthetic landscapes. These factors are often overlooked by traditional methods, which focus only on the spatial \r\ndistribution of land-use categories. For instance, Geçikli et al. point out that the relationship between cultural \r\nheritage tourism and sustainability has become a central topic in recent research. Their bibliometric analysis \r\nreveals the important role cultural heritage tourism plays in promoting sustainable development28. Moreover, \r\nCheng and Chen conducted empirical research and found that tourism experience significantly influences \r\ntourists’ environmentally responsible behavior, with cultural attachment playing a mediating role. This indicates \r\nthat emotional connections to cultural heritage sites may influence visitors’ environmental behaviors, which, in \r\nturn, affect the aesthetic value of these landscapes29.\r\nTherefore, the aesthetic landscape value should not rely on static land use equivalent factors. Instead, it should \r\nbe quantitatively analyzed by using weighted tourism revenue data and based on the contribution ratios of each \r\nland use type in the equivalent factor table. This method will be able to more accurately reflect the dynamic and \r\nregional characteristics of landscape value, providing a more refined tool for ecological service valuation. The \r\nformula is: Vij=\r\n(\r\ndi/\r\n∑\r\nn\r\ndnj)× T Ij  where:\r\nVij: Aesthetic landscape value of land use type i in the year j\r\ndi: Equivalent factor for land use type i\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "TIj: Total tourism income in the year j\r\nAccounting of ecological service value\r\nBased on the ArcGIS 10.8 platform, the land use data was spatially discretized using the grid method (1 km × \r\n1 km), and the ecological service value of each grid cell was calculated by combining the Chinese static equivalent \r\nfactor table proposed by Xie Ge Di et al. (Table 1.)13. The formula is as follows:\r\nEmij=Dj × emi (3)\r\nWmij=Emij × Aij (4)\r\nESVj=\r\n∑\r\nm\r\n∑\r\ni\r\nWmij + Vj (5)\r\nIn the formula:\r\nemi: Service value coefficient of the m-th ecosystem service for land use type i in year j (CNY·hm−2);\r\nEmij: Service value per unit area for the m-th ecosystem service function under land use type i (CNY·hm−2);\r\nWmij: Total service value provided by the m-th ecosystem service service function of land use type i in year j \r\n(CNY), m includes: food production, raw material production, water supply, gas regulation, climate regulation, \r\nenvironmental purification, hydrological regulation, soil protection, maintenance of nutrient cycle, and \r\nprotection of biodiversity;\r\nAij: Area of land use type i in year j (hm−2);\r\nESVj: Total Ecosystem Service Value in year j (CNY).\r\nResults and analysis\r\nAccounting results of secondary ecosystem service value in Longyan City\r\nThe spatiotemporal dynamics of secondary ecosystem service value (ESV) in Longyan City from 2008 to 2020 \r\n(Table  2.) reveal a complex interplay of climatic factors, land-use changes, economic transitions, and policy \r\ninterventions. Soil conservation service value surged by 263.41%, rising from 23.06 billion CNY to 83.81 billion \r\nCNY, strongly correlated with the Grain-for-Green Program (GGP) and soil–water conservation projects. \r\nThis trend aligns with studies showing GGP-driven vegetation restoration significantly reduces soil erosion \r\nnationally30,31. Notably, Longyan’s increase exceeds national averages, indicating localized policy efficacy. To \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 459,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "isolate policy impacts, a counterfactual comparison with nearby Sanming (comparable climate but less intensive \r\nrestoration) suggests that without these policies, Longyan’s soil conservation value in 2015 would have been \r\n~32.7% lower, and hydrological regulation services growth would have slowed to ~45.2% (actual was 79.1%). \r\nScientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 4\r\nwww.nature.com/scientificreports/\necosystem service classification Supply services Regulation services Support services Cultural services\r\nPrimary classification Secondary classification Food production Raw material production Water supply Gas regulation Climate regulation Environmental purification Hydrology regulation Soil conservation Maintenance of nutrient cycles Biodiversity Aesthetic landscapeCropland Paddy field 0.85 0.40 0.02 0.67 0.36 0.10 0.27 1.03 0.12 0.13 0.06 Dry land 1.36 0.09 −2.63 1.11 0.57 0.17 2.72 0.01 0.19 0.21 0.09Forest\r\nForest land 0.31 0.71 0.37 2.35 7.03 1.99 3.51 2.86 0.22 2.60 1.14Shrubbery 0.19 0.43 0.22 1.41 4.23 1.28 3.35 1.72 0.13 1.57 0.69Open forest land 0.10 0.23 0.12 0.78 2.32 0.66 1.16 0.94 0.07 0.86 0.38Other woodlands 0.08 0.18 0.09 0.59 1.76 0.50 0.88 0.72 0.06 0.65 0.29\r\nMeadow\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "High cover grassland 0.10 0.14 0.08 0.51 1.34 0.44 0.98 0.62 0.05 0.56 0.25Medium coverage grassland 0.38 0.56 0.31 1.97 5.21 1.72 3.82 2.40 0.18 2.18 0.96Low cover grassland 0.22 0.33 0.18 1.14 3.02 1.00 2.21 1.39 0.11 1.27 0.56\r\nWaters Drainage 0.80 0.23 8.29 0.77 2.29 5.55 102.24 0.93 0.07 2.55 1.89Unused land\r\nMarshland 0.51 0.50 2.59 1.90 3.60 3.60 24.23 2.31 0.18 7.87 4.73Bare land 0.00 0.00 0.00 0.02 0.00 0.10 0.03 0.02 0.00 0.02 0.01\r\nTable 1. Table of ecosystem service value equivalents per unit area in china.\r\nScientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 5\r\nwww.nature.com/scientificreports/\nThese gains were likely reinforced by favorable climate conditions – for instance, ample precipitation in certain \r\nyears enhanced soil moisture and vegetation growth, thereby bolstering soil retention and water regulation \r\ncapacity32. Such climate-driven boosts illustrate that interannual rainfall variability can amplify or dampen \r\nservice values, a pattern observed in monsoonal regions where wet years improve regulation services and \r\ndrought years constrain them33.\r\nForest ecosystems remained the cornerstone of regulatory services, contributing on average 81.34% of \r\ntotal ESV annually. Dynamic modeling based on forest fragmentation indices shows that maintaining 2008’s \r\nforest management regime (i.e., without new afforestation and protection efforts) would have reduced the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "2020 climate regulation (carbon sequestration) value by ≈21.4%, underscoring the critical role of sustained \r\nreforestation and protection. This finding is consistent with post-2020 studies in Southwest China, where the \r\naforested area was highly correlated (r≈0.88) with increased forest ESV34. In Longyan, the implementation of \r\na national logging ban (2016) and expansion of ecological public-welfare forests further safeguarded carbon \r\nstocks, reinforcing climate mitigation services. Cultural services exhibited the fastest growth (annual increase \r\n22.93%), reflecting the rise of eco-tourism as an economic driver. Tourism initiatives (e.g., the Tulou-Guanzhai \r\nMountain scenic integration) helped cultural service value grow from 4.85 to 40.23 billion CNY (728.8% total \r\nincrease). Traditional static land-use valuation methods underestimated this growth by ~16.7% compared \r\nto a dynamic tourism-income-weighted approach, highlighting the importance of market-driven valuation \r\nadjustments. Regions lacking integrated eco-tourism planning saw stagnation – for example, Guizhou’s \r\nFanjingshan area reported little cultural service growth under fragmented policies35. In contrast, Longyan’s \r\ntourism revenue surged 325% (2010–2020), illustrating a synergy between policy support and market forces. A \r\ncounterfactual scenario without eco-cultural integration (akin to early-stage Fanjingshan management) suggests \r\nLongyan’s 2020 cultural service value would have stagnated at ~23.4  billion CNY (only 58% of the actual), \r\nunderscoring how policy-market synergies unlocked cultural service potential. Beyond monetized values, non\u0002market ecosystem benefits gained attention. Biodiversity non-use value in Longyan’s Meihua Mountain Reserve, \r\nestimated via contingent valuation, reaches~230 million CNY annually, reflecting public willingness to pay for \r\nspecies conservation36. Similarly, cultural heritage sites (e.g., Hakka Tulou clusters) confer intangible benefits – \r\ncommunity cohesion, traditional knowledge – accounting for ~37% of cultural service value when qualitatively \r\nassessed. These benefits are difficult to monetize yet crucial for social resilience. Furthermore, rising forest \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "cover (to 76.2% by 2020) has improved air quality: particulate (PM_2.5) levels dropped~12%, reducing local \r\nrespiratory illness by an estimated 5.3%, equivalent to an implicit health benefit of 0.48 billion CNY per year37. \r\nSuch externalities are omitted from conventional ESV accounts, highlighting the need to integrate health and \r\necosystem models into valuation. Overall, a structural shift in ESV composition is evident: provisioning services \r\n(food/fiber production) declined in share (dropping by 5.7% after 2018) while regulating services rose, reflecting \r\ntrade-offs inherent in land-use transitions. The Grain-for-Green Program successfully enhanced soil and water \r\nregulation at the cost of some cropland output, revealing a substitution of farmland services with forest services. \r\nHowever, lagging agricultural modernization meant lost provisioning value was not fully offset by sustainable \r\nagriculture gains. This mirrors broader trends in China’s mountainous areas, where industrial shifts away from \r\nagriculture have led to declining grain productivity (e.g., Longyan’s grain output showed a steady decline post\u00022008). Agro-ecological compensation mechanisms could help balance this trade-off. For instance, implementing \r\npayment for ecosystem services to reward eco-friendly farming (akin to the EU’s Common Agricultural Policy) \r\nis projected to boost food production value by ~14–18%, bridging economic-ecological goals. Additionally, the \r\nundervaluation of landscape aesthetics as “eco-brands” obscures their broader economic impact. Iconic features \r\nlike the UNESCO-listed Tulou have a multiplier effect – attracting green investments~1.2 times the direct \r\ntourism revenue – that current ESV metrics do not capture38. Addressing these gaps may require multi-criteria \r\ndecision analysis (MCDA) frameworks that combine monetary, ecological, and social indicators to align ESV \r\naccounting with sustainable development goals39.\r\nSecondary Classification 2008 2010 2013 2015 2018 2020\r\nPaddy field 89.33 109.32 133.83 166.90 149.77 141.26\r\nDry land 136.22 165.62 203.07 253.01 227.12 214.41\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Forest land 47.57 55.20 63.55 76.96 80.30 85.34\r\nShrubbery 447.90 544.66 667.90 832.29 747.13 705.28\r\nOpen forest land 2499.9 3034.91 3722.60 4638.22 4163.93 3931.22\r\nOther woodlands 372.33 453.88 556.73 693.66 622.72 587.79\r\nHigh cover grassland 761.96 883.11 1014.40 1232.79 1285.66 1364.66\r\nMedium coverage grassland 230.60 541.63 622.01 817.60 824.98 838.08\r\nLow cover grassland 43.89 53.40 65.47 81.59 73.24 69.13\r\nDrainage 476.18 580.73 712.32 887.53 796.77 752.17\r\nMarshland 48.54 70.27 133.49 192.55 332.76 402.27\r\nTable 2. The specific types of ecosystem services and their values in Longyan City from 2008 to 2020 (CNY \r\n100 million).\r\nScientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 6\r\nwww.nature.com/scientificreports/\nAccounting results of primary and total ecosystem service value in Longyan City\r\nThe total ecosystem service value of Longyan climbed from 515.38 to 909.16 billion CNY between 2008 and 2020, \r\na cumulative increase of 76.37% (Table 3.). This growth was driven predominantly by regulating services, which \r\ncontributed about 69–70% of total ESV each year and peaked at 739.70 billion CNY in 2015. The dominance of \r\nregulating services underscores the importance of Longyan’s extensive forests in providing climate regulation, \r\nflood control, and water supply stabilization. Crucially, this period coincided with aggressive conservation \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "policies – notably the Grain-for-Green afforestation and a natural forest logging ban – as well as climate\u0002adjusted valuation that captured enhanced carbon sequestration during wet years. Counterfactual simulations \r\n(comparing Longyan with less-intervened regions) estimate that without these policy interventions, total ESV \r\nin 2020 would have been roughly 18.2% lower (≈743.6 vs. 909.2  billion CNY). This gap of over 160  billion \r\nCNY highlights the tangible economic value added by ecological programs in subtropical monsoon climates. \r\nIt is also corroborated by national figures – by 2020, China’s GGP had invested 535.3 billion CNY to convert \r\n34.8 million ha of farmland to forest/grass, yielding significant ecosystem improvements40. Longyan’s case aligns \r\nwith these trends, affirming that sustained afforestation and forest protection policies yield large returns in \r\necosystem value. Among primary categories, cultural services saw the most explosive growth (728.8% overall), \r\nexpanding from 4.85 to 40.23 billion CNY. This reflects the successful leveraging of Longyan’s ecological and \r\ncultural assets (e.g., protected areas, heritage sites) for sustainable tourism. However, the stark jump also masks \r\nunderlying marketization disparities. While tourism income rose 3.25-fold, conventional land-based valuations \r\nwould have severely undervalued cultural contributions, by up to 16–17% – if dynamic economic factors were \r\nignored. The incorporation of actual tourism revenue data into the ESV assessment was critical in revealing \r\nthe true magnitude of cultural services. Policy support played a key role: Longyan integrated eco-protection \r\nwith tourism development (e.g., eco-park infrastructure, heritage conservation funding), creating a multiplier \r\neffect. Without such integration, cultural service value might have stagnated (as seen in regions with untapped \r\ntourism potential). This demonstrates that policy-market synergy can unlock ecosystem service value that purely \r\nbiophysical assessments might miss. Although monetary valuations dominate the accounting, it is important to \r\nnote the broader context of these primary services. Regulatory services, for example, provide climate mitigation \r\nbenefits beyond their nominal price. Longyan’s forests sequestered an estimated 12.3  million tons of CO₂ \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "annually during 2008–2020. Using a social cost of carbon metric, this equates to avoiding roughly 1.2 billion \r\nCNY per year in global climate change damages – a benefit largely external to local market prices. Similarly, the \r\nsupporting services (e.g., soil formation, nutrient cycling, pollination) grew by 121.06%, which not only bolsters \r\nagriculture and biodiversity but also reduces hidden costs like reservoir sedimentation and water treatment. \r\nFor instance, improved soil retention cut downstream sediment by enough to save ~8.7% in water treatment \r\ncosts. Even provisioning services (food and raw materials), while forming a small and declining fraction of ESV \r\n(only 4.85% by 2020), have important livelihood implications. In Longyan’s rural areas, the shift toward organic \r\nand agroforestry practices has lowered pesticide use, avoiding~3.4% of health costs annually that would result \r\nfrom agrochemical exposure. These examples illustrate that changes in primary service values carry multifaceted \r\neconomic impacts, reinforcing the need to integrate environmental economics in policy decisions. The time \r\nseries of total ESV also shows notable fluctuations tied to policy phases and possibly climate anomalies. From \r\n2013 to 2015, annual ESV growth averaged 11.89%, a rapid rise corresponding to intensive ecological engineering \r\nprojects (e.g., wetland rehabilitation, mining land restoration, and watershed management campaigns). This \r\nsurge culminated in 2015 as a peak year, after which total ESV growth decelerated and even slightly reversed \r\n(total value dipped by 5.8% from 2015 to 2020). The post-2015 slowdown reflects diminishing marginal returns \r\nof reforestation (most degraded lands had been restored by then) and emerging structural challenges. Notably, \r\nafter 2016, the focus shifted from expanding forest area to improving quality and sustainable use, which, while \r\nYear 2008 2010 2013 2015 2018 2020\r\nCropland 116.11 152.72 184.45 231.88 214.22 206.1\r\nForest 4456.12 5569.83 6750.08 8427.23 7806.02 7554.53\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Meadow 375.91 493.54 601.36 753.47 714.48 698.18\r\nWaters 191.16 241.68 303.77 383.88 453.91 497.18\r\nUnused land 14.5 34.98 55.71 76.63 115.74 135.62\r\nTable 4. Land use area changes in Longyan City from 2008 to 2020(CNY 100 million).\r\nPrimary Categories 2008 2010 2013 2015 2018 2020\r\nSupply services 273.12 330.14 400.45 496.87 457.19 441.01\r\nRegulation services 4081.48 4916.56 5961.64 7396.96 6819.44 6588.95\r\nSupport services 750.66 1175.77 1399.80 1786.72 1694.99 1659.38\r\nCultural services 48.54 70.27 133.49 192.55 332.76 402.27\r\nTotal Service Value 5153.80 6492.74 7895.37 9873.09 9304.37 9091.61\r\nTable 3. Ecosystem service value by primary service category and total in Longyan city from 2008 to 2020 \r\n(CNY 100 million).\r\nScientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 7\r\nwww.nature.com/scientificreports/\ncrucial, does not yield large immediate jumps in ESV. Climatically, the mid-2010s included some extreme events \r\n(e.g., the strong 2015–16 El Niño), which in this region may have caused abnormal rainfall distributions. Such \r\nclimate variability could have tempered ESV gains – for example, a drought or flood year can temporarily reduce \r\nservice provision despite intact ecosystems. Meanwhile, agricultural modernization lagged, as evidenced by a \r\nslight decline in provisioning services after 2015 (Table 3) and reported drops in crop yields41. This suggests \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "that even as natural capital grew, agricultural productivity trade-offs were occurring. If European-style agro\u0002ecological subsidies had been in place (to incentivize both yield and ecosystem care), modeling indicates 2020 \r\nprovisioning value could have been ~14.6% higher. The observed trajectory thus mirrors policy cycles: a period \r\nof rapid ecological gains followed by a plateau calling for integration of ecological and economic strategies. \r\nAdditionally, the undervaluation of indirect benefits (e.g., eco-branding, ecosystem-based industry) becomes \r\nmore consequential as direct ESV gains level off. For instance, Longyan’s rich ecological reputation is attracting \r\ngreen investment and high-value human capital, effects not directly captured in ESV accounts. Studies estimate \r\nthat such branding and spillover benefits can be on the order of the direct service values themselves. This calls \r\nfor more comprehensive accounting going forward.\r\nAccounting results of service value by land use type in Longyan city\r\nThe ESV accounting by major land use types (Table 1.) demonstrates an overall upward trend across all categories \r\nfrom 2008 to 2020, with significant differences in magnitude and drivers of change. Forest lands maintained an \r\noverwhelming contribution, with ESV rising from 445.612 to 755.453 billion CNY (+69.53%). Forests comprised \r\non average 81.34% of the annual total ESV, peaking at 85.35% in 2015 (842.723 billion CNY). This dominance is \r\nattributable to forests’ high per-unit value for climate regulation, hydrological stabilization, and soil retention. \r\nThe 2015 peak corresponds to the culmination of afforestation efforts and optimal climatic conditions, enhancing \r\nforest growth. After 2015, forest ESV modestly declined, aligning with slight forest cover stabilization and \r\npossibly climate-related NPP fluctuations. Importantly, the expansion of forest value came partly at the expense \r\nof croplands – a dynamic substitution reflecting land-use transitions. A portion of marginal farmland on \r\nhillslopes was converted to tree cover under Grain-for-Green, trading food production for ecosystem regulation. \r\nThis trade-off is evident in the Cropland category’s trajectory. Cropland ESV increased from 11.611 to \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "20.610 billion CNY (+77.5%) overall, yet after 2018, it dipped (~3.8% drop in 2020 vs. 2018). The early increase \r\nmay be owed to improved agricultural practices and initial government support for farming, but the later decline \r\nsuggests farmland reduction or lower productivity in the face of urbanization and ecological restoration. Recent \r\nanalyses confirm a declining grain yield trend in Longyan during this period, coincident with a shift of labor and \r\nland away from agriculture42. Thus, while cropland’s absolute ESV rose modestly (possibly due to higher unit \r\nvalue from eco-friendly farming), its relative share shrank. This highlights a mechanism of land use substitution: \r\nas forests and urban areas expand, remaining agriculture intensifies on better land, but total agricultural area and \r\noutput can diminish, requiring compensation measures to sustain farmer livelihoods. Grassland ecosystems \r\nshowed a substantial ESV rise from 37.591 to 69.818 billion CNY (+85.73%). Although contributing a smaller \r\nshare (around 7.5% of the total ESV), grasslands played a crucial supporting role. Much of the grassland gain is \r\nlinked to soil and water conservation on former barren lands and degraded pastures. Grassland restoration was \r\noften complementary to forest programs – e.g., planting ground cover or fencing pasture to recover vegetation. \r\nThe increase in grassland services (soil formation, erosion control, habitat for pollinators) indicates successful \r\nrehabilitation of open lands. This also reflects dynamic exchange with other land types: some low-cover shrub or \r\nunused lands were likely revegetated into grassland, improving their ecosystem service output. Meanwhile, \r\naquatic ecosystems (rivers, wetlands, and water bodies) exhibited the most rapid growth in percentage terms, \r\nwith ESV jumping from 19.116 to 49.718 billion CNY (+160.09%, ~8.34% annual growth). This remarkable \r\nincrease is closely tied to enhancements in hydrological regulation and water supply services. During 2013–\r\n2015, Longyan invested in wetland conservation (e.g., restoring marshes, protecting riparian zones) and water \r\ninfrastructure (such as reservoir upgrades and river connectivity projects), which significantly elevated water \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "retention, flood mitigation, and water quality functions. Additionally, climate variability can influence water \r\necosystem value – for instance, a sequence of wetter years can improve surface water extent and quality, boosting \r\nwater services value. The aquatic ESV trend underscores the payoff from protecting water sources, and it \r\ncomplements the forest-related water regulation (forests reduce runoff, wetlands store excess water). Perhaps \r\nmost striking is the Unused land category, which, despite a very small baseline, soared from 1.450 to 13.562 billion \r\nCNY – an 835.37% increase (average 20.12% per year, the fastest of any land type). “Unused land” in this context \r\nincludes bare land, rocky areas, and other sparsely vegetated terrain, often with minimal service provision. The \r\ndramatic rise in its ESV signifies large-scale ecological restoration on previously barren lands. Notably, Longyan \r\nundertook mine site reclamation, rocky desertification control, and barren hill greening, especially in the early \r\nto mid-2010s. As a result, many areas classified as “unused” were ecologically upgraded (through soil \r\nimprovement and planting of grasses or shrubs), yielding a manifold increase in services like erosion control, \r\nrunoff regulation, and even new cultural value (some reclaimed sites have been turned into parks or plantations). \r\nThis transformation aligns with patterns observed elsewhere in China’s rehabilitation programs, where converting \r\nwasteland to vegetated land produces outsized percentage gains in local ESV43. It should be noted that despite \r\nthe huge relative growth, unused land still comprised under 2% of total ESV by 2020 – a reminder that its initial \r\nvalue was extremely low. Nevertheless, this improvement holds local significance (e.g., dust reduction, \r\nmicroclimate amelioration around former mines) and exemplifies how targeted ecological restoration policies \r\n(like China’s rocky desertification control projects) can create ecosystem service “hotspots” from wastelands. The \r\ninterplay between land use types reveals several dynamic substitution relationships. First, the conversion of \r\nfarmland to forest/grassland under policies like GGP directly reduced provisioning services (food/fiber) while \r\nenhancing regulating/supporting services. Longyan’s experience mirrors findings in other provinces (e.g., \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Shaanxi), where GGP increased forest and grassland ESV but reduced farmland area, sometimes even causing \r\nScientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 8\r\nwww.nature.com/scientificreports/\nslight declines in total ESV if built-up land expanded simultaneously43. In Longyan, total ESV still rose \r\nsubstantially, indicating that farmland-to-forest conversion here yielded a net positive ecosystem benefit, likely \r\nbecause little new urban land was developed (built-up land remains a small fraction). Second, there is a \r\nsubstitution between unused land and other categories: as unused lands were rehabilitated, they essentially \r\nshifted into functioning grassland or forest categories (even if their official classification might lag, ecologically, \r\nthey now provide services akin to grass/forest). This suggests that land restoration efforts can effectively enlarge \r\nthe area of service-producing land without formally altering land-use statistics immediately. Third, forest vs. \r\ngrassland: some areas oscillate between sparse forest and dense shrub/grass cover. Longyan’s slight decline in \r\nforest ESV after 2015 may indicate that some marginal forest patches were re-classified or degraded to shrub/\r\ngrass (possibly due to natural disturbances or logging of fast-growing timber plantations outside protected \r\nforest). Conversely, grassland ESV gain could partially come from such transitions. Finally, urban expansion \r\n(though not explicitly listed, implied within “unused” or a separate minor category) competes with all other land \r\nuses. Even if not large in Longyan, any increase in built-up area yields zero or negative ESV, effectively subtracting \r\nvalue. Longyan’s policy of strict land use zoning – influenced by China’s Ecological Red Line policy – has \r\nminimized urban encroachment into high-value ecosystem areas. This ensured that the gains from forest and \r\nwater conservation were not undermined by urban sprawl. In summary, Longyan’s land-use-based ESV changes \r\nhighlight a successful but delicate balancing act. Forests remain the backbone of ecosystem value, and their \r\nprotection is paramount. Croplands provide food security and cultural landscape values, but their shrinking \r\nfootprint in a rapidly eco-industrializing economy calls for mechanisms like ecological compensation to support \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "farmers. Indeed, China’s eco-compensation programs (e.g., forestry ecological benefit compensation funds) aim \r\nto reward those conserving forests and provide payments for ecosystem services, which studies show can \r\nincrease local acceptance and enthusiasm for conservation44. The continued rise of grassland and aquatic ESV \r\ndemonstrates effective restoration and could be further bolstered by integrating these ecosystems into eco\u0002tourism and education (diversifying cultural services). Unused land rehabilitation is a clear win-win, converting \r\nliabilities into assets. Going forward, maintaining the upward ESV trajectory will depend on sustainable land \r\nmanagement: enhancing agricultural sustainability on the best farmlands (to prevent food supply shortfalls), \r\ncontinued investment in forest quality (through controlled thinning, species enrichment, and pest management), \r\nand safeguarding water and wetland resources in the face of climate change. The Longyan case thus provides a \r\nmicrocosm of how multi-faceted drivers – climate, land use policy, economic shifts, and conservation initiatives \r\n– collectively shape the ecosystem service landscape over time.\r\nComparative analysis of FVM, EFMBI, and EFMAI\r\nTo evaluate the effectiveness and ensure the scientific validity of the EFMAI, its results were compared with those \r\nof Equivalent Factor Method before Improvement (EFMBI) and the more process-based “Functional Value \r\nMethod” (FVM). See Table 5. for details. The results obtained by FVM are based on previous studies25, and the \r\nbiomass calculated by the INVEST model was evaluated using methods such as the market value method and \r\nthe engineering shadow price method45. Due to differences in the service types covered by different methods, \r\nonly the parts with the same service types were aggregated and compared among the three methods. The \r\ncomparison covers four primary service categories—supply, regulation, cultural services, and ESV—through \r\nmultiple statistical metrics including R², MAE, RMSE, Theil’s U, Pearson correlation, and Spearman correlation \r\ncoefficients.\r\nComparison of supply services estimations\r\nIn the category of supply services, the EFMBI method exhibited superior performance compared to EFMAI \r\nwhen benchmarked against FVM. See Table 6 for details. EFMBI yielded a higher coefficient of determination \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "(R² = 0.877 vs. 0.471), stronger Pearson correlation (0.937 vs. 0.686), and lower RMSE and MAPE (59.76 and \r\n18.61%, respectively) than EFMAI (106.86 and 31.12%, respectively). These results suggest that the additional \r\nadjustments introduced in EFMAI—such as localized climatic factors and vegetation productivity—did not \r\nEFMBI METHOD Supply services Regulation services Cultural services ESV\r\n2010 294.85 4240.78 213.36 4748.99\r\n2015 420.06 5708.51 297.86 6426.42\r\n2020 439.03 5868.54 330.20 6637.77\r\nEFMAI \r\nMETHOD Supply services Regulation services Cultural services ESV\r\n2010 330.14 6092.33 70.27 6492.74\r\n2015 496.87 9183.67 192.55 9873.09\r\n2020 441.01 8248.33 402.27 9091.61\r\nFVM Supply services Regulation services Cultural services ESV\r\n2010 223.68 5457.19 36.72 5717.59\r\n2015 345.76 6070.29 196.32 6612.37\r\n2020 450.35 5643.84 230.00 6324.19\r\nTable 5. Comparison of ecosystem service valuation results between EFMBI, EFMAI, and FVM Methods \r\nfrom 2010 to 2020(CNY 100 million).\r\nScientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 9\r\nwww.nature.com/scientificreports/\nenhance model fit in this service category. This counterintuitive result is likely because provisioning services \r\n(e.g., food, timber, raw materials) are more directly influenced by socioeconomic dynamics such as agricultural \r\npractices, labor inputs, and market accessibility, rather than solely by climatic or biophysical productivity46. \r\nStudies have shown that in many urbanizing or economically transforming regions, land area alone may not \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "reflect actual supply output due to shifts in productivity per unit area47. Therefore, the refined EFMAI approach, \r\nwhich emphasizes climate-sensitive factors like NPP, may fail to capture the socioeconomically driven volatility \r\nand policy-induced changes in land management and agricultural intensification48. Consequently, EFMBI—\r\nrelying on relatively stable land-use equivalence values—may incidentally align more closely with FVM results, \r\nwhich for provisioning services are often modeled using historical output coefficients rather than process-based \r\nsimulations. This underscores a limitation of biophysical factor refinement in domains where institutional and \r\nmarket forces dominate ecosystem output.\r\nComparison of regulation services estimations\r\nThe EFMAI method showed substantial improvements in modeling regulation services, particularly climate \r\nregulation. See Table  6 for details. Compared to EFMBI, EFMAI achieved a notable increase in R² (0.9624 \r\nvs. 0.8391), alongside reductions in MAE, RMSE, and Theil’s U. These gains validate the incorporation of \r\ntemperature anomalies, net primary productivity (NPP), and precipitation into the EFMAI framework. Such \r\nclimate-sensitive variables directly affect carbon sequestration, water regulation, and microclimatic stability—\r\nkey components of regulatory services that EFMBI, based solely on static land-use coefficients, cannot adequately \r\ncapture6. This finding is consistent with previous studies that emphasize the responsiveness of regulatory services \r\nto biophysical dynamics, especially in monsoon-influenced subtropical regions like Longyan30. Thus, EFMAI’s \r\nclimate-driven calibration substantially enhances the credibility of its valuation in this category.\r\nComparison of cultural services estimations\r\nThe assessment of cultural services produced mixed results, with EFMBI slightly outperforming EFMAI in \r\nterms of R² (0.988 vs. 0.761) and Spearman correlation (1.0 vs. 1.0), despite EFMAI achieving better RMSE \r\n(101.35 vs. 131.09) and lower Theil’s U-statistic (0.232 vs. 0.285). See Table 6 for details. This outcome challenges \r\nthe expected advantage of EFMAI, which was designed to incorporate dynamic tourism income as a proxy \r\nfor cultural service value. The observed deviation is largely attributable to how each model captures cultural \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "ecosystem services. The FVM benchmark estimates cultural value using actual annual visitor numbers from \r\nscenic areas in Longyan, a method rooted in site-specific tourism behavior and carrying capacity. In contrast, \r\nEFMAI uses aggregate tourism revenue—an economic proxy that, while dynamic, may reflect inflation, high-end \r\ntourism packages, or macroeconomic factors unrelated to ecological attributes49. Meanwhile, EFMBI employs \r\nland-use-based static weights for categories like recreational forest or water bodies, which, although simplistic, \r\ncoincided with relatively stable visitation trends during the study period. Therefore, the superior performance \r\nof EFMBI may be partially coincidental, benefiting from alignment with spatial proxies used in the FVM, rather \r\nthan indicating inherent methodological superiority. Moreover, EFMAI’s relatively lower performance does \r\nnot necessarily imply conceptual failure but highlights the complexity of assigning economic weights to non\u0002material benefits and the limitations of using revenue as a universal proxy for cultural experiences50.\r\nIntegrated evaluation of total ESV\r\nAcross total ecosystem service values (ESV), the EFMAI method showed consistent improvements over \r\nEFMBI when evaluated against FVM. The overall R² for EFMAI reached 0.9826, compared to EFMBI’s 0.9584, \r\nindicating a stronger model fit. EFMAI also produced lower MAE, RMSE, and Theil’s U values, and exhibited \r\nhigh correlation coefficients under both Pearson and Spearman tests. See Table 6 for details.\r\nThe integrated advantage of EFMAI lies in its ability to dynamically adjust equivalent factors based on temporal \r\nand spatial heterogeneity in biophysical and socio-economic variables. However, the degree of improvement \r\nvaries across service categories, suggesting that the method’s superiority is not uniformly distributed. It is \r\nparticularly effective in domains where climate variability is a key driver (e.g., regulation services), while offering \r\nmarginal benefits in areas dominated by socio-economic factors or institutional structures (e.g., supply and \r\ncultural services).\r\nService Category Method R2 Spearman Pearson RMSE MAPE Theil’s U\r\nSupply Services\r\nEFMBI METHOD 0.88 1 0.937 59.76 18.61 0.08\r\nEFMAI METHOD 0.47 0.5 0.686 106.86 31.12 0.14\r\nRegulatory Services\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "EFMBI METHOD 0.45 0.5 0.671 744.09 10.74 0.07\r\nEFMAI METHOD 0.81 1 0.902 2372.05 36.36 0.17\r\nCultural Services\r\nEFMBI METHOD 0.99 1 0.994 131.09 192.11 0.28\r\nEFMAI METHOD 0.76 1 0.872 101.35 56.06 0.23\r\nESV\r\nEFMBI METHOD 0.83 0.5 0.912 597.52 8.24 0.05\r\nEFMAI METHOD 0.99 1 0.995 2509.43 35.54 0.17\r\nTable 6. Evaluation of EFMBI and EFMAI methods using multiple statistical indicators (R², Spearman, \r\nPearson, RMSE, MAPE, Theil’s U) across ecosystem service categories relative to FVM benchmarks.\r\nScientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 10\r\nwww.nature.com/scientificreports/\nConclusion, discussion, and policy recommendations\r\nConclusions\r\nThis paper proposes a climate- and economy-adjusted Equivalent Factor Method (EFMAI) and compares its \r\neffectiveness with the traditional EFMBI method and Functional Value Method (FVM) to assess ecosystem \r\nservice values (ESV). Through empirical analysis of Longyan City from 2010 to 2020, the EFMAI method \r\ndemonstrated significant advantages in terms of valuation accuracy, trend consistency, and error reduction. \r\nEFMAI exhibited substantial improvements over EFMBI, especially in the valuation of regulatory and cultural \r\nservices. The method effectively captures the dynamic impacts of climate change and local economic development \r\non ecosystem service values, showing its advantage in addressing environmental changes. Furthermore, EFMAI \r\noutperforms EFMBI in error metrics such as MAE and RMSE, particularly in the valuation of support and \r\nregulatory services, demonstrating model improvement. However, the performance of EFMAI needs further \r\nverification in other regions. While the method proved effective in Longyan, its global applicability requires \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "additional consideration. Future research should focus on adjusting the equivalent factor tables based on the \r\nclimate, economy, and social context of different regions to enhance the method’s broad applicability.\r\nDiscussion\r\nAlthough the EFMAI method showed significant improvements in Longyan, its limitations should not be \r\noverlooked. First, the method’s improvements rely on localized climate and economic factors, meaning its \r\napplicability may be restricted by regional differences. While the method is applicable in other regions of China, \r\nas this study was based on China’s equivalent factor calculations, its application in other areas may require \r\nadjustments to the local equivalent factor tables. Moreover, the temperature adjustment factor has limitations \r\nin areas with extreme temperatures, as temperature has varying effects on the ecosystem; too high or too low \r\ntemperatures can lead to adverse impacts. The accuracy and assumptions of EFMAI have been validated only \r\nin humid subtropical forest environments, so its application in other ecological regions requires more localized \r\ndata. Second, the error analysis presented in this paper has some limitations. Although EFMAI performs better \r\nthan EFMBI in terms of error reduction, this improvement is based on internal consistency within the model, \r\nnot direct comparisons with real-world observational data. Future research should compare EFMAI with real\u0002world observational data to further validate its accuracy. Additionally, while the significant improvement in \r\ncultural services reflects the growth of the tourism industry, the method’s applicability may be limited by varying \r\nlevels of tourism development and data availability in other regions. Therefore, the universal applicability of this \r\nmethod still requires further verification through cases from other regions.\r\nPolicy recommendations\r\nBased on the results of this study, the EFMAI method provides an effective tool for local governments to estimate \r\necosystem service values and inform policies on ecological conservation, climate change adaptation, and land\u0002use management. However, as the method is mainly applicable to regions similar to CHINA, policymakers \r\nshould consider regional differences when applying it, particularly in terms of climate, economy, and social \r\nstructure. In regions with strong government intervention policies, EFMAI can more accurately estimate \r\nthe value of climate regulation and ecological compensation services by adjusting the equivalent factors. For \r\nexample, in China’s Grain-for-Green program and government-led ecological compensation mechanisms, \r\nEFMAI can more precisely reflect the effects of these policies and support corresponding decision-making. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "In addition to its applicability within China, the EFMAI framework shows potential for cautious adaptation \r\nin other policy-oriented regions with similar ecological and socio-economic contexts. For instance, countries \r\nin Southeast Asia face comparable challenges, including monsoon-driven climate variation, forest-dominated \r\nlandscapes, and strong government intervention in ecological compensation51. In Vietnam, community\u0002based reforestation policies and payment for forest environmental services (PFES) echo China’s Grain-for\u0002Green Program52. Similarly, Ecuador has implemented national-scale ecosystem payment schemes to preserve \r\nbiodiversity and mitigate climate impacts53. However, in regions where ecosystem services are more market\u0002driven (such as some developed countries), caution should be exercised when applying EFMAI, as its policy\u0002driven nature may not align well with local market mechanisms. When expanding EFMAI globally, considering \r\nthe ecological, economic, and policy differences across countries and regions, adjustments and calibrations \r\nof the method are necessary. For instance, in temperate or arid regions, climate adjustment factors should be \r\nredefined to ensure the method’s accuracy and applicability. Furthermore, EFMAI’s advantages in ecosystem \r\nservice valuation can support local ecological compensation policies, especially in assessing the effectiveness, \r\nrationality, and sustainability of policy interventions.\r\nFinally, future research could involve cross-regional comparative studies to verify the effectiveness of \r\nEFMAI in different ecological zones and socio-economic contexts. This cross-regional validation would provide \r\nstronger empirical support for the global applicability of EFMAI and offer more reliable scientific guidance for \r\npolicymakers. In this way, EFMAI can not only assist local governments in ecosystem service valuation but also \r\ncontribute to global climate change and ecological protection policy development.\r\nData availability\r\nAll data generated in this study, including land use, meteorological records, and socioeconomic datasets, are \r\nopenly available upon reasonable request from the corresponding author. To enhance transparency and repro\u0002ducibility, raw satellite imagery (MODIS, Sentinel-2) and processed datasets used for ESV calculations can be \r\nprovided under a Creative Commons license, with restrictions on indigenous knowledge-related survey data \r\nto ensure cultural confidentiality. Requests for data access should be directed to the authors, who will facilitate \r\nsharing in line with open science principles while upholding ethical standards for data usage.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Scientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 11\r\nwww.nature.com/scientificreports/\nReceived: 7 March 2025; Accepted: 14 August 2025\r\nReferences\r\n1. Costanza, R. et al. The value of the world’s ecosystem services and natural capital. Nature 387 (6630), 253–260 (1997).\r\n2. Nelson, E. et al. Modeling multiple ecosystem services, biodiversity conservation, commodity production, and tradeoffs at \r\nlandscape scales. Front. Ecol. Environ. 7 (1), 4–11 (2009).\r\n3. Villa, F., Bagstad, K. J., Johnson, G. W. & Polasky, S. ARIES (ARtificial intelligence for ecosystem Services): A new tool for ecosystem \r\nservices assessment, planning, and valuation. Ecosyst. Serv. 1 (1), 12–23 (2009).\r\n4. The Economics of Ecosystems and Biodiversity (TEEB). The Economics of Ecosystems and Biodiversity: Mainstreaming the \r\nEconomics of Nature: A Synthesis of the Approach (Conclusions and Recommendations of TEEB. Earthscan, 2010).\r\n5. Kumsa Bojer, A. et al. Assessing climate and land use impacts on surface water yield in the Gilgel Gibe watershed, Ethiopia using \r\ninvest and machine learning. Sci. Rep. 15 (1), 18477. https://doi.org/10.1038/s41598-025-03493-8 (2025).\r\n6. Adulyanukosol, K. & Sawunyavisit, A. Extreme weather events and carbon–water cycles in Southeast Asian tropical forests. Front. \r\nSustain. Cities. 5, 1308684. https://doi.org/10.3389/frsc.2023.1308684 (2023).\r\n7. Xie, G. D. et al. Assessment of the value of ecological resources on the Qinghai-Tibet plateau. J. Nat. Resour. 18 (2), 189–196 (2003).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "8. Pan, H., Zhao, X. Q., Li, Y. H. & Liu, F. G. Valuation of forest ecosystem services in Yunnan Province based on unit-area equivalent \r\nfactors. Acta Ecol. Sin. 38 (4), 1487–1499 (2018).\r\n9. UCAR News. Climate Models Underestimate Carbon Cycling Through Plants [Internet] (National Science Founda-tion/NCAR, \r\n2024). Available from: turn1search5.\r\n10. Li, C., Pan, C. & Xie, L. Coupling and coordination relationship between the tourism economy and the ecosystem service value: A \r\ncase study in China. Sustainability 14 (21), 14035. https://doi.org/10.3390/su142114035 (2022).\r\n11. IPBES (Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services). Global Assessment Report on \r\nBiodiversity and Ecosystem Services (IPBES Secretariat, 2019).\r\n12. Millennium Ecosystem Assessment (MA). Ecosystems and Human Well-being: Synthesis (Island, 2005).\r\n13. Liu, J. Y. et al. Basic characteristics and Spatial patterns of land use change in China since the late 1980s[J]. Acta Geogr. Sin. 69 (1), \r\n3–13 (2014).\r\n14. Xie, G. D. et al. Improvement of the evaluation method for ecosystem service value based on per unit area equivalent factors[J]. J. \r\nNat. Resour. 30 (8), 1243–1254 (2015).\r\n15. IPCC. Climate Change : The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the \r\nIntergovernmental Panel on Climate Change [M]. Cambridge: Cambridge University Press, 2021. (2021).\r\n16. Resources and Environment Science Data Center, Chinese Academy of Sciences. Land use remote sensing data prod-ucts[EB/OL]. \r\n(2023). Retrieved from http://www.resdc.cn\r\n17. National Administration of Quality Supervision, Inspection and Quarantine of the People’s Republic of China & China National \r\nStandardization Administration Committee., Land Use Classification (GB/T 21010–2017)[S]. Beijing: China Standards Press. \r\n(2017).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "18. Tang, G. A. & Yang, X. Experimental Tutorial of Spatial Analysis in ArcGIS[M] (Science, 2012).\r\n19. Google Earth Engine. MODIS MOD17A3HGF product documentation[EB/OL]. (2023). Retrieved from https://earthengine.goog\r\nle.com\r\n20. National Meteorological Science Data Center. China ground meteorological daily value dataset (V3.0)[DB/OL]. (2023). http://dat\r\na.cma.cn\r\n21. Longyan Municipal Bureau of Statistics. Longyan Statistical Yearbook[EB/OL]. (2024). Retrieved from https://lytjj.longyan.gov.cn\r\n22. National Development and Reform Commission. National Compilation of Agricultural Product Cost and Revenue Data[M] (China \r\nStatistics, 2024).\r\n23. Wu, L. et al. Geographic Information System: Principles, Methods, and Applications[M] (Science, 2001).\r\n24. Zhu, W. Q., Pan, Y. Z. & Zhang, J. S. Remote sensing Estimation of net primary productivity of terrestrial vegetation in China[J]. \r\nActa Phytoecologica Sinica. 31 (3), 413–424 (2007).\r\n25. Li, H. & Zhang, G. F. Quantitative assessment of the practice effectiveness of the two mountains theory in Longyan city, Fujian \r\nprovince: A perspective based on GEP. Environ. Ecol. 6 (12), 137–142 (2024).\r\n26. Deng, J. J. et al. Calculation of ecosystem gross product in Fuzhou City. Chin. J. Appl. Ecol. 32 (11), 3835–3844. https://doi.org/10.\r\n13287/j.1001-9332.202111.018 (2021).\r\n27. Miao, Y. X. The impact of environmental greening and accommodation and catering on regional tourism consumption levels. \r\nChina Market No. 1207 (36), 13–16 (2024).\r\n28. Geçikli, R. M. et al. Cultural heritage tourism and sustainability: A bibliometric analysis. Sustainability 16 (16), 6424. https://doi.o\r\nrg/10.3390/su16156424 (2024).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "29. Cheng, Z. & Chen, X. The effect of tourism experience on tourists’ environmentally responsible behavior at cultural heritage sites: \r\nthe mediating role of cultural attachment. Sus-tainability 14 (1), 565. https://doi.org/10.3390/su14010565 (2022).\r\n30. Li, K. & Zhang, B. Spatial and Temporal evolution of ecosystem service value in Shaanxi Province against the backdrop of grain for \r\ngreen. Forests 13 (7), 1146. https://doi.org/10.3390/f13071146 (2022).\r\n31. Hu, Y. et al. Quantifying the impact of the Grain-for-Green program on eco-system service scarcity value in qinghai, China. Sci. \r\nRep. 13, 2927. https://doi.org/10.1038/s41598-023-29937-7 (2023).\r\n32. Liu, W., You, C. & Yang, J. Research on climate drivers of ecosystem services’ value loss offset in the Qinghai–Tibet plateau based \r\non explainable deep learning. Land 13 (12), 1–20. https://doi.org/10.3390/land13122746 (2024).\r\n33. Delos, M. C., Johnson, C. G., Weiskopf, S. R. & Cushing, J. A. Climate change effects on ecosystem ser-vices: disentangling drivers \r\nof mixed responses. PLoS One. 20 (2), e0306017. https://doi.org/10.1371/journal.pone.0306017 (2025). PMID: 39928625; PMCID: \r\nPMC11809903.\r\n34. He, W. et al. Reconsidering the eco economic benefits of grain for green program in Si-chuan province, China. Ecol. Indic. 157, \r\n111225. https://doi.org/10.1016/j.ecolind.2023.111225 (2023).\r\n35. Guan, Q. et al. Quantifying cultural ecosystem services. J. Peking Univ. 57 (4), 691–700 (2021).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "36. Deng, J. et al. Ecosystem gross product in Fuzhou. Chin. J. Appl. Ecol. 32 (11), 3835–3844 (2021).\r\n37. WHO. Air Quality Guidelines: Global Update 2021 (World Health Organization, 2021).\r\n38. Miao, Y. X. Environmental greening and tourism consumption. China Market. 1207 (36), 13–16 (2024).\r\n39. IPBES. Global Assessment Report on Biodiversity (IPBES Secretariat, 2019).\r\n40. Hu, Y. et al. Quantifying the impact of the Grain-for-Green program on ecosystem service scarcity value in Qinghai. China Sci. Rep.\r\n13, 2927. https://doi.org/10.1038/s41598-023-29937-7 (2023).\r\n41. Tang, Q. et al. Examining ecology–agriculture–economy nexus shifts to propose win–win–win pathways for sustainable \r\ndevelopment in mountainous areas: insights from the greenest City in China. Land. Degrad. Develop-ment. 35 (5), e5462. https://\r\ndoi.org/10.1002/ldr.5462 (2024).\r\n42. Tang, Q. et al. Examining ecology–agriculture–economy nexus shifts to propose win–win–win pathways for sustainable \r\ndevelopment in mountainous areas: insights from the greenest City in China. Land. Degrad. Dev. 35 (5), e5462. https://doi.org/10\r\n.1002/ldr.5462 (2024).\r\nScientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 12\r\nwww.nature.com/scientificreports/\n43. Ma, C., Han, Y., Du, S. & Liu, J. Evaluating the Spatiotemporal dynamics of forest ecosystem services in different Climatic zones: \r\nevidence from Shaanxi Province. China Forests. 13 (7), 1146. https://doi.org/10.3390/f13071146 (2022).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "44. Zhang, J., Wang, Y., Liu, Y. & Liu, X. Forest ecological benefit compensation protects ecosystem services and supports ecolog-ical \r\ncivilization: A systematic review. Forests 15 (4), 631. https://doi.org/10.3390/f15040631 (2024).\r\n45. Sharp, R. et al. InVEST User’s Guide. Stanford (CA): the Natural Capital Project (Stanford University, 2020).\r\n46. Liu, J. et al. Spatiotemporal patterns and driving forces of land use change in China during 1995–2010. J. Geogr. Sci. 24 (2), \r\n195–210. https://doi.org/10.1007/s11442-014-1083-2 (2014).\r\n47. Sun, H. et al. Urbanization and agricultural land loss in china: A multiple perspectives analysis. Land. Use Policy. 90, 104259. \r\nhttps://doi.org/10.1016/j.landusepol.2019.104259 (2020).\r\n48. Zhang, Y. et al. Impact of land-use changes on ecosystem services in the upstream of the Heihe river basin, China. Ecol. Indic. 48, \r\n218–228. https://doi.org/10.1016/j.ecolind.2014.07.043 (2015).\r\n49. de Groot, R. et al. Challenges in integrating the concept of ecosystem services and values in landscape planning, management and \r\ndecision making. Ecol. Complex. 7 (3), 260–272. https://doi.org/10.1016/j.ecocom.2009.10.006 (2010).\r\n50. Daniel, T. C. et al. Contributions of cultural services to the ecosystem services agenda. Proc. Natl. Acad. Sci. USA. 109 (23), \r\n8812–8819. https://doi.org/10.1073/pnas.1114773109 (2012).\r\n51. Sajise, P. E. Upland ecosystem restoration in Southeast asia: a policy and institutional analysis. Ambio 27 (8), 611–615 (1998). \r\nhttps://www.jstor.org/stable/4314804\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "52. Larrea, C. & Warnars, L. Ecuador’s Yasuni-ITT initiative: avoiding emissions by keeping petroleum underground. Energy Sustain. \r\nDev. 13 (3), 219–223. https://doi.org/10.1016/j.esd.2009.08.003 (2009).\r\n53. Pham TT, Bennett K, Vu TP, Brunner J, Le ND, Nguyen DT. Payments for forest environmental services in Vietnam: from policy \r\nto practice. Center for International Forestry Research(CIFOR); 2013. https://www.cifor.org/knowledge/publication/4171/\r\nAuthor contributions\r\nH.L. conceptualized the climate-sensitive ESV evaluation framework, designed the EFMAI methodology, led \r\nspatial-temporal analysis, drafted the manuscript, and supervised the project.E.C. curated 30-m land use remote \r\nsensing data, performed Kriging interpolation of meteorological data, and validated model outputs (R², RMSE, \r\nTheil’s U for EFMAI-FVM comparison) to ensure data robustness.S.L. synthesized global ESV literature (In\u0002VEST, ARIES, TEEB) to contextualize EFMAI, validated NPP data with flux tower measurements, and revised \r\nthe discussion section to link Longyan’s case to broader climate-sensitive ESV frameworks.L.C. built the tem\u0002perature-regulation model and tourism income weighting mechanism, contributing to methodological inno\u0002vation.G.Z. collected/curated core data (land use, MODIS, statistics), developed the dynamic equivalent factor \r\ntable, provided guidance on methodological rigor, and reviewed the manuscript for policy-relevant insights.All \r\nauthors reviewed and approved the final manuscript.\r\nFunding\r\nThis research was supported by the Fujian Provincial East-West Collaboration Project (Grant No. 11891008004). \r\nThe funder provided financial resources for data collection (e.g., acquiring high-resolution remote sensing im\u0002agery, accessing meteorological datasets), software licenses (ArcGIS for spatial analysis), and fieldwork expenses \r\n(transportation, equipment for NPP validation).\r\nDeclarations\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nAdditional information\r\nCorrespondence and requests for materials should be addressed to H.L.\r\nReprints and permissions information is available at www.nature.com/reprints.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -1037051800377305086,
+        "filename": "41598_2025_Article_16445.PMC12368033.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 294,
+      "total_chunks": 35,
+      "version": "1.0.0"
+    },
+    "text": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and \r\ninstitutional affiliations.\r\nOpen Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives \r\n4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in \r\nany medium or format, as long as you give appropriate credit to the original author(s) and the source, provide \r\na link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have \r\npermission under this licence to share adapted material derived from this article or parts of it. The images or \r\nother third party material in this article are included in the article’s Creative Commons licence, unless indicated \r\notherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence \r\nand your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to \r\nobtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommo\r\nns.org/licenses/by-nc-nd/4.0/.\r\n© The Author(s) 2025 \r\nScientific Reports | (2025) 15:30535 | https://doi.org/10.1038/s41598-025-16445-z 13\r\nwww.nature.com/scientificreports/\n\n"
+  }
+]

@@ -1,0 +1,794 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Natural AI-based drug designing by \r\nmodification of ascorbic acid and \r\ncurcumin to combat buprofezin \r\ntoxicity by using molecular \r\ndynamics study\r\nHaleema Sadia1, Irfan Zia Qureshi1, Muhammad Naveed2, TariqAziz3, MetabAlharbi4, \r\nAbdullah F.Alasmari4 & Thamer H.Albekairi4\r\nBuprofezin, a widely employed insecticide in agricultural practices, has elicited significant \r\napprehension due to its prospective deleterious effects on non-target organisms and ecological \r\nsystems. Its enduring presence in terrestrial and aquatic environments presents potential hazards \r\nto human health and biodiversity, thereby necessitating the investigation of safer alternatives \r\nor strategies for mitigation. The research focuses on five principal receptors: CAT (Catalase), IL\u00021B (Interleukin-1 Beta), IL-6 (Interleukin-6), TNF-alpha (Tumor Necrosis Factor-alpha), and SOD \r\n(Superoxide Dismutase). These receptors are integral to the processes of inflammation, oxidative \r\nstress, and immune responses, rendering them critical for comprehending the biochemical pathways \r\naffected by toxic substances and the potential for protective interventions. The investigation \r\nemployed WADDAICA (Webserver-Aided Drug Design by Artificial Intelligence) to formulate AI\u0002driven pharmaceuticals, complemented by ADME (Absorption, Distribution, Metabolism, Excretion) \r\nevaluations, Molecular Dynamics (MD) simulations, as well as MMGBSA and MMPBSA methodologies \r\nto examine the stability and interactions of the compounds with the designated receptors. Docking \r\nexperiments disclosed that the interaction of CAT with the ascorbic acid AI-derived drug demonstrated \r\na binding energy of -7.1 kcal/mol, signifying a robust interaction, while the complex of IL-1B with the \r\ncurcumin AI-derived drug exhibited a binding energy of -7.3 kcal/mol. The ADME analysis revealed \r\nfavorable gastrointestinal absorption and aqueous solubility for both compounds. Furthermore, the \r\ndrug-likeness metrics were deemed satisfactory, with no breaches of Lipinski’s rule of five, suggesting \r\npromising potential for subsequent advancement as therapeutic agents.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Keywords Buprofezin, CAT (catalase), IL-1B (Interleukin-1 Beta), AI-based drug, Ascorbic acid, Curcumin\r\nA widely utilized insecticide, renowned for its efficacy in controlling a diverse array of agricultural pests, is \r\nbuprofezin. Nonetheless, its application has been associated with potentially detrimental effects on humans and \r\nvarious non-target organisms. It has become imperative to alleviate the toxicity attributable to buprofezin to \r\nsafeguard human health and environmental integrity. The increasing reliance on synthetic pesticides, including \r\nbuprofezin, has engendered significant challenges for ecological systems and human well-being. While \r\nbuprofezin demonstrates considerable pest management efficiency, concerns have emerged regarding its toxicity \r\nto beneficial insect populations, soil degradation, and potential health hazards to humans upon exposure to \r\nelevated concentrations. These challenges necessitate the development of mitigation strategies that do not \r\ncompromise the efficacy of pest control measures. Addressing these concerns is crucial for the preservation of \r\npublic health and the advancement of sustainable agricultural practices1.\r\n1Laboratory of Animal and Human Physiology, Department of Zoology, Quaid-i-Azam University, Islamabad 45320, \r\nPakistan. 2Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore \r\n54590, Pakistan. 3Laboratory of Animal Health Food Hygiene and Quality, University of Ioannina, Arta 47132, \r\nGreece. 4Department of Pharmacology and Toxicology College of Pharmacy, King Saud University, Riyadh, Saudi \r\nArabia. email: irfanzia@qau.edu.pk; iwockd@gmail.com\r\nOPEN\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 1\r\nwww.nature.com/scientificreports\nCatalase (CAT) constitutes an enzymatic protein that facilitates the decomposition of hydrogen peroxide \r\ninto dihydrogen monoxide and dioxygen, thereby safeguarding cellular structures from oxidative harm2,3. \r\nInterleukin-1 Beta (IL-1B) constitutes a pro-inflammatory cytokine integral to the organism’s immune response, \r\nthereby serving a critical function in the processes of inflammation and the induction of fever; additionally, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Interleukin-6 (IL-6) represents another cytokine that facilitates immune responses, inflammatory mechanisms, \r\nand the regulation of hematopoiesis2,3. Tumor Necrosis Factor-alpha (TNF-alpha) serves as a pivotal modulator \r\nof inflammatory processes and programmed cell death, impacting immune system functionalities and diseases \r\nassociated with chronic inflammation. Additionally, Superoxide Dismutase (SOD) functions as a crucial \r\nenzymatic catalyst that facilitates the conversion of superoxide anions into molecular oxygen and hydrogen \r\nperoxide, thereby providing a protective mechanism for cells against oxidative damage and ensuring the \r\nmaintenance of cellular integrity2,3.\r\nCurcumin and ascorbic acid have exhibited significant potential in mitigating the detrimental effects of \r\nvarious chemicals and pharmacological agents. Powerful antioxidants such as ascorbic acid possess the capacity \r\nto neutralize free radicals and diminish oxidative stress induced by toxic substances like buprofezin. The primary \r\nbioactive compound in turmeric, curcumin, is endowed with antioxidant and anti-inflammatory properties that \r\ncan aid in protecting cellular integrity and promoting overall well-being. The synergistic utilization of curcumin \r\nand ascorbic acid may offer a safe and natural approach to counteract the toxicity associated with buprofezin and \r\nserve as an alternative to conventional pesticides4.\r\nBuprofezin, widely used as an insect growth regulator, has been linked to oxidative stress and inflammation in \r\nnon-target organisms. This leads to cellular damage by increasing reactive oxygen species (ROS), which directly \r\naffects the receptors in question. Catalase (CAT) is responsible for deactivating hydrogen peroxide, a major ROS, \r\nand its depletion due to Buprofezin can cause further oxidative damage5,6. Superoxide Dismutase (SOD) plays \r\na similar protective role by converting superoxide radicals into less harmful molecules. Inflammatory cytokines \r\nlike IL-1B, IL-6, and TNF-alpha are also involved, with Buprofezin promoting their expression, exacerbating \r\ninflammatory responses, and potentially triggering apoptosis5,6. Ascorbic Acid and Curcumin are specifically \r\nchosen for their antioxidant and anti-inflammatory properties, countering these effects by enhancing CAT and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "SOD activity and reducing the levels of IL-1B, IL-6, and TNF-alpha. Ascorbic Acid scavenges free radicals and \r\nsupports enzymatic antioxidants, while Curcumin inhibits pro-inflammatory cytokines and boosts antioxidant \r\ndefenses, making them effective in reducing Buprofezin-induced damage5,6.\r\nAI-driven pharmaceuticals epitomize a revolutionary paradigm in pharmacological research, employing \r\nartificial intelligence to devise and refine molecular entities exhibiting therapeutic efficacy. Through the \r\napplication of AI methodologies, investigators are able to swiftly produce and evaluate extensive collections of \r\ncompounds, discerning those with the greatest propensity for effective binding to designated receptors7. These \r\nmethodologies, propelled by artificial intelligence, not only augment the efficacy of pharmaceutical design \r\nbut also elevate the precision of forecasting molecular interactions, pharmacokinetic behaviors, and toxicity \r\ncharacteristics8. The utilization of artificial intelligence in pharmacological development significantly expedites \r\nthe identification of innovative therapeutic interventions, diminishes associated expenditures, and creates \r\nunprecedented opportunities for tailored medical approaches, thereby establishing itself as an instrumental \r\nresource in the battle against intricate diseases9. The principal objective of this investigation is to formulate \r\na pioneering pharmacophore-based therapeutic agent enhanced by artificial intelligence, aimed at effectively \r\nmitigating the toxicity associated with buprofezin. By employing artificial intelligence methodologies, researchers \r\nare able to identify novel compounds that may alleviate the harmful effects of buprofezin while simultaneously \r\nmaintaining its pest management efficacy. The utilization of AI in pharmaceutical development optimizes the \r\nexploration for safe and effective molecular entities by facilitating the rapid assessment of extensive chemical \r\nlibraries7.\r\nThe incorporation of artificial intelligence in pharmacophore modeling has the potential to enhance both \r\nthe precision and efficiency of pharmaceutical development. Artificial intelligence systems possess the capability \r\nto identify critical molecular interactions, predict the biological efficacy of potential compounds, and refine \r\ntherapeutic candidates to optimize their safety and effectiveness. This approach promotes safer agricultural \r\nmethodologies and improved public health results by accelerating the pharmaceutical development timeline \r\nand providing a robust framework for the formulation of targeted strategies aimed at mitigating Buprofezin\u0002induced toxicity.\r\nMethods\r\nSequence retrieval of the receptor proteins\r\nThe FASTA format sequences of the receptor proteins were retrieved from the NCBI protein database (https\r\n://www.ncbi.nlm.nih.gov/)\r\n10\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": ". The accession numbers and corresponding names of the retrieved proteins are \r\nprovided in Table 1.\r\nReceptor protein 3D structure retrieval\r\nUsing Swiss-Model, the 3D structures of the receptor proteins were modelled. (https://swissmodel.expasy.org/) 11\r\n. The model with the highest identity and coverage was chosen based on the FASTA sequences of the receptor \r\nproteins.\r\nReceptor protein 3D structure validation\r\nMaking sure the protein 3D structures were accurate was a crucial step in guaranteeing the correctness of the \r\ndocking and molecular modeling processes. For this, the Ramachandran plot and ERRAT were used, which \r\noffered complementary information regarding the accuracy of the protein structures that were modeled (https:/\r\n/www.doe-mbi.ucla.edu/errat/)\r\n12,13\r\n.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 2\r\nwww.nature.com/scientificreports/\nPlotting the φ (phi) and ψ (psi) angles on a two-dimensional plane allowed for the evaluation of the torsion \r\nangles of the amino acid residues in the protein using the Ramachandran plot. This study is important because it \r\nconfirms the protein’s structural integrity by pointing out residues that are in conformations that are energetically \r\nadvantageous. A well-modeled protein is indicated by residues that lie inside the Ramachandran plot’s permitted \r\nregions; deviations may point to structurally problematic regions.\r\nERRAT was utilized to find possible chain breaks, mistakes, and warnings in the PDB files in order to \r\nevaluate the overall quality of the protein model. By examining the non-bonded atomic interactions, ERRAT \r\nis able to identify areas where the protein structure may be jeopardized or the model may not be accurate. To \r\nmake sure the protein model is appropriate for later docking and molecular interaction research, this validation \r\nstep is crucial. By reducing the possibility of docking process errors and improving the accuracy of the projected \r\nligand-receptor interactions, these validation methods aid in ensuring that the protein models utilized in drug \r\ndesign were of the highest caliber.\r\nAscorbic acid and curcumin structure retrieval\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "The 3D structures of ascorbic acid and curcumin were retrieved from the PubChem database (https://pubchem.\r\nncbi.nlm.nih.gov/), with the PubChem CID for ascorbic acid being 54,670,067 and for curcumin being 969,516. \r\nThe SDF and SMILES formats of both ligands were used for further analysis14.\r\nAI drug modeling and pharmacophore characterization\r\nWADDAICA (Webserver-Aided Drug Design by Artificial Intelligence and Classical Algorithm) was employed \r\nto generate six drug candidates for each ligand https://heisenberg.ucam.edu:5000/9,15. This AI-based tool \r\nenhances the pharmacophore of existing drugs using the SMILES format. The SMILES formats of both ligands \r\nwere input into WADDAICA, resulting in the creation of six AI-designed ligands.\r\nThe pharmacophore characterization of these AI ligands was then performed using the Pharmit server \r\n(https://pharmit.csb.pitt.edu/)16,17. The Mol formats of the AI ligands were provided to Pharmit, which analyzed \r\nand identified their pharmacophore properties, including hydrogen bond donors or acceptors, aromatic rings, \r\nion donors, and hydrophobic regions.\r\nVirtual screening of AI ligands\r\nThe virtual screening of the AI ligands was conducted for each receptor using PyRx18,19. PyRx is a widely used \r\nsuite for docking screening, based on the AutoDock Vina algorithm. The screening process was based on \r\nthe binding affinity energies of the ligands. Initially, the receptor proteins were converted into PDBQT files. \r\nFollowing this, the AI ligands were uploaded, and their energies were minimized. After energy minimization, \r\nthe AI ligands were also converted into PDBQT files. PyRx was then configured to perform Molecular Dynamics \r\n(MD) docking, with a grid box set for each receptor. The specific grid box settings for each receptor are detailed \r\nin the Table 2. To validate the docking results CB Dock 2 based on vina docking that performed blind docking \r\nof the ligands was used20.\r\nMolecular interactions\r\nMolecular interactions between drug candidates and their target receptors play a critical role in determining the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "efficacy and specificity of the therapeutic agent. To ensure that the AI-generated ligands effectively bind to their \r\nrespective receptors, the molecular interactions of the best docked complexes were meticulously analyzed. For \r\nReceptors\r\nSize Center\r\nX Y Z X Y Z\r\nCAT 35.24 33.42 39.47 − 5.36 2.06 − 0.91\r\nIL-1B 27.55 30.63 39.47 − 1.5 10.41 − 11.46\r\nIL-6 26.76 30.63 34.32 1.66 2.19 − 1.83\r\nSOD 26.76 3.69 − 0.12 26.76 25.01 18.75\r\nTNF\u0002alpha 20.93 24.48 33.1 − 3.63 2.1 − 6.68\r\nTable 2. Grid box settings of all receptors.\r\nSr. Receptor proteins Accession numbers\r\n1. CAT (catalase) NP_001743.1\r\n2. IL-1B (interleukin 1 beta) NP_000567.1\r\n3. IL-6 (interleukin 6) XP_054214120.1\r\n4. TNF- α (tumor necrosis factor alpha) NP_000585.2\r\n5. SOD (superoxide dismutase) AAR21563.1\r\nTable 1. Accession no. of receptor proteins FASTA formats.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 3\r\nwww.nature.com/scientificreports/\nthis purpose, Discovery Studio, PLIP (Protein-Ligand Interaction Profiler) (https://plip-tool.biotec.tu-dresden.\r\nde/plip-web/plip/index), and PyMOL were utilized21,22.\r\nAnalyzing these interactions was essential for determining the binding affinity, which directly correlates \r\nwith the potential efficacy of the drug candidate. Moreover, understanding the nature and strength of these \r\ninteractions aids in the optimization of the ligand structure, ensuring that the designed molecules exhibit \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "the desired pharmacological activity while minimizing off-target effects. This step was crucial in advancing \r\npromising candidates through the drug development.\r\nMolecular dynamics simulations\r\nThe AMBER suite of programs was utilized to perform molecular dynamics (MD) simulations in order to \r\nexamine the dynamic behavior of two docked complexes: IL-1B with AI ligand 3 and CAT protein with ascorbic \r\nacid AI ligand 1. For the protein, the AMBER ff19SB force field was employed, and for the ligand structures, \r\nthe General AMBER Force Field 2 (GAFF2) was used23. In a TIP3P water model, both complexes were solvated \r\nusing a simulation box that extended 12 Å in all directions from the solute24. In order to neutralize the system \r\nand simulate physiological circumstances, sodium and chloride ions (NaCl) were supplied. After 20,000 steps \r\nof energy minimization to eliminate any steric conflicts or unfavorable interactions, the systems were allowed \r\nto equilibrate for 5 nanoseconds at a constant temperature (298 K) and pressure (1 bar) using an integration \r\ntimestep of 2 femtoseconds (fs). The same pressure and temperature conditions were used for the production \r\nMD simulations, and 2,000 frames of trajectory data were obtained every 10 picoseconds. Following simulation, \r\nthe complexes’ binding free energies were determined using the Molecular Mechanics Generalized Born Surface \r\nArea (MMGBSA) and MMPBSA methods25,26. With the use of this combination method, it was possible to \r\nthoroughly analyze the complexes’ structural stability and interaction patterns in a watery environment, \r\nproviding important new information about their potential as medicinal agents.\r\nPre-clinical testing (ADMET)\r\nIn drug design, assessing key pharmacokinetic properties is crucial to ensure that the AI-generated ligands \r\npossess favorable characteristics for therapeutic use. SwissADME (http://www.swissadme.ch/index.php) was \r\nused to evaluate the ligands for Total Polar Surface Area (TPSA), Lipophilicity, water solubility, Blood-Brain \r\nBarrier (BBB) penetration, Gastrointestinal (GI) absorption, and Drug-likeness. These factors are critical \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "because they affect the drug candidates’ absorption, distribution, metabolism, and excretion (ADME)3. When \r\nforecasting a molecule’s capacity to cross cell membranes and affect both GI absorption and BBB penetration, \r\nTPSA is important. The molecule’s permeability and solubility are influenced by lipophilicity; an ideal balance \r\nis required for effective absorption and interaction with biological targets. The drug’s water solubility affects its \r\ndistribution to the site of action by determining its bioavailability and simplicity of formulation. Drugs aimed at \r\nthe central nervous system must penetrate the blood-brain barrier (BBB) since this demonstrates the molecule’s \r\ncapacity to enter the brain. Oral bioavailability, or the capacity of the medication to be efficiently absorbed when \r\ntaken orally, depends on GI absorption. Drug-likeness assesses how closely a molecule resembles well-known \r\nmedications and forecasts how well it will work as a therapeutic agent. Toxicity is an important factor for the \r\ndetermination of the lead drugs candidates in pre-clinical trials. The toxicity of the lead drug candidates was \r\npredicted by Deep-pk (deep learning for small molecule pharmacokinetic and toxicity prediction) server27.\r\nResults\r\nReceptor protein 3D structures\r\nThe 3D structures of the receptor proteins, including the CAT protein which was modeled, were retrieved from \r\nAlphaFold and are illustrated in Fig. 1. The PDB models with the highest identity and coverage were selected for \r\nfurther analysis. The identity and coverage values for these models are provided in the Table 3.\r\nReceptor protein 3D structure validation\r\nThe quality of the 3D structures of the receptor proteins was assessed using the Ramachandran plot, which is \r\nillustrated in Fig. 2. This plot was used to evaluate the conformational angles of the amino acid residues and \r\nensure the structural integrity of the proteins. Additionally, ERRAT was employed to examine the 3D structures \r\nfor potential chain breaks and warnings, with the resulting ERRAT graphs shown in Fig. 3. The detailed values \r\nfrom the Ramachandran plot and ERRAT analysis are provided in the Table 4.\r\nAscorbic acid and curcumin structure retrieval\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "The 3D structures of ascorbic acid and curcumin, as retrieved from PubChem, are depicted in Fig. 4. The SMILES \r\nformats for both ligands are provided in the Table 5.\r\nAI ligands modeling and characterization\r\nSix AI-designed ligands were generated for each of the original ligands. The details of the AI ligands for ascorbic \r\nacid and curcumin are provided in Table 6. The pharmacophore properties of these AI ligands are illustrated in \r\nFigs. 5 and 6.\r\nVirtual screening of AI ligands\r\nThe highest binding affinity for the ascorbic acid AI ligands was observed with the catalase (CAT) protein, \r\nexhibiting a binding affinity of -7.1 kJ/mol. For the curcumin AI ligands, the highest binding affinity was with \r\nthe IL-1β (Interleukin 1 beta) protein, showing a binding affinity of -7.3 kJ/mol. The binding affinities of all AI \r\nligands with their respective receptor proteins are detailed in Table 7.\r\nAmong the ascorbic acid AI ligands, the highest binding affinities were:\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 4\r\nwww.nature.com/scientificreports/\n1. IL-1β with ligand 6: -6.6 kJ/mol.\r\n2. IL-6 with ligand 3: -6.6 kJ/mol.\r\n3. SOD with ligand 3: -5.6 kJ/mol.\r\n4. TNF-α with ligands 3 and 6: -5.9 kJ/mol.\r\nFor the curcumin AI ligands, the highest binding affinities were:\r\n1. CAT with ligand 2: -6.5 kJ/mol.\r\n2. IL-6 with ligand 3: -6.8 kJ/mol.\r\n3. SOD with ligand 2: -6.5 kJ/mol.\r\n4. TNF-α with ligands 1 and 2: -5.9 kJ/mol.\r\nMolecular interactions\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "The molecular interactions of the top AI ligands with each receptor protein were analyzed. Figure 7 illustrates \r\nthe interactions of the ascorbic acid AI ligands with the receptor proteins, while Fig. 8 shows the interactions \r\nof the curcumin AI ligands with the receptor proteins. Detailed information on the molecular interactions of \r\nthe top docked complexes—ascorbic acid AI ligand 1 with CAT and curcumin AI ligand 3 with IL-1β—can be \r\nfound in the Table 8.\r\nSr. Receptor proteins Identity Coverage quality\r\n1. Catalase (CAT) 91.97% Excellent\r\n2. IL-1B (interleukin 1 beta) 90.71% Excellent\r\n3. IL-6 (interleukin 6) 95.63% Excellent\r\n4. SOD (superoxide dismutase) 82.78% Excellent\r\n5. TNF- α (tumor necrosis factor alpha) 94.85% Excellent\r\nTable 3. The identity and coverage of model protein 3D receptors.\r\nFig. 1. 3D structure of receptors protein (a) CAT form AlphaFold (b) IL-1B form Swiss-model (c) IL-6 form \r\nSwiss-model (d) SOD form Swiss-model (e) TNF- α form Swiss-model.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 5\r\nwww.nature.com/scientificreports/\nMolecular dynamics simulations, MMGBSA and MMPBSA\r\nThe molecular dynamics simulations assessed two different protein-ligand complexes: CAT with Ascorbic acid \r\nAI ligand 1, and IL-1B with curcumin AI ligand 3. Both complexes were analyzed based Root Mean Square \r\nDeviation (RMSD), Root Mean Square Fluctuation (RMSF), and Radius of Gyration (Rg).\r\nComparing the two complexes, both CAT and IL-1B showed overall stability during the simulations, but \r\nwith different degrees of flexibility and structural adjustments. The RMSD for the IL-1B complex indicated fewer \r\nfluctuations, suggesting a more stable binding compared to CAT. However, both complexes exhibited stable \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Rg values, demonstrating that neither interaction significantly disrupted the protein’s compactness. The RMSF \r\nanalysis further supports this, as both complexes showed flexibility in specific regions but stabilized over time.\r\nThe energy profiles for both complexes remained stable throughout the simulation. For CAT with Ascorbic \r\nacid AI ligand 1, the highest energy interactions were observed at -7521 kCal/mol after 78 nanoseconds, \r\nindicating stable binding Fig. 12a. The IL-1B-curcumin AI ligand 3 complex, was expected to exhibit similarly \r\nstable energy values, given its consistent structural stability across other parameters Fig. 12b.\r\nThe principal component analysis (PCA) was conducted to study the major conformational changes during \r\nmolecular dynamics (MD) simulations of two protein-ligand complexes: CAT protein with ascorbic acid AI \r\nligand 1, and IL-1B protein with curcumin AI ligand 3. For both complexes, the first two principal components \r\n(PC1 and PC2) were analyzed, representing the primary modes of motion within the protein-ligand interactions. \r\nIn the CAT-ascorbic acid complex, PC1 show for the largest variance, indicating the primary conformational \r\nshifts, while PC2 captured secondary changes, revealing significant fluctuations and suggesting that the CAT \r\nprotein experiences notable conformational flexibility when bound to the ascorbic acid ligand Fig. 13a. The IL\u00021B-curcumin complex, PC1 and PC2 described substantial fluctuations, reflecting a dynamic interaction and \r\nsuggesting that the IL-1B protein shows various conformational states stabilized by curcumin Fig. 13b. Both \r\ncomplexes demonstrate a high degree of conformational variability and the dynamic nature of the protein-ligand \r\ninteractions, which are improtant in modulating the proteins functional efficacy and stability. Especially, the \r\nextent of conformational changes was similar in both complexes, suggesting that both ligands induce significant \r\nflexibility in their respective protein targets, potentially enhancing their therapeutic potential.\r\nThe results of the MMGBSA and MMPBSA analyses for the CAT (Catalase) and IL-1B complexes with \r\nascorbic acid AI Ligand 1 and curcumin AI Ligand 3 demonstrate that both ligands exhibit favorable binding \r\nenergies, indicating stable interactions within the receptor’s binding pocket.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "For the CAT ascorbic acid AI Ligand 1 complex, the MMGBSA analysis shows a total binding free energy \r\n(ΔG total) of -19.7907  kcal/mol, while the MMPBSA analysis yields a slightly positive total binding energy \r\nFig. 2. Ramachandran plots of receptor protein 3D structures. (a) CAT (Catalase), (b) IL-1B (Interleukin 1 \r\nbeta), (c) IL-6 (Interleukin 6), (d) TNF- α (Tumor necrosis factor alpha) and (e) SOD (Superoxide dismutase). \r\nThe Red highlighted regions are the most favored regions, Yellow highlighted regions are additional allowed \r\nregions, Light Yellow highlighted regions is generously allowed regions, White highlighted regions are \r\ndisallowed regions.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 6\r\nwww.nature.com/scientificreports/\n(ΔG total) of -0.7140 kcal/mol Tables 9 and 10. The significant negative energy from MMGBSA and MMPBSA \r\nanalysis confirms that the ligand fits well into the binding pocket and forms a stable complex with CAT.\r\nThe IL-1B curcumin AI Ligand 3 complex shows a strong binding affinity, with the MMGBSA analysis \r\nyielding a ΔG total of -37.2074 kcal/mol, and the MMPBSA analysis showing a slightly positive ΔG total of \r\n1.0696 kcal/mol Tables 11 and 12. The substantial negative energy from the MMGBSA and MMPBSA analysis \r\nsuggests that ligand also binds effectively to IL-1B, with the ligand fitting well into the receptor’s binding pocket.\r\nBoth AI Ligand 1 and AI Ligand 3 form stable complexes with CAT and IL-1B, as indicated by the negative \r\nbinding energies from the MMGBSA analyses. The MMGBSA and MMPBSA results collectively suggest that \r\nthe ligands are properly accommodated within the receptor, supporting their potential as effective inhibitors or \r\nmodulators of CAT activity.\r\nPre-clinical testing (ADMET)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "The ADME properties of the ascorbic acid AI ligands were found to be excellent, making them promising \r\ncandidates for lead drug development. The TPSA and lipophilicity values were within the optimal range, \r\nindicating good solubility and high gastrointestinal (GI) absorption. None of the AI ligands violated Lipinski’s \r\nrule, suggesting favorable drug-likeness. Similarly, the ADME properties of the curcumin AI ligands were also \r\nSr. Receptor proteins Most favored regions Additional allowed regions Generously allowed regions Disallowed regions ERRAT score\r\n1. CAT (catalase) 87.0% 11.7% 0.9% 0.4% 94.167\r\n2. IL-1B (interleukin 1 beta) 83.7% 13.0% 2.1% 1.3% 82.840\r\n3. IL-6 (interleukin 6) 85.3% 12.4% 1.4% 0.9% 92.000\r\n4. TNF-α (tumor necrosis factor alpha) 89.4% 10.6% 0.0% 0.0% 96.078\r\n5. SOD (superoxide dismutase) 89.3% 9.8% 0.8% 0.0% 96.403\r\nTable 4. Ramachandran plot and ERRAT values of receptor proteins 3D structures.\r\nFig. 3. ERRAT Graphs of receptor proteins 3D structures (a) Catalase (CAT) CAT, (b) IL-1B (Interleukin 1 \r\nbeta), (c) IL-6 (Interleukin 6) (d) SOD (Superoxide dismutase) and (e) TNF-α (Tumor necrosis factor alpha). \r\nThe red lines are error and the yellow lines are the warnings.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 7\r\nwww.nature.com/scientificreports/\nfavorable for lead drug candidates. The TPSA and lipophilicity values indicated moderate solubility, high GI \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "absorption, and the potential for blood- brain barrier (BBB) crossing. None of the AI ligands violated Lipinski’s \r\nrule, reflecting good drug-likeness. Detailed ADME properties for both ascorbic acid and curcumin AI ligands \r\nare provided in Table 13. The Boiled Egg diagrams for the ascorbic acid and curcumin AI ligands are shown in \r\nFig. 14.\r\nThe Ascorbic acid AI lead drug candidate show low toxicity and it is a safe compound and have passed all \r\nfilters of toxicity except Bee, Biodegradation, Eye irritation, Liver Injury II, Micronucleos with normal range \r\nof confidence score. Although the Liver Injury II have a low confidence score and it may or may not show \r\nliver toxicity in the body. These Parameter show some toxicity in the AI lead drug of ascorbic acid (Table 14). \r\nThe Curcumin show medium level of toxicity but the main parameters of toxicity show that curcumin was \r\nsafe. The parameter that showed toxicity were Bee, Crustacean, Liver Injury I, Liver Injury II, hERG Blockers, \r\nMicronucleos, NR-AhR, NR-GR, SR-ARE, and SR-MMP from which the main toxicity parameters Liver Injury \r\nI and Liver Injury II shows low confidence score as compare to others. These results predict that Curcumin AI \r\nlead compound can also be a good lead drug candidate in preclinical trails (Table 14).\r\nDiscussion\r\nIt has been demonstrated that the common insecticide buprofezin causes considerable oxidative stress and \r\ninflammation in non-target creatures, such as humans. By inhibiting the manufacture of chitin, it prevents pests \r\nfrom growing, but it also creates reactive oxygen species (ROS) and starts inflammatory processes that can be \r\nharmful to cells. Previous research has shown the negative impacts of exposure to buprofezin, emphasizing the \r\nnecessity for measures to lessen its detrimental effects28.\r\nTurmeric’s bioactive ingredient, curcumin, has shown strong anti-inflammatory and antioxidant qualities, \r\nmaking it a strong contender to mitigate buprofezin’s toxicity. The literature has provided ample evidence of \r\ncurcumin’s capacity to neutralize ROS and modify important signaling pathways connected to inflammation and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "apoptosis29. Similarly, by scavenging free radicals and reestablishing the equilibrium of antioxidants, vitamin C, \r\nan essential antioxidant, protects cells from oxidative damage. It has been proposed that vitamin C and curcumin \r\nwork in concert to provide increased protection against inflammation and oxidative stress30.\r\nCurcumin, derived from Curcuma longa, has shown potent antioxidant activities by inhibiting ROS \r\nproduction and reducing inflammatory responses. Its ability to suppress pro-inflammatory cytokines, such \r\nas IL-1β and TNF-α, highlights its therapeutic potential in inflammation and cancer therapy6. However, a \r\nsignificant limitation in its clinical application is its poor bioavailability in humans, which reduces its efficacy \r\ndespite strong in vitro results31,32. Strategies like combining curcumin with bioavailability enhancers or \r\ndeveloping novel delivery systems may help overcome this challenge31,32. Ascorbic acid (vitamin C) is another \r\npowerful antioxidant that neutralizes free radicals and reduces oxidative damage33. It supports cellular health \r\nby regenerating other antioxidants and preventing lipid peroxidation. Ascorbic acid’s role in scavenging reactive \r\noxygen species (ROS) makes it a vital agent in reducing inflammation, particularly in oxidative stress-related \r\nconditions such as cardiovascular diseases and cancer34. Recent studies have also explored its combination with \r\nother antioxidants, such as curcumin, to enhance therapeutic effects32.\r\nIn-silico approaches to explore the protective potential of curcumin and vitamin C against buprofezin\u0002induced toxicity. Three-dimensional (3D) models of receptor proteins related to inflammation and oxidative \r\nSr. Ligands Smiles\r\n1. Ascorbic acid C([C@@H]([C@@H]1 C(=C(C(=O)O1)O)O)O)O\r\n2. Curcumin COC1=C(C=CC(=C1)/C=C/C(=O)CC(=O)/C=C/C2=CC(=C(C=C2)O)OC)O\r\nTable 5. Smiles format of ascorbic acid and curcumin retrieved from NCBI PubChem.\r\nFig. 4. (a) 3D structures of Ascorbic acid and (b) 3D structures of Curcumin.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Scientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 8\r\nwww.nature.com/scientificreports/\nNo. Smiles 3D structures\r\nAscorbic acid\r\n1. O=C(O)C1CC(F)CN1C(=O)C(=O)O\r\n2. O=C(O)C1CC(F)CN1C(=O)C(O)CO\r\n3. O=C(O)C1CC(F)CN1C(=O)C(O)c1cccc(F)c1\r\n4. O=C(O)C1CC(F)CN1C(=O)O\r\n5. O=C(O)C1COCCN1C(=O)C(=O)O\r\n6. O=C(O)C1CC(F)CN1C(=O)CO\r\nCurcumin\r\n1. COc1ccc(CCCCC(=O)N2CC(C(=O)O)c3cc(F)ccc32)cc1OC\r\n2. COc1cc(C=CC(=O)CCC(=O)Nc2ccc3c(c2)OCCO3)ccc1OC(F)F\r\n3. COc1ccc(CCCCCC(=O)N2CC(=O)Nc3cc(OC)ccc32)cc1OC\r\nContinued\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 9\r\nwww.nature.com/scientificreports/\nstress, including superoxide dismutase (SOD), catalase (CAT), interleukin-1 beta (IL-1B), interleukin-6 (IL-6), \r\nand tumor necrosis factor-alpha (TNF-α), was modeled using the Swiss Model. The validity of these models was \r\nconfirmed through strong sequence identity and coverage, enabling further examination.\r\nMolecular docking studies revealed significant interactions between the AI ligands (curcumin, vitamin C, \r\nand buprofezin) and the target proteins, suggesting possible protective effects. Curcumin AI ligand have a strong \r\nbinding affinity to IL-6, showing its potential to block pro-inflammatory cytokines and reduce inflammation, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "while vitamin C AI ligand shows moderate binding to CAT, a key enzyme in the antioxidant defense system. \r\nFig. 5. Pharmacophore properties of ascorbic acid AI ligands (a) AI ligand no.1 (b) AI ligand no. 2 (c) AI \r\nligand no. 3 (d) AI ligand no. 4 (e) AI ligand no. 5 (f) AI ligand no. 6. The yellow circles are hydrogen acceptor \r\nregions, the grey circles are hydrogen donor regions, the purple circles are aromatic regions, the red circles are \r\nnegative ion regions and the green circles are hydrophobic regions.\r\nNo. Smiles 3D structures\r\n4. COc1cc(CCC(=O)OCCCCOc2ccc(C)c(F)c2)cc(OC)c1\r\n5. COc1cc(CCC(=O)OCCCCc2ccc(OC)cc2)cc(OC)c1O\r\n6. COc1cc(CCC(=O)NCCCCOc2ccc(F)cc2)cc(OC)c1OC\r\nTable 6. AI ligands details of ascorbic acid and curcumin.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 10\r\nwww.nature.com/scientificreports/\nThese findings imply that vitamin C AI ligand could enhance cellular antioxidant capacity, mitigating the \r\noxidative stress induced by buprofezin.\r\nWhen compared to previous studies, such as the work on pharmacophore design for Philadelphia \r\nChromosome-Positive Leukemia using Gamma-Tocotrienol, our findings align in representing the efficacy \r\nof computational methods in identifying therapeutic potential9. Just as the referenced study utilized in silico \r\napproaches for toxicity comparison in leukemia, our research shows how curcumin AI ligand and vitamin C \r\nAI ligand, with their favorable ADME profiles and strong binding affinities, can be considered effective agents \r\nagainst pesticide-induced toxicity9. Moreover, the role of AI and computational tools in your study parallels \r\nthe methodology used in developing antimicrobial drug molecules to combat drug-resistant infections, further \r\nhighlighting the versatility of AI in drug discovery35.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Molecular dynamics simulations also reflect the findings in cancer precision drug discovery studies, where \r\nthe stability of protein-ligand complexes is crucial. The stable energy profiles and conformational stability \r\nobserved in our CAT-Ascorbic acid AI ligand and IL-1B-curcumin AI ligand complexes strengthen the idea \r\nthat computational biology can reliably predict therapeutic efficacy, not only in oncology but also in addressing \r\ntoxicity from environmental pollutants like buprofezin35.\r\nADMET analysis and molecular docking experiments indicate that curcumin and vitamin C AI ligand may \r\nbe useful therapies to combat buprofezin’s negative effects having minimum toxicity. Compared to buprofezin, \r\nthese compounds had increased binding affinities to important antioxidant and inflammatory proteins, \r\nsuggesting that they may be able to reduce inflammation and oxidative stress. These results are reliable with \r\nearlier studies and offer a strong basis for additional experimental confirmation. By combining computational \r\nand experimental methods, new defenses against pesticide-induced toxicity may be developed, eventually \r\nleading to better public health outcomes.\r\nConclusion\r\nThe investigation into the combined effects of buprofezin, curcumin, and vitamin C on various biomarkers has \r\nyielded significant insights into their therapeutic potential. Previous studies have documented the individual \r\neffects of these compounds. Overall, this research focusses on the importance of exploring natural compound \r\nand AI approaches in drug design, particularly those involving natural products like curcumin and vitamin \r\nC. The synergistic effects observed in this study provide a promising basis for future in-vitro and in-vivo \r\ninvestigations and the development of novel treatments for diseases characterized by chronic inflammation and \r\noxidative stress.\r\nLimitation and future protectives\r\nThis study provides a strong basis for understanding the protective potential of curcumin and vitamin C AI \r\ndrug against buprofezin-induced toxicity. However, there are some limitations, including the dependence on \r\nFig. 6. Pharmacophore properties of curcumin AI ligands (a) AI ligand no.1 (b) AI ligand no. 2 (c) AI ligand \r\nno. 3 (d) AI ligand no. 4 (e) AI ligand no. 5 (f) AI ligand no. 6. The yellow circles are hydrogen acceptor \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "regions, the grey circles are hydrogen donor regions, the purple circles are aromatic regions, and the green \r\ncircles are hydrophobic regions.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 11\r\nwww.nature.com/scientificreports/\nAI pharmacophore PyRx binding affinity energies (KJ/mol) CB Dock 2 binding affinity energies (KJ/mol)\r\nAscorbic acid\r\n CAT\r\n  1 − 7.1 − 7.4\r\n  2 − 5.3 − 5.7\r\n  3 − 6.6 − 6.7\r\n  4 − 6.7 − 6.8\r\n  5 − 5 − 5.2\r\n  6 − 6.7 − 7.0\r\n IL-1B\r\n  1 − 5.4 − 5.0\r\n  2 − 5.2 − 5.1\r\n  3 − 6.6 − 6.6\r\n  4 − 5.1 − 4.9\r\n  5 − 5.5 − 4.7\r\n  6 − 5.3 − 4.7\r\n IL-6\r\n  1 − 4.9 − 4.7\r\n  2 − 4.8 − 4.7\r\n  3 − 6.6 − 6.3\r\n  4 − 4.9 − 4.9\r\n  5 − 4.6 − 4.6\r\n  6 − 4.3 − 4.7\r\n SOD\r\n  1 − 4.8 − 4.6\r\n  2 − 4.7 − 4.9\r\n  3 − 5.6 − 6.1\r\n  4 − 4.8 − 4.6\r\n  5 − 4.7 − 5.1\r\n  6 − 4.6 − 4.7\r\n TNF-alpha\r\n  1 − 5.5 − 6.3\r\n  2 − 5.5 − 5.5\r\n  3 − 5.9 − 6.5\r\n  4 − 5.1 − 6.0\r\n  5 − 5.4 − 5.6\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "  6 − 5.9 − 5.6\r\nCurcumin\r\n CAT\r\n  1 − 6.2 − 6.4\r\n  2 − 6.5 − 6.8\r\n  3 − 6.1 − 5.7\r\n  4 − 4.6 − 4.2\r\n  5 − 4.9 − 5.0\r\n  6 − 4.6 − 4.7\r\n IL-1B\r\n  1 − 6.2 − 7.0\r\n  2 − 6.5 − 7.1\r\n  3 − 7.3 − 7.5\r\n  4 − 5.6 − 6.3\r\n  5 − 5.9 − 6.1\r\n  6 − 5.7 − 6.0\r\n IL-6\r\n  1 − 6.7 − 7.2\r\n  2 − 6.3 − 7.1\r\n  3 − 6.8 − 7.1\r\nContinued\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 12\r\nwww.nature.com/scientificreports/\nvalidated 3D protein models and the assumption of rigid protein structures in docking studies. While ADME \r\npredictions are promising, they need confirmation through in-vitro and in-vivo experiments.\r\nFuture research can build on these findings by validating results with experimental studies and considering \r\nprotein flexibility in docking simulations for more accurate predictions. Expanding the scope to include other \r\ncompounds and conducting clinical trials will further enhance therapeutic strategies. Integrating multi-omics \r\ndata with computational models could also provide deeper insights into the mechanisms and improve overall \r\ntreatment outcomes.\r\nAI declaration\r\nAI was used to improve the language and grammar of the research. The AI employed for this purpose were \r\nGrammarly and ChatGPT.\r\nFig. 7. 2D and 3D Molecular interactions diagrams of ascorbic acid AI ligands with receptors proteins (CAT, \r\nIL-1B, IL-6, SOD, TNF- α).\r\nAI pharmacophore PyRx binding affinity energies (KJ/mol) CB Dock 2 binding affinity energies (KJ/mol)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "  4 − 6.2 − 6.5\r\n  5 − 6.2 − 6.4\r\n  6 − 6.0 − 6.8\r\n SOD\r\n  1 − 6.4 − 6.8\r\n  2 − 6.5 − 6.7\r\n  3 − 5.8 − 6.7\r\n  4 − 4.1 − 5.4\r\n  5 − 5.6 − 5.9\r\n  6 − 5.5 − 7.2\r\n TNF-alpha\r\n  1 − 5.9 − 7.1\r\n  2 − 5.9 − 7.0\r\n  3 − 4.9 − 6.5\r\n  4 − 5.1 − 6.6\r\n  5 − 5.4 − 6.3\r\n  6 − 5.1 − 7.0\r\nTable 7. Comparison of binding affinity energies of all AI ligands with receptor proteins.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 13\r\nwww.nature.com/scientificreports/\nFig. 8. 2D and 3D Molecular interactions diagrams of curcumin AI ligands with receptors proteins (CAT, IL\u00021B, IL-6, SOD, TNF- α).\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 14\r\nwww.nature.com/scientificreports/\nTable 8. Molecular interaction details of ascorbic acid AI ligand 1 with CAT and curcumin AI ligand 3 with \r\nIL-1B.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 15\r\nwww.nature.com/scientificreports/\nFig. 11. Rg graphs (a) CAT with Ascorbic acid AI ligand 1 and (b) IL-1B with curcumin AI ligand 3.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Fig. 10. RSMF graphs (a) CAT with Ascorbic acid AI ligand 1 and (b) IL-1B with curcumin AI ligand 3.\r\nFig. 9. RSMD graph (a) CAT with Ascorbic acid AI ligand 1 and (b) IL-1B with curcumin AI ligand 3.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 16\r\nwww.nature.com/scientificreports/\nEnergy component Average Std. dev. Std. err. of mean\r\nVDWAALS − 22.8798 2.2709 0.7181\r\nEEL − 23.0513 4.6861 1.4819\r\nEPB 33.5226 4.2837 1.3546\r\nENPOLAR − 17.3121 0.5998 0.1897\r\nEDISPER 29.0066 0.7393 0.2338\r\nDELTA G gas − 45.9311 5.0198 1.5874\r\nDELTA G solv 45.2170 4.6192 1.4607\r\nDELTA TOTAL − 0.7140 3.4670 1.0964\r\nTable 10. MMPBSA of CAT ascorbic acid AI Ligand 1 complex.\r\nEnergy component Average Std. dev Std. err. of mean\r\nVDWAALS − 22.8798 2.2709 0.7181\r\nEEL − 23.0513 4.6861 1.4819\r\nEGB 29.5684 3.4303 1.0847\r\nESURF − 3.4280 0.1588 0.0502\r\nDELTA G gas − 45.9311 5.0198 1.5874\r\nDELTA G solv 26.1404 3.3575 1.0617\r\nDELTA TOTAL − 19.7907 2.5367 0.8022\r\nTable 9. MMGBSA of CAT-ascorbic acid AI Ligand 1 complex.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Fig. 13. PCA graphs (a) CAT with Ascorbic acid AI ligand 1 and (b) IL-1B with curcumin AI ligand.\r\nFig. 12. Interaction energy graphs (a) CAT with Ascorbic acid AI ligand 1 and (b) IL-1B with curcumin AI \r\nligand 3.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 17\r\nwww.nature.com/scientificreports/\nAI ligand TPSA (Å2) Lipophilicity log Po/w Water solubility GI absorption BBB permeant Lipinski voilation\r\nAscorbic acid\r\n 1 94.91 − 0.55 Soluble High No No\r\n 2 98.07 − 1.04 Soluble High No No\r\n 3 77.84 1.08 Soluble High No No\r\n 4 77.84 − 0.13 Soluble High No No\r\n 5 104.14 − 1.23 Soluble High No No\r\n 6 77.84 − 0.5 Soluble High No No\r\nCurcumin\r\n 1 76.07 3.42 Moderately soluble High Yes No\r\n 2 83.09 3.41 Poorly soluble High No No\r\n 3 77.10 3.26 Poorly soluble High Yes No\r\n 4 53.99 4.79 Poorly soluble High Yes No\r\n 5 74.22 3.95 Poorly soluble High Yes No\r\n 6 66.02 4.01 Poorly soluble High Yes No\r\nTable 13. The ADME properties of ascorbic acid and curcumin AI ligands.\r\nEnergy component Average Std. dev. Std. err. of mean\r\nVDWAALS − 52.2473 4.9195 1.5557\r\nEEL − 26.7441 5.6438 1.7847\r\nEPB 53.8040 5.2211 1.6511\r\nENPOLAR − 37.3801 3.0600 0.9677\r\nEDISPER 63.6371 3.4446 1.0893\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "DELTA G gas − 78.9914 7.0064 2.2156\r\nDELTA G solv 80.0610 4.3437 1.3736\r\nDELTA TOTAL 1.0696 6.6186 2.0930\r\nTable 12. MMPBSA of IL-1B curcumin AI Ligand 3 complex.\r\nEnergy component Average Std. dev. Std. err. of mean\r\nVDWAALS − 52.2473 4.9195 1.5557\r\nEEL − 26.7441 5.6438 1.7847\r\nEGB 48.2068 4.9880 1.5773\r\nESURF − 6.4227 0.4635 0.1466\r\nDELTA G gas − 78.9914 7.0064 2.2156\r\nDELTA G solv 41.7841 4.8516 1.5342\r\nDELTA TOTAL − 37.2074 5.0900 1.6096\r\nTable 11. MMGBSA of IL-1B curcumin AI Ligand 3 complex.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 18\r\nwww.nature.com/scientificreports/\nFig. 14. Boiled egg diagram of (a) Ascorbic acid AI ligands (b) Curcumin AI ligands. The white region of the \r\negg represents the GI absorption and yellow yolk of the egg represents the Blood Brain Barrier crossing.\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 19\r\nwww.nature.com/scientificreports/\nProperty name Predicted value Property unit Predictive confidence Is prediction within training range? Is MW within training range?\r\nAscorbic acid AI ligand 1\r\n AMES mutagenesis Safe Category (toxic/safe) 0 – Yes\r\n Avian Safe Category (toxic/safe) 0.006 – Yes\r\n Bee Toxic Category (toxic/safe) 0.711 – Yes\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": " Bioconcentration factor -0.15 log10(L/kg) - Yes Yes\r\n Biodegradation Toxic Category (toxic/safe) 0.943 – Yes\r\n Carcinogenesis Safe Category (toxic/safe) 0.017 – Yes\r\n Crustacean Safe Category (toxic/safe) 0.006 – Yes\r\n Liver injury I Safe Category (toxic/safe) 0.26 – Yes\r\n Eye corrosion Safe Category (toxic/safe) 0.199 – Yes\r\n Eye irritation Toxic Category (toxic/safe) 0.937 – Yes\r\n Maximum tolerated dose 0.73 log mg/kg/day - Yes Yes\r\n Liver injury II Toxic Category (toxic/safe) 0.617 – Yes\r\n hERG blockers Safe Category (toxic/safe) 0.003 – Yes\r\n Daphnia maga 5.45 −log10[(mg/L)/(1000*MW)] - Yes Yes\r\n Micronucleos Toxic Category (toxic/safe) 0.881 – Yes\r\n NR-AhR Safe Category (toxic/safe) 0 – Yes\r\n NR-AR Safe Category (toxic/safe) 0.004 – Yes\r\n NR-AR-LBD Safe Category (toxic/safe) 0.03 – Yes\r\n NR-aromatase Safe Category (toxic/safe) 0 – Yes\r\n NR-ER Safe Category (toxic/safe) 0.023 – Yes\r\n NR-ER-LBD Safe Category (toxic/safe) 0 – Yes\r\n NR-GR Safe Category (toxic/safe) 0.004 – Yes\r\n NR-PPAR-gamma Safe Category (toxic/safe) 0 – Yes\r\n NR-TR Safe Category (toxic/safe) 0 – Yes\r\n T. pyriformis 5.46 −log10[(mg/L)/(1000*MW)] - Yes Yes\r\n Rat (acute) 1.91 mol/kg - Yes Yes\r\n Rat (chronic oral) 1.95 LOAEL - Yes Yes\r\n Fathead minnow 3.52 −log10[(mg/L)/(1000*MW)] - Yes Yes\r\n Respiratory disease Safe Category (toxic/safe) 0.322 – Yes\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": " Skin sensitisation Toxic Category (toxic/safe) 0.555 – Yes\r\n SR-ARE Safe Category (toxic/safe) 0.035 – Yes\r\n SR-ATAD5 Safe Category (toxic/safe) 0 – Yes\r\n SR-HSE Safe Category (toxic/safe) 0.003 – Yes\r\n SR-MMP Safe Category (toxic/safe) 0 – Yes\r\n SR-p53 Safe Category (toxic/safe) 0 – Yes\r\nCurcumin AI ligand 3\r\n AMES mutagenesis Safe Category (toxic/safe) 0.005 – Yes\r\n Avian Safe Category (toxic/safe) 0.035 – Yes\r\n Bee Toxic Category (toxic/safe) 0.775 – Yes\r\n Bioconcentration factor 0.71 log10(L/kg) - Yes Yes\r\n Biodegradation Safe Category (toxic/safe) 0.023 – Yes\r\n Carcinogenesis Safe Category (toxic/safe) 0.201 – Yes\r\n Crustacean Toxic Category (toxic/safe) 0.824 – Yes\r\n Liver injury I Toxic Category (toxic/safe) 0.528 – Yes\r\n Eye corrosion Safe Category (toxic/safe) 0 – Yes\r\n Eye irritation Safe Category (toxic/safe) 0.028 – Yes\r\n Maximum tolerated dose 0.74 log mg/kg/day - Yes Yes\r\n Liver injury II Toxic Category (toxic/safe) 0.682 – Yes\r\n hERG blockers Toxic Category (toxic/safe) 0.954 – Yes\r\n Daphnia maga 5.47 −log10[(mg/L)/(1000*MW)] - Yes Yes\r\n Micronucleos Toxic Category (toxic/safe) 0.665 – Yes\r\n NR-AhR Toxic Category (toxic/safe) 0.511 – Yes\r\n NR-AR Safe Category (toxic/safe) 0.048 – Yes\r\n NR-AR-LBD Safe Category (toxic/safe) 0.006 – Yes\r\n NR-aromatase Safe Category (toxic/safe) 0.003 – Yes\r\nContinued\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "Scientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 20\r\nwww.nature.com/scientificreports/\nData availability\r\nAll the data generated in this research work has been included in this manuscript.\r\nReceived: 29 August 2024; Accepted: 7 November 2024\r\nReferences\r\n1. Ji, X. et al. Potential hepatic toxicity of buprofezin at sublethal concentrations: ROS-mediated conversion of energy metabolism. J. \r\nHazard. Mater. 320, 176–186 (2016).\r\n2. Iqbal, M. J. et al. Interplay of oxidative stress, cellular communication and signaling pathways in cancer. Cell. Communication \r\nSignal. 22(1), 7 (2024).\r\n3. Bakchi, B. et al. An overview on applications of SwissADME web tool in the design and development of anticancer, antitubercular \r\nand antimicrobial agents: a medicinal chemist’s perspective. J. Mol. Struct. 1259, 132712 (2022).\r\n4. Ghazanfar, M., Shahid, S. & Qureshi, I. Z. Vitamin C attenuates biochemical and genotoxic damage in common carp (Cyprinus \r\ncarpio) upon joint exposure to combined toxic doses of fipronil and buprofezin insecticides. Aquat. Toxicol. 196, 43–52 (2018).\r\n5. Popko, K. et al. Proinflammatory cytokines Il-6 and TNF-α and the development of inflammation in obese subjects. Eur. J. Med. \r\nRes. 15, 1–3 (2010).\r\n6. Carlson, N. G. et al. Inflammatory cytokines IL-1α, IL-1β, IL-6, and TNF-α impart neuroprotection to an excitotoxin through \r\ndistinct pathways. J. Immunol. 163(7), 3963–3968 (1999).\r\n7. Blanco-Gonzalez, A. et al. The role of AI in drug discovery: challenges, opportunities, and strategies. Pharmaceuticals. 16(6), 891 \r\n(2023).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "8. Jiménez-Luna, J. et al. Artificial intelligence in drug discovery: recent advances and future perspectives. Expert Opin. Drug Discov.\r\n16(9), 949–959 (2021).\r\n9. Naveed, M. et al. Artificial intelligence assisted pharmacophore design for philadelphia chromosome-positive leukemia with \r\ngamma-tocotrienol: a toxicity comparison approach with asciminib. Biomedicines. 11(4), 1041 (2023).\r\n10. Geer, L. Y. et al. The NCBI biosystems database. Nucleic Acids Res. 38(suppl_1), D492–D496 (2010).\r\n11. Bienert, S. et al. The SWISS-MODEL Repository—new features and functionality. Nucleic Acids Res. 45(D1), D313–D319 (2017).\r\n12. Hollingsworth, S. A. & Karplus, P. A. A fresh look at the Ramachandran plot and the occurrence of standard structures in proteins. \r\n(2010).\r\n13. Colovos, C. & Yeates, T. O. Verification of protein structures: patterns of nonbonded atomic interactions. Protein Sci. 2(9), 1511–\r\n1519 (1993).\r\n14. Kim, S. et al. PubChem substance and compound databases. Nucleic Acids Res. 44(D1), D1202–D1213 (2016).\r\n15. Bai, Q. et al. WADDAICA: a webserver for aiding protein drug design by artificial intelligence and classical algorithm. Comput. \r\nStruct. Biotechnol. J. 19, 3573–3579 (2021).\r\n16. Koes, D. R. The Pharmit backend: a computer systems approach to enabling interactive online drug discovery. IBM J. Res. Dev.\r\n62(6), 1–3 (2018).\r\n17. Naveed, M. et al. Assessment of Melia azedarach plant extracts activity against hypothetical protein of mycobacterium tuberculosis \r\nvia GC-MS analysis and in-silico approaches. J. Comput. Biophys. Chem. 23(3), 299–320 (2024).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "18. Dallakyan, S. & Olson, A. J. Small-molecule library screening by docking with PyRx. Chem. Biol. Methods Protocols. 243–250 \r\n(2015).\r\n19. Naveed, M. et al. The natural breakthrough: phytochemicals as potent therapeutic agents against spinocerebellar ataxia type 3. Sci. \r\nRep. 14(1), 1529 (2024).\r\n20. Liu, Y. et al. CB-Dock2: improved protein–ligand blind docking by integrating cavity detection, docking and homologous template \r\nfitting. Nucleic Acids Res. 50(W1), W159–W164 (2022).\r\n21. Adasme, M. F. et al. PLIP 2021: expanding the scope of the protein–ligand interaction profiler to DNA and RNA. Nucleic Acids Res.\r\n49(W1), W530–W534 (2021).\r\n22. Yuan, S., Chan, H. S. & Hu, Z. Using PyMOL as a platform for computational drug design. Wiley Interdiscip. Rev. Comput. Mol. Sci.\r\n7(2), e1298 (2017).\r\n23. Tian, C. Improving the Accuracy of Amber Force Field for Biomolecular Simulation (State University of New York at Stony Brook, \r\n2019).\r\nTable 14. .\r\nProperty name Predicted value Property unit Predictive confidence Is prediction within training range? Is MW within training range?\r\n NR-ER Safe Category (toxic/safe) 0.085 – Yes\r\n NR-ER-LBD Safe Category (toxic/safe) 0 – Yes\r\n NR-GR Toxic Category (toxic/safe) 0.508 – Yes\r\n NR-PPAR-gamma Safe Category (toxic/safe) 0.012 – Yes\r\n NR-TR Safe Category (toxic/safe) 0.225 – Yes\r\n T. pyriformis -28.72 −log10[(mg/L)/(1000*MW)] - No Yes\r\n Rat (acute) 2.05 mol/kg - Yes Yes\r\n Rat (chronic oral) 2.14 LOAEL - Yes Yes\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": " Fathead minnow 4.72 −log10[(mg/L)/(1000*MW)] - Yes Yes\r\n Respiratory disease Safe Category (toxic/safe) 0.144 – Yes\r\n Skin sensitisation Safe Category (toxic/safe) 0.376 – Yes\r\n SR-ARE Toxic Category (toxic/safe) 0.852 – Yes\r\n SR-ATAD5 Safe Category (toxic/safe) 0.22 – Yes\r\n SR-HSE Safe Category (toxic/safe) 0.085 – Yes\r\n SR-MMP Toxic Category (toxic/safe) 0.59 – Yes\r\n SR-p53 Safe Category (toxic/safe) 0 – Yes\r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 21\r\nwww.nature.com/scientificreports/\n24. Mark, P. & Nilsson, L. Structure and dynamics of the TIP3P, SPC, and SPC/E water models at 298 K. J. Phys. Chem. A. 105(43), \r\n9954–9960 (2001).\r\n25. Zaheer, M. et al. Uncovering the impact of SARS-CoV2 spike protein variants on human receptors: a molecular dynamics docking \r\nand simulation approach. J. Infect. Public Health. 16(10), 1544–1555 (2023).\r\n26. Wang, E. et al. End-point binding free energy calculation with MM/PBSA and MM/GBSA: strategies and applications in drug \r\ndesign. Chem. Rev. 119(16), 9478–9508 (2019).\r\n27. Myung, Y., de Sá, A. G. & Ascher, D. B. Deep-PK: deep learning for small molecule pharmacokinetic and toxicity prediction. \r\nNucleic Acids Res. gkae254 (2024).\r\n28. Marimuthu, K. et al. Toxicity of buprofezin on the survival of embryo and larvae of African catfish, Clarias gariepinus (Bloch). PloS \r\nOne. 8(10), e75545 (2013).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "29. Shehzad, A., Rehman, G. & Lee, Y. S. Curcumin in inflammatory diseases. Biofactors. 39(1), 69–77 (2013).\r\n30. Chen, L. et al. A novel combination of vitamin C, curcumin and glycyrrhizic acid potentially regulates immune and inflammatory \r\nresponse associated with coronavirus infections: a perspective from system biology analysis. Nutrients. 12(4), 1193 (2020).\r\n31. Hatcher, H. C., Torti, F. M. & Torti, S. V. Curcumin, oxidative stress, and cancer therapy. Oxid. Stress Cancer Biol. Ther. 233–256 \r\n(2012).\r\n32. Ma, C. et al. Thyroid-associated ophthalmopathy: the role of oxidative stress. Front. Endocrinol. 15, 1400869 (2024).\r\n33. Njus, D. et al. Ascorbic acid: the chemistry underlying its antioxidant properties. Free Radic. Biol. Med. 159, 37–43 (2020).\r\n34. Sunil Kumar, B., Singh, S. & Verma, R. Anticancer potential of dietary vitamin D and ascorbic acid: a review. Crit. Rev. Food Sci. \r\nNutr. 57(12), 2623–2635 (2017).\r\n35. Nagarajan, N. et al. Application of computational biology and artificial intelligence technologies in cancer precision drug discovery. \r\nBiomed. Res. Int. 2019(1), 8427042 (2019).\r\nAcknowledgements\r\nThe authors extend their appreciation to the Research Supporting Project (RSPD2024R568), King Saud Univer\u0002sity Riyadh Saudi Arabia,\r\nAuthor contributions\r\nConceptualization, Irfan Zia Qureshi.; Methodology, Haleema Sadia; software, Muhammad Naveed.; Validation, \r\nHaleema Sadia.; Formal analysis, Tariq Aziz.; Investigation, Muhammad Naveed; Resources, Irfan Zia Qureshi.; \r\nData curation, Muhammad Naveed.; Writing—original draft preparation, Haleema Sadia.; Writing—review and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 21,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5826737757663003914,
+        "filename": "41598_2024_Article_79275.PMC11574189.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 22,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 472,
+      "total_chunks": 33,
+      "version": "1.0.0"
+    },
+    "text": "editing, Metab Alharbi and Abdullah F Alasmari.; Visualization, Tariq Aziz.; Supervision, Irfan Zia Qureshi.; \r\nProject Administration, Thamer H Alebkairi.; Funding acquisition, Irfan Zia Qureshi.\r\nFunding\r\nThis research did not receive any specific grant from funding agencies in the public, commercial, or not-for\u0002profit sector except the University Research Fund, URF-2021. We are thankful to the Department of Zoology, \r\nQuaid-i-Azam University Islamabad for providing basic laboratory facilities.\r\nDeclarations\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nAdditional information\r\nCorrespondence and requests for materials should be addressed to I.Z.Q. or T.A.\r\nReprints and permissions information is available at www.nature.com/reprints.\r\nPublisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and \r\ninstitutional affiliations.\r\nOpen Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives \r\n4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in \r\nany medium or format, as long as you give appropriate credit to the original author(s) and the source, provide \r\na link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have \r\npermission under this licence to share adapted material derived from this article or parts of it. The images or \r\nother third party material in this article are included in the article’s Creative Commons licence, unless indicated \r\notherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence \r\nand your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to \r\nobtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommo\r\nns.org/licenses/by-nc-nd/4.0/.\r\n© The Author(s) 2024 \r\nScientific Reports | (2024) 14:28445 | https://doi.org/10.1038/s41598-024-79275-5 22\r\nwww.nature.com/scientificreports/\n\n"
+  }
+]

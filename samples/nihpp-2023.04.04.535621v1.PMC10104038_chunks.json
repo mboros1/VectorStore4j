@@ -1,0 +1,218 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 4,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4166542958132808709,
+        "filename": "nihpp-2023.04.04.535621v1.PMC10104038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 5,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 9,
+      "version": "1.0.0"
+    },
+    "text": "Genomics to Notebook (g2nb): extending the electronic notebook to address the \r\nchallenges of bioinformatics analysis\r\nMichael Reich1,6, Thorin Tabor1, John Liefeld1, Jayadev Joshi4, Forrest Kim1, Helga \r\nThorvaldsdottir2, Daniel Blankenberg4,5*, Jill P. Mesirov1,3*\r\n1. Department of Medicine, School of Medicine, University of California, San Diego, La Jolla, CA, USA\r\n2. The Broad Institute of MIT and Harvard, Cambridge, MA, USA \r\n3. Moores Cancer Center, University of California, San Diego, La Jolla, CA, USA \r\n4. Genomic Medicine Institute, Lerner Research Institute, Cleveland Clinic, Cleveland, OH, USA\r\n5. Department of Molecular Medicine, Cleveland Clinic Lerner College of Medicine, Case Western Reserve \r\nUniversity, Cleveland, OH, USA\r\n6. Corresponding author\r\n* D. Blankenberg and J. P. Mesirov contributed equally.\r\nWe present Genomics to Notebook (g2nb), an environment that combines the JupyterLab \r\nnotebook system with widely-used bioinformatics platforms. Galaxy, GenePattern, and the \r\nJavaScript versions of IGV and Cytoscape are currently available within g2nb. The analyses and \r\nvisualizations within those platforms are presented as cells in a notebook, making thousands of \r\ngenomics methods available within the notebook metaphor and allowing notebooks to contain \r\nworkflows utilizing multiple software packages on remote servers, all without the need for \r\nprogramming. The g2nb environment is, to our knowledge, the only notebook-based system that \r\nincorporates multiple bioinformatics analysis platforms into a notebook interface.\r\nThe electronic notebook has become the de facto medium for much of data science and \r\nbioinformatics due to its accessibility and ease in incorporating scientific exposition with \r\nexecutable code to form a reproducible “research narrative.” Jupyter Notebook[1] and its \r\nsuccessor JupyterLab[2] are the preeminent platforms. However, there are well-established \r\nbioinformatics analysis platforms, such as Galaxy[3] and GenePattern[4], that collectively host \r\nthousands of tools on their own compute resources. A system that could incorporate these \r\nplatforms into the notebook metaphor would bring the benefits of their tools to notebook users \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 4,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4166542958132808709,
+        "filename": "nihpp-2023.04.04.535621v1.PMC10104038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 5,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 9,
+      "version": "1.0.0"
+    },
+    "text": "while avoiding the installation, compatibility, and resource requirement issues that often arise \r\nwhen notebook developers add external packages to a Juypter environment. To address these \r\nissues, we have released Genomics to Notebook (g2nb), which builds on JupyterLab to add \r\naccess to multiple bioinformatics platforms and other functionality through the components \r\ndescribed below. While we focus on functionality for the non-programmer, we note that all \r\nprogrammatic features of JupyterLab are retained, making g2nb appealing to a wide range of \r\nusers.\r\nThe g2nb environment incorporates multiple bioinformatics software platforms within the \r\nnotebook interface. A standard Jupyter notebook consists of a sequence of cells, each of which \r\ncan contain text or executable code. We have added a new cell type that provides an interface \r\nwithin the notebook to tools that are hosted on a remote Galaxy or GenePattern server. These \r\nnew analysis cells present a form-like interface similar to the web interface of the original \r\nplatforms, requiring that an investigator provide only the input parameters and data (Fig. 1). When \r\nan analysis is launched, it is executed on the specified remote server, with the job execution \r\nstatus displayed within the cell. When the job completes, links to the result files are presented in \r\nthe notebook cell and can be used easily as input to further analyses (Fig. S1). Thus, to the user,\r\nthe entire analysis workflow appears to run seamlessly within the notebook. \r\navailable under aCC-BY-ND 4.0 International license.\r\nwas not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.04.04.535621; this version posted April 6, 2023. The copyright holder for this preprint (which\nFig. 1. g2nb user interface. A tools panel (a-c) allows users to search for and select from any server that the user has \r\nlogged into. In this example the user (a) searches for the STAR sequence alignment tool. Tools with STAR in their \r\nname or description are displayed for the two servers currently connected: (b) the Galaxy Main server and (c) the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 4,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4166542958132808709,
+        "filename": "nihpp-2023.04.04.535621v1.PMC10104038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 5,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 9,
+      "version": "1.0.0"
+    },
+    "text": "GenePattern cloud server. (d) A Galaxy analysis cell shows the interface to the STARsolo tool on Galaxy Main after it \r\nhas been selected by the g2nb user. (e) input files are selected as they would in the original platforms. Here a Galaxy \r\nhistory is displayed, with possible user input files. Figs. S1- S3 show GenePattern, IGV, and Cytoscape in their g2nb\r\nanalysis cell formats.\r\nThe g2nb environment provides capabilities for interactively visualizing various genomics \r\ndatatypes by including the JavaScript versions of Cytoscape[5] and IGV[6], as well as standard \r\nheatmap, dendrogram, and other plots provided in GenePattern and Galaxy. Visualizations \r\nappear within notebook cells and also can be launched in independent windows if more space is \r\nrequired. For the visualization tools, g2nb takes advantage of functionality already provided by \r\nthose projects to run within the JupyterLab environment. The Cytoscape project has released \r\nCyJupyter (https://github.com/cytoscape/cytoscape-jupyter-widget), a visualizer that supports a \r\ngrowing subset of the capabilities of the standard desktop Cytoscape application. Similarly, the \r\ndevelopers of the Integrative Genomics Viewer (IGV) have released igv-notebook\r\n(https://github.com/igvteam/igv-notebook), which packages the igv.js\r\n(https://github.com/igvteam/igv.js) JavaScript IGV browser for use in notebook environments. \r\nWhile these tools typically require Python knowledge to install and run in the notebook \r\nenvironment, g2nb makes them available as launchable tools within its tool panel (Figs. S2, S3). \r\nTo facilitate the seamless flow of data into a notebook and through notebook cells, the g2nb \r\nenvironment provides several new JupyterLab enhancements. These include: presenting Galaxy \r\nhistories and GenePattern result files within notebook cells, thereby allowing users to easily select \r\nfiles from previous analyses; displaying a list of all analyses in a notebook that can receive a \r\nparticular result file as input; and running a sequence of cells as an end-to-end workflow, including \r\ncells that launch jobs outside the notebook on Galaxy or GenePattern servers. Because links to \r\nresult files within analysis cells reference remote Galaxy or GenePattern servers, any necessary \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 4,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4166542958132808709,
+        "filename": "nihpp-2023.04.04.535621v1.PMC10104038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 5,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 9,
+      "version": "1.0.0"
+    },
+    "text": "data transfers are handled automatically. We have also incorporated the Globus[7] file transfer \r\nprotocol into the g2nb interface, allowing users to robustly transfer files of any size between the \r\navailable under aCC-BY-ND 4.0 International license.\r\nwas not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.04.04.535621; this version posted April 6, 2023. The copyright holder for this preprint (which\ng2nb workspace and any Globus endpoint, including the user’s local storage. For programmers, \r\nwe have implemented features to facilitate transfer between Python objects and Galaxy and \r\nGenePattern jobs. In a g2nb notebook, a Python variable can be provided as an input parameter \r\nto Galaxy and GenePattern analyses. The g2nb environment will evaluate the variable and pass \r\nits value to the analysis. Additionally, rather than having to download result files and read them \r\ninto Python objects, users can automatically load the contents of a result file directly into a Python \r\nvariable or, for array-type data, into a Pandas dataframe.\r\nFor notebook authors, g2nb provides a User Interface Builder that allows them to present Python \r\ncode cells in a more user-friendly format. Notebooks frequently include cells with large blocks of \r\ncode that require no interaction other than being run by the user, or for the user to provide a small \r\namount of information. The User Interface Builder allows authors to create a web form interface\r\nto a cell, exposing only those parameters they wish users to enter. Notebook authors can specify \r\ndata inputs, text or numeric entry or dropdown lists, and can tailor the interface in many ways to \r\nthe specifics of their code. The underlying code is always available via a toggle button. \r\nWe provide a freely available online workspace, g2nb.org, where investigators can create and run \r\nnotebooks, share them with collaborators, and publish them for general use. The workspace \r\nincludes several components to help scientists use the environment: a growing library of g2nb \r\nnotebooks that implement common analysis workflows that investigators can copy and use as \r\ntemplates for their own research. Notebooks in the collection currently support several ‘omics \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 4,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4166542958132808709,
+        "filename": "nihpp-2023.04.04.535621v1.PMC10104038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 5,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 9,
+      "version": "1.0.0"
+    },
+    "text": "modalities. Single-cell analysis, including preprocessing, clustering, cluster harmonization, \r\npseudotime trajectory analysis, and RNA velocity analysis, are available via notebooks that \r\nincorporate the Seurat[8], Conos[9], STREAM[10], and scVelo[11] tools; a number of gene set \r\nenrichment analysis modalities including “classic” two-phenotype GSEA[12], single-sample \r\nGSEA[13]; and general machine learning methods for clustering, classification, and dimension \r\nreduction. To address the frequent problem of notebooks having incompatible dependencies, \r\ng2nb provides project spaces. Each project space provides a separate context that contains its \r\nown notebooks, packages, libraries, and files. Investigators can share projects with collaborators \r\nand publish projects on the g2nb workspace.\r\nWhile several projects have attempted to combine notebook systems with bioinformatics \r\nplatforms, g2nb is novel in that it incorporates multiple platforms within the JupyterLab interface, \r\nwith functionality to seamlessly transfer data between tools. The Galaxy project previously \r\nintegrated Jupyter as a tool within its web interface, allowing users to run a Jupyter notebook as \r\na step in their analyses [14]. This approach complements the one in g2nb, where the notebook \r\nprovides the user environment and Galaxy tools can be launched from within it in combination \r\nwith other software packages. Many other tools and resources provide packages that allow them \r\nto be used in a Jupyter-based environment, but these are generally code libraries that do not \r\nmake use of the notebook’s features beyond their use in code cells.\r\nCode Availability\r\nThe g2nb platform is available for use at g2nb.org. For those who wish to run or host the g2nb \r\nenvironment on a local system, it is available as the g2nb/lab and g2nb/workspace Docker \r\ncontainers at hub.docker.com. The source code for the g2nb architecture is available at \r\ngithub.com/g2nb under a BSD-style open source license.\r\nAcknowledgements\r\nThe work was funded by NIH grants U24CA194107 to JPM and NIH NHGRI U24HG006620 and \r\nNIH NCI U24CA231877 to DB.\r\navailable under aCC-BY-ND 4.0 International license.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 4,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4166542958132808709,
+        "filename": "nihpp-2023.04.04.535621v1.PMC10104038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 5,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 9,
+      "version": "1.0.0"
+    },
+    "text": "was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.04.04.535621; this version posted April 6, 2023. The copyright holder for this preprint (which\n. We thank Jim Robinson and Dexter Pratt for helpful discussions.\r\nReferences\r\n1. Kluyver, T. et al., 2016. Jupyter Notebooks – a publishing format for reproducible \r\ncomputational workflows. In F. Loizides & B. Schmidt, eds. Positioning and Power in \r\nAcademic Publishing: Players, Agents and Agendas. pp. 87–90.\r\n2. Bisong, E., 2019. JupyterLab Notebooks. In Building Machine Learning and Deep \r\nLearning Models on Google Cloud Platform (pp. 49-57). Apress, Berkeley, CA.\r\n3. Afgan, Enis, Dannon Baker, Bérénice Batut, Marius Van Den Beek, Dave Bouvier, \r\nMartin Čech, John Chilton et al. \"The Galaxy platform for accessible, reproducible and \r\ncollaborative biomedical analyses: 2018 update.\" Nucleic acids research 46, no. W1 \r\n(2018): W537-W544.\r\n4. Reich, M., Liefeld, T., Gould, J., Lerner, J., Tamayo, P. and Mesirov, J.P., 2006. \r\nGenePattern 2.0. Nature genetics, 38(5), pp.500-501.\r\n5. Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski \r\nB, Ideker T. Cytoscape: a software environment for integrated models of biomolecular \r\ninteraction networks. Genome Research 2003 Nov; 13(11):2498-504\r\n6.Thorvaldsdóttir, H., Robinson, J.T. and Mesirov, J.P., 2013. Integrative Genomics Viewer \r\n(IGV): high-performance genomics data visualization and exploration. Briefings in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 4,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4166542958132808709,
+        "filename": "nihpp-2023.04.04.535621v1.PMC10104038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 5,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 9,
+      "version": "1.0.0"
+    },
+    "text": "bioinformatics, 14(2), pp.178-192.\r\n7. Foster, I. and Kesselman, C., 1997. Globus: A metacomputing infrastructure toolkit. The \r\nInternational Journal of Supercomputer Applications and High Performance Computing, \r\n11(2), pp.115-128.\r\n8. Hao, Y., Hao, S., Andersen-Nissen, E., Mauck III, W. M., Zheng, S., Butler, A., ... & \r\nSatija, R. (2021). Integrated analysis of multimodal single-cell data. Cell, 184(13), 3573-\r\n3587.\r\n9. Barkas, N., Petukhov, V., Nikolaeva, D., Lozinsky, Y., Demharter, S., Khodosevich, K., & \r\nKharchenko, P. V. (2019). Joint analysis of heterogeneous single-cell RNA-seq dataset \r\ncollections. Nature methods, 16(8), 695-698.\r\n10. Chen, H., Albergante, L., Hsu, J.Y., Lareau, C.A., Bosco, G.L., Guan, J., Zhou, S., \r\nGorban, A.N., Bauer, D.E., Aryee, M.J. and Langenau, D.M., 2019. Single-cell \r\ntrajectories reconstruction, exploration and mapping of omics data with STREAM. Nature \r\ncommunications, 10(1), pp.1-14.\r\n11. Bergen, V., Lange, M., Peidli, S., Wolf, F.A. and Theis, F.J., 2020. Generalizing RNA \r\nvelocity to transient cell states through dynamical modeling. Nature biotechnology, \r\n38(12), pp.1408-1414.\r\n12. Subramanian, A., Tamayo, P., Mootha, V.K., Mukherjee, S., Ebert, B.L., Gillette, M.A., \r\nPaulovich, A., Pomeroy, S.L., Golub, T.R., Lander, E.S. and Mesirov, J.P., 2005. Gene \r\nset enrichment analysis: a knowledge-based approach for interpreting genome-wide \r\nexpression profiles. Proceedings of the National Academy of Sciences, 102(43), \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 4,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4166542958132808709,
+        "filename": "nihpp-2023.04.04.535621v1.PMC10104038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 5,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 9,
+      "version": "1.0.0"
+    },
+    "text": "pp.15545-15550.\r\n13. Barbie, D.A., Tamayo, P., Boehm, J.S., Kim, S.Y., Moody, S.E., Dunn, I.F., Schinzel, \r\nA.C., Sandy, P., Meylan, E., Scholl, C. and Fröhling, S., 2009. Systematic RNA \r\ninterference reveals that oncogenic KRAS-driven cancers require TBK1. Nature, \r\n462(7269), pp.108-112.\r\n14. Gruning BA, Rasche E, Rebolledo-Jaramillo B, Eberhard C, Houwaart T, Chilton J, \r\nCoraor N, Backofen R, Taylor J, Nekrutenko A. Jupyter and Galaxy: Easing entry \r\navailable under aCC-BY-ND 4.0 International license.\r\nwas not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\nbioRxiv preprint doi: https://doi.org/10.1101/2023.04.04.535621; this version posted April 6, 2023. The copyright holder for this preprint (which\nbarriers into complex data analyses for biomedical researchers. PLoS Comput Biol. \r\n2017;13(5):e1005425. Epub 2017/05/26. doi: 10.1371/journal.pcbi.1005425. PubMed \r\nPMID: 28542180; PMCID: PMC5444614. \r\n15. Pratt, D., Chen, J., Welker, D., Rivas, R., Pillich, R., Rynkov, V., Ono, K., Miello, C., \r\nHicks, L., Szalma, S. and Stojmirovic, A., 2015. NDEx, the network data exchange. Cell \r\nsystems, 1(4), pp.302-305.\r\navailable under aCC-BY-ND 4.0 International license.\r\nwas not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 4,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4166542958132808709,
+        "filename": "nihpp-2023.04.04.535621v1.PMC10104038.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 5,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 47,
+      "total_chunks": 9,
+      "version": "1.0.0"
+    },
+    "text": "bioRxiv preprint doi: https://doi.org/10.1101/2023.04.04.535621; this version posted April 6, 2023. The copyright holder for this preprint (which\n\n"
+  }
+]

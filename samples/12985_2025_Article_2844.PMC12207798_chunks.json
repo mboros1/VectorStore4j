@@ -1,0 +1,746 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "RESEARCH Open Access\r\n© The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 \r\nInternational License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you \r\ngive appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the \r\nlicensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or \r\nother third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the \r\nmaterial. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or \r\nexceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creati\r\nvecommons.org/licenses/by-nc-nd/4.0/.\r\nWang et al. Virology Journal (2025) 22:214 \r\nhttps://doi.org/10.1186/s12985-025-02844-1 Virology Journal\r\n†\r\nYuxi Wang, Zhenhua Lu and Jingjing Hu contributed equally to this \r\nwork.\r\n*Correspondence:\r\nWeilu Zhang\r\nzhangweilu@126.com\r\nChenglong Xiong\r\nxiongchenglong@fudan.edu.cn\r\n1\r\nDepartment of Epidemiology, Key Laboratory of Public Health Safety of \r\nMinistry of Education, School of Public Health, Fudan University, \r\nShanghai 200433, China\r\n2\r\nDepartment of Epidemiology, Ministry of Education Key Laboratory of \r\nHazard Assessment and Control in Special Operational Environment, \r\nSchool of Public Health, Air Force Medical University, Xi’an 710032, China\r\n3\r\nShanghai Institute of Infectious Disease and Biosecurity, Fudan \r\nUniversity, Shanghai 200433, China\r\n4\r\nInnostellar Biotherapeutics Co. Ltd, Shanghai 201203, China\r\nAbstract\r\nBackground Poxviruses are a diverse group of pathogens with significant implications for both human and animal \r\nhealth. Ticks, as hematophagous arthropods, are capable of switching hosts during their life cycle. Although previous \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "research has suggested the potential for parapoxviral transmission via ticks, the poxviral transmission dynamics \r\nremain poorly understood, particularly regarding the role of ticks as vectors.\r\nMethods Tick samples were collected from western China, followed by metagenomic sequencing. The diversity of \r\npotential blood-feeding hosts and the prevalence of poxviruses were assessed using BWA. Poxviral sequences were \r\nassembled using MetaSPAdes and TGICL, and phylogenetic analysis was conducted to examine the origin of prevalent \r\npoxviruses and the unblasted poxviral fragments in ticks.\r\nResults A total of 61 poxvirus species across 22 genera were identified, with 387 distinct poxviral sequences \r\nassembled. Of these, viral and host abundance were relatively higher in Tibet than in samples from Shaanxi and \r\nGansu. Notably, unblasted gene fragments were identified within the assembled poxviral genomes, originating \r\nfrom a broad range of hosts, including mammals (e.g., rodents), fish, and arthropods. Phylogenetic analysis of the \r\nparapoxviruses revealed ongoing mutations, particularly in the Parapoxvirus orf, suggesting an increase in adaptability \r\nand potential pathogenicity. The results indicate that environmental factors such as altitude, host availability and host \r\nsensitivity may significantly shape viral diversity and transmission dynamics.\r\nConclusions Ticks may contribute to the ecological circulation of poxviruses by switching hosts during their life \r\ncycle, potentially influencing viral genetic diversity. It underscores the risks of zoonotic spillover, particularly in regions \r\nwith frequent human-animal interactions.\r\nKeywords Poxvirus, Tick, Host, Evolution, Gene gain\r\nThe silent spread: uncovering the diversity \r\nand evolution of poxviruses in ticks across \r\nWestern China’s host landscapes\r\nYuxi Wang1†, Zhenhua Lu2†, Jingjing Hu3,4†, Xiaojie Yuan2, Weijie Chen1, Shuiping Lu1, Yue Pan1, Qi Chen3, Siru Hu1, \r\nWeilu Zhang2* and Chenglong Xiong1*\nWang et al. Virology Journal (2025) 22:214 Page 2 of 13\r\nIntroduction\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "As specialized blood-sucking arthropods, ticks have \r\na broad host range and serve as significant vectors for \r\ntransmitting bacterial, viral, and other zoonotic patho\u0002gens [1]. Similar to other arthropods, the distribution \r\nand density of ticks are significantly affected by climate \r\nchange and human activities. Climate warming and \r\nhuman-induced land use changes, in particular, expand \r\nthe range and population size of ticks, thereby directly \r\ncontributing to the transmission and spread of tick-borne \r\nzoonotic diseases [2–4].\r\nPoxviruses are large, enveloped, double-stranded DNA \r\nviruses capable of infecting a wide range of animals, \r\nincluding mammals, birds, reptiles, fish, and insects [5]. \r\nWithin the family Poxviridae, certain species of the gen\u0002era Orthopoxvirus (OPV), Parapoxvirus, Molluscipox\u0002virus, and Yatapoxvirus can infect humans, and most of \r\nthese are zoonotic [6–8]. The genus OPV, represented by \r\nOrthopoxvirus monkeypox (MPV), has garnered height\u0002ened global attention with the MPV clade II pandemic \r\nin 2022, which was largely transmitted within the MSM \r\n(men who have sex with men) population, and the high \r\nlethality rate (3%) of the MPV clade I pandemic in 2024 \r\n[9]. In July 2022 and August 2024, the WHO declared \r\nthe mpox outbreak a Public Health Emergency of Inter\u0002national Concern (PHEIC) twice, indicating that OPV \r\nhas imposed a significant disease burden on global pub\u0002lic health and requires heightened attention. In addition, \r\nprevious studies have found evidence in poxviral genome \r\nthat poxviruses could continually capture genes from \r\ntheir hosts, co-infecting viruses, and even the environ\u0002ment during the transmission process, and would retain \r\nor discard these genes through adaptive mutations [10–\r\n13]. These processes have been observed in select pox\u0002virus genera and remain under investigation for many \r\nothers. Consequently, studying the poxviral evolution \r\ncould not only reveal viral evolutionary patterns but also \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "aid in future prevention and control efforts by anticipat\u0002ing changes in virulence genes.\r\nChina is home to various climate types, with Gansu, \r\nShaanxi, and Tibet encompassing nearly all of them, \r\nincluding subtropical monsoon, temperate monsoon, \r\ntemperate continental, and alpine climates. This diver\u0002sity makes ticks collected from western China represen\u0002tative of the overall tick population across the country. \r\nAdditionally, these regions, spanning longitudes 78°25’–\r\n111°15’E and latitudes 26°50’–42°57’N, feature a broad \r\nrange of altitudinal gradients (600–4,500  m) and host \r\na variety of ecosystems, such as alpine meadows, pla\u0002teau wetlands, glacial tundra, alpine forests, and deserts. \r\nThese areas, characterized by rich biodiversity, support \r\nnumerous vertebrates, arthropods, and microorganisms. \r\nA significant proportion of farmers in these provinces are \r\ninvolved in animal husbandry, exposing them to a broad \r\nspectrum of zoonotic diseases, including Coronaviridae, \r\nFlaviviridae, Hepeviridae, Herpesviridae, and Poxviridae \r\n[14–16]. Moreover, the tundra of the Tibetan Plateau is \r\nhome to a diverse array of potential pathogens, present\u0002ing unique biosecurity risks [17]. This makes arthro\u0002pod-based virus surveillance in these areas particularly \r\nimportant.\r\nHematophagous arthropods, particularly ticks, have \r\nbeen confirmed as competent vectors for several pox\u0002virus transmission between mammalian hosts through \r\ninterrupted feeding behaviors [18–21]. This mechani\u0002cal transmission mechanism enables viral dissemination \r\nacross host and geographic barriers during blood meal \r\nacquisition. However, no study has comprehensively \r\ndescribed the diversity and abundance of different poxvi\u0002rus species in ticks from western China. To better under\u0002stand the host diversity during the tick life cycle, as well \r\nas the diversity, evolution, and transmission of poxvi\u0002ruses in ticks in western China, ticks were collected from \r\nthree provinces: Gansu, Shaanxi, and Tibet. Metage\u0002nomic sequencing was conducted on these ticks to obtain \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "information about their potential blood-feeding hosts \r\nand poxvirome. From this study, we revealed the host \r\ndynamics of ticks in these regions, explored the interre\u0002lationships between tick-associated poxviruses and their \r\nhosts, and examined the evolution and transmission of \r\npoxviruses in ticks.\r\nMethods and materials\r\nSample collection\r\nBetween April and August 2022, and in July 2023, ticks \r\nwere collected from rural areas in three provinces, \r\nincluding Gansu, Shaanxi, and Tibet. Parasitic ticks were \r\ncarefully gathered using tweezers from the body surfaces \r\nof domesticated sheep, cattle, and camels, while questing \r\nticks were sampled from grasslands using the flag-drag\u0002ging method. The collected ticks’ surfaces were cleaned \r\nby 75% ethyl alcohol, and were initially identified through \r\nmorphological analysis conducted by experts trained \r\nin the field [22]. Subsequently, the samples underwent \r\namplification and sequencing using primers targeting \r\nthe mitochondrial cytochrome c oxidase subunit I (COI) \r\ngene to achieve final identification. Ticks were grouped \r\ninto sampling pools based on factors such as species, \r\ngender, collection location, sampling time, and blood\u0002feeding status.\r\nLibrary preparation and sequencing\r\nTicks were individually washed with sterile RNA/DNA\u0002free PBS solution according to their sample groupings, \r\nand then homogenized in RLT solution under liquid \r\nnitrogen. Total DNA was extracted following the manu\u0002facturer’s instructions with the Ex-DNA/RNA nucleic \r\nacid extraction kit (TIAN LONG, China). DNA libraries \nWang et al. Virology Journal (2025) 22:214 Page 3 of 13\r\nwere prepared using the QIAseq® FX DNA Library Kit \r\n(Qiagen, Germany) and then subjected to paired-end \r\n(150-bp) sequencing on a NovaSeq sequencer (Illumina, \r\nInc., San Diego, CA).\r\nThe annotation and analysis of ticks’ potential blood\u0002feeding hosts\r\nLow-quality and short reads were filtered from the raw \r\ndata using fastp (v0.23.4) [23] to obtain clean reads. \r\nThe clean reads were then mapped to the DNA barcode \r\ndatabase, which was downloaded from the Barcode of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Life Data Systems (BOLD systems), using the Burrows\u0002Wheeler Alignment tool (BWA) (v0.7.17-r1188) [24]. \r\nTicks commonly feed on mammals, birds, reptiles, and \r\namphibians. Reads annotated to these classes were fil\u0002tered and defined as potential blood-feeding hosts dur\u0002ing the tick’s life cycle. The abundance of tick hosts in \r\neach sampling pool was standardized quantifying by cal\u0002culating the number of reads matched per million total \r\nclean reads in the library, thus eliminating the effect of \r\nsequencing depth.\r\nBased on the taxonomy of tick hosts identified in each \r\npool, the hosts were categorized into families, orders, and \r\nclasses, and their total abundances were calculated. Host \r\nvisualization by order and class for each pool was per\u0002formed using the ‘ComplexHeatmap’ package (v2.16.0) in \r\nR (v4.3.0). Box plots representing the four orders of hosts \r\ndetected across all samples were generated using the \r\n‘ggplot2’ package (v3.5.1) in R. Non-parametric Kruskal\u0002Wallis test was conducted in SPSS Statistics (v27.0.1.0) to \r\nassess between-group differences in the abundance of the \r\nfour classes across all samples, followed by Mann-Whit\u0002ney U test with Bonferroni correction to further investi\u0002gate pairwise between-group differences among the four \r\nclasses. In the investigation of mammalian host diversity \r\nin ticks, the mean values of mammalian hosts were cal\u0002culated separately by family and order across all samples. \r\nThe top 30 families, ranked by mean abundance, were \r\nselected and visualized using the ‘ggplot2’ package in R. \r\nFurthermore, based on these top 30 families, the ‘ggpubr’ \r\npackage (v0.6.0) in R was employed to depict the propor\u0002tional mean abundances of their respective orders.\r\nPrincipal Coordinate Analysis (PCoA) was conducted \r\nto assess the variations in blood-feeding hosts of ticks \r\ngathered from diverse geographical locations and species, \r\nutilizing host abundance data from each sampling pool. \r\nThe PCoA outcomes were visualized via the ‘ggplot2’ \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "package. Additionally, the ‘vegan’ package (v2.6.8) in R \r\nwas employed to execute the adonis test, evaluating the \r\ndifferences in blood-feeding hosts among ticks from dis\u0002tinct geographical locations and species.\r\nThe annotation and analysis of viral contigs\r\nClean reads were aligned to the Nucleotide Sequence \r\nDatabase using BWA, and the abundance of each poxvi\u0002rus was quantified by the reads matched per million total \r\nreads. Visualization of poxvirus abundance in each pool \r\nwas achieved using the ‘ComplexHeatmap’ package in R. \r\nPCoA was conducted to assess the variations in tick-asso\u0002ciated poxvirus gathered from diverse geographical loca\u0002tions and tick species. The results were visualized via the \r\n‘ggplot2’ package, and the ‘vegan’ package was employed \r\nto execute the adonis test, evaluating the differences in \r\npoxviruses among ticks from distinct geographical loca\u0002tions and species.\r\nThe association analysis of ticks’ blood-feeding hosts and \r\ntick-associared OPVs\r\nDue to the strong host specificity of mammalian poxvi\u0002ruses and the lack of direct evidence for their ability to \r\nreplicate in ticks, mammalian poxviruses detected in \r\nticks are likely derived from the ticks’ blood-feeding \r\nhosts. Thus, the abundance of mammalian blood-feed\u0002ing hosts (categorized into families) during the ticks’ \r\nlife cycle were used as the independent variable and the \r\nabundance of OPVs in ticks as the dependent variable to \r\nperform partial least squares regression (PLS) analyses \r\nusing SIMCA (v14.1). This approach assessed the rela\u0002tionship between mammalian blood-feeding hosts and \r\nOPVs, followed by extracting the Variable Importance in \r\nProjection (VIP) index for each host. Mammalian hosts \r\nwith VIP values greater than one were filtered and visual\u0002ized using the ‘ggplot2’ package in R. To further validate \r\nthe correlation between mammalian poxviruses and tick \r\nblood-feeding hosts, we conducted a Spearman cor\u0002relation analysis between poxvirus abundance and the \r\nabundance of tick blood-feeding hosts using the ‘psych’ \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "package in R (v2.4.12). The Spearman correlation coeffi\u0002cients and corresponding p-values were visualized using \r\nthe ‘pheatmap’ package (v1.0.12) in R.\r\nThe assembly and identification of poxviral contigs\r\nClean reads were mapped to nucleotide (NT) library for \r\nspecies annotation using Kraken2 (v2.1.3) [25], and reads \r\nannotated as poxviruses were filtered out. annotated to \r\npoxviruses. The reads identified as poxviruses were de \r\nnovo assembled into contigs using MetaSPAdes (v3.15.5) \r\n[26], followed by further extension assembly with TIGR \r\nGene Indices clustering tools (TGICL) (v2.1) [27]. \r\nThese assembled contigs were aligned against 46 refer\u0002ence sequences of chordopoxviruses using blastn with \r\nparameters set to an e-value of ≤1×10−5 and a length of \r\n≥45  bp. For the fragments failing alignment with pox\u0002viral reference sequences, we implemented a length \r\nthreshold of 45  bp. Sequences exceeding this threshold \r\nwere retained and operationally classified as unblasted \nWang et al. Virology Journal (2025) 22:214 Page 4 of 13\r\nfragments within the assembled contigs. However, if the \r\ntotal length of the unblasted fragments exceeds two\u0002thirds of the assembled contig’s sequence after alignment \r\nwith the poxvirus, these fragments will be discarded.\r\nThe fragments within the assembled contigs that could \r\nbe aligned with poxviruses were uploaded to NCBI’s \r\nStandard Nucleotide BLAST (BLASTn) online platform. \r\nThe comparison was conducted against the nucleotide \r\ncollection (nr/nt) database using the BLAST algorithm \r\nwith the parameter set to somewhat similar sequences \r\n(blastn) and an e-value threshold of ≤1×10−5. The \r\nmatched results were subsequently aligned using mafft \r\n(v7.520). The aligned sequences were imported into \r\nMEGA-X software to construct a phylogenetic tree using \r\nthe Neighbor-Joining method with a bootstrap value of \r\n1,000 and a substitution model based on the maximum \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "composite likelihood model. The resulting phylogenetic \r\ntree was refined and visualized using iTOL [28]. Subse\u0002quently, the nucleotide sequences were translated into \r\namino acid sequences using MEGA-X, and these amino \r\nacid sequences were aligned with ClustalW. Differential \r\nsites in the aligned amino acid sequences were identified, \r\nvisualized, and presented using GeneDoc software.\r\nThe unblasted fragments from those assembled contigs \r\nlengths ranking in the top 60 were subjected to BLASTn \r\nanalysis through the NCBI online platform, using iden\u0002tical parameters as previously described. All species \r\nmatched by the unblasted fragments in each assembled \r\ncontig were recorded separately. The ‘UpSetR’ pack\u0002age (v1.4.0) in R was employed to visualize the enriched \r\nclasses in the comparison results of unblasted fragments \r\nfrom assembled contigs. Furthermore, both the inverte\u0002brate phyla and the classes within the phylum Chordata \r\nof the enriched species identified in these comparison \r\nresults were visualized using the ‘UpSetR’ package and \r\nthe ‘ggplot2’ package.\r\nResults\r\nShaanxi, Gansu, and Tibet were selected as tick col\u0002lection positions and 234 ticks were collected in total. \r\nAmong these ticks, 35 were cattle-parasitic ticks, 115 \r\nwere sheep-parasitic ticks, 14 were camel-parasitic ticks, \r\nand 70 were questing ticks. All ticks were identified both \r\nmorphologically and molecularly to classify their species. \r\nUltimately, they were found belonging to Dermacentor \r\nmarginatus (D. marginatus), Haemaphysalis longicornis\r\n(Ha. longicornis), Haemaphysalis tibetensis (Ha. tibet\u0002ensis), Hyalomma asiaticum (Hy. asiaticum), and Ixodes \r\novatus (I. ovatus). The 234 collected ticks were divided \r\ninto 43 sampling pools based on their species, collected \r\nlocations, and parasitic status. The information for each \r\nsampling is presented in Fig.  1 and Table S1. A total of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "363  million raw reads were generated through metage\u0002nomic sequencing of these sampling pools, and 357 mil\u0002lion clean reads were retained for further analysis.\r\nFig. 1 Sampling positions, species, and parasitic status of ticks’ sampling pools. Each red dot indicates the collection position of ticks within a sampling \r\npool. Different colors and animal silhouettes are used to represent the species and parasitic status of ticks collected at each location. All animal silhouettes \r\nwere obtained from the Phylopic website. To distinguish the hosts of parasitic ticks when collected from potential blood-feeding hosts obtained by map\u0002ping the BOLD database, parasitic status was used to designate both parasitic and questing ticks at the time of collection\nWang et al. Virology Journal (2025) 22:214 Page 5 of 13\r\nSequences from the classes Amphibia, Aves, Mamma\u0002lia, and Reptilia were taxonomically identified by com\u0002paring the sequencing data with the BOLD database \r\n(Table S2). Notably, the abundance of mammalian hosts \r\nis higher than that of the other three classes throughout \r\nthe lifecycle of ticks in this study (Fig. 2a and Figure S1a). \r\nNon-parametric Kruskal-Wallis test indicated a statisti\u0002cally significant difference (p<0.001) in the mean abun\u0002dance of hosts among the four classes within the ticks. \r\nThe Mann-Whitney U test with Bonferroni correction \r\nfurther revealed that the mean abundance of mammals \r\nwas significantly different (p<0.001) compared to each of \r\nthe other three classes. Ticks collected in this study were \r\nmore inclined to feed on mammalian blood during their \r\nprevious life cycles. Among all the mammalian hosts of \r\nticks, the family Sciuridae from Rodentia had the high\u0002est average abundance, followed by the family Bovidae \r\nfrom Artiodactyla, the family Muridae from Rodentia, \r\nand the family Cercopithecidae from Primates (Fig. 2b). \r\nAccording to the species taxonomic information, all \r\nfamilies that ranked in the top 30 in terms of average \r\nabundance belonged to a total of 10 orders. Based on \r\nthe average abundance of species from these orders in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "ticks, the top six orders are Rodentia, Artiodactyla, Pri\u0002mates, Carnivora, Chiroptera and Eulipotyphla (Fig. 2b). \r\nPCoA revealed significant differences in the hosts of ticks \r\nfrom different geographical locations (Adonis, p=0.001) \r\nand different species (Adonis, p=0.001) (Fig. 2c and d). \r\nAlthough both p-values were equal to 0.001, the differ\u0002ences between groups of tick hosts from different spe\u0002cies were smaller than those from different geographic \r\nlocations, as observed in the images. Additionally, higher \r\nhost abundance was detected in samples from Tibet com\u0002pared to those from other geographical origins (Figure \r\nS1a and Figure S1b).\r\nFollowing the alignment of clean reads to the nucleo\u0002tide sequence database, a total of 17,767 reads cor\u0002responding to chordopoxviral gene fragments were \r\nidentified, encompassing 51 species across 18 genera. \r\nAdditionally, 1,169 reads pertaining to entomopoxviral \r\ngene fragments were detected, representing 10 species \r\nacross three known genera and one unidentified genus \r\n(Table S3). The abundance of the 61 poxviruses in each \r\nsample can be visualized in the heatmap, which reveals \r\nsignificant differences among virus species from sam\u0002ples originating from different geographical locations \r\n(Fig.  3a). Notably, relatively high poxvirus abundance \r\nwas observed in ticks from Tibet, with one sampling pool \r\ncontaining Ha. tibetensis showing higher abundances of \r\nYatapoxvirus tanapox and Suipoxvirus swinepox com\u0002pared to others. Ticks from Shaanxi showed a high abun\u0002dance of Avipoxvirus canarypox and Macropopoxvirus \r\nmfuliginosuspox compared to other regions. Addition\u0002ally, three sampling pools collected from sheep in Gansu \r\ncontained a high abundance of Parapoxvirus orf (ORFV). \r\nPCoA revealed significant differences in poxviral abun\u0002dance in ticks from different geographic locations \r\n(Adonis, p=0.001) and among different species (Adonis, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "p=0.001) (Fig. 3b and c).\r\nPLS regression (R2X=0.69, R2Y=0.56, Q2=0.39) was \r\nused to explore hosts that play an important role in the \r\nabundance of OPVs in ticks, and 80 families with a VIP \r\nscore greater than 1 were identified as potentially impor\u0002tant (Fig.  3d). Among them, 15 families belong to the \r\norder Rodentia, representing the largest proportion of \r\nall mammalian hosts of interest. Of the remaining fami\u0002lies, 13 belong to the order Primates, 9 to Artiodactyla, 9 \r\nto Carnivora, and 8 to Diprotodontia. A Spearman cor\u0002relation analysis between mammophilic poxviruses and \r\nmammals from the top 30 families with the highest aver\u0002age abundance revealed that, among all mammals with \r\nsignificant positive correlations to OPV, the highest per\u0002centage belonged to the order Rodentia (Figure S2).\r\nA total of 387 sequences (≥300  bp) were assembled \r\nfrom poxviral reads, with one sequence exceeding 1  kb \r\nin length and 125 sequences exceeding 500  bp (Table \r\nS4). In examining the differences between poxviruses in \r\nticks and 46 chordopoxviral reference sequences (Table \r\nS5), we identified multiple sequences that matched the \r\ngenus Parapoxvirus with an e-value of 0, indicating these \r\nsequences likely reflect ingestion during blood-feed\u0002ing rather than endogenous replication (Table S4). For \r\nexample, an assembled sequence named ‘Contig 1’, with \r\na length of 1,171 bp, matched the 122,627−121,462 frag\u0002ment of the Orf virus reference strain (NC_005336.1) \r\nwith an e-value of 0. As the matching fragment con\u0002tained the ORFVgORF122 and ORFVgORF121 genes, \r\nthe corresponding sequences in Contig 1 were extracted \r\nseparately, and phylogenetic analyses were performed \r\nfor each gene (Fig. 4a and b), along with comparisons of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "their respective coding amino acid sites (Fig. 4c and d). \r\nNotably, the Orf virus strains closely clustering with the \r\ntwo fragments of Contig 1 originate from China, and the \r\n142nd amino acid site of the 595–1,196 fragment of the \r\nassembled Contig 1 sequence differs from other strains \r\nprevalent in China.\r\nThe species which the unblasted fragments of the lon\u0002gest 60 contigs had matched were diverse (Table S6). \r\nAt the class level, unblasted fragments from multiple \r\ncontigs were successfully aligned with sequences from \r\nMammalia, Actinopteri, Insecta, Clitellata, Polychaeta, \r\nGastropoda, and Bivalvia (Fig. 5a). Given the closer evo\u0002lutionary relationship between vertebrates and humans, \r\nwe concentrated on gene fragments derived from verte\u0002brate genomes within poxviruses. Consequently, when \r\nconstructing the upset plot at the species level, our focus \r\nwas on classes within the phylum Chordata, as well as \r\nother phyla that were previously mentioned. Among \nWang et al. Virology Journal (2025) 22:214 Page 6 of 13\r\nFig. 2 The potential blood-feeding hosts in the life cycle of ticks. (a) Abundance of potential blood-feeding hosts encountered throughout the life cycle \r\nof all ticks, categorized by class. Boxes represent the median and interquartile range, and the whiskers indicate the maxima and minima. Each point in \r\nthe plot represents the abundance of a class in a sampling pool. (b) The abundance of the top 30 mammal families encountered in the life cycle of all \r\nticks, along with the percentage distribution of orders corresponding to these families. Black dots represent individual samples to effectively demonstrate \r\nthe diversity of blood-feeding hosts among ticks from various origins. However, the points of excessively highly abundant samples in some families (like \r\nSciuridae) have been concealed to enhance the clarity of the figure. All animal silhouettes were obtained from the Phylopic website. (c) PCoA analysis of \r\nthe abundance of blood-feeding hosts experienced in the life cycles of ticks from different geographical locations. (d) PCoA analysis of the abundance of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "blood-feeding hosts experienced in the life cycles of ticks of different species\nWang et al. Virology Journal (2025) 22:214 Page 7 of 13\r\nFig. 3 The abundance and diversity of poxvirus in ticks and the blood-feeding hosts significantly influencing that of orthopoxviruses. (a) Poxvirus rich\u0002ness and abundance in ticks, calculated as log (reads per million clean reads), with each vertical column representing a sampling pool. (b) PCoA analysis of \r\npoxvirus composition in ticks of different geographical locations. (c) PCoA analysis of poxvirus composition in ticks of different species. (d) Blood-feeding \r\nhosts that significantly impact OPVs in ticks are categorized by family. Different colors are used to highlight the orders to which the top 30 families, ranked \r\nby total abundance, belong, as mentioned in the previous section\nWang et al. Virology Journal (2025) 22:214 Page 8 of 13\r\nFig. 4 Phylogenetic and amino acid variation analyses for a representative poxviral sequence (Contig 1 in this study). (a) Phylogenetic analyses (Neigh\u0002bor-Joining method, bootstrap=1,000) of sites 1 to 536 in Contig 1. (b) Phylogenetic analyses (Neighbor-Joining method, bootstrap=1,000) of sites 596 \r\nto 1,166 in Contig 1. (c) Amino acid sequence mutation site analyses of sites 1 to 536 in Contig 1. (d) Amino acid sequence mutation site analyses of sites \r\n596 to 1,166 in Contig 1\nWang et al. Virology Journal (2025) 22:214 Page 9 of 13\r\nvertebrates, the majority of matches are predominantly \r\nfound from the classes Mammalia and Actinopteri \r\n(Fig. 5b).\r\nDiscussion\r\nIn this study, we employed metagenomic sequencing to \r\nanalyze 43 tick sampling pools from Shaanxi, Gansu, and \r\nTibet, facilitating an in-depth exploration of the tick life \r\ncycle and the diversity and evolution of tick-associated \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "poxviruses in western China. Our results revealed signifi\u0002cant geographic variation in host diversity and the asso\u0002ciated poxviruses throughout the tick life cycle. Notably, \r\nwe observed that parapoxviruses in China are undergoing \r\ncontinuous mutation, underscoring the need for vigilant \r\nmonitoring. Additionally, our analysis of the unblasted \r\nfragments within the tick-associated poxvirus sequence \r\nsuggests that these poxviruses may be evolving through a \r\nprocess of gene acquisition from diverse hosts, including \r\nmammals, bony fishes, and arthropods.\r\nTicks are hematophagous ectoparasites that feed on the \r\nblood of mammals, birds, reptiles, and amphibians. Most \r\nspecies within the genus Ixodes are multi-host ticks, with \r\ntheir larval, nymphal, and adult stages parasitizing a vari\u0002ety of hosts. These ticks exhibit distinct host preferences \r\ndepending on species. All five tick species collected in \r\nthis study were mammalianophilic, primarily feeding on \r\nsmall mammals such as rats and hedgehogs, as well as \r\nlarger mammals like cows and sheep [29–31]. These find\u0002ings were consistent with in vivo host-source sequence \r\ncomparisons conducted in ticks, which indicated that \r\nmammalian hosts dominate throughout the tick life \r\ncycle. The six most abundant host orders identified in \r\nFig. 5 Possible host origin of unblasted fragments in assembled contigs. (a) The taxonomic distribution of unblasted fragments at the class level is il\u0002lustrated using animal silhouettes to represent classes commonly found across multiple assembled contigs. (b) The taxonomic distribution derived from \r\nmatching unblasted fragments is visualized at the species level. Animal silhouettes are employed to depict the presence of invertebrate phyla and various \r\nclasses within vertebrate phyla, commonly observed across multiple assembled contigs of unblasted fragments. All animal silhouettes were obtained \r\nfrom the Phylopic website\nWang et al. Virology Journal (2025) 22:214 Page 10 of 13\r\nticks—Rodentia, Artiodactyla, Primates, Carnivora, Chi\u0002roptera, and Eulipotyphla—align with known patterns of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "host distribution. Wild small mammals, such as rodents, \r\nbats, and shrews, as well as economically significant \r\nmammals like raccoons and minks, are not only geo\u0002graphically close to humans but also act as reservoirs for \r\na wide range of viruses with potential for host-jumping \r\n[32–34]. These animals are increasingly recognized as \r\nsignificant sources of emerging zoonotic viruses.\r\nAs widely distributed and specialized blood-feeding \r\narthropods, ticks are capable of switch hosts throughout \r\ntheir life cycle. This adaptability, particularly in urban\u0002ized regions, allows ticks to harbor and transmit viruses \r\nfrom small mammals and livestock species closely associ\u0002ated with human activities [35, 36]. Such host-switching \r\nbehavior promotes cross-species transmission, increas\u0002ing the likelihood of zoonotic spillover events into human \r\npopulations. Importantly, viruses that acquire adaptive \r\nmutations during these host switches can rapidly emerge \r\nin densely populated human environments, posing sig\u0002nificant risks to public health [37].\r\nIn our study, we detected gene fragments from chordo\u0002poxviruses corresponding to 44 known and 7 previously \r\nunidentified species within tick samples, suggesting that \r\nticks may act as mechanical vectors for poxviral trans\u0002mission. This finding indicates the potential for both \r\ncross-host and cross-species transmission of poxviruses \r\nvia ticks. Although we did not confirm the replication of \r\npoxviruses within ticks in our experiments, the viruses \r\nwere able to passively retain in tick cells for up to 35 days \r\n[38], implying that poxviruses may be transmitted to new \r\nhosts during ticks’ blood-feeding activities. Prior stud\u0002ies have confirmed that the Capripoxvirus lumpyskinpox\r\n(LSDV), the Leporipoxvirus myxoma, and various species \r\nof the genus Avipoxvirus can be mechanically transmit\u0002ted by blood-feeding arthropods, including ticks, fleas, \r\nand mosquitoes [18, 39, 40]. More surprisingly, LSDV \r\nacquired by ticks from infected hosts can be transmit\u0002ted vertically to their offspring, thereby perpetuating \r\nthe infection in the host population [21]. These obser\u0002vations strengthen the hypothesis that blood-sucking \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "arthropods, particularly ticks, could play a critical role in \r\nfacilitating the cross-host transmission of poxviruses and \r\ncontribute to their spread.\r\nInteractions between ticks’ blood-feeding hosts, tick\u0002associated poxviruses and ticks varied significantly across \r\ngeographical landscapes in this study. In particular, \r\nthe higher abundance of poxviruses and blood-feeding \r\nhosts in ticks collected from Tibet compared to those \r\nfrom Shaanxi and Gansu underscores the influence of \r\necological factors such as altitude and climate. In Tibet, \r\nthe uniquely cold, arid, and low-oxygen climatic condi\u0002tions compel ticks to reduce their metabolic activities, \r\npotentially prolonging their life cycle [41]. Furthermore, \r\nto adapt more effectively to the extreme cold, ticks may \r\nremain attached to their hosts longer in cold climates, \r\nenhancing the potential for gene exchange or viral per\u0002sistence [42]. We hypothesize that the aforementioned \r\nfactors may collectively contribute to the high prevalence \r\nof host-derived gene fragments in ticks, and might poten\u0002tially facilitating the acquisition of additional poxviruses \r\nfrom the host. Specifically, the longer a tick parasitizes \r\na host, the slower its metabolic rate becomes, leading \r\nto the retention of more host-derived genetic material. \r\nNevertheless, the substantial number of poxviral reads \r\nidentified in ticks from Tibet, as well as the high quantity \r\nof reads originating from the blood-feeding hosts, may \r\nalso be attributed to sampling bias. This could be due to \r\nthe relatively small sample size of ticks collected in Tibet \r\nand the geographically limited collection area. Regard\u0002less, these findings still suggest that ticks and other \r\nhematophagous arthropods in plateau regions, such as \r\nTibet, may play a significant role in the transmission of \r\nemerging zoonotic viruses, thereby warranting serious \r\nconsideration.\r\nThe traditional naming of poxviruses based on their \r\nfirst-identified host species is increasingly being ques\u0002tioned. Research indicates that the host in which virus \r\nwas initially identified is not necessarily its natural res\u0002ervoir. This is exemplified by OPV, such as MPV, which \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "have attracted global attention due to their recent out\u0002breaks. While these viruses were first identified in a \r\nwide range of host species, it is now widely accepted \r\nthat Rodentia—particularly wild rodents—serve as the \r\nprimary natural reservoir hosts for many OPV species \r\n[43–45]. Our findings further support this hypothesis, as \r\nmembers of Rodentia represented the highest proportion \r\nof families associated with OPV in ticks. However, this \r\nresult is influenced by the abundance of tick blood-feed\u0002ing hosts in the habitat. The association between OPV \r\nand natural rodent hosts in western China remains to be \r\nconfirmed through further experiments. These observa\u0002tions reinforce the necessity for enhanced surveillance \r\nof wild rodent populations to monitor and control the \r\nspread of re-emerging poxviruses like MPV.\r\nThe ORFV, a zoonotic poxvirus prevalent in small \r\nruminants such as goats and sheep, is widely distrib\u0002uted across East Asia, including China [46, 47]. In this \r\nstudy, we detected a high abundance of ORFV in two \r\npools of Hy. asiaticum and one pool of D. marginatus, \r\nall collected from sheep in Gansu province. These find\u0002ings suggest that an ORFV epidemic occurred in sheep \r\nin Gansu between April and August 2022. Additionally, \r\nthe identification of mutation sites in the ORFV sequence \r\ndistinct from other strains, indicates that the domestic \r\nORFV is still undergoing evolution, which may lead to \r\nchanges in its virulence and pathogenicity. Although the \r\nfunction of the protein encoded by the ORFVgORF121 \nWang et al. Virology Journal (2025) 22:214 Page 11 of 13\r\ngene remains unknown, it can be hypothesized that the \r\nongoing mutation could enhance the viral adaptability to \r\nruminant hosts and potentially increase its risk to human \r\nhealth. Previous studies have highlighted that east and \r\nsouth Asia are hotspots for ORFV transmission, where \r\nseveral genes in the viral genome are subject to positive \r\nselection pressures [48], further supporting the urgent \r\nneed for improved ORFV surveillance, rapid isolation of \r\ninfected animals, and strategies to prevent cross-species \r\ntransmission.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "The Chordopoxvirinae subfamily may have evolved \r\nfrom Entomopoxvirinae [13], or both may share a com\u0002mon ancestor in a bilaterian Metazoa infectious pox\u0002virus [49]. As these viruses have evolved, they continue \r\nto acquire genes from their hosts to counteract antiviral \r\ndefenses [13]. Additionally, under selective pressure, they \r\nlose non-essential genes and introduce early stop muta\u0002tions to optimize host resource utilization and promote \r\ncoexistence [50]. The evolution of poxviruses is marked \r\nby frequent gene capture, and their genomes will retain \r\nsome genes from their hosts during the evolutionary \r\nprocess. Some genes of host origin that were parasitized \r\nby viruses in the early stages of evolution may have only \r\nsmall fragments remaining in their genomes, whereas \r\nhosts experienced by viruses in their more recent evolu\u0002tionary history may have more complete gene fragments \r\nremaining. Regardless of the length of the residual frag\u0002ments, however, the presence of these genes can help \r\nin the exploration of the evolutionary history of poxvi\u0002ruses. For instance, the presence of the Sauria SINE gene \r\nfrom Echis ocellatus in the genome of the Orthopoxvirus \r\ntaterapox suggests potential historical cross-class infec\u0002tion of reptilian species by this virus and related OPVs \r\n[51]. In this study, the results further support the idea \r\nof extensive host switching during the evolutionary his\u0002tory of poxviruses, with many poxviruses acquiring genes \r\nfrom a variety of host species. We identified several \r\nunblasted fragments within the assembled chordopox\u0002viral sequences that did not match any known poxviral \r\nreference, suggesting historical gene sharing events or \r\nsequence convergence with hosts such as mammals, bony \r\nfishes, and arthropods; however, the possibility of con\u0002tamination or sequencing artifacts cannot be excluded. \r\nThis horizontal gene transfer likely occurred through \r\nmobile genetic elements, such as long interspersed \r\nnuclear element-1 (LINE-1), which mediate retrotrans\u0002position of mammalian-derived mRNA into poxvirus \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "genomes [52]. However, the matches of unblasted frag\u0002ments to potential hosts do not completely eliminate \r\nother possible explanations, such as contamination or the \r\nassembly of artifacts.\r\nThe presence of the unblasted fragments in the chor\u0002dopoxviruses assembled in this study, which align with \r\nfish species, supports the hypothesis that poxviruses \r\nmay have evolved from aquatic hosts before adapting \r\nto terrestrial environments, and this hypothesis mer\u0002its targeted virome studies in aquatic hosts. Fish, being \r\nthe most diverse group among vertebrates, may harbor \r\npoxviruses comparable in diversity to those found in \r\nmammals, though very few fish poxviruses have been \r\nidentified thus far [5, 53, 54]. Our study thus opens \r\nthe door to the discovery of previously unknown fish \r\npoxviruses, which may hold key insights into poxviral \r\nevolution. Furthermore, the identification of arthropod\u0002derived gene fragments in the poxviral genomes raises \r\nthe possibility of genetic recombination between poxvi\u0002ruses and entomopoxviruses, suggesting a complex evo\u0002lutionary history that warrants further investigation.\r\nHowever, this study has several limitations. The study \r\nrelied solely on tick metagenome sequencing data, which \r\ninfluenced the results due to challenges in completely \r\nremoving contamination during data analysis, difficul\u0002ties in eliminating assembly artifacts during poxvirus \r\nassembly, and the oversensitivity of the virus sequences \r\nand tick blood-feeding host identification methods, all \r\nof which may lead to false-positive results. Addition\u0002ally, the study was limited to tick sequencing data and \r\ndid not incorporate relevant experiments to validate the \r\nhypotheses derived from the analysis. Future refinement \r\nof experimental methods will be necessary to confirm the \r\nfindings more robustly.\r\nConclusions\r\nIn this study, we collected a total of 234 ticks from Tibet, \r\nGansu, and Shaanxi provinces in China and 43 metage\u0002nomic sequencing datasets from five tick species were \r\nobtained. Our results revealed the transmission, preva\u0002lence, and mutation of multiple poxviruses, particu\u0002larly parapoxviruses, in the western regions of China. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Notably, in Tibet, the unique plateau environment con\u0002tributed to a higher abundance of both poxviruses and \r\nblood-feeding hosts in the collected ticks compared to \r\nother regions. Additionally, the assembled chordopoxvi\u0002ral sequences contained various unblasted fragments of \r\ngenes from mammals, bony fishes, arthropods, and other \r\nspecies, illustrating the genetic complexity and possible \r\nhost associations in the evolutionary history of poxvi\u0002ruses. Influenced by interactions between viruses, hosts, \r\nvectors, and the environment, poxviruses are shaped \r\nby continuously acquiring genes and undergoing adap\u0002tive mutations, which may facilitate changes in their \r\nvirulence, transmission potential, and even host jumping \r\nability. By utilizing tick metagenomic sequencing data to \r\nconnect ticks, poxviruses, and hosts, this study not only \r\nunderscore the need for continued surveillance of zoo\u0002notic poxviruses in vector populations but also explores \r\nthe potential evolutionary dynamics of these viruses.\nWang et al. Virology Journal (2025) 22:214 Page 12 of 13\r\nAbbreviations\r\nBOLD Barcode of life data systems\r\nD. marginatus Dermacentor marginatus\r\nHa. longicornis Haemaphysalis longicornis\r\nHa. tibetensis Haemaphysalis tibetensis\r\nHy. asiaticum Hyalomma asiaticum\r\nI. ovatus Ixodes ovatus\r\nLINE-1 Long interspersed nuclear element-1\r\nLSDV Capripoxvirus lumpyskinpox\r\nMPV Orthopoxvirus monkeypox\r\nMSM Men who have sex with men\r\nOPV Orthopoxvirus\r\nORFV Parapoxvirus orf\r\nPCoA Principal coordinate analysis\r\nPHEIC Public health emergency of international concern\r\nPLS Partial least squares regression\r\nVIP Variable importance in projection\r\nSupplementary Information\r\nThe online version contains supplementary material available at https://doi.or\r\ng/10.1186/s12985-025-02844-1.\r\nSupplementary Material 1: Table S1. Basic information of 43 tick sampling \r\npools.\r\nSupplementary Material 2: Table S2. Taxonomy and abundance of blood\u0002feeding hosts during ticks’ life cycle.\r\nSupplementary Material 3: Figure S1. The abundance of blood-feeding \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "hosts in ticks’ life cycle.\r\nSupplementary Material 4: Table S3. Abundance of poxviruses in 43 tick \r\nsampling pools.\r\nSupplementary Material 5: Figure S2. Spearman correlation analysis \r\nbetween tick-associated blood-feeding hosts and poxviruses.\r\nSupplementary Material 6: Table S4. The information of 387 contigs as\u0002sembled in this study.\r\nSupplementary Material 7: Table S5. Taxonomy and reference sequence \r\n(RefSeq) accession numbers of 46 chordopoxviruses.\r\nSupplementary Material 8: Table S6. Species and taxonomic information \r\nfrom online BLAST analyses of the top 60 longest unaligned sequences.\r\nAuthor contributions\r\nY. W., Z. L., J. H., S. L. and C. X. wrote the first draft of the paper; Z. L., X. Y., and \r\nW. Z. performed the sample collection; J. H., Y. W., W. C. and Y. P. performed the \r\ndata processing; C. X. and W. Z. supervised the study. All authors, including Q. \r\nC. and S. H., made substantial revisions and critical review, and all authors have \r\nseen and approved the final version.\r\nFunding\r\nThis research was funded by the Shanghai New Three-year Action Plan \r\nfor Public Health (2023–2025, Grant No. GWVI-11.1-03), National Natural \r\nScience Foundation of China (Grant No. 82273689), and Key Research and \r\nDevelopment Program of Shaanxi (Grant No. 2024SF-YBXM-289).\r\nData availability\r\nAll the metagenomic sequencing data reported in this paper have \r\nbeen deposited in the NCBI database with the primary accession code \r\nPRJNA1220282. And the datasets supporting the conclusions of this article are \r\nincluded within the article.\r\nDeclarations\r\nConsent for publication\r\nNot Applicable.\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nEthics approval and consent to participate\r\nEthical approval was not required for this study as no animals were harmed \r\nduring the collection of ticks. The ticks were collected from large mammals \r\nusing sterile tweezers without any invasive procedures. Only naturally \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "attached or questing ticks were collected, and no intervention was made to \r\nthe animals involved.\r\nReceived: 25 April 2025 / Accepted: 23 June 2025\r\nReferences\r\n1. Maqbool M, Sajid MS, Saqib M, Anjum FR, Tayyab MH, Rizwan HM, Rashid MI, \r\nRashid I, Iqbal A, Siddique RM, et al. Potential mechanisms of transmission of \r\nTick-Borne viruses at the Virus-Tick interface. Front Microbiol. 2022;13:846884.\r\n2. Gilbert L. The impacts of climate change on ticks and Tick-Borne disease risk. \r\nAnn Rev Entomol. 2021;66:373–88.\r\n3. Yang X, Gao Z, Wang L, Xiao L, Dong N, Wu H, Li S. Projecting the potential \r\ndistribution of ticks in China under climate and land use change. Int J Parasi\u0002tol. 2021;51(9):749–59.\r\n4. Pérez LJ, Baele G, Hong SL, Cloherty GA, Berg MG. Ecological changes exac\u0002erbating the spread of invasive ticks has driven the dispersal of severe fever \r\nwith thrombocytopenia syndrome virus throughout Southeast Asia. Mol Biol \r\nEvol. 2024;41(8):msae173.\r\n5. McInnes CJ, Damon IK, Smith GL, McFadden G, Isaacs SN, Roper RL, Evans DH, \r\nDamaso CR, Carulei O, Wise LM, et al. ICTV virus taxonomy profile: poxviridae \r\n2023. J Gen Virol. 2023;104(5):001849.\r\n6. Mauldin MR, Antwerpen M, Emerson GL, Li Y, Zoeller G, Carroll DS, Meyer H. \r\nCowpox virus: what’s in a name?? Viruses. 2017;9(5):101.\r\n7. Lewis-Jones S. Zoonotic poxvirus infections in humans. Curr Opin Infect Dis. \r\n2004;17(2):81–9.\r\n8. McFadden G. Poxvirus tropism. Nat Rev Microbiol. 2005;3(3):201–13.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "9. Cabanillas B, Murdaca G, Guemari A, Torres MJ, Azkur AK, Aksoy E, \r\nVitte J, Fernández-Santamaria R, Karavelia A, Castagnoli R, et al. Mon\u0002keypox 2024 outbreak: Fifty essential questions and answers. Allergy. \r\n2024;79(12):3285–309.\r\n10. O’Toole Á, Neher RA, Ndodo N, Borges V, Gannon B, Gomes JP, Groves N, King \r\nDJ, Maloney D, Lemey P, et al. APOBEC3 deaminase editing in Mpox virus as \r\nevidence for sustained human transmission since at least 2016. Sci (New York \r\nNY). 2023;382(6670):595–600.\r\n11. Senkevich TG, Yutin N, Wolf YI, Koonin EV, Moss B. Ancient gene capture and \r\nrecent gene loss shape the evolution of Orthopoxvirus-Host interaction \r\ngenes. mBio. 2021;12(4):e0149521.\r\n12. Li Y, Hou J, Sun Z, Hu J, Thilakavathy K, Wang Y, Shao Z, Lu Y, Wang W, Xiong \r\nC. Monkeypox virus 2022, gene heterogeneity and protein polymorphism. \r\nSignal Transduct Target Therapy. 2023;8(1):278.\r\n13. Hughes AL, Friedman R. Poxvirus genome evolution by gene gain and loss. \r\nMol Phylogenet Evol. 2005;35(1):186–95.\r\n14. He X, Wang X, Fan G, Li F, Wu W, Wang Z, Fu M, Wei X, Ma S, Ma X. Metage\u0002nomic analysis of Viromes in tissues of wild Qinghai vole from the Eastern \r\nTibetan plateau. Sci Rep. 2022;12(1):17239.\r\n15. Zhang S, Gao H, Zhang G, Fang M, Kong Y, Jiang L, Liu Q, Wang P, Liu Y, Li Y. \r\nMetavirome analysis of domestic sheep in shaanxi, gansu, and ningxia, China. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Front Veterinary Sci. 2024;11:1508617.\r\n16. Li W, Ning Z, Hao W, Song D, Gao F, Zhao K, Liao X, Li M, Rock DL, Luo S. Isola\u0002tion and phylogenetic analysis of Orf virus from the sheep herd outbreak in \r\nNortheast China. BMC Vet Res. 2012;8:229.\r\n17. Zhang B, Zhang B, Xu Y, Yan X, Wang S, Yang X, Yang H, Zhang G, Zhang W, \r\nChen T, et al. Shift in potential pathogenic bacteria during permafrost degra\u0002dation on the Qinghai-Tibet plateau. Sci Total Environ. 2024;954:176778.\r\n18. El-Ansary RE, El-Dabae WH, Bream AS, El Wakil A. Isolation and molecular \r\ncharacterization of lumpy skin disease virus from hard ticks, Rhipicephalus \r\n(Boophilus) annulatus in Egypt. BMC Vet Res. 2022;18(1):302.\r\n19. Sohier C, Haegeman A, Mostin L, De Leeuw I, Campe WV, De Vleeschauwer \r\nA, Tuppurainen ESM, van den Berg T, De Regge N, De Clercq K. Experi\u0002mental evidence of mechanical lumpy skin disease virus transmission by \r\nStomoxys calcitrans biting flies and Haematopota spp. Horseflies. Sci Rep. \r\n2019;9(1):20076.\nWang et al. Virology Journal (2025) 22:214 Page 13 of 13\r\n20. Tuppurainen ES, Stoltsz WH, Troskie M, Wallace DB, Oura CA, Mellor PS, \r\nCoetzer JA, Venter EH. A potential role for Ixodid (hard) tick vectors in the \r\ntransmission of lumpy skin disease virus in cattle. Transbound Emerg Dis. \r\n2011;58(2):93–104.\r\n21. Tuppurainen ES, Lubinga JC, Stoltsz WH, Troskie M, Carpenter ST, Coe\u0002tzer JA, Venter EH, Oura CA. Evidence of vertical transmission of lumpy \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "skin disease virus in Rhipicephalus decoloratus ticks. Ticks tick-borne Dis. \r\n2013;4(4):329–33.\r\n22. Zhang L, Han J, Zhou Q, He Z, Sun SW, Li R, Li RS, Zhang WK, Wang YH, Xu LL, \r\net al. Differential microbial composition in parasitic vs. questing ticks based \r\non 16S next-generation sequencing. Front Microbiol. 2023;14:1264939.\r\n23. Chen S, Zhou Y, Chen Y, Gu J. Fastp: an ultra-fast all-in-one FASTQ preproces\u0002sor. Bioinf (Oxford England). 2018;34(17):i884–90.\r\n24. Li H, Durbin R. Fast and accurate short read alignment with Burrows-Wheeler \r\ntransform. Bioinf (Oxford England). 2009;25(14):1754–60.\r\n25. Wood DE, Lu J, Langmead B. Improved metagenomic analysis with kraken 2. \r\nGenome Biol. 2019;20(1):257.\r\n26. Nurk S, Meleshko D, Korobeynikov A, Pevzner PA. MetaSPAdes: a new versatile \r\nmetagenomic assembler. Genome Res. 2017;27(5):824–34.\r\n27. Pertea G, Huang X, Liang F, Antonescu V, Sultana R, Karamycheva S, Lee Y, \r\nWhite J, Cheung F, Parvizi B, et al. TIGR gene indices clustering tools (TGICL): \r\na software system for fast clustering of large EST datasets. Bioinf (Oxford \r\nEngland). 2003;19(5):651–2.\r\n28. Letunic I, Bork P. Interactive tree of life (iTOL) v5: an online tool for phyloge\u0002netic tree display and annotation. Nucleic Acids Res. 2021;49(W1):W293–6.\r\n29. Elati K, Benyedem H, Fukatsu K, Hoffmann-Köhler P, Mhadhbi M, Bakırcı S, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Bilgiç HB, Karagenç T, Darghouth MA, Nijhof AM. In vitro feeding of all life \r\nstages of two-host Hyalomma excavatum and Hyalomma scupense and \r\nthree-host Hyalomma dromedarii ticks. Sci Rep. 2024;14(1):444.\r\n30. Zhao L, Li J, Cui X, Jia N, Wei J, Xia L, Wang H, Zhou Y, Wang Q, Liu X, et al. \r\nDistribution of Haemaphysalis longicornis and associated pathogens: analysis \r\nof pooled data from a China field survey and global published data. Lancet \r\nPlanet Health. 2020;4(8):e320–9.\r\n31. Militzer N, Bartel A, Clausen PH, Hoffmann-Köhler P, Nijhof AM. Artificial feed\u0002ing of all consecutive life stages of Ixodes ricinus. Vaccines. 2021;9(4):385.\r\n32. Chen YM, Hu SJ, Lin XD, Tian JH, Lv JX, Wang MR, Luo XQ, Pei YY, Hu RX, Song \r\nZG, et al. Host traits shape Virome composition and virus transmission in wild \r\nsmall mammals. Cell. 2023;186(21):4662–e46754612.\r\n33. Zhao J, Wan W, Yu K, Lemey P, Pettersson JH, Bi Y, Lu M, Li X, Chen Z, Zheng \r\nM, et al. Farmed fur animals harbour viruses with zoonotic spillover potential. \r\nNature. 2024;634(8032):228–33.\r\n34. Buigues J, Viñals A, Martínez-Recio R, Monrós JS, Sanjuán R, Cuevas JM. Full\u0002genome sequencing of dozens of new DNA viruses found in Spanish Bat \r\nfeces. Microbiol Spectr. 2024;12(8):e0067524.\r\n35. Combs MA, Kache PA, VanAcker MC, Gregory N, Plimpton LD, Tufts DM, \r\nFernandez MP, Diuk-Wasser MA. Socio-ecological drivers of multiple zoonotic \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "hazards in highly urbanized cities. Glob Change Biol. 2022;28(5):1705–24.\r\n36. Ni XB, Pei Y, Ye YT, Shum MH, Cui XM, Wu YQ, Pierce MP, Zhao L, Wang GP, Wei \r\nJT, et al. Ecoclimate drivers shape Virome diversity in a globally invasive tick \r\nspecies. ISME J. 2024;18(1):wrae087.\r\n37. Kinganda-Lusamaki E, Amuri-Aziza A, Fernandez-Nuñez N, Makangara\u0002Cigolo JC, Pratt C, Vakaniaki EH, Hoff NA, Luakanda-Ndelemo G, Akil-Bandali \r\nP, Nundu SS, et al. Clade I Mpox virus genomic diversity in the Democratic \r\nRepublic of the congo, 2018–2024: predominance of zoonotic transmission. \r\nCell. S 2024;0092–8674(24):01199–01191.\r\n38. Tuppurainen ES, Venter EH, Coetzer JA, Bell-Sakyi L. Lumpy skin disease: \r\nattempted propagation in tick cell lines and presence of viral DNA in \r\nfield ticks collected from naturally-infected cattle. Ticks tick-borne Dis. \r\n2015;6(2):134–40.\r\n39. García-Pereira S, González-Barrio D, Fernández-García JL, Gómez-Martín A, \r\nHabela M, García-Bocanegra I, Calero-Bernal R. Detection of Myxoma virus \r\nDNA in ticks from lagomorph species in Spain suggests their possible role as \r\ncompetent vector in viral transmission. J Wildl Dis. 2021;57(2):423–8.\r\n40. van der Meer CS, Paulino PG, Jardim THA, Senne NA, Araujo TR, Dos Santos \r\nJuliano D, Massard CL, Peixoto MP, da Costa Angelo I, Santos HA. Detec\u0002tion and molecular characterization of avipoxvirus in Culex spp. (Culicidae) \r\ncaptured in domestic areas in Rio de janeiro, Brazil. Sci Rep. 2022;12(1):13496.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "41. Li T, Liu M, Zhang TT, Li Y, Wang WY, Li MM, Yu ZJ, Liu JZ. The life cycle \r\nand development characteristics of Dermacentor everestianus (Acari: \r\nIxodidae) under field conditions in Qinghai-Tibet plateau. Exp Appl Acarol. \r\n2018;76(4):513–22.\r\n42. Vanstreels RET, Palma RL, Mironov SV. Arthropod parasites of Antarctic and \r\nsubantarctic birds and pinnipeds: A review of host-parasite associations. Int J \r\nParasitol Parasites Wildl. 2020;12:275–90.\r\n43. Chauhan RP, Fogel R, Limson J. Overview of diagnostic methods, disease \r\nprevalence and transmission of Mpox (Formerly Monkeypox) in humans and \r\nanimal reservoirs. Microorganisms. 2023;11(5):1186.\r\n44. Reynolds MG, Guagliardo SAJ, Nakazawa YJ, Doty JB, Mauldin MR. Under\u0002standing orthopoxvirus host range and evolution: from the enigmatic to the \r\nusual suspects. Curr Opin Virol. 2018;28:108–15.\r\n45. Oliveira JS, Figueiredo PO, Costa GB, Assis FL, Drumond BP, da Fonseca FG, \r\nNogueira ML, Kroon EG, Trindade GS. Vaccinia virus natural infections in brazil: \r\nthe good, the bad, and the ugly. Viruses. 2017;9(11):340.\r\n46. Mungmunpuntipantip R, Wiwanitkit V. Orf, a human parapoxvirus infection. \r\nAdv Exp Med Biol. 2024;1451:171–81.\r\n47. Du G, Wu J, Zhang C, Cao X, Li L, He J, Zhang Y, Shang Y. The whole genomic \r\nanalysis of the Orf virus strains ORFV-SC and ORFV-SC1 from the Sichuan \r\nProvince and their weak pathological response in rabbits. Funct Integr \r\nGenom. 2023;23(2):163.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "48. Li S, Jing T, Zhu F, Chen Y, Yao X, Tang X, Zuo C, Liu M, Xie Y, Jiang Y, et al. \r\nGenetic analysis of Orf virus (ORFV) strains isolated from goats in china: \r\ninsights into epidemiological characteristics and evolutionary patterns. Virus \r\nRes. 2023;334:199160.\r\n49. Thézé J, Takatsuka J, Li Z, Gallais J, Doucet D, Arif B, Nakai M, Herniou EA. New \r\ninsights into the evolution of entomopoxvirinae from the complete genome \r\nsequences of four entomopoxviruses infecting Adoxophyes honmai, cho\u0002ristoneura biennis, choristoneura rosaceana, and Mythimna separata. J Virol. \r\n2013;87(14):7992–8003.\r\n50. Hatcher EL, Hendrickson RC, Lefkowitz EJ. Identification of nucleotide-level \r\nchanges impacting gene content and genome evolution in orthopoxviruses. \r\nJ Virol. 2014;88(23):13651–68.\r\n51. Piskurek O, Okada N. Poxviruses as possible vectors for horizontal trans\u0002fer of retroposons from reptiles to mammals. Proc Natl Acad Sci USA. \r\n2007;104(29):12046–51.\r\n52. Fixsen SM, Cone KR, Goldstein SA, Sasani TA, Quinlan AR, Rothenburg S, \r\nElde NC. Poxviruses capture host genes by LINE-1 Retrotransposition. eLife. \r\n2022;11:e63332.\r\n53. Adamek M, Heling M, Bauer J, Teitge F, Bergmann SM, Kleingeld DW, Welzel \r\nA, Scuda N, Bachmann J, Louis CS, et al. It is everywhere-A survey on the pres\u0002ence of carp edema virus in carp populations in Germany. Transbound Emerg \r\nDis. 2022;69(4):2227–41.\r\n54. Papežíková I, Piačková V, Dyková I, Baloch AA, Kroupová HK, Zusková \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2109112788445933664,
+        "filename": "12985_2025_Article_2844.PMC12207798.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 93,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "E, Pojezdal Ľ, Minářová H, Syrová E, Banďouchová H, et al. Clinical and \r\nlaboratory parameters of carp edema virus disease: A case report. Viruses. \r\n2023;15(5):1044.\r\nPublisher’s note\r\nSpringer Nature remains neutral with regard to jurisdictional claims in \r\npublished maps and institutional affiliations.\n\n"
+  }
+]

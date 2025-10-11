@@ -1,0 +1,746 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Peptide bond planarity constrains hydrogen bond geometry and influences\r\nsecondary structure conformations\r\nKuan Pern Tan a,b, Khushboo Singh c, Anirban Hazra c, M.S. Madhusudhan c,*\r\na Bioinformatics Institute, 30 Biopolis Street, #07-01, Matrix, 138671, Singapore\r\nb School of Computer Engineering, Nanyang Technological University, 639798, Singapore\r\nc Indian Institute of Science Education and Research, Pune, India\r\nABSTRACT\r\nAn extensive database study of hydrogen bonds in different protein environments showed systematic variations in donor-acceptor-acceptor antecedent angle (H^ ) and\r\ndonor-acceptor distance. Protein environments were characterized by depth (distance of amino acids from bulk solvent), secondary structure, and whether the donor/\r\nacceptor belongs to the main chain (MC) or side chain (SC) of amino acids. The MC-MC hydrogen bonds (whether in secondary structures or not) have H^ angles tightly\r\nrestricted to a value of around 155\u0001, which was distinctly different from other H^ angles. Quantum chemical calculations attribute this characteristic MC-MC H^ angle to\r\nthe nature of the electron density distribution around the planar peptide bond. Additional classical simulations suggest a causal link between MC-MC H^ angle and the\r\nconformation of secondary structures in proteins. We also showed that donor-acceptor distances are environment dependent, which has implications on protein\r\nstability. Our results redefine hydrogen bond geometries in proteins and suggest useful refinements to existing molecular mechanics force fields.\r\n1. Introduction\r\nHydrogen bonding is an attractive force between an electronegative\r\nacceptor atom and a hydrogen atom, which is in turn covalently bound to\r\nan electronegative donor atom (Arunan et al., 2011a, 2011b). It is\r\nprominent among non-covalent interactions as it is directional,\r\natom-specific and acts in the length scale of ~2.5 Å – 3.5 Å between\r\ndonor and acceptor atoms with an estimated energy of ~1.3–9 kcal/mol\r\n(Pace, 2009; Pace et al., 2014). The physical nature of hydrogen bonding\r\nhowever is complex. While it is largely electrostatic in nature, it also\r\npossesses some covalent bonding features (Cordier et al., 1999; Isaacs\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "et al., 1999). It has been established that in proteins, hydrogen bonds\r\ncontribute to structural integrity and stability (Eswar and Ramakrishnan,\r\n2000; Myers and Pace, 1996), secondary structures formation (Bordo and\r\nArgos, 1994; Eswar and Ramakrishnan, 1999), folding (Ben-Naim, 1991;\r\nDeechongkit et al., 2004; Rose et al., 2006; Chatterjee et al., 2009),\r\nmolecular recognition (Fersht, 1987), pKas of ionizable amino acid res\u0002idues (Tan et al., 2013; Thurlkill et al., 2006), atomic packing (Kur\u0002ochkina and Privalov, 1998) etc. Given its importance in proteins, much\r\neffort has been spent in characterizing the energetics and stereochemistry\r\nof hydrogen bonding (Fersht, 1987; Byrne et al., 1995; Connelly et al.,\r\n1994; Eberhardt and Raines, 1994; Habermann and Murphy, 1996;\r\nHonig and Yang, 1995; Nick Pace et al., 2014; Sheu et al., 2003; Shirley\r\net al., 1992). Despite claims to the contrary (Campos et al., 2005),\r\nexperimental evidence demonstrates the net stabilizing effect of\r\nhydrogen bonds in proteins (Pace, 2009; Deechongkit et al., 2004; Nick\r\nPace et al., 2014; Cao and JU, 2014). The strength of protein hydrogen\r\nbonds is context-specific, and could vary with features such as polarity of\r\nits environment, contact order, temperature etc (Pace, 2009; Cordier and\r\nGrzesiek, 2002; Nisius and Grzesiek, 2012). Hydrogen bonding could\r\nalso indirectly stabilize proteins by enhancing van der Waals interaction\r\nthrough increased packing density in the interior of proteins (Honig,\r\n1999; Lazaridis et al., 1995; Schell et al., 2006).\r\nThe geometric parameters of hydrogen bonds in proteins can be\r\nlearned from statistical analyses of known protein structures. Such ana\u0002lyses have been extensively documented earlier and have provided\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "crucial insights into protein structural stability and function (Baker and\r\nHubbard, 1984; McDonald and Thornton, 1994; Sticke et al., 1992).\r\nHowever, these studies were performed over small datasets (e.g. n ¼ 15\r\nin the study by Baker and Hubbard) of known structures and the protein\r\ndata bank (PDB) has since grown exponentially (Berman, 2000). Not only\r\ndo we have a larger number of high-resolution structures, we also have\r\ndifferent means of characterizing protein environments (Deechongkit\r\net al., 2004; Chakravarty and Varadarajan, 1999). In this study we\r\ncharacterized protein residues by an established, concise descriptor of\r\nprotein environment – depth (Tan et al., 2011, 2013; Chakravarty and\r\nVaradarajan, 1999). Our analyses supplement and update older studies of\r\nhydrogen bond parameterization (Baker and Hubbard, 1984; McDonald\r\n* Corresponding author.\r\nE-mail address: madhusudhan@iiserpune.ac.in (M.S. Madhusudhan).\r\nContents lists available at ScienceDirect\r\nCurrent Research in Structural Biology\r\njournal homepage: www.journals.elsevier.com/current-research-in-structural-biology\r\nhttps://doi.org/10.1016/j.crstbi.2020.11.002\r\nReceived 2 November 2020; Accepted 24 November 2020\r\n2665-928X/© 2020 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by\u0002nc-nd/4.0/).\r\nCurrent Research in Structural Biology 3 (2021) 1–8\nand Thornton, 1994; Sticke et al., 1992; Fabiola et al., 2002; Grzybowski\r\net al., 2000; Ippolito et al., 1990; Kortemme et al., 2003; Lommerse et al.,\r\n1997; Taylor and Kennard, 1984; Taylor et al., 1983). We have compared\r\nstatistical analyses with quantum mechanical calculations. An earlier\r\nstudy had shown good correlation in such comparisons on hydrogen\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "bonds in model systems (Morozov et al., 2004). Further, we use such\r\ncalculations to obtain valuable insights on the different types of hydrogen\r\nbonds in proteins.\r\nWe have carried out a detailed analysis of different types of hydrogen\r\nbonds and their preferences of geometry in different environments. The\r\ngeometry here is characterized by the donor-acceptor distance and\r\ndonor-acceptor-acceptor antecedent angle (H^ angle, Fig. 1). We\r\nattempted to rationalize the H^ angle preferences by two complementary\r\nmethods — (a) comparing to data obtained from small molecules and (b)\r\nby performing quantum chemical calculations on model systems that\r\nmimicked hydrogen bonded peptide units. Other simulations were per\u0002formed to study the connection between hydrogen bond geometry and\r\nprotein secondary structure. Taken together, these studies suggest a\r\nlikely causal connection between peptide bond planarity and the for\u0002mation of secondary structures. Our findings suggest the means of\r\ncreating a hydrogen bond potential that could be used in refining protein\r\nstructures/models, especially if they are of low resolution. Such poten\u0002tials could also be incorporated in existing molecular mechanics force\r\nfields.\r\n2. Results\r\n2.1. Geometry of Protein Hydrogen Bonds\r\nThe geometry of hydrogen bonds is dependent on the types of donor/\r\nacceptor atoms and the protein environment. To investigate these de\u0002pendencies, we studied the frequency of occurrence of different types of\r\nhydrogen bonds and their geometries in different environments. In the\r\nsections below, the residue environment is parameterized using the\r\ndepth measure.\r\nFirst we investigate the geometries of hydrogen bonds. From the high\u0002resolution, single domain data training set, the statistics of donor\u0002acceptor distance (within a cutoff of 4.0 Å) and H^ angle were\r\ncollected. These data were compared to a reference state where there is\r\nno angular preference of donor/acceptors. In this reference state, the\r\natoms were randomly distributed as if they were non-interacting entities,\r\nakin to molecules of an ideal gas. The reference state distribution is\r\ndescribed as -\r\nNexpðrÞ ¼ N0 ⋅ 4πr\r\n2 ⋅ dr (Equation 1)\r\nwhere Nexp(r) is the expected number of donor-acceptor pairs at a dis\u0002tance r, and dr is the bin size for collecting statistics (20 equally sized bins\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "spanning the range 2.3–4.1 Å). N0 is the background density of donor/\r\nacceptor pairs at a cut-off distance and is given by –\r\nN0 ¼ NobsðrcutÞ\r\n4πr2\r\ncut ⋅ dr (Equation 2)\r\nwhere rcut ¼ 4 Å and Nobs(r) is the observed number of donor-acceptor\r\npairs at a distance r. We only considered the geometries of those\r\nhydrogen bonds that had log-odds ratio values of 4 or higher. This con\u0002fines the donor-acceptor distance to less than 3.5 Å and the H^ angle to lie\r\nbetween 100 and 180\u0001. Most hydrogen bonds are concentrated at donor\u0002acceptor distances of 2.9 Å and H^ angles of 155\u0001 (Supplementary Fig. S3).\r\nNote, our H^ angle range decreases the lower bound to 100\u0001 from the\r\npreviously established 120\u0001 (Baker and Hubbard, 1984). We believe that\r\nthis expansion in the definition is a better description of hydrogen bonds.\r\nFor instance, it better explains amide protections in hydrogen exchange\r\nexperiments as evidenced in a case study of hen egg white lysozyme.\r\nResidue 23, 42 and 78 have H^ angles of 119\u0001, 118\u0001 and 112\u0001 respectively\r\nand are known to exchange slowly, an indication of their status as being\r\nhydrogen bonded (Supplementary data 4). The composition of hydrogen\r\nbonds at different geometries is further discussed in the following\r\nsections.\r\n2.2. Type-specific donor-acceptor distance and H angle ^\r\nThe different hydrogen bond types (MC-MC, MC-SC, SC-MC and SC\u0002SC, as defined in the methods section) have slightly different preferred\r\ndonor-acceptor distances and average H^ angles and are distinct from one\r\nanother. MC-MC bonds typically occur with the highest H^ angle values of\r\n~155\u0001. MC-MC bonds however tend to have lower H^ angles, ~105\u0001,\r\nwhen exposed at the protein surface. The other hydrogen bond types,\r\nMC-SC, SC-MC and SC-SC all have their distinct H^ angle preferences of\r\n~130\u0001, ~135\u0001 and ~125\u0001 respectively. These preferences do not change\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "with change in residue environment (Fig. 2A).\r\nThe mean donor-acceptor distances of the different hydrogen bond\r\ntypes, while distinct from one another, all show a tendency to decrease as\r\nthey occur in increasingly buried environments (Fig. 2B). The MC-MC\r\nbonds and MC-SC bonds are the longest bonds (ranging from ~3.1 Å\r\nwhen exposed to ~2.9 Å when buried) while the SC-SC bonds are the\r\nshortest (~2.9 Å - ~2.8 Å). The MC-MC type has the largest donor-acceptor\r\ndistance and H^ angles while the SC-SC type has the smallest of both.\r\nTo test the statistical significance of the difference in geometries (H^\r\nangle and donor-acceptor distance) in the different hydrogen bond types,\r\nthe hydrogen bonds were categorized by type and depth. Depth values\r\nranged from 3.0 Å to 10.0 Å and were binned at intervals of 0.5 Å. Sta\u0002tistical significance was established using a Welch's t-test in each of the\r\nbins. Most of the differences in donor-acceptor distances and H^ angles\r\nbetween different types of hydrogen bonds were statistically significant\r\n(p < 0.05). Some exceptions were at the protein surface (depth < 4 Å)\r\nwhere there are large structural/geometrical fluctuations. Statistical\r\ndifferences could also not be detected in the protein core (depth > 8 Å)\r\nbecause of sparse data (Supplementary data 5).\r\n2.3. H angle distribution in small organic molecules ^\r\nTo investigate the hydrogen bond geometry when it is devoid of all\r\npossible structural and environment constraints, we surveyed the Crys\u0002tallography Open Database (Gra\u0002zulis et al., 2012; Graulis et al., 2009) for\r\nstatistics on donor-acceptor distance and H^ angle in small organic mol\u0002ecules. In this dataset, only hydrogen bonds constituted by a nitrogen\r\ndonor, an oxygen acceptor and a carbon acceptor antecedent were\r\nconsidered. We also required that the hydrogen atom be explicitly pre\u0002sent for a hydrogen bond to be detected. 2886 hydrogen bonds from 1922\r\nsmall molecules were found in the dataset (Supplementary data 1B).\r\nFrom the distribution of hydrogen H^ angle (Fig. 3A) we made two\r\nobservations:\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Fig. 1. The H angle in proteins is between the hydrogen bond donor, acceptor ^\r\nand acceptor antecedent.\r\nK.P. Tan et al. Current Research in Structural Biology 3 (2021) 1–8\r\n2\n(1) The mean H^ angle in small organic molecules is ~125\u0001 (þ-16.5\u0001).\r\nThis value is similar to hydrogen H^ angle of SC-SC hydrogen bonds\r\nin protein (Fig. 2A).\r\n(2) More than one third of hydrogen bonds would have been missed if\r\nan H^ angle threshold of 120\u0001 was used. This is in contrast to ~3%\r\nif a threshold of 100\u0001 were used.\r\nNext, we similarly surveyed the Crystallography Open Database and\r\nthe Cambridge structural database (Allen, 2002) for MC-MC hydrogen\r\nbonds in dipeptides and tripeptides. A total of 48 hydrogen bonds were\r\nfound in 22 structures (Supplementary data 7). It was observed that\r\nhydrogen H^ angle also has a mean value of ~153.5\u0001 (þ-8.6\u0001) if 5 GLYs\r\nwere excluded (Fig. 3B). H^ angles of hydrogen bonds involving GLY\r\nresidue typically are ~140\u0001 or smaller.\r\n2.4. Donor-acceptor distance and H angle in protein secondary structures ^\r\nWe investigated the environmental variation of MC-MC type\r\nhydrogen bonds as they are crucial to the formation of secondary struc\u0002tures. MC-MC hydrogen bonds were sub-classified into alpha-helical,\r\nbeta-strand and non-secondary structure. The non-secondary structure\r\nclassification here is more precisely conformations that are not beta\r\nstrands or 413 alpha helices. 310 helices for instance also form a part of the\r\nnon-secondary structure type. The 3 sub-classes have slightly different\r\ngeometry preferences (Fig. 4). H^ angles in secondary structures have a\r\nmean of ~155\u0001 (the angle is slightly higher in case of parallel beta\r\nsheets), and do not vary with residue depth except at the protein surface.\r\nThe H^ angles in regions without secondary structure ranges from ~110\u0001\r\nto ~130\u0001 at different levels of depth (red line in Fig. 4A). Interestingly,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "when (i, iþ3) hydrogen bonds are excluded from the non-secondary\r\nstructure hydrogen bonds, the H^ angle values tend towards 150\u0001.\r\nClearly, MC-MC hydrogen bonds in non-secondary structures (with the\r\nexception of (i, iþ3) associations) also display the same geometry as their\r\nsecondary structure counterparts.\r\nOf the 3 sub-classes, donor-acceptor distances in beta strands are the\r\nshortest (Fig. 4B). On the surface (depth < 6 Å) they are slightly longer\r\nthan 3.0 Å and this value converges to a little under 2.9 Å at a depth of\r\n~6 Å and remains steadily at this value for all higher depths. The donor\u0002acceptor distances of helices and non-secondary structures converge to\r\na value ~2.95 Å only at depth of about 8 Å. The donor-acceptor dis\u0002tances of these 2 sub-classes at the surface are ~3.0 Å and ~3.2 Å\r\nrespectively.\r\nFig. 2. The average geometry (A) H angle and (B) donor-acceptor distance of different hydrogen bond types at different solvation environments measured by depth. ^\r\nFor a description of the different types of hydrogen bonds, MC-MC (blue), MC-SC (green), SC-MC (red), SC-SC (cyan), refer to the methods section. The sizes of the\r\nsymbols are proportional to the loge of data sampled.\r\nFig. 3. Histograms of H angle in (A) small organic molecules (B) dipeptide and tripeptides with Gly contributions coloured in red. ^\r\nFig. 4. The donor-acceptor distance (A) and H angle ^\r\n(B) of different MC-MC hydrogen bond types at\r\ndifferent depths. The hydrogen bond of the MC-MC\r\ntype includes alpha helix (blue), anti-parallel beta\u0002strand (purple), parallel beta-strand (orange), beta\u0002strand excluding GLY and termini (green), non\u0002secondary structure (red), and non-secondary struc\u0002ture excluding (i, iþ3) hydrogen bond (brown). The\r\nsizes of the symbols are proportional to the loge of the\r\ndata points sampled, normalized by colour.\r\nK.P. Tan et al. Current Research in Structural Biology 3 (2021) 1–8\r\n3\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Earlier studies have established that shorter donor-acceptor distances\r\nimply stronger binding (for a review on the subject see (Arunan et al.,\r\n2011b)) and that donor-acceptor distances are correlated to the charge\r\non the donor atom (Raghavendra et al., 2006). Our database analysis\r\nfortifies both of these established results. Beta sheet proteins in general\r\ntend to have higher melting temperatures (Supplementary data 8) and\r\nthe correlation coefficient between donor atom partial charge and\r\ndonor-acceptor distance ~ ¼ 0.75 (as opposed to ~0.11 for partial\r\ncharge on the acceptor atom). More interestingly, when the data pre\u0002sented in Fig. 4 is studied amino acid wise, one can make a clear\r\ndistinction between the residues that have strong preferences for beta\r\nsheet and alpha helices (supplementary data 9).\r\nThe deviations from the mean hydrogen H^ angle are greater at the\r\nsurface (depth < 6 Å) than in the interior (depth > 6 Å) for beta sheets\r\n(~15.5\u0001 on surface, ~9.1\u0001 in protein interior). The deviation from the\r\naverage at lower depths is less pronounced in cases where glycine resi\u0002dues and terminal residues (1 residue at the N and C termini of strands)\r\nare not included in the computation. The deviation of hydrogen H^ angles\r\nin alpha helices and non-secondary structure regions are ~8.8\u0001 and\r\n~15.5\u0001 respectively and do not change with depth. Interestingly, H\u0002bonds connecting non-secondary structure regions are seldom found at\r\ndepths >7 Å. Small deviations notwithstanding, all MC-MC H^ angles\r\nfluctuate about ~155\u0001 regardless of depth levels.\r\nIt is interesting to note that the H^ angle of MC-MC hydrogen bonds\r\nregardless of secondary structure converges to the same value of ~155\u0001.\r\nTo get an insight into these H^ angle preferences, QM calculations were\r\nperformed on small molecules and peptide systems.\r\n2.5. Quantum chemical studies of the H angle explains its characteristic ^\r\nvalues in protein main and side chains\r\nQuantum mechanical calculations were performed on small molecule\r\nmodels of proteins with two objectives: (a) to compare trends of the\r\ncalculated H angle with those obtained from the statistical analysis, and ^\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "more importantly (b) to rationalize the structural differences between the\r\ndifferent types of hydrogen bonds. The H^ angles from quantum me\u0002chanical simulations on model systems (Supplementary data 2A) were\r\nfound to be 138.0\u0001, 112.8\u0001, 112.5\u0001 and 100.0\u0001 for the MC-MC, SC-MC,\r\nMC-SC and SC-SC types of hydrogen bonds respectively (Supplementary\r\ndata 2B). The trend in the H^ angle (MC-MC > SC-MC > MC-SC > SC-SC)\r\nis consistent with the database study. The actual calculated numbers do\r\nnot exactly match the corresponding observed ones, a difference that can\r\nbe attributed to several factors such as oversimplified model systems,\r\nabsence of any secondary interactions besides the primary hydrogen\r\nbond interaction, and lack of incorporation of the complex environment\r\nthat is present in the actual protein. Nevertheless, the H^ angle values\r\nbeing so significantly different depending on whether the donor/\r\nacceptor belongs to the MC or SC of the amino acids, hints at a funda\u0002mental basis for it, which we have investigated. Interestingly, in our more\r\nrealistic models, i.e., di-glycine models 1 and 2, the MC-MC H^ angle are\r\ncloser to observed values at 150.3\u0001 and 147.8\u0001 respectively (Supple\u0002mentary data 2C).\r\nTo understand the striking change in H^ angle between the MC-MC\r\nand SC-MC type of hydrogen bonds, we performed a quantitative study\r\nusing atomic partial charges. We started with three different MC-MC\r\nhydrogen bond models and through a sequence of steps modified these\r\nto corresponding models of SC-MC type of hydrogen bonds (see the\r\nmethods section for details). In each of the three cases, the essential\r\ndifference between the MC-MC (original molecule) and its corresponding\r\nSC-MC (saturated molecule) counterpart is only the changed hybridiza\u0002tion of the hydrogen bond donor atom. This permits a clear and unam\u0002biguous analysis of the effect of the type of hydrogen bond on structure.\r\nBased on the above analysis we can explain the decrease in H^ angle\r\ngoing from MC-MC type to systems where the hydrogen bond involves a\r\nside chain. The first interesting result is that in all the three models, the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "hydrogen bond angle (the angle between the donor-proton-acceptor, not to\r\nbe confused with H^ ) changes only slightly (by ~ 5\u0001) going from the\r\noriginal to the saturated molecule (Supplementary table S2.2). The\r\nhydrogen bond angle is almost linear in the original molecule (model for\r\nMC-MC hydrogen bond) and continues to be almost linear in the saturated\r\nmolecule (model for SC-MC hydrogen bond). However, the striking result\r\nis that the H^ angle in the NMA dimer and the di-glycine dimer models\r\ndecrease significantly going from the original to the saturated molecule by\r\n14\u0001 – 19\u0001 (Supplementary table S2.2). This is consistent with statistical\r\nobservations (see section Type-specific donor-acceptor distance and H^\r\nangle) for the MC-MC and SC-MC hydrogen bond types discussed above.\r\nWe can understand these structural differences in terms of the partial\r\ncharges and electrostatic interaction between the hydrogen bond donor,\r\nand the acceptor and acceptor antecedent. The partial charge on the ni\u0002trogen does not change significantly from the original to the saturated\r\nmolecule (Supplementary Table S2.2). The significant change, however,\r\nis the distribution of this charge — in the original molecule the three\r\nbonds of N are planar (sp2 hybridized) and the p-orbital density is almost\r\nequally dispersed below and above the plane, whereas in the saturated\r\nmolecule, the p-orbital density is in the form of a lone pair and is rela\u0002tively more concentrated around the N (Fig. 5). This concentrated\r\nnegative charge repels the negative charge of the acceptor O, increasing\r\nthe N–O distance, and consequently increasing the distance between the\r\ntwo dimers. The concentrated negative charge also interacts with the\r\nO–\r\n–C dipole (O is the acceptor and C is the acceptor antecedent with\r\nnegative and positive partial charges respectively), which causes it to\r\nrotate such that the C moves towards the N due to attraction, even as the\r\nO moves away from the N due to repulsion.\r\nIn all models the N–O distance increases going from the original to the\r\nsaturated molecule (Supplementary table 2.2). In the NMA dimer model\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "and di-glycine model 1, the N–C distance decreases, while in di-glycine\r\ndimer model 2 the N–C distance increases. Though there is a slight in\u0002crease of 0.05 Å in the N–C distance in di-glycine model2, the N–O dis\u0002tance increases by 0.2 Å, which is still consistent with the rotation of the\r\nO–\r\n–C dipole. In all three models, the effect of the rotation of the O––C\r\ndipole, with the O remaining almost along the N–H–O straight line and C\r\ncoming closer to the N, is that the H^ angle decreases.\r\n2.6. Linking H angles to secondary structure ^\r\nWe next investigated the link between secondary structure formation\r\nand H^ angle variation by two different methods A) Empirical modeling\r\nand B) Molecular dynamics simulations – to study the geometries of\r\nhelical peptides with different H^ angles.\r\nFig. 5. Schematic representation showing the decrease in H angle going from a ^\r\nMC-MC to SC-MC type of hydrogen bond. The atoms N and O are negatively\r\ncharged (-δ), while H and C are positively charged (þδ). The red arrow indicates\r\nrepulsion between the negative charges while the blue arrow indicates an\r\nattraction between opposite charges. The brown cloud represents the electronic\r\ncharge density on the N atom.\r\nK.P. Tan et al. Current Research in Structural Biology 3 (2021) 1–8\r\n4\nThe empirical modeling follows the general principle of constructing\r\nthe 3D structures of molecules by satisfying spatial restraints. The spatial\r\nrestraints are of two major types. 1) Stereochemical restraints, to ensure\r\nproper bonded parameters. 2) Spatial restraints between non-bonded\r\natoms of the molecule (poly-peptide) including restraints on distances,\r\nangles, torsion angles etc. to give the overall conformation of the poly\u0002meric system. In our model systems, we have restrained the H^ angles to\r\ndifferent values while the polypeptide as a whole is restrained to an alpha\r\nhelix or beta sheet.\r\n2.6.1. Restraining H angles in alpha-helices ^\r\nA set of simulations was performed to fold a 24-mer poly-Ala peptide\r\nfrom an extended conformation to an alpha helix. The simulations were\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "carried out using the refine_slow option of MODELLER (Sali and Blundell, \u0002\r\n1993) that optimizes structure by satisfying spatial restraints. All the (i þ\r\n4, i) hydrogen bonding pairs of amides and carbonyl oxygens in an alpha\r\nhelix were restrained to donor-acceptor distance of 2.9 Å with a standard\r\ndeviation of 0.2 Å. In each simulation, the corresponding H^ angles were\r\nrestrained to one of 11 different values ranging from 100\u0001 to 180\u0001 in steps\r\nof 10\u0001, and the values 125\u0001 and 155\u0001. In addition to the hydrogen bond\r\nrestraints, stereo-chemistry of all amino acids were appropriately\r\nrestrained (Restraints:STEREO module of MODELLER) while considering\r\nL-J and electrostatics over the entire system.\r\nAlpha helices were successfully generated in 7 of the 11 restraining\r\nattempts. When the helices were formed, the hydrogen H^ angle lies in a\r\nnarrow range of 145–160\u0001, regardless of the initial restraining angles. In\r\nthe 4 cases that alpha helices were not formed, the restraints caused\r\nseveral atomic clashes in the system (violation of the Ramachandran\r\nmap) (supplementary data 10). An atomic clash is defined when two\r\natoms are separated by a distance of 0.25 Å less than the sum of their van\r\nder Waal's radii.\r\n2.6.2. Sampling H angles in beta sheets ^\r\nWe next examined the range of allowed H^ angles that would result in\r\nparallel and anti-parallel beta sheets. Our model systems consisted of two\r\n6-residue strands that formed parallel and anti-parallel sheets in an\r\nalmost planar configuration (the dihedral angle formed by the first and\r\nlast Cα atoms on both strands ~ 9.3\u0001). For the parallel and anti-parallel\r\nsheets, templates were extracted from PDB:3AUM (residues 111–115,\r\n121–125) and PDB:2PEC (residues 204–208, 226–230) respectively. To\r\neach strand in both systems an extra residue was engineered so as to\r\nmaintain the relative planarity of the system.\r\nTo simulate sheets with different H^ angles, we sheared one strand\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "with respect to other by 3.5 Å, in steps of 0.1 Å, in both directions so as to\r\nmaintain the overall planarity of the sheet (Supplementary Figure S11.1).\r\nIn addition to shearing along the length of the sheet, the two strands were\r\nalso laterally separated (from \u00030.75 Å to 0.75 Å in steps of 0.1 Å) so as to\r\nsample different hydrogen bond distances. After every step, we computed\r\nthe donor-acceptor distances, H^ angles and atomic clashes in the 4 central\r\nresidues of each strand.\r\nIn both sets of shearing simulations, clash-free sheets were formed\r\nwhen H^ angles lay within a narrow range of ~10\u0001 with a mean close to\r\n~155\u0001 (Supplementary Figure S11.2), with the parallel system having a\r\nslightly more permissive upper bound. Interestingly, the lower bound for\r\nthe H^ angle was ~150\u0001 regardless of donor-acceptor distance.\r\n2.6.3. Molecular dynamics simulations of poly-alanine helices\r\nWe performed three different sets of replicate molecular dynamics\r\nsimulations on a 16-mer poly-alanine ɑ-helix. The first simulation was a\r\nconstraint free control. The second and third sets had repulsive and\r\nattractive potentials at H^ angles of 155\u0001 respectively.\r\nIn the free simulation, all (iþ4 - i) hydrogen bonds remain intact but\r\nthe H^ angles are ~ 170\u0001–175\u0001. There is a small distortion of the ideal\r\nalpha helical geometry as evidenced by the spread in the Ramachandran\r\nangles (Supplementary figure S12.2A). This is perhaps indicative of the\r\nforce field parameters confining the donor-acceptor-acceptor antecedent\r\natoms to a near-linear geometry. This discrepancy in the force field is\r\nperhaps also responsible for the helix to explore regions of the Ram\u0002achandran map that are slightly away from the centre of the “ideal” helix\r\nlocation (Supplementary figure S12.2A).\r\nIn the second simulation, when there was an energy barrier placed at\r\n155\u0001, the H^ angle sampled the 110\u0001–140\u0001 (on average 127\u0001) region. But\r\nmore importantly, the donor acceptor distances all exceeded 3.2 Å. In this\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "simulation the helix was observed to melt, with around half of all the\r\nhydrogen bonds breaking during the simulation (Supplementary\r\nFigure S12.1 and S12.2B).\r\nIn the third simulation the H^ angles all had values ~155\u0001 (Supple\u0002mentary figure S12.1). Note that the distribution of H^ angles now mimics\r\nour database observations. In this simulation, the Ramachandran angles\r\ncorrespond to that of ideal ɑ-helix (Supplementary figure S12.2C). Note\r\nthat the ϕ and ψ angle values in this simulation are less spread than in the\r\nfree simulation. The restraining force at 155\u0001, which was applied to the\r\nstructures taken from the second set of simulations restores ideal helical\r\ngeometry. This H^ angle value results in idealised secondary structure\r\ngeometry.\r\n3. Discussion\r\nHydrogen bonds and their role in protein structural stability and\r\nfunction have been extensively studied. Our study supplements these\r\nfindings by investigating the variation of hydrogen bond donor-acceptor\r\ndistance and the H^ angle with respect to protein environment, which we\r\ncharacterized by residue depth.\r\nThe most surprising of our results concerns the H^ angle. There are\r\nvery few mentions of the preferred values of the H^ angle in earlier studies\r\nand most of them contend that it should be\u0004120\u0001 (Baker and Hubbard,\r\n1984; Torshin et al., 2002). Our analysis of a set of high-resolution crystal\r\nstructures revealed that the different types of hydrogen bonds had spe\u0002cific preferred values of this H^ angle. That the deviations to these\r\npreferred angles were small led us to investigate further.\r\nWe devoted most of our attention to the MC-MC H^ angle, which\r\nregardless of amino acid depth, consistently maintains a value of ~155\u0001.\r\nThis invariance in value is also seen in hydrogen bonds across alpha\r\nhelices and beta strands. The trivial explanation that the formation of\r\nsecondary structures “constrains” the H^ angle to ~155\u0001 does not hold\r\nbecause hydrogen bonds between residues in non-secondary structure\r\nregions also have the same value. Even small molecules, such as di\u0002peptides devoid of protein environment context, whose structures are\r\ndeposited in the Cambridge and Crystallography Open databases, show\r\nthe same preferred value for MC-MC hydrogen bonds. Clearly secondary\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "structures do not influence the H^ angle preference.\r\nTo investigate the genesis of the angle preference we carried out\r\nempirical, molecular mechanics and quantum chemical simulations. The\r\nempirical and molecular mechanics simulations attempted to constrain\r\nMC-MC H^ angles to values other than 155\u0001 (ranging from 100\u0001 to 180\u0001).\r\nIn each of these simulations, the values either reverted to ~155\u0001 on\r\noptimization or else the final models had a) steric clashes or b) when the\r\nstarting structure was of regular secondary structure – the final model\r\ndeveloped characteristics that deviated significantly from the starting\r\nsecondary structure.\r\nQM studies convincingly establish that the planar nature of the pep\u0002tide bond and the electron density distributed about such a bond is\r\ninstrumental in confining the MC-MC hydrogen bond to ~155\u0001. The QM\r\ncomputations also reveal that this peptide bond planarity and the cor\u0002responding electron density explains the decreasing H^ angle trend\r\namongst the different hydrogen bond types (MC-MC > SC-MC > MC-SC\r\n> SC-SC; with rigorous comparisons done to show MC-MC > SC-MC).\r\nWe noted two exceptions to the MC-MC H^ angle at ~155\u0001 trend. First,\r\nhydrogen bonds in beta strands close to the protein surface tend to have\r\nsmaller H^ values. These outliers are typically beta sheet termini and\r\nglycine residues. If these residues were excluded, the H^ angle values were\r\nback to ~155\u0001. The H^ angle of MC-MC hydrogen bonds involving glycine\r\nK.P. Tan et al. Current Research in Structural Biology 3 (2021) 1–8\r\n5\nresidues (either as acceptor or donor) in secondary structures and coils\r\nbuck this trend and have an average value ~142\u0001. No other amino acid\r\nshows this tendency suggesting that the asymmetric substitution around\r\nthe alpha carbon plays an important role in determining the electron\r\ndensity of the peptide bond. The second exception was (i, iþ3) hydrogen\r\nbonds that have a preferred H^ angle ~130\u0001. Omitting these (7.4% of all\r\nhydrogen bond observations) from the dataset of non-secondary struc\u0002ture hydrogen bonds restores the average value to ~155\u0001. The precise\r\nnature of the (i, iþ3) hydrogen bonds warrants investigation and is\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 475,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "beyond the scope of this study.\r\nDatabase analysis results show that secondary structure and protein\r\nenvironment do not play a significant role in determining MC-MC H^\r\nvalues. The value of ~155\u0001 for the MC-MC hydrogen bond arises instead\r\nfrom the planar nature of the peptide bond. The electron density around\r\nthe peptide bond makes other H^ angle values sterically infeasible. The\r\nRamachandran angles at which alpha helices and beta strands are formed\r\nare those where the H^ angle of ~155\u0001 is satisfied between hydrogen\r\nbonding partners. Repetitive Ramachandran angles lead to the formation\r\nof secondary structures that are stabilised by hydrogen bonds. Given the\r\nrestrictions placed on the H^ angle by the peptide bond, such Ram\u0002achandran angles are restricted to the current ideal values for alpha he\u0002lices and beta sheets. The planar peptide bond hence influences the\r\nnature and types of secondary structures in proteins.\r\nIn addition to the H^ angles, we also studied the variation of donor\u0002acceptor distance in the different types and in different environments.\r\nWe observed that donor-acceptor distances in all types of hydrogen\r\nbonds, except those in alpha helices, decrease with increasing depth. As\r\nsmall donor-acceptor distances are symptomatic of stronger hydrogen\r\nbonds, this trend is in accordance with the established fact that buried\r\nhydrogen bonds are stronger than their counterpart on the protein sur\u0002face. Among different types of hydrogen bonds also, there are minute\r\n(~0.1–0.2 Å), but nevertheless statistically significant differences. MC\u0002SC hydrogen bonds have the longest bond donor-acceptor distances\r\n(average value 3.1 Å) while SC-SC distances are the shortest (average\r\nvalue 2.9 Å).\r\nIt is of some importance that SC-SC hydrogen bonds are the shortest.\r\nWe believe that this is indicative of interactions between residues that are\r\nlikely to be highly conserved or between residue positions whose\r\nhydrogen bonding confers structural stability to the protein.\r\nInterestingly, our results also showed that donor-acceptor distance\r\ncorrelates with partial charge on the donor, but not the acceptor. This\r\nunintuitive result is nonetheless in agreement with a previous ab-initio\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "quantum mechanical computation (Raghavendra et al., 2006). Addi\u0002tionally, donor-acceptor distances in beta sheets are shorter than in he\u0002lices and coils (Supplementary data 4). As donor-acceptor distance is\r\ncorrelated with partial charge distribution on the donor group, we hy\u0002pothesized that amino acids with high propensity for beta-sheets could\r\nhave more polarized amide groups. Evidence supporting this hypothesis\r\nis the observation that amino acids with high propensity for beta sheet\r\nformation (e.g. isoleucine, leucine, valine) are beta branched. A previous\r\nstudy showed that beta-branched carbons could increase the dipole\r\nmoment of adjacent atoms (in this case, the amide group) by hyper\u0002conjugation (Alabugin et al., 2011). As beta sheets have stronger\r\nhydrogen bonds, it stands to reason that all-beta proteins would generally\r\nmelt at higher temperatures in comparison to all-alpha proteins. This is\r\nborne out by a cursory analysis of melting temperatures of different types\r\nof proteins (Supplementary data 7).\r\nAs asparagine and glutamine side chains contain peptide-bond like\r\nchemical structure, we expect that the MC-MC H^ angle preferences also\r\nhold for such SC-SC interactions. This could enable crystallographers in\r\nresolving the identities of the amide and carbonyl groups in asparagine\r\nand glutamine, which is often an issue given the similarity of their\r\nelectron densities.\r\nFuture structure refinement and force field developments should take\r\ninto account the findings from this study and suitably amend parameter\r\nvalues, particularly, the partial charges of main chain amides. An explicit\r\nhydrogen bonding term should be (re-)introduced in the potential to\r\naccount for the different hydrogen bond types and their corresponding H^\r\nvalues. In an associated study, we explored the refining of low resolution\r\nX-ray and NMR structures that had several broken hydrogen bonds. The\r\ndata obtained in this study helped build a refinement protocol that not\r\nonly restores a large fraction of the missing hydrogen bonds but also\r\nimproves on overall structural accuracy (data not shown).\r\nIn this study, we have demonstrated that hydrogen bonds in proteins\r\ndo not belong to one homogeneous class. Different hydrogen bonds have\r\ndistinctively different geometry and strength under different environ\u0002mental conditions. These variations are important considerations in\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 479,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "constructing, refining or engineering protein and peptide structures.\r\n4. Methods\r\n4.1. Hydrogen bond criteria\r\nTo qualify as a hydrogen bond the hydrogen bond donor and acceptor\r\natoms should be separated by 3.5 Å or less and the donor-acceptor\u0002acceptor antecedent angle (H^ ) should be larger than 100\u0001. This defini\u0002tion is an amendment from the one proposed earlier (Baker and Hubbard,\r\n1984). Our motivation for making this amendment is described in the\r\nResults section under “Geometry of Protein Hydrogen Bond”. In this\r\nstudy, hydrogen atoms were not considered, as their precise positioning\r\nin many of the analyzed structures is not known.\r\n4.2. Data sets\r\n561 high-resolution (resolution 1.7 Å or better; R-free 0.2 or better),\r\nnon-redundant (at 30% sequence identity), single domain protein\r\nstructures (chain lengths between 80 and 180 amino acids) were\r\nextracted from the PDB to study hydrogen bond frequencies and geom\u0002etries. The list of PDB entries corresponding to the different data sets\r\nmentioned below can be found in the Supplementary material (Supple\u0002mentary data 1a). The data set consists of a total of 67563 hydrogen\r\nbonds.\r\n4.3. Classification of hydrogen bonds\r\nIn this study, we empirically classified hydrogen bonds into 4 types\r\nbased on whether the donor/acceptor atoms are from the main-chain/\r\nside-chain: (i) donor: main-chain; acceptor: main-chain (MC-MC), (ii)\r\ndonor: main-chain; acceptor: side-chain (MC-SC), (iii) donor: side-chain;\r\nacceptor: main-chain (SC-MC) and (iv) donor: side-chain; acceptor: side\u0002chain (SC-SC). MC-MC hydrogen bonds are further divided into 3 sub\u0002types based on secondary structure: (i) alpha helix (ii) beta strand and\r\n(iii) non-secondary structure.\r\n4.4. Hydrogen bond parameters\r\nThe strength and geometry of hydrogen bonds vary with the envi\u0002ronment. To investigate this dependence, correlations were drawn be\u0002tween hydrogen bond geometry and several environment parameters of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "the donor/acceptor atoms including (1) whether they belong to the main\u0002chain or side-chain (2) atomic depth (3) secondary structure (4) partial\r\ncharge. Values of partial charge were extracted from the GROMOS96\r\nforce field (Van Gunsteren et al., 1996).\r\n4.5. Atom/residue depth computation\r\nAtom/residue depth is defined as the distance of an atom/residue to\r\nits closest bulk water.\r\n(Tan et al., 2011, 2013; Chakravarty and Varadarajan, 1999). In this\r\nstudy, bulk water is defined as those solvent molecules that have 4 or\r\nmore other solvent molecules as neighbors (within a distance of 4.2 Å).\r\nResidue depth stratifies the protein interior and is hence a concise\r\nK.P. Tan et al. Current Research in Structural Biology 3 (2021) 1–8\r\n6\ndescriptor of residue environment. The depth of a hydrogen bond is\r\ndefined as the average of depths of its donor and acceptor.\r\n4.6. Secondary structure assignment\r\nSecondary structure was assigned using the write_data module of\r\nMODELLER that in turn uses the distance matrix idea (Richards and\r\nKundrot, 1988) and DSSP (Kabsch and Sander, 1983).\r\n4.7. Quantum mechanical calculations\r\nTo compare trends of the calculated H^ angle the model systems used\r\nand the details of the methods are provided in Supplementary data 2A\r\nand 2B. Note that our model systems of amino side chains are repre\u0002sentative of most side chains, with the exception of side chains such as\r\nasparagine or glutamine that resemble the main chain.\r\nThe calculations to rationalize the structural differences between MC\u0002MC and SC-MC type of hydrogen bonds were performed on three model\r\nsystems -\r\n1) The simplest model for a hydrogen bond between two main chains\r\nthat we have used is the N-methylacetamide (NMA) dimer (Supple\u0002mentary figure S2.4). This has been widely used to model hydrogen\r\nbonds in proteins (Buck and Karplus, 2001; Miller and Lisy, 2007) and\r\nis referred to as the NMA dimer model in this study. We performed\r\ngeometry optimization of the dimer using second order Møller-Plesset\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 476,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "perturbation theory (MP2) and the 6-31G(d, p)þþ basis set. Since\r\nthere are several local energy minima corresponding to different ge\u0002ometries, the optimized structure depends on the choice of the initial\r\nstructure. To ensure adequate sampling of the coordinate space, we\r\nconstrained the H^ angle to six different values (from 85\u0001 to 160\u0001 in\r\nsteps of 15\u0001) and optimized the rest of the molecule, and then released\r\nthe constraints and performed a full optimization. The hydrogen bond\r\nangles and H^ angles obtained from this systematic sampling and from\r\nseveral other random initial geometries are given in Supplementary\r\ntable S2.1. For our analysis, we considered the structure that has the\r\ngreatest hydrogen bond angle and a trans peptide bond (referred to as\r\noriginal structure in Supplementary table S2.2 and shown in Sup\u0002plementary figure S2.5a). We then added two hydrogen atoms to\r\nsaturate the C–\r\n–O bond on the NMA molecule, which acts as the\r\nhydrogen bond donor and optimized the modified dimer structure in\r\nthree steps: one, constraining the position of all atoms except the two\r\nhydrogen atoms attached to the C and O; two, constraining all the\r\natoms on the donor NMA including the two H atoms at the positions\r\nobtained in step one (Saturated planar structure shown in Supple\u0002mentary figure S2.5b); and three, removing all constraints. The final\r\nsaturated structure is a model for a SC-MC type of hydrogen bond\r\n(referred to as Saturated optimized structure in Supplementary table\r\nS2.2 and shown in Supplementary figure S2.5c). The three-step pro\u0002cedure, where the structure is allowed to relax in parts, is required to\r\narrive at a saturated optimized structure that is close to the original\r\nstructure. This allows for a meaningful comparison of the H^ angle\r\nbetween these two structures. If instead, all atoms are allowed to relax\r\nat once after adding the hydrogen atoms, the structure tends to\r\noptimize to an arbitrary local minimum on the potential energy sur\u0002face, which in general can be completely different from the original\r\nstructure.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "2) & 3) To check the robustness of our analysis and to have more real\u0002istic models, we also considered dimers of glycine dipeptide with two\r\ndifferent sets of Ramachandran angles (Supplementary table S2.2).\r\nHere we optimized the geometry of two sets of glycine dipeptide di\u0002mers orienting them in an anti-parallel beta sheet manner and con\u0002straining the (Ψ, Φ) angles to be (140\u0001, \u0003120\u0001) and (140\u0001, \u0003100\u0001) to\r\neliminate multiple local minima. These 2 systems are referred to as di\u0002glycine dimer models 1 and 2 in this study. For these larger sized\r\nmolecules compared to NMA, for reasons of computational efficiency,\r\nwe used density functional theory (DFT) with the B3LYP exchange\u0002correlation energy functional and the same 6-31G(d,p)þþ basis set.\r\nWe then added two hydrogen atoms to the C–\r\n–O bond adjacent to the\r\ncentral N in the dipeptide which is a hydrogen bond donor in a\r\nmanner similar to NMA, to obtain a model for a SC-MC type of\r\nhydrogen bond (Supplementary figure S2.6). All the calculations\r\nwere performed using the GAMESS program package (Schmidt et al.,\r\n1993).\r\n4.8. Molecular dynamics simulations\r\nA 16-mer poly-alanine ɑ-helix was constructed using the secondar\u0002y_structure module in MODELLER. The average ϕ and ψ angles of all the\r\nresidues in the starting structure were \u000364\u0001 and \u000342\u0001 respectively. The\r\naverage value of the H^ angle of the (iþ4, i) hydrogen bond in starting\r\nstructure was ~154\u0001. The helical peptide was placed at the center of a\r\ndodecahedron box such that the distance from the peptide to the walls of\r\nthe box was at least 10 Å. The simulation set up consists of 7228 atoms,\r\nincluding 7065 SPC216 water molecules.\r\nThree sets of 10 ns (ns) molecular dynamic (MD) simulations were\r\nperformed on the system described above. The system was energy\r\nminimized until the maximum force on the system was less than 1000 kJ/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "mol/nm. Before the 10ns production run, the system was subjected to\r\n100 ps (ps) of canonical ensemble (NVT) simulation, followed by another\r\n100ps of isothermal-isobaric ensemble (NPT) simulation. In the pro\u0002duction run of the simulation in the NPT ensemble temperature was\r\nmaintained at 300 K using a Berendsen's thermostat.\r\nIn the first simulation that acts as a control, the helix was subjected to\r\nfree MD for 10 ns (ns) without any external constraints. In the second\r\n10ns MD simulation, a repulsive potential at 155\u0001 was applied (using a\r\ncosine functional form similar to that of a dihedral rotation and a force\r\nconstant of 40 kJ/mol, see supplementary data 13) to all (iþ4, i)\r\nhydrogen bond H^ angles. This energy barrier was applied to force the\r\nsystem to explore H^ angles other than what it was in the initial structure.\r\nIn the third simulation, the last frame of the second simulation was used\r\nas the starting structure. The repulsive potential was replaced by a con\u0002straining potential at 155\u0001 (using the same cosine functional form as the\r\nsecond simulation but changing the sign of the 40 kJ/mol force constant,\r\nsee supplementary data 13) was applied to all (iþ4, i) hydrogen bond\r\ndonor-acceptor pairs. This was done to increase the sampling rate at the\r\n~155\u0001 region. All simulations and constraint manipulations were per\u0002formed with the Gromacs (ver 5.1) software suite, using the CHARMM36\r\nforce field.\r\nDeclaration of competing interest\r\nThe authors declare that they have no known competing financial\r\ninterests or personal relationships that could have appeared to influence\r\nthe work reported in this paper.\r\nAcknowledgment\r\nThe authors would like to thank Prof. Raghavan Varadarajan for\r\ninsightful discussions and Ankit Roy for helping with the editing of the\r\nmanuscript MSM would like to acknowledge a Wellcome-DBT India\r\nalliance senior fellowship.\r\nAppendix A. Supplementary data\r\nSupplementary data to this article can be found online at https\r\n://doi.org/10.1016/j.crstbi.2020.11.002.\r\nReferences\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Alabugin, I.V., Gilmore, K.M., Peterson, P.W., 2011. Hyperconjugation. Wiley Interdiscip.\r\nRev. Comput. Mol. Sci. 1, 109–141.\r\nK.P. Tan et al. Current Research in Structural Biology 3 (2021) 1–8\r\n7\nAllen, F.H., 2002. The Cambridge Structural Database: a quarter of a million crystal\r\nstructures and rising. Acta Crystallogr. Sect. B Struct. Sci. 58, 380–388.\r\nArunan, E., Desiraju, G.R., Klein, R.A., Sadlej, J., Scheiner, S., Alkorta, I., Clary, D.C.,\r\nCrabtree, R.H., Dannenberg, J.J., Hobza, P., et al., 2011a. Definition of the hydrogen\r\nbond (IUPAC Recommendations 2011). Pure Appl. Chem. 83.\r\nArunan, E., Desiraju, G.R., Klein, R.A., Sadlej, J., Scheiner, S., Alkorta, I., Clary, D.C.,\r\nCrabtree, R.H., Dannenberg, J.J., Hobza, P., et al., 2011b. Defining the hydrogen\r\nbond: an account (IUPAC Technical Report). Pure Appl. Chem. 83.\r\nBaker, E.N., Hubbard, R.E., 1984. Hydrogen bonding in globular proteins. Prog. Biophys.\r\nMol. Biol. 44, 97–179.\r\nBen-Naim, A., 1991. The role of hydrogen bonds in protein folding and protein\r\nassociation. J. Phys. Chem. 95, 1437–1444.\r\nBerman, H.M., 2000. The protein data bank. Nucleic Acids Res. 28, 235–242.\r\nBordo, D., Argos, P., 1994. The role of side-chain hydrogen bonds in the formation and\r\nstabilization of secondary structure in soluble proteins. J. Mol. Biol. 243, 504–519.\r\nBuck, M., Karplus, M., 2001. Hydrogen bond energetics: a simulation and statistical\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "analysis of N-methyl acetamide (NMA), water, and human lysozyme. J. Phys. Chem.\r\nB 105, 11000–11015.\r\nByrne, M.P., Lee Manuel, R., Lowe, L.G., Stites, W.E., 1995. Energetic contribution of side\r\nchain hydrogen bonding to the stability of staphylococcal nuclease. Biochemistry 34,\r\n13949–13960.\r\nCampos, L.A., Cuesta-Lopez, S., L \u0003 opez-Llano, J., Falo, F., Sancho, J., 2005. A double- \u0003\r\ndeletion method to quantifying incremental binding energies in proteins from\r\nexperiment: example of a destabilizing hydrogen bonding pair. Biophys. J. 88,\r\n1311–1321.\r\nCao, Z., Ju, Bowie, 2014. An energetic scale for equilibrium H/D fractionation factors\r\nilluminates hydrogen bond free energies in proteins. Protein Sci. 23, 566–575.\r\nChakravarty, S., Varadarajan, R., 1999. Residue depth: a novel parameter for the analysis\r\nof protein structure and stability. Structure 7, 723–732.\r\nChatterjee, S., Vasudev, P.G., Raghothama, S., Ramakrishnan, C., Shamala, N.,\r\nBalaram, P., 2009. Expanding the peptide β -turn in α γ hybrid sequences: 12 atom\r\nhydrogen bonded helical and hairpin turns. J. Am. Chem. Soc. 131, 5956–5965.\r\nConnelly, P.R., Aldape, R.A., Bruzzese, F.J., Chambers, S.P., Fitzgibbon, M.J.,\r\nFleming, M.A., Itoh, S., Livingston, D.J., Navia, M.A., Thomson, J.A., 1994. Enthalpy\r\nof hydrogen bond formation in a protein-ligand binding reaction. Proc. Natl. Acad.\r\nSci. Unit. States Am. 91, 1964–1968.\r\nCordier, F., Grzesiek, S., 2002. Temperature-dependence of protein hydrogen bond\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "properties as studied by high-resolution NMR. J. Mol. Biol. 317, 739–752.\r\nCordier, F., Rogowski, M., Grzesiek, S., Bax, A., 1999. Observation of through-hydrogen\u0002bond 2hJHC' in a perdeuterated protein. J. Magn. Reson. 140, 510–512.\r\nDeechongkit, S., Nguyen, H., Powers, E.T., Dawson, P.E., Gruebele, M., Kelly, J.W., 2004.\r\nContext-dependent contributions of backbone hydrogen bonding to β-sheet folding\r\nenergetics. Nature 430, 101–105.\r\nEberhardt, E.S., Raines, R.T., 1994. Amide-amide and amide-water hydrogen bonds:\r\nimplications for protein folding and stability. J. Am. Chem. Soc. 116, 2149–2150.\r\nEswar, N., Ramakrishnan, C., 1999. Secondary structures without backbone: an analysis\r\nof backbone mimicry by polar side chains in protein structures. Protein Eng. 12,\r\n447–455.\r\nEswar, N., Ramakrishnan, C., 2000. Deterministic features of side-chain main-chain\r\nhydrogen bonds in globular protein structures. Protein Eng. 13, 227–238.\r\nFabiola, F., Bertram, R., Korostelev, A., Chapman, M.S., 2002. An improved hydrogen\r\nbond potential: impact on medium resolution protein structures. Protein Sci. 11,\r\n1415–1423.\r\nFersht, A.R., 1987. The hydrogen bond in molecular recognition. Trends Biochem. Sci. 12,\r\n301–304.\r\nGraulis, S., Chateigner, D., Downs, R.T., Yokochi, A.F.T., Quiros, M., Lutterotti, L., \u0003\r\nManakova, E., Butkus, J., Moeck, P., Le Bail, A., 2009. Crystallography Open\r\nDatabase - an open-access collection of crystal structures. J. Appl. Crystallogr. 42,\r\n726–729.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Gra\u0002zulis, S., Da\u0002skevi\u0002c, A., Merkys, A., Chateigner, D., Lutterotti, L., Quiros, M., \u0003\r\nSerebryanaya, N.R., Moeck, P., Downs, R.T., Le Bail, A., 2012. Crystallography Open\r\nDatabase (COD): an open-access collection of crystal structures and platform for\r\nworld-wide collaboration. Nucleic Acids Res. 40, D420–D427.\r\nGrzybowski, B.A., Ishchenko, A.V., DeWitte, R.S., Whitesides, G.M., Shakhnovich, E.I.,\r\n2000. Development of a knowledge-based potential for crystals of small organic\r\nmolecules: calculation of energy surfaces for C¼0⋅⋅⋅H\u0003N hydrogen bonds. J. Phys.\r\nChem. B 104, 7293–7298.\r\nHabermann, S.M., Murphy, K.P., 1996. Energetics of hydrogen bonding in proteins: a\r\nmodel compound study. Protein Sci. 5, 1229–1239.\r\nHonig, B., 1999. Protein folding: from the levinthal paradox to structure prediction.\r\nJ. Mol. Biol. 293, 283–293.\r\nHonig, B., Yang, A.S., 1995. Free energy balance in protein folding. Adv. Protein Chem.\r\n46, 27–58.\r\nIppolito, J.A., Alexander, R.S., Christianson, D.W., 1990. Hydrogen bond stereochemistry\r\nin protein structure and function. J. Mol. Biol. 215, 457–471.\r\nIsaacs, E.D., Shukla, A., Platzman, P.M., Hamann, D.R., Barbiellini, B., Tulk, C.A., 1999.\r\nCovalency of the hydrogen bond in ice: a direct x-ray measurement. Phys. Rev. Lett.\r\n82, 600–603.\r\nKabsch, W., Sander, C., 1983. Dictionary of protein secondary structure: pattern\r\nrecognition of hydrogen-bonded and geometrical features. Biopolymers 22,\r\n2577–2637.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Kortemme, T., Morozov, A.V., Baker, D., 2003. An orientation-dependent hydrogen\r\nbonding potential improves prediction of specificity and structure for proteins and\r\nprotein-protein complexes. J. Mol. Biol. 326, 1239–1259.\r\nKurochkina, N., Privalov, G., 1998. Heterogeneity of packing: structural approach.\r\nProtein Sci. 7, 897–905.\r\nLazaridis, T., Archontis, G., Karplus, M., 1995. Enthalpic contribution to protein stability:\r\ninsights from atom-based calculations and statistical mechanics. Adv. Protein Chem.\r\n47, 231–306.\r\nLommerse, J.P.M., Price, S.L., Taylor, R., 1997. Hydrogen bonding of carbonyl, ether, and\r\nester oxygen atoms with alkanol hydroxyl groups. J. Comput. Chem. 18, 757–774.\r\nMcDonald, I.K., Thornton, J.M., 1994. Satisfying hydrogen bonding potential in proteins.\r\nJ. Mol. Biol. 238, 777–793.\r\nMiller, D.J., Lisy, J.M., 2007. Modeling competitive interactions in proteins: vibrational\r\nspectroscopy of Mþ(n-methylacetamide)1(H2O)n¼0-3, M ¼ Na and K, in the 3 mm\r\nregion. J. Phys. Chem. A 111, 12409–12416.\r\nMorozov, A.V., Kortemme, T., Tsemekhman, K., Baker, D., 2004. Close agreement\r\nbetween the orientation dependence of hydrogen bonds observed in protein\r\nstructures and quantum mechanical calculations. Proc. Natl. Acad. Sci. Unit. States\r\nAm. 101, 6946–6951.\r\nMyers, J.K., Pace, C.N., 1996. Hydrogen bonding stabilizes globular proteins. Biophys. J.\r\n71, 2033–2039.\r\nNick Pace, C., Martin Scholtz, J., Grimsley, G.R., 2014. Forces stabilizing proteins. FEBS\r\nLett. 588, 2177–2184.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Nisius, L., Grzesiek, S., 2012. Key stabilizing elements of protein structure identified\r\nthrough pressure and temperature perturbation of its hydrogen bond network. Nat.\r\nChem. 4, 711–717.\r\nPace, C.N., 2009. Energetics of protein hydrogen bonds. Nat. Struct. Mol. Biol. 16,\r\n681–682.\r\nPace, C.N., Fu, H., Fryar, K.L., Landua, J., Trevino, S.R., Schell, D., Thurlkill, R.L.,\r\nImura, S., Scholtz, J.M., Gajiwala, K., et al., 2014. Contribution of hydrogen bonds to\r\nprotein stability. Protein Sci. 23, 652–661.\r\nRaghavendra, B., Mandal, P.K., Arunan, E., 2006. Ab initio and AIM theoretical analysis of\r\nhydrogen-bond radius of HD (D ¼ F, Cl, Br, CN, HO, HS and CCH) donors and some\r\nacceptors. Phys. Chem. Chem. Phys. 8, 5276.\r\nRichards, F.M., Kundrot, C.E., 1988. Identification of structural motifs from protein\r\ncoordinate data: secondary structure and first-level supersecondary structure.\r\nProteins Struct. Funct. Bioinforma. 3, 71–84.\r\nRose, G.D., Fleming, P.J., Banavar, J.R., Maritan, A., 2006. A backbone-based theory of\r\nprotein folding. Proc. Natl. Acad. Sci. Unit. States Am. 103, 16623–16633.\r\nSali, A., Blundell, T.L., 1993. Comparative protein modelling by satisfaction of spatial \u0002\r\nrestraints. J. Mol. Biol. 234, 779–815.\r\nSchell, D., Tsai, J., Scholtz, J.M., Pace, C.N., 2006. Hydrogen bonding increases packing\r\ndensity in the protein interior. Proteins Struct. Funct. Genet. 63, 278–282.\r\nSchmidt, M.W., Baldridge, K.K., Boatz, J.A., Elbert, S.T., Gordon, M.S., Jensen, J.H.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "Koseki, S., Matsunaga, N., Nguyen, K.A., Su, S., et al., 1993. General atomic and\r\nmolecular electronic structure system. J. Comput. Chem. 14, 1347–1363.\r\nSheu, S.-Y., Yang, D.-Y., Selzle, H.L., Schlag, E.W., 2003. Energetics of hydrogen bonds in\r\npeptides. Proc. Natl. Acad. Sci. Unit. States Am. 100, 12683–12687.\r\nShirley, B.A., Nick Pace, C., Stanssens, P., Hahn, U., 1992. Contribution of hydrogen\r\nbonding to the conformational stability of ribonuclease. Biochemistry 31, 725–732.\r\nSticke, D.F., Presta, L.G., Dill, K.A., Rose, G.D., 1992. Hydrogen bonding in globular\r\nproteins. J. Mol. Biol. 226, 1143–1159.\r\nTan, K.P., Varadarajan, R., Madhusudhan, M.S., 2011. DEPTH: a web server to compute\r\ndepth and predict small-molecule binding cavities in proteins. Nucleic Acids Res. 39.\r\nTan, K.P., Nguyen, T.B., Patel, S., Varadarajan, R., Madhusudhan, M.S., 2013. Depth: a web\r\nserver to compute depth, cavity sizes, detect potential small-molecule ligand-binding\r\ncavities and predict the pKa of ionizable residues in proteins. Nucleic Acids Res. 41.\r\nTaylor, R., Kennard, O., 1984. Hydrogen-bond geometry in organic crystalsy. Acc. Chem.\r\nRes. 17, 320–326.\r\nTaylor, R., Kennard, O., Versichel, W., 1983. Geometry of the N-H ⃛O¼C hydrogen bond.\r\n1. Lone-pair directionality. J. Am. Chem. Soc. 105, 5761–5766.\r\nThurlkill, R.L., Grimsley, G.R., Scholtz, J.M., Pace, C.N., 2006. Hydrogen bonding\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5136244024572845997,
+        "filename": "main.PMC8261469.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 197,
+      "total_chunks": 31,
+      "version": "1.0.0"
+    },
+    "text": "markedly reduces the pK of buried carboxyl groups in proteins. J. Mol. Biol. 362,\r\n594–604.\r\nTorshin, I.Y., Weber, I.T., Harrison, R.W., 2002. Geometric criteria of hydrogen bonds in\r\nproteins and identification of 'bifurcated’ hydrogen bonds. Protein Eng. Des. Sel. 15,\r\n359–363.\r\nVan Gunsteren, F.W., Billeter, S.R., Eising, A.A., Hünenberger, P.H., Krüger, P.,\r\nMark, A.E., Scott, W.R.P., Tironi, I.G., 1996. Biomolecular Simulation: the\r\nGROMOS96 Manual and User Guide. Vdf, Hochschulverlag an der ETH.\r\nK.P. Tan et al. Current Research in Structural Biology 3 (2021) 1–8\r\n8\n\n"
+  }
+]

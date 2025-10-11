@@ -1,0 +1,938 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "1461\r\nHepatology, VOL. 74, NO. 3, 2021\r\nLoss-of-Function Genetic Screening \r\nIdentifies Aldolase A as an Essential \r\nDriver for Liver Cancer Cell Growth \r\nUnder Hypoxia\r\nYi Niu,1 Ziyou Lin,1 Arabella Wan,2 Lei Sun,1 Shijia Yan,1 Heng Liang,1 Siyue Zhan,1 Dongshi Chen,3 Xianzhang Bu,1 Peiqing Liu,1\r\nCeshi Chen,4\r\n Weiling He,2,5 Xiongbin Lu,6,7 and Guohui Wan 1\r\nBACKGROUND AND AIMS: Hypoxia is a common fea\u0002ture of the tumor microenvironment (TME), which promotes \r\ntumor progression, metastasis, and therapeutic drug resistance \r\nthrough a myriad of cell activities in tumor and stroma cells. \r\nWhile targeting hypoxic TME is emerging as a promising \r\nstrategy for treating solid tumors, preclinical development of \r\nthis approach is lacking in the study of HCC.\r\nAPPROACH AND RESULTS: From a genome-wide \r\nCRISPR/CRISPR-associated 9 gene knockout screening, we \r\nidentified aldolase A (ALDOA), a key enzyme in glycolysis \r\nand gluconeogenesis, as an essential driver for HCC cell growth \r\nunder hypoxia. Knockdown of ALDOA in HCC cells leads \r\nto lactate depletion and consequently inhibits tumor growth. \r\nSupplementation with lactate partly rescues the inhibitory effects \r\nmediated by ALDOA knockdown. Upon hypoxia, ALDOA \r\nis induced by hypoxia-inducible factor-1α and fat mass and \r\nobesity–associated protein–mediated N6\r\n-methyladenosine modi\u0002fication through transcriptional and posttranscriptional regula\u0002tion, respectively. Analysis of The Cancer Genome Atlas shows \r\nthat elevated levels of ALDOA are significantly correlated with \r\npoor prognosis of patients with HCC. In a screen of Food and \r\nDrug Administration–approved drugs based on structured hier\u0002archical virtual platforms, we identified the sulfamonomethoxine \r\nderivative compound 5 (cpd-5) as a potential inhibitor to target \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 463,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "ALDOA, evidenced by the antitumor activity of cpd-5 in pre\u0002clinical patient-derived xenograft models of HCC.\r\nCONCLUSIONS: Our work identifies ALDOA as an \r\nessential driver for HCC cell growth under hypoxia, and \r\nwe demonstrate that inhibition of ALDOA in the hypoxic \r\nTME is a promising therapeutic strategy for treating HCC. \r\n(Hepatology 2021;74:1461-1479).\r\nHCC accounts for the majority of primary \r\nliver malignancies and is the fourth leading \r\ncause of cancer-related death worldwide.(1)\r\nThe incidence of HCC is increasing due to the preva\u0002lence of HBV infection, HCV infection, alcohol abuse, \r\nand the increase of NAFLD.(2)\r\n Surgical resection \r\nand transplantation are the main curative treatments \r\nfor patients with HCC at the early-onset stage with \r\nlong-term survival rates.(3)\r\n Because most patients with \r\nHCC are diagnosed at the late stage, systemic thera\u0002pies such as sorafenib treatment have been used as the \r\nfrontline therapy for advanced HCC but still with lim\u0002ited clinical benefits for patients.(4)\r\n Recently, emerging \r\ntargeted therapies have produced potent and specific \r\nAbbreviations: ALDOA, aldolase A; ALKBH5, alpha-ketoglutarate-dependent dioxygenase alkB homolog 5; Cas9, CRISPR-associated protein \r\n9; cpd-5, compound 5; DOX, doxycycline; ECAR, extracellular acidification rate; EdU, 5-ethynyl-2′-deoxyuridine; FDA, Food and Drug \r\nAdministration; FTO, fat mass and obesity–associated protein; G3P, glyceraldehyde-3-phosphate; HIF-1, hypoxia-inducible factor; HRE, hypoxia\u0002responsive element; IC50, 50% inhibition concentration; IHC, immunohistochemistry; KEGG, Kyoto Encyclopedia of Genes and Genomes; m6\r\nA, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "N6-methyladenosine; METTL3/14, methyltransferase-like 3/14; MFGE8, milk fat globule EGF factor 8; OPLS-DA, orthogonal PLS-DA; PCA, \r\nprincipal component analysis; PDX, patient-derived xenograft; PLS-DA, partial least squares discriminant analysis; RNAi, RNA interference; sg-, \r\nsingle-guide; sh-, short hairpin; si-, small interfering; TCGA, The Cancer Genome Atlas; TME, tumor microenvironment; VEGFR, VEGF receptor; \r\nYTHDF1/2, YTH N6-methyladenosine RNA binding protein 1/2.\r\nReceived May 27, 2020; accepted March 17, 2021.\r\nAdditional Supporting Information may be found at onlinelibrary.wiley.com/doi/10.1002/hep.31846/suppinfo.\r\nSupported in part by grants from the National Natural Science Foundation of China (82073869, 82122069, 21672266, 82022037, 81701834, \r\n81871994); the Guangdong Basic and Applied Basic Research Foundation (2019A050510019, 2021B1515020004, 2019B151502063); the Guangdong \r\nProvincial Key Laboratory of Construction Foundation (2017B030314030, 2020B1212060034); the Guangzhou Science and Technology Planning Program \r\n(202002020051, 201902020018); the National Engineering Research Center for New Drug and Druggability Evaluation, Seed Program of Guangdong \r\nProvince (2017B090903004); and the Local Innovative and Research Teams Project of Guangdong Pearl River Talents Program (2017BT01Y093).\nNIU ET AL. Hepatology, September 2021\r\n1462\r\nresponses and minimized the toxicity in the treatment \r\nof advanced HCC. For example, lenvatinib, a multi\u0002ple tyrosine kinase inhibitor against VEGF receptor 1 \r\n(VEGFR1), VEGFR2, and VEGFR3, received Food \r\nand Drug Administration (FDA) approval for the \r\ntreatment of advanced HCC in 2018.(5)\r\n Therefore, it \r\nis of great clinical importance and urgency to develop \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "efficacious targeted intervention for advanced HCC.\r\nIntratumoral hypoxia or oxygen deprivation is a com\u0002mon survival state of human advanced solid tumors, \r\nincluding HCC. The median O2 partial pressure in \r\nHCC is 6 mm Hg compared with 30 mm Hg in normal \r\nliver.(6)\r\n The homeostatic response to the intratumoral \r\nhypoxic environment is mediated by hypoxia-inducible \r\nfactor (HIF-1), consisting of an α-subunit and a β-sub\u0002unit,(7)\r\n which triggers a variety of cellular responses \r\nsuch as angiogenesis,(8)\r\n erythropoiesis,(9) apopto\u0002sis,(10)\r\n metastasis,(11) drug resistance,(12) autophagy,(13)\r\nand stemness.(14)\r\n In a recent study, we reported that \r\nhypoxia induces sorafenib resistance in HCC in an N6\r\n-\r\nmethyladenosine (m6\r\nA)–dependent manner and that \r\nmethyltransferase-like 3 (METTL3) depletion enhances \r\nforkhead box O3–mediated autophagy under hypoxia.(15)\r\nTargeting the hypoxic tumor microenvironment (TME) \r\nby specifically blocking glutamine metabolism enhances \r\nT-cell oxidative phosphorylation and anticancer immune \r\nresponses,(16)\r\n highlighting the importance of developing \r\neffective therapies under hypoxic conditions. Loss-of\u0002function genetic screening approaches have been widely \r\nused to study the molecular mechanisms and functional \r\nconsequences of gene deletion in various tumor cells.(17,18)\r\nThese approaches include pooled RNA interference \r\n(RNAi) screens using a short hairpin RNA (shRNA) \r\nlibrary for gene knockdown and pooled genetic screens \r\nusing a CRISPR/CRISPR-associated 9 (Cas9) system \r\nfor gene knockout that simultaneously investigate the \r\nrole of a group of genes on tumor cell growth, viabil\u0002ity, metastasis, and drug resistance.(19,20)\r\n However, these \r\nscreens have not been applied to directly assess the role \r\nof the hypoxic TME in HCC. Examining the role of \r\nhypoxia in HCC can provide comprehensive insights \r\ninto the molecular mechanisms of the occurrence and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "the hypoxia-induced tumor growth in HCC and identify \r\npotential therapeutic targets specific for advanced HCC.\r\nIn this study, we performed a genome-wide screen \r\nusing a CRISPR/Cas9 genome editing system in \r\nHCC cells to identify genes that are required for cell \r\ngrowth and viability under hypoxic conditions and \r\nintegrate with differentially expressed genes in patients \r\nwith HCC from The Cancer Genome Atlas (TCGA) \r\nand a local cohort and in HCC cells responding to \r\nhypoxia. We identified aldolase A (ALDOA), a key \r\nenzyme in the glycolytic pathway by catalyzing the \r\nreversible conversion of fructose-1,6-bisphosphate to \r\n© 2021 The Authors. Hepatology published by Wiley Periodicals LLC on behalf of American Association for the Study of Liver Diseases. This is an \r\nopen access article under the terms of the Creative Commons Attribution-NonCommercial License, which permits use, distribution and reproduction in \r\nany medium, provided the original work is properly cited and is not used for commercial purposes.\r\nView this article online at wileyonlinelibrary.com.\r\nDOI 10.1002/hep.31846\r\nPotential conflict of interest: Nothing to report.\r\nARTICLE INFORMATION:\r\nFrom the 1National-Local Joint Engineering Laboratory of Druggability and New Drug Evaluation,  National Engineering Research \r\nCenter for New Drug and Druggability (cultivation),  Guangdong Province Key Laboratory of New Drug Design and Evaluation,  School \r\nof Pharmaceutical Sciences,  Sun Yat-Sen University, Guangzhou, China; 2Department of Gastrointestinal Surgery,  The First Affiliated \r\nHospital,  Sun Yat-Sen University, Guangzhou, China; 3Division of Pulmonary, Allergy and Critical Care Medicine,  Department \r\nof Medicine,  University of Pittsburgh, Pittsburgh, PA; 4Key Laboratory of Animal Models and Human,  Disease Mechanisms of \r\nthe Chinese Academy of Sciences and Yunnan Province,  Kunming Institute of Zoology,  Chinese Academy of Sciences, Kunming, \r\nYunnan, China; 5Center for Precision Medicine,  Sun Yat-Sen University, Guangzhou, China; 6Department of Medical and Molecular \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Genetics,  Indiana University School of Medicine, Indianapolis, IN; 7Indiana University Melvin and Bren Simon Cancer Center, \r\nIndianapolis, IN.\r\nADDRESS CORRESPONDENCE AND REPRINT REQUESTS TO:\r\nGuohui Wan, Ph.D. \r\nSchool of Pharmaceutical Sciences, Sun Yat-Sen University \r\nGuangzhou, 510006, China \r\nE-mail: wanguoh@mail.sysu.edu.cn \r\nTel.: +86-20-39943495 \nHepatology, Vol. 74, No. 3, 2021 NIU ET AL.\r\n1463\r\nglyceraldehyde-3-phosphate (G3P) and dihydroxy\u0002acetone phosphate,(21)\r\n as an essential gene for HCC \r\nunder hypoxia. Up-regulation of ALDOA promoted \r\nHCC cell proliferation and migration under hypoxia in \r\nvitro and in vivo. By metabolomics analysis, we found \r\nthat the level of lactate was significantly decreased in \r\nALDOA-depleted HCC cells and that rescue of lac\u0002tate accumulation in ALDOA-depleted HCC cells \r\nalleviated inhibitory effects on tumor growth under \r\nhypoxia. Our findings suggest that targeting ALDOA \r\nis a promising strategy to challenge the hypoxic tumor \r\nmicroenvironment in patients with advanced HCC.\r\nMaterials and Methods\r\nPLASMID CONSTRUCTIONS, CELL\r\nTRANSFECTION, AND INFECTION\r\nThe human CRISPR Knockout Pooled Library was \r\nobtained from Addgene (1000000049). The library \r\nwas amplified and used according to instructions, as \r\ndescribed.(18)\r\n Model-based analysis of genome-wide \r\nCRISPR/Cas9 (MAGeCK) of the library sequencing \r\ndata was performed by Novogene (Beijing, China). \r\nStable knockdown of target genes was achieved by \r\nlentivirus-based shRNA delivery. PLKO.1 vectors \r\nwith antipuromycin or antihygromycin plasmid were \r\nconstructed, while doxycycline (DOX)–induced sta\u0002ble knockdown of ALDOA was achieved by Tet\u0002pLKO-puro (21915; Addgene). Stable knockout \r\nof ALDOA was accomplished by lentiCRISPRv2 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "(52961; Addgene). All primer sequences are listed in \r\nSupporting Table S1. For the ALDOA overexpressing \r\nsystem, ALDOA complementary DNA (KR709337) \r\nwas cloned into pCDH-puro lentiviral vector \r\n(CD510B-1; System Biosciences). For shRNA knock\u0002down and overexpression, pLKO.1, Tet-pLKO-puro, \r\nlentiCRISPRv2, and pCDH constructs together with \r\npacking and helper plasmids PAX2 and MD2G were \r\ncotransfected into HEK-293T cells by the Calcium \r\nPhosphate Transfection Kit (CAPHOS-1KT; Sigma). \r\nViruses were collected, filtered, and titrated before \r\ninfecting target cells with 8  mg/mL polybrene (TR\u00021003, Sigma). The infected cells were screened by \r\npuromycin or hygromycin accordingly. Small inter\u0002fering RNA (siRNA) duplexes were synthesized by \r\nTSINGKE (Guangzhou, China) and transfected into \r\ncells by Lipofectamine3000 (Thermo Fisher).\r\nSEAHORSE\r\nLiver cancer cells (shCtrl, shALDOA#1, and shAL\u0002DOA#2) were seeded to a 96-well Seahorse XF Cell \r\nCulture Microplate (8,000 cells per well). After 24 hours \r\nin hypoxia, the cell culture growth medium was changed \r\nto a prewarmed assay medium, and the cell culture \r\nmicroplate was placed into a 37°C non-CO2 incubator \r\nfor 45 minutes. Glycolysis (extracellular acidification rate \r\n[ECAR]) was measured in the XF Analyzer according \r\nto the manual of the Seahorse XF Cell Mito Stress Test \r\nAssay (Seahorse Bioscience of Agilent Technologies).\r\nLIVER CANCER PATIENT SAMPLES\r\nThe liver tumor and normal tissues (fresh tissues \r\nand paraffin-embedded specimens) were obtained from \r\nthe First Affiliated Hospital of Sun Yat-Sen University \r\nwhich were approved by the institutional review board of \r\nthe hospital. The study was compliant with all relevant \r\nethical regulations regarding research involving human \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "participants and the informed consents were collected.\r\nThe liver tumor and normal tissues (fresh tissues \r\nand paraffin-embedded specimens) were obtained \r\nfrom the First Affiliated Hospital of Sun Yat-Sen \r\nUniversity which were approved by the institutional \r\nreview board of the hospital. The study was compliant \r\nwith all relevant ethical regulations regarding research \r\ninvolving human participants and the informed con\u0002sents were collected. The detailed methodology can be \r\nfound in the Supporting Materials and Methods.\r\nResults\r\nGENOME-WIDE CRISPR/CAS9 \r\nLIBRARY SCREENING AND \r\nTRANSCRIPTOME SEQUENCING\r\nIDENTIFIED ALDOA AS AN \r\nESSENTIAL DRIVER FOR HCC \r\nCELL GROWTH UNDER HYPOXIA\r\nHypoxia is a hallmark of the solid TME with \r\npoor prognosis, which contributes to the plasticity \r\nand the heterogeneity of tumors, generates therapeu\u0002tic resistance, and promotes malignant progression.(22)\r\nTargeting the hypoxic TME is an unexplored strategy \r\nfor cancer therapy. In this study, we performed tran\u0002scriptome sequencing analysis of human HCC tumors \nNIU ET AL. Hepatology, September 2021\r\n1464\r\nand human HCC cell lines under hypoxia (Fig. 1A) and \r\nused a genome-wide CRISPR/Cas9 knockout library \r\nto identify essential genes responding to hypoxia in \r\nHCC tumor cells (Fig. 1B). HCC cells were cultured in \r\n20% O2 and 1% O2 for 3 days to mimic normoxia and \r\nhypoxia, respectively. We hypothesized that knockout \r\nA B\r\nC\r\nE\r\nF\r\nH\r\nG\r\nD\nHepatology, Vol. 74, No. 3, 2021 NIU ET AL.\r\n1465\r\nof hypoxia-responding essential genes would sensitize \r\nHCC cells to a hypoxic microenvironment and induce \r\ncell death or cell growth retardation. Under hypoxia, \r\ncells carrying single-guide RNA (sgRNA) targeting \r\nhypoxia-adaptation genes will be negatively selected in \r\nthe knockout mutant cell pool and their correspond\u0002ing sgRNA will be depleted in the library, determined \r\nby deep sequencing and MAGeCK analysis. From our \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "CRISPR/Cas9 knockout library screening, we identi\u0002fied a subset of sgRNAs targeting 3,103 genes including \r\nprotein-coding genes; noncoding RNAs were signifi\u0002cantly depleted (log fold change <−1.5) under hypoxia \r\ncompared to those under normoxia (GSE168544), \r\namong which 215 genes were consistent with the ones \r\nwith previous screening results for essential genes in \r\nK562 cells in hypoxia(23)\r\n (Supporting Fig. S1A, GSE14\r\n4527), and 227 genes harbored putative HIF1α bind\u0002ing elements in the promoters(24)\r\n (Supporting Fig. S1B, \r\nGSE16347), respectively. From transcriptome analysis, \r\nwe identified 613 genes with significant up-regulation \r\nunder hypoxia in the human cell line (GSE168544). \r\nDifferentially expressed genes under hypoxia from \r\ntranscriptome analysis and CRISPR/Cas9 knockout \r\nscreening were then compared with the databases of \r\nour local pairs of HCC tumors (GSE143235) and of \r\ncancer/HCC-related genes from TCGA. Based on the \r\ncomparison, two genes were overlapped and associated \r\nwith the hypoxic response in HCC (Fig. 1C-E). We \r\nfurther validated the up-regulation of these overlapped \r\ngenes under hypoxia compared to normoxia by RT\u0002PCR (Supporting Fig. S1C). Knockdown of these two \r\ngenes by shRNAs was performed to validate their essen\u0002tial role in hypoxia (Supporting Fig. S1D). Among the \r\nlist of genes, fructose-bisphosphate ALDOA, the key \r\nenzyme of glycolysis and gluconeogenesis, was identi\u0002fied as the most negatively selected gene under hypoxic \r\nconditions in HCC. Depletion of ALDOA dramat\u0002ically inhibited growth of SMMC-7721 cells under \r\nhypoxia (Fig. 1F). To assess the sensitivity of various \r\nALDOA levels in HCC cells to hypoxia, we generated \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "inducible ALDOA-knockdown HCC cells and mea\u0002sured their response to hypoxia (Supporting Fig. S1E). \r\nTreatment with DOX at a high dose caused signifi\u0002cant HCC cell death under hypoxia, and the inhibi\u0002tory effects were shown in a dose-dependent manner \r\nin hypoxia compare to those in normoxia (Fig. 1G,H). \r\nThe results suggest that ALDOA may be an essential \r\ndriver for HCC cell growth under hypoxia and indicate \r\na potential therapeutic window by targeting ALDOA \r\nunder hypoxia in HCC cells.\r\nKNOCKDOWN OF ALDOA\r\nINHIBITED HCC CELL\r\nPROLIFERATION AND \r\nMIGRATION UNDER HYPOXIA IN \r\nVITRO AND IN VIVO\r\nTo investigate the functional roles of ALDOA in \r\nHCC under hypoxia, we generated the stable ALDOA\u0002knockdown cell lines SMMC-7721 and HepG2 by \r\ntwo distinct shRNA lentiviruses (shALDOA#1 and \r\n#2). Successful knockdown of ALDOA was veri\u0002fied at both the protein and RNA levels (Supporting \r\nFig. S2A,B). Knockdown of ALDOA significantly \r\ninhibited growth of SMMC-7721 and HepG2 cells \r\nunder hypoxia (Fig. 2A,B) and induced cell cycle arrest \r\n(Fig. 2C). The 5-ethynyl-2′-deoxyuridine (EdU) \r\nstaining assay showed that knockdown of ALDOA \r\nsuppressed cell proliferation under hypoxia (Fig. 2D). \r\nFurthermore, knockdown of ALDOA impaired \r\nHCC colony-formation abilities and mammosphere\u0002formation abilities under hypoxia, as indicated by the \r\nreduced number and size (Fig. 2E,F). We further gen\u0002erated the ALDOA-knockout HCC cell lines using \r\nthe CRISPR/Cas9 system (Supporting Fig. S2C) and \r\nconfirmed that knockout of ALDOA resulted in cell \r\ngrowth retardation and decrease of colony formation \r\nunder hypoxia in HCC cells (Supporting Fig. S2D,E). \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "FIG. 1. Genome-wide CRISPR/Cas9 library screening and RNA sequencing identified ALDOA as an essential driver for HCC cell \r\ngrowth under hypoxia. (A) Strategy to screen targets for HCC under hypoxia in vivo and in vitro by RNA sequencing. (B) Schematic \r\ndiagram of genome-wide CRISPR/Cas9 knockout library for HCC cells under hypoxia. (C) Venn diagrams show overlapped essential \r\ndriver genes for HCC cell growth in response to hypoxia. (D) Volcano plots reveal that ALDOA and milk fat globule EGF and factor \r\nV/VIII domain containing (MFGE8) targeting sgRNAs were negatively selected under hypoxia, indicating their essential role for HCC \r\ncells to survive in response to hypoxia. (E) ALDOA and MFGE8 were identified as the overlapped gene in the library screening as \r\nindicated by the black dot from volcano plots. (F) Cell viability of overlapped expressed genes in SMMC-7721 cells under hypoxia. (G,H) \r\nDox-induced suppression of ALDOA inhibited the proliferation of HepG2 and SMMC-7721 cells under hypoxia but not of cells under \r\nnormoxia (G), and quantification analyses (H) are shown. ***P < 0.001. Abbreviations: KO, knockout; OD, optical density.\nNIU ET AL. Hepatology, September 2021\r\n1466\r\nFIG. 2. ALDOA promoted HCC cell proliferation and migration under hypoxia in vitro and in vivo. (A,B) Knockdown of ALDOA \r\nsignificantly reduced numbers (A) and growth (B) of SMMC-7721 cells and HepG-2 cells under hypoxia. (C) Knockdown of ALDOA \r\ninduced HCC cell cycle arrest under hypoxia. (D) Knockdown of ALDOA significantly reduced HCC cell proliferation under hypoxia by \r\nEdU assay. Quantification of fold change is shown in D-1. (E) Knockdown of ALDOA impaired colony formation in HCC cells under \r\nhypoxia. (F) Knockdown of ALDOA impaired mammosphere formation of HepG2 cells under hypoxia. Quantification of fold change \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "is shown in F-1. (G) Knockdown of ALDOA dramatically suppressed liver tumor growth in orthotopic xenograft mouse models. Stable \r\nALDOA-knockdown Hepa1-6 cells (5 × 106\r\n), and control cells were injected into the liver of each female C57 mouse. Three weeks after \r\ninjection, livers were separated for pathological analysis. Liver weights are shown in G-1. (H) Knockdown of ALDOA abolished lung \r\nmetastasis from HCC. Hepa1-6 cells (5 × 106\r\n) were tail vein–injected into female C57 mice. Formation of metastatic foci in the lung \r\nwas pictured after 2 weeks. Metastases were confirmed by pathological analysis. Lung weights are shown in H-1. *P < 0.05, **P < 0.01, \r\n***P < 0.001, ****P < 0.0001. Abbreviations: H&E, hematoxylin and eosin; OD, optical density.\r\nA D D-1\r\nB\r\nC\r\nG\r\nE F\r\nH\r\nF-1\r\nG-1\r\nH-1\nHepatology, Vol. 74, No. 3, 2021 NIU ET AL.\r\n1467\r\nHowever, overexpression of ALDOA in HCC cells \r\nfailed to promote cell growth under hypoxia, which \r\nmay be due to the high basal level of ALDOA under \r\nhypoxia (Supporting Fig. S2F,G).\r\nTo determine whether the oncogenic role of \r\nALDOA in HCC depends on hypoxia, we performed \r\ncell proliferation assays in normoxic conditions. We \r\nnoticed a slightly reduced capacity for HCC cell growth \r\nin ALDOA-knockdown or ALDOA-knockout HCC \r\ncells under normoxia (Supporting Fig. S2H-J), indi\u0002cating that ALDOA is a hypoxia-dependent onco\u0002gene in HCC. Moreover, because there is a total of \r\nthree aldolase isozymes in humans,(25)\r\n we further \r\nexamined whether the other two aldolase enzymes, \r\nALDOB and ALDOC, play similar roles as ALDOA \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "does in HCC under hypoxia. ALDOB was unde\u0002tectable in HCC cells, and knockdown of ALDOC \r\nfailed to suppress cell growth in HCC under hypoxia \r\n(Supporting Fig. S2K,L).\r\nNext, we investigated whether ALDOA plays a \r\ncritical role in HCC migration under hypoxia. A \r\nwound-healing assay and a transwell cell migra\u0002tion assay showed that depleting ALDOA resulted \r\nin suppression of HCC migration under hypoxia \r\n(Supporting Fig. S3A,B). By examining the epithelial–\r\nmesenchymal transition markers, we found that knock\u0002down of ALDOA significantly induced expression of \r\nE-cadherin at both the RNA and protein levels, while \r\nconversely it reduced expression of vimentin at both \r\nthe RNA and protein levels (Supporting Fig. S3C,D). \r\nTo further verify the oncogenic role of ALDOA in \r\nHCC in vivo, we performed an orthotopic xeno\u0002graft mouse model and a tail vein injection metastasis \r\nmodel to test the effect of ALDOA-knockdown on \r\nHCC tumorigenicity. Stable knockdown of ALDOA \r\nin Hepa1-6 cells effectively suppressed tumor growth \r\nin the orthotopic liver microenvironment in C57 mice \r\nand attenuated lung metastasis as indicated by sig\u0002nificant reductions of tumor size in liver and tissue \r\nweight when compared to the nonspecific shRNA \r\ncontrol (Fig. 2G,H; Supporting Fig. S3E).\r\nTo determine the essentiality of ALDOA in nor\u0002mal cells, we generated two stable ALDOA-knockout \r\ncell lines using the parental normal liver cell line LO2 \r\nin the CRISPR/Cas9 system (Supporting Fig. S4A). \r\nKnockout of ALDOA in LO2 cells had little effect \r\non cell growth and colony formation under hypoxia \r\n(Supporting Fig. S4B,C). In vivo, we applied two \r\nmouse-specific siRNAs to target ALDOA in normal \r\nmice to assess the effects caused by ALDOA deple\u0002tion (Supporting Fig. S4D). Knockdown of ALDOA \r\nin vivo by siRNA showed no obvious effects on the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "visible pathological features of mouse livers and body \r\nweight (Supporting Fig. S4E,F). Targeting ALDOA \r\nby siRNAs in vivo had no impact on liver function \r\naccording to liver function tests (Supporting Fig. S4G). \r\nTaken together, these data indicate that ALDOA \r\nplays a crucial role in promoting tumor growth and \r\nmigration under hypoxia as a unique aldolase enzyme \r\ninduced by hypoxia in HCC but has no effects in nor\u0002mal liver cells.\r\nTRANSCRIPTOME SEQUENCING\r\nAND METABOLOMICS ANALYSIS \r\nIDENTIFIED LACTATE AS A\r\nMAJOR METABOLIC PLAYER IN \r\nHCC MEDIATED BY ALDOA\r\nTo delineate the functional implications of \r\nALDOA in HCC, transcriptome sequencing was \r\nperformed to interrogate the differential gene expres\u0002sion in ALDOA-knockdown HepG2 cells under \r\nhypoxia. We identified 313 genes with significant \r\nup-regulation and 493 genes with significant down\u0002regulation (Fig. 3A, GSE168544). Gene enrichment \r\nanalysis revealed gene sets involved in metabolic \r\npathways, glycolysis/gluconeogenesis, biosynthesis of \r\namino acids, and so on (Fig. 3B). Pathway relation \r\nnetworks of all enriched gene sets were analyzed by \r\nCytoscape (Supporting Fig. S5), highlighting that the \r\nmetabolic pathway functions as the core of the net\u0002work mediated by ALDOA under hypoxia, which \r\nis listed in the heatmap (Fig. 3C). To examine the \r\nultimate metabolite changes, we performed metabo\u0002lomics analysis in the ALDOA-knockdown HepG-2 \r\ncells under hypoxia using gas chromatography-mass \r\nspectrometry and carried out multivariate statistical \r\nanalysis by principal component analysis (PCA), par\u0002tial least squares discriminant analysis (PLS-DA), and \r\northogonal PLS-DA (OPLS-DA) (Fig. 3D). In total, \r\nwe identified 170 metabolites with significant changes \r\nin the ALDOA-knockdown HepG2 cells under \r\nhypoxia. Kyoto Encyclopedia of Genes and Genomes \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "(KEGG) enrichment analysis of these 170 metabo\u0002lites highlighted dysregulation of key metabolomes \r\nin the ALDOA-knockdown HCC cells (Fig. 3E). \r\nBy systematic integration of these metabolomic path\u0002ways, we observed the majority of variable pathways \nNIU ET AL. Hepatology, September 2021\r\n1468\r\nenriched in downstream pathways modulated by gly\u0002colysis (Fig. 3F), as indicated by the metabolites rep\u0002resented in this core pathway (Fig. 3G-J). Among \r\nthese, lactate, the terminal product of glycolysis, was \r\nidentified as the major target in ALDOA-mediating \r\nmetabolism in HCC under hypoxia (Fig. 3F,J).\r\nA\r\nC D\r\nE\r\nG H I J\r\nF\r\nB\nHepatology, Vol. 74, No. 3, 2021 NIU ET AL.\r\n1469\r\nRESCUE OF LACTATE ALLEVIATED \r\nALDOA-DEPENDENT LIVER \r\nTUMOR GROWTH UNDER \r\nHYPOXIA IN HCC CELLS\r\nTo validate that the effects of ALDOA-dependent \r\ntumor inhibition are mainly mediated by lactate, we \r\nfirst measured glycolysis metabolism in ALDOA\u0002deficient HCC cells. Significant reduction of ECAR \r\nlevels was detected in the ALDOA-knockdown HCC \r\ncells under hypoxia, indicating the direct influence \r\non glycolysis by ALDOA (Fig. 4A). Depletion of \r\nALDOA significantly decreased both intracellular and \r\nextracellular lactate levels in HCC cells under hypoxia, \r\nwhich was consistent with our previous metabonomic \r\nanalysis (Fig. 4B,C). Next, we rescued lactate levels in \r\nthe ALDOA-depleted HCC cells by addition of 4 mM \r\nlactate in cell culture medium. Supplementation of lac\u0002tate partly rescued cell growth and cell proliferation \r\nin the ALDOA-knockdown HCC cells (Fig. 4D,E), \r\nas well as restored partial mammosphere formation \r\nand colony formation (Fig. 4F,G) under hypoxia. To \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "determine the effects of ALDOA-dependent lac\u0002tate in vivo, we performed subcutaneous implanta\u0002tion with stable ALDOA-knockdown H22 cells into \r\n4-week-old female Balb/c mice. Intratumoral injection \r\nof lactate (6 mmol/L) every 3 days in stable ALDOA\u0002knockdown tumors promoted HCC tumor growth in \r\nmice as indicated by the increase of tumor size and \r\ntumor weight, comparing to the stable ALDOA\u0002knockdown tumors with intratumoral injection of \r\nPBS (Fig. 4H-J). Collectively, our results suggest that \r\nthe lactate levels mediated by ALDOA affected HCC \r\ntumor growth under hypoxia and that restoration of \r\nthe lactate levels in ALDOA-knockdown HCC cells \r\ncould alleviate the inhibitory effects mediated by \r\ndepletion of ALDOA in vitro and in vivo.\r\nALDOA WAS REGULATED BY HIF\u00021α AND THE M6\r\nA MODIFICATION \r\nUNDER HYPOXIA\r\nWe next questioned the detailed molecular mech\u0002anisms by which ALDOA was up-regulated under \r\nhypoxia. Previously, HIF-1α, the transcriptional acti\u0002vator upon hypoxia stimulation, was found to be \r\nhighly expressed in HCC and to activate a series of \r\ndownstream targets that play important roles in clin\u0002ical outcome in patients with HCC.(26,27)\r\n Correlation \r\nanalysis of the data set of HCC tumors revealed a \r\nsignificant positive correlation between ALDOA and \r\nHIF-1α (Fig. 5A). Knockdown of HIF-1α abrogated \r\nthe induction of ALDOA in HCC cells under hypoxia \r\nby RT-PCR assay (Fig. 5B; Supporting Fig. S6A). To \r\nfurther verify the correlation of ALDOA and HIF-1α\r\nin vivo, we performed subcutaneous implantation of \r\nSMMC-7721 in mice and measured the protein levels \r\nby immunofluorescence microscopy. A positive correla\u0002tion of ALDOA and HIF-1α was found at protein \r\nlevels in vivo, and ALDOA was coexpressed with \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "HIF-1α in tumors, mostly in the nucleus (Fig. 5C). We \r\nfurther confirmed the coexpression of ALDOA and \r\nHIF-1α in tumors of patients with HCC and HCC \r\ncell lines by an immunofluorescent localization assay \r\n(Fig. 5D; Supporting Fig. S6B). Interestingly, some \r\nof the HIF-1α was located in the cytoplasm of vari\u0002ous cells in the TME, indicating the heterogeneity in \r\ntumors of patients with HCC. By systematic analysis \r\nFIG. 3. Transcriptome sequencing and metabonomic analysis identified lactate as a terminal metabolic player in HCC mediated by ALDOA. \r\n(A) Differentially expressed genes were identified in ALDOA knockdown HepG2 cells by RNA sequencing. (B) KEGG enrichment \r\nanalysis of genes altered by ALDOA in HepG-2 cells. (C) Heatmap of altered genes in metabolic pathway in ALDOA-knockdown HepG2 \r\ncells under hypoxia. (D) Metabonomic analysis of ALDOA-knockdown HepG2 cells under hypoxia by PCA, PLS-DA, and OPLS-DA. \r\n(E) KEGG enrichment analysis of metabolites altered by ALDOA in HepG2 cells under hypoxia. (F) Systematic integration of altered \r\nmetabolites in ALDOA-knockdown HepG2 cells under hypoxia. (G-J) Levels of ATP (G), G3P (H), glucose 6-phosphate (I), and lactate \r\n( J) in ALDOA-knockdown HepG2 cells under hypoxia. Data were obtained from metabonomic analysis. ***P < 0.001. Abbreviations: \r\nACOT1/2, acyl-CoA thioesterase 1/2; ADP, adenosine diphosphate; ALDOA/B/C, fructose-bisphosphate aldolase A/B/C; ALG6, \r\nalpha-1,3-glucosyltransferase; ATP, adenosine triphosphate; DUT, deoxyuridine triphosphatase; ECM, extracellular matrix; ENO1/2/3, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "enolase 1/2/3; FC, fold change; FH, fumarate hydratase; G3P, glyceraldehyde 3-phosphate; G6P, glucose 6-phosphate; GAPDH, \r\nglyceraldehyde 3-phosphate dehydrogenase; H6PD, hexose--phosphate dehydrogenase; HEXA, hexosaminidase subunit alpha; LDHA, \r\nlactate dehydrogenase A; OAT, ornithine aminotransferase; PC, principal component; PGAM1/2/4, phosphoglycerate mutase 1/2/4; \r\nPGD, phosphogluconate dehydrogenase; PGK1/2, phosphoglycerate kinase 1/2; PGM1, phosphoglucomutase 1; PGP, phosphoglycolate \r\nphosphatase; PKM, pyruvate kinase M1/2; PPOX, protoporphyrinogen oxidase; PRPS1/2, phosphoribosyl pyrophosphate synthetase \r\n1/2; RBKS, ribokinase; RPIA, ribose 5-phosphate isomerase A; SC5D, sterol-C5-desaturase; SEPHS2, selenophosphate synthetase 2; \r\nSGMS1, sphingomyelin synthase 1; TCA, tricarboxylic acid; TKT, transketolase.\nNIU ET AL. Hepatology, September 2021\r\n1470\r\nof the HIF-1α chromatin immunoprecipitation (ChIP) \r\nsequencing profiles of HepG2 (GSE16347),(28)\r\n we \r\nidentified three putative hypoxia-responsive elements \r\n(HREs) containing the HIF-1α-binding consensus \r\nsequence 5′-A/GCGTG-3′ in the promoter region of \r\nALDOA (Fig. 5E). Subsequently, we generated three \r\ndeleted mutants of the ALDOA promoter and cloned \r\nthem into the pmirGLO vector with a dual luciferase \r\nA\r\nC\r\nE\r\nG H I J\r\nF\r\nF-1\r\nE-1\r\nD\r\nB\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Hepatology, Vol. 74, No. 3, 2021 NIU ET AL.\r\n1471\r\nreporter (Fig. 5E). Upon hypoxia treatment, we found \r\na significant induction of luciferase signal in the wild\u0002type form of the ALDOA promoter compared with \r\nthe normoxia treatment. However, deletion of sites 1 \r\nand 2 resulted in a dramatic decrease of luciferase sig\u0002nal, indicating that sites 1 and 2 were the functional \r\nelements recognized by HIF-1α (Fig. 5F).\r\nNext, we measured the half-life of ALDOA mRNA \r\nunder hypoxia by pretreating the cells with actinomy\u0002cin D. In the presence of actinomycin D, significant \r\ndecay of ALDOA mRNA was observed under hypoxia \r\ncompared with the normoxia treatment, suggesting \r\nthat ALDOA may be modulated in a posttranscrip\u0002tional way under hypoxia as well (Fig. 5G). Previous \r\nreports have shown that the m6\r\nA modification plays \r\nimportant roles in regulating precursor mRNA mat\u0002uration, translation, and degradation.(29-32)\r\n In this \r\nregard, we tested whether the m6\r\nA modification was \r\ninvolved in posttranscriptional regulation of ALDOA \r\nunder hypoxia. The m6\r\nA levels in HCC cell lines were \r\ndecreased under hypoxia compared with those under \r\nnormoxia, along with the decreased level of m6\r\nA in the \r\nHCC tumor tissues with a hypoxic microenvironment \r\n(Fig. 5H). We knocked down the key regulators of the \r\nm\r\n6\r\nA modification METTL3, METTL14, fat-mass \r\nand obesity–associated protein (FTO), and alpha\u0002ketoglutarate-dependent dioxygenase alkB homolog 5 \r\n(ALKBH5) in SMMC-7721 cells and found that silenc\u0002ing FTO significantly reduced the mRNA expression \r\nlevel of ALDOA under hypoxia (Fig. 5I). As the m6\r\nA \r\ndemethylase, FTO, but not ALKBH5, was induced \r\nin HCC cells under hypoxia (Supporting Fig. S6C), \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "indicating the potential role of FTO in hypoxia. \r\nKnockdown of FTO caused elevated levels of m6\r\nA \r\nmodification in HCC cells under hypoxia (Supporting \r\nFig. S6D). We further validated the down-regulation of \r\nALDOA at both the RNA and protein levels in FTO\u0002knockdown HCC cells under hypoxia (Fig. 5J,K), \r\nindicating that ALDOA was posttranscription\u0002ally regulated by FTO-mediated m6\r\nA modification. \r\nInterestingly, silencing of FTO accelerated degrada\u0002tion of the mRNA of ALDOA under hypoxia com\u0002pared with the control group (Fig. 5L).\r\nTo determine ALDOA as a bona fide target of \r\nFTO-mediated m6\r\nA modification, we performed the \r\nm\r\n6\r\nA RNA immunoprecipitation (RIP) sequencing \r\nand identified the m6\r\nA site (GGAC) in the coding \r\nregion of ALDOA mRNA (Fig. 5M, GSE143235). \r\nWe performed the m6\r\nA-RNA immunoprecipitation \r\nassay and analyzed with RT-PCR. As expected, knock\u0002down of FTO dramatically promoted the m6\r\nA level \r\nof ALDOA mRNA (Fig. 5M). One potential m6\r\nA \r\nsite was identified in the coding regions of ALDOA \r\nand conserved among different species (Supporting \r\nFig. S6E,F), and we generated the mutant form of \r\nALDOA by replacing the adenosine base in the m6\r\nA \r\nconsensus sequences with thymine to abolish the m6\r\nA \r\nmodification (Supporting Fig. S6G). The m6\r\nA mutant \r\nALDOA could partly rescue the reduction of mRNA \r\nexpression level of ALDOA in FTO-knockdown \r\nHCC cells upon hypoxia treatment compared with \r\nwild-type ALDOA, indicating the functional role \r\nof the m6\r\nA modification in ALDOA under hypoxia \r\n(Supporting Fig. S6H). To delineate the detailed \r\nmolecular mechanism by which ALDOA was regu\u0002lated by the m6\r\nA modification, we silenced FTO and \r\ntwo m6\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 479,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "A binding proteins, YTH N6-methyladenosine \r\nRNA binding protein 1 (YTDHF1) and YTDHF2, \r\nin SMMC-7721 cells by siRNAs (Supporting \r\nFig. S6I-K). Our results demonstrated that knock\u0002down of YTHDF2, but not YTHDF1, rescued the \r\nexpression level of ALDOA in FTO-silenced HCC \r\ncells (Fig. 5N), suggesting that the posttranscriptional \r\nregulation of ALDOA under hypoxia was regulated \r\nby FTO-mediated m6\r\nA modification in a YTHDF2-\r\ndependent manner. Taken together, our results \r\nFIG. 4. Rescue of lactate alleviated ALDOA-dependent tumor growth under hypoxia in HCC cells. (A) Knockdown of ALDOA \r\neffectively decreased ECAR in HCC cells under hypoxia. (B) Knockdown of ALDOA decreased intracellular lactate levels in HCC cells \r\nunder hypoxia. (C) Knockdown of ALDOA decreased extracellular lactate levels in HCC cells under hypoxia. (D) Supplementation of \r\nlactate in cell culture medium (4 mM) rescued cell proliferation in ALDOA-knockdown HCC cells under hypoxia by Cell Counting \r\nKit-8 assays. (E) Supplementation of lactate in cell culture medium (4 mM) rescued cell proliferation in ALDOA-knockdown HCC \r\ncells under hypoxia by EdU assay. Quantification of fold changes is shown in E-1. (F) Supplementation of lactate in cell culture medium \r\n(4 mM) rescued mammosphere formation phenotype of ALDOA-knockdown HepG2 cells under hypoxia. Quantification of fold changes \r\nis shown in F-1. (G) Supplementation of lactate in cell culture medium (4 mM) rescued colony formation in ALDOA-knockdown HCC \r\ncells under hypoxia. (H) Intratumoral injection of lactate (6 mM) effectively promoted ALDOA-knockdown Hepa1-6 cell growth in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "mice. (I,J) Tumor growth curve (I) and tumor weight ( J) in ALDOA-knockdown H22 cell–derived xenografts treated with lactate \r\ninjection. *P < 0.05, **P < 0.01, ***P < 0.001, ****P < 0.0001. Abbreviations: 2DG, 2-deoxyglucose; LAC, lactate.\nNIU ET AL. Hepatology, September 2021\r\n1472\r\nA\r\nB\r\nF\r\nI\r\nL M N\r\nJ\r\nK\r\nG H\r\nD E\r\nC\nHepatology, Vol. 74, No. 3, 2021 NIU ET AL.\r\n1473\r\ndemonstrated that ALDOA was transcriptionally reg\u0002ulated by HIF-1α and posttranscriptionally regulated \r\nby m6\r\nA modification under hypoxia.\r\nCLINICAL SIGNIFICANCE OF \r\nALDOA INHIBITION IN HCC\r\nTo determine the clinical significance of ALDOA \r\nin human cancers, we systematically analyzed the \r\ntranscriptomic profiles of multiple tumors (GSE5364) \r\nand found that ALDOA was up-regulated not only \r\nin HCC but also in breast cancer, lung cancer, and \r\nesophageal cancer (Fig. 6A). We further demon\u0002strated the up-regulation of ALDOA in TCGA and \r\nthe HCC database (Fig. 6B; Supporting Fig. S7A), \r\nand the up-regulated level of ALDOA was depen\u0002dent on pathologic grades of HCC (Fig. 6C). By \r\nexamining our local clinical cohort, we performed \r\nan immunohistochemistry (IHC) staining assay to \r\ndetect the protein expression level of ALDOA in our \r\nclinical human HCC tissues and the corresponding \r\nnontumor adjunct liver tissues (Fig. 6D; Supporting \r\nFig. S7B). Consistently, ALDOA protein was sig\u0002nificantly overexpressed in HCC tissues compared to \r\ntheir adjunct normal tissues according to the quanti\u0002fication of IHC results (Fig. 6E). Moreover, as lactate \r\nwas identified as the terminal metabolite mediated by \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "ALDOA in HCC, we measured the level of lactate \r\nin our local patients with HCC. As indicated, a sig\u0002nificantly higher level of lactate was found in patients \r\nwith HCC compared to those in healthy people \r\n(Fig. 6F). We next examined the clinical prognostic \r\nimpact of ALDOA in TCGA patients with HCC. \r\nHigher levels of ALDOA were associated with poorer \r\noverall survival in patients with HCC (Fig. 6G).\r\nTo verify whether ALDOA acts as a potential thera\u0002peutic target in HCC, we performed two HCC patient\u0002derived xenograft (PDX) models in nude mice and used \r\nsiRNAs to target ALDOA (Fig. 6H). Notably, deple\u0002tion of ALDOA using two in vivo–optimized RNAis \r\nsignificantly reduced HCC-PDX tumor growth in vivo, \r\nas indicated by decreased tumor size and tumor weight \r\n(Fig. 6I-K). Pathologic analysis of ALDOA expression \r\nand cell proliferation (Ki67) by IHC assay was per\u0002formed to confirm the effects of the RNAi treatment \r\nin HCC-PDX models (Fig. 6L). Collectively, ALDOA \r\nwas highly expressed in HCC and may act as a poten\u0002tial therapeutic target for HCC treatment.\r\nIDENTIFICATION OF \r\nSULFAMONOMETHOXINE AS \r\nA POTENTIAL INHIBITOR \r\nTO TARGET ALODA IN HCC \r\nMEDIATING METABOLIC \r\nREGULATION OF LACTATE\r\nTo identify potential ALDOA inhibitors from \r\nFDA-approved drugs, we applied a structure-based \r\nhierarchical virtual screening strategy that was devel\u0002oped (Supporting Fig. S8A).(33)\r\n We found sulfamono\u0002methoxine to be a potential compound to inhibit \r\nALDOA enzymatic activity at a 50% inhibitory con\u0002centration (IC50) of 349.6 ± 69.2 μM in HepG2 cells \r\nunder hypoxia (Supporting Fig. S8B-D). To improve \r\nthe selectivity and potency of the ALDOA inhibitor, \r\nwe performed a proof-of-concept structure–activity \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "FIG. 5. ALDOA was regulated by HIF-1α and the m6A modification under hypoxia. (A) Correlation analysis of the RNA levels of \r\nHIF-1α and ALDOA in HCC tumor samples. (B) Silencing of HIF-1α decreased ALDOA expression at the mRNA level in HCC cells \r\nunder hypoxia. (C) Correlation and colocalization analysis of ALDOA and HIF-1α in a subcutaneous xenograft HCC mouse model. \r\n(D) Correlation and colocalization analysis of ALDOA and HIF-1α in tumor tissues of patients with HCC by immunofluorescence \r\nhistochemistry. (E) Wild-type and mutants of HIF-1α binding elements of ALDOA promoter were fused into a firefly luciferase reporter. \r\nThree potential HIF-1α binding elements were found in the ALDOA promoter region, and mutant forms of ALDOA promoter were \r\ndeleted as indicated. (F) Relative luciferase activity of the wild-type and three mutant forms of ALDOA promoter in SMMC-7721 cells \r\nunder hypoxia. (G) Half-life of ALDOA mRNA in SMMC-7721 cells under normoxia or under hypoxia treated with actinomycin D. \r\n(H) Global mRNA m6\r\nA levels in SMMC-7721 cells under hypoxia and in subcutaneous xenograft HCC tumors were determined by \r\nRNA m6\r\nA dot-blotting assay. (I) Knockdown of key regulators of m6A modification affected the expression of ALDOA mRNA under \r\nhypoxia. ( J) Knockdown of FTO significantly reduced the expression of ALDOA mRNA under hypoxia in HCC cells. (K) Knockdown \r\nof FTO significantly reduced the expression of ALDOA protein under hypoxia in HCC cells. (L) Half-life of ALDOA mRNA in FTO\u0002knockdown SMMC-7721 cells under hypoxia treated with actinomycin D. (M) Knockdown of FTO promoted m6\r\nA methylation in \r\nALDOA mRNA by the m6\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "A methylated RIP analysis in SMMC-7721 cells. (N) Knockdown of YTHDF2, but not YTHDF1, rescued \r\nexpression of ALDOA in FTO-depleted SMMC-7721 cells. *P < 0.05, **P < 0.01, ***P < 0.001, ****P < 0.0001. Abbreviations: ACTD, \r\nactinomycin D; CDS, coding sequence; FC, fold change; WT, wild type.\nNIU ET AL. Hepatology, September 2021\r\n1474\r\nA\r\nD\r\nH\r\nL\r\nI\r\nJ\r\nK\r\nE F G\r\nB C\nHepatology, Vol. 74, No. 3, 2021 NIU ET AL.\r\n1475\r\nrelationship test, the results of which accorded with \r\nthe crystallographically determined binding mode of \r\nsulfamonomethoxine and its derivatives (Supporting \r\nFig. S8E). Specifically, addition of a methoxy group \r\non the pyrimidine ring along with an additional ben\u0002zenesulfonylation on the aniline motif (compound 5 \r\n[cpd-5]) was designed to improve sulfamonomethox\u0002ine’s interaction with ALDOA, as indicated by the \r\npredicted docking pose (Fig. 7A,B). Cpd-5 increased \r\nthe potency of the ALDOA IC50 to 106.7 ± 18.1 μM \r\nin HepG2 cells under hypoxia (Fig. 7C) but showed \r\nno potency in HepG2 cells with null ALDOA under \r\nhypoxia (Fig. 7D). To test the therapeutic effects of \r\ncpd-5 in vivo, we treated the mice bearing HCC\u0002PDX tumors with intratumoral injection of cpd-5 \r\n(10 mg/kg) 3 times per week. Notably, treatment with \r\ncpd-5 significantly inhibited tumor growth in the \r\nHCC-PDX model, as indicated by decreased tumor \r\nsize, tumor weight, and lactate level (Fig. 7E-H). \r\nHowever, treatment with cpd-5 could also cause a \r\nreduction of the lactate level in non-tumor-bearing \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "mice, suggesting its potential metabolic action in vivo\r\n(Fig. 7I). Collectively, our study identified a potential \r\ninhibitor (cpd-5) to target ALDOA for therapeutic \r\ntreatment of HCC, providing an alternative treatment \r\nstrategy for patients with advanced HCC.\r\nDiscussion\r\nThe TME is a rapidly evolving environment whose \r\narrangement varies in the light of different anatom\u0002ical regions of = tumor formation and the genetics \r\nand morphology of tumor cells.(34)\r\n The proportion \r\nand composition of the TME shape tumor evolution \r\nand play an integral part in cancer biology, including \r\ntumorigenesis, tumor progression, and response to \r\ntherapy.(35)\r\n As the rapid growth of tumor cells causes \r\na constraint in oxygen and nutrients that cannot be \r\nsupplied by adjacent blood vessels, the hypoxic TME \r\nis subject to HIF-driven responses in tumor cells to \r\nactivate expression of specific genes involved in angio\u0002genesis, metabolism, cell proliferation and migration, \r\nand immunosuppression.(36)\r\n Emerging evidence has \r\nfocused on targeting the TME as a rising strategy to \r\nimpede tumor progression. In this scenario, we used \r\nan in vitro pooled loss-of-function genetic system \r\nto screen out the potential genes that were essential \r\nfor HCC tumor cells under hypoxia, providing an \r\napproach for hypoxic TME target discovery. Deletion \r\nof ALDOA significantly retarded tumor growth and \r\nmigration and sensitized the tumor cells to hypoxic \r\ntreatment. ALDOA encodes a protein, fructose\u0002bisphosphate ALDOA, that regulates the key chem\u0002ical reaction in glycolysis and gluconeogenesis.(25)\r\nPrevious studies have found that ALDOA was highly \r\nexpressed in lung cancer, pancreatic cancer, and gas\u0002tric cancer.(37-39)\r\n Hu et al. showed that the activity of \r\nALDOA was increased under stimulation of phos\u0002phoinositide 3-kinase–dependent activation of Rac by \r\nreleasing filamentous actin-bound ALDOA, linking \r\nactin remodeling to glycolysis.(40)\r\n Overexpression of \r\nALDOA promoted formation of a cancer-associated \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "proton pump inhibitor with γ-actin and acceler\u0002ated lung cancer metastasis,(37)\r\n suggesting its role as \r\nan oncogene in tumor progression. Grandjean et al. \r\nreported the critical role of ALDOA in connecting \r\na feed-forward mechanism of glycolysis–HIF-1α sig\u0002naling in hypoxic cancer cells and highlighted it as a \r\npotential therapeutic target to treat intractable hypoxic \r\ncancer cells.(41)\r\n Consistently, our study identified \r\nALDOA as a promising and essential target in HCC \r\ntumors under hypoxia, which was also recognized as \r\nan essential fitness defect of low oxygen in the leuke\u0002mic cell line K562,(23)\r\n indicating that ALDOA may \r\nnot be a hepatocyte-specific essential gene but high\u0002lighting the importance of mitochondrial metabolism \r\nin response to low oxygen. Although we observed \r\nno obvious damage in the liver with knockdown of \r\nALDOA in normal mice, we could not exclude the \r\nFIG. 6. Clinical significance of ALDOA inhibition in HCC. (A) ALDOA expression in multiple tumors. (B) Up-regulation of ALDOA \r\nin HCC tissues compared with normal liver tissues. (C) The expression level of ALDOA was correlated with pathological stages of \r\nHCC. (D) ALDOA expression level in clinical patients and their pericarcinomatous normal tissues by IHC assay. (E) Quantification of \r\nALDOA expression in HCC tissues and normal liver tissues from IHC results. (F) Levels of blood lactate acid in patients with clinical \r\nHCC compared to healthy people. (G) Prognostic significance of ALDOA up-regulation in HCC. (H) Schematic diagram of targeting \r\nALDOA by siRNAs in vivo. (I) Inhibition of ALDOA by RNAi in two HCC-PDXs. ( J,K) Tumor growth curve (I) and tumor weight \r\n( J) of HCC-PDXs treated with two in vivo–optimized siRNAs. (L) Hematoxylin and eosin staining and IHC images of ALDOA and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Ki67 in randomly selected HCC-PDX#1 and HCC-PDX#2 tumors. *P < 0.05, **P < 0.01, ***P < 0.001, ****P < 0.0001. Abbreviation: \r\nH&E, hematoxylin and eosin.\nNIU ET AL. Hepatology, September 2021\r\n1476\r\npossibility of potential toxicity toward other organs \r\nthrough indirect effects or other functions. As for \r\nliver cancer, knockdown of ALDOA inhibited cell \r\ngrowth under hypoxia and led to tumor growth retar\u0002dation and suppression of migration in vivo and in \r\nvitro. ALODA was overexpressed in HCC tumors, \r\nand its level was highly associated with poor clinical \r\noutcome, indicating its potential role as a therapeutic \r\ntarget against HCC.\r\nA\r\nC\r\nJ\r\nF G H I\r\nD E\r\nB\nHepatology, Vol. 74, No. 3, 2021 NIU ET AL.\r\n1477\r\nPrevious studies have shown the influence of cellu\u0002lar metabolites on epigenetics and diseases including \r\ncancer.(42,43)\r\n The metabolism of acyl-CoA modulates \r\nthe regulation of gene expression in various physiolog\u0002ical processes by eight forms of histone acylation.(44)\r\nBy metabolomics analysis, we identified lactate as a \r\nterminal metabolic player driving tumor growth under \r\nhypoxia. Knockdown of ALDOA in HCC signifi\u0002cantly affected glycolysis metabolism, leading to a \r\ndramatic reduction of lactate under hypoxia. Lactate \r\nwas previously found to impact cancer-related mor\u0002tality, to function as a fuel for tumor metabolism, and \r\nto promote tumor progression and metastasis.(45,46)\r\nA recent study reported that lactate connects to \r\nmacrophage polarization in response to hypoxia and \r\nbacterial stimulation in the form of epigenetic modi\u0002fication. Lactate serves as a resource of lactylation of \r\nhistone lysine residues and turns on gene expression \r\nto promote homeostasis of macrophage activity.(47)\r\nImportantly, high levels of lactate in the TME derived \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "from tumor cells are known to stimulate the recruit\u0002ment of myeloid-derived suppressor cells, dampening \r\nimmunosurveillance and thus promoting immunosup\u0002pression.(48)\r\n In our study, we demonstrated that rescue \r\nof lactate in ALDOA-knockdown HCC cells partly \r\nrestored tumor growth and migration in vitro and in \r\nvivo, suggesting the direct role of lactate, derived from \r\nALDOA-mediated glycolysis, in promoting HCC \r\ntumor growth and progression in a hypoxic TME.\r\nWe next delineated the molecular mechanisms \r\nby which ALDOA was up-regulated under hypoxia \r\nin HCC cells. The main executors of the cellular \r\nresponse to hypoxia are HIF-1 and HIF-2, consisting \r\nof an O2-regulated HIF-1α or HIF-2α subunit and \r\na constitutively expressed HIF-1β subunit.(49)\r\n Upon \r\nhypoxia, HIF-1α is stabilized by reducing its hydrox\u0002ylation and translocated into the nucleus, where it \r\nforms the HIF-1α/β dimer and binds with p300/\r\ncAMP response element–binding protein coactivator \r\nin the HRE to initiate a subset of downstream target \r\ngene activation in response to hypoxia.(50)\r\n In analysis \r\nof an HIF-1α ChIP-chip database,(24)\r\n we identified \r\nALDOA as a potential direct target of HIF-1α, sug\u0002gesting its role in facilitating metabolic adaptation to \r\nhypoxia. As expected, we identified three HRE sites \r\nthat are located in the promoter region of the ALDOA \r\ngene and validated the first two sites with functional \r\neffects on activation of ALDOA under hypoxia tran\u0002scriptionally. Meanwhile, we found that ALDOA was \r\nregulated by the m6\r\nA modification in a posttran\u0002scriptional way. The m6\r\nA modification is the most \r\npervasive internal modification of mRNA in human \r\ncells and mediated mRNA splicing, stability, degra\u0002dation, and translation.(29,31,32)\r\n Previously, ALKBH5, \r\nan alternative demethylase of m6\r\nA, was found to be \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "induced upon hypoxia in breast cancer stem cells \r\nand mediated the m6\r\nA demethylation of NANOG \r\nmRNA, phonocopying the effect of hypoxia.(51)\r\n In \r\nour study, we found that FTO instead of ALKBH5 \r\nwas induced in HCC cells under hypoxia despite \r\nthe presence of the functional redundancy between \r\nALKBH5 and FTO in mediating m6\r\nA demethyla\u0002tion. Further, we showed that silencing FTO, a key \r\ndemethylase of m6\r\nA, reduced ALDOA expression at \r\nboth the mRNA and protein levels. The half-life of \r\nALDOA mRNA in FTO-knockdown cells was sig\u0002nificantly shorter than in control cells, indicating the \r\nnegative regulation of stability of ALDOA mRNA by \r\nFTO-mediated m6\r\nA modification. Previous reports \r\nhave shown that YTHDF2 affects the localization \r\nand stability of targeted mRNAs.(52,53)\r\n We identified \r\nYTHDF2 as a direct m6\r\nA reader for m6A-methylated \r\nALDOA mRNA, as indicated by the fact that silenc\u0002ing of YTHDF2 rescued ALDOA expression in \r\nFTO-knockdown HCC cells. Our results suggested \r\nthat the posttranscriptional regulation of ALDOA \r\nunder hypoxia was regulated by FTO-mediated m6\r\nA \r\nmodification in a YTHDF2-dependent manner.\r\nFIG. 7. Identification of sulfamonomethoxine derivative cpd-5 as a lead compound to inhibit ALDOA in HCC mediating metabolic \r\nregulation of lactate. (A) Structure of sulfamonomethoxine derivative cpd-5. (B) Hydrogen interaction of ALDOA enzyme (Protein Data \r\nBank code 5KY6) active site with cpd-5 (left). Lipophilic potential surface (using a channel method) of ALDOA enzyme active site with \r\ncpd-5 (right). Cpd-5 and residues of ALDOA are represented by sticks and colored by atom type. (C) Viability of HepG2 cells treated \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "with cpd-5 under hypoxia. (D) Viability of ALDOA-null HepG2 cells treated with cpd-5 under hypoxia. (E) Inhibition of ALDOA by \r\ncpd-5 suppressed tumor growth in the HCC-PDX model. (F,G) Tumor growth curve (H) and tumor weight (I) of HCC-PDX treated \r\nwith cpd-5. (H) Levels of blood lactate in HCC-PDX mice treated with cpd-5. (I) Levels of blood lactate in non-tumor-bearing mice \r\ntreated with cpd-5. ( J) Working model. Under hypoxic conditions, ALDOA is up-regulated by HIF-1α and the m6\r\nA modification, \r\nleading to an increased level of glycolysis-derived lactate, which promotes HCC tumor progression and migration. Cpd-5 was developed \r\nas a potential ALDOA inhibitor for HCC therapy. *P < 0.05, **P < 0.01, ***P < 0.001. Abbreviation: WT, wild type.\nNIU ET AL. Hepatology, September 2021\r\n1478\r\nUsing a structure-based hierarchical virtual screen\u0002ing approach, we identified sulfamonomethoxine as a \r\npotential inhibitor of ALDOA from FDA-approved \r\ndrugs. Sulfamonomethoxine is a common antibiotic \r\nwidely used in human and veterinary medicine which \r\ninhibits dihydropteroate synthetase to block the syn\u0002thesis of folic acid in bacteria.(54)\r\n From the structural \r\nbinding analysis, the metaposition methyl groups on \r\nthe pyrimidine ring and aniline motif form hydro\u0002gen bonds to Asp33 and Glu189 at the active site of \r\nALDOA, while a gap in the interaction remains on \r\nthe surface. In this regard, we have designed a series \r\nof sulfamonomethoxine derivatives to improve the \r\ninteraction. Cpd-5 with introduction of a methoxy \r\ngroup on the pyrimidine ring along with an addi\u0002tional benzenesulfonylation on the aniline motif rep\u0002resented with higher binding score of interaction with \r\nALDOA, where the metaposition methoxy group on \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "the pyrimidine forms a hydrogen bound to Ser38 and \r\nthe interaction gap was filled with benzenesulfonyla\u0002tion. We further validated the enhancement of cpd-5 \r\nwith lower IC50 and tested its therapeutic application \r\nin our HCC-PDX mouse model and its impact on \r\nnon-tumor-bearing mouse models. Reduction of lac\u0002tate was further confirmed with the effects of cpd5 \r\nin vivo through targeting ALDOA-mediated glycoly\u0002sis, indicating that the pharmacological mechanism of \r\naction may have important implications in the devel\u0002opment of a treatment strategy for HCC.\r\nIn summary, our study employed an unbiased \r\ngenome-wide CRISPR/Cas9 knockout screening \r\npool to systematically identify ALODA as the essen\u0002tial driver gene for HCC cell growth under hypoxia. \r\nKnockdown of ALDOA led to depletion of lactate, \r\na terminal metabolic player in HCC mediated by \r\nALDOA, and thus suppressed HCC tumor growth \r\nand migration under hypoxia. Upon hypoxic condi\u0002tions, ALDOA was up-regulated by HIF-1α-mediated \r\ntranscriptional activation and by FTO-mediated m6\r\nA \r\nmodification at the posttranscriptional level (Fig. 7J). \r\nInhibition of ALDOA by the sulfamonomethoxine \r\nderivative cpd-5 suppressed HCC tumor growth in \r\nvivo, highlighting a potential therapeutic strategy for \r\nHCC treatment.\r\nAuthor Contributions: G.W. contributed to the study \r\nconcept. G.W. and Y.N. contributed to the experimen\u0002tal designs. Y.N., Z.L., A.W., L.S., S.Y., H.L. and S.Z. \r\ncontributed to the data generation. G.W., D.C., X.B., \r\nP.L., C.C., W.H. and X.L. contributed to the data \r\nanalysis. G.W. and Y.N. drafted the manuscript. All \r\nauthors provided critical review of the manuscript.\r\nREFERENCES\r\n1) Villanueva A. Hepatocellular carcinoma. N Engl J Med 2019;380: \r\n1450-1462.\r\n2) Siegel RL, Miller KD, Jemal A. Cancer statistics, 2019. CA \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Cancer J Clin 2019;69:7-34.\r\n3) Yang JD, Roberts LR. Hepatocellular carcinoma: a global view. \r\nNat Rev Gastroenterol Hepatol 2010;7:448-458.\r\n4) Bruix J, Gores GJ, Mazzaferro V. Hepatocellular carcinoma: clini\u0002cal frontiers and perspectives. Gut 2014;63:844-855.\r\n5) Kudo M, Finn RS, Qin S, Han K-H, Ikeda K, Piscaglia F, et al. \r\nLenvatinib versus sorafenib in first-line treatment of patients with \r\nunresectable hepatocellular carcinoma: a randomised phase 3 non\u0002inferiority trial. Lancet 2018;391:1163-1173.\r\n6) Vaupel P, Hockel M, Mayer A. Detection and characterization \r\nof tumor hypoxia using pO2 histography. Antioxid Redox Signal \r\n2007;9:1221-1235.\r\n7) Semenza GL. Targeting HIF-1 for cancer therapy. Nat Rev \r\nCancer 2003;3:721-732.\r\n8) Maxwell PH, Dachs GU, Gleadle JM, Nicholls LG, Harris AL, \r\nStratford IJ, et al. Hypoxia-inducible factor-1 modulates gene \r\nexpression in solid tumors and influences both angiogenesis and \r\ntumor growth. Proc Natl Acad Sci USA 1997;94:8104-8109.\r\n9) Haase VH. Regulation of erythropoiesis by hypoxia-inducible \r\nfactors. Blood Rev 2013;27:41-53.\r\n10) Carmeliet P, Dor Y, Herbert JM, Fukumura D, Brusselmans K, \r\nDewerchin M, et al. Role of HIF-1alpha in hypoxia-mediated \r\napoptosis, cell proliferation and tumour angiogenesis. Nature \r\n1998;394:485-490.\r\n11) Rankin EB, Giaccia AJ. Hypoxic control of metastasis. Science \r\n2016;352:175-180.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "12) Manoochehri Khoshinani H, Afshar S, Najafi R. Hypoxia: a double\u0002edged sword in cancer therapy. Cancer Invest 2016;34:536-545.\r\n13) Daskalaki I, Gkikas I, Tavernarakis N. Hypoxia and selective \r\nautophagy in cancer development and therapy. Front Cell Dev \r\nBiol 2018;6:104.\r\n14) Cui CP, Wong CC, Kai AK, Ho DW, Lau EY, Tsui YM, et al. \r\nSENP1 promotes hypoxia-induced cancer stemness by HIF\u00021alpha deSUMOylation and SENP1/HIF-1alpha positive feed\u0002back loop. Gut 2017;66:2149-2159.\r\n15) Lin Z, Niu Y, Wan A, Chen D, Liang H, Chen X, et al. RNA \r\nm6A methylation regulates sorafenib resistance in liver cancer \r\nthrough FOXO3-mediated autophagy. EMBO J 2020:e103181.\r\n16) Leone RD, Zhao L, Englert JM, Sun I-M, Oh M-H, Sun I-H, \r\net al. Glutamine blockade induces divergent metabolic programs \r\nto overcome tumor immune evasion. Science 2019;366:1013-1021.\r\n17) Root DE, Hacohen N, Hahn WC, Lander ES, Sabatini DM. \r\nGenome-scale loss-of-function screening with a lentiviral RNAi \r\nlibrary. Nat Methods 2006;3:715-719.\r\n18) Shalem O, Sanjana NE, Hartenian E, Shi XI, Scott DA, \r\nMikkelsen TS, et al. Genome-scale CRISPR-Cas9 knockout \r\nscreening in human cells. Science 2014;343:84-87.\r\n19) Muller FL, Colla S, Aquilanti E, Manzo VE, Genovese G, Lee \r\nJ, et al. Passenger deletions generate therapeutic vulnerabilities in \r\ncancer. Nature 2012;488:337-342.\r\n20) Behan FM, Iorio F, Picco G, Gonçalves E, Beaver CM, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Migliardi G, et al. Prioritization of cancer therapeutic targets \r\nusing CRISPR-Cas9 screens. Nature 2019;568:511-516.\nHepatology, Vol. 74, No. 3, 2021 NIU ET AL.\r\n1479\r\n21) Marin-Hernandez A, Lopez-Ramirez SY, Del Mazo-Monsalvo \r\nI, Gallardo-Perez JC, Rodriguez-Enriquez S, Moreno-Sanchez R, \r\net al. Modeling cancer glycolysis under hypoglycemia, and the \r\nrole played by the differential expression of glycolytic isoforms. \r\nFEBS J 2014;281:3325-3345.\r\n22) Jing X, Yang F, Shao C, Wei K, Xie M, Shen H, et al. Role of \r\nhypoxia in cancer therapy by regulating the tumor microenviron\u0002ment. Mol Cancer 2019;18:157.\r\n23) Jain IH, Calvo SE, Markhard AL, Skinner OS, To TL, Ast T, \r\net al. Genetic screen for cell fitness in high or low oxygen \r\nhighlights mitochondrial and lipid metabolism. Cell 2020;181: \r\n716-727.e11.\r\n24) Xia X, Lemieux ME, Li W, Carroll JS, Brown M, Liu XS, et al. \r\nIntegrative analysis of HIF binding and transactivation reveals its \r\nrole in maintaining histone methylation homeostasis. Proc Natl \r\nAcad Sci U S A 2009;106:4260-4265.\r\n25) Chang YC, Yang YC, Tien CP, Yang CJ, Hsiao M. Roles of \r\naldolase family genes in human cancers and diseases. Trends \r\nEndocrinol Metab 2018;29:549-559.\r\n26) Chiu D-C, Xu I-J, Lai R-H, Tse A-W, Wei LL, Koh H-Y, et al. \r\nHypoxia induces myeloid-derived suppressor cell recruitment to \r\nhepatocellular carcinoma through chemokine (C-C motif ) ligand \r\n26. Hepatology 2016;64:797-813.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "27) Chiu D-C, Tse A-W, Xu I-J, Di Cui J, Lai R-H, Li LL, et al. \r\nHypoxia inducible factor HIF-1 promotes myeloid-derived sup\u0002pressor cells accumulation through ENTPD2/CD39L1 in hepa\u0002tocellular carcinoma. Nat Commun 2017;8:517.\r\n28) Xia X, Kung AL. Preferential binding of HIF-1 to transcription\u0002ally active loci determines cell-type specific response to hypoxia. \r\nGenome Biol 2009;10:R113.\r\n29) Dominissini D, Moshitch-Moshkovitz S, Schwartz S, Salmon\u0002Divon M, Ungar L, Osenberg S, et al. Topology of the human \r\nand mouse m6A RNA methylomes revealed by m6A-seq. Nature \r\n2012;485:201-206.\r\n30) Wang X, Zhao B, Roundtree I, Lu Z, Han D, Ma H, et al. \r\nN6\r\n-methyladenosine modulates messenger RNA translation effi\u0002ciency. Cell 2015;161:1388-1399.\r\n31) Yue Y, Liu J, He C. RNA N6-methyladenosine methylation \r\nin post-transcriptional gene expression regulation. Genes Dev \r\n2015;29:1343-1355.\r\n32) Niu Y, Wan A, Lin Z, Lu X, Wan G. N6-Methyladenosine \r\nmodification: a novel pharmacological target for anti-cancer drug \r\ndevelopment. Acta Pharm Sin B 2018;8:833-843.\r\n33) Lamb J. The Connectivity Map: a new tool for biomedical \r\nresearch. Nat Rev Cancer 2007;7:54-60.\r\n34) Correia AL, Bissell MJ. The tumor microenvironment is a \r\ndominant force in multidrug resistance. Drug Resist Updat \r\n2012;15:39-49.\r\n35) De Palma M, Biziato D, Petrova TV. Microenvironmental regula\u0002tion of tumour angiogenesis. Nat Rev Cancer 2017;17:457-474.\r\n36) Sormendi S, Wielockx B. Hypoxia pathway proteins as central \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "mediators of metabolism in the tumor cells and their microenvi\u0002ronment. Front Immunol 2018;9:40.\r\n37) Chang Y-C, Chiou J, Yang Y-F, Su C-Y, Lin Y-F, Yang C-N, \r\net al. Therapeutic targeting of aldolase A interactions inhibits \r\nlung cancer metastasis and prolongs survival. Cancer Res 2019;79: \r\n4754-4766.\r\n38) Ji S, Zhang BO, Liu J, Qin YI, Liang C, Shi SI, et al. ALDOA \r\nfunctions as an oncogene in the highly metastatic pancreatic can\u0002cer. Cancer Lett 2016;374:127-135.\r\n39) Zhang C, Zhao LM, Wu H, Tian G, Dai SL, Zhao RY, et al. \r\nC/D-Box Snord105b promotes tumorigenesis in gastric can\u0002cer via ALDOA/c-myc pathway. Cell Physiol Biochem \r\n2018;45:2471-2482.\r\n40) Hu H, Juvekar A, Lyssiotis C, Lien E, Albeck J, Oh D, et al. \r\nPhosphoinositide 3-kinase regulates glycolysis through mobi\u0002lization of aldolase from the actin cytoskeleton. Cell 2016;164: \r\n433-446.\r\n41) Grandjean G, de Jong PR, James B, Koh MY, Lemos R, \r\nKingston J, et al. Definition of a novel feed-forward mechanism \r\nfor glycolysis–HIF1alpha signaling in hypoxic tumors highlights \r\naldolase A as a therapeutic target. Cancer Res 2016;76:4259-4269.\r\n42) Kaelin WG Jr, McKnight SL. Influence of metabolism on epi\u0002genetics and disease. Cell 2013;153:56-69.\r\n43) Sun L, Wan A, Zhou Z, Chen D, Liang H, Liu C, et al. RNA\u0002binding protein RALY reprogrammes mitochondrial metabolism \r\nvia mediating miRNA processing in colorectal cancer. Gut 2020 \r\nNov 20. https://doi.org/10.1136/gutjnl-2020-320652. [Epub \r\nahead of print]\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "44) Sabari BR, Zhang D, Allis CD, Zhao Y. Metabolic regulation of \r\ngene expression through histone acylations. Nat Rev Mol Cell \r\nBiol 2017;18:90-101.\r\n45) Faubert B, Li KY, Cai L, Hensley CT, Kim J, Zacharias LG, et al. \r\nLactate metabolism in human lung tumors. Cell 2017;171:358-\r\n371.e59.\r\n46) Tasdogan A, Faubert B, Ramesh V, Ubellacker JM, Shen BO, \r\nSolmonson A, et al. Metabolic heterogeneity confers differences in \r\nmelanoma metastatic potential. Nature 2020;577:115-120.\r\n47) Zhang DI, Tang Z, Huang HE, Zhou G, Cui C, Weng Y, et al. \r\nMetabolic regulation of gene expression by histone lactylation. \r\nNature 2019;574:575-580.\r\n48) Husain Z, Huang Y, Seth P, Sukhatme VP. Tumor-derived lactate \r\nmodifies antitumor immune response: effect on myeloid-derived \r\nsuppressor cells and NK cells. J Immunol 2013;191:1486-1495.\r\n49) Semenza GL. Hypoxia-inducible factors in physiology and medi\u0002cine. Cell 2012;148:399-408.\r\n50) Majmundar AJ, Wong WJ, Simon MC. Hypoxia-inducible factors \r\nand the response to hypoxic stress. Mol Cell 2010;40:294-309.\r\n51) Zhang C, Samanta D, Lu H, Bullen JW, Zhang H, Chen I, \r\net al. Hypoxia induces the breast cancer stem cell phenotype by \r\nHIF-dependent and ALKBH5-mediated m6\r\nA-demethylation of \r\nNANOG mRNA. Proc Natl Acad Sci U S A 2016;113:E2047\r\n-E2056.\r\n52) Du H, Zhao YA, He J, Zhang Y, Xi H, Liu M, et al. YTHDF2 de\u0002stabilizes m6\r\nA-containing RNA through direct recruitment of the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 18,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2850713571309633477,
+        "filename": "HEP-74-1461.PMC8518375.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 19,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 173,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "CCR4-NOT deadenylase complex. Nat Commun 2016;7:12626.\r\n53) Wang X, Lu Z, Gomez A, Hon GC, Yue Y, Han D, et al. \r\nN6-methyladenosine-dependent regulation of messenger RNA \r\nstability. Nature 2014;505:117-120.\r\n54) Kuwano A. Inhibitory effect of sulfamonomethoxine on capsule \r\nformation of Bordetella bronchiseptica. Zentralbl Veterinarmed B \r\n1991;38:685-688.\r\nAuthor names in bold designate shared co-first authorship.\r\nSupporting Information\r\nAdditional Supporting Information may be found at \r\nonlinelibrary.wiley.com/doi/10.1002/hep.31846/suppinfo.\n\n"
+  }
+]

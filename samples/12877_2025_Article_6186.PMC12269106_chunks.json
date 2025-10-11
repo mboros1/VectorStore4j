@@ -1,0 +1,626 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "RESEARCH Open Access\r\n© The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 \r\nInternational License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you \r\ngive appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the \r\nlicensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or \r\nother third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the \r\nmaterial. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or \r\nexceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creati\r\nvecommons.org/licenses/by-nc-nd/4.0/.\r\nNan et al. BMC Geriatrics (2025) 25:532 \r\nhttps://doi.org/10.1186/s12877-025-06186-z\r\nBMC Geriatrics\r\n*Correspondence:\r\nYuyu Jiang\r\ndoctoryuyu@jiangnan.edu.cn\r\nFull list of author information is available at the end of the article\r\nAbstract\r\nBackground This study aims to develop a fall risk perception toolkit based on “digital human” (FRP-digital human), \r\ntest its usability among community-dwelling older patients with stroke, and verify its implementation effect.\r\nMethods The toolkit underwent three phases: development, usability test, and effectiveness verification. A mixed \r\nmethod usability test was conducted with 20 participants who met the criteria. The toolkit was validated in a 12-week \r\ntwo-arm pilot study involving 80 community-dwelling older patients with stroke. Two groups of participants were \r\nrandomly assigned to either the intervention or the control group to receive the same content of health education. \r\nIntervention group received health education based on “digital human”, while control group received traditional \r\nonline PDF text health education. The usability test contained Post-Study System Usability Questionnaire (PSSUQ), \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "Customer Effort Score (CES), Net Promoter Score (NPS), and user interviews. Rate of Participant (RP), Rate of Adherence \r\n(RA), fall risk perception, object fall risk and quality of life were selected as outcome indicators. The corresponding \r\nmeasurement tools were calculation of RP and RA, Fall Risk Perception Scale for community-dwelling older adults \r\n(FRPS), Timed Up and Go test (TUG), and the Short Version of the Stroke Specific Quality of Life scale (SV-SS-QoL).\r\nResults Four functional modules of FRP-digital human were determined. 20 participants completed the usability \r\ntest. The CES was 3.1, NPS was 4.5 and the overall satisfaction of PSSUQ was 72.14%. Six themes were obtained from \r\nuser interviews. A total of 80 participants completed the pilot study. The RP was 100% in both intervention group and \r\ncontrol group, and significant differences was observed in RA between two groups (P<0.05). There were statistically \r\nsignificant differences in FRPS and the SV-SS-QoL between two groups (P<0.001). No statistically significant was \r\nobserved in TUG between two groups (P=0.996).\r\nConclusion FRP-digital human can be accepted by community-dwelling older patients with stroke and help \r\nimprove their fall risk perception and quality of life. Moreover, the design of the WeChat mini program increased its \r\ngeneralizability to promote more successful health care delivery.\r\nFall risk perception toolkit based on “digital \r\nhuman” for community-dwelling older \r\npatients with stroke: development \r\nand validation\r\nJiang Nan1 , Yi Hou1 , Manyao Sun1 , Xueying Huang1 , Jing Gao1 , Xueqiong Zou1 , Zhongyi Chen2 and \r\nYuyu Jiang1*\nNan et al. BMC Geriatrics (2025) 25:532 Page 2 of 11\r\nIntroduction\r\nOlder patients with stroke often require home-based \r\nrehabilitation following hospital discharge. However, this \r\npopulation faces a significantly higher risk of falls com\u0002pared to other groups, primarily due to decreased mus\u0002cle strength and impaired balance function [1–4]. This \r\nincreased fall risk not only compromises their quality of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "life [5, 6] but also imposes a substantial burden on health\u0002care expenditures [7]. Global guidelines underscore \r\nthe necessity of addressing fall risk perception (FRP) as \r\na strategy to prevent falls [8]. FRP is defined as an indi\u0002vidual’s cognitive process of first assessing their likeli\u0002hood of falling and then determining the seriousness of \r\nthat risk [9]. Enhancing FRP has been shown to improve \r\nolder adults’ awareness of fall risks, promote behavioral \r\nchanges [10], and reduce fall incidence [11].\r\nCurrent FRP interventions are primarily delivered \r\nthrough models [12], graphics [13], and videos [14]. \r\nHowever, their reach and effectiveness remain limited \r\n[15]. With advancements in technology, digital inter\u0002ventions offer a promising solution to these challenges. \r\nMoney et al. [16] have demonstrated that 3D serious \r\ngames can serve as effective tools for health education \r\namong older adults. Nevertheless, tailoring fall preven\u0002tion information to individual needs remains a challenge \r\ndue to variability among recipients [17].\r\nA “digital human”—a computer-generated virtual agent \r\ndesigned to emulate human behavior and personality \r\ntraits—represents an innovative approach to enhance \r\npersonalization in health interventions [18]. Despite this \r\npotential, previous studies have frequently neglected the \r\nintegration of health beliefs into intervention design. \r\nHealth beliefs play a pivotal role in fostering healthy \r\nbehaviors and in empowering individuals to manage \r\ntheir health and well-being [19–21]. The incorpora\u0002tion of health beliefs into telemedicine frameworks has \r\nbeen shown to improve healthcare service delivery [22]. \r\nIn China, WeChat is the most widely used social media \r\nplatform among older adults. The development of digital \r\nhealth tools leveraging WeChat mini-programs—known \r\nfor their low operational costs and ease of use—has the \r\npotential to significantly improve access to and utiliza\u0002tion of healthcare services [23, 24].\r\nThe objective of this study is to develop a Fall Risk Per\u0002ception Toolkit based on a “Digital Human” (FRP-digital \r\nhuman) for the intervention of FRP among community\u0002dwelling older patients with stroke. This initiative aimed \r\nto expand the current intervention strategies targeting \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "FRP. A mixed-methods approach was employed to evalu\u0002ate the toolkit’s usability and implementation efficacy. \r\nThe development process was informed by the Health \r\nBelief Model [25] and the Double Diamond Model [26].\r\nMethods\r\nStudy design, setting, and participants\r\nThis study was conducted in three phases: development, \r\nusability test, and effectiveness verification (the latter \r\nthrough a 12-week, two-arm pilot randomized controlled \r\ntrial). Ethical approval was obtained from the institu\u0002tional Medical Ethics Committee (JNU202212011RB24), \r\nand the study was registered with the Clinical Trials Reg\u0002istry. The CONSORT checklist is provided in the Supple\u0002mental Material.\r\nParticipant recruitment occurred between March 2023 \r\nand May 2023. The inclusion criteria were as follows: (1) \r\nage≥65 years and residence in the community for ≥1 \r\nyear; (2) a first diagnosis of ischemic stroke confirmed \r\nvia head CT or MRI (in accordance with the diagnos\u0002tic criteria established by the Fourth Chinese Society of \r\nCerebrovascular Disease); (3) ability to use WeChat and \r\nmini programs, either independently or after unified \r\ntraining; and (4) capacity for effective communication \r\nand completion of questionnaires, either independently \r\nor with researcher assistance. Exclusion criteria included: \r\n(1) activities of daily living (ADL) score<60, precluding \r\ngait data collection; (2) history of myocardial infarction, \r\nangina pectoris, or severe cardiac, hepatic, or renal dis\u0002ease within the past year; (3) excessive physical frailty \r\npreventing muscle strength testing; (4) cognitive or psy\u0002chiatric impairment; and (5) history of syncope following \r\nphysical exertion.\r\nSample size\r\nAssuming a two-tailed alpha level of 0.05, 80% statisti\u0002cal power, and a 1:1 allocation ratio, Teare et al. [27] \r\nrecommended a pilot sample size of 70 to reduce vari\u0002ability in standard deviation estimation. Whitehead et \r\nal. [28] further suggested that for standardized effect \r\nsizes between 0.2 and 0.5, a sample size of 32 to 92 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 471,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "participants is appropriate, using the non-central \r\nt-distribution approach. Additionally, they proposed \r\na stepped rule of thumb, recommending a sample size \r\nof 50 when the standardized effect size is particularly \r\nsmall (δ < 0.1). Based on these considerations, a sample \r\nsize of 92 was determined to adequately detect mean\u0002ingful differences.\r\nTrial registration This study has been registered at the Chinese Clinical Trial Registry: ChiCTR2300068365 \r\n(2023-02-16).\r\nKeywords Fall risk perception, Digital intervention, Digital human, Home-based rehabilitation, Personalized \r\nhealthcare, Older adults, Stroke\nNan et al. BMC Geriatrics (2025) 25:532 Page 3 of 11\r\nRandomization and blinding\r\nGroup assignments were concealed from assessors, \r\nintervention personnel (IP), and data analysts. Following \r\ncompletion of the baseline assessment, eligible partici\u0002pants were randomized into either the control or inter\u0002vention group in a 1:1 ratio. The randomization sequence \r\nwas generated using a computer-based random number \r\ngenerator and was managed by an independent research \r\nassistant who had no involvement in participant recruit\u0002ment, data collection, or intervention implementation. \r\nThis assistant maintained the randomization list and \r\nensured its confidentiality. Upon group assignment, the \r\nresults were transmitted via text message to assessors \r\nand intervention personnel by blinded research assis\u0002tants. This procedure was implemented to minimize \r\nbias and uphold the integrity of the study. Details of the \r\nintervention protocol are presented in Table 1, with fur\u0002ther information provided in the Supplemental Material.\r\nOutcome measures\r\nUsability test\r\nThe Post-Study System Usability Questionnaire (PSSUQ) \r\n[29] was employed to assess participant satisfaction. \r\nThis instrument uses a Likert scale (e.g., 1 to 7), where \r\nhigher scores indicate greater satisfaction. The Net Pro\u0002moter Score (NPS) [30] was used to evaluate participants’ \r\nintention to recommend the toolkit. Responses were \r\nrated on a scale of 0 to 10, with scores of 0–6 classified \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "as “Detractors,” 7–8 as “Passives,” and 9–10 as “Promot\u0002ers.” The NPS was calculated as follows: (number of Pro\u0002moters−number of Detractors)/total sample size. The \r\nCustomer Effort Score (CES) [31] was utilized to assess \r\nthe effort required from participants. CES was rated on \r\nTable 1 Intervention protocol\r\nPhase of \r\nintervention\r\nTheoretical \r\nmapping\r\nInter\u0002ven\u0002tion \r\ntime\r\nInter\u0002vention \r\nform\r\nSpecific content\r\nPhase 1\r\nIntroduction to \r\nthe project\r\nNone Week \r\n1\r\nFace to \r\nface\r\n• Explain the program details and caveats to participants to ensure they are fully informed.\r\n• Sign informed consent form after obtaining consent from participants.\r\n• Complete baseline data acquisition, in which gait data were obtained with a portable IDEEA \r\ndevice.\r\n• Investigators helped participants register and log in to the applet.\r\n• Researchers explain the role of different modules in the applet and how to use them.\r\n• Help participants simply explore the full functionality of the applet on their own.\r\nPhase 2\r\nEducation\r\n• Perceived \r\nSusceptibility\r\n• Perceived \r\nSeverity\r\n• Perceived \r\nBarriers\r\nWeeks \r\n2–3\r\nOnline \r\nthrough \r\nFRP\u0002digital \r\nhuman\r\n• Participants viewed their fall risk level in the “Digital Self” module of the mini program, \r\nincreasing perceived susceptibility.\r\n• Participants learn personal fall risk factors in the Fall Risk Factors section in the “Knowledge \r\nLearning” module of the mini program and compare them with themselves.\r\n• Participants used the “Digital Self” module to identify and assess their own fall risk factors to \r\nenhance perceived susceptibility.\r\nWeeks \r\n4–6\r\nOnline \r\nthrough \r\nFRP\u0002digital \r\nhuman\r\n• Participants learn the “hazards of falls” section in the “Knowledge learning” module of the mini \r\nprogram to understand the various injuries caused by falls and increase the perceived severity.\r\n• Participants learn “Overview of falls”, “risk factors of falls”, “hazards of falls” and “preventive \r\nmeasures of falls” in the “Knowledge learning” module of the mini program.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "• Participants learn about environmental fall risk factors in the Fall Risk Factors section in the \r\n“Knowledge Learning” module of the mini program.\r\nPhase 3\r\nCapacity \r\nbuilding\r\n• Perceived \r\nBenefits\r\n• Cues to Action\r\nWeeks \r\n7–9\r\nOnline \r\nthrough \r\nFRP\u0002digital \r\nhuman\r\n• In the process of exploration in the “virtual experience” module of the mini program, partici\u0002pants will start to fall if they encounter obstacles, and different parts and different types of \r\ninjuries will appear randomly, increasing the perceived severity, and preventing falls can avoid \r\ninjuries and make them perceive benefits.\r\n• Participants explore fall risk factors in seven structured scenarios one by one in the “virtual \r\nexperience” module. It contains five indoor scenes and two outdoor scenes, namely “living \r\nroom”, “bedroom”, “kitchen”, “bathroom”, “porch”, “corridor” and “community”.\r\n• Participants can be explored multiple times, and exposure to different risk factors leads to \r\ncausal analyses and preventive actions. Participants will not only provide with perceived barri\u0002ers to avoid falling, but also with cues to action.\r\nPhase 4\r\nTraining\r\n• Self-Efficacy Weeks \r\n10–11\r\nOnline \r\nthrough \r\nFRP\u0002digital \r\nhuman\r\n• In the “Virtual experience” module of the mini program, participants will be tested on two \r\nfixed tasks in each scene, requiring them to avoid risk factors to complete the specified posi\u0002tion movement. Successfully completed the task to increase their fall self-efficacy.\r\nWeek \r\n12\r\nFace to \r\nface\r\n• Investigators collecte end-of-intervention data and inform participants that the program was \r\ncompleted.\nNan et al. BMC Geriatrics (2025) 25:532 Page 4 of 11\r\na scale of 1 to 7 and was calculated as: total score/total \r\nnumber of participants. Additional user experience data \r\nwere collected through individual interviews.\r\nEffectiveness verification\r\nThe intervention comprised a total of 22 sessions. The \r\nparticipation rate (RP) was defined as the percentage of \r\npatients who completed all 22 sessions. Following each \r\nsession, patients were required to answer questions \r\npertaining to the session content; the adherence rate \r\n(RA) was calculated as the percentage of patients who \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "responded to these questions. The primary outcome of \r\nthis study was FRP, measured using the Fall Risk Percep\u0002tion Scale for Community-Dwelling Older Adults (FRPS) \r\n[32]. This instrument encompasses three dimensions, \r\nwith scores ranging from 0 to 68, where higher scores \r\nindicate greater fall risk perception among community\u0002dwelling older adults. The Cronbach’s α coefficient for the \r\nscale is 0.913.\r\nSecondary outcomes included objective fall risk and \r\nquality of life. Fall risk was assessed using the Timed Up \r\nand Go Test (TUG), where a duration of 13.5 s or more \r\nwas indicative of increased fall risk [33]. Quality of life \r\nwas evaluated using the Short Version of the Stroke-Spe\u0002cific Quality of Life Scale (SV-SS-QoL) [34], which com\u0002prises 12 items across three domains. Total scores range \r\nfrom 12 to 60, with higher scores reflecting better quality \r\nof life in stroke patients. The Cronbach’s α coefficient for \r\nthis scale is 0.882.\r\nData collection\r\nDuring the usability testing phase, data were collected \r\nin a home simulation laboratory. In the validation phase, \r\ndemographic information and baseline outcome mea\u0002sures were collected from participants prior to the first \r\nintervention session. All outcome measures were reas\u0002sessed three months following the intervention.\r\nData analysis\r\nData were analyzed using SPSS Statistics software (ver\u0002sion 25.0, IBM Corp.), with statistical significance set at \r\np<0.05. Descriptive statistics were used to summarize \r\ndemographic and baseline characteristics. For normally \r\ndistributed data, paired sample t-tests (within-group \r\ncomparisons) and independent sample t-tests (between\u0002group comparisons) were employed. For non-normally \r\ndistributed data, the Mann–Whitney U test (within\u0002group comparisons) or the Wilcoxon rank-sum test \r\n(between-group comparisons) was applied.\r\nResults\r\nPhase 1: development of the FRP-digital human\r\nThe development of the FRP-digital human was guided \r\nby the Double Diamond Model and implemented \r\nthrough a WeChat mini program. The toolkit included \r\nfour core functional modules: Digital Self, Knowledge \r\nLearning, Virtual Experience, and Help and Support.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "In the “Virtual Experience” module, seven scenarios—\r\nfive indoor and two outdoor—were constructed based on \r\nthe “Home Safety Checklist, CDC” [35], each incorporat\u0002ing structured fall risk factors. Participants could access \r\npersonalized data via the “Digital Self” module and \r\nexplore fall-related information through the “Knowledge \r\nLearning” module. A distinctive feature of the “Digital \r\nSelf” module was the “Health Signature,” which visual\u0002ized participants’ health beliefs and aimed to reinforce \r\nhealth-promoting behaviors through ongoing perceptual \r\ntraining.\r\nThe “Virtual Experience” module offered two func\u0002tions: “Experience” and “Test.” The “Experience” func\u0002tion enabled the digital human to navigate life scenarios, \r\nsimulating falls and injuries (e.g., bleeding or fractures of \r\nthe limbs) when risk factors were not correctly identified. \r\nThe “Test” function required the completion of two pre\u0002defined tasks per scenario, which were designed based on \r\nthe Instrumental Activities of Daily Living scale [36] to \r\nreflect daily functional requirements.\r\nThe “Help and Support” module provided feedback and \r\nprofessional guidance to participants. Version 1 of the \r\nFRP-digital human was finalized in this phase, and addi\u0002tional development details are provided in the Supple\u0002mental Material.\r\nPhase 2: usability test of the FRP-digital human\r\nIn this phase, the finalized toolkit was tested for usabil\u0002ity using a mixed-methods approach to evaluate effec\u0002tiveness, efficiency, and user satisfaction, and to support \r\niterative improvement. Participant experiences were cap\u0002tured through user interviews. Usability test followed the \r\nCommon Industry Format for Usability Test Reports [37] \r\nissued by the National Institute of Standards and Tech\u0002nology, as detailed in the Supplemental Material.\r\nA total of 20 eligible participants were selected via con\u0002venience sampling to complete core tasks—information \r\nviewing, knowledge learning, situational experience, and \r\ntest evaluation—designed by the research team.\r\nEffectiveness was assessed using the task completion \r\nrate, while efficiency was evaluated based on task com\u0002pletion time and the CES. Satisfaction was measured \r\nusing the PSSUQ and the NPS. The results are presented \r\nin Table 2.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "Six themes emerged from user interviews: (1) Pre\u0002ventive behaviors adopted post-intervention; (2) Digi\u0002tal human perceived as engaging and approachable; (3) \r\nContent deemed appropriate and conducive to effective \r\nlearning; (4) Simple and user-friendly interface promot\u0002ing ease of adoption; (5) Willingness to recommend the \r\ntool to others; (6) Overall positive user experience.\nNan et al. BMC Geriatrics (2025) 25:532 Page 5 of 11\r\nBased on quantitative and qualitative findings, modifi\u0002cations were made to create Version 2 of the FRP-digital \r\nhuman. The updated interface is shown in Fig. 1.\r\nPhase 3: effectiveness verification of the FRP-Digital \r\nhuman\r\nRecruitment process\r\nThe CONSORT flowchart is presented in Fig. 2. A total of \r\n145 patients were screened, of whom 92 (response rate: \r\n63%) met the eligibility criteria and agreed to participate. \r\nDuring the study, 12 participants withdrew, resulting in a \r\ndropout rate of 13%.\r\nTable 2 Results of usability test\r\nIssues n%/x̅±s/n\r\nTask completion rate 100.00%\r\nTask completion time\r\nTask 1/s 12.00±3.93\r\nTask 2/s 13.05±4.10\r\nTask 3/s 14.10±4.40\r\nTask 4/s 19.75±3.37\r\nPSSUQ\r\nSystem usefulness 69.05%\r\nInformation quality 71.55%\r\nInterface quality 70.20%\r\nOverall evaluation 72.14%\r\nNPS 4.50\r\nCES 3.10\r\nFig. 1 Vision 2 of FRP-digital human Notes: The top left is the homepage, and the rest figures illustrated the toolkit’s interface when using four different \r\nmodules\nNan et al. BMC Geriatrics (2025) 25:532 Page 6 of 11\r\nBaseline characteristics of participants\r\nBaseline characteristics—including sociodemographic \r\nvariables and outcome measures—were recorded for \r\nboth the control and intervention groups. No statistically \r\nsignificant differences were observed between the two \r\ngroups at baseline (p>0.05), as shown in Table 3.\r\nParticipant outcomes\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "Outcome measures included the RP, RA, FRPS, TUG, \r\nand the Short Version of the SV-SS-QoL. The results are \r\npresented in Table 4.\r\nThe RP was 100%, as all participants completed the \r\n22-session intervention. The RA in the intervention \r\ngroup was significantly higher than in the control group \r\n(t=4.528, P=0.029).\r\nRegarding the FRPS, both groups exhibited improve\u0002ment; however, the intervention group demonstrated \r\na significantly greater improvement compared to the \r\ncontrol group. Statistically significant differences were \r\nobserved within both groups (Control group: t = −9.500, \r\nP<0.001; Intervention group: t = −15.555, P<0.001) as \r\nwell as between groups (t = −10.09, P<0.001).\r\nFor the TUG, no statistically significant differences \r\nwere found either within the groups (Control group: \r\nZ = −1.176, P=0.239; Intervention group: Z = −1.801, \r\nP=0.072) or between the groups (Z = −0.005, P=0.996).\r\nIn terms of the SV-SS-QoL, both groups showed \r\nimprovements, with the intervention group achiev\u0002ing significantly higher improvements compared to the \r\ncontrol group. Statistically significant differences were \r\nobserved within both groups (Control group: t = −5.737, \r\nP<0.001; Intervention group: t = −6.912, P<0.001) as \r\nwell as between groups (t = −17.254, P<0.001).\r\nDiscussion\r\nThis study indicated the digital human was not only \r\nwell-accepted and utilized by older adults but also suc\u0002ceeded in providing personalized experiential engage\u0002ment. Health beliefs shaped by personal experience may \r\nlead to innovative approaches in fall prevention. The dis\u0002play of individualized information via the digital human \r\nenhanced the degree of personalization, which is a criti\u0002cal factor in effective educational interventions [16, 38]. \r\nCompared with conventional display formats, the digi\u0002tal human exhibited greater dynamism and interactivity \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "Fig. 2 The CONSORT flow chart DECLARATIONS Ethics approval and consent to participate This study was approved by the Medical Ethics Committee \r\nof Jiangnan University (JNU202212011RB24), and informed consent was obtained from all subjects involved in the study Consent for publication Not \r\napplicable Availability of data and materials The datasets generated and analyzed during the current study are not publicly available due to we need to \r\ncontinue to conduct trials with large samples but are available from the corresponding author on reasonable request\nNan et al. BMC Geriatrics (2025) 25:532 Page 7 of 11\r\nTable 3 Baseline characteristics and measurements of participants\r\nMeasures x̅±s/M (P25, P75)/n% P\r\nControl group\r\n(n=40)\r\nIntervention group\r\n(n=40)\r\nχ2/Z/t\r\nAge 74.55 ± 5.24 74.68 ± 5.30 −0.106 0.916a\r\nSex 0.457 0.499b\r\nMale 21 (52.5) 24 (60.0)\r\nFemale 19 (47.5) 16 (40.0)\r\nMarital status 4.087 0.234d\r\nMarried 28 (70.0) 32 (80.0)\r\nUnmarried/divorced/widowed 12 (30.0) 8 (20.0)\r\nEducation 12.515 0.051b\r\nUneducated 4 (10.0) 0 (0.0)\r\nPrimary school 11 (27.5) 4 (10.0)\r\nJunior high school 14 (35.0) 17 (42.5)\r\nTechnical secondary school 1 (2.5) 5 (12.5)\r\nHigh school 5 (12.5) 6 (15.0)\r\nJunior college 3 (7.5) 2 (5.0)\r\nCollege or postgraduate 2 (5.0) 6 (15.0)\r\nPlace of residence 0.864 0.752d\r\nCities 28 (70.0) 30 (75.0)\r\nTowns 9 (22.5) 6 (15.0)\r\nRural areas 3 (7.5) 4 (10.0)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "Monthly income (RMB, ¥) 4.529 0.293d\r\n<5000 32 (80.0) 25 (62.5)\r\n≥5000 8 (20.0) 15 (37.5)\r\nType of residence 4.575 0.341d\r\nThree generations together 6 (15.0) 3 (7.5)\r\nTwo generations together 8 (20.0) 10 (25.0)\r\nIntergeneration 3 (7.5) 0 (0.0)\r\nCouple lives 17 (42.5) 22 (55.0)\r\nLive alone 6 (15.0) 5 (12.5)\r\nCaregivers 3.845 0.264d\r\nSpouse 19 (47.5) 25 (62.5)\r\nChildren 14 (35.0) 11 (27.5)\r\nFriends/carers 3 (7.5) 0 (0.0)\r\nSelf 4 (10.0) 4 (10.0)\r\nDrinking alcohol 2.530 0.304d\r\nYes 3 (7.5) 7 (17.5)\r\nNo 34 (85.0) 32 (80.0)\r\nIn the ring 3 (7.5) 1 (2.5)\r\nHistory of falls (Times) 1.167 0.604d\r\n0 23 (57.5) 26 (65.0)\r\n1～2 16 (40.0) 12 (30.0)\r\n3 or more 1 (2.5) 2 (5.0)\r\nWalking aid 0.346 0.556b\r\nYes 8 (20.0) 6 (15.0)\r\nNo 32 (80.0) 34 (85.0)\r\nFRPS 38.55±12.58 38.03±9.89 0.208 0.836a\r\nTUG 13.31 (10.54, 14.38) 13.76 (10.56, 15.78) −0.789 0.430c\r\nQuality of life 39.90±5.14 40.05±4.51 −0.139 0.890a\r\na\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "Two independent sample t-test\r\nbChi-square test\r\nc\r\nMann-Whitney U test\r\ndFisher’s exact test\nNan et al. BMC Geriatrics (2025) 25:532 Page 8 of 11\r\n[39], thereby enhancing educational engagement and \r\ncomprehension [19]. Indeed, digital human technol\u0002ogy has been applied within the healthcare domain as \r\na form of digital twin. A digital twin integrates real and \r\nvirtual components using measured data [40]. Previous \r\nresearch has primarily focused on constructing digital \r\ntwins of patients to support healthcare professionals in \r\nbuilding predictive models through machine learning \r\n[41]. Digital twin technology has also been employed \r\nto personalize interventions, such as in headache care \r\n[42]. However, in most prior studies, healthcare profes\u0002sionals were the primary users. In contrast, this study \r\ndeveloped a digital human based on individual patient \r\ndata for direct patient use. Participants were able to \r\ncontrol the digital human within virtual environments, \r\nrepeatedly experiencing the process of walking and fall\u0002ing to accumulate simulated “falling experiences.” Thi\u0002amwong [43] emphasized that fall prevention strategies \r\nfor older adults are often informed by personal experi\u0002ence. Individual experiences can influence knowledge \r\nand attitudes, thereby altering health beliefs. The expe\u0002rience of falling or avoiding a fall can impact patients’ \r\nbeliefs regarding fall prevention. Huang et al. [44] simi\u0002larly suggested that fall prevention strategies should not \r\nadopt a one-size-fits-all approach; rather, older adults \r\nneed exposure to diverse risk scenarios to maintain \r\ntheir quality of life. However, providing such experien\u0002tial learning poses a challenge—namely, how to simu\u0002late falling experiences without causing physical harm. \r\nAlthough virtual reality has been employed in fall pre\u0002vention interventions, its widespread implementation \r\nis limited by high equipment costs, lack of personalized \r\ndata presentation, and the risk of injury during physi\u0002cally engaging programs. The digital human presents \r\na feasible alternative to address these challenges. In \r\nthis study, a safe virtual environment was established, \r\nenabling older adults to explore their physical limita\u0002tions, adapt to discrepancies between perceived and \r\nactual fall risk, and proactively engage in fall prevention.\r\nPsychological improvement precedes behavioral \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "change: autonomy as the critical bridge. Individual \r\nautonomy represents a crucial and indispensable fac\u0002tor linking FRP to fall-preventive behavior. The pilot \r\nstudy revealed that enhancing FRP among older stroke \r\npatients has the potential to improve their quality of \r\nlife. Digital human intervention effectively improved \r\nFRP, consistent with the findings of Money et al. [16], \r\nwho, although not using digital humans, employed a \r\n3D serious game to demonstrate the value of interac\u0002tive exploration in improving FRP. However, this study \r\ndid not observe statistically significant improvements \r\nin TUG scores (an indicator of objective fall risk), \r\nwhich contrasts with previous findings. This discrep\u0002ancy may be explained by the study’s specific focus: it \r\naimed solely to enhance FRP through innovative health \r\neducation methods, rather than integrating exercise\u0002based interventions whose benefits are well-estab\u0002lished. Therefore, future research should incorporate \r\nphysical activity components to promote improve\u0002ments in physical function. This study aligns with the \r\nfindings of Brouwer et al. [45], who reported improved \r\nquality of life following FRP interventions. The digital \r\nhuman likely contributed to this outcome by offering \r\na personalized and interactive experience. Guided by \r\nthe Health Belief Model, the digital human encouraged \r\npatients to adopt proactive health behaviors, thereby \r\nenhancing their quality of life. Despite demonstrated \r\nimprovements in outcome measures, the underlying \r\nmechanisms through which FRP influences fall-pre\u0002vention behavior remain insufficiently understood. \r\nAutonomy may be central to this mechanism. Robson \r\net al. [46] proposed that autonomy is fundamental to \r\ndecision-making among older adults. According to \r\nSelf-Determination Theory [47], fulfillment of psy\u0002chological needs for autonomy, competence, and \r\nrelatedness generates intrinsic motivation and facili\u0002tates behavioral change. In this study, older adults \r\ncompleted tasks of varying difficulty through the \r\nTable 4 Results of pilot study\r\nOutcomes Control group Within-group Intervention group Within-group Between-group\r\nx̅±s/n (%)\r\nM (P25, P75)\r\nP value x̅±s/n (%)\r\nM (P25, P75)\r\nP value Z/t P value\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "FRPS 49.18 ± 6.60 <0.001a 60.53 ± 2.65 <0.001a −10.09 <0.001c\r\nRP 40 (100.0) NA 40 (100) NA NA NA\r\nRA 22 (55.0) NA 31 (77.5) NA 4.528 0.029e\r\nTUG 13.13 (11.01, 14.33) 0.239d 13.45 (11.05, 14.31) 0.072d −0.005 0.996b\r\nQoL 42.05 ± 4.65 <0.001a 47.40 ± 3.80 <0.001a −17.254 <0.001c\r\nNA is Not Applicable\r\na\r\npaired sample t-test\r\nb\r\nWilcoxon rank-sum test\r\nc\r\nindependent sample t-test\r\ndMann-Whitney U test\r\ne\r\nChi-square test\nNan et al. BMC Geriatrics (2025) 25:532 Page 9 of 11\r\ndigital human, thereby building a sense of competence. \r\nSimultaneously, they operated within an autonomy\u0002supportive environment—freely navigating virtual sce\u0002narios with the digital human—which met their need \r\nfor autonomy. On this basis, the following scientific \r\nhypothesis may be proposed: FRP influences auton\u0002omy, autonomy enhances behavioral motivation, and \r\nbehavioral motivation drives behavioral change. This \r\nhypothesis may help explain how older adults can be \r\neffectively engaged in, and adhere to, fall-prevention \r\ninterventions. Future studies should investigate and \r\nvalidate this potential mechanism. Additionally, the \r\nfindings suggest that changes in risk perception may \r\nprecede observable improvements in physical func\u0002tion. FRP may increase prior to behavioral changes, \r\nand further time may be required for those behavioral \r\nchanges to translate into measurable physical improve\u0002ments. This may account for the observed enhance\u0002ment in FRP without corresponding improvement in \r\nTUG scores. Once FRP is heightened, participants may \r\nbegin to adopt preventive behaviors—such as higher \r\nadherence rates—yet sustained implementation over \r\ntime is needed for these behavioral modifications to \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "result in improved physical functioning and a cor\u0002responding reduction in objective fall risk. Further \r\ninvestigation into these mechanisms could contribute \r\nto more effective health promotion strategies in fall \r\nprevention.\r\nSmart patients will be crucial for emerging ser\u0002vice models in telemedicine. In the context of proac\u0002tive health, self-directed health management reflects \r\npatients’ sense of responsibility for their own health \r\nand transforms them into both producers and consum\u0002ers within the healthcare system. The World Guidelines \r\nfor Falls Prevention and Management for Older Adults: \r\nA Global Initiative [8] emphasize that the perception \r\nof fall risk warrants greater attention, advocating for \r\nolder adults to be recognized as primarily responsible \r\nfor managing their own fall risk. This aligns with the \r\n“people-oriented” healthcare model. As an emerging \r\ntechnology, digital humans offer a novel and engag\u0002ing experience that captures patients’ interest. How\u0002ever, with the advancement of telemedicine, patient \r\nexperience—particularly digital patient experience—\r\nhas become a critical factor. Enhanced user experi\u0002ence enables patients not only to engage more fully \r\nin healthcare services but also to take an active role \r\nin their reform, thereby evolving into so-called smart \r\npatients. Smart patients [48] demonstrate a heightened \r\nsense of health responsibility, which contributes to \r\nmore effective chronic disease management, promotes \r\nactive ageing and health, and allows for the full utiliza\u0002tion of digital healthcare services. Whether designed \r\nfor healthcare professionals or patients, digital twins \r\nultimately aim to enhance patient care. Digital doc\u0002tors can deliver expert medical guidance, while digital \r\npatients continuously monitor their health in real time. \r\nAs noted by Zalake [49], digital twins of physicians have \r\nthe potential to optimize time management, automate \r\nthe delivery of repetitive information, and personalize \r\ncare. However, the dissemination of misinformation \r\nremains a potential risk; thus, ensuring the accuracy \r\nand reliability of information necessitates rigorous qual\u0002ity control. Furthermore, the influence of this emerg\u0002ing service model on doctor-patient interactions—and \r\nits resulting psychological and behavioral effects on \r\nindividuals—remains uncertain and requires further \r\ninvestigation.\r\nLimitations\r\nDespite the accessibility of the study sample through \r\nWeChat or after receiving basic guidance, the e-health \r\nliteracy of older adults remained a significant limiting \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "factor. Another limitation of this study is the potential \r\nHawthorne effect, which may have been induced by the \r\nnovelty of the technology itself. Therefore, it is advisable \r\nto implement a preparatory training period to ensure \r\nthat participants’ e-health literacy reaches a sufficient \r\nlevel prior to the intervention. Additionally, the lack of \r\nlong-term follow-up data represents a critical limitation, \r\nparticularly in evaluating the sustainability of improve\u0002ments in fall risk perception and fall-related behaviors. \r\nAt the same time, adding the physical function exercise \r\ncomponent to the health education intervention, it would \r\nfacilitate the observation of effects at an objective level \r\n(e.g., TUG).\r\nConclusion\r\nIn conclusion, the FRP–digital human intervention pro\u0002vided a feasible and acceptable innovative approach for \r\nfall prevention. As a pilot study within the perception–\r\nbehavioral fall prevention framework, this work lays \r\na solid foundation for future large-scale clinical trials. \r\nMoreover, the intervention toolkit is user-friendly, easy \r\nto implement, and broadly accessible, rendering it partic\u0002ularly suitable for application in primary healthcare set\u0002tings and community-based interventions.\r\nAbbreviations\r\nFRP Fall Risk Perception\r\nFRP-digital human Fall Risk Perception Toolkit based on “Digital Human”\r\nRP Rate of Participant\r\nRA Rate of Adherence\r\nIP Intervention Personnel\r\nFRPS Fall Risk Perception Scale for Community-dwelling \r\nOlder Adults\r\nTUG Timed Up and Go Test\r\nSV-SS-QoL The Short Version of the Stroke Specific Quality of Life \r\nScale\r\nPSSUQ Post-Study System Usability Questionnaire\r\nNPS Net Promoter Score\nNan et al. BMC Geriatrics (2025) 25:532 Page 10 of 11\r\nCES Customer Effort Score\r\nSupplementary Information\r\nThe online version contains supplementary material available at https://doi.or\r\ng/10.1186/s12877-025-06186-z.\r\nSupplementary Material 1.\r\nAcknowledgements\r\nThis study is grateful to all the authors and expresses our most sincere \r\ngratitude to the patients who participated in this project. Finally, we would \r\nlike to thank the Graduate Practice Innovation Program of Jiangsu Province \r\n(China) for its financial support. Finally, we thank MedSci for helping polish the \r\nmanuscript.\r\nAuthors’ contributions\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "Y. J was responsible for study design and funding support. J. N and Y.H \r\nwas responsible for the implementation of the study. X. Z and J. G were \r\nresponsible for patient recruitment and intervention. M. S was responsible \r\nfor randomization assignment and data management. Z. C and X. H were \r\nresponsible for data collection and analysis. Y. J and J. N were the major \r\ncontributors to the writing of the manuscript. All authors read and approved \r\nthe final manuscript.\r\nFunding\r\nThis study received funding from the Graduate Practice Innovation Program of \r\nJiangsu Province, China (SJCX23_1244).\r\nData availability\r\nThe datasets generated and analyzed during the current study are not publicly \r\navailable due to we need to continue to conduct trials with large samples but \r\nare available from the corresponding author on reasonable request.\r\nDeclarations\r\nEthics approval and consent to participate\r\nThis study was approved by the Medical Ethics Committee of Jiangnan \r\nUniversity (JNU202212011RB24), and informed consent was obtained from all \r\nsubjects involved in the study.\r\nConsent for publication\r\nNot applicable.\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nAuthor details\r\n1\r\nResearch Office of Chronic Disease Management and Rehabilitation, \r\nWuxi School of Medicine, Jiangnan University, No. 1800 Lihu Avenue, \r\nWuxi, Jiangsu Province, China\r\n2\r\nLoudi Central Hospital, Loudi, Hunan Province, China\r\nReceived: 17 February 2025 / Accepted: 19 June 2025\r\nReferences\r\n1. Feigin VL, Norrving B, Mensah GA. Global burden of stroke. Circ Res. \r\n2017;120(3):439–48. https://doi.org/10.1161/CIRCRESAHA.116.308413.\r\n2. Johnson W, Onuma O, Owolabi M, Sachdev S. Stroke: a global response is \r\nneeded. Bull World Health Organ. 2016;94(9):634–634A. https://doi.org/10.24\r\n71/BLT.16.181636.\r\n3. Blind Spots in Hospital Fall Prevention: Falls in Stroke Patients Occurred Not \r\nOnly in Those at a High Risk of Falling - ClinicalKey. https://www.clinicalkey.co\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "m/#!/content/playContent/1-s2.0-S1525861023009775?scrollTo=%23hl00005\r\n74. Accessed 22 Dec 2023. \r\n4. Batchelor F, Hill K, Mackintosh S, Said C. What Works in falls prevention after \r\nstroke? Stroke. 2010;41(8):1715–22. https://doi.org/10.1161/STROKEAHA.109.\r\n570390.\r\n5. Dean C, Clemson L, Ada L, et al. Home-based, tailored intervention for \r\nreducing falls after stroke (FAST): Protocol for a randomized trial. Int J Stroke. \r\n2021;16(9):1053–8. https://doi.org/10.1177/1747493021991990.\r\n6. Delbaere K, Close JCT, Brodaty H, Sachdev P, Lord SR. Determinants of \r\ndisparities between perceived and physiological risk of falling among elderly \r\npeople: cohort study. BMJ. 2010;341(7770):c4165. https://doi.org/10.1136/bm\r\nj.c4165.\r\n7. Ganz DA, Latham NK. Prevention of falls in community-dwelling older adults. \r\nEngl J Med. 2020;382(8):734–43. https://doi.org/10.1056/NEJMcp1903252. \r\nSolomon CG, ed. N.\r\n8. Montero-Odasso M, van der Velde N, Martin FC, et al. World guidelines for \r\nfalls prevention and management for older adults: a global initiative. Age \r\nAgeing. 2022;51(9):afac205. https://doi.org/10.1093/ageing/afac205.\r\n9. Nan J, Li Z, Zou X, Sun M, Gao J, Jiang Y. Fall risk perception in older adults: a \r\nconcept analysis. J Clin Nurs. 2025;34:1032. https://doi.org/10.1111/jocn.1709\r\n0.\r\n10. McInnes E, Seers K, Tutton L. Older people’s views in relation to risk \r\nof falling and need for intervention: a meta-ethnography. J Adv Nurs. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "2011;67(12):2525–36. https://doi.org/10.1111/j.1365-2648.2011.05707.x.\r\n11. Christiansen TL, Lipsitz S, Scanlan M, et al. Patient activation related to fall \r\nprevention: a multisite study. Jt Comm J Qual Patient Saf. 2020;46(3):129–35. \r\nhttps://doi.org/10.1016/j.jcjq.2019.11.010.\r\n12. Kamei T, Kajii F, Yamamoto Y, et al. Effectiveness of a home hazard modifica\u0002tion program for reducing falls in urban community-dwelling older adults: a \r\nrandomized controlled trial. Jpn J Nurs Sci JJNS. 2015;12(3):184–97. https://do\r\ni.org/10.1111/jjns.12059.\r\n13. Kuhlenschmidt ML, Reeber C, Wallace C, Chen Y, Barnholtz-Sloan J, Mazanec \r\nSR. Tailoring education to perceived fall risk in hospitalized patients with \r\ncancer: a randomized controlled trial. Clin J Oncol Nurs. 2016;20(1):84–9. http\r\ns://doi.org/10.1188/16.CJON.84-89.\r\n14. Potter P, Pion S, Klinkenberg D, Kuhrik M, Kuhrik N. An instructional DVD \r\nfall-prevention program for patients with cancer and family caregivers. Oncol \r\nNurs Forum. 2014;41(5):486–94. https://doi.org/10.1188/14.ONF.486-494.\r\n15. Gentili C, Zetterqvist V, Rickardsson J, Holmström L, Simons LE, Wicksell RK. \r\nACTsmart - development and feasibility of digital Acceptance and Commit\u0002ment Therapy for adults with chronic pain. NPJ Digit Med. 2020;3:20. https://d\r\noi.org/10.1038/s41746-020-0228-4.\r\n16. Money AG, Atwal A, Boyce E, Gaber S, Windeatt S, Alexandrou K. Falls Sensei: \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "a serious 3D exploration game to enable the detection of extrinsic home fall \r\nhazards for older adults. BMC Med Inform Decis Mak. 2019;19(1):85. https://d\r\noi.org/10.1186/s12911-019-0808-x.\r\n17. Vincenzo JL, Patton SK, Lefler LL, McElfish PA, Wei J, Curran GM. Older adults’ \r\nperceptions and recommendations regarding a falls prevention self-man\u0002agement plan template based on the health belief model: a mixed-methods \r\nstudy. Int J Environ Res Public Health. 2022;19(4):1938. https://doi.org/10.339\r\n0/ijerph19041938.\r\n18. Digital human modeling and its applications: Review and future prospects - \r\nPubMed. Accessed August 2, 2023. https://pubmed.ncbi.nlm.nih.gov/264104\r\n72/\r\n19. Hill AM, McPhail S, Hoffmann T, et al. A randomized trial comparing digital \r\nvideo disc with written delivery of falls prevention education for older \r\npatients in hospital. J Am Geriatr Soc. 2009;57(8):1458–63. https://doi.org/10.\r\n1111/j.1532-5415.2009.02346.x.\r\n20. Haines TP, Day L, Hill KD, Clemson L, Finch C. “Better for others than for me”: a \r\nbelief that should shape our efforts to promote participation in falls preven\u0002tion strategies. Arch Gerontol Geriatr. 2014;59(1):136–44. https://doi.org/10.10\r\n16/j.archger.2014.03.003.\r\n21. Sousa-Leite M, Costa R, Figueiredo B, Gameiro S. Discussing the possibility of \r\nfertility treatment being unsuccessful as part of routine care offered at clinics: \r\npatients’ experiences, willingness, and preferences. Hum Reprod Oxf Engl. \r\n2023;38(7):1332–44. https://doi.org/10.1093/humrep/dead096.\r\n22. Kaushal N, de la ColinaMD AN, Keith NCR, Nemati D. Predicting exercise \r\nbehavior among caregivers of persons with dementia- a longitudinal \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "investigation using an extended health belief model. The Gerontologist. \r\n2024;64:gnad159. https://doi.org/10.1093/geront/gnad159. Published online \r\nNovember 17, 2023:\r\n23. Chu S, Feng L, Jing H, Zhang D, Tong Z, Liang L. A WeChat mini-pro\u0002gram-based approach to smoking cessation behavioral interventions: \nNan et al. BMC Geriatrics (2025) 25:532 Page 11 of 11\r\nDevelopment and preliminary evaluation in a single-arm trial. Digit Health. \r\n2023;9:20552076231208550. https://doi.org/10.1177/20552076231208553.\r\n24. Bi J, Yang W, Hao P, et al. WeChat as a platform for Baduanjin interven\u0002tion in patients with stable chronic obstructive pulmonary disease in \r\nchina: retrospective randomized controlled trial. JMIR MHealth UHealth. \r\n2021;9(2):e23548. https://doi.org/10.2196/23548.\r\n25. 25. The Health Belief Model: Origins and Correlates in Psychological Theory - \r\nLois A. Maiman, Marshall H. Becker, 1974. Accessed December 23, 2023. https:\r\n//journals.sagepub.com/doi/abs/10.1177/109019817400200404\r\n26. Soehnchen C, Rietz A, Weirauch V, Meister S, Henningsen M. Creating an \r\nintercultural user-centric design for a digital sexual health education app for \r\nyoung women in resource-poor regions of Kenya: qualitative self-extended \r\ndouble diamond model for requirements engineering analysis. JMIR Form \r\nRes. 2023;7:e50304. https://doi.org/10.2196/50304.\r\n27. Teare MD, Dimairo M, Shephard N, Hayman A, Whitehead A, Walters SJ. \r\nSample size requirements to estimate key design parameters from external \r\npilot randomised controlled trials: a simulation study. Trials. 2014;15:264. http\r\ns://doi.org/10.1186/1745-6215-15-264.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "28. Whitehead AL, Julious SA, Cooper CL, Campbell MJ. Estimating the sample \r\nsize for a pilot randomised trial to minimise the overall trial sample size for \r\nthe external pilot and main trial for a continuous outcome variable. Stat \r\nMethods Med Res. 2016;25(3):1057–73. https://doi.org/10.1177/09622802155\r\n88241.\r\n29. IBM computer usability satisfaction questionnaires: Psychometric evaluation \r\nand instructions for use: International Journal of Human–Computer Interac\u0002tion: Vol 7, No 1. Accessed December 23, 2023. https://www.tandfonline.com\r\n/doi/abs/10.1080/10447319509526110\r\n30. Reichheld FF. The one number you need to grow. Harv Bus Rev. \r\n2003;81(12):46–54.\r\n31. 31. Stop Trying to Delight Your Customers. Accessed December 23, 2023. htt\r\nps://hbr.org/2010/07/stop-trying-to-delight-your-customers\r\n32. Bao G, Luo Y, Liu W, Yao M. Development of fall risk per-ception scale for \r\ncommunity- dwelling older adults: Reliability and validity testing. J Nurs Sci. \r\n2022;37(24):9–13.\r\n33. Bohannon RW. Reference values for the timed up and go test: a descriptive \r\nmeta-analysis. J Geriatr Phys Ther. 2006;29(2):64–8. https://doi.org/10.1519/00\r\n139143-200608000-00004.\r\n34. Wong GKC, Lam SW, Ngai K, Wong A, Poon WS, Mok V. Development of a \r\nshort form of stroke-specific quality of life scale for patients after aneurysmal \r\nsubarachnoid hemorrhage. J Neurol Sci. 2013;335(1–2):204–9. https://doi.org\r\n/10.1016/j.jns.2013.09.033.\r\n35. US Department of Health & Human Services; Centers for Disease Control \r\n(CDC); National Center for Injury Prevention and Control; Division of Uninten\u0002tional Injury Prevention. Check for Safety: A Home Fall Prevention Checklist \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "for Older Adults. Published online 2004. https://doi.org/10.1037/e30710200\r\n5-001\r\n36. Lawton MP, Brody EM. Assessment of older people: self-maintaining and \r\ninstrumental activities of daily living. The Gerontologist. 1969;9(3):179–86.\r\n37. (NISTIR 7742) Customized Common Industry Format Template for Electronic \r\nHealth Record Usability Testing| NIST. Accessed December 23, 2023. https://w\r\nww.nist.gov/publications/nistir-7742-customized-common-industry-format-t\r\nemplate-electronic-health-record\r\n38. Jørgensen V, Roaldsen KS. Negotiating identity and self-image: perceptions of \r\nfalls in ambulatory individuals with spinal cord injury– a qualitative study. Clin \r\nRehabil. 2017;31(4):544–54. https://doi.org/10.1177/0269215516648751.\r\n39. Wang G, Badal A, Jia X, et al. Development of metaverse for intelligent health\u0002care. Nat Mach Intell. 2022;4(11):922–9. https://doi.org/10.1038/s42256-022-0\r\n0549-6.\r\n40. Chang HC, Gitau AM, Kothapalli S, Welch DR, Sardiu ME, McCoy MD. Under\u0002standing the need for digital twins’ data in patient advocacy and forecasting \r\noncology. Front Artif Intell. 2023;6:1260361. https://doi.org/10.3389/frai.2023.\r\n1260361.\r\n41. Nagaraj D, Khandelwal P, Steyaert S, Gevaert O. Augmenting digital twins \r\nwith federated learning in medicine. Lancet Digit Health. 2023;5(5):e251–3. ht\r\ntps://doi.org/10.1016/S2589-7500(23)00044-4.\r\n42. Gazerani P. Intelligent digital twins for personalized migraine care. J Pers Med. \r\n2023;13(8):1255. https://doi.org/10.3390/jpm13081255.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 10,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -6187512000034251772,
+        "filename": "12877_2025_Article_6186.PMC12269106.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 11,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 473,
+      "total_chunks": 26,
+      "version": "1.0.0"
+    },
+    "text": "43. Thiamwong L. A hybrid concept analysis of fall risk appraisal: Integration of \r\nolder adults’ perspectives with an integrative literature review. Nurs Forum \r\n(Auckl). 2020;55(2):190–6. https://doi.org/10.1111/nuf.12415.\r\n44. Huang Y, Song J, Clemson L, Allen N. How does the perception of fall \r\nrisk influence behavior in people with Parkinson’s disease? Mov Disord. \r\n2020;35(SUPPL 1):S547. https://doi.org/10.1002/mds.28268.\r\n45. Brouwer BJ, Walker C, Rydahl SJ, Culham EG. Reducing fear of falling in seniors \r\nthrough education and activity programs: a randomized trial. J Am Geriatr \r\nSoc. 2003;51(6):829–34. https://doi.org/10.1046/j.1365-2389.2003.51265.x.\r\n46. Robson K, Coyle J, Pope R. Exploration of older people’s perceptions of \r\nbehavioural factors associated with falls. Age Ageing. 2018;47(5):734–40. http\r\ns://doi.org/10.1093/ageing/afy051.\r\n47. Self-determination theory: Basic psychological needs in motivation, develop\u0002ment, and wellness. Accessed January 18, 2024. https://psycnet.apa.org/recor\r\nd/2017-04680-000\r\n48. How to Become a Smart Patient in the Era of Precision Medicine?| Springer\u0002Link. Accessed January 18, 2024. https://link.springer.com/chapter/10.1007/9\r\n78-981-10-6041-0_1\r\n49. Zalake M. Doctors’ perceptions of using their digital twins in patient care. Sci \r\nRep. 2023;13(1):21693. https://doi.org/10.1038/s41598-023-48747-5.\r\nPublisher’s Note\r\nSpringer Nature remains neutral with regard to jurisdictional claims in \r\npublished maps and institutional affiliations.\n\n"
+  }
+]

@@ -1,0 +1,698 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "iScience\r\nArticle\r\nA multi-well bioreactor for cartilage tissue\r\nengineering experiments\r\nYann D. Ladner,\r\nHermann Kasper,\r\nAngela R.\r\nArmiento, Martin\r\nJ. Stoddart\r\nmartin.stoddart@\r\naofoundation.org\r\nHighlights\r\nWe present a simple\r\n16-sample multiaxial load\r\nbioreactor for\r\nchondrogenesis\r\nHuman MSCs are exposed\r\nto joint-mimicking\r\nmechanical load\r\nMechanical stimulation\r\nactivates TGF-b1, a key\r\nregulator of\r\nchondrogenesis\r\nLadner et al., iScience 26,\r\n107092\r\nJuly 21, 2023 ª 2023 The\r\nAuthor(s).\r\nhttps://doi.org/10.1016/\r\nj.isci.2023.107092\r\nll\r\nOPEN ACCESS\niScience\r\nArticle\r\nA multi-well bioreactor for cartilage\r\ntissue engineering experiments\r\nYann D. Ladner,1,2 Hermann Kasper,1 Angela R. Armiento,1,3 and Martin J. Stoddart1,4,5,\r\n*\r\nSUMMARY\r\nCartilage tissue engineering necessitates the right mechanical cues to regenerate\r\nimpaired tissue. For this reason, bioreactors can be employed to induce joint-rele\u0002vant mechanical loading, such as compression and shear. However, current artic\u0002ulating joint bioreactor designs are lacking in terms of sample size and usability.\r\nIn this paper, we describe a new, simple-to-build and operate, multi-well kine\u0002matic load bioreactor and investigate its effect on the chondrogenic differentia\u0002tion of human bone marrow-derived stem cells (MSCs). We seeded MSCs into a\r\nfibrin-polyurethane scaffold and subsequently exposed the samples to a combi\u0002nation of compression and shear for 25 days. The mechanical loading activates\r\ntransforming growth factor beta 1, upregulates chondrogenic genes, and in\u0002creases sulfated glycosaminoglycan retention within the scaffolds.\r\nSuch a higher-throughput bioreactor could be operated in most cell culture labo\u0002ratories, dramatically accelerating and improving the testing of cells, new bioma\u0002terials, and tissue-engineered constructs.\r\nINTRODUCTION\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Hyaline articular cartilage is the connective tissue lining the surface of opposing bones within diarthrodial\r\njoints. Due to its weight-bearing location, the tissue is constantly exposed to compressive and shear\r\nstresses. While cartilage is a resilient tissue, the lack of vascularization and consequently low metabolic\r\nactivity of its resident cells can severely impede self-healing after tissue injury.1 In fact, traumatic articular\r\ncartilage injuries can lead to advanced cartilage degeneration and increase the risk of post-traumatic oste\u0002oarthritis, which increases the burden on human health and health-care cost in general.2,3 Current cartilage\r\nrepair strategies remain inadequate, which is why hope is placed upon tissue engineering (TE) strategies\r\nthat could restore longer-term tissue function. Nevertheless, the success of TE depends on understanding\r\nhow cells differentiate and/or regulate the repair process.\r\nBioreactors provide the unique opportunity to investigate the behavior of cells under a controlled physio\u0002logical environment, in contrast to simple monolayer or 3D cultures using unphysiological static conditions.\r\nFor instance, bioreactors can be used to expose cells to various stimuli, including, but not limited to,\r\nhydrostatic pressure, electromagnetic fields, tension, thermal changes, and shear and compressive\r\nforces.4–9 This is especially useful for cartilage cells, or their progenitors, that reside in a highly organized\r\nextracellular matrix where they are exposed to mechanical stimulation.1 On the path towards clinical\r\ntranslation, pre-clinical in vivo experiments offer an alternative to in vitro testing. However, in accordance\r\nwith the 3R principles (replacement, reduction, and refinement),10,11 one should strive to improve in vitro\r\nexperiments with the goal to relieve the burden on animals. In our lab, we previously developed a\r\n4-station bioreactor that can be used to expose TE constructs to a joint-mimicking multi-axial load.5 The\r\nmulti-axial mechanical loading consists of a combination of compression and shear, thereby mimicking\r\nthe kinematics within the knee joint. In fact, when seeding mesenchymal stem/stromal cells (MSCs) in\r\nthis system, the mechanical loading has been shown to lead to human MSC chondrogenesis12 and does\r\nso in part by activating endogenous transforming growth factor beta 1 (TGF-b1).13 Studying cell behavior\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "under kinematic load allows more representative loading that better mimics the clinical situation, providing\r\nthe opportunity to screen more potential therapeutics prior to animal tests. However, the aforementioned\r\nbioreactor has two main limitations: (1) only 4 samples can be processed at the same time and (2) each\r\nsample has to be individually transferred to the bioreactor after each run. To overcome these limitations,\r\nwe developed a new multi-well bioreactor (MWB—Figure 1A) with space for a maximum of 16 samples that\r\nare run in parallel. Similar to our 4-station bioreactor, the MWB can be placed into a cell culture incubator\r\n1AO Research Institute\r\nDavos, Clavadelerstrasse 8,\r\n7270 Davos Platz, Switzerland\r\n2Institute for Biomechanics,\r\nETH Zurich, Lengghalde 5,\r\nCH-8008 Zurich, Switzerland\r\n3UCB Pharma, Slough, UK\r\n4Department of Orthopedics\r\nand Trauma Surgery, Medical\r\nCenter-Albert-Ludwigs\u0002University of Freiburg, Faculty\r\nof Medicine, Albert-Ludwigs\u0002University of Freiburg, 79106\r\nFreiburg, Germany\r\n5Lead contact\r\n*Correspondence:\r\nmartin.stoddart@\r\naofoundation.org\r\nhttps://doi.org/10.1016/j.isci.\r\n2023.107092\r\niScience 26, 107092, July 21, 2023 ª 2023 The Author(s).\r\nThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).\r\n1\r\nll\r\nOPEN ACCESS\nfor a controlled environment. In contrast to the 4-station bioreactor, samples within the MWB are kept in\r\nthe bioreactor during the whole experiment apart from media change, where the entire holder plate is\r\ntransferred to a laminar flow hood.\r\nThe MWB was developed to allow the application of multi-axial mechanical stimulation to several tissue\u0002engineered constructs in parallel. In the bioreactor, the lower chamber (Figure 1C) consists of a box with\r\n16 positions where samples can be placed, with each sample contained in individual holders. Therefore,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "various samples can be loaded at the same time in different media. The sample holders (Figure 1B) are\r\nmade of polyether ether ketone (PEEK), a bioinert material with high mechanical stiffness that is autoclav\u0002able.14 In the center of the holder, there is a hole where different PEEK adaptor rings can be placed,\r\nallowing the sample size to be varied. The counterfaces (Figure 1B) are attached to the upper chamber (Fig\u0002ure 1C) and transmit the load to the samples made of MACOR, a machinable glass ceramic. By the teardrop\r\nshape of the counterfaces, both compression and shear are applied simultaneously (refer to the movie in\r\nthe supplementary information). The counterfaces are mounted to the lid of the bioreactor, with four\r\ncounterfaces connected to one metal rod. Each of the four metal rods is motorized using a stepper motor,\r\nwhich is controlled by a generic soft motion controller. A raspberry pi allows for remote access of the biore\u0002actor using a graphical user interface (GUI—as seen in Figure S1, the LabView code can be found in the\r\nsupplementary information). During the TE experiment, the MWB is placed remains in a standard\r\nincubator, while for medium change, the entire chamber (Figure 1C) is transferred to a laminar flow\r\nhood. Lastly, the bioreactor can be programmed to run during scheduled time intervals.\r\nCounterface\r\nSample holder Base plate\r\nMotor unit\r\nSample holder\r\nCounterface\r\nLower chamber\r\nUpper chamber\r\nSample holder\r\nA B\r\nC\r\nFigure 1. Bioreactor design\r\n(A and B) Scheme of the MWB and (B) enlarged picture of the counterface and holder.\r\n(C) Shows the chamber that can be transferred to the incubator. See also Figure S1.\r\nll\r\nOPEN ACCESS\r\n2 iScience 26, 107092, July 21, 2023\r\niScience\r\nArticle\nThe present work introduces the MWB for higher throughput and investigates its potential in terms of me\u0002chano-induced chondrogenesis. The design of the bioreactor focuses on simplicity, thus enabling it to be\r\nadopted in as many research laboratories as possible, including those with limited engineering support.\r\nThe aim of this study was to validate the bioreactor; we, therefore, used protocols and methods previously\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "shown to be successful with our complex 4-station bioreactor. We applied mechanical stimulation to MSCs\r\nunder growth factor-free conditions as this provides the clearest signal-to-noise ratio, i.e. in the absence of\r\nload, no chondrogenesis occurs. The newly developed higher throughput bioreactor is a user-friendly tool\r\nthat could be used to rapidly screen different TE constructs, produced under varying conditions, in a swift\r\nmanner, thereby saving significant time.\r\nRESULTS\r\nLoading in the MWB does not negatively affect DNA content after 25 days\r\nThe DNA ratio between samples harvested on day 25 vs. day 0 remained stable around a value of 1.0, mean\u0002ing that there was no significant change in DNA content over the course of the experiment when comparing\r\nMWB vs. unloaded controls (UL) (Figure 2). Additionally, no statistical difference was observed in the DNA\r\nratio (day 25/day 0) across the different conditions. However, a trend toward a higher DNA ratio was\r\ndetected for the MWB samples.\r\nMWB activates latent TGF-b1\r\nTotal produced TGF-b1, which consists of both latent and active TGF-b1, was significantly increased in\r\nMWB compared to UL (UL: 1958.53 mg/mgG251.80; MWB: 3359.29 mg/mgG320.73—Figure 3A). Active\r\nTGF-b1 was only detected in MWB (MWB: 136.27 pg/mgG 34.69—Figure 3B). Consequently, the percent\u0002age of active vs. produced TGF-b1 was the highest for MWB (Figure 3C).\r\nLoad increases chondrogenic gene expression\r\nWhile only statistically significant on day 14, the mRNA expression levels of SOX9 were higher for MWB\r\ncompared to UL at all time points (Figure 4). This was also the case for RUNX2, albeit no significance was\r\nreached. Additionally, MWB samples expressed the highest levels of SOX9 during earlier time points (days\r\n7 and 14). A significant difference in the SOX9/RUNX2 ratio was detected between UL and MWB on day 14.\r\n0.0\r\n0.4\r\n0.8\r\n1.2\r\nUL MWB\r\nDNA ratio d25/d0\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Overall mean Donor 123 Figure 2. DNA ratio (day 25 vs. day 0) for different\r\nconditions\r\nDashed line indicates a ratio of 1, which constitutes no\r\nchange in DNA content between day 25 and day 0. UL:\r\nunloaded controls; MWB: multi-well bioreactor. Error\r\nbars show SEM. Estimated marginal means are\r\nadjusted using the Tukey method.\r\nOverall mean Donor 123\r\n***\r\n0\r\n1'000\r\n2'000\r\n3'000\r\n4'000\r\n5'000\r\nUL MWB\r\nProduced TGF−ß1\r\nper DNA (pg/μg)\r\nA ***\r\n0\r\n50\r\n100\r\n150\r\n200\r\nUL MWB\r\nActive TGF−ß1\r\nper DNA (pg/μg)\r\nB\r\n**\r\n0.00\r\n0.02\r\n0.04\r\nUL MWB\r\nActive/produced TGF−ß1\r\nC\r\nFigure 3. TGF-b1 detected in the conditioned medium after 25 days\r\n(A–C) Produced and (B) active TGF-b1, and (C) the ratio between active and produced TGF-b1. All values are normalized\r\nto the DNA content of the respective scaffolds. UL: unloaded controls; MWB: multi-well bioreactor. Error bars show SEM.\r\n**p < 0.01, ***p < 0.001, ****p < 0.0001. Estimated marginal means are adjusted using the Tukey method.\r\nll\r\nOPEN ACCESS\r\niScience 26, 107092, July 21, 2023 3\r\niScience\r\nArticle\nLoaded conditions demonstrated a higher expression of chondrogenic-related genes ACAN, COL2A1,\r\nand PRG4 compared to UL (Figure 5). While not statistically significant (apart from day 25 for ACAN and\r\nday 7 for PRG4), the highest levels on each time point were found for the MWB group. For ACAN,\r\nCOL2A1, and PRG4, mRNA expression was only not always detected in different donors at various time\r\npoints, which complicates statistical testing despite the clear upregulation of ACAN and COL2A1 in MWB.\r\nBoth COL1A1 and COL10A1 were detected in all donors at all time points and exhibited significantly higher\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "mRNA levels for MWB compared to UL (apart from COL10A1 day 7 — Figure 6).\r\nWhile not statistically significant, mechanical stimulation increased insulin like growth factor 1 (IGF1) gene\r\nexpression on day 7 and 14 (Figure 7).\r\nNo IGF-1 protein detected in conditioned media\r\nNo insulin like growth factor 1 (IGF-1) protein was detected above the lowest standard of the ELISA kit.\r\nMWB increases nitrite secretion\r\nWhile nitrite was detected in both loaded and unloaded samples, the nitrite content was significantly\r\nhigher in scaffolds loaded with the MWB than in UL (UL: 2.12 mM/mgG0.20; MWB: 4.10 mM/mgG0.61—\r\nFigure 8).\r\nLoading in the MWB leads to higher sGAG retention\r\nSignificantly more sGAGs were retained within scaffolds loaded with the MWB compared to UL (UL:\r\n3.94 mg/mgG0.30; MWB: 6.14 mg/mgG0.65—Figure 9A). On the other hand, the sGAG per mg of DNA in\r\nthe conditioned medium was significantly increased in UL samples compared to MWB (UL: 84.34 mg/\r\nmgG4.91; MWB: 48.24 mg/mgG4.56—Figure 9B). Since the sGAG in the conditioned medium accounts\r\n****\r\n****\r\nDay: 7 Day: 14 Day: 25\r\nRUNX2 SOX9 SOX9/RUNX2 ratio\r\nUL MWB UL MWB UL MWB\r\n0.5\r\n1\r\n2\r\n 0.3\r\n 1\r\n 3\r\n10\r\n30\r\n0.0\r\n2.5\r\n5.0\r\n7.5\r\nFold change relative to day 0 scaffold\r\nOverall mean Donor 123\r\nFigure 4. mRNA expression of chondrogenic and osteogenic transcription factors\r\nmRNA expression of RUNX2 and SOX9 and their ratio (SOX9/RUNX2) on days 7, 14, and 25. UL: unloaded controls; MWB:\r\nmulti-well bioreactor. Error bars show SEM. ****p < 0.0001. Estimated marginal means are adjusted using the Tukey\r\nmethod.\r\nll\r\nOPEN ACCESS\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "4 iScience 26, 107092, July 21, 2023\r\niScience\r\nArticle\nfor a greater percentage of the total sGAG than what is retained in the sample, the total sGAG shows the\r\nsame trend as the conditioned medium (UL: 88.28 mg/mgG5.20; MWB: 54.38 mg/mgG5.1—Figure 9C).\r\nHistology\r\nIn agreement with the sGAG retention data, only MWB load scaffolds stained positive for Safranin O, while\r\nno positive staining could be observed for UL (Figure 10).\r\nFigure 5. mRNA expression of chondrogenic genes\r\nmRNA expression of ACAN, COL2A1, and PRG4 on days 7, 14, and 25. UL: unloaded controls; MWB: multi-well\r\nbioreactor. Error bars show SEM. *p < 0.05. Estimated marginal means are adjusted using the Tukey method.\r\n* **\r\n*\r\n****\r\n*\r\nDay: 7 Day: 14 Day: 25\r\nCOL1A1 COL10A1\r\nUL MWB UL MWB UL MWB\r\n 1\r\n 3\r\n10\r\n30\r\n 0.1\r\n 1\r\n 10\r\n 100\r\n1'000\r\nFold change relative to day 0 scaffold\r\nOverall mean Donor 123\r\nFigure 6. mRNA expression of osteogenic and hypertrophic genes\r\nmRNA expression of COL1A1 and COL10A1 on days 7, 14, and 25. UL: unloaded controls; MWB: multi-well bioreactor.\r\nError bars show SEM. *p < 0.05, **p < 0.01, ****p < 0.0001. Estimated marginal means are adjusted using the Tukey\r\nmethod.\r\nll\r\nOPEN ACCESS\r\niScience 26, 107092, July 21, 2023 5\r\niScience\r\nArticle\nDISCUSSION\r\nTE is a field that requires the cells to be in a suitable environment. Unsurprisingly, TE for a tissue that is\r\nexposed to mechanical forces, such as articular cartilage, entails the use of a bioreactor that allows for me\u0002chanical stimulation. The sophisticated kinematics within the knee joint, with the simultaneous application\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "of compressive and shear forces, are difficult to replicate. Thus, bioreactors used for cartilage TE are bulky,\r\ndifficult to maintain, and often inadequate for experiments with larger sample sizes. For this reason, we\r\ndeveloped a new MWB that is easy to handle and can be used for higher throughput experiments. Clearly,\r\nhigher throughput in TE is of utmost importance, since the plethora of factors that could improve regen\u0002eration remains unknown or poorly understood. This study compares the MWB to UL in terms of mechano\u0002induced chondrogenesis. Human MSCs were seeded into fibrin-PU scaffolds and subsequently subjected\r\nto joint-mimicking multi-axial load, which has been shown to drive chondrogenesis.12\r\nThe vast majority of mechanoregulation studies utilize a preculture period with a chondrogenic stimulus,\r\ne.g. exogenous TGF-b, to establish a pericellular matrix.15 The load is then applied to further mature the\r\nde novo tissue. Our research interests have focused on the initial chondrogenesis of MSCs, which is a\r\ncrucial event during the rehabilitation of patients after the most commonly used clinical treatment of micro\u0002fracture.16 We have previously shown that the initial chondrogenic trigger is connected to the mechanical\r\nactivation of TGF-b protein by the complex load applied.13 In the absence of load, no chondrogenesis\r\noccurs, while complex load leads to TGF-b activation and subsequent chondrogenesis. Mechanical adap\u0002tation of precultured cells is possible with the multi-well device described here, but as the load applied\r\nmodifies the already occurring differentiation, it is more complicated to use this approach for the initial\r\nvalidation of the bioreactor. By using naive cells, and mechanically inducing chondrogenesis, we can\r\nshow a robust binary response to load (differentiation versus no response) that is comparable to previous\r\nresults obtained in our laboratory. We have, therefore, validated the functionality of the device, which can\r\nnow be used for various approaches. Maintaining a comparable experimental setup to previous studies\r\nenabled us to establish that the MWB behaves as expected.\r\nCompared to our 4-station bioreactor, which takes up the whole space of a standard incubator, the MWB is\r\nmuch smaller with the potential for two per incubator. Furthermore, the MWB features higher throughput,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "remote control, simplified maintenance, and ease of handling with improved sterility. Higher throughput is\r\nespecially important for TE experiments, where the high donor variability stemming from the cells forces\r\nthe experimenter to use biological repeats and technical replicates. Being able to control the bioreactor\r\nremotely and programming the run times frees up the available time of the researcher that can be used\r\nfor other tasks. During unloaded periods, the samples remain in the MWB and with the use of scheduled\r\nruns, the researcher only needs to move the MWB sample chamber (Figure 1C) for medium or sample\r\nchange. For medium change, the MWB can be transferred to the laminar flow hood and the lid with the\r\ncounterfaces is easily removed from the sample holder plate. Compared to our previous bioreactor, this\r\nprocess takes much less time and also offers the advantage that all the samples can be processed simul\u0002taneously. At the end of the experiment, the counterface lid and the sample holder can be cleaned using a\r\nDay: 7 Day: 14 Day: 25\r\nIGF1\r\nUL MWB UL MWB UL MWB\r\n 1\r\n 3\r\n10\r\n30\r\nFold change relative to day 0 scaffold\r\nOverall mean Donor 123\r\nFigure 7. IGF1 gene expression\r\nmRNA expression of IGF1 on days 7, 14, and 25. UL: unloaded controls; MWB: multi-well bioreactor. Error bars show SEM.\r\nEstimated marginal means are adjusted using the Tukey method.\r\nll\r\nOPEN ACCESS\r\n6 iScience 26, 107092, July 21, 2023\r\niScience\r\nArticle\nconventional laboratory dishwasher and then placed in a sterilization box for heat sterilization. The already\u0002mounted bioreactor can then remain in the sterilization box until further use. Within the MWB, the tear\u0002drop-shaped counterface has a specific geometry that allows for the simultaneous introduction of shear\r\nand compression. Compared to other existing bioreactors, where both the compression and the shear\r\nmotions are decoupled,17,18 the MWB has the advantage of introducing both motions using a single motor,\r\nbetter mimicking the natural articulation and resolving any timing problems between two motors. It also\r\nprovides a simpler system to enable easier implementation in laboratories with limited engineering\r\nsupport.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "The mechanical loading did not appear to influence the DNA content after 25 days of culture. Consistent\r\nwith previous findings, where increased compressive strain on loaded samples increases nitrite\r\nproduction,19 a higher nitrite content was found in loaded samples. Mechanical loading of the MSCs could\r\npotentially lead to larger stress on the cells leading to increased nitrite.\r\nMechanical stimulation increased the expression of SOX9, an important transcription factor for chondro\u0002genesis. SOX9 has been shown to directly regulate COL2A1, the main collagen type in articular cartilage,\r\nin vivo.\r\n20 Similarly, COL2A1 also increased due to mechanical loading, and while not statistically significant\r\n(due to non-detected gene expression in UL), the highest gene expression values were reproducibly found\r\nin samples loaded within the MWB. Moreover, as shown within our previous 4-station bioreactor,12,21 me\u0002chanical stimulation increased PRG4 expression, a mechano-regulated protein that contains sGAGs and\r\nplays an important role in the lubrication of articular joints.22\r\nBoth the osteogenic marker RUNX2 and the chondrogenic SOX9 showed a trend toward upregulation in\r\nthe MWB, especially on day 14. As the inverse of the SOX9/RUNX2 ratio has been shown to be predictive\r\nof early osteogenicity, we deem the SOX9/RUNX2 ratio to indicate a favorable chondrogenic phenotype at\r\nearlier time points.23\r\nMSCs cultivated in vitro express higher levels of COL10A1 when exposed to TGF-b1.24 Indeed, loading\r\nincreased COL10A1 gene expression, with a peak after 25 days and the highest levels were found in loaded\r\nscaffolds, where the highest amount of active TGF-b1 was detected. The role of TGF-b1 in the fibrotic\r\nresponse has been well studied.25–27 Unsurprisingly, higher TGF-b1 levels also correlated with higher\r\nCol1A1 gene expression levels.\r\n***\r\n0\r\n2\r\n4\r\n6\r\nUL MWB\r\nNitrite concentration\r\nper DNA (μM/μg)\r\nOverall mean Donor 123\r\nFigure 8. Nitrite content\r\nNitrite content within the conditioned medium after 25 days. All values are normalized to the DNA content of the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "respective scaffolds. UL: unloaded controls; MWB: multi-well bioreactor. Error bars show SEM. ***p < 0.001. Estimated\r\nmarginal means are adjusted using the Tukey method.\r\nll\r\nOPEN ACCESS\r\niScience 26, 107092, July 21, 2023 7\r\niScience\r\nArticle\nIn agreement with previous data, mechanical loading in the MWB increased the production of TGF-b1 by\r\nthe MSCs and also activated the latent TGF-b1.12,19,28 The mechanical activation of TGF-b is a key advan\u0002tage of this system. TGF-b1, in its active form, is a key regulator of chondrogenesis. Interestingly, in a pre\u0002vious experiment, we showed that a larger counterface surface applying mechanical load onto the scaffold\r\nresulted in a higher TGF-b1 activation.19 In this study, the counterface surface used in the MWB is also\r\nlarger than in the 4-station bioreactor, thereby confirming this finding.\r\nIncreased active TGF-b1 correlates with total sGAG content (in samples and supernatant)19 and the major\u0002ity of sGAG was secreted into the medium, which has also been confirmed in previous studies using this\r\nmaterial combination.12,29 We hypothesize that the fibrin is not able to retain the sGAG as well. In fact,\r\ninternal, unpublished data from another bioreactor experiment confirms that a material such as gelatin\r\nmethacryloyl can better retain the sGAG.\r\nIn this study, more sGAG was detected retained within loaded samples compared to UL, while more total\r\nsGAG—within both supernatant and sample construct—was detected in UL compared to the MWB. Simi\u0002larly, the Safranin O/Fast Green staining only exhibited sGAG matrix deposition in samples exposed to me\u0002chanical loading. There is potentially a negative feedback loop that impedes sGAG production if there is\r\nalready enough sGAG within the pericellular matrix.\r\nDespite the increase in IGF1 expression in MWB samples, IGF-1 protein in the media, while detected, was\r\nbelow the threshold of the lowest standard in the ELISA standard curve. Previously, van Osch et al.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "showed that IGF-1 increases proteoglycan deposition within the cell-associated matrix compared to\r\nOverall mean Donor 123\r\n***\r\n0.0\r\n2.5\r\n5.0\r\n7.5\r\nUL MWB\r\nsGAG scaffold content\r\nper DNA (µg/µg)\r\nA ***\r\n0\r\n30\r\n60\r\n90\r\nUL MWB\r\nsGAG conditioned medium\r\ncontent per DNA (µg/µg)\r\nB\r\nConditioned medium\r\nScaffold\r\n123\r\nDonors\r\n0\r\n25\r\n50\r\n75\r\n100\r\nUL MWB\r\nsGAG content per DNA (µg/µg)\r\nC\r\nFigure 9. sGAG content\r\n(A–C) sGAG detected in (A) the scaffolds, (B) the conditioned medium, and (C) in total (conditioned medium + scaffold)\r\nafter 25 days. Red color indicates sGAG found in the scaffolds and blue color indicates what was found in the conditioned\r\nmedium. The different transparencies indicate different donors. All values are normalized to the DNA content of the\r\nrespective scaffolds. UL: unloaded controls; MWB: multi-well bioreactor. For (A) and (B), error bars show SEM.\r\n***p < 0.001. Estimated marginal means are adjusted using the Tukey method.\r\nll\r\nOPEN ACCESS\r\n8 iScience 26, 107092, July 21, 2023\r\niScience\r\nArticle\nfurther-removed matrix that would not be retained in the scaffold.30 We hypothesize that there is an in\u0002crease in endogenous IGF-1 expression which cannot be detected in the conditioned medium, since the\r\nlow levels of endogenous growth factor have been internalized by the cells. This could have resulted in\r\nhigher sGAG retention within the scaffolds. Methods to establish pericellular versus bulk media concentra\u0002tions would be needed to confirm this.\r\nIn summary, an MWB for cartilage TE was developed that is able to drive MSCs toward chondrogenesis.\r\nThis can be combined with exogenous growth factors and used for classical TE studies or alternatively\r\ncan be used to investigate pure mechanically induced chondrogenesis in the context of regenerative\r\nmedicine and rehabilitation protocols. The ease of maintenance and handling, and the higher throughput\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "provide a great opportunity for its use in the testing of TE constructs.\r\nLimitations of the study\r\nCurrently, this bioreactor can only run one defined loading protocol in terms of compressive strain. How\u0002ever, for future prototypes, we intend to implement a modular counterface system with different geome\u0002tries that enable different loading protocols.\r\nSTAR+METHODS\r\nDetailed methods are provided in the online version of this paper and include the following:\r\nd KEY RESOURCES TABLE\r\nd RESOURCE AVAILABILITY\r\nB Lead contact\r\nB Materials availability\r\nB Data and code availability\r\nd EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS\r\nB Culture of human mesenchymal stromal cells\r\nd METHOD DETAILS\r\nB Seeding of cells into scaffolds\r\nB Mechanical loading in bioreactors\r\nB Sample and medium collection\r\nB Biochemical assays\r\nFigure 10. Histology\r\nSafranin O/Fast Green staining of mechanically loaded and unloaded constructs. Scale bar: 1 mm. UL: unloaded controls;\r\nMWB: multi-well bioreactor.\r\nll\r\nOPEN ACCESS\r\niScience 26, 107092, July 21, 2023 9\r\niScience\r\nArticle\nB Gene expression analysis\r\nB Histology\r\nd QUANTIFICATION AND STATISTICAL ANALYSIS\r\nSUPPLEMENTAL INFORMATION\r\nSupplemental information can be found online at https://doi.org/10.1016/j.isci.2023.107092.\r\nACKNOWLEDGMENTS\r\nShould researchers working in the field of cartilage TE be interested in manufacturing such a bioreactor\r\nthemselves, they can contact the last author of this paper for any information, such as schematics. We\r\ncan provide sufficient details to any laboratory wishing to reproduce the device.\r\nA special thank you goes to Thomas Kru¨ ger for the CAD images and movie of the MWB.\r\nFunding\r\nThis work was funded by the Swiss National Science Foundation (31003A_179438) and the AO Foundation.\r\nAUTHOR CONTRIBUTIONS\r\nConceptualization: A.R.A. and M.J.S.; Methodology: H.K. and Y.L.; Formal analysis: Y.L., A.R.A., and M.J.S.;\r\nInvestigation: A.R.A. and Y.L.; Resources: M.J.S. and Y.L.; Writing—original draft preparation: Y.L. and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "A.R.A.; Writing—review and editing: Y.L., A.R.A., H.K., and M.J.S.; Supervision: A.R.A. and M.J.S.; Project\r\nadministration: M.J.S.; Funding acquisition: M.J.S. All authors have read and agreed to the published\r\nversion of the manuscript.\r\nDECLARATION OF INTERESTS\r\nThe authors declare no competing interests.\r\nINCLUSION AND DIVERSITY\r\nWe support inclusive, diverse, and equitable conduct of research.\r\nReceived: November 22, 2022\r\nRevised: March 20, 2023\r\nAccepted: June 7, 2023\r\nPublished: June 9, 2023\r\nREFERENCES\r\n1. Mow, V.C., Ratcliffe, A., and Poole, A.R.\r\n(1992). Cartilage and diarthrodial joints as\r\nparadigms for hierarchical materials and\r\nstructures. Biomaterials 13, 67–97. https://\r\ndoi.org/10.1016/0142-9612(92)90001-5.\r\n2. Buckwalter, J.A. (2002). Articular cartilage\r\ninjuries. Clin. Orthop. Relat. Res. 402, 21–37.\r\nhttps://doi.org/10.1097/00003086-\r\n200209000-00004.\r\n3. Thomas, A.C., Hubbard-Turner, T., Wikstrom,\r\nE.A., and Palmieri-Smith, R.M. (2017).\r\nEpidemiology of posttraumatic\r\nosteoarthritis. J. Athl. Train. 52, 491–496.\r\nhttps://doi.org/10.4085/1062-6050-51.5.08.\r\n4. Sugimoto, A., Miyazaki, A., Kawarabayashi,\r\nK., Shono, M., Akazawa, Y., Hasegawa, T.,\r\nUeda-Yamaguchi, K., Kitamura, T., Yoshizaki,\r\nK., Fukumoto, S., and Iwamoto, T. (2017).\r\nPiezo type mechanosensitive ion channel\r\ncomponent 1 functions as a regulator of the\r\ncell fate determination of mesenchymal stem\r\ncells. Sci. Rep. 7, 17696. https://doi.org/10.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "1038/s41598-017-18089-0.\r\n5. Wimmer, M.A., Grad, S., Kaup, T., Ha¨nni, M.,\r\nSchneider, E., Gogolewski, S., and Alini, M.\r\n(2004). Tribology approach to the\r\nengineering and study of articular cartilage.\r\nTissue Eng. 10, 1436–1445. https://doi.org/\r\n10.1089/ten.2004.10.1436.\r\n6. Estes, B.T., Gimble, J.M., and Guilak, F.\r\n(2004). Mechanical signals as regulators of\r\nstem cell fate. Curr. Top. Dev. Biol. 60,\r\n91–126. https://doi.org/10.1016/S0070-\r\n2153(04)60004-4.\r\n7. Stampoultzis, T., Guo, Y., Nasrollahzadeh, N.,\r\nKarami, P., and Pioletti, D.P. (2023).\r\nMimicking loading-induced cartilage self\u0002heating in vitro promotes matrix formation in\r\nchondrocyte-laden constructs with different\r\nmechanical properties. ACS Biomater. Sci.\r\nEng. 9, 651–661. https://doi.org/10.1021/\r\nacsbiomaterials.2c00723.\r\n8. Lee, J.K., Huwe, L.W., Paschos, N., Aryaei, A.,\r\nGegg, C.A., Hu, J.C., and Athanasiou, K.A.\r\n(2017). Tension stimulation drives tissue\r\nformation in scaffold-free systems. Nat.\r\nMater. 16, 864–873. https://doi.org/10.1038/\r\nnmat4917.\r\n9. Iwasa, K., and Reddi, A.H. (2018). Pulsed\r\nelectromagnetic fields and tissue\r\nengineering of the joints. Tissue Eng. B Rev.\r\n24, 144–154. https://doi.org/10.1089/ten.teb.\r\n2017.0294.\r\n10. Russell, W.M.S., and Burch, R.L. (1959). The\r\nPrinciples of Humane Experimental\r\nTechnique (Methuen).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "11. Tannenbaum, J., and Bennett, B.T. (2015).\r\nRussell and Burch’s 3Rs then and now: the\r\nneed for clarity in definition and purpose.\r\nJ. Am. Assoc. Lab. Anim. Sci. 54, 120–132.\r\n12. Li, Z., Kupcsik, L., Yao, S.J., Alini, M., and\r\nStoddart, M.J. (2010). Mechanical load\r\nll\r\nOPEN ACCESS\r\n10 iScience 26, 107092, July 21, 2023\r\niScience\r\nArticle\nmodulates chondrogenesis of human\r\nmesenchymal stem cells through the TGF\u0002beta pathway. J. Cell Mol. Med. 14, 1338–\r\n1346. https://doi.org/10.1111/j.1582-4934.\r\n2009.00780.x.\r\n13. Gardner, O.F.W., Fahy, N., Alini, M., and\r\nStoddart, M.J. (2017). Joint mimicking\r\nmechanical load activates TGFbeta1 in fibrin\u0002poly(ester-urethane) scaffolds seeded with\r\nmesenchymal stem cells. J. Tissue Eng.\r\nRegen. Med. 11, 2663–2666. https://doi.org/\r\n10.1002/term.2210.\r\n14. Zhao, M., An, M., Wang, Q., Liu, X., Lai, W.,\r\nZhao, X., Wei, S., and Ji, J. (2012).\r\nQuantitative proteomic analysis of human\r\nosteoblast-like MG-63 cells in response to\r\nbioinert implant material titanium and\r\npolyetheretherketone. J. Proteonomics 75,\r\n3560–3573. https://doi.org/10.1016/j.jprot.\r\n2012.03.033.\r\n15. Fahy, N., Alini, M., and Stoddart, M.J. (2018).\r\nMechanical stimulation of mesenchymal stem\r\ncells: implications for cartilage tissue\r\nengineering. J. Orthop. Res. 36, 52–63.\r\nhttps://doi.org/10.1002/jor.23670.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "16. Steadman, J.R., Rodkey, W.G., and Rodrigo,\r\nJ.J. (2001). Microfracture: surgical technique\r\nand rehabilitation to treat chondral defects.\r\nClin. Orthop. Relat. Res. 391, S362–S369.\r\nhttps://doi.org/10.1097/00003086-\r\n200110001-00033.\r\n17. Meinert, C., Schrobback, K., Hutmacher,\r\nD.W., and Klein, T.J. (2017). A novel\r\nbioreactor system for biaxial mechanical\r\nloading enhances the properties of tissue\u0002engineered human cartilage. Sci. Rep. 7,\r\n16997. https://doi.org/10.1038/s41598-017-\r\n16523-x.\r\n18. Di Federico, E., Bader, D.L., and Shelton, J.C.\r\n(2014). Design and validation of an in vitro\r\nloading system for the combined application\r\nof cyclic compression and shear to 3D\r\nchondrocytes-seeded agarose constructs.\r\nMed. Eng. Phys. 36, 534–540. https://doi.org/\r\n10.1016/j.medengphy.2013.11.007.\r\n19. Ladner, Y.D., Armiento, A.R., Kubosch, E.J.,\r\nSnedeker, J.G., and Stoddart, M.J. (2022).\r\nOptimization of loading protocols for tissue\r\nengineering experiments. Sci. Rep. 12, 5094.\r\nhttps://doi.org/10.1038/s41598-022-08849-y.\r\n20. Bell, D.M., Leung, K.K., Wheatley, S.C., Ng,\r\nL.J., Zhou, S., Ling, K.W., Sham, M.H.,\r\nKoopman, P., Tam, P.P., and Cheah, K.S.\r\n(1997). SOX9 directly regulates the type-II\r\ncollagen gene. Nat. Genet. 16, 174–178.\r\nhttps://doi.org/10.1038/ng0697-174.\r\n21. Monaco, G., El Haj, A.J., Alini, M., and\r\nStoddart, M.J. (2021). Sodium hyaluronate\r\nsupplemented culture medium combined\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "with joint-simulating mechanical loading\r\nimproves chondrogenic differentiation of\r\nhuman mesenchymal stem cells. Eur. Cell.\r\nMater. 41, 616–632. https://doi.org/10.22203/\r\neCM.v041a40.\r\n22. Flannery, C.R., Hughes, C.E., Schumacher,\r\nB.L., Tudor, D., Aydelotte, M.B., Kuettner,\r\nK.E., and Caterson, B. (1999). Articular\r\ncartilage superficial zone protein (SZP) is\r\nhomologous to megakaryocyte stimulating\r\nfactor precursor and Is a multifunctional\r\nproteoglycan with potential growth\u0002promoting, cytoprotective, and lubricating\r\nproperties in cartilage metabolism. Biochem.\r\nBiophys. Res. Commun. 254, 535–541.\r\nhttps://doi.org/10.1006/bbrc.1998.0104.\r\n23. Loebel, C., Czekanska, E.M., Bruderer, M.,\r\nSalzmann, G., Alini, M., and Stoddart, M.J.\r\n(2015). In vitro osteogenic potential of human\r\nmesenchymal stem cells is predicted by\r\nRunx2/Sox9 ratio. Tissue Eng. 21, 115–123.\r\nhttps://doi.org/10.1089/ten.TEA.2014.0096.\r\n24. Johnstone, B., Hering, T.M., Caplan, A.I.,\r\nGoldberg, V.M., and Yoo, J.U. (1998). In vitro\r\nchondrogenesis of bone marrow-derived\r\nmesenchymal progenitor cells. Exp. Cell Res.\r\n238, 265–272. https://doi.org/10.1006/excr.\r\n1997.3858.\r\n25. Leask, A., and Abraham, D.J. (2004). TGF\u0002beta signaling and the fibrotic response.\r\nFaseb. J. 18, 816–827. https://doi.org/10.\r\n1096/fj.03-1273rev.\r\n26. Border, W.A., and Noble, N.A. (1994).\r\nTransforming growth-factor-beta in tissue\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "fibrosis. N. Engl. J. Med. 331, 1286–1292.\r\n27. Meng, X.-m., Nikolic-Paterson, D.J., Lan, H.Y.,\r\nand Nikolic-Paterson, D.J. (2016). TGF-b: the\r\nmaster regulator of fibrosis. Nat. Rev.\r\nNephrol. 12, 325–338.\r\n28. Behrendt, P., Ladner, Y., Stoddart, M.J.,\r\nLippross, S., Alini, M., Eglin, D., and\r\nArmiento, A.R. (2020). Articular joint\u0002simulating mechanical load activates\r\nendogenous TGF-beta in a highly cellularized\r\nbioadhesive hydrogel for cartilage repair.\r\nAm. J. Sports Med. 48, 210–221. https://doi.\r\norg/10.1177/0363546519887909.\r\n29. Li, Z., Yao, S.J., Alini, M., and Stoddart, M.J.\r\n(2010). Chondrogenesis of human bone\r\nmarrow mesenchymal stem cells in fibrin\u0002polyurethane composites is modulated by\r\nfrequency and amplitude of dynamic\r\ncompression and shear stress. Tissue Eng. 16,\r\n575–584. https://doi.org/10.1089/ten.TEA.\r\n2009.0262.\r\n30. van Osch, G.J., van den Berg, W.B., Hunziker,\r\nE.B., and Ha¨uselmann, H.J. (1998). Differential\r\neffects of IGF-1 and TGF beta-2 on the\r\nassembly of proteoglycans in pericellular and\r\nterritorial matrix by cultured bovine articular\r\nchondrocytes. Osteoarthritis Cartilage 6,\r\n187–195. https://doi.org/10.1053/joca.\r\n1998.0111.\r\n31. Armiento, A.R., Ladner, Y.D., Della Bella, E.,\r\nand Stoddart, M.J. (2023). Isolation and\r\nin vitro chondrogenic differentiation of\r\nhuman bone marrow-derived mesenchymal\r\nstromal cells. In Cartilage Tissue Engineering,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "M.J. Stoddart, E. Della Bella, and A.R.\r\nArmiento, eds. (Springer US)), pp. 65–73.\r\nhttps://doi.org/10.1007/978-1-0716-\r\n2839-3_6.\r\n32. Li, Z., Kupcsik, L., Yao, S.J., Alini, M., and\r\nStoddart, M.J. (2009). Chondrogenesis of\r\nhuman bone marrow mesenchymal stem cells\r\nin fibrin-polyurethane composites. Tissue\r\nEng. 15, 1729–1737. https://doi.org/10.1089/\r\nten.tea.2008.0247.\r\n33. Gardner, O.F.W., Musumeci, G., Neumann,\r\nA.J., Eglin, D., Archer, C.W., Alini, M., and\r\nStoddart, M.J. (2017). Asymmetrical seeding\r\nof MSCs into fibrin-poly(ester-urethane)\r\nscaffolds and its effect on mechanically\r\ninduced chondrogenesis. J. Tissue Eng.\r\nRegen. Med. 11, 2912–2921. https://doi.org/\r\n10.1002/term.2194.\r\n34. Lee, C.R., Grad, S., Gorna, K., Gogolewski, S.,\r\nGoessl, A., and Alini, M. (2005). Fibrin\u0002polyurethane composites for articular\r\ncartilage tissue engineering: a preliminary\r\nanalysis. Tissue Eng. 11, 1562–1573. https://\r\ndoi.org/10.1089/ten.2005.11.1562.\r\n35. Kupcsik, L., Stoddart, M.J., Li, Z., Benneker,\r\nL.M., and Alini, M. (2010). Improving\r\nchondrogenesis: potential and limitations of\r\nSOX9 gene transfer and mechanical\r\nstimulation for cartilage tissue engineering.\r\nTissue Eng. 16, 1845–1855. https://doi.org/\r\n10.1089/ten.TEA.2009.0531.\r\n36. Ladner, Y.D., Alini, M., and Armiento, A.R.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "(2023). The dimethylmethylene blue assay\r\n(DMMB) for the quantification of sulfated\r\nglycosaminoglycans. In Cartilage Tissue\r\nEngineering, M.J. Stoddart, E. Della Bella,\r\nand A.R. Armiento, eds. (Springer US)),\r\npp. 115–121. https://doi.org/10.1007/978-1-\r\n0716-2839-3_9.\r\n37. Sigma TRI Reagent\u0002 protocol. https://\r\nwww.sigmaaldrich.com/CH/en/technical\u0002documents/protocol/protein-biology/\r\nprotein-lysis-and-extraction/tri-reagent.\r\n38. Livak, K.J., and Schmittgen, T.D. (2001).\r\nAnalysis of relative gene expression data\r\nusing real-time quantitative PCR and the 2(-\r\nDelta Delta C(T)) Method. Methods 25,\r\n402–408. https://doi.org/10.1006/meth.\r\n2001.1262.\r\n39. R Core Team (2022). R: A Language and\r\nEnvironment for Statistical Computing.\r\n40. RStudio Team (2022). RStudio (Integrated\r\nDevelopment for R).\r\nll\r\nOPEN ACCESS\r\niScience 26, 107092, July 21, 2023 11\r\niScience\r\nArticle\nSTAR+METHODS\r\nKEY RESOURCES TABLE\r\nREAGENT or RESOURCE SOURCE IDENTIFIER\r\nBiological samples\r\nHuman bone marrow derived mesenchymal\r\nstem/stromal cells\r\nBone marrow donors\r\n(Freiburg, EK-326/08)\r\nN/A\r\nChemicals, peptides, and recombinant proteins\r\nProteinase K Sigma-Aldrich SKU: 3115879001 (Roche)\r\nHistopaque\u0002-1077 Sigma-Aldrich SKU: 10771-500ML\r\nMinimum Essential Medium alpha (aMEM) Thermo Fisher Cat#: 12000063 (Gibco)\r\nFetal bovine serum (Sera Plus) Pan Biotech P30-3702\r\nPenicillin-Streptomycin Thermo Fisher Cat#: 15140122 (Gibco)\r\nFGF basic protein fisher scientific Cat#: 50-187-0612 (Fitzgerald\r\nIndustries International)\r\nFibrinogen from human plasma Sigma-Aldrich SKU: F4883\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Thrombin from human plasma Sigma-Aldrich SKU: T4393\r\nDulbecco’s modified Eagle medium Thermo Fisher Cat#: 52100039 (Gibco)\r\nSodium pyruvate Sigma-Aldrich SKU: P5280\r\nL-Ascorbic acid 2-phosphate\r\nsesquimagnesium salt hydrate\r\nSigma-Aldrich SKU: A8960\r\nDexamethasone Sigma-Aldrich SKU: D2915\r\n6-Aminocaproic acid Sigma-Aldrich SKU: A7824\r\nNon-Essential Amino Acids Solution (100X) Thermo Fisher Cat#: 11140050\r\nITS+ Premix Universal Culture Supplement Corning Prod#: 354352\r\nHoechst dye (bisBenzimide H 33258) Sigma-Aldrich SKU: 14530\r\n1,9-Dimethyl-Methylene Blue zinc chloride\r\ndouble salt (DMMB dye)\r\nSigma-Aldrich SKU: 341088\r\nTRI Reagent\u0002 Molecular Research Center Inc. TR 118\r\nPolyacryl Carrier Molecular Research Center Inc. PC 152\r\nCritical commercial assays\r\nHuman TGF-beta 1 DuoSet ELISA R&D Systems Cat#: DY240\r\nHuman IGF-I/IGF-1 DuoSet ELISA R&D Systems Cat#: DY291\r\nMultiScribe\u0003 Reverse Transcriptase Invitrogen Cat#: 4311235\r\nSoftware and algorithms\r\nR (version 4.2.1) R Core Team https://www.r-project.org/\r\nRStudio (2022.7.1.554) Posit Software, PBC https://posit.co/download/rstudio-desktop/\r\nLabView National Instruments https://www.ni.com/it-it/shop/labview.html\r\nLabView code for device This paper Methods S1\r\nOther\r\nInfinite\u0002 200 PRO Tecan N/A\r\nTissueLyser II Qiagen N/A\r\nQuantStudio\u0003 6 Pro Real-Time PCR System Thermo Fisher N/A\r\nMetal beads MARTIN & C N/A\r\nll\r\nOPEN ACCESS\r\n12 iScience 26, 107092, July 21, 2023\r\niScience\r\nArticle\nRESOURCE AVAILABILITY\r\nLead contact\r\nFurther information and requests for resources and reagents should be directed to and will be fulfilled by\r\nthe lead contact, Martin Stoddart (martin.stoddart@aofoundation.org).\r\nMaterials availability\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "This study did not generate nor use any new unique reagents.\r\nData and code availability\r\nd All data produced in this study are included in the published article and its supplemental information, or\r\nare available from the lead contact upon request.\r\nd All original code has been added as supplementary information.\r\nd Any additional information required to reanalyze the data reported in this paper is available from the\r\nlead contact upon request.\r\nEXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS\r\nCulture of human mesenchymal stromal cells\r\nHuman MSCs were isolated with full ethical approval (Freiburg, EK-326/08) and written informed donor\r\nconsent from bone marrow aspirates of three donors (two females aged 57 and 68; one male aged 55) using\r\nFicoll (Histopaque-1077, Sigma-Aldrich) density gradient and plastic adhesion.31\r\nThe MSCs were expanded in Minimum Essential Medium alpha (aMEM, Gibco) supplemented with 10% (v/v)\r\nfetal bovine serum (Sera Plus, Pan Biotech), 1% (v/v) Penicillin-Streptomycin (P/S, 100 U/mL penicillin and\r\n100 mg/mL streptomycin, Gibco) and 5 ng/mL recombinant human fibroblast growth factor basic protein\r\n(FGF-b, Fitzgerald Industries International) until passage 4.\r\nMETHOD DETAILS\r\nSeeding of cells into scaffolds\r\n4.53106 cells were seeded into a cylindrical fibrin-poly(ester-urethane) (fibrin-PU) scaffold (average salt\r\nleached pore size between 150 and 300 mm) with a thickness of 4 mm and a diameter of 8 mm according\r\nto previous protocols.32,33 Briefly, the cells were resuspended in 50 mg/mL fibrinogen (Sigma-Aldrich)\r\nand added to the sterile lid of a 1.5-mL Eppendorf tube. An equal volume of a 4 U/mL thrombin solution\r\n(Sigma-Aldrich) was then mixed with the fibrinogen-cell solution and the porous scaffold was pressed\r\ninto the lid. Repeated compression of the scaffold using tweezers allowed for the influx of the cell\r\nsuspension into the pores and even cell distribution as previously shown.34 Afterward, the scaffolds were\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "transferred to a cell culture incubator (37\u0001C, 5% CO2 and 95% rH) for 40 min. Another 0.53106 cells were\r\nsuspended in Dulbecco’s modified Eagle medium 4.5 g/L glucose (DMEM, Gibco) and seeded on top of\r\nthe scaffolds with subsequent incubation for 1 h, as originally described by Gardner et al.33\r\nThereafter, the scaffolds were placed into PEEK sample holders that allowed for mechanical stimulation\r\nand then into the bioreactor within a cell culture incubator. The scaffold samples were cultured in chondro\u0002permissive medium (CpM) consisting of 4.5 g/L glucose DMEM, 0.11 g/L sodium pyruvate (Sigma-Aldrich),\r\n50 mg/mL L-ascorbic acid 2-phosphate sesquimagnesium salt hydrate (Sigma-Aldrich), 100 nM dexameth\u0002asone (Sigma-Aldrich), Corning ITS+ Premix (6.25 mg/mL human recombinant insulin, 6.25 mg/mL human\r\nnatural transferrin, 6.25 ng/mL selenious acid, 1.25 mg/mL bovine serum albumin, 5.35 mg/mL linoleic\r\nacid, Thermo Fisher), 1% non-essential amino acids (Gibco), 1% (v/v) P/S and 5 mM 6-aminocaproic acid\r\n(Sigma-Aldrich). The culture conditions were kept constant at 37\u0001C, 5% CO2 and 95% rH.\r\nMechanical loading in bioreactors\r\nSample constructs were transferred to the MWB and subjected to a loading protocol based on a standard\r\nprotocol.12,35 A compressive strain of 10–30% was chosen due to studies indicating improved chondrogen\u0002esis with increased amplitude.19,29 The scaffolds were loaded 20 times for 1 h per day within a total duration\r\nof 25 days. Unloaded controls were kept in unloaded (UL) conditions within a cell culture incubator.\r\nll\r\nOPEN ACCESS\r\niScience 26, 107092, July 21, 2023 13\r\niScience\r\nArticle\nSample and medium collection\r\nConditioned media from each sample was collected and replaced every second day and stored at \u000320\u0001C\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "for later biochemical analysis. In total, there were 12 samples of collected conditioned medium (day\r\n0 conditioned medium sample included, which is 1 day after seeding and before the first loading) for\r\neach scaffold. At the end of the culture period, scaffold samples were cut in halves and either prepared\r\nfor biochemical analysis, RNA isolation or histology.\r\nBiochemical assays\r\nFor biochemical analysis, the scaffold halves were digested in 1 mL 0.5 mg/mL proteinase K (pK, Roche) at\r\n56\u0001C for 16 h. The pK reaction was inactivated at 96\u0001C for 10 min and the samples were stored at \u000320\u0001C.\r\nDNA content in pK digested scaffold halves was measured using Hoechst 33258 dye (Sigma) and the\r\nfluorescence measured at an excitation at 355 nm and emission at 460 nm. The 1,9-dimethylmethylene\r\nblue (DMMB) assay was used to quantify the sulfated glycosaminoglycan (sGAG) content in the condi\u0002tioned medium and pK digested samples. Absorbance was measured at 530 nm and the highest standard\r\nin the wells contained 1.25 mg, since at higher contents, the standard curve could leave its linear range.36\r\nsGAG/DNA was calculated as total sGAG produced during the culture period (scaffold and medium)\r\ndivided by the DNA content of the scaffold.\r\nDuoSet ELISA kits (R&D Systems) were used to quantify both secreted IGF1 (IGF-1) and TGF-b1 protein in\r\nthe conditioned medium, according to manufacturer’s instructions. Absorbances were measured 450 nm\r\nand 560 nm and the values obtained at 560 nm were subtracted from the values obtained at 450 nm and\r\nthe concentrations were calculated by fitting a four-parameter logistic curve. Total produced TGF-b1\r\nwas measured by activating it through acidification and neutralization of the samples, before adding the\r\nsample to the plate. Therefore, total produced TGF-b1 consists of already active and activated TGF-b1.\r\nThe different biochemical assays were measured using an Infinite 200 PRO (Tecan) plate reader.’’\r\nGene expression analysis\r\nFor RNA analysis, the scaffold halves were transferred to 1 mL TRI reagent +5 mL Polyacryl Carrier (both\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Molecular Research Center Inc., Cincinnati, OH, USA) and 5 mm metal balls (MARTIN & C) within 2-mL Ep\u0002pendorf Safe-Lock Tubes (Eppendorf). The samples were then homogenized in the TissueLyser II (Qiagen)\r\nfor 2 3 3 min at 30 Hz. All the steps were conducted at room temperature. After homogenization, the su\u0002pernatant was transferred to a new 2-mL Eppendorf tube for subsequent RNA isolation according to\r\nSigma’s TRI Reagent Protocol.37 After isolation, the RNA was reverse transcribed using the MultiScribe\u0003\r\nReverse Transcriptase (Invitrogen\u0003). qRT-PCR within the QuantStudio 6 Pro Real-Time PCR System\r\n(ThermoFisher) was used to quantify the gene expression levels of collagens type I (COL1A1), type II\r\n(COL2A1), type X (COL10A1), aggrecan (ACAN), runt-related transcription factor 2 (RUNX2), proteoglycan\r\n4 (PRG4), IGF1, SRY-box transcription factor (SOX9), and ribosomal protein lateral stalk subunit P0 (RPLP0).\r\nPrimers and probes for qRT-PCR are listed in the Table below. The gene expression was analyzed using the\r\n2\u0003DDCT method38 with RPLP0 as housekeeping gene and relative to day 0 (1 day after seeding and before\r\nthe first loading). For ACAN, COL2A1, and PRG4, no mRNA was detected for day 0 for some donors. There\u0002fore, the 2\u0003DCT is plotted instead.\r\nPrimers and probe sequences for qRT-PCR\r\nGene Forward primer Reverse primer Probe\r\nRPLP0 50-TGGGCAAGAACA\r\nCCATGATG-30\r\n50-CGGATATGAGGCA\r\nGCAGTTTC-30\r\n50-AGGGCACCTGGAAA\r\nACAACCCAGC-30\r\nCOL1A1 50-CCCTGGAAAGAA\r\nTGGAGATGAT-30\r\n50-ACTGAAACCTCTGT\r\nGTCCCTTCA-30\r\n50-CGGGCAATCCTCGAG\r\nCACCCT-30\r\nCOL2A1 50-GGCAATAGCAGGT\r\nTCACGTACA-30\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "50-GATAACAGTCTTGC\r\nCCCACTTACC-30\r\n50-CCTGAAGGATGGCTG\r\nCACGAAACATAC-30\r\nCOL10A1 50-ACGCTGAACGATA\r\nCCAAATG-30\r\n50-TGCTATACCTTTACT\r\nCTTTATGGTGTA-30\r\n50-ACTACCCAACACCAAG\r\nACACAGTTCTTCATTCC-30\r\nACAN 50-AGTCCTCAAGCCT\r\nCCTGTACTCA-30\r\n50-CGGGAAGTGGCGGT\r\nAACA-30\r\n50-CCGGAATGGAAACGTG\r\nAATCAGAATCAACT-30\r\n(Continued on next page)\r\nll\r\nOPEN ACCESS\r\n14 iScience 26, 107092, July 21, 2023\r\niScience\r\nArticle\nHistology\r\nFor histology, the halves were fixed with 10% neutral buffered Formalin solution (Sigma-Aldrich) at\r\nroom temperature for 24 h, then transferred to 70% ethanol at 4\u0001C, and subsequently embedded in\r\nparaffin.\r\nHistological samples were sectioned at a thickness of 5 mm, then deparaffinized using xylene and subse\u0002quently hydrated. Following sectioning, proteoglycans were visualized using the Safranin O/Fast Green\r\n(both Sigma) staining and counterstained with Weigert’s haematoxylin (Merck).\r\nQUANTIFICATION AND STATISTICAL ANALYSIS\r\nThe experiment was performed with three biological repeats (n = 3). Each time point had 2 technical re\u0002peats for PCR and sGAG/DNA. Statistical analysis was performed using R (version 4.2.1 (2022-06-23))39\r\nwithin the integrated development environment RStudio (2022.7.1.554).40 A linear mixed model with the\r\ninteraction between loading condition and the donor and time point (where applicable) as a random effect\r\nwas employed. Estimated marginal means were adjusted using the Tukey method. For the linear mixed\r\nmodel, the R packages lmer and lmerTest were used and for the estimated marginal means, the R package\r\nemmeans was used. Data are shown as mean G SEM of three independent experiments with cells from\r\nthree individual donors.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -9113196935433805101,
+        "filename": "main.PMC10318521.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 308,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Statistical significance was set at p < 0.05. In the graphs, statistical significance is denoted as follows:\r\n*p < 0.05, **p < 0.01, ***p < 0.001, and ****p < 0.0001.\r\nContinued\r\nGene Forward primer Reverse primer Probe\r\nRUNX2 50-AGCAAGGTTCAAC\r\nGATCTGAGAT-30\r\n50-TTTGTGAAGACGGTT\r\nATGGTCAA-30\r\n50-TGAAACTCTTGCCTCGTC\r\nCACTCCG-30\r\nPRG4 Assay IDa: Hs00981633_m1\r\nIGF1 Assay IDa\r\n: Hs01547656_m1\r\nSOX9 Assay IDa\r\n: Hs00165814_m1\r\nRPLP0: ribosomal protein lateral stalk subunit P0; COL1A1: collagen type I; COL2A1: collagen type II; COL10A1: collagen type X; ACAN: aggrecan; RUNX2: runt\u0002related transcription factor 2; PRG4: proteoglycan 4; IGF1: insulin like growth factor 1; SOX9: SRY-box transcription factor. a\r\nTaqMan\u0003 Gene Expression Assay.\r\nll\r\nOPEN ACCESS\r\niScience 26, 107092, July 21, 2023 15\r\niScience\r\nArticle\n\n"
+  }
+]

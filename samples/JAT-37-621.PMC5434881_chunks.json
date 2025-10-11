@@ -1,0 +1,1106 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "Physiologically based pharmacokinetic model\r\nfor ethyl tertiary-butyl ether and tertiary-butyl\r\nalcohol in rats: Contribution of binding to\r\nα2u–globulin in male rats and high-exposure\r\nnonlinear kinetics to toxicity and cancer\r\noutcomes\r\nSusan J. Borghoffa*, Caroline Ringa, Marcy I. Bantonb and Teresa L. Leavensc\r\nABSTRACT: In cancer bioassays, inhalation, but not drinking water exposure to ethyl tertiary-butyl ether (ETBE), caused liver\r\ntumors in male rats, while tertiary-butyl alcohol (TBA), an ETBE metabolite, caused kidney tumors in male rats following exposure\r\nvia drinking water. To understand the contribution of ETBE and TBA kinetics under varying exposure scenarios to these tumor\r\nresponses, a physiologically based pharmacokinetic model was developed based on a previously published model for methyl\r\ntertiary-butyl ether, a structurally similar chemical, and verified against the literature and study report data. The model included\r\nETBE and TBA binding to the male rat-specific protein α2u–globulin, which plays a role in the ETBE and TBA kidney response\r\nobserved in male rats. Metabolism of ETBE and TBA was described as a single, saturable pathway in the liver. The model predicted\r\nsimilar kidney AUC0–∞ for TBA for various exposure scenarios from ETBE and TBA cancer bioassays, supporting a male-rat-specific\r\nmode of action for TBA-induced kidney tumors. The model also predicted nonlinear kinetics at ETBE inhalation exposure\r\nconcentrations above ~2000 ppm, based on blood AUC0–∞ for ETBE and TBA. The shift from linear to nonlinear kinetics at\r\nexposure concentrations below the concentration associated with liver tumors in rats (5000 ppm) suggests the mode of\r\naction for liver tumors operates under nonlinear kinetics following chronic exposure and is not relevant for assessing human risk.\r\nCopyright © 2016 The Authors Journal of Applied Toxicology Published by John Wiley & Sons Ltd\r\nAdditional supporting information may be found in the online version of this article at the publisher’s web-site.\r\nKeywords: ethyl tertiary-butyl ether; PBPK model; tertiary-butyl alcohol; α2u–globulin nephropathy\r\nIntroduction\r\nEthyl tertiary-butyl ether (ETBE, CAS RN 637–92-3) is used as a fuel\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "oxygenate in unleaded gasoline to improve combustion efficiency,\r\nallowing the gasoline to burn more completely and thereby reduc\u0002ing exhaust emissions. The technical characteristics of ETBE sug\u0002gest that it is comparable to methyl tertiary-butyl ether (MTBE), a\r\nfuel oxygenate that had been more widely used until it was found\r\nto be mobile in groundwater. Based on concern for contamination\r\nof drinking-water sources (Malveda et al., 2009), MTBE was re\u0002moved from the US market. However, the much lower water solu\u0002bility of ETBE (23.7 g l\u00011\r\n), compared to MTBE (42 g l\u00011), is\r\nconsidered an advantage, because its mobility in groundwater will\r\nbe lower than that of MTBE in the event of leakage from an under\u0002ground storage tank (McGregor, 2007).\r\nIn the past 15 years, ETBE has not been used significantly as a\r\ngasoline additive in the USA and Europe. The US Geological Survey\r\n(2006; USGS Circular, 1292) reported that ETBE was detected in less\r\nthan 0.5% of public wells at concentrations of ~0.2 μg l\u00011\r\n, with less\r\nfrequent detection in domestic wells. In Japan, ETBE-blended gas\u0002oline has been used since 2007 (Eitaki et al., 2011). The maximum\r\natmospheric concentration of ETBE in the general environment is\r\nestimated to be ~0.0091 ppm ( JPEC, 2008a). Eitaki et al. (2011)\r\nreported that in Japan the geometric mean of 8 h time-weighted\r\naverage exposure (TWA-8 h) to ETBE was 0.08 ppm (0.02–\r\n0.28 ppm) for 28 gas-station workers and 0.04 ppm\r\n(0.01–0.21 ppm) in two gasoline tanker truck drivers. None of the\r\nexamined workers had a TWA-8 h exceeding the American Confer\u0002ence of Governmental Industrial Hygienists (ACGIH) threshold limit\r\nvalue (TLV) of 5 ppm, which was the threshold recommended by\r\nthe ACGIH at the time the Eitaki et al. (2011) study was published.\r\nThe current occupational ACGIH TLV established for ETBE is now\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "*Correspondence to: Susan Borghoff, ToxStrategies, Inc., Cary, NC, Austin, TX, USA,\r\n1249 Kildaire Farm Road #134, Cary, NC 27511, USA.\r\nE-mail: sborghoff@toxstrategies.com\r\na\r\nToxStrategies, Inc., Cary, NC, Austin, TX, USA\r\nb\r\nLyondell Chemical Company, Houston, TX, USA\r\nc\r\nPK Consultant, Cary, NC, USA\r\nThis is an open access article under the terms of the Creative Commons Attribution\u0002NonCommercial-NoDerivs License, which permits use and distribution in any me\u0002dium, provided the original work is properly cited, the use is non-commercial and\r\nno modifications or adaptations are made.\r\nJ. Appl. Toxicol. 2017; 37: 621–640 Copyright © 2016 The Authors Journal of Applied Toxicology Published by John Wiley & Sons Ltd\r\nResearch article\r\nReceived: 23 August 2016, Revised: 4 October 2016, Accepted: 4 October 2016 Published online in Wiley Online Library: 24 November 2016\r\n(wileyonlinelibrary.com) DOI 10.1002/jat.3412\r\n621\nTable 1. ETBE cancer study findings\r\nReference Species/ strain Exposure Non-neoplastic and neoplastic lesionsSuzuki et al. (2012) Rats/F344 ETBE drinking water: 0, 625, 2500 or 10 000 ppm Males: 0, 28,\r\n121, 542 mg kg\u00011 bw day\u00011 Females: 0, 46, 171, 560 mg kg\u00011\r\nbw day\u00011 7 days week\u00011 for 104 weeks\r\nNon-neoplastic: Increase in severity of CPN at 10 000 ppm in\r\nmale and female rats. Increased incidence of urothelialhyperplasia of the pelvis and mineral deposition in therenal papilla at\r\n≥2500 ppm in male rats. Neoplastic: No\r\nincrease in tumor incidence detected in any organ upto the highest daily dose, estimated to be 542–560 mg kg\u00011\r\nbw day\u00011\r\nSaito et al. (2013) Rats/F344 ETBE inhalation: Males and females: 0, 500, 1500 or\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "5000 ppm Exposure 6 h day\u00011, 5 day week\u00011 Note: authors\r\nreported that exposure concentration of 5000 ppmcorresponded to a daily uptake of 4222 mg kg\u00011 bw day\u00011\r\nin rats, assuming a minute volume of 561 ml min\u00011 and lung\r\nabsorption at 100%. However, this is an overestimate andassumes no exhalation of parent ETBE.\r\nNon-neoplastic: Increased incidence of eosinophilic and\r\nbasophilic cell foci in male rats at 5000 ppm. Increase inseverity of CPN at 5000 ppm in male and female rats.Increased incidence of urothelial hyperplasia of the pelvisat\r\n≥1500 ppm and mineral deposition in the renal papilla\r\nat 5000 ppm in male rats. Neoplastic: Increased incidenceof hepatocellular adenomas in male rats at 5000 ppm.\r\nHagiwara et al. (2015) Rats/Wistar Oral gavage: EHEN: 2 weeks initiation ETBE: 19 weeks\r\npromotion (0, 100, 300, 500 or 1000 mg kg\u00011 bw day\u00011\r\n,\r\n5 days week\u00011\r\nNeoplastic: Increased incidence of hepatocellular adenomas\r\nand combined hepatocellular adenomas and carcinomaspromoted with 1000 mg kg\u00011. Increased average number\r\nof atypical tubule hyperplasia (pre-neoplastic lesion).\r\nCirvello et al. (1995);\r\nNTP (1995)\r\nRats/F344 TBA drinking water: Males: 0, 1.25, 2.5 or 5 mg ml\u00011 (average\r\ndaily doses 85, 195 or 420 mg kg\u00011 bw day\u00011) for 104 weeks.\r\nFemales: 0, 2.5, 5 or 10 mg ml\u00011 (average daily doses 180,\r\n330 or 650 mg kg\u00011 bw day\u00011) for 104 weeks.\r\nNeoplastic: Increased incidence of renal tubule adenoma\r\nand carcinoma combined after extended evaluation inmale rats at 2.5, but not 5 mg ml\u00011 concentration.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "Transitional epithelial hyperplasia (extended evaluation) ofthe kidney in male rats (25: 50, 32: 50, 36: 50, 40: 50 withincreasing concentrations), with CPN severity ranging from3.1 to 3.3, and in female rats (0: 50, 0: 50, 3: 50, 1: 50 withincreasing concentrations), with CPN severity ranging from1.6 to 2.9.\r\nCPN, chronic progressive nephropathy; EHEN,\r\nN-ethyl\u0002N-(2-hydroxyethyl)nitrosamine; ETBE, ethyl tertiary-butyl ether; TBA, tertiary-butyl alcohol.\r\nS. J. Borghoff et al.\r\nCopyright © 2016 The Authors Journal of Applied Toxicology J. Appl. Toxicol. 2017; 37: 621–640\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n622\nTable 2. Data sets used for model development/verification and available in Supporting information\r\nStudy type Description of data collected Summary of data sets available in Supporting information Reference\r\nSingle IV dose of TBA (37.5, 75,\r\n150 and 300 mg kg\u00011) to male\r\nand female F344 rats\r\nTBA blood concentrations up to 24 h\r\npost-dose administration\r\nData were captured from figures 1 and 2 of publication\r\nusing Plot Digitizer version 2.6.3,http://plotdigitizer.sourceforge.net and converted\r\nfrom μM to mg l\u00011 using the molecular weight of\r\nTBA (74.12 g mol\u00011).\r\nPoet et al., 1997\r\nSingle oral gavage dose (1 or\r\n500 mg kg\u00011 14\r\nC–TBA) to male\r\nSD rats\r\nEquations reported for TBA equivalents\r\nin blood over time measured inblood/plasma at 0.5, 3, 6 and12 h following administration\r\nData from the cited study (tables 11, 15 and figures 6\r\nand 8) were extracted from this report and recalculatedfor use in the model based on the assumption thatthe distribution between blood and plasma =1.\r\nARCO Chemical Company\r\n(1983)*\r\nInhalation exposure to nominal\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "TBA concentrations (250, 450and 1750 ppm) for 6 h day\u00011 for\r\n1 or 8 days to male and femaleF344 rats\r\nTBA blood and kidney concentrations\r\nfollowing a single 6 h exposure(1 day) at 2, 4 and 6 h post-exposure\r\nThese data were available from conduct of the actual\r\nexperiments and used in the MTBE-TBA model.Ratio of the kidney/blood levels was calculatedand data provided.\r\nLeavens & Borghoff, 2009;\r\nBorghoff et al., 2001\r\nInhalation exposure to ETBE\r\nnominal concentrations (4.0 or40 ppm) for 4 h to male andfemale F344 rats\r\nETBE and TBA blood concentration at\r\nthe end of the 4 h exposure, amountof TBA up to 34 h post-exposureand cumulative metabolite excretionas percentage of dose.\r\nETBE and TBA blood concentrations from table 5\r\nfrom the study cited. TBA blood concentrationsfrom exposure were corrected for reportedbackground concentrations. Urinary amountsof TBA (mean ± SD) versus post-exposuretime were digitized from figure 4 from the studycited and corrected for background amount persample based on the mean total backgroundamount reported in table 5 of the study citedand the number of sample points (5). Correctedcumulative amount or TBA per time was calculatedfrom the amount in urine at each post-exposuretime point.\r\nAmberg et al., 2000\r\nSingle oral gavage dose (5 and\r\n400 mg kg\u00011 bw [14C]-ETBE)\r\nSD rats\r\nPlasma and urine samples collected\r\nup to 168 h post-administration.Metabolites in plasma and urinewere analyzed to examine chemicalstructures. Metabolite P5 wasidentified as TBA.\r\nConcentration of TBA in blood was calculated from\r\ntotal radioactivity in blood following administrationof 14\r\nC–ETBE, and the amount of TBA identified in\r\nthe sample by HPLC at 8 h post-administration of5 or 400 mg kg\u00011 bw. At the 24 h urine collection,\r\na combination of the total radioactivity in thesamples and the % of the radioactivity determinedto be TBA was used to calculate the total mg of TBA.\r\nJapan Petroleum Energy\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "Center ( JPEC) (2008b)a\r\nRepeated (14 days) oral gavage\r\ndose (5 mg kg\u00011 bw day\u00011\r\n[14C]-ETBE) SD rats\r\nPlasma and urine samples collected\r\nat 7 and 14 days post-administration.Metabolites in plasma and urinewere analyzed to examine chemical\r\nConcentration of TBA in blood was calculated from\r\ntotal radioactivity in blood following administrationof 14\r\nC–ETBE and the amount of TBA identified in\r\nthe sample by HPLC at 8 h post-administration of 5or 400 mg kg\u00011. At the 24 h urine collection, a\r\nJapan Petroleum Energy\r\nCenter ( JPEC) (2008c)a\r\n(Continues)\r\nPBPK model for ETBE-TBA in rats\r\nJ. Appl. Toxicol. 2017; 37: 621–640 Copyright © 2016 The Authors Journal of Applied Toxicology\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n623\n25 ppm (ACGIH, 2015), which is still significantly lower than the\r\nexposure concentrations used in animal toxicity and the cancer\r\nstudies discussed below.\r\nConsidering that the metabolism of ETBE is similar in both\r\nrodents and humans and is mediated through cytochrome\r\nP450 oxidation to tertiary-butyl alcohol (TBA) and acetaldehyde\r\n(McGregor, 2007), it is assumed that the internal dose metric\r\nmay very well be the same in these two species. Cytochrome\r\nP450 metabolic oxidation is commonly associated with vulnera\u0002bility to high-dose metabolic saturation. Several lines of evidence\r\nsupport ETBE being metabolized by liver P450 enzymes in\r\nhumans (CYP2A6) (Hong et al., 1999a; Le Gal et al., 2001) and rats\r\n(CYP2B1) (Turini et al., 1998) and a study in P450 2E1 knockout\r\nmice showed that this enzyme has a negligible contribution\r\n(Hong et al., 1999b). The two main metabolic products derived\r\nfrom the metabolism of ETBE’s major metabolite, TBA, are 2-\r\nmethyl-1,2-propanediol and α-hydroxyisobutyric acid (Bernauer\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "et al., 1998), both of which have been detected in the urine of\r\nrats and humans exposed to ETBE (Amberg et al., 1999).\r\nAs with MTBE, ETBE is not considered genotoxic, nor is TBA, the\r\nmajor metabolite of both these chemicals (McGregor, 2007). ETBE\r\nhas been found to be negative in bacterial mutation assays and\r\nchromosomal aberration assays in cultured mammalian cells\r\n(McGregor, 2007). It was also negative in two in vivo micronucleus\r\nassays, with one assay finding no micronucleus formation in the\r\nbone marrow following ETBE exposure of rats and mice via drink\u0002ing water (Noguchi et al., 2013). However, two reliable ETBE cancer\r\nbioassays were conducted in male and female F344 rats via differ\u0002ent routes of administration – inhalation (ETBE at 0, 400, 1500 and\r\n5000 ppm, 6 h day\u00011\r\n, 5 days week\u00011 for 104 weeks) (Saito et al.,\r\n2013) and drinking-water exposure (at estimated daily dose levels\r\nup to 560 mg kg\u00011 bodyweight (bw) day\u00011\r\n) (Suzuki et al., 2012). At\r\nthe highest inhalation exposure concentration of 5000 ppm, male\r\nrats exhibited an increased incidence of hepatocellular adenomas\r\n(only one rat had a hepatocellular carcinoma), as well as an\r\nincreased incidence of eosinophilic and basophilic cell foci, both\r\nof which are considered pre-neoplastic lesions. No neoplastic\r\nlesions were observed in the chronic drinking-water study, which\r\nwas conducted at ETBE concentrations that resulted in estimated\r\ndaily dose levels up to 560 mg kg\u00011 bw day\u00011 (Suzuki et al.,\r\n2012). In both the ETBE inhalation and drinking-water chronic\r\nstudies, there were increased severities of chronic progressive\r\nnephropathy in male and female rats, with an increase in urothelial\r\nhyperplasia of the renal pelvis and mineral deposition in the renal\r\npapilla in male rats exposed to the highest concentrations. In male\r\nWistar rats initiated with N-ethyl-N-(2-hydroxyethyl)nitrosamine\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "followed by oral gavage administration of ETBE at dose levels rang\u0002ing from 0 to 1000 mg kg\u00011 bw day\u00011 for 19 weeks, hepatocellular\r\nadenomas were promoted only at the highest dose level of\r\n1000 mg kg\u00011 bw day\u00011 (Hagiwara et al., 2015). In addition, chronic\r\nexposure to TBA, a major metabolite of ETBE, in drinking water\r\nresulted in renal tumors in male, but not female, rats (Cirvello\r\net al., 1995; NTP, 1995). Study design information and summary re\u0002sults from all these cancer studies are provided in Table 1.\r\nIn a 90 day inhalation toxicity study carried out in male and\r\nfemale F344 rats at ETBE concentrations up to 5000 ppm, there\r\nwas an increase in the liver weights in both male and female rats;\r\nin male rats only, there was a time- and concentration-dependent\r\nincrease in renal cell proliferation, along with increased protein\r\ndroplet accumulation in the kidneys, with evidence of\r\nα2u–globulin immunoreactivity (Medinsky et al., 1999). TBA, a\r\nmajor metabolite of ETBE, has also been shown to cause\r\nTable 2. (Continued)\r\nStudy type Description of data collected Summary of data sets available in Supporting information Reference\r\nstructures. Metabolite P5 wasidentified as TBA.\r\ncombination of the totalradioactivity in the samples and the % of theradioactivity determined to be TBA was used tocalculate the total mg of TBA.\r\nSingle (nose only) and repeated\r\n(14 days) (whole body,13 days/nose only, 1 day)inhalation exposure (500, 1750and 5000 ppm) – 14C-ETBE-F344\r\nrats\r\nExhaled breath samples collected\r\nup to 16 h post-exposure to ETBEfor a single day. ETBE and TBAwere quantitated in samplescollected. % of the total doseeliminated in urine and exhaledwas also provided.\r\nCumulative amount of ETBE and TBA exhaled or\r\neliminated in urine was calculated from the levelquantitated at each time point collected.\r\nBorghoff and Asgharian\r\n(1996)a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "ETBE, ethyl tertiary-butyl ether; MTBE, methyl tertiary-butyl ether; SD rats, Sprague–Dawley (rats); TBA, tertiary-butyl alcohol. aExperimental design, methods and data sets used for model development and verification are presented in Supporting information.\r\nStudy type\r\nS. J. Borghoff et al.\r\nCopyright © 2016 The Authors Journal of Applied Toxicology J. Appl. Toxicol. 2017; 37: 621–640\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n624\nα2u–globulin nephropathy following exposure in drinking water\r\n(NTP, 1995) and via inhalation (Borghoff et al., 2001; NTP, 1997)\r\nand has been shown to bind reversibly to α2u–globulin (Williams\r\n& Borghoff, 2001). Consequently, the changes in the kidney follow\u0002ing ETBE exposure may be due in part to TBA.\r\nGiven these observations of kidney toxicity (ETBE and TBA),\r\nkidney tumors (TBA) and liver tumors (ETBE) in rats exposed\r\nto ETBE and TBA, this study aimed to elucidate how these\r\nresponses are associated with the kinetics of ETBE and TBA\r\nunder different exposure scenarios. To accomplish these goals,\r\nwe developed a PBPK model that describes the kinetics of ETBE\r\nand its metabolite TBA in male and female rats, including the\r\nbinding of both chemicals to α2u–globulin in the male rat kid\u0002ney. Although, Salazar et al. (2015) has previously published an\r\nETBE-TBA PBPK model, this current model structure was devel\u0002oped based on the previously described PBPK model for MTBE\r\nand TBA (Leavens & Borghoff, 2009) and incorporates: (1) phys\u0002iologic parameters with compiled literature values from Brown\r\net al. (1997); (2) a description of ETBE and TBA binding to\r\nα2u–globulin; (3) induction of TBA metabolism following\r\nrepeated exposures; and (4) a single oxidative pathway for\r\nETBE. Data sets identified in the literature, as well as cited and\r\navailable ETBE and TBA study reports, were used for the devel\u0002opment and verification of this model.\r\nMaterials and methods\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "Data sets used for model development and verification\r\nThe studies and selected data sets used for model development\r\nand verification are listed in Table 2. If the data identified in peer\u0002reviewed publications were recalculated (i.e., units, background\r\nsubtraction, etc.), the actual description of this recalculation for\r\neach data set is described in the Supporting information. If the\r\ndata identified were from a cited study report, the study design,\r\nexposure and critical methods are described in the Supporting\r\ninformation, along with the actual data used for model verification.\r\nWhen available, the guidelines used to conduct the unpublished\r\nstudy reports were identified.\r\nChemicals\r\nFor all studies, the source of ETBE and TBA is identified in the peer\u0002reviewed publication or, in the case of study reports, in the\r\nSupporting information.\r\nPBPK model for ETBE-TBA\r\nThis ETBE-TBA PBPK model structure was based on the MTBE-TBA\r\nmodel published by Leavens and Borghoff (2009) with minor mod\u0002ifications (Fig. 1). The parameter values used in this ETBE-TBA PBPK\r\nmodel (Fig. 1) are listed in Table 3. The compartments in this ETBE\u0002TBA model included fat, gastrointestinal, kidney, liver, poorly per\u0002fused tissues and rapidly perfused tissues. Borghoff et al. (2010)\r\nprovided data to show that there was little kinetic difference\r\namong Sprague–Dawley and F344 rats administered MTBE via oral\r\ngavage; therefore, the assumption of no significant strain-specific\r\ndifferences in physiological or biochemical parameters was used\r\nfor ETBE. The physiologic parameters were set to mean values re\u0002ported for rats by Brown et al. (1997), except for alveolar ventila\u0002tion, where the lower limit reported by these authors was used\r\nin this model to improve the fit to the data, and body weights were\r\nset to gender- and study-specific values for the respective data\r\nsets. The volume of fat was calculated according to the empirical\r\nrelationship for the F344 rat given in Brown et al. (1997). The me\u0002tabolism of both ETBE and TBA was assumed the same in male rats\r\nas in female rats. In a change from the MTBE model, the metabo\u0002lism of ETBE to TBA was modeled in the liver as Michaelis–Menten\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "kinetics via one pathway rather than two, a model supported by\r\nselected in vitro studies (Hong et al., 1999a, 1999b; Le Gal et al.,\r\n2001; Turini et al., 1998). The Vmax and Km for the low-affinity,\r\nhigh-capacity pathway of MTBE metabolism were used for the sin\u0002gle metabolic pathway for ETBE.\r\nThe metabolism of TBA, as described in the Leavens and\r\nBorghoff (2009) model, was a single, low-affinity pathway, inducible\r\nfollowing repeated exposures. Values for the metabolic parameters\r\nfor both ETBE and TBA metabolism were taken from Leavens and\r\nBorghoff (2009). The MTBE-TBA model included urinary clearance\r\nof TBA, but it was modeled as a first-order elimination rate from\r\nFigure 1. Schematic of the PBPK model for ETBE and its metabolite TBA in rats was adapted from Leavens and Borghoff (2009). Model equations, along\r\nwith the schematic for the description of ETBE and TBA binding to α2u–globulin in the male rat kidney is described in Leavens and Borghoff (2009).\r\nBiochemical and physiological parameters and respective values are presented in Table 3. ETBE, ethyl tertiary-butyl ether; TBA, tertiary-butyl alcohol.\r\nPBPK model for ETBE-TBA in rats\r\nJ. Appl. Toxicol. 2017; 37: 621–640 Copyright © 2016 The Authors Journal of Applied Toxicology\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n625\nTable 3. Model parameters\r\nParameter Description Value Units Source\r\nQpc Alveolar ventilation 18.9a l h\u00011 kg\u00011 Brown et al. (1997)\r\nRv : co Ventilation–perfusion ratio 1.0 Unitless Calculated from Borghoff\r\net al. (1996)\r\nCompartment volumesb\r\nBW Body weight 0.14–0.24 kg Measured\r\nFVblood Fraction of body weight as blood 0.074 Unitless Brown et al. (1997)\r\nFVf Fraction of body weight as fat 0.35·bw + 0.00205 Unitless Brown et al. (1997)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "FVk Fraction of body weight as kidney 0.0073 Unitless Brown et al. (1997)\r\nFVk Fraction of kidney as blood 0.16 Unitless Brown et al. (1997)\r\nFVl Fraction of body weight as liver 0.037 Unitless Brown et al. (1997)\r\nFVtotal\r\npp Total fraction of body weight that is poorly\r\nperfused tissuesc\r\n0.757 Unitless Brown et al. (1997)\r\nFVpp ¼ FVtotal\r\npp \u0001 FVf 0.755–0.35·bw Unitless Brown et al. (1997)\r\nFVtotal\r\nrp Total fraction of body weight that is richly\r\nperfused tissuesd\r\n0.165 Unitless Brown et al. (1997)\r\nFVrp ¼ FVtotal\r\nrp \u0001 FVk \u0001 FVl \u0001 FVblood 0.046 Unitless Brown et al. (1997)\r\nFVrob Fraction of rest of bodye 0.078 Unitless Brown et al. (1997)\r\nBlood flowsf\r\nQcc Cardiac index Qpc/Rv : co l h\u00011 kg\u00011 Calculated\r\nFQf Fraction cardiac output to fat 0.07 Unitless Brown et al. (1997)\r\nFQl Fraction cardiac output to liver (hepatic\r\nand portal)\r\n0.174 Unitless Brown et al. (1997)\r\nFQk Fraction cardiac output to kidney 0.14 Unitless Brown et al. (1997)\r\nFQtotal\r\npp Fraction cardiac output to poorly perfused\r\ntissues\r\n0.53 Unitless Brown et al. (1997)\r\nFQpp ¼ FQtotal\r\npp \u0001 FQf 0.46 Unitless Brown et al. (1997)\r\nFQtotal\r\nrp Fraction cardiac output to richly perfused\r\ntissues\r\n0.47g Unitless Brown et al. (1997)\r\nFQrp ¼ FQtotal\r\nrp \u0001 FQl \u0001 FQk 0.157 Unitless Brown et al. (1997)\r\nMass transfer coefficients\r\nPETBE\r\nblood:air ETBE blood/air partition coefficient 11.6 Unitless Kaneko et al. (2000)\r\nPETBE\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "f:blood ETBE fat/blood partition coefficient 11.7 Unitless Kaneko et al. (2000)\r\nPETBE\r\nkidney:blood ETBE kidney/blood partition coefficient 2.9h Unitless Kaneko et al. (2000)\r\nPETBE\r\nliver:blood ETBE liver/blood partition coefficient 2.9 Unitless Kaneko et al. (2000)\r\nPETBE\r\npp:blood ETBE poorly perfused/blood partition\r\ncoefficient\r\n1.9 Unitless Kaneko et al. (2000);\r\nset equal to muscle\r\nPETBE\r\nrp:blood ETBE richly perfused/blood partition\r\ncoefficient\r\n2.9 Unitless Set equal to richly perfused\r\nPTBA\r\nblood:air TBA blood/air partition coefficient 481 Unitless Borghoff et al. (1996)\r\nPTBA\r\nf:blood TBA fat/blood partition coefficient 0.40 Unitless Borghoff et al. (1996)\r\nPTBA\r\nkidney:blood TBA kidney/blood partition coefficient 0.83 Unitless Borghoff et al. (1996)\r\nPTBA\r\nliver:blood TBA liver/blood partition coefficient 0.83 Unitless Borghoff et al. (1996)\r\nPTBA\r\npp:blood TBA poorly perfused/blood partition\r\ncoefficient\r\n1.0 Unitless Borghoff et al. (1996)\r\nPTBA\r\nrp:blood TBA richly perfused/blood partition\r\ncoefficient\r\n0.83 Unitless Set equal to liver\r\nkETBE\r\nabs ETBE first order absorption constant 1.6 h\u00011 Leavens and Borghoff\r\n(2009) for MTBE\r\nkTBA\r\nabs TBA first order absorption constant 5.0 h\u00011 Salazar et al. (2015)\r\nFTBA\r\nabsorbed Fraction of TBA absorbed in alveolar region 0.6 Unitless Medinsky et al. (1993)\r\nClTBA\r\nurinary Urinary clearance of TBA 0.015 l h\u00011 kg–0.75 Estimated\r\n(Continues)\r\nS. J. Borghoff et al.\r\nCopyright © 2016 The Authors Journal of Applied Toxicology J. Appl. Toxicol. 2017; 37: 621–640\r\nPublished by John Wiley & Sons Ltd\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "wileyonlinelibrary.com/journal/jat\r\n626\nthe kidney venous blood. For the ETBE-TBA model, the model struc\u0002ture for urinary elimination was changed to a clearance rate from\r\nthe central venous blood. The distribution of both ETBE and TBA\r\nwas assumed to be blood-flow limited, except in the kidney, where\r\nbinding to α2u–globulin was simulated in the tissue.\r\nFor TBA, the blood/air and tissue/blood partition coefficients\r\n(PCs) were taken from Borghoff et al. (1996); for ETBE, the\r\nblood/air and tissue/blood PCs were those reported by Kaneko\r\net al. (2000), except for the ETBE kidney/blood PC. Kaneko et al.\r\n(2000) showed a higher ETBE kidney/blood PC compared to\r\nliver/blood PC, suggesting that factors other than solubility were\r\ninvolved in the uptake of ETBE into the male rat kidney. A high\r\nkidney/blood PC compared to liver has been demonstrated for\r\nMTBE, a chemical that is structurally similar to ETBE and is shown\r\nto bind directly to α2u–globulin (Borghoff et al., 1996; Poet et al.,\r\n1997). Poet et al. (1997) demonstrated that the PC in the female\r\nrat kidney is very similar to the liver, which was not the case for\r\nthe male rat kidney. Further analysis demonstrated that the in\u0002creased uptake of MTBE into the male rat kidney was due to bind\u0002ing to α2u–globulin. Unlike MTBE, there is no direct evidence for\r\nETBE binding to the male-rat-specific protein α2u–globulin. How\u0002ever, there is indirect evidence – including evidence that ETBE\r\ncauses α2u–globulin accumulation in the male rat kidney follow\u0002ing inhalation exposure to ETBE (Medinsky et al., 1999), as well as\r\nthe reported high male rat kidney/air PC (Kaneko et al., 2000) –\r\nsuggesting that, besides solubility in the male rat kidney, there\r\nTable 3. (Continued)\r\nParameter Description Value Units Source\r\nMetabolic parameters\r\nVETBE\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "mc Scaled maximum metabolic rate of ETBE 499 μmol h\u00011 kg–0.75 Rao and Ginsberg (1997)\r\nKETBE\r\nm Michelis–Menten constant for ETBE 1248 μmol l\u00011 Rao and Ginsberg (1997)\r\nVTBA\r\nmc Scaled maximum metabolic rate of TBA 54 μmol h\u00011 kg\u00011 Borghoff et al. (1996); Rao and\r\nGinsberg (1997)\r\nKTBA\r\nm Michelis–Menten constant for ETBE 379 μmol l\u00011 Borghoff et al. (1996); Rao and\r\nGinsberg (1997)\r\nIndVTBA\r\nmc\r\nmax Maximum percentage increase in VTBA\r\nmc 124.9 unitless Leavens and Borghoff (2009)\r\nKVmctba\r\ninduction Rate constant for ascent to IndVmctbamax 0.3977 day\u00011 Leavens and Borghoff (2009)\r\nα2u–globulin binding parameters\r\nCα2u kss Steady-state concentration of free\r\nα2u–globulin in kidney\r\n550i μmol l\u00011 Leavens and Borghoff (2009)\r\nKfree\r\nhydrolysis First order rate constant for hydrolysis of\r\nfree α2u–globulin\r\n0.32 h\u00011 Leavens and Borghoff (2009)\r\nKbound\r\nhydrolysis First order rate constant for hydrolysis of\r\nbound α2u–globulin\r\n0.11 h\u00011 Leavens and Borghoff (2009)\r\nKTBA\r\nb Second order binding rate constant for TBA\r\nto α2u–globulin\r\n1.3 l μmol\u00011 h\u00011 Leavens and Borghoff (2009)\r\nKTBA\r\nd α2u–globulin dissociation constant for TBA 120 μmol l\u00011 Leavens and Borghoff (2009)\r\nKTBA\r\nub First order rate constant for unbinding of\r\nTBA from α2u–globulin\r\nKTBA\r\nb \u0003KTBAd h\u00011\r\nKETBE\r\nb Second order binding rate constant for ETBE\r\nto α2u–globulin\r\n0.15 l μmol\u00011 h\u00011 Leavens and Borghoff (2009)\r\nKETBE\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 478,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "d α2u–globulin dissociation constant for ETBE 1 μmol l\u00011 Leavens and Borghoff (2009)\r\nKETBE\r\nub First order rate constant for unbinding of\r\nETBE from α2u–globulin\r\nKETBE\r\nb \u0003KETBEd h\u00011 Leavens and Borghoff (2009)\r\nETBE, ethyl tertiary-butyl ether; MTBE, methyl tertiary-butyl ether; TBA, tertiary-butyl alcohol. a\r\nLower limit of of alveolar ventilation values for rat reported in Brown et al. (1997). b\r\nTotal volume of the body weight of the rat was divided fractionally as follows: 1:0 ¼ FVtotal\r\nrp þ FVtotalpp þ FVrob c\r\nPoorly perfused tissues were defined as those having relative flow rates <100 ml min\u00011 100 g, including muscle, skin, fat and bone. d\r\nRichly perfused tissues were defined as those having relative flow rates of ≥100 ml min\u00011 100 g, including adrenal, blood , brain,\r\ngastrointestinal tissues, heart, kidney, liver, lungs and thyroid.\r\ne\r\nRest of body not perfused, including gut contents, hair, nails and urine.\r\nf\r\nTotal cardiac output was divided between the total richly perfused and poorly perfused: 1:0 ¼ FQtotal\r\nrp þ FQtotalpp g\r\nBrown et al. (1997) only accounted for 94% of cardiac output for fraction of flows. For this model, the unaccounted 6% was assumed to\r\nbe in the richly perfused tissues.\r\nh\r\nETBE kidney/blood ratio measured in male rats was reported to be 11 (Kaneko et al., 2000). For a rapidly perfused tissue, this is a high\r\nvalue that suggests that uptake into this tissue is most likely dependent on solubility and an active process such as binding, which was\r\nthe case for MTBE by Poet and Borghoff (1997). As such, the partition coefficient in kidney was set to rapidly perfused tissues and\r\nbinding of ETBE to α2u–globulin described within the male, but not female rat kidney. i\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "Values in literature range from ~160 to 1000 μM for α2u–globulin kidney concentration (Carruthers et al., 1987; Charbonneau et al.,\r\n1987; Olson, Garg et al., 1987; Stonard et al., 1986).\r\nParameter\r\nPBPK model for ETBE-TBA in rats\r\nJ. Appl. Toxicol. 2017; 37: 621–640 Copyright © 2016 The Authors Journal of Applied Toxicology\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n627\nis another process affecting the uptake of ETBE into the tissue.\r\nBased on this specific information on MTBE, which is structurally\r\nsimilar to ETBE, along with the fact that other chemicals such as\r\nmethanol, ethanol, 2-propanol and 2-methyl-2 propanol have\r\nsimilar PCs in the liver and kidney (Meulenberg & Viverberg,\r\n2000), assigning the same value to the kidney/blood PC and\r\nthe liver/blood PC is warranted. As far as TBA binding to α2u–\r\nglobulin, there is evidence in the literature to support this de\u0002scription (Williams & Borghoff, 2001).\r\nGiven this evidence, the model included a description of both\r\nETBE and TBA binding to α2u–globulin in the male rat kidney, iden\u0002tical to that used previously for MTBE-TBA (Leavens & Borghoff,\r\n2009). The schematic for this sub-model, as well as the equations\r\nused, are as described by Leavens and Borghoff (2009). The same\r\nparameter values reported previously for MTBE were used for\r\nETBE, keeping the TBA parameter values (Table 3) the same as\r\nthose reported in Leavens and Borghoff (2009).\r\nFor simulations of drinking-water exposure to either ETBE or\r\nTBA, the estimated daily dose (mg kg\u00011 bw day\u00011\r\n) was used with\r\nthe animal body weight to calculate a constant infusion rate\r\n(mg h\u00011) into the gut lumen over a 12 h simulation period. The\r\nabsorption from the lumen compartment was modeled identically\r\nfor oral gavage of ETBE and TBA.\r\nModel simulations and parameter estimation\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "The model was coded in acslXtreme® software (currently not com\u0002mercially available; originally from AEgis Technologies Group,\r\nHuntsville, AL, USA). As described in “PBPK model for ETBE-TBA,”\r\nthe structure of the model (Fig. 1) and the parameters (Table 3)\r\nFigure 2. TBA blood concentration in male (A) and female (B) F344 rats following a single IV administration of TBA at dose levels of 37.5, 75, 150 or\r\n300 mg kg\u00011 bw. Symbols represent the mean ± SD of the actual data collected (Poet et al., 1997; see Table 2 and Supporting information) with model\r\nsimulations (lines) based on model parameter values provided in Table 3. IV, intravenous; TBA, tertiary-butyl alcohol.\r\nS. J. Borghoff et al.\r\nCopyright © 2016 The Authors Journal of Applied Toxicology J. Appl. Toxicol. 2017; 37: 621–640\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n628\nwere taken from previous modeling for MTBE, due to the similar\u0002ity in chemical structure (see Leavens & Borghoff, 2009, for model\r\nequations and more detailed model structure description). One\r\nparameter that was estimated for this model was the urinary\r\nclearance of TBA from the central venous blood. The value for\r\nClurinary was estimated by visually comparing the model with\r\nplasma concentration of TBA after intravenous (IV) administra\u0002tion in rats (Poet et al., 1997).\r\nModel evaluation and comparison\r\nFor a quantitative measure of the goodness of fit, the sum of\r\nsquares of the standard error (SSE) of model predictions versus\r\nexperimental data was used. For comparison, the SSE was calcu\u0002lated for both the current model and for a previously published\r\nPBPK model for ETBE (Salazar et al., 2015). The model code used\r\nfor the Salazar et al. (2015) model was available in the HERO data\u0002base (hero.epa.gov, accessed June 24, 2016). The quantitative\r\ngoodness of fit measure was calculated using the following for\u0002mula: ∑n\r\ni¼1ð Þ Observedi \u0001 Predictedi\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "2 in Excel (version 2013).\r\nResults\r\nThe TBA sub-model (Fig. 1) in this model for ETBE was adapted\r\nfrom previous modeling efforts for MTBE (Leavens & Borghoff,\r\n2009), which presented model comparisons against data from\r\nFigure 3. TBA blood concentration in male (A) and female (B) F344 rats following inhalation exposure of TBA at nominal concentrations of 250, 450 or\r\n1750 ppm. Symbols represent the actual data collected (Leavens & Borghoff, 2009; see Table 2 and Supporting information), with model simulations (lines)\r\nbased on model parameter values provided in Table 3. TBA, tertiary-butyl alcohol.\r\nPBPK model for ETBE-TBA in rats\r\nJ. Appl. Toxicol. 2017; 37: 621–640 Copyright © 2016 The Authors Journal of Applied Toxicology\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n629\nsingle and repeated inhalation studies to TBA. One change from\r\nthe previously published model was how urinary elimination was\r\nexpressed, from a first-order rate constant from the kidney venous\r\nblood to a clearance rate from the central venous blood. This\r\nallowed for more direct comparison of the scaled urinary clearance\r\nwith the scaled metabolic clearance. TBA urinary clearance of\r\n0.015 l h\u00011 kg–0.75 was determined by visual comparison of model\r\nsimulations versus measured data for TBA blood concentration in\r\nrats (Fig. 2A,B, for male and female rats, respectively) following a\r\nsingle IV administration of TBA at dose levels ranging from 37.5\r\nto 300 mg kg\u00011 bw (Table 2; Supporting information; Poet et al.,\r\n1997). The value was chosen so that the simulations fell within\r\nthe majority of the standard deviations of measured concentra\u0002tions at each time point. As seen in Fig. 3, the change in the model\r\nstructure for urinary elimination of TBA did not affect the model’s\r\nability to adequately simulate TBA blood concentrations in male\r\n(Fig. 3A) and female (Fig. 3B) rats following inhalation exposure,\r\nwhich was simulated previously in Leavens and Borghoff (2009).\r\nTo provide an additional assessment of the TBA sub-model’s\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "ability to predict the in vivo kinetics of TBA, simulations were com\u0002pared with oral gavage in rats from a study conducted by ARCO\r\n(1983) (Table 2; Supporting information) in which the\r\ntoxicokinetics of TBA were evaluated following oral, inhalation or\r\nIV administration of 14C–TBA. The majority of the data reported\r\nin the study could not be used for modeling purposes, because\r\nblood and urine concentrations were reported either as a percent\u0002age of administered dose or as equivalents of TBA, which are not\r\nspecific for TBA alone but include TBA and its metabolites. How\u0002ever, there were data from two oral experiments that, when\r\nmerged, included adequate information to estimate blood con\u0002centrations of TBA following a single oral gavage of 1 or\r\n500 mg kg\u00011 bw 14C–TBA (see Supporting information; Table 2).\r\nThe TBA model was able to predict TBA blood levels following a\r\nvery low TBA dose of 1 mg kg\u00011 bw (Fig. 4), but over-predicted\r\nblood levels of TBA following a 500 mg kg\u00011 bw dose. The increase\r\nin blood TBA concentrations following the 500 mg kg\u00011 bw dose\r\ncompared with the 1 mg kg\u00011 bw dose was less than would be\r\npredicted for either nonsaturable or saturable kinetics; therefore,\r\nthere is uncertainty in the estimated blood concentrations from\r\nthe ARCO study. Because the study report did not give information\r\non potential differences in radioactivity in blood versus plasma,\r\ncalculations of the blood concentrations of TBA from the study\r\ndata assumed that the percentage radioactivity attributable to\r\nTBA would be the same in blood as in plasma; this assumption\r\nmay not be accurate if there are significant differences in\r\npartitioning into blood cells between TBA and its metabolites. In\r\naddition, the total radioactivity in the plasma was not accounted\r\nfor in the plasma samples in which TBA was separated from the\r\nmetabolites. The ARCO report also noted loss of volatile radioac\u0002tive species during analysis of urine samples, which may also have\r\naffected results of the blood and plasma samples.\r\nTo evaluate the ETBE-TBA PBPK model (Fig. 1), along with the lit\u0002erature values for physiological and biochemical parameters as\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "identified in Table 3, the model was used to simulate studies that\r\nmeasured ETBE and TBA concentrations in various matrices,\r\nincluding blood, urine and exhaled breath, following ETBE oral\r\nadministration and inhalation exposure (see Supporting informa\u0002tion). As seen in Figs 6-8 and 9, only very limited time-course data\r\nare available for either ETBE or TBA during or following ETBE\r\nexposures. For a 14C–ETBE oral gavage study reported by JPEC\r\n(2008b), the model was able to predict the concentration of TBA\r\nin blood with time post-administration at either 400 or 5 mg kg\u00011\r\nbw (Fig. 5A); however; the model over-predicted the cumulative\r\nTBA in the urine measured at 24 h post-administration at both\r\ndose levels (Fig. 5B). The model predicted urinary concentrations\r\nfollowing inhalation exposure to 40 ppm ETBE (Amberg et al.,\r\n2000) (Fig. 6C), although the predictions of the TBA blood concen\u0002trations after inhalation exposure (Fig. 6B) were not as close to the\r\nobserved data as for oral gavage (compare Fig. 5A). The ETBE\r\nblood concentrations were well-predicted for the 4 ppm ETBE\r\nexposure (Fig. 6A), but over-predicted for 40 ppm.\r\nThe model was also compared to data from a repeat exposure\r\nstudy (Fig. 7) in which 14C–ETBE was administered by oral gavage\r\nto rats at 5 mg kg\u00011 bw day\u00011 orally for 14 days, and TBA blood\r\nconcentrations were measured 8 h after the seventh and 14th\r\ndoses ( JPEC, 2008c). The measured TBA blood concentration was\r\nhigher at 8 h post-exposure after repeated dosing than at 8 h fol\u0002lowing a single dose ( JPEC, 2008b), due to accumulation. However,\r\nbecause the model included induction of TBA metabolism follow\u0002ing repeat exposure, which decreases the half-life of TBA, the pre\u0002dicted blood concentrations of TBA are similar at 8 h following the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "repeat doses and the single dose. Therefore, the model under\u0002predicted TBA blood concentrations after 7 and 14 days of repeat\r\ndosing (Fig. 7). As shown in Salazar et al. (2015), TBA blood concen\u0002trations after repeated exposures can be better predicted by a\r\nmodel that does not assume metabolic induction with repeated\r\nexposure to ETBE. For further evaluation, the model was also used\r\nto simulate the percentages of dose either exhaled or excreted in\r\nurine, for comparison with data from studies reported in the liter\u0002ature and available study reports (Fig. 8). The model simulated\r\nthe trend of an increase in percentage exhaled and a decrease in\r\npercentage excreted in urine with an increase in dose (Fig. 8A) fol\u0002lowing a single oral gavage of 14C–ETBE ( JPEC, 2008b) and the\r\nmodel also accurately simulated the percentage of dose excreted\r\nin the urine (Fig. 8B) following both 4 and 40 ppm ETBE inhalation\r\nFigure 4. TBA blood concentration in male Sprague–Dawley rats following\r\na single oral administration of 14C-TBA at dose levels of 1 or 500 mg kg\u00011\r\nbw.\r\nSymbols represent the actual data collected (ARCO, 1983; see Table 2 and\r\nSupporting information), with model simulations (lines) based on model pa\u0002rameter values provided in Table 3. TBA, tertiary-butyl alcohol.\r\nS. J. Borghoff et al.\r\nCopyright © 2016 The Authors Journal of Applied Toxicology J. Appl. Toxicol. 2017; 37: 621–640\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n630\nexposures (Amberg et al., 2000). In another study in which rats\r\nwere exposed by nose-only inhalation to 14C–ETBE at 500, 1750\r\nor 5000 ppm (Borghoff & Asgharian, 1996), the model simulated\r\nthe increase in the percentage of dose exhaled and the decrease\r\nin the percentage of dose excreted in urine with increasing expo\u0002sure concentrations for both male (Fig. 8C) and female (Fig. 8D)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "rats. When the composition of the exhaled breath was analyzed\r\nfor ETBE and TBA, the model predicted the cumulative amount\r\nof ETBE exhaled over time in female rats (Fig. 9A), but\r\nover-predicted the cumulative amounts of ETBE exhaled in male\r\nrats and the TBA exhaled in male and female rats, respectively\r\n(Fig. 9B–D). In contrast to the model-predicted blood concentra\u0002tions of ETBE and TBA, the model-predicted cumulative exhaled\r\namounts of ETBE and TBA were greater in the male versus female\r\nrat. This is due to the greater absolute ventilation in the male rat\r\ndue to greater body weight. In the model, the exhaled amounts\r\nor ETBE and TBA are estimated according to the equation:\r\nAmount Exhaled ¼ Qp\u0004 Cvenous\r\nPblood=air\r\nwhere\r\nQp ¼ Qpc\u0004bw\r\nQpc is the scaled alveolar ventilation (l h\u00011 kg\u00011), bw is the body\r\nweight (kg), Qp is the absolute alveolar ventilation (l h\u00011\r\n), Cvenous\r\nis the venous blood concentrations of ETBE or TBA, and Pblood/air\r\nis the blood/air PC for ETBE or TBA. Therefore, the amount exhaled\r\nFigure 5. TBA blood concentration (A) and cumulative amount of TBA in urine (B) in male rats orally administered a single dose of 14C–ETBE (5 or\r\n400 mg kg\u00011 bw). Symbols represent the actual data collected ( JPEC, 2008b; see Table 2 and Supporting information), with model simulations (lines) based\r\non model parameter values provided in Table 3. ETBE, ethyl tertiary-butyl ether; TBA, tertiary-butyl alcohol.\r\nPBPK model for ETBE-TBA in rats\r\nJ. Appl. Toxicol. 2017; 37: 621–640 Copyright © 2016 The Authors Journal of Applied Toxicology\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n631\nof ETBE and TBA will increase proportionately to the increase in Qp\r\nSimulations of the observed values would be more predictive if the\r\nmodel parameters were adjusted to describe lower ventilation\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "rates and possible absorption of TBA in airways on exhalation.\r\nOverall, the agreement of model predictions with observed data\r\nwas comparable between the model developed in this study and\r\nthe model previously published by Salazar et al. (2015). When\r\nthe SSE results (Table 4) were compared against the model\r\nreported in Salazar et al. (2015), this model had lower SSE for the\r\nmajority of the simulations. One important distinction between\r\nthis model and that of Salazar et al. is this model’s incorporation\r\nof α2u–globulin, an important factor for predicting gender differ\u0002ences in the kidney concentrations of rats. Because the kidney is\r\na target tissue for TBA, it is critical that the TBA model was able\r\nto predict TBA concentrations in the kidneys of exposed male\r\nand female rats. As mentioned in the Materials and methods sec\u0002tion, the model included binding of both ETBE and TBA to\r\nα2u–globulin in the male, but not female, rat. The model structure\r\nfor describing chemical binding to α2u–globulin was reported pre\u0002viously for the MTBE-TBA model (Leavens & Borghoff, 2009).\r\nFigure 10 compares the model-predicted versus observed\r\nkidney/blood TBA concentration ratios following single (Fig. 10A,\r\nB) or repeated (Fig. 10C,D) TBA inhalation exposure of male and\r\nfemale rats, respectively. Inclusion of binding in the model for male\r\nrats allowed prediction of the time- and dose-dependent changes\r\nin the kidney/blood ratio observed specifically in male rats,\r\nconfirming the importance of describing TBA binding to\r\nα2u–globulin. This feature of the model will be invaluable when\r\nrelating kidney concentrations of ETBE and/or TBA following vari\u0002ous exposure scenarios to either of these chemicals and compar\u0002ing the different responses.\r\nTo determine exposure concentrations above which the kinetics\r\nof ETBE and TBA become nonlinear, the model was used to simu\u0002late ETBE blood AUC0–∞ following either single oral gavage admin\u0002istration or 6 h inhalation exposure to ETBE at the concentrations\r\nused in two separate cancer bioassays (Saito et al., 2013; Suzuki\r\net al., 2012); the results are presented in Fig. 11. Following ETBE\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "inhalation exposure in male rats, the kinetics of ETBE and TBA in\r\nblood begin to move from linear to nonlinear kinetics between\r\nexposure concentrations of 1800 and 2000 ppm (Fig. 11A,B). This\r\ncorresponds to a daily inhaled dose of ~400–450 mg kg\u00011 bw\r\nday\u00011 estimated from using the model to simulate dose (mg kg\u00011\r\n)\r\nretained (Fig. 12). However, following oral administration by\r\ngavage of ETBE, the model shows a trend towards nonlinear kinet\u0002ics of ETBE and TBA in blood with daily dose levels of\r\n~200–300 mg kg\u00011 bw day\u00011 (Fig. 11C,D). The difference between\r\nFigure 6. ETBE blood concentration (A), TBA blood concentration (B), and\r\ncumulative amount of TBA in urine (C) of F344 rats exposed to 4 or 40 ppm\r\n(nominal concentrations) ETBE following a single 4 h inhalation exposure.\r\nSymbols represent mean ± SD of the actual data collected (Amberg et al.,\r\n2000; see Table 2 and Supporting information), with model simulations\r\n(lines) based on model parameter values provided in Table 3. ETBE, ethyl\r\ntertiary-butyl ether; TBA, tertiary-butyl alcohol.\r\nFigure 7. TBA blood concentration in male Sprague–Dawley rats orally\r\nadministered 5 mg kg\u00011 bw day\u00011 14CETBE for 1 or 14 days. Symbols rep\u0002resent the actual data collected 8 h following dosing on days 1, 7 and 14\r\n( JPEC, 2008a, 2008b; see Table 2 and Supporting information), with model\r\nsimulations (lines) based on model parameter values provided in Table 3.\r\nETBE, ethyl tertiary-butyl ether; TBA, tertiary-butyl alcohol.\r\nS. J. Borghoff et al.\r\nCopyright © 2016 The Authors Journal of Applied Toxicology J. Appl. Toxicol. 2017; 37: 621–640\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n632\nthese two exposure scenarios is likely caused by both first-pass\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "metabolism that would occur with oral, but not inhalation expo\u0002sures and the rate of the administered dose. A transition from lin\u0002ear to nonlinear kinetics is also highlighted in model simulations of\r\nthe maximum rate of ETBE metabolism following exposure to ETBE\r\nas presented in Fig. 13. The rate of ETBE and TBA metabolism is\r\nsimulated following exposure to ETBE via inhalation exposure for\r\n6 h (A), ETBE exposure via drinking water (B) and orally administra\u0002tion by gavage ETBE (C) showing that the metabolism of ETBE\r\nbecomes saturated at greater than 800 mg kg\u00011 inhaled ETBE\r\ninhaled dose (~5000 ppm), a dose level that is higher than that pre\u0002dicted by the model to be achieved during the ETBE drinking\r\nwater study. Further evidence for saturation of ETBE metabolism\r\nis provided in Fig. 8(A,B) in which the percentage of the adminis\u0002tered dose of ETBE exhaled is increased with ETBE exposure con\u0002centration with a corresponding decrease in the percentage\r\neliminated in urine.\r\nDiscussion\r\nAn ETBE-TBA PBPK model was developed, verified and used to\r\nprovide insight on how the kinetics under different exposure sce\u0002narios results in kidney toxicity (ETBE and TBA), kidney tumors\r\n(TBA), and liver tumors (ETBE) in exposed rats. Model inclusion\r\nof TBA binding to α2u–globulin in the male rat kidney was used\r\nto predict the kidney concentration of TBA under different expo\u0002sure scenarios that have been observed to result in pathological\r\nfeatures of α2u–globulin nephropathy (ETBE and TBA) and kid\u0002ney tumors (TBA). This model was also used to determine\r\nwhether the ETBE inhalation exposure concentrations associated\r\nwith the liver tumor response in male rats result in nonlinear\r\nkinetics of ETBE and TBA. Although the data sets used to develop\r\nand verify this model were identical to the ones used by Salazar\r\net al. (2015) for a recently reported ETBE-TBA PBPK model in rats,\r\nfor transparency proposes, these data sets are cited, and the\r\nactual data captured and recalculated are reported in the\r\nSupporting information. In addition, this model incorporates\r\nstructural features and slightly different physiological and bio\u0002chemical parameters and parameter values from the model of\r\nSalazar et al. (2015).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "The structural features that differed between this model and the\r\nSalazar et al. (2015) model include: (1) omission of the TBA blood\r\nsequestration that Salazar noted was necessary to predict TBA\r\nblood concentrations specifically following IV administration of\r\nTBA (Poet et al., 1997); (2) ETBE metabolism via one oxidative path\u0002way rather than two; and (3) modeling binding of ETBE and TBA to\r\nFigure 8. Percentage of dose exhaled or excreted in urine, (A) following a single oral dose (5 or 4000 mg kg\u00011) of 14C–ETBE to male rats ( JPEC, 2008b). (B)\r\nPercentage of dose excreted in urine following a 4 h inhalation exposure to 4 or 40 ppm ETBE (Amberg et al., 2000). (C) Single 6 h NO exposure of male (C) or\r\nfemale (D) rats to 500, 1750 or 5000 ppm 14C–ETBE (Borghoff & Asgharian, 1996). Bars represent actual data collected (mean ± SD) from studies reported\r\n(Table 2 and Supporting information) or model simulation based on model parameter values provided in Table 3. ETBE, ethyl tertiary-butyl ether; NO,\r\nnose-only.\r\nPBPK model for ETBE-TBA in rats\r\nJ. Appl. Toxicol. 2017; 37: 621–640 Copyright © 2016 The Authors Journal of Applied Toxicology\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n633\nα2u–globulin in the kidney. In our TBA model, we found that TBA\r\nblood sequestration was not necessary to predict TBA in blood fol\u0002lowing exposure by IV, oral or inhalation routes. In addition, there\r\nare no experimental data to support plasma protein binding of\r\nTBA in the rat. Poet et al. (1997) reported the estimated volume\r\nof distribution at steady state (Vdss), ranging from 0.67 to 1.3 l kg\u00011\r\nafter TBA IV administration, which indicates distribution outside\r\nthe central compartment and is not consistent with protein bind\u0002ing. Unlike MTBE, there isin vitro evidence that ETBE is metabolized\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "by CYP2B1 (Turini et al., 1998) with a study in P450 2E1 knockout\r\nmice showing that this enzyme has a negligible contribution\r\n(Hong et al., 1999b). As such, ETBE was modeled in the liver as\r\nMichaelis–Menten kinetics via one pathway rather than two.\r\nSalazar et al. (2015) did not include the binding of ETBE and TBA\r\nto the male rat-specific protein α2u–globulin. In this model, ETBE\r\nand TBA binding to α2u–globulin was described in the male, but\r\nnot female, rat kidney, because this protein is measured at high\r\nconcentrations in male rats, with a lack of accumulation in\r\nfemale rats (Borghoff et al., 2001). As shown in Fig. 5, inclusion of\r\nbinding in the male rat kidney is important for describing sex\u0002specific dose- and time-dependent kidney/blood concentration\r\nratios of TBA in rats.\r\nThe developed model contained structural features that\r\nenabled it to predict important characteristics in the observed\r\nkinetics of ETBE and TBA, such as gender differences in kidney\r\nconcentrations, and dose-dependent changes in the percentage\r\nof dose either excreted or exhaled. However, differing experiments\r\nproduced some discrepancies between model-predicted and\r\nobserved values. Some of these discrepancies could be improved\r\nwith changes in model parameters or assumptions. Model com\u0002parisons of the percentage of dose exhaled and excreted could\r\nbe improved by reducing the alveolar ventilation rate during inha\u0002lation exposure, particularly when via nose-only inhalation.\r\nJohanson and Filser (1992) reported that use of literature reference\r\nvalues for alveolar ventilation would likely over-predict the inhala\u0002tion uptake rate of most volatiles. Model predictions of TBA blood\r\nconcentration following repeated dosing of ETBE could be\r\nimproved if the model did not assume TBA metabolic induction\r\nwith repeated ETBE exposure. As described in Leavens and\r\nBorghoff (2009), data from a mouse study (McComb and Goldstein,\r\n1979) was used for estimating the extent of metabolic induction\r\nfrom repeated exposures to TBA. While TBA has been shown to\r\ninduce metabolic enzymes in rats (Aarstad et al., 1985), literature\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "data are not available to evaluate interspecies extrapolation; there\u0002fore, the mouse data from McComb and Goldstein (1979) were\r\nused for the rat. In addition to possible interspecies differences,\r\nthe induction of metabolism would be expected to be concentra\u0002tion dependent (Aarstad et al., 1985); however, there are insuffi\u0002cient data in the literature to establish a correlation that could be\r\nincorporated into the model at this time. Other potential sources\r\nFigure 9. Cumulative ETBE (A, females; B, males) and TBA (C, females; D, males) exhaled following a single nose-only exposure to 500, 1750 or 5000 ppm 14C–ETBE for 6 h. Symbols represent mean ± SD actual data collected (Borghoff & Asgharian, 1996; see Table 2 and Supporting information), with model\r\nsimulations (lines) based on model parameter values provided in Table 3. ETBE, ethyl tertiary-butyl ether; TBA, tertiary-butyl alcohol.\r\nS. J. Borghoff et al.\r\nCopyright © 2016 The Authors Journal of Applied Toxicology J. Appl. Toxicol. 2017; 37: 621–640\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n634\nof discrepancies between model-predicted and experimental\r\nvalues include uncertainty and error in experimentally observed\r\ndata values extracted from the literature. For example, in the ARCO\r\n(1983) TBA toxicokinetics report, the final TBA blood concentra\u0002tions were only 100-fold higher following a dose of 500 mg kg\u00011\r\nbw than following a dose of 1 mg kg\u00011 bw. This also appears to\r\nbe the case with the data extracted from the Amberg et al.\r\n(2000) study: the concentrations are well below levels where met\u0002abolic saturation would occur, and yet the ETBE blood concentra\u0002tion following exposure to the high concentration of 40 ppm is\r\nnot 10-fold higher than the concentrations following 4 ppm expo\u0002sure. In the Amberg et al. study, the data reported may not have\r\ncaptured the time collected and blood concentration analyzed im\u0002mediately at the end of the exposure, because these factors would\r\nhave contributed to lower-than-predicted blood concentrations\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "based on the volatility of ETBE. In the ARCO (1983) study, because\r\nno information was provided on potential differences in radioac\u0002tivity in blood versus plasma, calculations of the blood concentra\u0002tions of TBA from the study data assumed that the percentage\r\nradioactivity attributable to TBA would be the same in blood as\r\nin plasma; this assumption may not be accurate if there are signif\u0002icant differences in partitioning into blood cells between TBA and\r\nits metabolites. In addition, the total radioactivity in the plasma\r\nwas not accounted for in plasma samples where TBA was sepa\u0002rated from the metabolites.\r\nChallenges also are presented by data sets collected from nose\u0002only inhalation exposure; parameters such as ventilation rate may\r\nfluctuate during exposure (Alarie, 1973), and loss of volatile\r\nchemicals may occur during collection and extractionfrom charcoal\r\ntraps or analysis of the compounds. Despite these potential sources\r\nof error,andconsidering thediversityof the data setsavailable, over\u0002all, the predictions of this ETBE-TBA model compared well with\r\nexperimental time–concentration profiles following exposure to\r\nETBE or TBA in male and female rats under a number of different\r\nexposure scenarios.\r\nAs mentioned previously, this model incorporated ETBE and TBA\r\nbinding to α2u–globulin in themale but notfemale rat, as described\r\nby Leavens and Borghoff (2009). There is evidence that TBA binds to\r\nα2u–globulin (Williams & Borghoff, 2001), but there is no direct\r\nevidence that ETBE binds to this protein. However, indirect evidence\r\nsupports ETBE binding to α2u–globulin,from a study in which ETBE\u0002exposed male rats developed pathological features associated with\r\nα2u–globulin nephropathy (Medinsky et al., 1999). α2u–Globulin\r\nnephropathy is a syndrome associated with chemical binding to\r\nα2u–globulin, which results in decreased catabolism of this protein\r\nand its accumulation in the kidney in the form of protein droplets.\r\nWith chronic exposure, exacerbation of protein droplets ensues,\r\nleading to necrosis, increased cell proliferation and kidney tumors\r\nin male rats (US EPA, 1991). In addition, Kaneko et al. (2000) showed\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "a higher ETBE kidney/blood PC compared to liver/blood PC,\r\nTable 4. Comparison of model predictions in blood with observed data using Sum of Square Error (SSE)\r\nStudy SSEa Ratio of SSE for current\r\nmodel compared\r\nwith Salazar et al. (2015) ETBE-TBA model b\r\npresented\r\nSalazar et al. (2015)\r\nTBA IV (Poet et al., 1997) 1.24E + 06 3.89E + 06 0.3\r\nTBA inhalation (Leavens & Borghoff, 2009);\r\nincludes both single and repeat\r\n7.14E + 04 7.74E + 04 0.9\r\nTBA gavage (ARCO, 1983; unpublished report); blood 3.71E + 05 1.36E + 05 2.7\r\nTBA gavage (ARCO, 1983; unpublished report);\r\nurinary excretion percentage\r\n5.27E + 03 8.26E + 03 0.6\r\nTBA blood concentrations following ETBE\r\ngavage ( JPEC, 2008b; single)\r\n6.42E + 01 2.17E + 03 0.03\r\nTBA blood concentrations following ETBE\r\ngavage ( JPEC, 2008c; repeated)\r\n3.17E+00c 2.3E+00c 1.4\r\nTBA cumulative in urine following ETBE\r\ngavage ( JPEC, 2008b; single)\r\n2.22E + 01 1.13E-01d 2.0E2\r\nPercentage dose exhaled versus excreted\r\nfollowing ETBE gavage ( JPEC, 2008b; single)\r\n9.94E + 01 2.85E + 04 0.004\r\nETBE blood concentrations following ETBE\r\ninhalation study (Amberg et al., 2000)\r\n1.25E + 00 3.45E-01 3.6\r\nTBA blood concentrations following ETBE\r\ninhalation study (Amberg et al., 2000)\r\n7.11E-01 3.40E + 00 0.2\r\nPercentage dose excreted following ETBE\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "inhalation study (Amberg et al., 2000)\r\n2.41E + 01 1.45E + 02 0.2\r\nCumulative TBA in urine following ETBE\r\ninhalation study (Amberg et al., 2000)\r\n7.65E-05 8.22E-03 0.01\r\nETBE, ethyl tertiary-butyl ether; TBA, tertiary-butyl alcohol. a\r\nEstimated from square of difference between predicted value and observed data for study.\r\nb\r\nRatios less than one indicate a better prediction of data with current model and are shaded for emphasis.\r\nc\r\nFits for both models are improved if no induction is assumed for TBA metabolism.\r\nd\r\nNote that the TBA urine was closer to the measured because of lower urinary elimination, which results in TBA blood concentrations\r\nwith a larger discrepancy compared to measured values.\r\nPBPK model for ETBE-TBA in rats\r\nJ. Appl. Toxicol. 2017; 37: 621–640 Copyright © 2016 The Authors Journal of Applied Toxicology\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n635\nsuggesting thatfactors other than solubilitywere involved in the up\u0002take of ETBE into the male rat kidney. A high kidney/blood PC com\u0002pared to liver has been demonstrated for MTBE, a chemical\r\nstructurally similar to ETBE and shown to bind to α2u–globulin\r\n(Borghoff et al., 1996; Poet et al., 1997).\r\nAlthough no data sets were available to test the model’s ability to\r\npredict ETBE levels in the male vs. female rat kidney following ETBE\r\nexposure, there was a comprehensive data set of TBA observations\r\nin rats exposed by inhalation to TBA that was used in the previous\r\nMTBE-TBA model (Leavens & Borghoff, 2009). This model\r\nreproduced the time and concentration dependence of the ratio\r\nof TBA kidney/blood concentrations observed in the male rat, and\r\nthe lack of time and concentration dependence observed in the\r\nfemale rat (Fig. 10). The ability to predict TBA in the kidney\r\nindicates that the model would be useful for simulating the cancer\r\nbioassay exposure scenarios for both ETBE and TBA, to determine\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "whether differences exist in the dose in the target tissue that are as\u0002sociated with the different kidney tumor responses that occur with\r\nthese two chemicals. In fact, when the model was used to predict\r\nTBA AUC in the kidney following exposure to ETBE or TBA by the\r\nroute and exposure concentrations used in their respective cancer\r\nbioassays(Table 1), the resultsfollowing exposure to ETBE were very\r\nsimilar to the results following exposure to TBA (Fig. 14). The\r\nsimilarity in kidney TBA AUCs predictedfor ETBE and TBA exposures\r\nsuggests that the kidney dose of TBA alone does not explain the\r\ndifferent tumor responses observed following exposure to ETBE\r\nand TBA (Table 1), even though α2u–globulin nephropathy is ob\u0002served following exposure to both chemicals. Rather, the different\r\ntumor responses are most likely influenced by other differences re\u0002ported in these two bioassays, such as severity of chronic progres\u0002sive nephropathy. Because the male rat-specific renal tumors\r\ninduced by TBA operate throughmodes of action(α2u–globulin ne\u0002phropathy and chronic progressive nephropathy) that are not rele\u0002vant in humans (Hard & Khan, 2004; Hard & Seely, 2005; Hard et al.,\r\n2009), the lesions associated with either of these syndromes should\r\nnot be used to develop a point of departure in a risk assessment for\r\neither ETBE or TBA.\r\nIn several studies thatfocused on theidentification of themode of\r\naction for the ETBE-induced liver tumors in rats, Kakehashi et al.\r\n(2013, 2015) provided evidence to support a high-dose mode of\r\naction similar to that of phenobarbital: induction of cell proliferation\r\ndue to oxidative stress andDNA modification-dependent activation\r\nof receptors, including constitutive androstane receptor, pregnane\u0002X-receptor and peroxisome proliferator-activated receptors. This\r\nmode of action for liver tumors in rats is considered not to be oper\u0002ative in humans (Kakehashi et al., 2013). Moreover, these tumors\r\noccur in rats only at a dose level of at least 1000 mg kg\u00011 bw day\u00011\r\nfollowing promotion with N-ethyl-N-(2-hydroxyethyl)nitrosamine,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "or 2 years of inhalation exposure to 5000 ppm ETBE, an exposure\r\nconcentration in which this model predicts a inhaled dose of\r\nFigure 10. TBA kidney/blood ratio in male (A, single 6 h exposure; C, repeated exposure 6 h day\u00011 for 8 days) and female (B, single 6 h exposure; D, re\u0002peated exposure 6 h day\u00011 for 8 days) F344 rats at various time points following inhalation exposure to TBA at nominal concentrations of 250, 450 or\r\n1750 ppm. Each bar represents the mean kidney/blood ratio calculated from the study data (Leavens & Borghoff, 2009; see Table 2 and Supporting informa\u0002tion) with model simulations of these ratios based on model parameter values provided in Table 3. As described by Leavens and Borghoff (2009), TBA bind\u0002ing to α2u–globulin is described in the male, but not female rat kidney. TBA, tertiary-butyl alcohol.\r\nS. J. Borghoff et al.\r\nCopyright © 2016 The Authors Journal of Applied Toxicology J. Appl. Toxicol. 2017; 37: 621–640\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n636\n~850 mg kg\u00011 day\u00011\r\n. Considering that the human kinetics ofETBEis\r\nsimilar to what has been shown in rodents and that the high ETBE in\u0002halation exposure concentrations used in animal studies are not en\u0002vironmentally relevant (~200-fold higher than the ACGIH TLV of\r\n25 ppm), the evidence strongly supports a low risk.\r\nAs also noted in the model simulations presented using this\r\nPBPK ETBE-TBA model, the high incidence of hepatocellular ade\u0002nomas following exposure to 5000 ppm ETBE appears to correlate\r\nwith nonlinear toxicokinetic behavior. Saito et al. (2013) estimated\r\nthat an exposure concentration of 5000 ppm corresponded to a\r\ndose level of 4442 mg kg\u00011 bw day\u00011\r\n, assuming 100% absorption.\r\nHowever, as noted in Fig. 12, this model predicts that an inhalation\r\nexposure of 5000 ppm corresponds to an inhaled dose level of\r\n~842–860 mg kg\u00011 bw day\u00011\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": ". This dose level is ~1.5-fold higher\r\nthan the oral dose in the ETBE drinking-water study in which no\r\nliver tumors were observed (Suzuki et al., 2012), suggesting that\r\ntumors in the male rat develop an ETBE concentration at which\r\nthe metabolism is saturated.\r\nSome rodent tumor responses occur only at high test doses;\r\ntherefore, their relevance to human health hazard may be\r\nquestioned. Saturation of metabolic processes at high-dose/\r\nexposure concentrations may result in transition to novel modes\r\nof action unique to those high-dose levels, unrelated to modes of\r\naction that operate at lower doses also used in animal studies,\r\nand at substantially lower real-world human exposures (Barton\r\net al., 2006; Carmichael et al., 2006; Doe et al., 2006; Foran, 1997;\r\nSlikker et al., 2004a, 2004b). The high-dose toxicity findings are\r\nobserved only under exposure concentrations that exhibit satura\u0002tion of metabolic processes, and this lack of human relevance has\r\nbeen recognized in OECD guidance for the dose selection process\r\nin animal bioassays (OECD, 2011). Although the OECD guidance\r\nwas provided for a reproduction study, this recommendation is\r\nalso appropriate for dose selection in other animal studies, includ\u0002ing carcinogenicity assays; it is particularly appropriate for sub\u0002stances that are not regarded as genotoxic, such as ETBE\r\n(McGregor, 2007; Noguchi et al., 2013).\r\nApplying OECD guidance to select the top test concentration\r\nbased “at, or just slightly above the inflection point for transition\r\nto nonlinear toxicokinetic behaviour” would likely have justified a\r\nFigure 11. Model simulations of ETBE (A,C) or TBA (B,D) blood AUC following inhalation exposure of a male rat at concentrations up to 5000 ppm, or oral\r\ngavage administration up to 1000 mg kg\u00011 bw, to demonstrate the exposure concentration in which kinetics shifts from linear to nonlinear. ETBE, ethyl\r\ntertiary-butyl ether; TBA, tertiary-butyl alcohol.\r\nFigure 12. Model simulations of ETBE dose (mg kg\u00011) at ETBE exposure\r\nconcentrations up to 5000 ppm for a 6 h inhalation exposure. Estimated\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "dose is the amount of ETBE systemically retained (difference in inhaled\r\nand exhaled) over the 6 h exposure. Inhalation exposure concentration of\r\n5000 ppm results in a dose of 869–878 mg kg\u00011\r\nbw in female and male rats,\r\nrespectively. ETBE, ethyl tertiary-butyl ether.\r\nPBPK model for ETBE-TBA in rats\r\nJ. Appl. Toxicol. 2017; 37: 621–640 Copyright © 2016 The Authors Journal of Applied Toxicology\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n637\ntop inhalation exposure concentration for ETBE well below\r\n5000 ppm. If this strategy had been employed, it is most likely that\r\n5000 ppm ETBE would not have been identified as a high exposure\r\nconcentration to be used in the chronic 2-year bioassay, a\r\nconcentration that resulted in increased hepatocellular adenomas\r\nin male rats.\r\nIn conclusion, an important finding of this ETBE-TBA PBPK model\r\nanalysis is that the male rat liver tumor response that followed inha\u0002lation but not drinking-water exposure to ETBE occurred under\r\nconditions of nonlinear kinetics and questioning its use for\r\npredicting human risk. Toxicity findings under high exposure con\u0002ditions that exhibit these behaviors have limited human health\r\nhazard and risk implications, particularly if the inflection point for\r\nonset of nonlinear toxicokinetics is significantly above real-world\r\nhuman exposures, as appears to be the case for ETBE.\r\nAcknowledgments\r\nThe authors thank Rick Nelson for editorial assistance. Copies of\r\nthe acslXtreme model code as well as Excel file for SSE calculations\r\nfor Figs 2, 4 and 6 can be provided on request to the correspond\u0002ing author.\r\nConflict of interest\r\nThe development of this PBPK model and the preparation of the\r\nmanuscript was funded by Lyondell Chemical Company.\r\nFigure 13. Model simulations of the maximum rate of metabolism of ETBE and TBA with ETBE inhalation exposure (A), ETBE drinking water exposure (B),\r\nand ETBE oral gavage administration (C) of dose levels up to 1000 mg kg\u00011\r\n. A 6 h inhalation exposure to 5000 ppm results in an estimated inhaled dose of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "~850 mg kg\u00011 (A) with the highest ETBE dose level the animals received in the drinking water study ~550 mg kg\u00011 (B). ETBE, ethyl tertiary-butyl ether; TBA,\r\ntertiary-butyl alcohol.\r\nFigure 14. Model simulations of TBA AUC in kidney (A) or blood (B) following ETBE inhalation exposure to a male rat (500, 1500 or 5000 ppm) for 6 h,\r\nexposure to ETBE in drinking water modeled to reflect a 12 h drinking water period, with dose levels of 28, 121 or 542 mg kg\u00011 bw day\u00011\r\n, and exposure\r\nto TBA in drinking water modeled to reflect a 12 h drinking water period with dose levels of 85, 195 or 420 mg kg\u00011\r\nbw day\u00011. ETBE, ethyl tertiary-butyl ether;\r\nTBA, tertiary-butyl alcohol.\r\nS. J. Borghoff et al.\r\nCopyright © 2016 The Authors Journal of Applied Toxicology J. Appl. Toxicol. 2017; 37: 621–640\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n638\nReferences\r\nAarstad K, Zahlsen K, Nilsen OG. 1985. Inhalation of butanols: Changes in\r\nthe cytochrome P-450 enzyme system. Arch. Toxicol. (Suppl. 8):\r\n418–421.\r\nACGIH. 2015. Guide to Occupational Exposure Values. American Council of\r\nGovernmental Industrial Hygienists. ISBN:978–1–607260-78-3.\r\nAlarie Y. 1973. Sensory irritation by airborne chemicals. CRC Crit. Rev. Toxicol.\r\n2: 299–363.\r\nAmberg A, Rosner E, Dekant W. 1999. Biotransformation and kinetics of\r\nexcretion of methyl-tert-butyl ether in rats and humans. Toxicol. Sci.\r\n51: 1–8.\r\nAmberg A, Rosner E, Dekant W. 2000. Biotransformation and kinetics of\r\nexcretion of ethyl-tert-butyl ether in rats and humans. Toxicol. Sci. 53:\r\n194–201.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "ARCO. 1983. Toxicology Report ARCO Chemical Company. Tertiary-butyl\r\nalcohol metabolism & Pharmacokinetics. Toxicologist’s report with\r\ncover letter dated 03/24/1994 (8EHQ86940000263). ARCO Chemical\r\nCompany, Newton Square, PA.\r\nBarton HA, Pastoor TP, Baetcke K, Chambers JE, Diliberto J, Doerrer NG,\r\nDriver JH, Hastings CE, Iyengar S, Krieger R, Stahl B, Timchalk C. 2006.\r\nThe acquisition and application of absorption, distribution, metabolism,\r\nand excretion (ADME) data in agricultural chemical safety assessments.\r\nCrit. Rev. Toxicol. 36: 9–35.\r\nBernauer U, Amberg A, Scheutzow D, Dekant W. 1998. Biotransformation of\r\n12C- and 2-13C-labeled methyl tert-butyl ether, ethyl tert-butyl ether,\r\nand tert-butyl alcohol in rats: Identification of metabolites in urine by\r\n13C nuclear magnetic resonance and gas chromatography/mass spec\u0002trometry. Chem. Res. Toxicol. 11: 651–658.\r\nBorghoff SJ, Asgharian B. 1996. Ethyl tertiary-butyl ether (ETBE): Pharmaco\u0002kinetic study in male and female CD-1 mice after single inhalation expo\u0002sure and male and female F-344 rats after single and repeated\r\ninhalation exposure. CIIT Protocol 95026. Unpublished study for ARCO\r\nChemical Company, 19 December 1996.\r\nBorghoff SJ, Murphy JE, Medinsky MA. 1996. Development of physiologi\u0002cally based pharmacokinetic model for methyl tertiary-butyl ether and\r\ntertiary-butanol in male Fisher-344 rats. Fundam. Appl. Toxicol. 30:\r\n264–275.\r\nBorghoff SJ, Prescott JS, Janszen DB, Wong BA, Everitt JI. 2001. Alpha\r\n2u-globulin nephropathy, renal cell proliferation, and dosimetry of\r\ninhaled tert-butyl alcohol in male and female F-344 rats. Toxicol. Sci.\r\n61: 176–186.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 39,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "Borghoff SJ, Parkinson H, Leavens TL. 2010. Physiologically based pharma\u0002cokinetic rat model for methyl tertiary-butyl ether; comparison of\r\nselected dose metrics following various MTBE exposure scenarios used\r\nfor toxicity and carcinogenicity evaluation. Toxicology 275(1–3): 79–91.\r\nBrown RP, Delp MD, Lindstedt SL, Rhomberg LR, Beliles RP. 1997. Physiolog\u0002ical parameter values for physiologically based pharmacokinetic\r\nmodels. Toxicol. Ind. Health 13: 407–484.\r\nCarmichael NG, Barton HA, Boobis AR, Cooper RL, Dellarco VL, Doerrer NG,\r\nFenner-Crisp PA, Doe JE, Lamb JC, 4th, Pastoor TP. 2006. Agricultural\r\nchemical safety assessment: A multi-sector approach to the moderniza\u0002tion of human safety requirements. Crit. Rev. Toxicol. 36: 1–7.\r\nCarruthers L, Reeves K, Paul M, Searle A, Templeton W, Paine AJ. 1987. The\r\nrole of alpha 2u globulin synthesis in the production of renal hyaline\r\ndroplets by iso-octane. Biochem. Pharmacol. 36: 2577–2580.\r\nCharbonneau M, Lock EA, Strasser J, Cox MG, Turner MJ, Bus JS. 1987.\r\n2,2,4-Trimethylpentane-induced nephrotoxicity. I. Metabolic disposition\r\nof TMP in male and female Fischer 344 rats. Toxicol. Appl. Pharmacol. 91:\r\n171–181.\r\nCirvello JD, Radovsky A, Heath JE, Farnell DR, Lindamood C, III. 1995. Toxicity\r\nand carcinogenicity of t-butyl alcohol in rats and mice following chronic\r\nexposure in drinking water. Toxicol. Ind. Health 11: 151–165.\r\nDoe JE, Boobis AR, Blacker A, Dellarco VL, Doerrer NG, Franklin C, Goodman\r\nJI, Kronenberg JM, Lewis R, McConnell EE, Mercier T, Moretto A, Nolan C,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 40,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "Padilla S, Phang W, Solecki R, Tilbury L, van Ravenzwaay B, Wolf DC.\r\n2006. A tiered approach to systemic toxicity testing for agricultural\r\nchemical safety assessment. Crit. Rev. Toxicol. 36: 37–68.\r\nEitaki Y, Kawai T, Omae K. 2011. Exposure assessment of ETBE in gas station\r\nworkers and gasoline tanker truck drivers. J. Occup. Health 53: 423–431.\r\nForan JA. 1997. Principles for the selection of doses in chronic rodent bioas\u0002says. ILSI Risk Science Working Group on Dose Selection. Environ. Health\r\nPerspect. 105: 18–20.\r\nHagiwara A, Doi Y, Imai N, Suguro M, Kawabe M, Furukawa F, Tamano S,\r\nNagano K, Fukushima S. 2015. Promotion of liver and kidney\r\ncarcinogenesis by ethyl tertiary-butyl ether (ETBE) in male Wistar rats.\r\nJ. Toxicol. Pathol. 28: 189–195.\r\nHard GC, Khan KN. 2004. A contemporary overview of chronic progressive\r\nnephropathy in the laboratory rat, and its significance for human risk\r\nassessment. Toxicol. Pathol. 32: 171–180.\r\nHard GC, Seely JC. 2005. Recommendations for the interpretation of\r\nrenal tubule proliferative lesions occurring in rat kidneys with\r\nadvanced chronic progressive nephropathy (CPN). Toxicol. Pathol.\r\n33: 641–649.\r\nHard GC, Johnson KJ, Cohen SM. 2009. A comparison of rat chronic progres\u0002sive nephropathy with human renal disease—Implications for human\r\nrisk assessment. Crit. Rev. Toxicol. 39: 332–346.\r\nHong J-Y, Want YY, Bondoc FY, Lee M, Yang CS, Hu W-Y, Pan J. 1999a.\r\nMetabolism of methyl tert-butyl ether and other gasoline ethers by\r\nhuman liver microsomes and heterologously expressed human cyto\u0002chrome P450: Identification CYP2A6 as a major catalyst. Toxicol. Appl.\r\nPharmacol. 160: 43–48.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 41,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "Hong J-Y, Wang Y-Y, Bondoc FY, Yang CS, Gonzalez FJ, Pan Z, Cokonis C-D,\r\nHu W-Y, Bao Z. 1999b. Metabolism of methyl tert-butyl ether and other\r\ngasoline ethers in mouse liver microsomes lacking cytochrome P450\r\n2E1. Toxicol. Lett. 105: 83–88.\r\nJohanson G, Filser JG. 1992. Experimental data from closed chamber gas\r\nuptake studies in rodents suggest lower uptake rate of chemical than\r\ncalculated from literature values on alveolar ventilation. Arch. Toxicol.\r\n66: 291–295.\r\nJPEC. 2008a. ETBE Risk Assessment Report. 1–108. In: Report of research in\r\npromotion of the use of nonfossil fuel (biomass in origin) introduction\r\n(PEC-2007L-06) (English). Japan Petroleum Energy Center, http://www.\r\npecj.or.jp/english/news/pdf/b-2-8.pdf (accessed 5 July 2012).\r\nJPEC. 2008b. Final report – Pharmacokinetic study in rats treated with single\r\ndose of [14C]-ETBE. Japan Petroleum Energy Center, Kumamoto Labora\u0002tory, Mitsubishi Chemical Safety Institute, Kumamoto, Japan. Report No.\r\nP070496.\r\nJPEC. 2008c. Final report – Pharmacokinetic study in rats treated with\r\n[\r\n14C]-ETBE repeatedly for 14 days. Japan Petroleum Energy Center,\r\nKumamoto Laboratory, Mitsubishi Chemical Safety Institute,\r\nKumamoto, Japan. Report No. P070497.\r\nKakehashi A, Hagiwara A, Imai N, Nagano K, Nishimaki F, Banton M, Wei W,\r\nFukushima S, Wanibuchi H. 2013. Mode of action of ethyl tertiary-butyl\r\nether hepatotumorigenicity in the rat: Evidence for a role of oxidative\r\nstress via activation of CAR, PXR and PPAR signaling pathways. Toxicol.\r\nAppl. Pharmacol. 273: 390–400.\r\nKakehashi A, Hagiwara A, Imai N, Wei M, Fukushima S, Wanibuchi H. 2015.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 42,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "Induction of cell proliferation in the rat liver by the short-term adminis\u0002tration of ethyl tertiary-butyl ether. J. Toxicol. Pathol. 28: 27–32.\r\nKaneko T, Wang P-Y, Sato A. 2000. Partition coefficients for gasoline addi\u0002tives and their metabolites. J. Occup. Health 42: 86–87.\r\nLe Gal A, Dreano Y, Gevasi PG, Berthou F. 2001. Human cytochrome P450\r\n2A6 is the major enzyme involved in the metabolism of three\r\nalkoyxyethers used as oxyfuels. Toxicol. Lett. 124: 47–58.\r\nLeavens T, Borghoff S. 2009. Physiologically based pharmacokinetic model\r\nof methyl tertiary 6 butyl ether and tertiary-butyl alcohol dosimetry in\r\nmale rats based on binding to 7 alpha2u-globulin. Toxicol. Sci. 109:\r\n321–335.\r\nMalveda M, Janshekar H, Yoneyama M. 2009. Gasoline Octane Improvers/\r\nOxygenates. SRI Consulting. Available from: http://www.sriconsulting.\r\ncom/CEH/Public/Reports/543.7500/\r\nMcComb JA, Goldstein DB. 1979. Quantitative comparison of physical de\u0002pendence on tertiary butanol and ethanol in mice: correlation with lipid\r\nsolubility. J. Pharmacol. Exp. Ther. 208: 113–117.\r\nMcGregor D. 2007. Ethyl tertiary-butyl ether: A toxicological review. Crit. Rev.\r\nToxicol. 37: 287–312.\r\nMedinsky MA, Kimbell JS, Morris JB, Gerde P, Overton JH. 1993. Advances in\r\nbiologically based models for respiratory-tract uptake of inhaled vola\u0002tiles. Fundam. Appl. Toxicol. 20(3): 265–272.\r\nMedinsky MA, Wolf DC, Cattley RC, Wong B, Janssen DB, Farris GM, Wright\r\nGA, Bond JA. 1999. Effects of a thirteen-week inhalation exposure to\r\nethyl tertiary-butyl ether on Fischer-344 rats and CD-1 mice. Toxicol.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 43,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "Sci. 51: 108–118.\r\nMeulenberg CJW, Viverberg HPM. 2000. Empirical relations predicting\r\nhuman and rat tissue: air partition coefficients of volatile organic\r\ncompounds. Toxicol. Appl. Pharmacol. 165: 206–216.\r\nNoguchi T, Kamigaito T, Katagiri T, Kondou H, Yamazaki K, Aiso S, Nishizawa\r\nT, Nagano K, Fukushima S. 2013. Lack of micronucleus induction activity\r\nof ethyl tertiary-butyl ether in the bone marrow of F344 rats by sub\u0002PBPK model for ETBE-TBA in rats\r\nJ. Appl. Toxicol. 2017; 37: 621–640 Copyright © 2016 The Authors Journal of Applied Toxicology\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n639\nchronic drinking-water treatment, inhalation exposure, or acute intra\u0002peritoneal injection. J. Toxicol. Sci. 38(6): 913–914.\r\nNTP 1995. Toxicology and carcinogenesis studies of t-butyl alcohol (CAS no\r\n75-65-0) in F344/N rats and B6C3F1 mice (drinking water studies)\r\n(NTPTR436). National Toxicology Program: Research Triangle Park, NC,\r\n21–305.\r\nNTP. 1997. Toxicity studies of t-butyl alcohol (CAS no 75-65-0) administered\r\nby inhalation to F344/N rats and B6C3F1 mice (A51-D59). Research\r\nTriangle Park, NC, 1–56.\r\nOECD. 2011. OECD guideline for the testing of chemicals: Extended one\u0002generation reproductive toxicity study. Organization for Economic\r\nCo-operation and Development, 28 July 2011.\r\nOlson MJ, Garg BD, Murty CV, Roy AK. 1987. Accumulation of alpha\r\n2u-globulin in the renal proximal tubules of male rats exposed to\r\nunleaded gasoline. Toxicol. Appl. Pharmacol. 90: 43–51.\r\nPoet TS, Borghoff SJ. 1997. In vitro uptake of methyl tert-butyl ether in male\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 44,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "rat kidney: Use of a two-compartment model to describe protein inter\u0002actions. Toxicol. Appl. Pharmacol. 145: 340–348.\r\nPoet TS, Valentine JL, Borghoff SJ. 1997. Pharmacokinetics of tertiary\u0002butyl alcohol in male and female Fischer 344 rats. Toxicol. Lett.\r\n92: 179–186.\r\nRao HV, Ginsberg GL. 1997. A physiologically-based pharmacokinetic model\r\nassessment of methyl t-butyl ether in groundwater for a bathing and\r\nshowering determination. Risk Anal. 17: 583–598.\r\nSaito A, Sasaki T, Kasai T, Katagiri T, Nishizawa T, Noguchi T, Aiso S, Nagano K,\r\nFukushima S. 2013. Hepatotumorigenicity of ethyl tertiary-butyl ether\r\nwith 2-year inhalation exposure in F344 rats. Arch. Toxicol. 87(5): 905–914.\r\nSalazar KD, Brinkerhoff CJ, Lee JS, Chiu WA. 2015. Development and appli\u0002cation of a rat PBPK model to elucidate kidney and liver effects induced\r\nby ETBE and tert-butanol. Toxicol. Appl. Pharmacol. 288(3): 439–452.\r\nSlikker W, Jr, Andersen ME, Bogdanffy MS, Bus JS, Cohen SD, Conolly RB,\r\nDavid RM, Doerrer NG, Dorman DC, Gaylor DW, Hattis D, Rogers JM,\r\nSletzer WR, Swenberg JA, Wallace K. 2004a. Dose-dependent transitions\r\nin mechanisms of toxicity. Toxicol. Appl. Pharmacol. 201: 203–225.\r\nSlikker W, Jr, Andersen ME, Bogdanffy MS, Bus JS, Cohen SD, Conolly RB,\r\nDavid RM, Doerrer NG, Dorman DC, Gaylor DW, Hattis D, Rogers JM,\r\nSletzer WR, Swenberg JA, Wallace K. 2004b. Dose-dependent transitions\r\nin mechanisms of toxicity: Case studies. Toxicol. Appl. Pharmacol. 201:\r\n226–294.\r\nStonard MD, Phillips PG, Foster JR, Simpson MG, Lock EA. 1986. Alpha\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 45,
+      "doc_items": [],
+      "end_page": 19,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4857450832409892948,
+        "filename": "JAT-37-621.PMC5434881.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 20,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 433,
+      "total_chunks": 46,
+      "version": "1.0.0"
+    },
+    "text": "2 U-globulin: Measurement in rat kidney and relationship to hyaline\r\ndroplets. Clin. Chim. Acta 160: 197–203.\r\nSuzuki M, Yamazaki K, Kano H, Aiso S, Nagano K, Fukushima S. 2012. No\r\ncarcinogenicity of ethyl tertiary-butyl ether by 2-year oral administration\r\nin rats. J. Toxicol. Sci. 37(6): 1239–1246.\r\nTurini A, Amato G, Longo V, Gervasi PG. 1998. Oxidation of methyl- and\r\nethyl-tertiary butyl ethers in rat liver microsomes: role of the cyto\u0002chrome P-450 isoforms. Arch. Toxicol. 72: 207–214.\r\nUS EPA. 1991. Alpha-2u-globulin: Association with 36 chemically induced\r\nrenal toxicity and neoplasia in the male rat. EPA/625/3-91/019F. U.S.\r\nEnvironmental Protection Agency, National Center for Environmental\r\nAssessment, Washington, DC.\r\nUSGS. 2006. Volatile organic compounds in the nation’s ground water and\r\ndrinking-water supply wells. National Water-Quality Assessment\r\nProgram. U.S. Geological Survey Circular 1292. ISBN 1-411-30836-0.\r\nWilliams TM, Borghoff SJ. 2001. Characterization of tert-butyl alcohol\r\nbinding to alpha2u-globulin in F-344 rats. Toxicol. Sci. 62: 228–235.\r\nSupporting information\r\nAdditional supporting information may be found in the online\r\nversion of this article at the publisher’s web site.\r\nS. J. Borghoff et al.\r\nCopyright © 2016 The Authors Journal of Applied Toxicology J. Appl. Toxicol. 2017; 37: 621–640\r\nPublished by John Wiley & Sons Ltd\r\nwileyonlinelibrary.com/journal/jat\r\n640\n\n"
+  }
+]

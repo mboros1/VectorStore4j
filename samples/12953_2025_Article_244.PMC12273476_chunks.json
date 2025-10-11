@@ -1,0 +1,506 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "RESEARCH Open Access\r\n© The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 \r\nInternational License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you \r\ngive appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the \r\nlicensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or \r\nother third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the \r\nmaterial. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or \r\nexceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creati\r\nvecommons.org/licenses/by-nc-nd/4.0/.\r\nXiang et al. Proteome Science (2025) 23:6 \r\nhttps://doi.org/10.1186/s12953-025-00244-5\r\nIntroduction\r\nSepsis is an organ dysfunction caused by the host’s dys\u0002functional response to infection [1]. Sepsis affects mil\u0002lions of people worldwide each year and, if not detected \r\nand treated early, can progress to septic shock, multiple \r\norgan failure and even death, with a mortality rate of \r\nbetween one in three and one in six [2]. In the course of \r\noccurrence and development, sepsis can lead to acute \r\nfunctional injury of many organs in the body, and acute \r\nkidney injury (AKI) is one of the common complications \r\nof sepsis. The incidence of AKI in patients with sepsis is \r\nas high as 60%, with poor prognosis and mortality as high \r\nas 35% [3]. Therefore, it is important to fully understand \r\nProteome Science\r\n†\r\nLi Xiang and Ma Wanli contributed equally to this work and share \r\nfirst authorship.\r\n*Correspondence:\r\nZhou Qi\r\nzhouqi1020818@sina.com\r\nLi Haibo\r\n475857584@qq.com\r\n1\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "Department of Anesthesiology, Inner Mongolia Autonomous Region, \r\nChifeng Clinical College of Inner Mongolia Medical University, \r\nChifeng 024000, China\r\n2\r\nDepartment of Anesthesiology, Municipal Hospital of Chifeng, Inner \r\nMongolia Autonomous Region, Chifeng 024000, China\r\nAbstract\r\nBackground Acute kidney injury is a common complication of sepsis, and its mechanism is very complicated. The \r\npurpose of this study was to investigate the mechanism of key differentially expressed proteins and their related \r\nsignaling pathways in the occurrence and development of acute kidney injury in sepsis through proteomics.\r\nMethods Acute kidney injury was induced by intraperitoneal injection of lipopolysaccharide at 10 mg/kg. Renal \r\ntissues were analyzed by TMT quantitative proteomic analysis. Differentially expressed proteins (DEPs) were screened. \r\nGene Ontology (GO) function analysis, Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment \r\nanalysis and protein-protein interaction (PPI) network analysis were performed.\r\nResults We obtained 530 DEPs. GO analysis showed that the biological process of DEPs was mainly stress response. \r\nThe molecular functions of DEPs mainly focus on catalytic activity. The cellular components of DEPs were mainly \r\nlocated in the intracellular and cytoplasm. KEGG analysis showed that DEPs were mainly involved in metabolic \r\npathways. Ten key proteins with interaction degree, such as Isg15, Irf7, Oasl2, Ifit3, Apob, Oasl, Ube2l6, Ifit2, Ifih1 and \r\nIfit1 were identified. Irf7 was significantly up-regulated in rat kidney tissues.\r\nConclusion The upregulation of Irf7 plays an important role in the mechanism of acute renal injury induced by \r\nsepsis.\r\nKeywords Sepsis, Acute kidney injury, Bioinformatics, Proteomics, Irf7\r\nTo explore the molecular mechanism of IRF7 \r\ninvolved in acute kidney injury in sepsis based \r\non proteomics\r\nLi Xiang1†, Ma Wanli2†, Song Jiannan2, Hu Zhanfei2, Zhou Qi2* and Li Haibo2*\nXiang et al. Proteome Science (2025) 23:6 Page 2 of 10\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "the occurrence and development mechanism of septic \r\nAKI.\r\nHowever, the molecular mechanisms underlying sep\u0002tic AKI are complex, including overactivated inflamma\u0002tory responses, NLRP3 inflammasome, programmed \r\ncell death, mitochondrial dysfunction, and metabolic \r\nreprogramming [4, 5]. In the occurrence of septic AKI, \r\ninflammation is the main defense mechanism of the host \r\nagainst infection, and the overactivity of NLRP3 inflam\u0002masome can induce an inflammatory cascade that aggra\u0002vates septic AKI [6]. Studies have shown that Caspase-11 \r\nand NLRP3 inflammasome may play an important role \r\nin renal tubular epithelial pyroptosis and septic AKI [7, \r\n8]. In addition, autophagy levels in septic AKI also play \r\na dual role in cell survival and cell death, with different \r\nsignaling molecules and pathways affecting the expres\u0002sion of autophagy related genes, leading to an increase or \r\ndecrease in autophagy [9].\r\nAlthough there has been great progress in the study of \r\nthe molecular mechanism of sepsis AKI in recent years, \r\nmany signaling pathways have been confirmed to play \r\nan important role in sepsis AKI, but the specific links \r\nbetween the upstream and downstream of these signaling \r\npathways are still unclear, and many important key pro\u0002teins need to be further studied.\r\nInterferon regulatory factor 7 (Irf7) is a member of the \r\ninterferon regulatory factors (Irfs) family. Irf7 promotes \r\nthe development of inflammation and plays an impor\u0002tant role in immunity [10]. Irf7is located downstream \r\nof pattern recognition receptors (PRRs) mediated sig\u0002naling pathway that positively regulates the production \r\nof the molecule type I interferon (IFN-I). The positive \r\nfeedback loop formed by Irf7-IFN-I produces a large \r\namount of IFN, which ultimately fights infection by \r\npathogenic microorganisms. Irf7 is also essential for \r\nthe induction of IFN-α/β gene expression via the viral\u0002activated myeloid differentiation primary response88 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "(MyD88) independent pathway and the Toll-like recep\u0002tors (TLRs)-activated MyD88-dependent pathway [11]. \r\nIrf7 is a multifunctional transcription factor that plays a \r\npro-inflammatory or anti-inflammatory role in different \r\ninflammatory diseases through multiple signaling path\u0002ways. Irf7 inhibits pro-inflammatory cytokines and pro\u0002motes anti-inflammatory cytokine IL-1β [12]. Irf7 was \r\nalso able to inhibit NF-κB activation, resulting in signifi\u0002cantly lower levels of pro-inflammatory cytokines such \r\nas TNF-α and IL-6 [13]. These studies suggest that Irf7 \r\nis closely related to important molecular mechanisms of \r\nsepsis.\r\nIn recent years, mass spectrometry technology has \r\nbeen rapidly developed, proteomics has become a pow\u0002erful tool to study pathogenesis and identify potential \r\nbiomarkers [14]. The qualitative and quantitative dif\u0002ferences of protein can reflect the pathological status of \r\nsepsis. The identification and quantitative analysis of a \r\nlarge number of proteins through proteomics is a neces\u0002sary way to further understand the pathogenesis of sep\u0002sis [15]. Sepsis has complex features at the molecular \r\nlevel, and it is necessary to obtain a global picture of the \r\nAKI proteome of sepsis in order to search for pathways \r\nand proteins that play key roles in the pathogenesis. The \r\nimprovement of the stability of mass spectrometers and \r\nthe improvement of quantitative experimental methods \r\nhave made the identification and quantification of pro\u0002teins and peptides in tissues more accurate. Due to its \r\nhigh sensitivity and specificity, proteomics using mass \r\nspectrometry is an effective way to search for key differ\u0002ential proteins in septic AKI [16].\r\nIn this study, we used the sepsis rat model to explore \r\nthe proteins that play an important role in the pathogene\u0002sis of sepsis AKI through proteomic techniques, and ana\u0002lyzed the molecular mechanism of sepsis AKI through \r\ntheir participation in signaling pathways and the connec\u0002tions between upstream and downstream molecules.\r\nMethods\r\nAnimal and septic AKI model\r\nTwelve healthy and clean SD male rats, aged 6–8 weeks, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "weight 162–179  g, Animal Ethics number (CFMH\u0002LAEC-202311-01). The room temperature is maintained \r\nat 20~24℃, the relative humidity is 40% ~ 60%, the light/\r\ndark cycle is 12 h, and the water is free to eat. The rats \r\nwere divided into 2 groups (n=6) by random number \r\ntable method: normal group (C group) and sepsis group \r\n(S group). The lipopolysaccharide (Solarbio, L8880) in \r\nour study was dissolved in 0.9% normal saline at an intra\u0002peritoneal dose of 10 mg/kg. The rat model of sepsis was \r\nestablished in S group by intraperitoneal injection of \r\nlipopolysaccharide 10  mg/kg. C group was treated with \r\nintraperitoneal injection of the same dose of normal \r\nsaline. The lipopolysaccharide was molded and killed for \r\n12 h. The blood and kidney tissues of the eyeballs of the \r\nrats were collected for subsequent experiments. In the \r\nsepsis model, the RIFLE injury grade of acute renal dys\u0002function was used as the standard [17], that is, the serum \r\ncreatinine level in S group increased to twice that in C \r\ngroup.\r\nRenal histological evaluation\r\nThe rat kidney tissue was fixed with 4% paraformalde\u0002hyde and embedded in paraffin, and the sections were \r\nstained with hematoxylin and eosin (HE) to evaluate the \r\nkidney injury. The tissue sections stained by HE were \r\nobserved under microscope (×20). Look at the slide with \r\na microscope. Tubular injury was defined as tubular edge \r\nloss, tubular dilation/flattening, tubular degeneration and \r\nvacuolation. Tissue damage was scored on a 0–4 scale, \r\nwith 0–4 representing 0%, <25%, 26–50%, 51–75%, and \nXiang et al. Proteome Science (2025) 23:6 Page 3 of 10\r\n>76% tubular damage, respectively [18]. Renal pathologi\u0002cal injury was scored by 3 independent pathologists in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "the Department of Pathology of our hospital.\r\nProteomic data collection\r\nRenal tissue samples were taken from rats and cracked. \r\nAppropriate amount of RIPA working liquid was added \r\nto each group of samples, then the samples were ground \r\nat low temperature, followed by ice bath ultrasound \r\nwith cell ultrasonic fragmentation apparatus, and fully \r\ncracked and centrifuged. Total protein was extracted \r\nand quantified by bicinchoninic acid (BCA) method. \r\nThe absorbance was measured with 562nm wavelength. \r\nThe standard curve was fitted according to the standard \r\nprotein and the protein concentration of the correspond\u0002ing sample was calculated. Trypsin enzymolysis protein, \r\nthe maximum allowable number of missing cuts during \r\nenzymolysis is 2. The labeled polypeptide samples were \r\nobtained according to the instructions of Thermo’ s TMT \r\nlabeling kit. 2  µg total peptides were separated from \r\neach sample by nano-UPLC liquid phase system EASY\u0002nLC1200, and then data were collected by mass spec\u0002trometer equipped with nanolitre ion source (Q Exactive \r\nHFX). The data dependent acquisition mode was used for \r\nmass spectrometry analysis. The total analysis time was \r\n90 min and the positive ion detection mode was adopted. \r\nRaw data files use Proteome Discoverer software (ver\u0002sion2.4.0.305, Thermo Fisher Scientific) and built-in \r\nSequest HT search engine search library analysis. For the \r\nidentification of proteins and peptides, the FDR is set to \r\n≤1%.\r\nProteomics database analysis\r\nFold change≤0.83 or fold change≥1.2 of TMT items \r\nwere used as screening criteria, and p-value<0.05 of Stu\u0002dent ‘s t-test was used as screening criteria for differen\u0002tially expressed proteins (DEPs). After obtaining DEPs \r\nbetween C group and S group, these proteins were anno\u0002tated by Gene Ontology (GO) function and analyzed by \r\nKyoto Encyclopedia of Genes and Genomes (KEGG) \r\npathway enrichment [19]. GO recognizes three aspects of \r\nbiology: cellular component (CC), biological process(BP), \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "and molecular function (MF), and is of great signifi\u0002cance in exploring biological functions. KEGG analysis \r\nwas used to explore which potential signaling pathways \r\nwere involved in DEPs changes. The R software package \r\n“clusterProfiler” was used for enrichment analysis of GO \r\nand KEGG pathways in DEPs, and p<0.05 was consid\u0002ered statistically significant. Protein-protein interaction \r\n(PPI) network analysis of DEPs was performed through \r\nSTRING (https://cn.string-db.org/) database to screen \r\nhub proteins [20].\r\nWe used the gene expression set GSE95233 down\u0002loaded from the GEO (http://www.ncbi.nlm.nih.gov/geo\r\n/) database to analyze the expression of the correspond\u0002ing differential genes of hub proteins to verify the accu\u0002racy of the rat database we established.\r\nWestern blot verification of PPI hub protein\r\nAnother 6 SD rats were divided into 2 groups (n=3) by \r\nrandom number table method: normal group and sep\u0002sis group. The molding treatment method is the same \r\nas before. Kidney tissue samples were taken from each \r\ngroup and put into a clean centrifuge tube. RIPA lysate \r\nwas used to crack them. The total protein concentration \r\nwas determined by BCA method, and the protein concen\u0002tration was adjusted to 1 mg/ml. The samples were boiled \r\nat 100℃ for 5 min, electrophoreted on a 10%SDS-PAGE \r\n(120 V), and transferred to a 0.45 μm PVDF membrane. \r\nThe membrane was sealed with 5% skim milk powder at \r\nroom temperature for 2 h, and then incubated with pri\u0002mary antibody at 4℃ overnight. The primary antibodies \r\nIrf7, Isg15, Ifit3, Ube2l6, Ifit2, Ifih1, Ifit1 and β-actin were \r\ndiluted at 1:1000, 1:500, 1:500, 1:1000, 1:500, 1:1000 and \r\n1:1000, respectively. After removal, it was incubated with \r\nsecondary antibody (1:5000) for 1 h. Western blots were \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "visualized by ECL and analyzed by ImageJ software.\r\nStatistical analysis\r\nStatistical analysis was performed by GraphPad\u0002Prism9.5.1 software. Measurements conforming to the \r\nnormal distribution are expressed as mean±standard \r\ndeviation (x±s). The difference between the two groups \r\nwas determined by two-independent sample t test, and \r\np<0.05 was considered statistically significant.\r\nResults\r\nEstablish the AKI model of sepsis in rats\r\nHE staining showed that the kidney tissue of C group \r\n(Fig.  1A) had no abnormalities, swelling, degeneration, \r\nnecrosis, and inflammatory cell infiltration. In S group \r\n(Fig. 1B), renal histopathologic changes were aggravated, \r\nrenal tubule dilatation and vacuolar degeneration. Renal \r\ntubule injury score was increased (Fig.  1C), which was \r\nscored by 3 pathologists in our hospital. Serum creati\u0002nine and blood urea nitrogen were estimated. The levels \r\nof serum creatinine (Fig.  1D) and blood urea nitrogen \r\n(Fig.  1E) in S group were twice as high as those in C \r\ngroup, indicating that the AKI model of rat sepsis was \r\nsuccessfully established.\r\nPrincipal component analysis (PCA)\r\nPCA is a mathematical dimensionality reduction method \r\nthat is commonly used to reflect differences within and \r\nbetween groups of samples. We use R (version3.6.3) \r\nfor logarithmic and centralized processing of C group \r\nand S Group data, and then conduct modeling analysis \r\n(Fig. 2A). Results There was a difference between C group \nXiang et al. Proteome Science (2025) 23:6 Page 4 of 10\r\nand S group. The horizontal and vertical coordinates \r\nPC[1] and PC[2] represent the scores of the first and sec\u0002ond principal components, respectively, with each scat\u0002ter representing a sample, and the color and shape of the \r\nscatter representing different groupings. Within the 95% \r\nconfidence interval (Hotelling ‘s T-squared ellipse) of the \r\nsamples, there was an inter-sample difference between \r\nthe rats in S group and C group.\r\nScreening and layer cluster analysis of deps\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "The kidney tissues of rats in C group and S group were \r\ncollected for quantitative analysis of TMT protein. \r\nWith the p-value<0.05 of Student ‘s t-test and fold \r\nchange≤0.83 or fold change≥1.2 as screening criteria, \r\n530 DEPs in C group and S group were identified, among \r\nwhich 280 upregulated proteins (red nodes in Fig.  2B). \r\n250 down-regulated proteins (blue nodes in Fig. 2B).\r\nWe screened the top 10 up-regulated and down-regu\u0002lated DEPs with fold change value for hierarchical cluster \r\nanalysis and visualized them with heat maps. In the fig\u0002ure (Fig. 2C), the horizontal coordinate is C group and S \r\ngroup, the vertical coordinate represents the correspond\u0002ing DEPs in this group, and the color blocks at different \r\npositions represent the relative expression of proteins \r\nat corresponding positions, with red representing high \r\nexpression and blue representing low expression.\r\nSubcellular localization analysis and eukaryotic \r\northologous groups (KOG) of proteins\r\nBioinformatics is used to predict the subcellular location \r\nand possible function of proteins. The results of subcel\u0002lular localization analysis of DEPs were visualized in \r\npie chart form (Fig.  2D). The results showed that DEPs \r\nmainly distributed in the nucleus, followed by cytoplasm, \r\nplasma membrane and extracellular. The KOG analysis \r\nwas performed on DEPs, and the results were visual\u0002ized in the form of histograms. The results showed that \r\nthe functions of the analyzed DEPs (Fig. 2E) were mainly \r\ninvolved in the signal transduction mechanism (T), Gen\u0002eral function prediction (R), Post-translational modifica\u0002tion, protein turnover, chaperone protein (O).\r\nGO analysis and KEGG analysis of deps\r\nWe analyzed the biological effects of 530 DEPs in BP, CC \r\nand MF concentrations. The results of GO enrichment \r\nanalysis showed (Fig. 3A) that in BP, the main pathways \r\nwere stress response, response to organic substance, \r\nresponse to external stimuli, and response to bacteria and \r\ninnate immunity. CC was mainly enriched in cytoplasm. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "MF is mainly involved in catalytic activity, small molecule \r\nbinding, hydrolase activity, transporter activity and oxi\u0002doreductase activity.\r\nWe analyzed the metabolic pathways with signifi\u0002cant DEPs enrichment and presented the results of the \r\nFig. 1 AKI model of sepsis in rats. (A) Representative histological images of group C’s HE-stained kidney sections, 200 times microscopic. (B) Representa\u0002tive histological images of group S HE-stained kidney sections, 200 times microscopic. (C) Renal tubular injury score. (D) Serum creatinine levels. (E) Blood \r\nurea nitrogen levels. Data are expressed as mean±sem. *p<0.05, **p<0.01, ***p<0.001, ****p<0.0001\nXiang et al. Proteome Science (2025) 23:6 Page 5 of 10\r\npathway enrichment analysis in the form of bubble map. \r\nKEGG analysis results showed (Fig. 3B) that the top ten \r\npathways were metabolic pathways, human papillomavi\u0002rus infection, influenza A pathway, measles, complement \r\nand coagulation cascade, amebiasis, glutathione pathway, \r\nmalaria, African trypanosomiasis and collecting duct \r\nacid secretion.\r\nPPI analysis of deps and Western blot\r\nBased on the interaction between DEPs, we constructed \r\nthe PPI diagram of DEPs (Fig. 4A). The 10 proteins with \r\nthe highest interaction scores in the subnetwork were \r\nselected for display (Fig.  4B), namely Isg15, Irf7, Oasl2, \r\nIfit3, Apob, Oasl, Ube2l6, Ifit2, Ifih1, and Ifit1.\r\nFig. 2 Correlation analysis of DEPs between C group and S group. (A) Two-dimensional diagram of principal component analysis of DEPs. (B) DEPs vol\u0002cano map. (C) Layer cluster analysis heat map of DEPs. (D) Pie chart of DEPs subcellular localization analysis. (E) KOG analysis histogram of DEPs\nXiang et al. Proteome Science (2025) 23:6 Page 6 of 10\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "We selected Irf7, Isg15, Ifit3, Ube2l6, Ifit2, Ifih1 and \r\nIfit1 for Western blot verification, and the results showed \r\nthat Irf7 was significantly up-regulated in the kidney tis\u0002sues of AKI rats with sepsis (Fig.  4C and D), while the \r\nexpression levels of other proteins were not significantly \r\ndifferent (Fig.  4E). At the same time, we validated the \r\nGEO gene set GSE95233 (22 normal patients and 51 \r\nsepsis patients). The results showed that Irf7 was signifi\u0002cantly upregulated, which also confirmed our verification \r\nresults (Fig. 4F and G).\r\nDiscussion\r\nIn recent years, septic AKI accounts for 45–70% of all \r\ncritically ill AKI cases, and its mortality rate remains \r\nhigh. Proteomic analysis can enable us to understand \r\nthe molecular mechanisms of disease occurrence and \r\nprogression, provide new ideas for identifying potential \r\ndiagnostic biomarkers, and can also be a potential tar\u0002get for the treatment of septic AKI. In this study, a rat \r\nmodel of sepsis AKI was established. Heat map (Fig. 2C) \r\nshows the standardized expression of DEPs in sepsis. Irf7 \r\nis highlighted for its significant upregulation, suggesting \r\nits role in inflammation and immune regulation in septic \r\nAKI. Ifit2, Ifit3 and Ptx3 are noted for their involvement \r\nin innate immunity and inflammatory responses, which \r\nalign with the pathophysiology of sepsis-induced AKI. \r\nCyp27b1 and Neil3 are discussed for their potential roles \r\nin cellular stress response and DNA repair mechanisms, \r\nwhich may contribute to kidney injury during sepsis. Ten \r\nkey proteins with interaction degree, such as Isg15, Irf7, \r\nOasl2, Ifit3, Apob, Oasl, Ube2l6, Ifit2, Ifih1 and Ifit1 were \r\nidentified. We demonstrated that Irf7 was significantly \r\nup-regulated in rat renal tissues.\r\nIrf and its effectors are closely related to the balance \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "of immunosuppression, and Irf is a key mediator of sig\u0002nal transduction related to host immune response and \r\nimmune regulation. Immunosuppression also plays a key \r\nrole in sepsis induced organ failure. Irf is an important \r\nregulatory protein in TLR and IFN signaling pathways. \r\nStudies have shown that Irf7 is a key regulator of type I \r\ninterferon against pathogen infection. Various pathogen\u0002associated molecular patterns (PAMPs) and damage \r\nassociated molecular patterns are sensed by innate pat\u0002tern recognition receptors, including TLRs, RIG-I-like \r\nreceptors, C-type lectin receptors and NOD-like recep\u0002tors [21]. Our KEGG analysis also confirmed that Irf7 \r\nplays an important role in TLR (map04620), RIG-I-like \r\nreceptor (map04622) and NOD-like receptor (map04621) \r\nsignaling pathways. Irf also contributes to the action of \r\nTLR. After PAMPs bind to TLRs or IFN binds to IFN \r\nreceptors, a signaling cascade causes Irfs to activate and \r\nrelocate to the nucleus, where they activate gene expres\u0002sion. As such TLR4 downstream signaling pathways \r\neither work in a manner dependent on the universal \r\nadapter protein called MyD88, or in a MyD88-indepen\u0002dent way. In the MyD88-dependent group of TLR4 signal \r\ntransduction, NF-κB is able to translocation and induce \r\nthe expression of proinflammatory cytokine genes, such \r\nas TNF-α and IL-6 [10, 22].\r\nFig. 3 GO and KEGG pathway enrichment analyses of DEGs. (A) GO analysis: cell components, molecular functions, biological processes. (B) Enrichment \r\nanalysis of KEGG pathway\nXiang et al. Proteome Science (2025) 23:6 Page 7 of 10\r\nFig. 4 Hub protein correlation analysis. (A) PPI of DEPs. (B) Proteins in the top ten interactions. (C) Western blot map of IRF7 protein. (D) Western blot \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "measurement bar chart of IRF7. (E) Western blot map of Ifih1, Ifit1, Ifit2, Ifit3, Isg15, Ube2l6 and other proteins. (F) Heat map of GSE95233. (G) Irf7 is sig\u0002nificantly up-regulated in GSE95233\nXiang et al. Proteome Science (2025) 23:6 Page 8 of 10\r\nThus, blocking Irf-DNA binding with Irf-specific or \r\npan-Irf inhibitors is a promising tool for the treatment of \r\nsepsis. Indirect regulation can be achieved by targeting \r\nknown activators and regulators of Irf expression and key \r\npathways downstream of Irf. The significant upregulation \r\nof Irf7 suggests that it could be a potential biomarker for \r\nearly diagnosis of septic AKI. Future studies could further \r\nvalidate its functional mechanisms in inflammation and \r\nkidney injury by knocking down or overexpressing Irf7 \r\nin animal and cellular models. Design experiments prove \r\ntranscriptional upregulation of Irf7 is regulated upstream \r\nby phosphorylation of various signaling proteins. Identify \r\nthe cell type responsible for Irf7 upregulation and vali\u0002date its signal transduction pathway. The diagnostic pre\u0002dictive ability of sepsis can also be evaluated by clinical \r\ndetection of Irf7 levels in the blood, peritoneal fluid, or \r\nurine of patients with sepsis. At the same time, the devel\u0002opment of specific intervention strategies targeting the \r\nIrf7 signaling pathway is expected to provide a new direc\u0002tion for the treatment of septic AKI.\r\nType I IFN induces the expression of more than 500 \r\ngenes, which are collectively known as IFN-stimulating \r\ngenes (Isgs). IRF closely controls transcriptional activa\u0002tion of Isg. Interferon stimulating gene 15 (Isg15) is the \r\nearliest interferon-induced gene. The free Isg15 protein \r\nsynthesized by the Isg15 gene is coupled to the cellular \r\nprotein after translation and secreted by the cell into \r\nthe extracellular environment. Type I interferon stimu\u0002lated the activation of more than 2000 Isg transcripts. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "Ube2l6 (Isg15/ ubiquitin E2 binding enzyme) is one of \r\nthe key enzymes of Isg. We now know that the occur\u0002rence of sepsis AKI is closely related to autophagy, and \r\nthe autophagy pathway is up-regulated under cellular \r\nstress [23]. Our data show that Ube2l6 and Isg15 protein \r\nexpression is significantly upregulated in septic AKI renal \r\ntissue. Studies have confirmed that the expression level \r\nof Isg15mRNA is positively correlated with the occur\u0002rence of sepsis and septic shock [24]. Recent studies \r\nhave shown that Isg15 overexpression can interact with \r\nHDAC6 and p62 to promote aggregate formation and \r\nthus promote autophagy [25]. Therefore, we hypothesize \r\nthat decreasing the expression of Isg15 and Ube2l6 may \r\nreduce autophagy to alleviate sepsis AKI.\r\nThe interferon-induced tetrapeptide repeating protein \r\n(Ifit) gene is a prominent Isg. Ifit proteins are involved \r\nin a variety of biological processes, including host innate \r\nimmunity, antiviral immune response, virus-induced \r\ntranslation initiation, replication, double-stranded RNA \r\nsignaling, and PAMP recognition [26]. Although Ifit pro\u0002tein was originally studied as an antiviral protein, recent \r\nstudies have shown that its expression in the context of \r\nsepsis also has important implications. In this study, Ifit3, \r\nIfit2, and Ifit1 were significantly up-regulated in septic \r\nAKI. Alexandra Siegfried’s research showed that Ifit2 is a \r\nkey signaling medium in LPS-induced septic shock, and \r\nthe expression of Ifit2 is significantly up-regulated under \r\nLPS stimulation in IFN-a receptor and Ifit9-dependent \r\nmanner, and Ifit3 and Ifit1 are also up-regulated accord\u0002ingly [27].\r\nIn addition, Ifit1, Ifit2, and Ifit3 combine into a stable \r\ntrimer complex in humans, where Ifit3 enhances and \r\nregulates the central hub of Ifit1RNA binding, while \r\nIfit2 also promotes apoptosis. Ifit2-mediated apopto\u0002sis acts through the mitochondrial pathway, in which \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "the balance between pro-apoptotic and anti-apoptotic \r\nBcl-2 family proteins regulates the permeability of the \r\nmitochondrial outer membrane, and overexpression of \r\nIfit2 leads to activation of Caspase-3 and disruption of \r\nplasma membrane asymmetry, which is characteristic \r\nof apoptotic cell death [28, 29]. In overexpression stud\u0002ies, Ifit3 co-expression has been shown to improve Ifit2-\r\ndependent apoptosis. In addition, Ifit2 is involved in the \r\nnegative regulation of inflammation by down-regulating \r\nToll-like receptor 4 response and regulating reactive oxy\u0002gen species production. Ifit family members participate \r\nin a variety of pathophysiological processes in the body, \r\nregulate the homeostasis and differentiation of a variety \r\nof cells, including immune cells, and are closely related \r\nto a variety of autoimmune diseases, which is expected \r\nto become a new therapeutic target [30]. Therefore, Ifit1, \r\nIfit2 and Ifit3 may be the key nodes in the pathogenesis of \r\nsepsis AKI.\r\nIn this study, a peritoneal injection of lipopolysac\u0002charide sepsis AKI model was established. The degree \r\nof AKI infection in this model can be controlled by the \r\ndose of lipopolysaccharide, and the model is stable and \r\nreproducible [31]. However, there are some limitations in \r\nthis study, and our hypothesis based on database calcu\u0002lation needs to be further verified. In future studies, we \r\nplan to expand the sample size and validate it in conjunc\u0002tion with other animal models, such as different species \r\nor methods of sepsis induction. In the future, we will \r\nincrease cell experiments and clinical trials to verify vari\u0002ous aspects. In this study, proteomics was used to analyze \r\nthe molecular mechanism of sepsis AKI, which should be \r\ncombined with genomics, metabolomics, and bioinfor\u0002matics to construct a global molecular network of sepsis \r\nAKI.\r\nConclusions\r\nIn summary, we obtained Isg15, Irf7, Oasl2, Ifit3, Apob, \r\nOasl, Ube2l6, Ifit2, Ifih1, Ifit1 and other proteins that are \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "significantly up-regulated in septic AKI, and verified that \r\nIrf7 is significantly up-regulated in renal tissue of septic \r\nAKI rats.\r\nAbbreviations\r\nAKI Acute kidney injury\r\nIrf Interferon regulatory factor\nXiang et al. Proteome Science (2025) 23:6 Page 9 of 10\r\nPRRs Pattern recognition receptors\r\nIFN Type I interferon\r\nMyD88 Myeloid differentiation primary response88\r\nTLRs Toll-like receptors\r\nHE Hematoxylin and eosin\r\nBCA Bicinchoninic acid\r\nDEPs Differentially expressed proteins\r\nGO Gene Ontology\r\nKEGG Kyoto Encyclopedia of Genes and Genomes\r\nCC Cellular component\r\nBP Biological process\r\nMF Molecular function\r\nPPI Protein-protein interaction\r\nPCA Principal Component Analysis\r\nIsg IFN-stimulating gene\r\nIfit Interferon-induced tetrapeptide repeating protein\r\nSupplementary Information\r\nThe online version contains supplementary material available at https://doi.or\r\ng/10.1186/s12953-025-00244-5.\r\nSupplementary Material 1\r\nSupplementary Material 2\r\nSupplementary Material 3\r\nSupplementary Material 4\r\nSupplementary Material 5\r\nSupplementary Material 6\r\nSupplementary Material 7\r\nSupplementary Material 8\r\nSupplementary Material 9\r\nSupplementary Material 10\r\nSupplementary Material 11\r\nSupplementary Material 12\r\nSupplementary Material 13\r\nSupplementary Material 14\r\nSupplementary Material 15\r\nSupplementary Material 16\r\nSupplementary Material 17\r\nSupplementary Material 18\r\nSupplementary Material 19\r\nSupplementary Material 20\r\nSupplementary Material 21\r\nSupplementary Material 22\r\nSupplementary Material 23\r\nSupplementary Material 24\r\nSupplementary Material 25\r\nSupplementary Material 26\r\nSupplementary Material 27\r\nSupplementary Material 28\r\nSupplementary Material 29\r\nSupplementary Material 30\r\nSupplementary Material 31\r\nSupplementary Material 32\r\nSupplementary Material 33\r\nSupplementary Material 34\r\nSupplementary Material 35\r\nSupplementary Material 36\r\nSupplementary Material 37\r\nSupplementary Material 38\r\nSupplementary Material 39\r\nSupplementary Material 40\r\nSupplementary Material 41\r\nSupplementary Material 42\r\nSupplementary Material 43\r\nSupplementary Material 44\r\nSupplementary Material 45\r\nAcknowledgements\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "Thanks to Chifeng Hospital laboratory teachers for their help in this study. We \r\nthank the authors of the GSE95233 dataset for their contributions and the GEO \r\ntool for providing the data analysis platform.\r\nAuthor contributions\r\nLX is responsible for writing papers and completing experiments; Statistical \r\ndata is the responsibility of MWL; SJN is responsible for reviewing the content \r\nof the paper and revising the paper; HZF is responsible for experimental \r\nguidance; ZQ is responsible for financial support; LHB is responsible for \r\nfinancial support. All the authors reviewed the manuscript. All authors \r\nreviewed the manuscript.\r\nFunding\r\nNational Natural Science Fundation(82204895); Inner Mongolia Natural \r\nScience Foundation(2022MS08001); Inner Mongolia Natural Science \r\nFoundation(2023MS08036).\r\nData availability\r\nNo datasets were generated or analysed during the current study.\r\nDeclarations\r\nEthics approval and consent to participate\r\nThis study has been approved by the Management and Ethics of Experimental \r\nAnimals, Chifeng Hospital Ethics Committee.\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nReceived: 25 September 2024 / Accepted: 10 May 2025\r\nReferences\r\n1. Singer M, Deutschman CS, Seymour CW, Shankar-Hari M, Annane D, Bauer M, \r\net al. The third international consensus definitions for Sepsis and septic shock \r\n(Sepsis-3). JAMA. 2016;315(8):801–10.\r\n2. Fleischmann-Struzek C, Mellhammar L, Rose N, Cassini A, Rudd KE, Schlatt\u0002mann P, et al. Incidence and mortality of hospital- and ICU-treated sepsis: \r\nresults from an updated and expanded systematic review and meta-analysis. \r\nIntensive Care Med. 2020;46(8):1552–62.\r\n3. Poston JT, Koyner JL. Sepsis associated acute kidney injury. BMJ. \r\n2019;364:k4891.\nXiang et al. Proteome Science (2025) 23:6 Page 10 of 10\r\n4. Kuwabara S, Goggins E, Okusa MD. The pathophysiology of Sepsis-Associated \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "AKI. Clin J Am Soc Nephrol. 2022;17(7):1050–69.\r\n5. Li C, Wang W, Xie SS, Ma WX, Fan QW, Chen Y, et al. The programmed cell \r\ndeath of macrophages, endothelial cells, and tubular epithelial cells in Sepsis\u0002AKI. Front Med (Lausanne). 2021;8:796724.\r\n6. Danielski LG, Giustina AD, Bonfante S, Barichello T, Petronilho F. The \r\nNLRP3 inflammasome and its role in Sepsis development. Inflammation. \r\n2020;43(1):24–31.\r\n7. Ye Z, Zhang L, Li R, Dong W, Liu S, Li Z, et al. Caspase-11 mediates pyroptosis \r\nof tubular epithelial cells and septic acute kidney injury. Kidney Blood Press \r\nRes. 2019;44(4):465–78.\r\n8. Liu Y, Fang Q, Ming T, Zuo J, Jing G, Song X. Knockout of erbin promotes \r\npyroptosis via regulating NLRP3/caspase-1/Gasdermin D pathway in sepsis\u0002induced acute kidney injury. Clin Exp Nephrol. 2023;27(9):781–90.\r\n9. Zhao S, Liao J, Shen M, Li X, Wu M. Epigenetic dysregulation of autophagy in \r\nsepsis-induced acute kidney injury: the underlying mechanisms for renopro\u0002tection. Front Immunol. 2023;14:1180866.\r\n10. Ma W, Huang G, Wang Z, Wang L, Gao Q. IRF7: role and regulation in immu\u0002nity and autoimmunity. Front Immunol. 2023;14:1236923.\r\n11. Qing F, Liu Z. Interferon regulatory factor 7 in inflammation, cancer and infec\u0002tion. Front Immunol. 2023;14:1190841.\r\n12. Lee JS, Shin EC. The type I interferon response in COVID-19: implications for \r\ntreatment. Nat Rev Immunol. 2020;20(10):585–6.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "13. Deng Y, Guo SL, Li JQ, Xie SS, Zhou YC, Wei B, et al. Interferon regulatory factor \r\n7 inhibits rat vascular smooth muscle cell proliferation and inflammation in \r\nmonocrotaline-induced pulmonary hypertension. Life Sci. 2021;264:118709.\r\n14. Hasson D, Goldstein SL, Standage SW. The application of omic technolo\u0002gies to research in sepsis-associated acute kidney injury. Pediatr Nephrol. \r\n2021;36(5):1075–86.\r\n15. Marx D, Metzger J, Pejchinovski M, Gil RB, Frantzi M, Latosinska A, et \r\nal. Proteomics and metabolomics for AKI diagnosis. Semin Nephrol. \r\n2018;38(1):63–87.\r\n16. Zhang G, Annan RS, Carr SA, Neubert TA. Overview of peptide and \r\nprotein analysis by mass spectrometry. Curr Protoc Mol Biol. 2014;108. \r\n10.21.11–10.21.30.\r\n17. Goyal A, Daneshpajouhnejad P, Hashmi MF, Bashir K. Acute kidney injury. Stat\u0002Pearls. Treasure Island (FL): StatPearls publishing copyright © 2024. StatPearls \r\nPublishing LLC.; 2024.\r\n18. Cheng H, Fan X, Lawson WE, Paueksakon P, Harris RC. Telomerase deficiency \r\ndelays renal recovery in mice after ischemia-reperfusion injury by impairing \r\nautophagy. Kidney Int. 2015;88(1):85–94.\r\n19. Chen L, Zhang YH, Wang S, Zhang Y, Huang T, Cai YD. Prediction and analysis \r\nof essential genes using the enrichments of gene ontology and KEGG path\u0002ways. PLoS ONE. 2017;12(9):e0184129.\r\n20. Szklarczyk D, Gable AL, Nastou KC, Lyon D, Kirsch R, Pyysalo S, et al. The \r\nSTRING database in 2021: customizable protein-protein networks, and func\u0002tional characterization of user-uploaded gene/measurement sets. Nucleic \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 473,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "Acids Res. 2021;49(D1):D605–12.\r\n21. Takeuchi O, Akira S. Pattern recognition receptors and inflammation. Cell. \r\n2010;140(6):805–20.\r\n22. Antonczyk A, Krist B, Sajek M, Michalska A, Piaszyk-Borychowska A, Plens\u0002Galaska M, et al. Direct Inhibition of IRF-Dependent transcriptional regulatory \r\nmechanisms associated with disease. Front Immunol. 2019;10:1176.\r\n23. Kaushal GP, Shah SV. Autophagy in acute kidney injury. Kidney Int. \r\n2016;89(4):779–91.\r\n24. Lotsios NS, Keskinidou C, Jahaj E, Mastora Z, Dimopoulou I, Orfanos SE et al. \r\nPrognostic value of HIF-1α-Induced genes in sepsis/septic shock. Med Sci \r\n(Basel) 2023; 11(2).\r\n25. Nakashima H, Nguyen T, Goins WF, Chiocca EA. Interferon-stimulated gene 15 \r\n(ISG15) and ISG15-linked proteins can associate with members of the selec\u0002tive autophagic process, histone deacetylase 6 (HDAC6) and SQSTM1/p62. J \r\nBiol Chem. 2015;290(3):1485–95.\r\n26. Pidugu VK, Pidugu HB, Wu MM, Liu CJ, Lee TC. Emerging functions of human \r\nIFIT proteins in Cancer. Front Mol Biosci. 2019;6:148.\r\n27. Siegfried A, Berchtold S, Manncke B, Deuschle E, Reber J, Ott T, et al. IFIT2 is an \r\neffector protein of type I IFN-mediated amplification of lipopolysaccharide \r\n(LPS)-induced TNF-α secretion and LPS-induced endotoxin shock. J Immunol. \r\n2013;191(7):3913–21.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 3215461767706789051,
+        "filename": "12953_2025_Article_244.PMC12273476.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 230,
+      "total_chunks": 21,
+      "version": "1.0.0"
+    },
+    "text": "28. Mears HV, Sweeney TR. Better together: the role of IFIT protein-protein inter\u0002actions in the antiviral response. J Gen Virol. 2018;99(11):1463–77.\r\n29. Franco JH, Chattopadhyay S, Pan ZK. How different pathologies are affected \r\nby IFIT expression. Viruses 2023; 15(2).\r\n30. Wu YY, Xing J, Li XF, Yang YL, Shao H, Li J. Roles of interferon induced protein \r\nwith tetratricopeptide repeats (IFIT) family in autoimmune disease. Autoim\u0002mun Rev. 2023;22(11):103453.\r\n31. Buras JA, Holzmann B, Sitkovsky M. Animal models of sepsis: setting the \r\nstage. Nat Rev Drug Discov. 2005;4(10):854–65.\r\nPublisher’s note\r\nSpringer Nature remains neutral with regard to jurisdictional claims in \r\npublished maps and institutional affiliations.\n\n"
+  }
+]

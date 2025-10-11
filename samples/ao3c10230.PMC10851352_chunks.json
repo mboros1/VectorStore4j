@@ -1,0 +1,602 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "PSSP-MFFNet: A Multifeature Fusion Network for Protein Secondary\r\nStructure Prediction\r\nYifu Chen,# Guanxing Chen,# and Calvin Yu-Chian Chen*\r\nCite This: ACS Omega 2024, 9, 5985−5994 Read Online\r\nACCESS Metrics & More Article Recommendations\r\nABSTRACT: Protein secondary structure prediction (PSSP) is a fundamental task in\r\nmodern bioinformatics research and is particularly important for uncovering the\r\nfunctional mechanisms of proteins. To improve the accuracy of PSSP, various general\r\nand essential features generated from amino acid sequences are often used for\r\npredicting the secondary structure. In this paper, we propose PSSP-MFFNet, a deep\r\nlearning-based multi-feature fusion network for PSSP, which incorporates a multi-view\r\ndeep learning architecture with the multiple sequence alignment (MSA) Transformer\r\nto efficiently capture global and local features of protein sequences. In practice, PSSP\u0002MFFNet adopts a multi-feature fusion strategy, integrating different features generated\r\nfrom protein sequences, including MSA, sequence information, evolutionary\r\ninformation, and hidden state information. Moreover, we employ the MSA\r\nTransformer to interleave row and column attention across the input MSA. A hybrid\r\nnetwork architecture of convolutional neural networks and long short-term memory\r\nnetworks is applied to extract high-level features after feature fusion. Furthermore, we introduce a transformer encoder to enhance\r\nthe extracted high-level features. Comparative experimental results on independent tests demonstrate that PSSP-MFFNet has\r\nexcellent generalization ability, outperforming other state-of-the-art PSSP models by an average of 1% on public benchmarks,\r\nincluding CASP12, CASP13, CASP14, TEST2018, and CB513. Our method can contribute to a better understanding of the\r\nbiological functions of proteins, which has significant implications for drug discovery, disease diagnosis, and protein engineering.\r\n■ INTRODUCTION\r\nProteins are essential compounds for all living organisms to\r\ncarry out life activities. The function of a protein depends on\r\nits structure, making the study of protein sequence, structure,\r\nand spatial folding of extraordinary significance for under\u0002standing its biological function.1 Understanding protein\r\nfunction and interactions between different proteins relies on\r\nknowledge of the specific structure of proteins, making\r\nresearch on protein structure particularly urgent. Currently,\r\nX-ray crystallography and nuclear magnetic resonance (NMR)\r\nare the mainstream experimental methods used to probe the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "structure of proteins.2 However, these methods for determin\u0002ing the structure have disadvantages such as high cost and\r\nextended time requirements. Therefore, more advanced\r\nmachine learning (ML) and deep learning (DL) methods\r\nhave been widely used in protein structure prediction, leading\r\nto significant progress.3,4\r\nWith the development of sequencing technology and related\r\nresearch, the number of protein primary structure sequences\r\n(i.e., amino acid sequence of protein composition) has\r\nexponentially increased, and many of these sequences have\r\nbeen stored in large biological databases. However, due to the\r\ncomplex arrangement and diverse structures of amino acids\r\nunder the tertiary structure, it is extremely challenging to\r\ndirectly use the primary structure to the predict tertiary\r\nstructure. Further research often requires the help of secondary\r\nstructure prediction results. Protein secondary structure, which\r\ndescribes the local spatial structure of a protein, acts as an\r\nintermediary connecting primary and tertiary structures,\r\nmaking it helpful for predicting protein tertiary structure.5\r\nTherefore, improving the accuracy of protein secondary\r\nstructure prediction (PSSP) is a critical task in structural\r\nbiology.\r\nThe lack of accurate protein secondary structure, which\r\nrelies heavily on sequence information, limits the prediction of\r\nprotein tertiary structures and functions. Therefore, integrating\r\nextra secondary structure information is expected to improve\r\nthe accuracy of prediction. AlphaFold26 demonstrates\r\nremarkable accuracy in predicting protein structures solely\r\nfrom their amino acid sequences. The key factor contributing\r\nto the success of AlphaFold2 lies in its precise extraction of\r\ncoevolutionary information from multiple sequence alignments\r\nReceived: December 21, 2023\r\nAccepted: January 8, 2024\r\nPublished: January 25, 2024\r\nhttp://pubs.acs.org/journal/acsodf Article\r\n© 2024 The Authors. Published by American Chemical Society 5985\r\nhttps://doi.org/10.1021/acsomega.3c10230\r\nACS Omega 2024, 9, 5985−5994\r\nThis article is licensed under CC-BY-NC-ND 4.0\n(MSAs). Leveraging coevolutionary information for contact\r\nprediction and structure modeling has been an extensively\r\nexplored concept. However, previous attempts have fallen\r\nshort of desired outcomes due to insufficiently strong or\r\nexcessively noisy coevolutionary signals present within the\r\nMSAs. Rao et al.7 proposed the MSA transformer model, an\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "unsupervised protein language model using the MSA of a\r\nquery sequence instead of a single query sequence. The model\r\nuses row and column attention of input MSAs and masked\r\nlanguage modeling objectives. With the help of the attention\r\nalgorithm, a truly accurate extraction of actual residue signals\r\nfrom MSAs becomes available. Therefore, it is significant to\r\nintroduce MSA features into the PSSP task to improve the\r\nprediction accuracy of the model. In this paper, we propose\r\nPSSP-MFFNet, whose flowchart is illustrated in Figure 1.\r\nPSSP-MFFNet is a DL-based PSSP multi-feature fusion\r\nnetwork that combines a multiview deep learning architecture\r\nand MSA Transformer to efficiently capture global and local\r\nfeatures of protein sequences.\r\nThe main contributions and advantages of this article are as\r\nfollows:\r\n• We present PSSP-MFFNet for PSSP, which integrates\r\nfour types of feature representation approaches to\r\nexplore different sequential information.\r\n• We introduce an MSA Transformer to interleave row\r\nand column attention across the input MSA and apply a\r\nhybrid network architecture of CNN and LSTM\r\nnetworks to extract high-latent features after feature\r\nfusion.\r\n• Extensive comparative experiments on benchmark data\r\nsets demonstrate that PSSP-MFFNet significantly out\u0002performs state-of-the-art (SOTA) methods on inde\u0002pendent tests. It outperforms other models by 1% on\r\naverage on public benchmarks, including CASP12,\r\nCASP13, CASP14, TEST2018, and CB513.\r\n■ RELATED WORK\r\nProtein Secondary Structure Prediction. PSSP aims to\r\nclassify each amino acid on a protein sequence and express\r\nlocal structure with secondary structure tags. The secondary\r\nstructure (SS) involves hydrogen bonding along the main\r\nchain, resulting in the folding of long chains into local shapes\r\nthat are primarily α helix (H), beta-strand (E), and coil (C).8\r\nEarly prediction methods mainly used amino acid residues to\r\nperform propensity statistics of specific fragments and later\r\ndeveloped more complex statistical models. However, the\r\neffects were poor and could not meet actual needs.9\r\nIn recent years, researchers have proposed various DL-based\r\nmethods to predict the protein secondary structure. SPOT\u00021D10 combines a variety of DL models, mainly using a\r\ncombination of bidirectional recurrent neural networks and\r\nlong short-term memory (LSTM) networks and adding a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "residual convolutional neural network (CNN). It considers not\r\nonly local features between amino acids but also captures more\r\ndistant amino acid information, resulting in a significant\r\nimprovement in prediction accuracy.\r\nDeepCNF11 adopts a combination of deep CNN and\r\nconditional random field to obtain the global optimal solution\r\nby considering the relationship between amino acid residues\r\nand labels. It achieves 84.4 and 84.7% Q3 accuracy on CASP10\r\nand CASP11 data sets, respectively. MUFOLD-SS12 is based\r\non the Deep3I network and consists of two nested initial\r\nmodules, a convolutional layer, and a fully connected (FC)\r\nlayer. It can perform convolution operations to efficiently\r\nhandle local and global interactions between amino acid\r\nresidues, further improving the prediction accuracy. Senior et\r\nal. use a neural network model to compare gaps between\r\namino acid residues, which can predict more structural\r\ninformation and achieve higher accuracy for fewer homologous\r\nsequences.13 Hu et al. proposed an ensemble model based on a\r\nbidirectional LSTM neural network. The ensemble model\r\nconsists of five parts, each with different input features. Each\r\nsubsection has a loss function, and their output is combined to\r\nobtain the final classification result.14\r\nMSA Transformer. MSA is a sequence alignment of\r\nmultiple homologous protein sequences of the target protein.15\r\nRao et al.7 proposed the MSA Transformer model, an\r\nunsupervised protein language model that uses the MSA of\r\nquery sequences instead of a single query sequence. Experi\u0002ments show that the model accurately predicts long-range\r\ncontacts between residues. The model uses row and column\r\nattention and a masked language modeling objective. More\u0002over, the model accurately predicted other properties of the\r\nprotein, such as secondary structure prediction and mutational\r\neffects. These results demonstrate that the MSA Transformer\r\nmodel can efficiently extract protein sequence features from\r\nthe MSA profiles.\r\nPosition-Specific Scoring Matrix. Although the number\r\nof proteins with unknown structures and functions is rapidly\r\nincreasing, it is possible that proteins with unknown structures\r\nand proteins with known structures come from the same or\r\nsimilar gene families.16 Therefore, the similarity of protein\r\nsequences has become an important starting point for\r\nresearchers to study protein structure and function. From\r\nthis perspective, there is still a lot of useful information to be\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "extracted by comparing protein sequences of unknown\r\nstructure with known protein sequences. The PSI-BLAST\r\ntool17 is often used to compare the similarity of protein\r\nsequences in databases to obtain the resulting PSSM profile.\r\nThe commonly used research method is to construct a PSSM\r\nas the input of the classifier. The proposal of PSSM has\r\neffectively improved the classification accuracy of 3-state\r\nFigure 1. Flowchart of PSSP-MFFNet. PSSP-MFFNet takes protein\r\nsequences as inputs and generates four different features, including\r\nMSA feature, PSSM feature, HMM feature, and sequence embedding\r\nfeature. After multi-feature fusion, the generated features pass through\r\nan end-to-end network to obtain the final PSSP result.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c10230\r\nACS Omega 2024, 9, 5985−5994\r\n5986\nsecondary structure classification. Online protein secondary\r\nstructure classification servers all use PSSM and MSA profiles\r\nas input files, such as PHD,18 PSIPRED,19 Jpred,20 and\r\nRaptorX.21 Among them, the PHD method is considered the\r\nstandard for PSSP, and the three-state classification accuracy of\r\nQ3 can reach more than 80%.\r\nHidden Markov Model. A hidden Markov model (HMM)\r\nis a dynamic statistical model that can be described by a finite\u0002state machine.22 HMMs are particularly suitable for processing\r\none-dimensional sequences. They can be trained to obtain\r\nprobabilistic transition matrices for each state, thus describing\r\ndifferent protein families. In PSSP, HMMs learn structures\r\nsuch as α helix (H), beta-strand (E), and coil (C) and apply\r\nthese HMMs to new protein sequences with unknown\r\nsecondary structures. The HMMER 3.3.2 tool23 is commonly\r\nused to generate HMM profiles from protein sequences.\r\n■ RESULTS AND DISCUSSION\r\nIn this paper, we propose PSSP-MFFNet, a novel deep\r\nlearning-based multi-feature fusion network for PSSP. Figure 2\r\nillustrates the architecture of the proposed PSSP-MFFNet. The\r\nmethod consists of four main modules: (1) the multi-feature\r\nfusion module, (2) the feature extraction module, (3) the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 451,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "feature enhancement module, and (4) the prediction module.\r\nWe use the MSA Transformer,7 which is a pre-trained model\r\nlearned from 26 million MSAs, to extract features from MSA\r\nprofiles generated from protein sequences. In the multi-feature\r\nfusion module, we integrate four feature metrics, including\r\nMSA feature, PSSM feature, HMM feature, and sequence\r\nembedding feature, using a cosine similarity-based fusion\r\nstrategy.24 For feature extraction and enhancement, we use a\r\nhybrid neural network of CNN and LSTM to obtain local and\r\nglobal features from fused features. A Transformer encoder25 is\r\napplied to process intermediate features before passing them to\r\nthe prediction module. Finally, the generated features are fed\r\ninto the prediction module to predict the secondary structure\r\ncorresponding to each position.\r\nData Set. To make a fair comparison with the most recent\r\nstate-of-the-art methods, we train and validate the PSSP\u0002MFFNet framework on the training set and validation set of\r\nCullPDB.26 We use CB513,27 CASP12, CASP13, CASP14,28\r\nand TEST201829 to evaluate the performance of our method\r\nand conduct comparisons with previous methods. The data\r\nsets mentioned above are displayed in Table 1.\r\nFor the CullPDB data set, 6133 proteins were extracted from\r\nthe CullPDB server with resolution <2.5 Å, R-factor <1.0 and\r\nsequence identity< 25% between any protein pair according to\r\nBlastClust.17 After redundancy filtering with CB513, the\r\nCullPDB data set is divided into 5600 training samples, 256\r\nvalidation samples, and 272 testing samples. In this work, we\r\nonly use training and validation sets from the CullPDB data\r\nset. CB51327 is a classic and widely used benchmark data set.\r\nAfter excluding the sequence similarity between CULLPDB\r\nand CB153, we take CB513 as one of our testing sets.\r\nCritical Assessment of protein Structure Prediction (CASP)\r\nis a biennial competition for protein structure prediction and a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Figure 2. Overview of the PSSP-MFFNet framework: (1) Taking a protein sequence as input, we use it to generate four kinds of features. PSSP\u0002MFFNet integrates them into a fused feature to explore different sequential information. (2) The hybrid network architecture of CNN and LSTM\r\nnetworks takes the fused feature to extract the high-latent features after feature fusion. (3) After receiving the generated features, the trained\r\nprediction module produces the final PSSP result.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c10230\r\nACS Omega 2024, 9, 5985−5994\r\n5987\ncommunity-wide effort to advance the state-of-the-art in\r\nmodeling protein structure from its amino acid sequences\r\nsince 1994.28 Among all CASP data sets in the CASP\r\ncompetition, we chose CASP12, CASP13, and CASP14 as\r\nour testing sets, since they are the most widely used. Generated\r\nby Hanson et al.,29 the TEST2018 data set contains 250 high\u0002quality, nonredundant proteins that were all deposited on PDB\r\nfrom January 2018 to July 2018. In order to minimize\r\nevaluation bias associated with partially overlapping training\r\ndata, all testing sets mentioned above have <25% sequence\r\nsimilarity with the training and validation sets according to\r\nBlastClust.\r\nComparison Experiment. We compare our method with\r\nprevious SOTA methods for PSSP on several data sets. Table 2\r\nshows the experimental results on the CB513 data set. Our\r\nmodel achieves SOTA with an ACC of 0.8613. PSSP-MFFNet\r\nshows the superiority of the SOTA method on ACC metrics,\r\nobtaining an improvement of 1% compared with the SOTA\r\nmethod. The results show that our multi-feature fusion and\r\nhybrid neural network can effectively improve the accuracy of\r\nPSSP. The evaluation results on the CASP data sets and\r\nTEST2018 show the same superior performance in Tables 3\r\nand 4. PSSP-MFFNet achieved the highest performance on the\r\nCASP12, CASP13, and CASP14 data sets, with ACC of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "0.8218, 0.8014, and 0.8191, respectively. In TEST2018, PSSP\u0002MFFNet took first place with an ACC of 0.8696. Overall, the\r\nresults on CASPs and TEST2018 are about 1% better than the\r\nSOTA methods on ACC.\r\nDue to its authority in the field of protein structure\r\nprediction, AlphaFold’s performance is considered an industry\r\nstandard. By comparison with AlphaFold, we can validate the\r\nperformance of our model and evaluate its accuracy, thus\r\nincreasing the confidence and reliability of our research work.\r\nBy performing mean pooling and Max pooling on the\r\npenultimate layer of the AlphaFold network, we added an\r\nadditional 1D output head to the network for predicting\r\nsecondary structure labels. In CASP14, the accuracy of Q3\r\nprediction by the AlphaFold network is 83%, which is about\r\n1% higher than the prediction accuracy of our model. It is\r\nworth noting that AlphaFold requires 128 TPUs to train over\r\n11 days to complete. However, our model needs to be trained\r\non only one NVIDIA GeForce RTX A6000 GPU for 10 days\r\nto obtain the results in the experiment. During training, our\r\nmodel required only 25% of the memory size of AlphaFold. In\r\nfuture work, we will continue to improve the prediction\r\naccuracy based on the model’s lightweight and inference speed.\r\nAblation Study. In addition, we conducted ablation\r\nexperiments to demonstrate the effectiveness of each designed\r\nfeature for the PSSP-MFFNet framework. The results of the\r\nablation experiments performed on the CB513 data set are\r\nshown in Table 5. We test the performance of the models for\r\nlacking the MSA feature, lacking the PSSM feature, lacking the\r\nHMM feature, or lacking the sequence feature. The\r\nexperimental results show that the performance of PSSP\u0002MFFNet degrades the most without the sequence feature,\r\nwhich indicates that the sequence embedding feature is an\r\nessential part of the multi-feature. Moreover, the complete\r\nTable 1. Details of Data Sets Used in This Work\r\ndata sets\r\nstructural states\r\nH E C sequence number\r\ntraining set 183,429 102,159 173,261 5600\r\nvalidation set 20,564 12,030 19,751 256\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "CB513 29,078 19,103 35,973 514\r\nCASP12 875 624 968 11\r\nCASP13 898 913 1568 13\r\nCASP14 326 278 476 9\r\nTEST2018 19,122 11,692 20,045 250\r\nTable 2. Performance Comparison between PSSP-MFFNet\r\nand Other SOTA Models on the CB513 Data Seta\r\nmethods ACC\r\nProtT5-XL-BFD 0.8400\r\nProtBert-BFD 0.8300\r\nMUFold-SS 0.8512\r\nReportX 0.8234\r\nSpider3 0.8456\r\nPSSP-MFFNet(Ours) 0.8613\r\na\r\nBold corresponds to the best performance for each metric, and the\r\nunderline indicates the second best.\r\nTable 3. Performance Comparison between PSSP-MFFNet\r\nand Other SOTA Models on the CASP Data Sets\r\ndata sets methods ACC\r\nCASP12 ProtT5-XL-UniRef50 0.8100\r\nMUFOLD-SS 0.8059\r\nDeepCNF-SS 0.8131\r\nPSIPRED 0.8051\r\nPSSP-MFFNet(Ours) 0.8218\r\nCASP13 DeepCNF-SS 0.7780\r\nPSIPRED 0.7980\r\nNnessy 0.7570\r\nSspro 0.7520\r\nPSSP-MFFNet(Ours) 0.8014\r\nCASP14 NetSurfP-2.0 0.7539\r\nOPUS-TASS 0.773\r\nOPUS-TASS2 0.8087\r\nSPOT-1D 0.7519\r\nPSSP-MFFNet(Ours) 0.8191\r\nTable 4. Performance Comparison between PSSP-MFFNet\r\nand Other SOTA Models on the TEST2018 Data Set\r\nmethods ACC\r\nSPOT-1D-single 0.7428\r\nNetSurfP-2.0 0.8531\r\nOPUS-TASS 0.8684\r\nMUFOLD 0.8478\r\nSPOT-1D 0.8618\r\nPSSP-MFFNet(Ours) 0.8696\r\nTable 5. Results of Ablation Experiments on CB513 Data\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Seta\r\nmethods ACCH ACCE ACCC ACC\r\nw/o MSA feature 0.8517 0.7193 0.7734 0.7882\r\nw/o PSSM feature 0.8691 0.7658 0.7847 0.8096\r\nw/o HMM feature 0.8726 0.7823 0.8180 0.8288\r\nw/o sequence feature 0.8169 0.6663 0.6891 0.7281\r\nfull 0.9179 0.8188 0.8381 0.8613\r\na\r\nThe first four lines mean models lacking corresponding input\r\nfeatures, and “full” means the complete PSSP-MFFNet.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c10230\r\nACS Omega 2024, 9, 5985−5994\r\n5988\nPSSP-MFFNet achieves the best results on all metrics, which\r\nproves the necessity and effectiveness of each input feature for\r\nPSSP-MFFNet.\r\nAdditionally, we conduct another ablation experiment to\r\ninvestigate the necessity and validity of different components\r\nof PSSP-MFFNet. The results of the ablation experiments\r\nperformed on the CB513 data set are shown in Table 6. Since\r\nwe have designed multiple components in the decoder, we\r\ntested the performance of the models for lacking CNN layers,\r\nlacking LSTM layers, or lacking Feature Enhancement. The\r\nexperimental results demonstrate that the prediction accuracy\r\nof PSSP-MFFNet decreases to varying degrees in the absence\r\nof any component, with the most significant decrease in\r\naccuracy occurring when the CNN layers are removed. Thus,\r\nwe can conclude that the complete PSSP-MFFNet demon\u0002strates optimal performance and all components we have\r\ndesigned are essential for its functionality.\r\nVisualization of Performance Comparison. To intui\u0002tively compare the performance of PSSP-MFFNet and existing\r\nmethods, we use PyMOL30 to map the secondary structure to\r\nthe tertiary structure. We randomly selected two proteins with\r\nProtein Data Bank identities and compared different methods\r\nfor predicting their secondary structures. As illustrated in\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Figure 3, we test the performance of PSSP-MFFNet, OPUS\u0002TASS, and MUFold-SS on two proteins (PDB ID: 1HZ6 and\r\n2JYO). The red area represents α helix (H), the purple area\r\nrepresents beta-strand (E) and the green area represents coil\r\n(C). The visualization results demonstrate that the predictions\r\nof PSSP-MFFNet are closer to the ground truth than those of\r\nother methods. Based on this, we can conclude that PSSP\u0002MFFNet has better performance than existing methods.\r\nCase Study. To verify the accuracy of our model’s\r\npredictions at mutation sites, we conduct experiments using\r\nSARS-CoV-2 proteins and apply our PSSP-MFFNet for\r\nsecondary structure prediction. COVID-19 is a highly\r\ninfectious respiratory illness caused by the SARS-CoV-2\r\nvirus. The virus has four structural proteins - spike (S),\r\nenvelope (E), membrane (M), and nucleocapsid (N)\r\nproteins.31 The spike protein consists of two subunits, S1\r\nand S2, and plays a critical role in interacting with host cell\r\nreceptors, making it a primary target for designing COVID-19\r\nvaccines.\r\nMutations in the receptor binding domain (RBD) of the\r\nSARS-CoV-2 spike protein have given rise to new variants of\r\nconcern, such as the Delta and the Omicron strains. Therefore,\r\nwe select the SPIKE_7N9T protein and several representative\r\nproteins from the new variants to perform structure prediction.\r\nAs illustrated in Figure 4, we show the homology of the\r\nselected protein in the Phylogenetic Tree and present the\r\npredicted structures of our method. The red area represents\r\nincorrect predictions, while the green area represents correct\r\npredictions. Additionally, we make the nonmutation sites\r\ntransparent to highlight the prediction results at the mutation\r\nsites. The experimental results demonstrate an accuracy rate of\r\n94.51% in the mutation area and an overall prediction\r\naccuracy rate of 96.35%. These findings suggest that PSSP\u0002MFFNet performs well at the mutation sites.\r\nIn addition to the common protein secondary structures, we\r\npay special attention to the chameleon sequence, a class of\r\nprotein fragments with multiple structures. These sequences\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Table 6. Results of Ablation Experiments on CB513 Data\r\nSeta\r\nmethod ACCH ACCE ACCC ACC\r\nw/o CNN layers 0.7439 0.6823 0.7342 0.7258\r\nw/o LSTM layers 0.7924 0.7058 0.7710 0.7636\r\nw/o feature enhancement 0.8357 0.7681 0.8283 0.8172\r\nfull 0.9179 0.8188 0.8381 0.8613\r\na\r\nThe first four lines mean models lacking different components, and\r\n“full” means the complete PSSP-MFFNet.\r\nFigure 3. Visualization of secondary structures mapped into tertiary structures for PSSP-MFFNet and other SOTA methods.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c10230\r\nACS Omega 2024, 9, 5985−5994\r\n5989\nhave the flexibility to change their secondary structures in\r\nspecific environments or when interacting with other\r\nmolecules, which poses a challenge for protein structure\r\nprediction. This study seeks to examine the impact of such\r\nsequences on protein 3D structure prediction in order to\r\nprovide insights into their role in protein structural complexity.\r\nWe select two proteins with chameleon sequences (PDB ID:\r\n2Q0Y and 3S30) and compare different methods for predicting\r\ntheir secondary structures. As illustrated in Figure 5, we tested\r\nthe performance of PSSP-MFFNet, OPUS-TASS, and\r\nMUFold-SS on two proteins. We color chameleon sequences\r\ngreen in the sequence. The red area represents incorrect\r\npredictions, while the green area represents correct predictions.\r\nThe visualization results demonstrate that the predictions of\r\nPSSP-MFFNet are closer to the ground truth than other\r\nmethods. It indicates that our model can show stability and\r\nFigure 4. Visualization of the Phylogenetic Tree and prediction results for PSSP-MFFNet on SARS-CoV-2 proteins. The red area represents\r\nincorrect predictions, while the green area represents correct predictions. Nonmutation sites are displayed as transparent to emphasize the\r\nprediction results at the mutation sites.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Figure 5. Visualization of secondary structure prediction results on chameleon sequences. We color chameleon sequences green in the sequence.\r\nThe red area represents incorrect predictions, while the green area represents correct predictions.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c10230\r\nACS Omega 2024, 9, 5985−5994\r\n5990\nhigh accuracy when facing protein fragments with multiple\r\nstructures such as chameleon sequences.\r\n■ CONCLUSIONS AND OUTLOOK\r\nIn this study, we developed PSSP-MFFNet, a DL-based multi\u0002feature fusion network for PSSP, which achieved superior\r\nperformance in predicting secondary structures of proteins. By\r\ncombining multiple feature representations, such as MSA,\r\nPSSM, HMM, and sequence embedding, our multi-feature\r\nfusion strategy effectively enhanced the feature representation,\r\nleading to improved prediction accuracy. The novel hybrid\r\nnetwork architecture of PSSP-MFFNet, consisting of a CNN\r\nand LSTM, extracted both local and global features of protein\r\nsequences, which contributed to the high accuracy of our\r\nmodel. Through ablation studies, we demonstrated that each\r\ncomponent of PSSP-MFFNet played a critical role in achieving\r\na high accuracy, validating the effectiveness of our method.\r\nImportantly, PSSP-MFFNet outperformed existing methods\r\non several data sets, which is a significant breakthrough in the\r\nfield of PSSP.\r\nFurthermore, PSSP-MFFNet has the potential to integrate\r\nadditional structural information on proteins, providing a more\r\nefficient way to explore protein structures and leading to a\r\nbetter understanding of their biological functions. Our study\r\nhas implications for various areas of research, including drug\r\ndiscovery, disease diagnosis, and protein engineering. The\r\nability of our method to integrate multiple feature\r\nrepresentations and extract both global and local features can\r\nenhance our understanding of protein structures and functions.\r\nCompared to other PSSP models, PSSP-MFFNet has better\r\nperformance, and the prediction results are closer to the\r\nground truth.\r\nIn conclusion, PSSP-MFFNet not only offers a new\r\napproach for PSSP but also provides a potential for integrating\r\nadditional structural information of proteins. Our method can\r\ncontribute to a better understanding of the biological functions\r\nof proteins, which has significant implications for drug\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "discovery, disease diagnosis, and protein engineering. PSSP\u0002MFFNet is an encouraging method that can significantly\r\nimprove prediction accuracy, provide new research insights,\r\nand facilitate the development of new therapeutics and\r\ndiagnostic tools in the field of protein structure prediction.\r\n■ METHODOLOGY\r\nMulti-feature Fusion. In this section, we describe how we\r\npreprocess protein sequences to generate different feature\r\nrepresentations that can be used in machine learning\r\nalgorithms for training. We introduce four different types of\r\nfeatures: MSA feature, PSSM feature, HMM feature, and\r\nsequence embedding feature, and we explain how we apply an\r\nembedding method to obtain each type of feature. To generate\r\na unified feature space, we also introduce a Cosine-Similarity\u0002based feature fusion strategy.24\r\nMSA Feature Generation. For a given protein sequence, we\r\nuse HHblits ver. 3.3.0 together with the uniclust30_2018_0832\r\ndatabase to generate the MSA profiles of target sequences.\r\nThen, we extract evolutionary information with the MSA\r\nTransformer. We define the input MSA as a character matrix r\r\n× c, where r and c are rows (number of sequences) and\r\ncolumns (sequence length) in the MSA, respectively. After\r\nencoding by the MSA Transformer, the input MSA is\r\nembedded into two kinds of features: (1) One is an r × c ×\r\n768 tensor. Then, as the neuron size decreases, the dimension\r\nof this feature is reduced to 128 through three linear layers.\r\nAfter horizontal and vertical expansion and stacking, this\r\nfeature is to form a query sequence feature of a c × c × 256\r\ntensor, represented as Fseq. (2) The other one is row attention\r\nmaps, represented as Attent.\r\nThe MSA Transformer has a 12-stacked 12-head encoder.\r\nSo, there are a total of 144 attention maps stacked in the shape\r\nof c × c × 144. The extracted row attention map and input\r\nfeatures are then concatenated in the feature dimension to a\r\n2D feature map, which is a c × c × 400 tensor, called MSA\r\nfeature. Then, the feature dimension of the MSA feature is\r\nreduced to 64 through three 2D convolutional layers, each of\r\nwhich is followed by an instance normalization and a Rectified\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Linear Unit(ReLU) activation. We use symbol FMSA to\r\nrepresent the generated MSA feature, the MSA Transformer\r\nprocesses as follows\r\nF , Attent = Transformer(MSA) seq\r\n(1)\r\nF = F Attent inter seq\r\n(2)\r\nFM = ConvBlock(F ) SA inter (3)\r\nPSSM Feature Generation. In this paper, we generate the\r\nPSSM profile for each given protein sequence using four\r\niterations of the position-specific iterative basic local alignment\r\nsearch tool (PSI-BLAST)17 with the Uniprot_sprot database33\r\nwith default parameters. The resulting PSSM is represented as\r\na c × n matrix, where c is the length of the protein sequence\r\nand n is the number of standard amino acid residues. The\r\nPSSM score represents the position-specific score of the 20\r\namino acids at a specific position in the sequence, and the\r\nscore is typically a positive or negative integer. Therefore, we\r\ncan use the PSSM score to determine the likelihood that an\r\namino acid at a given position has evolved toward another\r\namino acid with a higher score, thus potentially indicating a\r\nmore stable structure.\r\nHMM Feature Generation. The HHM profiles we use in\r\nthis study are generated using HMMER 3.3.223 with default\r\nparameters and a default sequence database. We also define the\r\ngenerated HHM profile as a c × n matrix, where c is the length\r\nof each protein sequence and n is the number of standard\r\nresidues. HHM matrix scores are usually displayed as positive\r\nnonintegers. As a stochastic model, the HMM is widely used to\r\npredict protein secondary structure. In this study, the explicit\r\nsequence is the protein sequence, and the hidden state is their\r\nsecondary structure. An HMM can be trained to obtain\r\nprobabilistic transition matrices for each state, thereby\r\ndescribing different protein families. In PSSP, HMMs are\r\nused to learn α helix (H), beta-strand (E), and coil (C)\r\nstructures and applied to new protein sequences with unknown\r\nsecondary structures.\r\nSequence Embedding Feature Generation. Here, we apply\r\nword2vec34 to generate sequential features from protein\r\nsequences. We define the input protein sequences as the r ×\r\nc matrix, where r is the batch size and c is the length of each\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "protein sequence. The output of word2vec is an r × c ×\r\nembedding_dim, where embedding_dim represents the dimen\u0002sion of the embedding vector, that is, how many dimensions\r\nare used to represent a symbol. Here, we set the\r\nembedding_dim = 20. Applying the Word2vec model, our\r\nmethod can learn high-quality residual vectors with latent\r\nsemantics and prevent zero-redundant representations.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c10230\r\nACS Omega 2024, 9, 5985−5994\r\n5991\nFusion Strategy. Here, we use the cosine similarity-based\r\nfeature fusion strategy24 to generate a unified feature\r\nrepresentation space by fusing the above four kinds of features.\r\nThe cosine similarity is calculated as follows\r\n= · X Y\r\nX Y\r\nX Y cos( , )\r\n(4)\r\n= | |\r\n=\r\nX max x i n j\r\nn\r\nij 1 1 (5)\r\nwhere ∥X∥∞ and ∥Y∥∞ are the infinite-norm of input matrix X\r\nand Y. With this, we can calculate the fused feature for each\r\ngiven protein sequence, which is denoted as a matrix Ffuse as\r\nbelow\r\nFfuse = P + cos(P, E) + cos(H, E) + H + FMSA (6)\r\nwhere FMSA represents MSA feature, P represents PSSM\r\nfeature, H represents HHM feature, and E represents sequence\r\nembedding feature. So, in Figure 2, the colored numbers 1 to 5\r\nin the multi-feature fusion module represent P, cos(P, E),\r\ncos(H, E), H, and FMSA, respectively. Finally, four kinds of\r\nfeatures are concatenated to a 2D matrix as the high-latent\r\ninput feature for the following hybrid neural network.\r\nHybrid Neural Network. The hybrid neural network in\r\nPSSP-MFFNet is composed of a CNN and an LSTM. To\r\nextract features, the hybrid neural network takes the high-latent\r\nfeatures as input. The CNN is used to extract local features,\r\nwhile LSTM aims to extract global features. The fused features\r\ngenerated by the previous module are first input into a CNN\r\nconsisting of a 2D convolutional layer, a batch normalization\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "layer, a maximum pooling layer, and a ReLU activation\r\nfunction layer. CNN is used to extract local information in the\r\nprotein feature representation since each convolution neuron\r\nprocesses only the data of its receptive field. To improve\r\nperformance and accelerate network training, we employ the\r\ndropout technique before the CNN. We use symbol F′ to\r\nrepresent the features obtained by CNN, the fused features\r\nfrom fusion module Ffuse are processed as follows\r\nF = CNN(Dropout(F )) fuse (7)\r\nTo obtain a global feature representation, we needed to\r\nextract the features F′ through LSTM layers. We use the\r\nsymbol Fextract to represent the extracted features and employ\r\ntwo independent LSTM layers to extract features from the\r\nCNN and protein embeddings as follows\r\nF = LSTM (LSTM (F )) extract 2 1 (8)\r\nThe global feature extraction can be divided into two parts\r\nby MSE restriction, which will be introduced later. In the first\r\nglobal feature extraction part, LSTM layer 1 acts as a transition\r\nlayer after the local feature extraction part. It receives a more\r\nefficient feature matrix and further extracts long-range\r\ndependencies. The second global feature extraction part is\r\nLSTM layer 2, followed by fully connected layers.\r\nMSE Restriction. Between the two LSTM layers for global\r\nfeature extraction, we employ the MSE restriction35 to make it\r\neasier for the model to learn the global features in sequences.\r\nThe MSE restriction consists of FNN layers that receive the\r\noutput of the first global feature extraction part as input. We\r\nuse the symbol Fref to represent the output of the FNN layer.\r\nOn the one hand, it uses the secondary structure labels and Fref\r\nto calculate the mean squared error. On the other hand, it\r\ncalculates the loss using the labels and predictions. We use the\r\nsymbol Lrestrict to represent the final MSE restriction loss. The\r\ntwo parts are then added to get the final result as follows\r\nF = FNN(LSTM (F )) ref 1 (9)\r\nL = loss (predict, label) 1 MSE (10)\r\nL = loss (F , label) 2 MSE ref\r\n(11)\r\nLrestrict = L1 + L2 (12)\r\nwhere λ is a balance coefficient used to balance the two loss\r\nfunctions L1 and L2 to calculate Lrestrict.\r\nFeature Enhancement. The feature enhancement module\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "consists of a six-stacked eight-head Transformer encoder.25\r\nThe output of the feature extraction module Fextract is received\r\nas input, which may be a more efficient representation than\r\nother word embeddings. Our feature enhancement module\r\nsends these vectors to a self-attention layer, which then feeds\r\nthem to a feed-forward neural network to process high-level\r\nfeatures. Finally, they were output to the next encoder block as\r\nfollows\r\nF = encoder (F ) enhance 1 1 extract (13)\r\nF = encoder(F ), i = 2, ..., 6 i i i enhance enhance 1 (14)\r\nSecondary Structure Prediction. In living systems, there\r\nare 20 standard amino acids that are fundamental to building\r\nprotein sequences. For the three-state PSSP task, each amino\r\nacid xi in a protein sequence is mapped to a label yi ∈ {α helix\r\n(H), beta-strand (E), coil (C)}, resulting in a secondary\r\nstructure sequence. After Transformer encoder processing, we\r\nemploy three FC layers that receive enhanced features and\r\noutput secondary structure labels as follows\r\npredict = FNN(F ) enhance (15)\r\nwhere FNN represents three continuous FC layers, reducing\r\nthe dimension of this feature from 1024 to 3. The prediction is\r\nan r × c × 3 tensor representing the secondary structure label\r\nvia one-hot encoding. To make our model more robust, we\r\ndesigned a loss function for the prediction module. It consists\r\nof the following two cost functions\r\n=\r\n= =\r\nL r Y W\r\n1 ( )\r\ni\r\nr\r\nj\r\nc\r\ni\r\nj ij\r\n3\r\n1 1 (16)\r\nLtotal = Lrestrict + L3\r\n(17)\r\nwhere L3 represents the MSE loss between feature extraction\r\nand prediction. r is the number of input sequences, and c is the\r\nlength of each input sequence. Y represents the extracted\r\nfeature generated by the feature extraction module. W is\r\ndefined as the weighted secondary structure label, which will\r\nbe discussed in implementation. Lrestrict represents the loss\r\ncalculated by the MSE restriction. γ is a balance coefficient\r\nused to balance the two loss functions in order to calculate the\r\nfinal cost for the optimizer.\r\n■ EXPERIMENTAL SECTION\r\nImplementation Details. We employ PyTorch36 to build\r\nthe model. The MSA Transformer used in the multi-feature\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "fusion module is a pre-trained version. We adopted batch\r\nnormalization and dropout techniques to speed up the training\r\nof the network and improve its performance. We insert a\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c10230\r\nACS Omega 2024, 9, 5985−5994\r\n5992\ndropout layer with an ignore rate of 0.5 before the CNN. We\r\nemploy batch normalization (1) in the CNN, (2) between the\r\nLSTMs, and (3) between the feature extraction module and\r\nthe feature enhancement module. By adding the network layer\r\nof controlling the mean and variance, batch normalization can\r\nreduce internal covariate shifts. In the MSE restriction,\r\nparameter λ is set to 0.1, while balance coefficient γ is set to\r\n0.1 in the total loss. Considering the different number of\r\nresidues in three structural states, we define a weighted\r\nsecondary structure label in the formula to calculate Loss3 in\r\nLtotal, which means the weight of state E is 1.25, while H and C\r\nare 1. During the training phase, we fix the parameters in the\r\nMSA Transformer. Other parameters of PSSP-MFFNet are\r\ntrained by the Adam optimizer with a learning rate of 1 × 10−3.\r\nThe entire model was trained on an NVIDIA GeForce RTX\r\nA6000 GPU for about 100 epochs and took about 10 days.\r\nPerformance Metrics. In the experiments, we use\r\naccuracy as the evaluation metric to measure the performance\r\nof the PSSP-MFFNet. ACC is defined as the accuracy of the\r\nprediction in all states. The accuracy in each structural state is\r\ncalled ACCi (i = H, E, C). The detailed calculation formulas\r\nfor these metrics are shown as follows\r\n= = { }\r\n{\r\nA\r\nA\r\nA\r\nA\r\nACCi , ACC i\r\ni\r\ni i\r\ni i\r\nH,E,C\r\nH,E,C)\r\n(18)\r\nwhere Ai is the total number of existing residues in each state\r\nand Ai\r\n′ is the number of correctly predicted residues in the\r\nstate i.\r\n■ ASSOCIATED CONTENT\r\nData Availability Statement\r\nThe model and data set for training are available at https://\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "github.com/MMMMoushuai/PSSP-MFFNet. Additional data\r\nmay be reasonably obtained from the corresponding author\r\nupon request.\r\n■ AUTHOR INFORMATION\r\nCorresponding Author\r\nCalvin Yu-Chian Chen − Artificial Intelligence Medical\r\nResearch Center, School of Intelligent Systems Engineering,\r\nShenzhen Campus of Sun Yat-sen University, Shenzhen,\r\nGuangdong 518107, China; AI for Science (AI4S)-Preferred\r\nProgram, Peking University Shenzhen Graduate School,\r\nShenzhen, Guangdong 518055, China; School of Electronic\r\nand Computer Engineering, Peking University Shenzhen\r\nGraduate School, Shenzhen, Guangdong 518055, China;\r\nDepartment of Medical Research, China Medical University\r\nHospital, Taichung 40447, Taiwan; Department of\r\nBioinformatics and Medical Engineering, Asia University,\r\nTaichung 41354, Taiwan; orcid.org/0000-0001-9213-\r\n9832; Phone: (+)0086-156-2641-3023; Email: cy@\r\npku.edu.cn\r\nAuthors\r\nYifu Chen − Artificial Intelligence Medical Research Center,\r\nSchool of Intelligent Systems Engineering, Shenzhen Campus\r\nof Sun Yat-sen University, Shenzhen, Guangdong 518107,\r\nChina\r\nGuanxing Chen − Artificial Intelligence Medical Research\r\nCenter, School of Intelligent Systems Engineering, Shenzhen\r\nCampus of Sun Yat-sen University, Shenzhen, Guangdong\r\n518107, China\r\nComplete contact information is available at:\r\nhttps://pubs.acs.org/10.1021/acsomega.3c10230\r\nAuthor Contributions #\r\nY.C. and G.C. contributed equally to this work.\r\nNotes\r\nThe authors declare no competing financial interest.\r\n■ ACKNOWLEDGMENTS\r\nThis work was supported by the National Natural Science\r\nFoundation of China (grant no. 62176272), Research and\r\nDevelopment Program of Guangzhou Science and Technology\r\nBureau (2023B01J1016), and Key-Area Research and Devel\u0002opment Program of Guangdong Province (no.\r\n2020B1111100001).\r\n■ REFERENCES\r\n(1) Noble, M. E.; Endicott, J. A.; Johnson, L. N. Protein kinase\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "inhibitors: insights into drug design from structure. Science 2004, 303,\r\n1800−1805.\r\n(2) Wuthrich, K. Protein structure determination in solution by\r\nnuclear magnetic resonance spectroscopy. Science 1989, 243, 45−50.\r\n(3) Bankapur, S.; Patil, N. Protein secondary structural class\r\nprediction using effective feature modeling and machine learning\r\ntechniques. 2018 IEEE 18th International Conference on Bioinformatics\r\nand Bioengineering (BIBE). 2018; pp 18−21.\r\n(4) Ghosh, K. K.; Ghosh, S.; Sen, S.; Sarkar, R.; Maulik, U. A two\u0002stage approach towards protein secondary structure classification.\r\nMed. Biol. Eng. Comput. 2020, 58, 1723−1737.\r\n(5) Singh, H.; Singh, S.; Raghava, G. P. S. Peptide secondary\r\nstructure prediction using evolutionary information. BioRxiv 2019,\r\n558791.\r\n(6) Jumper, J.; Evans, R.; Pritzel, A.; Green, T.; Figurnov, M.;\r\nRonneberger, O.; Tunyasuvunakool, K.; Bates, R.; Žídek, A.;\r\nPotapenko, A.; et al. Highly accurate protein structure prediction\r\nwith AlphaFold. Nature 2021, 596, 583−589.\r\n(7) Rao, R. M.; Liu, J.; Verkuil, R.; Meier, J.; Canny, J.; Abbeel, P.;\r\nSercu, T.; Rives, A. Msa transformer. International Conference on\r\nMachine Learning. 2021; pp 8844−8856.\r\n(8) Cheng, J.; Liu, Y.; Ma, Y. Protein secondary structure prediction\r\nbased on integration of CNN and LSTM model. J. Vis. Commun.\r\nImage Represent. 2020, 71, 102844.\r\n(9) Garnier, J.; Osguthorpe, D. J.; Robson, B. Analysis of the\r\naccuracy and implications of simple methods for predicting the\r\nsecondary structure of globular proteins. J. Mol. Biol. 1978, 120, 97−\r\n120.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "(10) Hanson, J.; Paliwal, K.; Litfin, T.; Yang, Y.; Zhou, Y. Improving\r\nprediction of protein secondary structure, backbone angles, solvent\r\naccessibility and contact numbers by using predicted contact maps\r\nand an ensemble of recurrent and residual convolutional neural\r\nnetworks. Bioinformatics 2019, 35, 2403−2410.\r\n(11) Wang, S.; Peng, J.; Ma, J.; Xu, J. Protein secondary structure\r\nprediction using deep convolutional neural fields. Sci. Rep. 2016, 6,\r\n18962.\r\n(12) Fang, C.; Shang, Y.; Xu, D. MUFOLD-SS: new deep inception\u0002inside-inception networks for protein secondary structure prediction.\r\nProteins: Struct., Funct., Bioinf. 2018, 86, 592−598.\r\n(13) Senior, A. W.; Evans, R.; Jumper, J.; Kirkpatrick, J.; Sifre, L.;\r\nGreen, T.; Qin, C.; Žídek, A.; Nelson, A. W.; Bridgland, A.; et al.\r\nImproved protein structure prediction using potentials from deep\r\nlearning. Nature 2020, 577, 706−710.\r\n(14) Hu, H.; Li, Z.; Elofsson, A.; Xie, S. A Bi-LSTM based ensemble\r\nalgorithm for prediction of protein secondary structure. Appl. Sci.\r\n2019, 9, 3538.\r\n(15) Wang, L.; Jiang, T. On the complexity of multiple sequence\r\nalignment. J. Comput. Biol. 1994, 1, 337−348.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c10230\r\nACS Omega 2024, 9, 5985−5994\r\n5993\n(16) Zvelebil, M. J.; Baum, J. O. Understanding bioinformatics;\r\nGarland Science, 2007.\r\n(17) Altschul, S. F.; Madden, T. L.; Schäffer, A. A.; Zhang, J.; Zhang,\r\nZ.; Miller, W.; Lipman, D. J. Gapped BLAST and PSI-BLAST: a new\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "generation of protein database search programs. Nucleic Acids Res.\r\n1997, 25, 3389−3402.\r\n(18) Rost, B.; Sander, C.; Schneider, R. PHD-an automatic mail\r\nserver for protein secondary structure prediction. Bioinformatics 1994,\r\n10, 53−60.\r\n(19) McGuffin, L. J.; Bryson, K.; Jones, D. T. The PSIPRED protein\r\nstructure prediction server. Bioinformatics 2000, 16, 404−405.\r\n(20) Cole, C.; Barber, J. D.; Barton, G. J. The Jpred 3 secondary\r\nstructure prediction server. Nucleic Acids Res. 2008, 36, W197−W201.\r\n(21) Wang, S.; Li, W.; Liu, S.; Xu, J. RaptorX-Property: a web server\r\nfor protein structure property prediction. Nucleic Acids Res. 2016, 44,\r\nW430−W435.\r\n(22) Asai, K.; Hayamizu, S.; Handa, K. Prediction of protein\r\nsecondary structure by the hidden Markov model. Bioinformatics\r\n1993, 9, 141−146.\r\n(23) Potter, S. C.; Luciani, A.; Eddy, S. R.; Park, Y.; Lopez, R.; Finn,\r\nR. D. HMMER web server: 2018 update. Nucleic Acids Res. 2018, 46,\r\nW200−W204.\r\n(24) Cao, X.; He, W.; Chen, Z.; Li, Y.; Wang, K.; Zhang, H.; Wei, L.;\r\nCui, L.; Su, R.; Wei, L. PSSP-MVIRT: peptide secondary structure\r\nprediction based on a multi-view deep learning architecture. Briefings\r\nBioinf. 2021, 22, bbab203.\r\n(25) Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones, L.;\r\nGomez, A. N.; Kaiser, Ł.; Polosukhin, I. Attention is all you need.\r\nAdvances in neural information processing systems; Curran Associates,\r\nInc., 2017; Vol. 30.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "(26) Wang, G.; Dunbrack, R. L., Jr. PISCES: a protein sequence\r\nculling server. Bioinformatics 2003, 19, 1589−1591.\r\n(27) Kryshtafovych, A.; Barbato, A.; Fidelis, K.; Monastyrskyy, B.;\r\nSchwede, T.; Tramontano, A. Assessment of the assessment:\r\nevaluation of the model quality estimates in CASP10. Proteins: Struct.,\r\nFunct., Bioinf. 2014, 82, 112−126.\r\n(28) Koehl, P.; Levitt, M. A brighter future for protein structure\r\nprediction. Nat. Struct. Biol. 1999, 6, 108−111.\r\n(29) Hanson, J.; Paliwal, K.; Litfin, T.; Yang, Y.; Zhou, Y. Accurate\r\nprediction of protein contact maps by coupling residual two\u0002dimensional bidirectional long short-term memory with convolutional\r\nneural networks. Bioinformatics 2018, 34, 4039−4045.\r\n(30) DeLano, W. L.; et al. Pymol: An open-source molecular\r\ngraphics tool. CCP4 Newsl. Protein Crystallogr. 2002, 40, 82−92.\r\n(31) Ahmed, S. F.; Quadeer, A. A.; McKay, M. R. Preliminary\r\nidentification of potential vaccine targets for the COVID-19\r\ncoronavirus (SARS-CoV-2) based on SARS-CoV immunological\r\nstudies. Viruses 2020, 12, 254.\r\n(32) Mirdita, M.; von den Driesch, L.; Galiez, C.; Martin, M. J.;\r\nSöding, J.; Steinegger, M. Uniclust databases of clustered and deeply\r\nannotated protein sequences and alignments. Nucleic Acids Res. 2017,\r\n45, D170−D176.\r\n(33) Apweiler, R.; Bairoch, A.; Wu, C. H.; Barker, W. C.;\r\nBoeckmann, B.; Ferro, S.; Gasteiger, E.; Huang, H.; Lopez, R.;\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 9,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 4433823561389739436,
+        "filename": "ao3c10230.PMC10851352.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 10,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 292,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Magrane, M.; et al. UniProt: the universal protein knowledgebase.\r\nNucleic Acids Res. 2004, 32, D115−D119.\r\n(34) Mikolov, T.; Chen, K.; Corrado, G.; Dean, J. Efficient\r\nestimation of word representations in vector space. arXiv 2013,\r\narXiv:1301.3781.\r\n(35) Wang, Y.; Mao, H.; Yi, Z. Protein secondary structure\r\nprediction by using deep learning method. Knowl. Base Syst. 2017,\r\n118, 115−123.\r\n(36) Paszke, A.; Gross, S.; Massa, F.; Lerer, A.; Bradbury, J.; Chanan,\r\nG.; Killeen, T.; Lin, Z.; Gimelshein, N.; Antiga, L.; et al. Pytorch: An\r\nimperative style, high-performance deep learning library. Advances in\r\nneural information processing systems; Curran Associates, Inc., 2019;\r\nVol. 32.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c10230\r\nACS Omega 2024, 9, 5985−5994\r\n5994\n\n"
+  }
+]

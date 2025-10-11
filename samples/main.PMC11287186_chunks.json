@@ -1,0 +1,1442 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Spatially distributed cytokinins: Metabolism,\r\nsignaling, and transport\r\nJiangzhe Zhao1, Jingqi Wang1, Jie Liu1, Penghong Zhang1, Guzel Kudoyarova2, Chang-Jun Liu3\r\nand Kewei Zhang1,\r\n* 1\r\nZhejiang Provincial Key Laboratory of Biotechnology on Specialty Economic Plants, College of Life Sciences, Zhejiang Normal University, Jinhua, Zhejiang 321004,\r\nP.R. China\r\n2\r\nUfa Institute of Biology, Ufa Federal Research Center, RAS, Prospekt Oktyabrya 69, Ufa 450054, Russia\r\n3\r\nBiology Department, Brookhaven National Laboratory, Upton, NY 11973, USA\r\n*Correspondence: Kewei Zhang (kwzhang@zjnu.edu.cn)\r\nhttps://doi.org/10.1016/j.xplc.2024.100936\r\nABSTRACT\r\nCytokinins are mobile phytohormones that regulate plant growth, development, and environmental adapt\u0002ability. The major cytokinin species include isopentenyl adenine (iP), trans-zeatin (tZ), cis-zeatin (cZ), and\r\ndihydrozeatin (DZ). The spatial distributions of different cytokinin species in different organelles, cells, tis\u0002sues, and organs are primarily shaped by biosynthesis via isopentenyltransferases (IPT), cytochrome P450\r\nmonooxygenase, and 50\r\n-ribonucleotide phosphohydrolase and by conjugation or catabolism via glycosyl\u0002transferase or cytokinin oxidase/dehydrogenase. Cytokinins bind to histidine receptor kinases in the endo\u0002plasmic reticulum or plasma membrane and relay signals to response regulators in the nucleus via shuttle\r\nproteins known as histidine phosphotransfer proteins. The movements of cytokinins from sites of biosyn\u0002thesis to sites of signal perception usually require long-distance, intercellular, and intracellular transport. In\r\nthe past decade, ATP-binding cassette (ABC) transporters, purine permeases (PUP), AZA-GUANINE\r\nRESISTANT (AZG) transporters, equilibrative nucleoside transporters (ENT), and Sugars Will Eventually\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Be Exported transporters (SWEET) have been characterized as involved in cytokinin transport processes.\r\nThis review begins by introducing the spatial distributions of various cytokinins and the subcellular local\u0002izations of the proteins involved in their metabolism and signaling. Highlights focus on an inventory of the\r\ncharacterized transporters involved in cytokinin compartmentalization, including long-distance, intercel\u0002lular, and intracellular transport, and the regulation of the spatial distributions of cytokinins by environ\u0002mental cues. Future directions for cytokinin research are also discussed.\r\nKey words: cytokinin, biosynthesis, transporter, signal transduction, environmental changes\r\nZhao J., Wang J., Liu J., Zhang P., Kudoyarova G., Liu C.-J., and Zhang K. (2024). Spatially distributed\r\ncytokinins: Metabolism, signaling, and transport. Plant Comm. 5, 100936.\r\nINTRODUCTION\r\nCytokinins were discovered in a search for factors that promote\r\ncell proliferation in plant tissue culture alongside auxin (Miller,\r\n1955a). In 1955, Miller and Skoog from the botany and\r\nbiochemistry departments at the University of Wisconsin\r\nreported the isolation, crystallization, characterization, and\r\nsynthesis of kinetin (6-furfurylaminopurine) (Miller, 1955b). The\r\nfirst isolation of trans-zeatin (tZ) in plants was from corn (Zea\r\nmays) endosperm in 1961 (Miller, 1961). Subsequently, various\r\ntypes of cytokinins, including N6\r\n-(D2-isopentenyl)adenine (iP),\r\ncis-zeatin (cZ), dihydrozeatin (DZ), and aromatic cytokinins,\r\nwere discovered and characterized (Sondheimer and Tzou,\r\n1971; Horgan et al., 1973, 1975; Laloue et al., 1974, 1977;\r\nKaiss-Chapman and Morris, 1977; Wang and Horgan,\r\n1978; Letham and Palni, 1983). The metabolism, signaling,\r\nand transport of various types of cytokinins have been\r\ncomprehensively investigated over the past 70 years.\r\nCytokinin metabolic pathways have been well characterized. The\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "key enzymes involved in cytokinin metabolism are as follows: iso\u0002pentenyltransferase (IPT) catalyzes the transfer of isopentenyl\r\ngroups to the adenine of ATP and ADP, thereby producing iso\u0002pentenyladenine nucleotides; cytochrome P450 (CYP) monooxy\u0002genase enables hydroxylation of iP nucleotides to produce zeatin\r\nPublished by the Plant Communications Shanghai Editorial Office in\r\nassociation with Cell Press, an imprint of Elsevier Inc., on behalf of CSPB and\r\nCEMPS, CAS.\r\nPlant Communications 5, 100936, July 8 2024 ª 2024 The Authors.\r\nThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).\r\n1\r\nPlant Communications\r\nReview article\r\nll\nnucleotides; and cytokinin riboside 50\r\n-monophosphate phos\u0002phoribohydrolase encoded by the LONELY GUY (LOG) gene con\u0002verts inactive cytokinin nucleotides to active free base forms in\r\none step (Kakimoto, 2001; Takei et al., 2001, 2004a; Golovko\r\net al., 2002; Miyawaki et al., 2006; Kurakawa et al., 2007;\r\nKuroha et al., 2009; Tokunaga et al., 2011). After cytokinin\r\nbiosynthesis, O- and N-glucosyltransferases are responsible for\r\ncytokinin glucosylation, and cytokinin oxidase/dehydrogenases\r\n(CKXs) are responsible for irreversible degradation of cytokinins\r\nto mediate cytokinin homeostasis and signaling (Fox et al.,\r\n1973; Letham et al., 1983; Bilyeu et al., 2001; Galuszka et al.,\r\n2001; Werner et al., 2001; Veach et al., 2003; Hou et al., 2004;\r\nAshikari et al., 2005; Bartrina et al., 2011).\r\nThe cytokinin signaling system is composed of histidine (His) re\u0002ceptor kinases (HKs), His phosphotransfer proteins (HPs), and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "response regulators (RRs) (Kiba et al., 1999; D’Agostino et al.,\r\n2000; Sakakibara et al., 2000; Hwang and Sheen, 2001; Inoue\r\net al., 2001; Ueguchi et al., 2001a, 2001b; Yamada et al., 2001;\r\nHwang et al., 2002; Hwang et al., 2012). In brief, cytokinins\r\nbind HKs, stimulating His phosphorylation and triggering a\r\nphosphorelay that results in the transfer of phosphoryl groups\r\nonto aspartate (Asp) residues of HKs. Subsequently, these\r\nphosphoryl groups are further transferred onto His residues of\r\nHPs. Finally, the HPs transfer the phosphoryl groups to the\r\nconserved Asp of RR members via direct interaction, leading to\r\nthe activation of gene transcription (Sakakibara et al., 2000;\r\nHwang and Sheen, 2001; Inoue et al., 2001; Hwang et al.,\r\n2012). Throughout these processes, HP proteins shuttle\r\nbetween the cytoplasm and the nucleus to transfer activating\r\nphosphoryl groups to the receiver domains of RRs, thus\r\nfacilitating the connection of endoplasmic reticulum (ER)- or\r\nplasma membrane (PM)-localized receptors with nuclear RRs\r\n(Sakakibara et al., 2000; Hwang and Sheen, 2001; Caesar et al.,\r\n2011; Lomin et al., 2011; Wulfetange et al., 2011).\r\nCytokinin biosynthesis and signaling typically occur in different\r\norganelles, cells, tissues, and organs. Cytokinin homeostasis\r\nand signal perception rely on autocrine, paracrine, or long\u0002distance translocation. Serving as a link between biosynthesis\r\nand signaling, cytokinin transport plays essential roles in plant\r\ndevelopment and responses to environmental cues. The\r\nspatial distributions of multiple cytokinin species in different\r\norganelles, cells, tissues, or organs require sophisticated\r\ntransport mechanisms. Comprehensive reviews of cytokinin\r\nbiosynthesis, signaling, or transport have been published pre\u0002viously (Sakakibara, 2006, 2021; Hwang et al., 2012; Zurcher €\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 477,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "and Muller, 2016 € ; Liu et al., 2019; Zhang et al., 2023). Here,\r\nwe review recent progress in the study of cytokinin transport\r\nand the regulation of the spatial distributions of cytokinin\r\nspecies, metabolic enzymes, and signaling components.\r\nCYTOKININ BIOSYNTHESIS\r\nBiosynthesis of iP-, tZ-, and cZ-type cytokinin\r\nnucleotides in the plastids, cytoplasm, and ER\r\nCytokinins are a class of N6-adenine derivatives that can be\r\ndivided into isoprenoid and aromatic cytokinins on the basis of\r\nside-chain structure (Miller, 1961; Horgan et al., 1973, 1975;\r\nMok, 1994; Strnad, 1997). Isoprenoid cytokinins are widely\r\npresent in plants, and their synthesis and metabolism have\r\nbeen studied extensively. Isoprenoid cytokinins mainly include\r\niP-, tZ-, cZ-, and DZ-type cytokinins (Mok and Mok, 2001). The\r\ninitiation step of isoprenoid cytokinin biosynthesis is catalyzed\r\nby IPTs, which are classified into three types: ATP/ADP-IPT,\r\nAMP-IPT, and tRNA-IPT (Kakimoto, 2001; Takei et al., 2001;\r\nMiyawaki et al., 2006; Matsumoto-Kitano et al., 2008; Kamada\u0002Nobusada and Sakakibara, 2009; Frebort et al., 2011; Wang\r\net al., 2020). ATP/ADP-IPT is present mainly in plants, whereas\r\nAMP-IPT is present mainly in bacteria and non-plant eukaryotes,\r\nwith tRNA-IPTs possessing a much broader taxonomic distribu\u0002tion (Kakimoto, 2001; Frebort et al., 2011; Ghosh et al., 2018;\r\nWang et al., 2020). In this review, we mainly focus on cytokinin\r\nsynthesis in plants (Figure 1). ATP/ADP-IPT catalyzes cytokinin\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "synthesis using dimethylallyl diphosphate and ATP/ADP as sub\u0002strates to produce iP nucleotides, including iP riboside 50\r\n-triphos\u0002phate (iPRTP) and iP riboside 50\r\n-diphosphate (iPRDP) (Kakimoto,\r\n2001; Takei et al., 2001, 2003). tRNA-IPT catalyzes the synthesis\r\nof cis-hydroxy isopentenyl tRNAs, which are transformed into cZ\r\nriboside 50\r\n-monophosphate (Golovko et al., 2002; Miyawaki\r\net al., 2006).\r\nNine IPT genes (IPT1–9) have been annotated in the Arabidopsis\r\ngenome (Kakimoto, 2001; Takei et al., 2001; Miyawaki et al.,\r\n2006). The AtIPT1 and AtIPT3–8 enzymes preferentially use ATP\r\nand ADP as isoprenoid acceptors (Kakimoto, 2001; Takei et al.,\r\n2001). AtIPT2 and AtIPT9 catalyze the isoprenylation of tRNA,\r\nproviding a source for cZ-type cytokinins (Miyawaki et al., 2006).\r\nAt subcellular levels, AtIPT2 and AtIPT4 localize to the cytoplasm,\r\nAtIPT7 to mitochondria, and AtIPT1, AtIPT3, AtIPT5, and AtIPT8 to\r\nplastids (Kasahara et al., 2004; Galichet et al., 2008). Dimethylallyl\r\ndiphosphate, another substrate of IPT, is produced from the\r\nmethylerythritol phosphate (MEP) pathway in the plastids.\r\nExperiments using 13C labeling have shown that iP- and tZ-type\r\ncytokinins are mainly synthesized via the MEP pathway, which is\r\nconsistent with the localization of most ATP/ADP-IPT enzymes\r\n(Kasahara et al., 2004). cZ-type cytokinins are synthesized by\r\nboth the MEP and mevalonate (MVA) pathways, but primarily via\r\nthe MVA pathway, consistent with the localization of IPT2 in the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "cytoplasm (Kasahara et al., 2004). These data suggest that the\r\niPRTP/iPRDP/iPRMP for iP biosynthesis is mainly produced in\r\nthe plastids, whereas the cZ riboside 50\r\n-monophosphate for cZ\r\nbiosynthesis is produced in the cytoplasm. The physiological\r\nand biochemical functions of the IPT gene family have also\r\nbeen characterized in species other than Arabidopsis, such as\r\nStreptocarpus rexii and Jatropha curcas (Kamada-Nobusada\r\net al., 2013; Chen et al., 2017; Wang et al., 2020).\r\nCYP735A1 and A2 are two P450 enzymes responsible for the\r\nside modification of iPRTP/iPRDP/iPRMP in plants such as\r\nArabidopsis and rice (Oryza sativa) (Takei et al., 2004a).\r\nAlthough the subcellular localizations of these two enzymes\r\nhave not been experimentally determined, they are predicted\r\nto localize to the ER owing to the presence of a signal\r\npeptide (https://www.genscript.com/psort.html). Thus, iPRTP/\r\niPRDP/iPRMP are thought to be transported from the plastids\r\nto the ER for the synthesis of tZ-type cytokinins by the en\u0002zymes CYP735A1/A2 (Takei et al., 2004a). Alternatively,\r\nminor tZ-type cytokinins can be directly synthesized via the\r\nIPT enzyme independent of iP-type cytokinins from an un\u0002known precursor (A˚ stot et al., 2000).\r\n2 Plant Communications 5, 100936, July 8 2024 ª 2024 The Authors.\r\nPlant Communications Spatially distributed cytokinins\nThe biosynthesis of DZ is still poorly understood. Enzyme assays\r\nusing crude enzymes from plants have suggested that DZ can be\r\nformed by zeatin reductase, which reduces the N6\r\n-side-chain\r\ndouble bond of tZ or its metabolites (Gaudinova´ et al., 2005).\r\nHowever, genes encoding zeatin reductase have yet to be\r\ncharacterized.\r\nBiosynthesis of free cytokinins in the cytoplasm and\r\napoplast\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 482,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "It has long been known that iP, tZ, and cZ nucleotides in the plas\u0002tids and ER are transported to the cytoplasm and catalyzed by\r\nLOG to produce free bases of iP, tZ, and cZ in a single step\r\n(Kurakawa et al., 2007; Kuroha et al., 2009; Tokunaga et al.,\r\n2011). iP and tZ nucleotides can be converted to free-type\r\ncytokinins by dephosphorylation and deribosylation processes\r\n(Chen and Kristopeit, 1981a, 1981b). Recently, the LOG family\r\nFigure 1. Intracellular compartmentation of\r\ncytokinin metabolism.\r\nBiosynthesis of iP- and cZ-type cytokinin nucleo\u0002tides is derived from the MEP and MVA pathways in\r\nthe plastids and cytoplasm, respectively. iP-type\r\ncytokinin nucleotides are synthesized in the plas\u0002tids and are transported first to the endoplasmic\r\nreticulum (ER) and finally to the cytoplasm, where\r\nvarious cytokinin derivatives are produced by LOG\r\nenzymes. Cytokinins are irreversibly degraded by\r\ncytokinin oxidase/dehydroxylases (CKXs) into their\r\naldehydes and adenine/derivatives in the ER, vac\u0002uoles, nucleus, cytoplasm, and apoplast. Cytokinin\r\nO-glucosyltransferases or N-glucosyltransferases\r\ncan reversibly catalyze the N- or O-glucosylation of\r\ncytokinins in the plastids and cytoplasm and are\r\nfinally transported to the vacuoles. Cytokinin O\u0002glucosides are shown to be reversibly deglycosy\u0002lated by b-glucosidase in the cytoplasm. Cytokinin/\r\npurine riboside nucleosidase 1 (CPN1) is localized\r\nin the cell walls, where it catalyzes deribosylation of\r\nthe cytokinin ribosides cZR, cZROG, and tZR,\r\nproducing the cytokinin free bases cZ, cZOG, and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "tZ in the apoplast. The plastid, ER, vacuole, nu\u0002cleus, cell membrane, and cell wall are indicated\r\nby yellow, blue, pink, brown, light yellow, and\r\ngreen, respectively. IPT, adenylate isopentenyl\r\ntransferase; CYP735A, cytochrome P450 mono\u0002oxygenase, family 735, subfamily A; CKP, cytokinin\r\nriboside phosphorylase; LOG, cytokinin phos\u0002phoribohydrolase LONELY GUY; LOGL5/GY3,\r\ncytokinin phosphoribohydrolase LONELY GUY\u0002LIKE 5/quantitative trait loci GY3; RPH, 50\r\n-ribonu\u0002cleotide phosphohydrolase; CK-N-GT, cytokinin\r\nN-glucosyltransferase (although the enzyme can\r\nglucosylate either N9 or N7\r\n, for clarity, only N\r\nmodification is shown); b-GLU, b-glucosidase;\r\nCKX, cytokinin dehydrogenase; ZOGT, zeatin-O\u0002glucosyltransferase.\r\nprotein OsLOGL5/GY3 was characterized\r\nas a 50-ribonucleotide phosphohydrolase\r\nthat catalyzes the production of iP riboside\r\n(iPR) from iPRMP (Wu et al., 2023).\r\nCytokinin/purine riboside nucleosidase 1,\r\nwhich localizes to cell walls, has been found\r\nto catalyze deribosylation of cytokinin ribosides to produce\r\ncytokinin free bases in rice (Kojima et al., 2023). These studies\r\nreveal a two-step metabolic pathway for cytokinin free base\r\nbiosynthesis in addition to the previously reported one-step\r\npathway. We speculate that these two pathways synergistically\r\nand spatiotemporally regulate plant growth and development un\u0002der different growth conditions.\r\nAs genes whose encoded enzymes function in cytokinin activa\u0002tion, the LOG genes are expressed in the shoot and root meri\u0002stems. For example, in Arabidopsis, AtLOG1, AtLOG2, AtLOG4,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "AtLOG5, and AtLOG7 are expressed in shoot meristems; At\u0002LOG2, AtLOG3, and AtLOG4 are expressed in lateral root (LR)\r\nprimordia; and AtLOG8 is expressed in the quiescent center of\r\nmature roots (Kuroha et al., 2009; Chickarmane et al., 2012). In\r\nrice, OsLOG, OsLOGL3, and OsLOGL7 are expressed in\r\nvarious tissues, including shoot meristems; OsLOGL5 is highly\r\nPlant Communications 5, 100936, July 8 2024 ª 2024 The Authors. 3\r\nSpatially distributed cytokinins Plant Communications\nexpressed in young panicles; OsLOGL6 is expressed in shoot\r\nmeristems and awn primordia; and OsLOGL10 is expressed in\r\nlarge vascular bundles of leaf primordia (Kurakawa et al., 2007;\r\nGu et al., 2015; Hua et al., 2015; Hake et al., 2018; Wu et al.,\r\n2023). Almost all the LOG proteins in rice and Arabidopsis are\r\nmainly localized in the cytosol, where they produce free\r\ncytokinins or cytokinin riboside (Kurakawa et al., 2007; Kuroha\r\net al., 2009; Chen et al., 2022; Wu et al., 2023).\r\nBiosynthesis of cytokinin species in shoots and roots\r\nTranscripts of IPT genes have been detected in the shoots and\r\nroots of plants such as Arabidopsis, rice, soybean, and maize\r\n(Miyawaki et al., 2004, 2006; Kamada-Nobusada et al., 2013;\r\nGhosh et al., 2018; Nguyen et al., 2021). In Arabidopsis, AtIPT2,\r\nAtIPT3, AtIPT5, AtIPT7, and AtIPT9 are expressed in the leaves\r\nand roots; AtIPT4, AtIPT6, and AtIPT8 are expressed primarily\r\nin flowers and seeds; and AtIPT1 is expressed in almost all\r\ntissues (Miyawaki et al., 2004; Ghosh et al., 2018; Nguyen\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "et al., 2021). Among these, AtIPT3 and AtIPT7 are expressed in\r\nthe vascular tissues (Takei et al., 2004b; Miyawaki et al., 2004).\r\nThe expression patterns of IPT genes suggest that iP-type cyto\u0002kinins can be produced in vascular tissues of both shoots and\r\nroots. In contrast to the widely expressed IPTs, CYP735A2, the\r\nmajor gene for tZ-type cytokinin biosynthesis in Arabidopsis, is\r\nmainly expressed in vascular tissues of roots (Takei et al.,\r\n2004a; Kiba et al., 2013). Similarly, in rice, the tZ-synthesis\r\ngenes CYP735A4 and CYP735A3 display higher expression in\r\nroots than in shoots (Kiba et al., 2023). The expression\r\npattern of the tZ-biosynthesis gene CYP735A indicates that\r\ntZ-type cytokinins are produced primarily in roots. At the\r\nmetabolic level, quantification of cytokinin species by liquid\r\nchromatography–tandem mass spectrometry in grafts between\r\nipt1ipt3ipt5ipt7 quadruple mutants and wild-type plants suggests\r\nthat iP-type cytokinins are mainly produced in shoots, whereas\r\ntZ-type cytokinins are mainly produced in roots (Matsumoto\u0002Kitano et al., 2008). This suggests that iP-type cytokinins may\r\nneed to move from shoots to roots for the biosynthesis of tZ\u0002type cytokinins.\r\ncZ-type cytokinin content varies greatly among different develop\u0002mental stages of different plants. In Arabidopsis, the content of\r\ncZ-type cytokinins in seeds was about three times that of tZ\u0002type cytokinins 24 h after seed soaking (Gajdo\u0002sova´ et al.,\r\n2011) but was about 10% that of tZ-type cytokinins in plants at\r\n24 days after germination (Gajdo\u0002sova´ et al., 2011). In rice, cZ\u0002type cytokinin content at the seedling stage was about 30 times\r\nthat of total tZ-type and iP-type cytokinins (Kiba et al., 2023),\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "but there was no obvious difference between cZ-type and tZ\u0002type cytokinin content after the tillering stage (Zhao et al., 2019;\r\nZhang et al., 2021). Interestingly, cZ and its derivatives are the\r\nmain cytokinin species in some Poaceae plants such as Avena\r\nsativa, Triticum aestivum, Dactylis glomerata, Agropyron\r\nrepens, and Phragmites australis (Gajdo\u0002sova´ et al., 2011).\r\nAlthough the biosynthesis sites of cZ-type cytokinins remain\r\nlargely unknown, the available metabolic data show that there\r\nis little difference in cZ content between shoots and roots\r\n(Zhang et al., 2014; Yin et al., 2020), suggesting that cZ-type\r\ncytokinins can be synthesized in both the roots and the shoots.\r\nCompared with that of tZ-, iP-, and cZ-type cytokinins, the\r\ncontent of DZ-type cytokinins is generally low in various plants\r\n(Gajdo\u0002sova´ et al., 2011; Ko et al., 2014; Zhang et al., 2014; Yin\r\net al., 2020), and little is known about their biosynthesis and\r\ndistribution.\r\nThe spatial distributions of different cytokinin species were\r\nelegantly characterized by metabolic analysis of roots at\r\nthe single-cell level (Antoniadi et al., 2015). The cytokinin\r\nconcentration in root cells was approximately 3 3 10\u000221 to 100 3\r\n10\u000221 pmol/cell (Antoniadi et al., 2015), with the highest levels\r\nobserved in distal root parts (root cap, columella, columella\r\ninitials, and quiescent center), followed by the endodermis and\r\nthe stele, and the lowest levels observed in cells of the cortex/\r\nepidermis (Antoniadi et al., 2015). The cytokinins in roots are\r\nmainly synthesized in the companion cells of the phloem and are\r\ndistributed to different tissues, indicating a clear phenomenon of\r\ncytokinin transport in roots.\r\nConjugation and catabolism of cytokinins in multiple\r\norganelles and in different tissues\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "After biosynthesis, cytokinins undergo glycosylation via glycosyl\u0002transferases or are irreversibly degraded by cytokinin oxidases\r\n(Fox et al., 1973; Letham et al., 1983; Mok, 1994; Bilyeu et al.,\r\n2001; Galuszka et al., 2001; Werner et al., 2001; Ashikari et al.,\r\n2005). Cytokinin free bases are converted into cytokinin\r\nribosides by cytokinin riboside phosphorylase in the presence\r\nof ribose 1-phosphate (Chen and Petschow, 1978; Bromley\r\net al., 2014) and can then be integrated into the metabolic\r\nflux for synthesis of different cytokinin species. Cytokinin\r\nglucosides are widely distributed in plants (Fox et al., 1973;\r\nLetham et al., 1983; Dixon et al., 1989; Martin et al., 1999a,\r\n1999b, 2001; Hou et al., 2004). After feeding of free 14C-labeled\r\ntZ to Arabidopsis roots, various cytokinin species were\r\ndetected, including tZ, tZR, tZRMP, tZOG, tZROG, tZ7G, and\r\ntZ9G (Zhang et al., 2014), suggesting that free tZ can be either\r\nreversibly converted to tZR and tZRMP or glycosylated.\r\nCytokinin O-glucosyltransferases, which belong to the large\r\nsuperfamily of glycosyltransferase enzymes, can catalyze N- or\r\nO-glucosylation of cytokinins (Campbell et al., 1997; Lairson\r\net al., 2008; Yonekura-Sakakibara and Hanada, 2011).\r\nIn Arabidopsis, rice, and maize, cZ-O-glucosyltransferases\r\n(cZOGT), including ZmcZOGT1, OscZOGT1, OscZOGT2,\r\nOscZOGT3, and AtUGT85A1, catalyze O-glucosylation of\r\ncytokinin free bases (Martin et al., 2001; Veach et al., 2003; Hou\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "et al., 2004; Kudo et al., 2012; Za´ veska´ Dra´ bkova´ et al., 2021).\r\nIn lima beans (Phaseolus lunatus), zeatin O-glucosyltransferase\r\n1 and zeatin O-xylosyltransferase 1 catalyze O-glucosylation\r\nand O-xylosylation of tZ (Dixon et al., 1989; Martin 1999a,\r\n1999b). In maize, cytokinin O-glucosides were shown to be\r\nreversibly deglycosylated by b-glucosidase (Brzobohaty et al.,\r\n1993). Formation of glucosyl conjugates at the N3\r\n, N7, and N9\r\npositions of cytokinins is catalyzed by N-glucosyltransferases\r\n(Entsch et al., 1979; Hou et al., 2004; Li et al., 2019). In\r\nArabidopsis and rice, glucosylation occurs at either the N7 or\r\nthe N9 position of cytokinins, but not at the N3 position, with\r\nhigher specific enzyme activity toward the N7 position of most\r\ncytokinins (Hou et al., 2004; Wang et al., 2011; Li et al., 2019).\r\nZOGT, cZOGT, and N-glucosyltransferases were predicted\r\nto localize primarily to the chloroplasts and cytoplasm in wheat\r\n(T. aestivum) (Chen et al., 2021). On the other hand, N- and O\u0002glucosyltransferase genes are expressed in both reproductive\r\n4 Plant Communications 5, 100936, July 8 2024 ª 2024 The Authors.\r\nPlant Communications Spatially distributed cytokinins\nand vegetative tissues of Arabidopsis, rice, maize, and wheat,\r\nand their tissue-specific expression patterns were nicely\r\nreviewed by Chen et al. (2021).\r\nCKX degrades cytokinins by catalyzing the irreversible conver\u0002sion of cytokinins to adenine (Mok, 1994; Bilyeu et al., 2001;\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 473,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Galuszka et al., 2001; Werner et al., 2001; Ashikari et al., 2005).\r\nMutations in CKX can increase cytokinin content in plants and\r\nregulate plant development (Ashikari et al., 2005; Bartrina et al.,\r\n2011; Gao et al., 2014, 2019; Zhang et al., 2021; Huang et al.,\r\n2023). CKX gene family members display various expression\r\npatterns, subcellular localizations, and substrate preferences\r\nand play multiple roles in planta. AtCKX3 and AtCKX5 are\r\nnearly constitutively expressed, with their encoded proteins\r\nlocalizing to the vacuole or the ER (Werner et al., 2003).\r\nMutations of AtCKX3/5 lead to an increase in endogenous\r\ncytokinins, resulting in a 55% increase in seed yield (Bartrina\r\net al., 2011). AtCKX7 is expressed in the vascular tissue of\r\nseedlings and in the female gametophyte (Kollmer et al., 2014 € ).\r\nAtCKX7 has been shown to prefer cZ-type cytokinins (cZ and\r\ncZ9G) and iP9G (Galuszka et al., 2001; Kollmer et al., 2014 € ).\r\nTransgenic plants overexpressing AtCKX7 developed short,\r\nearly-terminating primary roots with smaller apical meristems\r\n(Kollmer et al., 2014 € ). AtCKX1, AtCKX4, and AtCKX6 localize to\r\nthe ER (Werner et al., 2003; Niemann et al., 2018), AtCKX2 to\r\nthe apoplast (Werner et al., 2003), and AtCKX7 to the cytosol\r\n(Kollmer et al., 2014 € ). AtCKX1 is mainly expressed in the roots\r\nand hypocotyl, AtCKX2 in the flowers and seeds, and AtCKX6\r\nin the roots, stem, and petiole (Werner et al., 2003). At the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "biochemical level, AtCKX1 and AtCKX2 have been shown to pre\u0002fer tZ-type cytokinins (Galuszka et al., 2001; Werner et al., 2001;\r\nKollmer et al., 2014 € ), and the enzyme activities of AtCKX1,\r\nAtCKX2, and AtCKX4 toward iP cytokinin substrates are higher\r\nthan that of AtCKX3 (Werner et al., 2003).\r\nIn rice, the Gn1a (Grain number 1a) locus, a major quantitative\r\ntrait locus for increasing grain number, harbors a mutation in\r\nOsCKX2 (Ashikari et al., 2005; Li et al., 2013; Tsago et al., 2020;\r\nTu et al., 2022). Knockdown of OsCKX2 in rice reduces yield\r\npenalties under conditions of salinity stress (Joshi et al., 2018).\r\nThe highest OsCKX3 expression was observed in the rice\r\nlamina joint, and the OsCKX3 protein localizes to the ER\r\n(Huang et al., 2023). The osckx3 mutant displays a smaller leaf\r\nangle and greater primary branch number, grain size, 1000-\r\ngrain weight, and flag-leaf size (Huang et al., 2023). OsCKX4 is\r\npredominantly expressed in leaf blades and roots, and its\r\nencoded protein localizes to the cytosol (Gao et al., 2014,\r\n2019). OsCKX4 plays a positive role in crown root formation\r\nand Zn uptake (Gao et al., 2014, 2019). Overexpression of\r\nOsCKX5 results in increased uptake of certain macro- and\r\nmicronutrients, greater root biomass, and a deeper root system\r\n(do Nascimento et al., 2021). OsCKX9 is highly expressed\r\nin shoot bases, and its encoded protein localizes predominantly\r\nto the cytosol and nuclei (Duan et al., 2019). osckx9\r\nmutants and OsCKX9-overexpressing transgenic plants\r\nshowed significant increases in tiller number (Duan et al., 2019).\r\nOsCKX9 is also involved in the regulation of leaf angle (Zhu\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "et al., 2024). OsCKX11 localizes to the cytosol, and the osckx11\r\nmutation results in increased cytokinin content, delayed leaf\r\nsenescence, and enhanced panicle size (Zhang et al., 2021).\r\nCollectively, mutations in OsCKX genes result in increased\r\ncytokinin levels in specific tissues and positive regulation of\r\nyield traits, suggesting that cytokinins have great potential for\r\napplication in crop molecular breeding.\r\nAlthough the biosynthesis and metabolism of isoprene cytokinins\r\nhave been well studied, the enzymes involved in the biosynthesis\r\nof aromatic cytokinins have not. Given that the processes of\r\ncytokinin biosynthesis, conjugation, and degradation occur in\r\ndifferent organelles, cells, tissues, and organs, a significant num\u0002ber of transporters are required to regulate the spatial distribution\r\nof cytokinin species.\r\nCYTOKININ SIGNALING\r\nReceptors of cytokinins in the PM and the ER\r\nIn Arabidopsis, three His kinases (Arabidopsis His kinase [AHK] 2,\r\nAHK3, and CRE1/AHK4), all of which contain a cyclin His kinase\u0002associated sensory (CHASE) domain, an HK domain, and a\r\nreceiver domain, are characterized as cytokinin receptors\r\n(Anantharaman and Aravind 2001; Ueguchi et al., 2001a,\r\n2001b; Inoue et al., 2001; Mougel and Zhulin 2001; Suzuki\r\net al., 2001; Yamada et al., 2001; Hwang et al., 2002).\r\nDifferences in ligand preferences and expression patterns of\r\nthese receptors can lead to different strengths in signal\r\ntransmission. CRE1/AHK4 showed a high affinity for both iP\r\nand tZ (Yamada et al., 2001; Romanov et al., 2006; Stolz et al.,\r\n2011). The ligand-binding properties of AHK2 were shown to be\r\nsimilar to those of CRE1/AHK4 (Stolz et al., 2011). By contrast,\r\nAHK3 recognized a broader spectrum of cytokinin ligands,\r\nincluding iP, DZ, and cZ (Spı´chal et al., 2004; Romanov et al.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "2006). Arabidopsis AHK3 is mainly expressed in shoots,\r\nwhereas AHK4/CRE1/WOL is mainly expressed in roots\r\n(Higuchi et al., 2004; Nishimura et al., 2004). In addition,\r\ncytokinin receptors are regulated at the transcriptional and\r\npost-transcriptional levels to influence cytokinin signal output\r\nand crop yield (Chun et al., 2023; Yao et al., 2023).\r\nThe subcellular localization of cytokinin receptors and where they\r\nprecisely interact with cytokinins remain controversial. Early ex\u0002periments using GFP fusion proteins showed that the cytokinin\r\nreceptors of Arabidopsis and maize localized primarily to the\r\nER membrane (Caesar et al., 2011; Lomin et al., 2011;\r\nWulfetange et al., 2011). Although no clear evidence supports\r\nlocalization of cytokinin receptors to the PM, the localization of\r\na minor but functionally relevant portion of the receptor pool at\r\nthe PM cannot be excluded (Lomin et al., 2011; Wulfetange\r\net al., 2011; Antoniadi et al., 2020). The activity of cytokinin\r\nreceptors depends on pH, with their hormone-binding activity be\u0002ing higher at pH 7–9 than at pH 5–7. Whereas the pH of the apo\u0002plast is usually between 4.5 and 6.0, the pH in the ER is 7–8, sug\u0002gesting an intracellular function for cytokinin receptors (Romanov\r\net al., 2018). Interestingly, a study on the cytokinin transporter\r\npurine permease (PUP) 14 revealed that removal of cytokinins\r\nfrom the apoplast is essential for embryonic development,\r\nsuggesting that extracellular cytokinins are capable of\r\nactivating cytokinin receptors (Zurcher et al., 2016a € ). Recently,\r\nthrough detailed monitoring of the subcellular localizations of\r\nboth fluorescently labeled natural cytokinin probes and a GFP\r\nfusion with the receptor ARABIDOPSIS HISTIDINE KINASE 4\r\n(CRE1/AHK4), pools of ER-localized cytokinin receptors were\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Plant Communications 5, 100936, July 8 2024 ª 2024 The Authors. 5\r\nSpatially distributed cytokinins Plant Communications\nshown to enter the secretory pathway and reach the PM\r\n(Kubiasova´ et al., 2020). Brefeldin A experiments revealed\r\nvesicular recycling of the receptor and its accumulation in\r\nbrefeldin A compartments. This study revised our view of\r\ncytokinin signaling and suggested the possibility of multiple\r\nperception sites at the PM and ER (Kubiasova´ et al., 2020).\r\nHowever, more evidence, especially genetic evidence, is\r\nrequired to support cytokinin perception at the PM, and\r\ndifferences in cytokinin perception between the ER and the PM\r\nremain to be clarified.\r\nSignaling relay from cytokinin receptors to the nucleus\r\nby HP\r\nCytokinins bind to the AHK CHASE domain, triggering autophos\u0002phorylation of a His residue in its His kinase domain (Figure 2); this\r\nis followed by internal transfer of the phosphoryl group first to an\r\nAsp residue in its receiver domain and then to a His residue in HP\r\n(Sakakibara et al., 2000; Hwang et al., 2001, 2002; Hutchison\r\net al., 2006; Osugi and Sakakibara, 2015). The phosphorylated\r\nHP moves to the nucleus (Figure 2), where the phosphoryl\r\ngroup is transferred to a conserved Asp residue in the RR\r\nproteins (Sakakibara et al., 2000; Hwang et al., 2001; Hutchison\r\net al., 2006; Muller and Sheen, 2007). HPs are localized to the\r\nnucleus and cytosol in planta (Punwani et al., 2010). In\r\nArabidopsis, five classic HPs, AHP1–AHP5, act as highly\r\nredundant positive regulators of cytokinin signaling (Hwang\r\nFigure 2. A proposed pathway for cytokinin\r\nsignaling.\r\nCytokinins are perceived by AHK receptors in the\r\nplasma membrane (PM) and the endoplasmic re\u0002ticulum (ER). The phosphoryl group is transmitted\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "via phosphorelay first to AHPs and then to the nu\u0002clear ARRs. CKXs in the apoplast and the ER\r\nregulate cytokinin levels via irreversible degrada\u0002tion. The red lines in AHK receptors indicate the\r\nCHASE domain (cyclin His kinase-associated sen\u0002sory domain). Brown arrows indicate the phos\u0002phoryl group transfer pathway. Blue arrows indicate\r\npost-transcriptional activation, purple line seg\u0002ments indicate post-transcriptional inhibition, and\r\ngreen arrows indicate transcriptional activation.\r\nAHK, Arabidopsis histidine kinase; AHP, Arabi\u0002dopsis histidine phosphotransfer protein; CRF,\r\ncytokinin response factor; ARR, Arabidopsis\r\nresponse regulator; PPKL1, protein phosphatase\r\nwith kelch-like domains.\r\net al., 2001; Hutchison et al., 2006). The\r\nsixth HP, AHP6, lacks the conserved\r\nHis residue and acts as an inhibitor of\r\nAHP1–AHP5 by competing with them\r\n(Mahonen et al., 2006). Consistent with this\r\nscenario, Liu et al. demonstrated that\r\nprotein phosphatase with kelch-like domains\r\n(PPKL1), known as a signaling component of\r\nthe steroid hormone brassinosteroid, can\r\nutilize D364 to suppress the OsAHP2-to\u0002RR phosphorelay in rice (O. sativa) (Liu\r\net al., 2022), suggesting that phosphorelay\r\ncompetition is a vital strategy for fine-tuning\r\ncytokinin signaling. In Arabidopsis, AHP1 and AHP2 show high\r\nexpression in roots and flowers, respectively, whereas AHP3,\r\nAHP4, and AHP5 show similar expression levels in leaves,\r\nstems, roots, flowers, and siliques (Hradilova´ et al., 2007). The\r\nspatial distributions of AHP members in different tissues enable\r\nthem to finely regulate signal transduction at different sites.\r\nRR genes in the nucleus\r\nThe transcriptional response to cytokinins is mainly mediated by\r\nthe RR family (D’Agostino et al., 2000; Hwang et al., 2001; Sakai\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "et al., 2001; Muller and Sheen, 2007; Muller, 2011). Type-B RRs\r\nact as positive regulators of the cytokinin response, possessing\r\na Golden2-, ARR-B-, Psr1- (GARP)-like DNA binding domain at\r\ntheir C termini and a receiver domain at their N termini (Argyros\r\net al., 2008). By contrast, type-A RRs, which also have a receiver\r\ndomain at their N termini but lack a DNA binding domain, serve as\r\nnegative regulators of cytokinins, likely by competing with type-B\r\nRRs for phosphate groups (Hwang et al., 2012). Type-A RRs, as\r\ncytokinin-response genes, are directly regulated by type-B RRs\r\n(Hwang and Sheen, 2001; Sakai et al., 2001; Nair et al., 2004).\r\nHowever, the type-B RRs are not regulated by cytokinins at the\r\ntranscriptional level but rather at the post-transcriptional level\r\n(Kieber and Schaller, 2014).\r\nIn Arabidopsis, there are 11 type-B Arabidopsis response regula\u0002tors (ARRs) and 10 type-A ARRs, among which ARR3, ARR4,\r\n6 Plant Communications 5, 100936, July 8 2024 ª 2024 The Authors.\r\nPlant Communications Spatially distributed cytokinins\nARR5, ARR6, ARR7, ARR8, ARR9, ARR15, and ARR16 are\r\ninduced by cytokinins and can serve as markers for monitoring\r\ntranscriptional changes in cytokinin-responsive genes (Ko et al.,\r\n2014; Zhao et al., 2021). In addition, fusion of the ARR5\r\npromoter with a b-glucuronidase (GUS) reporter (D’Agostino\r\net al., 2000; Werner et al., 2003) and use of a generic GFP\u0002based two-component sensor (TCSn–GFP) (Zurcher et al., €\r\n2013) provide robust tools for monitoring the transcriptional\r\noutput of the cytokinin signaling circuitry in planta.\r\nThe spatial distributions of ARR genes in different tissues enable\r\nthe fine regulation of plant growth, development, and stress re\u0002sponses by cytokinins. The tissue-specific expression patterns\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "of ARR genes in Arabidopsis have been nicely reviewed by Hirose\r\net al. (2008). Type-A and type-B ARR genes are widely distributed\r\nin tissues and organs, including floral tissues, stomata, axillary\r\nbuds, young leaves, leaf vasculature, roots, and LRs.\r\nCYTOKININ TRANSPORT\r\nThe spatial expression patterns of genes involved in cytokinin\r\nmetabolism and signaling suggest that cytokinins can be synthe\u0002sized locally, acting as autocrine or paracrine signals, or trans\u0002ported away from their sites of synthesis to exert biological func\u0002tions. In the past decade, the characterization of transporters\r\ninvolved in long-distance, intercellular, and intracellular cytokinin\r\ntransport, along with their underlying transport mechanisms, has\r\nadvanced significantly (Ko et al., 2014; Zhang et al., 2014, 2023;\r\nZurcher et al., 2016 € ; Xiao et al., 2019, 2020; Zhao et al., 2019,\r\n2021, 2023; Tessi et al., 2021, 2023; Hu et al., 2023).\r\nTransporters such as ATP-binding cassette (ABC) transporters,\r\nPUPs, AZA-GUANINE RESISTANT (AZG) transporters, and equi\u0002librative nucleoside transporters (ENTs) have been characterized\r\nfor their roles involved in long-distance or local transport of cyto\u0002kinins, thereby mediating hormone homeostasis during plant\r\ndevelopment and stress responses (Figure 3).\r\nLong-distance transport of cytokinins\r\nThe long-distance transport of tZ- and iP-type cytokinins is well\r\nestablished in planta. Transcriptional analyses of cytokinin\r\nbiosynthesis genes, hormone profiling, and grafting experiments\r\nhave revealed that iP-type cytokinins are the predominant cyto\u0002kinin species in shoots, whereas tZ-type cytokinins dominate in\r\nroots (Hirose et al., 2008; Matsumoto-Kitano et al., 2008; Kiba\r\net al., 2013). Shoot-derived cytokinins move from shoots to roots\r\nvia the phloem, whereas root-derived cytokinins move from roots\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 473,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "to shoots via the xylem (Hirose et al., 2008; Zhao et al., 2021).\r\nBidirectional transport of tZ- and iP-type cytokinins facilitates\r\nthe transduction of environmental cues from roots to shoots or\r\nvice versa. Characterizing the mechanisms of long-distance\r\ntransport is crucial for understanding plant growth responses to\r\nenvironmental changes.\r\nIn 2014, two independent studies identified Arabidopsis ABC\r\ntransporter subfamily G14 (AtABCG14) as a crucial PM\u0002localized transporter involved in the long-distance transport of\r\ncytokinins from roots to shoots (Ko et al., 2014; Zhang et al.,\r\n2014). In addition to its expression in the root stele, including\r\nthe pericycle, phloem, and xylem, AtABCG14 is widely\r\nexpressed in young tissues of the shoot. Histochemical GUS\r\nstaining revealed the expression of AtABCG14 in the phloem\r\nand xylem region of the leaf midrib (Zhang et al., 2014; Zhao\r\net al., 2021). More recent studies using grafts between\r\natabcg14 and wild-type plants showed that AtABCG14 is\r\nFigure 3. An inventory of cytokinin transporters in plants.\r\n(Left) Illustration of an Arabidopsis plant. The long-distance transport of tZ-type cytokinins from roots to shoots and the transport of iP-type cytokinins\r\nfrom shoots to roots are represented by green and pink arrows, respectively. (Middle) The inset is a magnification of the indicated organization. Green\r\narrows represent tZ-type cytokinin transport pathways in roots and shoots. In roots, tZ-type cytokinins are synthesized in pericycle cells and then loaded\r\ninto the xylem for transport to the shoots. In the shoots, tZ-type cytokinins are unloaded into the phloem from the xylem. (Right) Overview of characterized\r\ncytokinin transporters. In the PM, AtABCG14, AtPUP8, OsABCG18, and HvSWEET11b function in cytokinin efflux, and AtAZG1, AtAZG2, AtPUP2,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "AtPUP1, AtPUP14, AtENT3, AtENT6, OsPUP4, and OsENT2 function in cytokinin influx. In the ER, AtAZG2, AtABCI19, AtABCI20, AtABCI21, OsPUP1,\r\nand OsPUP7 function in cytokinin influx. In vacuoles, AtPUP7 and AtPUP21 function in cytokinin influx. Abbreviations: CK, cytokinin; ER, endoplasmic\r\nreticulum; At, Arabidopsis thaliana; Os, Oryza sativa; Hv, Hordeum vulgare; Ph, phloem; Xy, xylem; Ca, cambium; Pe, pericycle.\r\nPlant Communications 5, 100936, July 8 2024 ª 2024 The Authors. 7\r\nSpatially distributed cytokinins Plant Communications\nalso functional in shoots, responsible for phloem unloading of\r\nroot-synthesized cytokinins (Zhao et al., 2021). The biochemical\r\nproperties of AtABCG14 have been investigated in both homolo\u0002gous systems, such as BY2 cells and Arabidopsis suspension\r\ncells, and a heterologous yeast system (Zhang et al., 2014;\r\nZhao et al., 2023). In addition to its transport of tZ-type\r\ncytokinins, AtABCG14 also exhibits efflux transport of various\r\nother types of cytokinins, including iP, iPR, cZ, cZR, and DZ\r\n(Zhang et al., 2014; Zhao et al., 2023). A recent study revealed\r\nthat AtABCG14 is involved not only in xylem loading of iP-type cy\u0002tokinins in the root during root-to-shoot transport but also in\r\nphloem unloading of iP-type cytokinins during shoot-to-root\r\ntransport (Zhao et al., 2023). These findings underscore the\r\nmultifaceted roles of AtABCG14 in the long-distance transport\r\nof cytokinins and its significance in plant hormone homeostasis.\r\nThe versatile properties of AtABCG14 at both the transcriptional\r\nand biochemical levels enable its multifaceted functions in the\r\nlong-distance transport of various cytokinin species between\r\nroots and shoots. In shootward transport, AtABCG14 plays a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "crucial role in loading root-derived cytokinins into the xylem ves\u0002sels in roots and unloading them from the phloem companion\r\ncells in shoots. Conversely, it also facilitates the unloading of\r\nshoot-derived cytokinins in rootward transport (Ko et al., 2014;\r\nZhang et al., 2014; Zhao et al., 2021, 2023). Although tZ-type\r\ncytokinin species are predominant in the xylem and iP-type spe\u0002cies in the phloem, both types of cytokinins can be found in each\r\nrespective type of sap, particularly in the cyp735a1 cyp735a2\r\n(cypDM) double mutant (Ko et al., 2014; Zhao et al., 2023).\r\nExperiments using split-root systems have demonstrated that\r\nboth tZ-type and iP-type cytokinins are transported from roots\r\nto shoots and can then retrograde back to the roots, indicating\r\na potential circular transport mechanism within the vascular sys\u0002tem of Arabidopsis (Zhao et al., 2021, 2023). This cyclic\r\nmovement of cytokinins within the vascular system likely\r\nfacilitates rapid hormone delivery in response to growth and\r\nstress signals. In rice, OsABCG18, a homolog of AtABCG14,\r\nhas been identified as a key transporter responsible for tZ shoot\u0002ward transport (Zhao et al., 2019), suggesting a conserved\r\nmechanism between dicotyledonous and monocotyledonous\r\nplants. In Medicago truncatula, MtABCG56 has been identified\r\nas an exporter of bioactive cytokinins across the PM in an ATP\u0002dependent manner, and it is associated with nodulation\r\n(Jarzyniak et al., 2021). However, the precise mechanism of\r\ncytokinin transport mediated by these transporters in M.\r\ntruncatula remains to be clarified.\r\nIntercellular and intracellular transport of cytokinins\r\nPUPs are a family of energy-dependent and H+-coupled trans\u0002porters with a high affinity for purine. Although initially identified\r\nfor their role in purine transport, some members of the PUP family\r\nhave been found to exhibit cytokinin transporter activity in vitro\r\nand in vivo. Arabidopsis PUP1 and PUP2 exhibit cytokinin import\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "activities in yeast, although their physiological roles in plant\r\ngrowth and development have not been fully characterized\r\n(Gillissen et al., 2000; Burkle et al., 2003 € ). In 2016, Arabidopsis\r\nPUP14 was biochemically and physiologically characterized as\r\na cytokinin influx transporter that plays essential roles in plant\r\ndevelopment (Zurcher et al., 2016 € ). PUP14 is expressed from\r\nthe embryonic stage to the adult stage, and its encoded protein\r\nlocalizes to the PM, where it imports bioactive cytokinins\r\nsuch as tZ and iP from the apoplast to regulate cytokinin\r\nhomeostasis in the apoplast (Zurcher et al., 2016 € ). Interestingly,\r\nour studies have shown that AtABCG14 is also localized to the\r\nPM and functions in exporting cytokinins to the apoplast (Zhao\r\net al., 2021, 2023). This suggests that AtABCG14 and PUP14\r\nmay work synergistically to maintain cytokinin homeostasis in\r\nthe apoplast of plant cells. AtABCG14 likely functions in the inter\u0002cellular transport of cytokinins, exporting them from the cell to the\r\napoplast, whereas PUP14 facilitates the import of cytokinins from\r\nthe apoplast into the cell. Together, these transporters contribute\r\nto the regulation of cytokinin levels and signaling in plant tissues,\r\nplaying crucial roles in various aspects of plant growth and\r\ndevelopment.\r\nRecent research has shed light on the roles of specific PUPs in\r\nthe transport of cytokinins in plants. In Arabidopsis, PUP8 has\r\nbeen identified as the PM-localized transporter responsible for\r\nexporting cytokinins, whereas PUP7 and PUP21 localize to the\r\nvacuole, where they facilitate the import of cytokinins (Hu et al.,\r\n2023). Their triple mutants (CRISPR7/8/21) exhibit a dwarf\r\nphenotype and reduced cytoplasmic cytokinin levels compared\r\nwith the wild type (Hu et al., 2023), indicating the importance of\r\nthese transporters for cytokinin homeostasis and regulation of\r\nplant growth. In rice, OsPUP1 has been found to localize to the\r\nER and functions as a cytokinin importer, potentially unloading\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "cytokinins from the vascular tissues transported through the\r\nsymplastic pathway and thereby affecting root-to-shoot long\u0002distance transport of cytokinins (Xiao et al., 2020). Furthermore,\r\nOsPUP4 and OsPUP7 were discovered to work sequentially,\r\nwith OsPUP4 transporting hormones from the apoplast into the\r\ncytoplasm and OsPUP7 transporting them into the ER lumen\r\nfor further cell-to-cell transport, thereby affecting both long-dis\u0002tance movement and local allocation of cytokinins (Xiao et al.,\r\n2019). Moreover, in Arabidopsis, ABCI19, ABCI20, and ABCI21\r\nhave been identified as ER-localized cytokinin transporters ex\u0002pressed in young seedlings. These proteins form a large protein\r\ncomplex at the ER membrane and are involved in the intercellular\r\ntransport of cytokinins, affecting cytokinin homeostasis near\r\ncytokinin receptors. Mutations in abci19, abci20, and abci21\r\ncompromise the response to cytokinin treatments in seedlings,\r\nfurther highlighting the importance of ER-localized cytokinin\r\ntransporters for cytokinin signaling and response (Kim et al.,\r\n2020). These findings contribute to our understanding of the\r\ncomplex mechanisms involved in cytokinin transport and\r\nsignaling in plants.\r\nRecent research has highlighted the role of AZG transporters in\r\nthe intercellular and intracellular transport of cytokinins (Tessi\r\net al., 2021, 2023). AZG2, a purine transporter, has been found\r\nto be expressed in a specific group of cells surrounding\r\nLR primordia, with its expression induced by auxins (Tessi\r\net al., 2021). It localizes to the ER and the PM, suggesting its\r\ninvolvement in transport of cytokinins from the PM to the ER.\r\nBiochemical analyses have revealed that AZG2 exhibits strong\r\ninflux transport activity toward various cytokinins, including iP,\r\ntZ, benzyladenine (BA), and kinetin, in addition to adenine. The\r\nazg2 mutant is partially insensitive to exogenous cytokinins and\r\nhas higher LR density, indicating the role of AZG2 in regulating\r\ncytokinin homeostasis in cells surrounding the root primordia.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Another AZG transporter, AZG1, is expressed in LR primordia\r\n8 Plant Communications 5, 100936, July 8 2024 ª 2024 The Authors.\r\nPlant Communications Spatially distributed cytokinins\nand was shown to be sensitive to NaCl stress. AZG1 displays\r\nadenine and cytokinin import transporter activities and co\u0002localizes and interacts with PIN1, a key auxin transporter, in the\r\nPM. The interaction of AZG1 with PIN1 stabilizes PIN1 and pro\u0002vides a mechanism for crosstalk between cytokinin and auxin\r\ntransport under salt-stress conditions (Tessi et al., 2023).\r\nThe ENT is involved in transport of ribosylated forms of cytokinins\r\nacross membranes, facilitating their movement from roots to\r\nshoots. Although cytokinin free bases are the active forms of cy\u0002tokinins, they are transported as ribosylated cytokinins during\r\ntheir delivery from roots to shoots (Jung et al., 2011).\r\nArabidopsis ENT3 is localized to the PM (Li et al., 2003).\r\nStudies of the uptake of radiolabeled nucleosides into yeast\r\n(Saccharomyces cerevisiae) cells expressing AtENT3 have\r\ndemonstrated the involvement of this transporter in high-affinity\r\nnucleoside/proton symport (Wormit et al., 2004). In addition, the\r\nefficiency of iPR uptake by hypocotyls was reduced by more\r\nthan 40% in the atent3-1 mutant (Sun et al., 2005). AtENT3\r\nparticipates in the partitioning of endogenous cytokinins\r\nbetween the apoplast and the symplast by facilitating their\r\nuptake by root cells, thereby limiting cytokinin export to shoots\r\nthrough the xylem (Korobova et al., 2021).\r\nSOI33/AtENT8 has been shown to take up iPR but not iP, and the\r\natent8 mutant shows a reduced sensitivity to iPR and tZR but not\r\nto free iP and tZ (Sun et al., 2005). However, the subcellular\r\nlocalization of AtENT8 remains unknown, and further investiga\u0002tion is needed to clarify its transport mechanism. When\r\nAtENT6-mediated import of adenosine was investigated using a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "competition assay in a yeast (S. cerevisiae) expression system,\r\nsubstantial inhibition of iPR and tZR import activity was observed\r\n(Hirose et al., 2008), but the role of AtENT6 in planta remains to be\r\ndetermined. In rice, OsENT2, expressed in the vascular tissue,\r\nhas been identified as mediating the uptake of iPR and tZR,\r\nalthough its physiological role is not fully understood (Hirose\r\net al., 2005).\r\nRecently, Sugars Will Eventually Be Exported transporters\r\n(SWEETs) in barley were found to possess bidirectional trans\u0002porter activities toward cytokinins in addition to their well\u0002known roles in the transport of sugars such as sucrose and\r\nglucose (Radchuk et al., 2023). These findings suggest that\r\nthere may be additional cytokinin transporters among the\r\nknown transporters of other substances.\r\nREGULATION OF THE SPATIAL\r\nDISTRIBUTIONS OF CYTOKININS\r\nCytokinins play crucial roles as important signaling molecules\r\nthat facilitate long-distance communication between organs,\r\nthereby contributing to systemic regulation of growth in response\r\nto environmental changes in plants (Sakakibara, 2021). Cytokinin\r\ntransport between shoots and roots coordinates plant growth\r\nwith environmental cues. Root-derived cytokinins, including\r\nfree tZ and tZR, are transported via the xylem and regulate leaf\r\ngrowth and meristem size, whereas shoot-derived cytokinins,\r\nincluding iP and iPR, are transported via the phloem and influence\r\nroot growth or nodulation (Muraro et al., 2011; Ko et al., 2014;\r\nSasaki et al., 2014; Zhang et al., 2014; Osugi et al., 2017).\r\nEnvironmental factors and internal cues modulate plant\r\ndevelopment and stress responses by dynamically adjusting\r\nthe spatial distributions of cytokinins.\r\nThe regulation of plant growth via spatial distributions of cytoki\u0002nins under different carbon and nitrogen (N) conditions is summa\u0002rized in Figure 4. N is an important factor that influences plant\r\ngrowth rate and final biomass. In Arabidopsis, expression levels\r\nof the cytokinin biosynthesis genes IPT3 and CYP735A2\r\nincrease substantially upon N application (Takei et al., 2004b;\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Maeda et al., 2018). The atabcg14 mutant exhibits a\r\nsuppressed response to N starvation, highlighting the essential\r\nrole of long-distance cytokinin transport in N signaling (Poitout\r\net al., 2018). Exogenous application of cytokinins represses the\r\nexpression of a subset of root-type nitrate transporters, including\r\nNRT2.1 and NRT2.3, which are major high-affinity nitrate trans\u0002porters (Kiba et al., 2010). In addition, cytokinin biosynthesis is\r\nupregulated under high-N conditions compared with low-N con\u0002ditions (Kiba et al., 2010). The small peptides C-TERMINALLY\r\nENCODED PEPTIDE 1 (CEP1) and CEP2 have been shown\r\nto move from roots to shoots via the xylem when roots\r\nFigure 4. Schematic diagram of the regula\u0002tion of cytokinin spatial distributions by sys\u0002temic nitrogen (N) and carbon signaling in\r\nArabidopsis under environmental changes.\r\ntZ-type cytokinins are synthesized by IPT3 and\r\nCYP735A in roots and are transported to shoots\r\nvia the xylem by AtABCG14 to promote plant\r\ngrowth and development. Under N-deficiency\r\nconditions, root-derived tZ-type cytokinins induce\r\nthe expression of CEPD/CEPDL and HY5 in shoots\r\nthrough signal transduction pathways, and the\r\nproteins are transported from the shoots to the\r\nroots via phloem to induce NRT2.1 expression and\r\npromote N absorption. As a feedback mechanism,\r\nN absorbed in the roots can induce cytokinin synthesis, and the synthesized cytokinins then move to the shoots to promote plant growth and devel\u0002opment. Light and carbon dioxide can induce the production of sugars, which can induce the expression of IPT3, CYP735A2, and AtABCG14 and\r\npromote the synthesis of iP-type cytokinins. Both sugars and iP-type cytokinins are transported to the roots for synthesis of tZ-type cytokinins, which are\r\nthen transported to the shoots to regulate plant growth and development. Red arrows indicate the flow of xylem tZ-type cytokinins. Black arrows show the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "movement of signal molecules and the effect of the signal on gene induction. CEPD, C-terminally encoded peptide downstream; CEPDL, CEPD-like; HY5,\r\nelongated hypocotyl 5; NRT2.1, nitrate transporter 2.1; TCS, two-component output sensor.\r\nPlant Communications 5, 100936, July 8 2024 ª 2024 The Authors. 9\r\nSpatially distributed cytokinins Plant Communications\nexperience nitrate heterogeneity (Tabata et al., 2014; Ohkubo\r\net al., 2017; Ota et al., 2020). CEP DOWNSTREAM-like 2\r\n(CEPDL2) has been shown to move from the phloem to the root\r\ncortex cells and stimulate NRT2.1 expression (Ota et al., 2020).\r\nFurthermore, tZ-type cytokinins are required for maximal\r\ninduction of CEPDL2 and CEPD1/2 expression in the shoots\r\n(Ota et al., 2020). Therefore, tZ-mediated cytokinin signaling\r\nmay be a prerequisite for N-supply signaling, although the\r\nregulatory network that connects cytokinin and N signaling\r\nremains to be further investigated.\r\nCarbon derived from photosynthesis is a key regulator of plant\r\ngrowth and development. Kiba et al. reported that sugar\u0002induced cytokinin biosynthesis and transport play roles in growth\r\nenhancement under elevated CO2 in Arabidopsis (Kiba et al.,\r\n2019). The expression levels of IPT3, CYP735A2, and ABCG14\r\nin roots were induced by CO2 or sugars but were inhibited by\r\nthe photosynthesis inhibitor DCMU under elevated CO2, suggest\u0002ing that photosynthetically generated sugars are responsible for\r\nthis induction. Furthermore, the induction of cytokinin accumula\u0002tion by photosynthetically generated sugars under different N\r\nconditions suggests that this induction is independent of N sta\u0002tus. The co-expression of Arabidopsis IPT3, CYP735A2, and\r\nABCG14 under robust photosynthesis increases the biosynthesis\r\nof iP and tZ in roots and shoots, cooperatively stimulating plant\r\ngrowth under different photosynthetic conditions.\r\nAbiotic stresses such as salt and variations in photoperiod have a\r\nsignificant impact on the spatial distributions of cytokinins,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "thereby regulating plant growth and stress responses. Yin et al.\r\nreported that Argonaute2 (AGO2) enhances grain length and\r\nsalt tolerance by activating expression of BIG GRAIN3 (BG3)/\r\nOsPUP4 to modulate cytokinin distributions in rice (Yin et al.,\r\n2020). AGO2 can be enriched on the BG3 locus and alter its\r\nhistone methylation level, thus promoting BG3 expression. Both\r\nAGO2 and BG3 are transcriptionally suppressed by salt\r\ntreatment. Salt treatment markedly increases cytokinin levels in\r\nroots but decreases them in shoots, resulting in a hormone\r\ndistribution pattern similar to that of AGO2-overexpressing\r\nplants. OsPUP7 and OsABCG18 are also significantly sup\u0002pressed by salt stress, suggesting their involvement in cytokinin\r\ndistribution between roots and shoots under salt stress. Thus,\r\nin response to high external salinity, plants adjust their internal\r\ncytokinin distributions to enhance their tolerance to stress.\r\nConsistent with this scenario, transient induction of IPT in the\r\nroots of tomato (Solanum lycopersicum) via HSP70::IPT has\r\nbeen shown to result in increased cytokinin levels in shoots,\r\nimproving shoot growth and fruit yield under salinized conditions\r\n(Ghanem et al., 2010). Frank and Cortleven found that\r\nphotoperiod stress increases cytokinin content and suppresses\r\nlesions and photosynthetic capacity in leaves (Frank and\r\nCortleven, 2020). They proposed that photoperiod stress\r\ninduces the expression of IPT and CYP735A proteins to\r\nincrease synthesis of tZ-type cytokinins in the roots, which are\r\nthen transported via AtABCG14 to the shoots, where they acti\u0002vate cytokinin signaling and the stress response.\r\nRegulation of transporters at the post-transcriptional or protein\r\nlevel can directly influence cytokinin transport and shape the\r\nspatial distributions of cytokinins in plants. PUP transporters\r\nimport substrates through proton co-transport mechanisms.\r\nThe importance of energizing cytokinin transport has been\r\ndemonstrated with the help of a protonophore that collapses pro\u0002ton gradients across membranes, thereby inhibiting active trans\u0002membrane transport (Cedzich et al., 2008). Application of a\r\nprotonophore has been shown to affect the accumulation of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "cytokinins in root cells, their distributions between roots and\r\nshoots, their concentrations in xylem sap, and their rates of\r\ndelivery to shoots of durum wheat (Triticum turgidum) in the\r\npresence and absence of exogenous zeatin at the roots\r\n(Kudoyarova et al., 2014). This suggests that interacting protein\r\npartners or co-transporters may also regulate transporter activity.\r\nFUTURE PERSPECTIVES\r\nCytokinin receptors have been found to localize to the ER and the\r\nPM, which sense intracellular and apoplastic cytokinins, respec\u0002tively. However, the mechanisms by which different cytokinin\r\nspecies are delivered to the receptors via the apoplastic or sym\u0002plastic pathway have yet to be clearly characterized. Moreover,\r\nthe differences between signal relays from ER- and PM\u0002localized receptors remain unknown. Although cytokinin signal\r\ntransduction has been well characterized through the binary\r\ntwo-component system, it is unclear how various type-A and\r\ntype-B ARR proteins function with cytokinins in specific physio\u0002logical roles. Various cytokinin species, including iP, tZ, and cZ,\r\npossess different binding affinities for cytokinin receptors\r\n(Yonekura-Sakakibara et al., 2004; Romanov et al., 2006; Lomin\r\net al., 2011), and the functions of these different types of\r\ncytokinin within specific signaling pathways remain to be\r\ndetermined.\r\nThe long-distance transport of cytokinins by AtABCG14 between\r\nroots and shoots has been well described, but several key steps\r\nin the process require further characterization, including: (1) how\r\nroot-derived cytokinins are transmitted from xylem to phloem for\r\ndistribution during root-to-shoot transport, (2) how shoot\u0002synthesized cytokinins are loaded into phloem for shoot-to-root\r\ntransport, and (3) how the iP-type cytokinins in phloem are un\u0002loaded to the tZ-biosynthesizing cells for tZ synthesis. With re\u0002gard to the intercellular and intracellular transport of cytokinins,\r\nthe transporters involved in intracellular transport, such as those\r\ninvolved in efflux transport of cytokinin nucleotides from plastids,\r\nneed further identification. The mechanisms by which cytokinin\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "sugar conjugates are transported to vacuoles also require inves\u0002tigation. Shoot and root meristem activities are both under the\r\ncontrol of cytokinins, but the cellular transport of cytokinins in api\u0002cal meristem cells and its regulation remain to be clarified. In\r\naddition to the apoplastic transport pathway, the symplastic\r\npathway plays an essential role in cytokinin transport, although\r\nthis transport mechanism is not well characterized.\r\nAt the molecular level, research has shown that AGO2–BIG3 is\r\ninvolved in the regulation of cytokinin distributions in rice roots\r\nand shoots under salt stress (Yin et al., 2020). However, the\r\ntranscriptional and post-translational regulation of other cytokinin\r\ntransporters remains largely unknown. Characterizing the regula\u0002tors or protein interaction partners of these transporters at the\r\nmolecular level will provide a deeper understanding of the regula\u0002tory network for cytokinin distribution and signaling. These\r\nstudies on the spatial distributions of cytokinins will benefit our\r\n10 Plant Communications 5, 100936, July 8 2024 ª 2024 The Authors.\r\nPlant Communications Spatially distributed cytokinins\nunderstanding of the regulation of plant growth and facilitate the\r\ngenetic improvement of crops.\r\nFUNDING\r\nThis work was supported by the National Natural Science Foundation of\r\nChina (32370334, 32100270 to J.Z.; 31470370 to K.Z.) and the Zhejiang\r\nProvincial Natural Science Foundation of China (grants LZ23C020001 to\r\nK.Z. and LY22C020003 to J.Z.). Support for C.-J.L. was provided by the\r\nU.S. Department of Energy, Office of Science, Office of Basic Energy Sci\u0002ences, specifically the Physical Biosciences program of the Chemical Sci\u0002ences, Geosciences and Biosciences Division (grant DE-SC0012704),\r\nand from the Center for Bioenergy Innovation (CBI), a DOE Bioenergy\r\nResearch Center supported by the Biological and Environmental\r\nResearch (BER) program of U.S. under contract no. DE-AC05-\r\n00OR22725.\r\nAUTHOR CONTRIBUTIONS\r\nK.Z. and J.Z. planned the review outline. K.Z., J.Z., G.K., and C.-J.L. wrote\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "and revised the manuscript with contributions from all authors. J.Z. and\r\nJ.W. prepared the figures. All the authors read and approved the final\r\nversion of the manuscript.\r\nACKNOWLEDGMENTS\r\nWe appreciate all the work in this field and apologize to colleagues whose\r\nwork has not been cited owing to space limitations. No conflict of interest\r\nis declared.\r\nReceived: October 30, 2023\r\nRevised: April 25, 2024\r\nAccepted: April 28, 2024\r\nPublished: April 30, 2024\r\nREFERENCES\r\nAnantharaman, V., and Aravind, L. (2001). The CHASE domain: a\r\npredicted ligand-binding module in plant cytokinin receptors and\r\nother eukaryotic and bacterial receptors. Trends Biochem. Sci.\r\n26:579–582.\r\nAntoniadi, I., Nova´ k, O., Gelova´ , Z., Johnson, A., Plı´hal, O., Simersky´,\r\nR., Mik, V., Vain, T., Mateo-Bonmatı´, E., Karady, M., et al. (2020).\r\nCell-surface receptors enable perception of extracellular cytokinins.\r\nNat. Commun. 11.\r\nAntoniadi, I., Plackova \u0002 ´ , L., Simonovik, B., et al. (2015). Cell-type\u0002specific cytokinin distribution within the Arabidopsis primary root\r\napex. Plant Cell 27:1955–1967.\r\nArgyros, R.D., Mathews, D.E., Chiang, Y.-H., et al. (2008). Type B\r\nresponse regulators of Arabidopsis play key roles in cytokinin\r\nsignaling and plant development. Plant Cell 20:2102–2116.\r\nAshikari, M., Sakakibara, H., Lin, S., et al. (2005). Cytokinin oxidase\r\nregulates rice grain production. Science 309:741–745.\r\nA˚ stot, C., Dolezal, K., Nordstrom, A., Wang, Q., Kunkel, T., Moritz, T., €\r\nChua, N.-H., and Sandberg, G. (2000). An alternative cytokinin\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "biosynthesis pathway. Proc. Natl. Acad. Sci. USA 97:14778–14783.\r\nBurkle, L., Cedzich, A., D € opke, C., Stransky, H., Okumoto, S., €\r\nGillissen, B., Kuhn, C., and Frommer, W.B. € (2003). Transport of\r\ncytokinins mediated by purine transporters of the PUP family\r\nexpressed in phloem, hydathodes, and pollen of Arabidopsis. Plant\r\nJ. 34:13–26.\r\nBartrina, I., Otto, E., Strnad, M., Werner, T., and Schmulling, T. € (2011).\r\nCytokinin regulates the activity of reproductive meristems, flower\r\norgan size, ovule formation, and thus seed yield in Arabidopsis\r\nthaliana. Plant Cell 23:69–80.\r\nBilyeu, K.D., Cole, J.L., Laskey, J.G., Riekhof, W.R., Esparza, T.J.,\r\nKramer, M.D., and Morris, R.O. (2001). Molecular and biochemical\r\ncharacterization of a cytokinin oxidase from maize. Plant Physiol.\r\n125:378–386.\r\nBromley, J.R., Warnes, B.J., Newell, C.A., Thomson, J.C.P., James,\r\nC.M., Turnbull, C.G.N., and Hanke, D.E. (2014). A purine nucleoside\r\nphosphorylase in Solanum tuberosum L. (potato) with specificity for\r\ncytokinins contributes to the duration of tuber endodormancy.\r\nBiochem. J. 458:225–237.\r\nBrzobohaty, B., Moore, I., Kristoffersen, P., Bako, L., Campos, N.,\r\nSchell, J., and Palme, K. (1993). Release of active cytokinin by a\r\nbeta-glucosidase localized to the maize root meristem. Science\r\n262:1051–1054.\r\nCaesar, K., Thamm, A.M.K., Witthoft, J., Elgass, K., Huppenberger, P., €\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Grefen, C., Horak, J., and Harter, K. (2011). Evidence for the\r\nlocalization of the Arabidopsis cytokinin receptors AHK3 and AHK4 in\r\nthe endoplasmic reticulum. J. Exp. Bot. 62:5571–5580.\r\nCampbell, J.A., Davies, G.J., Bulone, V., and Henrissat, B. (1997). A\r\nclassification of nucleotide-diphospho-sugar glycosyltransferases\r\nbased on amino acid sequence. Biochem. J. 326:929–942.\r\nCedzich, A., Stransky, H., Schulz, B., and Frommer, W.B. (2008).\r\nCharacteriza-tion of cytokinin and adenine transport in Arabidopsis\r\ncell cultures. Plant Physiol. 148:1857–1867.\r\nChen, C.-M., and Kristopeit, S.M. (1981a). Metabolism of cytokinin:\r\ndephosphorylation of cytokinin ribonucleotide by 5-nucleotidases\r\nfrom wheat germ cytosol. Plant Physiol. 67:494–498.\r\nChen, C.-M., and Kristopeit, S.M. (1981b). Metabolism of cytokinin:\r\nderibosylation of cytokinin ribonucleoside by adenosine nucleosidase\r\nfrom wheat germ. Plant Physiol. 68:1020–1023.\r\nChen, C.M., and Petschow, B. (1978). Metabolism of cytokinin:\r\nribosylation of cytokinin bases by adenosine phosphorylase from\r\nwheat germ. Plant Physiol. 62:871–874.\r\nChen, L., Zhao, J., Song, J., and Jameson, P.E. (2021). Cytokinin\r\nglucosyl transferases, key regulators of cytokinin homeostasis, have\r\npotential value for wheat improvement. Plant Biotechnol. J.\r\n19:878–896.\r\nChen, S., Lou, S., Zhao, X., Zhang, S., Chen, L., Huang, P., Li, G., Li, Y.,\r\nLiu, Y.-G., and Chen, Y. (2022). Ectopic expression of a male fertility\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 455,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "gene, LOGL8, represses LOG and hinders panicle and ovule\r\ndevelopment. Crops J. 10:1665–1673.\r\nChen, Y.Y., Nishii, K., Spada, A., Wang, C.N., Sakakibara, H., Kojima,\r\nM., Wright, F., MacKenzie, K., and Moller, M. € (2017). Cytokinin\r\nbiosynthesis ISOPENTENYLTRANSFERASE genes are differentially\r\nexpressed during phyllomorph development in the acaulescent\r\nStreptocarpus rexii (Gesneriaceae). South Afr. J. Bot. 109:96–111.\r\nChickarmane, V.S., Gordon, S.P., Tarr, P.T., Heisler, M.G., and\r\nMeyerowitz, E.M. (2012). Cytokinin signaling as a positional cue for\r\npatterning the apical-basal axis of the growing Arabidopsis shoot\r\nmeristem. Proc. Natl. Acad. Sci. USA 109:4002–4007.\r\nChun, Y., Fang, J., Savelieva, E.M., Lomin, S.N., Shang, J., Sun, Y.,\r\nZhao, J., Kumar, A., Yuan, S., Yao, X., et al. (2023). The cytokinin\r\nreceptor OHK4/OsHK4 regulates inflorescence architecture in rice\r\nvia an IDEAL PLANT ARCHITECTURE1/WEALTHY FARMER’S\r\nPANICLE-mediated positive feedback circuit. Plant Cell 36:40–64.\r\nD’Agostino, I.B., Derue`re, J., and Kieber, J.J. (2000). Characterization\r\nof the response of the Arabidopsis response regulator gene family to\r\ncytokinin. Plant Physiol. 124:1706–1717.\r\nDixon, S.C., Martin, R.C., Mok, M.C., Shaw, G., and Mok, D.W. (1989).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Zeatin glycosylation enzymes in Phaseolus: Isolation of O\u0002glucosyltransferase from P. lunatus and comparison to O\u0002xylosyltransferase from P. vulgaris. Plant Physiol. 90:1316–1321.\r\ndo Nascimento, F.C., de Souza, A.F.F., de Souza, V.M., et al. (2021).\r\nOsCKX5 modulates root system morphology and increases nutrient\r\nuptake in rice. J. Plant Growth Regul. 41:2157–2170.\r\nPlant Communications 5, 100936, July 8 2024 ª 2024 The Authors. 11\r\nSpatially distributed cytokinins Plant Communications\nDuan, J., Yu, H., Yuan, K., Liao, Z., Meng, X., Jing, Y., Liu, G., Chu, J.,\r\nand Li, J. (2019). Strigolactone promotes cytokinin degradation\r\nthrough transcriptional activation of CYTOKININ OXIDASE/\r\nDEHYDROGENASE 9 in rice. Proc. Natl. Acad. Sci. USA 116:14319–\r\n14324.\r\nEntsch, B., Parker, C.W., Letham, D.S., and Summons, R.E. (1979).\r\nPreparation and characterization, using high-performance liquid\r\nchromatography, of an enzyme forming glucosides of cytokinins.\r\nBiochim. Biophys. Acta 570:124–139.\r\nFrank, M., Cortleven, A., Nova´ k, O., and Schmulling, T. € (2020). Root\u0002derived trans-zeatin cytokinin protects Arabidopsis plants against\r\nphotoperiod stress. Plant Cell Environ. 43:2637–2649.\r\nFox, J.E., Cornette, J., Deleuze, G., Dyson, W., Giersak, C., Niu, P.,\r\nZapata, J., and McChesney, J. (1973). The formation, isolation, and\r\nbiological activity of acytokinin 7-glucoside. Plant Physiol. 52:627–632.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 39,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Frebort, I., Kowalska, M., Hluska, T., Frebortova, J., and Galuszka, P.\r\n(2011). Evolution of cytokinin biosynthesis and degradation. J. Exp.\r\nBot. 62:2431–2452.\r\nGajdosova \u0002 ´ , S., Spı´chal, L., Kamı´nek, M., Hoyerova´ , K., Nova´ k, O.,\r\nDobrev, P.I., Galuszka, P., Klı´ma, P., Gaudinova´ , A., Zi \u0002 zkova \u0002 ´ , E.,\r\net al. (2011). Distribution, biological activities, metabolism, and the\r\nconceivable function of cis-zeatin-type cytokinins in plants. J. Exp.\r\nBot. 62:2827–2840.\r\nGalichet, A., Hoyerova´ , K., Kamı´nek, M., and Gruissem, W. (2008).\r\nFarnesylation directs AtIPT3 subcellular localization and modulates\r\ncytokinin biosynthesis in Arabidopsis. Plant Physiol. 146:1155–1164.\r\nGaluszka, P., Fre´ bort, I., Sebela, M., Sauer, P., Jacobsen, S., and Pe \u0002 c, \u0002\r\nP. (2001). Cytokinin oxidase or dehydrogenase? Mechanism of\r\ncytokinin degradation in cereals. Eur. J. Biochem. 268:450–461.\r\nGao, S., Fang, J., Xu, F., et al. (2014). CYTOKININ OXIDASE/\r\nDEHYDROGENASE4 integrates cytokinin and auxin signaling to\r\ncontrol rice crown root formation. Plant Physiol. 165:1035–1046.\r\nGao, S., Xiao, Y., Xu, F., Gao, X., Cao, S., Zhang, F., Wang, G., Sanders,\r\nD., and Chu, C. (2019). Cytokinin-dependent regulatory module\r\nunderlies the maintenance of zinc nutrition in rice. New Phytol.\r\n224:202–215.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 40,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Gaudinova´ , A., Dobrev, P.I., Solcova \u0002 ´ , B., et al. (2005). The involvement\r\nof cytokinin oxidase/dehydrogenase and zeatin reductase in regulation\r\nof cytokinin levels in pea (Pisum sativum L.) leaves. J. Plant Growth\r\nRegul. 24:188–200.\r\nGhanem, M.E., Albacete, A., Smigocki, A.C., et al. (2011). Root\u0002synthesized cytokinins improve shoot growth and fruit yield in\r\nsalinized tomato (Solanum lycopersicum L.) plants. J. Exp. Bot.\r\n62:125–140.\r\nGhosh, A., Shah, M.N.A., Jui, Z.S., Saha, S., Fariha, K.A., and Islam, T.\r\n(2018). Evolutionary variation and expression profiling of isopentenyl\r\ntransferase gene family in Arabidopsis thaliana L. and Oryza sativa L.\r\nPlant Gene 15:15–27.\r\nGillissen, B., Burkle, L., Andre € ´ , B., Kuhn, C., Rentsch, D., Brandl, B., €\r\nand Frommer, W.B. (2000). A new family of high-affinity transporters\r\nfor adenine, cytosine, and purine derivatives in Arabidopsis. Plant\r\nCell 12:291–300.\r\nGolovko, A., Sitbon, F., Tillberg, E., and Nicander, B. (2002).\r\nIdentification of a tRNA isopentenyltransferase gene from Arabidopsis\r\nthaliana. Plant Mol. Biol. 49:161–169.\r\nGu, B., Zhou, T., Luo, J., et al. (2015). An-2 encodes a cytokinin synthesis\r\nenzyme that regulates awn length and grain production in rice. Mol.\r\nPlant 8:1635–1650.\r\nYasui, Y., Ohmori, Y., Takebayashi, Y., Sakakibara, H., Hirano, H.Y.,\r\nand Hirano, H.-Y. (2018). WUSCHEL-RELATED HOMEOBOX4 acts\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 41,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "as a key regulator in early leaf development in rice. PLoS Genet. 14,\r\ne1007365.\r\nHiguchi, M., Pischke, M.S., Mah€ onen, A.P., Miyawaki, K., Hashimoto, €\r\nY., Seki, M., Kobayashi, M., Shinozaki, K., Kato, T., Tabata, S., et al.\r\n(2004). In planta functions of the Arabidopsis cytokinin receptor family.\r\nProc. Natl. Acad. Sci. USA 101:8821–8826.\r\nHirose, N., Makita, N., Yamaya, T., and Sakakibara, H. (2005).\r\nFunctional characterization and expression analysis of a gene,\r\nOsENT2, encoding an equilibrative nucleoside transporter in rice\r\nsuggest a function in cytokinin transport. Plant Physiol. 138:196–206.\r\nHirose, N., Takei, K., Kuroha, T., Kamada-Nobusada, T., Hayashi, H.,\r\nand Sakakibara, H. (2008). Regulation of cytokinin biosynthesis,\r\ncompartmentalization and translocation. J. Exp. Bot. 59:75–83.\r\nHorgan, R., Hewett, E.W., Purse, J.G., and Wareing, P.F. (1973). A new\r\ncytokinin from Populus robusta. Tetrahedron Lett. 14:2827–2828.\r\nHorgan, R., Hewett, E.W., Purse, J., Wareing, P., and Wareing, P.F.\r\n(1973). A new cytokinin from Populus3robusta. Phytochemistry\r\n14:2827–2828.\r\nHua, L., Wang, D.R., Tan, L., et al. (2015). LABA1, a domestication gene\r\nassociated with long, barbed awns in wild rice. Plant Cell\r\n27:1875–1888.\r\nHou, B., Lim, E.-K., Higgins, G.S., and Bowles, D.J. (2004). N\u0002glucosylation of cytokinins by glycosyltransferases of Arabidopsis\r\nthaliana. J. Biol. Chem. 279:47822–47832.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 42,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Hradilova´ , J., and Brzobohaty´, B. (2007). Expression pattern of the AHP\r\ngene family from Arabidopsis thaliana and organ specific alternative\r\nsplicing in the AHP5 gene. Biol. Plant. (Prague) 51:257–267.\r\nHu, Y., Patra, P., Pisanty, O., Shafir, A., Belew, Z.M., Binenbaum, J.,\r\nBen Yaakov, S., Shi, B., Charrier, L., Hyams, G., et al. (2023).\r\nMulti-Knock—a multi-targeted genome-scale CRISPR toolbox to\r\novercome functional redundancy in plants. Nat. Plants 9:572–587.\r\nHuang, P., Zhao, J., Hong, J., Zhu, B., Xia, S., Zhu, E., Han, P., and\r\nZhang, K. (2023). Cytokinins regulate rice lamina joint development\r\nand leaf angle. Plant Physiol. 191:56–69.\r\nHutchison, C.E., Li, J., Argueso, C., et al. (2006). The Arabidopsis\r\nhistidine phosphotransfer proteins are redundant positive regulators\r\nof cytokinin signaling. Plant Cell 18:3073–3087.\r\nHwang, I., and Sheen, J. (2001). Two-component circuitry in Arabidopsis\r\ncytokinin signal transduction. Nature 413:383–389.\r\nHwang, I., Chen, H.C., and Sheen, J. (2002). Two-component signal\r\ntransduction pathways in Arabidopsis. Plant Physiol. 129:500–515.\r\nHwang, I., Sheen, J., and Muller, B. € (2012). Cytokinin signaling networks.\r\nAnnu. Rev. Plant Biol. 63:353–380.\r\nInoue, T., Higuchi, M., Hashimoto, Y., Seki, M., Kobayashi, M., Kato,\r\nT., Tabata, S., Shinozaki, K., and Kakimoto, T. (2001).\r\nIdentification of CRE1 as a cytokinin receptor from Arabidopsis.\r\nNature 409:1060–1063.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 43,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Jarzyniak, K., Banasiak, J., Jamruszka, T., Pawela, A., Di Donato, M.,\r\nNova´ k, O., Geisler, M., and Jasinski, M. \u0003 (2021). Early stages of\r\nlegume–rhizobia symbiosis are controlled by ABCG-mediated\r\ntransport of active cytokinins. Nat. Plants 7:428–436.\r\nJoshi, R., Sahoo, K.K., Tripathi, A.K., Kumar, R., Gupta, B.K., Pareek,\r\nA., and Singla-Pareek, S.L. (2018). Knockdown of an inflorescence\r\nmeristem-specific cytokinin oxidase - OsCKX2 in rice reduces yield\r\npenalty under salinity stress condition. Plant Cell Environ. 41:936–946.\r\nJung, B., Hoffmann, C., and Mohlmann, T. € (2011). Arabidopsis\r\nnucleoside hydrolases involved in intracellular and extracellular\r\ndegradation of purines. Plant J. 65:703–711.\r\nKaiss-Chapman, R.W., and Morris, R.O. (1976). Trans-zeatin in culture\r\nfiltrates of Agrobacterium tumefaciens. Biochem. Biophys. Res.\r\nCommun. 76:453–459.\r\n12 Plant Communications 5, 100936, July 8 2024 ª 2024 The Authors.\r\nPlant Communications Spatially distributed cytokinins\nKakimoto, T. (2001). Identification of plant cytokinin biosynthetic enzymes\r\nas dimethylallyl diphosphate:ATP/ADP isopentenyltransferases. Plant\r\nCell Physiol. 42:677–685.\r\nKamada-Nobusada, T., and Sakakibara, H. (2009). Molecular basis for\r\ncytokinin biosynthesis. Phytochemistry 70:444–449.\r\nKamada-Nobusada, T., Makita, N., Kojima, M., and Sakakibara, H.\r\n(2013). Nitrogen-dependent regulation of de novo cytokinin\r\nbiosynthesis in rice: The role of glutamine metabolism as an\r\nadditional signal. Plant Cell Physiol. 54:1881–1893.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 44,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Kasahara, H., Takei, K., Ueda, N., et al. (2004). Distinct isoprenoid\r\norigins of cis- and trans-zeatin biosyntheses in Arabidopsis. J. Biol.\r\nChem. 279:14049–14054.\r\nKiba, T., Taniguchi, M., Imamura, A., Ueguchi, C., Mizuno, T., and\r\nSugiyama, T. (1999). Differential expression of genes for response\r\nregulators in response to cytokinins and nitrate in Arabidopsis\r\nthaliana. Plant Cell Physiol. 40:767–771.\r\nKiba, T., Kudo, T., Kojima, M., and Sakakibara, H. (2011). Hormonal\r\ncontrol of nitrogen acquisition: roles of auxin, abscisic acid, and\r\ncytokinin. J. Exp. Bot. 62:1399–1409.\r\nKiba, T., Takei, K., Kojima, M., and Sakakibara, H. (2013). Side-chain\r\nmodification of cytokinins controls shoot growth in Arabidopsis. Dev.\r\nCell 27:452–461.\r\nKiba, T., Takebayashi, Y., Kojima, M., and Sakakibara, H. (2019).\r\nSugar-induced de novo cytokinin biosynthesis contributes to\r\nArabidopsis growth under elevated CO2. Sci. Rep. 9:7765.\r\nKiba, T., Mizutani, K., Nakahara, A., Takebayashi, Y., Kojima, M.,\r\nHobo, T., Osakabe, Y., Osakabe, K., and Sakakibara, H. (2023).\r\nThe trans-zeatin-type side-chain modification of cytokinins controls\r\nrice growth. Plant Physiol. 192:2457–2474.\r\nKieber, J.J., and Schaller, G.E. (2014). Cytokinins. Arabidopsis Book 12,\r\ne0168.\r\nKim, A., Chen, J., Khare, D., Jin, J.Y., Yamaoka, Y., Maeshima, M.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 45,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Zhao, Y., Martinoia, E., Hwang, J.U., and Lee, Y. (2020). Non\u0002intrinsic ATP-binding cassette proteins ABCI19, ABCI20 and ABCI21\r\nmodulate cytokinin response at the endoplasmic reticulum in\r\nArabidopsis thaliana. Plant Cell Rep. 39:473–487.\r\nKo, D., Kang, J., Kiba, T., Park, J., Kojima, M., Do, J., Kim, K.Y., Kwon,\r\nM., Endler, A., Song, W.Y., et al. (2014). Arabidopsis ABCG14 is\r\nessential for the root-to-shoot translocation of cytokinin. Proc. Natl.\r\nAcad. Sci. USA 111:7150–7155.\r\nKojima, M., Makita, N., Miyata, K., Yoshino, M., Iwase, A., Ohashi, M.,\r\nSurjana, A., Kudo, T., Takeda-Kamiya, N., Toyooka, K., et al. (2023).\r\nA cell wall-localized cytokinin/purine riboside nucleosidase is involved\r\nin apoplastic cytokinin metabolism in Oryza sativa. Proc. Natl. Acad.\r\nSci. USA 120, e2217708120.\r\nKollmer, I., Nova € ´ k, O., Strnad, M., Schmulling, T., and Werner, T. €\r\n(2014). Overexpression of the cytosolic cytokinin oxidase/\r\ndehydrogenase (CKX7) from Arabidopsis causes specific changes in\r\nroot growth and xylem differentiation. Plant J. 78:359–371.\r\nKorobova, A., Kuluev, B., Mohlmann, T., Veselov, D., and Kudoyarova, €\r\nG. (2021). Limitation of cytokinin export to the shoots by nucleoside\r\ntransporter ENT3 and its linkage with root elongation in Arabidopsis.\r\nCells 10:350.\r\nKubiasova´ , K., Montesinos, J.C., Samajova \u0002 ´ , O., Nisler, J., Mik, V.,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 46,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Semera´dova´ , H., Plı´halova´ , L., Nova´ k, O., Marhavy´, P., Cavallari,\r\nN., et al. (2020). Cytokinin fluoroprobe reveals multiple sites of\r\ncytokinin perception at plasma membrane and endoplasmic\r\nreticulum. Nat. Commun. 11:4285.\r\nKudo, T., Makita, N., Kojima, M., Tokunaga, H., and Sakakibara, H.\r\n(2012). Cytokinin activity of cis-zeatin and phenotypic alterations\r\ninduced by overexpression of putative cis-Zeatin-O-glucosyltransferase\r\nin rice. Plant Physiol. 160:319–331.\r\nKudoyarova, G.R., Korobova, A.V., Akhiyarova, G.R., Arkhipova, T.N.,\r\nZaytsev, D.Y., Prinsen, E., Egutkin, N.L., Medvedev, S.S., and\r\nVeselov, S.Y. (2014). Accumulation of cytokinins in roots and their\r\nexport to the shoots of durum wheat plants treated with the\r\nprotonophore carbonyl cyanide m-chlorophenylhydrazone (CCCP). J.\r\nExp. Bot. 65:2287–2294.\r\nKurakawa, T., Ueda, N., Maekawa, M., Kobayashi, K., Kojima, M.,\r\nNagato, Y., Sakakibara, H., and Kyozuka, J. (2007). Direct control\r\nof shoot meristem activity by a cytokinin-activating enzyme. Nature\r\n445:652–655.\r\nKuroha, T., Tokunaga, H., Kojima, M., et al. (2009). Functional analyses\r\nof LONELY GUY cytokinin-activating enzymes reveal the importance of\r\nthe direct activation pathway in Arabidopsis. Plant Cell 21:3152–3169.\r\nLairson, L.L., Henrissat, B., Davies, G.J., and Withers, S.G. (2008).\r\nGlycosyltransferases: structures, functions, and mechanisms. Annu.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 47,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Rev. Biochem. 77:521–555.\r\nLaloue, M., Terrine, C., and Gawer, M. (1974). Cytokinins: formation of\r\nthe nuc1eoside-5’-triphosphate in tobacco and Acer cells. FEBS\r\nLett. 46:45–50.\r\nLaloue, M., Terrine, C., and Guern, J. (1977). Cytokinins: metabolism\r\nand biological activity of N6\r\n-(D2-isopentenyl)adenosine and N6-(D2-\r\nisopentenyl)adenine in tobacco cells and callus. Plant Physiol.\r\n59:478–483.\r\nLetham, D.S., Palni, L.M.S., Tao, G.Q., Gollnow, B.I., and Bates, C.M.\r\n(1983). Regulators of cell division in plant tissues XXIX. The activities of\r\ncytokinin glucosides and alanine conjugates in cytokinin bioassays. J.\r\nPlant Growth Regul. 2:103–115.\r\nLi, G., Liu, K., Baldwin, S.A., and Wang, D. (2003). Equilibrative\r\nnucleoside transporters of Arabidopsis thaliana: cDNA cloning,\r\nexpression pattern, and analysis of transport activities. J. Biol. Chem.\r\n278:35732–35742.\r\nLi, P., Lei, K., Li, Y., He, X., Wang, S., Liu, R., Ji, L., and Hou, B. (2019).\r\nIdentification and characterization of the first cytokinin\r\nglycosyltransferase from rice. Rice 12:19.\r\nLi, S., Zhao, B., Yuan, D., Duan, M., Qian, Q., Tang, L., Wang, B., Liu, X.,\r\nZhang, J., Wang, J., et al. (2013). Rice zinc finger protein DST\r\nenhances grain production through controlling Gn1a/OsCKX2\r\nexpression. Proc. Natl. Acad. Sci. USA 110:3167–3172.\r\nLiu, C.-J., Zhao, Y., and Zhang, K. (2019). Cytokinin transporters:\r\nmultisite players in cytokinin homeostasis and signal distribution.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 48,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Front. Plant Sci. 10, 693.\r\nLiu, D., Zhao, H., Xiao, Y., Zhang, G., Cao, S., Yin, W., Qian, Y., Yin, Y.,\r\nZhang, J., Chen, S., et al. (2022). A cryptic inhibitor of cytokinin\r\nphosphorelay controls rice grain size. Mol. Plant 15:293–307.\r\nLomin, S.N., Yonekura-Sakakibara, K., Romanov, G.A., and\r\nSakakibara, H. (2011). Ligand-binding properties and subcellular\r\nlocalization of maize cytokinin receptors. J. Exp. Bot. 62:5149–5159.\r\nMaeda, Y., Konishi,M., Kiba, T., Sakuraba, Y., Sawaki, N., Kurai, T., Ueda,\r\nY., Sakakibara, H., and Yanagisawa, S. (2018). A NIGT1-centred\r\ntranscriptional cascade regulates nitrate signalling and incorporates\r\nphosphorus starvation signals in Arabidopsis. Nat. Commun. 9:1376.\r\nMahonen, A.P., Bishopp, A., Higuchi, M., Nieminen, K.M., Kinoshita,\r\nK., Tormakangas, K., Ikeda, Y., Oka, A., Kakimoto, T., and\r\nHelariutta, Y. (2006). Cytokinin signaling and its inhibitor AHP6\r\nregulate cell fate during vascular development. Science 311:94–98.\r\nMartin, R.C., Mok, M.C., and Mok, D.W. (1999a). Isolation of a cytokinin\r\ngene, ZOG1, encoding zeatin O-glucosyltransferase from Phaseolus\r\nlunatus. Proc. Natl. Acad. Sci. USA 96:284–289.\r\nMartin, R.C., Mok, M.C., and Mok, D.W. (1999b). A gene encoding the\r\ncytokinin enzyme zeatin O-xylosyltransferase of Phaseolus vulgaris.\r\nPlant Physiol. 120:553–558.\r\nPlant Communications 5, 100936, July 8 2024 ª 2024 The Authors. 13\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 49,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Spatially distributed cytokinins Plant Communications\nMartin, R.C., Mok, M.C., Habben, J.E., and Mok, D.W. (2001). A maize\r\ncytokinin gene encoding an O-glucosyltransferase specific to cis\u0002zeatin. Proc. Natl. Acad. Sci. USA 98:5922–5926.\r\nMatsumoto-Kitano, M., Kusumoto, T., Tarkowski, P., Kinoshita\u0002Tsujimura, K., Va´ clavı´kova´ , K., Miyawaki, K., and Kakimoto, T.\r\n(2008). Cytokinins are central regulators of cambial activity. Proc.\r\nNatl. Acad. Sci. USA 105:20027–20031.\r\nMiller, C.O. (1961). A kinetin-like compound in maize. Proc. Natl. Acad.\r\nSci. USA 47:170–174.\r\nMiller, C.O., Skoog, F., Okumura, F.S., von Saltza, M.H., and Strong,\r\nF.M. (1955a). Structure and synthesis of kinetin. J. Am. Chem. Soc.\r\n77:2662–2663.\r\nMiller, C.O., Skoog, F., Von Saltza, M.H., and Strong, F.M. (1955b).\r\nKinetin, a cell division factor from deoxyribonucleic acid. J. Am.\r\nChem. Soc. 77:1392.\r\nMiyawaki, K., Matsumoto-Kitano, M., and Kakimoto, T. (2004).\r\nExpression of cytokinin biosynthetic isopentenyltransferase genes in\r\nArabidopsis: tissue specificity and regulation by auxin, cytokinin, and\r\nnitrate. Plant J. 37:128–138.\r\nMiyawaki, K., Tarkowski, P., Matsumoto-Kitano, M., Kato, T., Sato, S.,\r\nTarkowska, D., Tabata, S., Sandberg, G., and Kakimoto, T. (2006).\r\nRoles of Arabidopsis ATP/ADP isopentenyltransferases and tRNA\r\nisopentenyltransferases in cytokinin biosynthesis. Proc. Natl. Acad.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 50,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Sci. USA 103:16598–16603.\r\nMok, D.W.S. (1994). In Cytokinins: Chemistry, activity, and function (CRC\r\nPress, Inc.).\r\nMok, D.W., and Mok, M.C. (2001). Cytokinin metabolism and action.\r\nAnnu. Rev. Plant Physiol. Plant Mol. Biol. 52:89–118.\r\nMougel, C., and Zhulin, I.B. (2001). CHASE: an extracellular sensing\r\ndomain common to transmembrane receptors from prokaryotes,\r\nlower eukaryotes and plants. Trends Biochem. Sci. 26:582–584.\r\nMuller, B. (2011). Generic signal-specific responses: cytokinin and\r\ncontext-dependent cellular responses. J. Exp. Bot. 62:3273–3288.\r\nMuller, B., and Sheen, J. (2007). Arabidopsis cytokinin signaling\r\npathway. Science, cm5.\r\nMuraro, D., Wilson, M., and Bennett, M.J. (2011). Root development:\r\ncytokinin transport matters, too. Curr. Biol. 21:423–425.\r\nNair, R.B., Bastress, K.L., Ruegger, M.O., Denault, J.W., and Chapple,\r\nC. (2004). The Arabidopsis thaliana REDUCED EPIDERMAL\r\nFLUORESCENCE1 gene encodes an aldehyde dehydrogenase\r\ninvolved in ferulic acid and sinapic acid biosynthesis. Plant Cell\r\n16:544–554.\r\nNguyen, H.N., Lai, N., Kisiala, A.B., and Emery, R.J.N. (2021).\r\nIsopentenyltransferases as master regulators of crop performance:\r\ntheir function, manipulation, and genetic potential for stress\r\nadaptation and yield improvement. Plant Biotechnol. J. 19:1297–1313.\r\nNiemann, M.C.E., Weber, H., Hluska, T., et al. (2018). The cytokinin\r\noxidase/dehydrogenase CKX1 is a membrane-bound protein\r\nrequiring homooligomerization in the endoplasmic reticulum for its\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 51,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "cellular activity. Plant Physiol. 176:2024–2039.\r\nNishimura, C., Ohashi, Y., Sato, S., Kato, T., Tabata, S., and Ueguchi,\r\nC. (2004). Histidine kinase homologs that act as cytokinin receptors\r\npossess overlapping functions in the regulation of shoot and root\r\ngrowth in Arabidopsis. Plant Cell 16:1365–1377.\r\nOhkubo, Y., Tanaka, M., Tabata, R., Ogawa-Ohnishi, M., and\r\nMatsubayashi, Y. (2017). Shoot-to-root mobile polypeptides\r\ninvolved in systemic regulation of nitrogen acquisition. Nat. Plants 3,\r\n17029.\r\nOsugi, A., and Sakakibara, H. (2015). Q&A: How do plants respond to\r\ncytokinins and what is their importance? BMC Biol. 13:102.\r\nOsugi, A., Kojima, M., Takebayashi, Y., Ueda, N., Kiba, T., and\r\nSakakibara, H. (2017). Systemic transport of trans-zeatin and its\r\nprecursor have differing roles in Arabidopsis shoots. Nat. Plants 3,\r\n17112.\r\nOta, R., Ohkubo, Y., Yamashita, Y., Ogawa-Ohnishi, M., and\r\nMatsubayashi, Y. (2020). Shoot-to-root mobile CEPD-like 2\r\nintegrates shoot nitrogen status to systemically regulate nitrate\r\nuptake in Arabidopsis. Nat. Commun. 11:641.\r\nPoitout, A., Crabos, A., Pet\u0002rı´k, I., et al. (2018). Responses to systemic\r\nnitrogen signaling in Arabidopsis roots involve trans-Zeatin in shoots.\r\nPlant Cell 30:1243–1257.\r\nPunwani, J.A., Hutchison, C.E., Schaller, G.E., and Kieber, J.J.(2010). The\r\nsubcellular distribution of the Arabidopsis histidine phosphotransfer\r\nproteins is independent of cytokinin signaling. Plant J. 62:473–482.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 52,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Radchuk, V., Belew, Z.M., Gundel, A., Mayer, S., Hilo, A., Hensel, G., €\r\nSharma, R., Neumann, K., Ortleb, S., Wagner, S., et al. (2023).\r\nSWEET11b transports both sugar and cytokinin in developing barley\r\ngrains. Plant Cell 35:2186–2207.\r\nRomanov, G.A., Lomin, S.N., and Schmulling, T. € (2006). Biochemical\r\ncharacteristics and ligand-binding properties of Arabidopsis cytokinin\r\nreceptor AHK3 compared to CRE1/AHK4 as revealed by a direct\r\nbinding assay. J. Exp. Bot. 57:4051–4058.\r\nRomanov, G.A., Lomin, S.N., and Schmulling, T. € (2018). Cytokinin\r\nsignaling: from the ER or from the PM? That is the question. New\r\nPhytol. 218:41–53.\r\nSakai, H., Honma, T., Aoyama, T., Sato, S., Kato, T., Tabata, S., and\r\nOka, A. (2001). ARR1, a transcription factor for genes immediately\r\nresponsive to cytokinins. Science 294:1519–1521.\r\nSakakibara, H., Taniguchi, M., and Sugiyama, T. (2000). His-Asp\r\nphosphorelay signaling: a communication avenue between plants\r\nand their environment. Plant Mol. Biol. 42:273–278.\r\nSakakibara, H. (2006). Cytokinins: activity, biosynthesis, and\r\ntranslocation. Annu. Rev. Plant Biol. 57:431–449.\r\nSakakibara, H. (2021). Cytokinin biosynthesis and transport for systemic\r\nnitrogen signaling. Plant J. 105:421–430.\r\nSasaki, T., Suzaki, T., Soyano, T., Kojima, M., Sakakibara, H., and\r\nKawaguchi, M. (2014). Shoot-derived cytokinins systemically\r\nregulate root nodulation. Nat. Commun. 5:4983.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 53,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Sondheimer, E., and Tzou, D.S. (1971). The metabolism of hormones\r\nduring seed germination and dormancy: II. The metabolism of 8-C\u0002zeatin in bean axes. Plant Physiol. 47:516–520.\r\nSpı´chal, L., Rakova, N.Y., Riefler, M., Mizuno, T., and Romanov, G.A.\r\n(2004). Two cytokinin receptors of Arabidopsis thaliana, CRE1/AHK4\r\nand AHK3, differ in their ligand specificity in a bacterial assay. Plant\r\nCell Physiol. 45:1299–1305.\r\nStolz, A., Riefler, M., Lomin, S.N., Achazi, K., Romanov, G.A., and\r\nSchmulling, T. € (2011). The specificity of cytokinin signalling in\r\nArabidopsis thaliana is mediated by differing ligand affinities and\r\nexpression profiles of the receptors. Plant J. 67:157–168.\r\nStrnad, M. (1997). The aromatic cytokinins. Physiol. Plantarum\r\n101:674–688.\r\nSun, J., Hirose, N., Wang, X., et al. (2005). Arabidopsis SOI33/AtENT8\r\ngene encodes a putative equilibrative nucleoside transporter that is\r\ninvolved in cytokinin transport in planta. J. Integr. Plant Biol.\r\n47:588–603.\r\nSuzuki, T., Miwa, K., Ishikawa, K., Yamada, H., Aiba, H., and Mizuno,\r\nT. (2001). The Arabidopsis sensor His-kinase, AHk4, can respond to\r\ncytokinins. Plant Cell Physiol. 42:107–113.\r\nTabata, R., Sumida, K., Yoshii, T., Ohyama, K., Shinohara, H., and\r\nMatsubayashi, Y. (2014). Perception of root-derived peptides by\r\n14 Plant Communications 5, 100936, July 8 2024 ª 2024 The Authors.\r\nPlant Communications Spatially distributed cytokinins\nshoot LRR-RKs mediates systemic N-demand signaling. Science\r\n346:343–346.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 54,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Takei, K., Sakakibara, H., and Sugiyama, T. (2001). Identification of\r\ngenes encoding adenylate isopentenyltransferase, a cytokinin\r\nbiosynthesis enzyme, in Arabidopsis thaliana. J. Biol. Chem.\r\n276:26405–26410.\r\nTakei, K., Yamaya, T., and Sakakibara, H. (2003). A method for\r\nseparation and determination of cytokinin nucleotides from plant\r\ntissues. J. Plant Res. 116:265–269.\r\nTakei, K., Yamaya, T., and Sakakibara, H. (2004a). Arabidopsis\r\nCYP735A1 and CYP735A2 Encode Cytokinin Hydroxylases That\r\nCatalyze the Biosynthesis of trans-Zeatin. J. Biol. Chem. 279:41866–\r\n41872.\r\nTakei, K., Ueda, N., Aoki, K., Kuromori, T., Hirayama, T., Shinozaki, K.,\r\nYamaya, T., and Sakakibara, H. (2004b). AtIPT3 is a key determinant\r\nof nitrate-dependent cytokinin biosynthesis in Arabidopsis. Plant Cell\r\nPhysiol. 45:1053–1062.\r\nTessi, T.M., Brumm, S., Winklbauer, E., Schumacher, B., Pettinari, G.,\r\nLescano, I., Gonza´ lez, C.A., Wanke, D., Maurino, V.G., Harter, K.,\r\net al. (2021). Arabidopsis AZG2 transports cytokinins in vivo and\r\nregulates lateral root emergence. New Phytol. 229:979–993.\r\nTessi, T.M., Maurino, V.G., Shahriari, M., Meissner, E., Novak, O.,\r\nPasternak, T., Schumacher, B.S., Ditengou, F., Li, Z., Duerr, J.,\r\net al. (2023). AZG1 is a cytokinin transporter that interacts with auxin\r\ntransporter PIN1 and regulates the root stress response. New Phytol.\r\n238:1924–1941.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 55,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Tokunaga, H., Kojima, M., Kuroha, T., Ishida, T., Sugimoto, K., Kiba,\r\nT., and Sakakibara, H. (2012). Arabidopsis lonely guy (LOG) multiple\r\nmutants reveal a central role of the LOG-dependent pathway in\r\ncytokinin activation. Plant J. 69:355–365.\r\nTsago, Y., Chen, Z., Cao, H., Sunusi, M., Khan, A.U., Shi, C., and Jin, X.\r\n(2020). Rice gene, OsCKX2-2, regulates inflorescence and grain size by\r\nincreasing endogenous cytokinin content. Plant Growth Regul.\r\n92:283–294.\r\nTu, B., Tao, Z., Wang, S., Zhou, L., Zheng, L., Zhang, C., Li, X., Zhang,\r\nX., Yin, J., Zhu, X., et al. (2022). Loss of Gn1a/OsCKX2 confers heavy\u0002panicle rice with excellent lodging resistance. J. Integr. Plant Biol.\r\n64:23–38.\r\nUeguchi, C., Sato, S., Kato, T., and Tabata, S. (2001a). The AHK4 gene\r\ninvolved in the cytokinin-signaling pathway as a direct receptor\r\nmolecule in Arabidopsis thaliana. Plant Cell Physiol. 42:751–755.\r\nUeguchi, C., Koizumi, H., Suzuki, T., and Mizuno, T. (2001b). Novel\r\nFamily of Sensor Histidine Kinase Genes in Arabidopsis thaliana.\r\nPlant Cell Physiol. 42:231–235.\r\nVeach, Y.K., Martin, R.C., Mok, D.W.S., Malbeck, J., Vankova, R., and\r\nMok, M.C. (2003). O-Glucosylation of cis-Zeatin in Maize.\r\nCharacterization of Genes, Enzymes, and Endogenous Cytokinins.\r\nPlant Physiol. 131:1374–1380.\r\nWang, T.L., and Horgan, R. (1978). Dihydrozeatin riboside, a minor\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 56,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "cytokinin from the leaves of Phaseolus vulgaris L. Planta 140:151–153.\r\nWang, J., Ma, X.-M., Kojima, M., Sakakibara, H., and Hou, B.-K. (2011).\r\nN-glucosyltransferase UGT76C2 is involved in cytokinin homeostasis\r\nand cytokinin response in Arabidopsis thaliana. Plant Cell Physiol.\r\n52:2200–2213.\r\nWang, X., Lin, S., Liu, D., Gan, L., McAvoy, R., Ding, J., and Li, Y. (2020).\r\nEvolution and roles of cytokinin genes in angiosperms 1: Do ancient\r\nIPTs play housekeeping while non-ancient IPTs play regulatory\r\nroles? Hortic. Res. 7:28.\r\nWerner, T., Motyka, V., Strnad, M., and Schmulling, T. € (2001).\r\nRegulation of plant growth by cytokinin. Proc. Natl. Acad. Sci. USA\r\n98:10487–10492.\r\nWerner, T., Motyka, V., Laucou, V., Smets, R., Van Onckelen, H., and\r\nSchmulling, T. € (2003). Cytokinin-deficient transgenic Arabidopsis\r\nplants show multiple developmental alterations indicating opposite\r\nfunctions of cytokinins in the regulation of shoot and root meristem\r\nactivity. Plant Cell 15:2532–2550.\r\nWormit, A., Traub, M., Florchinger, M., Neuhaus, H.E., and M € ohlmann, €\r\nT. (2004). Characterization of three novel members of the Arabidopsis\r\nthaliana equilibrative nucleoside transporter (ENT) family. Biochem. J.\r\n383:19–26.\r\nWu, B., Meng, J., Liu, H., Mao, D., Yin, H., Zhang, Z., Zhou, X., Zhang,\r\nB., Sherif, A., Liu, H., et al. (2023). Suppressing a phosphohydrolase of\r\ncytokinin nucleotide enhances grain yield in rice. Nat. Genet.\r\n55:1381–1389.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 57,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Wulfetange, K., Lomin, S.N., Romanov, G.A., Stolz, A., Heyl, A., and\r\nSchmulling, T. € (2011). The cytokinin receptors of Arabidopsis are\r\nlocated mainly to the endoplasmic reticulum. Plant Physiol.\r\n156:1808–1818.\r\nXiao, Y., Zhang, J., Yu, G., et al. (2020). Endoplasmic reticulum-localized\r\nPURINE PERMEASE1 regulates plant height and grain weight by\r\nmodulating cytokinin distribution in rice. Front. Plant Sci. 11, 618560.\r\nXiao, Y., Liu, D., Zhang, G., Gao, S., Liu, L., Xu, F., Che, R., Wang, Y.,\r\nTong, H., and Chu, C. (2019). Big Grain3, encoding a purine\r\npermease, regulates grain size via modulating cytokinin transport in\r\nrice. J. Integr. Plant Biol. 61:581–597.\r\nYamada, H., Suzuki, T., Terada, K., Takei, K., Ishikawa, K., Miwa, K.,\r\nYamashino, T., and Mizuno, T. (2001). The Arabidopsis AHK4\r\nhistidine kinase is a cytokinin-binding receptor that transduces\r\ncytokinin signals across the membrane. Plant Cell Physiol.\r\n42:1017–1023.\r\nYao, Y., Xiang, D., Wu, N., Wang, Y., Chen, Y., Yuan, Y., Ye, Y., Hu, D.,\r\nZheng, C., Yan, Y., et al. (2023). Control of rice ratooning ability by a\r\nnucleoredoxin that inhibits histidine kinase dimerization to attenuate\r\ncytokinin signaling in axillary bud growth. Mol. Plant 10:9.\r\nYin, W., Xiao, Y., Niu, M., et al. (2020). ARGONAUTE2 enhances grain\r\nlength and salt tolerance by activating BIG GRAIN3 to modulate\r\ncytokinin distribution in rice. Plant Cell 32:2292–2306.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 58,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "Yonekura-Sakakibara, K., Kojima, M., Yamaya, T., and Sakakibara, H.\r\n(2004). Molecular characterization of cytokinin-responsive histidine\r\nkinases in maize. Differential ligand preferences and response to cis\u0002zeatin. Plant Physiol. 134:1654–1661.\r\nYonekura-Sakakibara, K., and Hanada, K. (2011). An evolutionary view\r\nof functional diversity in family 1 glycosyltransferases. Plant J.\r\n66:182–193.\r\nZa´ veska´ Dra´bkova´ , L., Honys, D., and Motyka, V. (2021). Evolutionary\r\ndiversification of cytokinin-specific glucosyltransferases in angiosperms\r\nand enigma of missing cis-zeatin O-glucosyltransferase gene in\r\nBrassicaceae. Sci. Rep. 11:7885.\r\nZhang, K., Novak, O., Wei, Z., Gou, M., Zhang, X., Yu, Y., Yang, H., Cai,\r\nY., Strnad, M., and Liu, C.J. (2014). Arabidopsis ABCG14 protein\r\ncontrols the acropetal translocation of root-synthesized cytokinins.\r\nNat. Commun. 5:3274.\r\nZhang, W., Peng, K., Cui, F., Wang, D., Zhao, J., Zhang, Y., Yu, N.,\r\nWang, Y., Zeng, D., Wang, Y., et al. (2021). Cytokinin oxidase/\r\ndehydrogenase OsCKX11 coordinates source and sink relationship\r\nin rice by simultaneous regulation of leaf senescence and grain\r\nnumber. Plant Biotechnol. J. 19:335–350.\r\nZhang, Y., Berman, A., and Shani, E. (2023). Plant hormone transport\r\nand localization: Signaling molecules on the move. Annu. Rev. Plant\r\nBiol. 74:453–479.\r\nZhao, J., Yu, N., Ju, M., et al. (2019). ABC Transporter OsABCG18\r\ncontrols the shootward transport of cytokinins and grain yield in rice.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 59,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 2056616302144870682,
+        "filename": "main.PMC11287186.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 60,
+      "version": "1.0.0"
+    },
+    "text": "J. Exp. Bot. 70:6277–6291.\r\nPlant Communications 5, 100936, July 8 2024 ª 2024 The Authors. 15\r\nSpatially distributed cytokinins Plant Communications\nZhao, J., Ding, B., Zhu, E., Deng, X., Zhang, M., Zhang, P., Wang, L.,\r\nDai, Y., Xiao, S., Zhang, C., et al. (2021). Phloem unloading via the\r\napoplastic pathway is essential for shoot distribution of root\u0002synthesized cytokinins. Plant Physiol. 186:2111–2123.\r\nZhao, J., Deng, X., Qian, J., Liu, T., Ju, M., Li, J., Yang, Q., Zhu, X., Li, W.,\r\nLiu, C.-J., et al. (2023). Arabidopsis ABCG14 forms a homodimeric\r\ntransporter for multiple cytokinins and mediates long-distance transport\r\nof isopentenyladenine-type cytokinins. Plant Commun. 4, 100468.\r\nZhu, B., Zhao, J., Zhang, K., and Huang, P. (2024). Oryza sativa\r\nCYTOKININ OXIDASE 9（OsCKX9）is involved in regulating the\r\nrice lamina joint development and leaf angle. Exp. Bot.\r\n70:6277–6291.\r\nZurcher, E., Liu, J., di Donato, M., Geisler, M., and M € uller, B. € (2016).\r\nPlant development regulated by cytokinin sinks. Science\r\n353:1027–1030.\r\nZurcher, E., Tavor-Deslex, D., Lituiev, D., Enkerli, K., Tarr, P.T., and €\r\nMuller, B. € (2013). A robust and sensitive synthetic sensor to monitor\r\nthe transcriptional output of the cytokinin signaling network in planta.\r\nPlant Physiol. 161:1066–1075.\r\n16 Plant Communications 5, 100936, July 8 2024 ª 2024 The Authors.\r\nPlant Communications Spatially distributed cytokinins\n\n"
+  }
+]

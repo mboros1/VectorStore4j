@@ -1,0 +1,602 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Finding related sentence pairs in MEDLINE\r\nLarry H. Smith • W. John Wilbur\r\nReceived: 8 September 2009 / Accepted: 6 January 2010 / Published online: 23 January 2010\r\n\u0002 The Author(s) 2010. This article is published with open access at Springerlink.com\r\nAbstract We explore the feasibility of automatically identifying sentences in different\r\nMEDLINE abstracts that are related in meaning. We compared traditional vector space\r\nmodels with machine learning methods for detecting relatedness, and found that machine\r\nlearning was superior. The Huber method, a variant of Support Vector Machines which\r\nminimizes the modified Huber loss function, achieves 73% precision when the score cutoff\r\nis set high enough to identify about one related sentence per abstract on average. We\r\nillustrate how an abstract viewed in PubMed might be modified to present the related\r\nsentences found in other abstracts by this automatic procedure.\r\nKeywords Machine learning \u0002 Related sentences\r\n1 Introduction\r\nSearch engines respond to a user query by producing a list of documents from a given\r\ncollection, ordering the list according to the user’s supposed information need. However,\r\neven the most relevant documents will contain some portions of greater interest to the user,\r\nand other portions of little or no interest. This may explain why for example, when\r\nquerying over full text collections, retrieval performance can be improved by segmenting\r\ndocuments into sections or paragraphs, and matching or retrieving passages rather than full\r\ndocuments (Hearst and Plaunt 1993; Lin 2009), although mixed results have been reported\r\nfor matching queries at the sentence level (Ko et al. 2002; Lu et al. 2009; Salton and\r\nBuckley 1991).\r\nPubMed1 is the search engine for articles in MEDLINE maintained at the National\r\nLibrary of Medicine (Sayers et al. 2009; Wilbur 2005). When a user selects an article to\r\nview, a list of related articles may also appear alongside its other details. Related articles\r\nL. H. Smith (&) \u0002 W. J. Wilbur\r\nComputational Biology Branch, National Center for Biotechnology Information,\r\nBuilding 38A, 8600 Rockville Pike, Bethesda, MD 20894, USA\r\ne-mail: lsmith@ncbi.nlm.nih.gov\r\n1 http://www.ncbi.nlm.nih.gov/pubmed/.\r\n123\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Inf Retrieval (2010) 13:601–617\r\nDOI 10.1007/s10791-010-9126-8\nare pre-computed using a topic-based model that measures the size of overlapping subject\r\nmatter of two articles (Lin and Wilbur 2007). Although the related articles feature is\r\npopular (20% of user sessions involve viewing a related article) it assumes that users are\r\nprimarily interested in articles that have maximal overlapping subject matter. The goal of\r\nthis paper is to explore an alternative method of finding related content, to address the\r\nneeds of users interested in a particular sentence in an article by finding other related\r\nsentences. We assume users would be interested in other occurrences of the same sentence,\r\na restatement of the sentence, or any sentence that makes a closely related assertion.\r\nWe used vector space models to estimate the relatedness of sentences. In addition to\r\nthe tf-idf formula suggested by (Salton and Buckley 1991), we also adapted several\r\nwell known retrieval functions, such as the Dice coefficient, cosine similarity, and\r\nbm25. But fixed formulas give only one possibility for term weights in a vector space\r\nmodel, and theoretically it should be possible to use machine learning to find optimal\r\nterm weights.\r\nMachine learning has been applied in an analogous setting of information retrieval. The\r\ngoal of learning to rank is to use machine learning to obtain retrieval scoring functions for\r\noptimal ranking of query results (Joachims et al. 2007). That research has been limited in\r\nthe past by the availability of test data, and much of the effort has been focused on\r\neffective learning algorithms to meet the unique challenges. The focus may shift now that\r\nthe LETOR corpus has emerged as a community benchmark dataset (Liu et al. 2007), and\r\nwith methods for automated annotation derived from user clickthrough data (Joachims\r\n2002).\r\nAs with learning to rank, the biggest challenge to machine learning of related sentences\r\nis the availability of a usable corpus. To our knowledge, no datasets of related sentences\r\nhave been discussed in the research literature. We claim that a productive corpus must be\r\nlarge enough to contain many examples of related sentences on a variety of different\r\ntopics, and that manual annotation of such a large corpus of sentence pairs is not feasible.\r\nFortunately, there is an ideal solution to this problem. Firstly, the MEDLINE database\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "contains a large number of sentences (available in article abstracts) in many different\r\nsubject areas. And secondly, sentences are likely to be related if they are adjacent sen\u0002tences from the same MEDLINE abstract, and unrelated if they are from different ran\u0002domly selected abstracts. Thus it is possible to automatically assemble a very large training\r\ncorpus of sentence pairs from MEDLINE.\r\nOur ability to detect the relatedness of two sentences is dependent on their sharing\r\nwords or parts of words. We do not use a thesaurus or dictionary. We have found words\r\nand portions of words to be the most useful features in our approach. Such features are used\r\nin our application of the standard information retrieval formulas that we test, as well as in\r\nour machine learning. In a minor departure from the vector space model, we also learned\r\nweights for terms that appear in only one sentence, which tend to be negative and reflect\r\nthe evidence for two sentences to be unrelated when one sentence contains the word and\r\nthe other does not.\r\nHaving a large annotated corpus of related sentences makes it possible to apply machine\r\nlearning to obtain optimal weights for a vector space model, and to compare the results\r\nwith traditional vector space models. Indeed, we found that the learned model was sig\u0002nificantly better than any of the traditional models at recognizing related sentences. This\r\nresult means that we can distinguish pairs of sentences that were adjacent in an abstract\r\nfrom pairs of sentences randomly selected from different abstracts at a high level. How\u0002ever, this is not our ultimate goal. Our goal is to apply the learning for a given query\r\nsentence to find related sentences in other documents. We performed a modest manual\r\n602 Inf Retrieval (2010) 13:601–617\r\n123\nevaluation which shows that the model from machine learning also gives significantly\r\nbetter results at this task. In summary, our contribution is a first use of a large automatically\r\ngenerated training corpus for related sentences, and the demonstration that the model\r\nlearned from this corpus outperforms traditional vector space methods at finding related\r\nsentence pairs in different documents.\r\nIn the remainder of the paper, Sect. 2 describes our corpus of related sentence pairs, the\r\nbaseline and machine learning methods used to detect relatedness, and our approaches to\r\nevaluating the results. Section 3 gives the results of the baseline and machine learning\r\nmethods, followed by a manual comparison of the best of each, and further evaluation of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "the best method. A potential application is illustrated in Sect. 4. Limitations of the concept\r\nof relatedness are discussed in Sect. 5. We conclude with a summary in Sect. 6.\r\n2 Methods\r\nWe will now describe the corpus that we created for this study, the various methods of\r\nrelatedness detection that we considered, and the techniques we used to evaluate them.\r\n2.1 Corpus\r\nWe began with a snapshot of MEDLINE, taken in June, 2008, from which we extracted the\r\nabstracts, and divided them into sentences using the MedPost part of speech tagger (Smith\r\net al. 2004). There were a total of 73,812,862 sentences at this stage.\r\nWe wanted to ignore sentences which contained only generic words. To do this, we used\r\nthe result of a previous study (Kim and Wilbur 2001) which for each word w defined a\r\nstrength of context score, s1 (w), that serves as a measure of how strongly w is related to its\r\ncontext. The authors of that paper provided us with a set of s1-scores for 535,533 words,\r\nfrom which we selected 153,737 high scoring content words by arbitrarily requiring\r\ns1(w)[160.0. Sentences were eliminated from consideration if they did not contain at\r\nleast one of these content words, resulting in a total of 37,371,346 sentences.\r\nAmong these remaining sentences, if two were found to be in the same abstract and\r\nadjacent to each other, then they were added to the corpus of sentence pairs. In keeping\r\nwith our relatedness hypothesis, these were all annotated as positive examples of related\r\nsentence pairs. This resulted in 28,771,427 related sentence pairs from 6,552,370 different\r\nabstracts, or about 5.7 sentences per content-containing abstract.\r\nTo obtain negative examples, we took this same list of related sentence pairs and\r\nrandomly permuted the second sentence of all the pairs. The resulting pairs, none of which\r\nwere from the same abstract, were added to the corpus as negative examples of related\r\nsentence pairs. All together, our corpus consisted of 57,542,854 sentence pairs, half of\r\nwhich were positive.\r\nOne-third of the corpus was designated as the test set, resulting in 19,180,952 sentence\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "pairs. The remaining 38,361,902 sentence pairs were designated as the training set. In both\r\nthe training and test sets, half of the sentence pairs were from the positive class and half\r\nfrom the negative class. In addition, to study feature selection and parameter tuning, we\r\nselected a tuning set of about 5 million sentence pairs such that half were annotated\r\npositive, and half negative. The tuning set was chosen to consist of all abstracts produced\r\nby a ‘‘cardiovascular disease’’ PubMed query to insure that it would contain a large number\r\nof related sentences in the same topic area.\r\nInf Retrieval (2010) 13:601–617 603\r\n123\n2.2 Features\r\nEach pair of sentences in the corpus was represented in the database by three sets of\r\nfeatures: one set for each sentence, and a set for the pair as a whole, derived in a simple\r\nway from the two sets of sentence features. Our baseline methods used the features\r\nassociated with sentences, while our machine learning methods used the features associ\u0002ated with pairs. We now describe the features in detail.\r\nEach sentence was divided into tokens by breaking on all non-alphanumeric characters,\r\nretaining only strings that contained at least one letter, and excluding a set of 313 common\r\nstop words (Wilbur and Sirotkin 1992). These strings were mapped to lower case and\r\ndesignated sentence word features, or type W features. Substrings of the type W features\r\nwith varying lengths (which also contained at least one letter) were designated sentence\r\nsubstring features, or type S features. The number of times that each sentence feature\r\noccurred in a sentence was also recorded (some of the baseline methods used this data).\r\nFeatures associated with a pair of sentences were defined by comparing the two sets of\r\nsentence features. Those sentence features that appeared in both sets were designated as\r\npair intersection features, or type I features. Those that occurred in only one of the sets\r\nwere designated as pair disjoint features, or type D features. Thus, each feature of a\r\nsentence pair was described by a string (which appears in at least one of the sentences), a\r\nsentence feature type (W or S) and a pair feature type (D or I).\r\nBased on a preliminary study on the tuning set, the best performance was achieved\r\nwhen type S features of length 2–6 were combined with type W features. With this\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "definition, the 37,371,346 sentences in the corpus had an average of 16.1 type W features\r\nand 442.7 type S features per sentence. The 57,542,854 sentence pairs in the corpus had an\r\naverage of 80.7 type I features and 630.1 type D features per pair.\r\n2.3 Baseline methods\r\nWe tested whether machine learning was more effective at relatedness detection than\r\ntraditional methods of measuring content overlap. Several relatedness measures commonly\r\nused in information retrieval were identified and used as baseline methods. Each of these\r\nmethods is defined by a formula that takes as its input two sets of sentence features, and\r\nproduces a number that measures the amount of overlap in the two sets. The formulas for\r\nall baseline methods are given in Table 1.\r\nThe Jaccard index and Dice coefficient are the simplest methods and have a long history\r\nin information retrieval (van Rijsbergen 1979). Their formulas depend on the number of\r\ndistinct features in each set, the size of the intersection and the size of the union. However,\r\nthe two measures always produce the same ranking, as can be verified by elementary\r\nalgebra, and so we only report the results for the Dice coefficient (D).\r\nThree of the baseline methods were based on the OKAPI bm25 formula (Robertson and\r\nSpark Jones 1994), originally designed to measure the degree of relevance of a document\r\ngiven a keyword query. The bm25 similarity score is the sum of term frequency tft,S times\r\nan inverse document frequency dft for all terms t in a query (formulas shown in Table 1).\r\nBut applying this formula directly to our situation would require us to designate one\r\nsentence as a query sentence and the other as a document. To preserve symmetry, we sum\r\nover all terms common to both sentences, and instead of the term frequency we use the\r\nproduct of term frequencies (O1), geometric mean of term frequencies (O2), or 1 (O3).\r\nIn Automatic Text Structuring (Salton and Buckley 1991), sentences were compared for\r\nsimilarity using a dot product of weight vectors called atn. The weights were defined for\r\n604 Inf Retrieval (2010) 13:601–617\r\n123\nterms in a sentence as a product of a term frequency formula and inverse document\r\nfrequency formula. We used this same formula for a baseline method denoted A.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Two baseline methods were based on the TextTiling algorithm (Hearst 1993), originally\r\ndeveloped to partition a document into coherent sections. That paper defines tf.idf for a\r\nterm to be the frequency of a term within a document (tf) divided by the frequency of a\r\nterm throughout the whole collection (idf; both formulas shown in Table 1). Each docu\u0002ment, in our case a sentence, is associated with a vector of tf.idf defined this way, and the\r\nTextTiling method (T1) uses the cosine similarity of these vectors. The dot product of tf.idf\r\nwas also used as a method (T2).\r\nFinally, generalizing the tf.idf dot product formula by taking tf = 1, we define simple\r\nmeasures of similarity equal to the sum of the inverse document frequency raised to a\r\npower e (Ie for e = 0.5, 1, 1.5, 2, 3).\r\n2.4 Machine learning algorithm\r\nThe corpus of sentence pairs, with pair features derived from the words and strings from\r\neach sentence, and annotated for relatedness, makes it possible to apply machine learning\r\nto identify related sentences. Machine learning determines a numeric value for each\r\nTable 1 Definitions and formulas used for the baseline methods of measuring the relatedness of two\r\nsentences with feature sets X and Y\r\nMethod Notation Formula\r\nDice coefficient D (X, Y) 2j j X\\Y\r\nj jþX j j Y\r\nOKAPI bm25, product of tf O1 (X, Y) P\r\nt2X\\Y\r\ndft \u0002 tft;X \u0002 tft;Y\r\nOKAPI bm25, geometric mean of tf O2 (X, Y) P\r\nt2X\\Y\r\ndft\r\nffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi\r\ntft;X \u0002 tft;Y\r\np\r\nOKAPI bm25, with tf = 1 O3 (X, Y) P\r\nt2X\\Y\r\ndft\r\nText structuring, atn A (X, Y) P\r\nt2X\\Y\r\nnft;Xnft;Y\r\nTextTiling, cosine similarity T1 (X, Y)\r\nP\r\nt2X\\Y\r\nf\r\nt;X ft;Y\r\nn2\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "t ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi\r\nP\r\nt2X\r\nf\r\nt;X\r\nnt\r\n\u0003 \u00042\r\nq ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi P\r\nt2Y\r\nf\r\nt;Y\r\nnt\r\n\u0003 \u00042\r\nq\r\nTextTiling, dot product T2 (X, Y) P\r\nt2X\\Y\r\nft;X ft;Y\r\nn2\r\nt\r\nIdf power, with e = 0.5, 1, 1.5, 2, 3 Ie (X, Y) P\r\nt2X\\Y\r\n1\r\nne\r\nt\r\nSymbol Definition\r\nS, X, Y Set of sentence features of sentence S, X, Y, etc.\r\nj j S ; j j X ; j j Y Number of features of sentences S, X, Y, etc.\r\nN Number of sentences in corpus\r\nnt Number of sentences in corpus with feature t\r\nft,S Number of times a sentence feature t appears in sentence S\r\nL Average number of features of all sentences in corpus\r\ntft,S\r\nft;Sð Þ k1þ1\r\nft;Sþk1 1\u0003bþb\r\nj j S ð ÞL\r\n(we used k1 = 2, b = 0.75)\r\ndft log N\u0003ntþ0:5\r\nntþ0:5\r\nnft,S 0:5 þ 0:5 ft;S\r\nmaxp fp;S\r\n\u0005 \u0006 log N\r\nnt\r\n\u0005 \u0006\r\nInf Retrieval (2010) 13:601–617 605\r\n123\nfeature, called a weight. For any given pair of sentences, the sum of weights over the\r\nassociated pair features is used to predict whether the pair is related.\r\nWe trained on the training set with Bayesian and Huber machine learning. Definitions\r\nare given in Table 2. In all cases, we used only those features that appeared in two or more\r\nsentence pairs in the training set.\r\n2.4.1 Baysian machine learning\r\nNaı¨ve Bayes machine learning determines weights from the training set on the assumption\r\nthat the features are independent given the class prediction (Langley 1996; Wilbur 2000).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "The Bayesian weight of a feature t is defined as\r\nbt ¼ log ptð Þ 1 \u0003 qt\r\nqtð Þ 1 \u0003 pt\r\n\u0007 \b ð1Þ\r\nwhere pt is the proportion of positive instances that contain the feature t, and qt is the\r\nproportion of negative instances that contain t. Note that the Bayesian weight for a given\r\nfeature is independent of all other features.\r\n2.4.2 Huber machine learning\r\nWe also performed Huber machine learning, which is a variant of support vector machines\r\n(SVM; Joachims 2006; Vapnik 1998). This method determines feature weights that min\u0002imize the modified Huber cost, an explicit function that substitutes a modified Huber loss\r\nfunction in place of the hinge loss function traditionally used in SVM learning (Zhang\r\n2004; Zou et al. 2008).\r\nTo define Huber cost, let T denote the size of the training set, let the binary feature\r\nvector of the ith pair in the training set be denoted by Xi, and let yi = 1 if the pair is\r\nannotated as positive and yi = -1 otherwise. Let w denote a vector of feature weights, of\r\nthe same length as Xi, let h denote a threshold parameter, and let k denote a regularization\r\nparameter. Then the cost function is given by:\r\nC ¼ 1\r\n2\r\nkj j w 2\r\nþ\r\n1\r\nT\r\nXT\r\ni¼1\r\nh yðÞ ð ið Þ h þ w \u0002 Xi 2Þ\r\nwhere the function h is the modified Huber loss function:\r\nTable 2 Definitions and formulas used for the machine learning methods of measuring the relatedness of\r\ntwo sentences with feature sets X and Y\r\nMethod Notation Formula\r\nBayes B (X, Y) b\u0002F (X, Y)\r\nHuber H (X, Y) w\u0002F (X, Y)\r\nSymbol Definition\r\nF (X, Y) Binary feature vector for X and Y with all type I and D features\r\nb Bayesian weights for all features\r\nw Huber weights for all features\r\n606 Inf Retrieval (2010) 13:601–617\r\n123\nhðzÞ ¼\r\n\u00034z; if z \u0004 \u0003 1;\r\nð1 \u0003 zÞ\r\n2\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "; if \u0003 1\\z\\1;\r\n0; if 1 \u0004 z:\r\n8\r\n<\r\n:\r\nð3Þ\r\nThe values of the parameters (w and h) which minimize C can be determined using a\r\ngradient descent algorithm. The regularization parameter k is computed from the training\r\nset with the formula:\r\nk ¼ k0\r\nh i j j x 2 ð4Þ\r\nwhere h i j j x is the average Euclidean norm of the feature vectors in the training set, and k0\r\nmust be chosen.2 We optimized k0 on the tuning set by examining powers of 10, and\r\narrived at k0 ¼ 10\u00037, which was used to determine k for all Huber training on the larger\r\ncorpus.\r\n2.5 Evaluation\r\nWe evaluated the relatedness scoring functions in two complementary ways, break-even\r\nprecision and manual evaluation.\r\n2.5.1 Precision-recall break-even\r\nFor each relatedness scoring function, the sentence pairs in the test set were scored and\r\nprecision-recall break-even (BE) was computed (see Table 3). The BE is the precision at\r\nthe point in the precision-recall curve where precision equals recall. This is equivalent to\r\nthe precision when the number retrieved is equal to the number of positive instances in the\r\ntest set. And since the numbers of positive and negative instances were equal in our corpus,\r\nit is equivalent to the precision at the median score.\r\n2.5.2 Manual evaluation\r\nBreak-even measures the proportion of related sentences in the top half of scores in the test\r\nset. But the practical goal of our research is to find sentences that would be humanly judged\r\nto be related to a given sentence, and our test set does not specifically measure this. We\r\ntherefore needed to evaluate the relatedness of the top scoring match for randomly selected\r\nquery sentences. If M is a scoring method, we define the M-match of a query sentence X to\r\nbe\r\nargmax y\r\nMðX; yÞ; ð5Þ\r\nwhere the maximization is performed over all sentences y in MEDLINE that are not in the\r\nsame abstract as X.\r\nThe authors independently rated the similarity of 1,000 randomly selected query sen\u0002tences to their corresponding M-match, for several methods M. Each similarity rating was a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "subjective estimate of the probability that a reader would consider the two sentences to be\r\nsimilar, using a scale from 0 to 4. The interpretation of the assigned rating was 0 for\r\ndefinitely unrelated, 1 for probably unrelated, 2 for possibly related, 3 for probably related,\r\n2 With this definition, the cost C is scale invariant. That is to say, if w minimizes C with feature vectors xi\r\nthen for any a 6¼ 0, a\u00031w minimizes C with feature vectors axi.\r\nInf Retrieval (2010) 13:601–617 607\r\n123\nand 4 for definitely related. In performing evaluations, the order of presentation was\r\nrandomized and all information about the source of the sentences (including the method\r\nand score) was suppressed.\r\nJudgments of the relatedness of documents generally do not require an expert on those\r\ndocuments. In a highly technical area, one might desire some level of expertise. But previous\r\nresearch shows that some untrained workers give more accurate relevance judgments than\r\nsubject experts, and that pooling the judgments of untrained workers actually outperforms the\r\njudgments of individual subject experts (Wilbur 1998). In our case, both authors have years of\r\nexperience with the biological literature, and the second author has an MD degree.\r\n2.5.3 McNemar statistic\r\nWe used the McNemar statistic to test significance of the difference between two classi\u0002fication methods (Dietterich 1998). For two numeric measures, B and C (which may be\r\nbinary) given on a population, the statistic is defined as:\r\nv2 ¼ ð Þ j j\u0003 b \u0003 c 1 2\r\nb þ c ð6Þ\r\nwhere b is the number of times B[C, and c is the number of times where C[B. This\r\nstatistic is approximately v2 with 1 degree of freedom.\r\n2.6 Computing resources\r\nOur computer hardware consisted of 64 bit Intel Xeon dual and quad core hosts running\r\nLinux version 2.6.5. For multi-processing, we used a shared grid of 175 hosts, with a total\r\nof 1,164 cores and 4G of RAM each, managed with the Sun Grid Engine (SGE 6.2u1).\r\nThe baseline scoring of the entire corpus of sentence pairs was completed in 1,000\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "parallel processes. For each pair, all of the baseline methods were calculated at once, at an\r\nTable 3 Break even precision\r\n(BE) for the baseline and\r\nmachine learning methods of\r\ndetecting related sentences\r\nMethod Formula Break even\r\nBaseline scoring functions\r\nDice coefficient D 84.20\r\nOKAPI bm25, multiply tf O1 88.76\r\nOKAPI bm25, geometric mean of tf O2 88.06\r\nOKAPI bm25, with tf = 1 O3 86.89\r\nText structuring, atn A 88.45\r\nTextTiling, cosine similarity T1 85.44\r\nTextTiling, tf.idf T2 88.69\r\nIdf, with e = 0.5 I0.5 87.23\r\nIdf, with e = 1 I1 88.67\r\nIdf, with e = 1.5 I1.5 88.77\r\nIdf, with e = 2 I2 88.66\r\nIdf, with e = 3 I3 88.39\r\nMachine learning scoring functions\r\nNaı¨ve bayes B 88.69\r\nModified huber cost H 91.08\r\n608 Inf Retrieval (2010) 13:601–617\r\n123\naverage time of 35.1 pairs per second. Naı¨ve Bayes training and testing took about 6 h on a\r\nsingle processor.\r\nFor Huber machine learning, the cost function was minimized using an iterative gra\u0002dient descent algorithm. Because there was a very large number of training instances, and\r\neach instance had around 700 features, it was not feasible to perform the minimization\r\nunless all of the required training instances remained in resident memory. And because the\r\ntotal size of this data was over 160 gigabytes, it was not feasible to run it on a single\r\ncomputer. Therefore, in order to train more quickly and to get around the resident memory\r\nlimit, we developed a multiprocessing version of the algorithm. The minimization was\r\ncompleted in 5,440 iterations, with the gradient computed in parallel on 64 cores, aver\u0002aging 73.7 s per iteration for about 4.7 days of elapsed time.\r\nTo find the M-match for each query sentence, all MEDLINE sentences were scored\r\n(using the scoring method M) and sorted using a single processor. The elapsed time for\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "scoring each sentence was approximately 10.7 min regardless of the scoring method.\r\n3 Results\r\nHere we summarize the results with break-even score (BE) and manual evaluation.\r\n3.1 Break-even\r\nFor each of the baseline and machine learning methods, the sentence pairs in the test set\r\nwere scored and the BE calculated. These results are shown in Table 3. The BE was greater\r\nthan 84% for all methods, confirming the self-evident hypothesis that two sentences in the\r\nsame abstract are much more likely to use the same or lexically related words than a\r\nrandom pair of sentences.\r\nAmong the baseline methods, the Dice coefficient (D) had the lowest BE (84.12), which\r\nmay reflect that this method treats all features with equal weight. With the OKAPI bm25\r\nmethod, multiplying the tf (O1) gave a BE of 88.34, but lower BE was observed with the\r\ngeometric mean (O2, 87.73) and with tf = 1 (O3, 86.89). With the TextTiling method, the\r\nstandard cosine similarity (T1) gave a BE of 85.35, while the simpler tf.idf dot product (T2)\r\ngave 88.69. The idf methods gave a modal response from 87.23 for I0.5 to a maximum of\r\n88.77 for I1.5 and back down to 88.39 for I3. The BE of the idf I1.5 method was very close to\r\nthe more complicated OKAPI bm25 (O1), and was nevertheless the highest BE of all\r\nbaseline methods. The I1.5 method was used for subsequent comparison to the machine\r\nlearning methods.\r\nThe machine learning methods did well relative to the baseline methods. Naı¨ve Bayes\r\n(B) had a BE of 88.69, which is better than all but two of the baseline methods (one\r\napparent tie differs in the next digit). Huber machine learning (H) had the highest BE of all\r\nmethods at 91.08.\r\nBecause the number of instances in the test set was very large (over 19 million), very small\r\ndifferences in precision can be expected to be statistically significant. Indeed, the\r\np-values for the differences in BE were negligible for all comparisons (by the McNemar test).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "3.2 Manual comparison of I1.5, B, and H\r\nAll of the differences in BE were statistically significant, yet they do not predict how the\r\nmethods perform when looking at their top scoring matches for a given sentence. To\r\nInf Retrieval (2010) 13:601–617 609\r\n123\ndetermine this, we compared the top scoring sentences for the best baseline method (I1.5)\r\nand both machine learning methods (B and H). For each pair of methods, we randomly\r\nselected 200 query sentences which had a different match for the two methods. The\r\nresulting 1,200 sentence pairs were judged by both evaluators, as described in Sect. 2.5.2.\r\nThe two judgments for each sentence pair were averaged as the human standard. The\r\naverage rating for all I1.5-matches was 1.66, for B-matches 1.75, and for H-matches 1.92. A\r\npairwise comparison of these three methods is summarized in Table 4. A significant\r\nnumber of query sentences had H-matches that were judged more relevant than either of\r\nthe other methods (p = 0.0087 for B-matches and p = 0.021 for I1.5-matches). Also, a\r\ngreater number of query sentences had B-matches that were judged more relevant than the\r\ncorresponding I1.5-match (p = 0.091, not statistically significant).\r\nBecause there is some subjectivity in deciding whether sentences are related, we did not\r\nexpect the inter-annotator agreement to be high (Artstein and Poesio 2008). And since the\r\njudgments were not used in training, we do not believe this was an issue. Yet it may be of\r\ninterest that there was moderate inter-annotator agreement on whether one of the matches\r\nwas more relevant than the other (Cohen’s j = 0.4537, computed over 600 comparisons).\r\n3.3 Manual evaluation of H\r\nWe manually rated the H-matches of 1,000 randomly selected query sentences, also fol\u0002lowing the procedure described in Sect. 2.5.2. The distribution of the average ratings is\r\nshown in Fig. 1. There was a near uniform distribution of judgments, with 481 out of 1,000\r\npairs (48.1%) receiving an average rating [2.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Table 4 Manual evaluation of I1.5- and B- and H-matches for 200 randomly and independently selected\r\nquery sentences\r\nM1 vs. M2 M1[M2 M1 = M2 M1\\M2 McNemar statistic p-value\r\nH vs. I1.5 94 (47%) 42 (21%) 64 (32%) 5.32 0.021\r\nH vs. B 86 (43%) 60 (30%) 54 (27%) 6.86 0.0087\r\nB vs. I1.5 88 (44%) 46 (23%) 66 (33%) 2.86 0.091\r\nFor each sentence pair, the evaluation scores of two independent judges were averaged (on a scale from\r\n0 = definitely unrelated to 4 = definitely related), and the results are summarized in the table. The number\r\nand proportion of query sentences where the M1-match was judged more relevant (M1[M2), equally\r\nrelevant (M1 = M2) or less relevant (M1\\M2) are shown, with the corresponding McNemar statistic and its\r\nv2 p-value\r\nFig. 1 Distribution of average manual judgments of H-matches for 1,000 random query sentences\r\n(the scale is from 0 = definitely unrelated to 4 = definitely related)\r\n610 Inf Retrieval (2010) 13:601–617\r\n123\nNext, we looked at the H-score to select pairs that are more likely to be related. The\r\ndistribution of H-scores for the 1,000 pairs is shown in Fig. 2, grouped by the integer part\r\nof the score. The average H-score was 5.01, with quartiles 3.58, 4.55, and 5.92. The\r\ncomparison of H-score and average rating is shown in Fig. 3, grouped the same as Fig. 2.\r\nThe graph shows that as the H-score increases, the proportion of H-matches with high\r\nrating also increases. The number of pairs that received an average rating[2 was 409/750\r\n(54.5%) for H C 3.58, 303/500 (60.6%) for H C 4.55, and 174/250 (69.6%) for H C 5.92.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "The inter-annotator agreement (Artstein and Poesio 2008) on the judgment of the 1,000\r\nsentence pairs was fair (j = 0.2666), based on a five category comparison (0–4). The\r\ncorrelation of ratings of the two evaluators on the set of 1,000 sentences was 0.6067\r\n(p\\10-6\r\n, determined by two-sided bootstrap). There was moderate agreement for whe\u0002ther a sentence pair received a rating [2 (j = 0.4538).\r\n4 Application\r\nAn algorithm that identifies related sentences could be used in a query setting to recom\u0002mend further reading. We illustrate how this might be implemented in PubMed. Let us call\r\nFig. 2 Distribution of highest H-scores for 1,000 random query sentences. The H-scores are grouped by\r\ntheir integer value\r\nFig. 3 Plot of proportion of average rating by H-score (grouping same as Fig. 2) for 1,000 random query\r\nsentences. The vertical axis is the proportion of H-pairs in the group having the given average rating\r\nInf Retrieval (2010) 13:601–617 611\r\n123\nan H-match related if the average human rating is[2 (this requires that at least one of the\r\njudgments was a 3 or 4). Since abstracts have an average number of sentences between 5\r\nand 6, we chose a score cutoff H C 6.4 which selects 20% of sentences, or about one per\r\nabstract, on average. At this level, the manual judgment found 148 out of 200 pairs (73%)\r\nwith average rating[2. Since there were a total of 481 matches with this average rating,\r\nwe expect to find approximately 148/481 (31%) of all related matches in this way.\r\nWe exhibit the related sentences for a recent MEDLINE article on an aspect of\r\nmolecular biology in Alzheimer’s disease (Ma et al. 2009). Figure 4 shows a modified\r\nPubMed view of the abstract together with matching sentences. Of the 12 sentences in the\r\nabstract, 3 of them had matches with H C 6.4; these are shown in boxes along with\r\nadditional information about the match. All of the matches are clearly in the same subject\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "area as the original (amyloid deposition in Alzheimer’s disease), and one of them is from\r\nan article that is actually cited in the bibliography of the paper. This also illustrates how\r\nrelated sentences define explicit and specific relationships to other articles, giving the user\r\nmore information to guide further exploration. The matches shown are very specific and\r\ntechnical, and indicate different directions that a user could choose to explore.\r\n5 Limitations\r\nThe very concept of relatedness in meaning at the sentence level is theoretically imprecise\r\ndue to loss of context and variability in the reader’s focus of attention and assessment of\r\nimportance. There is also an ambiguity in synonymy and polysemy, the connection\r\nbetween character strings and word senses. We argue that these limitations do not seriously\r\nimpact the ability to detect relatedness in the corpus of biomedical research writing.\r\n5.1 Context and focus\r\nWhen a sentence is taken out of its surrounding context, some of the meaning of its implied\r\nreferences may be lost, e.g., anaphoric or omitted references. This loss of contextual\r\nmeaning can make the judgment of relatedness ambiguous. In addition, whether or not two\r\nsentences are related in meaning can also depend on the relative importance that a par\u0002ticular reader places on the referenced subjects. As different readers may differ on what is\r\nimportant, they may also legitimately differ on the degree of relatedness of two sentences.\r\nHere is an example that illustrates both limitations. In the manual evaluation, we\r\nencountered this pair of sentences:\r\n(1) Emissions were determined from field data by using a Fick’s law diffusion approach\r\nand the observed variation in time of the TCE concentration gradient within 4 m of\r\neach device (Wadden et al. 1989)\r\n(2) Observed and calculated fluxes based on vertical TCE vapor concentration gradients\r\nand Fick’s law were in good agreement (Jellali et al. 2003)\r\nThese two sentences both refer to emissions/fluxes of something that is observed based\r\non ‘‘TCE concentration gradients’’ and calculated based on ‘‘Fick’s law.’’ To judge the\r\ndegree of relatedness of these two sentences, one must consider both the emphasis and the\r\nmissing context. Readers mainly interested only in TCE concentration gradients or Fick’s\r\nlaw, the techniques, might find these sentences to be very related. But, except for the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "reference to ‘‘devices’’ in the first sentence, the what, how, and why of the emissions, the\r\n612 Inf Retrieval (2010) 13:601–617\r\n123\nsubjects, are lost from the context. So readers mainly interested in the subjects would only\r\nfind the sentences to be related if their missing subjects are the same or related.\r\nIn some cases it may be possible to infer the missing subjects from what is said about\r\nthem. But in these examples, nearly identical things were said about the subjects. In fact,\r\nafter reading the context of the sentences, we found that the first refers to industrial\r\ndegreasing devices that use TCE (trichloroethylene), and the second refers to the envi\u0002ronmental fate of TCE buried underground.\r\nFortunately, ambiguity of subject seemed to be an exception rather than the rule. There\r\nwere only eight out of 1,000 sentences, like the above example, in which the evaluators\r\ngave opposite ratings (that is, 0 vs. 4). Most of the sentence pairs we observed contained\r\nFig. 4 Abstract from MEDLINE (Ma et al. 2009) with sentences highlighted that were found to have\r\nmatching sentences elsewhere in MEDLINE with H C 6.4. The three H-matches are shown in the shaded\r\nboxes below their corresponding query sentences\r\nInf Retrieval (2010) 13:601–617 613\r\n123\nexplicit references to all of their important concepts. Such sentence pairs are ostensibly\r\nrelated because they refer to the same things, or unrelated because they refer to different\r\nthings. But by using the average of the rating of two evaluators, we partially compensated\r\nfor the ambiguous cases. For the above example, the average rating was 2, meaning\r\npossibly related, which seems to be about right.\r\n5.2 Synonymy and polysemy\r\nTheoretically, two sentences could assert very similar things using lexically unrelated\r\nsynonyms. It was found, for example, that in task-oriented naming and keyword assign\u0002ment, the same words were used to refer to the same things only 20% of the time (Furnas\r\net al. 1987). To make matters worse, the technical vocabulary used in MEDLINE is\r\nsignificantly distinct and larger than that of newspapers and other casual media (Smith\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "et al. 2005). But in scientific peer-reviewed publication, the requirement for clear com\u0002munication encourages authors to use commonly accepted expressions when referring to\r\nany given concept. This is supported by the sublanguage hypothesis (Friedman et al. 2002),\r\nwhich holds that there are unique grammatical conventions that apply within a given\r\nscientific discipline. What is more, since a sublanguage also contains rules for the for\u0002mation of new expressions, independent authors will tend to use lexically similar\r\nexpressions, even when referencing a new concept.\r\nIn any event, it is unlikely that our corpus contained examples of lexically unrelated\r\nsynonyms, since the positive examples were from the same abstract and the negative\r\nexamples were from randomly paired sentences. Even so, our methods could recognize\r\nspelling and punctuation variants, and derived forms by comparing substring features. And\r\nsentences could still be identified as related even if some of their synonymous references\r\nwere lexically distinct, provided that enough of their referenced concepts used common\r\nlanguage.\r\nConversely, two sentences could refer to dissimilar things using lexically related\r\nhomonyms, and this can occur in one of two ways (Bodenreider et al. 2002). In systematic\r\npolysemy, a word may be used to refer to distinct but closely related things. For example,\r\ngenes and their products typically share the same name. This does not pose a problem for\r\ndetecting relatedness, because all of the senses of such a word are related in meaning.\r\nHowever, serious ambiguity occurs when a word may have entirely different meanings,\r\ndepending on the context in which it is used, and this could result in false positives in\r\nrelatedness detection. To explore how our system handled ambiguity, we examined sen\u0002tences containing the ambiguous word ventilation. There were 36,357 sentences in the\r\ncorpus which contained the word, and Table 5 shows four of the observed senses and the\r\nfrequency of each sense in 1,000 randomly selected sentences. There were three sentences\r\nTable 5 Senses of the word ventilation and the number of times those senses were used in 1,000 randomly\r\nselected sentences containing the word\r\nSense Distribution Definition\r\n1 985 Related to physiological respiration, with sub-senses of the function itself\r\n(e.g., ventilation rate) and devices to assist breathing (e.g., mechanical ventilation)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "2 12 Related to environmental flow (e.g., air conditioning)\r\n3 3 Related to exposing the middle ear to air with tubes (e.g., ventilation route)\r\n4 0 Related to cigarette filter design (e.g., cigarette filter ventilation)\r\n614 Inf Retrieval (2010) 13:601–617\r\n123\nout of 1,000 that used ventilation in the sense of middle ear ventilation, and all three of\r\ntheir H-matches had the correct sense of the word. There were 12 sentences out of 1,000\r\nthat used ventilation in the sense of environmental flow. In four of those sentences,\r\nenvironmental air flow was not the dominant topic, and their corresponding H-matches did\r\nnot refer to environmental air flow in any way. The H-matches for six of the remaining\r\neight (75%) discuss environmental air flow, though only two actually contained the word\r\nventilation. One of the erroneous H-matches used the respiration sense of the word, and\r\none used the cigarette filter sense of the word. The following sentence pair illustrates a\r\ncorrect H-match on the environmental sense:\r\n(1) Among office workers, the relative risk for short-term sick leave was 1.53 (95%\r\nconfidence 1.22–1.92) with lower ventilation, and 1.52 (1.18–1.97) in areas with IEQ\r\ncomplaints (Milton et al. 2000)\r\n(2) It is essential that treated areas be ventilated adequately before workers return to their\r\noffices (Currie et al. 1990)\r\nWhile this match is not very strong (H-score of only 2.96) and not of high quality (the\r\naverage of our ratings is 1.5), yet it illustrates how sufficient context can be included in a\r\nmatch (office, areas) to disambiguate the meaning of the word ventilation. In our sample\r\nwe found that for the rare senses of the word ventilation, the H-match had the wrong sense\r\nof the word in only two of the cases we examined. In thirteen or 87% of the cases there is\r\nno confusion of meaning. Thus there is a strong tendency not to confuse the meaning of the\r\nword ventilation across the sentences of an H-match. While we cannot base general\r\nconclusions on such a small sample, we believe the principles acting here come into play\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "more generally and provide at least a partial explanation for the success of our method.\r\n6 Conclusion\r\nWe compared several approaches to identifying sentences in MEDLINE abstracts that are\r\nrelated in meaning based on a large automatically assembled training set. The baseline\r\nmethods used fixed formulas that do not rely on training or optimization, and included the\r\nDice coefficient, OKAPI bm25, the tf.idf cosine similarity used in TextTiling, and several\r\nidf-power functions. The machine learning methods included naı¨ve Bayes and minimi\u0002zation of the Huber loss function. All of the methods achieved a BE greater than 84%. The\r\ndifferences between them were small but statistically significant, and favored the Huber\r\nloss function over the other methods.\r\nOur ultimate goal was to find related sentence pairs coming from different abstracts. To\r\nachieve this goal, the best performing methods were applied to the problem of matching a\r\nquery sentence with related sentences from other abstracts. When the top scoring matches\r\nwere manually evaluated, we found a significant improvement of the Huber method (H)\r\nover both the Bayesian method (B) and the best baseline method (I1.5), but no significant\r\ndifference between the B and I1.5 methods. When matches were chosen in the top 20% of\r\nHuber score (H C 6.4), identifying about one sentence per abstract on average, there was\r\nan approximate precision of 73% and recall of 31%, as determined by manual evaluation\r\n(with positive relatedness defined by average human rating greater than 2). We have shown\r\nwith an example (Fig. 4) how related sentences can be used to make focused suggestions\r\nfor further reading.\r\nInf Retrieval (2010) 13:601–617 615\r\n123\nIn future work we plan to explore the use of our method of computing related sentences\r\nfor topic segmentation and document summarization. There is also the possibility that it\r\ncould be used to enhance full text retrieval.\r\nAcknowledgments This research was supported by the Intramural Research Program of the NIH, NLM,\r\nand NCBI.\r\nOpen Access This article is distributed under the terms of the Creative Commons Attribution Noncom\u0002mercial License which permits any noncommercial use, distribution, and reproduction in any medium,\r\nprovided the original author(s) and source are credited.\r\nReferences\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Artstein, R., & Poesio, M. (2008). Inter-coder agreement for computational linguistics. Computational\r\nLinguistics, 34(4), 555–596.\r\nBodenreider, O., Mitchell, J. A., & McCray, A. T. (2002). Evaluation of the UMLS as a terminology and\r\nknowledge resource for biomedical informatics. Proceedings of the AMIA symposium, pp. 61–65.\r\nCurrie, K. L., McDonald, E. C., Chung, L. T., & Higgs, A. R. (1990). Concentrations of diazinon, chlor\u0002pyrifos, and bendiocarb after application in offices. American Industrial Hygiene Association Journal,\r\n51(1), 23–27.\r\nDietterich, T. (1998). Approximate statistical tests for comparing supervised classification learning algo\u0002rithms. Neural Computation, 10(7), 1895–1924.\r\nFriedman, C., Kra, P., & Rzhetsky, A. (2002). Two biomedical sublanguages: A description based on the\r\ntheories of Zellig Harris. Biomedical Informatics, 35, 222–235.\r\nFurnas, G. W., Landauer, T. K., Gomez, L. M., & Dumais, S. T. (1987). The vocabulary problem in human\u0002system communication. Communications of the ACM, 30(11), 964–971.\r\nHearst, M. (1993). TextTiling: A quantitative approach to discourse. University of California at Berkeley.\r\nReport: S2 K-93-24.\r\nHearst, M., & Plaunt, C. (1993). Subtopic structuring for full-length document access. In: Proceedings of the\r\nACM SIGIR conference, pp. 59–68.\r\nJellali, S., Benremita, H., Muntzer, P., Razakarisoa, O., & Schafer, G. (2003). A large-scale experiment on\r\nmass transfer of trichloroethylene from the unsaturated zone of a sandy aquifer to its interfaces.\r\nJournal of Contaminant Hydrology, 60(1–2), 31–53.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "Joachims, T. (2002). Optimizing search engines using clickthrough data. In: Proceedings of the ACM\r\nSIGKDD conference, ACM, pp. 133–142.\r\nJoachims, T. (2006). Training linear SVMs in linear time. In: Proceedings of the ACM SIGKDD conference,\r\nACM, pp. 217–226.\r\nJoachims, T., Li, H., Liu, T. -Y., & Zhai, C. (2007). Learning to rank for information retrieval (LR4IR\r\n2007). In: Proceedings of the ACM SIGIR conference, ACM, pp. 58–62.\r\nKim, W. G., & Wilbur, W. J. (2001). Corpus-based statistical screening for content-bearing terms. Journal\r\nof the American Society for Information Science, 52(3), 247–259.\r\nKo, Y., Park, J., & Seo, J. (2002). Automatic text categorization using the importance of sentences. In:\r\nProceedings of the 19th international conference on computational linguistics, pp. 65–79.\r\nLangley, P. (1996). Elements of machine learning. San Francisco: Morgan Kaufmann Publishers, Inc.\r\nLin, J. (2009). Is searching full text more effective than searching abstracts? BMC Bioinformatics, 10, 46.\r\ndoi:10.1186/1471-2105-10-46.\r\nLin, J., & Wilbur, W. (2007). PubMed related articles: A probabilistic topic-based model for content\r\nsimilarity. BMC Bioinformatics, 8 (423).\r\nLiu, T. -Y., Xu, J., Qin, T., Xiong, W., & Li, H. (2007). Benchmark dataset for research on learning to rank\r\nfor information retrieval. In: SIGIR ‘07: Proceedings of the Learning to Rank workshop.\r\nLu, Z., Kim, W., & Wilbur, W. (2009). Evaluating relevance ranking strategies for MEDLINE retrieval.\r\nJournal of the American Medical Informatics Association, 16(1), 32–36.\r\nMa, Q., Galasko, D., Ringman, J., Vinters, H., Edland, S., Pomakian, J., et al. (2009). Reduction of SorLA/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "LR11, a sorting protein limiting beta-amyloid production, in Alzheimer disease cerebrospinal fluid.\r\nArchives of Neurology, 66(4), 433–434.\r\nMilton, D. K., Glencross, P. M., & Walters, M. D. (2000). Risk of sick leave associated with outdoor air\r\nsupply rate, humidification, and occupant complaints. Indoor Air, 10(4), 212–221.\r\n616 Inf Retrieval (2010) 13:601–617\r\n123\nRobertson, S., & Spark Jones, K. (1994). Simple, proven approaches to text retrieval. University of\r\nCambridge Computer Laboratory. Report: UCAM-CL-TR-356.\r\nSalton, G., & Buckley, C. (1991). Automatic text structuring and retrieval-experiments in automatic\r\nencyclopedia searching. In: Conference on research and development in information retrieval, ACM,\r\npp. 21–30.\r\nSayers, E. W., Barrett, T., Benson, D. A., Bryant, S. H., Canese, K., Chetvernin, V., et al. (2009). Database\r\nresources of the National Center for Biotechnology Information. Nucleic Acids Research, 37(Database\r\nIssue), 5–15.\r\nSmith, L., Rindflesch, T., & Wilbur, W. (2004). MedPost: A part of speech tagger for biomedical text.\r\nBioinformatics, 20(14), 2320–2321.\r\nSmith, L., Rindflesch, T., & Wilbur, W. (2005). The importance of the lexicon in tagging biological text.\r\nNatural Language Engineering, 12(2), 1–17.\r\nvan Rijsbergen, C. J. (1979). Information retrieval. London: Butterworths.\r\nVapnik, V. (1998). Statistical learning theory. New York: Wiley.\r\nWadden, R., Scheff, P., & Franke, J. (1989). Emission factors for trichloroethylene vapor degreasers.\r\nAmerican Industrial Hygiene Association Journal, 50(9), 496–500.\r\nWilbur, W. J. (1998). A comparison of group and individual performance among subject experts and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 9207484917482508449,
+        "filename": "10791_2010_Article_9126.PMC2992462.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 316,
+      "total_chunks": 25,
+      "version": "1.0.0"
+    },
+    "text": "untrained workers at the document retrieval task. Journal of the American Society for Information\r\nScience, 49(6), 517–529.\r\nWilbur, W. J. (2000). Boosting naive bayesian learning on a large subset of MEDLINE. In: American\r\nmedical informatics 2000 annual symposium, American medical informatics association, pp. 918–922.\r\nWilbur, W. (2005). Modeling text retrieval in biomedicine. In H. Chen, S. S. Fuller, C. Friedman, & W.\r\nHersh (Eds.), Medical informatics: knowledge management and data mining in biomedicine (pp. 277–\r\n297). New York: Springer.\r\nWilbur, W. J., & Sirotkin, K. (1992). The automatic identification of stop words. Journal of Information\r\nScience, 18, 45–55.\r\nZhang, T. (2004). Solving large scale linear prediction problems using stochastic gradient descent algo\u0002rithms. In Proceedings of the Twenty-first international conference on machine learning, Omnipress,\r\npp. 918–922.\r\nZou, H., Zhu, J., & Hastie, T. (2008). New multicategory boosting algorithms based on multicategory fisher\u0002consistent losses. The Annals of Applied Statistics, 2(4), 1290–1306.\r\nInf Retrieval (2010) 13:601–617 617\r\n123\n\n"
+  }
+]

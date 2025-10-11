@@ -1,0 +1,1202 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "Article Open Access\r\nTranscriptomic profiling of cardiac development in Bama\r\nXiang pigs across key developmental stages\r\nSheng-Nan Wang1, Wen-Jie Tian1, Deng-Ke Pan2, Tang Hai3, Yue-Hui Ma1, Dan-Dan Wang1,*, Lin Jiang1,*\r\n1 State Key Laboratory of Animal Biotech Breeding, Institute of Animal Sciences, Chinese Academy of Agricultural Sciences (CAAS),\r\nBeijing 100193, China\r\n2\r\nInstitute of Organ Transplantation, Sichuan Academy of Medical Sciences & Sichuan Provincial People’s Hospital, Chengdu, Sichuan\r\n610072, China\r\n3 State Key Laboratory of Stem Cell and Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China\r\nABSTRACT\r\nPigs  have  emerged  as  valuable  large-animal  models  for\r\ncardiac  xenotransplantation;  however,  the  temporal\r\ndynamics  of  myocardial  development  in  this  species\r\nremains  insufficiently  defined.  This  study  analyzed  gene\r\nexpression patterns across four key developmental stages\r\n(neonatal,  juvenile,  sexual  maturity,  and  adulthood)  to\r\ndelineate  the  molecular  mechanisms  driving  porcine\r\nmyocardial  development.  Increases  in  heart  weight  were\r\naccompanied by proportional expansion of myocardial fiber\r\narea  and  chamber  size,  reflecting  coordinated  structural\r\ndevelopment. Transcriptomic profiling of myocardial tissue\r\nby  RNA  sequencing  (RNA-seq)  identified  2  189\r\ndifferentially  expressed  genes  (DEGs)  across  stage\r\ncomparisons.  Short  time-series  expression  miner  (STEM)\r\nanalysis classified these DEGs into four major expression\r\nclusters enriched in pathways associated with myocardial\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "development,  immune  responses,  cell  proliferation,  and\r\nmetabolic processes. Among 359 DEGs conserved across\r\nall  developmental  stages,  six  candidate  genes  were\r\nstrongly associated with myocardial development. Reverse\r\ntranscription-quantitative  real-time  polymerase  chain\r\nreaction  (RT-qPCR)  confirmed  a  significant  correlation\r\nbetween  the  expression  of  these  candidate  genes  and\r\nmyocardial development in porcine tissue. These findings\r\nestablish  a  transcriptomic  framework  for  porcine\r\nmyocardial  maturation  and  provide  a  molecular  basis  for\r\nadvancing cardiac xenotransplantation.\r\nKeywords: Cardiac  tissue;    Bama  Xiang  pig;    Multiple\r\nstages;   Heart development;   Transcriptomics\r\nINTRODUCTION\r\nThe  heart  is  the  first  organ  to  attain  functionality  during\r\nembryogenesis  and  is  shaped  by  a  range  of  genetic  and\r\nenvironmental  factors.  While  murine  models  have  provided\r\nfoundational  insights  into  the  molecular  basis  of  cardiac\r\ndiseases,  their  clinical  translational  relevance  is  constrained\r\nby  fundamental  anatomical  and  physiological  disparities  with\r\nhumans.  In  contrast,  large  mammalian  models  offer\r\nconsiderable advantages. Among these, pigs are a particularly\r\nvaluable  reference  in  clinical  studies  due  to  their  close\r\nresemblance to humans in cardiovascular hemodynamics and\r\nanatomical  structures  (Yoshida  &  Yamanaka,  2017).  Pigs\r\nhave proven instrumental in modeling diabetic cardiomyopathy\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "and cardiovascular diseases (Richter & Hinkel, 2021), offering\r\nmechanistic  insights  and  platforms  for  therapeutic  testing.\r\nBeyond  disease  modeling,  pigs  are  central  to  the\r\nadvancement of organ xenotransplantation. Landmark studies\r\nhave  demonstrated  the  feasibility  of  orthotopic  cardiac\r\ntransplantation  using  genetically  modified  pig  hearts,\r\nachieving  a  survival  period  of  945  days  in  non-human\r\nprimates  (Längin  et al.,  2018).  More  recently,\r\nxenotransplantation  has  seen  a  significant  breakthrough  in\r\nclinical application: in 2022, a patient survived for two months\r\nfollowing pig-to-human heart transplantation (Mohiuddin et al.,\r\n2023),  followed  in  2023  by  successful  transplantation  in  two\r\nbrain-dead  recipients  with  sustained  cardiac  function  post\u0002surgery  (Moazami  et al.,  2023),  and  subsequently,  a  second\r\nliving  human  recipient  (Anand  et al.,  2023).  Pigs  have  also\r\nbeen  utilized  for  xenotransplantation  of  kidneys  and  livers,\r\nfurther  underscoring  their  clinical  relevance.  Among  pig\r\nbreeds,  the  Bama  Xiang  pig  (Sus scrofa),  a  miniature  breed\r\nnative  to  China,  has  been  selectively  bred  for  over  two\r\ndecades,  resulting  in  a  genetically  stable  population  with\r\nconsistent  physiological  traits.  This  breed  exhibits  high\r\nreproductive  efficiency  and  notable  similarities  to  humans  in\r\norgan  morphology,  biochemical  profiles,  physiological\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "functions, and disease susceptibility, making it an ideal model\r\nfor  investigating  cardiac  development  and  advancing\r\nThis  is  an  open-access  article  distributed  under  the  terms  of  the\r\nCreative  Commons  Attribution  Non-Commercial  License  (http://\r\ncreativecommons.org/licenses/by-nc/4.0/),  which  permits  unrestricted\r\nnon-commercial  use,  distribution,  and  reproduction  in  any  medium,\r\nprovided the original work is properly cited.\r\nCopyright  ©2025  Editorial  Office  of  Zoological  Research,  Kunming\r\nInstitute of Zoology, Chinese Academy of Sciences\r\nReceived: 02 March 2025; Accepted: 08 May 2025; Online: 15 May 2025\r\nFoundation items: This work was supported by the National Natural Science\r\nFoundation of China (32222079 to L.J. and 32202621 to D.D.W.)\r\n*Corresponding authors, E-mail: wangdd1993@126.com; jianglin@caas.cn\r\nWang et al. Zool. Res. 2025, 46(3): 634−646\r\nhttps://doi.org/10.24272/j.issn.2095-8137.2024.348\r\nhttps://cstr.cn/32248.14.zr.2024.348\nxenotransplantation studies (Liu et al., 2008).\r\nExtensive  multi-omics  investigations  have  been  conducted\r\non  pig  cardiac  tissue,  offering  valuable  insights  into  heart\r\ndevelopment.  Notably,  porcine  cardiomyocytes  retain  mitotic\r\npotential  between  two  and  six  months  postnatally,  during\r\nwhich  multiple  gene  networks  associated  with  growth  and\r\ndifferentiation  remain  transcriptionally  active  (Velayutham\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "et al.,  2020).  High-throughput  approaches,  such  as  RNA\r\nsequencing (RNA-seq), have revealed transcriptional changes\r\nin  neonatal  Yorkshire-Landrace  pigs  during  their  first  two\r\nweeks  of  life  (Ye  et al.,  2018; Zhu  et al.,  2018).\r\nComplementing  these  findings,  Bai  et al.  (2023)  integrated\r\ntranscriptomic  and  chromatin  accessibility  profiling  (ATAC\u0002seq)  in  female  Berkshire×Xizang  hybrid  pigs  at  1  day,  28\r\ndays,  and  6  months  of  age,  thereby  enhancing  the  temporal\r\nresolution  of  gene  regulatory  dynamics.  Similarly,\r\nSchachtschneider  et al.  (2015)  characterized  both  the\r\ntranscriptomic and DNA methylation landscapes in myocardial\r\ntissue  from  3-year-old  Duroc  pigs.  Additionally,  Zhu  et al.\r\n(2022)  generated  epigenomic  datasets  spanning  prenatal  to\r\npostnatal  stages  in  Bama  Xiang  pigs  and  Large  White  pigs.\r\nDespite  these  advances,  research  on  cardiac  development\r\nhas  largely  focused  on  isolated  or  limited  time  points\r\n(Takeuchi  et al.,  2011),  with  a  lack  of  systematic  studies  on\r\nkey pathways and stages across the developmental spectrum.\r\nIntegrative,  multi-omics  investigations  that  capture  the\r\ndynamic  progression  of  cardiac  development  across  multiple\r\nstages  remain  scarce,  leaving  gaps  in  our  understanding  of\r\nthe full trajectory of heart development.\r\nAdvancements  in  high-throughput  next-generation\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "sequencing  (NGS)  have  become  a  powerful  tool  in\r\nmammalian research (Ghosh et al., 2015; Huang et al., 2017;\r\nZhang et al., 2017), enabling studies on the genetic regulation\r\nof  heart  development.  In  humans,  large-scale  single-cell\r\ntranscriptomic and epigenomic datasets (Vanoudenhove et al.,\r\n2020)  have  provided  unprecedented  resolution  of  cellular\r\nheterogeneity  within  the  embryonic  (Asp  et al.,  2019; Cui\r\net al.,  2019; Farah  et al.,  2024)  and  adult  heart  (Litviňuková\r\net al., 2020; Tucker et al., 2020; Wang et al., 2020), identifying\r\nlineage-specific  markers  and  potential  regulatory  axes\r\ninvolved  in  cardiac  regeneration.  Complementary  studies\r\nusing  induced  pluripotent  stem  cell-derived  cardiomyocytes\r\n(iPS-CMs)  have  demonstrated  that,  after  four  weeks  of\r\nculture,  these  cells  acquire  gene  expression  profiles  and\r\nstructural  features  resembling  those  of  adult  cardiomyocytes\r\n(Yang et al., 2022), offering an in vitro model to elucidate the\r\ntemporal  dynamics  of  cardiac  maturation  (Ronaldson\u0002Bouchard et al., 2018). Murine models have further elucidated\r\nconserved molecular trajectories in cardiac ontogeny. Single\u0002cell sequencing from embryonic day 10.5 (E10.5) to postnatal\r\nday  9  (P9)  has  mapped  distinct  cellular  and  molecular\r\nsignatures  across  cardiac  cell  populations  during  key\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "transitional windows (Feng et al., 2022). The down-regulation\r\nof regeneration-associated genes such as Bex1 and Bex4 by\r\npostnatal day 21 (P21) coincides with the loss of proliferative\r\ncapacity  in  cardiomyocytes,  highlighting  critical  inflection\r\npoints  in  postnatal  cardiac  maturation  (Delaughter  et al.,\r\n2016). Multi-omics analyses across 10 developmental stages,\r\nfrom E10.5 to postnatal week 8 (8w), have further delineated\r\nthe  orchestration  of  gene  regulatory  networks  underlying\r\nmouse cardiac development and maturation (Gu et al., 2022).\r\nOther  studies  have  demonstrated  that  modulating  postnatal\r\nexpression  of  cardiomyocyte  cell-cycle  regulators  can\r\nenhance  the  regenerative  capacity  of  mouse  hearts  (Jiang\r\net al.,  2022; Mahmoud  et al.,  2013).  In  rats,  single-cell  RNA\u0002seq on postnatal days 1 and 7 revealed a pivotal role for AP-1\r\nin regulating postnatal cardiomyocyte maturation (Zhang et al.,\r\n2023a).  Together,  these  studies  have  utilized  transcriptomic\r\nand epigenomic platforms to explore the genetic regulation of\r\nheart  development,  identifying  key  pathways  and  genes  and\r\noffering  valuable  insights  for  advancing  regenerative\r\nstrategies  and  improving  our  understanding  of  cardiac\r\ndevelopmental biology.\r\nSubstantial  advances  have  been  made  in  elucidating  the\r\nmolecular mechanisms of heart development in both humans\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "and mice. However, studies on human cardiac maturation face\r\nsampling  limitations,  making  it  difficult  to  comprehensively\r\ninvestigate  heart  development  from  the  neonatal  period  to\r\nadulthood.  Moreover,  key  differences  in  cardiac  anatomy,\r\nphysiology,  and  disease  progression  between  humans  and\r\nmice limit the translational applicability of murine models (Rao\r\net al., 2022). In contrast, pigs exhibit developmental timelines\r\nand cardiac features that closely resemble those of humans,\r\noffering  a  biologically  relevant  platform  for  modeling  human\r\nheart development. For instance, porcine postnatal day 5 (P5)\r\ncorresponds to the human neonatal nursing period, 3 months\r\npost-birth  (3  mon)  approximates  early  childhood,  5  months\r\npost-birth  (5  mon)  aligns  with  adolescence  (sexual  maturity),\r\nand 8 months post-birth (8 mon) represents adulthood. In this\r\nstudy,  high-throughput  RNA-seq  was  employed  to  map\r\ndynamic  gene  expression  changes  across  myocardial\r\ndevelopment  in  Bama  Xiang  pigs  across  four  critical  stages,\r\nincluding  neonatal,  juvenile,  sexually  mature,  and  adult.\r\nComprehensive  transcriptome  analysis  revealed  dynamic\r\ngene  expression  trajectories  and  identified  key  candidate\r\ngenes  associated  with  myocardial  growth  and  development.\r\nThese  findings  provide  a  valuable  molecular  framework  for\r\nunderstanding  cardiac  developmental  processes  in  a\r\nphysiologically  relevant  large-animal  model  and  support  the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "refinement  of  strategies  for  pig-to-human  cardiac\r\nxenotransplantation.\r\nMATERIALS AND METHODS\r\nLaboratory animals\r\nAll animals used in this study were female Bama Xiang pigs\r\nsourced  from  the  Chinese  Academy  of  Sciences  Changping\r\nExperimental  Base  (Beijing,  China)  to  ensure  a  consistent\r\ngenetic  background.  Individuals  were  randomly  selected  at\r\nfour key developmental stages: P5, 3 mon, 5 mon, and 8 mon,\r\nwith  sample  sizes  of  five,  three,  five,  and  three  individuals,\r\nrespectively.  All  animals  were  housed  in  the  same\r\nenvironment with free access to food and water under uniform\r\nconditions  and  controlled  temperature,  humidity,  and\r\nventilation to ensure optimal living conditions. Regular health\r\nassessments were conducted throughout the study to ensure\r\nthe  well-being  and  suitability  of  each  pig  for  subsequent\r\nanalyses.  All  animal  experiments  were  conducted  in\r\naccordance with the regulations and guidelines established by\r\nthe  Animal  Care  Committee  of  the  Beijing  Academy  of\r\nAgricultural Sciences, adhering to established animal welfare\r\nprotocols (No. IAS2 019-60).\r\nSacrifice and sample collection\r\nCardiac  tissue  samples  were  obtained  from  female  Bama\r\nZoological Research 46(3): 634−646, 2025 635\nXiang pigs at four defined developmental stages (P5, 3 mon, 5\r\nmon,  and  8  mon).  All  procedures  were  conducted  in  strict\r\ncompliance with institutional animal welfare guidelines. Prior to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "euthanasia,  precise  body  weights  were  recorded.  Pigs  were\r\nanesthetized  via  overdose  of  an  approved  anesthetic  agent,\r\nensuring  humane  sacrifice.  Hearts  were  rapidly  excised\r\nfollowing cessation of circulation, with care taken to minimize\r\ntissue  damage  and  maintain  sample  integrity.  Immediately\r\nafter  isolation,  whole-heart  weights  were  measured.  The\r\nepicardium  and  endocardium  were  carefully  removed,  and\r\nsamples  of  left  ventricular  muscle  tissues  were  dissected  for\r\ndownstream  analyses.  Each  myocardial  sample  was  divided\r\ninto two portions: one was fixed in 4% paraformaldehyde (G1\r\n101, Servicebio, China) for histological analysis, and the other\r\nwas  rapidly  frozen  in  liquid  nitrogen  for  RNA  extraction  and\r\nmolecular biology experiments.\r\nUltrasound examination of the heart\r\nCardiac  function  was  evaluated  using  transthoracic\r\nechocardiography on 6-month-old (6 mon), 8.5-month-old (8.5\r\nmon), and 12-month-old (12 mon) Bama Xiang pigs. Prior to\r\nexamination,  animals  underwent  a  12  h  fasting  period.\r\nSedation  was  induced  by  intramuscular  administration  of  an\r\nappropriate  dose  of  anesthetic,  after  which  the  pigs  were\r\npositioned on the operating table. The left thoracic area was\r\nshaved  to  expose  the  skin,  and  anesthesia  was  maintained\r\nwith  a  mixture  of  isoflurane  and  medical-grade  oxygen  via  a\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "ventilator.  Upon  stabilization  of  vital  parameters,\r\nechocardiographic  imaging  was  performed  using  a  Philip\r\nCX50  ultrasound  system  (Philips  Healthcare,  Netherlands).\r\nCardiac  structural  and  functional  indices,  including  left\r\nventricular  internal  dimensions  at  end-diastole  (LVIDd),  left\r\nventricular internal dimensions at end-systole (LVIDs), ejection\r\nfraction  (EF),  and  fractional  shortening  (FS),  were  measured\r\nto  quantify  myocardial  performance.  All  examinations  were\r\nperformed  by  experienced  professionals  to  ensure\r\nmeasurement accuracy and data reliability for comprehensive\r\nassessment of developmental changes in cardiac function.\r\nHistological analysis of cardiac muscle fiber sections\r\nMyocardial tissue samples were fixed in 4% paraformaldehyde\r\n(G1  101,  Servicebio,  China),  processed  using  a  paraffin\u0002embedding  system,  and  sectioned  at  a  uniform  thickness  of\r\n4  μm  using  a  precision  microtome  (Leica  Microsystems,\r\nGermany).  Histological  analyses  included  hematoxylin  and\r\neosin  (H&E)  staining,  wheat  germ  agglutinin  (WGA)\r\nimmunofluorescence  staining,  and  Masson’s  trichrome\r\nstaining. Morphological observations were performed under a\r\nNikon  microscope  (Nikon,  Japan)  to  assess  myocardial  fiber\r\nmorphology,  structural  integrity,  and  fibrotic  deposition.  For\r\neach  specimen,  five  randomly  selected  fields  of  view  were\r\nobserved.  Quantification  of  myocardial  fiber  cross-sectional\r\narea  and  collagen  fiber  content  was  performed  using  Image\r\nPro Plus software (v.6.0).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "RNA extraction and quality control\r\nRNA  extraction  was  performed  on  liquid  nitrogen-frozen\r\nmyocardial  tissue  samples  using  Trizol  reagent  (R711-02,\r\nVazyme,  China),  with  2–3  mg  of  tissue  taken  from  each\r\nsample in strict accordance with the manufacturer’s protocols.\r\nRNA  concentration  and  purity  were  measured  using  a\r\nNanoDrop 1000 spectrophotometer (Thermo Fisher Scientific,\r\nUSA).  RNA  integrity  was  assessed  through  gel\r\nelectrophoresis  and  further  quantified  using  an  Agilent  2100\r\nbioanalyzer (Agilent Technologies, USA). Only RNA samples\r\nmeeting  stringent  quality  control  criteria  (total  yield≥2.0  μg,\r\nRIN>7.0)  were  retained  for  subsequent  transcriptomic\r\nanalysis.\r\nRNA-seq and detection of differentially expressed genes\r\n(DEGs)\r\nRNA  libraries  were  prepared  using  a  standard  Illumina\r\nplatform library construction kit. The mRNA was purified from\r\ntotal  RNA  using  polyT,  then  fragmented  into  300–350  bp\r\nfragments. The fragmented RNA was reverse-transcribed into\r\ncDNA, followed by end repair, A-tail addition, junction ligation,\r\nand  polymerase  chain  reaction  (PCR)  amplification  to\r\ngenerate the final library. Library quality was assessed prior to\r\nhigh-throughput  sequencing  on  the  Illumina  Nova6000\r\nplatform  (Illumina,  USA),  generating  at  least  9  Gb  of  clean\r\ndata per sample. RNA-seq reads were aligned to the Ensembl\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "Sscrofa11.1  reference  genome  using  Hisat2  (v.2.0.4)  (Kim\r\net al., 2019) with default parameters. Uniquely mapped reads\r\nwere  counted  using  featureCount  (https://github.com/topics/\r\nfeatureCount)  (Liao  et al.,  2014)  and  differential  expression\r\nanalysis  was  conducted  using  DESeq2  (Love  et al.,  2014).\r\nGenes  exhibiting  a  |log2(fold  change)|≥1  and Q-value≤0.05\r\nwere designated as DEGs.\r\nHierarchical cluster and correlation analysis of\r\ntranscriptomic profiles\r\nPrincipal component analysis (PCA) was conducted to reduce\r\nthe  dimensionality  of  gene  expression  data  across  all\r\nmyocardial samples using the “ggfortify” package in R (v.4.4.1,\r\nhttp://cran.r-project.org/).  Pearson  correlation  coefficients\r\nbetween all sample pairs were computed via the base “stats”\r\npackage  in  R.  Hierarchical  cluster  analysis  of  all  expressed\r\ngenes  was  performed  using  the  clustering  function  in  the\r\n“pheatmap” package in R. The optimal number of clusters was\r\ndetermined  by  calculating  the  Calinski-Harabasz  index,\r\nallowing  genes  with  similar  expression  trajectories  to  be\r\ngrouped.  Hierarchical  clustering  and  STEM  analysis  was\r\nperformed using the “TCseq” package in R.\r\nTranscription factor identification and functional\r\nenrichment analysis\r\nDEGs  were  analyzed  for  functional  annotation  and  pathway\r\nenrichment  using  the  g:Profiler  database  (http://biit.cs.\r\nut.ee/gprofiler/) (Raudvere et al., 2019). Significantly enriched\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "Gene Ontology (GO) terms and Kyoto Encyclopedia of Genes\r\nand  Genomes  (KEGG)  pathways  were  identified  using  a\r\ng:SCS  adjusted P-value  threshold  of  <0.05.  Visualization  of\r\nenriched terms was performed using relevant R packages.\r\nGene  Set  Enrichment  Analysis  (GSEA)  was  conducted\r\nusing  the c2.cp.kegg_legacy.v2024.1.Hs.symbols.gmt and\r\nc5.all.v2024.1.Hs.symbols.gmt gene  sets  from  the  Molecular\r\nSignatures Database (MSigDB) with GSEA software (v.4.0.3)\r\n(Subramanian  et al.,  2005).  Pairwise  comparisons  between\r\neach  developmental  stage  were  used  to  identify  significantly\r\nenriched  gene  sets  (false  discovery  rate  (FDR) Q<0.05).\r\nGSEA  visualization  tools  were  used  to  generate  enrichment\r\nplots  and  heatmaps  to  illustrate  the  enrichment  of  key  gene\r\nsets.\r\nReverse transcription-quantitative real-time PCR (RT\u0002qPCR)\r\nTo  validate  transcriptomic  findings,  RT-qPCR  was  employed\r\nto  confirm  the  expression  of  selected  DEGs.  Gene-specific\r\nprimers  were  designed  based  on  reference  sequences,  and\r\n636 www.zoores.ac.cn\ncDNA templates were obtained by reverse transcription using\r\nHiScript III All-in-one RT SuperMix Perfect (R433-01, Vazyme,\r\nChina) according to the manufacturer’s instructions. RT-qPCR\r\nwas conducted using Taq Pro Universal SYBR qPCR Master\r\nMix  (Q712-03,  Vazyme,  China)  on  a  QuantStudioTM 7  Flex\r\nsystem  (Thermo  Fisher  Scientific,  USA).  Each  sample  was\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "analyzed in triplicate to ensure experimental reproducibility. β\u0002actin and GAPDH were used as internal reference genes for\r\nnormalization. Relative gene expression was quantified using\r\nthe  2–ΔΔCt method  (Livak  &  Schmittgen,  2001).  Primer\r\nsequences are listed in Supplementary Table S1.\r\nStatistical analysis\r\nAll statistical analyses were performed using GraphPad Prism\r\nsoftware  (v.8.3).  Results  are  presented  as  mean±standard\r\nerror  of  the  mean  (SEM)  from  at  least  three  biological\r\nreplicates.  Comparisons  between  groups  were  made  using\r\nunpaired  Student’s t-tests.  Error  bars  denote  SEM,  with\r\nsignificance  levels  set  to: ***: P<0.001, **: P<0.01,  and *:\r\nP<0.05.\r\nRESULTS\r\nHeart weight and heart-to-body weight ratio increase with\r\ndevelopmental stage\r\nThe  sampling  time  points  selected  represented  four  distinct\r\nstages  of  porcine  development  (Figure  1A):  P5  (suckling\r\nperiod), 3 mon (adolescence), 5 mon (sexual maturity), and 8\r\nmon (adulthood). Quantitative assessment of heart weight and\r\nthe  heart-to-body  weight  ratio  (HW/BW)  revealed  stage\u0002dependent  changes  (Figure  1B;  Supplementary  Table  S2).\r\nHeart  weight  exhibited  a  significant  upward  trajectory  across\r\ndevelopmental  stages.  At  P5,  the  average  heart  weight  was\r\napproximately 8 g, markedly lower than at 5 mon (90 g) and 8\r\nmon  (100  g)  (P<0.001).  Additionally,  heart  weight  at  8  mon\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "was significantly higher than at 5 mon (P<0.05).\r\nIn contrast, the HW/BW ratio showed a declining trend with\r\nage  (Figure  1C;  Supplementary  Table  S2).  The  highest  ratio\r\nwas  observed  at  P5  (1.3%),  which  was  significantly  greater\r\nthan the ratio at 5 mon (0.6%) and 8 mon (0.4%) (P<0.001).\r\nHowever,  the  reduction  in  heart  ratio  between  5  mon  and\r\n8 mon was not statistically significant. These findings suggest\r\nthat  while  heart  weight  increased  significantly  with\r\ndevelopment,  the  proportion  of  heart  mass  relative  to  body\r\nweight decreased.\r\nChanges in myocardial fiber area and heart chamber size\r\nHistological  and  immunofluorescent  analyses  revealed\r\npronounced structural remodeling of myocardial tissue across\r\ndevelopmental  stages.  Notably,  H&E  staining  of  myocardial\r\nsections (Figure 2A) showed that myocardial fibers were small\r\nand loosely arranged at P5, but fiber area gradually increased\r\nwith advancing age, reaching a more mature morphology by 5\r\nmon  and  8  mon.  These  findings  were  further  supported  by\r\nWGA  immunofluorescence  staining  (Figure  2B).  Quantitative\r\nanalysis  revealed  a  significant  and  progressive  increase  in\r\nmyocardial fiber cross-sectional area from P5 to 5 mon. Fiber\r\narea at P5 was significantly smaller than at 3 mon, with further\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "enlargement occurring between 3 mon and 8 mon (P<0.001).\r\nAlthough  fiber  area  continued  to  increase  at  8  mon,  the\r\ndifference  between  5  mon  and  8  mon  was  not  statistically\r\nsignificant (Figure 2C, D; Supplementary Table S2).\r\nThese  histological  changes  paralleled  the  physiological\r\nremodeling observed through transthoracic echocardiography.\r\nMeasurements  of  LVIDd  and  LVIDs  revealed  an  age\u0002dependent  increase  between  6  mon  and  12  mon.  LVIDd\r\nincreased  significantly  over  this  period,  while  the  change  in\r\nLVIDs  was  not  statistically  significant  (Figure  2E;\r\nSupplementary  Table  S2).  Collectively,  these  results  confirm\r\nthat myocardial fiber hypertrophy and chamber expansion are\r\nkey  features  of  postnatal  cardiac  maturation  in  Bama  Xiang\r\npigs,  mirroring  the  patterns  of  heart  weight  gain  observed\r\nacross developmental stages.\r\nAbsence of fibrosis and cardiac failure\r\nMyocardial  fibrosis  was  quantified  by  Masson’s  trichrome\r\nstaining.  Representative  histological  images  (Figure  3A)\r\nrevealed varying degrees of fibrosis across all developmental\r\nstages. Quantitative analysis indicated that the area of cardiac\r\nfibrosis fluctuated from P5 to 8 mon, although the overall trend\r\nwas not significant (Figure 3B). To further assess myocardial\r\nfunction, EF and FS were measured at 6 mon, 8.5 mon, and\r\n12 mon. Both EF and FS values remained stable across time\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "points,  with  no  significant  differences  detected  (Figure  3C;\r\nSupplementary  Table  S2).  These  findings  indicate  that\r\nstructural  expansion  of  the  myocardium  in  Bama  Xiang  pigs\r\nduring  postnatal  development  occurs  as  an  adaptive,  non\u0002pathological  process,  and  does  not  result  in  cardiac\r\ndysfunction or fibrosis, hallmarks of pathological hypertrophy.\r\nRNA-seq and analysis\r\nHigh-throughput RNA-seq yielded at least 9 Gb of clean data\r\nper  sample  following  stringent  quality  control.  The  Q20  and\r\nQ30  quality  scores  exceeded  94.72%  and  88.46%,\r\nrespectively,  and  GC  content  ranged  from  45%  to  50.70%\r\n(Supplementary Table S3). On average, over 89.09% of clean\r\nreads  mapped  successfully  to  the  reference  genome\r\n(Supplementary  Table  S4),  confirming  the  suitability  of  the\r\ndataset for comprehensive transcriptomic analysis.\r\nGene expression levels across all samples were quantified\r\nusing fragments per kilobase of transcript per million mapped\r\nfragments  (FPKM).  Most  genes  exhibited  low  or  negligible\r\nexpression  (FPKM<1),  with  only  a  fraction  showing  high\r\ntranscriptional  activity—a  distribution  pattern  consistent  with\r\ntranscriptomic  datasets  in  mammalian  tissues  (GTEx\r\nFigure 1 Changes in heart weight across four developmental\r\nstages\r\nA:  Description  of  sampling  time  points  and  corresponding\r\ndevelopmental stages. B: Changes in heart weight (g) across different\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "time points, n=3:7:3. C: Changes in HW/BW (%) (heart-to-body weight\r\nratio)  across  different  time  points.  Results  are  presented  as\r\nmean±SEM, *: P<0.05; ***: P<0.001.\r\nZoological Research 46(3): 634−646, 2025 637\nConsortium,  2017; Wolf  et al.,  2023)  (Figure  4A,  B).  PCA\r\nrevealed  distinct  clustering  of  samples  according  to\r\ndevelopmental  stage  (Figure  4C).  PC1,  which  accounted  for\r\n77.45% of the variance, effectively separated 8 mon samples\r\nfrom  earlier  time  points.  PC2  distinguished  5  mon  samples\r\nfrom P5 and 3 mon, which clustered more closely, suggesting\r\ntranscriptomic similarity in the early postnatal period. Heatmap\r\nanalysis supported the PCA results, with samples from each\r\ndevelopmental stage forming a distinct cluster (Supplementary\r\nFigure S1A), with samples from P5 and 3 mon separating from\r\nthe  same  large  branch.  Correlation  analysis  (Figure  4D)\r\nfurther confirmed this pattern. Notably, intra-group correlations\r\nwere  consistently  high  (approaching  1.0),  reflecting  strong\r\nreproducibility,  while  inter-group  correlations  were  lower.\r\nAmong the cross-stage comparisons, the correlation between\r\nP5  and  3  mon  was  higher  than  that  observed  between  any\r\nother pair of time points, consistent with their close clustering.\r\nIdentification of DEGs during heart development\r\nDEGs  were  identified  between  consecutive  developmental\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 475,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "stages using stringent thresholds of |log2(fold change)|≥1 and\r\nQ-value≤0.05.  Pairwise  comparisons  between  time  points\r\nrevealed  substantial  transcriptional  reprogramming  during\r\ncardiac maturation. Specifically, 2 126, 2 593 and 6 344 DEGs\r\nwere screened between P5 and 3 mon, 3 mon and 5 mon, and\r\n5  mon  and  8  mon,  respectively  (Figure  5A;  Supplementary\r\nFigure S1B–D and Table S5), including 895, 1 003, and 3 517\r\nup-regulated  genes  and  1  231,  1  590,  and  2  827  down\u0002regulated genes. The smallest number of DEGs was observed\r\nbetween  P5  and  3  mon,  consistent  with  the  cluster  analysis\r\nFigure 2 Myocardial fiber structure and size across developmental stages\r\nA: Hematoxylin and eosin (H&E) staining of myocardial fibers at postnatal day 5 (P5), 3 months post-birth (3 mon), 5 months post-birth (5 mon), and\r\n8 months post-birth (8 mon). Scale bars: 20 μm. B: Wheat germ agglutinin (WGA) immunofluorescence staining of myocardial fibers (green) and\r\nnuclei  (blue)  at  the  same  stages.  Scale  bars:  20  μm.  C:  Quantification  of  cardiomyocyte  size  analyzed  by  H&E  staining.  D:  Quantification  of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "cardiomyocyte  size  analyzed  by  WGA  immunofluorescence  staining.  E:  Left  ventricular  internal  dimension  at  end-diastole  (LVIDd)  and  left\r\nventricular internal dimension at end-systole (LVIDs) at 6-months-old (6 mon), 8.5-months-old (8.5 mon), and 12-months-old (12 mon), n=3:3:7.\r\nResults are presented as mean±SEM, *: P<0.05; **: P<0.01; ***: P<0.001.\r\n638 www.zoores.ac.cn\nresults  that  showed  high  transcriptomic  similarity  between\r\nthese  two  stages.  In  contrast,  the  highest  number  of  DEGs\r\nwas found between 5 mon and 8 mon, which was likely due to\r\nthe fact that 5 mon to 8 mon is a period from sexual maturity\r\nto  adulthood.  This  period  likely  involves  the  activation  and\r\nsuppression of numerous genes to support late-stage cardiac\r\nmaturation, including adjustments in metabolic, structural, and\r\nregulatory pathways necessary for adult myocardial function.\r\nSTEM-based hierarchical clustering and transcription\r\nfactor analysis\r\nTo  elucidate  coordinated  gene  expression  dynamics  during\r\ncardiac  development,  STEM  analysis  was  performed  on  the\r\ncombined  set  of  2  189  DEGs  identified  across  three\r\ndevelopmental  transitions.  Hierarchical  clustering,  guided  by\r\nthe  Calinski-Harabasz  index,  grouped  these  genes  into  four\r\ndistinct  temporal  expression  profiles  (Figure  5B).  The  four\r\nclusters  contained  1  020,  458,  455,  and  255  DEGs,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "respectively, with cluster K1 accounting for 46.6% of all DEGs.\r\nTime  series  analysis  revealed  distinct  developmental\r\nexpression  trajectories  for  each  cluster,  highlighting  stage\u0002specific transcriptional programs (Figure 5C).\r\nTo  identify  key  transcriptional  regulators  associated  with\r\neach cluster, transcription factor analysis was conducted using\r\nrelevant  databases.  Transcription  factor  diversity  for  each\r\ncluster  was  calculated  as:  (number  of  transcription  factors  in\r\neach cluster/number of genes in the cluster)×100 (Figure 5D).\r\nCluster  K1  exhibited  the  highest  number  of  transcription\r\nfactors  (n=51),  including  the  cardiac-specific  transcription\r\nfactor  Nkx2.5.  Cluster  K3  exhibited  the  highest  transcription\r\nfactor  diversity  value  (5.49%)  and  included  T-box  family\r\nmembers TBX18 and TBX20, both of which play critical roles\r\nin cardiac development. Additional clusters also demonstrated\r\ndistinct  transcriptional  regulatory  profiles.  Cluster  K2  was\r\nassociated with transcription factors FOS, LHX9, and NOBOX,\r\nwhile  cluster  K4  was  regulated  by  transcription  factors\r\nATOHB, PITX3, and SOX18.\r\nFunctional enrichment analysis of DEGs\r\nTo  investigate  the  biological  significance  of  temporally\r\nclustered  gene  sets,  functional  enrichment  analysis  was\r\nperformed  for  each  cluster  using  g:Profiler,  with  a  g:SCS\r\nadjusted P-value<0.05 used as the threshold for significance.\r\nThe top 10 significantly enriched terms and pathways for each\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "cluster  are  presented  in  Supplementary  Figure  S2A–D,  with\r\nthe remaining terms listed in Supplementary Table S6. Cluster\r\nK1,  which  contained  the  largest  number  of  genes,  exhibited\r\nthe  broadest  functional  enrichment,  showing  significant\r\nenrichment  for  terms  directly  associated  with  cardiac  and\r\nmuscle  development  (Figure  5E).  Genes  in  cluster  K2  were\r\nprimarily  enriched  in  disease  and  immune-related  pathways,\r\nsuch  as “Rheumatoid  arthritis”.  Genes  in  cluster  K3  were\r\npredominantly enriched in mitosis and cell proliferation-related\r\npathways, including “Mitotic cell cycle” and “Regulation of cell\r\ncycle”.  Genes  in  cluster  K4  were  mainly  enriched  in  terms\r\nrelated  to  mitochondrial  energy  metabolism  and  cellular\r\nmetabolism,  including  the “Mitochondrion  organization” and\r\n“Oxidative phosphorylation” pathways.\r\nTo  complement  these  findings,  GSEA  was  performed  on\r\nDEGs from each pairwise developmental comparison using an\r\nFDR Q-value<0.05  as  the  threshold  for  significance.  This\r\nanalysis  provided  detailed  insights  into  the  functional\r\nenrichment  of  DEGs  and  identified  core  genes  involved  in\r\npathways related to myocardial development. During the P5 to\r\n3  mon  transition,  two  muscle  development-related  pathways,\r\nincluding “GOCC_CONTRACTILE_MUSCLE_FIBER” and\r\n“GOBP_STRIATED_MUSCLE_CELL_DEVELOPMENT”, were\r\nsignificantly  up-regulated  at  3  mon  (Supplementary  Figure\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "S3). Concurrently, pathways related to cell division, including\r\n“GOBP_CELL_DIVISION” and “GOBP_MITOTIC_CELL_\r\nCYCLE_PROCESS”, were significantly down-regulated at P5.\r\nBetween  3  mon  and  5  mon,  metabolism-related  pathways\r\nwere significantly down-regulated, indicating a metabolic shift\r\nin cardiac tissue during this period. In contrast, the transition\r\nfrom  5  mon  to  8  mon  was  characterized  by  a  marked  up\u0002regulation  in  metabolism-related  pathways  at  8  mon  and  a\r\nsignificant  down-regulation  in  mitosis  and  cell  cycle-related\r\npathways  at  5  mon.  A  comprehensive  list  of  enriched\r\npathways  and  associated  gene  sets  is  provided  in\r\nSupplementary Table S7.\r\nSystematic identification and validation of candidate\r\ngenes\r\nVenn  diagrams  were  constructed  to  visualize  the  overlap  of\r\nDEGs  at  the  three  developmental  intervals:  P5  to  3  mon,  3\r\nmon to 5 mon, and 5 mon to 8 mon. A total of 359 genes were\r\ndifferentially  significant  across  the  three  comparisons\r\n(Figure  6A).  Visualization  of  their  expression  trajectories\r\n(Figure 6B) revealed a unique transcriptional pattern. Notably,\r\ngene  expression  from  3  mon  to  5  mon  displayed  an  inverse\r\ntrend relative to the P5 to 3 mon and 5 mon to 8 mon stages.\r\nThis  distinct  shift  suggests  that  the  3  mon  to  5  mon  interval\r\nFigure 3 Fibrosis area and cardiac function\r\nA:  Representative  Masson’s  trichrome  staining  of  heart  sections.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "Fibrotic areas were stained blue. Scale bars: 500 μm. B: Quantification\r\nof  fibrosis  area  (%)  at  different  developmental  stages.  C:  Cardiac\r\nfunction as measured by ejection fraction (EF) and fraction shortening\r\n(FS)  at  6-months-old  (6  mon),  8.5-months-old  (8.5  mon),  and  12-\r\nmonths-old (12 mon), n=3:3:7.\r\nZoological Research 46(3): 634−646, 2025 639\nmay  represent  a  critical  transitional  window  in  myocardial\r\ndevelopment, potentially involving a regulatory inflection point\r\nor  reorganization  of  developmental  signaling  programs.  GO\r\nenrichment  analysis  of  the  359  shared  DEGs  identified  33\r\ngenes significantly enriched in terms associated with cardiac\r\ndevelopment,  including “Cardiac  cell  development”,\r\n“Cardiocyte  differentiation”,  and “Heart  development”\r\n(Figure 6C). The term “Muscle structure development” was the\r\nmost  enriched,  with  27  of  the  33  genes  annotated  to  this\r\ncategory.  An  UpSet  plot  was  used  to  illustrate  the  overlap\r\namong enriched GO terms, identifying eight DEGs that were\r\nsignificantly  enriched  in  all  seven  cardiac-related  terms\r\n(Figure 6D).\r\nExpression  profiling  of  these  33  genes  across\r\ndevelopmental  stages  (Figure  7A)  showed  divergent  trends\r\nbetween  gene  clusters.  Genes  assigned  to  cluster  K1  were\r\nup-regulated during transitions from P5 to 3 mon and 5 mon to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "8  mon,  but  down-regulated  between  3  mon  and  5  mon.  In\r\ncontrast,  genes  in  cluster  K3  exhibited  the  opposite  trend.\r\nAmong  the  eight  DEGs  significantly  enriched  in  all  seven\r\ncardiac  development  GO  terms,  six  belonged  to  cluster  K1\r\nand  two  (TBX18 and PDGFRA)  belonged  to  cluster  K3.\r\nNotably, six of these eight genes, based on both transcription\r\nfactor enrichment and literature evidence, were correlated with\r\ncardiomyocyte  development  and  were  thus  regarded  as\r\ncandidate regulators of myocardial maturation in Bama Xiang\r\npigs.  Validation  by  RT-qPCR  confirmed  the  transcriptomic\r\nexpression  patterns  of  these  six  candidate  genes,\r\nparticularly  across  the  P5  to  3  mon  and  3  mon  to  5  mon\r\nstages,  illustrating  the  accuracy  and  reliability  of  the  results\r\n(Figure 7B).\r\nDISCUSSION\r\nCardiac  growth  in  Bama  Xiang  pigs  was  marked  by  a\r\nprogressive increase in both heart weight and myocardial fiber\r\narea with advancing age (Figures 1, 2). However, the heart-to\u0002body  weight  ratio  exhibited  a  downward  trend,  indicating  a\r\nrelative slowdown in cardiac growth compared to overall body\r\nmass.  As  the  pigs  matured,  the  growth  of  other  tissues,\r\nparticularly skeletal muscle, outpaced that of the heart, leading\r\nto a stabilization of heart size while body weight continued to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 477,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "increase.  In  the  later  stages  of  development,  the  internal\r\ndiameter  of  the  ventricular  chamber  showed  enlargement\r\n(Figure 2E), consistent with findings in Dorper lambs from birth\r\nto 120 days (Aleixo et al., 2022). This expansion represents a\r\ncommon  physiological  adaptation  that  allows  the  heart  to\r\naccommodate  the  increasing  circulatory  demands  of  a\r\ngrowing body.\r\nCardiac  hypertrophy  is  broadly  classified  into  physiological\r\nFigure 4 Transcriptomic data analysis\r\nA: Violin plots showing distribution of gene expression, with vertical axis representing log2(FPKM) values of each sample. B: Circular dendrogram\r\nshowing relationship among genes across four time points. Color coding represents fold-change expression levels, with red indicating fold-change\r\nbetween 0 and 1, blue indicating fold-change between 1 and 10, and yellow indicating fold-change greater than 10. C: Principal component analysis\r\n(PCA)  plot  showing  separation  of  samples  from  four  developmental  stages  along  PC1  and  PC2,  which  explained  77.45%  and  18.28%  of  the\r\nvariance, respectively. Purple represents samples from P5 individuals, green represents samples from 3 mon individuals, black represents samples\r\nfrom  5  mon  individuals,  and  orange  represents  samples  from  8  mon  individuals.  D:  Correlation  heatmap  showing  pairwise  correlations  of  gene\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "expression, with darker blue indicating higher correlation. Number within each circle denotes correlation value between two individuals.\r\n640 www.zoores.ac.cn\nand  pathological  forms,  each  characterized  by  distinct\r\nstructural and functional signatures (Nakamura & Sadoshima,\r\n2018).  Physiological  hypertrophy  arises  during  growth  and\r\nmaturation and is defined by preserved or enhanced cardiac\r\noutput without fibrotic or inflammatory remodeling. In contrast,\r\npathological  hypertrophy  is  characterized  by  increased\r\nfibrosis, impaired cardiac function, heart failure, and elevated\r\nmortality  (Bernardo  et al.,  2010).  Myocardial  fibrosis  is  a\r\ncommon metric used to evaluate fibrosis severity and potential\r\npathological  changes  in  the  heart.  In  the  present  study,\r\nalthough myocardial fibrosis showed a mild upward trend with\r\nage, the changes were not statistically significant. As part of\r\nnormal  heart  development,  moderate  proliferation  of\r\nfibroblasts  and  expansion  of  connective  tissue  accompany\r\nFigure 5 Short time-series expression miner (STEM) clustering analysis and transcription factor prediction\r\nA: Bar plot showing number of up-regulated (red) and down-regulated (blue) differentially expressed genes (DEGs) across pairwise comparisons of\r\ndevelopmental stages (P5–3 mon, 3 mon–5 mon, and 5 mon–8 mon). Number in each colored box represents number of genes contained within. B:\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "Heatmap based on STEM analysis showing expression profiles of DEGs across four developmental stages (P5, 3 mon, 5 mon, and 8 mon). DEGs\r\nwere partitioned into four clusters (K1 to K4), with red indicating up-regulation and green indicating down-regulation. Four colors on vertical axis\r\nrepresent the four gene clusters, while four colors on horizontal axis represent the four sample collection time points. C: Time course expression\r\ntrends for each cluster (K1–K4), with solid lines representing average expression of genes in each cluster and gray lines representing individual\r\ngene expression trends. D: Transcription factor (TF) diversity for each cluster, TF diversity=(number of TFs in each cluster/number of genes in the\r\ncluster)×100.  Numbers  on  top  of  each  bar  indicate  total  number  of  transcription  factors  and  genes  in  each  cluster.  E:  Gene  Ontology  (GO)\r\nenrichment analysis of cluster K1 genes, showing enrichment in pathways related to cardiac and muscle development. Horizontal axis represents\r\n–log10(Q-value) of each term.\r\nZoological Research 46(3): 634−646, 2025 641\ncardiomyocyte  growth.  Importantly,  this  low-level  fibrosis  did\r\nnot impair cardiac function, as evidenced by stable EF and FS\r\non echocardiographic assessment (Figure 3C). These findings\r\nsuggest that the heart undergoes a physiological hypertrophic\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "response  during  development,  supporting  increased\r\ncirculatory demand without compromising function.\r\nTranscriptomic profiling demonstrated that samples from P5\r\nand  3  mon  clustered  closely,  indicating  that  these  stages\r\nshare a similar gene expression landscape and correspond to\r\nthe  early  phase  of  cardiac  development  in  Bama  Xiang  pigs\r\n(Figure 4C, D). In contrast, the transition from 5 mon to 8 mon\r\nyielded  the  highest  number  of  DEGs  among  the  four\r\ndevelopmental  stages  (Figure  5A),  despite  the  absence  of\r\nsignificant changes in myocardial fiber area during this interval\r\n(Figure  2C,  D).  This  discrepancy  suggests  that  the  5  to  8\r\nmonth  period  represents  a  functional  rather  than\r\nmorphological  shift,  marking  the  transition  from  sexual\r\nmaturity  to  early  adulthood.  This  stage  is  likely  driven  by\r\nmetabolic  remodeling,  including  increased  reliance  on  fatty\r\nacid oxidation and reduced glucose utilization, which are key\r\nfeatures  of  cardiomyocyte  maturation  and  bioenergetic\r\nadaptation (Supplementary Table S6).\r\nPrevious  studies  have  suggested  that  the  PPAR  signaling\r\npathway  is  crucial  in  regulating  cardiac  energy  metabolism\r\nduring hypertrophic growth (Lehman & Kelly, 2002). In 30-day\r\nold mice, over 80% of cardiomyocyte energy is derived from\r\nfatty acid oxidation, while glycolysis accounts for less than 7%,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "indicating  a  metabolic  shift  from  glycolytic  to  oxidative\r\nmetabolism (Lopaschuk & Jaswal, 2010). In the early stages\r\nof  cardiac  development  (P5  to  3  mon),  cardiomyocyte\r\ndevelopment  in  Bama  Xiang  pigs  was  characterized\r\npredominantly  by  cardiomyocyte  proliferation,  with  DEGs\r\nshowing enrichment in cell cycle regulation and mitotic activity.\r\nAs development progressed from juvenile to sexual maturity (3\r\nmon  to  5  mon),  cardiomyocyte  hypertrophy  became  the\r\nprimary  driver  of  cardiac  maturation.  During  this  phase,\r\nmyocardial  energy  metabolism  underwent  substantial\r\nmaturation,  transitioning  toward  oxidative  capacity,  although\r\nFigure 6 Candidate gene screening\r\nA: Venn diagram showing overlap of differentially expressed genes (DEGs) across three pairwise comparisons: P5–3 mon, 3 mon–5 mon, and 5\r\nmon–8 mon. Number within each circle represents number of genes shared between each intersection. B: Circular heatmap showing overlapping\r\nDEGs from three comparisons, with color intensity representing gene expression levels (log2(fold change)), where red indicates up-regulation and\r\nblue indicates down-regulation. C: Gene Ontology (GO) enrichment analysis of overlapping DEGs, showing enrichment in terms related to cardiac\r\nand muscle development. Vertical axis represents number of genes enriched each term. D: UpSet plot showing intersection size of genes enriched\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "in various GO terms in (C). Blue bar chart represents total number of genes in each term, orange bar chart represents number of genes contained\r\nin different intersections. Markers and connecting lines illustrate overlap between various gene sets.\r\n642 www.zoores.ac.cn\nsome  residual  proliferative  activity  remained  detectable\r\n(Supplementary Table S6). These findings are consistent with\r\nthe conclusions of Velayutham et al. (2020).\r\nSTEM-based temporal clustering and functional enrichment\r\nanalyses  revealed  that  genes  within  the  K1  cluster  were\r\nprogressively  up-regulated  throughout  development  and\r\nsignificantly enriched in pathways associated with myocardial\r\nand  muscle  development.  These  genes  were  also  regulated\r\nby  the  cardiac-specific  transcription  factor  Nkx2.5,  a  master\r\nregulator  of  heart  development.  As  one  of  the  earliest\r\ntranscription factors expressed in the vertebrate heart, Nkx2.5\r\nplays a critical role in cardiac morphogenesis (Lee et al., 1998,\r\n2004),  promoting  both  cardiomyocyte  proliferation  and\r\ndifferentiation  (Jiang  et al.,  2020; Zhou  et al.,  2022).  The\r\nexpression trajectory of K1 genes suggests their involvement\r\nin hypertrophic expansion of primary myocardial fibers during\r\npostnatal  development.  In  contrast,  genes  in  cluster  K3\r\nexhibited  a  consistent  down-regulation  trend  from  birth  to\r\nadulthood  and  were  predominantly  enriched  in  pathways\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "associated  with  mitosis  and  cell  proliferation,  consistent  with\r\nthe  decline  in  cardiomyocyte  proliferation.  In  pigs,  with  a\r\ngestation  period  of  approximately  3.7  months,  the  first  two\r\nFigure 7 Expression patterns and validation of candidate genes involved in cardiac development\r\nA: Heatmap (left) showing expression levels (log2(fold change)) of candidate genes across three developmental comparisons (P5–3 mon, 3 mon–5\r\nmon, and 5 mon–8 mon) for clusters K1–K4. Red indicates up-regulation and blue indicates down-regulation. Circle plot (right) shows significance\r\n(–log10Q-value) of each gene, with circle size representing fold change and circle color representing Q-value significance (darker green indicates\r\nmore significant). B: Reverse transcription-quantitative real-time polymerase chain reaction (RT-qPCR) validation of selected candidate genes. Left\r\ny-axis shows log2(fold change) of RT-qPCR results, right y-axis shows log2(fold change) from RNA-seq data for comparison. Data are presented for\r\nP5–3 mon and 3 mon–5 mon comparisons.\r\nZoological Research 46(3): 634−646, 2025 643\nweeks  after  birth  are  characterized  by  simultaneous\r\ncardiomyocyte  proliferation  and  hypertrophic  growth.  During\r\nthis period, increases in cardiomyocyte length, left ventricular\r\nmass, and nuclear content reflect a transitional phase in which\r\nboth  cellular  expansion  and  division  contribute  to  myocardial\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "development.  In  contrast,  in  pigs  older  than  6  months,\r\ncardiomyocytes  exhibit  pronounced  elongation  and  a\r\nsubstantial  increase  in  multinucleation  (Zhu  et al.,  2018).\r\nTogether,  these  findings  support  the  conclusion  that\r\nproliferation-associated  genes  dominate  early  development,\r\ncharacterized by significant up-regulation, whereas myocardial\r\ndevelopment-related genes primarily regulate later stages.\r\nSix  key  genes  implicated  in  porcine  myocardial\r\ndevelopment  were  identified  through  co-localization  across\r\ndifferent  pairwise  comparisons.  Five  of  these  genes  (ASB2,\r\nACTA1, NRAP, TCAP,  and ALPK3)  were  grouped  in  cluster\r\nK1,  showing  significant  up-regulation  at  3  mon  but  marked\r\ndown-regulation  at  5  mon  (Figure  7B;  Supplementary  Figure\r\nS4). This down-regulation may reflect a relative deceleration in\r\nmyocardial  growth  during  the  transition  to  sexual  maturity,\r\nalthough  histological  and  morphometric  data  confirmed\r\nongoing cardiomyocyte hypertrophy at 5 mon (Figure 2).\r\nGSEA  provided  further  insights  into  the  functional  roles  of\r\nthese  DEGs.  In  the  P5  to  3  mon  comparison,  two  muscle\r\ndevelopment-related pathways were significantly enriched at 3\r\nmon, with TCAP, ASB2, ACTA1, and NRAP identified as core\r\ncomponents  (Supplementary  Figure  S3).  Similarly, ACTA1,\r\nALPK3,  and TCAP were  significantly  enriched  in  two\r\nmyocardial-related  pathways, “Hypertrophic  cardiomyopathy”\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "and “Abnormal  myocardium  morphology”.  Notably,  none  of\r\nthese candidate genes were enriched in pathways associated\r\nwith  cell  cycle  regulation,  mitosis,  or  energy  metabolism,\r\nsuggesting  their  primary  function  lies  in  modulating\r\ncardiomyocyte hypertrophy rather than influencing proliferative\r\nactivity or metabolic remodeling.\r\nThese genes are essential for maintaining cardiac structure\r\nand  muscle  contraction. ASB2 and NRAP,  in  particular,  are\r\nessential for the assembly and maintenance of myofibrils (Lu\r\n& Horowits, 2008; Manisastry et al., 2009). In Asb2 knockout\r\nmice,  severe  disruption  of  myofibril  organization  leads  to  a\r\nrapid  decline  in  cardiac  efficiency,  culminating  in  embryonic\r\nlethality  (Métais  et al.,  2018).  Similarly,  in  zebrafish, Asb2\r\nknockout causes significant thinning of the ventricular wall and\r\ndilation  of  cardiac  chambers  (Min  et al.,  2021).\r\nMechanistically, ASB2 interacts with key transcription factors,\r\nsuch as Smad9, to maintain cardiac morphology and regulate\r\nheart  development,  and  also  modulates  Tbx2  expression\r\n(Singh  et al.,  2009).  Loss-of-function  mutations  in NRAP\r\nimpair  normal  cardiac  development  and  function,  leading  to\r\npericardial edema and disorganized cardiomyocyte alignment\r\n(Zhang  et al.,  2023b).  Furthermore,  nonsense  mutations  of\r\nNRAP can lead to cardiac dysfunction in humans, likely due to\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "its  specific  expression  at  the  junction  of  cardiac  intercalated\r\ndisks and skeletal muscle tendons (Truszkowska et al., 2017).\r\nTCAP and ALPK3 encode sarcomeric proteins that localize\r\nto the Z-line and M-band, respectively, where they play critical\r\nroles  in  maintaining  the  structural  integrity  of  the  contractile\r\napparatus,  and  therefore  myocardial  contraction  and\r\nrelaxation  (Zhang  et al.,  2009).  Disruption  of  these  proteins\r\ncauses  myomesin  misalignment,  ultimately  compromising\r\ncardiomyocyte structure and function (Agarwal et al., 2022). In\r\nzebrafish, knockout of Tcap disrupts cardiac regeneration and\r\ninhibits  cardiomyocyte  proliferation,  while  also  inducing\r\nelevated reactive oxygen species (ROS) levels and enhanced\r\nmitochondrial  autophagy  (Zhao  et al.,  2024). ALPK3 is\r\ncritically  involved  in  cardiomyocyte  differentiation.\r\nOverexpression of Alpk3 in P19CL6 cells has been shown to\r\nenhance  their  differentiation  into  cardiomyocytes  (Hosoda\r\net al., 2001), underscoring its function in early cardiac lineage\r\nspecification.\r\nThe ACTA1 gene  encodes  skeletal  muscle  α-actin,  a  key\r\nstructural  protein  required  for  sarcomere  assembly,  muscle\r\ncontraction,  and  early  cardiomyocyte  development.  Its\r\nexpression is tightly regulated by transcription factors such as\r\nserum response factor (SRF), which ensure proper sarcomere\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "formation  (Niu  et al.,  2008).  In  addition  to  transcriptional\r\ncontrol, ACTA1 is  also  subject  to  post-transcriptional\r\nregulation  by  microRNAs;  for  instance, miR-26b has  been\r\nshown  to  suppress ACTA1 expression,  thereby  affecting\r\ncardiomyocyte hypertrophy (Sowa et al., 2012). In response to\r\nexternal  stimuli,  such  as  angiotensin  II, ACTA1 and  other\r\nhypertrophy-related  genes  show  significantly  increased\r\nexpression  (Bartoli  et al.,  2022).  This  up-regulation  causes\r\nstructural  and  functional  abnormalities  in  cardiomyocytes,\r\naltering  cell  size  and  function  and  exacerbating  cardiac\r\nhypertrophy and fibrosis (Cañes et al., 2020).\r\nTBX18,  a  member  of  the  T-box  family  transcription  factor\r\nfamily  and  part  of  cluster  K3,  emerged  as  a  key  candidate\r\ngene associated with porcine myocardial development. TBX18\r\nis  a  key  regulator  of  pacemaker  cell  development,\r\norchestrating the formation, proliferation, and differentiation of\r\nthe  sinoatrial  node  (Wiese  et al.,  2009).  Alongside TBX18,\r\nother  genes  in  cluster  K3  are  regulated  by  TBX20,  another\r\ncritical T-box factor involved in cardiac morphogenesis. TBX20\r\nfunctions cooperatively with transcriptional regulators such as\r\nNkx2.5,  GATA4,  and  GATA5  to  regulate  cardiac  gene\r\nexpression across multiple cardiac cell lineages. Furthermore,\r\nTBX20  plays  a  pivotal  role  in  coordinating  cell  proliferation,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "differentiation,  and  chamber  formation  (Brown  et al.,  2005;\r\nStennard  et al.,  2005),  as  well  as  promoting  cardiomyocyte\r\nproliferation  and  survival.  TBX20  is  also  critical  for  the\r\nformation  and  maintenance  of  heart  valves  (Cai  et al.,  2005;\r\nShelton & Yutzey, 2007; Singh et al., 2005).\r\nIn  summary,  transcriptomic  profiling  of  myocardial  tissue\r\nfrom  Bama  Xiang  pigs—an  indigenous  Chinese  miniature\r\nbreed—across  neonatal,  juvenile,  sexually  mature,  and  adult\r\nstages  identified  a  dynamic  landscape  of  DEGs  associated\r\nwith  cardiac  development.  Co-localization  and  functional\r\nenrichment analyses revealed a set of candidate genes likely\r\nto  regulate  key  phases  of  myocardial  maturation.  This  study\r\nprovides  a  valuable  molecular  resource  for  understanding\r\nporcine  cardiac  development  and  highlights  genes  with\r\npotential  relevance  for  future  applications  in\r\nxenotransplantation. These key genes may serve as potential\r\ntargets for genome editing aimed at advancing cardiac organ\r\ntransplantation and cardiovascular disease research.\r\nDATA AVAILABILITY\r\nThe  sequencing  data  obtained  in  this  study  have  been  uploaded  to  the\r\nScience  Data  Bank  database  (SDB,  Data  DOI:  10.57  760/sciencedb.20\r\n204),  Genome  Sequence  Archive  database  (GSA,  accession  number\r\nPRJCA036  145),  and  National  Center  for  Biotechnology  Information\r\ndatabase (NCBI, BioProjectID PRJNA663 759).\r\n644 www.zoores.ac.cn\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "SUPPLEMENTARY DATA\r\nSupplementary data to this article can be found online.\r\nCOMPETING INTERESTS\r\nThe authors declare that they have no competing interests.\r\nAUTHORS’ CONTRIBUTIONS\r\nL.J. conceived and designed the experiments. L.J. and D.D.W. revised the\r\nmanuscript. S.N.W. performed the experiments and wrote the manuscript.\r\nS.N.W. and W.J.T. analyzed the data. Y.H.M., D.K.P., and T.H. contributed\r\nto sample collection. All authors read and approved the final version of the\r\nmanuscript.\r\nREFERENCES\r\nAgarwal  R,  Wakimoto  H,  Paulo  JA,  et al. 2022. Pathogenesis  of\r\ncardiomyopathy caused by variants in ALPK3, an essential pseudokinase in\r\nthe  cardiomyocyte  nucleus  and  sarcomere. Circulation, 146(22):\r\n1674–1693.\r\nAleixo  ASC,  Ferreira  DOL,  Tsunemi  MH,  et al. 2022. Influence  of  Dorper\r\nlamb  development  from  birth  to  120  days  of  age  on  clinical  and\r\nechocardiographic parameters. Scientific Reports, 12(1): 19726.\r\nAnand  RP,  Layer  JV,  Heja  D,  et al. 2023. Design  and  testing  of  a\r\nhumanized  porcine  donor  for  xenotransplantation. Nature, 622(7982):\r\n393–401.\r\nAsp M, Giacomello S, Larsson L, et al. 2019. A spatiotemporal organ-wide\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 39,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "gene expression and cell atlas of the developing human heart. Cell, 179(7):\r\n1647–1660. e19.\r\nBai JY, Lin Y, Zhang JM, et al. 2023. Profiling of chromatin accessibility in\r\npigs  across  multiple  tissues  and  developmental  stages. International\r\nJournal of Molecular Sciences, 24(13): 11076.\r\nBartoli F, Evans EL, Blythe NM, et al. 2022. Global PIEZO1 gain-of-function\r\nmutation  causes  cardiac  hypertrophy  and  fibrosis  in  mice. Cells, 11(7):\r\n1199.\r\nBernardo  BC,  Weeks  KL,  Pretorius  L,  et al. 2010. Molecular  distinction\r\nbetween  physiological  and  pathological  cardiac  hypertrophy:  experimental\r\nfindings and therapeutic strategies. Pharmacology & Therapeutics, 128(1):\r\n191–227.\r\nBrown  DD,  Martz  SN,  Binder  O,  et al. 2005. Tbx5  and  Tbx20  act\r\nsynergistically  to  control  vertebrate  heart  morphogenesis. Development,\r\n132(3): 553–563.\r\nCai  CL,  Zhou  WL,  Yang  L,  et al. 2005. T-box  genes  coordinate  regional\r\nrates  of  proliferation  and  regional  specification  during  cardiogenesis.\r\nDevelopment, 132(10): 2475–2487.\r\nCañes L, Martí-Pàmies I, Ballester-Servera C, et al. 2020. Neuron-derived\r\norphan  receptor-1  modulates  cardiac  gene  expression  and  exacerbates\r\nangiotensin  II-induced  cardiac  hypertrophy. Clinical Science, 134(3):\r\n359–377.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 40,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "Cui  YL,  Zheng  YX,  Liu  XX,  et al.  2019.  Single-cell  transcriptome  analysis\r\nmaps  the  developmental  track  of  the  human  heart. Cell Reports, 26(7):\r\n1934–1950. e5.\r\nDeLaughter DM, Bick AG, Wakimoto H, et al. 2016. Single-cell resolution of\r\ntemporal  gene  expression  during  heart  development. Developmental Cell,\r\n39(4): 480–490.\r\nFarah  EN,  Hu  RK,  Kern  C,  et al. 2024. Spatially  organized  cellular\r\ncommunities  form  the  developing  human  heart. Nature, 627(8005):\r\n854–864.\r\nFeng  W,  Bais  A,  He  HT,  et al. 2022. Single-cell  transcriptomic  analysis\r\nidentifies  murine  heart  molecular  features  at  embryonic  and  neonatal\r\nstages. Nature Communications, 13(1): 7960.\r\nGhosh M, Sodhi SS, Song KD, et al. 2015. Evaluation of body growth and\r\nimmunity-related  differentially  expressed  genes  through  deep  RNA\r\nsequencing in the piglets of Jeju native pig and Berkshire. Animal Genetics,\r\n46(3): 255–264.\r\nGTEx Consortium. 2017. Genetic effects on gene expression across human\r\ntissues. Nature, 550(7675): 204–213.\r\nGu  YY,  Zhou  Y,  Ju  SH,  et al. 2022. Multi-omics  profiling  visualizes\r\ndynamics  of  cardiac  development  and  functions. Cell Reports, 41(13):\r\n111891.\r\nHosoda T, Monzen K, Hiroi Y, et al. 2001. A novel myocyte-specific gene\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 41,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "Midori promotes  the  differentiation  of  P19CL6  cells  into  cardiomyocytes.\r\nJournal of Biological Chemistry, 276(38): 35978–35989.\r\nHuang  WL,  Guo  YT,  Du  WH,  et al. 2017. Global  transcriptome  analysis\r\nidentifies  differentially  expressed  genes  related  to  lipid  metabolism  in\r\nWagyu and Holstein cattle. Scientific Reports, 7(1): 5278.\r\nJiang FQ, Liu K, Chen JX, et al. 2022. Mettl3-mediated m6A modification of\r\nFgf16 restricts cardiomyocyte proliferation during heart regeneration. elife,\r\n11: e77014.\r\nJiang  WF,  Xu  YJ,  Zhao  CM,  et al. 2020. A  novel  TBX5  mutation\r\npredisposes to familial cardiac septal defects and atrial fibrillation as well as\r\nbicuspid aortic valve. Genetics and Molecular Biology, 43(4): e20200142.\r\nKim D, Paggi JM, Park C, et al. 2019. Graph-based genome alignment and\r\ngenotyping with HISAT2 and HISAT-genotype. Nature Biotechnology, 37(8):\r\n907–915.\r\nLängin  M,  Mayr  T,  Reichart  B,  et al. 2018. Consistent  success  in  life\u0002supporting  porcine  cardiac  xenotransplantation. Nature, 564(7736):\r\n430–433.\r\nLee  KH,  Evans  S,  Ruan  TY,  et al. 2004. SMAD-mediated  modulation  of\r\nYY1 activity regulates the BMP response and cardiac-specific expression of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 42,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "a  GATA4/5/6-dependent  chick Nkx2.5enhancer. Development, 131(19):\r\n4709–4723.\r\nLee  Y,  Shioi  T,  Kasahara  H,  et al. 1998. The  cardiac  tissue-restricted\r\nhomeobox  protein  Csx/Nkx2.5  physically  associates  with  the  zinc  finger\r\nprotein  GATA4  and  cooperatively  activates  atrial  natriuretic  factor  gene\r\nexpression. Molecular and Cellular Biology, 18(6): 3120–3129.\r\nLehman  JJ,  Kelly  DP. 2002. Gene  regulatory  mechanisms  governing\r\nenergy  metabolism  during  cardiac  hypertrophic  growth. Heart Failure\r\nReviews, 7(2): 175–185.\r\nLiao  Y,  Smyth  GK,  Shi  W. 2014. featureCounts:  an  efficient  general\r\npurpose  program  for  assigning  sequence  reads  to  genomic  features.\r\nBioinformatics, 30(7): 923–930.\r\nLitviňuková M, Talavera-López C, Maatz H, et al. 2020. Cells of the adult\r\nhuman heart. Nature, 588(7838): 466–472.\r\nLiu Y, Zeng BH, Shang HT, et al. 2008. Bama miniature pigs (Sus scrofa\r\ndomestica)  as  a  model  for  drug  evaluation  for  humans:  comparison  of  in\r\nvitro  metabolism  and  in  vivo  pharmacokinetics  of  lovastatin. Comparative\r\nMedicine, 58(6): 580–587.\r\nLivak KJ, Schmittgen TD. 2001. Analysis of relative gene expression data\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 43,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "using  real-time  quantitative  PCR  and  the  2-ΔΔCT Method. Methods, 25(4):\r\n402–408.\r\nLopaschuk  GD,  Jaswal  JS. 2010. Energy  metabolic  phenotype  of  the\r\ncardiomyocyte  during  development,  differentiation,  and  postnatal\r\nmaturation. Journal of Cardiovascular Pharmacology, 56(2): 130–140.\r\nLove MI, Huber W, Anders S. 2014. Moderated estimation of fold change\r\nand  dispersion  for  RNA-seq  data  with  DESeq2. Genome Biology, 15(12):\r\n550.\r\nLu SJ, Horowits R. 2008. Role of nonmuscle myosin IIB and N-RAP in cell\r\nspreading  and  myofibril  assembly  in  primary  mouse  cardiomyocytes. Cell\r\nMotility and the Cytoskeleton, 65(9): 747–761.\r\nMahmoud  AI,  Kocabas  F,  Muralidhar  SA,  et al. 2013. Meis1  regulates\r\npostnatal cardiomyocyte cell cycle arrest. Nature, 497(7448): 249–253.\r\nManisastry SM, Zaal KJM, Horowits R. 2009. Myofibril assembly visualized\r\nby  imaging  N-RAP,  alpha-actinin,  and  actin  in  living  cardiomyocytes.\r\nExperimental Cell Research, 315(12): 2126–2139.\r\nZoological Research 46(3): 634−646, 2025 645\nMétais A, Lamsoul I, Melet A, et al. 2018. Asb2α-Filamin A axis is essential\r\nfor  actin  cytoskeleton  remodeling  during  heart  development. Circulation\r\nResearch, 122(6): e34–e48.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 44,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "Min  KD,  Asakura  M,  Shirai  M,  et al. 2021. ASB2  is  a  novel  E3  ligase  of\r\nSMAD9 required for cardiogenesis. Scientific Reports, 11(1): 23056.\r\nMoazami  N,  Stern  JM,  Khalil  K,  et al. 2023. Pig-to-human  heart\r\nxenotransplantation  in  two  recently  deceased  human  recipients. Nature\r\nMedicine, 29(8): 1989–1997.\r\nMohiuddin  MM,  Singh  AK,  Scobie  L,  et al. 2023. Graft  dysfunction  in\r\ncompassionate  use  of  genetically  engineered  pig-to-human  cardiac\r\nxenotransplantation: a case report. The Lancet, 402(10399): 397–410.\r\nNakamura  M,  Sadoshima  J. 2018. Mechanisms  of  physiological  and\r\npathological  cardiac  hypertrophy. Nature Reviews: Cardiology, 15(7):\r\n387–407.\r\nNiu ZY, Iyer D, Conway SJ, et al. 2008. Serum response factor orchestrates\r\nnascent  sarcomerogenesis  and  silences  the  biomineralization  gene\r\nprogram in the heart. Proceedings of the National Academy of Sciences of\r\nthe United States of America, 105(46): 17824–17829.\r\nRao  KS,  Kameswaran  V,  Bruneau  BG. 2022. Modeling  congenital  heart\r\ndisease: lessons from mice, hPSC-based models, and organoids. Genes &\r\nDevelopment, 36(11-12): 652–663.\r\nRaudvere U, Kolberg L, Kuzmin I, et al. 2019. g: Profiler: a web server for\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 45,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "functional enrichment analysis and conversions of gene lists (2019 update).\r\nNucleic Acids Research, 47(W1): W191–W198.\r\nRichter  C,  Hinkel  R. 2021. Research('s)  sweet  hearts:  experimental\r\nbiomedical models of diabetic cardiomyopathy. Frontiers in Cardiovascular\r\nMedicine, 8: 703355.\r\nRonaldson-Bouchard  K,  Ma  SP,  Yeager  K,  et al. 2018. Advanced\r\nmaturation  of  human  cardiac  tissue  grown  from  pluripotent  stem  cells.\r\nNature, 556(7700): 239–243.\r\nSchachtschneider  KM,  Madsen  O,  Park  C,  et al. 2015. Adult  porcine\r\ngenome-wide  DNA  methylation  patterns  support  pigs  as  a  biomedical\r\nmodel. BMC Genomics, 16(1): 743.\r\nShelton EL, Yutzey KE. 2007. Tbx20 regulation of endocardial cushion cell\r\nproliferation  and  extracellular  matrix  gene  expression. Developmental\r\nBiology, 302(2): 376–388.\r\nSingh  MK,  Christoffels  VM,  Dias  JM,  et al. 2005. Tbx20 is  essential  for\r\ncardiac  chamber  differentiation  and  repression  of Tbx2. Development,\r\n132(12): 2697–2707.\r\nSingh R, Horsthuis T, Farin HF, et al. 2009. Tbx20 interacts with Smads to\r\nconfine Tbx2 expression to the atrioventricular canal. Circulation Research,\r\n105(5): 442–452.\r\nSowa N, Horie T, Kuwabara Y, et al. 2012. MicroRNA 26b encoded by the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 46,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "intron of small CTD phosphatase (SCP) 1 has an antagonistic effect on its\r\nhost gene. Journal of Cellular Biochemistry, 113(11): 3455–3465.\r\nStennard  FA,  Costa  MW,  Lai  D,  et al. 2005. Murine  T-box  transcription\r\nfactor Tbx20 acts as a repressor during heart development, and is essential\r\nfor  adult  heart  integrity,  function  and  adaptation. Development, 132(10):\r\n2451–2462.\r\nSubramanian A, Tamayo P, Mootha VK, et al. 2005. Gene set enrichment\r\nanalysis:  a  knowledge-based  approach  for  interpreting  genome-wide\r\nexpression  profiles. Proceedings of the National Academy of Sciences of\r\nthe United States of America, 102(43): 15545–15550.\r\nTakeuchi  JK,  Lou  X,  Alexander  JM,  et al. 2011. Chromatin  remodelling\r\ncomplex  dosage  modulates  transcription  factor  function  in  heart\r\ndevelopment. Nature Communications, 2(1): 187.\r\nTruszkowska  GT,  Bilińska  ZT,  Muchowicz  A,  et al. 2017. Homozygous\r\ntruncating mutation in NRAP gene identified by whole exome sequencing in\r\na patient with dilated cardiomyopathy. Scientific Reports, 7(1): 3362.\r\nTucker NR, Chaffin M, Fleming SJ, et al. 2020. Transcriptional and cellular\r\ndiversity of the human heart. Circulation, 142(5): 466–482.\r\nVanOudenhove J, Yankee TN, Wilderman A, et al. 2020. Epigenomic and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 47,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "transcriptomic  dynamics  during  human  heart  organogenesis. Circulation\r\nResearch, 127(9): e184–e209.\r\nVelayutham  N,  Alfieri  CM,  Agnew  EJ,  et al. 2020. Cardiomyocyte  cell\r\ncycling,  maturation,  and  growth  by  multinucleation  in  postnatal  swine.\r\nJournal of Molecular and Cellular Cardiology, 146: 95–108.\r\nWang L, Yu P, Zhou BY, et al. 2020. Single-cell reconstruction of the adult\r\nhuman  heart  during  heart  failure  and  recovery  reveals  the  cellular\r\nlandscape underlying cardiac function. Nature Cell Biology, 22(1): 108–119.\r\nWiese  C,  Grieskamp  T,  Airik  R,  et al. 2009. Formation  of  the  sinus  node\r\nhead  and  differentiation  of  sinus  node  myocardium  are  independently\r\nregulated by Tbx18 and Tbx3. Circulation Research, 104(3): 388–397.\r\nWolf  S,  Melo  D,  Garske  KM,  et al. 2023. Characterizing  the  landscape  of\r\ngene expression variance in humans. PLoS Genetics, 19(7): e1010833.\r\nYang  DH,  Gomez-Garcia  J,  Funakoshi  S,  et al.  2022.  Modeling  human\r\nmulti-lineage heart field development with pluripotent stem cells. Cell Stem\r\nCell, 29(9): 1382–1401. e8.\r\nYe L, D’agostino G, Loo SJ, et al. 2018. Early regenerative capacity in the\r\nporcine heart. Circulation, 138(24): 2798–2808.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 48,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 483,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "Yoshida  Y,  Yamanaka  S. 2017. Induced  pluripotent  stem  cells  10  years\r\nlater: for cardiac applications. Circulation Research, 120(12): 1958–1968.\r\nZhang HJ, Pei LJ, Ouyang ZH, et al. 2023a. AP-1 activation mediates post\u0002natal  cardiomyocyte  maturation. Cardiovascular Research, 119(2):\r\n536–550.\r\nZhang RL, Yang JC, Zhu J, et al. 2009. Depletion of zebrafish Tcap leads to\r\nmuscular  dystrophy  via  disrupting  sarcomere-membrane  interaction,  not\r\nsarcomere assembly. Human Molecular Genetics, 18(21): 4130–4140.\r\nZhang  YH,  Li  DH,  Han  RL,  et al. 2017. Transcriptome  analysis  of  the\r\npectoral muscles of local chickens and commercial broilers using Ribo-Zero\r\nribonucleic acid sequencing. PLoS One, 12(9): e0184115.\r\nZhang ZM, Xu KK, Ji LF, et al. 2023b. A novel loss-of-function mutation in\r\nNRAP  is  associated  with  left  ventricular  non-compaction  cardiomyopathy.\r\nFrontiers in Cardiovascular Medicine, 10: 1097957.\r\nZhao  Y,  Liang  JL,  Liu  X,  et al. 2024. Tcap  deficiency  impedes  striated\r\nmuscle function and heart regeneration with elevated ROS and autophagy.\r\nBiochimica et Biophysica Acta (BBA) - Molecular Basis of Disease, 1870(8):\r\n167485.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 49,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": 935589157811943919,
+        "filename": "zr-46-3-634.PMC12361896.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 216,
+      "total_chunks": 50,
+      "version": "1.0.0"
+    },
+    "text": "Zhou  PZ,  Zhang  Y,  Sethi  I,  et al. 2022. GATA4  regulates  developing\r\nendocardium through interaction with ETS1. Circulation Research, 131(11):\r\ne152–e168.\r\nZhu WQ, Zhang E, Zhao M, et al. 2018. Regenerative potential of neonatal\r\nporcine hearts. Circulation, 138(24): 2809–2816.\r\nZhu  YL,  Zhou  ZM,  Huang  T,  et al. 2022. Mapping  and  analysis  of  a\r\nspatiotemporal  H3K27ac  and  gene  expression  spectrum  in  pigs. Science\r\nChina Life Sciences, 65(8): 1517–1534.\r\n646 www.zoores.ac.cn\n\n"
+  }
+]

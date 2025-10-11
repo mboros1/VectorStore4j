@@ -1,0 +1,1274 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Molecular Biology of the Cell • 34:ar76, 1–17, June 1, 2023 34:ar76, 1\r\nMBoC | ARTICLE\r\nThe role of kinetochore dynein in checkpoint \r\nsilencing is restricted to disassembly of the \r\ncorona\r\nABSTRACT During mitosis, kinetochore–microtubule attachments are monitored by a mole\u0002cular surveillance system known as the spindle assembly checkpoint. The prevailing model \r\nposits that dynein evicts checkpoint proteins (e.g., Mad1, Mad2) from stably attached kineto\u0002chores by transporting them away from kinetochores, thus contributing to checkpoint silenc\u0002ing. However, the mechanism by which dynein performs this function, and its precise role in \r\ncheckpoint silencing remain unresolved. Here, we find that dynein’s role in checkpoint silenc\u0002ing is restricted to evicting checkpoint effectors from the fibrous corona, and not the outer \r\nkinetochore. Dynein evicts these molecules from the corona in a manner that does not require \r\nstable, end-on microtubule attachments. Thus, by disassembling the corona through indis\u0002criminate microtubule encounters, dynein primes the checkpoint signaling apparatus so it can \r\nrespond to stable end-on microtubule attachments and permit cells to progress through mi\u0002tosis. Accordingly, we find that dynein function in checkpoint silencing becomes largely dis\u0002pensable in cells in which checkpoint effectors are excluded from the corona.\r\nINTRODUCTION\r\nA critical aspect of mitotic cell division is the accurate and reliable \r\nsegregation of genetic material. This requires that each of the two \r\nsister kinetochores on a mitotic chromosome generate stable at\u0002tachments to microtubule plus ends emanating from opposite spin\u0002dle poles before anaphase onset. To ensure this occurs with a high \r\ndegree of fidelity, cells have evolved a surveillance mechanism re\u0002ferred to as the spindle assembly checkpoint (SAC; London and \r\nBiggins, 2014b; Gorbsky, 2015; Lischetti and Nilsson, 2015; Sacristan \r\nand Kops, 2015; Pesenti et al., 2016; Musacchio and Desai, 2017; \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Kops et al., 2020; Lara-Gonzalez et al., 2021). Kinetochores lacking \r\nstable microtubule attachments recruit a suite of SAC proteins that \r\ncatalyze the formation of a diffusible “wait anaphase” complex that \r\nprevents mitotic progression by inhibiting the anaphase promoting \r\ncomplex/cyclosome (APC/C), an E3 ubiquitin ligase whose action is \r\nrequired for progression into anaphase (Chang et al., 2015; Gorbsky, \r\n2015; Lischetti and Nilsson, 2015; Sacristan and Kops, 2015; Pesenti \r\net al., 2016; Alfieri et al., 2017; Heasley et al., 2017; Musacchio and \r\nDesai, 2017; Kops et al., 2020; Lara-Gonzalez et al., 2021). These \r\ninhibitory mitotic checkpoint complexes, or MCCs, are comprised of \r\nthe kinetochore-associated proteins Mad2, BubR1, and Bub3, as \r\nwell as Cdc20, the mitotic cofactor/activator of the APC/C (Sudakin \r\net al., 2001; Herzog et al., 2009; Chao et al., 2012; Alfieri et al., \r\n2016; Di Fiore et al., 2016). Upon establishment of proper attach\u0002ment to spindle microtubules, SAC proteins are evicted from kineto\u0002chores, which results in cessation of MCC assembly, loss of the “wait \r\nanaphase” signal, and consequent progression into anaphase \r\n(Wang et al., 2014; Agarwal and Varma, 2015; Etemad and Kops, \r\n2016; Lara-Gonzalez et al., 2021).\r\nSilencing of this checkpoint, which is required for anaphase onset \r\nand mitotic exit, is thought to be initiated by the eviction of Mad1, a \r\nkey checkpoint effector that recruits the MCC protein Mad2 to \r\nunattached kinetochores (Chen et al., 1998; Hoffman et al., 2001; \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Luo et al., 2002; Sironi et al., 2002; De Antoni et al., 2005; \r\nMonitoring Editor\r\nKerry Bloom\r\nUniversity of North Carolina \r\nat Chapel Hill\r\nReceived: Apr 17, 2023\r\nAccepted: Apr 20, 2023\r\nThis article was published online ahead of print in MBoC in Press (http://www\r\n.molbiolcell.org/cgi/doi/10.1091/mbc.E23-04-0130) on April 26, 2023.\r\nAuthor contributions: J.G.D. and S.M.M. designed the study and wrote the manu\u0002script. A.H.I. performed and analyzed all of the assays and generated most of the \r\nfigures. K.F.D. provided technical support. O.W. and A.H.I. generated the CRISPR/\r\nCas9 DHC-GFP cell line. All authors participated in revising and editing the \r\nfigures and manuscript.\r\n*Address correspondence to: Steven M. Markus (steven.markus@colostate.edu); \r\nJennifer G. DeLuca (jennifer.deluca@colostate.edu).\r\n© 2023 Ide et al. This article is distributed by The American Society for Cell Biol\u0002ogy under license from the author(s). Two months after publication it is available \r\nto the public under an Attribution–Noncommercial-Share Alike 4.0 International \r\nCreative Commons License (http://creativecommons.org/licenses/by-nc-sa/4.0).\r\n“ASCB®,” “The American Society for Cell Biology®,” and “Molecular Biology of \r\nthe Cell®” are registered trademarks of The American Society for Cell Biology.\r\nAbbreviations used: APC/C, anaphase promoting complex/cyclosome; DHC, dy\u0002nein heavy chain; DIC, differential interference microscopy; IF, immunofluores\u0002cence; KMN, KNL1-Mis12-NDC80 complex; MCC, mitotic checkpoint complex; \r\nNz, nocodazole; RZZ, Rod-Zwilch-ZW10 complex; SAC, spindle assembly check\u0002point; SD, standard deviation. \r\nAmy H. Ide, Keith F. DeLuca, O’Neil Wiggan, Steven M. Markus*, and Jennifer G. DeLuca*\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Department of Biochemistry and Molecular Biology, Colorado State University, Fort Collins, Colorado 80523\n2 | A. H. Ide et al. Molecular Biology of the Cell\r\nFirestone et al., 2012; Ballister et al., 2014). Although it is known that \r\nstable, end-on kinetochore–microtubule attachments result in re\u0002moval of Mad1 and Mad2, the precise molecular events that trigger \r\ntheir eviction remain unclear. Checkpoint proteins are recruited to \r\nkinetochores by several distinct pathways (Silio et al., 2015), and \r\naccordingly, multiple mechanisms are thought to result in their \r\nremoval. For example, Mad1 and Mad2 are recruited to the outer \r\nkinetochore by the kinetochore-associated proteins KNL1 and Bub1, \r\nand also by the Rod/Zwilch/ZW10 (RZZ) complex (Brady and \r\nHardwick 2000; Buffin et al., 2005; Kops et al., 2005; London and \r\nBiggins, 2014a; Ji et al., 2017; Zhang et al., 2017; Fischer et al., \r\n2021; Lara-Gonzalez et al., 2021). Mad1 and Mad2 are additionally \r\nrecruited by cyclin B1 to a region of the kinetochore known as the \r\nfibrous corona (Allan et al., 2020). In light of these distinct recruit\u0002ment pathways, it is unsurprising that at least two mechanisms are \r\nthought to mediate removal of Mad1 and Mad2 from kinetochores: \r\n1) loss of kinetochore binding sites through phosphatase activity \r\n(hereafter referred to as the phosphatase pathway) and 2) transport \r\nalong microtubules by the minus end–directed microtubule motor \r\ncytoplasmic dynein-1 (hereafter referred to as the dynein pathway). \r\nThe former occurs in response to changes in the phosphorylation \r\nstatus of key kinetochore proteins, such as the MELT motifs on the \r\nkinetochore scaffold protein KNL1. It is well established that phos\u0002phorylation of these motifs by the Mps1 kinase is required for the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "recruitment of the checkpoint proteins Bub3, BubR1, and Bub1 \r\n(Larsen et al., 2007; London et al., 2012; Shepperd et al., 2012; \r\nYamagishi et al., 2012; Primorac et al., 2013; Ji et al., 2017). Mps1 \r\nhas also been shown to phosphorylate Bub1, which directly recruits \r\na population of Mad1 to kinetochores (London and Biggins, 2014a; \r\nJi et al., 2017; Zhang et al., 2017; Fischer et al., 2021). Upon micro\u0002tubule attachment, Mps1 is evicted from kinetochores (Hiruma et al., \r\n2015; Ji et al., 2015) and kinetochore phosphatases reverse Mps1-\r\nmediated phosphorylation events, leading to loss of kinetochore \r\nbinding sites for Bub1 and Mad1 (Nijenhuis et al., 2014; Saurin, \r\n2018; Moura and Conde, 2019; Garvanska and Nilsson, 2020).\r\nAlthough how the dynein pathway precisely contributes to \r\ncheckpoint silencing is poorly understood, dynein itself localizes \r\nprominently to unattached kinetochores, and delocalizes as kineto\u0002chores encounter microtubules (Pfarr et al., 1990; Steuer et al., \r\n1990; King et al., 2000; Howell et al., 2001). Given the minus end–\r\ndirected motility of this motor protein, the prevailing model posits \r\nthat dynein actively evicts Mad1, Mad2, and other proteins from \r\nproperly attached kinetochores by transporting them as cargoes to\u0002ward the spindle poles (Pfarr et al., 1990; Steuer et al., 1990; King \r\net al., 2000; Hoffman et al., 2001; Howell et al., 2001; Bader and \r\nVaughan, 2010; Wang et al., 2014; Agarwal and Varma, 2015; \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Lara-Gonzalez et al., 2021). Processive dynein motility requires its \r\nactivating complex dynactin (for dynein activator) and a cargo adap\u0002tor molecule (e.g., Hook3, BicD2) that links dynein and dynactin to \r\neach other and to their cargo (McKenney et al., 2014; Schlager \r\net al., 2014). The kinetochore-localized adaptor protein Spindly \r\n(McKenney et al., 2014; d’Amico et al., 2022), which localizes to ki\u0002netochores via the RZZ complex (Gassmann et al., 2008, 2010; \r\nBarisic et al., 2010; Gama et al., 2017; Mosalaganti et al., 2017; \r\nSacristan et al., 2018), has been implicated in providing this func\u0002tion, as mutations that disrupt its interaction with dynein and dynac\u0002tin strongly reduce their kinetochore association (Gassmann et al., \r\n2010; Sacristan et al., 2018). Consistent with a role for dynein in \r\ncheckpoint silencing, cells expressing such Spindly mutants exhibit \r\nincreased kinetochore association of Mad1 and Mad2 at meta\u0002phase, and a prolonged mitotic arrest (Barisic et al., 2010; Gassmann \r\net al., 2010). Complicating our understanding of dynein and Spindly \r\nin checkpoint silencing, however, is the fact that Mad2 delocalizes \r\nfrom aligned kinetochores in cells in which Spindly is depleted \r\n(Chan et al., 2009; Gassmann et al., 2010). Moreover, these cells \r\nonly exhibit a modest checkpoint delay. Thus, kinetochore dynein \r\nbecomes dispensable for checkpoint silencing in cells without Spin\u0002dly. Reconciling these seemingly contradictory findings is important \r\nto understand the roles of dynein and Spindly in the establishment \r\nand silencing of the spindle assembly checkpoint.\r\nIt is important to note that a number of SAC effectors, including \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Mad1, Mad2, Spindly, RZZ, and dynein-dynactin, are localized to a \r\nproteinaceous outer region of the kinetochore that is unique to \r\nthose that are unattached: the fibrous corona (Kops and Gassmann, \r\n2020). In conditions whereby kinetochores are experimentally pre\u0002vented from attaching to microtubules (e.g., in the presence of the \r\nmicrotubule depolymerizing agent nocodazole), the corona signifi\u0002cantly expands into large crescent-shaped structures, and in some \r\ncases nearly full rings that circumscribe the sister kinetochores (Ris \r\nand Witt, 1981; Rieder, 1982; Thrower et al., 1996; Hoffman et al., \r\n2001; Wynne and Funabiki, 2015). The prevailing model for corona \r\nfunction is that it promotes kinetochore–microtubule attachments \r\nby enabling lateral encounters between corona-localized microtu\u0002bule-binding proteins (e.g., dynein, CENP-F, and CENP-E) and mi\u0002crotubules (Magidson et al., 2011; Sacristan et al., 2018; Kops and \r\nGassmann, 2020). Such encounters, which are ultimately converted \r\nto mature end-on attachments, accelerate spindle assembly by sev\u0002eral minutes (Magidson et al., 2011). In spite of the presence of \r\nMad1 and Mad2 within the meshwork of the corona, it is currently \r\nunclear whether these corona-localized SAC effectors are capable \r\nof signaling a mitotic arrest. Although it has been postulated that \r\nthe corona functions in checkpoint signaling (Allan et al., 2020; \r\nKops and Gassmann, 2020), some evidence suggests otherwise \r\n(Rodriguez-Rodriguez et al., 2018). Finally, recent studies have \r\nfound that the RZZ complex and the dynein adaptor Spindly are all \r\nrequired for expansion of the corona, while dynein, which is re\u0002cruited by Spindly, is required for disassembly of this structure \r\n(Sacristan et al., 2018).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Central among the unanswered questions regarding kineto\u0002chore dynein function are the following: 1) What is dynein’s precise \r\nrole in checkpoint silencing? 2) Given the localization of SAC pro\u0002teins to both the fibrous corona and the outer kinetochore, is dy\u0002nein activity restricted to removing only a certain population? 3) \r\nHow are these motors activated to evict SAC effectors (i.e., does \r\ndynein sense and respond to kinetochore–microtubule attachment \r\nstatus)? With respect to this latter question, early experiments sug\u0002gested that “mature,” end-on microtubule attachments were not in \r\nfact required to initiate this process, but that lateral or transient ki\u0002netochore–microtubule attachments were sufficient. For example, \r\nobservations of the rapid reduction in kinetochore dynein levels \r\nshortly after nuclear envelope breakdown—well before stable at\u0002tachments are established—supported this idea (King et al., 2000; \r\nHowell et al., 2001). In addition, it has been shown that Mad2 evic\u0002tion from kinetochores occurs in cells lacking NDC80 complex com\u0002ponents and thus lacking stable kinetochore–microtubule attach\u0002ments (DeLuca et al., 2003). Such observations suggested that \r\ndynein need not be activated, per se, but that it simply requires a \r\nmicrotubule on which to walk. However, more recent studies have \r\nrefuted this idea, and suggested that stable, end-on attachments \r\nare indeed required for dynein to remove SAC protein cargo, and \r\nthat lateral attachments are not sufficient (Magidson et al., 2015; \r\nKuhn and Dumont, 2017). Determining the means by which dynein \r\nis activated to evict SAC effectors, and which population(s) it evicts, \r\nwill yield important insight into the mechanism by which this motor \nVolume 34 June 1, 2023 Dynein’s role in checkpoint silencing | 3\r\nsenses and/or responds to chromosome alignment status and mi\u0002totic progression.\r\nIn this study, we set out to determine the role of the dynein path\u0002way in eviction of SAC effectors from kinetochores. We find that \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "dynein’s role is restricted to removing proteins from the fibrous co\u0002rona, and not the outer kinetochore. We also find that SAC effectors \r\nwithin the corona are capable of signaling a checkpoint arrest from \r\na small number of unaligned chromosomes, and thus prevent chro\u0002mosome segregation errors in such situations. Finally, our results \r\nindicate that dynein function in the eviction of SAC proteins and in \r\ncheckpoint silencing becomes largely dispensable in cells in which \r\nSAC effectors can no longer accumulate at the corona. Based on our \r\ndata, we posit that the phosphatase pathway triggers SAC protein \r\nremoval only in response to kinetochore–microtubule attachment \r\nstatus, whereas dynein functions to prime kinetochores for check\u0002point silencing by specifically removing corona-localized SAC effec\u0002tors through indiscriminate encounters with microtubules.\r\nRESULTS\r\nThe majority of kinetochore Mad2 is evicted by the \r\nphosphatase pathway\r\nThe SAC protein Mad2 is thought to be evicted from kinetochores \r\nby at least two mechanisms: 1) loss of its kinetochore recruitment \r\nfactor, Mad1, in response to dephosphorylation events including \r\nthose on Bub1 and KNL1 (hereafter referred to as the phosphatase \r\npathway), and 2) transport away from kinetochores by the minus \r\nend–directed microtubule motor dynein. Although initiation of both \r\nof these pathways requires the presence of spindle microtubules \r\nduring an unperturbed mitosis, the precise role for microtubules in \r\nthese pathways, and the extent to which each pathway contributes \r\nto Mad2 eviction are unknown. To begin to determine the contribu\u0002tion of each of these two mechanisms to the eviction of Mad2 from \r\nkinetochores, we devised the following experimental scheme (Figure \r\n1A). Untransfected cells, or those expressing Mad2-GFP were ar\u0002rested in prometaphase by treatment with 5 µM nocodazole for \r\n16 h, which depolymerizes all spindle microtubules (see Figure 3A), \r\nand results in maximal Mad2 levels at kinetochores (see Figure 1, E \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "and F; t = −2.5 min). Checkpoint silencing was then initiated by treat\u0002ment with reversine, an inhibitor of the checkpoint kinase Mps1, \r\nwhich prevents phosphorylation of its multiple kinetochore targets, \r\nincluding the KNL1 MELT repeats and Bub1 (Santaguida et al., 2010; \r\nLondon et al., 2012; Shepperd et al., 2012; Yamagishi et al., 2012; Ji \r\net al., 2017; Fischer et al., 2021; Lara-Gonzalez et al., 2021). This \r\ntreatment mimics the loss of Mps1 from kinetochores which, in un\u0002perturbed cells occurs in response to the establishment of stable, \r\nend-on microtubule attachments (Hiruma et al., 2015; Ji et al., 2015). \r\nReversine addition is sufficient to silence the SAC and promote mi\u0002totic exit, even in situations in which there is a complete absence of \r\nmicrotubules (Santaguida et al., 2010). For most experiments, cells \r\nwere also treated with the proteasome inhibitor MG132, which pre\u0002cludes anaphase onset by preventing APC/C-dependent degrada\u0002tion of cyclin B1 and securin. Cells were then either imaged over \r\ntime using fluorescence microscopy to monitor Mad2-GFP levels at \r\nkinetochores, or were fixed 2 h after reversine treatment, and pro\u0002cessed for immunofluorescence.\r\nTo establish the appropriate conditions for this assay, we treated \r\ncells with either low (500 nM) or high (10 µM) concentrations of rever\u0002sine, and immunostained cells using antibodies against phosphory\u0002lated MELT domains in KNL1 (pMELT), which are direct targets of \r\nMps1 (London et al., 2012; Shepperd et al., 2012; Yamagishi et al., \r\n2012; Vleugel et al., 2013). Whereas treatment with 500 nM reversine \r\nreduced pMELT levels by 48.5%, 10 µM led to a 72.4% reduction \r\n(Figure 1B). Because of the more pronounced reduction in pMELT by \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "10 µM reversine, we chose to use this concentration for subsequent \r\nassays. Consistent with previous studies, in the absence of MG132 \r\nand in the presence of 5 µM nocodazole, treatment with this high \r\nconcentration of reversine led to loss of cyclin B1 (Figure 1C), and \r\nmitotic exit approximately 63 min after addition of the drug (Figure \r\n1D), indicating the time required by the phosphatase pathway to \r\npromote mitotic progression under these conditions.\r\nFluorescence intensity measurements from time-lapse movies \r\nrevealed that treatment with 10 µM reversine results in approxi\u0002mately 74% of kinetochore-associated Mad2 being evicted within \r\n2 h, with the majority being removed within the first few minutes \r\n(Figure 1, E and F). Nearly identical results were obtained from our \r\nfixed-cell experiments, in which cells were treated with 5 µM no\u0002codazole for 16 h, followed by the addition of reversine and MG132 \r\nfor 2 h, and then processed for immunofluorescence (Figure 1A, \r\nbottom, and 1G). Consistent with our pMELT staining, we noted a \r\ngreater reduction in Mad2 levels with high reversine treatment. \r\nGiven the complete lack of microtubules in these cells, these data \r\nsuggest that the eviction of this majority population of Mad2 is due \r\nto activation of the phosphatase pathway, which eliminates binding \r\nsites for Bub3/Bub1 on KNL1 (Saurin, 2018).\r\nIn contrast to Mad1 and Mad2, the SAC effector BubR1 has not \r\nbeen implicated as a dynein cargo (Howell et al., 2004; Famulski \r\net al., 2011), and thus is presumably evicted entirely via the phos\u0002phatase pathway. Much like Mad1/Mad2, however, BubR1 is re\u0002cruited to kinetochores in a manner that requires phosphorylation of \r\nthe KNL1 MELT motifs. Intensity measurements of nocodazole and \r\nreversine-treated BubR1-GFP–expressing cells revealed that BubR1 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "was reduced to almost undetectable levels within 10 min of rever\u0002sine addition (Figure 1, H and I). These results are consistent with the \r\nnotion that BubR1 is not a cargo of kinetochore dynein, and its evic\u0002tion from kinetochores likely occurs exclusively via dephosphoryla\u0002tion of kinetochore substrates of Mps1. Taken together, our data \r\nsuggest that the majority of Mad2 is evicted from kinetochores as a \r\nconsequence of dephosphorylation of kinetochore substrates, while \r\na minority relies on other means.\r\nDynein is required for the eviction of a minority population \r\nof kinetochore Mad2\r\nWe hypothesized that the population of kinetochore Mad2 remain\u0002ing after reversine treatment is a consequence of dynein having no \r\nmicrotubules on which to walk. To test this idea, we employed a Spin\u0002dly mutant that is unable to recruit dynein to kinetochores (Gassmann \r\net al., 2010). A previous study showed that Mad1 and Mad2 are re\u0002tained at aligned kinetochores in cells expressing SpindlyF258A, which \r\nperturbs one of three dynein-dynactin-binding domains in Spindly \r\n(Gassmann et al., 2010; Sacristan et al., 2018). Here, we employed a \r\nSpindly mutant in which all three dynein-dynactin-binding domains \r\nare perturbed (Spindly∆CCS) (Sacristan et al., 2018). The levels of Mad2 \r\nat kinetochores in early prometaphase and metaphase cells express\u0002ing either wild-type Spindly or Spindly∆CCS were measured. Consis\u0002tent with a role for Spindly in recruiting dynein-dynactin to kineto\u0002chores, cells expressing Spindly∆CCS exhibited significantly reduced \r\nlevels of the dynactin component p150Glued at early prometaphase \r\nkinetochores (Figure 2, A–C). Whereas cells expressing wild-type \r\nSpindly exhibited a 94% reduction in kinetochore Mad2 levels from \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "early prometaphase to metaphase, those expressing Spindly∆CCS only \r\nexhibited a 78% reduction, suggesting that dynein is required for \r\neviction of only 16% of Mad2 (Figure 2, D and E). In contrast to Mad2, \r\nwe found that Mps1 is not evicted as a consequence of dynein activ\u0002ity by comparing the relative extent of phosphorylated KNL1 MELT \n4 | A. H. Ide et al. Molecular Biology of the Cell\r\nFIGURE 1: Reversine-initiated eviction properties of Mad2 and BubR1 in the absence of microtubules. (A) Timeline \r\nof workflow for live-cell (top) and fixed-cell (bottom) experiments (Nz, nocodazole; IF, immunofluorescence). (B) Normalized \r\nfluorescence intensity levels of kinetochore-associated phospho-MELT (pMELT) staining in fixed cells treated with indicated \r\nconcentration of reversine (n = 58 cells from 3 replicates for 0 and 0.5 µM reversine conditions, 20 cells from 2 replicates \r\nfor 10 µM reversine condition). (C) Representative time-lapse images of live cyclin-B1-mCherry–expressing HeLa cells \nVolume 34 June 1, 2023 Dynein’s role in checkpoint silencing | 5\r\nmotifs (i.e., pMELT) at early prometaphase and metaphase kineto\u0002chores in cells expressing either wild-type Spindly or Spindly∆CCS\r\n(Figure 2F). Taken together with our findings described above, these \r\nresults suggest that a majority of Mad2 (∼74–84%) is evicted from ki\u0002netochores by the phosphatase pathway (which is triggered by stable \r\nkinetochore–microtubule attachments during an unperturbed mito\u0002sis), while only a small population requires dynein.\r\nTo further investigate the eviction requirements of this dynein\u0002dependent population, we sought to determine the extent to which \r\nkinetochore Mad2 is reduced in cells in which the dynein pathway is \r\nactive, but the phosphatase pathway is inhibited. To this end, we \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "measured the extent of Mad2 reduction in cells containing short mi\u0002crotubule “tufts” in the vicinity of kinetochores and chromosomes. \r\nWe reasoned that such microtubules, generated with lower (0.5 µM) \r\nconcentrations of nocodazole (Figure 3A), would provide dynein \r\nwith tracks on which it could transport Mad2 away from kineto\u0002chores. However, these tufts are likely insufficient to establish the \r\nstable attachments to kinetochores that are required to robustly trig\u0002ger the phosphatase pathway, and thus silence the SAC (Etemad \r\net al., 2015; Hiruma et al., 2015; Ji et al., 2015; Tauchman et al., \r\n2015). As shown in Figure 3B, a 16 h incubation in 0.5 µM no\u0002codazole results in a significant reduction in kinetochore-associated \r\nMad2 (relative to 5 µM nocodazole-treated cells), suggesting that \r\nthe presence of these microtubule tufts is sufficient to initiate evic\u0002tion of Mad2, likely as a consequence of dynein motility. Subsequent \r\ntreatment of these cells with reversine reduced Mad2 to undetect\u0002able levels, indicating that the remaining kinetochore-associated \r\nMad2 molecules require the phosphatase pathway for removal \r\n(compared with an ∼70% reduction of Mad2 after reversine addition \r\nto cells treated with 5 µM nocodazole; Figure 3B).\r\nNotably, the extent of the tuft-initiated Mad2 eviction was \r\ngreater than expected based on our data with Spindly∆CCS (Figure \r\n2E). One possibility to account for this greater than expected reduc\u0002tion in Mad2 is that the tufts are capable of establishing weak and/\r\nor transient end-on attachments that are sufficient to evict a fraction \r\nof Mps1 by inducing architectural changes within the kinetochore \r\n(Etemad et al., 2015; Tauchman et al., 2015), thus partially activating \r\nthe phosphatase pathway. To determine whether this was the case, \r\nwe assessed the extent of Mps1 phosphorylation of the KNL1 MELT \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "motifs (pMELT)—a readout for the phosphatase pathway—after \r\ntreating cells with either 5 or 0.5 µM nocodazole for 16 h (London \r\net al., 2012; Shepperd et al., 2012; Zhang et al., 2017). This revealed \r\nthat the levels of Mps1 phosphorylation of KNL1 are 43.2% lower \r\nafter incubating cells in 0.5 µM nocodazole compared with 5 µM \r\nnocodazole-treated cells (Figure 3C), indicating that kinetochore \r\nMps1 levels are reduced by the presence of microtubule tufts. Thus, \r\nsome of the Mad2 eviction noted in Figure 3B (∼43%) can indeed be \r\naccounted for by the activation of the phosphatase pathway by mi\u0002crotubule tufts, whereas the remaining ∼24% is likely due to dynein \r\nindiscriminately evicting Mad2 as a consequence of kinetochores \r\nencountering a microtubule track.\r\nTaken together, these results demonstrate that the checkpoint \r\neffector Mad2 is evicted from kinetochores by at least two mecha\u0002nisms: 1) one that results from loss of sustained Mps1 activity and \r\nsubsequent kinetochore substrate dephosphorylation (the phos\u0002phatase pathway), and 2) one that relies on dynein-mediated trans\u0002port activity along kinetochore-associated microtubules. Further, \r\nthey suggest that indiscriminate microtubule encounters with kinet\u0002ochores (e.g., nonstable attachments) are sufficient to evict some \r\nfraction of SAC effectors from kinetochores.\r\nDynein specifically evicts corona-associated Mad2 from \r\nkinetochores\r\nMad2 has been mapped to at least two distinct locations within the \r\nkinetochore: 1) the outer kinetochore, which contains the “KMN” \r\n(KNL1/Mis12 complex/Ndc80 complex) network that is responsible \r\nfor the force-transducing microtubule-binding activity at kineto\u0002chores, and 2) the fibrous corona, which is an expandable meshwork \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "of proteins assembled on the outer kinetochore (Kops and \r\nGassmann, 2020). In light of the contribution of both the phospha\u0002tase and dynein pathways to Mad2 eviction, we wondered whether \r\ndynein specifically removes one of these populations of Mad2, \r\nwhile the phosphatase pathway removes the other. To test this idea, \r\nwe assessed the role of the dynein pathway in Mad2 eviction in cells \r\ntreated with 5 µM nocodazole for 16 h, and then treated with 10 µM reversine (at time = 0 min) during imaging. (D) Mitotic \r\nduration (for experiment shown in panel C) as determined from the reduction in cyclin-B1-mCherry fluorescence levels to \r\nundetectable levels (n = 47 cells from 2 independent replicates, which are indicated by different shades of green). Mean ±\r\nSD is shown. (E, F) Representative images and quantitation of live Mad2-GFP–expressing HeLa cells imaged before and \r\nafter the addition of 10 µM reversine (added at time = 0). Red arrow indicates residual Mad2 signal remaining at \r\nkinetochores 47.5 min after reversine addition. Normalized and photobleaching-corrected fluorescence intensity levels of \r\nMad2-GFP are plotted (n = 23 cells from 2 replicates). Black arrow indicates the average mitotic duration following \r\nreversine treatment, as shown in panel D. The data were fit (green dashed line; overlaid with 95% confidence interval \r\nindicated with shaded green) to a two-phase exponential decay with t1/21 = 34.0 min, and t1/22 = 1.3 min (R2 = 0.96). \r\n(G) Normalized fluorescence intensity levels of kinetochore-associated endogenous Mad2 (via immunostaining) in cells \r\ntreated with indicated concentration of reversine (n = 59 cells from 3 replicates for 0 and 0.5 µM reversine conditions, \r\n20 cells from 2 replicates for 10 µM reversine condition). (H, I) Representative images and quantitation of BubR1-GFP–\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "expressing HeLa cells imaged before and after the addition of 10 µM reversine (added at time = 0). Note the lack of \r\nfluorescence signal remaining at kinetochores within 7.5 min of reversine addition. Normalized and photobleaching\u0002corrected fluorescence intensity levels of BubR1-GFP are plotted (n = 17 cells from two replicates). Black arrow indicates \r\nthe average mitotic duration following reversine treatment, as shown in panel D. The data were fit (green dashed line; \r\noverlaid with 95% confidence interval indicated with shaded green) to a one-phase exponential decay with t1/2 = 2.0 min \r\n(R2 = 0.99). To account for the time lag between acquiring the prereversine image and the first postreversine image \r\n(∼2.5 min), we assumed the intensity values for the 0 time point for Mad2- and BubR1-GFP were equal to that of the \r\nprereversine addition time point (dashed light-green circle). Insets for both F and I indicate mean normalized intensity of \r\nMad2- and BubR1-GFP at the beginning (t = −2.5 min) and end (t = 117.5 min) of the imaging period. For panels B and \r\nE–I, 10 µM MG132 was included to prevent mitotic exit. All scale bars = 10 µm. Statistical significance was determined \r\nby comparing means using Brown-Forsythe and Welch one-way ANOVA tests.\n6 | A. H. Ide et al. Molecular Biology of the Cell\r\nthat are compromised for assembly of the fibrous corona. We rea\u0002soned that if dynein’s role is to evict only the corona population, \r\nthen eliminating the corona would obviate the need for dynein-me\u0002diated removal of kinetochore Mad2 along microtubules. To this \r\nend, we depleted cells of Spindly, which leads to significantly \r\nreduced coronas even in the presence of 5 µM nocodazole (Figure 4, \r\nA and B; Sacristan et al., 2018). In the control experiment, the addi\u0002tion of reversine to nocodazole-treated cells reduced Mad2 to \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "30.2%. However, the addition of reversine to nocodazole-treated \r\ncells depleted for Spindly reduced Mad2 to undetectable levels \r\n(Figure 4, C and D). This total loss of Mad2 from kinetochores by \r\nreversine in spite of the complete absence of microtubules supports \r\nthe notion that the corona population of Mad2 is the only popula\u0002tion removed by the dynein pathway.\r\nFIGURE 2: Dynein is required for the eviction of a minority population of Mad2 from kinetochores. (A) Representative \r\nimmunofluorescence images depicting relative Spindly and p150Glued levels in either early prometaphase (“prometa”) or \r\nmetaphase cells (identified from an asynchronous population) depleted for Spindly and expressing either wild-type or \r\nmutant Spindly, as depicted. (B, C) Plots depicting normalized kinetochore p150Glued or Spindly intensity levels in cells \r\nshown in panel A (n = 1560 kinetochores from 78 cells from 2 replicates for p150; 1340 kinetochores from 67 cells from \r\n2 replicates for Spindly). (D) Representative immunofluorescence images depicting relative Spindly and Mad2 levels in \r\neither early prometaphase or metaphase cells (identified from an asynchronous population) expressing either wild-type \r\nor mutant Spindly. (E) Plot depicting normalized kinetochore Mad2 intensity levels in cells shown in panel D (n = 2020 \r\nkinetochores from 101 cells, from 2 replicates). (F) Plots depicting normalized kinetochore pMELT (antibody directed at \r\nphosphorylated KNL1) intensity levels for early prometaphase or metaphase cells expressing either wild-type or mutant \r\nSpindly, as depicted (n = 2100 kinetochores from 105 cells from 3 replicates). All scale bars = 5 µm. Statistical \r\nsignificance was determined by comparing means using a Student’s t test with Welch’s correction.\nVolume 34 June 1, 2023 Dynein’s role in checkpoint silencing | 7\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "To confirm the above findings, and to use an experimental ap\u0002proach that does not impact the recruitment of dynein to kineto\u0002chores (as Spindly depletion does; Gassmann et al., 2010), we \r\nused a CRISPR/Cas9-generated Mad1 knockout cell line express\u0002ing either transgenic wild-type Mad1 or a mutant version of Mad1, \r\nMad13EK. This mutant is compromised in its ability to bind corona\u0002localized cyclin B1, but localizes normally to the outer kinetochore \r\n(Allan et al., 2020). We treated these cells with either 5 µM no\u0002codazole and MG132, or 5 µM nocodazole plus 10 µM reversine \r\nand MG132. As expected, Mad2 failed to localize to the corona in \r\nthe Mad13EK-expressing cells after treatment with 5 µM no\u0002codazole and MG132, and instead was observed as paired dots, \r\nindicative of localization only to the outer kinetochore (Figure 4E; \r\nsee insets). Whereas treating wild-type cells with reversine re\u0002duced kinetochore Mad2 levels to 39%, the same treatment of \r\nMad13EK-expressing cells reduced Mad2 at the kinetochore to al\u0002most undetectable levels (Figure 4, E and F). These results, which \r\nare consistent with our Spindly depletion data, support the idea \r\nthat the population of Mad2 that relies on the dynein pathway for \r\neviction specifically resides at the corona and not the outer \r\nkinetochore.\r\nIf the dynein pathway is solely responsible for evicting the co\u0002rona-localized population of SAC effectors from kinetochores, this \r\nwould suggest that the phosphatase pathway plays little to no role \r\nin eviction of checkpoint proteins from the corona. Thus, dynein and \r\nits cargoes at the corona would be predicted to be largely refractory \r\nto reversine treatment. To test this idea, we assessed the localization \r\ndynamics of kinetochore-associated dynein using a CRISPR/Cas9-\r\nengineered HeLa cell line in which the dynein heavy chain \r\n(DYNC1H1) is endogenously tagged with mClover at its C terminus \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "(hereafter referred to as DHC-mClover). Time-lapse imaging of \r\nthese cells revealed that they progress through mitosis normally, \r\nwith an average time from nuclear envelope breakdown to ana\u0002phase of 44 ± 19 min (mean ± SD; n = 13 cells; see Figure 5A for \r\nrepresentative images). Consistent with previous observations, \r\ntreating DHC-mClover cells with high concentrations of nocodazole \r\nleads to the accumulation of dynein at the fibrous corona (Figure 5, \r\nB and F). Although the addition of reversine reduced total kineto\u0002chore dynein levels in cells without microtubules (due to the pres\u0002ence of 5 µM nocodazole; Figure 5, C and E), the morphological \r\nappearance of the coronas remained unchanged (Figure 5B, right \r\npanels), suggesting that corona-localized dynein is largely refractory \r\nFIGURE 3: Microtubule tufts are sufficient to evict a subpopulation of Mad2 from kinetochores. (A) Representative \r\nimmunofluorescence images depicting the degree of microtubule depolymerization by 5.0 and 0.5 µM nocodazole. Cells \r\nwere incubated overnight in the indicated concentration of nocodazole, and then processed for immunofluorescence. \r\nNote the presence of microtubule “tufts” after incubation in 0.5 µM nocodazole, but a complete lack of microtubules \r\nafter incubation in 5.0 µM nocodazole. (B) Representative images and quantitation of cells treated overnight with the \r\nindicated concentration of nocodazole, and then either processed for immunofluorescence, or treated for an additional \r\n2 h with 10 µM reversine (plus MG132) and then processed for immunofluorescence. Plot (means ± SD) indicates relative \r\nkinetochore Mad2 levels in cells treated as indicated (n = 1580 kinetochores from 79 cells, 2 replicates; different shades \r\nof blue and orange indicate different replicates). (C) Representative images of cells treated overnight with the indicated \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "concentration of nocodazole, and then processed for immunofluorescence to determine extent of KNL1 MELT \r\nphosphorylation. Plot (means ± SD) indicates relative kinetochore pMELT levels in cells treated as indicated (n = 380 \r\nkinetochores from 19 cells). All scale bars = 5 µm. Statistical significance was determined by comparing means using \r\nBrown-Forsythe and Welch one-way ANOVA tests (B) or by comparing means using a Student’s t test with Welch’s \r\ncorrection (C).\n8 | A. H. Ide et al. Molecular Biology of the Cell\r\nFIGURE 4: The phosphatase pathway is sufficient to evict all kinetochore-associated Mad2 in cells lacking coronas. \r\n(A) Representative fluorescence images of Mad2 or Spindly in HeLa cells treated with either control or Spindly siRNA, \r\ntreated with 5 µM nocodazole for 12 h, and then processed for immunofluorescence. Note the distinct corona \r\nmorphology in control cells compared with paired dots in the siSpindly treated cells. (B) Plot (means ± SD) depicting \r\nnormalized kinetochore levels of Spindly or Mad2 in control or siSpindly treated cells (n ≥ 1440 kinetochores from \r\n72 cells, from 2 replicates; different shades of green and red indicate different replicates). (C, D) Representative \r\nfluorescence images and quantitation of Spindly and Mad2 (Hec1 was used as a kinetochore marker) in HeLa cells \r\ntreated with either control or Spindly siRNA, treated with 5 µM nocodazole for 12 h, and then either processed for \r\nimmunofluorescence, or treated with 10 µM reversine (plus MG132) for 2 h before processing. Plot (means ± SD) depicts \r\nnormalized kinetochore levels of Mad2 in control or siSpindly treated cells (n ≥ 1440 kinetochores from 72 cells, \r\n2 replicates; different shades of green and red indicate different replicates). (E, F) Representative fluorescence images \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "and quantitation of Mad2 in 5 µM nocodazole-treated cells expressing either wild-type Mad1 or Mad13EK in cells lacking \r\nendogenous Mad1 (see Materials and Methods). Cells were either processed for immunofluorescence after overnight \r\nincubation in 5 µM nocodazole, or treated with 10 µM reversine (plus MG132) for 2 h before processing. Plot (means ±\r\nSD) depicts normalized kinetochore levels of Mad2 in indicated cells (n ≥ 1600 kinetochores from 80 cells, 2 replicates; \r\ndifferent shades of green and yellow indicate different replicates). Scale bar = 5 µm. Statistical significance was \r\ndetermined by comparing means using a Student’s t test with Welch’s correction (B), or by comparing means using \r\nBrown-Forsythe and Welch one-way ANOVA tests (D and F).\nVolume 34 June 1, 2023 Dynein’s role in checkpoint silencing | 9\r\nto reversine treatment. Note that we observed similar results with \r\nMad2 and Spindly (see insets for control cells in Figure 4, C and E), \r\nand a recent study noted the same for Rod after treatment with the \r\nMps1 inhibitor Cpd-5 (Sacristan et al., 2018). In contrast, overnight \r\nincubation of DHC-mClover cells in 0.5 µM nocodazole (to produce \r\nmicrotubule tufts) reduced total kinetochore dynein levels to a \r\ngreater extent than reversine alone, that was further reduced by the \r\naddition of reversine (Figure 5, D and E). Close inspection of the 0.5 \r\nµM nocodazole-treated cells revealed that they possessed fewer ki\u0002netochores with expanded coronas. Of note, the majority of the \r\ncorona-free kinetochores were observed in the vicinity of the micro\u0002tubule tufts, while those with expanded coronas were more likely to \r\nbe distal from the tufts (Figure 5F, bottom panels). The fact that a \r\npopulation of kinetochores was not in contact with a microtubule \r\ntuft—at least at the time of fixation—likely explains the incomplete \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "removal of dynein observed in 0.5 µM nocodazole (Figure 5E). \r\nThese data indicate that corona-localized dynein, and likely its effec\u0002tors, are not evicted via the phosphatase pathway, but instead rely \r\non the dynein pathway.\r\nCorona-localized Mad2 contributes to inhibitory “wait \r\nanaphase” checkpoint signals\r\nOur results thus far indicate that dynein functions to specifically re\u0002move the corona-localized population of Mad2 from kinetochores. \r\nIn light of previous studies demonstrating a requisite role for dynein \r\nin silencing the SAC (Chan et al., 2009; Gassmann et al., 2010), \r\nthese data suggest that corona-localized Mad2 is capable of gener\u0002ating an inhibitory “wait anaphase” signal. Although recent evi\u0002dence suggests the corona can indeed signal a checkpoint arrest \r\n(Allan et al., 2020), a previous study found that cells deficient in co\u0002rona expansion (by expressing the mutant Rod2A) exhibit no defects \r\nin checkpoint signaling when treated with 660 nM nocodazole \r\n(Rodriguez-Rodriguez et al., 2018). Importantly, treatment with this \r\nconcentration of nocodazole leads to a large number of unattached \r\nkinetochores. Therefore, we reasoned that the corona may be dis\u0002pensable for checkpoint signaling under such conditions, in which \r\nthe activity of outer kinetochore-localized Mad2 on a large number \r\nof unattached kinetochores likely produces a sufficiently strong in\u0002hibitory signal to preclude anaphase onset. In contrast, in situations \r\nin which the majority of kinetochores are stably attached to microtu\u0002bules, and only a small number remain unattached, corona-associ\u0002ated Mad2 may become required to generate a sufficiently strong \r\ninhibitory signal to arrest anaphase onset. The large number of \r\ncheckpoint effectors found within a single expanded corona may \r\nprovide the cell with a sufficiently large number of molecules to gen\u0002erate the inhibitory signal.\r\nTo determine whether the corona can indeed generate an inhibi\u0002tory signal in such situations, we treated cells with a very low dose of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "nocodazole (25 nM), which causes a small number of misaligned \r\nchromosomes per cell (from one to three; Figure 6A, arrows). We \r\nused stable cells expressing either wild-type GFP-Rod or GFP-Rod2A\r\n(depleted of endogenous Rod) to permit or restrict corona expan\u0002sion, respectively (Rodriguez-Rodriguez et al., 2018). As a measure \r\nof checkpoint function, we assessed mitotic timing in these cells. \r\nThis revealed that cells expressing wild-type Rod are competent to \r\nsignificantly delay anaphase onset in 25 nM nocodazole; however, \r\ncells expressing Rod2A exited mitosis with no checkpoint delay in \r\nspite of the presence of unaligned chromosomes (Figure 5, B and \r\nC). These results are in contrast to those obtained using cells treated \r\nwith higher doses of nocodazole (660 nM), in which many kineto\u0002chores are unattached, and both wild-type Rod and Rod2A-express\u0002ing cells exhibit a robust mitotic arrest (Figure 5B). Of note, consis\u0002tent with previous studies (Chan et al., 2000; Basto et al., 2004; \r\nFamulski et al., 2011), we observed wild-type GFP-Rod clearly ac\u0002cumulating at the spindle poles in wild-type cells. This localization \r\npattern has been attributed to dynein-mediated transport of kineto\u0002chore cargoes along microtubules to spindle poles (Figure 6C, top \r\ninsets; Howell et al., 2001; DeLuca et al., 2003; Chan et al., 2009; \r\nGassmann et al., 2010; Famulski et al., 2011; Silva et al., 2014). This \r\nlocalization pattern was apparent in significantly fewer Rod2A-ex\u0002pressing cells (Figure 6C, bottom insets, and Figure 6D). This lends \r\nfurther support to the notion that dynein’s role in checkpoint silenc\u0002ing is restricted to the transport and consequent eviction of corona\u0002localized effectors, and not those at the outer kinetochore.\r\nTo validate the role of the corona in checkpoint silencing, we \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "used the Mad13EK cells in which Mad1 and Mad2 do not localize to \r\nthe corona. Consistent with the above results, wild-type Mad1-\r\nexpressing cells exhibited a more robust checkpoint delay in the \r\npresence of 25 nM nocodazole than those expressing Mad13EK\r\n(Figure 6E). Much like with the Rod2A-expressing cells, high concen\u0002trations of nocodazole were sufficient to induce a robust mitotic \r\ndelay in Mad13EK-expressing cells, indicating that the checkpoint \r\nmachinery is largely intact (Figure 6F). Taken together, these find\u0002ings indicate that the corona is dispensable for SAC signaling in the \r\npresence of many unattached kinetochores, but that corona-local\u0002ized Mad2 becomes essential to initiate a mitotic arrest when there \r\nare only a small number of unattached kinetochores.\r\nDependence on dynein for checkpoint silencing is reduced \r\nin the absence of the corona\r\nIn light of our findings that the dynein pathway is restricted to evict\u0002ing checkpoint effectors from the corona, and not the outer kineto\u0002chore, we hypothesized that dynein would become dispensable for \r\ncheckpoint silencing in cells without corona-localized Mad1 and \r\nMad2. To test this idea, we expressed either wild-type Spindly or \r\nSpindly∆CCS in cells expressing either wild-type Mad1, or Mad13EK\r\n(the latter to prevent Mad1 and Mad2 corona localization). Cells \r\nexpressing Spindly∆CCS are unable to recruit dynein to kinetochores, \r\nbut are competent for corona expansion (Gassmann et al., 2010; \r\nSacristan et al., 2018). We measured the mitotic index of each as a \r\nreadout of checkpoint function. While cells expressing Spindly∆CCS\r\nand wild-type Mad1 exhibited a mitotic index of 63.9% (Figure 7A), \r\nindicative of a robust mitotic arrest, those expressing Spindly∆CCS\r\nand Mad13EK had a significantly lower mitotic index (30.8%), sug\u0002gesting that the absence of checkpoint signaling molecules at the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 488,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "corona permits cells to overcome the lack of kinetochore-associated \r\ndynein.\r\nTo explore this further, we performed time-lapse imaging of \r\nthese cells and measured their mitotic duration. As shown in Figure \r\n7B, cells expressing wild-type Spindly, irrespective of Mad1 and \r\nMad2 localization to the corona, exited mitosis with normal timing. \r\nConsistent with the importance of kinetochore dynein in checkpoint \r\nsilencing (Gassmann et al., 2010), cells expressing Spindly∆CCS and \r\nwild-type Mad1 exhibited a robust mitotic arrest, with only a small \r\nfraction of cells (8%) exiting mitosis over the course of imaging \r\n(15 h). However, the fraction of Spindly∆CCS and Mad13EK-expressing \r\ncells that exited mitosis during the imaging period was significantly \r\ngreater (49%; Figure 7B). Although we cannot rule out that these \r\ncells exit mitosis due to slightly weaker checkpoint function (as \r\nshown in Figure 6, B and E; Allan et al., 2020), taken together with \r\nour other data, these findings strongly suggest that dynein’s func\u0002tion in silencing the SAC is primarily to remove checkpoint effectors \r\nfrom the fibrous corona. These observations also explain previous \r\nresults which found that depletion of Spindly, which prevents both \n10 | A. H. Ide et al. Molecular Biology of the Cell\r\nFIGURE 5. The phosphatase pathway is not sufficient to disassemble the fibrous corona. (A) Representative time-lapse \r\nfluorescence images of CRISPR/Cas9 DHC-mClover cells progressing through mitosis. Scale bar = 10 µm. \r\n(B) Representative time-lapse fluorescence images of DHC-mClover cells treated with 5 µM nocodazole overnight and \r\nthen imaged for 2 h in the absence (left) or presence of 10 µM reversine for 2 h (right). MG132 (10 µM) was included to \r\nprevent mitotic exit. Note the distinct corona morphology for DHC-mClover remains even after 2 h in reversine, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "suggesting that reversine reduces levels of kinetochore dynein, but does not trigger disassembly of the corona. Scale \r\nbar = 5 µm. (C, D) Representative time-lapse fluorescence images and quantitation of relative DHC-mClover levels in \r\nHeLa cells arrested in either (C) 5 µM or (D) 0.5 µM nocodazole (both with 10 µM MG132), and then treated with 10 µM \r\nreversine (at time = 0 min). Intensity values were corrected for photobleaching as described in Materials and Methods\r\n(n = 51 cells from 5 replicates for 5 µM; 24 cells from 2 replicates for 0.5 µM). The data (means ± SD) were fit (green or \r\norange dashed lines; overlaid with 95% confidence interval indicated with shaded green or orange) to one-phase \r\nexponential decays with of t1/25 µM = 47.8 min and t1/20.5 µM = 15.9 min. To account for the time lag between acquiring the \r\nprereversine image and the first postreversine image (∼2.5 min), we assumed the intensity values for the 0 time point for \nVolume 34 June 1, 2023 Dynein’s role in checkpoint silencing | 11\r\ncorona formation and recruitment of dynein to kinetochores, does \r\nnot preclude SAC silencing (Chan et al., 2009; Gassmann et al., \r\n2010).\r\nWe noted that although expression of Spindly∆CCS and Mad13EK\r\nenabled cells to exit mitosis to a greater extent than those express\u0002ing Spindly∆CCS and wild-type Mad1, they did not reach the same \r\ndegree of mitotic exit as wild-type cells. To investigate the potential \r\ncause for this discrepancy, we expressed histone H2B-mCherry (to \r\nlabel chromosomes) in these cells, and performed time-lapse imag\u0002ing to monitor mitotic progression and chromosome alignment. \r\nThis revealed that cells expressing Spindly∆CCS, either with wild-type \r\nMad1 or with Mad13EK, exhibited significant delays in aligning their \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 471,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "chromosomes (Figure 7C), thus likely explaining their overall mitotic \r\ndelay. These data are consistent with a role for kinetochore dynein \r\nin chromosome alignment (Varma et al., 2008).\r\nDISCUSSION\r\nAlthough dynein has been shown to be a critical effector of check\u0002point silencing, its precise role in this process has remained elusive. \r\nHere we find that dynein’s role in silencing the spindle assembly \r\ncheckpoint is to specifically remove checkpoint effectors (e.g., Mad1 \r\nand Mad2) from the fibrous corona, and not the outer kinetochore \r\n(Figure 8). This model is based on several findings presented here, \r\nincluding the following: 1) microtubules, and thus the dynein path\u0002way, are required for the reversine-initiated eviction of a population \r\nof kinetochore Mad2; 2) the phosphatase pathway is sufficient to \r\ninitiate complete removal of kinetochore Mad2 in cells lacking co\u0002rona-localized checkpoint effectors (e.g., those depleted for Spin\u0002dly, Rod2A cells, or Mad13EK cells); 3) Rod, a kinetochore-localized \r\ndynein cargo, accumulates at spindle poles to a much lesser extent \r\nin cells lacking Rod from coronas, suggesting that dynein does not \r\ntransport outer kinetochore-localized checkpoint effectors to the \r\npoles; 4) the phosphatase pathway is not sufficient to remove dy\u0002nein, Mad2, or RZZ from the fibrous corona (Sacristan et al., 2018); \r\nand 5) dynein function in checkpoint silencing becomes largely dis\u0002pensable in cells lacking corona-localized checkpoint effectors. For \r\nthis model to be true, it would require that the corona-localized pool \r\nof checkpoint effector molecules be capable of eliciting a check\u0002point arrest, which we find is also the case. Interestingly, this popula\u0002tion of SAC effectors is not absolutely required for checkpoint func\u0002tion, but becomes important in situations in which a small number of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "chromosomes are misaligned. Our findings also resolve a long\u0002standing mystery in the field: why does depletion of Spindly com\u0002promise checkpoint function, whereas a Spindly mutant that is sim\u0002ply defective for dynein-dynactin recruitment maintains a strong \r\ncheckpoint arrest? Our data indicate the reason for this discrepancy \r\nis simply that depletion of Spindly not only prevents dynein recruit\u0002ment to kinetochores, but also severely compromises corona expan\u0002sion, thus obviating the need for dynein in SAC silencing.\r\nIn light of dynein’s reliance on dynactin and a cargo adaptor \r\n(e.g., Spindly) for activity (McKenney et al., 2014; Schlager et al., \r\n2014), and that dynein localization to kinetochores requires Spindly \r\nand dynactin (Gassmann et al., 2010; Raaijmakers et al., 2013), it \r\nseems likely that dynein becomes active for motility simply as a con\u0002sequence of its recruitment to this site. This raises the question of \r\nwhether dynein requires additional signals to initiate eviction of ki\u0002netochore-localized SAC effectors. Although a previous study sug\u0002gested that stable end-on attachments are required to trigger ki\u0002netochore dynein activity (Kuhn and Dumont, 2017), our work \r\nindicates that a subset of kinetochore dynein motors simply respond \r\nto the presence of a microtubule. This is also supported by previ\u0002ously published data demonstrating that dynein and its kinetochore \r\ncargoes are largely removed shortly after nuclear envelope break\u0002down, long before establishment of stable kinetochore–microtubule \r\nattachments (King et al., 2000; Howell et al., 2001). Thus, unlike \r\nouter kinetochore-localized checkpoint effectors that require stable \r\nend-on attachments to trigger their complete removal, dynein nei\u0002ther senses nor responds to attachment status per se. Rather, we \r\nposit that dynein’s role is to prime the kinetochore for checkpoint \r\nsilencing by removing corona-associated SAC effectors, such that \r\nupon establishment of stable end-on attachments, the rapid phos\u0002phatase-mediated eviction of the outer kinetochore-localized pool \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "of SAC effectors quickly results in mitotic exit.\r\nOur findings raise an interesting question regarding the potential \r\ncoevolution of kinetochore dynein with the fibrous corona. It is well \r\nestablished that some organisms with fibrous coronas indeed pos\u0002sess kinetochore dynein (e.g., humans, Xenopus laevis, Caenorhab\u0002ditis elegans, Drosophila melanogaster, Potorous tridactylus; \r\nCassimeris et al., 1990; Pfarr et al., 1990; Howell et al., 2001; Basto \r\net al., 2004; Stear and Roth, 2004; Cane et al., 2013; Wynne and \r\nFunabiki, 2015; Pereira et al., 2018); however, a smaller number of \r\norganisms that are known to employ cytoplasmic dynein-1 (e.g., \r\nSaccharomyces cerevisiae, Schizosaccharomyces pombe) do not lo\u0002calize this motor to kinetochores. These same organisms also ap\u0002pear to lack coronas, suggesting that these two phenomena are \r\npotentially interrelated. In support of a coevolutionary relationship, \r\nthe molecules responsible for recruiting dynein to the kinetochore \r\nare also responsible for corona expansion. In addition to Spindly, \r\nexpansion of the fibrous corona relies on the upstream recruitment \r\ncomplex RZZ. Although this provides a likely molecular basis for the \r\nentwined development of these two phenomena, we can only spec\u0002ulate as to the physiological necessity of the corona. Those organ\u0002isms with fibrous coronas may rely on them for their chromosome \r\ncapture function (via microtubule-binding proteins localized to this \r\nstructure), and/or to signal a checkpoint arrest in situations in which \r\none or two chromosomes are unaligned, both of which reduce the \r\nlikelihood of chromosome segregation errors. Budding yeast in par\u0002ticular may not require these corona functions due to the fact that \r\ntheir kinetochores are attached to spindle microtubules during most \r\nof the cell cycle, including G1 and M phases (Guacci et al., 1997; Jin \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "et al., 2000; Winey and O’Toole, 2001; Tanaka et al., 2002), and thus \r\nhave a low probability of misalignment. Alternatively, the smaller \r\ncell/nuclear size of yeasts compared with metazoa, and the conse\u0002quent smaller distance between potentially misaligned chromo\u0002somes and the mitotic spindle might also obviate the need for these \r\ncorona functions.\r\nTaken together, our data support the following model for evic\u0002tion of SAC effectors from kinetochores (Figure 8). In early mitosis, \r\neach were equal to that of the prereversine addition time point (dashed light-green or orange circle). Scale bars =\r\n10 µm. (E) Plots (mean ± SD) depicting mean normalized intensity for DHC-mClover at the beginning and end of the \r\nimaging period. (F) Representative images of DHC-mClover–expressing cells treated with either 5 or 0.5 µM nocodazole \r\novernight. Note the lack of corona-like morphology for those kinetochores that are in close proximity of a microtubule \r\ntuft. Statistical significance in panel E was determined by comparing means using a Kruskal-Wallis one-way ANOVA test.\n12 | A. H. Ide et al. Molecular Biology of the Cell\r\nFIGURE 6: Corona-localized Mad2 is required for robust checkpoint signaling. (A) Representative fluorescence images of \r\ncells expressing either wild-type Rod, or Rod2A that were treated with 25 nM nocodazole for 2 h, then processed for \r\nimmunofluorescence. White arrows depict unaligned chromosomes; white boxes delineate one pair of unattached \r\nkinetochores with either expanded coronas (in wild-type cells), or not (in Rod2A cells). Scale bar = 10 µm. (B) Plot (mean \r\n± SD) depicting cumulative mitotic exit (i.e., as a measure of mitotic duration) for cells treated with indicated \r\nconcentration of nocodazole (treated for 2 h before imaging), and expressing either wild-type GFP-Rod, or GFP-Rod2A\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "(n = 158 cells from 2 replicates for wild-type Rod, 25 nM nocodazole; 140 cells from 2 replicates for Rod2A, 25 nM \r\nnocodazole; 86 cells from 2 replicates for wild-type Rod, 660 nM nocodazole; 65 cells from 2 replicates for Rod2A, 660 nM \r\nnocodazole). Note the reduced mitotic duration in 25 nM nocodazole-treated cells expressing the Rod2A compared with \r\nwild-type Rod, indicating a weakened mitotic checkpoint for cells compromised for corona expansion. (C) Representative \r\nstill images (fluorescence and DIC) from a time-lapse acquisition of cells for those described in panel B. Scale bar = 10 \r\nµm. Inset depicts the localization of wild-type Rod to spindle poles, but not Rod2A (GFP channel only). (D) Plot (weighted \r\nmean ± weighted standard error of proportion) depicting fraction of cells with wild-type or mutant Rod at spindle poles \r\n(as determined from time-lapse images, as described in panel C). (E) Plot (mean ± SD) depicting cumulative mitotic exit \r\nfor cells expressing either wild-type Mad1, or Mad13EK treated with 25 nM nocodazole for 2 h before imaging (n = 112 \r\ncells from 2 replicates for wild-type Mad1; 153 cells from 2 replicates for Mad13EK). (F) Plot (mean ± SD) depicting mitotic \r\nindices of cells expressing either wild-type Mad1 or Mad13EK treated with 5 µM nocodazole for 16 h before being \r\nprocessed for immunofluorescence (n = 2000 cells from 2 replicates for wild-type Mad1; 2109 cells from 2 replicates for \r\nMad13EK). Note endogenous Mad1 is lacking from these cells (see Materials and Methods). Statistical significance was \r\ndetermined by calculating P values from Z scores for proportion data for panels D and F.\nVolume 34 June 1, 2023 Dynein’s role in checkpoint silencing | 13\r\nkinetochores begin to make attachments to spindle microtubules, \r\nlikely aided in part by corona-localized attachment factors (e.g., \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "CENP-E, dynein) that promote chromosome congression and align\u0002ment. Our data indicate that transient (e.g., lateral) kinetochore–mi\u0002crotubule encounters early in mitosis lead to dynein-mediated evic\u0002tion of corona-localized SAC effectors (Figure 8Aii). This early \r\ndynein-mediated activity helps to prime the kinetochores and thus \r\nthe checkpoint for rapid silencing upon proper alignment and at\u0002tachment of all the chromosomes (Figure 8Aiii). Our findings indi\u0002cate that those chromosomes that are distal from the spindle that \r\nretain their coronas due to a lack of microtubule attachment are \r\nsufficient to prevent anaphase onset due to the generation of active \r\nMCCs from them (even in the presence of a small number of such \r\nmisaligned chromosomes). Thus, an expanded corona provides \r\ncells with a critical tool in the prevention of chromosome misalign\u0002ment, and the consequent development of aneuploidy.\r\nMATERIALS AND METHODS\r\nRequest a protocol through Bio-protocol.\r\nCell culture\r\nAll cell lines used in this article were cultured in DMEM supple\u0002mented with 10% fetal bovine serum (FBS), 1% antibiotic/antimy\u0002cotic solution, and 4 mM l-glutamine and maintained at 37°C in 5% \r\nFIGURE 7: Role of kinetochore dynein in checkpoint silencing is restricted to removal of SAC effectors from the corona. \r\n(A) Plot (mean ± standard error of proportion) depicting mitotic indices of cells expressing the indicated Spindly \r\n(wild-type or Spindly∆CCS; note endogenous Spindly was depleted via RNAi) and Mad1 (wild-type or Mad13EK; \r\nendogenous Mad1 was knocked out via CRISPR/Cas9). Note the reduced mitotic index of cells expressing both \r\nSpindly∆CCS and Mad13EK, indicating the lack of corona-localized Mad1/Mad2 can compensate for the lack of kinetochore \r\ndynein (n = 550 cells from 2 replicates for wild-type Spindly and wild-type Mad1; 305 cells from 2 replicates for wild-type \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Spindly and Mad13EK; 280 cells from 2 replicates for Spindly∆CCS and wild-type Mad1; 344 cells from 2 replicates for \r\nSpindly∆CCS and Mad13EK). (B) Plot (mean ± SD) depicting cumulative mitotic exit for cells expressing the indicated \r\nSpindly (wild-type or Spindly∆CCS) and Mad1 (wild-type or Mad13EK). As in panel B, note the ability of cells expressing \r\nSpindly∆CCS and Mad13EK to progress through mitosis (compare to cells expressing Spindly∆CCS and wild-type Mad1); n =\r\n114 cells from 2 replicates for wild-type Spindly and wild-type Mad1; 80 cells from 2 replicates for wild-type Spindly and \r\nMad13EK; 91 cells from 2 replicates for Spindly∆CCS and wild-type Mad1; 171 cells from 3 replicates for Spindly∆CCS and \r\nMad13EK. (C) Representative fluorescence time-lapse images of cells expressing H2B-mCherry, and the indicated Spindly \r\n(wild-type or Spindly∆CCS) and Mad1 (wild-type or Mad13EK). Scale bar = 10 μm. Statistical significance was determined \r\nby calculating P values from Z scores for proportion data for panel A.\n14 | A. H. Ide et al. Molecular Biology of the Cell\r\nCO2. Doxycycline-inducible vsv-Mad1WT and vsv-Mad13EK HeLa cell \r\nlines (a gift from Lindsay Allan and Adrian Saurin, University of \r\nDundee, Dundee, UK) were continuously cultured with 1 µg/ml dox\u0002ycycline (Sigma Aldrich) to maintain expression of Mad1 transgenes. \r\nNote these cells are lacking endogenous Mad1 due to CRISPR/\r\nCas9-mediated knockout (Allan et al., 2020). Doxycycline-inducible \r\nHeLa FlpIn T-Rex LAP-RodWT and Rod2A cell lines were a gift from \r\nPrasad Jallepalli (Sloan Kettering Institute, New York, NY).\r\nCell treatments and transfections\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "For fixed-cell analysis, cells were grown on sterile, acid-washed cov\u0002erslips in six-well plates. All nucleic acid transfections were done in \r\nOptimem (Life Technologies). 100 nM Rod siRNA (5′-TTGTA\u0002CAATCTCTGTATTATA-3′) was transfected into cells using Oligo\u0002fectamine (Fisher Scientific), or 100 nM Spindly siRNA (5′-GAAAGG\u0002GUCUCAAACUGAA-3′; Gassmann et al., 2010) was transfected \r\ninto cells using Lipofectamine 3000 (Fisher Scientific), both accord\u0002ing to the manufacturer’s protocol. Cells treated with Spindly siRNA \r\nwere processed for immunofluorescence or live-cell imaging 48 h \r\nafter addition of siRNA, while those treated with Rod siRNA were \r\nprocessed after 60 h. Plasmids encoding the following constructs \r\nwere transfected into cells at the indicated concentrations using \r\nLipofectamine 3000 according to the manufacturer’s protocol: \r\nMad2-GFP, 1 µg; BubR1-GFP, 1 µg; cyclin-B1-mCherry, 0.75 µg; \r\nSpindlyWT-GFP, 1.5 µg; Spindly∆CCS-GFP, 0.5 µg; H2B-mCherry, \r\n0.75 µg. Cells transfected with BubR1-GFP and cyclinB1-mCherry \r\nwere processed for immunofluorescence or live-cell imaging 24 h \r\nafter transfection; cells transfected with Mad2-GFP, SpindlyWT-GFP, \r\nSpindly∆CCS-GFP, or H2B-mCherry were processed after 48 h. For \r\nexperiments involving HeLa FlpIn T-Rex LAP-RodWT and Rod2A cell \r\nlines, cells were transfected with Rod siRNA, and then transgene \r\nexpression was induced 48 h later using 1 µg/ml doxycycline. Cells \r\nwere processed for imaging 16 h later. For live-cell reversine evic\u0002tion assays, cells were incubated with either 5 µM or 0.5 µM \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "FIGURE 8: Model for dynein and the corona in spindle assembly checkpoint function. In wild-type cells (A) or in cells \r\nwithout Mad1/Mad2 at the fibrous corona (B; see Bi), a large number of unattached kinetochores in early mitosis can \r\ngenerate a sufficiently strong “wait anaphase” signal (comprised of diffusible MCC complexes; see orange gradient) \r\nthat arrests mitotic progression. In early mitosis, as kinetochores make transient (e.g., lateral) microtubule attachments \r\n(see Aii), dynein evicts corona-localized Mad1 and Mad2 (blue square in Aii) in an indiscriminate manner. By specifically \r\nremoving these molecules, dynein primes the kinetochore for rapid phosphatase-mediated eviction that is triggered by \r\nestablishment of a stable, end-on attachment (see Aiii). Given that dynein performs this priming function early in \r\nprometaphase, the role of dynein in removing SAC effectors during late prometaphase is likely minimal. Unlike the \r\ndynein pathway, the phosphatase-mediated eviction of SAC effectors (see red squares in Aiii and Bii) is directly \r\ntriggered by attachment status. Without corona-localized Mad1/Mad2, dynein function in checkpoint silencing becomes \r\ndispensable, and likely transports no SAC effectors (see Bii). The checkpoint function of the corona-localized pool of \r\nMad1/Mad2 becomes especially apparent in situations in which a small number of chromosomes are unaligned. Without \r\nthese molecules, cells likely exit mitosis with unaligned chromosomes.\nVolume 34 June 1, 2023 Dynein’s role in checkpoint silencing | 15\r\nnocodazole (Tocris Bioscience) for 16 h before imaging (see text). \r\nImmediately before imaging, cells were washed into a solution \r\ncontaining the appropriate concentration of nocodazole, 10 µM \r\nMG-132 (Selleckchem; to prevent anaphase onset), and a 1:100 di\u0002lution of OxyFluor (Oxyrase) to minimize the effects of photobleach\u0002ing during imaging. Live-cell images were collected on a spinning\u0002disk confocal microscope (described below). Immediately after the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "first time point, 10 µM reversine (Adooq Bioscience) was added to \r\nthe dish, after which cells continued to be imaged (every 5 min) for \r\n2 h. To control for photobleaching, a second dish was imaged using \r\nidentical conditions (e.g., laser power, exposure), except without \r\nthe addition of reversine. For fixed-cell reversine eviction assays, \r\ncells were incubated with either 5 µM or 0.5 µM nocodazole (see \r\ntext) for 16–18 h before being processed for immunofluorescence. \r\nAfter incubating in nocodazole for 16 h, control cells were fixed, \r\nand experimental cells were washed into a solution containing the \r\nappropriate concentration of nocodazole, 10 µM MG-132, and \r\n10 µM reversine, incubated for 2 h, and then fixed and processed. \r\nFor characterization of mitotic timing of HeLa FlpIn T-Rex LAP\u0002RodWT and Rod2A cell lines, and doxycycline-inducible vsv-Mad1WT\r\nand Mad13EK HeLa cell lines in nocodazole, cells were treated with \r\nthe indicated concentration of nocodazole (see text) for 2 h before \r\nbeing processed for imaging.\r\nGeneration of DHC-mClover CRISPR cell line\r\nSingle-guide RNAs (sgRNAs) targeting the C-terminal exon of hu\u0002man DYNC1H1 were designed using CCTop (Stemmer et al., \r\n2015). Guide RNAs were cloned into the plasmid pX330-U6-Chi\u0002meric_BB-CBh-hSpCas9 (Addgene plasmid 42230; Cong et al., \r\n2013) using procedures as described (Bauer et al., 2015). Homol\u0002ogy-directed repair donor plasmids were generated by combining \r\nDNA sequences corresponding to approximately 200 base pairs \r\nhomology arms from the 3′ end of DYNC1H1 and mAID-mClover\u0002HygroR from plasmid pMK290 (Addgene plasmid 72828), as previ\u0002ously described (Natsume et al., 2016). Twenty-four hours before \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "transfection, 1.5 × 105 HeLa Kyoto cells were plated in one well of \r\na six-well plate. CRISPR/Cas9 plasmid (2 µg; pX330 plasmid de\u0002scribed above, encoding gRNA and SpCas9) and 2 µg of the donor \r\nplasmid (encoding mAID-mClover-HygroR flanked by DYNC1H1 \r\nhomology arms) were cotransfected into HeLa Kyoto cells using \r\nLipofectamine 3000 according to the manufacturer’s instructions. \r\nForty-eight hours following transfection, selection medium was \r\nadded to the cells (DMEM containing 300 µg/ml hygromycin) to \r\nselect for positive clones. The selection medium was exchanged \r\nevery 3 to 4 d. After 10 to 12 d, colonies were transferred to a \r\n24-well plate. Clones were screened for mClover expression using \r\nfluorescence microscopy. Optimally expressing clones were frozen \r\ndown for later use.\r\nImmunofluorescence\r\nCells were rinsed in 37°C PHEM buffer (60 mM PIPES, 25 mM \r\nHEPES, 10 mM EGTA, and 4 mM MgSO4, pH 7.0) and then lysed by \r\nincubation for 3 min in freshly prepared lysis buffer (PHEM buffer +\r\n0.5% Triton X-100). Cells were subsequently fixed for 20 min at \r\nroom temperature in freshly prepared 4% paraformaldehyde in \r\nPHEM buffer (37°C). After fixation, cells were washed three times, \r\n5 min each, in PHEM-T (PHEM buffer + 0.1% Triton X-100) and \r\nblocked in 10% boiled donkey serum (BDS) in PHEM buffer for 1 h \r\nat room temperature. Primary antibodies (including recombinant an\u0002tibodies generated in-house; DeLuca et al., 2021) were diluted in \r\n5% BDS and added to coverslips overnight at 4°C. See Supplemen\u0002tal Table S1 for primary antibody information. After incubation with \r\nprimary antibody, cells were rinsed three times, 5 min each, in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "PHEM-T and then incubated for 45 min at room temperature with \r\nsecondary antibodies conjugated to Alexa 488, Cy3, or Alexa 647 \r\n(Jackson ImmunoResearch Laboratories) at 1:600 diluted in 5% \r\nBDS. Cells were rinsed three times, 5 min each, in PHEM-T and \r\nquickly rinsed in PHEM followed by incubation in DAPI (2 ng/ml) \r\ndiluted in PHEM for 30 s. Cells were rinsed three times, 5 min each, \r\nin PHEM-T, quickly rinsed in PHEM, and then mounted onto glass \r\nslides with antifade solution (90% glycerol, 0.5% N-propyl gallate). \r\nCoverslips were sealed with nail polish and stored at 4°C.\r\nAnti-Spindly antibody production\r\nAntibodies against full-length Spindly were generated at Rockland \r\nImmunochemicals (Limerick, PA). Rabbits were immunized with pro\u0002tein purified from bacteria containing pGEX6P1:Spindly (a gift from \r\nReto Gassman, Universidade do Porto, Porto, Portugal). Briefly, bac\u0002teria were lysed by sonication in lysis buffer (phosphate-buffered \r\nsaline [PBS] supplemented with 10 mM EGTA, 10 mM EDTA, 0.1% \r\nTween-20, 250 mM NaCl, 1 mM PMSF, and 2 mM benzamidine\u0002HCl). The clarified lysate was incubated with glutathione agarose for \r\n1 h, which was subsequently washed four times with wash buffer \r\n(PBS supplemented with 0.1% Tween-20, 250 mM NaCl, and 1 mM \r\nDTT). Bound protein was eluted with elution buffer (50 mM Tris, \r\n75 mM KCl, and 10 mM glutathione, pH 8.1), assessed by SDS–\r\nPAGE, and used for immunization (approximate concentration =\r\n0.7 mg/ml). Anti-Spindly antibody was affinity purified from rabbit \r\nplasma using bacterially expressed GST-Spindly.\r\nImaging and fluorescence quantification\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 39,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "All fixed-cell images were acquired on an Inverted Olympus micro\u0002scope incorporated into a GE Ultra imaging system (GE Healthcare) \r\nwith SoftWoRx software (GE Healthcare) using a 60×, 1.42 NA dif\u0002ferential interference contrast Plan Apochromat oil immersion lens \r\n(Olympus) with a final magnification of 107.6 nm/pixel at the cam\u0002era sensor (edge4.2; PCO). For live-cell imaging experiments, cells \r\nwere imaged in 35-mm glass-bottomed dishes (MatTek Corpora\u0002tion) and imaged in Leibovitz’s l-15 media (Invitrogen) supple\u0002mented with 10% FBS, 7 mM HEPES, 4.5 g/l glucose, pH 7.0. Live\u0002cell images were captured on a Nikon Ti-E microscope equipped \r\nwith a Piezo Z-control (Physik Instrumente), stage top incubation \r\nsystem (Okolab), and spinning-disk confocal scanner unit (CSUX1; \r\nYokogawa), using a 60×, 1.49 NA objective and an iXon DU888 EM\u0002CCD camera (Andor). For live-cell reversine eviction assays, three z \r\nplanes at 1.25 µm steps were acquired every 5 min for 2 h using the \r\n488 or 555 nm lasers. For experiments characterizing mitotic timing \r\nin live cells, z stacks were acquired taking three to five z planes for \r\na range of 4–6 µm every 5 min for 15 h using 488 and 594 nm lasers \r\nand/or transmitted light. For quantification of kinetochore fluores\u0002cence intensities in fixed cells, measurements were performed on \r\nnondeconvolved, uncompressed images using the custom “Speck\u0002leTracker” MatLab (MathWorks) program (Wan et al., 2009). For \r\nquantification of fluorescence intensities in live cells, background\u0002corrected values were measured from maximum intensity projec\u0002tions using NIS Elements (Nikon). A circular region of interest (ROI) \r\ncircumscribing the kinetochores was drawn in a nocodazole-treated \r\ncell, and the total integrated intensity and area of the circle were \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 40,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 472,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "logged. Background fluorescence levels were determined by draw\u0002ing multiple smaller circular ROIs outside of the region of kineto\u0002chore fluorescence. For mitotic index and timing experiments \r\n(Figure 7, B and C), those cells with average pixel values of 500–\r\n1500 A.U. (for Spindly-GFP or Spindly∆CCS-GFP) in prophase nuclei \r\nwere assessed.\n16 | A. H. Ide et al. Molecular Biology of the Cell\r\nACKNOWLEDGMENTS\r\nWe are grateful to Tyler Biebighauser, Jenna Kelly, and Jeanne Mick \r\nfor technical assistance, Prasad V. Jallepalli (Sloan Kettering Insti\u0002tute, New York, NY) for sharing the wild-type GFP-Rod and GFP\u0002Rod2A-expressing stable cell lines, Lindsey Allan and Adrian Saurin \r\n(University of Dundee, Dundee, UK) for providing the stable Mad1 \r\nand Mad13EK-expressing cell lines, and Reto Gassman (Universidade \r\ndo Porto, Porto, Portugal) for the bacterial GST-Spindly expression \r\nplasmid. This work was funded by the National Science Foundation \r\n(Grant no. NSF-2107444 to S.M.M. and J.G.D.).\r\nREFERENCES\r\nAgarwal S, Varma D (2015). How the SAC gets the axe: integrating kineto\u0002chore microtubule attachments with spindle assembly checkpoint signal\u0002ing. Bioarchitecture 5, 1–12.\r\nAlfieri C, Chang L, Zhang Z, Yang J, Maslen S, Skehel M, Barford D (2016). \r\nMolecular basis of APC/C regulation by the spindle assembly check\u0002point. Nature 536, 431–436.\r\nAlfieri C, Zhang S, Barford D (2017). Visualizing the complex functions and \r\nmechanisms of the anaphase promoting complex/cyclosome (APC/C). \r\nOpen Biol 7, 170204.\r\nAllan LA, Camacho Reis M, Ciossani G, Huis In ‘t Veld PJ, Wohlgemuth S, Kops \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 41,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "GJ, Musacchio A, Saurin AT (2020). Cyclin B1 scaffolds MAD1 at the kineto\u0002chore corona to activate the mitotic checkpoint. EMBO J 39, e103180.\r\nBader JR, Vaughan KT (2010). Dynein at the kinetochore: timing, interac\u0002tions and functions. Semin Cell Dev Biol 21, 269–275.\r\nBallister ER, Riegman M, Lampson MA (2014). Recruitment of Mad1 to \r\nmetaphase kinetochores is sufficient to reactivate the mitotic check\u0002point. J Cell Biol 204, 901–908.\r\nBarisic M, Sohm B, Mikolcevic P, Wandke C, Rauch V, Ringer T, Hess M, \r\nBonn G, Geley S (2010). Spindly/CCDC99 is required for efficient chro\u0002mosome congression and mitotic checkpoint regulation. Mol Biol Cell \r\n21, 1968–1981.\r\nBasto R, Scaerou F, Mische S, Wojcik E, Lefebvre C, Gomes R, Hays T, \r\nKaress R (2004). In vivo dynamics of the rough deal checkpoint protein \r\nduring Drosophila mitosis. Curr Biol 14, 56–61.\r\nBauer DE, Canver MC, Orkin SH (2015). Generation of genomic deletions in \r\nmammalian cell lines via CRISPR/Cas9. J Vis Exp (95), e52118.\r\nBrady DM, Hardwick K.G (2000). Complex formation between Mad1p, \r\nBub1p and Bub3p is crucial for spindle checkpoint function. Curr Biol \r\n10, 675–678.\r\nBuffin E, Lefebvre C, Huang J, Gagou ME, Karess RE (2005). Recruitment of \r\nMad2 to the kinetochore requires the Rod/Zw10 complex. Curr Biol 15, \r\n856–861.\r\nCane S, McGilvray PT, Maresca TJ (2013). Insights from an erroneous \r\nkinetochore-microtubule attachment state. Bioarchitecture 3, 69–76.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 42,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Cassimeris L, Rieder CL, Rupp G, Salmon ED (1990). Stability of microtubule \r\nattachment to metaphase kinetochores in PtK1 cells. J Cell Sci 96 (Pt 1): \r\n9–15.\r\nChan YW, Fava LL, Uldschmid A, Schmitz MH, Gerlich DW, Nigg EA, \r\nSantamaria A (2009). Mitotic control of kinetochore-associated dynein \r\nand spindle orientation by human Spindly. J Cell Biol 185, 859–874.\r\nChan GK, Jablonski SA, Starr DA, Goldberg ML, Yen TJ (2000). Human \r\nZw10 and ROD are mitotic checkpoint proteins that bind to kineto\u0002chores. Nat Cell Biol 2, 944–947.\r\nChang L, Zhang Z, Yang J, McLaughlin SH, Barford D (2015). Atomic struc\u0002ture of the APC/C and its mechanism of protein ubiquitination. Nature \r\n522, 450–454.\r\nChao WC, Kulkarni K, Zhang Z, Kong EH, Barford D (2012). Structure of the \r\nmitotic checkpoint complex. Nature 484, 208–213.\r\nChen RH, Shevchenko A, Mann M, Murray AW (1998). Spindle checkpoint \r\nprotein Xmad1 recruits Xmad2 to unattached kinetochores. J Cell Biol \r\n143, 283–295.\r\nCong L, Ran FA, Cox D, Lin S, Barretto R, Habib N, Hsu PD, Wu X, Jiang \r\nW, Marraffini LA, Zhang F (2013). Multiplex genome engineering using \r\nCRISPR/Cas systems. Science 339, 819–823.\r\nd’Amico EA, Ud Din Ahmad M, Cmentowski V, Girbig M, Muller F, \r\nWohlgemuth S, Brockmeyer A, Maffini S, Janning P, Vetter IR, et al. \r\n(2022). Conformational transitions of the Spindly adaptor underlie its \r\ninteraction with Dynein and Dynactin. J Cell Biol 221, e202206131.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 43,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "De Antoni A, Pearson CG, Cimini D, Canman JC, Sala V, Nezi L, Mapelli M, \r\nSironi L, Faretta M, Salmon ED, Musacchio A (2005). The Mad1/Mad2 \r\ncomplex as a template for Mad2 activation in the spindle assembly \r\ncheckpoint. Curr Biol 15, 214–225.\r\nDeLuca JG, Howell BJ, Canman JC, Hickey JM, Fang G, Salmon ED (2003). \r\nNuf2 and Hec1 are required for retention of the checkpoint proteins \r\nMad1 and Mad2 to kinetochores. Curr Biol 13, 2103–2109.\r\nDeLuca KF, Mick JE, Ide AH, Lima WC, Sherman L, Schaller KL, Anderson \r\nSM, Zhao N, Stasevich TJ, Varma D, et al. (2021). Generation and diver\u0002sification of recombinant monoclonal antibodies. eLife 10, 72093.\r\nDi Fiore B, Wurzenberger C, Davey NE, Pines J (2016). The mitotic check\u0002point complex requires an evolutionary conserved cassette to bind and \r\ninhibit active APC/C. Mol Cell 64, 1144–1153.\r\nEtemad B, Kops GJ (2016). Attachment issues: kinetochore transformations \r\nand spindle checkpoint silencing. Curr Opin Cell Biol 39, 101–108.\r\nEtemad B, Kuijt TE, Kops GJ (2015). Kinetochore-microtubule attachment is \r\nsufficient to satisfy the human spindle assembly checkpoint. Nat Com\u0002mun 6, 8987.\r\nFamulski JK, Vos LJ, Rattner JB, Chan GK (2011). Dynein/dynactin-mediated \r\ntransport of kinetochore components off kinetochores and onto spindle \r\npoles induced by nordihydroguaiaretic acid. PLoS One 6, e16494.\r\nFirestone AJ, Weinger JS, Maldonado M, Barlan K, Langston LD, O’Donnell \r\nM, Gelfand VI, Kapoor TM, Chen JK (2012). Small-molecule inhibitors of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 44,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "the AAA+ ATPase motor cytoplasmic dynein. Nature 484, 125–129.\r\nFischer ES, Yu CWH, Bellini D, McLaughlin SH, Orr CM, Wagner A, Freund \r\nSMV, Barford D (2021). Molecular mechanism of Mad1 kinetochore \r\ntargeting by phosphorylated Bub1. EMBO Rep 22, e52242.\r\nGama JB, Pereira C, Simoes PA, Celestino R, Reis RM, Barbosa DJ, Pires HR, \r\nCarvalho C, Amorim J, Carvalho AX, et al. (2017). Molecular mechanism \r\nof dynein recruitment to kinetochores by the Rod-Zw10-Zwilch complex \r\nand Spindly. J Cell Biol 216, 943–960.\r\nGarvanska DH, Nilsson J (2020). Specificity determinants of phosphoprotein \r\nphosphatases controlling kinetochore functions. Essays Biochem 64, \r\n325–336.\r\nGassmann R, Essex A, Hu JS, Maddox PS, Motegi F, Sugimoto A, O’Rourke \r\nSM, Bowerman B, McLeod I, Yates JR 3rd, et al. (2008). A new mecha\u0002nism controlling kinetochore-microtubule interactions revealed by \r\ncomparison of two dynein-targeting components: SPDL-1 and the Rod/\r\nZwilch/Zw10 complex. Genes & development 22, 2385–2399.\r\nGassmann R, Holland AJ, Varma D, Wan X, Civril F, Cleveland DW, Oegema \r\nK, Salmon ED, Desai A (2010). Removal of Spindly from microtubule\u0002attached kinetochores controls spindle checkpoint silencing in human \r\ncells. Genes Dev 24, 957–971.\r\nGorbsky GJ (2015). The spindle checkpoint and chromosome segregation \r\nin meiosis. FEBS J 282, 2471–2487.\r\nGuacci V, Hogan E, Koshland D (1997). Centromere position in budding \r\nyeast: evidence for anaphase A. Mol Biol Cell 8, 957–972.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 45,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Heasley LR, Markus SM, DeLuca JG (2017). “Wait anaphase” signals are not \r\nconfined to the mitotic spindle. Mol Biol Cell 28, 1186–1194.\r\nHerzog F, Primorac I, Dube P, Lenart P, Sander B, Mechtler K, Stark H, \r\nPeters JM (2009). Structure of the anaphase-promoting complex/cy\u0002closome interacting with a mitotic checkpoint complex. Science 323, \r\n1477–1481.\r\nHiruma Y, Sacristan C, Pachis ST, Adamopoulos A, Kuijt T, Ubbink M, von \r\nCastelmur E, Perrakis A, Kops GJ (2015). CELL DIVISION CYCLE. \r\nCompetition between MPS1 and microtubules at kinetochores regulates \r\nspindle checkpoint signaling. Science 348, 1264–1267.\r\nHoffman DB, Pearson CG, Yen TJ, Howell BJ, Salmon ED (2001). Microtu\u0002bule-dependent changes in assembly of microtubule motor proteins \r\nand mitotic spindle checkpoint proteins at PtK1 kinetochores. Mol Biol \r\nCell 12, 1995–2009.\r\nHowell BJ, McEwen BF, Canman JC, Hoffman DB, Farrar EM, Rieder CL, \r\nSalmon ED (2001). Cytoplasmic dynein/dynactin drives kinetochore \r\nprotein transport to the spindle poles and has a role in mitotic spindle \r\ncheckpoint inactivation. J Cell Biol 155, 1159–1172.\r\nHowell BJ, Moree B, Farrar EM, Stewart S, Fang G, Salmon ED (2004). \r\nSpindle checkpoint protein dynamics at kinetochores in living cells. Curr \r\nBiol 14, 953–964.\r\nJi Z, Gao H, Jia L, Li B, Yu H (2017). A sequential multi-target Mps1 phos\u0002phorylation cascade promotes spindle checkpoint signaling. eLife 6, \r\n22513.\r\nJi Z, Gao H, Yu H (2015). CELL DIVISION CYCLE. Kinetochore attachment \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 46,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "sensed by competitive Mps1 and microtubule binding to Ndc80C. Sci\u0002ence 348, 1260–1264.\r\nJin QW, Fuchs J, Loidl J (2000). Centromere clustering is a major deter\u0002minant of yeast interphase nuclear organization. J Cell Sci 113 (Pt 11): \r\n1903–1912.\r\nKing JM, Hays TS, Nicklas RB (2000). Dynein is a transient kinetochore \r\ncomponent whose binding is regulated by microtubule attachment, not \r\ntension. J Cell Biol 151, 739–748.\nVolume 34 June 1, 2023 Dynein’s role in checkpoint silencing | 17\r\nKops G, Gassmann R (2020). Crowning the kinetochore: the fibrous corona \r\nin chromosome segregation. Trends Cell Biol 30, 653–667.\r\nKops GJ, Kim Y, Weaver BA, Mao Y, McLeod I, Yates JR 3rd, Tagaya M, \r\nCleveland DW (2005). ZW10 links mitotic checkpoint signaling to the \r\nstructural kinetochore. J Cell Biol 169, 49–60.\r\nKops G, Snel B, Tromer EC (2020). Evolutionary dynamics of the spindle \r\nassembly checkpoint in eukaryotes. Curr Biol 30, R589–R602.\r\nKuhn J, Dumont S (2017). Spindle assembly checkpoint satisfaction occurs \r\nvia end-on but not lateral attachments under tension. J Cell Biol 216, \r\n1533–1542.\r\nLara-Gonzalez P, Pines J, Desai A (2021). Spindle assembly checkpoint acti\u0002vation and silencing at kinetochores. Semin Cell Dev Biol 117, 86–98.\r\nLarsen NA, Al-Bassam J, Wei RR, Harrison SC (2007). Structural analysis of \r\nBub3 interactions in the mitotic spindle checkpoint. Proc Natl Acad Sci \r\nUSA 104, 1201–1206.\r\nLischetti T, Nilsson J (2015). Regulation of mitotic progression by the spindle \r\nassembly checkpoint. Mol Cell Oncol 2, e970484.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 47,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "London N, Biggins S (2014a). Mad1 kinetochore recruitment by Mps1-me\u0002diated phosphorylation of Bub1 signals the spindle checkpoint. Genes \r\nDev 28, 140–152.\r\nLondon N, Biggins S (2014b). Signalling dynamics in the spindle checkpoint \r\nresponse. Nat Rev Mol Cell Biol 15, 736–747.\r\nLondon N, Ceto S, Ranish JA, Biggins S (2012). Phosphoregulation of \r\nSpc105 by Mps1 and PP1 regulates Bub1 localization to kinetochores. \r\nCurr Biol 22, 900–906.\r\nLuo X, Tang Z, Rizo J, Yu H (2002). The Mad2 spindle checkpoint protein \r\nundergoes similar major conformational changes upon binding to either \r\nMad1 or Cdc20. Mol Cell 9, 59–71.\r\nMagidson V, O’Connell CB, Loncarek J, Paul R, Mogilner A, Khodjakov A \r\n(2011). The spatial arrangement of chromosomes during prometaphase \r\nfacilitates spindle assembly. Cell 146, 555–567.\r\nMagidson V, Paul R, Yang N, Ault JG, O’Connell CB, Tikhonenko I, McEwen \r\nBF, Mogilner A, Khodjakov A (2015). Adaptive changes in the kineto\u0002chore architecture facilitate proper spindle assembly. Nat Cell Biol 17, \r\n1134–1144.\r\nMcKenney RJ, Huynh W, Tanenbaum ME, Bhabha G, Vale RD (2014). Activa\u0002tion of cytoplasmic dynein motility by dynactin-cargo adapter com\u0002plexes. Science 345, 337–341.\r\nMosalaganti S, Keller J, Altenfeld A, Winzker M, Rombaut P, Saur M, \r\nPetrovic A, Wehenkel A, Wohlgemuth S, Muller F, et al. (2017). Structure \r\nof the RZZ complex and molecular basis of its interaction with Spindly. \r\nJ Cell Biol 216, 961–981.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 48,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Moura M, Conde C (2019). Phosphatases in mitosis: roles and regulation. \r\nBiomolecules 9, 55.\r\nMusacchio A, Desai A (2017). A molecular view of kinetochore assembly \r\nand function. Biology (Basel) 6, 5.\r\nNatsume T, Kiyomitsu T, Saga Y, Kanemaki MT (2016). Rapid protein deple\u0002tion in human cells by auxin-inducible degron tagging with short homol\u0002ogy donors. Cell Rep 15, 210–218.\r\nNijenhuis W, Vallardi G, Teixeira A, Kops GJ, Saurin AT (2014). Negative \r\nfeedback at kinetochores underlies a responsive spindle checkpoint \r\nsignal. Nat Cell Biol 16, 1257–1264.\r\nPereira C, Reis RM, Gama JB, Celestino R, Cheerambathur DK, Carvalho \r\nAX, Gassmann R (2018). Self-assembly of the RZZ complex into filaments \r\ndrives kinetochore expansion in the absence of microtubule attachment. \r\nCurr Biol 28, 3408–3421 e3408.\r\nPesenti ME, Weir JR, Musacchio A (2016). Progress in the structural and \r\nfunctional characterization of kinetochores. Curr Opin Struct Biol 37, \r\n152–163.\r\nPfarr CM, Coue M, Grissom PM, Hays TS, Porter ME, McIntosh JR (1990). \r\nCytoplasmic dynein is localized to kinetochores during mitosis. Nature \r\n345, 263–265.\r\nPrimorac I, Weir JR, Chiroli E, Gross F, Hoffmann I, van Gerwen S, Ciliberto \r\nA, Musacchio A (2013). Bub3 reads phosphorylated MELT repeats to \r\npromote spindle assembly checkpoint signaling. eLife 2, e01030.\r\nRaaijmakers JA, Tanenbaum ME, Medema RH (2013). Systematic dissection \r\nof dynein regulators in mitosis. J Cell Biol 201, 201–215.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 49,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Rieder CL (1982). The formation, structure, and composition of the mam\u0002malian kinetochore and kinetochore fiber. Int Rev Cytol 79, 1–58.\r\nRis H, Witt PL (1981). Structure of the mammalian kinetochore. Chromo\u0002soma 82, 153–170.\r\nRodriguez-Rodriguez JA, Lewis C, McKinley KL, Sikirzhytski V, Corona \r\nJ, Maciejowski J, Khodjakov A, Cheeseman IM, Jallepalli PV (2018). \r\nDistinct roles of RZZ and Bub1-KNL1 in mitotic checkpoint signaling and \r\nkinetochore expansion. Curr Biol 28, 3422–3429 e3425.\r\nSacristan C, Ahmad MUD, Keller J, Fermie J, Groenewold V, Tromer E, Fish \r\nA, Melero R, Carazo JM, Klumperman J, et al. (2018). Dynamic kineto\u0002chore size regulation promotes microtubule capture and chromosome \r\nbiorientation in mitosis. Nat Cell Biol 20, 800–810.\r\nSacristan C, Kops GJ (2015). Joined at the hip: kinetochores, microtubules, \r\nand spindle assembly checkpoint signaling. Trends Cell Biol 25, 21–28.\r\nSantaguida S, Tighe A, D’Alise AM, Taylor SS, Musacchio A (2010). Dis\u0002secting the role of MPS1 in chromosome biorientation and the spindle \r\ncheckpoint through the small molecule inhibitor reversine. J Cell Biol \r\n190, 73–87.\r\nSaurin AT (2018). Kinase and phosphatase cross-talk at the kinetochore. \r\nFront Cell Dev Biol 6, 62.\r\nSchlager MA, Hoang HT, Urnavicius L, Bullock SL, Carter AP (2014). In vitro \r\nreconstitution of a highly processive recombinant human dynein com\u0002plex. EMBO J 33, 1855–1868.\r\nShepperd LA, Meadows JC, Sochaj AM, Lancaster TC, Zou J, Buttrick GJ, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 50,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Rappsilber J, Hardwick KG, Millar JB (2012). Phosphodependent recruit\u0002ment of Bub1 and Bub3 to Spc7/KNL1 by Mph1 kinase maintains the \r\nspindle checkpoint. Curr Biol 22, 891–899.\r\nSilio V, McAinsh AD, Millar JB (2015). KNL1-Bubs and RZZ provide two \r\nseparable pathways for checkpoint activation at human kinetochores. \r\nDev Cell 35, 600–613.\r\nSilva PM, Reis RM, Bolanos-Garcia VM, Florindo C, Tavares AA, Bousbaa \r\nH (2014). Dynein-dependent transport of spindle assembly check\u0002point proteins off kinetochores toward spindle poles. FEBS Lett 588, \r\n3265–3273.\r\nSironi L, Mapelli M, Knapp S, De Antoni A, Jeang KT, Musacchio A (2002). \r\nCrystal structure of the tetrameric Mad1-Mad2 core complex: implica\u0002tions of a ‘safety belt’ binding mechanism for the spindle checkpoint. \r\nEMBO J 21, 2496–2506.\r\nStear JH, Roth MB (2004). The Caenorhabditiselegans kinetochore reorga\u0002nizes at prometaphase and in response to checkpoint stimuli. Mol Biol \r\nCell 15, 5187–5196.\r\nStemmer M, Thumberger T, Del Sol Keyer M, Wittbrodt J, Mateo JL (2015). \r\nCCTop: an intuitive, flexible and reliable CRISPR/Cas9 target prediction \r\ntool. PLoS One 10, e0124633.\r\nSteuer ER, Wordeman L, Schroer TA, Sheetz MP (1990). Localization of \r\ncytoplasmic dynein to mitotic spindles and kinetochores. Nature 345, \r\n266–268.\r\nSudakin V, Chan GK, Yen TJ (2001). Checkpoint inhibition of the APC/C \r\nin HeLa cells is mediated by a complex of BUBR1, BUB3, CDC20, and \r\nMAD2. J Cell Biol 154, 925–936.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 51,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Tanaka TU, Rachidi N, Janke C, Pereira G, Galova M, Schiebel E, Stark MJ, \r\nNasmyth K (2002). Evidence that the Ipl1-Sli15 (Aurora kinase-INCENP) \r\ncomplex promotes chromosome bi-orientation by altering kinetochore\u0002spindle pole connections. Cell 108, 317–329.\r\nTauchman EC, Boehm FJ, DeLuca JG (2015). Stable kinetochore-microtu\u0002bule attachment is sufficient to silence the spindle assembly checkpoint \r\nin human cells. Nat Commun 6, 10036.\r\nThrower DA, Jordan MA, Wilson L (1996). Modulation of CENP-E organi\u0002zation at kinetochores by spindle microtubule attachment. Cell Motil \r\nCytoskeleton 35, 121–133.\r\nVarma D, Monzo P, Stehman SA, Vallee RB (2008). Direct role of dynein \r\nmotor in stable kinetochore-microtubule attachment, orientation, and \r\nalignment. J Cell Biol 182, 1045–1054.\r\nVleugel M, Tromer E, Omerzu M, Groenewold V, Nijenhuis W, Snel B, Kops \r\nGJ (2013). Arrayed BUB recruitment modules in the kinetochore scaffold \r\nKNL1 promote accurate chromosome segregation. J Cell Biol 203, \r\n943–955.\r\nWan X, O’Quinn RP, Pierce HL, Joglekar AP, Gall WE, DeLuc JG, Carroll CW, \r\nLiu S-T, Yen TJ, McEwen BF, et al. (2009). Protein architecture of the hu\u0002man kinetochore microtubule attachment site. Cell 13.\r\nWang Y, Jin F, Higgins R, McKnight K (2014). The current view for the silenc\u0002ing of the spindle assembly checkpoint. Cell Cycle 13, 1694–1701.\r\nWiney M, O’Toole ET (2001). The spindle cycle in budding yeast. Nat Cell \r\nBiol 3, E23–E27.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 52,
+      "doc_items": [],
+      "end_page": 16,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5898313047810330793,
+        "filename": "mbc-34-ar76.PMC10295480.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 17,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 183,
+      "total_chunks": 53,
+      "version": "1.0.0"
+    },
+    "text": "Wynne DJ, Funabiki H (2015). Kinetochore function is controlled by a \r\nphospho-dependent coexpansion of inner and outer components. \r\nJ Cell Biol 210, 899–916.\r\nYamagishi Y, Yang CH, Tanno Y, Watanabe Y (2012). MPS1/Mph1 phosphor\u0002ylates the kinetochore protein KNL1/Spc7 to recruit SAC components. \r\nNat Cell Biol 14, 746–752.\r\nZhang G, Kruse T, Lopez-Mendez B, Sylvestersen KB, Garvanska DH, Schopper \r\nS, Nielsen ML, Nilsson J (2017). Bub1 positions Mad1 close to KNL1 MELT \r\nrepeats to promote checkpoint signalling. Nat Commun 8, 15822.\n\n"
+  }
+]

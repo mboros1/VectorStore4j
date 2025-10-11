@@ -1,0 +1,1010 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "RESEARCH ARTICLE\r\nBlood transcriptomic associations of epigenetic age in adolescents\r\nDennis Khodasevich a, Anne K Bozacka, Saher Darediab, Julianna Deardorffc, Kim G Harleyc, Brenda Eskenazic, \r\nWeihong Guoc\r\n, Nina Hollandc, and Andres Cardenasa\r\na\r\nDepartment of Epidemiology and Population Health, Stanford University School of Medicine, Stanford, CA, USA; bDivision of Epidemiology, \r\nBerkeley Public Health, University of California, Berkeley, CA, USA; c\r\nCenter for Environmental Research and Community Health (CERCH), \r\nBerkeley Public Health, University of California, Berkeley, CA, USA\r\nABSTRACT\r\nEpigenetic aging in early life remains poorly characterized, and patterns of gene expression can \r\nprovide biologically meaningful insights. Blood DNA methylation was measured using the Illumina \r\nEPICv1.0 array and RNA sequencing was performed in blood in 174 adolescent participants (age \r\nrange: 14–15 years) from the CHAMACOS cohort. Thirteen widely used epigenetic clocks were \r\ncalculated, and their associations with transcriptome-wide RNA expression were tested using the \r\nlimma-voom pipeline. We found evidence for substantial shared associations with RNA expression \r\nbetween different epigenetic clocks, including differential expression of MYO6 and ZBTB38 across \r\nfive clocks. The epiTOC2, principal component (PC) PhenoAge, Hannum, PedBE and PC Hannum \r\nclocks were associated with differential expression of the highest number of RNAs, exhibiting \r\nassociations with 22, 8, 5, 3, and 2 transcripts respectively. Generally, biological clocks were \r\nassociated with differential expression of more genes than chronological clocks, and PC clocks \r\nwere associated with differential expression of more genes relative to their CpG-trained counter\u0002parts. A total of 17 associations in our study were replicated in an independent adult sample (age \r\nrange: 40–54 years). Our findings support the biological relevance of epigenetic clocks in adoles\u0002cents and provide direction for selection of epigenetic ageing biomarkers in adolescent research.\r\nARTICLE HISTORY\r\nReceived 12 February 2025 \r\nRevised 22 April 2025 \r\nAccepted 1 May 2025 \r\nKEYWORDS\r\nEpigenetics; transcriptome; \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "adolescent; epigenetic aging\r\nBackground\r\nEpigenetics provides a vital biomarker linking \r\nexposures, variation in gene expression, and \r\nrelated health outcomes [1]. Specifically, age\u0002related DNA methylation changes have been \r\nshown to predict chronological age, leading to \r\nthe development of epigenetic clocks. Epigenetic \r\nclocks are predictors of chronological and biologi\u0002cal age derived from DNA methylation, and have \r\nproven to be a valuable resource for studying the \r\ndeterminants and consequences of biological aging \r\nin human populations. Epigenetic age acceleration \r\n(EAA), broadly defined as the deviation between \r\none’s epigenetic age prediction and their chrono\u0002logical age, has been found to be robustly asso\u0002ciated with a variety of outcomes, including \r\nmortality, cardiovascular disease, and cognitive \r\ndecline [2]. Similarly, epigenetic clocks can be \r\nsensitive to environmental exposures, including \r\nsmoking, ambient air pollution, and early life \r\nadversity [3]. Epigenetic aging research has largely \r\nfocused on adult populations, leaving epigenetic \r\naging in childhood or adolescent populations rela\u0002tively less understood. However, limited research \r\nin pediatric and adolescent populations has high\u0002lighted associations between epigenetic clocks and \r\nmeasures of growth and development, suggesting \r\npotentially distinct associations in younger popu\u0002lations compared to adult populations [4,5].\r\nA myriad of epigenetic clocks have been devel\u0002oped, each with distinct applications. These \r\ninclude several epigenetic clocks trained to predict \r\nchronological age, such as the Horvath panTissue \r\nclock, Skin&Blood clock, Hannum clock, and \r\nPedBE clock [6–9]. Epigenetic clocks have also \r\nbeen developed to focus on different aspects of \r\nCONTACT Dennis Khodasevich denkhod@stanford.edu Department of Epidemiology and Population Health, Stanford University School of Medicine, \r\n1701 Page Mill Road Palo Alto, Stanford, CA 94304, USA\r\nSupplemental data for this article can be accessed online at https://doi.org/10.1080/15592294.2025.2503824\r\nEPIGENETICS\r\n2025, VOL. 20, NO. 1, 2503824\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "https://doi.org/10.1080/15592294.2025.2503824\r\n© 2025 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group. \r\nThis is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial License (http://creativecommons.org/licenses/by-nc/4.0/), which \r\npermits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been \r\npublished allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.\nthe biological aging process including GrimAge, \r\nPhenoAge, epiTOC2, and DunedinPACE [10–13]. \r\nEach of these biological clocks accomplishes this \r\nfocus on biological aging using different \r\napproaches; for example, DunedinPACE uses \r\nDNA methylation from a single timepoint to pre\u0002dict longitudinal trends of 19 indicators of organ \r\nsystem integrity [13]. Similarly, several existing \r\nepigenetic clocks have also been retrained by first \r\nutilizing principal component analysis (PCA) on \r\nthe CpG-level data then training predictors on the \r\nprincipal components, with reported noise reduc\u0002tion benefits compared to the traditional CpG\u0002based training process [14].\r\nTranscriptome-wide expression data can impart \r\ninsightful information on the biological and func\u0002tional consequences of epigenetic aging in humans \r\nby helping determine which genes are differen\u0002tially expressed in relation to epigenetic aging. \r\nAn in-depth analysis of associations between sev\u0002eral common epigenetic clocks and RNA expres\u0002sion in isolated CD14+ monocytes and the \r\ndorsolateral prefrontal cortex derived from an \r\nadult population found evidence for strong overlap \r\nin transcriptional associations across different epi\u0002genetic clocks [15]. Previous studies in various \r\ntissue types including cortical, lung, and liver tis\u0002sues have consistently identified associations \r\nbetween epigenetic age acceleration and transcrip\u0002tome-wide changes in RNA expression [16–18]. \r\nSimilarly, epigenetic age acceleration measures \r\nfrom several common epigenetic clocks including \r\nHorvath, Skin&Blood, GrimAge, and PhenoAge \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "have been found to be associated with differential \r\nexpression of microRNAs in blood [19]. However, \r\nresearch on the relationship between epigenetic \r\naging and RNA expression in pediatric popula\u0002tions, a period marked by rapid growth and devel\u0002opment, is lacking.\r\nCharacterizing the transcriptomic signatures of \r\nepigenetic aging in pediatric populations may help \r\nelucidate the biological mechanisms underlying \r\nepigenetic aging, while also providing \r\na principled method for evaluating the perfor\u0002mance of different epigenetic clocks in terms of \r\ntheir functional consequences during this sensitive \r\nperiod of development. Here, we sought to address \r\nthe key gaps in our understanding of epigenetic \r\naging in a population of 14-year-old participants \r\nof the Center for the Health Assessment of \r\nMothers and Children of Salinas (CHAMACOS) \r\nstudy, a primarily Latino population growing up in \r\na low-income agricultural region of California, by \r\nperforming a transcriptome-wide association study \r\n(TWAS) with several commonly used epigenetic \r\nclocks.\r\nMethods\r\nStudy population\r\nThe Center for the Health Assessment of Mothers \r\nand Children of Salinas (CHAMACOS) study \r\nbegan with the recruitment of 601 pregnant \r\nwomen from farmworker communities of the \r\nSalinas Valley in California, starting in \r\nOctober 1999. At enrollment, women were \r\n≤20 weeks of gestation, English- or Spanish\u0002speaking, Medicare eligible, planning to deliver at \r\nthe county hospital, and attending prenatal care \r\nvisits at one of six local community clinics or \r\nhospitals. Of the 601 initial enrollees of the cohort, \r\n526 were followed to delivery of live, singleton \r\nnewborns in 2000–2001. Maternal education level \r\n(≤6th grade, 7th-12th grade, ≥High School \r\nGraduate) was obtained during pregnancy inter\u0002views, and child sex was abstracted from medical \r\nrecords. Children were followed up at regular \r\nintervals throughout childhood and adolescence. \r\nAt the 14-year visit, body mass was measured \r\nusing a foot-to-foot bioimpedance scale (Tanita \r\nTBF 300A, Arlington Heights, Illinois, USA), and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "height was measured in triplicate using \r\na stadiometer and averaged. BMI was calculated \r\nas weight in kilograms divided by height in metres \r\nsquared and compared with sex-specific BMI-for\u0002age percentile data issued by the CDC in 2000. \r\nA categorical BMI variable was defined as under\u0002weight/normal weight (<85 percentile), overweight \r\n(≥85 percentile, <95 percentile), or obese (≥95 per\u0002centile). When the children were 14 years of age, \r\na phlebotomist collected child blood samples via \r\nvenipuncture, which were then refrigerated and \r\ntransported to the University of California, \r\nBerkeley biorepository and stored at −80 °C until \r\nanalysis. The University of California, Berkeley \r\nCommittee for the Protection of Human Subjects \r\napproved all study activities. Written, informed \r\n2 D. KHODASEVICH ET AL.\nconsent was obtained from all participating \r\nmothers, and written assent was obtained from \r\nchildren at age 14 years.\r\nRNA sequencing\r\nRNA sequencing was conducted by SeqMatic \r\n(SeqMatic, Fremont, CA). Total RNA was \r\nextracted from human whole blood preserved in \r\nPAXgene RNA tubes using the GeneJET Stabilized \r\nand Fresh Whole Blood RNA Extraction Kit \r\n(Thermo Scientific) at the Children’s \r\nEnvironmental Health Laboratory, University of \r\nCalifornia, Berkeley. Prior to extraction following \r\nthe manufacturer’s instructions, the PAXgene \r\nsamples were thawed at 4 °C and then incubated \r\nat room temperature for 2 hours. The total RNA \r\nsamples were quantified using Agilent RNA \r\nScreenTape on the Agilent 4200 Tapestation and \r\nInvirtrogen Qubit Broad Range DNA at SeqMatic. \r\nThe lower concentration samples were repeated on \r\nAgilent RNA High Sensitivity Screen tape to vali\u0002date the tentative quality control (QC). The RNA \r\nintegrity number (RIN) score and the percentage \r\nof fragments larger than 200 nucleotides (DV200) \r\nwere calculated. The minimum requirement for \r\nsamples to pass the RNA QC was pre-specified at \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "1 ng/μl with DV200 greater than 50% as the mini\u0002mum requirement for the downstream library pre\u0002paration type (Illumina RNA Ligation with Ribo \r\nZero Plus depletion kit). RNA samples with DNA \r\ncontamination, where DNA was higher than 0–1% \r\nunderwent additional DNase treatment using \r\nDNase I-NEB, 2UL/UL, following ‘A Typical \r\nDNase I Reaction Protocol’ (M0303). The DNA\u0002free RNA was purified with Cytiva Sera-mag select \r\nbeads (1: 1.8 × of beads) and eluted with 60 μl \r\nNuclease free (NF) water. DNase-treated RNA \r\nsamples were quantified again for concentration \r\nand DV200.\r\nSelected purified and extracted RNA samples \r\nwere subjugated to DNase digestion treatment \r\nand quantified again before starting the selected \r\nlibrary preparation. Minimum RNA QC para\u0002meters for library preparation included 10 ng of \r\ntotal RNA with DV200 greater than 50% and very \r\nlow DNA content in RNA (0–1%). RNA Reports \r\nwere prepared and generated using the Cloud \r\nLIMS system, then reviewed before library \r\npreparation started. Illumina Stranded Total RNA \r\nprep, Ligation with the Ribo Zero Plus kit was \r\nused for RNA Sequencing library preparation. \r\nA total RNA input of up to 100 ng per sample \r\nwas used as the starting material, and NF water \r\nwas added to make the initial reaction volume to \r\na minimum of 11 μl. Illumina Total RNA ligation \r\nwith Ribo Zero Plus kit was selected to facilitate \r\nrich transcriptome analysis by depleting the ribo\u0002somal RNAs and globin RNAs while targeting long \r\nRNA species for library preparation. Total RNA \r\nlibraries were pooled by equal volume by using \r\nEcho Lab Cyte for sequencing a small-scale test \r\non MiSeq sequencer. The equal volume pool had \r\nthe adapter dimer removed by using Cytiva Sera\u0002mag beads and then quantified for concentration \r\nusing an Agilent D1000 Screen. Library pool size \r\n420 bp with sufficient concentration was carried \r\nforward to downstream dilution. The pool was \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "diluted with HT1 hybridization Buffer and quan\u0002tified by qPCR before loading into MiSeq. \r\nNormalized pool ratios were checked again in \r\nanother small-scale MiSeq run before the final \r\nsequencing on the NovaSeq run.\r\nRNA sequencing QC of fastq files was per\u0002formed using FastQC and multiQC [20,21]. \r\nImport and processing of fastq files was performed \r\nusing the Rsubread R package [22]. Raw sequence \r\ndata was aligned to the GRCh38/hg38 genome \r\nbuild using the align function, and fragments \r\nwere assigned and quantified using the \r\nfeatureCounts function. Normalization factors for \r\nlibrary size were calculated using the trimmed \r\nmean of M-values (TMM) method [23]. Genes \r\nwith a mean expression level of < 1 log counts \r\nper million were removed, leaving 15,358 RNAs \r\nfor analysis.\r\nDNA Methylation\r\nA sample of 187 adolescents from the \r\nCHAMACOS cohort had stored blood samples \r\navailable for DNA methylation analysis at the age \r\nof 14 years. DNA was isolated from the banked \r\nblood samples using QIAamp DNA Blood Maxi \r\nKits (Qiagen, Valencia, CA, USA) according to the \r\nmanufacturer’s protocol, with minor modifica\u0002tions, as previously described [24]. DNA aliquots \r\nof 1 μg were bisulphite converted using Zymo \r\nBisulfite Conversion Kits (Zymo Research, \r\nEPIGENETICS 3\nOrange, CA). DNA was amplified, enzymatically \r\nfragmented, purified, and applied to the Illumina \r\nInfinium EPICv1 BeadChips (Illumina, San Diego, \r\nCA, USA) according to the Illumina methylation \r\nprotocol to measure DNA methylation. The EPIC \r\nchips were analysed using an Illumina Hi-Scan \r\nsystem. QC steps included the use of replicates \r\nand randomization of samples across chips and \r\nplates [25]. Methylation data were imported into \r\nR statistical software for preprocessing using minfi \r\n[26]. We first performed QC at the sample level, \r\nexcluding samples with overall low intensities \r\n(<10.5) and technical replicates. We computed \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "detection p values relative to the control probes \r\nand excluded probes with non-significant detec\u0002tion (p > 0.01). We preprocessed our data using \r\nfunctional normalization [27], adjusted for probe\u0002type bias using the regression on correlated probes \r\nmethod [28], and used ComBat from the sva pack\u0002age to adjust for sample plate as a technical batch \r\n[29]. We visualized the data using density distribu\u0002tions at all processing steps and performed PC \r\nanalyses to examine the associations of methyla\u0002tion variability with technical, biological, and mea\u0002sured traits and global DNAm variation using \r\nPCA plots. The estimated proportions of CD8T, \r\nCD4T, B cells, monocytes, and granulocytes were \r\ncalculated using EpiDish [30].\r\nWe calculated six epigenetic clocks using the \r\nmethylCIPHER R package, including Horvath’s \r\npanTissue clock, Skin&Blood, Hannum, PedBE, \r\nPhenoAge, and epiTOC2 [31]. The DunedinPACE \r\nmeasure was calculated using the corresponding \r\nR package [13], and GrimAge and its component \r\nmeasures were calculated using the Clock \r\nFoundation online calculator [6]. We additionally \r\ncalculated the principal component versions of \r\nHorvath’s panTissue clock, Skin&Blood, Hannum, \r\nPhenoAge, GrimAge, and GrimAge components \r\n[14]. A full list of all included epigenetic clock \r\nmeasures is presented in Supplemental Table S1.\r\nStatistical Analysis\r\nThe fit of each epigenetic age prediction to chron\u0002ological age was assessed using Pearson’s correla\u0002tion coefficients and median absolute errors \r\n(MAE). (Supplemental Figure S1) Correlations \r\nbetween epigenetic age measures from each clock \r\nare presented in Supplemental Figure S2, and the \r\nnumber of CpG sites used by each epigenetic clock \r\nand the number of CpG sites shared between epi\u0002genetic clocks is presented in Supplemental Figure \r\nS3. To determine the strength of associations \r\nbetween each of the covariates and RNA expres\u0002sion, exploratory bivariate models considering each \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "of the estimated cell proportions, child sex, chron\u0002ological age, maternal education, and BMI were run \r\nusing limma-voom pipeline from the EdgeR package \r\nusing TMM normalized counts [32,33]. \r\nAssociations between epigenetic age measures and \r\ntranscriptome-wide RNA expression were calcu\u0002lated using the limma-voom pipeline, using TMM \r\nnormalized counts and two levels of covariate \r\nadjustment. Minimally-adjusted models were \r\nadjusted for maternal education level during preg\u0002nancy, chronological age, and child sex, while fully\u0002adjusted models were further adjusted for five cell\u0002type proportions (CD8T, CD4T, B cells, monocytes, \r\nand granulocytes) calculated using EpiDish and \r\nchild BMI category. Associations exhibiting Holm\u0002Bonferroni-adjusted p-values <0.05 considering the \r\nnumber of independent tests to be 199,654 (15,358 \r\ngenes * 13 clocks) were judged to be statistically \r\nsignificant. Furthermore, associations exhibiting \r\nHolm-Bonferroni-adjusted p-values <0.05 consid\u0002ering the number of independent tests to be 15,358 \r\nare discussed as suggestive. Genomic inflation fac\u0002tors (lambdas) were calculated for each model series \r\nto examine the potential for unmeasured \r\nconfounding.\r\nEnrichment of KEGG pathways for clocks \r\nexhibiting associations with at least five sugges\u0002tive or significant differentially expressed RNAs \r\nwas determined using the enrichKEGG function \r\nin the clusterProfiler R package, and KEGG \r\npathways with an FDR-adjusted p-value <0.05 \r\nwere considered significant [34]. Finally, we \r\nimplemented Hallmark gene set enrichment test\u0002ing using the msigdbr R package for clocks exhi\u0002biting at least five suggestive or significantly \r\ndifferentially expressed RNAs to further charac\u0002terize potential biological processes implicated \r\nin our findings [35,36]. As a sensitivity analysis, \r\nwe further examined univariate associations \r\nbetween GrimAge plasma protein components \r\nand expression of their corresponding tran\u0002scripts using univariate generalized linear \r\nregression.\r\n4 D. KHODASEVICH ET AL.\nNext, we examined the extent to which the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "observed associations between each epigenetic \r\nclock and RNA expression in adolescents repli\u0002cated in an unrelated population of 136 healthy \r\nadults from the public GEO GSE224624 dataset \r\n[37]. DNA methylation data from the GSE224624 \r\ndataset was used to generate epigenetic age mea\u0002sures and DNAm-derived cell proportion esti\u0002mates as described above. RNAseq gene \r\nexpression counts were expressed in TMM nor\u0002malized counts, and associations between epige\u0002netic age measures and transcriptome-wide RNA \r\nexpression were calculated using limma models \r\nwith empirical Bayes adjustment, further adjusted \r\nfor participant sex, chronological age, and five \r\ncell-type proportions (CD8T, CD4T, B cells, \r\nmonocytes, and granulocytes). Only significant \r\nor suggestive associations identified in the fully\u0002adjusted analysis in the CHAMACOS cohort were \r\ntested for replication. Of the 60 unique genes \r\nfound to be suggestively or significantly asso\u0002ciated with an epigenetic age measure in the \r\nfully-adjusted CHAMACOS models, 39 were \r\ndetected in the validation sample, allowing for \r\ntesting of 62 of the 93 clock-RNA associations \r\nin the validation sample. Associations exhibiting \r\nHolm-Bonferroni-adjusted p-values <0.05 are dis\u0002cussed as significant, and all associations with \r\nunadjusted p-values <0.05 are further discussed \r\nas suggestive.\r\nResults\r\nStudy population and introductory analysis\r\nStudy participants included 174 adolescent partici\u0002pants of the CHAMACOS cohort ranging from 14.0 \r\nto 15.1 years of age (SD = 0.22) at the time of sample \r\ncollection. (Table 1) 54.6% of the study participants \r\nwere female, 56.9% of the study population were \r\noverweight or obese, and 43% of the participants’ \r\nmothers had less than or equivalent to a 6th grade \r\neducation at the time of study enrollment.\r\nThe highest correlation between epigenetic age \r\nand chronological age was observed with the \r\nSkin&Blood clock (r = 0.156), while the lowest \r\nmedian absolute error was observed with the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "Horvath clock (MAE = 1.98), however, the limited \r\nage range of study participants (14 to 15.1 years) \r\nlimits the ability to effectively evaluate the fit of \r\nepigenetic clocks. (Supplemental Figure S1) \r\nEpigenetic age measures from most of the \r\nincluded epigenetic clocks were moderately to \r\nstrongly correlated with each other, with correla\u0002tions ranging from −0.16 to 0.89. (Supplemental \r\nFigure S2) Some of the strongest correlations \r\nbetween epigenetic age measures were observed \r\nbetween the PC Horvath and PC Skin&Blood (r \r\n= 0.89) clocks, as well as between the PC Horvath \r\nand PC Hannum (r = 0.87) clocks. All of the \r\nincluded CpG-trained clocks shared at least 1 \r\nCpG site with another clock, however, relatively \r\nfew CpG sites were shared between multiple epi\u0002genetic clocks, with the Horvath and Skin&Blood \r\nclocks sharing the most CpG sites (60 shared \r\nsites). (Supplemental Figure S3) The exploratory \r\nbivariate TWAS on each of the covariates revealed \r\nthat DNAm-derived estimates of cell proportions \r\nwere strongly associated with differential expres\u0002sion, ranging from 291 differentially expressed \r\nRNAs in relation to Monocyte cell proportion to \r\n5,066 RNAs in relation to Granulocyte cell propor\u0002tion. BMI category was associated with differential \r\nexpression of 6 genes, sex was associated with 116 \r\nTable 1. Study population demographics. Count \r\n(%) provided for categorical variables and mean \r\n(range) provided for continuous variables.\r\nTrait Distribution\r\nChronological age (years) 14.1 (14.0–15.1)\r\nSex\r\nMale 79 (45.4%)\r\nFemale 95 (54.6%)\r\nBMI Category\r\nUnderweight/Normal 75 (43.1%)\r\nOverweight 34 (19.5%)\r\nObese 65 (37.4%)\r\nMaternal Education\r\n≤6th grade 75 (43.1%)\r\n7th-12th grade 60 (34.5%)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "≥High School Graduate 39 (22.4%)\r\nEPIGENETICS 5\ngenes, and maternal education was not associated \r\nwith gene expression. Interestingly, in bivariate \r\nmodels, chronological age was only associated \r\nwith differential expression of two genes (ATG13: \r\nlogFC = −0.32, 95% CI: −0.43, −0.20; ACTA1: \r\nlogFC = −0.74, 95% CI: −1.02, −0.46), likely due \r\nto the limited chronological age range of our study \r\nsample.\r\nTranscriptomic analysis\r\nThe minimally-adjusted models adjusted for \r\nmaternal education level during pregnancy, chron\u0002ological age, and child sex produced a large num\u0002ber of hits for most epigenetic clocks (0 to 2,826 \r\ngenes; Holm-Bonferroni p-value <0.05), with \r\na general trend of a greater number of associations \r\nidentified with biological clocks (172 to 2,826 \r\ngenes) compared to chronological clocks (0 to \r\n1,818 genes), and a greater number of associations \r\nidentified PC-trained clocks (202 to 2,826 genes) \r\ncompared to their corresponding CpG-trained \r\nclocks (0 to 2,067 genes). (Table 2) There was \r\na high degree of overlap in significant associations \r\nidentified for different clocks, including differen\u0002tial expression of lymphoid enhancer binding fac\u0002tor 1 (LEF1) and SATB homeobox 1 (SATB1) \r\nacross 10 epigenetic clocks. Because of evidence \r\nfor inflation in the minimally-adjusted models \r\n(Supplemental Table S2) and strong associations \r\nbetween estimated cell proportions and gene \r\nexpression in the introductory analysis, we focus \r\nmost interpretation on the fully-adjusted models, \r\nwhich were additionally adjusted for the five esti\u0002mated cell type proportions and BMI.\r\nComplete summaries of all significant associa\u0002tions observed for each clock from the fully\u0002adjusted models are summarized in Table 3. In \r\nthe fully-adjusted models, the epiTOC2, PC \r\nPhenoAge, Hannum, PedBE, and PC Hannum \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "measures were associated with differential expres\u0002sion of the highest number of genes, with 22, 8, 5, \r\n3, and 2 RNAs respectively. (Table 2) \r\n(Supplemental Figure S4) A total of 24 RNAs \r\nwere found to be suggestively or significantly dif\u0002ferentially expressed across multiple epigenetic \r\nclocks. (Figure 1) When considering suggestive \r\nand significant associations, the highest degree of \r\noverlap in differential expression of a single RNA \r\nacross multiple clocks was observed with differen\u0002tial expression of MYO6 (myosin VI) in response \r\nto epigenetic age measures from 5 clocks \r\n(Hannum, PedBE, epiTOC2, PC Skin&Blood, and \r\nPC Hannum), as well as differential expression of \r\nZBTB38 (zinc finger and BTB domain containing \r\n38) in response to epigenetic age measures from 5 \r\nclocks (Hannum, PhenoAge, epiTOC2, PC \r\nHannum, and PC PhenoAge). The highest degree \r\nTable 2. Summary detailing the number of RNA associations for each epigenetic clock. The number of component \r\nCpGs is specified for each non-PC clock. Minimal models were adjusted for chronological age, maternal education, and \r\nchild sex, while fully adjusted models were additionally adjusted for BMI, and estimated cell proportions. RNA \r\nassociations were considered significant if exhibiting a stringent Holm-Bonferroni-adjusted p-value <0.05 (considering \r\n199,654 independent tests), and considered suggestive if exhibiting a Holm-Bonferroni-adjusted p-value <0.05 \r\n(considering 15,358 independent tests).\r\nMinimally-Adjusted Fully-Adjusted\r\nClock\r\nCpGs \r\nin Clock\r\nRNA Hits \r\n(suggestive)\r\nRNA Hits \r\n(significant)\r\nRNA Hits \r\n(suggestive)\r\nRNA Hits \r\n(significant)\r\nChronological Clocks\r\nHorvath 353 0 0 0 0\r\nSkin&Blood 391 6 2 0 0\r\nHannum 71 467 231 10 5\r\nPedBE 94 197 65 9 3\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "PC Horvath — 512 202 0 0\r\nPC Skin&Blood — 1499 918 3 0\r\nPC Hannum — 2637 1818 11 2\r\nBiological Clocks\r\nGrimAge 1030 429 172 0 0\r\nPhenoAge 513 2907 2067 1 0\r\nDunedinPACE 173 484 209 1 1\r\nepiTOC2 163 501 276 33 22\r\nPC GrimAge — 3279 2496 3 0\r\nPC PhenoAge — 3656 2826 22 8\r\n6 D. KHODASEVICH ET AL.\nof overlap between two epigenetic clocks, shared \r\nsuggestive and significant associations with 10 \r\nRNAs, was found between epiTOC2 and the \r\nHannum clock. We also found substantial overlap \r\nin associations observed between PC-trained \r\nclocks and their CpG-trained counterparts in the \r\nminimally-adjusted models, ranging from \r\n50–100% of associations identified with the CpG \r\nclocks also being found with the corresponding PC \r\nclocks, with relatively less overlap in the fully\u0002adjusted models, ranging from 20–100% of asso\u0002ciations identified with the CpG clocks also being \r\nfound with the corresponding PC clocks for clocks \r\nexhibiting suggestive or significant associations \r\nwith both the CpG and PC-trained versions. \r\n(Supplemental Table S3)\r\nIn addition to the shared association across \r\nseveral clocks, 36 RNAs exhibited distinct associa\u0002tions with only a single clock. DunedinPACE was \r\nassociated with differential expression of \r\nRAP1GAP (logFC = 9.83, 95% CI: 6.68, 12.98). \r\nDistinct associations in relation to epiTOC2 \r\nincluded differential expression of KIF21A \r\n(logFC = 5.6E–04, 95% CI: 3.9E–04, 7.3E–04) and \r\nTGFBR3 (logFC = 5.0E–04, 95% CI: 3.4E–04, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "6.7E–04). PC PhenoAge was associated with dif\u0002ferential expression of several distinct RNAs \r\nincluding NOG (logFC = −0.07, 95% CI: −0.09, \r\nTable 3. Significant RNA associations from fully-adjusted models, adjusted for chronological age, maternal education, child sex, BMI, \r\nand estimated cell proportions. RNA hits were considered significant with a stringent Holm-Bonferroni-adjusted p-value <0.05. Effect \r\nestimates correspond to the expected log-fold change in expression for a 1-unit increase in epigenetic age.\r\nClock logFC 95% CI P-Value Gene ID Gene Name\r\nHannum 0.10 0.07, 0.13 1.22E–09 KLRA1P killer cell lectin like receptor A1, pseudogene\r\nHannum 0.11 0.07, 0.14 3.96E–09 MYO6 myosin VI\r\nHannum 0.05 0.03, 0.07 1.45E–07 PPP2R2B protein phosphatase 2 regulatory subunit Bbeta\r\nHannum 0.10 0.06, 0.13 1.71E–07 GZMH granzyme H\r\nHannum 0.03 0.02, 0.05 2.02E–07 ZBTB38 zinc finger and BTB domain containing 38\r\nPedBE 0.43 0.29, 0.57 3.77E–09 FCRL6 Fc receptor like 6\r\nPedBE 0.58 0.38, 0.77 3.64E–08 ZNF365 zinc finger protein 365\r\nPedBE 0.53 0.34, 0.71 5.20E–08 MYO6 myosin VI\r\nDunedinPACE 9.83 6.68, 12.98 5.25E–09 RAP1GAP RAP1 GTPase activating protein\r\nepiTOC2 8.2E–04 6.0E–04, 1.0E–03 1.54E–11 FCRL6 Fc receptor like 6\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "epiTOC2 1.1E–03 8.0E–04, 1.4E–03 4.56E–11 ZNF365 zinc finger protein 365\r\nepiTOC2 1.0E–03 7.4E–04, 1.3E–03 5.89E–11 MYO6 myosin VI\r\nepiTOC2 1.0E–03 7.3E–04, 1.3E–03 3.37E–10 GZMH granzyme H\r\nepiTOC2 5.6E–04 3.9E–04, 7.3E–04 7.08E–10 KIF21A kinesin family member 21A\r\nepiTOC2 9.6E–04 6.6E–04, 1.3E–03 1.53E–09 CADM1 cell adhesion molecule 1\r\nepiTOC2 8.2E–04 5.6E–04, 1.1E–03 2.18E–09 TPRG1 tumor protein p63 regulated 1\r\nepiTOC2 1.3E–03 8.7E–04, 1.7E–03 2.81E–09 GLB1L2 galactosidase beta 1 like 2\r\nepiTOC2 3.4E–04 2.3E–04, 4.5E–04 4.34E–09 ZBTB38 zinc finger and BTB domain containing 38\r\nepiTOC2 5.0E–04 3.4E–04, 6.7E–04 5.79E–09 TGFBR3 transforming growth factor beta receptor 3\r\nepiTOC2 8.3E–04 5.6E–04, 1.1E–03 6.52E–09 KLRA1P killer cell lectin like receptor A1, pseudogene\r\nepiTOC2 1.1E–03 7.1E–04, 1.4E–03 1.24E–08 ARHGEF28 Rho guanine nucleotide exchange factor 28\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "epiTOC2 1.0E–03 6.8E–04, 1.4E–03 3.00E–08 LINC00943 long intergenic non-protein coding RNA 943\r\nepiTOC2 9.0E–04 5.9E–04, 1.2E–03 3.93E–08 KIAA1671 KIAA1671\r\nepiTOC2 1.4E–03 9.0E–04, 1.9E–03 6.25E–08 EFNA5 ephrin A5\r\nepiTOC2 4.1E–04 2.7E–04, 5.5E–04 7.09E–08 GFI1 growth factor independent 1 transcriptional repressor\r\nepiTOC2 4.9E–04 3.2E–04, 6.7E–04 8.52E–08 PPP2R2B protein phosphatase 2 regulatory subunit Bbeta\r\nepiTOC2 4.1E–04 2.7E–04, 5.6E–04 8.97E–08 MAF MAF bZIP transcription factor\r\nepiTOC2 9.3E–04 6.0E–04, 1.3E–03 9.03E–08 KLRC3 killer cell lectin like receptor C3\r\nepiTOC2 1.1E–03 7.1E–04, 1.5E–03 1.12E–07 KLRC2 killer cell lectin like receptor C2\r\nepiTOC2 7.1E–04 4.5E–04, 9.7E–04 1.78E–07 SOX13 SRY-box transcription factor 13\r\nepiTOC2 4.6E–04 2.9E–04, 6.3E–04 1.99E–07 EOMES eomesodermin\r\nPC Hannum 0.09 0.06, 0.12 1.10E–07 ACSM1 acyl-CoA synthetase medium chain family member 1\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "PC Hannum 0.09 0.06, 0.12 2.50E–07 CYSLTR2 cysteinyl leukotriene receptor 2\r\nPC PhenoAge −0.05 −0.06, −0.03 1.09E–08 PLXDC1 plexin domain containing 1\r\nPC PhenoAge 0.03 0.02, 0.04 1.64E–08 ZBTB38 zinc finger and BTB domain containing 38\r\nPC PhenoAge 0.04 0.02, 0.05 2.66E–08 INPP1 inositol polyphosphate-1-phosphatase\r\nPC PhenoAge 0.09 0.06, 0.12 4.96E–08 WFDC21P WAP four-disulfide core domain 21, pseudogene\r\nPC PhenoAge −0.07 −0.09, −0.04 8.16E–08 NOG noggin\r\nPC PhenoAge 0.11 0.07, 0.15 2.09E–07 SIGLEC8 sialic acid binding Ig like lectin 8\r\nPC PhenoAge 0.07 0.05, 0.10 2.24E–07 FRRS1 ferric chelate reductase 1\r\nPC PhenoAge −0.05 −0.06, −0.03 2.28E–07 CCR7 C-C motif chemokine receptor 7\r\nEPIGENETICS 7\n−0.04) and FRRS1 (logFC = 0.07, 95% CI: 0.05, \r\n0.10). PC GrimAge was suggestively associated \r\nwith the differential expression of three immuno\u0002globulins: IGKV2D–30 (logFC = 0.27, 95% CI: \r\n0.16, 0.37), IGLV3–1 (logFC = 0.26, 95% CI: 0.16, \r\n0.36), and IGKV4–1 (logFC = 0.22, 95% CI: \r\n0.13, 0.30).\r\nThe GrimAge clock is a composite epigenetic \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "clock consisting of seven epigenetic estimators of \r\nplasma protein levels (adrenomedullin (ADM), \r\nbeta-2-microglobulin (B2M), cystatin C, growth \r\ndifferentiation factor 15 (GDF15), leptin, plasmi\u0002nogen activator inhibitor 1 (PAI1), and tissue inhi\u0002bitor metalloproteinase 1 (TIMP1)) and smoking \r\npack-years [10]. We further examined potential \r\nassociations between GrimAge components and \r\ntheir corresponding transcripts. Excluding leptin, \r\nwhich was not detected at a sufficiently high fre\u0002quency in the study population, 3/6 CpG-trained \r\nand 4/6 PC-trained GrimAge components were \r\npositively associated (unadjusted p-values <0.05) \r\nwith expression of their corresponding transcripts, \r\nindicating that GrimAge performs well in the ado\u0002lescent study population despite being trained in \r\nan entirely adult sample. (Supplemental Table S4).\r\nEach clock’s epigenetic age estimates are \r\nderived from DNA methylation measurements \r\nfrom CpG sites throughout the genome, so we \r\nnext set out to determine the extent to which \r\nobserved suggestive and significant associations \r\nare directly related to the genes mapped to each \r\nclock’s CpG sites. In the minimally-adjusted mod\u0002els, 77 PhenoAge associations, 17 GrimAge asso\u0002ciations, 6 DunedinPACE associations, 1 \r\nepiTOC2 association, and 1 Hannum association \r\nwere observed in genes mapped directly to com\u0002ponent CpG sites. No associations were observed \r\nin genes mapped to component CpG sites in the \r\nfully-adjusted models, indicating that the \r\nobserved associations are largely related to the \r\noverall epigenetic age signal, rather than being \r\ndriven by associations related to changes in \r\nmethylation at individual component CpG sites. \r\nA complete summary of each fully-adjusted \r\nFigure 1. Number of suggestively or significantly differentially expressed RNAs associated with each epigenetic clock and number of \r\ncommon associations among clocks from the fully-adjusted models. Color corresponds to the degree of overlap (blue = 2 clocks, red \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "= 3 clocks, green = 4 clocks, and yellow = 5 clocks).\r\n8 D. KHODASEVICH ET AL.\nTWAS is provided in Supplemental Tables \r\nS5–17 [38].\r\nBiological pathway enrichment\r\nUsing all genes found to be suggestively or signifi\u0002cantly associated with an epigenetic clock as input \r\nfor biological pathway enrichment, several KEGG \r\npathways were found to be enriched in the mini\u0002mally-adjusted models across multiple epigenetic \r\nclocks (FDR < 0.05). The Leishmaniasis (hsa05140) \r\npathway was found to be significantly enriched \r\nacross 10 different epigenetic clocks. In contrast, \r\nno KEGG pathways were significantly enriched for \r\nany of the epigenetic clocks in the fully-adjusted \r\nmodels. We then implemented hallmark gene set \r\nenrichment testing to further characterize the \r\npotential biological processes implicated in our \r\nfindings. Several pathways were found to be sig\u0002nificantly enriched across multiple clocks in the \r\nminimally-adjusted models, including \r\nInflammatory Response and TNFa Signaling via \r\nNFKb, which were both found to be enriched \r\nacross nine epigenetic clocks (FDR < 0.05). In the \r\nfully-adjusted models, the only significant pathway \r\nafter multiple testing adjustment was the epithe\u0002lial-mesenchymal transition pathway in relation to \r\nthe PedBE clock.\r\nExternal replication\r\nWe next examined the consistency of our results \r\nin an unrelated adult population by testing for \r\nreplication of suggestive and significant findings \r\nin the GSE224624 external dataset consisting of \r\n136 adults aged 40 to 54 years [37]. A total of 17 \r\nassociations in the CHAMACOS sample were \r\nfound to exhibit the same direction of association \r\nand an unadjusted p-value <0.05 in the \r\nGSE224624 dataset. (Table 4) This included nine \r\nassociations related to epiTOC2, one association \r\nrelated to the PC Hannum clock, and seven asso\u0002ciations related to PC PhenoAge. Among these \r\nassociations, only one positive association between \r\nepiTOC2 and differential expression of NUGGC \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 449,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "(logFC = 3.5E–04, 95% CI: 1.7E–04, 5.4E–04) \r\nremained significant after multiple testing \r\nadjustment.\r\nDiscussion\r\nWe performed a systematic cross-sectional analysis \r\nof transcriptomic associations with commonly \r\nused epigenetic clocks in an adolescent population. \r\nWithin our primary study sample, the highest \r\nnumber of differentially expressed genes in fully\u0002adjusted models were observed with the epiTOC2, \r\nPC PhenoAge, Hannum, PedBE, and PC Hannum \r\nTable 4. Validated RNA associations from the GSE224624 dataset. Associations found to be suggestive or significant in the \r\nCHAMACOS sample and found to exhibit both the same direction of effect and an unadjusted p-value <0.05 in the GSE224624 \r\ndataset are displayed. ** indicates an association with a Holm-Bonferroni-adjusted p-value <0.05 in the GSE224624 dataset.\r\nCHAMACOS Population GSE224624 Population\r\nClock logFC 95% CI P Value logFC 95% CI P Value Gene Name\r\nepiTOC2** 6.8E–04 4.1E–04, 9.6E–04 2.55E–06 3.5E–04 1.7E–04, 5.4E–04 2.93E–04 NUGGC\r\nepiTOC2 1.0E–03 7.4E–04, 1.3E–03 5.89E–11 3.1E–04 9.6E–05, 5.3E–04 5.18E–03 MYO6\r\nepiTOC2 1.0E–03 7.3E–04, 1.3E–03 3.37E–10 2.9E–04 4.1E–05, 5.3E–04 2.23E–02 GZMH\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "epiTOC2 9.0E–04 5.9E–04, 1.2E–03 3.93E–08 2.9E–04 1.3E–05, 5.7E–04 4.01E–02 KIAA1671\r\nepiTOC2 7.1E–04 4.5E–04, 9.7E–04 1.78E–07 1.9E–04 8.3E–06, 3.6E–04 4.04E–02 SOX13\r\nepiTOC2 −4.6E–04 −6.4E–04, −2.9E–04 5.88E–07 −2.6E–04 −5.1E–04,-2.0E–05 3.44E–02 ATP6V0E2-AS1\r\nepiTOC2 5.2E–04 3.2E–04, 7.3E–04 1.34E–06 2.0E–04 3.8E–05, 3.7E–04 1.66E–02 MCOLN2\r\nepiTOC2 7.4E–04 4.5E–04, 1.0E–03 1.92E–06 2.4E–04 6.4E–05, 4.1E–04 7.43E–03 RAB11FIP5\r\nepiTOC2 3.4E–04 2.0E–04, 4.7E–04 2.15E–06 1.0E–04 1.3E–05, 2.0E–04 2.62E–02 SYT11\r\nPC Hannum 0.08 0.04, 0.11 2.40E–06 0.03 0.00, 0.06 2.40E–02 PIK3R6\r\nPC PhenoAge −0.05 −0.06, −0.03 1.09E–08 −0.03 −0.05, −0.01 6.37E–03 PLXDC1\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "PC PhenoAge −0.07 −0.09, −0.04 8.16E–08 −0.05 −0.08, −0.02 4.22E–03 NOG\r\nPC PhenoAge −0.05 −0.06, −0.03 2.28E–07 −0.02 −0.03, −0.01 5.23E–03 CCR7\r\nPC PhenoAge 0.09 0.05, 0.12 7.94E–07 0.04 0.00, 0.08 4.09E–02 SLC29A1\r\nPC PhenoAge −0.04 −0.06, −0.03 1.97E–06 −0.03 −0.05, −0.01 2.15E–03 GPA33\r\nPC PhenoAge −0.03 −0.04, −0.02 1.99E–06 −0.02 −0.03, −0.01 2.70E–03 TRABD2A\r\nPC PhenoAge 0.06 0.04, 0.09 2.38E–06 0.03 0.00, 0.05 2.70E–02 PIK3R6\r\nEPIGENETICS 9\nclocks. Our findings support the biological rele\u0002vance of epigenetic clocks in adolescents, an age \r\ngroup that was not included in the training sam\u0002ples for several of the included epigenetic clocks, \r\nand may provide guidance for the selection of \r\nepigenetic aging biomarkers for research in ado\u0002lescent populations. Furthermore, the \r\nCHAMACOS study sample represents a primarily \r\nLatino community, a population overlooked in the \r\ndevelopment of most epigenetic clocks. We found \r\nevidence of substantial overlap in differentially \r\nexpressed RNAs when using epigenetic age mea\u0002sures derived from different clocks. Most epige\u0002netic clocks tend to share relatively few CpG sites \r\nand epigenetic age measures from different clocks \r\nwere only moderately correlated with each other, \r\nsuggesting that shared associations are unlikely to \r\nbe related to shared component CpG sites or direct \r\ncorrelation between epigenetic aging measures. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "For example, the Hannum and epiTOC2 clocks \r\nwere found to share suggestive or significant asso\u0002ciations with differential expression of 10 RNAs, \r\nbut shared no CpG sites and their epigenetic age \r\nmeasures only had a relatively low correlation \r\nof 0.25.\r\nA total of 24 RNAs were found to be suggestively or \r\nsignificantly differentially expressed across multiple \r\nepigenetic clocks in the fully-adjusted models. \r\nMyosin VI (MYO6), a motor protein involved in \r\nintracellular vesicle and organelle transport, and zinc \r\nfinger and BTB domain containing 38 (ZBTB38), \r\na transcriptional activator that binds methylated \r\nDNA, were both differentially expressed in response \r\nto epigenetic age estimates from five distinct clocks. \r\nDysregulation of MYO6 has been implicated in the \r\nprogression of several cancers including breast cancer \r\n[39], and MYO6 has been found to be upregulated in \r\nmouse hippocampus in response to traumatic stress \r\nexposure [40]. Psychosocial stressors have been found \r\nto be major contributors to epigenetic aging in a range \r\nof studies [41,42], which may be reflected in our \r\nfindings of consistent positive associations between \r\nmultiple epigenetic clocks and MYO6 expression. \r\nZBTB38 has been implicated in a wide range of down\u0002stream processes including cell survival, homeostasis, \r\nand cancer progression [43–46]. ZBTB38 polymorph\u0002isms and expression have previously been implicated \r\nin birth size and growth rates [47], and epigenetic \r\nclocks have previously been associated with birth \r\nsize and pubertal timing in pediatric populations \r\n[4,5]. Therefore, our finding of consistent differential \r\nexpression of ZBTB38 across multiple epigenetic \r\nclocks may be reflective of associations between epi\u0002genetic age estimates and altered growth patterns \r\nwithin the study population. Epigenetic age measures \r\nfrom four clocks were found to be associated with \r\ndifferential expression of Granzyme H (GZMH), \r\na serine protease that is highly expressed in NK cells \r\nand is involved in NK-mediated apoptosis [48]. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 481,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "Epigenetic age measures from three clocks were \r\nfound to be associated with differential expression of \r\nFc receptor like 6 (FCRL6), a protein involved in cell \r\nsurface receptor signaling. FCRL6 is an indicator of \r\ncytotoxic effector lymphocytes that is upregulated in \r\nconditions with chronic immune stimulation [49].\r\nIn addition to associations shared across several \r\nclocks, 36 significant or suggestive associations \r\nwere found to be specific to a single clock in the \r\nfully-adjusted models. Each epigenetic clock was \r\ntrained in unique samples, and, in the case of the \r\nbiological clocks, trained to predict unique aspects \r\nof biological aging, which may help explain why \r\ndifferent clocks exhibited unique associations. \r\nDunedinPACE was associated with differential \r\nexpression of RAP1 GTPase activating protein \r\n(RAP1GAP). RAP1GAP plays a role in tumor sup\u0002pression and the epithelial-mesenchymal transi\u0002tion, and lower expression has been implicated in \r\npoorer prognosis scores in several cancer types \r\n[50,51]. More research is required to help under\u0002stand whether this finding of differential expres\u0002sion of RAP1GAP is related to the unique design \r\nof DunedinPACE, which captures the longitudinal \r\nchanges in 19 indicators of multi-organ integrity. \r\nEpiTOC2, which is designed to capture the cumu\u0002lative number of stem cell divisions in a tissue, was \r\nassociated with differential expression of the high\u0002est number of genes in our primary study popula\u0002tion, with nine associations further validated in an \r\nexternal adult population. Differential expression \r\nof unique genes in relation to epiTOC2 included \r\nhigher expression of Kinesin Family Member 21A \r\n(KIF21A), a kinesin-like motor protein involved in \r\nneurodevelopment and cancer progression [52,53]. \r\nKIF21A has also been found to be overexpressed in \r\npatients with Down syndrome compared to con\u0002trols [54]. EpiTOC2 was also associated with \r\nhigher expression of LINC00943, a long non\u000210 D. KHODASEVICH ET AL.\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "protein coding RNA previously found to be asso\u0002ciated with gastric cancer and hepatocellular car\u0002cinoma progression [55,56]. The PC Hannum \r\nclock was suggestively associated with higher \r\nexpression of Ankyrin Repeat and SOCS Box \r\nContaining 2 (ASB2), a protein involved in the \r\nregulation of NK cell migration [57], as well as \r\nSphingomyelin Phosphodiesterase 3 (SMPD3), \r\na protein involved in the regulation of skeletal \r\ndevelopment [58]. The PC PhenoAge clock was \r\nassociated with differential expression of several \r\ndistinct RNAs including noggin (NOG) and ferric \r\nchelate reductase 1 (FRRS1). Noggin is a key sig\u0002naling molecule that plays a role in early pattern\u0002ing during embryonic development and has been \r\nsuggested to be involved in processes such as adi\u0002pogenesis and osteoblastogenesis [59,60]. \r\nPhenoAge is a DNAm-based predictor of pheno\u0002typic age that incorporates several biomarkers \r\nincluding serum glucose levels. Noggin has been \r\npreviously found to influence serum glucose levels \r\n[61], which may explain the unique association \r\nbetween PC PhenoAge and differential expression \r\nof noggin. FRRS1 is involved in the reduction of \r\nferric iron and overexpression has previously been \r\nobserved in the blood of children with asthma, \r\ndermatitis, and rhinitis [62]. The PC GrimAge \r\nclock was suggestively associated with higher \r\nexpression of several immunoglobulins involved \r\nin the immune response including IGKV2D–30, \r\nIGLV3–1, and IGKV4–1. GrimAge is a composite \r\nepigenetic clock consisting of several components \r\nrelated to immune function and inflammation, \r\nincluding B2M and GDF15, which may explain \r\nthe unique associations between PC GrimAge \r\nand differential expression of these \r\nimmunoglobulins.\r\nA total of 17 associations identified in relation \r\nto epiTOC2, PC Hannum, and PC PhenoAge in \r\nthe CHAMACOS cohort were replicated in an \r\nunrelated adult population, indicating some \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "commonality in associations between adoles\u0002cents and adults. EpiTOC2 was suggestively \r\nassociated with higher expression of Mucolipin \r\nTRP Cation Channel 2 (MCOLN2), a cation \r\nchannel protein that plays a role in chemokine \r\nrelease and innate immunity [63]. EpiTOC2 was \r\nalso suggestively associated with higher expres\u0002sion of RAB11 Family Interacting Protein 5 \r\n(RAB11FIP5), a Rab11 effector protein involved \r\nin immune response and NK cellular function \r\n[64], as well as SRY-Box Transcription Factor 13 \r\n(SOX13), a critical transcription factor involved \r\nin the regulation of embryonic development and \r\nprogression of several cancer types [65,66]. \r\nMYO6 and GZMH, which were consistently \r\nassociated with a number of epigenetic clock \r\nmeasures in the CHAMACOS population, were \r\nalso found to be suggestively associated with \r\nepiTOC2 in the adult population. Both the PC \r\nHannum and PC PhenoAge clocks were sugges\u0002tively associated with higher expression of \r\nPhosphoinositide-3-Kinase Regulatory Subunit \r\n6 (PIK3R6), a lipid kinase implicated in clear \r\ncell renal cell carcinoma progression [67]. PC \r\nPhenoAge was also suggestively associated with \r\nlower expression of glycoprotein A33 (GPA33), \r\na cell surface antigen involved in CD4+ T cell \r\nfunction [68], as well as lower expression of \r\nC-C Motif Chemokine Receptor 7 (CCR7), \r\na GPCR expressed in several immune cells with \r\nrelevance towards immune cell migration and \r\nautoimmune disease [69,70].\r\nSeveral of the epigenetic clocks examined in our \r\nstudy, including each of the biological clocks, did \r\nnot include pediatric participants in their training \r\nsamples. Accordingly, several epigenetic clocks \r\nexhibited poor fit with chronological age in our \r\nprimary study sample, although our ability to \r\neffectively evaluate the fit of the clocks was limited \r\nby the narrow age range of the study participants. \r\nHowever, our analysis aimed to examine the bio\u0002logical relevance of epigenetic age estimates, rather \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "than directly evaluating the fit of epigenetic clocks \r\nwith chronological age, and we found substantial \r\nevidence for differential expression of RNA in \r\nresponse to epigenetic age estimates from several \r\nepigenetic clocks. Similarly, previous studies have \r\nfound associations between exposures, including \r\nchildhood maltreatment and community violence, \r\nand epigenetic aging of biological clocks in ado\u0002lescent populations [71,72], supporting the appli\u0002cation of biological clocks in adolescents. \r\nFurthermore, most of the GrimAge component \r\nplasma protein predictors were found to be posi\u0002tively associated with expression of their corre\u0002sponding transcripts, providing additional \r\nsupport that these predictors perform well despite \r\nEPIGENETICS 11\nthe original training sample not including paedia\u0002tric samples. Taken together, these findings sug\u0002gest that epigenetic clocks developed in entirely \r\nadult populations may still serve as useful biomar\u0002kers in adolescents.\r\nOur study is subject to some limitations. First, \r\nour primary study sample consisted of adolescents \r\nfrom the CHAMACOS cohort ranging in age from \r\n14 to 15 years, which may limit the generalizability \r\nof our findings to other populations and wider age \r\ngroups. However, our work adds to the ongoing \r\nnecessity of expanding epigenetics research to \r\nmore diverse populations and addresses the press\u0002ing lack of research characterizing the impact of \r\nepigenetic aging in adolescents. Additionally, we \r\nwere able to validate a portion of our findings in \r\nan unrelated adult population. Second, DNA \r\nmethylation and RNA expression data were \r\nobtained from a mixed cell-type population, \r\nwhich limits cell-type specificity and generalizabil\u0002ity to other tissue types. However, we adjusted for \r\ncell-type estimates, which effectively reduced the \r\ngenomic inflation factors, suggesting proper con\u0002trol for cell-type heterogeneity within our analysis. \r\nThird, our study featured a relatively modest sam\u0002ple size. Fourth, our study utilized DNA methyla\u0002tion and RNA sequencing data measured at the \r\nsame timepoint, which limited our analysis to \r\nexamining cross-sectional associations. Lastly, we \r\nperformed a large number of independent statisti\u0002cal tests in our analysis, increasing the probability \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "of false positives. To account for this, we imple\u0002mented a stringent multiple testing adjustment to \r\nidentify high-confidence associations and further \r\ndiscussed suggestive associations that warrant \r\nfurther investigation.\r\nWe performed a transcriptome-wide association \r\nstudy of common epigenetic clocks in a population \r\nof adolescents from the CHAMACOS cohort. We \r\nidentified both substantial shared associations \r\nbetween different clocks, suggesting the targeting \r\nof a common signal of biological ageing, as well as \r\nassociations unique to a single clock. Several of the \r\nidentified differentially expressed genes were \r\ninvolved in biological functions related to immune \r\nfunction and cancer progression. Most of the epi\u0002genetic clocks included in this study (with the \r\nexception of Horvath, Skin&Blood, PedBE, PC \r\nHorvath, PC Skin&Blood) did not include \r\npaediatric samples within their training datasets; \r\nthus, our findings support the biological relevance \r\nof epigenetic clocks in adolescent populations. In \r\nparticular, we found that the epiTOC2, PC \r\nPhenoAge, Hannum, PC Hannum, and PedBE \r\nclocks were associated with differential expression \r\nof the highest number of genes.\r\nConclusions\r\nWe found that epigenetic aging is associated with \r\ndifferential expression of RNA in a population of \r\nadolescents from the CHAMACOS cohort, finding \r\nboth substantial commonality in associations \r\nacross different epigenetic clocks and associations \r\nunique to a single clock measure. Furthermore, \r\nseveral associations identified in adolescents were \r\nreplicated in an independent adult sample. Our \r\nfindings support the biological relevance of epige\u0002netic clocks in adolescents and provide direction \r\nfor the selection of epigenetic aging biomarkers for \r\nresearch in adolescent populations.\r\nAcknowledgments\r\nWe gratefully acknowledge the contributions of all \r\nCHAMACOS field staff, laboratory personnel, and participants.\r\nAuthor contributions\r\nCRediT: Dennis Khodasevich: Conceptualization, Formal \r\nanalysis, Methodology, Visualization, Writing – original \r\ndraft, Writing – review & editing; Anne K Bozack: \r\nConceptualization, Methodology, Writing – review & editing; \r\nSaher Daredia: Conceptualization, Methodology, Writing – \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "review & editing; Julianna Deardorff: Supervision, Writing – \r\nreview & editing; Kim G Harley: Supervision, Writing – \r\nreview & editing; Brenda Eskenazi: Supervision, Writing – \r\nreview & editing; Weihong Guo: Supervision, Writing – \r\nreview & editing; Nina Holland: Conceptualization, \r\nMethodology, Supervision, Writing – review & editing; \r\nAndres Cardenas: Conceptualization, Methodology, \r\nSupervision, Writing – review & editing.\r\nFunding\r\nThis work was supported by the National Institute of \r\nEnvironmental Health Sciences under Grant R01 ES031259; \r\nthe National Institute on Aging under Grant R03 AG067064; \r\nthe National Institute on Minority Health and Health \r\nDisparities under Grant R01 MD016595; the National Heart \r\n12 D. KHODASEVICH ET AL.\nLung and Blood Institute under Grant R01 HL175681; the \r\nNational Institutes of Health under Grants R01 AG069090, \r\nR01 ES017054, R01 ES021369, U24 ES028529, P01 ES009605, \r\nand P01 ES015572; and the US Environmental Protection \r\nAgency under Grants RD 83171001, RD 82670901, and \r\nRD83451301.\r\nDisclosure statement\r\nNo potential conflict of interest was reported by the \r\nauthor(s).\r\nData availability statement\r\nThe authors did not receive study participant consent to \r\npublicly share CHAMACOS study data. CHAMACOS data \r\nanalysed during the current study are available from the \r\nCHAMACOS study team upon submission of an Initial \r\nData Use Application and institutional review board \r\napproval. Expanded information on working with \r\nCHAMACOS cohort data is available on the Center for \r\nEnvironmental Research and Community Health website \r\n(https://cerch.berkeley.edu/investigators) The GSE224624 \r\ndataset is publicly available from the Gene Expression \r\nOmnibus database.\r\nEthics approval and consent to participate\r\nThis study was conducted in accordance with the Declaration \r\nof Helsinki, and the University of California, Berkeley \r\nCommittee for the Protection of Human Subjects approved \r\nall study activities. Written, informed consent was obtained \r\nfor all participating mothers, and written assent was obtained \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "from children at age 14 years.\r\nORCID\r\nDennis Khodasevich http://orcid.org/0000-0003-1412- \r\n8251\r\nReferences\r\n[1] Colwell ML, Townsel C, Petroff RL, et al. Epigenetics \r\nand the exposome: DNA methylation as a proxy for \r\nhealth impacts of prenatal environmental exposures. \r\nExposome. 2023;3(1):osad001. doi: 10.1093/exposome/ \r\nosad001\r\n[2] Oblak L, van der Zaag J, Higgins-Chen AT, et al. \r\nA systematic review of biological, social and environ\u0002mental factors associated with epigenetic clock \r\nacceleration. Ageing Res Rev. 2021;69:101348. doi: 10. \r\n1016/j.arr.2021.101348\r\n[3] Dhingra R, Nwanaji-Enwerem JC, Samet M, et al. DNA \r\nmethylation age—environmental influences, health \r\nimpacts, and its role in environmental epidemiology. \r\nCurr Envir Health Rpt. 2018;5(3):317–327. doi: 10. \r\n1007/s40572-018-0203-2\r\n[4] Simpkin AJ, Howe LD, Tilling K, et al. The epigenetic \r\nclock and physical development during childhood and \r\nadolescence: longitudinal analysis from a UK birth \r\ncohort. Int J Epidemiol. 2017;46(2):549–558. doi: 10. \r\n1093/ije/dyw307\r\n[5] Binder AM, Corvalan C, Mericq V, et al. Faster ticking \r\nrate of the epigenetic clock is associated with faster \r\npubertal development in girls. Epigenetics. 2018;13 \r\n(1):85–94. doi: 10.1080/15592294.2017.1414127\r\n[6] Horvath S. DNA methylation age of human tissues and \r\ncell types. Genome Biol. 2013;14(10):3156. doi: 10. \r\n1186/gb-2013-14-10-r115\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "[7] Horvath S, Oshima J, Martin GM, et al. Epigenetic \r\nclock for skin and blood cells applied to Hutchinson \r\nGilford progeria syndrome and ex vivo studies. Aging \r\n(Albany NY). 2018;10(7):1758–1775. doi: 10.18632/ \r\naging.101508\r\n[8] Hannum G, Guinney J, Zhao L, et al. Genome-wide \r\nmethylation profiles reveal quantitative views of \r\nhuman aging rates. Molecular Cell. 2013;49 \r\n(2):359–367. doi: 10.1016/j.molcel.2012.10.016\r\n[9] McEwen LM, O’Donnell KJ, McGill MG, et al. The \r\nPedBE clock accurately estimates DNA methylation \r\nage in pediatric buccal cells. Proc Natl Acad Sci USA. \r\n2020;117(38):23329–23335. doi: 10.1073/pnas. \r\n1820843116\r\n[10] Lu AT, Quach A, Wilson JG, et al. DNA methylation \r\nGrimAge strongly predicts lifespan and healthspan. \r\nAging (Albany NY). 2019;11(2):303–327. doi: 10. \r\n18632/aging.101684\r\n[11] Levine ME, Lu AT, Quach A, et al. An epigenetic \r\nbiomarker of aging for lifespan and healthspan. Aging \r\n(Albany NY). 2018;10(4):573–591. doi: 10.18632/aging. \r\n101414\r\n[12] Teschendorff AE. A comparison of epigenetic \r\nmitotic-like clocks for cancer risk prediction. Genome \r\nMed. 2020;12(1):56. doi: 10.1186/s13073-020-00752-3\r\n[13] Belsky DW, Caspi A, Corcoran DL, et al. \r\nDunedinPACE, a DNA methylation biomarker of the \r\npace of aging. In: Deelen J, Tyler JK, Suderman M, \r\nDeelen J, editors. Elife. 2022;11:e73420. doi: 10.7554/ \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "eLife.73420\r\n[14] Higgins-Chen AT, Thrush KL, Wang Y, et al. \r\nA computational solution for bolstering reliability of \r\nepigenetic clocks: implications for clinical trials and \r\nlongitudinal tracking. Nat Aging. 2022;2(7):644–661. \r\ndoi: 10.1038/s43587-022-00248-2\r\n[15] Liu Z, Leung D, Thrush K, et al. Underlying features of \r\nepigenetic aging clocks in vivo and in vitro. Aging Cell. \r\n2020;19(10):e13229. doi: 10.1111/acel.13229\r\n[16] Horvath S, Erhart W, Brosch M, et al. Obesity accel\u0002erates epigenetic aging of human liver. Proc Natl Acad \r\nSci USA. 2014;111(43):15538–15543. doi: 10.1073/pnas. \r\n1412759111\r\nEPIGENETICS 13\n[17] Wolf EJ, Zhao X, Hawn SE, et al. Gene expression \r\ncorrelates of advanced epigenetic age and psycho\u0002pathology in postmortem cortical tissue. Neurobiol \r\nStress. 2021;15:100371. doi: 10.1016/j.ynstr.2021. \r\n100371\r\n[18] Song MA, Mori KM, McElroy JP, et al. Accelerated \r\nepigenetic age, inflammation, and gene expression in \r\nlung: comparisons of smokers and vapers with \r\nnon-smokers. Clin Epigenetics. 2023;15(1):160. doi: \r\n10.1186/s13148-023-01577-8\r\n[19] Jung AM, Furlong MA, Goodrich JM, et al. \r\nAssociations between epigenetic age acceleration and \r\nmicroRNA expression among U.S. Firefighters. \r\nEpigenetic Insights. 2023;16:25168657231206301. doi: \r\n10.1177/25168657231206301\r\n[20] Babraham bioinformatics - FastQC a quality control \r\ntool for high throughput sequence data. [cited 2024 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 480,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "May 31]. Available from: https://www.bioinformatics. \r\nbabraham.ac.uk/projects/fastqc/\r\n[21] Ewels P, Magnusson M, Lundin S, et al. MultiQC: \r\nsummarize analysis results for multiple tools and sam\u0002ples in a single report. Bioinformatics. 2016;32 \r\n(19):3047–3048. doi: 10.1093/bioinformatics/btw354\r\n[22] Liao Y, Smyth GK, Shi W. The R package rsubread is \r\neasier, faster, cheaper and better for alignment and \r\nquantification of RNA sequencing reads. Nucleic \r\nAcids Research. 2019;47(8):e47. doi: 10.1093/nar/ \r\ngkz114\r\n[23] Robinson MD, Oshlack A. A scaling normalization \r\nmethod for differential expression analysis of \r\nRNA-seq data. Genome Biol. 2010;11(3):R25. doi: 10. \r\n1186/gb-2010-11-3-r25\r\n[24] Holland N, Furlong C, Bastaki M, et al. Paraoxonase \r\npolymorphisms, haplotypes, and enzyme activity in \r\nlatino mothers and newborns. Environ Health \r\nPerspect. 2006;114(7):985–991. doi: 10.1289/ehp.8540\r\n[25] Yousefi P, Huen K, Davé V, et al. Sex differences in \r\nDNA methylation assessed by 450 K BeadChip in \r\nnewborns. BMC Genomics. 2015;16(1):911. doi: 10. \r\n1186/s12864-015-2034-y\r\n[26] Aryee MJ, Jaffe AE, Corrada-Bravo H, et al. Minfi: \r\na flexible and comprehensive bioconductor package \r\nfor the analysis of infinium DNA methylation \r\nmicroarrays. Bioinformatics. 2014;30(10):1363–1369. \r\ndoi: 10.1093/bioinformatics/btu049\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "[27] Fortin JP, Labbe A, Lemire M, et al. Functional nor\u0002malization of 450k methylation array data improves \r\nreplication in large cancer studies. Genome Biol. \r\n2014;15(11):503. doi: 10.1186/s13059-014-0503-2\r\n[28] Niu L, Xu Z, Taylor JA. RCP: a novel probe design bias \r\ncorrection method for illumina methylation BeadChip. \r\nBioinformatics. 2016;32(17):2659–2663. doi: 10.1093/ \r\nbioinformatics/btw285\r\n[29] Johnson WE, Li C, Rabinovic A. Adjusting batch \r\neffects in microarray expression data using empirical \r\nBayes methods. Biostatistics. 2007;8(1):118–127. doi: \r\n10.1093/biostatistics/kxj037\r\n[30] Teschendorff AE, Breeze CE, Zheng SC, et al. \r\nA comparison of reference-based algorithms for cor\u0002recting cell-type heterogeneity in epigenome-wide \r\nassociation studies. BMC Bioinformatics. 2017;18 \r\n(1):105. doi: 10.1186/s12859-017-1511-5\r\n[31] Thrush KL, Higgins-Chen AT, Liu Z, et al. \r\nR methylCIPHER: a methylation clock investigational \r\npackage for hypothesis-driven evaluation & research \r\n[internet]. bioRxiv. 2022 [cited 2024 May 31]. p. 2022. \r\n07.13.499978.\r\n[32] Smyth GL. Linear models for microarray data. In: \r\nGentleman R, Carey V, Huber W, Irizarry R \r\nDudoit S, editors. Bioinformatics and computational \r\nbiology solutions using R and Bioconductor [internet]. \r\nNew York, NY: Springer; 2005 [cited 2024 May 31]. p. \r\n397–420. doi: 10.1007/0-387-29362-0_23\r\n[33] Law CW, Chen Y, Shi W, et al. Voom: precision \r\nweights unlock linear model analysis tools for \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "RNA-seq read counts. Genome Biol. 2014;15(2):R29. \r\ndoi: 10.1186/gb-2014-15-2-r29\r\n[34] Wu T, Hu E, Xu S, et al. clusterProfiler 4.0: a universal \r\nenrichment tool for interpreting omics data. Innov \r\n[Internet]. 2021;2(3):100141. doi: 10.1016/j.xinn.2021. \r\n100141\r\n[35] MSigDB gene sets R package. [cited 2024 May 31]. \r\nAvailable from: https://igordot.github.io/msigdbr/\r\n[36] Liberzon A, Birger C, Thorvaldsdóttir H, et al. The \r\nmolecular signatures database hallmark gene set \r\ncollection. Cell Syst. 2015;1(6):417–425. doi: 10.1016/j. \r\ncels.2015.12.004\r\n[37] Sánchez-Cabo F, Fuster V, Silla-Castro JC, et al. \r\nSubclinical atherosclerosis and accelerated epigenetic \r\nage mediated by inflammation: a multi-omics study. \r\nEur Heart J. 2023;44(29):2698–2709. doi: 10.1093/eur \r\nheartj/ehad361\r\n[38] Khodasevich D, Bozack A, Daredia S, et al. \r\nSupplementary materials for “blood transcriptomic \r\nassociations of epigenetic age in adolescents”. 2025 \r\n[cited 2025 May 5]; Available from: https://purl.stan \r\nford.edu/kr571bm9410\r\n[39] Zhan XJ, Wang R, Kuang XR, et al. Elevated expres\u0002sion of myosin VI contributes to breast cancer pro\u0002gression via MAPK/ERK signaling pathway. Cellular \r\nSignalling. 2023;106:110633. doi: 10.1016/j.cellsig.2023. \r\n110633\r\n[40] Tamaki K, Kamakura M, Nakamichi N, et al. \r\nUpregulation of Myo6 expression after traumatic stress \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "in mouse hippocampus. Neuroscience Letters. 2008;433 \r\n(3):183–187. doi: 10.1016/j.neulet.2007.12.062\r\n[41] Nwanaji-Enwerem JC, Cardenas A, Gao X, et al. \r\nPsychological stress and epigenetic aging in older \r\nmen: the VA normative aging study. Transl Med \r\nAging. 2023;7:66–74. doi: 10.1016/j.tma.2023.06.003\r\n[42] Zannas AS, Arloth J, Carrillo-Roa T, et al. Lifetime \r\nstress accelerates epigenetic aging in an urban, \r\nAfrican American cohort: relevance of glucocorticoid \r\n14 D. KHODASEVICH ET AL.\nsignaling. Genome Biol. 2015;16(1):266. doi: 10.1186/ \r\ns13059-015-0828-5\r\n[43] de Dieuleveult M, Marchal C, Jouinot A, et al. \r\nMolecular and clinical relevance of ZBTB38 expression \r\nlevels in prostate cancer. Cancers (Basel). 2020;12 \r\n(5):1106. doi: 10.3390/cancers12051106\r\n[44] Marchal C, de Dieuleveult M, Saint-Ruf C, et al. \r\nDepletion of ZBTB38 potentiates the effects of DNA \r\ndemethylating agents in cancer cells via CDKN1C \r\nmRNA up-regulation. Oncogenesis. 2018;7(10):82. \r\ndoi: 10.1038/s41389-018-0092-0\r\n[45] Chen J, Xing C, Yan L, et al. Transcriptome profiling \r\nreveals the role of ZBTB38 knock-down in human \r\nneuroblastoma. PeerJ. 2019;7:e6352. doi: 10.7717/ \r\npeerj.6352\r\n[46] Jing J, Liu J, Wang Y, et al. The role of ZBTB38 in \r\npromoting migration and invasive growth of bladder \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "cancer cells. Oncol Rep. 2019;41(3):1980–1990. doi: 10. \r\n3892/or.2018.6937\r\n[47] Parsons S, Stevens A, Whatmore A, et al. Role of \r\nZBTB38 genotype and expression in growth and \r\nresponse to recombinant human growth hormone \r\ntreatment. J Endocr Soc. 2022;6(3):bvac006. doi: 10. \r\n1210/jendso/bvac006\r\n[48] Hou Q, Zhao T, Zhang H, et al. Granzyme H induces \r\napoptosis of target tumor cells characterized by DNA \r\nfragmentation and Bid-dependent mitochondrial \r\ndamage. Mol Immunol. 2008;45(4):1044–1055. doi: \r\n10.1016/j.molimm.2007.07.032\r\n[49] Schreeder DM, Pan J, Li FJ, et al. FCRL6 distinguishes \r\nmature cytotoxic lymphocytes and is upregulated in \r\npatients with B cell chronic lymphocytic leukemia. \r\nEur J Immunol. 2008;38(11):3159–3166. doi: 10.1002/ \r\neji.200838516\r\n[50] Zuo H, Gandhi M, Edreira MM, et al. Downregulation of \r\nrap1gap through epigenetic silencing and loss of hetero\u0002zygosity promotes invasion and progression of thyroid \r\ntumors. Cancer Res. 2010;70(4):1389. doi: 10.1158/0008- \r\n5472.CAN-09-2812\r\n[51] Yang Y, Zhang J, Yan Y, et al. Low expression of \r\nRap1GAP is associated with epithelial-mesenchymal \r\ntransition (EMT) and poor prognosis in gastric \r\ncancer. Oncotarget. 2016;8(5):8057–8068. doi: 10. \r\n18632/oncotarget.14074\r\n[52] Puri D, Barry BJ, Engle EC. TUBB3 and KIF21A in \r\nneurodevelopment and disease. Front Neurosci. \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 489,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "2023;17:1226181. doi: 10.3389/fnins.2023.1226181\r\n[53] Lucanus AJ, Thike AA, Tan XF, et al. KIF21A regulates \r\nbreast cancer aggressiveness and is prognostic of patient \r\nsurvival and tumor recurrence. Breast Cancer Res Treat. \r\n2022;191(1):63–75. doi: 10.1007/s10549-021-06426-x\r\n[54] Salemi M, Barone C, Romano C, et al. KIF21A mRNA \r\nexpression in patients with down syndrome. Neurol Sci. \r\n2013;34(4):569–571. doi: 10.1007/s10072-012-1183-x\r\n[55] Qi X, Liu L. The regulatory effect of lncRNA \r\nLINC00943 on the progression of hepatocellular carci\u0002noma and its relationship with clinicopathological \r\nfeatures. Clin Res Hepatol Gastroenterol. 2024;48 \r\n(2):102273. doi: 10.1016/j.clinre.2023.102273\r\n[56] Xu Y, Ji T, An N, et al. LINC00943 is correlated with \r\ngastric cancer and regulates cancer cell proliferation \r\nand chemosensitivity via hsa-miR-101-3p. Int J Clin \r\nOncol. 2021;26(9):1650–1660. doi: 10.1007/s10147- \r\n021-01945-5\r\n[57] Shin JH, Moreno-Nieves UY, Zhang LH, et al. AHR \r\nregulates NK cell migration via ASB2–mediated ubi\u0002quitination of filamin a. Front Immunol. \r\n2021;12:624284. doi: 10.3389/fimmu.2021.624284\r\n[58] Li J, Manickam G, Ray S, et al. Smpd3 expression in both \r\nchondrocytes and osteoblasts is required for normal endo\u0002chondral bone development. Mol Cellular Biol. 2016;36 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 39,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "(17):2282–2299. doi: 10.1128/MCB.01077-15\r\n[59] Sawant A, Chanda D, Isayeva T, et al. Noggin is novel \r\ninducer of mesenchymal stem cell adipogenesis. J Biol \r\nChem. 2012;287(15):12241–12249. doi: 10.1074/jbc. \r\nM111.293613\r\n[60] Gazzerro E, Gangji V, Canalis E. Bone morphoge\u0002netic proteins induce the expression of noggin, \r\nwhich limits their activity in cultured rat \r\nosteoblasts. J Clin Invest. 1998;102(12):2106–2114. \r\ndoi: 10.1172/JCI3459\r\n[61] Koga M, Engberding N, Dikalova AE, et al. The bone \r\nmorphogenic protein inhibitor, noggin, reduces glyce\u0002mia and vascular inflammation in db/db mice. Am \r\nJ Physiol Heart Circ Physiol. 2013;305(5):H747–55. \r\ndoi: 10.1152/ajpheart.00825.2012\r\n[62] Lemonnier N, Melén E, Jiang Y, et al. A novel whole \r\nblood gene expression signature for asthma, dermatitis, \r\nand rhinitis multimorbidity in children and \r\nadolescents. Allergy. 2020;75(12):3248–3260. doi: 10. \r\n1111/all.14314\r\n[63] Plesch E, Chen CC, Butz E, et al. Selective agonist of \r\nTRPML2 reveals direct role in chemokine release from \r\ninnate immune cells. Elife. 2018;7:e39720. doi: 10.7554/ \r\neLife.39720\r\n[64] Li D, Bradley T, Cain DW, et al. RAB11FIP5-deficient \r\nMice exhibit Cytokine-related transcriptomic \r\nsignatures. ImmunoHorizons. 2020;4(11):713–728. \r\ndoi: 10.4049/immunohorizons.2000088\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 40,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "[65] Feng M, Fang F, Fang T, et al. Sox13 promotes hepa\u0002tocellular carcinoma metastasis by transcriptionally \r\nactivating Twist1. Lab Investig J Tech Met Pathol. \r\n2020;100(11):1400–1410. doi: 10.1038/s41374-020- \r\n0445-0\r\n[66] Gao T, Jiang B, Zhou Y, et al. SOX13 is a novel prog\u0002nostic biomarker and associates with immune infiltra\u0002tion in breast cancer. Front Immunol. \r\n2024;15:1369892. doi: 10.3389/fimmu.2024.1369892\r\n[67] Yang J, Zhong X, Gao X, et al. Knockdown of PIK3R6 \r\nimpedes the onset and advancement of clear cell renal \r\ncell carcinoma. Cell Adhes Migr. 2024;18(1):1–12. doi: \r\n10.1080/19336918.2024.2353920\r\n[68] Opstelten R, Suwandi JS, Slot MC, et al. GPA33 is \r\nexpressed on multiple human blood cell types and \r\nEPIGENETICS 15\ndistinguishes CD4+ central memory T cells with and \r\nwithout effector function. Eur J Immunol. 2021;51 \r\n(6):1377–1389. doi: 10.1002/eji.202048744\r\n[69] Han L, Zhang L. CCL21/CCR7 axis as a therapeutic target \r\nfor autoimmune diseases. Int Immunopharmacol. \r\n2023;121:110431. doi: 10.1016/j.intimp.2023.110431\r\n[70] Hong W, Yang B, He Q, et al. New insights of CCR7 \r\nsignaling in dendritic cell migration and inflammatory \r\ndiseases. Front Pharmacol. 2022;13:841687. doi: 10. \r\n3389/fphar.2022.841687\r\n[71] Chang OD, Meier HCS, Maguire-Jack K, et al. \r\nChildhood maltreatment and longitudinal epigenetic \r\naging: NIMHD social Epigenomics program. JAMA \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 41,
+      "doc_items": [],
+      "end_page": 15,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -179627915796168053,
+        "filename": "KEPI_20_2503824.PMC12087650.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 16,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 137,
+      "total_chunks": 42,
+      "version": "1.0.0"
+    },
+    "text": "Netw Open. 2024;7(7):e2421877. doi: 10.1001/jamanet \r\nworkopen.2024.21877\r\n[72] dos Santos Oliveira NC, Katrinli S, de Assis SG, et al. \r\nCommunity and domestic violence are associated with \r\nDNA methylation GrimAge acceleration and heart rate \r\nvariability in adolescents. Eur J Psychotraumatol. 2023;14 \r\n(2):2202054. doi: 10.1080/20008066.2023.2202054\r\n16 D. KHODASEVICH ET AL.\n\n"
+  }
+]

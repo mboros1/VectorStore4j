@@ -1,0 +1,578 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "A hybrid piezoelectric and triboelectric\r\nnanogenerator with lead-free BZT–BCT/PDMS\r\ncomposite and PVA film for scavenging mechanical\r\nenergy†\r\nS. R. Gopal,a T. S. Velayutham, *a W. C. Gan, b J. Y. Cheonga and A. E. Soha\r\nA hybrid piezo/triboelectric nanogenerator (H/P-TENG) is designed for mechanical energy harvesting using\r\npolymer ceramic composite films; polydimethylsiloxane/Ba(Zr0.2Ti0.8)O3–0.5(Ba0.7Ca0.3)TiO3 (PDMS/BZT–\r\nBCT) and polyvinyl alcohol (PVA). A lead-free BZT–BCT piezoelectric ceramic was prepared via solid-state\r\nmethod and blended into PDMS to form a series of polymer-ceramic composite films, ranging from 5% to\r\n30% by weight. The films were forward/reverse poled with corona poling and their electrical properties were\r\ncompared to non-poled samples. The H/P-TENG constructed with forward-poled 15 wt% BZT–BCT in\r\nPDMS achieved the highest open-circuit voltage, Voc of 127 V, short-circuit current density, Jsc of 67 mA\r\nm−2\r\n, short-circuit charge density, Qsc of 118 mC m−2, and peak power density of 7.5 W m−2, an increase\r\nof 190% over pristine PDMS-based TENG. It was discovered that incorporating BZT–BCT into the PDMS\r\nmatrix improved the triboelectric properties of PDMS. The overlapping electron cloud (OEC) model was\r\nused to explain the enhancement and the effect of poling direction of the PDMS/BZT–BCT composite\r\nused in H/P-TENG, providing fundamental knowledge of the influence of piezoelectric polarisation on\r\ncontact electrification.\r\nIntroduction\r\nIn the last decade, the internet of things (IoT) has given rise to\r\na signicant increase in the use of smart devices and sensors.1–3\r\nUnderstandably, the need for a clean, safe power source for\r\nthese devices and sensors has risen as well.4,5 Mechanical\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "energy, being one of the most widely available energies in the\r\nenvironment, provides a more viable means to produce self\u0002powered devices. In that context, triboelectric nanogenerators\r\n(TENG) stand out as a promising option among the various\r\nconceivable alternatives.6–8 TENGs transform mechanical\r\nenergy into electrical energy by utilising the triboelectric\r\neffect.9,10 Contact electrication and electrostatic induction play\r\nan important role in the operation of the TENG,11,12 therefore\r\nany modications and improvements to the TENG would\r\nrevolve around these two phenomena. Despite its high open\u0002circuit voltage output, TENG has a high internal resistance\r\nand a low short-circuit current output, resulting in a poorer and\r\nunstable power density.13–15 On the other hand, piezoelectric\r\nnanogenerators (PENG) are able to convert mechanical energy\r\ninto electrical energy via the piezoelectric effect.16–18 In\r\ncomparison to TENG, PENG typically has higher short-circuit\r\ncurrent but lower open-circuit voltage. TENG and PENG are\r\nboth capable of converting irregular, low frequency, and\r\ndistributed mechanical energy into electrical energy.\r\nCombining the benets of PENG and TENG, a hybrid piezo\u0002electric–triboelectric nanogenerator (H/P-TENG) can be ex\u0002pected to create impressive open-circuit voltage and short\u0002circuit current at the same time, thus it is worth exploring.19\r\nIn recent years, several H/P-TENGs have been produced and\r\ndemonstrated to have promising features.20 The type of mate\u0002rials utilised for the triboelectric layers and the number of\r\nterminals are important aspects to consider when developing\r\nH/P-TENG.21–25 PDMS is commonly used in TENG systems, as it\r\nis a exible, inexpensive material that has high tribo-nega\u0002tivity.26,27 Its tendency to attract electrons when in contact with\r\na tribo-positive surface makes it very desirable as TENGs.\r\nConversely, PVA lm has high tribo-positivity, allowing it to lose\r\nelectrons when coming into contact with tribo-negative mate\u0002rials.28,29 This is a perfect combination of materials for a TENG\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "device, but the energy output is still minimal. Prior research are\r\ncentered on merging TENG and PENG in either series or parallel\r\nmodes, or making use of organic piezoelectric materials such as\r\nPVDF and its copolymer as the tribo- and piezo-materials\r\nsimultaneously.28 When compared to organic counterparts,\r\na\r\nLow Dimensional Materials Research Centre, Department of Physics, Faculty of\r\nScience, Universiti Malaya, 50603 Kuala Lumpur, Malaysia. E-mail: t_selvi@um.\r\nedu.my\r\nb\r\nSchool of Energy and Chemical Engineering, Xiamen University Malaysia, Jalan\r\nSunsuria, Bandar Sunsuria, Selangor Darul Ehsan, 43900, Malaysia\r\n† Electronic supplementary information (ESI) available. See DOI:\r\nhttps://doi.org/10.1039/d3ra00077j\r\nCite this: RSC Adv., 2023, 13, 7921\r\nReceived 5th January 2023\r\nAccepted 24th February 2023\r\nDOI: 10.1039/d3ra00077j\r\nrsc.li/rsc-advances\r\n© 2023 The Author(s). Published by the Royal Society of Chemistry RSC Adv., 2023, 13, 7921–7928 | 7921\r\nRSC Advances\r\nPAPER\nthe piezoelectric characteristics of inorganic piezoelectric\r\nmaterials are signicantly superior. The drawback is that there\r\nis a restricted amount of exibility. One further possibility for\r\ngetting over the aforementioned restriction is to use inter\u0002connected ferroelectric lms i.e., lead zirconate titanate (PZT)30\r\nor BiFeO3 (ref. 31) on exible glass bre fabric, ZnO nanorod/\r\nPVDF-PTFE,32,33 ZnO nanowire/parylene C,34 BTO/PDMS,35,36\r\nPDMS/carbon coated BT37 and etc.\r\nBa(Zr0.2Ti0.8)O3–0.5(Ba0.7Ca0.3)TiO3 (BZT–BCT) is a lead-free\r\nbinary piezoelectric ceramic which has gained popularity due\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "to its unique characteristics such as high dielectric constant\r\n∼2400, high piezoelectric constant ∼471 pC N−1 and high\r\npolarizability ∼103 mC m−2\r\n.\r\n38,39 BZT–BCT has been utilised as\r\nthe piezoelectric material in numerous PENG devices,40,41 but it\r\nhas not been utilised in any notable TENG-based systems. In\r\nthis study, we mixed BZT–BCT ceramic powder into the PDMS\r\nmatrix to form a PDMS/BZT–BCT composite lm. The high\r\npiezoelectric and dielectric properties of the BZT–BCT ceramic\r\npowder is hypothesized to enhance the charge concentration in\r\nPDMS due to synergistic effect of piezoelectricity and tribo\u0002electricity, thus enhancing the overall electrical output of the H/\r\nP-TENG. We studied the wt% and poling direction of the\r\nceramic ller to determine the optimized polymer ceramic\r\ncomposite lm that leads to the maximum enhancement to the\r\npower density output of the H/P-TENG. By means of its syner\u0002gistic design, this hybrid generator may compensate for the\r\nshortcomings of each transducing mechanism, allowing it to be\r\nemployed as energy supply units in a wide range of applications.\r\nMethodology\r\nBZT–BCT ceramic powder\r\nThe BZT–BCT ceramic is produced using high purity BaCO3\r\n(>99%), ZrO2 (99.95%), CaCO3 (>99%) and TiO2 (99.95%)\r\npowders. The BZT and BCT are stoichiometrically mixed, ball\r\nmilled separately in ethanol for 24 hours and calcined at 1200 °\r\nC for 2 hours. Next, the BZT and BCT powders are ball milled\r\ntogether in a BZT : BCT ratio of 2 : 1 to produce BaZr0.2Ti0.8O3–\r\n0.5[Ba0.7Ca0.3TiO3] (BZT–0.5BCT). The BZT–BCT ceramic\r\npowder is sieved through a 70 microns mesh sieve and pellet\u0002ized using uniaxial compression. The ceramic pellet is sintered\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "for two hours at 1300 °C. Crystalline phases of the sintered\r\nceramic are investigated by X-ray diffraction XRD (Empyrean X\u0002ray Diffractometer) and the analysis is shown in Fig. S1 (see\r\nESI†).\r\nPolydimethylsiloxane (PDMS)-BZT–BCT composite lm\r\nPDMS is prepared using SYLGARD®184 silicone based elasto\u0002meric kit which was purchased from Sigma Aldrich. The kit\r\ncontains a polymeric base and a curing agent which cross-links\r\nto polymeric matrix. The PDMS base and curing agent are added\r\nwith a 10 : 1 ratio respectively. The BZT–BCT ceramic pellets are\r\nground into powder to ensure greater dispersion in the\r\ncomposite lm. The powder was added to the Sylgard 184 PDMS\r\nelastomer base and stirred for 45 minutes using a magnetic\r\nstirrer to achieve a good mixture. Next, the curing agent was\r\nadded, and the mixture was stirred for another 15 minutes. The\r\ncomposition of the BZT–BCT ceramic powder is varied to ach\u0002ieve of 0, 5, 10, 15, 20, 25, and 30 weight percentage (wt%)\r\nrespectively. The PDMS/BZT–BCT mixtures are spin-coated onto\r\na 2.5 cm × 2.5 cm glass substrate which was pre-coated with\r\naluminium electrodes. The composite lms are then cured at\r\n100 °C in oven for one hour. The morphology of the fabricated\r\nPDMS/BZT–BCT composite lm is studied by eld emission\r\nscanning electron microscope FESEM (Hitachi SU8200 Ultra\r\nResolution Scanning Electron Microscope) with an accelerating\r\nvoltage of 1 kV. The polymer composites are poled in either\r\nforward or reverse directions using corona poling method. A\r\nhigh electric eld (15 kV cm−1\r\n) is applied at 100 °C for 20\r\nminutes and the electric eld is retained until the lms cooled\r\ndown to room temperature.\r\nPoly(vinyl alcohol) (PVA) lm\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Polyvinyl alcohol (average molecular weight of 145 000, >98%\r\nhydrolysed) was purchased from Sigma Aldrich. 10 wt% of PVA\r\ncrystals are dissolved in 10 mL of deionized water. The solution\r\nis stirred at 150 °C for an hour until the PVA crystals are\r\ncompletely dissolved. The PVA mixture is then casted onto\r\na Petri dish and is le in an oven at 42 °C overnight to dry the\r\nexcess water from the mixture. The PVA lm is then cut, and\r\nrmly secured onto a 2 cm × 2 cm copper electrode.\r\nH/P-TENG\r\nWe have coupled PVA lm (tribo-positive layer) and PDMS/BZT–\r\nBCT polymer composite lm (tribo-negative layer) for the H/P\u0002TENG. For the electrical contacts, the electrodes of the PVA\r\nlm and PDMS/BZT–BCT polymer composite lm are attached\r\nto connecting wires, which are then connected to a Keithley\r\n6517B electrometer. The PVA lm is attached to a rigid plat\u0002form, while the PDMS/BZT–BCT polymer composite lm is\r\nattached to the moving piston of an electrodynamic shaker. The\r\nschematic diagram of the H/P-TENG is shown in Fig. S2 (see\r\nESI†).\r\nElectrical measurement\r\nThe dielectric measurement of the composite lm is conducted\r\nusing Agilent 4294A impedance analyzer in a frequency range\r\nbetween 40 Hz and 15 MHz. The piezoelectric constant d33 of\r\nthe ceramic pellets as well as the polymer composite lms are\r\ndetermined using a Sinocera YE2730A d33 meter. The ferro\u0002electric hysteresis (P–E) measurement of the BZT–BCT ceramic\r\npellet is conducted using ferroelectric tester (Radiant Technol\u0002ogies Precision LC unit) at 100 Hz. The vertical contact\u0002separation of the H/P-TENG is simulated using an electrody\u0002namic shaker with a separation distance of 10 mm and a force\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "of 50 N at 1 Hz and the electrical output is measured using\r\na Keithley 6517B electrometer. The open-circuit voltage (Voc),\r\nshort-circuit current density (Jsc), and short-circuit charge\r\ndensity (Qsc) of the H/P-TENG are recorded for a period of 10 s.\r\nThe power density is calculated by connecting the H/P-TENG in\r\nseries with various resistors (1–500 MU) and measuring the\r\nvoltage and current over a period of 10 s. The optimized power\r\n7922 | RSC Adv., 2023, 13, 7921–7928 © 2023 The Author(s). Published by the Royal Society of Chemistry\r\nRSC Advances Paper\ndensity of the H/P-TENG is then selected as a power source to\r\nlight-up commercial LEDs and charge capacitors with various\r\ncapacitance (1–330 mF).\r\nResults\r\nMorphology study of pristine PDMS lm and PDMS/BZT–BCT\r\npolymer composite lms\r\nFig. 1 presents FESEM cross-sectional images of pristine PDMS\r\nlm and PDMS/BZT–BCT composite lms with 15 and 30 wt%\r\nBZT–BCT concentration. The pristine PDMS lm appears to be\r\nsmooth and does not contain any pores (refer to Fig. 1(a and b)).\r\nOn the other hand, in the composite lms, the ceramic powder\r\nappears as bright particles, while a slightly darker region\r\ncorresponds to the PDMS matrix. The FESEM cross-sectional\r\nviews of the lm conrm that the ceramic particles are\r\nuniformly distributed in the 15 wt% PDMS/BZT–BCT\r\ncomposite. However, in the case of the 30 wt% PDMS/BZT–BCT\r\npolymer composite lm, the ceramic powder forms large\r\nagglomerates.\r\nElectrical output of H/P-TENG with PDMS/BZT–BCT polymer\r\ncomposite lms\r\nThe typical time dependent open-circuit voltage Voc, short\u0002circuit current density Jsc and short-circuit charge density Qsc of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "the H/P-TENG (measured at a frequency of 1 Hz for 10 cycles) is\r\nshown in Fig. 2(a)–(c). Taking the pristine PDMS-based TENG as\r\na reference, we can observe that the Voc, Jsc, Qsc, and power\r\ndensity outputs vary accordingly with the different wt% of BZT–\r\nBCT inclusion. For the pristine PDMS, the Voc, Jsc, Qsc and power\r\ndensity output are 59.8 V, 21.6 mA m−2\r\n, 55.2 mC m−2 and 2.6 W\r\nm−2 respectively. The electrical output of the PDMS composite\r\nH/P-TENG is the contribution of triboelectric effect. As the wt%\r\nof the BZT–BCT increased in the composites, the Voc, Jsc, Qsc and\r\npower density output of the samples increased and reached\r\na maximum value at the 15 wt% BZT–BCT of inclusion. The Voc,\r\nJsc, Qsc and power density output of 15 wt% are 113.2 V, 61.1 mA\r\nm−2\r\n, 100.7 mC m−2 and 5.1 W m−2, respectively. Further\r\nincrement in the wt% of BZT–BCT inclusion results in a gradual\r\ndeterioration of the values.\r\nImpedance matching experiment is conducted by connect\u0002ing the TENG in series to a load resistance and the power\r\ndensity is measured. Fig. 2(d) depicts the plot of power density\r\noutput versus load resistance. The power density increased and\r\nshowed a peak for all samples at the load resistance of 8 MU.\r\nThis suggests that the TENG's internal resistance is about 8 MU,\r\nmaking it the optimal load resistance connected in series. The\r\ninclusion of BZT–BCT can enhance the power density output of\r\na PDMS-based TENG up to 96%.\r\nThe dielectric constants, 3\r\n′\r\n, of the composite lms are\r\nexamined to explain the electrical output augmentation of the\r\nTENG. Fig. 3(a) depicts the frequency dependence of 3\r\n′ of\r\npolymer composite lms with varying wt% of BZT–BCT ceramic.\r\nThe results reveal that 3\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "′ increased as the weight percentage of\r\nBZT–BCT increased in the composites. An increase in the\r\ndielectric constant raises the surface charge density of the\r\npolymer composite lm,32,42,43 making it more tribo-negative.\r\neqn (1) is used to approximate the surface charge density of\r\nthe polymer composite lms.44\r\ns ¼ V3r30\r\nd (1)\r\nwhere s and 3r are the surface charge density and relative\r\ndielectric constant of the polymer composite lm, while the 30 is\r\nthe vacuum permittivity (8.854 × 10−12 F m−1\r\n), V is the open\u0002circuit voltage measured using the polymer composite lm,\r\nand d is the separation distance between the two triboelectric\r\nlayers. The calculated surface charge density of the pristine,\r\nforward and reverse poled composite lms is shown in Fig. 3(b).\r\nFig. 1 FESEM cross-sectional images magnified at 500× magnifica\u0002tion (left column), followed by 100 00× magnification (right column)\r\nof (a and b) pristine PDMS film (c and d) 15 wt% and (e and f) 30 wt%\r\npolymer composite film, respectively.\r\nFig. 2 (a) Open-circuit voltage, Voc, (b) short-circuit current density,\r\nJsc, (c) short-circuit charge density, Qsc, and (d) power density output\r\nof H/P-TENG with polymer composite films of varying wt% of BZT–\r\nBCT inclusion.\r\n© 2023 The Author(s). Published by the Royal Society of Chemistry RSC Adv., 2023, 13, 7921–7928 | 7923\r\nPaper RSC Advances\nThe surface charge density of polymer composite lms\r\nincreases as the wt% of BZT–BCT inclusion increases. When\r\ncombined with a similar tribo-positive material, a more tribo\u0002negative substance produces a larger electrical output in the\r\noperation of TENG. As a result, increasing the weight\r\npercentage of BZT–BCT inclusion increases the electrical output\r\nof the TENG.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Moreover, the inclusion of polarizable ceramic powder (BZT–\r\nBCT) into the matrix of the PDMS improves the charge trapping\r\nability of the polymer composite lm. This also contributes to\r\nthe increased H-P/TENG output because the electrons captured\r\nby the polymer composite lm during contact electrication are\r\nunable to dri along the composite lm matrix and recombine\r\nwith the induced positive charges from the electrode.45–47\r\nAlthough not contributing to the increment of the overall\r\noutput, this charge trapping ability is crucial in minimising the\r\ncharge recombination that results in the loss of triboelectricity\r\ngenerated in the H/P-TENG during its working mode.\r\nHowever, as mentioned above, we observe a decrement in\r\nthe electrical output of the TENG when the BZT–BCT inclusion\r\nincreases higher than 15 wt%. This is most likely due to BZT–\r\nBCT ceramic particle agglomeration in the PDMS matrix,\r\nresulting in an uneven distribution of the ceramic particles.\r\nFig. 3(c) depicts a schematic diagram that explains the\r\nphenomenon. When the ideal wt% of BZT–BCT is exceeded, the\r\nBZT–BCT ceramic powder begins to agglomerate. A short-circuit\r\npathway is formed due to the agglomeration along the z-axis of\r\nthe polymer composite lm. The formation of these continuous\r\nconducting networks results in increased electrical conductivity\r\nwithin the composite lm, creating a short-circuit pathway for\r\nthe charges that developed during triboelectrication to\r\nrecombine and dissipate.48,49 As a result, despite the fact that the\r\nsurface charge density increased with the weight percentage of\r\nBZT–BCT inclusion, the overall charge transfer is reduced due\r\nto the charge recombination phenomena.\r\nEffect of poling the polymer composite lms\r\nLet us now investigate the effect of poling direction on the\r\nelectrical output of the H/P-TENG. Fig. 4(a) shows the power\r\ndensity of the H/P-TENG using non-poled and poled composite\r\nlms. The power density of the H/P-TENG varies with the poling\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "direction. Non-poled samples have lower power density, as ex\u0002pected; nevertheless, reverse-poled samples have much lower\r\npower density than non-poled samples. It is obvious that\r\nforward-poling improves while reverse-poling decreases the\r\npower density output of the H/P-TENGs. Moreover, both non\u0002poled and forward-poled samples display the highest power\r\ndensity in 15 wt% BCT-BZT/PDMS composites.\r\nThe difference in power density output of the TENG without\r\n(non-poled polymer composites) and with the piezoelectric\r\ncomponent (forward-poled polymer composites) in the nano\u0002generator is shown in Fig. 4(b). When compared to the output of\r\nthe PDMS-based TENG, the optimised hybrid piezo/triboelectric\r\nnanogenerator (which contains 15 wt% PDMS/BZT–BCT\r\ncomposite) demonstrated an overall improvement of ∼190%. A\r\nFig. 3 (a) Dielectric constant, 3\r\n′ of PDMS/BZT–BCT polymer\r\ncomposite films of varying wt% of BZT–BCT inclusion measured at\r\n40 Hz to 15 MHz, (b) calculated surface charge density, s of PDMS/\r\nBZT–BCT polymer composite films with varying wt% of BZT–BCT\r\ninclusion, and (c) illustration of charge formation in H/P-TENGs with\r\nnone, optimal and overabundant inclusion of BZT–BCT ceramic\r\npowder in the polymer composite.\r\nFig. 4 (a) Peak power density, (b) enhancement of power density\r\noutput observed from H/P-TENGs of H/P-TENGs with polymer\r\ncomposite films of varying wt% of BZT–BCT inclusion, open circuit\r\nvoltage, (c) Voc, short-circuit current density, (d) Jsc, short-circuit\r\ncharge density, (e) Qsc, and (f) power density against various load\r\nresistance for 15 wt% polymer composite H/P-TENG under various\r\npoling conditions.\r\n7924 | RSC Adv., 2023, 13, 7921–7928 © 2023 The Author(s). Published by the Royal Society of Chemistry\r\nRSC Advances Paper\nsimilar trend is observed for the Voc, Jsc, and Qsc output of the H/\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "P-TENG (refer to Fig. 4(c)–(e) respectively). Table 1 summarises\r\nthe Voc, Jsc, Qsc, and power density output of all polymer\r\ncomposites H/P-TENG variations. Fig. 4(f) depicts the power\r\ndensity output of 15 wt% polymer composite H/P-TENGs when\r\ncoupled to resistors of varied resistance. The power density\r\noutput in a circuit increases with the load resistance, peaks at 8\r\nMU, and then declines steadily as the load resistance increases\r\nfurther.\r\nThe aforementioned results indicate that forward poling the\r\npolymer composite lms optimises the piezoelectric compo\u0002nent of the H/P-TENG. Fig. 5 is the schematic diagrams illus\u0002trating the operating mechanism of the device with the forward\u0002poled PDMS/BZT–BCT polymer composite lm. The non-poled\r\npolymer composite lm contains randomly oriented BZT–BCT\r\nparticles. During the contact phase, the polymer composite lm\r\nis subjected to a certain amount of mechanical stress, which\r\ngenerates the piezoelectric effect in the BZT–BCT ceramic\r\npowder. As a result of the unoriented characteristic of the BZT–\r\nBCT ceramic powder, the resultant piezo-potential is weak.\r\nTherefore, it has a negligible or minimal impact on the number\r\nof charges that developed in the H/P-TENG's.\r\nIn contrast to the non-poled polymer composite, for the\r\nforward-poled samples, the dipoles of the BZT–BCT ceramic\r\npowders are aligned in the poling direction (see Fig. 5). Positive\r\ndipoles face the interface between the PVA lm and the PDMS/\r\nBZT–BCT polymer composite lm, whereas negative dipoles\r\nface the polymer lm's electrode. During the contact phase,\r\na mechanical force is applied to the PDMS/BZT–BCT polymer\r\ncomposite lm, creating a piezo-potential along the direction of\r\nthe dipoles. With the piezo-potential pointing upwards, addi\u0002tional negative charges are attracted to the interface of the PVA\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "and PDMS/BZT–BCT lms. Consequently, the quantity of\r\ncharges produced during the contact electrication is\r\nincreased. As additional charges are generated at this stage,\r\nmore charges are generated within the electrodes as a result of\r\nelectrostatic induction. This results in an increase in the overall\r\nelectrical output of the H/P-TENG.\r\nIn contrast, when the polymer composite lm is reverse\u0002poled, the orientation of the BZT–BCT ceramic powders'\r\ndipoles is reversed. This alignment produces a piezo-potential\r\nin the downward direction during the contact phase of the H/\r\nP-TENGs. Subsequently, the negative charges are driven away\r\nfrom the interface between the PVA and PDMS/BZT–BCT lm,\r\nwhich results in less charges formed during the contact elec\u0002trication. As a result, the overall electrical output of the H/P\u0002TENG is reduced.\r\nDiscussion\r\nHerein, an overlapping electron cloud (OEC) model is adopted\r\nto explain the formation of charges during the contact\r\nTable 1 Comparison of Voc, Jsc, Qsc and power density output of H/P-TENG with various %wt of BZT–BCT inclusion under different poling\r\nconditions\r\n%wt of BZT–BCT inclusion Poling condition Voc (V) Jsc (mA m−2\r\n) Qsc (mC m−1) Power density (W m−2)\r\n0 — 59.8 21.6 55.2 2.6\r\n5 Forward-poled 82.9 47.0 74.6 3.1\r\nNon-poled 71.0 33.3 67.1 2.8\r\nReverse-poled 65.4 28.8 57.5 2.6\r\n10 Forward-poled 97.4 50.4 87.8 3.5\r\nNon-poled 83.4 38.3 78.5 3.0\r\nReverse-poled 76.2 36.5 74.0 2.7\r\n15 Forward-poled 127.1 66.6 117.5 7.5\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "Non-poled 113.2 61.1 100.7 5.1\r\nReverse-poled 99.5 53.8 95.3 4.2\r\n20 Forward-poled 120.9 63.4 107.4 5.5\r\nNon-poled 102.5 52.2 97.1 4.9\r\nReverse-poled 91.7 44.7 90.8 3.9\r\n25 Forward-poled 112.6 53.6 100.4 4.6\r\nNon-poled 98.3 43.0 93.0 4.2\r\nReverse-poled 86.7 35.8 85.8 3.6\r\n30 Forward-poled 107.5 44.2 96.7 4.0\r\nNon-poled 97.2 36.7 85.1 3.6\r\nReverse-poled 84.0 33.3 77.6 3.2\r\nFig. 5 Working mechanism depicting the formation and transfer of\r\ncharges in H/P-TENG when the polymer composite film used are\r\nunder forward-poled condition.\r\n© 2023 The Author(s). Published by the Royal Society of Chemistry RSC Adv., 2023, 13, 7921–7928 | 7925\r\nPaper RSC Advances\nelectrication in H/P-TENG.28,44,50 This model is able to illustrate\r\nhow charges are formed within the H/P-TENG during contact\r\nelectrication and how factors like piezoelectric inclusion and\r\nthe poling orientation of the PDMS/BZT–BCT polymer\r\ncomposite lm affect the charge generation. Fig. 6 shows the\r\nOEC model for the H/P-TENG where the PVA lm, PDMS lm\r\nand PDMS/BZT–BCT polymer composite lm are depicted as\r\nmolecules with their respective potential wells. DE is used to\r\nshow the difference in the highest occupied energy level of the\r\nelectrons in both triboelectric layers, and the dashed lines\r\ndepict the vacuum energy level.\r\nFirst, we look at the non-poled H/P-TENG operation. When\r\nthe two triboelectric layers come into close proximity during the\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "contact phase of the H/P-TENG, the electron clouds of the PVA\r\nlm and PDMS/BZT–BCT lm are able to overlap. When this\r\nhappens, the potential wells of both triboelectric layers merge,\r\nforming a double-well potential as shown in Fig. 6(a). Due to the\r\nhigher occupied energy levels of the electrons in PVA, this forms\r\nan asymmetric double-well, which provide an energy gradient to\r\ndrive the electrons from the tribo-positive PVA to the tribo\u0002negative PDMS/BZT–BCT energy well. As a result, the PVA lm\r\nhas net positive charges on its surface, whereas the PDMS lm\r\nhas net negative charges.\r\nAs the polymer composites are forward-poled, the energy\r\nlevels shied downwards, the DE increased and subsequently\r\nincreases the energy gradient of the merged potential well. With\r\nan even higher energy gradient, more electrons are driven from\r\nthe PVA lm towards the forward-poled PDMS/BZT–BCT lm.\r\nThis is reected in the increase of electrical output of the H/P\u0002TENG when the polymer composite lms are forward-poled.\r\nUnder the reverse-poled condition, we predict the energy\r\nlevels of the electrons are shied upwards. This has the oppo\u0002site effect, lowering the DE between the PVA lm and reverse\u0002poled PDMS/BZT–BCT lm. With a narrower DE, the energy\r\ngradient is also relatively lower, which results in fewer electrons\r\nbeing driven from the PVA lm to the PDMS/BZT–BCT lm.\r\nWe charged several capacitors ranging from 1 mF to 330 mF\r\nwith our H/P-TENG. The voltage storage versus capacitor\r\ncharging time for the various capacitors that are measured is\r\ndepicted with solid lines in Fig. 7(a). When compared to the\r\nranges of capacitors, the 1 mF and 2.2 mF capacitors had a faster\r\ncharging rate. The 1 mF capacitor is able to charge up to 7 V\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "whereas 2.2 mF capacitor charge up to 6 V within 3 minutes. The\r\ntotal stored energy and charging rates drop signicantly when\r\nconnected to the 6.8 mF capacitor, and even further when the\r\ncapacitance is $10 mF. The voltage stored in the capacitor VC is\r\ncalculated using the eqn (2) shown below:12\r\nFig. 6 Depiction of overlapping electron cloud (OEC) model for\r\nPDMS/BZT–BCT polymer composite-based H/P-TENGs under the (a)\r\nnon-poled, (b) forward-poled, and (c) reverse-poled conditions,\r\nwhere the blue sphere is the electron cloud of the tribo-positive PVA\r\nmolecule, and the red sphere is the electron cloud of the tribo\u0002negative PDMS/BZT–BCT molecule.\r\nFig. 7 (a) Measured (solid lines) and theoretical (dashed lines) charging\r\nrate of various capacitors by H/P-TENG constructed with polymer\r\ncomposite film of 15 wt% BZT–BCT inclusion and, (b) H/P-TENG\r\nconstructed with polymer composite film of 15 wt% BZT–BCT inclu\u0002sion lighting up 50 commercial blue LEDs.\r\n7926 | RSC Adv., 2023, 13, 7921–7928 © 2023 The Author(s). Published by the Royal Society of Chemistry\r\nRSC Advances Paper\nVC ¼ VS\r\n\u0001\r\n1 \u0002 e\r\n\u0002 t\r\nRC\u0003\r\n(2)\r\nwhere VS is the voltage supplied by the H/P-TENG, t is the\r\ncharging time, R is the total resistance and C is the capacitance\r\nin the circuit. Since the H/P-TENG has a high internal resis\u0002tance, it may be assumed that R is constant throughout all\r\ncapacitors. Thus, as the capacitance increased the stored\r\nvoltage decreased over time. This is consistent with the ndings\r\nin Fig. 7(a), where the higher capacitance exhibits slower\r\ncharging rate and stored voltage aer 180 s. The observed\r\nresults also t well with the tted data which are calculated\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "using eqn (2) (shown as dashed lines in Fig. 7(a)). The H/P\u0002TENG is utilised to illuminate commercial LEDs. Fig. 7(b) is\r\nan image showing y blue commercial LEDs connected in\r\nseries lit up to their maximum brightness. In ESI,† we have also\r\nincluded a video demonstrating how the H/P-TENG is used to\r\nilluminate LEDs for 10 seconds at varying frequencies. Table 2\r\ncompares our H/P-maximum TENG's output power density to\r\nthat of other contemporary polymer composite-based H/P\u0002TENGs. The current H/P-TENG has demonstrated relatively\r\nhigher power outputs than the recent similar PMMA-based H/P\u0002TENG, indicating the potential for micro/nano power sources in\r\nself-powered systems.\r\nConclusion\r\nWe have shown that the inclusion of BZT–BCT piezoelectric\r\nceramic is able to enhance the electrical output of a PDMS\u0002based TENG. With the optimal inclusion of BZT–BCT at\r\n15 wt%, the H/P-TENG is able to achieve open-circuit voltage,\r\nVoc, short-circuit current density, Jsc, and short-circuit charge\r\ndensity, Qsc of 113.2 V, 61.1 mA m−2\r\n, and 100.7 mC m−2\r\nrespectively. The increase in the dielectric constant of the\r\npolymer composite lms is one of the reasons for the\r\nenhancement of the electrical output of the H/P-TENG. In\r\naddition, we have shown that the forward-poling direction is\r\noptimal for the electrical output of H/P-TENG's where the\r\nforward-poled 15 wt% polymer composite recorded the highest\r\nVoc (127.1 V), Jsc (66.6 mA m−2\r\n), Qsc (117.5 mC m−2) and\r\na maximum power density of 7.5 W m−2\r\n, which is equivalent to\r\n∼190% enhancement when compared to the PDMS-based\r\nTENG. The overlapping electron cloud (OEC) model is\r\nproposed to explain this phenomenon. Our study shows that\r\nthe inclusion of piezoelectric BZT–BCT is a viable method of\r\nenhancing the electrical output of a TENG.\r\nAuthor contributions\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "S. R. Gopal: conceptualization, methodology, formal analysis,\r\ninvestigation, data curation, writing – original dra, visualiza\u0002tion. T. S. Velayutham: conceptualization, formal analysis,\r\nfunding acquisition, validation, resources, data curation,\r\nwriting – review & editing, supervision, project\r\nadministration. W. C. Gan: conceptualization, validation, data\r\ncuration, review & editing, supervision. J. Y. Cheong: method\u0002ology, formal analysis, investigation, visualization. A. E. Soh:\r\nmethodology, investigation.\r\nConflicts of interest\r\nThere are no conicts to declare.\r\nAcknowledgements\r\nThe authors gratefully acknowledge nancial support from\r\nMalaysia's Ministry of Higher Education through the Funda\u0002mental Research Grant Scheme [FRGS/1/2018/STG07/UM/02/6].\r\nReferences\r\n1 L. Degroote, I. De Bourdeaudhuij, M. Verloigne, L. Poppe\r\nand G. Crombez, JMIR Mhealth Uhealth, 2018, 6, e10972.\r\n2 Y. S. Can, B. Arnrich and C. Ersoy, J. Biomed. Inf., 2019, 92,\r\n103139.\r\n3 S. L. Ullo and G. R. Sinha, Sensors, 2020, 20, 3113.\r\n4 Y. Hu and Z. L. Wang, Nano Energy, 2015, 14, 3–14.\r\n5 A. Dewan, S. U. Ay, M. N. Karim and H. Beyenal, J. Power\r\nSources, 2014, 245, 129–143.\r\n6 K. Munirathinam, D.-S. Kim, A. Shanmugasundaram,\r\nJ. Park, Y.-J. Jeong and D.-W. Lee, Nano Energy, 2022, 107675.\r\n7 G. Zhu, B. Peng, J. Chen, Q. Jing and Z. L. Wang, Nano Energy,\r\n2015, 14, 126–138.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "8 Z. L. Wang, J. Chen and L. J. E. Lin, Energy Environ. Sci., 2015,\r\n8, 2250–2282.\r\n9 S. Pan and Z. Zhang, Friction, 2019, 7, 2–17.\r\n10 B. Bera, Imper. J. Interdiscip. Res., 2016, 2, 1263–1271p.\r\n11 Z. Wang, Rep. Prog. Phys., 2021, 84, 096502.\r\n12 J. Y. Cheong, J. S. C. Koay, R. Chen, K. C. Aw,\r\nT. S. Velayutham, B. Chen, J. Li, C. Y. Foo and W. C. Gan,\r\nNano Energy, 2021, 90, 106616.\r\n13 R. I. G. Dharmasena, J. H. Deane and S. R. P. Silva, Adv.\r\nEnergy Mater., 2018, 8, 1802190.\r\nTable 2 Comparison of hybrid piezo/triboelectric nanogenerators\r\npower density output from recent years\r\nTribo-positive\r\nmaterial\r\nTribo-negative\r\nmaterial\r\nPower\r\ndensity (W m−2\r\n) Ref.\r\nPVA PDMS/BZT–BCT 7.5 This work\r\nPTFE ZnO/PVDF 0.3 32\r\nBCZT/PVDF-HFP Silicon rubber 0.2 51\r\nStainless steel fabric PDMS/PVDF-HFP 3 52\r\nPET PDMS/BTO 0.4 53\r\nSilk nanobers BFO-GFF/PDMS 3 54\r\nCopper BZTO:PDMS 4 55\r\nAluminium PDMS/BiTO 0.2 56\r\nPolypyrrole\r\nelectrodeposited GFP\r\nPDMS/BTO-GFP 4 57\r\nPaper ZnO/PDMS 6 43\r\nChitosan/BT PTFE 8 58\r\nPTFE C-PS/P(VDF-TrFE) 8 59\r\nPVDF/BTO Natural rubber 0.4 60\r\nPVA/ZnR Silicon rubber 15 44\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "© 2023 The Author(s). Published by the Royal Society of Chemistry RSC Adv., 2023, 13, 7921–7928 | 7927\r\nPaper RSC Advances\n14 Y. Zhu, B. Yang, J. Liu, X. Wang, L. Wang, X. Chen and\r\nC. Yang, Sci. Rep., 2016, 6, 36409.\r\n15 Z. L. Wang, T. Jiang and L. Xu, Nano Energy, 2017, 39, 9–23.\r\n16 J. H. Jung, M. Lee, J.-I. Hong, Y. Ding, C.-Y. Chen, L.-J. Chou\r\nand Z. L. Wang, ACS Nano, 2011, 5, 10041–10046.\r\n17 N. Sinha, S. Goel, A. J. Joseph, H. Yadav, K. Batra,\r\nM. K. Gupta and B. Kumar, Ceram. Int., 2018, 44, 8582–8590.\r\n18 B. K. Yun, Y. K. Park, M. Lee, N. Lee, W. Jo, S. Lee and\r\nJ. H. Jung, Nanoscale Res. Lett., 2014, 9, 4.\r\n19 N. R. Alluri, A. Chandrasekhar and S.-J. Kim, ACS Sustainable\r\nChem. Eng., 2018, 6, 1919–1933.\r\n20 J. Zhang, Y. He, C. Boyer, K. Kalantar-Zadeh, S. Peng, D. Chu\r\nand C. H. Wang, Nanoscale Adv., 2021, 3, 5465–5486.\r\n21 J. Zhu, Y. Zhu and X. Wang, Adv. Mater. Interfaces, 2018, 5,\r\n1700750.\r\n22 X. Li, Z.-H. Lin, G. Cheng, X. Wen, Y. Liu, S. Niu and\r\nZ. L. Wang, ACS Nano, 2014, 8, 10674–10681.\r\n23 X. Yang and W. A. Daoud, J. Mater. Chem. A, 2017, 5, 9113–\r\n9121.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 487,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "24 B. Shi, Q. Zheng, W. Jiang, L. Yan, X. Wang, H. Liu, Y. Yao,\r\nZ. Li and Z. L. Wang, Adv. Mater., 2016, 28, 846–852.\r\n25 M. Zhu, Q. Shi, T. He, Z. Yi, Y. Ma, B. Yang, T. Chen and\r\nC. Lee, ACS Nano, 2019, 13, 1940–1952.\r\n26 A. R. Mule, B. Dudem, H. Patnam, S. A. Graham and J. S. Yu,\r\nACS Sustainable Chem. Eng., 2019, 7, 16450–16458.\r\n27 K. Lee, S. Mhin, H. Han, O. Kwon, W.-B. Kim, T. Song,\r\nS. Kang and K. M. Kim, J. Mater. Chem. A, 2022, 10, 1299–\r\n1308.\r\n28 J. S. C. Koay, W. C. Gan, A. E. Soh, J. Y. Cheong, K. C. Aw and\r\nT. S. Velayutham, J. Mater. Chem. A, 2020, 8, 25857–25866.\r\n29 Z. Li, B. Xu, J. Han, J. Huang and K. Y. Chung, Adv. Energy\r\nMater., 2021, 11, 2101294.\r\n30 S. He, W. Dong, Y. Guo, L. Guan, H. Xiao and H. Liu, Nano\r\nEnergy, 2019, 59, 745–753.\r\n31 J. Liu, D. Yu, Z. Zheng, G. Huangfu and Y. Guo, Ceram. Int.,\r\n2021, 47, 3573–3579.\r\n32 H. H. Singh and N. Khare, Nano Energy, 2018, 51, 216–222.\r\n33 M. Dietze and M. Es-Souni, Sens. Actuators, A, 2008, 143, 329–\r\n334.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "34 A. S. Dahiya, F. Morini, S. Boubenia, K. Nadaud, D. Alquier\r\nand G. Poulin-Vittrant, Adv. Mater. Technol., 2018, 3,\r\n1700249.\r\n35 C. Xue, J. Li, Q. Zhang, Z. Zhang, Z. Hai, L. Gao, R. Feng,\r\nJ. Tang, J. Liu, W. Zhang and D. Sun, Nanomaterials, 2015,\r\n5, 36–46.\r\n36 C.-x. Luo, Y. Wang and P.-w. Li, Acta Electron. Sin., 2022,\r\n50(9), 2189–2195.\r\n37 Z. Zhou, X. Du, Z. Zhang, J. Luo, S. Niu, D. Shen, Y. Wang,\r\nH. Yang, Q. Zhang and S. Dong, Nano Energy, 2021, 82,\r\n105709.\r\n38 W. Liu and X. J. Ren, Phys. Rev. Lett., 2009, 103, 257602.\r\n39 A. Jayakrishnan, K. V. Alex, A. Thomas, J. Silva, K. Kamakshi,\r\nN. Dabra, K. Sekhar, J. A. Moreira and M. J. Gomes, Ceram.\r\nInt., 2019, 45, 5808–5818.\r\n40 J. Liu, B. Yang, L. Lu, X. Wang, X. Li, X. Chen and J. J. S. Liu,\r\nSens. Actuators, A, 2020, 303, 111796.\r\n41 J. Liu, B. Yang and J. Liu, J. Mater. Sci.: Mater. Electron., 2018,\r\n29, 17764–17770.\r\n42 G. Suo, Y. Yu, Z. Zhang, S. Wang, P. Zhao, J. Li and X. Wang,\r\nACS Appl. Mater. Interfaces, 2016, 8, 34335–34341.\r\n43 H. Patnam, S. A. Graham and J. S. Yu, ACS Sustainable Chem.\r\nEng., 2021, 9, 4600–4610.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "44 Y. P. Lim, J. S. C. Koay, J. Zhao, S. Huang, B. T. Goh, K. C. Aw,\r\nB. Chen, C. Y. Haw and W. C. Gan, Adv. Funct. Mater., 2022,\r\n2206750.\r\n45 H. Jiang, H. Lei, Z. Wen, J. Shi, D. Bao, C. Chen, J. Jiang,\r\nQ. Guan, X. Sun and S.-T. Lee, Nano Energy, 2020, 75, 105011.\r\n46 Y. W. Kim, H. B. Lee, J. Yoon and S.-H. Park, Nano Energy,\r\n2022, 95, 107051.\r\n47 Y. Xie, Q. Ma, H. Qi, X. Liu, X. Chen, Y. Jin, D. Li, W. Yu and\r\nX. J. N. Dong, Nanoscale, 2021, 13, 19144–19154.\r\n48 Z. Zhang, Q. Zhang, Z. Zhou, J. Wang, H. Kuang, Q. Shen and\r\nH. Yang, Nano Energy, 2022, 101, 107561.\r\n49 Z. Song, W. Li, H. Kong, Y. Bao, N. Wang, W. Wang, Y. Ma,\r\nY. He, S. Gan and L. Niu, Nano Energy, 2022, 92, 106759.\r\n50 S. Lin, C. Xu, L. Xu and Z. L. Wang, Adv. Funct. Mater., 2020,\r\n30, 1909724.\r\n51 Y. Wu, J. Qu, W. A. Daoud, L. Wang and T. Qi, J. Mater. Chem.\r\nA, 2019, 7, 13347–13355.\r\n52 A. Maitra, S. Paria, S. K. Karan, R. Bera, A. Bera, A. K. Das,\r\nS. K. Si, L. Halder, A. De and B. B. Khatua, ACS Appl.\r\nMater. Interfaces, 2019, 11, 5022–5036.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 7,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3719245450718776658,
+        "filename": "RA-013-D3RA00077J.PMC9997075.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 8,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 24,
+      "version": "1.0.0"
+    },
+    "text": "53 C. Rodrigues, A. Gomes, A. Ghosh, A. Pereira and J. Ventura,\r\nNano Energy, 2019, 62, 660–666.\r\n54 J. Liu, D. Yu, Z. Zheng, G. Huangfu and Y. J. Guo, Ceram. Int.,\r\n2021, 47, 3573–3579.\r\n55 W. Wang, J. Zhang, Y. Zhang, F. Chen, H. Wang, M. Wu,\r\nH. Li, Q. Zhu, H. Zheng and R. Zhang, Appl. Phys. Lett.,\r\n2020, 116, 023901.\r\n56 S. Hajra, A. M. Padhan, M. Sahu, P. Alagarsamy, K. Lee and\r\nH. J. Kim, Nano Energy, 2021, 89, 106316.\r\n57 A. Maitra, R. Bera, L. Halder, A. Bera, S. Paria, S. K. Karan,\r\nS. K. Si, A. De, S. Ojha and B. B. J. R. Khatua, Renewable\r\nSustainable Energy Rev., 2021, 151, 111595.\r\n58 S. Pongampai, T. Charoonsuk, N. Pinpru, P. Pulphol,\r\nW. Vittayakorn, P. Pakawanit and N. E. Vittayakorn,\r\nComposites, Part B, 2021, 208, 108602.\r\n59 L. Yao, Z. Zhang, Q.-l. Zhang, Z. Zhou, H. Yang and L. Chen,\r\nNano Energy, 2021, 86, 106128.\r\n60 J.-H. Zhang, Z. Zhou, J. Li, B. Shen, T. Zhu, X. Gao, R. Tao,\r\nX. Guo, X. Hu and Y. Shi, ACS Mater. Lett., 2022, 4, 847–852.\r\n7928 | RSC Adv., 2023, 13, 7921–7928 © 2023 The Author(s). Published by the Royal Society of Chemistry\r\nRSC Advances Paper\n\n"
+  }
+]

@@ -1,0 +1,530 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "© 2017 Journal of Pathology Informatics | Published by Wolters Kluwer ‑ Medknow 1\r\nAbstract\r\nResearch Article\r\nIntroduction\r\nMany pathological assessments depend on the quantification of \r\ncell nuclei. In cancer diagnosis, for instance, the quantification \r\nof nuclei expressing the Ki‑67 protein is a widely used method \r\nto determine the proliferation rate of a tumor. Furthermore, \r\nthe quantification of lymphocytic infiltrates has been shown \r\nto be of strong prognostic importance.[1] Another important \r\napplication is the determination of the progesterone and \r\nestrogen receptor status. The latter is arguably the most \r\nimportant predictive biomarker that exists today.[2] In clinical \r\nroutine, such evaluations are usually done manually by \r\nestimating or counting a small number of nuclei, which is \r\nhighly subjective and often not reproducible.[3] Consequently, \r\nthe ability to automatically detect different types of nuclei on \r\nlarger regions becomes increasingly important.\r\nVarying staining and tissue preprocessing conditions, as well \r\nas different nuclear types and pathologies, lead to a huge \r\nvariability in the appearance of nuclei, making their automatic \r\ndetection very challenging. Recent approaches employ \r\ntrainable algorithms to address this issue, including traditional \r\nmachine learning[4‑6] as well as deep learning methods.[7‑9]\r\nTrainable detection methods come with the advantage of being \r\nadaptable and refinable by just using different training datasets.\r\nGenerating a good training dataset is essential for such methods. \r\nMost of these methods learn some kind of pixel‑wise distinction \r\nbetween nuclear and nonnuclear regions,[4,6‑9] to either create \r\nan intermediate segmentation or a probability map. Hence, \r\nthe optimal training data would consist of exhaustive manual \r\nsegmentations of all nuclei in several histological images. \r\nUnfortunately, creating such annotations requires an expert to \r\naccurately draw contour lines around each nucleus, making it \r\na very tedious and time‑consuming task.\r\nBackground: Generating good training datasets is essential for machine learning‑based nuclei detection methods. However, creating \r\nexhaustive nuclei contour annotations, to derive optimal training data from, is often infeasible. Methods: We compared different approaches \r\nfor training nuclei detection methods solely based on nucleus center markers. Such markers contain less accurate information, especially \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "with regard to nuclear boundaries, but can be produced much easier and in greater quantities. The approaches use different automated sample \r\nextraction methods to derive image positions and class labels from nucleus center markers. In addition, the approaches use different automated \r\nsample selection methods to improve the detection quality of the classification algorithm and reduce the run time of the training process. We \r\nevaluated the approaches based on a previously published generic nuclei detection algorithm and a set of Ki‑67‑stained breast cancer images. \r\nResults: A Voronoi tessellation‑based sample extraction method produced the best performing training sets. However, subsampling of the \r\nextracted training samples was crucial. Even simple class balancing improved the detection quality considerably. The incorporation of active \r\nlearning led to a further increase in detection quality. Conclusions: With appropriate sample extraction and selection methods, nuclei detection \r\nalgorithms trained on the basis of simple center marker annotations can produce comparable quality to algorithms trained on conventionally \r\ncreated training sets.\r\nKeywords: Active learning, machine learning, nuclei detection, training set generation\r\nAccess this article online\r\nQuick Response Code:\r\nWebsite:\r\nwww.jpathinformatics.org\r\nDOI:\r\n10.4103/jpi.jpi_3_17\r\nAddress for correspondence: Mr. Henning Kost,\r\nFraunhofer Institute for Medical Image Computing MEVIS,\r\nAm Fallturm 1, 28359 Bremen, Germany.\r\nE‑mail: henning.kost@mevis.fraunhofer.de\r\nThis is an open access article distributed under the terms of the Creative Commons \r\nAttribution‑NonCommercial‑ShareAlike 3.0 License, which allows others to remix, tweak, \r\nand build upon the work non‑commercially, as long as the author is credited and the \r\nnew creations are licensed under the identical terms.\r\nFor reprints contact: reprints@medknow.com\r\nHow to cite this article: Kost H, Homeyer A, Molin J, Lundström C, \r\nHahn HK. Training nuclei detection algorithms with simple annotations. J \r\nPathol Inform 2017;8:21.\r\nAvailable FREE in open access from: http://www.jpathinformatics.org/text.\r\nasp?2017/8/1/21/206227\r\nTraining Nuclei Detection Algorithms with Simple Annotations\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Henning Kost1, André Homeyer1, Jesper Molin2,3,4, Claes Lundström3,4, Horst Karl Hahn1\r\n1\r\nFraunhofer Institute for Medical Image Computing MEVIS, 28359 Bremen, Germany, 2Department of Applied Information Technology, Chalmers University of Technology, \r\n41258 Gothenburg, 3Sectra AB, 58330 Linköping, Sweden, 4Center for Medical Image Science and Visualization, Linköping University, 58183 Linköping, Sweden\r\nReceived: 10 January 2017 Accepted: 17 March 2017 Published: 15 May 2017\nJ Pathol Inform 2017, 1:21 http://www.jpathinformatics.org/content/8/1/21\r\n2 Journal of Pathology Informatics\r\nAnnotation marks at the nuclear centers constitute an alternative \r\nkind of reference data. Center annotations can be created with \r\nmuch less effort because they only require the expert to mark \r\nnuclei with a single click. This makes the marking process \r\nmuch faster and, therefore, also allows larger amounts of \r\nimages to be annotated. Obviously, such annotations comprise \r\nmuch less information than full segmentations.\r\nCenter marker annotations have already been employed in the \r\npast. The different approaches address their insufficiency by \r\naugmenting them in various ways. An iterative thresholding \r\napproach was used by Gul‑Mohammed et al.[10] to distinguish \r\nnuclear and nonnuclear areas around the center markers. In \r\na study by Janowczyk and Madabhushi,[9] this distinction is \r\nperformed by a naive Bayesian classifier with center positions \r\nas nuclear training data and randomly selected noncenter \r\npositions as nonnuclear training data. However, these \r\napproaches tie the capability of the machine‑learning algorithm \r\nto the capability of the previous step. In both the studies by \r\nSirinukunwattana et al.\r\n[11] and Xu et al.,[8] an assumption \r\nregarding the size of the nuclei is incorporated to supplement \r\nthe annotation data: In a study by Sirinukunwattana et al.,[11]\r\na regression is trained using the distance to the next center \r\nmarker to compute the target value. In a study by Xu et al.,[8]\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "nonnuclear training samples were drawn from positions that are \r\nfurther away from any center marker than a given threshold.\r\nThe quality of the mentioned approaches is hard to compare as \r\nthe authors usually use different data sets with different nuclear \r\ntypes and often also different quality measures.\r\nIn a study by Vink et al.,[4] a nucleus detection method \r\nfor Her2‑stained breast tissue is proposed. The authors \r\nreport a detection rate, which equals recall, of 0.95. Breast \r\ntissue nuclei are also detected in the studies conducted \r\nby Xing et al.\r\n[7] and Xu et al.[8] The approaches work on \r\nH&E‑stained images and yield f1‑measures of 0.78 and \r\n0.84, respectively. In the study conducted by Arteta et al.\r\n[5]\r\nand Janowczyk and Madabhushi,[9] lymphocytic nuclei are \r\ndetected in H&E‑stained breast images. They state f1‑measures \r\nof 0.88 and 0.90, respectively. Kårsnäs et al.\r\n[6] reported that \r\na detection method for Ki‑67‑positive nuclei in breast tissue \r\nis proposed. The authors announce 1.0% missing objects, \r\n2.6% missing annotations, and 4.1% multiple annotations. \r\nA nuclei detection method for H&E‑stained colorectal tissue \r\nis described by Sirinukunwattana et al.\r\n[11] and an f1‑measure \r\nof 0.80 is reported.\r\nIn this paper, we perform a systematic comparison of different \r\nmethods for generating training sets solely from center marker \r\nannotations. In addition, we evaluate how the proposed center \r\nmarker‑based sample extraction methods compare with manual \r\nsegmentations.\r\nMethods\r\nTraining set generation\r\nA training set consists of a set of training samples, which \r\nin turn consist of a feature vector and a class label. The \r\ncontent of the feature vector depends on the classification \r\nmethod that is to be trained. It might comprise hand‑crafted \r\nfeatures or in case of feature learning methods such as deep \r\nconvolutional neural networks, small image patches. In both \r\ncases, a training sample is produced with respect to a given \r\nposition in the image.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "All of the examined training set generation approaches consist \r\nof two main steps, which are the extraction and the selection \r\nof training samples.\r\nGiven a set of training images with labeled center markers, the \r\nextraction step needs to identify image positions that can be \r\nlabeled as nuclear or nonnuclear regions and derive a training \r\nsample from it. The main difficulty here is that center markers \r\nobviously provide far less information about the nuclear and \r\nnonnuclear regions in the image, especially with regard to \r\ntheir boundaries.\r\nThe output of the extraction step already forms a valid \r\ntraining set. However, the abundance of training samples often \r\ndeteriorates the analysis quality and the runtime performance \r\nfor the training process of the classifier. Depending on the \r\ntype of the classifier, also, the runtime of the nuclei detection \r\ncan be increased considerably. Thus, the second step of the \r\nconsidered training set generation approaches is the selection \r\nof optimal subsets of training samples.\r\nTraining sample extraction\r\nWe compare two different methods for extracting training \r\nsamples from a given set of images.\r\nDistance‑based\r\nWe assume that positions close to the annotated center markers \r\ncan be considered to represent nuclear regions whereas \r\npositions far away from any center marker are very likely to \r\nrepresent nonnuclear regions. Training samples are extracted \r\nas follows:\r\nFor each position x, y in an image, we compute the distance to \r\nthe closest center marker. That distance and the index of that \r\nclosest marker are stored in two maps d(x, y) and m(x, y). To \r\nbe designated as nuclear region, a position must not be further \r\naway from the closest marker than a threshold called tnuc. Thus, \r\nall positions x, y where d(x, y) < tnuc can be labeled as nuclear \r\nregion. To be designated as nonnuclear region, a position \r\nmay not be closer to any marker than a threshold called tbg. \r\nConsequently, all positions x, y where d(x, y) > tbg are labeled \r\nas nonnuclear region. For our experiments, we set tbg to 15 \r\npixels and tnuc to 3 pixels each at 20× resolution.\r\nVoronoi‑based\r\nThe distance‑based approach has the drawback that the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "boundary positions of the nuclei are not considered at all. \r\nBoundary positions, however, are very informative because \r\nthey shape the decision boundaries of the classifier. In our case, \r\nnuclear boundaries should be labeled as nonnuclear region so \r\nthat clustered nuclei can be separated by the classifier. The \r\nVoronoi‑based extraction method augments the distance‑based \r\nmethod with such boundary samples.\nJ Pathol Inform 2017, 1:21 http://www.jpathinformatics.org/content/8/1/21\r\nJournal of Pathology Informatics 3\r\nWe investigated three different sample selection methods \r\naddressing the described issues.\r\nStratified random subsampling\r\nThe most straightforward way to reduce the amount of samples \r\nand to achieve a balance of the class labels is stratified random \r\nsubsampling. From each class, samples are randomly drawn \r\nuntil a target number is reached or until there are no more \r\nsamples of one class available. This method has the advantage \r\nthat it can be integrated into the sample extraction methods. \r\nThe subsampling can be already applied to the image positions \r\nbefore the features are calculated. This leads to a much better \r\nruntime performance than subsampling the samples in a \r\nseparate step afterward.\r\nKd‑tree subsampling\r\nIn the study by Pechenizkiy et al.,[13] the Kd‑tree subsampling \r\nis suggested as an alternative or supplementary method for \r\nstratified random subsampling. It also reduces the number of \r\nsamples while retaining their distribution in feature space. The \r\ngeneral concept of the Kd‑tree is explained by Bentley.[14] For the \r\nsample selection task, a Kd‑tree with limited depth is constructed \r\non the extracted samples using their features as dimensions. In \r\neach node, the splitting feature is chosen as that with maximum \r\nvariance across the samples of the node and the median is \r\nused as pivot, as suggested by Omohundro.[15] Then, a single \r\nsample can be drawn randomly from each leaf of the tree. The \r\ngranularity and the amount of resulting samples can be controlled \r\nby adjusting the depth limit of the tree. To also address class \r\nimbalance, we apply the Kd‑tree subsampling independently for \r\nboth classes and join the sample sets afterward.\r\nActive learning\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 499,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Active learning[16] selects samples with respect to their \r\ninformativeness to the classifier. A classifier is trained using \r\na subset S of the available samples. Then, iteratively, the \r\nremainder of the samples is classified and the classification \r\nconfidence for each sample is considered. The samples with \r\nthe least confident classifications are added to S for the next \r\niteration. The iterations are terminated as soon as the size \r\nof S reaches a target number. By following this uncertainty \r\nsampling approach, the most informative samples are chosen \r\nfrom the training set. In our implementation, to produce a \r\ntraining set of n samples, the first subset is generated by \r\nrandomly choosing n/10 samples from the available samples \r\nand n/100 samples are added in each iteration. In contrast to \r\nthe previous methods, active learning does not address any \r\nclass imbalance of the sample set.\r\nThe training sample selection methods are applied to either \r\nthe samples extracted from a single image or the whole set of \r\nextracted samples. They can also be combined to utilize their \r\ndifferent strengths.\r\nExperimental setup\r\nThe different sample extraction and selection methods were \r\ncompared using image data from a study described by Molin \r\net al.\r\n[17] In that study, eight pathologists were asked to select \r\nThe marker map m(x, y) is equivalent to the Voronoi diagram \r\nof the center markers. Assuming that neighboring nuclei are \r\nsimilarly sized, the Voronoi boundary between nontouching \r\nnuclei only crosses nonnuclear regions. As soon as two \r\nnuclei are touching, the Voronoi boundary crosses exactly \r\nthat touching point. Consequently, for overlapping nuclei, \r\nthe region of overlap is crossed by the Voronoi boundary. \r\nThe assumption above may not always be valid, leading to \r\nVoronoi boundaries crossing nuclear regions, but we found \r\nthat being a rare case in our experiments. Thus, the Voronoi \r\nboundaries are suited to extract nonnuclear samples along \r\nthem.\r\nFigure 1 illustrates the sample extraction methods.\r\nTraining sample selection\r\nSelecting a subset of training samples from those extracted \r\nin the previous step can be beneficial. Reducing the amount \r\nof samples leads to a decrease of the runtime of the training \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "process. For some classifiers, such as the random forest, the \r\nruntime of the classification is reduced as well.\r\nMoreover, subsets of training samples often result in a \r\nhigher quality of the nuclei detection if the samples show \r\nclass imbalance. The extraction methods generally produce \r\nmore samples of nonnuclear regions than nuclear regions \r\nbecause of the relative area fractions in the image. A small \r\nt\r\nnuc further increases that imbalance. A classifier confronted \r\nwith substantial class imbalance is deluged by instances of \r\nthe majority class, leading it to ignore the instances of the \r\nminority class. Such imbalance is a well‑known issue in the \r\nfield of machine learning.[12]\r\nDuring the training of a machine‑learning classifier, the most \r\ninteresting regions of the feature space are those close to the \r\ndecision boundary of the classifier. Here, the classifier is most \r\nuncertain. That is why samples near the decision boundary \r\nare much more informative than samples far away. The ratio \r\nbetween samples of high and low informativeness in a training \r\nset can have a strong influence on the resulting detection \r\nquality. The samples extracted in the previous step are, in \r\naddition to the class imbalance stated above, likely to contain \r\na large amount of uninformative instances.\r\nFigure 1: Visualization of the sample extraction methods. The left image \r\nshows the original image with overlayed center marker annotations. \r\nThe center image shows the positions, where nonnuclear samples are \r\nextracted in gray and those where nuclear samples are extracted in red \r\nand blue for positively and negatively stained nuclei, respectively. The right \r\nimage additionally shows the Voronoi boundaries in black, where also \r\nnonnuclear samples are extracted in the Voronoi‑based extraction method\nJ Pathol Inform 2017, 1:21 http://www.jpathinformatics.org/content/8/1/21\r\n4 Journal of Pathology Informatics\r\ncircular hot‑spot regions containing approximately 200 nuclei \r\nfrom digitized Ki‑67‑stained breast tumor slides. From these \r\nhotspots, areas containing staining or scanning errors as well \r\nas overlapping areas were removed resulting in a set of 101 \r\nhot‑spots from 24 different slides and cases. The digitized \r\nslides were downsampled if necessary to a magnification \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "of 20×, and for each hotspot, a subimage containing that region \r\nwas extracted. Center marker annotations for all nuclei within \r\nthe circular hot‑spot regions were created by a trained expert \r\nand verified by an experienced breast pathologist. Figure 2 \r\nexamplary shows annotated hot-spot regions.\r\nThe evaluation is based on the nuclei detection method \r\ndescribed by Kost et al.\r\n[18] A random forest assigns a probability \r\nvalue to each input image pixel for being close to the center \r\nof a nucleus. The feature set comprises:\r\n• The normalized H, S, and V color channels\r\n• The box filtered S channel\r\n• An approximation of the difference of Gaussian on the S \r\nchannel using box filters\r\n• The radial symmetry on the S channel\r\n• The box filtered radial symmetry.\r\nThen, an optimized gray scale watershed algorithm is used to \r\nfind and separate the individual nuclear regions. The algorithm \r\nis configured to only include positions with probability values \r\nabove 0.5 into the nuclear regions as lower values indicate that \r\nit is more likely that the position belongs to background than \r\nto a nucleus. Another random forest uses the H, S, and V color \r\nchannels to classify the staining within the nuclear regions and \r\nperforms a majority vote to decide whether a nucleus is Ki‑67 \r\npositive or negative.\r\nTo train the second classifier, we used modified versions of the \r\nsample extraction methods. For each position x, y with d(x, y) \r\n< tnuc, an additional training sample for the second classifier \r\nwas generated. The class label of the training sample was set \r\ndepending on whether m (x, y) corresponds to a center marker \r\nof a Ki‑67 positive or negative nucleus. This way, one training \r\nset was produced for each classifier. The selection methods were \r\nthen applied to both sets individually using the same parameters.\r\nThe quality of the nuclei detection was assessed by comparing \r\nthe results to the center marker annotations. Each detected \r\nnucleus was assigned to the closest center marker, provided that \r\nthe distance of their positions was sufficiently close. Athreshold \r\nof 10 pixels was found to be adequate. It corresponds to the \r\napproximate radius of the nuclei in the images. A one‑to‑one \r\nmatch was then considered a true positive (TP), a detected \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "nucleus without a matching annotation was considered a false \r\npositive (FP), and an annotation without a matching detected \r\nnucleus considered a false negative (FN). In case when multiple \r\ndetected nuclei were matched with the same center marker, one \r\nof these was considered TP whereas the others were counted as \r\nFP. Based on these values, precision, recall, and the f1‑measure \r\nwere computed as overall quality measures.\r\nFor the experiments, we combined the sample extraction and \r\nselection methods in several ways to produce different training \r\nsets. The nuclei detection algorithm was then trained using these \r\nsample sets and the quality of the detection was assessed. To \r\nproduce more robust results, the experiments were performed \r\nwith 5‑fold cross‑validation. The folds were created in a way \r\nthat images originating from the same slide were assigned to \r\nthe same fold. This way, no training set is tested on the same \r\nslide it is created from. For all experiments, the same folds \r\nwere used to ensure comparability. The quality measures of \r\nthe individual folds were averaged to obtain the final measures.\r\nResults\r\nExperiment 1: Comparison of sample extraction and \r\nselection combinations\r\nFor the following experiment setups, distinct sample \r\nsets have been extracted by the distance‑based and the \r\nVoronoi‑based method. Then, different combinations of \r\nsample selection methods were applied to these sample sets. \r\nTo obtain comparable results, all experiments, but (1a), which \r\nincorporates no selection method, produce a training set \r\ncontaining 2000 samples. This amount was found to produce \r\nadequate results while keeping the processing time for the \r\nclassifier at an acceptable level. For the experiments involving \r\ntwo selection methods, the first one was applied per input \r\nimage, leaving 256 samples per image. The latter one then \r\nwas applied to the total of the remaining samples.\r\n(a) No selection: As a base experiment, the outputs of the \r\nextraction methods were directly used to train the nuclei \r\ndetection algorithm\r\n(b) Random: The extracted samples were, as a whole, \r\nsubjected to the stratified random subsampling selection \r\nmethod\r\n(c) Kd‑tree: The extracted samples were, as a whole, \r\nsubjected to the Kd‑tree subsampling selection method\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "(d) AL: The extracted samples were, as a whole, subjected \r\nto the active learning selection method\r\n(e) Random + AL: The random subsampling selection \r\nmethod was applied per image. The final training set \r\nwas then selected from the remaining samples using the \r\nactive learning selection method\r\n(f) Kd‑tree + AL: The Kd‑tree subsampling selection method \r\nwas applied per image. The final training set was then \r\nFigure 2: Visualization of the center marker annotations for two different \r\nimages. The circle is scaled to contain approximately 200 nuclei. Inside \r\nthe circle, all nuclei are annotated\nJ Pathol Inform 2017, 1:21 http://www.jpathinformatics.org/content/8/1/21\r\nJournal of Pathology Informatics 5\r\nselected from the remaining samples using the active \r\nlearning selection method\r\n(g) AL + random: The effect of inverting the order of \r\nexperiment (e) was examined. The active learning \r\nselection method was applied per image, followed by the \r\nstratified random subsampling selection method\r\n(h) AL + Kd‑tree: The effect of inverting the order of \r\nexperiment (f) was examined. The active learning \r\nselection method was applied per image, followed by the \r\nKd‑tree subsampling selection method\r\n(i) Kd‑tree + random:In this experiment, both class balancing \r\nmethods were combined. The Kd‑tree subsampling \r\nselection method was first applied per image, and then \r\nthe stratified random subsampling selection method was \r\napplied on the remaining samples afterward\r\n(j) AL+AL: In this experiment, the active learning selection \r\nmethod was applied to both the per‑image and the \r\nremaining samples.\r\nTable 1 shows the results of the described experiment setups. \r\nFirst of all, we can state that the Voronoi‑based extraction \r\nmethod yields quality measures slightly superior to the \r\ndistance‑based method in most experiment setups. Looking at \r\nthe selection methods, we can see that the experiments that do \r\nnot comprise a class balancing method lead to far worse quality \r\nmeasures. This can be observed in experiments (1d) and (1j), \r\nwhich only consist of active learning, and especially in \r\nexperiment (1a), where no selection is performed at all. The \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 462,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "best results are obtained by the combinations that include class \r\nbalancing and active learning.\r\nThe tested sample extraction methods produce highly \r\nimbalanced training sets. On average, only 6.09% or 5.54% of \r\nthe samples belong to the nuclear class for the distance‑based \r\nand Voronoi‑based extraction, respectively. The imbalance \r\naffects the resulting classification in a negative way. This can \r\nbe observed in experiment (1a). The detection quality for the \r\nunprocessed training sets is low.\r\nThe usage of active learning alone, as shown in experiments \r\n(1d) and (1j), does improve the detection quality slightly \r\nbut still yields results well inferior to other experiments. \r\nThis indicates that active learning is not very well suited to \r\ndeal with these large imbalances, which stems from the way \r\nactive learning selects new samples. When there are mostly \r\nnonnuclear samples to choose from, the most uncertain \r\nsamples are likely to be imbalanced toward nonnuclear \r\nsamples as well. For this reason, a proper balancing of the \r\nsamples is advisable.\r\nThe absence of class balancing in experiments (1a), (1d), \r\nand (1j) results in a strong bias of the classifier, which can be \r\nobserved as a considerable difference in the precision and recall \r\nvalues. In experiment 2, precision‑recall‑curves (PR‑curves) \r\nare analyzed to further examine this issue.\r\nThe stratified random subsampling and the Kd‑tree‑based \r\nselection seem to be equally suited for balancing as \r\nTable 1: Quality measures of both proposed sample extraction methods combined with different sample selection \r\nmethods\r\nKi‑67‑positive nuclei Ki‑67‑negative nuclei All nuclei\r\nTP FP FN TP FP FN TP FP FN Precision Recall f1‑measure\r\nDistance‑based\r\n(a) No selection 650.8 74.0 189.8 803.6 239.2 2024.0 1454.4 313.2 2213.8 0.823 0.396 0.530\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "(b) Random 716.8 156.8 123.8 2220.6 500.6 607.0 2937.4 657.4 730.8 0.817 0.801 0.806\r\n(c) Kd-tree 721.6 174.0 119.0 2203.0 509.4 624.6 2924.6 683.4 743.6 0.811 0.797 0.801\r\n(d) AL 688.6 66.2 152.0 1658.0 232.0 1169.6 2346.6 298.2 1321.6 0.887 0.640 0.740\r\n(e) Random + AL 732.8 161.2 107.8 2290.4 556.2 537.2 3023.2 717.4 645.0 0.808 0.824 0.814\r\n(f) Kd-tree + AL 732.6 151.2 108.0 2246.6 535.0 581.0 2979.2 686.2 689.0 0.813 0.812 0.810\r\n(g) AL + random 706.2 118.6 134.4 2176.8 451.4 650.8 2883.0 570.0 785.2 0.835 0.786 0.807\r\n(h) AL + Kd-tree 715.8 107.4 124.8 2202.8 460.4 624.8 2918.6 567.8 749.6 0.837 0.796 0.813\r\n(i) Kd-tree + random 718.2 192.2 122.4 2188.6 516.6 639.0 2906.8 708.8 761.4 0.804 0.792 0.795\r\n(j) AL + AL 683.4 76.6 157.2 1964.2 369.4 863.4 2647.6 446.0 1020.6 0.856 0.722 0.781\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 456,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Voronoi‑based\r\n(a) No selection 611.8 66.6 228.8 585.0 151.4 2242.6 1196.8 218.0 2471.4 0.846 0.326 0.467\r\n(b) Random 746.0 206.4 94.6 2333.6 558.4 494.0 3079.6 764.8 588.6 0.801 0.840 0.817\r\n(c) Kd-tree 750.4 192.6 90.2 2294.2 506.4 533.4 3044.6 699.0 623.6 0.813 0.830 0.819\r\n(d) AL 628.8 50.8 211.8 1535.0 208.0 1292.6 2163.8 258.8 1504.4 0.893 0.590 0.711\r\n(e) Random + AL 761.8 192.6 78.8 2364.8 561.8 462.8 3126.6 754.4 541.6 0.806 0.852 0.826\r\n(f) Kd-tree + AL 763.2 188.0 77.4 2364.2 576.0 463.4 3127.4 764.0 540.8 0.804 0.853 0.825\r\n(g) AL + random 728.8 119.4 111.8 2210.6 458.6 617.0 2939.4 578.0 728.8 0.836 0.801 0.815\r\n(h) AL + Kd-tree 726.8 120.4 113.8 2195.8 444.0 631.8 2922.6 564.4 745.6 0.838 0.797 0.814\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "(i) Kd-tree + random 744.6 176.6 96.0 2314.8 541.4 512.8 3059.4 718.0 608.8 0.810 0.834 0.819\r\n(j) AL + AL 694.8 91.4 145.8 1734.4 288.2 1093.2 2429.2 379.6 1239.0 0.865 0.662 0.747\r\nTP: True positive, FP: False positive, FN: False negative, AL: Active learning\nJ Pathol Inform 2017, 1:21 http://www.jpathinformatics.org/content/8/1/21\r\n6 Journal of Pathology Informatics\r\nthe comparison of the quality measures in experiments \r\n(1b) and (1c), (1e) and (1f), as well as (1g) and (1h) indicates. \r\nHowever, since stratified random subsampling is much simpler \r\nand improves the runtime performance when integrated into \r\nthe extraction step, it is to be preferred over the Kd‑tree‑based \r\napproach. The best results were achieved by experiment setup \r\n(1e) being the combination of Voronoi‑based extraction, stratified \r\nrandom subsampling, and active learning. Two example outputs \r\nare visualized in Figure 3. Another interesting approach is (1b), \r\nthe solely applied stratified random subsampling. It is simple, \r\nyields good results, and has a good runtime performance due \r\nto the integrability into the sample extraction step. However, in \r\ngeneral, the differences of the methods that use balancing are \r\nrather small. In contrast, the differences between the methods \r\nwith and without balancing are major.\r\nExperiment 2: Precision‑recall‑curves\r\nAs described in section 2.2, a cutoff value of 0.5 was used for \r\nthe experiments, which is the natural threshold for a two‑class \r\nproblem. However, it is interesting to investigate how different \r\ncutoff values influence precision and recall.\r\nFor each approach described in experiment 1, the cutoff \r\nvalue was altered in 16 steps between 0 and 1, and at each \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "step, precision and recall were determined. Figure 4 shows \r\nthe PR‑curves for all approaches in an overview graph. In \r\nthe subsequent graphs, the curves are reduced and grouped to \r\nhighlight different aspects. Furthermore, the axes are scaled to \r\nonly show the most interesting quadrant of the graph.\r\nIn Figure 5, the PR‑curves are divided into approaches that \r\ncontain a sample selection method and approaches that do not, \r\nwhich is only the case for (1a) curves. It is clearly visible that \r\nthe application of even the most basic sample selection methods \r\nimproves the quality of the nuclei detection considerably. This \r\nis the case for both sample extraction methods.\r\nFigure 6 shows the approaches that contain sample selection \r\ngrouped according to their sample extraction methods. Here, \r\nit becomes apparent that the Voronoi‑based extraction leads \r\nto better results than the distance‑based extraction. This is \r\nespecially the case for recall.\r\nIn Figure 7, only the approaches using the Voronoi‑based \r\nsample extraction are plotted. We found that approaches \r\nconsisting of two subsequent sample selection methods with \r\nat least one of them incorporating active learning perform \r\nespecially well. These approaches are highlighted in this \r\nfigure. Active learning per image followed by a selection that \r\nperforms class balancing (1g) and (1h) leads to the best results \r\nfor both extraction methods.\r\nThe PR‑curves shown in this section have an unusual shape. \r\nNormally, with cutoff values becoming lower, the precision \r\ndeclines while the recall grows toward 1. In our case, the recall \r\ndoes not increase after a certain value but decreases again. The \r\nreason for this behavior is the watershed algorithm which is \r\npart of the nuclei detection method. This limits the number of \r\ndetected nuclei. With a low cutoff value, more pixel positions \r\nare being considered by the algorithm. Nevertheless, those are \r\nlikely to be assigned to an existing nuclear region instead of \r\nconstituting a new region. Another effect is that the nuclear \r\nFigure 4: Overview plot of the precision‑recall‑curves for all training \r\napproaches and both distance‑based (dist.) and Voronoi‑based (voro.) \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "sample extraction. The labels 1a–1j correspond to the notation in \r\nexperiment 1\r\nFigure 5: Precision‑recall‑curves showing the quality improvements \r\nwhen using a sample selection method (blue) compared to approaches \r\nwithout sample extraction (gray)\r\nFigure 3: Example results of experiment (1e). The red and blue markers \r\nshow Ki‑67 positive and negative nuclei as detected by the algorithm, \r\nrespectively\nJ Pathol Inform 2017, 1:21 http://www.jpathinformatics.org/content/8/1/21\r\nJournal of Pathology Informatics 7\r\nregions, which are segmented by the watershed algorithm, \r\nbecome larger. The nuclear positions are computed as the \r\ncenter points of the nuclear regions and the positivity of the \r\nnuclei is derived from the staining classification results within \r\nthe nuclear regions. When such regions become unreasonably \r\nlarge, nuclear positions or their positivity might become \r\nincorrect. This effect causes the decrease of recall at low \r\ncutoff values.\r\nExperiment 3: Impact of the training set size\r\nThe impact of the training set size on the quality of the \r\nnuclei detection was evaluated in experiment 3. Training sets \r\nof different sizes were produced using the Voronoi‑based \r\nextraction method, followed by a selection method as described \r\nin (1b) and (1e), which appeared to be the most interesting \r\napproaches in experiment 1. For the latter approach, the \r\nactive learning was parametrized to select 10% of the samples \r\nselected by the stratified random subsampling, which is \r\ncomparable to the ratio in the above experiments. The overall \r\nf1‑measure of the training sets was then assessed to compare \r\nthe learning curves of these two methods. Training set sizes \r\nfrom 100 up to 5000 samples have been evaluated with an \r\noffset of 100 and up to 15,000 samples with an offset of 1000.\r\nFigure 8 shows the results of experiment 3. Both learning \r\ncurves have an approximately asymptotic shape. They rise \r\nsteeply until about 2000 samples and ascend more slowly \r\nafterward. Nevertheless, the learning curve for the approach \r\ncontaining active learning shows superior quality values \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "throughout all training set sizes. The experiment shows that \r\nthe number of 2000 samples for a training set is a reasonable \r\nchoice. Although more samples would slightly increase \r\nthe quality of the nuclei detection, we consider this a good \r\ncompromise between quality and runtime performance.\r\nExperiment 4: Comparison of extraction methods with \r\nmanual segmentations\r\nTo assess the quality of the sample extraction methods, we \r\ncompared a manual nuclei segmentation with the proposed \r\ndistance and Voronoi‑based extraction methods. To produce \r\na training set from segmentation annotations, nonnuclear \r\nsamples were generated from all positions outside nuclear \r\nregions. Since the trained method should yield maximum \r\nnucleus probability at the center of the nuclei, the nuclear \r\nsamples were only generated at the centers of the nuclei, \r\nequally to the extraction methods proposed.\r\nAs the selection method, we used stratified random \r\nsubsampling per image followed by active learning (1e), which \r\nappeared to achieve the best results in experiment 1. We used \r\nten images with exhaustive nuclei segmentation annotations \r\nwhich do not belong to the image set used in experiment 1–3. \r\nSamples were extracted from the annotations for each pixel. To \r\ncompare those samples with the described extraction methods, \r\nthe segmentation annotations were reduced to center markers \r\nby computing the center of gravity of each segment. For this \r\nexperiment, we did not perform a cross‑validation but tested the \r\nresulting training sets using the image set described above. The \r\nFigure 6: In most cases, the approaches using Voronoi‑based sample \r\nextraction (blue) lead to better detection quality than those using \r\ndistance‑based sample extraction (gray)\r\nFigure 7: Most approaches that combine multiple selection methods \r\nand contain active learning (blue) yield better quality measures than \r\nothers (gray), here shown for the approaches using Voronoi‑based \r\nsample extraction\r\nFigure 8: In experiment 3, training sets of different sizes were produced \r\nfor the approaches described in experiment (1b) and (1e). The graph \r\nplots the f1‑measures of the nuclei detection trained with these sets \r\nagainst their size\nJ Pathol Inform 2017, 1:21 http://www.jpathinformatics.org/content/8/1/21\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "8 Journal of Pathology Informatics\r\nmethods represents a valid alternative to conventionally \r\nproduced training sets. In this manner, the effort for the creation \r\nof annotations can be greatly reduced.\r\nIn addition, while machine learning‑based nuclei detection \r\nmethods are usually trained on all training samples available, \r\nour study shows that subselecting samples can improve the \r\ndetection quality considerably at no additional cost in terms \r\nof execution time or complexity of the nuclei detection \r\nmethod.\r\nIn future work, we will further evaluate the general \r\napplicability of the proposed approaches using different image \r\ndatasets and detection algorithms, especially within the area \r\nof deep learning.\r\nFinancial support and sponsorship\r\nThis work was financially supported by Sectra AB, Linköping, \r\nSweden. Part of this work was conducted under the QuantMed \r\nproject funded by the Fraunhofer Society, Munich, Germany.\r\nConflicts of interest\r\nThere are no conflicts of interest.\r\nReferences\r\n1. Mahmoud SM, Paish EC, Powe DG, Macmillan RD, Grainge MJ, \r\nLee AH, et al. Tumor‑infiltrating CD8+ lymphocytes predict clinical \r\noutcome in breast cancer. J Clin Oncol 2011;29:1949‑55.\r\n2. Speirs V, Walker RA. New perspectives into the biological and \r\nclinical relevance of oestrogen receptors in the human breast. J Pathol \r\n2007;211:499‑506.\r\n3. Tang LH, Gonen M, Hedvat C, Modlin IM, Klimstra DS. Objective \r\nquantification of the Ki67 proliferative index in neuroendocrine \r\ntumors of the gastroenteropancreatic system: A comparison of \r\ndigital image analysis with manual methods. Am J Surg Pathol \r\n2012;36:1761‑70.\r\n4. Vink JP, Van Leeuwen MB, Van Deurzen CH, De Haan G. \r\nEfficient nucleus detector in histopathology images. J Microsc \r\n2013;249:124‑35.\r\n5. Arteta C, Lempitsky V, Noble JA, Zisserman A. Learning to detect cells \r\nusing non‑overlapping extremal regions. In: Medical Image Computing \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "and Computer‑Assisted Intervention‑MICCAI 2012. Berlin, Heidelberg:\r\nSpringer; 2012. p. 348‑56.\r\n6. Kårsnäs A, Dahl AL, Larsen R. Learning histopathological patterns. \r\nJ Pathol Inform 2011;2:S12.\r\n7. Xing F, Xie Y, Yang L. An automatic learning‑based framework \r\nfor robust nucleus segmentation. IEEE Trans Med Imaging \r\n2016;35:550‑66.\r\n8. Xu J, Luo X, Wang G, Gilmore H, MadabhushiA. ADeep Convolutional \r\nNeural Network for segmenting and classifying epithelial and \r\nstromal regions in histopathological images. Neurocomputing \r\n2016;191:214‑23.\r\n9. Janowczyk A, Madabhushi A. Deep learning for digital pathology image \r\nanalysis: A comprehensive tutorial with selected use cases. J Pathol \r\nInform 2016;7:29.\r\n10. Gul‑Mohammed J, Arganda‑Carreras I, Andrey P, Galy V, Boudier T. \r\nA generic classification‑based method for segmentation of nuclei in 3D \r\nimages of early embryos. BMC Bioinformatics 2014;15:9.\r\n11. Sirinukunwattana K, Raza S, Tsang YW, Snead D, Cree I, Rajpoot N. \r\nLocality sensitive deep learning for detection and classification of nuclei \r\nin routine colon cancer histology images. IEEE Trans Med Imaging \r\n2016;35:1196-206.\r\n12. Chawla NV, Japkowicz N, Kotcz A. Editorial: Special issue on \r\nlearning from imbalanced data sets. SIGKDD Explor Newsl \r\n2004;6:1‑6.\r\nexperiment was repeated five times to average out randomness \r\nin the used algorithms.\r\nTable 2 shows the results of experiment 4. It appears that the \r\nmanual extraction yields only marginally better results than \r\nthe approaches based on center markers. Since the quality \r\nof the segmentation‑based samples is certainly better than \r\nof those of the proposed methods, the low difference of the \r\nmethods might seem unexpected. However, the produced \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "training sets are all subject to the same selection process so \r\nthat these quality differences manifest less noticeable in the \r\nfinal results.\r\nConclusions\r\nThe quality of machine learning‑based nuclei detection \r\nmethods is fundamentally dependent on the training data \r\nused. Ideally, training data should be generated from manual \r\nsegmentations of a large number of nuclei, which is, however, \r\na time‑consuming and tedious task.\r\nIn this paper, we proposed and compared approaches to \r\nproduce training sets from easy to generate center marker \r\nannotations. We divided the training set generation into \r\na sample extraction and a sample selection step. The \r\nsamples were extracted using a distance‑based or a Voronoi \r\nboundary‑based method. Training sets were selected from \r\nthe resulting sample sets using different combinations of \r\nstratified random subsampling, Kd‑tree subsampling, and \r\nactive learning.\r\nFor evaluation, we trained a nuclei detection method with \r\nthese training sets and assessed the resulting detection quality \r\nmeasures. In addition, we investigated the influence of the \r\ncutoff value on these measures. For a cutoff value of 0.5, the \r\ndefault threshold for two‑class problems, class balancing had \r\nthe largest positive impact on the detection quality. Independent \r\nof the cutoff value, the best results were obtained using \r\ntraining sets produced by Voronoi‑based sample extraction \r\nand sample selection methods that incorporate active learning. \r\nWe also evaluated the influence of the training set size on \r\nthe detection quality. The quality increased quickly until \r\napproximately 2000 samples and more moderate afterward. In \r\na fourth evaluation, a comparison revealed that the f1‑measures \r\nobtained using the proposed extraction methods almost reached \r\nthe values obtained using samples generated from manual \r\nsegmentations.\r\nWe conclude that the usage of center marker annotations in \r\nconjunction with appropriate sample extraction and selection \r\nTable 2: Quality measures obtained by different extraction \r\nmethods\r\nExtraction Precision Recall F1‑measure\r\nDistance‑based 0.791 0.818 0.804\r\nVoronoi‑based 0.783 0.831 0.806\r\nManual segmentation 0.787 0.829 0.807\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 8,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2187163830729566632,
+        "filename": "JPI-8-21.PMC5450511.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 9,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 365,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "J Pathol Inform 2017, 1:21 http://www.jpathinformatics.org/content/8/1/21\r\nJournal of Pathology Informatics 9\r\n13. Pechenizkiy M, Puuronen S, TsymbalA. The impact of sample reduction \r\non PCA‑based feature extraction for supervised learning. In: Proceedings \r\nof the 2006 ACM Symposium on Applied Computing (SAC). ACM: \r\nNew York, USA; 2006. p. 553‑8.\r\n14. Bentley JL. Multidimensional binary search trees used for associative \r\nsearching. Commun ACM 1975;18:509‑17.\r\n15. Omohundro SM. Efficient algorithms with neural network behavior. \r\nComplex Syst 1987;1:273‑347.\r\n16. Settles B. Active Learning Literature Survey. Computer Sciences \r\nTechnical Report 1648. University of Wisconsin-Madison: Madison, \r\nUSA; 2009.\r\n17. Molin J, Bodén A, Treanor D, Fjeld M, Lundström C. Scale Stain: \r\nMulti‑Resolution Feature Enhancement in Pathology Visualization, \r\nArXiv Prepr. arXiv:1610.04141; 2016.\r\n18. Kost H, HomeyerA, Bult P, Balkenhol MC, van der Laak JA, Hahn HK. \r\nA generic nuclei detection method for histopathological breast images. \r\nIn: Medical Imaging 2016: Digital Pathology. Bellingham; Washington \r\nUSA; 2016;9791:97911E-1 - 97911E-7.\n\n"
+  }
+]

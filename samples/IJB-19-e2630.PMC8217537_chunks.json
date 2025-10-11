@@ -1,0 +1,698 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Research Article\r\nCo-expression Network Analysis Reveals Key Genes Related to Ankylosing \r\nspondylitis Arthritis Disease: Computational and Experimental Validation\r\nLeila Najafzadeh1, Mahdi Mahmoudi2, Mostafa Ebadi1, Marzieh Dehghan Shasaltaneh3,\r\nAli Masoudinejad4\r\n1 Department of Biology, College of Science, Damghan Branch, Islamic Azad University, Damghan, Iran\r\n2 Rheumatology Research Center, Tehran University of Medical Sciences, Tehran, Iran\r\n3 Department of Biology, Faculty of Sciences, University of Zanjan, Zanjan, Iran\r\n4\r\n Laboratory of Systems Biology and Bioinformatics, Institute of Biochemistry and Biophysics, University of Tehran, Tehran, Iran\r\n*Corresponding author: Mahdi Mahmoud, Rheumatology Research Center, Tehran University of Medical Sciences, Tehran, Iran. Tel /Fax : +98-2166969256, \r\nE-mail: mahmoudim@tums.ac.ir\r\n*Co-Corresponding Author: Ali Masoudinejad, Laboratory of Systems Biology and Bioinformatics, Institute of Biochemistry and Biophysics, University of \r\nTehran, Tehran, Iran. Tel: +98-2188993803, Fax: +98-2166404680, E-mail: amasoudin@ut.ac.ir \r\nCopyright © 2021 The Author(s); Published by National Institute of Genetic Engineering and Biotechnology. This is an open access article, distributed \r\nunder the terms of the Creative Commons Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses /by-nc/4.0/) \r\nwhich permits others to copy and redistribute material just in noncommercial usages, provided the original work is properly cited.\r\nBackground: Ankylosing spondylitis (AS) is a type of arthritis which can cause inflammation in the vertebrae and joints \r\nbetween the spine and pelvis. However, our understanding of the exact genetic mechanisms of AS is still far from being clear.\r\nObjective: To study and find the mechanisms and possible biomarkers related to AS by surveying inter-gene correlations of \r\nnetworks. \r\nMaterials and Methods: A weighted gene co-expression network was constructed among genes identified by microarray \r\nanalysis, gene co-expression network analysis, and network clustering. Then receiver operating characteristic (ROC) curves \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 491,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "were conducted to identify a significant module with the genes implicated in the AS pathogenesis. Real-time PCR was \r\nperformed to validate the results of microarray analysis. \r\nResults: In the significant module obtained from the network analysis there were eight AS related genes (LSM3, MRPS11, \r\nNSMCE2, PSMA4, UBL5, RPL17, MRPL22 and RPS17) which have been reported in previous studies as hub genes. \r\nFurther, in this module, eight significant enriched pathways were found with adjusted p-values < 0.001 consisting of \r\noxidative phosphorylation, ribosome, nonalcoholic fatty liver disease, Alzheimer's, Huntington's, and Parkinson's diseases, \r\nspliceosome, and cardiac muscle contraction pathways which have been linked to AS. Furthermore, we identified nine AS \r\nrelated genes (UQCRB, UQCRH, UQCRHL, UQCRQ, COX7B, COX5B, COX6C, COX6A1 and COX7C) in these pathways \r\nwhich can play essential roles in controlling mitochondrial activity and pathogenesis of autoimmune diseases. Real-time PCR \r\nresults showed that three genes including UQCRH, MRPS11, and NSMCE2 in AS patients were significantly differentially \r\nexpressed compared with normal controls. \r\nConclusions: The results of the present study may contribute to understanding of AS molecular pathogenesis, thereby aiding \r\nthe early prognosis, diagnosis, and effective therapies of the disease.\r\nKeywords: Ankylosing spondylitis, Autoimmune, Gene co-expression network, Microarray, Real-Time PCR\r\nIran. J. Biotechnol. January 2021;19(1): e2630 DOI: 10.30498/IJB.2021.2630\r\n1. Background\r\nAnkylosing spondylitis (AS), a type of persistent \r\ninflammatory arthritis, is a complex genetic disease which \r\nmainly affects the sacroiliac joints (SI joints) and axial \r\nskeleton. It can cause dramatic resorption and formation \r\nof bone, which eventually results in the occurrence of \r\nankylosis (1). Until now, several factors including genetic \r\nsusceptibility loci such as human leukocyte antigen \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "HLA-B27 (2) and endoplasmic reticulum aminopeptidase \r\n1 (ERAP1) (3), as well as infections and environmental \r\nfactors have been proposed which are involved in the onset \r\nand development of the AS (4). However, the pathogenesis \r\nmechanism, progression, and diagnosis of AS have not \r\nbeen well identified (5). Therefore, exploration and \r\nfinding the genes that may have an important role in the \r\nAS pathogenesis would be a necessity.\nIran. J. Biotechnol. January 2021;19(1): e2630 75\r\nNajafzade L et al. \r\nGenome-wide association studies (GWAS) unveiled \r\nthe involvement of numerous susceptible genes in \r\nthe AS pathogenesis (6). On the other hand, genome\u0002wide transcriptome analysis has become the popular \r\nmethod to understand the pathogenesis mechanism of \r\na disease, molecular classification, and identification \r\nof biomarkers. Recently network-based approaches \r\nhave also been recommended to identify genetic \r\ndeterminants of human diseases.\r\nWhile the description of differentially expressed \r\ngenes (DEGs) can offer clues for ensuing functional \r\nanalysis, finding patterns in the gene expression data \r\nmay disclose the overlooked perspectives of one\u0002dimensional differential gene expression method. \r\nVarious studies show that gene interaction networks can \r\nhelp to identify new biomarkers of complex diseases \r\n(7). The co-expression network is the most common \r\ngene network that is based on the correlations between \r\ngene expression profiles. In this network, enrichment for \r\ngene ontology (GO) or multivariate statistical methods \r\nare utilized to group highly co-expressed (correlated) \r\ngenes into co-expression modules (gene sets).\r\n2. Objective\r\nThe main objective of this research is to find the possible \r\nbiomarkers of AS disease by surveying inter-gene \r\ncorrelations of networks and identifying the AS related \r\nmechanisms. For this purpose, a co-expression network \r\nwas constructed and various modules were identified. \r\nThe module with the highest area under curve (AUC) \r\nvalues in ROC curve was selected for further analysis. \r\nMoreover, Real time-PCR analysis was conducted \r\nto validate the hub genes which were found from the \r\nnetwork analysis.\r\n3. Materials and Methods\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "3.1. Microarray Dataset and Preprocessing\r\nThe microarray dataset was downloaded from the Gene \r\nExpression Omnibus (GEO) database (GEO accession \r\nGSE25101) (8). Sample sequencing was done with the \r\nIllumina platform (GPL6947-Illumina HumanHT-12 \r\nV3.0 expression beadchip). The dataset comprises the \r\ngene expression profiles of 16 AS patients and 16 age, \r\nsex-matched normal subjects (8). Lumi package (9) was \r\napplied to quantile normalization. The probes which \r\nannotated to several genes were excluded and among \r\nthe probes which annotated to a gene, the one with the \r\nmax variance expression was chosen. After applying the \r\npreprocessing steps, we gained an expression matrix, \r\nwhere rows represent genes and columns represent \r\nsamples.\r\n3.2. Construction of Gene Co-Expression Network \r\nIn this research, weighted gene co-expression analysis \r\n(WGCNA) was applied to predict significant genes in the \r\ndevelopment of AS (10). By such analysis, the strongly \r\ncorrelated gene modules and the gene membership in \r\na module are identified. Firstly, hierarchical clustering \r\nwas used to detect sample outlier (11). Then, Pearson’s \r\ncorrelation cor(i, j)|, between every pair of genes was \r\ncalculated. This correlation matrix was transformed \r\ninto a matrix of connection strengths (i.e. an adjacency \r\nmatrix) by a power function [connection strength = (0.5 \r\n+ 0.5*correlation) β\r\n], which resulted in a weighted co\u0002expression network. The various power β value was \r\nused to estimate the scale-free topology criterion, as \r\ndescribed in the original publication(12).\r\n Signed and unsigned networks are two of the more \r\nfrequently used co-expression networks which are \r\nconstructed based on the correlation coefficient values \r\nand absolute values, respectively. In this study, the \r\nsigned network was constructed (13). Subsequently, the \r\ntopological overlap measure (TOM)(14) was employed \r\nto combine the adjacency of each two genes and also \r\ntheir connection strengths with other neighbor genes. \r\nThe genes inside a module can be summarized with the \r\nmodule eigengene (ME), which is defined as the first \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "principal component of the expression profiles (15). \r\nNext, the dissimilarity matrix 1-TOM was calculated \r\nas the input for hierarchical clustering by flashClust \r\npackage. Afterward, the modules were identified by \r\nthe cutreeDynamic function (16) with parameters \r\ndeepSplit = 2 and minClusterSize = 30, and default \r\nvalues were used for other parameters. Flow diagram \r\nof the underlying protocol is presented in Figure 1.\r\nIn order to select the module with the highest correlation \r\nwith AS disease, the support vector machine (SVM) \r\nclassification procedure was utilized. SVM classifier \r\nexplores the optimal hyperplane that can fulfill the \r\nclassification requirement. The distance between two \r\nsupport vectors is considered as the criteria for the \r\noptimal margin evaluation (17). The samples were \r\nclassified based on the genes of each module and class \r\nlabel (normal or patient). The SVM was operated for \r\neach module, then the results were evaluated using the \r\nreceiver operating characteristic (ROC) curves. The \r\nmodule with the highest AUC values was selected for \r\nfurther analysis. To find genes with higher membership \r\nvalue in the selected module, the module membership \r\nvalue was calculated. The module membership (MM): \r\nMM(i)=cor(xi\r\n, ME) determines the gene significance \r\nwithin the module, in which higher absolute value \r\nof MM(i) specifies the more important gene i in the \r\nmodule (10). The genes in the candidate module were \n76 Iran. J. Biotechnol. January 2021;19(1): e2630\r\nNajafzade L et al. \r\nchosen when their membership to the candidate module \r\nwas more than 0.8 and their adjusted p-values were \r\nsignificant (adjusted p-values < 0.01). The module co\u0002expression network was visualized in Cytoscape_v3.6.0 \r\n(18). \r\n3.3. Functional Enrichment Analysis\r\nThe Database for Annotation, Visualization, and \r\nIntegrated Discovery (DAVID) was used to carry out \r\nfunctional enrichment analysis (19). Pathways with \r\nadjusted p-values < 0.001 were selected as significant. \r\nThe genes which enriched in the significant pathways \r\nwere chosen for future studies.\r\n3.4. Candidate Genes Validation Using Quantitative \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Real-Time Polymerase Chain Reaction \r\nReal-time PCR was performed to validate six \r\nrepresentative genes which randomly selected from \r\nAS related genes in significant module. In the current \r\nstudy, 53 AS patients attending Shariati Hospital, \r\nTehran, Iran were recruited along with 49 healthy \r\ncontrols. The healthy group had no clinical evidence \r\nor family history of any type of autoimmune disease. \r\nHealthy controls were matched to the patients in terms \r\nof gender and age. Diagnosis of AS was performed by a \r\nrheumatologist based on the modified New York criteria \r\n(20). Since neither two AS patients nor two controls \r\nwere selected from the same family, the intrafamily \r\ncorrelation was excluded. All AS patients and healthy \r\nsubjects declared their agreement to enter the study \r\nby signing the consent form. This study was approved \r\nby The Human Research Ethics Committee, Tehran \r\nUniversity of Medical Sciences. Disease severity \r\nand functional disabilities of patients were assessed \r\nthrough Bath Ankylosing Spondylitis Disease Activity \r\nIndex (BASDAI), (21) Bath Ankylosing Spondylitis \r\nFunctional Index (BASFI) (22), and Bath Ankylosing \r\nSpondylitis Metrology Index (BASMI) (23). HLA-B27 \r\nscreening for each AS patient was performed. Baseline \r\ncharacteristics and clinical manifestations of AS patients \r\nFigure 1. Flow diagram of Construction of Gene Co-expression Network.\nIran. J. Biotechnol. January 2021;19(1): e2630 77\r\nNajafzade L et al. \r\nare present in Table S1 (Supplementary Materials).\r\nThe experiment was performed by obtaining 10 mL of \r\nperipheral blood from all the subjects. Then, peripheral \r\nblood mononuclear cells (PBMCs) were isolated using \r\nFicoll-Hypaque (inno-Train Diagnostik GmbH, Taunus, \r\nGermany) density gradient centrifugation approach. \r\nHigh Pure RNA Isolation Kit (Roche, Mannheim, \r\nGermany) was used to extract total cellular RNA, \r\naccording to the manufacturer’s instruction. Next, \r\nDNA and RNA contents of samples were quantified \r\nspectrophotometrically by recording absorbance at \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "260 and 280 nm (NanoDrop 2000c Spectrophotometer, \r\nThermo Fisher Scientific, Wilmington, DE, USA).\r\ncDNA was synthesized from 1 μg of total RNA by \r\nTranscriptor First Strand cDNA Synthesis Kit (Roche, \r\nGermany) according to the manufacturer’s instructions. \r\nStepOnePlus Real-time PCR system (Applied \r\nBiosystems, Foster City, CA, USA) and SYBR Green \r\n(Ampliqon, Odense, Denmark) master mix were \r\nemployed. Primer sequences are listed in Table S2 \r\n(Supplementary Materials). The relative amount of \r\ntarget mRNA in each test sample was calculated and \r\nnormalized to the corresponding β2-microglobulin \r\n(β2M) mRNA transcript level as a housekeeping gene. \r\nComparative CT method was used to evaluate the \r\nquantitative mRNA expression, as formerly described \r\nby Schmittgen and Livak (24). Then, the relative \r\nexpression for each sample was calculated according \r\nto the following equation: relative mRNA expression = \r\n(2− ΔCt) ×103\r\n.\r\n3.5. Statistical Analysis\r\nThe data were analyzed using SPSS software version \r\n22 (SPSS, Chicago, IL, USA). The normality of data \r\ndistribution was evaluated using the Kolmogorov–\r\nSmirnov test. In the cases of normally distributed data, \r\nthe independent sample t-test was used to compare \r\ndifferences between two groups but if data were not \r\nnormal, the Man-Whitney test was used. The GraphPad \r\nPrism version 6 (GraphPad Software, La Jolla, CA \r\nUSA, www.graphpad.com) was used to draw the \r\ngraphs. The correlations between the expression of \r\ngenes and clinicopathological characteristics were \r\nanalyzed employing Spearman’s Rank-Order. Data \r\nwere expressed as mean ± standard deviation (SD) with \r\nstatistical significance set (P = 0.05).\r\n4. Results\r\n4.1. Data Preprocessing and Sample Selection\r\nGene expression dataset GSE25101 was firstly quantile \r\nnormalized and log 2 transformed. The samples \r\nwere assessed in terms of missing entries. Finally, \r\n11484 annotated genes were used to construct the co\u0002expression network. No sample was detected as the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "outlier. \r\n4.2. Construction of Weighted Gene Co-Expression \r\nNetwork \r\nTo specify the required criterion for construction of \r\nWGCN, the scale-free topology fit index was calculated \r\nfor different soft-thresholding power. It reached above \r\n0.8 for a power of 8 while a relatively high mean \r\nconnectivity remained. Next, the signed co-expression \r\nnetwork was constructed based on the correlation \r\nbetween gene expression levels. After clustering the co\u0002correlated genes, 25 modules with corresponding color \r\nassignments were identified. Each color represents a \r\nmodule in the constructed gene co-expression network \r\nby WGCNA (Fig. 2). \r\n4.3. Module-Trait Relationships\r\nTo find the most AS associated module, accuracy \r\nand ROC diagram for SVM classification has been \r\ncalculated and depicted in Figure 3. Among these 25 \r\nmodules, green-yellow and black modules demonstrated \r\nstatistically significant relation to the traits (AUC \r\n(green-yellow) = 0.89, AUC (black) = 0.67). The \r\nnumber of genes in green-yellow and black modules \r\nwas 350 and 421, respectively. Since the AUC of \r\nblack module was calculated as 0.67, the green-yellow \r\nmodule was selected for further enrichment analysis. \r\nThe genes co-expression network in module green\u0002yellow is visualized in Figure S1 (Supplementary \r\nMaterials). It consists of 350 nodes and 756 edges. \r\n4.4. Modules Preservation Across Independent Dataset\r\nA second dataset (i.e., the samples of the GSE73754 \r\ndataset) was assessed to examine whether the modules \r\nresulting from the first dataset (GSE25101) can be \r\nreplicated. To this purpose, modulePreservation \r\nfunction in the WGCNA package was applied (10). \r\nGenerally, the modules with Zsummary <2 considered \r\nas no preservation, 2 < Zsummary < 10 implies \r\nmoderate preservation, while a Z-statistic > 10 implies \r\nstrong module preservation. Altogether, a Zsummary \r\n≥ 2 indicates that the modules are preserved (or \r\nreproducible) (25). The green-yellow module showed \r\nmoderate preservation (2 ≤ Z-statistic ≤ 10) between \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "the two datasets (Fig. S2, Supplementary Materials). \r\n4.5. Pathway Enrichment Analysis \r\nPathway enrichment analysis of green-yellow module \r\nwas performed using the DAVID online tools. It showed \n78 Iran. J. Biotechnol. January 2021;19(1): e2630\r\nNajafzade L et al. \r\nFigure 2. Dendrogram plot displaying the co-expression modules determined by the WGCNA, labeled by color. Each color represents a \r\ncertain gene module. 25 modules with corresponding color are illustrated.\r\nFigure 3. Module-Trait Relationships ROC (MTR_ROC). Among 25 modules, green-yellow and black modules demonstrated statistically \r\nsignificant related to the traits (AUC (green-yellow) = 0.89, AUC (black) = 0.67). \nIran. J. Biotechnol. January 2021;19(1): e2630 79\r\nNajafzade L et al. \r\nthe enrichment of significant genes in eight remarkable \r\npathways under the condition of adjusted p-values\r\n< 0.001 (Table 1). These pathways were Ribosome, \r\nOxidative phosphorylation, Parkinson’s disease, \r\nnonalcoholic fatty liver disease, Alzheimer’s disease, \r\nHuntington’s disease, spliceosome, and cardiac muscle \r\ncontraction pathways. Nine genes were involved in \r\nmost of the mentioned pathways, which may have \r\npotential as biomarkers and treatment purposes.\r\n4.6. Demographic Data\r\nThe mean age of patient and healthy groups were 40 ± \r\n10.9 and 38 ± 9.9 years, respectively. Any significant \r\ndifference was found between the ages of two groups. \r\nMoreover, the patient group composed of 13 females \r\nand 40 males whereas the healthy group included 11 \r\nfemales and 38 males.\r\n4. 7. Quantitative Real-time PCR Validation\r\nThe expression levels of six genes (COX7C, UQCRH, \r\nLSM3, PSMA4, NSMCE2, and MRPS11) in the green\u0002yellow module were evaluated to validate the results \r\nof the network-based analysis. These genes were \r\ndownregulated in the AS patients rather than normal \r\nsubjects in the microarray dataset. The expression levels \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "of MRPS11 and NSMCE2 were downregulated (both \r\n0.8-fold, with P = 0.044 and P = 0.029, respectively) \r\nin the patient validation samples, however, the UQCRH \r\ngene was upregulated (1.2-fold, P = 0.007; Fig. 4). The \r\ndifference between the expression levels of COX7C, \r\nLSM3, and PSMA4 in normal and AS patients was \r\nnot significant. Further, the relative UQCRH gene \r\nexpression level was significantly higher in HLA-B27 \r\npositive than in the HLA-B27 negative patients’ group \r\n(1.3-fold, P = 0.041; Fig. S3, Supplementary Materials).\r\nTable 1. Significant pathways with adjusted p-value < 0.001.\r\nTerms Count adjusted \r\np-value Genes\r\nRibosome 36 7.4E-27 RPL4, RPL31, MRPS11, RPL11, MRPL36, MRPL15, RPL9, \r\nMRPL35, RPL6, MRPL32, RPL7, MRPL11, MRPL20, MRPL3, \r\nRPS17, MRPL1, RPL36AL, RPL35, RPL17, RPL39, RPL41, RPS7, \r\nRPL23, MRPL27, MRPS21, RPL35A, RPS3A, MRPL22, MRPL30, \r\nRPS27, RPL37A, FAU, RPL26, RPS21, RPL26L1, RPS24\r\nOxidative phosphorylation 29 8.3E-19 COX7B, NDUFB8, NDUFB7, NDUFB10, UQCRB, NDUFA11, \r\nNDUFA12, COX17, NDUFB3, NDUFB2, ATP5C1, ATP5J, \r\nCOX7A2, ATP5I, ATP5H, COX6A1, ATP5O, COX5B, COX7C, \r\nUQCRH, NDUFV2, NDUFA4, NDUFA1, COX6C, UQCRHL, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "ATP5J2, UQCRQ, NDUFS5, NDUFS4\r\nParkinson's disease 26 5.18E-15 COX7B, NDUFB8, NDUFB7, NDUFB10, UQCRB, NDUFA11, \r\nNDUFA12, NDUFB3, NDUFB2, ATP5C1, ATP5J,COX7A2, \r\nATP5H, COX6A1, ATP5O, COX5B, COX7C, UQCRH, NDUFV2, \r\nNDUFA4, NDUFA1, COX6C, UQCRHL, UQCRQ, NDUFS5, \r\nNDUFS4\r\nHuntington's disease 28 1.1E-13 COX7B, NDUFB8, NDUFB7, NDUFA11, NDUFB10, UQCRB, \r\nNDUFA12, NDUFB3, NDUFB2, ATP5C1, CLTA, ATP5J, \r\nCOX7A2, ATP5H, COX5B, COX6A1, ATP5O, COX7C, UQCRH, \r\nNDUFV2, NDUFA4, NDUFA1, COX6C, UQCRHL, UQCRQ, \r\nNDUFS5, NDUFS4, TAF4B\r\nAlzheimer's disease 26 2.8E-13 COX7B, NDUFB8, NDUFB7, NDUFB10, UQCRB, NDUFA11, \r\nNDUFA12, NDUFB3, NDUFB2, ATP5C1, ATP5J, COX7A2, \r\nATP5H, COX6A1, ATP5O, COX5B, COX7C, UQCRH, NDUFV2, \r\nNDUFA4, NDUFA1, COX6C, UQCRHL, UQCRQ, NDUFS5, \r\nNDUFS4\r\nNon-alcoholic fatty liver \r\ndisease (NAFLD)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "22 1.5E-10 COX7B, NDUFB8, NDUFB7, NDUFB10, UQCRB, NDUFA11, \r\nNDUFA4, NDUFA12, NDUFB3, NDUFB2, NDUFA1, COX7A2, \r\nCOX6A1, COX6C, COX5B, COX7C, UQCRH, UQCRHL, UQCRQ, \r\nNDUFS5, NDUFS4, NDUFV2\r\nSpliceosome 13 5.4 E-4 SF3B5, SF3B6, BUD31, LSM5, LSM3, PQBP1, LSM7, PRPF18, \r\nSNRPD1, TRA2B, SNRPG, SNRNP27, SNRPF\r\nCardiac muscle contraction 10 5.2E-04 COX7B, UQCRB, UQCRQ, COX7A2, COX6C, COX6A1, COX5B, \r\nCOX7C, UQCRHL, UQCRH\r\nTable 1. Significant pathways with adjusted p-value < 0.001.\n80 Iran. J. Biotechnol. January 2021;19(1): e2630\r\nNajafzade L et al. \r\n4.8. Correlations between Gene Expression and \r\nClinical Indices\r\nThe correlations between the expression of UQCRH,\r\nNSMCE2, and MRPS11 genes and clinical indices of \r\nAS patients are demonstrated in Table 2. Although \r\nthe significant correlation was found between the \r\nexpression of MRPS11 gene and BASDAI scores (r = \r\n0.287, P = 0.041) there were no significant correlations \r\nbetween the expression of three significant genes and \r\nclinical manifestations of the patients. \r\n5. Discussion\r\nIn the present study, WGCNA was employed to identify \r\nthe gene signatures involved in the pathogenesis of AS \r\ndisease. The co-expression analysis revealed the green\u0002yellow module as the most related module to AS. The \r\nTable 2. Correlation between differentially expressed genes validated by Real-time PCR and AS clinical indices.\r\nGene Clinical Index Correlation Coefficient P\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "UQCRH Gene Expression BASDAI 0.21 0.14\r\nBASMI 0.17 0.23\r\nBASFI 0.16 0.25\r\nASQoL 0.26 0.06\r\nESR 0.12 0.42\r\nMRPS11 Gene Expression BASDAI 0.29 0.04\r\nBASMI 0.01 0.96\r\nBASFI 0.13 0.34\r\nASQoL 0.24 0.08\r\nESR -0.02 0.89\r\nNSMCE2 Gene Expression BASDAI 0.18 0.19\r\nBASMI -0.8 0.59\r\nBASFI -0.13 0.92\r\nASQoL 0.08 0.55\r\nESR -0.11 0.46\r\n* Bold item demonstrates statistically significant value.\r\nFigure 4. Relative expression levels of three selected genes (MRPS11, NSMCE2 and UQCRH) according to the network and sub-networks \r\nfindings. The expression of genes in AS patients (black bars) compared to normal controls (white bars) are shown (*P <0.05, ** P <0.01, \r\n*** P < 0. 0.001). MRPS11 and NSMCE2 were downregulated (both 0.8-fold, with P = 0.044 and P = 0.029, respectively) and UQCRH \r\ngene was upregulated (1.2-fold, P = 0.007).\r\nTable 2. Correlation between differentially expressed genes validated by Real-time PCR and AS clinical indices.\nIran. J. Biotechnol. January 2021;19(1): e2630 81\r\nNajafzade L et al. \r\nremarkable genes in this module were determined \r\nthrough pathway analysis since the common genes in \r\nstatistically significant pathways were considered as the \r\nAS biomarkers. \r\nThe presence of genes such as LSM3 homolog, U6 \r\nsmall nuclear RNA and mRNA degradation associated \r\n(LSM3), Mitochondrial ribosomal protein S11 \r\n(MRPS11), E3 SUMO-protein ligase NSE2 (NSMCE2), \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 509,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Proteasome subunit, alpha type 4 (PSMA4), Ubiquitin\u0002like 5 (UBL5), ribosomal protein L17 (RPL17), \r\nMitochondrial ribosomal protein L22 (MRPL22), \r\nand ribosomal protein S17 (RPS17) in the significant \r\nmodule (green-yellow) that have been reported in \r\nprevious AS studies, supported the validity of module.\r\nLSM3 gene is involved in pre-mRNA splicing. Herein, \r\nwe identified that LSM3 gene was downregulated in \r\nthe AS cases. Perturbations in processing and splicing \r\nof pre-mRNAs might affect the expression quality and \r\nquantity of other genes which might be involved in the \r\nAS pathogenesis. Also, the expression of spliceosome \r\nmembers in the various leukocyte subsets is associated \r\nwith the inflammatory, oxidative, and proatherogenic \r\nprofile of AS patients (26). \r\nMRPS11 gene was downregulated in the AS subjects \r\nwith the largest effect size. NSMCE2 gene is one of the \r\ntops downregulated genes in AS patients as well. These \r\nfindings are the results of the analysis that have led to \r\nthe identification of genes with unknown transcriptional \r\nchanges in AS(27). PSMA4 gene is the 20S proteasome \r\ncore which is required for proteasome function (28). \r\nThe proteasome complex is a proteolytic system which \r\nhas key role in the function of the adaptive immune \r\nsystem through the major histocompatibility complex \r\n(MHC) class I (29). \r\nPrevious studies revealed the upregulation of proteins \r\nin the ubiquitin-proteasome pathway for AS patients. \r\nUbiquitin-like 5 gene encodes UBL5 protein, which \r\nis similar to ubiquitin. UBL5 may not directly bind to \r\ntarget proteins but impresses the ubiquitin-proteasome \r\npathway (UPP) through conjugation with the protein by \r\nan isopeptide bond.\r\nThe ubiquitin-proteasome pathway of protein \r\ndegradation involves the conjugation of ubiquitin \r\nmolecules to the targeted protein that is recognized by \r\nproteasome subunits. It is an ATP-dependent process \r\nwith the involvement of three enzymes (30). The \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "ribosomal protein and proteasome domains may be \r\ndisturbed through the abnormal expression of DEGs. \r\nThis event leads to the incidence of the AS disease. \r\nWright et al. demonstrated a significant differential \r\nUPP protein expression in the monocytes from patients \r\nwith AS and emphasized the important role of UPP in \r\nAS (31). Moreover, ribosomal proteins such as RPL17, \r\nMRPL22 (32), and RPS17 (33) might have a close \r\ncorrelation with AS. \r\nThe pathway analysis demonstrated the signaling \r\npathways like oxidative phosphorylation (34-36), \r\nribosome (31) and Parkinson’s (37), Alzheimer’s (38), \r\nHuntington’s (39) diseases, as well as spliceosome \r\n(40), cardiac muscle contraction (41), and nonalcoholic \r\nfatty liver disease (NAFLD) (42) that all of them are \r\nassociated with AS. Moreover, according to pathway \r\nenrichment, nine genes were involved in various \r\npathways. Ubiquinol-cytochrome c reductase binding \r\nprotein (UQCRB), ubiquinol-cytochrome c reductase \r\nhinge protein (UQCRH), ubiquinol-cytochrome c \r\nreductase hinge protein-like (UQCRHL), ubiquinol\u0002cytochrome c reductase complex III subunit VII \r\n(UQCRQ), cytochrome c oxidase subunit 7B (COX7B), \r\ncytochrome c oxidase subunit 5B (COX5B), cytochrome \r\nc oxidase subunit 6C (COX6C), cytochrome c oxidase \r\nsubunit 6A1 (COX6A1), and cytochrome c oxidase \r\nsubunit 7C (COX7C) are implicated in six remarkable \r\npathways and seems to have a higher significance \r\nversus other genes. UQCRB, UQCRH, UQCRHL, and\r\nUQCRQ encode proteins that are parts of the complex \r\nIII or cytochrome b-c1 complex, and a component of \r\nthe mitochondrial respiratory chain (https://www.ncbi.\r\nnlm.nih.gov/protein). Furthermore, COX7B, COX5B, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "COX6C, COX6A1, and COX7C encode proteins that \r\nare the nuclear-coded polypeptide chains of cytochrome \r\nc oxidase (https://www.ncbi.nlm.nih.gov/protein). \r\nThe association of cytochrome c and cytochrome \r\nbc1 complex (complex III, ubiquinol: cytochrome c \r\noxidoreductase) with the autoimmune diseases through \r\nreactive oxygen species (ROS) production has been \r\nproposed. Cytochrome c can amplify ROS production in \r\nmitochondria (43). Moreover, cytochrome bc1 complex \r\nand complex I (NADH: ubiquinone oxidoreductase) are \r\nknown as the major sources of superoxide anion radicals \r\n(44). The critical role of ROS in the pathophysiology \r\nof autoimmune diseases has been suggested. ROS \r\ncan cause the “neo-antigen” generation by changing \r\nthe structure of cellular antigens, which leads to \r\nincrease the autoimmune response against the original \r\nantigen. ROS are also implicated in the activation of \r\nantigen-presenting cells, apoptosis, and amplification \r\nof diverse immunologic reactions (45) as well as in \r\nthe pathophysiology of several autoimmune diseases \r\nincluding Parkinson’s, Huntington’s, Alzheimer’s \r\ndiseases, and systemic lupus erythematosus (SLE) \r\ndisease (46, 47). \r\nMoreover, we validated the expression of UQCRH, \r\nMRPS11, and NSMCE2 by Real-time PCR. Expression \n82 Iran. J. Biotechnol. January 2021;19(1): e2630\r\nNajafzade L et al. \r\nof UQCRH gene was increased in our samples while \r\nit was downregulated in the co-expression network. \r\nThe difference in samples can be regarded as a possible \r\ncause to justify such inconsistency. Moreover, several \r\nconfounding factors, such as disease stage, sample \r\nformation, cell-specific frequently, and experimental \r\nfactors that can severely influence the outcome of a \r\ntranscriptome analysis could be the underlying reasons \r\nfor such discrepancy (48).\r\nThe UQCRH gene encodes a hinge protein consisting \r\nof 91 amino acids that are distributed in the nucleus and \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "mitochondria. It is also primarily involved in mitochondrial \r\noxidative phosphorylation. As the main subunit of \r\nubiquinol-cytochrome c reductase complex, UQCRH is \r\nresponsible for electron transfer between cytochrome c \r\nand cytochrome c1 during oxidative phosphorylation. The \r\nabnormal high expression level of this gene can lead to \r\ncellular ROS production (49). In addition to upregulation \r\nof UQCRH in the AS patients compared with controls, it \r\nalso overexpressed in the HLA-B27 positive AS subjects \r\nin comparison to HLA-B27 negative AS patients (1.3 \r\ntimes; P = 0.041). These data indicate that UQCRH gene \r\nmay intensify AS pathogenesis in HLA-B27 positive \r\nsubjects, since HLA-B27 molecule was already reported \r\nto be involved in TNF production (50) and, hence an \r\ninflammation in AS.\r\nMRPS11 is a component of the ribosomal small subunit \r\nthat binds to 12S rRNA (51). All of the Mitochondrial \r\nRibosomal Proteins (MRPs) are encoded by nuclear \r\ngenes and involved in protein synthesis within the \r\nmitochondrion. The mitoribosomes of mammals are 55-\r\n60S particles and consist of a small 28S and a large 39S \r\nsubunits (52). Mutations or deficiencies of ribosome \r\nassembly proteins implicated in mitochondrial \r\ntranslation are potential candidates for mitochondrial \r\ndiseases since the mitochondrial ribosome translates \r\nmRNAs for the 13 vital components of the oxidative \r\nphosphorylation system (53). Several studies have \r\nshown that mitochondrial dysfunction is evidence \r\nof neurodegenerative diseases, some autoimmune \r\ndisorders, and cancers (54, 55). Analysis based on the \r\nSpearman’s rho test indicated a positive correlation \r\nbetween disease activity (measured by BASDAI) and \r\nMRPS11 gene expression. Some researchers have \r\naffirmed that the disease severity of AS might be \r\nrelated to the HLA-B27 status. Indeed, Freeston et al. \r\nreported that HLA-B27 positive patients with AS have \r\nsignificantly longer disease duration and present worse \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "BASDAI, BASFI, and ankylosing spondylitis quality \r\nof life (ASQoL) compared with HLA-B27 negative \r\nAS (56). However, there is no study on the correlation \r\nbetween expression of MRPS11 gene and disease \r\nactivity indices in the course of AS disease, and more \r\nstudies are needed. \r\nNSMCE2 gene is a component of the structural \r\nmaintenance of chromosomes (Smc) 5/6 complex, \r\nwhich is involved in DNA repair (57). To prevent DNA \r\ndamage from compromising the genetic integrity of an \r\norganism, cells employ surveillance mechanisms to \r\nsense damaged DNA and to elicit concordant cellular \r\nresponses such as DNA repair, cell cycle arrest, and \r\napoptosis. Mutations of genes involved in the DNA \r\ndamage response pathways can also lead to diseases \r\nsuch as cancer, immune deficiencies (58), and some \r\nconnective tissue diseases such as rheumatoid arthritis. \r\nFurthermore, defects in DNA damage and DNA repair \r\nmechanisms may contribute to the AS process (59) \r\nas we detected differentially expression pattern of \r\nNSMCE2 in the AS subjects.\r\n6. Conclusion\r\nIn conclusion, we successfully identified eight pathways \r\nin Ankylosing spondylitis based on co-expression \r\nnetwork analysis. Moreover, we predicted 17 genes as \r\npotential biomarkers for AS and confirmed UQCRH, \r\nMRPS11, and NSMCE2 as the differently expressed \r\ngenes in Ankylosing spondylitis patients using RT-PCR \r\nassay. These genes are proposed as the biomarkers for \r\nearly detection and therapy for Ankylosing spondylitis.\r\nDeclarations\r\nEthics, consent and permissions: The ethical committee \r\nof Tehran University of Medical Sciences approved \r\nthis study. All study subjects signed the consent forms \r\nbefore being included in the study.\r\nConsent for publication: Not applicable.\r\nAvailability of data and material\r\nThe datasets used for the current study are available in \r\nthe NCBI GEO repository, (https://www.ncbi.nlm.nih.\r\ngov/geo/query/acc.cgi?acc=GSE25101)\r\nCompeting interests \r\nLeila Najafzadeh, Mahdi Mahmoudi, Mostafa Ebadi, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Marzieh Dehghan Shasaltaneh and Ali Masoudi-Nejad, \r\ndeclare that they have no conflict of interest.\r\nFunding: NA\r\nAcknowledgements\r\nWe would like to thank Saber Ghanbari Ara and Saeed \r\nAslani without whom we could not complete this study. \r\nWe also appreciate great help of Dr. Mohadese Zaree \r\nfor critical reading the manuscript.\nIran. J. Biotechnol. January 2021;19(1): e2630 83\r\nNajafzade L et al. \r\nReferences\r\n1. Assassi S, Reveille JD, Arnett FC, Weisman MH, Ward MM, \r\nAgarwal SK, et al. Whole-Blood Gene Expression Profiling \r\nin Ankylosing Spondylitis Shows Upregulation of Toll-Like \r\nReceptor 4 and 5. J Rheumatol. 2011;38(1):87-98. https://doi.\r\norg/10.3899/jrheum.100469\r\n2. Colbert RA, Tran TM, Layh-Schmitt G. Hla-B27 Misfolding \r\nand Ankylosing Spondylitis. Mol Immunol. 2014;57(1):44-51. \r\nhttps://doi.org/10.1016/j.molimm.2013.07.013\r\n3. Keidel S, Chen L, Pointon J, Wordsworth P. Erap1 and \r\nAnkylosing Spondylitis. Curr Opin Immunol. 2013;25(1):97-\r\n102. https://doi.org/10.1016/j.coi.2012.11.002\r\n4. Zambrano-Zaragoza JF, Agraz-Cibrian JM, González-Reyes C, \r\nDurán-Avelar M, Vibanco-Pérez N. Ankylosing Spondylitis: \r\nFrom Cells to Genes. Int J Inflam. 2013;2013. https://doi.\r\norg/10.1155/2013/501653\r\n5. Machado P, Landewe R, Lie E, Kvien TK, Braun J, Baker \r\nD, et al. Ankylosing Spondylitis Disease Activity Score \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "(Asdas): Defining Cut-Off Values for Disease Activity States \r\nand Improvement Scores. Ann Rheum Dis. 2011;70(1):47-53.\r\nhttps://doi.org/10.1136/ard.2010.138594\r\n6. Brionez TF, Reveille JD. The Contribution of Genes Outside \r\nthe Major Histocompatibility Complex to Susceptibility to \r\nAnkylosing Spondylitis. Curr Opin Rheumatol. 2008;20(4):384-\r\n391. https://doi.org/10.1097/bor.0b013e32830460fe\r\n7. Browne BC, Hochgräfe F, Wu J, Millar EK, Barraclough J, \r\nStone A, et al. Global Characterization of Signalling Networks \r\nAssociated with Tamoxifen Resistance in Breast Cancer. \r\nFEBS J. 2013;280(21):5237-5257. https://doi.org/10.1111/\r\nfebs.12441\r\n8. Pimentel-Santos FM, Ligeiro D, Matos M, Mourão AF, Costa \r\nJ, Santos H, et al. Whole Blood Transcriptional Profiling in \r\nAnkylosing Spondylitis Identifies Novel Candidate Genes That \r\nMight Contribute to the Inflammatory and Tissue-Destructive \r\nDisease Aspects. Arthritis Res Ther. 2011;13(2):R57. https://\r\ndoi.org/10.1186/ar3309\r\n9. Du P, Kibbe WA, Lin SM. Lumi: A Pipeline for Processing \r\nIllumina Microarray. Bioinformatics. 2008;24(13):1547-1548.\r\nhttps://doi.org/10.1093/bioinformatics/btn224\r\n10. Langfelder P, Horvath S. Wgcna: An R Package for Weighted \r\nCorrelation Network Analysis. BMC bioinformatics. \r\n2008;9(1):559. https://doi.org/10.1186/1471-2105-9-559\r\n11. Xu M, Li W, James GM, Mehan MR, Zhou XJ. Automated \r\nMultidimensional Phenotypic Profiling Using Large Public \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Microarray Repositories. Proc Natl Acad. 2009;106(30):12323-\r\n12328. https://doi.org/10.1073/pnas.0900883106\r\n12. Zhang B, Horvath S. A General Framework for Weighted Gene \r\nCo-Expression Network Analysis. Stat Appl Genet Mol Biol. \r\n2005;4(1). https://doi.org/10.2202/1544-6115.1128\r\n13. Mousavian Z, Nowzari-Dalini A, Stam RW, Rahmatallah Y, \r\nMasoudi-Nejad A. Network-Based Expression Analysis Reveals \r\nKey Genes Related to Glucocorticoid Resistance in Infant \r\nAcute Lymphoblastic Leukemia. Cell Oncol. 2017;40(1):33-45.\r\nhttps://doi.org/10.1007/s13402-016-0303-7\r\n14. Ravasz E, Somera AL, Mongru DA, Oltvai ZN, Barabási \r\nA-L. Hierarchical Organization of Modularity in Metabolic \r\nNetworks. Science. 2002;297(5586):1551-1555. https://doi.\r\norg/10.1126/science.1073374\r\n15. Yip AM, Horvath S. Gene Network Interconnectedness \r\nand the Generalized Topological Overlap Measure. BMC \r\nbioinformatics. 2007;8(1):22. https://doi.org/10.1186/1471-\r\n2105-8-22\r\n16. Langfelder P, Zhang B, Horvath S. Defining Clusters from a \r\nHierarchical Cluster Tree: The Dynamic Tree Cut Package for R. \r\nBioinformatics. 2007;24(5):719-720. https://doi.org/10.1093/\r\nbioinformatics/btm563\r\n17. Suykens JA, Vandewalle J. Least Squares Support Vector \r\nMachine Classifiers. Neural Process Lett. 1999;9(3):293-300. \r\n18. Kohl M, Wiese S, Warscheid B. Cytoscape: Software for \r\nVisualization and Analysis of Biological Networks. Data \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 492,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Mining in Proteomics: Springer; 2011. p. 291-303. https://doi.\r\norg/10.1007/978-1-60761-987-1_18\r\n19. Dennis G, Sherman BT, Hosack DA, Yang J, Gao W, Lane \r\nHC, et al. David: Database for Annotation, Visualization, and \r\nIntegrated Discovery. Genome Biol. 2003;4(9):R60. https://doi.\r\norg/10.1186/gb-2003-4-5-p3\r\n20. Van Der Linden S, Valkenburg HA, Cats A. Evaluation of \r\nDiagnostic Criteria for Ankylosing Spondylitis. Arthritis Rheum.\r\n1984;27(4):361-368. https://doi.org/10.1002/art.1780270401\r\n21. Garrett S, Jenkinson T, Kennedy LG, Whitelock H, Gaisford \r\nP, Calin A. A New Approach to Defining Disease Status in \r\nAnkylosing Spondylitis: The Bath Ankylosing Spondylitis \r\nDisease Activity Index. J Rheumatol. 1994;21(12):2286-2291.\r\nhttps://doi.org/10.1093/rheumatology/34.8.793\r\n22. Calin A, Garrett S, Whitelock H, Kennedy L, O’hea J, \r\nMallorie P, et al. A New Approach to Defining Functional \r\nAbility in Ankylosing Spondylitis: The Development \r\nof the Bath Ankylosing Spondylitis Functional Index. J \r\nRheumatol. 994;21(12):2281-2285. https://doi.org/10.1093/\r\nrheumatology/34.8.793\r\n23. Bidad K, Fallahi S, Mahmoudi M, Jamshidi A, Farhadi E, \r\nMeysamie A, et al. Evaluation of the Iranian Versions of the \r\nBath Ankylosing Spondylitis Disease Activity Index (Basdai), \r\nthe Bath Ankylosing Spondylitis Functional Index (Basfi) and \r\nthe Patient Acceptable Symptom State (Pass) in Patients with \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Ankylosing Spondylitis. Rheumatol Int. 2012;32(11):3613-\r\n3618. https://doi.org/10.1007/s00296-011-2186-2\r\n24. Schmittgen TD, Livak KJ. Analyzing Real-Time Pcr Data by \r\nthe Comparative C T Method. Nat Protoc. 2008;3(6):1101.\r\nhttps://doi.org/10.1038/nprot.2008.73\r\n25. Langfelder P, Luo R, Oldham MC, Horvath S. Is My Network \r\nModule Preserved and Reproducible? PLoS Comput Biol. \r\n2011;7(1). https://doi.org/10.1371/journal.pcbi.1001057\r\n26. Jimenez-Gomez Y, Lopez-Pedrera C, Pedraza-Arévalo S, \r\nΆbalos-Aguilera M, Ruiz-Limon P, Perez-Sanchez C, et al. \r\nri0429 Dysregulation of the Splicing Machinery in Leukocytes \r\nfrom Ankylosing Spondylitis Patients Is Associated to Disease \r\nPathogenesis. BMJ Open; 2017. https://doi.org/10.1136/\r\nannrheumdis-2017-eular.4845\r\n27. Lee Y, Song G. Meta-Analysis of Differentially Expressed Genes \r\nin Ankylosing Spondylitis. Genet Mol Res.2015;14(2):5161-\r\n5170. https://doi.org/10.4238/2015.may.18.6\r\n28. Davoli R, Fontanesi L, Russo V, Čepica S, Musilová P, Stratil \r\nA, et al. The Porcine Proteasome Subunit A4 (Psma4) Gene: \r\nIsolation of a Partial Cdna, Linkage and Physical Mapping.\r\nAnim Genet. 1998;29(5):385-388. https://doi.org/10.1046/\r\nj.1365-2052.1998.295354.x\r\n29. Saiki T, Kawai T, Morita K, Ohta M, Saito T, Rokutan K, et \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "al. Identification of Marker Genes for Differential Diagnosis of \r\nChronic Fatigue Syndrome. Mol Med. 2008;14(9-10):599-607.\r\nhttps://doi.org/10.2119/2007-00059.saiki\r\n30. Lecker SH, Goldberg AL, Mitch WE. Protein Degradation by \n84 Iran. J. Biotechnol. January 2021;19(1): e2630\r\nNajafzade L et al. \r\nthe Ubiquitin–Proteasome Pathway in Normal and Disease \r\nStates. J Am Soc Nephrol. 2006;17(7):1807-1819. https://doi.\r\norg/10.1681/asn.2006010083\r\n31. Wright C, Edelmann M, Kollnberger S, Kramer H, \r\nMcGowan S, McHugh K, et al. Ankylosing Spondylitis \r\nMonocytes Show Upregulation of Proteins Involved in \r\nInflammation and the Ubiquitin Proteasome Pathway. \r\nAnn Rheum Dis. 2009;68(10):1626-1632. https://doi.\r\norg/10.1136/ard.2008.097204\r\n32. Aldea G, Výprachtický D, Cimrová V, editors. Modification of \r\nPoly (Styrene‐Alt‐Maleic Anhydride) with 1, 3, 4‐Oxadiazole \r\nUnits for Electroluminescent Devices. Macromolecular \r\nSymposia; 2004: Wiley Online Library. https://doi.org/10.1002/\r\nmasy.200450868\r\n33. Zhao H, Wang D, Fu D, Xue L. Predicting the Potential \r\nAnkylosing Spondylitis-Related Genes Utilizing Bioinformatics \r\nApproaches. Rheumatol Int. 2015;35(6):973-979. https://doi.\r\norg/10.1007/s00296-014-3178-9\r\n34. DiMauro S, Schon EA. Mitochondrial Disorders in the Nervous \r\nSystem. Annu Rev Neurosci. 2008;31:91-123. https://doi.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "org/10.1146/annurev.neuro.30.051606.094302\r\n35. Lian Z, Chai W, Shi LL, Chen C, Liu J, Wang Y. Analysis of \r\nPpargc1b, Runx3 and Tbkbp1 Polymorphisms in Chinese Han \r\nPatients with Ankylosing Spondylitis: A Case-Control Study. \r\nPloS One. 2013;8(4):e61527. https://doi.org/10.1371/journal.\r\npone.0061527\r\n36. Ranganathan V, Gracey E, Brown MA, Inman RD, Haroon N. \r\nPathogenesis of Ankylosing Spondylitis—Recent Advances and \r\nFuture Directions. Nat Rev Rheumatol. 2017;13(6):359. https://\r\ndoi.org/10.1038/nrrheum.2017.56\r\n37. Barker RA, Cahn AP. Parkinson’s Disease: An Autoimmune \r\nProcess. Int. J. Neurosci. 1988;43(1-2):1-7. \r\n38. Dinkins MB, Dasgupta S, Wang G, Zhu G, He Q, Kong \r\nJN, et al. The 5xfad Mouse Model of Alzheimer’s Disease \r\nExhibits an Age-Dependent Increase in Anti-Ceramide Igg and \r\nExogenous Administration of Ceramide Further Increases Anti\u0002Ceramide Titers and Amyloid Plaque Burden. J Alzheimers Dis.\r\n2015;46(1):55-61. https://doi.org/10.3233/jad-150088\r\n39. Björkqvist M, Wild EJ, Thiele J, Silvestroni A, Andre R, Lahiri \r\nN, et al. A Novel Pathogenic Pathway of Immune Activation \r\nDetectable before Clinical Onset in Huntington’s Disease. J \r\nExp Med. 2008;205(8):1869-1877. https://doi.org/10.1084/\r\njem.20080178\r\n40. Tabrizi Z, Mansouri R, Aslani S, Jamshidi A, Mahmoudi M. \r\nExpression Levels of the Microrna Maturing Microprocessor \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "Complex Components; Drosha, Dicer, and Dgcr8 in Pbmcs from \r\nAnkylosing Spondylitis Patients2017. https://doi.org/10.31138/\r\nmjr.28.2.80\r\n41. Ryall NH, Helliwell P. A Critical Review of Ankylosing \r\nSpondylitis. Crit Rev Phys Rehabil Med. 1998;10(3). https://\r\ndoi.org/10.1615/critrevphysrehabilmed.v10.i3.40\r\n42. Zhu J-Z, Zhu H-T, Dai Y-N, Li C-X, Fang Z-Y, Zhao D-J, \r\net al. Serum Periostin Is a Potential Biomarker for Non\u0002Alcoholic Fatty Liver Disease: A Case–Control Study. Endocr. \r\n2016;51(1):91-100. https://doi.org/10.1007/s12020-015-0735-2\r\n43. Akopova O, Kolchinskaya L, Nosar V, Bouryi V, Mankovska \r\nI, Sagach V. Cytochrome C as an Amplifier of Ros Release in \r\nMitochondria. Fiziologichnyi Zhurnal. 2012;58(1):3-12. https://\r\ndoi.org/10.1615/intjphyspathophys.v3.i3.70 \r\n44. Kussmaul L, Hirst J. The Mechanism of Superoxide Production \r\nby Nadh: Ubiquinone Oxidoreductase (Complex I) from Bovine \r\nHeart Mitochondria. Proc Natl Acad Sci. 2006;103(20):7607-\r\n7612. https://doi.org/10.1073/pnas.0510977103\r\n45. Namazi M. Cytochrome-P450 Enzymes and Autoimmunity: \r\nExpansion of the Relationship and Introduction of Free \r\nRadicals as the Link. J Autoimmune Dis. 2009;6(1):4. https://\r\ndoi.org/10.1186/1740-2557-6-4\r\n46. Benzi G, Moretti A. Are Reactive Oxygen Species Involved in \r\nAlzheimer’s Disease? Neurobiol Aging. 1995;16(4):661-674.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "https://doi.org/10.1016/0197-4580(95)00066-n\r\n47. Leishangthem B, Sharma A, Bhatnagar A. Role of Altered \r\nMitochondria Functions in the Pathogenesis of Systemic \r\nLupus Erythematosus. Lupus. 2016;25(3):272-281. https://doi.\r\norg/10.1177/0961203315605370\r\n48. Greene JG. Current Status and Future Directions of \r\nGene Expression Profiling in Parkinson’s Disease.\r\nNeurobiol Dis. 2012;45(1):76-82. https://doi.\r\norg/10.1177/0961203315605370\r\n49. Okazaki M, Ishibashi Y, Asoh S, Ohta S. Overexpressed \r\nMitochondrial Hinge Protein, a Cytochromec-Binding \r\nProtein, Accelerates Apoptosis by Enhancing the Release \r\nof Cytochromecfrom Mitochondria. Biochem Biophys Res \r\nCommun. 1998;243(1):131-136. https://doi.org/10.1006/\r\nbbrc.1997.7979\r\n50. Poddubnyy DA, Märker-Hermann E, Kaluza-Schilling W, \r\nZeidler H, Braun J, Listing J, et al. Relation of Hla-B27, \r\nTumor Necrosis Factor-Α Promoter Gene Polymorphisms, \r\nand T Cell Cytokine Production in Ankylosing Spondylitis—a \r\nComprehensive Genotype-Phenotype Analysis from an \r\nObservational Cohort. J Rheumatol. 2011:jrheum. 110130.\r\nhttps://doi.org/10.3899/jrheum.110130\r\n51. Koc EC, Burkhart W, Blackburn K, Moseley A, Spremulli LL. \r\nThe Small Subunit of the Mammalian Mitochondrial Ribosome \r\nIdentification of the Full Complement of Ribosomal Proteins \r\nPresent. J. Biol. Chem. 2001;276(22):19363-19374. https://doi.\r\norg/10.1074/jbc.m100727200\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "52. Pietromonaco S, Denslow N, O’Brien T. Proteins of Mammalian \r\nMitochondrial Ribosomes. Biochimie. 1991;73(6):827-835.\r\nhttps://doi.org/10.1016/0300-9084(91)90062-6\r\n53. Lightowlers RN, Rozanska A, Chrzanowska-Lightowlers ZM. \r\nMitochondrial Protein Synthesis: Figuring the Fundamentals, \r\nComplexities and Complications, of Mammalian Mitochondrial \r\nTranslation. FEBS lett. 2014;588(15):2496-2503. https://doi.\r\norg/10.1016/j.febslet.2014.05.054\r\n54. Corrado M, Scorrano L, Campello S. Mitochondrial Dynamics \r\nin Cancer and Neurodegenerative and Neuroinflammatory \r\nDiseases. Int J Cell Biol. 2012;2012. https://doi.\r\norg/10.1155/2012/729290\r\n55. Barrera G, Gentile F, Pizzimenti S, Canuto RA, Daga M, \r\nArcaro A, et al. Mitochondrial Dysfunction in Cancer and \r\nNeurodegenerative Diseases: Spotlight on Fatty Acid Oxidation \r\nand Lipoperoxidation Products. Antioxidants. 2016;5(1):7.\r\nhttps://doi.org/10.3390/antiox5010007\r\n56. Freeston J, Barkham N, Hensor E, Emery P, Fraser A. \r\nAnkylosing Spondylitis, Hla-B27 Positivity and the Need for \r\nBiologic Therapies. Joint Bone Spine. 2007;74(2):140-143.\r\nhttps://doi.org/10.1016/j.jbspin.2006.11.003\r\n57. Park HJ, Park HC, Choi J, Choi W, Chung WS, Kim S, et \r\nal. Identification of Sumo-Modified Proteins by Affinity \r\nPurification and Tandem Mass Spectrometry in Arabidopsis \r\nThaliana. J. Plant Bio. 2013;56(3):176-185. https://doi.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -2774925733882795083,
+        "filename": "IJB-19-e2630.PMC8217537.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 215,
+      "total_chunks": 29,
+      "version": "1.0.0"
+    },
+    "text": "org/10.1007/s12374-013-0127-1\nIran. J. Biotechnol. January 2021;19(1): e2630 85\r\nNajafzade L et al. \r\n58. Sancar A, Lindsey-Boltz LA, Ünsal-Kaçmaz K, Linn S. \r\nMolecular Mechanisms of Mammalian DNA Repair and the \r\nDNA Damage Checkpoints. Annu Rev Biochem. 2004;73(1):39-\r\n85. https://doi.org/10.1146/annurev.biochem.73.011303.073723\r\n59. Frank O, Klein W, Kocsis F, Altmann H. DNA--” Rejoining” in \r\nLymphycytes of Patients with a Minifestation of Rheumatoid \r\nArthritis in Older Age (Author’s Transl). Aktuelle Gerontol. \r\n1977;7(12):629-631.\n\n"
+  }
+]

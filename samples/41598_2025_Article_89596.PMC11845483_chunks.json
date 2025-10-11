@@ -1,0 +1,530 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "A novel lightweight multi-scale \r\nfeature fusion segmentation \r\nalgorithm for real-time cervical \r\nlesion screening\r\nJiahuiYang1, Ying Zhang1, Wenlong Fan1, Jie Wang1, Xinhe Zhang1, Chunhui Liu2, \r\nShuang Liu1,3,4 & Linyan Xue1,3,4\r\nAI-based cervical lesion segmentation in colposcopy images has significant potential in improving \r\nscreening efficiency and accuracy. However, most current cervical lesion segmentation algorithms are \r\ninsufficient for rapid image segmentation in mass screening due to heavy parameters and complex \r\nframework. Therefore, a lightweight algorithm segmentation for cervical lesion real-time screening \r\nsystem is urgently needed. In this paper, a novel lightweight LSIL+region segmentation framework \r\ntermed Light-MDDNet is proposed and deployed, which uses the encoder-decoder architecture. In \r\nencoder stage, the first layer of MobileNetV2 module outputs shallow features which tend to be lost \r\nduring multi-layer feature extraction. We also utilize the Denseaspp module to extract deeper semantic \r\ninformation. In the decoder stage, a multi-scale feature fusion (MFF) module is used to fuse multi\u0002scale features. Finally, the algorithm is deployed and tested on the JETSON ORIN NX edge device in \r\ncervical lesion segmentation screening system. The experiments on 971 LSIL+colposcopy images of \r\nlesions processed with acetic acid show that our proposed model outperforms some state-of-the-art \r\nsegmentation networks, with a pixel mean pixel accuracy (MPA) of 94.96% and an average speed per \r\nimage of 19.60ms. After deployment on the mobile terminal, the segmentation accuracy of the model \r\nalmost unchanged and the interference speed reduces to 31.57ms per image. The Light-MDDNet \r\nnetwork achieves the best balance of accuracy and speed in cervical lesion segmentation, showing \r\ngreat potential for the deployment in the mass screening of cervical lesion.\r\nKeywords Colposcopy images, Image segmentation, Deep learning, Lightweight\r\nCervical cancer ranks fourth among new cases and deaths of cancer in women worldwide, accounting for 6.5% \r\nand 7.7% of total incidence and mortality, respectively1. The early cure rate of cervical cancer can reach over 95%, \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "while the late cure rate drops to 20–50%2–6. Although cervical cancer is one of the most preventable cancers, it \r\nstill ranks second among cancer deaths in women aged 20 to 39, mainly due to difficulty in diagnosis caused by \r\nthe lack of obvious symptoms in the early stage7. In recent years, the AI-based cervical lesion segmentation to \r\ncolposcopy assisted diagnostic system helps to observe the condition of the lesion and plays an important role \r\nin cervical cancer pre-screening8.\r\nThe research on cervical lesion segmentation in colposcopy images generally focus on the segmentation of \r\nlow-grade squamous intraepithelial lesions or worse (LSIL+) areas to assist doctors in improving diagnostic \r\nefficiency and accuracy9. Praba et al.10 proposed a fully automatic lesion detection method based on color \r\nhistograms, which removes irrelevant information and mirror reflections through preprocessing, then \r\nextracts color histogram features, and uses KNN, naïve Bayes, and SVM classifiers to detect lesion area, with \r\na segmentation accuracy of over 85%. Liu et al.11 used the k-means clustering algorithm to extract the cervical \r\nregion and the DeepLab V3+image semantic segmentation model based on deep learning to segment the Lesion \r\narea, with an average accuracy of 91.2%. Yue et al.12 designed a mirror reflection removal method, proposing \r\n1College of Quality and Technical Supervision, Hebei University, Baoding 071002, China. 2Affiliated Hospital of \r\nHebei University, Baoding 071000, China. 3Scientific research and innovation team of Hebei University, Baoding \r\n071002, China. 4National & Local Joint Engineering Research Center of Metrology Instrument and System, and \r\nHebei Technology Innovation Center for Lightweight of New Energy Vehicle Power System, Hebei University, \r\nBaoding 071002, China. email: 18236913293@163.com; cherryliu1229@126.com; whlius@hbu.edu.cn; \r\nlyxue@hbu.edu.cn\r\nOPEN\r\nScientific Reports | (2025) 15:6343 | https://doi.org/10.1038/s41598-025-89596-8 1\r\nwww.nature.com/scientificreports\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 502,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "the AWL-CNN network with 90.6% accuracy. Yuan et al.13 used ResNet to replace the encoding part of U-Net \r\nto segment LSIL+areas, achieving a 95.59% average accuracy for acetic images. Yu et al.14 proposed the CLS\u0002Model for segmenting LSIL+areas in post-acetic cervical lesion images under colposcopy, with 93.04% accuracy. \r\nHowever, most current cervical lesion segmentation algorithms cannot be effectively adopted for rapid image \r\nsegmentation in the mass screening of cervical lesion as they are parameter-heavy, computationally complex \r\nand slow to use.\r\nThe application of lightweight networks in medical image segmentation is becoming increasingly \r\nwidespread, as they can improve segmentation efficiency and effectively utilize computing resources. Jeya et \r\nal.15 proposed UNeXt, which is an image segmentation network based on Convolutional Multilayer Perceptron \r\n(MLP), including the early convolution stage and the latent MLP stage, reducing the number of parameters \r\nby 72x, decrease the computational complexity by 68x, and improve the inference speed by 10x. Azad et al.16\r\nproposed a Transformer based medical image segmentation method, which improves the efficiency of medical \r\nimage segmentation through multi-scale feature fusion. Heidari et al.17 proposed a Double-Level Fusion (DLF) \r\nmodule in the skip connection of the encoder-decoder structure. Extensive experiments on various medical \r\nimage segmentation datasets demonstrate the effectiveness of HiFormer over other CNNbased, transformer\u0002based, and hybrid methods in terms of computational complexity, quantitative and qualitative results Sun et al.18\r\nproposed segmentation and localization of liver CT images based on Deeplabv3+, and has been proven to have \r\nvery good performance, Lee et al.19 proposed a lightweight volumetric ConvNet, termed 3D UX-Net, which \r\nadapts the hierarchical transformer using ConvNet modules for robust volumetric segmentation.\r\nThis study proposes a lightweight network model and deploys it on the portable and powerful JETSON ORIN \r\nNX, which can achieve high-precision and real-time cervical lesion segmentation in the screening of cervical \r\nlesion.\r\nThe specific contributions are as follows:\r\n1. 1. We propose a lightweight segmentation algorithm, Light-MDDNet, which adopts the classic framework of \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "DeeplabV3+20 for cervical lesion real-time screening system.\r\n2. 2. Light-MDDNet uses the encoder-decoder architecture. In encoder stage, the first layer of MobileNetV\u0002221module outputs shallow features, which is easily lost after multi-layer feature extraction .We also utilize \r\nthe Denseaspp22 module to extract deeper semantic information. In the decoder stage, a multi-scale feature \r\nfusion (MFF) module is used to fuse multi-scale features.\r\n3. 3. This paper create a high-quality cervical lesion segmentation dataset. We use Light-MDDNet to segment \r\nour cervical cancer segmentation dataset and achieve hardware deployment on the high-performance JET\u0002SON ORIN NX mobile device for the screening of cervical lesion. The experimental results show that the \r\nproposed network model in this paper can best balance segmentation accuracy and test speed.\r\nMaterials and methods\r\nOverall architecture\r\nFigure 1 shows the encoder-decoder architecture of the proposed Light-MDDNet. In encoder stage, the first \r\nlayer of MobileNetV2 module outputs shallow features, which is easily lost after multi-layer feature extraction. \r\nWe also utilize the Denseaspp module to extract deep features, as the lightweight MobileNetV2 is insufficient in \r\nrepresenting deeper semantic information. In the decoder stage, a multi-scale feature fusion (MFF) module is \r\nused to fuse multi-scale features outputted by different layer of MobileNetV2.\r\nMobileNetV2 module\r\nMobileNetV2 is a lightweight deep learning model which introduces linear bottlenecks and inverted residual \r\nstructures. The linear bottleneck compresses the input feature map through a 1×1 convolution, then performs \r\nFig. 1. The overall framework of the proposed Light-MDDNet.\r\nScientific Reports | (2025) 15:6343 | https://doi.org/10.1038/s41598-025-89596-8 2\r\nwww.nature.com/scientificreports/\na 3×3 depthwise separable convolution, and finally restores the depth of the feature map to its original size \r\nthrough a 1×1 convolution. This structure reduces the amount of computation and the number of parameters \r\nwhile maintaining good performance. The inverted residual structure expands the input feature map through \r\na 1×1 convolution in each residual block, then performs a 3×3 depthwise separable convolution, and finally \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "compresses the depth of the feature map to its original size through a 1×1 convolution. MobileNetV2 consists \r\nof a convolutional layer and 16 residual bottleneck layer modules, with its overall structural parameters shown \r\nin Table 1. In our experiments, we input cervical images of 512×512 pixels. n represents the number of times \r\nthe Bottleneck is repeated, c is the depth channel of the output feature matrix, s represents the stride of the first \r\nlayer in each operator.\r\nDenseaspp\r\nThe lesion areas in colposcopy images have variable shapes and different scales. Traditional convolution or \r\npooling operations cannot capture this deeper semantic information. Thus, we use DenseASPP module rather \r\nthan ASPP module to extract more effective deep feature. The structure of DenseASPP is shown in Fig. 2.\r\nIn DenseASPP, contextual information is extracted by performing dilated convolution on multiple feature \r\nmaps and adding a new dilated convolution after each dilated convolution. Using this method, each dilated \r\nconvolution can extract contextual information of different scales, with this information being cumulative. In \r\nDenseASPP, 5 dilated layers with different dilation rates are used, which are 3,6,12,18,and 24,respectively.The \r\nFig. 2. Denseaspp feature extraction module.\r\nInput size Operator c n s\r\n512×512×3 Conv2D 32 1 2\r\n256×256×32 Bottleneck 16 1 1\r\n256×256×16 Bottleneck 24 2 2\r\n128×128×24 Bottleneck 32 3 2\r\n64×64×32 Bottleneck 64 4 2\r\n32×32×64 Bottleneck 96 3 1\r\n32×32×96 Bottleneck 160 3 2\r\n16×16×160 Bottleneck 320 1 1\r\nTable 1. MobileNetV2 structural parameters.\r\nScientific Reports | (2025) 15:6343 | https://doi.org/10.1038/s41598-025-89596-8 3\r\nwww.nature.com/scientificreports/\nexpansion layer consists of a 1×1 convolution and a 3×3 convolution, with BN and ReLU operations performed \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 496,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "after each convolution. The input of each dilated convolution layer is the concatenation of the output of all \r\nprevious convolution layers and the input feature map. The formula for calculating the size of the convolution \r\nkernel of the dilated convolution is as follows:\r\nKa = K + (K − 1) × (d − 1) (1)\r\nwhere K is the original convolution kernel size and d is the dilation rate.\r\nThe formula for calculating the size of the convolution kernel after two convolutions are stacked is as follows:\r\nK = K1 + K2 − 1 (2)\r\nMulti-level feature fusion module\r\nMultiple feature sizes are obtained when using MobileNetV2 to extract features from colposcopy images. Low\u0002level features contain more position and detail information, but their semantics are lower and there is more \r\nnoise. High-level features have stronger semantic information, but their ability to perceive details is poor. We \r\nuse the MFF module to fuse feature maps of different scales outputted by MobileNetV2 module, the detailed \r\nstructure is shown in Fig. 3.\r\nLoss function\r\nTraditional cross-Entropy Loss23 is chosen as the loss function for the proposed Light-MDDNet. The loss \r\nfunction can be expressed as follows:\r\nLoss = −\r\n∑\r\n(x,y)\r\n∑N\r\nn=1\r\nqn(x, y)lnpn(x, y) (3)\r\nwhere qn(x, y) is the true classification result of a pixel located at in the final segmentation image. If the label of \r\nthis pixel is n, then it is equal to 1; otherwise, it is equal to 0.\r\nTransfer learning\r\nIn the realm of computer vision, the concept of transfer learning24 is frequently utilized, particularly in the \r\ncontext of representing pre-trained models. These models consist of weights and biases that have been previously \r\ntrained on extensive benchmark datasets. These parameters are fine-tuned through the backpropagation \r\nalgorithm, using substantial training datasets. As a result, pre-trained models are adept at discerning general \r\nfeatures and patterns, which can be effectively applied to a variety of tasks.\r\nAddressing the challenge of limited training data in the domain of colposcopy image segmentation, transfer \r\nlearning was employed in backbone networks of our Light-MDDNet and other comparative networks. These \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "include VGG25, ResNet5026, MobileNet27, Xception28, Swin-T29and Swin-B29. Each of these networks has been \r\naugmented with pre-trained weights derived from training on the VOC12+SBD dataset. This integration \r\nleverages the power of transfer learning to enhance the performance of our models in tasks with constrained \r\ndata availability.\r\nFig. 3. Multi-level Feature Fusion Module.\r\nScientific Reports | (2025) 15:6343 | https://doi.org/10.1038/s41598-025-89596-8 4\r\nwww.nature.com/scientificreports/\nExperiment\r\nData Collection and Preparation\r\nA total of 971 images from 971 patients taken by colposcope at the Affiliated Hospital of Hebei University \r\nbetween June 2019 and February 2023 were analyzed. The images were of pathological cervical lesions processed \r\nwith acetic acid. Gynecologic oncologists annotated the images according to pathological lesions (see Fig. 4).\r\nExperiment\r\nData Collection and Preparation\r\nThe dataset used in this study comprises 971 cervical images collected from 971 patients using a colposcope \r\nat the Affiliated Hospital of Hebei University between June 2019 and February 2023. These images, taken after \r\nacetic acid processing to highlight pathological cervical lesions, were meticulously annotated by gynecologic \r\noncologists based on pathological lesion characteristics. An example of an annotated image is presented in Fig. 4.\r\nIn addition to this dataset, we conducted cross-dataset validation using an independent dataset collected \r\nfrom the same hospital during a subsequent phase. This secondary dataset, gathered from February 2023 to \r\nJune 2024, includes 197 cervical images from 197 patients. Crucially, these images were not involved in model \r\ntraining, ensuring an unbiased evaluation of the model’s generalization ability.\r\nTraining strategy\r\nWe use a machine with one NVIDIA GTX 2080Ti GPU for model training. We randomly split the vaginal \r\nendoscopy dataset into training and test sets in a 9:1 ratio. The loss function used for network training is \r\ncross entropy. We utilize the Stochastic Gradient Descent (SGD) optimizer to train our network, setting the \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "momentum at 0.9, the weight decay at 0.0001 and the initial learning rate of 0.01. To ensure the fairness of \r\nthe experiments, all methods are trained on the same training data and transfer learning was employed in all \r\nmodels for the extensive data requirements associated with image segmentation tasks. The independent dataset \r\nof 197 images was exclusively reserved for cross-dataset validation, further substantiating the robustness and \r\ngeneralization capacity of our proposed model.\r\nModel evaluation Metrics\r\nFor cervical lesion area segmentation, this study uses nine metrics to evaluate segmentation performance: pixel \r\naccuracy (PA), mean pixel accuracy (MPA), precision (Pre), recall (Re), mean intersection over union (MIoU), \r\ndice coefficient (Dice), Jaccard Coefficient (Jaccard), model parameters (Params), floating-point operations \r\n(FLOPs), frames per second (FPS), size of weight file during model training (Weight), and time used for each \r\nimage during model testing (Time).\r\nPA =\r\n∑k\r\ni=1 Pij\r\n∑k\r\ni=0\r\n∑k\r\ni=0 Pij\r\n(4)\r\nMPA = 1\r\nk + 1\r\n∑k\r\ni=o\r\nPij\r\n∑k\r\ni=0 Pij\r\n(5)\r\nFig. 4. Example of an annotated image.\r\nScientific Reports | (2025) 15:6343 | https://doi.org/10.1038/s41598-025-89596-8 5\r\nwww.nature.com/scientificreports/\nPre = T P\r\nT P + F P (6)\r\nRe = T P\r\nT P + F N (7)\r\nMIou = 1\r\nk + 1\r\n∑ k\r\ni=0\r\npij\r\n∑ k\r\nj=0pij + ∑ kj=0pji − pii\r\n(8)\r\nFPS = N\r\ntN\r\n(9)\r\nDice = 2 ∗ T P\r\n(T P + F N)+(T P + F P) (10)\r\nJaccard = T P\r\n(T P + F P + F N) (11)\r\nwhere k is the different categories of labeling results, k=0 represents the background category and k=1 represents \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "the cervical lesion category. i represents the true value, j represents the predicted value, and represents predicting \r\ni as j.\r\nModel Deployment\r\nIn this study, we developed a workflow for deploying the Light-MDDNet for the screening of cervical lesion, \r\nwhich is depicted in the provided diagram. The process begins with the collection of images, which are then \r\nused to train a deep learning model on a dedicated server. Post-training, the model’s parameters are frozen. \r\nThe trained model is then converted into an ONNX format, a step that facilitates deployment across diverse \r\nenvironments. The ONNX model undergoes further conversion to a Plan File, which is subsequently optimized \r\nwithin the PyTorch Inference Engine for efficient performance. We utilize original vaginal endoscopy images \r\nas input signals, feeding them into the deployed Light-MDDNet network on the JETSON ORIN NX mobile \r\nplatform for real-time segmentation inference. Ultimately, the segmentation results are promptly displayed on a \r\nmonitor connected via the HDMI interface, providing convenient reference and screening evidence for medical \r\nprofessionals. Figure 5 presents the overall real-time segmentation flowchart.\r\nAs shown in Table 2, the JETSON ORIN NX has higher performance than other mobile development boards \r\nin real-time segmentation and detection of cervical lesions. In particular, the processor’s computing power is \r\nmuch higher than other devices, reaching 100TOPS, and it has good GPU performance. At the same time, \r\nthis device also comes with a 2 x NVDLA v2 deep learning accelerator, which can greatly improve computing \r\nspeed, achieve real-time segmentation of cervical lesions, and meet the current needs of large-scale colposcopy \r\nscreening work.\r\nFig. 5. Overall flowchart of dynamic real-time segmentation.\r\nScientific Reports | (2025) 15:6343 | https://doi.org/10.1038/s41598-025-89596-8 6\r\nwww.nature.com/scientificreports/\nResults and discussion\r\nComparison of different segmentation networks\r\nWe compare our model with five classic image semantic segmentation models: U-Net, DeepLabV3+, HRNet, \r\nPSPNet, and UperNet. These algorithms use different backbone feature extraction networks, with nine \r\nexperimental indicators used to evaluate segmentation performance when conducting the comparison. To \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "ensure the fairness of the experiments, all models use the dataset constructed in this study and are trained under \r\nthe same environment and parameter settings.\r\nTable 3 lists the MIoU, PA, MPA, Pre, Re, and the F1 Score to measure the segmentation performance of the \r\ndifferent method/backbone pairs. Our novel Light-MDDNet model is exhibited at the forefront, achieving or \r\napproaching the apex scores across these performance metrics. In Table 4, we present a detailed comparison \r\nof various methods and backbone architectures based on key metrics such as FLOPs, Params, FPS, Weight and \r\nTime. These metrics allow us to thoroughly evaluate the efficiency of different networks. Our findings reaffirm \r\nthe remarkable capabilities of our network. Notably, it significantly outperforms PSPNet/ResNet50, which is the \r\nonly competitor that comes close to our segmentation performance. Interestingly, other lightweight networks \r\nexhibit comparatively poor segmentation results. The success of our approach lies in its ability to achieve superior \r\naccuracy without relying on high internal resolution or computationally expensive convolutions. Instead, we \r\nemphasize the importance of a powerful multi-level feature fusion network. By extending the conventional \r\nMethods Backbones\r\nFlOPs\r\n(G) Params(M) FPS\r\nWeight\r\n(M)\r\nTime\r\n(mS)\r\nU-Net30 VGGNet 114.56 37.78 17.64 99.6 56.69\r\nResNet50 184.46 47.63 29.60 176.1 33.78\r\nDeeplabV3+20 Xception 176.38 43.59 23.56 219.8 42.44\r\nMobileNetV2 69.43 15.35 65.17 23.5 15.34\r\nHRNet-W1831 —— 82.34 49.24 31.54 49.1 31.71\r\nHRNet-W3231 —— 95.13 65.95 34.72 119.1 28.80\r\nPSPNet32 MobileNetV2 52.94 13.72 142.7 9.71 7.01\r\nResNet50 256.17 67.97 35.56 187.1 28.12\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "UperNet33 Swin-T 945 60 10.13 718.9 98.64\r\nSwin-B 1188 121 7.79 1536 128.32\r\nours MobileNetV2 75.16 17.43 51.02 46.7 19.60\r\nTable 4. Efficiency comparison of different networks.\r\nMethods Backbones\r\nMIoU\r\n(%)\r\nPA\r\n(%)\r\nMPA\r\n(%)\r\nPre\r\n(%)\r\nRe\r\n(%)\r\nDice\r\n(%)\r\nJaccard\r\n(%)\r\nU-Net30 VGGNet 81.15 94.65 88.17 83.50 79.01 81.19 67.92\r\nResNet50 80.38 94.33 88.20 81.21 79.55 80.37 67.50\r\nDeeplabV3+20 Xception 80.32 94.29 88.29 80.84 79.81 80.32 67.17\r\nMobileNetV2 81.30 94.56 89.37 80.99 82.02 81.50 68.78\r\nHRNet-W1831 —— 80.97 94.47 88.97 81.01 81.19 81.10 66.73\r\nHRNet-W3231 —— 81.11 94.58 89.32 81.55 81.78 81.66 68.03\r\nPSPNet32 MobileNetV2 78.82 93.86 86.69 80.44 76.57 78.46 65.62\r\nResNet50 83.83 95.21 89.83 84.58 82.22 83.38 72.11\r\nUperNet33 Swin-T 78.54 93.45 88.55 82.94 78.65 80.73 64.52\r\nSwin-B 80.35 94.09 89.81 83.26 79.77 81.48 67.45\r\nours MobileNetV2 83.94 94.96 91.52 85.52 83.19 84.34 73.40\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Table 3. Segmentation performance comparison of different networks.\r\nKey Specifications JETSON ORIN NX JETSON XAVIER NX JETSON ORINNANO\r\nAI Performance 100 TOPS(INT 8) 21 TOPS(INT 8) 40 TOPS(INT 8)\r\nGPU 32× Tensor Core\r\n(1024 cores)\r\n48× Tensor Core\r\n(384 cores)\r\n32× Tensor Core\r\n(1024 cores)\r\nSystem Memory 102.4GB/s 51.2GB/s 68GB/s\r\nDeep Learning Accelerator 2×NVDLA v2 / /\r\nTable 2. Processor comparison.\r\nScientific Reports | (2025) 15:6343 | https://doi.org/10.1038/s41598-025-89596-8 7\r\nwww.nature.com/scientificreports/\nmulti- level feature space, we ensure that even the smallest features capture large receptive fields, effectively \r\nbridging the gap between real-time and high-performance segmentation models.\r\nTo further validate the generalization ability of our model, we conducted cross-dataset validation using an \r\nindependent dataset comprising 197 patients, which was not involved in training. The experimental results, as \r\npresented in Table 5, demonstrate that Light-MDDNet retains outstanding segmentation performance in cross\u0002dataset scenarios. Specifically, Light-MDDNet achieved a MIoU of 83.23%, marking notable improvements \r\ncompared to other methods, particularly the traditional U-Net (VGGNet and ResNet50 versions) and \r\nDeeplabV3+ (Xception and MobileNetV2 versions), with respective enhancements of approximately 2.49% \r\nand 2.35%. Moreover, Light-MDDNet also excelled in other evaluation metrics, maintaining high performance \r\nin MPA, Pre, Re, Dice, and Jaccard indices. Notably, Light-MDDNet demonstrated superior delineation of \r\nlesion boundaries, especially in challenging cases with complex backgrounds or low-contrast conditions. These \r\nfindings underscore the robustness and adaptability of Light-MDDNet, which effectively handles variations in \r\ndata distribution during cross-dataset testing. This highlights its potential value and broad applicability in real\u0002world scenarios.\r\nFig. 6 showcases the segmentation results for two randomly selected images, derived from eleven distinct \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 490,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "segmentation methods. The ensuing Fig. 7 provides an illustrative overlay of the ground truth upon the segmented \r\noutcomes, employing green lines to trace the ground truth and blue lines to represent the actual segmentation \r\nresults from multiple networks. This visual assessment demarcates the superior segmentation finesse of our \r\nLight-MDDNet, demonstrating its remarkable ability to generate more accurate and densely packed predictions \r\nthat closely mirror the ground truth, outperforming its counterparts. Specifically, in the instances presented, \r\nthe segmentation accuracy of Light-MDDNet is unparalleled, corroborating the analyses previously mentioned.\r\nIn Table 6, we provide a comparative analysis of our model, Light-MDDNet, against other cervical lesion area \r\nsegmentation methodologies reported in the literature over the past three years. It is noteworthy that our model \r\nachieves exemplary performance, registering the highest PA at 94.96%. This metric is particularly significant as \r\nit reflects the proportion of correctly identified pixels within the lesion area, underscoring the precision of our \r\nmodel in the screening of cervical lesion.\r\nOur model is operationalized on the JETSON ORIN NX development board, enabling high-performance \r\nsegmentation of cervical lesion areas on embedded devices. Remarkably, the model maintains an inference \r\naccuracy on this platform that is on par with the results obtained from our deep learning server tests. This \r\nconsistency is achieved with an impressive average processing time of just 31.57 milliseconds per image, which \r\nnot only attests to the model’s effectiveness but also validates its reliability and suitability for embedded systems. \r\nThis capability is crucial for real-time applications, particularly in the screening of cervical lesion where rapid and \r\naccurate diagnostics are imperative. Table 7 list the segmentation performance in different testing environment.\r\nAblation experiment\r\nOur ablation studies meticulously assess the contribution of individual components to the Light-MDDNet’s \r\nperformance, with each experiment harnessing the strengths of transfer learning. The findings, as detailed \r\nin Table 8, reveal incremental advancements through the strategic modification of the network. Initially, the \r\nDeeplabV3+network alone achieved an MIoU of 80.32%, with a processing time of 40.42 milliseconds per \r\nimage. The integration of MobileNetV2 as the backbone significantly improved processing efficiency, reducing \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "the time to 15.10 milliseconds while marginally elevating the MIoU to 81.30%. The addition of the MFF module \r\nfurther raised the MIoU to 82.13%, indicating a notable increase in segmentation accuracy with a slight increase \r\nin processing time. Incorporating the Denseaspp module resulted in an MIoU of 82.87%, continuing the trend of \r\nimproved performance. Utilizing the full complement of modules, our model attained an MIoU apex of 83.94%, \r\nwith an acceptable increment in processing time to 19.60 milliseconds. This progression not only underscores \r\nan enhancement in the model’s accuracy but also an uptick in processing speed, affirming that the model’s \r\npreeminence primarily stems from its holistic network architecture.\r\nMethods Backbones\r\nMIoU\r\n(%)\r\nPA\r\n(%)\r\nMPA\r\n(%)\r\nPre\r\n(%)\r\nRe\r\n(%)\r\nDice\r\n(%)\r\nJaccard\r\n(%)\r\nU-Net30 VGGNet 80.74 94.56 87.92 82.91 78.58 80.69 67.63\r\nResNet50 80.02 94.38 87.53 81.71 77.95 79.79 66.37\r\nDeeplabV3+20 Xception 80.24 94.17 88.62 80.66 79.74 80.20 66.94\r\nMobileNetV2 80.88 94.46 88.77 81.22 80.73 80.97 68.03\r\nHRNet-W1831 —— 80.56 94.42 88.04 80.11 79.02 79.56 66.42\r\nHRNet-W3231 —— 81.07 94.46 89.12 81.25 81.46 81.35 67.78\r\nPSPNet32 MobileNetV2 78.31 93.24 86.55 79.74 76.38 78.02 64.1\r\nResNet50 83.04 95.36 89.95 84.16 82.46 83.30 71.38\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "UperNet33 Swin-T 78.21 93.19 88.19 82.29 78.54 80.37 64.18\r\nSwin-B 80.41 94.34 88.24 81.22 79.62 80.41 67.24\r\nours MobileNetV2 83.23 95.30 90.01 84.63 82.56 83.58 71.79\r\nTable 5. Segmentation performance on Cross-dataset Validation.\r\nScientific Reports | (2025) 15:6343 | https://doi.org/10.1038/s41598-025-89596-8 8\r\nwww.nature.com/scientificreports/\nConclusion\r\nIn this paper, we successfully construct a real-time auxiliary screening system to assist in the segmentation \r\nof cervical lesions and meet the needs of mass screening for cervical cancer. We propose Light-MDDNet, \r\nan innovative and compact framework designed for the segmentation of LSIL+regions, capitalizing on the \r\nencoder-decoder schema. The encoder employs MobileNetV2 at its inaugural layer to capture shallow features, \r\nwhich are prone to loss through successive layers of feature extraction. To mitigate this, the Denseaspp module is \r\nincorporated to distill deeper semantic details. During the decoding phase, the multi-scale feature fusion (MFF) \r\nmodule synergistically integrates features across different scales. Moreover, Light-MDDNet is operationalized \r\non the JETSON ORIN NX platform, catering to the mass screening of cervical lesion where rapid and reliable \r\nprocessing is paramount. Our extensive experiments confirm that Light-MDDNet outperforms previous models \r\nin both efficiency and accuracy, demonstrating significant potential for mass screening applications and offering \r\nconsiderable promise for advancements in clinical use.\r\nNonetheless, our study is constrained by the scarcity of publicly accessible datasets with adequate segmentation \r\nlabels, which constrains our ability to thoroughly assess the model’s generalization capabilities.\r\nFig. 6. Visual comparison of different networks.\r\nScientific Reports | (2025) 15:6343 | https://doi.org/10.1038/s41598-025-89596-8 9\r\nwww.nature.com/scientificreports/\nTesting environment MIoU(%) PA(%) Pre(%) Re(%) Time(Ms)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 485,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Nvidia GTX 2080Ti\r\n(Pytorch) 83.94 94.96 85.52 83.19 19.60\r\nJETSON ORIN NX\r\n(TensorRT) 83.84 94.89 86.14 83.76 31.57\r\nTable 7. Segmentation performance in different testing environment.\r\nAuthor Time Methods PA(%)\r\nYue et al.12 2021 AWL-CNN 90.6%\r\nLiu et al.11 2021 k-means clustering algorithm 91.20%\r\nYu et al.14 2022 CLS-Model 93.04%\r\nPraba et al.10 2023 Automatic Lesion Detection in Cervix Based on Colour Histogram 85%\r\nours —— Light-MDDNet 94.96%\r\nTable 6. Comparison between the proposed model and the latest methods.\r\nFig. 7. Visual overlap of ground truth over segmented outputs.\r\nScientific Reports | (2025) 15:6343 | https://doi.org/10.1038/s41598-025-89596-8 10\r\nwww.nature.com/scientificreports/\nData availability\r\nData Availability StatementThe datasets used during the current study are available in the GitHub repository, \r\nunder the Datasets of Light-MDDNet collection. These can be accessed via the following persistent web link: \r\nhttps://github.com/AymiZhang/Datasets_of_Light-MDDNet.\r\nReceived: 20 February 2024; Accepted: 6 February 2025\r\nReferences\r\n1. Sung, H. et al. Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 \r\ncountries[J]. Cancer J. Clin. 71, 209–249 (2021).\r\n2. Torre, L. A. et al. Global Cancer Incidence and Mortality Rates and Trends—An Update[J]. Cancer Epidemiol. Biomarkers Prev. 25, \r\n16–27 (2016).\r\n3. Peng, L. et al. LncRNAs: key players and novel insights into cervical cancer[J]. Tumor Biol. 37 (3), 2779–2788 (2016).\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "4. Pfaendler, K. S. Cervical Cancer survivorship: long-term quality of life and social Support[J]. Clin. Ther. 37, 39–48 (2015).\r\n5. Kessler, T. A. Cervical Cancer: Prevention and early Detection[J]. Semin. Oncol. Nurs. 33, 172 (2017).\r\n6. Sabik, L. M. et al. Medicaid expansions and Cervical Cancer Screening for low-income Women[J]. Health Serv. Res. 53(Suppl 1) \r\n(2017).\r\n7. Siegel, R. L. et al. Cancer statistics, 2022[J]. CA: a. Cancer J. Clin. 72, 7–33 (2022).\r\n8. Hua, W. et al. Lymph-vascular space invasion prediction in cervical cancer: exploring radiomics and deep learning multilevel \r\nfeatures of tumor and peritumor tissue on multiparametric MRI[J]. Biomed. Signal Process. Control 58, 101869 (2020).\r\n9. Qin, D. et al. Colposcopic accuracy in diagnosing squamous intraepithelial lesions: a systematic review and meta-analysis of the \r\nInternational Federation of Cervical Pathology and Colposcopy 2011 terminology[J]. BMC cancer. 23, 187 (2023).\r\n10. S R P A, P. & Dr, H. R. B. Comparing Different Classifiers for Automatic Lesion Detection in Cervix Based on Colour Histogram, \r\n(2013).\r\n11. Jun et al. Segmentation of acetowhite region in uterine cervical image based on deep learning. Technol. Health Care. https://doi.or\r\ng/10.3233/thc-212890 (2022).\r\n12. Yue, Z. et al. Automatic acetowhite lesion segmentation via specular reflection removal and deep attention network[J]. IEEE J. \r\nBiomedical Health Inf. 99, 1–1. https://doi.org/10.1109/JBHI.2021.3064366 (2021).\r\n13. Yuan, C. et al. The application of deep learning based diagnostic system to cervical squamous intraepithelial lesions recognition in \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "colposcopy images[J]. Sci. Rep. 10 https://doi.org/10.1038/s41598-020-68252-3 (2020).\r\n14. Yu, H. et al. Segmentation of the cervical lesion region in colposcopic images based on deep learning. Front Oncol. 12, 952847 \r\n(2022).\r\n15. Valanarasu, J. M. J., Patel, V. M. & Unext Mlp-based rapid medical image segmentation network[C]//International Conference on \r\nMedical Image Computing and Computer-Assisted Intervention. Cham: Springer Nature Switzerland, 23–33, (2022).\r\n16. Azad, R. et al. Enhancing Medical Image Segmentation with TransCeption: A Multi-Scale Feature Fusion Approach[J]. arXiv \r\npreprint arXiv:2301.10847 (2023).\r\n17. Heidari, M. et al. Hiformer: Hierarchical multi-scale representations using transformers for medical image \r\nsegmentation[C]//Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 6202–6212, (2023).\r\n18. Sun, Y. & Shi, C. Liver Tumor Segmentation and Subsequent Risk Prediction Based on Deeplabv3+[C]//IOP Conference Series: \r\nMaterials Science and Engineering. IOP Publishing, 612, 022051 (2019).\r\n19. Lee, H. H. et al. 3d ux-net: a large kernel volumetric convnet modernizing hierarchical transformer for medical image \r\nsegmentation[J]. arXiv preprint arXiv:2209.15076 (2022).\r\n20. Chen, L. C., Zhu, Y., Papandreou, G., Schroff, F. & Adam, H. Encoder-decoder with Atrous Separable Convolution for Semantic \r\nImage Segmentation. Lect. Notes Comput. Sci. 833–851. https://doi.org/10.1007/978-3-030-01234-2_49 (2018).\r\n21. Sandler, M. et al. MobileNetV2: Inverted Residuals and s., (), 4510–4520. (2018). https://doi.org/10.1109/CVPR.2018.00474\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "22. Yang, M., Yu, K., Zhang, C., Li, Z. & Yang Kuiyuan. DenseASPP for semantic segmentation in Street scenes., (), 3684–3692. (2018). \r\nhttps://doi.org/10.1109/cvpr.2018.00388\r\n23. Nielsen, M. A. Neural Networks and Deep Learning. San Francisco, CA, USA: Determination Press USA, (2015).\r\n24. Fawaz, H. I. et al. Transfer learning for time series classification[J]. (2018).\r\n25. Simonyan, K. & Zisserman, A. Very deep Convolutional Networks for large-scale image recognition.[J]. arXiv preprint \r\narXiv:1409.1556 (2014).\r\n26. He, K. et al. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern \r\nrecognition, 770-778 (2016).\r\n27. Sandler, M. et al. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, (2018). (2018).\r\n28. Chollet, F. & Xception Deep Learning with Depthwise Separable Convolutions[C]// IEEE Conference on Computer Vision and \r\nPattern Recognition (CVPR). IEEE, (2017). (2017).\r\n29. Tete Xiao, Y., Liu, B., Zhou, Y. & Jiang, J. S. IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, (2018). \r\n(2018).\r\n30. Ronneberger, O., Fischer, P. & Brox, T. U-Net: Convolutional Networks for Biomedical Image Segmentation. Medical Image \r\nComputing and Computer-Assisted Intervention – MICCAI, 234–241. (2015). https://doi.org/10.1007/978-3-319-24574-4_28,(20\r\n15).\r\n31. Sun, K., Xiao, B., Liu, D. & Wang Jingdong. Deep high-resolution representation learning for human pose estimation. (2019). \r\nhttps://doi.org/10.1109/CVPR.2019.00584\r\nNO DeeplabV3+ MobileNetV2 Denseaspp MFF MIoU(%) Time(ms)\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 497,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "1 √ 80.32 40.42\r\n2 √ √ 81.30 15.10\r\n3 √ √ √ 82.13 16.79\r\n4 √ √ √ 82.87 18.92\r\n5 √ √ √ √ 83.94 19.60\r\nTable 8. Experimental results using different modules.\r\nScientific Reports | (2025) 15:6343 | https://doi.org/10.1038/s41598-025-89596-8 11\r\nwww.nature.com/scientificreports/\n32. Zhao, H. et al. Pyramid scene parsing Network. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, \r\n2881–2890 (2017).\r\n33. Ze et al. Swin Transformer: Hierarchical Vision Transformer using Shifted Windows[C]// IEEE Conference on Computer Vision \r\nand Pattern Recognition (CVPR). IEEE, (2021). (2021).\r\nAcknowledgements\r\nThis work was funded by the Xiong'an New Area Science and Technology Innovation Special Project of the \r\nMinistry of Science and Technology (2023XAGG0085), the Natural Science Foundation of Hebei Province \r\n(F2023201069, F2024201052), the Scientific Research and Innovation Team of Hebei University (IT2023B07), \r\nthe Multi-disciplinary Interdisciplinary Research Fund of Hebei University (DXK201914), the Special Project \r\nfor Enhancing Innovation Capability in Baoding City (2394G027), the Postgraduate’s Innovation Fund Project \r\nof Hebei Province (CXZZBS2024002,CXZZBS2025025), the College Student Innovation and Entrepreneurship \r\nTraining Program Innovation Training Program (DC2024376, DC2024381), and the Postgraduate’s Innovation \r\nFund Project of Hebei University (HBU2024BS021, HBU2024SS011).\r\nAuthor contributions\r\nJ.Y., Y.Z., C.L., S.L., and L.X. conceived the study; J.Y., Y.Z., and C.L., designed the approach; J.Y., Y.Z., S.L., and \r\nL.X. implemented the approach; C.L., provided pre-clinical data and clinical assessment of the patients; J.Y, Y.Z., \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "W.F., J.W., and X.Z. analyzed the data; J.Y, Y.Z., W.F., J.W., and X.Z. wrote the paper. All authors reviewed the \r\nmanuscript for intellectual content and approved the final version.\r\nDeclarations\r\nCompeting interests\r\nThe authors declare no competing interests.\r\nEthics Statement\r\nAll methods and experimental protocols conducted in this study adhere to the ethical guidelines and \r\nregulations set forth by Hebei University Affiliated Hospital and have been fully approved by the Ethics \r\nCommittee associated with Hebei University. Informed consent has been obtained from all participants \r\ninvolved in this research, ensuring that they were fully informed of the study’s purpose, procedures, potential \r\nrisks, and benefits prior to their participation. This study has been conducted with the utmost respect for \r\nparticipant rights and welfare, aligning with international standards for ethical research conduct.\r\nAdditional information\r\nCorrespondence and requests for materials should be addressed to Y.Z., C.L., S.L. or L.X.\r\nReprints and permissions information is available at www.nature.com/reprints.\r\nPublisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and \r\ninstitutional affiliations.\r\nOpen Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives \r\n4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in \r\nany medium or format, as long as you give appropriate credit to the original author(s) and the source, provide \r\na link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have \r\npermission under this licence to share adapted material derived from this article or parts of it. The images or \r\nother third party material in this article are included in the article’s Creative Commons licence, unless indicated \r\notherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence \r\nand your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to \r\nobtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommo\r\nns.org/licenses/by-nc-nd/4.0/.\r\n© The Author(s) 2025 \r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 11,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -5535460742910325280,
+        "filename": "41598_2025_Article_89596.PMC11845483.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 12,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 45,
+      "total_chunks": 22,
+      "version": "1.0.0"
+    },
+    "text": "Scientific Reports | (2025) 15:6343 | https://doi.org/10.1038/s41598-025-89596-8 12\r\nwww.nature.com/scientificreports/\n\n"
+  }
+]

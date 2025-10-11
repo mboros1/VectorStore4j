@@ -1,0 +1,938 @@
+[
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 0,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Combined Deep Learning and Molecular Modeling Techniques on\r\nthe Virtual Screening of New mTOR Inhibitors from the Thai\r\nMushroom Database\r\nKewalin Posansee, Monrudee Liangruksa, Teerasit Termsaithong, Patchreenart Saparpakorn,\r\nSupa Hannongbua, Teeraphan Laomettachit,* and Thana Sutthibutpong*\r\nCite This: ACS Omega 2023, 8, 38373−38385 Read Online\r\nACCESS Metrics & More Article Recommendations\r\nABSTRACT: The mammalian target of rapamycin (mTOR) is a protein kinase of the PI3K/Akt signaling pathway that regulates\r\ncell growth and division and is an attractive target for cancer therapy. Many reports on finding alternative mTOR inhibitors available\r\nin a database contain a mixture of active compound data with different mechanisms, which results in an increased complexity for\r\ntraining the machine learning models based on the chemical features of active compounds. In this study, a deep learning model\r\nsupported by principal component analysis (PCA) and structural methods was used to search for an alternative mTOR inhibitor\r\nfrom mushrooms. The mTORC1 active compound data set from the PubChem database was first filtered for only the compounds\r\nresided near the first-generation inhibitors (rapalogs) within the first two PCA coordinates of chemical features. A deep learning\r\nmodel trained by the filtered data set captured the main characteristics of rapalogs and displayed the importance of steroid cores.\r\nAfter that, another layer of virtual screening by molecular docking calculations was performed on ternary complexes of FKBP12−\r\nFRB domains and six compound candidates with high “active” probability scores predicted by the deep learning models. Finally, all\u0002atom molecular dynamics simulations and MMPBSA binding energy analysis were performed on two selected candidates in\r\ncomparison to rapamycin, which confirmed the importance of ring groups and steroid cores for interaction networks.\r\nTrihydroxysterol from Lentinus polychrous Lev. was predicted as an interesting candidate due to the small but effective interaction\r\nnetwork that facilitated FKBP12−FRB interactions and further stabilized the ternary complex.\r\n1. INTRODUCTION\r\nThe mammalian target of rapamycin (mTOR) is an atypical\r\nserine/threonine (S/T) protein kinase that belongs to the\r\nphosphoinositide 3-kinase (PI3K)-related kinase family.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 1,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "mTOR is frequently referred to as the master regulator of\r\ncell growth, proliferation, metabolism, and survival.1−4 It\r\ninteracts with several proteins to form two distinct protein\r\ncomplexes called mTOR complexes 1 (mTORC1) and 2\r\n(mTORC2). Dysregulation of mTOR is associated with many\r\ndiseases, such as fibrosis, obesity, type 2 diabetes, neuro\u0002degeneration, and cancer, attracting great interest in\r\ndeveloping drugs targeting mTOR.5,6 The potent and specific\r\nmTOR inhibitor is rapamycin, a 31-membered macrocyclic\r\nlactone produced by Streptomyces hygroscopicus.\r\n7,8 It plays a\r\ncritical role in inhibiting cell growth, cell cycle progression, and\r\nproliferation.9−11 Upon entering the cells, rapamycin specifi\u0002cally forms a gain-of-function complex with the 12 kDa FK506-\r\nbinding protein (FKBP12),12,13 interacting and inhibiting the\r\npart of mTORC1. This inhibitory complex binds to the FRB\r\n(FKB12−rapamycin binding) domain from the C terminus of\r\nTOR proteins, leading to cell growth inhibitory and cytotoxic\r\neffects. At the molecular level, an experimental study exhibited\r\nthe key role of FKBP12−rapamycin complex binding to the\r\nFRB domain as a ternary complex as rapamycin itself possessed\r\nonly a modest affinity for the FRB domain in the absence of\r\nFKBP12.14 Despite being poorly soluble in water and unstable,\r\nrapamycin analogues, also known as rapalogs, have been\r\ncreated with enhanced biopharmaceutical properties.2,10 These\r\nrapalogs have been approved by the FDA as the first generation\r\nof mTOR inhibitors for combatting cancer malignancies and\r\nother diseases.\r\nIn addition to rapamycin and rapalogs, several small\r\nmolecules have also demonstrated the potential to inhibit the\r\nmTOR pathway in some cancer cells.10,11,15 As the second\u0002generation mTOR inhibitors, the small molecules bind to the\r\nATP-binding site in the mTOR kinase domain, resulting in the\r\ndownregulation of both mTORC1 and mTORC2.16−18\r\nExamples of the second generation of mTOR inhibitors\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 2,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "include AZD8055,19 AZD2014,19−21 CC-115,22 CC214-2,23\r\nCC-223,24 WAY-600, WYE-354, WYE-687,25 WYE-125132,26\r\nOSI-027,27 PP242,28 Torin 1,29 and Torin 2.30 In addition, the\r\ndual mTOR/PI3K inhibitors that effectively inhibit mTORC1\r\nand mTORC2 are GDC-0980,31 GSK2126458, SF1126,32\r\nNVP-BEZ235,33,34 PKI-402,35 and XL765.36 However, these\r\nReceived: July 5, 2023\r\nAccepted: September 12, 2023\r\nPublished: October 2, 2023\r\nhttp://pubs.acs.org/journal/acsodf Article\r\n© 2023 The Authors. Published by American Chemical Society 38373\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\nACS Omega 2023, 8, 38373−38385\r\nThis article is licensed under CC-BY-NC-ND 4.0\nsecond-generation inhibitors exhibit lower specificity and are\r\nlikely to cause a correspondingly higher toxicity when\r\ncompared to rapamycin and rapalogs.37 Increasing evidence\r\nsuggested that natural compounds may exert their antiprolifer\u0002ative effects by inhibiting mTOR signaling, thus representing\r\nnew mTOR inhibitor alternatives. For example, numerous\r\nstudies have shown that curcumin inhibited the growth of\r\nvarious cancer cells and showed effectiveness as a chemo\u0002preventive agent in animal carcinogenesis models.38−40\r\nFurthermore, many natural compounds, including epigalloca\u0002techin gallate (EGCG),41 caffeine,42 and resveratrol,43 have\r\nalso been found to downregulate mTOR signaling in vitro.\r\nAdditionally, some natural products or nutraceuticals isolated\r\nfrom plants also inhibit the PI3K/Akt/mTOR pathway, such as\r\napigenin,44 fisetin,45 indoles (indole-3-carbinol and 3,3′-\r\ndiindolylmethane),46 quercetin,47 and tocotrienol.48\r\nDespite the progress reported by these studies, there remains\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 3,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "a pressing need to find novel active compounds that have\r\nimproved pharmacokinetic properties and specificity toward\r\nthe mTOR complex or more potent dual PI3−mTOR\r\ninhibitors. According to the large quantity of available data,\r\nit is possible to utilize computational techniques, including\r\ndeep learning as the recently most successful machine learning\r\ntechnique in drug discovery research, to predict and screen for\r\nactive compounds and mTOR-targeting drugs. Several\r\ncomputational approaches and recent machine learning\r\ntechniques have been utilized to search for chemical scaffolds\r\nto engender druglike properties as well as the selectivity of\r\nallosteric mTOR inhibitors.49−52 For example, one recently\r\npublished work used the support vector machine (SVM) as a\r\nvirtual screening strategy to identify novel mTOR inhibitors,\r\nwhich can supply some candidates for mTOR anticancer\r\ndrugs.50 Kumari et al. also suggested that an imbalance\r\nbetween the numbers of active and inactive compounds in a\r\npublic database could impair the result of machine learning\r\nprediction. Therefore, they used the technique called SMOTE\r\nto balance the mTOR inhibitor data from ChEMBL and\r\ndemonstrated the improved prediction by various machine\r\nlearning models.53 Anderson et al. applied a Bayesian machine\r\nlearning model to search for inhibitors of chordoma, a rare\r\ntype of cancer, and found that the mTOR inhibitor AZD2014\r\nis the most effective candidate.54 Another work employed\r\npharmacophore modeling to create a structure-based pharma\u0002cophoric model, which is a useful tool for discovering small\r\nmolecules. Then, combined with molecular dynamics (MD)\r\nsimulations, the most important interactions occurring in the\r\nternary complex FKPB12−rapamycin−FRB were revealed as\r\nan essential step for the mTOR inhibition.51\r\nIt should be noted that there is considerable inconsistency in\r\nthe data associated with the chemical structures, as they have\r\nbeen contributed by more than a hundred organizations.\r\nMoreover, the positive data contained substances from several\r\nsubgroups, including the first, second, and other generations of\r\nmTOR inhibitors with different inhibition mechanisms that\r\nshould cause uncertainty for the training set. Therefore, the\r\ndifficulty could be circumvented by preprocessing the data\r\nwith principal component analysis (PCA). Based on the\r\nfiltered data through PCA, a deep learning model was\r\nconstructed and trained to identify novel bioactive compounds\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 4,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "from BACMUSHBASE, a database of compounds from\r\nmushrooms found in Thailand (http://bacmushbase.sci.ku.ac.\r\nth/), as potent mTOR inhibitors, analogous to rapamycin and\r\nthe first-generation mTOR inhibitors (rapalogs). Then,\r\nmolecular docking and atomistic molecular dynamics simu\u0002lations were performed on the predicted compound candidates\r\nwith high active probability to obtain the structural detail of\r\nternary complex formation with FKPB12 and FRB domains\r\nand to verify the deep learning prediction. Therefore, this\r\nstudy aims to identify the natural compounds with excellent\r\nmTOR kinase inhibitory potency and to provide a basic\r\nunderstanding of the molecular mechanism for one of the\r\ndownstream regulations of the mTOR pathway to support the\r\ndiscovery of new kinase-targeting drugs.\r\n2. COMPUTATIONAL METHODS\r\n2.1. mTOR Inhibitor Data Set. A list of compounds tested\r\nagainst the activity of mTOR from PubChem55,56 (NCBI gene\r\nID: 2475) contains 4866 compounds as “active” (has an\r\ninhibitory effect against mTOR) and 48328 compounds as\r\n“inactive” (has no inhibitory effect against mTOR) as of 18\r\nNovember 2020. The “active” compound list contains all\r\ngenerations of mTOR inhibitors. To select only compounds\r\nwhose structures are similar to the first-generation mTOR\r\ninhibitors (rapalogs), 75 per-atom features were extracted from\r\neach mTOR active compound using the ConvMolFeaturizer()\r\ncommand from the DeepChem package. Chemical features\r\npresented in the binary vectors, e.g., atom type, degree, implicit\r\nvalence, formal charges, hybridization type, aromaticity, and\r\ntotal number of hydrogens, enabled us to interpret the\r\noutcomes from screened data. The per-atom feature matrix was\r\nthen incorporated into the structural information by\r\ncalculating\r\nH = (A + I)·F\r\n(1)\r\nwhere A is the adjacency matrix N × N of the molecule with N\r\natoms, I is the identity matrix, F is the per-atom feature matrix\r\nN × 75, and H is the matrix N × 75, whose representation of\r\neach atom is a sum of its neighboring atoms’ features. The\r\natom-level features in the matrix H were then pooled by\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 5,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "averaging feature values over all atoms in the molecule,\r\nresulting in a vector 1 × 75 that contains a molecule-level\r\nfingerprint of each mTOR active compound. Finally, principal\r\ncomponent (PC) analysis was performed on the fingerprint\r\nvectors to project the 75-dimensional features onto the first\r\nand second principal components (PC1 and PC2). The initial\r\ndata set of active compounds from PubChem contains all\r\ngenerations of mTOR inhibitors. Here, only compounds whose\r\nstructures are similar to the first-generation mTOR inhibitors\r\nbased on the Euclidean distance on the PC coordinates were\r\nselected as the “positive” data set for the deep learning model\r\n(DL). Specifically, 900 compounds with the nearest distances\r\nto the centroid of 10 known rapalogs on the PC coordinates\r\nwere chosen. Meanwhile, the mTOR-inactive compound data\r\nfrom the PubChem database (as of 18 November 2020) was\r\nused as the “negative” data set for the DL.\r\n2.2. Deep Learning Model and Prediction on the\r\nmTOR Bioactivity. The positive and negative data sets were\r\ncombined, shuffled, and used to train a deep learning model\r\nwhich was created by the commands in the Deepchem\r\npackage.57 The model consisted of a graph convolutional layer\r\n(GraphConv) of 64 nodes with batch normalization\r\n(layers.BatchNormalization) and graph pooling (GraphPool),\r\nfollowed by a hidden layer of 128 nodes with batch\r\nnormalization (layers.BatchNormalization). A data dropout\r\n(layers_dropout) was performed for each training with a\r\ndropout rate of 0.2. The model was trained with an optimized\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\nACS Omega 2023, 8, 38373−38385\r\n38374\nlearning rate of 0.001. A 5-fold cross-validation was performed\r\nto evaluate the performance of the deep learning model.\r\nFinally, due to the stochastic nature of the learning algorithm,\r\nthe whole data set (900 positive and 900 negative data points)\r\nwas used to train three replicas of deep learning models. Then,\r\nthe three independently trained deep learning models were\r\nemployed to predict “active” probability scores for compounds\r\nfrom the BACMUSHBASE database. Compounds that\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 6,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "achieved top-ranking consensus across all three models were\r\nselected for further validation by structural methods.\r\n2.3. Molecular Docking. From the previous step, our deep\r\nlearning model screened a number of compounds based on the\r\nsimilarity of chemical properties to those of the mTORC1\r\nactive compounds from the BACMUSHBASE database.\r\nHowever, the deep learning model could not confirm whether\r\nthe screened bioactive compounds could bind to the active site\r\nof the target protein. Therefore, molecular docking calculations\r\nwere performed to verify that the screened compounds could\r\nbind to the target protein at the native binding site. In this\r\nresearch, the AutoDock 458,59 was used to perform all\r\nmolecular docking calculations, including the calculations of\r\nbinding energy between the target protein and the compounds\r\nscreened by the deep learning model with a predicted\r\nprobability greater than 95%. Atomistic coordinates of an\r\nFKBP12−FRB complex with rapamycin were obtained from\r\nthe protein databank (PDB 1FAP) before the coordinates of\r\nrapamycin were removed. Meanwhile, the atomistic coordi\u0002nates of the compounds screened by the deep learning models\r\nwere obtained from the PubChem database. During each\r\nmolecular docking calculation, steric repulsion and hydro\u0002phobic or hydrogen bonding interactions were classified from\r\nthe PDBQT coordinate files of protein target mTOR, and a\r\nscreened bioactive compound with a combined knowledge\u0002based and empirical binding energy score was provided. Then,\r\nthe Iterated Local Search global optimizer implemented within\r\nAutoDock 4 was used to search for the most favorable binding\r\nmode of the bioactive compound on a protein target mTOR\r\nwith the lowest binding energy score. For each docking\r\ncalculation, a 30 × 30 × 30 Å3 dimension box was defined at\r\nthe midpoint of the FKBP12−FRB interfacial region to limit\r\nthe configuration space for only productive binding modes.\r\nAfter that, each docked configuration was visualized for the\r\ndetails of hydrogen bonding and hydrophobic interaction\r\nnetworks by the LigPlot software.60,61\r\n2.4. Molecular Dynamics Simulations. A series of all\u0002atom molecular dynamics (MD) simulations were performed\r\nfor ternary complexes, each involving FKBP12−FRB domains\r\nand rapamycin or a screened compound docked within a\r\nbinding cleft formed at the interface between FKBP12 and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 7,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "FRB to fully investigate the intermolecular interaction network,\r\nwhere protein dynamics and solvation effects were taken into\r\naccount. Atomistic coordinates of each ternary complex were\r\nobtained from the best binding mode obtained from the\r\nmolecular docking calculation. All molecular structures were\r\nparametrized by the GROMOS54A7 force field.62 Partial\r\ncharge distribution on each atom within a screened compound\r\nFigure 1. Combined deep learning and molecular modeling workflow to identify candidate mTOR inhibitors from natural compounds found in\r\nThai mushrooms.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\nACS Omega 2023, 8, 38373−38385\r\n38375\nwas determined by the Automated Topology Builder (ATB)\r\nweb server tool,63 where a semiempirical QM calculation by\r\nthe MOPAC program was performed. After that, each system\r\nof ternary complexes was explicitly solvated by simple point\u0002charge (SPC) solvent molecules64 and a number of Na+ or Cl−\r\ncounterions so that the total charge of the system was zero.\r\nThen, energy minimization was performed, followed by 1 ns\r\nsimulated annealing that linearly increased the temperature\r\nfrom 100 to 300 K. After that, a 50 ns productive MD run was\r\nperformed within an NPT ensemble under a constant\r\ntemperature of 300 K regulated by the velocity-rescale\r\nalgorithm and constant pressure of 1 atm regulated by the\r\nParrinello−Rahman barostat.65 Particle mesh Ewald (PME)72\r\ntreatment with a periodic boundary condition (PBC) and the\r\n10 Å cutoff distance was employed. Holonomic constraints by\r\nthe P-LINC algorithm66 were applied for covalent bonding\r\nwith hydrogen atoms, which allowed the use of 2 fs time step.\r\nAll MD simulations were performed by the GROMACS 5.1.2\r\npackage.67 After all simulations were finished, root-mean\u0002square deviation (RMSD) for global conformational change of\r\nproteins and for the motion of docked compounds relative to\r\nthe proteins were calculated along the trajectory, and per\r\nresidue root-mean-square fluctuations (RMSF) of C-α atomic\r\npositions were calculated from the last 50 ns of each\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 8,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 500,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "simulation. Binding free energy between the protein complex\r\nand the docked compound contributed by electrostatics, van\r\nder Waals, and solvation was further investigated through the\r\nMM/PBSA calculation by the g_mmpbsa package68 along each\r\nMD trajectory of ternary complexes. For each calculation,\r\ndielectric constants of proteins and water were set to 4 and 80,\r\nrespectively, and the surface tension of the solvent was set to\r\n0.0226778 kJ/(mol Å2\r\n). Also, the contribution of each amino\r\nacid residue was considered to identify the important binding\r\nsites within the FKBP12−FRB protein interface.\r\n3. RESULTS\r\n3.1. Data Filtering via Principal Component Analysis\r\nfor Deep Learning Model Training. The overall virtual\r\nscreening workflow in this study is illustrated in Figure 1. First,\r\nknown inhibitors and noninhibitors of mTOR were retrieved\r\nfrom PubChem (NCBI gene ID: 2475). The primary data set\r\nrevealed 4866 compounds as active (has an inhibitory effect\r\nagainst mTOR) and 48328 compounds as inactive (has no\r\ninhibitory effect against mTOR) as of 18 November 2020.\r\nPrincipal component analysis (PCA) was performed on the\r\ndata set consisting of 75 molecular descriptor features\r\nextracted by the graph convolution technique for all 4866\r\nactive compounds. The projection of the 75-feature molecule\r\nfingerprint of the active compounds on the first two principal\r\ncomponents (PC1 and PC2) in Figure 2 clearly displayed the\r\nclustering of 10 known rapalogs (red dots in Figure 2). Then,\r\nthe projected data of 900 compounds (blue dots in Figure 2)\r\nwith shortest distances from the centroid of 10 rapalogs (red\r\ncross in Figure 2) in the PC1−PC2 space were classified as the\r\npositive data set with relatively high structural similarity to the\r\nrapalogs. Meanwhile, the negative data set contains the\r\nrandomly selected 900 compounds out of 48 328 compounds\r\nlabeled as inactive mTOR inhibitors.\r\n3.2. Active Compound Selection by a Deep Neural\r\nNetwork Classification and Molecular Docking Calcu\u0002lations. 3.2.1. Deep Learning Model Exhibited the\r\nImportance of Steroid Core Structures. The combined and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 9,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "shuffled positive and negative data sets of 1800 molecules with\r\n75-feature molecule fingerprints were used for training a deep\r\nlearning model that predicts the probability of finding an\r\nindividual compound within the “active” class for mTOR\r\ninhibition. A 5-fold cross-validation was performed to estimate\r\nthe model performance, for which the ROC-AUC score was\r\n0.9970 ± 0.0009 for the training data sets and 0.9917 ± 0.0019\r\nfor the testing data sets. Then, due to the stochastic nature of\r\nthe learning algorithm, three independent deep learning\r\nmodels were trained by the same data set (1800 data points)\r\nto predict the probability score for finding each of 589\r\ncompounds from the BACMUSHBASE database (http://\r\nbacmushbase.sci.ku.ac.th/) in the “active” class. Fifty com\u0002pounds with the highest “active” probability were retrieved\r\nfrom each model. Among the top 50 compounds from each\r\nmodel, six compounds appeared across all three models\r\n(Figure 3 and Table 1). Structural representations of\r\nrapamycin and the six potential alternatives in Figure 3\r\nshowed that all predicted candidates consisted of the steroid\r\ncore structures. Moreover, 5 of 6 compounds were found in\r\nGanoderma lucidum.\r\n3.2.2. Molecular Docking Underestimated the Binding\r\nEnergy of Compounds Within Ternary Complexes: Relaxa\u0002tion Needed. In order to verify the prediction results from\r\ndeep learning, molecular docking calculations were performed\r\nto search for the favorable binding posture between the protein\r\ncomplex and the screened compounds (FKBP12−FRB\r\ncompound). Moreover, docking calculations were also\r\nperformed to investigate the interactions of FKBP12\r\ncompound and FRB compound for each of the six candidate\r\nmolecules. From the docking calculations results in Table 1, six\r\ncandidate compounds with the steroid core structure were with\r\nthe predicted binding affinity between the compound and the\r\nFKBP12−FRB complex from −10.02 to −11.31 kcal/mol.\r\nMeanwhile, the binding affinity with only the FKBP12 part\r\nranged from −6.66 to −7.77 kcal/mol, and the binding affinity\r\nwith only the FRB part ranged from −7.11 to −9.57 kcal/mol.\r\nAn additional molecular docking calculation was performed\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 10,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 504,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "for rapamycin. It was found that the binding affinity to the\r\nFKBP12−FRB complex (−21.17 kcal/mol) and both isolated\r\nproteins (−12.19 and −10.12 kcal/mol) was significantly\r\nhigher than all of the predicted compounds. It could be\r\nexplained that the crystallographic structure of a rapamycin\u0002Figure 2. Projection of the 75-feature molecule fingerprint of the\r\nactive mTOR inhibitors from PubChem on the first two principal\r\naxes. Red dots, a red cross, and blue dots are 10 rapalog data points,\r\nthe centroid of the red dots, and 890 nearest data points from the\r\ncentroid, respectively.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\nACS Omega 2023, 8, 38373−38385\r\n38376\nbound FKBP12−FRB complex was with the most suitable\r\nbinding pocket conformation for rapamycin. Therefore,\r\natomistic molecular dynamics simulations should be performed\r\nto better accommodate the binding of other predicted\r\ncompounds by allowing for conformational relaxation at the\r\ninterfacial region of the FKBP12−FRB complex.\r\n3.3. MD Simulations to Elucidate the Binding\r\nMechanisms of Selected Compounds. To investigate the\r\nbinding mechanisms of the predicted compounds at the\r\ninterfacial region of the FKBP12−FRB complex by atomistic\r\nMD simulations, a representative compound with the highest\r\nprobability score/binding energy score was chosen from each\r\nof the two different organisms: butyl ganoderic acid B from G.\r\nlucidum and trihydroxysterol from L. polychrous Lev. (IUPAC\r\nname: (3β,5α,6β,22E,24R)-Ergost-22-ene-3,5,6-triol). Butyl\r\nganoderic acid B was preferred over butyl ganoderic acid A\r\ndue to its significantly better binding energy score from\r\nmolecular docking. A reference simulation was performed for\r\nbinding of rapamycin with the protein complex. For each\r\ncompound, the best-docked configuration with the highest\r\nbinding affinity was chosen as the starting structure for the\r\natomistic MD simulations. After a 50 ns production MD run,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 11,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "conformational analysis was performed for each trajectory file.\r\nFigure 4a,b displays the root-mean-square deviation (RMSD)\r\ncalculated for global conformational changes of the FKBP12\r\nand FRB structures, respectively, from all three simulations of\r\nternary complexes. The RMSD of FKBP12 structures from all\r\nthree simulations was found in the range between 0.2 and 0.3\r\nnm, while the RMSD of FRB domains was found between 0.18\r\nand 0.25 nm, signifying global structural changes from X-ray\r\ncrystallography. Fluctuation of the protein RMSD values\r\nobserved near the beginning and the end of the simulation\r\nFigure 3. Structural representation of six compounds with predicted “active” class whose probability scores were ranked within the top 50 in\r\nconsensus among three deep learning models.\r\nTable 1. List of Six Compounds with Consensus Predictions as Top-Ranked “Active” Class by Three Deep Learning Modelsa\r\nbinding energy (kcal/mol)\r\nname source log (prob) FKBP12−FRB FKBP12 FRB (mTOR)\r\nrapamycin known inhibitor N/A −21.17 −12.19 −10.12\r\ntrihydroxysterolb Lentinus polychrous Lev. −1.50 × 10−5 −10.08 −7.39 −9.37\r\nbutyl ganoderic acid A G. lucidum −1.57 × 10−5 −10.02 −7.75 −7.18\r\nbutyl ganoderic acid B G. lucidum −1.71 × 10−5 −11.29 −6.66 −7.11\r\nganoderic acid C2 G. lucidum −2.78 × 10−5 −9.81 −6.33 −7.16\r\ncerevisterol G. lucidum −3.64 × 10−5 −10.85 −7.54 −9.57\r\nmethyl ganoderate A G. lucidum −3.73 × 10−5 −11.31 −7.64 −7.15\r\na\r\nThe table displays the log probability of being an active compound (log Prob) predicted by deep learning and the binding free energy predicted by\r\nmolecular docking calculations of the six compounds in comparison with rapamycin. b\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 12,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "IUPAC name: (3β,5α,6β,22E,24R)-Ergost-22-ene-3,5,6-triol.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\nACS Omega 2023, 8, 38373−38385\r\n38377\nwith trihydroxysterol was contributed by flexible loops far from\r\nthe ligand-binding site, as shown in the root-mean-square\r\nfluctuation (RMSF) profiles from Figure 4c. From Figure\r\n4c,4d, RMSF profiles were calculated for each amino acid of\r\nFKBP12 (Figure 4c) and FRB (Figure 4d) from all three\r\nsimulations. Regions highlighted in both figures represented\r\nimportant binding regions for rapamycin and other com\u0002pounds (FKBP12: residues 36, 37, 46, 53−59, 90, and 91;\r\nFRB: residues 2039 and 2098−2108). Butyl ganoderic acid B\r\ndisplayed relatively higher RMSF values around the binding\r\nresidues compared to those of trihydroxysterol and rapamycin.\r\nInterestingly, despite a relatively high RMSF profile of\r\ntrihydroxysterol at a number of flexible regions (especially\r\naround residues 2060−2080 in the FRB domain), trihydrox\u0002ysterol had a relatively low RMSF profile at all binding regions,\r\nsignifying high binding stability. This was confirmed through\r\nthe RMSD calculation for ligand positions shown in Figure 4e.\r\nThe RMSD for each compound in Figure 4e was calculated\r\nrelative to the starting structure from the best docking mode,\r\nwhile the translational and rotational motions of the proteins\r\nwere removed. Changes observed in the RMSD profile of butyl\r\nganoderic acid B signified the continuous movement of the\r\nligand from the docked regions. Meanwhile, RMSD profiles of\r\nrapamycin and trihydroxysterol displayed significant changes\r\nonly at the beginning of production runs and shortly became\r\nequilibrated, signifying that the ligands were displaced from the\r\nbinding sites predicted by molecular docking to another stable\r\nbinding site when exposed to explicit solvent. Furthermore, the\r\nsmaller radius of gyration when the two predicted compounds\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 13,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "were introduced into the FKBP12−FRB complex instead of\r\nrapamycin (Figure 4f) suggested that the ternary complex\r\nbecame more compact, which could promote protein−protein\r\ninteractions.\r\n3.4. Interaction Analysis: Roles of Steroid Cores and\r\nOther Functional Groups. 3.4.1. Contributions of Extra\r\nHydrophobic Contacts and Polar Solvation. Table 2 displays\r\nFigure 4. Conformational analysis from three 50 ns MD trajectories of rapamycin and the two selected compounds binding with the FRB−FKBP12\r\ncomplex. (a) RMSD of the FKBP12 protein compared to the starting structure, (b) RMSD of the FRB protein compared to the starting structure,\r\n(c) RMSF per residue of the FKBP12 protein, (d) RMSF per residue of the FRB protein, (e) RMSD of each compound compared to the starting\r\nbinding configuration, and (f) radius of gyration representing the compactness of each system.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\nACS Omega 2023, 8, 38373−38385\r\n38378\nthe binding free energy calculated by the MM/PBSA method\r\nbetween pairs of molecules within all three MD trajectories of\r\nternary complexes with rapamycin and two selected com\u0002pounds: butyl ganoderic acid B from G. lucidum and\r\ntrihydroxysterol from L. polychrous Lev. The “protein−\r\ncompound” binding energy for each ligand molecule was\r\ncontributed by van der Waals, electrostatics, polar solvation,\r\nand nonpolar solvation terms. The strongest total binding free\r\nenergy was found for rapamycin and trihydroxysterol from L.\r\npolychrous Lev., and the slightly weaker binding was found for\r\nbutyl ganoderic acid B. According to Table 2, the major\r\ninteractions for all three simulations of FKBP12−FRB\r\ncompounds were the van der Waals interactions contributed\r\nby hydrophobic contacts. From the decomposition of MM/\r\nPBSA binding free energy at some important residues (with\r\nbinding energy <−3 kJ/mol) shown in Table 3, three common\r\nbinding sites were found between the compounds and the FRB\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 14,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 506,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "domain of the mTORC1 complex at the hydrophobic residues\r\nPhe2039, Trp2101, and Tyr2105 for all simulations, while the\r\ncommon binding sites were found between the compound and\r\nthree hydrophobic residues Phe46, Ile56, and Trp59 of the\r\nFKBP12 protein. Despite missing Tyr26 and Ile90 for\r\nadditional hydrophobic contacts, extra binding sites were\r\nfound at residues Tyr82, Lys52, and Arg2036 for rapamycin,\r\nwhich contributed to its strongest hydrophobic interactions\r\nalong with the strongest FKBP12 interaction at Ile56 and the\r\nFRB interaction at Phe2039. Meanwhile, trihydroxysterol from\r\nL. polychrous Lev. displayed the strongest FKBP12 interaction\r\nat Phe46 and Ile90.\r\nDespite the strongest van der Waals interaction between the\r\nFKBP12−FRB complex and rapamycin due to the largest\r\nnumber of hydrophobic contacts, the largest surface contact\r\nbetween rapamycin and the proteins resulted in the loss of\r\npolar solvation energy. The binding free energy loss of 135 ±\r\n27 kJ/mol for rapamycin (combining both polar and nonpolar\r\nsolvation terms) was significantly higher than the 57 ± 11 kJ/\r\nmol binding free energy loss for trihydroxysterol from L.\r\npolychrous Lev. so that the total binding free energies of\r\nrapamycin and trihydroxysterol became similar. Moreover, the\r\nbinding of the FKBP12−FRB complex with trihydroxysterol\r\nwith the lowest molecular mass and binding surface area\r\ncorresponded to the strongest protein−protein interaction\r\nbetween FKBP12 and FRB, which could positively affect the\r\nmTORC1 kinase inhibition.\r\n3.4.2. Chemical Features of Rapamycin and Selected\r\nCompounds Affect Interaction Networks. Figure 5 illustrates\r\nthe interactions between a FKBP12−FRB complex and a\r\nrapamycin molecule. A schematic representation of rapamycin\r\nin Figure 5a shows that rapamycin is a macrocyclic lactone\r\ncontaining an ester group (−(C�O)O−) at the carbon\r\nposition 1, along with three aliphatic rings about the ester\r\ngroup capable of hydrophobic contacts, and three ketone\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 15,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "groups (−(C�O)−) capable of hydrogen bonding. The\r\nopposite side of the macrocyclic ring from the ester group\r\ncontains a long strand of a terpene-like hydrophobic chain\r\n(carbon positions 17−25) of three methyl groups and three\r\nalkene groups between two methoxy groups (−O−CH3) at\r\ncarbon positions 16 and 27. The X-ray crystallographic data of\r\nthe FKBP12−FRB−rapamycin tertiary complex (PDB ID:\r\n1FAP69) in Figure 5a showed that FKBP12 was bound with\r\nthe three aliphatic rings of rapamycin and that FRB was bound\r\nwith the long hydrophobic strand (see Figure 5b). Figure 5c\r\ndisplays the important binding residues containing 13\r\nhydrophobic contacts and four hydrogen bonds formed\r\nbetween the FKBP12−FRB complex and rapamycin in the\r\ncrystal structure.\r\nAfter the starting structure from X-ray crystallographic data\r\nwas subjected to explicit solvation under a 50 ns MD\r\nsimulation (see Figure 6a), all interactions from the crystallo\u0002graphic data were conserved, and additional hydrophobic\r\ncontacts at Ile90 and Leu2031 were observed. An important\r\nbinding characteristic of rapamycin observed both directly\r\nTable 2. Contribution of van der Waals, Electrostatics, Polar Solvation, and Nonpolar Solvation to the Binding Free Energy of\r\nthe Compounds to the FRB−FKBP12 Complex Calculated by the MM/PBSA Method for All Three Atomistic MD\r\nSimulationsa\r\nMM/PBSA energy (kJ/mol): protein−compound\r\nname van der Waals electrostatics\r\npolar\r\nsolvation\r\nnonpolar\r\nsolvation total\r\nMM/PBSA energy (kJ/mol): FKBP12−FRB\r\ndomain\r\nrapamycin −321 ± 15 −36 ± 23 176 ± 25 −41 ± 2 −222 ± 21 −192 ± 70\r\nbutyl ganoderic acid B −238 ± 16 −27 ± 14 101 ± 15 −27 ± 2 −191 ± 18 −289 ± 140\r\ntrihydroxysterol −263 ± 12 −22 ± 10 82 ± 10 −25 ± 1 −227 ± 15 −393 ± 106\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 16,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "a\r\nMM/PBSA binding free energy for the FRB−FKBP12 interaction was also calculated.\r\nTable 3. Per Residue Binding Free Energy from the\r\nDecomposition of MM/PBSA Results from All Three MD\r\nSimulationsa\r\nFKBP12−FRB\r\nresidue\r\nbutyl ganoderic acid B\r\n(kJ/mol) trihydroxysterol (kJ/mol) rapamycin(kJ/mol)\r\nTYR 26 −5.99 −3.88 −2.93\r\nPHE 36 −3.57 −2.51 −4.07\r\nPHE 46 −5.37 −8.01 −4.31\r\nLYS 52 1.52 −1.01 3.84\r\nGLU 54 −1.87 3.99 7.83\r\nVAL 55 −6.04 −4.00 −6.53\r\nILE 56 −5.91 −4.46 −10.75\r\nARG 57 2.60 1.59 5.06\r\nTRP 59 −4.81 −4.25 −3.43\r\nTYR 82 −1.77 −1.08 −3.43\r\nILE 90 −6.51 −9.60 −1.88\r\nPHE 99 −2.88 −2.73 −2.47\r\nGLU 107 −1.34 −0.01 0.92\r\nLEU 2031 −0.04 −2.71 -3.66\r\nARG 2036 −0.46 −0.18 -6.42\r\nPHE 2039 −6.45 −6.47 −12.31\r\nGLY 2040 −0.38 −0.05 -3.37\r\nTHR 2098 −1.63 −3.43 −0.60\r\nTRP 2101 −4.59 −6.90 −5.66\r\nTYR 2105 −9.22 −10.51 −11.24\r\nPHE 2108 −1.04 −3.56 −5.13\r\na\r\nOnly residues with binding free energy lower than <−3 kJ/mol are\r\nhighlighted through the bold and italic text.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 17,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "ACS Omega 2023, 8, 38373−38385\r\n38379\nfrom the crystallographic data and after an MD simulation is\r\nthe binding of an aliphatic ring at carbon positions 37−42\r\ncontaining a hydroxy and a methoxy group with both FRB and\r\nFKBP12. For the two selected compounds in Figure 6b,c, it\r\nwas found that one of the ring structures from each compound\r\nserved as common binding sites to both FRB and FKBP12,\r\nwhile the steroid core of both butyl ganoderic acid B and\r\ntrihydroxysterol was also found interacting with the FKBP12,\r\nanalogous with the three aliphatic rings within the rapamycin.\r\nThe terpene-like hydrophobic chain of rapamycin interacting\r\nwith the FRB side was, in turn, mimicked by the tail structure\r\nof each selected compound in Figure 6b,6c. Considering the\r\ninteraction networks along with the MM/PBSA energy\r\ndecomposition in Table 3, it was found that there was a\r\ngreater number of binding residues between the FRB side\r\n(residues 2031−2108) and trihydroxysterol than between\r\nbutyl ganoderic acid B. The tail structure of trihydroxysterol\r\nwas the shortest among other compounds and contained no\r\nhydrogen bonding sites; however, it corresponded to the\r\nstrongest binding free energy as the steroid core was involved\r\nin the interactions with both FRB and FKBP12 sides.\r\n3.5. Druglikeness Evaluation for the Candidate\r\nCompounds. Finally, the druglike properties of trihydrox\u0002ysterol and butyl ganoderic acid B were retrieved from the\r\nBACMUSHBASE database and are shown in Table 4. The\r\nanalysis showed that each candidate violates only one rule\r\n(log P of trihydroxysterol = 5.32 and the molecular weight of\r\nbutyl ganoderic acid B = 572.77 g/mol). The profiles indicate\r\nthat both compounds have the potential for further drug\r\ndevelopment.\r\n4. DISCUSSION\r\nIn many Asian countries, mushrooms and their extracts have\r\nbeen long used as traditional medicine with antioxidant,\r\nantipathogenic, antitumoral, and immuno-modulating ef\u0002fects.70−72 The present work identified several compounds\r\ncontaining ring groups with steroid cores from G. lucidum and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 18,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "L. polychrous Lev., with possible inhibitory effects on mTOR. A\r\nprevious study has shown that ergostanoids extracted from L.\r\npolychrous Lev. possessed a moderate antiproliferation effect on\r\noestradiol-enhanced T47D breast cancer cells73 and those\r\nextracted from G. lucidum have been widely shown to have\r\ncytotoxic activities against many cancer types.74\r\nIn this study, a combination of machine learning and\r\nstructural modeling tools was used in a search for potential\r\nactive compounds for the mTOR complex from natural\r\nproducts. Deep learning models were built based on previous\r\nexperimental data of the bioactivity. The performance of the\r\ndeep learning model was enhanced through data filtering after\r\na principal component analysis (PCA) that projected the data\r\nwith extracted chemical features onto the principal compo\u0002nents. The closeness observed between rapamycin and the\r\ngroup of rapalogs in the chemistry space could guide filtering\r\nfor more compounds with similar chemical properties,\r\nreducing the uncertainty of mixing bioactive compounds\r\nwith different inhibition mechanisms.\r\nTable 5 displays the three most significant loadings or\r\ncomponents of eigenvectors of the first three PC modes.\r\nProjection of feature vectors extracted from molecules within\r\nthe data set on the PC1 axis represented the proportion of\r\natoms with the sp3 hybridization, which opposed the\r\nproportion of atoms with the sp2 hybridization and hydro\u0002phobicity. High proportion of sp3 found for the first-generation\r\nFigure 5. (a) 3D-structure of the FRB−FKBP12−rapamycin tertiary complex from X-ray crystallographic data, (b) schematic representation of a\r\nrapamycin molecule, and (c) interaction network between the FRB−FKBP12 complex and rapamycin analyzed from X-ray crystallographic data.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\nACS Omega 2023, 8, 38373−38385\r\n38380\nmTOR inhibitors was in concurrence with the large proportion\r\nof aliphatic structures and the absence of an aromatic ring from\r\nthe molecular structure of rapamycin. The high score on the\r\nPC2 axis represented the high proportion of heavy atoms with\r\nonly one connection with other heavy atoms (degree = 1),\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 19,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "corresponding to the branching groups of rapamycin. As the\r\ncarbonyl (C�O) group had both degree = 1 for heavy atom\r\nconnections and no covalently bonded hydrogen atom (total\r\nnumber of hydrogens = 0 and implicit valence = 0), the lower\r\nscore of zero hydrogen connection corresponded to the lower\r\namount of C�O groups in rapamycin and other first\u0002generation mTOR inhibitors. Finally, the PC3 axis displayed\r\nwhether the molecules contained a high number of oxygen or\r\nnitrogen atoms, for which the first-generation mTOR\r\ninhibitors tended to contain a higher oxygen proportion and\r\nthe second-generation mTOR inhibitors tended to contain a\r\nhigher nitrogen proportion. Therefore, the first-generation\r\nmTOR inhibitors were separated from the others through their\r\naliphaticity (PC1) and hydrocarbon branch structure (PC2)\r\nand the training data set was created based on this primary\r\nscreening scheme.\r\nA remarkable pattern was observed from the virtual\r\nscreening by the trained deep learning model as most of the\r\ncompounds with high “active” probability scores were found to\r\ninvolve a “steroid core” as an essential molecular feature.\r\nMoreover, the majority of the top candidates were the\r\ncompounds extracted from G. lucidum, for which each\r\nganoderic acid and its derivatives contained a steroid core.\r\nApart from G. lucidum, trihydroxysterol from L. polychrous Lev.\r\nalso displayed strong potential as a bioactive compound that\r\nfacilitates mTOR kinase inhibition. It could also be seen from\r\nTable 5 that trihydroxysterol and butyl ganoderic acid B\r\ndisplayed most features in common with the first-generation\r\nmTOR inhibitors, except by slightly lower amounts of C�O\r\ngroups and oxygen proportion.\r\nFigure 6. Interaction networks between the FRB−FKBP12 complex with (a) rapamycin, (b) butyl ganoderic acid B, and (c) trihydroxysterol after\r\n50 ns MD simulations.\r\nTable 4. Druglikeness Properties of the Candidate\r\nCompounds and Rapamycina\r\nproperty (rule) trihydroxysterolb butyl ganoderic\r\nacid Bc rapamycind\r\nmolecular weight (<500 g/mol)432.68 572.77 914.19\r\nnumber of H-bond\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 20,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "acceptors (≤10)\r\n3 7 14\r\nnumber of H-bonds\r\ndonors (≤5)\r\n3 2 3\r\nnumber of rotatable\r\nbonds (≤10)\r\n4 10 6\r\nlog P (≤5) 5.23 4.72 4.92\r\npolar surface area (≤140 Å2\r\n)\r\n60.69 117.97 195.45\r\na\r\nThe properties that violate the rule are marked in bold. bProperties\r\nwere retrieved from BACMUSHBASE (http://bacmushbase.sci.ku.ac.\r\nth/properties.php?CID=34002) (accessed February 6, 2023). c\r\nPro\u0002perties were retrieved from BACMUSHBASE (http://bacmushbase.\r\nsci.ku.ac.th/properties.php?CID=1140) (accessed February 6, 2023). d\r\nProperties were predicted by the Molinspiration Property Calcu\u0002lation Service (www.molinspiration.com) (accessed February 6,\r\n2023).\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\nACS Omega 2023, 8, 38373−38385\r\n38381\n5. CONCLUSIONS\r\nTo provide further validation of the prediction results by deep\r\nlearning in a structural aspect, molecular docking calculations\r\nand all-atom molecular dynamics simulations were performed\r\nfor some top candidate compounds screened by the “active”\r\nprobability score. It has been known that rapamycin forms a\r\nternary complex with the FK506-binding protein (FKBP12)\r\nand the FKBP12−rapamycin binding (FRB) domain, thus\r\ninhibiting the kinase activity of an mTORC1 complex.\r\nTherefore, intermolecular interactions were investigated for\r\nboth the compound FKBP12 and compound FRB sides to\r\naddress how each compound candidate could stabilize the\r\nternary complex during kinase inhibition. Analogously,\r\nrapamycin and all of the screened compound candidates\r\ncontained ring groups and steroid cores that mostly interacted\r\nwith FKBP12, along with terpene-like chains that interacted\r\nwith FRB. However, trihydroxysterol from L. polychrous Lev.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 21,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "displayed a rather small but effective interaction network that\r\nalso facilitated FKBP12−FRB interactions and further\r\nstabilized the ternary complex. Therefore, combining informa\u0002tion from machine learning, structural modeling, and drug\u0002likeness analyses, trihydroxysterol from L. polychrous Lev. and\r\nbutyl ganoderic acid B from G. lucidum could be interesting\r\nalternatives to rapamycin and rapalogs for mTOR kinase\r\ninhibition and the downstream regulations of the mTOR\r\npathway.\r\n■ ASSOCIATED CONTENT\r\nData Availability Statement\r\nThe models for MTOR inhibitor prediction are available at the\r\nfollowing link: https://github.com/pribnowbox/virtual\u0002screening-of-new-MTOR-inhibitors.\r\n■ AUTHOR INFORMATION\r\nCorresponding Authors\r\nTeeraphan Laomettachit − Theoretical and Computational\r\nPhysics Group, Department of Physics, King Mongkut’s\r\nUniversity of Technology Thonburi (KMUTT), Bangkok\r\n10140, Thailand; Bioinformatics and Systems Biology\r\nProgram, School of Bioresources and Technology, King\r\nMongkut’s University of Technology Thonburi (KMUTT),\r\nBangkok 10150, Thailand; Email: teeraphan.lao@\r\nkmutt.ac.th\r\nThana Sutthibutpong − Theoretical and Computational\r\nPhysics Group, Department of Physics, King Mongkut’s\r\nUniversity of Technology Thonburi (KMUTT), Bangkok\r\n10140, Thailand; Center of Excellence in Theoretical and\r\nComputational Science (TaCS-CoE), Faculty of Science, King\r\nMongkut’s University of Technology Thonburi (KMUTT),\r\nBangkok 10140, Thailand; orcid.org/0000-0002-4468-\r\n8885; Email: thana.sut@kmutt.ac.th\r\nAuthors\r\nKewalin Posansee − Theoretical and Computational Physics\r\nGroup, Department of Physics, King Mongkut’s University of\r\nTechnology Thonburi (KMUTT), Bangkok 10140, Thailand\r\nMonrudee Liangruksa − National Nanotechnology Center\r\n(NANOTEC), National Science and Technology\r\nDevelopment Agency (NSTDA), Pathum Thani 12120,\r\nThailand\r\nTeerasit Termsaithong − Theoretical and Computational\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 22,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 512,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Physics Group, Department of Physics, King Mongkut’s\r\nUniversity of Technology Thonburi (KMUTT), Bangkok\r\n10140, Thailand; Learning Institute, King Mongkut’s\r\nUniversity of Technology Thonburi (KMUTT), Bangkok\r\n10140, Thailand\r\nPatchreenart Saparpakorn − Department of Chemistry,\r\nFaculty of Science, Kasetsart University, Bangkok 10900,\r\nThailand\r\nSupa Hannongbua − Department of Chemistry, Faculty of\r\nScience, Kasetsart University, Bangkok 10900, Thailand;\r\norcid.org/0000-0002-9901-4466\r\nComplete contact information is available at:\r\nhttps://pubs.acs.org/10.1021/acsomega.3c04827\r\nNotes\r\nThe authors declare no competing financial interest.\r\n■ ACKNOWLEDGMENTS\r\nThis research project is supported by the Thailand Science\r\nResearch and Innovation (TSRI) Basic Research Fund: Fiscal\r\nyear 2022 under Project Number FRB650048/0164. Also, this\r\nresearch was partly supported by the Program Management\r\nUnit for Human Resources & Institutional Development,\r\nResearch, and Innovation [Grant Number B01F630003].\r\nTable 5. Important Molecular Descriptor Features from the First Three Principal Componentsa\r\nfeature index\r\n(loading) description\r\naverage score from 10\r\nGen-1 inhibitors\r\naverage score from 9\r\nGen-2 inhibitors\r\ntrihydroxysterol (our\r\ncandidate)\r\nbutyl ganoderic acid B\r\n(our candidate)\r\nPC1 feature 67\r\n(0.378) hybridization = sp3 2.11 ± 0.09 0.63 ± 0.39 2.97 2.29\r\nPC1 feature 66\r\n(−0.390) hybridization = sp2 0.98 ± 0.11 2.59 ± 0.38 0.23 0.85\r\nPC1 feature 70\r\n(−0.375)\r\nis aromatic 0.06 ± 0.13 2.21 ± 0.44 0.0 0.0\r\nPC2 feature 46\r\n(0.396) degree = 1 0.90 ± 0.07 0.44 ± 0.07 0.84 1.02\r\nPC2 feature 71\r\n(0.298)\r\ntotal number of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 23,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 511,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "hydrogens = 0\r\n0.93 ± 0.06 1.72 ± 0.14 0.32 1.17\r\nPC2 feature 56\r\n(0.293) implicit valence = 0 0.93 ± 0.06 1.73 ± 0.14 0.32 1.17\r\nPC3 feature 2\r\n(0.426)\r\nis a N atom 0.05 ± 0.06 0.56 ± 0.20 0.0 0.0\r\nPC3 feature 3\r\n(−0.189)\r\nis an O atom 0.65 ± 0.05 0.25 ± 0.13 0.26 0.63\r\na\r\nFeature vector components of interest were compared between two generations of inhibitors and the screened candidate in this study.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\nACS Omega 2023, 8, 38373−38385\r\n38382\n■ REFERENCES\r\n(1) Huang, S. Targeting MTOR Signaling for Cancer Therapy. Curr.\r\nOpin. Pharmacol. 2003, 3 (4), 371−377.\r\n(2) Zhou, H.; Luo, Y.; Huang, S. Updates of MTOR Inhibitors. Anti\u0002Cancer Agents Med. Chem. 2010, 10 (7), 571−581.\r\n(3) Shamji, A. F.; Nghiem, P.; Schreiber, S. L. Integration of Growth\r\nFactor and Nutrient Signaling. Mol. Cell 2003, 12 (2), 271−280.\r\n(4) Mao, B.; Zhang, Q.; Ma, L.; Zhao, D.-S.; Zhao, P.; Yan, P.\r\nOverview of Research into MTOR Inhibitors. Molecules 2022, 27\r\n(16), 5295.\r\n(5) Laplante, M.; Sabatini, D. M. MTOR Signaling in Growth\r\nControl and Disease. Cell 2012, 149 (2), 274−293.\r\n(6) Saxton, R. A.; Sabatini, D. M. MTOR Signaling in Growth,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 24,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 484,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Metabolism, and Disease. Cell 2017, 168 (6), 960−976.\r\n(7) Vézina, C.; Kudelski, A.; Sehgal, S. N. Rapamycin (AY-22,989), a\r\nNew Antifungal Antibiotic. I. Taxonomy of the Producing\r\nStreptomycete and Isolation of the Active Principle. J. Antibiot.\r\n1975, 28 (10), 721−726.\r\n(8) Sehgal, S. N.; Baker, H.; Vézina, C. Rapamycin (AY-22,989), a\r\nNew Antifungal Antibiotic. II. Fermentation, Isolation and Character\u0002ization. J. Antibiot. 1975, 28 (10), 727−732.\r\n(9) Loewith, R.; Jacinto, E.; Wullschleger, S.; Lorberg, A.; Crespo, J.\r\nL.; Bonenfant, D.; Oppliger, W.; Jenoe, P.; Hall, M. N. Two TOR\r\nComplexes, Only One of Which Is Rapamycin Sensitive, Have\r\nDistinct Roles in Cell Growth Control. Mol. Cell 2002, 10 (3), 457−\r\n468.\r\n(10) Benjamin, D.; Colombi, M.; Moroni, C.; Hall, M. N.\r\nRapamycin Passes the Torch: A New Generation of MTOR\r\nInhibitors. Nat. Rev. Drug Discovery 2011, 10 (11), 868−880.\r\n(11) Sun, S.-Y. MTOR Kinase Inhibitors as Potential Cancer\r\nTherapeutic Drugs. Cancer Lett. 2013, 340 (1), 1−8.\r\n(12) Brown, E. J.; Albers, M. W.; Bum Shin, T.; ichikawa, K.; Keith,\r\nC. T.; Lane, W. S.; Schreiber, S. L. A Mammalian Protein Targeted by\r\nG1-Arresting Rapamycin−Receptor Complex. Nature 1994, 369\r\n(6483), 756−758.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 25,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 505,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "(13) Sabatini, D. M.; Erdjument-Bromage, H.; Lui, M.; Tempst, P.;\r\nSnyder, S. H. RAFT1: A Mammalian Protein That Binds to FKBP12\r\nin a Rapamycin-Dependent Fashion and Is Homologous to Yeast\r\nTORs. Cell 1994, 78 (1), 35−43.\r\n(14) Banaszynski, L. A.; Liu, C. W.; Wandless, T. J. Characterization\r\nof the FKBP·Rapamycin·FRB Ternary Complex. J. Am. Chem. Soc.\r\n2005, 127 (13), 4715−4721.\r\n(15) Bhagwat, S. V.; Crew, A. P. Novel Inhibitors of MTORC1 and\r\nMTORC2. Curr. Opin. Investig. Drugs 2010, 11 (6), 638−645.\r\n(16) Richard, D. J.; Verheijen, J. C.; Zask, A. Recent Advances in the\r\nDevelopment of Selective, ATP-Competitive Inhibitors of MTOR.\r\nCurr. Opin. Drug Discovery Dev. 2010, 13 (4), 428−440.\r\n(17) García-Echeverría, C. Allosteric and ATP-Competitive Kinase\r\nInhibitors of MTOR for Cancer Treatment. Bioorg. Med. Chem. Lett.\r\n2010, 20 (15), 4308−4312.\r\n(18) Zask, A.; Verheijen, J. C.; Richard, D. J. Recent Advances in the\r\nDiscovery of Small-Molecule ATP Competitive MTOR Inhibitors: A\r\nPatent Review. Expert Opin. Ther. Pat. 2011, 21 (7), 1109−1127.\r\n(19) Pike, K. G.; Malagu, K.; Hummersone, M. G.; Menear, K. A.;\r\nDuggan, H. M. E.; Gomez, S.; Martin, N. M. B.; Ruston, L.; Pass, S.\r\nL.; Pass, M. Optimization of Potent and Selective Dual MTORC1 and\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 26,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 498,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "MTORC2 Inhibitors: The Discovery of AZD8055 and AZD2014.\r\nBioorg. Med. Chem. Lett. 2013, 23 (5), 1212−1216.\r\n(20) Fantus, D.; Dai, H.; Ono, Y.; Watson, A.; Yokota, S.; Mohib, K.;\r\nYoshida, O.; Ross, M. A.; Watkins, S. C.; Ramaswami, B.; Valusjkikh,\r\nA.; Rothstein, D. M.; Thomson, A. W. Influence of the Novel ATP\u0002Competitive Dual MTORC1/2 Inhibitor AZD2014 on Immune Cell\r\nPopulations and Heart Allograft Rejection. Transplantation 2017, 101\r\n(12), 2830−2840.\r\n(21) Liao, H.; Huang, Y.; Guo, B.; Liang, B.; Liu, X.; Ou, H.; Jiang,\r\nC.; Li, X.; Yang, D. Dramatic Antitumor Effects of the Dual\r\nMTORC1 and MTORC2 Inhibitor AZD2014 in Hepatocellular\r\nCarcinoma. Am. J. Cancer Res. 2015, 5 (1), 125−139.\r\n(22) Mortensen, D. S.; Perrin-Ninkovic, S. M.; Shevlin, G.; Elsner, J.;\r\nZhao, J.; Whitefield, B.; Tehrani, L.; Sapienza, J.; Riggs, J. R.; Parnes,\r\nJ. S.; Papa, P.; Packard, G.; Lee, B. G. S.; Harris, R.; Correa, M.;\r\nBahmanyar, S.; Richardson, S. J.; Peng, S. X.; Leisten, J.; Khambatta,\r\nG.; Hickman, M.; Gamez, J. C.; Bisonette, R. R.; Apuy, J.; Cathers, B.\r\nE.; Canan, S. S.; Moghaddam, M. F.; Raymon, H. K.; Worland, P.;\r\nNarla, R. K.; Fultz, K. E.; Sankar, S. Optimization of a Series of\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 27,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 508,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Triazole Containing Mammalian Target of Rapamycin (MTOR)\r\nKinase Inhibitors and the Discovery of CC-115. J. Med. Chem. 2015,\r\n58 (14), 5599−5608.\r\n(23) Mortensen, D. S.; Sapienza, J.; Lee, B. G. S.; Perrin-Ninkovic, S.\r\nM.; Harris, R.; Shevlin, G.; Parnes, J. S.; Whitefield, B.; Hickman, M.;\r\nKhambatta, G.; Bisonette, R. R.; Peng, S.; Gamez, J. C.; Leisten, J.;\r\nNarla, R. K.; Fultz, K. E.; Sankar, S. Use of Core Modification in the\r\nDiscovery of CC214−2, an Orally Available, Selective Inhibitor of\r\nMTOR Kinase. Bioorg. Med. Chem. Lett. 2013, 23 (6), 1588−1591.\r\n(24) Mortensen, D. S.; Perrin-Ninkovic, S. M.; Shevlin, G.; Zhao, J.;\r\nPackard, G.; Bahmanyar, S.; Correa, M.; Elsner, J.; Harris, R.; Lee, B.\r\nG. S.; Papa, P.; Parnes, J. S.; Riggs, J. R.; Sapienza, J.; Tehrani, L.;\r\nWhitefield, B.; Apuy, J.; Bisonette, R. R.; Gamez, J. C.; Hickman, M.;\r\nKhambatta, G.; Leisten, J.; Peng, S. X.; Richardson, S. J.; Cathers, B.\r\nE.; Canan, S. S.; Moghaddam, M. F.; Raymon, H. K.; Worland, P.;\r\nNarla, R. K.; Fultz, K. E.; Sankar, S. Discovery of Mammalian Target\r\nof Rapamycin (MTOR) Kinase Inhibitor CC-223. J. Med. Chem.\r\n2015, 58 (13), 5323−5333.\r\n(25) Yu, K.; Toral-Barza, L.; Shi, C.; Zhang, W.-G.; Lucas, J.; Shor,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 28,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "B.; Kim, J.; Verheijen, J.; Curran, K.; Malwitz, D. J.; Cole, D. C.;\r\nEllingboe, J.; Ayral-Kaloustian, S.; Mansour, T. S.; Gibbons, J. J.;\r\nAbraham, R. T.; Nowak, P.; Zask, A. Biochemical, Cellular, and In\r\nVivo Activity of Novel ATP-Competitive and Selective Inhibitors of\r\nthe Mammalian Target of Rapamycin. Cancer Res. 2009, 69 (15),\r\n6232−6240.\r\n(26) Yu, K.; Shi, C.; Toral-Barza, L.; Lucas, J.; Shor, B.; Kim, J. E.;\r\nZhang, W.-G.; Mahoney, R.; Gaydos, C.; Tardio, L.; Kim, S. K.;\r\nConant, R.; Curran, K.; Kaplan, J.; Verheijen, J.; Ayral-Kaloustian, S.;\r\nMansour, T. S.; Abraham, R. T.; Zask, A.; Gibbons, J. J. Beyond\r\nRapalog Therapy: Preclinical Pharmacology and Antitumor Activity of\r\nWYE-125132, an ATP-Competitive and Specific Inhibitor of\r\nMTORC1 and MTORC2. Cancer Res. 2010, 70 (2), 621−631.\r\n(27) Tan, D. S.; Dumez, H.; Olmos, D.; Sandhu, S. K.; Hoeben, A.;\r\nStephens, A. W.; Poondru, S.; Gedrich, R.; Kaye, S. B.; Schoffski, P.\r\nFirst-in-Human Phase I Study Exploring Three Schedules of OSI-027,\r\na Novel Small Molecule TORC1/TORC2 Inhibitor, in Patients with\r\nAdvanced Solid Tumors and Lymphoma. J. Clin. Oncol. 2010, 28\r\n(15_suppl), 3006.\r\n(28) Zeng, Z.; Shi, Y. X.; Tsao, T.; Qiu, Y.; Kornblau, S. M.;\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 29,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 507,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Baggerly, K. A.; Liu, W.; Jessen, K.; Liu, Y.; Kantarjian, H.; Rommel,\r\nC.; Fruman, D. A.; Andreeff, M.; Konopleva, M. Targeting of\r\nMTORC1/2 by the MTOR Kinase Inhibitor PP242 Induces\r\nApoptosis in AML Cells under Conditions Mimicking the Bone\r\nMarrow Microenvironment. Blood 2012, 120 (13), 2679−2689.\r\n(29) Thoreen, C. C.; Kang, S. A.; Chang, J. W.; Liu, Q.; Zhang, J.;\r\nGao, Y.; Reichling, L. J.; Sim, T.; Sabatini, D. M.; Gray, N. S. An ATP\u0002Competitive Mammalian Target of Rapamycin Inhibitor Reveals\r\nRapamycin-Resistant Functions of MTORC1. J. Biol. Chem. 2009,\r\n284 (12), 8023−8032.\r\n(30) Liu, Q.; Wang, J.; Kang, S. A.; Thoreen, C. C.; Hur, W.;\r\nAhmed, T.; Sabatini, D. M.; Gray, N. S. Discovery of 9-(6-\r\nAminopyridin-3-Yl)-1-(3-(Trifluoromethyl)Phenyl)Benzo[ h ][1,6]-\r\nNaphthyridin-2(1 H)-One (Torin2) as a Potent, Selective, and Orally\r\nAvailable Mammalian Target of Rapamycin (MTOR) Inhibitor for\r\nTreatment of Cancer. J. Med. Chem. 2011, 54 (5), 1473−1480.\r\n(31) Sutherlin, D. P.; Bao, L.; Berry, M.; Castanedo, G.;\r\nChuckowree, I.; Dotson, J.; Folks, A.; Friedman, L.; Goldsmith, R.;\r\nGunzner, J.; Heffron, T.; Lesnick, J.; Lewis, C.; Mathieu, S.; Murray,\r\nJ.; Nonomiya, J.; Pang, J.; Pegg, N.; Prior, W. W.; Rouge, L.; Salphati,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 30,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 493,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "L.; Sampath, D.; Tian, Q.; Tsui, V.; Wan, N. C.; Wang, S.; Wei, B.;\r\nWiesmann, C.; Wu, P.; Zhu, B.-Y.; Olivero, A. Discovery of a Potent,\r\nSelective, and Orally Available Class I Phosphatidylinositol 3-Kinase\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\nACS Omega 2023, 8, 38373−38385\r\n38383\n(PI3K)/Mammalian Target of Rapamycin (MTOR) Kinase Inhibitor\r\n(GDC-0980) for the Treatment of Cancer. J. Med. Chem. 2011, 54\r\n(21), 7579−7587.\r\n(32) Garlich, J. R.; De, P.; Dey, N.; Su, J. D.; Peng, X.; Miller, A.;\r\nMurali, R.; Lu, Y.; Mills, G. B.; Kundra, V.; Shu, H.-K.; Peng, Q.;\r\nDurden, D. L. A Vascular Targeted Pan Phosphoinositide 3-Kinase\r\nInhibitor Prodrug, SF1126, with Antitumor and Antiangiogenic\r\nActivity. Cancer Res. 2008, 68 (1), 206−215.\r\n(33) Manara, M. C.; Nicoletti, G.; Zambelli, D.; Ventura, S.;\r\nGuerzoni, C.; Landuzzi, L.; Lollini, P.-L.; Maira, S.-M.; García\u0002Echeverría, C.; Mercuri, M.; Picci, P.; Scotlandi, K. NVP-BEZ235 as a\r\nNew Therapeutic Option for Sarcomas. Clin. Cancer Res. 2010, 16\r\n(2), 530−540.\r\n(34) Marone, R.; Erhart, D.; Mertz, A. C.; Bohnacker, T.; Schnell,\r\nC.; Cmiljanovic, V.; Stauffer, F.; Garcia-Echeverria, C.; Giese, B.;\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 31,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 503,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Maira, S.-M.; Wymann, M. P. Targeting Melanoma with Dual\r\nPhosphoinositide 3-Kinase/Mammalian Target of Rapamycin Inhib\u0002itors. Mol. Cancer Res. 2009, 7 (4), 601−613.\r\n(35) Mallon, R.; Hollander, I.; Feldberg, L.; Lucas, J.; Soloveva, V.;\r\nVenkatesan, A.; Dehnhardt, C.; Delos Santos, E.; Chen, Z.; dos\r\nSantos, O.; Ayral-Kaloustian, S.; Gibbons, J. Antitumor Efficacy\r\nProfile of PKI-402, a Dual Phosphatidylinositol 3-Kinase/Mammalian\r\nTarget of Rapamycin Inhibitor. Mol. Cancer Ther. 2010, 9 (4), 976−\r\n984.\r\n(36) Yu, P.; Laird, A. D.; Du, X.; Wu, J.; Won, K.-A.; Yamaguchi, K.;\r\nHsu, P. P.; Qian, F.; Jaeger, C. T.; Zhang, W.; Buhr, C. A.; Shen, P.;\r\nAbulafia, W.; Chen, J.; Young, J.; Plonowski, A.; Yakes, F. M.; Chu, F.;\r\nLee, M.; Bentzien, F.; Lam, S. T.; Dale, S.; Matthews, D. J.; Lamb, P.;\r\nFoster, P. Characterization of the Activity of the PI3K/MTOR\r\nInhibitor XL765 (SAR245409) in Tumor Models with Diverse\r\nGenetic Alterations Affecting the PI3K Pathway. Mol. Cancer Ther.\r\n2014, 13 (5), 1078−1091.\r\n(37) Guduru, S. K. R.; Arya, P. Synthesis and Biological Evaluation\r\nof Rapamycin-Derived, next Generation Small Molecules. Med. Chem.\r\nCommun. 2018, 9 (1), 27−43.\r\n(38) Lin, Y. G.; Kunnumakkara, A. B.; Nair, A.; Merritt, W. M.; Han,\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 32,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 510,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "L. Y.; Armaiz-Pena, G. N.; Kamat, A. A.; Spannuth, W. A.;\r\nGershenson, D. M.; Lutgendorf, S. K.; Aggarwal, B. B.; Sood, A. K.\r\nCurcumin Inhibits Tumor Growth and Angiogenesis in Ovarian\r\nCarcinoma by Targeting the Nuclear Factor-KB Pathway. Clin. Cancer\r\nRes. 2007, 13 (11), 3423−3430.\r\n(39) Johnson, S. M.; Gulhati, P.; Arrieta, I.; Wang, X.; Uchida, T.;\r\nGao, T.; Evers, B. M. Curcumin Inhibits Proliferation of Colorectal\r\nCarcinoma by Modulating Akt/MTOR Signaling. Anticancer Res.\r\n2009, 29 (8), 3185−3190.\r\n(40) Beevers, C. S.; Li, F.; Liu, L.; Huang, S. Curcumin Inhibits the\r\nMammalian Target of Rapamycin-Mediated Signaling Pathways in\r\nCancer Cells. Int. J. Cancer 2006, 119 (4), 757−764.\r\n(41) Van Aller, G. S.; Carson, J. D.; Tang, W.; Peng, H.; Zhao, L.;\r\nCopeland, R. A.; Tummino, P. J.; Luo, L. Epigallocatechin Gallate\r\n(EGCG), a Major Component of Green Tea, Is a Dual\r\nPhosphoinositide-3-Kinase/MTOR Inhibitor. Biochem. Biophys. Res.\r\nCommun. 2011, 406 (2), 194−199.\r\n(42) Reinke, A.; Chen, J. C.-Y.; Aronova, S.; Powers, T. Caffeine\r\nTargets TOR Complex I and Provides Evidence for a Regulatory Link\r\nbetween the FRB and Kinase Domains of Tor1p. J. Biol. Chem. 2006,\r\n281 (42), 31616−31626.\r\n(43) Park, D.; Jeong, H.; Lee, M. N.; Koh, A.; Kwon, O.; Yang, Y. R.;\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 33,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 486,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Noh, J.; Suh, P.-G.; Park, H.; Ryu, S. H. Resveratrol Induces\r\nAutophagy by Directly Inhibiting MTOR through ATP Competition.\r\nSci. Rep 2016, 6 (1), No. 21772.\r\n(44) Tong, X.; Pelling, J. Targeting the PI3K/Akt/MTOR Axis by\r\nApigenin for Cancer Prevention. Anti-Cancer Agents Med. Chem. 2013,\r\n13 (7), 971−978.\r\n(45) Syed, D.; Adhami, V.; Khan, M.; Mukhtar, H. Inhibition of\r\nAkt/MTOR Signaling by the Dietary Flavonoid Fisetin. Anti-Cancer\r\nAgents Med. Chem. 2013, 13 (7), 995−1001.\r\n(46) Ahmad, A.; Biersack, B.; Li, Y.; Kong, D.; Bao, B.; Schobert, R.;\r\nPadhye, S.; Sarkar, F. Targeted Regulation of PI3K/Akt/MTOR/NF\u0002κB Signaling by Indole Compounds and Their Derivatives:\r\nMechanistic Details and Biological Implications for Cancer Therapy.\r\nAnti-Cancer Agents Med. Chem. 2013, 13 (7), 1002−1013.\r\n(47) Bruning, A. Inhibition of MTOR Signaling by Quercetin in\r\nCancer Treatment and Prevention. Anti-Cancer Agents Med. Chem.\r\n2013, 13 (7), 1025−1031.\r\n(48) Sylvester, P.; Ayoub, N. Tocotrienols Target PI3K/Akt\r\nSignaling in Anti-Breast Cancer Therapy. Anti-Cancer Agents Med.\r\nChem. 2013, 13 (7), 1039−1047.\r\n(49) Kumari, C.; Abulaish, M.; Subbarao, N. Exploring Molecular\r\nDescriptors and Fingerprints to Predict MTOR Kinase Inhibitors\r\nUsing Machine Learning Techniques. IEEE/ACM Trans. Comput.\r\nBiol. Bioinf. 2021, 18 (5), 1902−1913.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 34,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "(50) Wang, P.; Xu, X.; Li, Y.; Li, B.; Pei, Q.; Yu, P.; Jing, C.; Lu, M.\r\nDiscovery of Novel Mammalian Target of Rapamycin (MTOR)\r\nInhibitors by Support Vector Machine. IOP Conf. Ser.: Earth Environ.\r\nSci. 2021, 692 (3), No. 032028.\r\n(51) Vittorio, S.; Gitto, R.; Adornato, I.; Russo, E.; De Luca, L. In\r\nSilico Strategy for Targeting the MTOR Kinase at Rapamycin Binding\r\nSite by Small Molecules. Molecules 2021, 26 (4), 1103.\r\n(52) Luo, Y.; Wang, L. Discovery and Development of ATP\u0002Competitive MTOR Inhibitors Using Computational Approaches.\r\nCurr. Pharm. Des. 2017, 23 (29), 4321−4331, DOI: 10.2174/\r\n1381612823666170710150604.\r\n(53) Kumari, C.; Abulaish, M.; Subbarao, N. Using SMOTE to Deal\r\nwith Class-Imbalance Problem in Bioactivity Data to Predict MTOR\r\nInhibitors. SN Comput. Sci. 2020, 1 (3), 150.\r\n(54) Anderson, E.; Havener, T. M.; Zorn, K. M.; Foil, D. H.; Lane,\r\nT. R.; Capuzzi, S. J.; Morris, D.; Hickey, A. J.; Drewry, D. H.; Ekins, S.\r\nSynergistic Drug Combinations and Machine Learning for Drug\r\nRepurposing in Chordoma. Sci. Rep. 2020, 10 (1), No. 12982,\r\nDOI: 10.1038/s41598-020-70026-w.\r\n(55) Kim, S.; Thiessen, P. A.; Bolton, E. E.; Chen, J.; Fu, G.;\r\nGindulyte, A.; Han, L.; He, J.; He, S.; Shoemaker, B. A.; Wang, J.; Yu,\r\nB.; Zhang, J.; Bryant, S. H. PubChem Substance and Compound\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 35,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 495,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Databases. Nucleic Acids Res. 2016, 44 (D1), D1202−D1213.\r\n(56) Sayers, E. W.; Bolton, E. E.; Brister, J. R.; Canese, K.; Chan, J.;\r\nComeau, D. C.; Connor, R.; Funk, K.; Kelly, C.; Kim, S.; Madej, T.;\r\nMarchler-Bauer, A.; Lanczycki, C.; Lathrop, S.; Lu, Z.; Thibaud\u0002Nissen, F.; Murphy, T.; Phan, L.; Skripchenko, Y.; Tse, T.; Wang, J.;\r\nWilliams, R.; Trawick, B. W.; Pruitt, K. D.; Sherry, S. T. Database\r\nResources of the National Center for Biotechnology Information.\r\nNucleic Acids Res. 2022, 50 (D1), D20−D26.\r\n(57) Ramsundar, B.; Eastman, P.; Walters, P.; Pande, V. Deep\r\nLearning for the Life Sciences: Applying Deep Learning to Genomics,\r\nMicroscopy, Drug Discovery and More, 1st ed.; O’Reilly Media:\r\nSebastopol, CA, 2019.\r\n(58) Morris, G. M.; Goodsell, D. S.; Halliday, R. S.; Huey, R.; Hart,\r\nW. E.; Belew, R. K.; Olson, A. J. Automated Docking Using a\r\nLamarckian Genetic Algorithm and an Empirical Binding Free Energy\r\nFunction. J. Comput. Chem. 1998, 19 (14), 1639−1662.\r\n(59) Morris, G. M.; Huey, R.; Lindstrom, W.; Sanner, M. F.; Belew,\r\nR. K.; Goodsell, D. S.; Olson, A. J. AutoDock4 and AutoDockTools4:\r\nAutomated Docking with Selective Receptor Flexibility. J. Comput.\r\nChem. 2009, 30 (16), 2785−2791.\r\n(60) Laskowski, R. A.; Swindells, M. B. LigPlot+: Multiple Ligand−\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 36,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 501,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Protein Interaction Diagrams for Drug Discovery. J. Chem. Inf. Model.\r\n2011, 51 (10), 2778−2786.\r\n(61) Wallace, A. C.; Laskowski, R. A.; Thornton, J. M. LIGPLOT: A\r\nProgram to Generate Schematic Diagrams of Protein-Ligand\r\nInteractions. Protein Eng. Des. Sel. 1995, 8 (2), 127−134.\r\n(62) Schmid, N.; Eichenberger, A. P.; Choutko, A.; Riniker, S.;\r\nWinger, M.; Mark, A. E.; van Gunsteren, W. F. Definition and Testing\r\nof the GROMOS Force-Field Versions 54A7 and 54B7. Eur. Biophys.\r\nJ. 2011, 40 (7), 843−856.\r\n(63) Malde, A. K.; Zuo, L.; Breeze, M.; Stroet, M.; Poger, D.; Nair,\r\nP. C.; Oostenbrink, C.; Mark, A. E. An Automated Force Field\r\nTopology Builder (ATB) and Repository: Version 1.0. J. Chem.\r\nTheory Comput. 2011, 7 (12), 4026−4037.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\nACS Omega 2023, 8, 38373−38385\r\n38384\n(64) Wu, Y.; Tepper, H. L.; Voth, G. A. Flexible Simple Point\u0002Charge Water Model with Improved Liquid-State Properties. J. Chem.\r\nPhys. 2006, 124 (2), No. 024503.\r\n(65) Parrinello, M.; Rahman, A. Crystal Structure and Pair\r\nPotentials: A Molecular-Dynamics Study. Phys. Rev. Lett. 1980, 45\r\n(14), 1196−1199.\r\n(66) Hess, B.; Bekker, H.; Berendsen, H. J.; Fraaije, J. G. LINCS: A\r\nLinear Constraint Solver for Molecular Simulations. J. Comput. Chem.\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 37,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 494,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "1997, 18 (12), 1463−1472, DOI: 10.1002/(sici)1096-987x(199709)\r\n18:123.0.co;2-h.\r\n(67) Abraham, M. J.; Murtola, T.; Schulz, R.; Páll, S.; Smith, J. C.;\r\nHess, B.; Lindahl, E. GROMACS: High Performance Molecular\r\nSimulations through Multi-Level Parallelism from Laptops to\r\nSupercomputers. SoftwareX 2015, 1−2, 19−25.\r\n(68) Kumari, R.; Kumar, R.; Lynn, A. G_mmpbsa �A GROMACS\r\nTool for High-Throughput MM-PBSA Calculations. J. Chem. Inf.\r\nModel. 2014, 54 (7), 1951−1962.\r\n(69) Choi, J.; Chen, J.; Schreiber, S. L.; Clardy, J. Structure of the\r\nFKBP12-Rapamycin Complex Interacting with Binding Domain of\r\nHuman FRAP. Science 1996, 273 (5272), 239−242.\r\n(70) Panda, S. K.; Sahoo, G.; Swain, S. S.; Luyten, W. Anticancer\r\nActivities of Mushrooms: A Neglected Source for Drug Discovery.\r\nPharmaceuticals 2022, 15 (2), 176.\r\n(71) Wasser, S. P. Medicinal Mushroom Science: History, Current\r\nStatus, Future Trends, and Unsolved Problems. Int. J. Med.\r\nMushrooms 2010, 12 (1), 1−16.\r\n(72) Zaidman, B.-Z.; Yassin, M.; Mahajna, J.; Wasser, S. P. Medicinal\r\nMushroom Modulators of Molecular Targets as Cancer Therapeutics.\r\nAppl. Microbiol. Biotechnol. 2005, 67 (4), 453−468.\r\n(73) Fangkrathok, N.; Sripanidkulchai, B.; Umehara, K.; Noguchi,\r\nH. Bioactive Ergostanoids and a New Polyhydroxyoctane from\r\n"
+  },
+  {
+    "meta": {
+      "captions": null,
+      "chunk_index": 38,
+      "doc_items": [],
+      "end_page": 12,
+      "has_major_heading": false,
+      "headings": [],
+      "min_heading_level": 2147483647,
+      "origin": {
+        "binary_hash": -3104037408503717757,
+        "filename": "ao3c04827.PMC10586184.pdf",
+        "mimetype": "application/pdf",
+        "uri": null
+      },
+      "page_count": 13,
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "start_page": 0,
+      "token_count": 168,
+      "total_chunks": 39,
+      "version": "1.0.0"
+    },
+    "text": "Lentinus Polychrous Mycelia and Their Inhibitory Effects on E2-\r\nEnhanced Cell Proliferation of T47D Cells. Nat. Prod. Res. 2013, 27\r\n(18), 1611−1619.\r\n(74) Yuen, J. W. M.; Gohel, M. D. I. Anticancer Effects of\r\nGanoderma Lucidum: A Review of Scientific Evidence. Nutr. Cancer\r\n2005, 53 (1), 11−17.\r\nACS Omega http://pubs.acs.org/journal/acsodf Article\r\nhttps://doi.org/10.1021/acsomega.3c04827\r\nACS Omega 2023, 8, 38373−38385\r\n38385\n\n"
+  }
+]
