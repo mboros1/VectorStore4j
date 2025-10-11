@@ -19,7 +19,7 @@ import java.util.*;
 import static java.nio.file.StandardOpenOption.READ;
 
 public class JsonLoader {
-    public static record DocDigest(long hash64, int textChars) {
+    public record DocDigest(long hash64, int textChars) {
     }
 
     private static final Logger log = LoggerFactory.getLogger(JsonLoader.class);
