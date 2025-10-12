@@ -11,7 +11,6 @@ import org.junit.jupiter.params.provider.EnumSource;
 
 import java.io.EOFException;
 import java.io.IOException;
-import java.io.UncheckedIOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
@@ -48,13 +47,14 @@ public class VectorMemoryTest {
     @ParameterizedTest
     @EnumSource(Dtype.class)
     void allocRowAndPutArrayWritesSequentialRows(Dtype dtype, @TempDir Path tempDir) throws Exception {
+        AtomicInteger counter = new AtomicInteger();
         int dim = 4;
         float[] first = new float[]{1f, -2.5f, 3.25f, 0.5f};
         float[] second = new float[]{9f, 8f, 7f, 6f};
 
         try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
-            RowCursor row0 = memory.allocRow();
-            RowCursor row1 = memory.allocRow();
+            RowCursor row0 = memory.allocRow(counter.getAndIncrement());
+            RowCursor row1 = memory.allocRow(counter.getAndIncrement());
 
             assertEquals(0, row0.rowIndex());
             assertEquals(1, row1.rowIndex());
@@ -77,7 +77,7 @@ public class VectorMemoryTest {
         float[] source = new float[]{9f, 0f, 1f, 2f, 3f, 4f};
 
         try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
-            RowCursor row = memory.allocRow();
+            RowCursor row = memory.allocRow(0);
             row.putArray(source, 2);
         }
 
@@ -93,7 +93,7 @@ public class VectorMemoryTest {
         buffer.position(1);
 
         try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
-            RowCursor row = memory.allocRow();
+            RowCursor row = memory.allocRow(0);
             row.putBuffer(buffer);
             assertEquals(1 + dim, buffer.position());
         }
@@ -109,7 +109,7 @@ public class VectorMemoryTest {
         FloatBuffer buffer = FloatBuffer.wrap(new float[]{1f, 2f, 3f});
 
         try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
-            RowCursor row = memory.allocRow();
+            RowCursor row = memory.allocRow(0);
             IllegalArgumentException ex = assertThrows(IllegalArgumentException.class, () -> row.putBuffer(buffer));
             assertTrue(ex.getMessage() == null || ex.getMessage().toLowerCase(Locale.ROOT).contains("enough"));
         }
@@ -121,7 +121,7 @@ public class VectorMemoryTest {
         int dim = 4;
 
         try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
-            RowCursor row = memory.allocRow();
+            RowCursor row = memory.allocRow(0);
             try (JsonParser parser = JSON_FACTORY.createParser("[1, 2e-1, \"3E+1\", -4.5]")) {
                 parser.nextToken();
                 row.putFromJsonArray(parser);
@@ -138,7 +138,7 @@ public class VectorMemoryTest {
         int dim = 3;
 
         try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
-            RowCursor row = memory.allocRow();
+            RowCursor row = memory.allocRow(0);
             try (JsonParser parser = JSON_FACTORY.createParser("[1, {\"x\":2}, 3]")) {
                 parser.nextToken();
                 assertThrows(IOException.class, () -> row.putFromJsonArray(parser));
@@ -152,7 +152,7 @@ public class VectorMemoryTest {
         int dim = 3;
 
         try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
-            RowCursor row = memory.allocRow();
+            RowCursor row = memory.allocRow(0);
 
             try (JsonParser shortParser = JSON_FACTORY.createParser("[1, 2]")) {
                 shortParser.nextToken();
@@ -175,6 +175,7 @@ public class VectorMemoryTest {
         long shardSizeBytes = (long) dtype.bytes() * dim * 2; // force 2 rows/shard
         int rowsToWrite = 5;
         float[][] expected = new float[rowsToWrite][dim];
+        AtomicInteger rowCounter = new AtomicInteger(0);
         for (int r = 0; r < rowsToWrite; r++) {
             expected[r] = buildDeterministicRow(r, dim);
         }
@@ -184,7 +185,7 @@ public class VectorMemoryTest {
 
         try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype, shardSizeBytes)) {
             for (float[] src : expected) {
-                RowCursor row = memory.allocRow();
+                RowCursor row = memory.allocRow(rowCounter.getAndIncrement());
                 row.putArray(src, 0);
             }
         }
@@ -215,6 +216,7 @@ public class VectorMemoryTest {
         int rowsPerThread = 64;
         long shardSizeBytes = (long) dtype.bytes() * dim * 32;
         int totalRows = threads * rowsPerThread;
+        AtomicInteger rowCount = new AtomicInteger(0);
 
         ThreadPoolExecutor executor = newExecutor(threads);
         try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype, shardSizeBytes)) {
@@ -222,7 +224,7 @@ public class VectorMemoryTest {
             SplittableRandom seeds = new SplittableRandom(0x5eed);
             for (int t = 0; t < threads; t++) {
                 long seed = seeds.nextLong();
-                tasks.add(() -> writeRandomRows(memory, dim, rowsPerThread, seed));
+                tasks.add(() -> writeRandomRows(memory, dim, rowsPerThread, seed, rowCount));
             }
 
             ExecutorCompletionService<int[]> completion = new ExecutorCompletionService<>(executor);
@@ -254,6 +256,7 @@ public class VectorMemoryTest {
         int rowsPerThread = 32;
         long shardSizeBytes = (long) dtype.bytes() * dim * 16;
         int totalRows = threads * rowsPerThread;
+        AtomicInteger rowCount = new AtomicInteger(0);
 
         ThreadPoolExecutor executor = newExecutor(threads);
         try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype, shardSizeBytes)) {
@@ -262,7 +265,7 @@ public class VectorMemoryTest {
             CyclicBarrier barrier = new CyclicBarrier(threads);
             for (int t = 0; t < threads; t++) {
                 long seed = seeds.nextLong();
-                tasks.add(() -> writeRowsWithInterleaving(memory, dim, rowsPerThread, seed, barrier));
+                tasks.add(() -> writeRowsWithInterleaving(memory, dim, rowsPerThread, seed, barrier, rowCount));
             }
 
             ExecutorCompletionService<int[]> completion = new ExecutorCompletionService<>(executor);
@@ -297,7 +300,7 @@ public class VectorMemoryTest {
 
         try (VectorMemory memory = VectorMemory.create(tempDir, dim, Dtype.F16, shardSizeBytes)) {
             for (int row = 0; row < rows; row++) {
-                RowCursor cursor = memory.allocRow();
+                RowCursor cursor = memory.allocRow(row);
                 cursor.putArray(source, row * dim);
             }
         }
@@ -333,7 +336,7 @@ public class VectorMemoryTest {
         }
 
         try (VectorMemory memory = VectorMemory.create(tempDir, dim, Dtype.F16)) {
-            RowCursor row = memory.allocRow();
+            RowCursor row = memory.allocRow(0);
             row.putArray(values, 0);
         }
 
@@ -521,10 +524,10 @@ public class VectorMemoryTest {
                             if ("embedding".equals(metaField)) {
                                 float[] local = buffer.get();
                                 readEmbedding(parser, dim, local);
-                                RowCursor row = memory.allocRow();
+                                var currRow = totalRows.getAndIncrement();
+                                RowCursor row = memory.allocRow(currRow);
                                 row.putArray(local, 0);
                                 sampleWindow.capture(row.rowIndex(), local);
-                                totalRows.incrementAndGet();
                             } else {
                                 parser.skipChildren();
                             }
@@ -608,13 +611,13 @@ public class VectorMemoryTest {
         return result;
     }
 
-    private static int[] writeRandomRows(VectorMemory memory, int dim, int count, long seed) {
+    private static int[] writeRandomRows(VectorMemory memory, int dim, int count, long seed, AtomicInteger rowCounter) {
         SplittableRandom rng = new SplittableRandom(seed);
         float[] buffer = new float[dim];
         int[] indexes = new int[count];
         for (int i = 0; i < count; i++) {
             fillRandom(buffer, rng);
-            RowCursor row = memory.allocRow();
+            RowCursor row = memory.allocRow(rowCounter.getAndIncrement());
             row.putArray(buffer, 0);
             indexes[i] = row.rowIndex();
         }
@@ -625,20 +628,20 @@ public class VectorMemoryTest {
                                                    int dim,
                                                    int count,
                                                    long seed,
-                                                   CyclicBarrier barrier) throws Exception {
+                                                   CyclicBarrier barrier, AtomicInteger rowCounter) throws Exception {
         SplittableRandom rng = new SplittableRandom(seed);
         float[] buffer = new float[dim];
         int[] indexes = new int[count];
         for (int i = 0; i < count; i++) {
             fillRandom(buffer, rng);
             if (rng.nextBoolean()) {
-                RowCursor row = memory.allocRow();
+                RowCursor row = memory.allocRow(rowCounter.getAndIncrement());
                 barrier.await();
                 row.putArray(buffer, 0);
                 indexes[i] = row.rowIndex();
             } else {
                 barrier.await();
-                RowCursor row = memory.allocRow();
+                RowCursor row = memory.allocRow(rowCounter.getAndIncrement());
                 row.putArray(buffer, 0);
                 indexes[i] = row.rowIndex();
             }

@@ -22,10 +22,10 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
     protected final Dtype dtype;
     protected final int rowDim;
     protected final int rowsPerShard;
-    protected final AtomicInteger currentRow = new AtomicInteger(0);
     protected final ConcurrentHashMap<Integer, MemorySegment> shards = new ConcurrentHashMap<>();
     protected final Path bundlePath;
     private final Arena arena = Arena.ofShared();
+    private final AtomicInteger rowCounter = new AtomicInteger(0);
 
     public BaseVectorMemory(Path bundlePath, int dim, Dtype dtype) {
         this(bundlePath, dim, dtype, DEFAULT_SHARD_SIZE_BYTES);
@@ -48,8 +48,8 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
     protected abstract RowCursor newRow(int rowId, MemorySegment rowSeg, int rowDim);
 
     @Override
-    public final RowCursor allocRow() {
-        int rowId = currentRow.getAndIncrement();
+    public final RowCursor allocRow(int rowId) {
+        rowCounter.incrementAndGet();
         int shardId = rowId / rowsPerShard;
         int idxInShard = rowId % rowsPerShard;
         MemorySegment shard = shardFor(shardId);
@@ -98,7 +98,7 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
     }
 
     private void trimShardFiles() {
-        int totalRows = currentRow.get();
+        int totalRows = rowCounter.get();
         if (totalRows <= 0) return;
 
         int totalShards = Math.toIntExact((totalRows + (long) rowsPerShard - 1) / rowsPerShard);

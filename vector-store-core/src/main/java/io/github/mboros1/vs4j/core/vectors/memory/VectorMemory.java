@@ -5,7 +5,7 @@ import io.github.mboros1.vs4j.core.vectors.enums.Dtype;
 import java.nio.file.Path;
 
 public interface VectorMemory extends AutoCloseable {
-    RowCursor allocRow();
+    RowCursor allocRow(int rowId);
     int dim();
     void close() throws Exception;
     Dtype dtype();
