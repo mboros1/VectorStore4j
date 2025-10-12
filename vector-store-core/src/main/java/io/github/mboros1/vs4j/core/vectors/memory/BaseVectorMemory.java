@@ -21,11 +21,11 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
     protected final int rowBytes;
     protected final Dtype dtype;
     protected final int rowDim;
+    protected final int rowsPerShard;
     protected final AtomicInteger currentRow = new AtomicInteger(0);
     protected final ConcurrentHashMap<Integer, MemorySegment> shards = new ConcurrentHashMap<>();
     protected final Path bundlePath;
     private final Arena arena = Arena.ofShared();
-    protected final VectorLayout layout;
 
     public BaseVectorMemory(Path bundlePath, int dim, Dtype dtype) {
         this(bundlePath, dim, dtype, DEFAULT_SHARD_SIZE_BYTES);
@@ -42,11 +42,7 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
 
         long normalizedShardSize = Math.max(shardSizeBytes, (long) rowBytes);
         this.shardSizeBytes = normalizedShardSize;
-        long rowsPerShardLong = Math.max(1L, normalizedShardSize / rowBytes);
-        if (rowsPerShardLong > Integer.MAX_VALUE) {
-            throw new IllegalArgumentException("rowsPerShard overflow: " + rowsPerShardLong);
-        }
-        this.layout = new VectorLayout(rowDim, rowBytes, (int) rowsPerShardLong);
+        rowsPerShard = Math.toIntExact(Math.max(1L, normalizedShardSize / rowBytes));
     }
 
     protected abstract RowCursor newRow(int rowId, MemorySegment rowSeg, int rowDim);
@@ -54,7 +50,6 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
     @Override
     public final RowCursor allocRow() {
         int rowId = currentRow.getAndIncrement();
-        int rowsPerShard = layout.rowsPerShard();
         int shardId = rowId / rowsPerShard;
         int idxInShard = rowId % rowsPerShard;
         MemorySegment shard = shardFor(shardId);
@@ -102,14 +97,10 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
         return dtype;
     }
 
-    protected record VectorLayout(int dim, int rowBytes, int rowsPerShard) {
-    }
-
     private void trimShardFiles() {
         int totalRows = currentRow.get();
         if (totalRows <= 0) return;
 
-        int rowsPerShard = layout.rowsPerShard();
         int totalShards = Math.toIntExact((totalRows + (long) rowsPerShard - 1) / rowsPerShard);
 
         for (int shardId = 0; shardId < totalShards; shardId++) {
