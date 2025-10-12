@@ -39,7 +39,7 @@ public final class RowF32 implements RowCursor {
             float v = jp.currentToken().isNumeric()
                     ? jp.getFloatValue()
                     : Float.parseFloat(jp.getValueAsString());
-            F32_LE.set(rowSeg, (long) i * 4, v);
+            F32_LE.set(rowSeg, (long) i * Float.BYTES, v);
             i++;
         }
         if (i != rowDim) throw new IOException("row " + rowId + " incomplete: " + i + "/" + rowDim);
@@ -48,7 +48,7 @@ public final class RowF32 implements RowCursor {
     @Override
     public void putArray(float[] src, int off) {
         for (int i = 0; i < rowDim; i++) {
-            F32_LE.set(rowSeg, (long) i * 4, src[off + i]);
+            F32_LE.set(rowSeg, (long) i * Float.BYTES, src[off + i]);
         }
     }
 

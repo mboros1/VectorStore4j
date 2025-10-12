@@ -40,7 +40,7 @@ public final class RowF16 implements RowCursor {
             short h = jp.currentToken().isNumeric()
                     ? Float.floatToFloat16(jp.getFloatValue())
                     : Float.floatToFloat16(Float.parseFloat(jp.getValueAsString()));
-            F16_LE.set(rowSeg, (long) i * 4, h);
+            F16_LE.set(rowSeg, (long) i * Short.BYTES, h);
             i++;
         }
         if (i != rowDim) throw new IOException("row " + rowId + " incomplete: " + i + "/" + rowDim);
@@ -51,7 +51,7 @@ public final class RowF16 implements RowCursor {
     public void putArray(float[] src, int off) {
         for (int i = 0; i < rowDim; i++) {
             final short h = Float.floatToFloat16(src[off + i]);
-            F16_LE.set(rowSeg, (long) i * 4, h);
+            F16_LE.set(rowSeg, (long) i * Short.BYTES, h);
         }
     }
 

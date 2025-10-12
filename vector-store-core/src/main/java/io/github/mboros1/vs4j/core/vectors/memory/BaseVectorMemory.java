@@ -7,13 +7,16 @@ import java.io.UncheckedIOException;
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
 import java.nio.channels.FileChannel;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
+import java.util.Locale;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-abstract class BaseVectorMemory implements VectorMemory {
-    protected static final int shardSize = 1024 * 1024 * 1024;
+sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMemoryF32, VectorMemoryF16 {
+    protected static final long SHARD_SIZE = 1 << 30; // 1 GiB
+
     protected final int rowsPerShard;
     protected final int rowBytes;
     protected final Dtype dtype;
@@ -25,14 +28,18 @@ abstract class BaseVectorMemory implements VectorMemory {
 
     public BaseVectorMemory(Path bundlePath, int dim, Dtype dtype) {
         this.bundlePath = bundlePath;
+        try { Files.createDirectories(bundlePath); }
+        catch (IOException e) { throw new UncheckedIOException(e); }
         this.rowDim = dim;
         this.dtype = dtype;
         this.rowBytes = rowDim * dtype.bytes();
-        this.rowsPerShard = shardSize / rowBytes;
+        this.rowsPerShard = Math.toIntExact(SHARD_SIZE / rowBytes);
+        if (this.rowsPerShard <= 0) throw new IllegalArgumentException("dim too large: rowBytes=" + rowBytes);
     }
 
     protected abstract RowCursor newRow(int rowId, MemorySegment rowSeg, int rowDim);
 
+    @Override
     public final RowCursor allocRow() {
         int rowId = currentRow.getAndIncrement();
         int shardId = rowId / rowsPerShard;
@@ -44,7 +51,7 @@ abstract class BaseVectorMemory implements VectorMemory {
     }
 
     private Path vectorsPathFor(int shardId) {
-        return bundlePath.resolve("vectors" + shardId + "." + dtype.name().toLowerCase());
+        return bundlePath.resolve("vectors" + shardId + "." + dtype.name().toLowerCase(Locale.ROOT));
     }
 
     private MemorySegment shardFor(int shardId) {
@@ -56,18 +63,25 @@ abstract class BaseVectorMemory implements VectorMemory {
 
         try (FileChannel fc = FileChannel.open(p,
                 StandardOpenOption.CREATE, StandardOpenOption.READ, StandardOpenOption.WRITE)) {
-            fc.truncate(shardSize);
-            return fc.map(FileChannel.MapMode.READ_WRITE, 0, shardSize, arena);
+            fc.truncate(SHARD_SIZE);
+            return fc.map(FileChannel.MapMode.READ_WRITE, 0, SHARD_SIZE, arena);
         } catch (IOException e) {
             throw new UncheckedIOException(e);
         }
     }
 
+    @Override
     public int dim() {
         return rowDim;
     }
 
+    @Override
     public void close() throws Exception {
+        arena.close();
+    }
 
+    @Override
+    public Dtype dtype() {
+        return dtype;
     }
 }

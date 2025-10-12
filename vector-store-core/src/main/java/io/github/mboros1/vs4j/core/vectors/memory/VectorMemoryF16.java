@@ -5,9 +5,9 @@ import io.github.mboros1.vs4j.core.vectors.enums.Dtype;
 import java.lang.foreign.MemorySegment;
 import java.nio.file.Path;
 
-public class VectorMemoryF16 extends BaseVectorMemory {
+final public class VectorMemoryF16 extends BaseVectorMemory {
 
-    public VectorMemoryF16(Path bundlePath, int dim) {
+    VectorMemoryF16(Path bundlePath, int dim) {
         super(bundlePath, dim, Dtype.F16);
     }
 

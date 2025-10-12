@@ -5,6 +5,9 @@ public enum Dtype {
     F32;
 
     public int bytes() {
-        return this.name().equals("F16") ? 2 : 4;
+        return switch (this) {
+            case F16 -> 2;
+            case F32 -> 4;
+        };
     }
 }
