@@ -15,9 +15,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
 sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMemoryF32, VectorMemoryF16 {
-    protected static final long SHARD_SIZE = 1 << 30; // 1 GiB
+    static final long DEFAULT_SHARD_SIZE_BYTES = 1L << 30; // 1 GiB
 
-    protected final int rowsPerShard;
+    protected final long shardSizeBytes;
     protected final int rowBytes;
     protected final Dtype dtype;
     protected final int rowDim;
@@ -25,16 +25,28 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
     protected final ConcurrentHashMap<Integer, MemorySegment> shards = new ConcurrentHashMap<>();
     protected final Path bundlePath;
     private final Arena arena = Arena.ofShared();
+    protected final VectorLayout layout;
 
     public BaseVectorMemory(Path bundlePath, int dim, Dtype dtype) {
+        this(bundlePath, dim, dtype, DEFAULT_SHARD_SIZE_BYTES);
+    }
+
+    public BaseVectorMemory(Path bundlePath, int dim, Dtype dtype, long shardSizeBytes) {
         this.bundlePath = bundlePath;
         try { Files.createDirectories(bundlePath); }
         catch (IOException e) { throw new UncheckedIOException(e); }
         this.rowDim = dim;
         this.dtype = dtype;
         this.rowBytes = rowDim * dtype.bytes();
-        this.rowsPerShard = Math.toIntExact(SHARD_SIZE / rowBytes);
-        if (this.rowsPerShard <= 0) throw new IllegalArgumentException("dim too large: rowBytes=" + rowBytes);
+        if (rowBytes <= 0) throw new IllegalArgumentException("invalid row size: " + rowBytes);
+
+        long normalizedShardSize = Math.max(shardSizeBytes, (long) rowBytes);
+        this.shardSizeBytes = normalizedShardSize;
+        long rowsPerShardLong = Math.max(1L, normalizedShardSize / rowBytes);
+        if (rowsPerShardLong > Integer.MAX_VALUE) {
+            throw new IllegalArgumentException("rowsPerShard overflow: " + rowsPerShardLong);
+        }
+        this.layout = new VectorLayout(rowDim, rowBytes, (int) rowsPerShardLong);
     }
 
     protected abstract RowCursor newRow(int rowId, MemorySegment rowSeg, int rowDim);
@@ -42,6 +54,7 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
     @Override
     public final RowCursor allocRow() {
         int rowId = currentRow.getAndIncrement();
+        int rowsPerShard = layout.rowsPerShard();
         int shardId = rowId / rowsPerShard;
         int idxInShard = rowId % rowsPerShard;
         MemorySegment shard = shardFor(shardId);
@@ -63,8 +76,8 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
 
         try (FileChannel fc = FileChannel.open(p,
                 StandardOpenOption.CREATE, StandardOpenOption.READ, StandardOpenOption.WRITE)) {
-            fc.truncate(SHARD_SIZE);
-            return fc.map(FileChannel.MapMode.READ_WRITE, 0, SHARD_SIZE, arena);
+            fc.truncate(shardSizeBytes);
+            return fc.map(FileChannel.MapMode.READ_WRITE, 0, shardSizeBytes, arena);
         } catch (IOException e) {
             throw new UncheckedIOException(e);
         }
@@ -77,11 +90,42 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
 
     @Override
     public void close() throws Exception {
-        arena.close();
+        try {
+            arena.close();
+        } finally {
+            trimShardFiles();
+        }
     }
 
     @Override
     public Dtype dtype() {
         return dtype;
+    }
+
+    protected record VectorLayout(int dim, int rowBytes, int rowsPerShard) {
+    }
+
+    private void trimShardFiles() {
+        int totalRows = currentRow.get();
+        if (totalRows <= 0) return;
+
+        int rowsPerShard = layout.rowsPerShard();
+        int totalShards = Math.toIntExact((totalRows + (long) rowsPerShard - 1) / rowsPerShard);
+
+        for (int shardId = 0; shardId < totalShards; shardId++) {
+            int rowsInShard = rowsPerShard;
+            if (shardId == totalShards - 1) {
+                int remainder = totalRows % rowsPerShard;
+                if (remainder != 0) rowsInShard = remainder;
+            }
+            long targetSize = (long) rowsInShard * rowBytes;
+            Path path = vectorsPathFor(shardId);
+            if (!Files.exists(path)) continue;
+            try (FileChannel fc = FileChannel.open(path, StandardOpenOption.WRITE)) {
+                fc.truncate(targetSize);
+            } catch (IOException e) {
+                throw new UncheckedIOException(e);
+            }
+        }
     }
 }

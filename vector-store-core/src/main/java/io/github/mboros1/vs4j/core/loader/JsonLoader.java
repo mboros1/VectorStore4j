@@ -42,23 +42,8 @@ public class JsonLoader {
         return digests;
     }
 
-    public static Map<String, DocDigest> ingestDocumentsNoMmap(String dirName) throws IOException {
-        Path dir = Path.of(dirName);
-        Map<String, DocDigest> digests = new HashMap<>();
-        Arrays.stream(Objects.requireNonNull(dir.toFile().listFiles()))
-                .parallel()
-                .forEach(p -> {
-                    try {
-                        ingestDocuments(new BufferedInputStream(new FileInputStream(p)), digests);
-                    } catch (FileNotFoundException e) {
-                        throw new RuntimeException(e);
-                    }
-                });
-        return digests;
-    }
-
     private static void ingestDocuments(InputStream in) {
-        try (JsonParser jp = JF.createParser(in); VectorFileSink sink = new VectorFileSink("", 1024, 10*1024)) {
+        try (JsonParser jp = JF.createParser(in); VectorFileSink sink = new VectorFileSink(Path.of(".vs-bundle"), 1024, 10*1024)) {
 
             if (jp.nextToken() != JsonToken.START_ARRAY) {
                 throw new IllegalArgumentException("Top-level array expected: ");
@@ -74,7 +59,7 @@ public class JsonLoader {
                 }
                 while (jp.nextToken() != JsonToken.END_OBJECT) {
                     if (jp.currentToken() != JsonToken.FIELD_NAME) continue;
-                    String field = jp.getCurrentName();
+                    String field = jp.currentName();
                     jp.nextToken();
                     switch (field) {
                         case "meta", "metadata" -> {
@@ -82,7 +67,7 @@ public class JsonLoader {
                                 // dive into meta → origin → filename
                                 while (jp.nextToken() != JsonToken.END_OBJECT) {
                                     if (jp.currentToken() != JsonToken.FIELD_NAME) continue;
-                                    String mfield = jp.getCurrentName();
+                                    String mfield = jp.currentName();
                                     jp.nextToken();
                                     if (mfield.equals("embeddings") && jp.currentToken() == JsonToken.START_ARRAY) {
 
