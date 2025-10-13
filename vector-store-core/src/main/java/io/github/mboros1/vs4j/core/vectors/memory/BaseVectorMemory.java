@@ -26,6 +26,7 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
     protected final Path bundlePath;
     private final Arena arena = Arena.ofShared();
     private final AtomicInteger rowCounter = new AtomicInteger(0);
+    private boolean arenaClosed = false;
 
     public BaseVectorMemory(Path bundlePath, int dim, Dtype dtype) {
         this(bundlePath, dim, dtype, DEFAULT_SHARD_SIZE_BYTES);
@@ -86,10 +87,15 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
     @Override
     public void close() throws Exception {
         try {
-            arena.close();
+            closeArena();
         } finally {
             trimShardFiles();
         }
+    }
+
+    private void closeArena() {
+        arena.close();
+        arenaClosed = true;
     }
 
     @Override
@@ -98,6 +104,9 @@ sealed abstract class BaseVectorMemory implements VectorMemory permits VectorMem
     }
 
     private void trimShardFiles() {
+        if (!arenaClosed) {
+            closeArena();
+        }
         int totalRows = rowCounter.get();
         if (totalRows <= 0) return;
 
