@@ -11,6 +11,10 @@ final public class VectorMemoryF16 extends BaseVectorMemory {
         super(bundlePath, dim, Dtype.F16);
     }
 
+    VectorMemoryF16(Path bundlePath, int dim, long shardSizeBytes) {
+        super(bundlePath, dim, Dtype.F16, shardSizeBytes);
+    }
+
     @Override
     protected RowCursor newRow(int rowId, MemorySegment rowSeg, int rowDim) {
         return new RowF16(rowId, rowSeg, rowDim);

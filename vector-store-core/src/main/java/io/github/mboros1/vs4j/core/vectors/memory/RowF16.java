@@ -12,8 +12,8 @@ import java.nio.FloatBuffer;
 import java.nio.ShortBuffer;
 
 public final class RowF16 implements RowCursor {
-    private static final VarHandle F16_LE =
-            ValueLayout.JAVA_SHORT_UNALIGNED.withOrder(ByteOrder.LITTLE_ENDIAN).varHandle();
+    private static final ValueLayout.OfShort F16_LE =
+            ValueLayout.JAVA_SHORT_UNALIGNED.withOrder(ByteOrder.LITTLE_ENDIAN);
 
     private final int rowId;
     private final MemorySegment rowSeg;
@@ -23,6 +23,10 @@ public final class RowF16 implements RowCursor {
         this.rowId = rowId;
         this.rowSeg = rowSeg;
         this.rowDim = rowDim;
+    }
+
+    private void setBytes(MemorySegment rowSeg, long offset, short value) {
+        rowSeg.set(F16_LE, offset * Short.BYTES, value);
     }
 
     @Override
@@ -37,10 +41,16 @@ public final class RowF16 implements RowCursor {
         int i = 0;
         while (jp.nextToken() != JsonToken.END_ARRAY) {
             if (i >= rowDim) throw new IOException("too many elements");
-            short h = jp.currentToken().isNumeric()
-                    ? Float.floatToFloat16(jp.getFloatValue())
-                    : Float.floatToFloat16(Float.parseFloat(jp.getValueAsString()));
-            F16_LE.set(rowSeg, (long) i * Short.BYTES, h);
+            float v;
+            if (jp.currentToken().isNumeric()) {
+                v = jp.getFloatValue();
+            } else if (jp.currentToken() == JsonToken.VALUE_STRING) {
+                v = Float.parseFloat(jp.getValueAsString());
+            } else {
+                throw new IOException("non-numeric value in embedding: " + jp.currentToken());
+            }
+            short h = Float.floatToFloat16(v);
+            setBytes(rowSeg, i, h);
             i++;
         }
         if (i != rowDim) throw new IOException("row " + rowId + " incomplete: " + i + "/" + rowDim);
@@ -51,7 +61,7 @@ public final class RowF16 implements RowCursor {
     public void putArray(float[] src, int off) {
         for (int i = 0; i < rowDim; i++) {
             final short h = Float.floatToFloat16(src[off + i]);
-            F16_LE.set(rowSeg, (long) i * Short.BYTES, h);
+            setBytes(rowSeg, i, h);
         }
     }
 

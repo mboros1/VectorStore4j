@@ -11,8 +11,8 @@ import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 
 public final class RowF32 implements RowCursor {
-    private static final VarHandle F32_LE =
-            ValueLayout.JAVA_FLOAT_UNALIGNED.withOrder(ByteOrder.LITTLE_ENDIAN).varHandle();
+    private static final ValueLayout.OfFloat F32_LE =
+            ValueLayout.JAVA_FLOAT_UNALIGNED.withOrder(ByteOrder.LITTLE_ENDIAN);
 
     private final int rowId;
     private final MemorySegment rowSeg;
@@ -22,6 +22,10 @@ public final class RowF32 implements RowCursor {
         this.rowId = rowId;
         this.rowSeg = rowSeg;
         this.rowDim = rowDim;
+    }
+
+    private void setBytes(MemorySegment rowSeg, long offset, float value) {
+        rowSeg.set(F32_LE, offset * Float.BYTES, value);
     }
 
     @Override
@@ -36,10 +40,15 @@ public final class RowF32 implements RowCursor {
         int i = 0;
         while (jp.nextToken() != JsonToken.END_ARRAY) {
             if (i >= rowDim) throw new IOException("too many elements");
-            float v = jp.currentToken().isNumeric()
-                    ? jp.getFloatValue()
-                    : Float.parseFloat(jp.getValueAsString());
-            F32_LE.set(rowSeg, (long) i * Float.BYTES, v);
+            float v;
+            if (jp.currentToken().isNumeric()) {
+                v = jp.getFloatValue();
+            } else if (jp.currentToken() == JsonToken.VALUE_STRING) {
+                v = Float.parseFloat(jp.getValueAsString());
+            } else {
+                throw new IOException("non-numeric value in embedding: " + jp.currentToken());
+            }
+            setBytes(rowSeg, i, v);
             i++;
         }
         if (i != rowDim) throw new IOException("row " + rowId + " incomplete: " + i + "/" + rowDim);
@@ -48,7 +57,8 @@ public final class RowF32 implements RowCursor {
     @Override
     public void putArray(float[] src, int off) {
         for (int i = 0; i < rowDim; i++) {
-            F32_LE.set(rowSeg, (long) i * Float.BYTES, src[off + i]);
+            float v = src[off + i];
+            setBytes(rowSeg, i, v);
         }
     }
 
