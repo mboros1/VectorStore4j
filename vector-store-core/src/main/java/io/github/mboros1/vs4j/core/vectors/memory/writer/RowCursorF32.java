@@ -9,7 +9,7 @@ import java.lang.foreign.ValueLayout;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 
-public final class RowF32 implements RowCursor {
+public final class RowCursorF32 implements RowCursor {
     private static final ValueLayout.OfFloat F32_LE =
             ValueLayout.JAVA_FLOAT_UNALIGNED.withOrder(ByteOrder.LITTLE_ENDIAN);
 
@@ -17,7 +17,7 @@ public final class RowF32 implements RowCursor {
     private final MemorySegment rowSeg;
     private final int rowDim;
 
-    public RowF32(int rowId, MemorySegment rowSeg, int rowDim) {
+    public RowCursorF32(int rowId, MemorySegment rowSeg, int rowDim) {
         this.rowId = rowId;
         this.rowSeg = rowSeg;
         this.rowDim = rowDim;

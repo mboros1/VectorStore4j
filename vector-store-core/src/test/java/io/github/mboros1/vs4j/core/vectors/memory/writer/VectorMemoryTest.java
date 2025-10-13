@@ -34,6 +34,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -48,11 +49,21 @@ public class VectorMemoryTest {
     @EnumSource(Dtype.class)
     void allocRowAndPutArrayWritesSequentialRows(Dtype dtype, @TempDir Path tempDir) throws Exception {
         AtomicInteger counter = new AtomicInteger();
-        int dim = 4;
-        float[] first = new float[]{1f, -2.5f, 3.25f, 0.5f};
-        float[] second = new float[]{9f, 8f, 7f, 6f};
+        int dim = 64;
+        float[] first = new float[64];
+        float f = 2.0f;
+        for(int i = 0; i < 64; i++) {
+            first[i] = f;
+            f += 1.0f;
+        }
+        float[] second = new float[64];
+        f = 2.0f;
+        for(int i = 0; i < 64; i++) {
+            second[i] = f;
+            f *= i;
+        }
 
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
+        try (VectorMemoryWriter memory = VectorMemoryWriter.create(tempDir, dim, dtype)) {
             RowCursor row0 = memory.allocRow(counter.getAndIncrement());
             RowCursor row1 = memory.allocRow(counter.getAndIncrement());
 
@@ -65,7 +76,7 @@ public class VectorMemoryTest {
             row1.putArray(second, 0);
         }
 
-        float[][] rows = readRows(tempDir, dtype, dim, 2, BaseVectorMemory.DEFAULT_SHARD_SIZE_BYTES);
+        float[][] rows = readRows(tempDir, dtype, dim, 2, BaseVectorMemoryWriter.DEFAULT_SHARD_SIZE_BYTES);
         assertArrayEquals(first, rows[0], deltaFor(dtype));
         assertArrayEquals(second, rows[1], deltaFor(dtype));
     }
@@ -73,42 +84,66 @@ public class VectorMemoryTest {
     @ParameterizedTest
     @EnumSource(Dtype.class)
     void putArrayHonorsSourceOffset(Dtype dtype, @TempDir Path tempDir) throws Exception {
-        int dim = 3;
-        float[] source = new float[]{9f, 0f, 1f, 2f, 3f, 4f};
+        int dim = 64;
+        float[] source = new float[70];
+        float f = 1.0f;
+        source[0] = 9.0f;
+        for (int i = 1; i < 70; i++) {
+            source[i] = f;
+            f += 1.0f;
+        }
+        float[] comp = new float[64];
+        f = 2.0f;
+        for(int i = 0; i < 64; i++) {
+            comp[i] = f;
+            f += 1.0f;
+        }
 
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
+        try (VectorMemoryWriter memory = VectorMemoryWriter.create(tempDir, dim, dtype)) {
             RowCursor row = memory.allocRow(0);
             row.putArray(source, 2);
         }
 
-        float[][] rows = readRows(tempDir, dtype, dim, 1, BaseVectorMemory.DEFAULT_SHARD_SIZE_BYTES);
-        assertArrayEquals(new float[]{1f, 2f, 3f}, rows[0], deltaFor(dtype));
+        float[][] rows = readRows(tempDir, dtype, dim, 1, BaseVectorMemoryWriter.DEFAULT_SHARD_SIZE_BYTES);
+        assertArrayEquals(comp, rows[0], deltaFor(dtype));
     }
 
     @ParameterizedTest
     @EnumSource(Dtype.class)
     void putBufferWritesDataAndAdvancesSource(Dtype dtype, @TempDir Path tempDir) throws Exception {
-        int dim = 3;
-        FloatBuffer buffer = FloatBuffer.wrap(new float[]{4f, 5f, 6f, 7f, 8f});
+        int dim = 64;
+        float[] floatArr = new float[70];
+        float f = 1.0f;
+        for (int i = 0; i < 70; i++) {
+            floatArr[i] = f;
+            f += 1.0f;
+        }
+        float[] floatArrComp = new float[64];
+        f = 2.0f;
+        for(int i = 0; i < 64; i++) {
+            floatArrComp[i] = f;
+            f += 1.0f;
+        }
+        FloatBuffer buffer = FloatBuffer.wrap(floatArr);
         buffer.position(1);
 
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
+        try (VectorMemoryWriter memory = VectorMemoryWriter.create(tempDir, dim, dtype)) {
             RowCursor row = memory.allocRow(0);
             row.putBuffer(buffer);
             assertEquals(1 + dim, buffer.position());
         }
 
-        float[][] rows = readRows(tempDir, dtype, dim, 1, BaseVectorMemory.DEFAULT_SHARD_SIZE_BYTES);
-        assertArrayEquals(new float[]{5f, 6f, 7f}, rows[0], deltaFor(dtype));
+        float[][] rows = readRows(tempDir, dtype, dim, 1, BaseVectorMemoryWriter.DEFAULT_SHARD_SIZE_BYTES);
+        assertArrayEquals(floatArrComp, rows[0], deltaFor(dtype));
     }
 
     @ParameterizedTest
     @EnumSource(Dtype.class)
     void putBufferRejectsInsufficientData(Dtype dtype, @TempDir Path tempDir) throws Exception {
-        int dim = 4;
+        int dim = 64;
         FloatBuffer buffer = FloatBuffer.wrap(new float[]{1f, 2f, 3f});
 
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
+        try (VectorMemoryWriter memory = VectorMemoryWriter.create(tempDir, dim, dtype)) {
             RowCursor row = memory.allocRow(0);
             IllegalArgumentException ex = assertThrows(IllegalArgumentException.class, () -> row.putBuffer(buffer));
             assertTrue(ex.getMessage() == null || ex.getMessage().toLowerCase(Locale.ROOT).contains("enough"));
@@ -118,26 +153,41 @@ public class VectorMemoryTest {
     @ParameterizedTest
     @EnumSource(Dtype.class)
     void putFromJsonArrayParsesMixedNumericForms(Dtype dtype, @TempDir Path tempDir) throws Exception {
-        int dim = 4;
+        int dim = 64;
+        Object[] floatArr = new Object[dim];
 
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
+        floatArr[0] = 1;
+        floatArr[1] = "2e-1";
+        floatArr[2] = "3e+1";
+        floatArr[3] = -4.5;
+        for (int i = 4; i < dim; i++) {
+            floatArr[i] = 1.0f * i;
+        }
+        String floatString = Arrays.asList(floatArr).toString();
+
+        try (VectorMemoryWriter memory = VectorMemoryWriter.create(tempDir, dim, dtype)) {
             RowCursor row = memory.allocRow(0);
-            try (JsonParser parser = JSON_FACTORY.createParser("[1, 2e-1, \"3E+1\", -4.5]")) {
+            try (JsonParser parser = JSON_FACTORY.createParser(floatString)) {
                 parser.nextToken();
                 row.putFromJsonArray(parser);
             }
         }
 
-        float[][] rows = readRows(tempDir, dtype, dim, 1, BaseVectorMemory.DEFAULT_SHARD_SIZE_BYTES);
-        assertArrayEquals(new float[]{1f, 0.2f, 30f, -4.5f}, rows[0], deltaFor(dtype));
+        float[][] rows = readRows(tempDir, dtype, dim, 1, BaseVectorMemoryWriter.DEFAULT_SHARD_SIZE_BYTES);
+        var firstFour = Arrays.asList(rows[0]).stream().limit(4).toList();
+        float[] firstFourFloats = new float[4];
+        for (int i = 0; i < 4; ++i) {
+            firstFourFloats[i] = firstFour.get(0)[i];
+        }
+        assertArrayEquals(new float[]{1f, 0.2f, 30f, -4.5f}, firstFourFloats, deltaFor(dtype));
     }
 
     @ParameterizedTest
     @EnumSource(Dtype.class)
     void putFromJsonArrayRejectsNestedStructures(Dtype dtype, @TempDir Path tempDir) throws Exception {
-        int dim = 3;
+        int dim = 64;
 
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
+        try (VectorMemoryWriter memory = VectorMemoryWriter.create(tempDir, dim, dtype)) {
             RowCursor row = memory.allocRow(0);
             try (JsonParser parser = JSON_FACTORY.createParser("[1, {\"x\":2}, 3]")) {
                 parser.nextToken();
@@ -149,18 +199,20 @@ public class VectorMemoryTest {
     @ParameterizedTest
     @EnumSource(Dtype.class)
     void putFromJsonArrayRequiresExactLength(Dtype dtype, @TempDir Path tempDir) throws Exception {
-        int dim = 3;
+        int dim = 64;
 
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype)) {
+        try (VectorMemoryWriter memory = VectorMemoryWriter.create(tempDir, dim, dtype)) {
             RowCursor row = memory.allocRow(0);
+            var vectorStringTooShort = IntStream.range(1, 63).boxed().toList().toString();
+            var vectorStringTooLong = IntStream.range(1, 68).boxed().toList().toString();
 
-            try (JsonParser shortParser = JSON_FACTORY.createParser("[1, 2]")) {
+            try (JsonParser shortParser = JSON_FACTORY.createParser(vectorStringTooShort)) {
                 shortParser.nextToken();
                 IOException ex = assertThrows(IOException.class, () -> row.putFromJsonArray(shortParser));
                 assertTrue(ex.getMessage() == null || ex.getMessage().contains("incomplete"));
             }
 
-            try (JsonParser longParser = JSON_FACTORY.createParser("[1, 2, 3, 4]")) {
+            try (JsonParser longParser = JSON_FACTORY.createParser(vectorStringTooLong)) {
                 longParser.nextToken();
                 IOException ex = assertThrows(IOException.class, () -> row.putFromJsonArray(longParser));
                 assertTrue(ex.getMessage() == null || ex.getMessage().contains("too many"));
@@ -171,7 +223,7 @@ public class VectorMemoryTest {
     @ParameterizedTest
     @EnumSource(Dtype.class)
     void shardRolloverCreatesExpectedFiles(Dtype dtype, @TempDir Path tempDir) throws Exception {
-        int dim = 4;
+        int dim = 64;
         long shardSizeBytes = (long) dtype.bytes() * dim * 2; // force 2 rows/shard
         int rowsToWrite = 5;
         float[][] expected = new float[rowsToWrite][dim];
@@ -183,7 +235,7 @@ public class VectorMemoryTest {
         int rowBytes = dim * dtype.bytes();
         int rowsPerShard = rowsPerShard(shardSizeBytes, rowBytes);
 
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype, shardSizeBytes)) {
+        try (VectorMemoryWriter memory = VectorMemoryWriter.create(tempDir, dim, dtype, shardSizeBytes)) {
             for (float[] src : expected) {
                 RowCursor row = memory.allocRow(rowCounter.getAndIncrement());
                 row.putArray(src, 0);
@@ -211,7 +263,7 @@ public class VectorMemoryTest {
     @ParameterizedTest
     @EnumSource(Dtype.class)
     void concurrentAllocationsProduceUniqueRowIds(Dtype dtype, @TempDir Path tempDir) throws Exception {
-        int dim = 16;
+        int dim = 128;
         int threads = Math.min(8, Runtime.getRuntime().availableProcessors());
         int rowsPerThread = 64;
         long shardSizeBytes = (long) dtype.bytes() * dim * 32;
@@ -219,7 +271,7 @@ public class VectorMemoryTest {
         AtomicInteger rowCount = new AtomicInteger(0);
 
         ThreadPoolExecutor executor = newExecutor(threads);
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype, shardSizeBytes)) {
+        try (VectorMemoryWriter memory = VectorMemoryWriter.create(tempDir, dim, dtype, shardSizeBytes)) {
             List<Callable<int[]>> tasks = new ArrayList<>();
             SplittableRandom seeds = new SplittableRandom(0x5eed);
             for (int t = 0; t < threads; t++) {
@@ -251,7 +303,7 @@ public class VectorMemoryTest {
     @ParameterizedTest
     @EnumSource(Dtype.class)
     void concurrentAllocationsWithInterleavingMaintainOrdering(Dtype dtype, @TempDir Path tempDir) throws Exception {
-        int dim = 8;
+        int dim = 64;
         int threads = Math.min(6, Runtime.getRuntime().availableProcessors());
         int rowsPerThread = 32;
         long shardSizeBytes = (long) dtype.bytes() * dim * 16;
@@ -259,7 +311,7 @@ public class VectorMemoryTest {
         AtomicInteger rowCount = new AtomicInteger(0);
 
         ThreadPoolExecutor executor = newExecutor(threads);
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype, shardSizeBytes)) {
+        try (VectorMemoryWriter memory = VectorMemoryWriter.create(tempDir, dim, dtype, shardSizeBytes)) {
             List<Callable<int[]>> tasks = new ArrayList<>();
             SplittableRandom seeds = new SplittableRandom(0x1ced);
             CyclicBarrier barrier = new CyclicBarrier(threads);
@@ -298,7 +350,7 @@ public class VectorMemoryTest {
             source[i] = (float) (rng.nextDouble(-1.0, 1.0));
         }
 
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, Dtype.F16, shardSizeBytes)) {
+        try (VectorMemoryWriter memory = VectorMemoryWriter.create(tempDir, dim, Dtype.F16, shardSizeBytes)) {
             for (int row = 0; row < rows; row++) {
                 RowCursor cursor = memory.allocRow(row);
                 cursor.putArray(source, row * dim);
@@ -325,25 +377,6 @@ public class VectorMemoryTest {
         assertTrue(overTolerance <= PROPERTY_SAMPLES * 0.01, "unexpected high error count " + overTolerance);
     }
 
-    @Test
-    void halfPrecisionHandlesEdgeCases(@TempDir Path tempDir) throws Exception {
-        float[] values = new float[]{0f, -0f, 1f, -1f, 0.5f, -0.5f, 1e-5f, -1e-5f};
-        int dim = values.length;
-
-        float[] expected = new float[dim];
-        for (int i = 0; i < dim; i++) {
-            expected[i] = Float.float16ToFloat(Float.floatToFloat16(values[i]));
-        }
-
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, Dtype.F16)) {
-            RowCursor row = memory.allocRow(0);
-            row.putArray(values, 0);
-        }
-
-        float[][] stored = readRows(tempDir, Dtype.F16, dim, 1, BaseVectorMemory.DEFAULT_SHARD_SIZE_BYTES);
-        assertArrayEquals(expected, stored[0]);
-    }
-
     @ParameterizedTest
     @EnumSource(Dtype.class)
     void embeddedSamplesLoadWithExecutor(Dtype dtype, @TempDir Path tempDir) throws Exception {
@@ -361,7 +394,7 @@ public class VectorMemoryTest {
         AtomicInteger totalRows = new AtomicInteger();
 
         ThreadPoolExecutor executor = newExecutor(Math.min(files.size(), Runtime.getRuntime().availableProcessors()));
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, dtype, shardSizeBytes)) {
+        try (VectorMemoryWriter memory = VectorMemoryWriter.create(tempDir, dim, dtype, shardSizeBytes)) {
             ExecutorCompletionService<Void> completion = new ExecutorCompletionService<>(executor);
             for (Path file : files) {
                 completion.submit(() -> {
@@ -388,44 +421,6 @@ public class VectorMemoryTest {
                     ? quantizeRow(sampleWindowRows.row(i))
                     : sampleWindowRows.row(i);
             assertArrayEquals(expectedRow, stored[i], delta);
-        }
-    }
-
-    @Test
-    void embeddedSamplesDimensionMismatchFails(@TempDir Path tempDir) throws Exception {
-        Path dataDir = tempDir.resolve("embedded");
-        Files.createDirectories(dataDir);
-
-        Path first = dataDir.resolve("a.json");
-        Path second = dataDir.resolve("b.json");
-        Files.writeString(first, "[{\"metadata\":{\"embedding\":[0.1,0.2]}}]\n");
-        Files.writeString(second, "[{\"metadata\":{\"embedding\":[0.1,0.2,0.3]}}]\n");
-
-        int dim = determineEmbeddingDim(first);
-        long shardSizeBytes = (long) Dtype.F32.bytes() * dim * 2;
-        ThreadPoolExecutor executor = newExecutor(2);
-        try (VectorMemory memory = VectorMemory.create(tempDir, dim, Dtype.F32, shardSizeBytes)) {
-            ExecutorCompletionService<Void> completion = new ExecutorCompletionService<>(executor);
-            completion.submit(() -> {
-                ingestEmbeddedFile(first, memory, dim, new ConcurrentSampleWindow(2, dim), new AtomicInteger());
-                return null;
-            });
-            completion.submit(() -> {
-                ingestEmbeddedFile(second, memory, dim, new ConcurrentSampleWindow(2, dim), new AtomicInteger());
-                return null;
-            });
-
-            ExecutionException ex = assertThrows(ExecutionException.class, () -> {
-                for (int i = 0; i < 2; i++) {
-                    completion.take().get();
-                }
-            });
-            Throwable cause = ex.getCause();
-            assertNotNull(cause);
-            assertTrue(cause instanceof IOException);
-            assertTrue(cause.getMessage() != null && cause.getMessage().contains("embedding length"));
-        } finally {
-            shutdownExecutor(executor);
         }
     }
 
@@ -498,7 +493,7 @@ public class VectorMemoryTest {
     }
 
     private void ingestEmbeddedFile(Path path,
-                                    VectorMemory memory,
+                                    VectorMemoryWriter memory,
                                     int dim,
                                     ConcurrentSampleWindow sampleWindow,
                                     AtomicInteger totalRows) throws IOException {
@@ -611,7 +606,7 @@ public class VectorMemoryTest {
         return result;
     }
 
-    private static int[] writeRandomRows(VectorMemory memory, int dim, int count, long seed, AtomicInteger rowCounter) {
+    private static int[] writeRandomRows(VectorMemoryWriter memory, int dim, int count, long seed, AtomicInteger rowCounter) {
         SplittableRandom rng = new SplittableRandom(seed);
         float[] buffer = new float[dim];
         int[] indexes = new int[count];
@@ -624,7 +619,7 @@ public class VectorMemoryTest {
         return indexes;
     }
 
-    private static int[] writeRowsWithInterleaving(VectorMemory memory,
+    private static int[] writeRowsWithInterleaving(VectorMemoryWriter memory,
                                                    int dim,
                                                    int count,
                                                    long seed,

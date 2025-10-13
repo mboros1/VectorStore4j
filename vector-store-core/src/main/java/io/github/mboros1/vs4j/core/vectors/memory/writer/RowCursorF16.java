@@ -10,7 +10,7 @@ import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 import java.nio.ShortBuffer;
 
-public final class RowF16 implements RowCursor {
+public final class RowCursorF16 implements RowCursor {
     private static final ValueLayout.OfShort F16_LE =
             ValueLayout.JAVA_SHORT_UNALIGNED.withOrder(ByteOrder.LITTLE_ENDIAN);
 
@@ -18,7 +18,7 @@ public final class RowF16 implements RowCursor {
     private final MemorySegment rowSeg;
     private final int rowDim;
 
-    public RowF16(int rowId, MemorySegment rowSeg, int rowDim) {
+    public RowCursorF16(int rowId, MemorySegment rowSeg, int rowDim) {
         this.rowId = rowId;
         this.rowSeg = rowSeg;
         this.rowDim = rowDim;
