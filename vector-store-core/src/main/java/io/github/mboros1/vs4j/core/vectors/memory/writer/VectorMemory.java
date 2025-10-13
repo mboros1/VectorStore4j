@@ -1,4 +1,4 @@
-package io.github.mboros1.vs4j.core.vectors.memory;
+package io.github.mboros1.vs4j.core.vectors.memory.writer;
 
 import io.github.mboros1.vs4j.core.vectors.enums.Dtype;
 

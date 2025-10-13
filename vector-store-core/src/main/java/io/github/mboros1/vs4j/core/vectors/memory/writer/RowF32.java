@@ -1,4 +1,4 @@
-package io.github.mboros1.vs4j.core.vectors.memory;
+package io.github.mboros1.vs4j.core.vectors.memory.writer;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
@@ -6,27 +6,25 @@ import com.fasterxml.jackson.core.JsonToken;
 import java.io.IOException;
 import java.lang.foreign.MemorySegment;
 import java.lang.foreign.ValueLayout;
-import java.lang.invoke.VarHandle;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
-import java.nio.ShortBuffer;
 
-public final class RowF16 implements RowCursor {
-    private static final ValueLayout.OfShort F16_LE =
-            ValueLayout.JAVA_SHORT_UNALIGNED.withOrder(ByteOrder.LITTLE_ENDIAN);
+public final class RowF32 implements RowCursor {
+    private static final ValueLayout.OfFloat F32_LE =
+            ValueLayout.JAVA_FLOAT_UNALIGNED.withOrder(ByteOrder.LITTLE_ENDIAN);
 
     private final int rowId;
     private final MemorySegment rowSeg;
     private final int rowDim;
 
-    public RowF16(int rowId, MemorySegment rowSeg, int rowDim) {
+    public RowF32(int rowId, MemorySegment rowSeg, int rowDim) {
         this.rowId = rowId;
         this.rowSeg = rowSeg;
         this.rowDim = rowDim;
     }
 
-    private void setBytes(MemorySegment rowSeg, long offset, short value) {
-        rowSeg.set(F16_LE, offset * Short.BYTES, value);
+    private void setBytes(MemorySegment rowSeg, long offset, float value) {
+        rowSeg.set(F32_LE, offset * Float.BYTES, value);
     }
 
     @Override
@@ -49,34 +47,30 @@ public final class RowF16 implements RowCursor {
             } else {
                 throw new IOException("non-numeric value in embedding: " + jp.currentToken());
             }
-            short h = Float.floatToFloat16(v);
-            setBytes(rowSeg, i, h);
+            setBytes(rowSeg, i, v);
             i++;
         }
         if (i != rowDim) throw new IOException("row " + rowId + " incomplete: " + i + "/" + rowDim);
-
     }
 
     @Override
     public void putArray(float[] src, int off) {
         for (int i = 0; i < rowDim; i++) {
-            final short h = Float.floatToFloat16(src[off + i]);
-            setBytes(rowSeg, i, h);
+            float v = src[off + i];
+            setBytes(rowSeg, i, v);
         }
     }
 
     @Override
     public void putBuffer(FloatBuffer fb) {
         if (fb.remaining() < rowDim) throw new IllegalArgumentException("not enough data");
-        ShortBuffer dst = rowSeg.asByteBuffer().order(ByteOrder.LITTLE_ENDIAN).asShortBuffer();
+        // Bulk copy via NIO view; avoid creating extra arrays
+        FloatBuffer dst = rowSeg.asByteBuffer().order(ByteOrder.LITTLE_ENDIAN).asFloatBuffer();
+        // Copy exactly rowDim elements without altering caller’s fb state:
         FloatBuffer src = fb.duplicate();
-        int start = src.position();
-        int limit = start + rowDim;
+        int limit = src.position() + rowDim;
         src.limit(limit);
-
-        while (src.hasRemaining()) {
-            dst.put(Float.floatToFloat16(src.get()));
-        }
+        dst.put(src);
         fb.position(limit);
     }
 }

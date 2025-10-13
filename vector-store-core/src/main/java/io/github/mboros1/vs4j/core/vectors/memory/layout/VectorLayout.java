@@ -1,4 +1,4 @@
-package io.github.mboros1.vs4j.core.vectors.layout;
+package io.github.mboros1.vs4j.core.vectors.memory.layout;
 
 import io.github.mboros1.vs4j.core.vectors.enums.Dtype;
 
@@ -41,5 +41,13 @@ public record VectorLayout(Path bundlePath,
     static long alignUp(long size) {
         int mask = ALIGN - 1;
         return (size + mask) & ~mask;
+    }
+
+    public int shardOf(int rowId) {
+        return rowId / rowsPerShard;
+    }
+
+    public int indexInShard(int rowId) {
+        return rowId % rowsPerShard;
     }
 }

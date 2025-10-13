@@ -1,4 +1,4 @@
-package io.github.mboros1.vs4j.core.vectors.layout;
+package io.github.mboros1.vs4j.core.vectors.memory.layout;
 
 import io.github.mboros1.vs4j.core.vectors.enums.Dtype;
 import org.junit.jupiter.api.Assertions;
