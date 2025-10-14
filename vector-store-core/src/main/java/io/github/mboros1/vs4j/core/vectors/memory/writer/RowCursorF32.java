@@ -13,7 +13,7 @@ public final class RowCursorF32 extends BaseRowCursor {
     }
 
     @Override
-    protected void putAtByteOffset(long byteOffset, float value) {
-        rowSeg.set(F32_LE, byteOffset, value);
+    protected void putValue(int elementIndex, float value) {
+        rowSeg.set(F32_LE, (long) elementIndex * Float.BYTES, value);
     }
 }

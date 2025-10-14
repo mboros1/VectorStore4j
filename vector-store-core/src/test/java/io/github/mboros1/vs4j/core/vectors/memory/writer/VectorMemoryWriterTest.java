@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
 import io.github.mboros1.vs4j.core.vectors.enums.Dtype;
+import io.github.mboros1.vs4j.core.vectors.utilities.VectorMath;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -76,8 +77,8 @@ public class VectorMemoryWriterTest {
         }
 
         float[][] rows = readRows(tempDir, dtype, dim, 2, BaseVectorMemoryWriter.DEFAULT_SHARD_SIZE_BYTES);
-        assertArrayEquals(first, rows[0], deltaFor(dtype));
-        assertArrayEquals(second, rows[1], deltaFor(dtype));
+        assertArrayEquals(normalizedCopy(first, dtype), rows[0], deltaFor(dtype));
+        assertArrayEquals(normalizedCopy(second, dtype), rows[1], deltaFor(dtype));
     }
 
     @ParameterizedTest
@@ -104,7 +105,7 @@ public class VectorMemoryWriterTest {
         }
 
         float[][] rows = readRows(tempDir, dtype, dim, 1, BaseVectorMemoryWriter.DEFAULT_SHARD_SIZE_BYTES);
-        assertArrayEquals(comp, rows[0], deltaFor(dtype));
+        assertArrayEquals(normalizedCopy(comp, dtype), rows[0], deltaFor(dtype));
     }
 
     @ParameterizedTest
@@ -133,7 +134,7 @@ public class VectorMemoryWriterTest {
         }
 
         float[][] rows = readRows(tempDir, dtype, dim, 1, BaseVectorMemoryWriter.DEFAULT_SHARD_SIZE_BYTES);
-        assertArrayEquals(floatArrComp, rows[0], deltaFor(dtype));
+        assertArrayEquals(normalizedCopy(floatArrComp, dtype), rows[0], deltaFor(dtype));
     }
 
     @ParameterizedTest
@@ -172,13 +173,16 @@ public class VectorMemoryWriterTest {
             }
         }
 
-        float[][] rows = readRows(tempDir, dtype, dim, 1, BaseVectorMemoryWriter.DEFAULT_SHARD_SIZE_BYTES);
-        var firstFour = Arrays.asList(rows[0]).stream().limit(4).toList();
-        float[] firstFourFloats = new float[4];
-        for (int i = 0; i < 4; ++i) {
-            firstFourFloats[i] = firstFour.get(0)[i];
+        float[] expected = new float[dim];
+        expected[0] = 1f;
+        expected[1] = 0.2f;
+        expected[2] = 30f;
+        expected[3] = -4.5f;
+        for (int i = 4; i < dim; i++) {
+            expected[i] = 1.0f * i;
         }
-        assertArrayEquals(new float[]{1f, 0.2f, 30f, -4.5f}, firstFourFloats, deltaFor(dtype));
+        float[][] rows = readRows(tempDir, dtype, dim, 1, BaseVectorMemoryWriter.DEFAULT_SHARD_SIZE_BYTES);
+        assertArrayEquals(normalizedCopy(expected, dtype), rows[0], deltaFor(dtype));
     }
 
     @ParameterizedTest
@@ -208,13 +212,13 @@ public class VectorMemoryWriterTest {
             try (JsonParser shortParser = JSON_FACTORY.createParser(vectorStringTooShort)) {
                 shortParser.nextToken();
                 IOException ex = assertThrows(IOException.class, () -> row.putFromJsonArray(shortParser));
-                assertTrue(ex.getMessage() == null || ex.getMessage().contains("incomplete"));
+                assertTrue(ex.getMessage() == null || ex.getMessage().contains("array dim does not match"));
             }
 
             try (JsonParser longParser = JSON_FACTORY.createParser(vectorStringTooLong)) {
                 longParser.nextToken();
                 IOException ex = assertThrows(IOException.class, () -> row.putFromJsonArray(longParser));
-                assertTrue(ex.getMessage() == null || ex.getMessage().contains("too many"));
+                assertTrue(ex.getMessage() == null || ex.getMessage().contains("array dim does not match"));
             }
         }
     }
@@ -252,10 +256,7 @@ public class VectorMemoryWriterTest {
         float[][] stored = readRows(tempDir, dtype, dim, rowsToWrite, shardSizeBytes);
         float delta = deltaFor(dtype);
         for (int i = 0; i < rowsToWrite; i++) {
-            float[] expectedRow = dtype == Dtype.F16
-                    ? quantizeRow(expected[i])
-                    : expected[i];
-            assertArrayEquals(expectedRow, stored[i], delta);
+            assertArrayEquals(normalizedCopy(expected[i], dtype), stored[i], delta);
         }
     }
 
@@ -359,11 +360,14 @@ public class VectorMemoryWriterTest {
         float[][] stored = readRows(tempDir, Dtype.F16, dim, rows, shardSizeBytes);
         double maxError = 0.0;
         int overTolerance = 0;
-        int idx = 0;
-        for (float[] storedRow : stored) {
-            for (float value : storedRow) {
-                float original = source[idx++];
-                double error = Math.abs(original - value);
+        for (int row = 0; row < rows; row++) {
+            float[] expected = new float[dim];
+            System.arraycopy(source, row * dim, expected, 0, dim);
+            VectorMath.normalize(expected);
+            float[] storedRow = stored[row];
+            for (int col = 0; col < dim; col++) {
+                float original = expected[col];
+                double error = Math.abs(original - storedRow[col]);
                 maxError = Math.max(maxError, error);
                 if (Math.abs(original) >= 1e-3) {
                     assertTrue(error <= HALF_TOLERANCE, "error " + error + " too large for " + original);
@@ -416,15 +420,21 @@ public class VectorMemoryWriterTest {
         float[][] stored = readRows(tempDir, dtype, dim, sampleCount, shardSizeBytes);
         float delta = deltaFor(dtype);
         for (int i = 0; i < sampleCount; i++) {
-            float[] expectedRow = dtype == Dtype.F16
-                    ? quantizeRow(sampleWindowRows.row(i))
-                    : sampleWindowRows.row(i);
-            assertArrayEquals(expectedRow, stored[i], delta);
+            assertArrayEquals(normalizedCopy(sampleWindowRows.row(i), dtype), stored[i], delta);
         }
     }
 
     private float deltaFor(Dtype dtype) {
         return dtype == Dtype.F16 ? HALF_TOLERANCE : 1e-6f;
+    }
+
+    private float[] normalizedCopy(float[] source, Dtype dtype) {
+        float[] normalized = Arrays.copyOf(source, source.length);
+        VectorMath.normalize(normalized);
+        if (dtype == Dtype.F16) {
+            return quantizeRow(normalized);
+        }
+        return normalized;
     }
 
     private float[][] readRows(Path bundlePath, Dtype dtype, int dim, int rows, long shardSizeBytes) throws IOException {
@@ -436,7 +446,7 @@ public class VectorMemoryWriterTest {
         int rowIndex = 0;
         for (int shardId = 0; shardId < shardCount; shardId++) {
             Path shardPath = shardPath(bundlePath, dtype, shardId);
-            assertTrue(Files.exists(shardPath), STR."missing shard \{shardPath}");
+            assertTrue(Files.exists(shardPath), "missing shard " + shardPath);
             try (FileChannel fc = FileChannel.open(shardPath, StandardOpenOption.READ)) {
                 for (int i = 0; i < rowsPerShard && rowIndex < rows; i++) {
                     ByteBuffer buffer = ByteBuffer.allocate(rowBytes);

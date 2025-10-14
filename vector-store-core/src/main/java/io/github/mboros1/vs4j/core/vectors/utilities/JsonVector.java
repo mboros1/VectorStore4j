@@ -19,7 +19,10 @@ public class JsonVector {
             } else {
                 throw new IOException(STR."non-numeric value in embedding: \{jp.currentToken()}");
             }
-            buf[i++] = v;
+            if (i < buf.length) {
+                buf[i] = v;
+            }
+            i++;
         }
         if (i != buf.length) throw new IOException(STR."JSON array dim does not match expected, JSON array: \{i}, expected: \{buf.length}");
     }

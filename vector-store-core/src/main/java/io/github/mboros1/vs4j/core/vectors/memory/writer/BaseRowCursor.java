@@ -24,12 +24,12 @@ sealed public abstract class BaseRowCursor implements RowCursor permits RowCurso
         this.tlBuffer = tlBuffer;
     }
 
-    protected abstract void putAtByteOffset(long byteOffset, float value);
+    protected abstract void putValue(int elementIndex, float value);
 
     private void normalizeAndSetBytes() {
         VectorMath.normalize(tlBuffer);
         for (int i = 0; i < rowDim; i++) {
-            putAtByteOffset(i, tlBuffer[i]);
+            putValue(i, tlBuffer[i]);
         }
     }
 
