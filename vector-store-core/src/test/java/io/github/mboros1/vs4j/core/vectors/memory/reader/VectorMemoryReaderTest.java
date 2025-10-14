@@ -62,7 +62,7 @@ class VectorMemoryReaderTest {
 
             for (int rowIdx = 0; rowIdx < source.length; rowIdx++) {
                 MemorySegment slice = reader.rowSlice(rowIdx);
-                assertEquals(layout.rowBytes(), slice.byteSize(), "unexpected slice length");
+                assertEquals(reader.rowStride(), slice.byteSize(), "unexpected slice length");
                 assertEquals(0, slice.byteSize() % 64, "slice size should maintain 64-byte alignment");
 
                 float[] actual = readRow(slice, dtype, dim);
@@ -113,7 +113,7 @@ class VectorMemoryReaderTest {
 
             for (int rowIdx = 0; rowIdx < reader.numDocs(); rowIdx++) {
                 MemorySegment slice = reader.rowSlice(rowIdx);
-                assertEquals(layout.rowBytes(), slice.byteSize());
+                assertEquals(reader.rowStride(), slice.byteSize());
                 assertEquals(0, slice.byteSize() % 64, "row slice should preserve 64-byte alignment");
 
                 float[] actual = readRow(slice, dtype, dim);
@@ -125,17 +125,9 @@ class VectorMemoryReaderTest {
 
     private float[] readRow(MemorySegment slice, Dtype dtype, int dim) {
         float[] values = new float[dim];
-        if (dtype == Dtype.F32) {
-            ValueLayout.OfFloat layout = ValueLayout.JAVA_FLOAT_UNALIGNED.withOrder(ByteOrder.LITTLE_ENDIAN);
-            for (int i = 0; i < dim; i++) {
-                values[i] = slice.get(layout, (long) i * Float.BYTES);
-            }
-        } else {
-            ValueLayout.OfShort layout = ValueLayout.JAVA_SHORT_UNALIGNED.withOrder(ByteOrder.LITTLE_ENDIAN);
-            for (int i = 0; i < dim; i++) {
-                short h = slice.get(layout, (long) i * Short.BYTES);
-                values[i] = Float.float16ToFloat(h);
-            }
+        ValueLayout.OfFloat f32Layout = ValueLayout.JAVA_FLOAT_UNALIGNED.withOrder(ByteOrder.LITTLE_ENDIAN);
+        for (int i = 0; i < dim; i++) {
+            values[i] = slice.get(f32Layout, (long) i * Float.BYTES);
         }
         return values;
     }

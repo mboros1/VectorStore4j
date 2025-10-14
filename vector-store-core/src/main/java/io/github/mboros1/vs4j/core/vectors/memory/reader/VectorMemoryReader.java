@@ -9,7 +9,6 @@ import java.io.UncheckedIOException;
 import java.lang.foreign.Arena;
 import java.lang.foreign.MemorySegment;
 import java.lang.foreign.ValueLayout;
-import java.lang.invoke.VarHandle;
 import java.nio.ByteOrder;
 import java.nio.channels.FileChannel;
 import java.nio.file.Files;
@@ -105,6 +104,10 @@ public class VectorMemoryReader implements AutoCloseable {
 
     public int dim() {
         return layout.dim();
+    }
+
+    public int rowStride() {
+        return rowStrideF32;
     }
 
     @Override
