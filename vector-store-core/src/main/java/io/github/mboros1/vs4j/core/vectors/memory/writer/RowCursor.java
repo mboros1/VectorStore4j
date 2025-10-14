@@ -5,7 +5,7 @@ import com.fasterxml.jackson.core.JsonParser;
 import java.io.IOException;
 import java.nio.FloatBuffer;
 
-public sealed interface RowCursor permits RowCursorF32, RowCursorF16 {
+public interface RowCursor {
     int rowIndex();
     void putFromJsonArray(JsonParser jp) throws IOException;
     void putArray(float[] src, int off);
