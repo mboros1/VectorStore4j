@@ -2,13 +2,13 @@ package io.github.mboros1.vs4j.core.vectors.memory.writer;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
+import io.github.mboros1.vs4j.core.vectors.utilities.VectorMath;
 
 import java.io.IOException;
 import java.lang.foreign.MemorySegment;
 import java.lang.foreign.ValueLayout;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
-import java.nio.ShortBuffer;
 
 public final class RowCursorF16 implements RowCursor {
     private static final ValueLayout.OfShort F16_LE =
@@ -17,20 +17,32 @@ public final class RowCursorF16 implements RowCursor {
     private final int rowId;
     private final MemorySegment rowSeg;
     private final int rowDim;
+    private final float[] tlBuffer;
 
-    public RowCursorF16(int rowId, MemorySegment rowSeg, int rowDim) {
+    public RowCursorF16(int rowId, MemorySegment rowSeg, int rowDim, float[] tlBuffer) {
+        if (tlBuffer == null ||tlBuffer.length < rowDim)
+            throw new IllegalArgumentException(STR."scratch buffer too small: \{tlBuffer == null ? "null" : tlBuffer.length} < \{rowDim}");
         this.rowId = rowId;
         this.rowSeg = rowSeg;
         this.rowDim = rowDim;
+        this.tlBuffer = tlBuffer;
     }
 
-    private void setBytes(MemorySegment rowSeg, long offset, short value) {
-        rowSeg.set(F16_LE, offset * Short.BYTES, value);
+    private void setBytes(MemorySegment rowSeg, long idx, short value) {
+        rowSeg.set(F16_LE,  idx * Short.BYTES, value);
     }
 
     @Override
     public int rowIndex() {
         return rowId;
+    }
+
+    private void normalizeAndSetBytes() {
+        VectorMath.normalize(tlBuffer);
+        for (int i = 0; i < rowDim; i++) {
+            short h = Float.floatToFloat16(tlBuffer[i]);
+            setBytes(rowSeg, i, h);
+        }
     }
 
     @Override
@@ -46,36 +58,24 @@ public final class RowCursorF16 implements RowCursor {
             } else if (jp.currentToken() == JsonToken.VALUE_STRING) {
                 v = Float.parseFloat(jp.getValueAsString());
             } else {
-                throw new IOException("non-numeric value in embedding: " + jp.currentToken());
+                throw new IOException(STR."non-numeric value in embedding: \{jp.currentToken()}");
             }
-            short h = Float.floatToFloat16(v);
-            setBytes(rowSeg, i, h);
-            i++;
+            tlBuffer[i++] = v;
         }
-        if (i != rowDim) throw new IOException("row " + rowId + " incomplete: " + i + "/" + rowDim);
-
+        if (i != rowDim) throw new IOException(STR."row \{rowId} incomplete: \{i}/\{rowDim}");
+        normalizeAndSetBytes();
     }
 
     @Override
     public void putArray(float[] src, int off) {
-        for (int i = 0; i < rowDim; i++) {
-            final short h = Float.floatToFloat16(src[off + i]);
-            setBytes(rowSeg, i, h);
-        }
+        System.arraycopy(src, off, tlBuffer, 0, rowDim);
+        normalizeAndSetBytes();
     }
 
     @Override
     public void putBuffer(FloatBuffer fb) {
         if (fb.remaining() < rowDim) throw new IllegalArgumentException("not enough data");
-        ShortBuffer dst = rowSeg.asByteBuffer().order(ByteOrder.LITTLE_ENDIAN).asShortBuffer();
-        FloatBuffer src = fb.duplicate();
-        int start = src.position();
-        int limit = start + rowDim;
-        src.limit(limit);
-
-        while (src.hasRemaining()) {
-            dst.put(Float.floatToFloat16(src.get()));
-        }
-        fb.position(limit);
+        fb.get(tlBuffer, 0, rowDim);
+        normalizeAndSetBytes();
     }
 }

@@ -17,8 +17,8 @@ final public class VectorMemoryWriterF16 extends BaseVectorMemoryWriter {
     }
 
     @Override
-    protected RowCursor newRow(int rowId, MemorySegment rowSeg, int rowDim) {
-        return new RowCursorF16(rowId, rowSeg, rowDim);
+    protected RowCursor newRow(int rowId, MemorySegment rowSeg, int rowDim, float[] tlBuffer) {
+        return new RowCursorF16(rowId, rowSeg, rowDim, tlBuffer);
     }
 
 }

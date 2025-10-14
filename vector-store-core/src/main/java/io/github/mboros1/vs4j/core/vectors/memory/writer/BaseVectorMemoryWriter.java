@@ -12,21 +12,24 @@ sealed abstract class BaseVectorMemoryWriter implements VectorMemoryWriter permi
     private final VectorLayout layout;
     private final AtomicInteger rowCounter = new AtomicInteger(0);
     private final ShardMapper shardMapper;
+    private final ThreadLocal<float[]> tl;
+
 
     public BaseVectorMemoryWriter(VectorLayout layout) {
         if (layout.rowBytes() != layout.rowStride())
             throw new IllegalArgumentException(STR."Row stride must be aligned without padding, Row Stride: \{layout.rowsPerShard()}, Row Bytes: \{layout.rowBytes()}");
         this.layout = layout;
         this.shardMapper = new ShardMapper(layout, ShardMapper.Mode.READ_WRITE);
+        tl = ThreadLocal.withInitial(() -> new float[layout.dim()]);
     }
 
-    protected abstract RowCursor newRow(int rowId, MemorySegment rowSeg, int rowDim);
+    protected abstract RowCursor newRow(int rowId, MemorySegment rowSeg, int rowDim, float[] tlBuffer);
 
     @Override
     public final RowCursor allocRow(int rowId) {
         rowCounter.incrementAndGet();
         var rowSeg = shardMapper.rowSlice(rowId);
-        return newRow(rowId, rowSeg, dim());
+        return newRow(rowId, rowSeg, dim(), tl.get());
     }
 
     @Override

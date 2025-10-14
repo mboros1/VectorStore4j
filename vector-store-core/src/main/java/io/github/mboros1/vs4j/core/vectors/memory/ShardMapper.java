@@ -32,11 +32,28 @@ public class ShardMapper implements AutoCloseable {
         return layout.bundlePath().resolve(STR."vectors\{shardId}.\{layout.dtype().name().toLowerCase(Locale.ROOT)}");
     }
 
-    private MemorySegment shard(int shardId) {
+    public MemorySegment shard(int shardId) {
         return shards.computeIfAbsent(shardId, this::mapShard);
     }
 
     private MemorySegment mapShard(int shardId) {
+        return switch (mode) {
+            case READ_WRITE -> mapShardWrite(shardId);
+            case READ_ONLY -> mapShardRead(shardId);
+        };
+    }
+
+    private MemorySegment mapShardRead(int shardId) {
+        Path p = shardPath(shardId);
+
+        try (FileChannel fc = FileChannel.open(p, StandardOpenOption.READ)) {
+            return fc.map(FileChannel.MapMode.READ_ONLY, 0, fc.size(), arena);
+        } catch (IOException e) {
+            throw new UncheckedIOException(e);
+        }
+    }
+
+    private MemorySegment mapShardWrite(int shardId) {
         Path p = shardPath(shardId);
 
         try (FileChannel fc = FileChannel.open(p,

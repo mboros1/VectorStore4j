@@ -27,7 +27,6 @@ import java.util.Locale;
 import java.util.SplittableRandom;
 import java.util.concurrent.Callable;
 import java.util.concurrent.CyclicBarrier;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorCompletionService;
 import java.util.concurrent.Future;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -38,7 +37,7 @@ import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class VectorMemoryTest {
+public class VectorMemoryWriterTest {
 
     private static final JsonFactory JSON_FACTORY = new JsonFactory();
     private static final float HALF_TOLERANCE = 5e-4f;
@@ -437,7 +436,7 @@ public class VectorMemoryTest {
         int rowIndex = 0;
         for (int shardId = 0; shardId < shardCount; shardId++) {
             Path shardPath = shardPath(bundlePath, dtype, shardId);
-            assertTrue(Files.exists(shardPath), "missing shard " + shardPath);
+            assertTrue(Files.exists(shardPath), STR."missing shard \{shardPath}");
             try (FileChannel fc = FileChannel.open(shardPath, StandardOpenOption.READ)) {
                 for (int i = 0; i < rowsPerShard && rowIndex < rows; i++) {
                     ByteBuffer buffer = ByteBuffer.allocate(rowBytes);

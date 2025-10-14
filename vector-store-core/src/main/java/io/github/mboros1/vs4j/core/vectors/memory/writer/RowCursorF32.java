@@ -16,11 +16,13 @@ public final class RowCursorF32 implements RowCursor {
     private final int rowId;
     private final MemorySegment rowSeg;
     private final int rowDim;
+    private final float[] tlBuffer;
 
-    public RowCursorF32(int rowId, MemorySegment rowSeg, int rowDim) {
+    public RowCursorF32(int rowId, MemorySegment rowSeg, int rowDim, float[] tlBuffer) {
         this.rowId = rowId;
         this.rowSeg = rowSeg;
         this.rowDim = rowDim;
+        this.tlBuffer = tlBuffer;
     }
 
     private void setBytes(MemorySegment rowSeg, long offset, float value) {
