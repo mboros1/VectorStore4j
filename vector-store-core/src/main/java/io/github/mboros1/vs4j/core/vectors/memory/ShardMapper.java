@@ -23,6 +23,7 @@ public class ShardMapper implements AutoCloseable {
     private final Mode mode;
     private final Arena arena = Arena.ofShared();
     protected final ConcurrentHashMap<Integer, MemorySegment> shards = new ConcurrentHashMap<>();
+
     public ShardMapper(VectorLayout layout, Mode mode) {
         this.layout = layout;
         this.mode = mode;
