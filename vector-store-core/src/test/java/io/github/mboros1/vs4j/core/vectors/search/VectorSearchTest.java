@@ -1,6 +1,16 @@
 package io.github.mboros1.vs4j.core.vectors.search;
 
+import io.github.mboros1.vs4j.core.vectors.enums.Dtype;
+import io.github.mboros1.vs4j.core.vectors.memory.layout.VectorLayout;
+import io.github.mboros1.vs4j.core.vectors.memory.reader.VectorMemoryReader;
+import io.github.mboros1.vs4j.core.vectors.memory.writer.VectorMemoryWriter;
+import io.github.mboros1.vs4j.core.vectors.utilities.VectorMath;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.io.TempDir;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.EnumSource;
+
+import java.nio.file.Path;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -87,5 +97,39 @@ public class VectorSearchTest {
         assertArrayEquals(new int[]{102, 103, 104}, ids);
         assertArrayEquals(new float[]{0.9f, 0.7f, 0.6f}, scores, 1e-6f);
         assertEquals(0, heap.size);
+    }
+
+    @ParameterizedTest
+    @EnumSource(Dtype.class)
+    void fullScanReturnsTopMatches(Dtype dtype, @TempDir Path tempDir) throws Exception {
+        int dim = 128;
+        long shardSizeBytes = (long) dim * dtype.bytes() * 2;
+
+        float[][] rows = new float[3][dim];
+        rows[0][0] = 1.0f;
+        rows[1][1] = 1.0f;
+        rows[2][1] = 0.6f;
+        rows[2][2] = 0.8f;
+
+        try (VectorMemoryWriter writer = VectorMemoryWriter.create(tempDir, dim, dtype, shardSizeBytes)) {
+            for (int i = 0; i < rows.length; i++) {
+                var row = writer.allocRow(i);
+                row.putArray(rows[i], 0);
+            }
+        }
+
+        VectorLayout layout = VectorLayout.of(tempDir, dim, dtype, shardSizeBytes);
+        try (VectorMemoryReader reader = new VectorMemoryReader(layout, rows.length)) {
+            VectorSearch search = new VectorSearch(reader);
+            float[] query = rows[2].clone();
+            VectorMath.normalize(query);
+
+            VectorSearch.DocScore[] hits = search.similaritySearchFullScan(query, 2);
+            assertEquals(2, hits.length);
+            assertEquals(2, hits[0].docId());
+            assertEquals(1, hits[1].docId());
+            assertTrue(hits[0].score() >= hits[1].score());
+            assertTrue(hits[0].score() > 0.9f);
+        }
     }
 }
