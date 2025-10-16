@@ -15,6 +15,11 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
+import java.util.function.BiConsumer;
+
+import jdk.incubator.vector.FloatVector;
+import jdk.incubator.vector.VectorOperators;
+import jdk.incubator.vector.VectorSpecies;
 
 import static io.github.mboros1.vs4j.core.vectors.enums.Dtype.F16;
 
@@ -95,10 +100,83 @@ public class VectorMemoryReader implements AutoCloseable {
 
         long so = 0;
         long doff = 0;
-        for (int i = 0; i < dim; i++, so += 2, doff += 4) {
-            short h = src.get(layoutF16, (long) i * Short.BYTES);
+        for (int i = 0; i < dim; i++, so += Short.BYTES, doff += Float.BYTES) {
+            short h = src.get(layoutF16, so);
             float fb = Float.float16ToFloat(h);
             dst.set(layoutF32, doff, fb);
+        }
+    }
+
+    public static final class Span {
+        private static final VectorSpecies<Float> SPECIES = FloatVector.SPECIES_PREFERRED;
+        private static final ValueLayout.OfFloat F32_LE =
+                ValueLayout.JAVA_FLOAT_UNALIGNED.withOrder(ByteOrder.LITTLE_ENDIAN);
+
+        final int shardId;
+        final int startRowGlobal;
+        final int startRowInShard;
+        final int rows;
+        final int dim;
+        final int rowStrideF32;
+        final MemorySegment shardSeg;
+        final long baseOffset;
+
+        Span(int shardId,
+             int startRowGlobal,
+             int startRowInShard,
+             int rows,
+             int dim,
+             int rowStrideF32,
+             MemorySegment shardSeg,
+             long baseOffset) {
+            this.shardId = shardId;
+            this.startRowGlobal = startRowGlobal;
+            this.startRowInShard = startRowInShard;
+            this.rows = rows;
+            this.dim = dim;
+            this.rowStrideF32 = rowStrideF32;
+            this.shardSeg = shardSeg;
+            this.baseOffset = baseOffset;
+        }
+
+        /** Iterate each row in the span, exposing a slice positioned at the row's data. */
+        public void forEachRow(BiConsumer<Integer, MemorySegment> fn) {
+            long off = baseOffset;
+            for (int r = 0; r < rows; r++, off += rowStrideF32) {
+                int globalRow = startRowGlobal + r;
+                fn.accept(globalRow, shardSeg.asSlice(off, rowStrideF32));
+            }
+        }
+
+        /** Compute dot product of every row in the span against a query vector. */
+        public void bulkDot(float[] query, BiConsumer<Integer, Float> out) {
+            if (query.length < dim) {
+                throw new IllegalArgumentException("query length smaller than span dimension");
+            }
+
+            final VectorSpecies<Float> sp = SPECIES;
+            final int vl = sp.length();
+            final int loop = dim - (dim % vl);
+
+            long rowOff = baseOffset;
+            for (int r = 0; r < rows; r++, rowOff += rowStrideF32) {
+                FloatVector acc = FloatVector.zero(sp);
+                int j = 0;
+
+                for (; j < loop; j += vl) {
+                    FloatVector rowVec = FloatVector.fromMemorySegment(sp, shardSeg, rowOff + (long) j * Float.BYTES, ByteOrder.LITTLE_ENDIAN);
+                    FloatVector queryVec = FloatVector.fromArray(sp, query, j);
+                    acc = rowVec.fma(queryVec, acc);
+                }
+
+                float sum = acc.reduceLanes(VectorOperators.ADD);
+                for (; j < dim; j++) {
+                    float v = shardSeg.get(F32_LE, rowOff + (long) j * Float.BYTES);
+                    sum += v * query[j];
+                }
+
+                out.accept(startRowGlobal + r, sum);
+            }
         }
     }
 
@@ -130,6 +208,63 @@ public class VectorMemoryReader implements AutoCloseable {
 
     public int numDocs() {
         return rowCount;
+    }
+
+    /** Build spans sized by rowsPerSpan; spans never cross shard boundaries. */
+    public ArrayList<Span> spans(int rowsPerSpan) {
+        if (rowsPerSpan <= 0) throw new IllegalArgumentException("rowsPerSpan must be positive");
+
+        var spans = new ArrayList<Span>((rowCount + rowsPerSpan - 1) / rowsPerSpan);
+        if (rowCount == 0) return spans;
+
+        final int dim = layout.dim();
+        final int rowsPerShard = layout.rowsPerShard();
+        final int shardCount = (rowCount + rowsPerShard - 1) / rowsPerShard;
+        final var dtype = layout.dtype();
+        final int strideBytes = (dtype == F16) ? rowStrideF32 : layout.rowBytes();
+
+        for (int shardId = 0; shardId < shardCount; shardId++) {
+            int shardFirst = shardId * rowsPerShard;
+            int shardLast = Math.min(rowCount, shardFirst + rowsPerShard);
+            int rowsInShard = shardLast - shardFirst;
+            if (rowsInShard <= 0) continue;
+
+            MemorySegment backing = (dtype == F16) ? f32Cache : shardMapper.shard(shardId);
+
+            for (int startInShard = 0; startInShard < rowsInShard; startInShard += rowsPerSpan) {
+                int take = Math.min(rowsPerSpan, rowsInShard - startInShard);
+                int startGlobal = shardFirst + startInShard;
+
+                long baseOffset;
+                if (dtype == F16) {
+                    baseOffset = (long) startGlobal * rowStrideF32;
+                } else {
+                    int idx0 = layout.indexInShard(startGlobal);
+                    baseOffset = (long) idx0 * layout.rowBytes();
+                }
+
+                spans.add(new Span(
+                        shardId,
+                        startGlobal,
+                        startInShard,
+                        take,
+                        dim,
+                        strideBytes,
+                        backing,
+                        baseOffset));
+            }
+        }
+        return spans;
+    }
+
+    /** Heuristic suggestion for rows per span based on an approximate L2 cache budget. */
+    public int suggestRowsPerSpanKiB(int l2KiB) {
+        if (l2KiB <= 0) throw new IllegalArgumentException("l2KiB must be positive");
+        long budgetBytes = (long) l2KiB * 1024L;
+        long stride = Math.max(1, rowStrideF32);
+        long estimate = Math.max(1L, budgetBytes / stride);
+        long clamped = Math.max(4L, Math.min(estimate, 64_000L));
+        return (int) Math.min(Integer.MAX_VALUE, clamped);
     }
 
     private void validateShards(VectorLayout layout, int rowCount) {
